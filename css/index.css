@@ -26,12 +26,13 @@ html,body,div,form,a,img,h3,h2,h1,h4,input,button,ul,li,p,table,td,th,caption,ol
 	margin: 0px;
 }
 body{
-	max-width: 7.5rem;
+	/*max-width: 7.5rem;*/
 	margin: 0px;
 	padding: 0px;
 	margin: 0 auto;
 	font-family: "微软雅黑",arial;
-	
+	padding-top: 0.96rem;
+	background: #f2f2f2;
 }
 li{
 	list-style: none;
@@ -47,7 +48,11 @@ a{
 	padding-top: 0.2rem;
 	box-sizing: border-box;
 	overflow: hidden;
-	display: flex;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #fff;
+	z-index: 100;
 }
 #header .search {
 	width: 6.9rem;
@@ -153,14 +158,14 @@ a{
 	height: 3.1rem;
 	margin: 0 auto;
 	position: relative;
-	background: pink;
 	text-align: center;
+	cursor: pointer;
 }
 #container .silder .slider_box{
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 6.9rem;
+	width: 100%;
 	height: 3.1rem;
 }
 #container .silder .slider_box img{
@@ -175,11 +180,11 @@ a{
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 6.9rem;
-	height: 3.1rem;
+	display: none;
 }
 #container .silder .slider_box .show{
 	z-index: 1;
+	display: block;
 }
 #container .silder .btn{
 	display: inline-block;
@@ -192,11 +197,15 @@ a{
 	width: 0.21rem;
 	height: 0.21rem;
 	margin: 0 0.1rem;
-	background: url(../image/slider2.png) no-repeat 50% 50%;
+	background-image: url(../image/slider2.png);
+	background-repeat: no-repeat;
+	background-position:50% 50%;
 	background-size: 0.13rem;
 }
 #container .silder .btn .active{
-	background: url(../image/slider.png) no-repeat;
+	background-image: url(../image/slider.png);
+	background-repeat: no-repeat;
+	background-position:50% 50%;
 	background-size: 0.21rem;
 }
 
@@ -449,9 +458,21 @@ a{
 	top: 1.45rem;
 	font-size: 0.2rem;
 	font-style: normal;
+	color: #fff;
+	font-weight: 500;
+	font-family: "宋体";
+	letter-spacing: 0.02rem;
 }
 #container5 .silder5 .box .line_box .list1 i{
-	background-image:url(../image/index.png) no-repeat;
+	background:url(../image/in.png) no-repeat;
+	background-size: 0.72rem 0.35rem;
+}
+#container5 .silder5 .box .line_box .list2 i{
+	background:url(../image/bg11.png) no-repeat;
+	background-size: 0.72rem 0.35rem;
+}
+#container5 .silder5 .box .line_box .list3 i{
+	background:url(../image/bg24.png) no-repeat;
 	background-size: 0.72rem 0.35rem;
 }
 
@@ -678,6 +699,7 @@ a{
 	width: 100%;
 	height: 14.52rem;
 	margin: 0 auto;
+	margin-bottom: 0.95rem;
 }
 #container10>div{
 	width: 6.9rem;
@@ -728,6 +750,10 @@ a{
 	width: 100%;
 	height: 0.93rem;
 	margin: 0 auto;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	background: #fff;
 }
 #container11 .silder11{
 	width: 6.9rem;
