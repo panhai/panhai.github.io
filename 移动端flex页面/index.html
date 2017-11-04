@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+		<title>广州俊才教育</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	</head>
+	<body>
+		<div id="index">
+			<div class="header">
+				<div class="left">
+					<a href="javascript:;"><img src="img/hex20.jpg"/></a>
+					<span>广州俊才教育</span>
+				</div>
+				<div class="right">
+					<p class="tel">免费咨询热线</p>
+					<p class="num">123-456-7890</p>
+				</div>
+			</div>
+			<div class="bg">
+				<a href="javascript:;"><img src="img/hex3.jpg"/></a>
+			</div>
+			<div class="kaoshi">
+				<span>考试报名</span>
+			</div>
+			<div class="inp">
+				<form action="http://www.baidu.com" method="get">
+					<p class="student">
+						<span>学生姓名:</span>
+						<input type="text" name="username" id="username" value="" required/>
+					</p>
+					<hr />
+					<p class="student pho">
+						<span>手&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;机:</span>
+						<input type="text" name="userphone" id="userphone" value="" required/>
+					</p>
+					<hr />
+					<p class="student study">
+						<span>在读学校:</span>
+						<input type="text" name="studyName" id="studyName" value="" required/>
+					</p>
+					<hr />
+					<p class="student grade">
+						<span>年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;级:</span>
+						<input type="radio" name="grade" id="" value="五年级上" class="rad" checked="checked">
+						<span class="grade-span">五年级上</span>
+						<input type="radio" name="grade" id="" value="五年级下" class="rad">
+						<span class="grade-span">五年级下</span>
+						<input type="radio" name="grade" id="" value="六年级上" class="rad">
+						<span class="grade-span">六年级上</span>
+					</p>
+					<hr />
+					<input type="submit" value="提交" class="btn">
+					<input type="submit" value="确认提交" class="btn2" disabled>
+				</form>
+			</div>
+			
+		</div>
+		
+		<script src="js/jquery1.12.4.min.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				var count = 0;
+				if(count) {
+					$('.btn2').prop('disabled',true);
+				}else{
+					$('.btn2').prop('disabled',false);
+				}
+				$('.btn').click(function(){
+					var data1 = $('#userphone').val().trim();
+					var data2 = $('#username').val().trim();
+					var data3 = $('#studyName').val().trim();
+					
+					if(data1==''||data2==''||data3==''){
+						if(data1==''){
+							alert('手机项没能填写')
+						}
+						if(data2==''){
+							alert('请填好用户名')
+						}
+						if(data3==''){
+							alert('请填写学校')
+						}
+						count++;
+						return false;
+					}
+					alert('报名填写完成，请确认提交');
+					$(this).prop('disabled',false)
+					return false;
+				})
+				
+			})
+		</script>
+	</body>
+</html>

@@ -1,0 +1,159 @@
+
+html,body,div,form,a,img,h3,h2,h1,h4,input,button,ul,li,p,table,td,th,caption,ol,select,textarea{
+	padding: 0px;
+	margin: 0px;
+}
+html {
+	font-size: 100px;
+}
+body{
+	max-width: 7.5rem;
+	min-width: 2.9rem;
+	margin: 0px;
+	padding: 0px;
+	margin: 0 auto;
+	font-family: "微软雅黑",arial;
+	background: #EEF3FA;
+}
+
+#index {
+	width: 100%;
+	background: #EEF3FA;
+	box-sizing: border-box;
+	display: flex;
+	display: -webkit-flex;
+	flex-direction:column;
+}
+
+.header {
+	display: flex;
+	display: -webkit-flex;
+	flex-direction:row;
+	color: #166DA7;
+	padding: 0.15rem 0.16rem;
+	background: #fff;
+}
+.header>div {
+	width: 50%;
+	display: flex;
+	display: -webkit-flex;
+}
+.header .left {
+	align-items:center;
+	flex-direction: row;
+	font-size: 0.23rem;
+}
+.header .left img{
+	width: 0.4rem;
+}
+.header .left img,.header .left span{
+	vertical-align: middle;
+}
+.header .left span{
+	margin-left: 0.1rem;
+}
+.header .right {
+	flex-direction: column;
+	align-content: center;
+	letter-spacing: 0.02rem;
+}
+.header .right p{
+	display: flex;
+	display: -webkit-flex;
+	justify-content:flex-end;
+}
+.header .right .tel {
+	font-size: 0.14rem;
+}
+.header .right .num {
+	font-size: 0.2rem;
+}
+
+.bg {
+	height: 1.2rem;
+}
+.bg img {
+	width: 100%;
+}
+.kaoshi {
+	height: 2.2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #FFFFFF;
+}
+.kaoshi  span{
+	font-size: 0.7rem;
+}
+
+
+.inp form {
+	width: 100%;
+	margin-top: 0.04rem;
+	background: #FFFFFF;
+	padding: 0 0.2rem;
+	box-sizing: border-box;
+	padding-bottom: 0.9rem;
+}
+.inp .student{
+	display: flex;
+	align-items: center;
+	font-size: 0.4rem;
+	padding: 0.4rem 0;
+}
+.inp .student input {
+	height: 0.48rem;
+	width:5rem;
+	margin-left:0.1rem;
+	text-indent: 0.05rem;
+	outline: none;
+	font-size: 0.16rem;
+	border: none;
+}
+.inp .student input,.inp .student span{
+	vertical-align: center;
+}
+hr {
+	height: 0.01rem;
+	margin: 0rem;
+	background: #EEF3FA;
+}
+.inp .student span{
+	display: block;
+	width: 1.69rem;
+	font-size: 0.3rem;
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-around;
+}
+.inp .student .rad {
+	width: 0.4rem;
+}
+.inp .student .grade-span {
+	display: inline;
+	margin-left: 0.1rem;
+}
+.inp .btn {
+	display: block;
+	width: 90%;
+	height: 0.9rem;
+	margin: 0 auto;
+	border: none;
+	margin-top: 0.6rem;
+	border-radius: 0.07rem;
+	font-size: 0.5rem;
+	color: #FFFFFF;
+	background-color: #EDC700;
+}
+.inp .btn2 {
+	display: block;
+	width: 90%;
+	height: 0.9rem;
+	margin: 0 auto;
+	border: none;
+	margin-top: 0.6rem;
+	border-radius: 0.07rem;
+	font-size: 0.5rem;
+	color: #FFFFFF;
+	background-color:#1AD29E;
+}
