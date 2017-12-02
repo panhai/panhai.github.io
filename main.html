@@ -15,33 +15,45 @@
 		
 		
 		<style type="text/css">
+			html{
+				font-size: 100px;
+			}
 			body {
 				background-image: url(static/t01c850adae7a8349d3.jpg);
 				background-position: top;
 				background-size: cover;
 				background-repeat: no-repeat;
+				font-size: 0.14rem;
+				max-width: 10rem;
+				margin: 0 auto;
+				
 			}
 			
 			li{
 				list-style: none;
 				float: left;
-				padding: 10px;
-				margin: 10px;
+				margin: 0.1rem;
 				background-color: goldenrod;
 				cursor: pointer;
-				min-width: 80px;
+				min-width: 0.80rem;
 				text-align: center;
 			}
 			a{
 				text-decoration: none;
-				font-size: 30px;
+				font-size: 0.30rem;
 				color: #FFFFFF;
 			}
 			.title {
 				width: 100%;
 				text-align: center;
-				letter-spacing: 3px;
-				margin-bottom: 20px;
+				letter-spacing: 0.03rem;
+				margin-bottom: 0.20rem;
+			}
+			.title h1{
+				font-size: 0.4rem;
+			}
+			.list li a{
+				font-size: 0.2rem;
 			}
 		</style>
 	</head>
@@ -51,7 +63,7 @@
 			<div class="row title">
 				<h1 class="text-primary">我的项目管理</h1>
 			</div>
-			<ul>
+			<ul class="list">
 				<li class="btn btn-danger"><a href="JD/project2/JDindex.html">京东页面</a></li>
 				<li class="btn btn-warning"><a href="Phone/project1/index.html">手机商城</a></li>
 				<li class="btn btn-warning"><a href="1000Zhu/project4/qz.html">css3页面</a></li>
@@ -63,5 +75,26 @@
 				<li class="btn btn-warning"><a href="FlexProject/index.html">移动端flex布局页面</a></li>
 			</ul>
 		</div>
+		
+		
+		<script>
+			function change () {
+				var designWidth = 1000, rem2px = 100;
+				if(window.innerWidth >= 1000){
+					document.documentElement.style.fontSize = 100 + 'px';
+				}else {
+					document.documentElement.style.fontSize = (window.innerWidth / designWidth) * rem2px + 'px';
+					}
+				};
+				
+				/*页面刷新时执行函数*/
+				change ();
+				
+				/*屏幕尺寸改变时执行*/
+				window.onresize = function () {
+					change ();
+				}
+
+		</script>
 	</body>
 </html>
