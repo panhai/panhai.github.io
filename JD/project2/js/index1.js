@@ -1,4 +1,4 @@
-window.onload = function (){
+﻿window.onload = function (){
 	/*
 	 * 1头部删删除
 	 * 2轮播图
@@ -23,7 +23,7 @@ window.onload = function (){
 	var timer = 0;
 	var nNow = 0;
 	var timer2 = 0;
-	var timer3 = 0;//京东定时器
+	var timer3 = 0;//京东定时器1
 	
 	var oHide = document.getElementById('hideh');
 	
