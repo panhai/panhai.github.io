@@ -1,3 +1,12 @@
+
+* {
+	padding: 0;
+	margin: 0;
+}
+html,body {
+	width: 100%;
+	height: 100%;
+}
 body{
 	padding-top: 50px;
 	background-image: url(../static/t01ba60ce9ed0732807.jpg);
@@ -10,6 +19,10 @@ body{
 	text-align: center;
 	font-size: 50px;
 	font-weight: bolder;
+}
+label {
+	text-align: center;
+	line-height: 50px;
 }
 .inp {
 	font-size: 20px;
