@@ -1,0 +1,15 @@
+(function(){
+	console.log(2222)
+	$.ajax({
+		type:"GET",
+		url:"data.json",
+		async:true,
+		dataType:'json',
+		success:function(data){
+			console.log(data)
+		},
+		eror:function(){
+			console.log('加载失败')
+		}
+	});
+})()
