@@ -1,0 +1,16 @@
+#heade{height: 90px;}
+.heade{width: 1200px;margin: 0 auto;height:90px}
+.heade img{margin-top: 13px;}
+#content{width: 100%;height: 600px;background: url(../img/bgbgbg_02.png) no-repeat center center;background-size: cover; }
+.main{width: 1200px;height: 600px;margin: 0 auto;position: relative;}
+#foote{height: 197px;background-color:#fff}
+#foote p{color: #333;width: 1200px;height: 30px;line-height: 30px;margin: 0 auto;text-align: center;padding-top: 43px;}
+.WxBox{position: absolute;right: 0px;top: 40px;width: 460px;height:520px;background-color: #fff}
+.WxBox h2{font-size: 24px;text-align: center;padding-top: 35px;color: #333333;}
+.WxBox img{display: block;margin: 0 auto;margin-top: 50px;}
+.WxBox p{text-align: center;font-size: 16px;color: #333333;margin-top: 14px;}
+.WxBox .go{width: 168px;margin: 0 auto;text-align: center;margin-top: 58px;}
+.WxBox .go a{display: inline-block;color: #333333;height: 20px;line-height:20px;width: 67px;text-align: center;border-bottom: 1px solid #999;}
+.WxBox .go a:hover{border-bottom: 1px solid #ED4141;color: #ED4141;}
+.WxBox .go a.dl{margin-right: 25px;}
+input:focus{border: 1px solid #1EACF5;}

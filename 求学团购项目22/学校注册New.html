@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<!-- 让IE浏览器使用最新引擎渲染网页，同时禁止IE的兼容模式 -->
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<!--极速模式优先-->
+		<meta name="" "renderer" content="webkit">
+		<title>学校注册</title>
+		<link rel="stylesheet" type="text/css" href="plugin/layer/theme/default/layer.css" />
+		<link rel="stylesheet" type="text/css" href="plugin/font-awesome-4.7.0/css/font-awesome.css" />
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/tearchNew.css" />
+	</head>
+		
+	<body>
+		<!--头部-->
+		<div id="header">
+			<div class="header clearfix">
+				<div class="left fl">
+					<img src="img/logo.png" />
+					<span class="red">欢迎注册</span>
+				</div>
+				<div class="right fr">
+					<span>已有帐号？</span>
+					<a href="" target="_blank">立即登录</a>
+				</div>
+			</div>
+		</div>
+		<!--注册框-->
+		<!--步骤1-->
+		<div class="box" id="register">
+			<!--右侧导航-->
+			<div class="nav">
+				<img src="img/step1.png" class="step"/>
+			</div>
+			<!--跳过认证 前往学校中心-->
+			<a href="" target="_blank">
+				<div class="goover">
+					<img src="img/tiaoguo.png"/>
+				</div>
+			</a>
+			<!--tab-->
+			<div class="box-tab clearfix">
+				<a href="" class="">学生用户注册</a>
+				<a href="" class="acitve">学校用户注册</a>
+			</div>
+			<!--步骤1-->
+			<div class="step1">
+				<form action="" method="post" class="form1">
+					<div class="a clearfix">
+						<div class="fl a-left"><span>会员登录名：</span></div>
+						<div class="fl a-right">
+							<div class="msg">
+								<img src="img/zq.png"/>
+								<span>请输入4-20位字母及数字组合字符</span>
+							</div>
+							<input type="text" name="" class="memberName need" value="" placeholder="请输入4-20位字母及数字组合字符的会员登录名" />
+						</div>
+					</div>
+					<div class="a clearfix">
+						<div class="fl a-left"><span>登录密码 ：</span></div>
+						<div class="fl a-right">
+							<div class="msg">
+								<img src="img/zq.png"/>
+								<span></span>
+							</div>
+							<img src="img/yj.png" class="yj"/>
+							<input type="password" class="password need" name="" value="" placeholder="请输入6-20位字符密码"  />
+						</div>
+					</div>
+					<div class="a clearfix">
+						<div class="fl a-left"><span>昵称：</span></div>
+						<div class="fl a-right">
+							<div class="msg">
+								<img src="img/zq.png"/>
+								<span></span>
+							</div>
+							<span class="gai">修改</span>
+							<input type="text" name="" disabled="disabled" class="nicheng need" value="神秘之人" />
+						</div>
+					</div>
+					<div class="a clearfix">
+						<div class="fl a-left"><span>手机号码：</span></div>
+						<div class="fl a-right">
+							<div class="msg">
+								<img src="img/zq.png"/>
+								<span>手机号已注册，请更换，或<a href=""target="_blank" class="goin">立即登录</a></span>
+							</div>
+							<input type="text" name="" class="phone need"  value=""  placeholder="请输入11位手机号码" />
+						</div>
+					</div>
+					<div class="a clearfix">
+						<div class="fl a-left"><span>图片验证码：</span></div>
+						<div class="fl a-right">
+							<div class="msg">
+								<img src="img/zq.png"/>
+								<span></span>
+							</div>
+							<input type="text" name="" class="imgMa need fl"  value=""  placeholder="请输入图片验证码" />
+							<div class="imgboxs fr"><img src="img/zym.jpg"/></div>
+						</div>
+						
+					</div>
+					<div class="a clearfix">
+						<div class="fl a-left"><span>手机验证码：</span></div>
+						<div class="fl a-right">
+							<div class="msg">
+								<img src="img/zq.png"/>
+								<span></span>
+							</div>
+							<a class="getMa">获取验证码</a>
+							<input type="text" name="" class="phoneM need"  value=""  placeholder="请输入手机验证码" />
+						</div>
+					</div>
+					<div class="a clearfix">
+						<div class="fl a-left"><span></span></div>
+						<div class="fl a-right">
+							<button type="button" class="submit">下一步</button>
+						</div>
+					</div>
+					<div class="a f clearfix">
+						<div class="fl a-left"><span></span></div>
+						<div class="fl a-right">
+							<input type="checkbox" checked="checked" name="" class="checkbox" value="" />
+							<span>我已阅读并同意</span>
+							<a href="" class="xy">《求学团购注册协议》</a>
+						</div>
+					</div>
+				</form>
+			</div>
+			<!--步骤2-->
+			<div class="step2">
+				<form action="" method="post" class="form2">
+					<div class="b clearfix">
+						<div class="fl b-left"><span>真实姓名：</span></div>
+						<div class="fl b-right">
+							<div class="msg2">
+								<img src="img/zq.png"/>
+								<span>请输入4-20字的中文字符</span>
+							</div>
+							<input type="text" name="" class="RealName need2" value="" placeholder="请输入您的真实姓名" />
+						</div>
+					</div>
+					<div class="b clearfix">
+						<div class="fl b-left"><span>性别：</span></div>
+						<div class="fl radio b-right">
+							<div class="msg2">
+								<img src="img/zq.png"/>
+								<span></span>
+							</div>
+							<input type="radio" checked="checked" name="sex" value="男" />
+							<span style="margin-right: 52px;">男</span>
+							<input type="radio" name="sex" value="女" />
+							<span>女</span>
+						</div>
+					</div>
+					<div class="b clearfix">
+						<div class="fl b-left"><span>电子邮箱：</span></div>
+						<div class="fl b-right">
+							<div class="msg2">
+								<img src="img/zq.png"/>
+								<span></span>
+							</div>
+							<input type="text" name="" class="email need2" value="" placeholder="请输入您的电子邮箱" />
+						</div>
+					</div>
+					<div class="b clearfix">
+						<div class="fl b-left"><span>QQ号码：</span></div>
+						<div class="fl b-right">
+							<div class="msg2">
+								<img src="img/zq.png"/>
+								<span></span>
+							</div>
+							<input type="text" name="" class="qq need2" value="" placeholder="请输入您的QQ号码" />
+						</div>
+					</div>
+					<div class="b clearfix">
+						<div class="fl b-left"><span>所在地址：</span></div>
+						<div class="fl b-right">
+							<div class="msg2">
+								<img src="img/zq.png"/>
+								<span></span>
+							</div>
+							<select name="sheng" class="sheng">
+								<option value="">选择省份</option>
+								<option value="广东省">广东省</option>
+							</select>
+							<select name="city" class="city">
+								<option value="">选择市/区</option>
+								<option value="广州市">广州市</option>
+							</select>
+						</div>
+					</div>
+					<div class="b clearfix">
+						<div class="fl b-left"><span>详情地址：</span></div>
+						<div class="fl b-right">
+							<div class="msg2">
+								<img src="img/zq.png"/>
+								<span></span>
+							</div>
+							<input type="text" name="" class="address need2 need2" value="" placeholder="请输入您的详细地址" />
+							
+						</div>
+					</div>
+					<div class="b clearfix">
+						<div class="fl b-left"><span></span></div>
+						<div class="fl b-right">
+							<button type="button" class="submit2">注册成功 前往认证</button>
+						</div>
+					</div>
+					<div class="b b-checkbox2 clearfix">
+						<div class="fl b-left"><span></span></div>
+						<div class="fl b-right">
+							<input type="checkbox" checked="checked" name="" class="checkbox2" value="" />
+							<span>我已阅读并同意</span>
+							<a href="" class="xy">《求学团购注册协议》</a>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+		<!--步骤3-->
+		<div class="step3 step3-a">
+			<form action="" method="post" class="form3 form3-a" enctype="multipart/form-data">
+				<div class="content-box1">
+					<div class="content-main">
+						<div class="content-main-c first clearfix">
+							<div class="main-c-left fl">
+								<h2 class="l">个人身份认证</h2>
+								<span>经营者姓名	:</span>
+							</div>
+							<div class="main-c-right fl">
+								<input type="text" name="" class="username need3 inp1" value="" placeholder="请输入经营者姓名" />
+							</div>
+						</div>
+						<div class="content-main-c clearfix">
+							<div class="main-c-left fl">
+								<span>身份证号  ：</span>
+							</div>
+							<div class="main-c-right fl">
+								<input type="text" name="" class="certificate need3 inp1" value="" placeholder="请输入身份证号" />
+							</div>
+						</div>
+						<div class="content-main-c main2 clearfix">
+							<div class="main-c-left fl">
+								<span>身份证正面 :</span>
+							</div>
+							<div class="main-c-right clearfix fl">
+								<div class="jia">
+									<img src="img/jia2_03.jpg"/>
+									<input type="file" name="" class="file1 file-a" accept="image/jpg,image/jpeg,image/png,image/bmp" title="请上传图片" value="" />
+								</div>
+								<div class="imgbox">
+									<span class='display'>示例</span>
+									<img src="img/tc1.png"/>
+								</div>
+							</div>
+						</div>
+						<div class="content-main-c main2 clearfix">
+							<div class="main-c-left fl">
+								<span>身份证反面 :</span>
+							</div>
+							<div class="main-c-right clearfix fl">
+								<div class="jia">
+									<img src="img/jia2_03.jpg"/>
+									<input type="file" name="" class="file1 file-b" accept="image/jpg,image/jpeg,image/png,image/bmp" title="请上传图片" value="" />
+								</div>
+								<div class="imgbox">
+									<span class='display'>示例</span>
+									<img src="img/tc2.png"/>
+								</div>
+							</div>
+						</div>
+						<div class="content-main-c main3 clearfix">
+							<div class="main-c-left fl">
+								<span>手持身份证 :</span>
+							</div>
+							<div class="main-c-right main3 clearfix fl">
+								<div class="jia">
+									<img src="img/jia2_03.jpg"/>
+									<input type="file" name="" class="file1 file-c" accept="image/jpg,image/jpeg,image/png,image/bmp" title="请上传图片" value="" />
+								</div>
+								<div class="imgbox">
+									<span class='display'>示例</span>
+									<img src="img/tc3.png"/>
+								</div>
+								<div style="clear: both;"></div>
+								<div class="tmsg">
+									<p>注意：为了保护商家隐私，示例对敏感信息做了模糊处理，</p>
+									<p>请在您上传的图片里保证内容清晰可见，不做任何处理</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="content-box1">
+					<div class="content-main">
+						<div class="content-main-c first clearfix">
+							<div class="main-c-left fl">
+								<h2 class="l">学校认证信息</h2>
+								<span>学校/机构名 :</span>
+							</div>
+							<div class="main-c-right fl">
+								<input type="text" name="" class="school need3 inp1" value="" placeholder="请输入学校/机构名"/>
+							</div>
+						</div>
+						<div class="content-main-c clearfix">
+							<div class="main-c-left fl">
+								<span>证件类型  ：</span>
+							</div>
+							<div class="main-c-right radios fl">
+								<input type="radio" name="lei" checked="checked" class="shop" value="营业执照" />
+								<span style="margin-right: 28px;">营业执照</span>
+								<input type="radio" name="lei" class="study" value="办学许可证" />
+								<span>办学许可证</span>
+							</div>
+						</div>
+						<div class="content-main-c clearfix">
+							<div class="main-c-left fl">
+								<span>营业执照类型  :</span>
+							</div>
+							<div class="main-c-right fl">
+								<input type="radio" name="lei2" checked="checked" class="" value="企业法人 " />
+								<span style="margin-right: 28px;">企业法人 </span>
+								<input type="radio" name="lei2" class="" value="个体工商户" />
+								<span>个体工商户</span>
+							</div>
+						</div>
+						<div class="content-main-c first clearfix">
+							<div class="main-c-left fl">
+								<span>证件号码  ：</span>
+							</div>
+							<div class="main-c-right fl">
+								<input type="text" name="" class="nums need3 inp1" value="" placeholder="请输入营业执照证件号"/>
+							</div>
+						</div>
+						<div class="content-main-c main3 clearfix">
+							<div class="main-c-left fl">
+								<span>营业执照  ：</span>
+							</div>
+							<div class="main-c-right main3 clearfix fl">
+								<div class="item-box1">
+									<div class="jia">
+										<img src="img/jia2_03.jpg"/>
+										<input type="file" name="" class="file1 zhizhao" accept="image/jpg,image/jpeg,image/png,image/bmp" title="请上传图片" value="" />
+									</div>
+									<div class="imgbox imgbox2">
+										<span class='display'>示例</span>
+										<img src="img/tc4.png"/>
+									</div>
+								</div>
+								<div style="clear: both;"></div>
+								<div class="tmsg">
+									<p>注意：为了保护商家隐私，示例对敏感信息做了模糊处理，</p>
+									<p>请在您上传的图片里保证内容清晰可见，不做任何处理</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="content-box1 content-box3">
+					<div class="content-main">
+						<div class="content-main-c first clearfix">
+							<div class="main-c-left fl">
+								<h2 class="l">上传合同</h2>
+							</div>
+							<div class="main-c-right clearfix fl">
+								<button class="download fl" type="button">点击下载pdf合同</button>
+								<div class="upload fl">
+									<span>点击上传合同</span>
+									<input type="file" id="fileA" name="" class="upload" multiple="multiple" accept="image/jpg,image/jpeg,image/png,image/bmp" title="请上传图片" value="" />
+								</div>
+							</div>
+						</div>
+						<div class="content-main-c main4 clearfix">
+							<div class="main-c-left fl">
+							</div>
+							<div class="main-c-right main3 clearfix fl">
+								<div class="imgdisplay clearfix">
+									<div class="item-boxA">
+										<div class="item">
+											<img src="img/tc5.png"/>
+											<span class="delete">删除</span>
+										</div>
+										<div class="item">
+											<img src="img/tc5.png"/>
+											<span class="delete">删除</span>
+										</div>
+									</div>
+								</div>
+								<div style="clear: both;"></div>
+								<div class="tmsg tmsg2">
+									<p>注意：手写签署盖章后，上传合同扫描件照片</p>
+								</div>
+							</div>
+						</div>
+						<div class="content-main-c last clearfix">
+							<div class="main-c-left fl">
+							</div>
+							<div class="main-c-right clearfix fl">
+								<button type="button" class="submit3">提交审核</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+		<div class="step3 step3-b">
+			<form action="" method="post" class="form3 form3-b" enctype="multipart/form-data">
+				<div class="content-box1">
+					<div class="content-main">
+						<div class="content-main-c first clearfix">
+							<div class="main-c-left fl">
+								<h2 class="l">个人身份认证</h2>
+								<span>经营者姓名	:</span>
+							</div>
+							<div class="main-c-right fl">
+								<input type="text" name="" class="username  need3 inp1" value="" placeholder="请输入经营者姓名" />
+							</div>
+						</div>
+						<div class="content-main-c clearfix">
+							<div class="main-c-left fl">
+								<span>身份证号  ：</span>
+							</div>
+							<div class="main-c-right fl">
+								<input type="text" name="" class="certificate  need3 inp1" value="" placeholder="请输入身份证号" />
+							</div>
+						</div>
+						<div class="content-main-c main2 clearfix">
+							<div class="main-c-left fl">
+								<span>身份证正面 :</span>
+							</div>
+							<div class="main-c-right clearfix fl">
+								<div class="jia">
+									<img src="img/jia2_03.jpg"/>
+									<input type="file" name="" class="file1 file-a" accept="image/jpg,image/jpeg,image/png,image/bmp" title="请上传图片" value="" />
+								</div>
+								<div class="imgbox">
+									<span class='display'>示例</span>
+									<img src="img/tc1.png"/>
+								</div>
+							</div>
+						</div>
+						<div class="content-main-c main2 clearfix">
+							<div class="main-c-left fl">
+								<span>身份证反面 :</span>
+							</div>
+							<div class="main-c-right clearfix fl">
+								<div class="jia">
+									<img src="img/jia2_03.jpg"/>
+									<input type="file" name="" class="file1 file-b" accept="image/jpg,image/jpeg,image/png,image/bmp" title="请上传图片" value="" />
+								</div>
+								<div class="imgbox">
+									<span class='display'>示例</span>
+									<img src="img/tc2.png"/>
+								</div>
+							</div>
+						</div>
+						<div class="content-main-c main3 clearfix">
+							<div class="main-c-left fl">
+								<span>手持身份证 :</span>
+							</div>
+							<div class="main-c-right main3 clearfix fl">
+								<div class="jia">
+									<img src="img/jia2_03.jpg"/>
+									<input type="file" name="" class="file1 file-c" accept="image/jpg,image/jpeg,image/png,image/bmp" title="请上传图片" value="" />
+								</div>
+								<div class="imgbox">
+									<span class='display'>示例</span>
+									<img src="img/tc3.png"/>
+								</div>
+								<div style="clear: both;"></div>
+								<div class="tmsg">
+									<p>注意：为了保护商家隐私，示例对敏感信息做了模糊处理，</p>
+									<p>请在您上传的图片里保证内容清晰可见，不做任何处理</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="content-box1">
+					<div class="content-main">
+						<div class="content-main-c first clearfix">
+							<div class="main-c-left fl">
+								<h2 class="l">学校认证信息</h2>
+								<span>学校/机构名 :</span>
+							</div>
+							<div class="main-c-right fl">
+								<input type="text" name="" class="school need3 inp1" value="" placeholder="请输入学校/机构名"/>
+							</div>
+						</div>
+						<div class="content-main-c clearfix">
+							<div class="main-c-left fl">
+								<span>证件类型  ：</span>
+							</div>
+							<div class="main-c-right fl">
+								<input type="radio" name="lei2"class="shop" value="营业执照" />
+								<span style="margin-right: 28px;">营业执照</span>
+								<input type="radio" name="lei2" checked="checked"  class="study" value="办学许可证" />
+								<span>办学许可证</span>
+							</div>
+						</div>
+						<div class="content-main-c first clearfix">
+							<div class="main-c-left fl">
+								<span>证件号码  ：</span>
+							</div>
+							<div class="main-c-right fl">
+								<input type="text" name="" class="nums need3 inp1" value="" placeholder="请输入营业执照证件号"/>
+							</div>
+						</div>
+						<div class="content-main-c main3 clearfix">
+							<div class="main-c-left fl">
+								<span>办学许可证  ：</span>
+							</div>
+							<div class="main-c-right main3 clearfix fl">
+								<div class="jia">
+									<img src="img/jia2_03.jpg"/>
+									<input type="file" name="" class="file1 zhizhao" accept="image/jpg,image/jpeg,image/png,image/bmp" title="请上传图片" value="" />
+								</div>
+								<div class="imgbox imgbox2">
+									<span class='display'>示例</span>
+									<img src="img/tc6.png"/>
+								</div>
+								<div style="clear: both;"></div>
+								<div class="tmsg">
+									<p>注意：为了保护商家隐私，示例对敏感信息做了模糊处理，</p>
+									<p>请在您上传的图片里保证内容清晰可见，不做任何处理</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="content-box1 content-box3">
+					<div class="content-main">
+						<div class="content-main-c first clearfix">
+							<div class="main-c-left fl">
+								<h2 class="l">上传合同</h2>
+							</div>
+							<div class="main-c-right clearfix fl">
+								<button class="download fl" type="button">点击下载pdf合同</button>
+								<div class="upload fl">
+									<span>点击上传合同</span>
+									<input type="file" id="fileB" name="" class="upload" multiple="multiple" accept="image/jpg,image/jpeg,image/png,image/bmp" title="请上传图片" value="" />
+								</div>
+							</div>
+						</div>
+						<div class="content-main-c main4 clearfix">
+							<div class="main-c-left fl">
+							</div>
+							<div class="main-c-right main3 clearfix fl">
+								<!--左右按钮-->
+								<div class="prev"><img src="img/prevs2.png"/></div>
+								<div class="next"><img src="img/nexts2.png"/></div>
+								<div class="imgdisplay imgdisplay2 clearfix">
+									<div class="item-boxB">
+										<div class="item">
+											<img src="img/tc5.png"/>
+											<span class="delete">删除</span>
+										</div>
+										<div class="item">
+											<img src="img/tc5.png"/>
+											<span class="delete">删除</span>
+										</div>
+										<div class="item">
+											<img src="img/tc5.png"/>
+											<span class="delete">删除</span>
+										</div>
+									</div>
+								</div>
+								<div style="clear: both;"></div>
+								<div class="tmsg tmsg2">
+									<p>注意：手写签署盖章后，上传合同扫描件照片</p>
+								</div>
+							</div>
+						</div>
+						<div class="content-main-c last clearfix">
+							<div class="main-c-left fl">
+							</div>
+							<div class="main-c-right clearfix fl">
+								<button type="button" class="submit4">提交审核</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+		<!--页面尾部-->
+		<div id="footer">
+			<div class="footer">
+				<p>
+					<span>版权所有 CopyRight 2008-2015 粤ICP备14009694号 www.studyems.com, Inc. All Rights Reserved</span>
+				</p>
+			</div>
+		</div>
+		<script type="text/javascript" src="plugin/jquery191.js"></script>
+		<script src="plugin/layer/layer.js"></script>
+		<script type="text/javascript" src="plugin/updata.js"></script>
+		<script type="text/javascript" src="js/teacherNew.js"></script>
+	</body>
+
+</html>

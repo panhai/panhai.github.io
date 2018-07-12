@@ -1,0 +1,121 @@
+blockquote,
+body,
+html,
+button,
+td,
+th,
+dd,
+div,
+dl,
+dt,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+p,
+li,
+ol,
+p,
+pre,
+table,
+td,
+textarea,
+th,
+ul,
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 14px;
+	line-height: 1.428em;
+	font-family: '微软雅黑   Microsoft Yahei';
+	width: 100%;
+}
+
+.clearfix::before,
+.clearfix::after {
+	content: ".";
+	display: block;
+	visibility: hidden;
+	clear: both;
+	height: 0;
+}
+
+* html .clearfix {
+	zoom: 1;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #333333;
+}
+
+img {
+	border: none;
+	display: inline-block;
+}
+
+span,
+a,
+img,
+input,
+select,
+button,
+i,
+select {
+	vertical-align: middle;
+}
+
+input {
+	text-indent: 5px;
+	cursor: pointer;
+	outline: none;
+}
+
+button {
+	border: none;
+	cursor: pointer;
+	outline: none;
+}
+
+select {
+	padding: 6px;
+	outline: none;
+}
+#alert{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000000;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	z-index: 10;
+	display: none;
+}
+/*弹框设置*/
+.layui-layer-btn{text-align: center !important;}

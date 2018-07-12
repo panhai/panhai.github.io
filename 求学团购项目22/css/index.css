@@ -1,0 +1,652 @@
+body {
+	background-color: #F5F5F5;
+}
+#heade,#contain,#foote{
+	width: 100%;
+}
+.h-top-content,.h-logo-content,.h-nav-content,.c-banner-content,
+.c-kan-content,.c-school-content,.c-friendly-content,.c-shop-content,.c-study-content,.c-kan-content,.c-kan-line-content{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.h-top,.h-logo,.h-nav,.c-banner,.c-kan,.c-school,.c-shop,.c-friendly,.c-study,.c-kan-line{
+	width: 100%;
+}
+
+/*头部导航*/
+.h-top{
+	height: 32px;
+	line-height: 32px;
+	background-color: #444444;
+}
+.h-top-content {
+	color: #fff;
+	position: relative;
+}
+.h-top-content a{
+	color: #fff;
+}
+.h-top-content a.go:hover{
+	color: #ed4141;
+	text-decoration: underline;
+}
+.h-top-content ul.h-top-nav {
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 100%;
+	width: 900px;
+}
+.h-top-content ul.h-top-nav li{
+	cursor: pointer;
+	padding: 0px 3px;
+	position: relative;
+}
+.h-top-content ul.h-top-nav li a{
+	margin: 0px 10px;
+}
+.h-top-content ul.h-top-nav span{
+	display: inline-block;
+	margin: 0px 24px;
+}
+ul.h-top-nav div.fix{
+	background-color: #444444;
+	display: none;
+	position: absolute;
+	z-index: 2;
+	top: 34px;
+	left: 0px;
+	padding: 5px 0px;
+	width: 130%;
+}
+
+ul.h-top-nav div.fix div{
+	text-align: center;
+	padding: 5px 10px;
+}
+ul.h-top-nav div.fix div:hover{
+	background-color: #999988;
+}
+ul.h-top-nav div.fix a{
+	padding: 0px;
+	margin: 0px;
+}
+/*logo搜索栏*/
+.h-logo{
+	height: 116px;
+	position: relative;
+	background-color: #FFFFFF;
+}
+.h-logo-left{
+	padding-top: 26px;
+}
+.h-logo-center{
+	position: absolute;
+	top: 15px;
+	left: 332px;
+	width: 554px;
+	height: 96px;
+}
+.search-tab span{
+	display: inline-block;
+	padding: 3px 7px;
+}
+.search-tab span.active{
+	background-color: #ed4141;
+	color: #FFFFFF;
+}
+.search-outer {
+    width: 545px;
+    height: 38px;
+    border: solid 1px #dc201e;
+    clear: both;
+}
+.search-outer input {
+    float: left;
+    width: 430px;
+    height: 36px;
+    line-height: 36px;
+    color: #999;
+    border: none;
+    position: relative;
+    text-indent: 22px;
+}
+.search-img {
+	position: absolute;
+	z-index: 10;
+	left: 4px;
+	top: 37px;
+}
+.search-outer button {
+    float: right;
+    width: 103px;
+    height: 36px;
+    line-height: 36px;
+    background: #dc201e;
+    color: #fff;
+    font-size: 16px;
+}
+.h-logo-center div.tab-item {
+	display: none;
+}
+.h-logo-center div.show{
+	display: block;
+	margin-top: 7px;
+}
+.tab-item a{
+	margin-right: 6px;
+}
+.tab-item a:hover{
+	color: red;
+}
+.h-logo-right {
+	position: absolute;
+	right: 0;
+	top: 40px;
+}
+.h-logo-right ul{
+	width: 300px;
+	height: 66px;
+}
+.h-logo-right ul li{
+	float: right;
+	text-align: center;
+	padding: 0px 5px;
+	margin-left: 10px;
+	height: 66px;
+}
+.h-logo-right ul li>div{
+	width: 42px;
+	height: 42px;
+	line-height: 42px;
+	border-radius: 42px;
+	text-align: center;
+	background-color: #ed4141;
+	display: inline-block;
+	margin-bottom: 7px;
+}
+.h-logo-right ul li>div img{
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+.h-logo-right ul a:hover{
+	color: #ED4141;
+}
+/*banner顶部导航栏*/
+.h-nav{
+	height: 46px;
+	background-color: #ed4141;
+	color: #fff;
+	line-height: 46px;
+	padding: 0px;
+	font-size: 0px;
+}
+.h-nav span,.h-nav a{
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+}
+.h-nav span {
+	width: 224px;
+}
+.h-nav-content a.hove{
+	background-color: #ff5252;
+}
+.h-nav-content a.aimg:hover{
+	background-color: #ed4141;
+}
+.h-nav a.aimg{
+	background: url(../img/kango.jpg) no-repeat;
+}
+.h-nav a.aimg:hover{
+	background: url(../img/kanjia2.jpg) no-repeat;
+}
+.h-nav a {
+	width: 105px;
+	height: 46px;
+	line-height: 46px;
+	padding: 0;
+	margin: 0;
+	font-size: 18px;
+}
+.h-nav a:hover{
+	background-color: #ff5252;
+}
+.h-nav a img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+/* bannner 轮播图 */
+.c-banner-content{
+	height: 380px;
+}
+.c-banner-content .left-nav{
+	width: 200px;
+	height: 380px;
+	background-color: #FFFFFF;
+}
+.c-banner-content .center-swiper{
+	width: 744px;
+	height: 380px;
+	background-color: red;
+	margin-left: 17px;
+}
+.c-banner-content .right-goin{
+	width: 220px;
+	height: 380px;
+	background-color: yellow;
+}
+.aside {
+	padding-top: 10px;
+}
+.aside>li{
+	height: 40px;
+	line-height: 40px;
+	border-left: 4px solid transparent;
+}
+.aside>li img{
+	margin: 0px 10px 0px 25px;
+}
+.aside>li a{
+	font-size: 16px;
+}
+.aside>li a:hover{
+	color: #ED4040;
+}
+.nav-box .aside>li:hover{
+	background-color: #fff;
+}
+.aside>li:hover {
+	background-color: #F5F5F5;
+}
+.aside>li.active{
+	border-left: 4px solid #ED4141;
+}
+.nav-box .aside>li:hover a.nav-a{
+	color: #ED4141;
+}
+
+/*正在砍价栏目*/
+.c-kan-line-content {
+	height: 73px;
+}
+.kanjiaImg {
+	position: absolute;
+	top: 0px;
+	left: -40px;
+}
+/*正在砍价*/
+.c-kan-content{
+	background-color: #FFFFEE;
+	margin-top: 10px;
+	position: relative;
+}
+
+.c-kan-content .box{
+	position: absolute;
+	right: 8px;
+	top: 20px;
+	width: 34px;
+	border: 2px solid #CCCCCC;
+}
+
+.c-kan-content .box .r,.c-kan-content .box .x{
+	width: 30px;
+	padding: 20px 14px 20px 6px;
+	text-align: center;
+	cursor: pointer;
+	transition: all 0.6s;
+}
+.c-kan-content .box .r:hover{
+	background-color: #CCCCCC;
+	color: #fff;
+}
+.c-kan-content .box .x:hover{
+	background-color: #CCCCCC;
+	color: #fff;
+}
+.c-kan-content .box div.active{
+	background-color: #ed4040;
+	color: #fff;
+}
+.c-kan-content .box span{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.c-kan-content-box {
+	width: 100%;
+	padding: 20px 0px 20px 40px;
+}
+ul.c-kan-content-box > li{
+	width: 200px;
+	height: 222px;
+	float: left;
+	margin-right: 20px;
+}
+ul.c-kan-content-box li>a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+ul.c-kan-content-box li div.imgbox{
+	width: 100%;
+	height: 100px;
+	overflow: hidden;
+}
+ul.c-kan-content-box li h3{
+	transition: all 0.5s;
+}
+ul.c-kan-content-box li:hover h3{
+	color: red;
+	
+}
+ul.c-kan-content-box li>a .imgbox img{
+	width: 100%;
+	display: block;
+	transition: all 1s;
+}
+ul.c-kan-content-box li>a .imgbox img:hover {
+	width: 130%;
+}
+ul.c-kan-content-box li>a h3{
+	font-size: 14px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	padding: 15px 0px;
+}
+ul.c-kan-content-box li>a>div.price{
+	height: 48px;
+	width: 100%;
+}
+ul.c-kan-content-box li>a>div.price .left{
+	width: 140px;
+	height: 100%;
+}
+ul.c-kan-content-box li>a>div.price .left p span{
+	margin-right: 10px;
+}
+ul.c-kan-content-box li>a>div.price .left p span.red{
+	color: #ED4141;
+}
+ul.c-kan-content-box li>a>div.price .left .yuan{
+	color: #999988;
+}
+ul.c-kan-content-box li>a>div.price .left .yuan .line{
+	text-decoration: line-through;
+}
+ul.c-kan-content-box li>a>div.price .right{
+	width: 60px;
+	height: 100%;
+	
+}
+ul.c-kan-content-box li>a>div.price .right p span.num{
+	display: inline-block;
+	padding: 2px;
+	color: #fff;
+	background-color: #444;
+	margin-right: 5px;
+}
+ul.c-kan-content-box li>a>div.price p{
+	padding: 2px 0px;
+}
+/*热门学校*/
+
+.tit {
+	height: 69px;
+	line-height: 69px;
+	position: relative;
+}
+.tit div.a{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	padding: 0px 10px;
+}
+.tit div.a i{
+	color: #dbdbdb;
+	font-size: 18px;
+	margin: 10px;
+}
+ul.school-box {
+	width: 100%;
+	background-color: #FFFFFF;
+}
+ul.school-box>li{
+	width: 150px;
+	height: 120px;
+	float: left;
+	position: relative;
+	cursor: pointer;
+}
+
+ul.school-box>li span.sh{
+	display: block;
+	text-align: center;
+	padding: 50px 30px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+ul.school-box>li span.r1{
+	color: #ff1b1b;
+}
+ul.school-box>li .goin{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0px;
+	z-index: 5;
+	background-color: #000000;
+	display: none;
+}
+ul.school-box>li .goin a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+ul.school-box>li .goin p{
+	text-align: center;
+	color: #fff;
+}
+ul.school-box>li .goin p.c{
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	margin: 0 auto;
+	border-radius: 40px;
+	background-color: #ffba00;
+	color: #fff;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 5px;
+}
+ul.school-box>li .goin p span{
+	color: #fff;
+}
+ul.school-box>li .goin p span.nums{
+	color: #ffba00;
+	margin-right: 5px;
+}
+/*高评团购*/
+.tit{
+	position: relative;
+}
+.tit ul.nav-box {
+	position: absolute;
+	top: 0;
+	left: 110px;
+	height: 100%;
+	width: 900px;
+}
+.tit ul.nav-box li{
+	float: left;
+	margin-right: 15px;
+}
+.tit ul.nav-box li a.active{
+	border-color: red;
+}
+.tit ul.nav-box li a.show{
+	color: red;
+}
+.tit ul.nav-box li a{
+	padding: 5px 0px;
+	border-bottom: 2px solid transparent;
+}
+.c-shopping-box .c-shopping-box{
+	width: 100%;
+}
+.c-shopping-box .left{
+	width: 880px;
+	float: left;
+	background-color: #fff;
+}
+.c-shopping-box .left>ul{
+	width: 100%;
+}
+.c-shopping-box .left>ul li{
+	float: left;
+	width: 50%;
+	height: 163px;
+	padding: 20px;
+	cursor: pointer;
+}
+.c-shopping-box .left>ul li div.imgbox{
+	width: 180px;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+}
+.c-shopping-box .left>ul li div.imgbox img{
+	width: 100%;
+	transition: all 0.5s;
+}
+.c-shopping-box .left>ul li div.imgbox img:hover{
+	width: 125%;
+}
+.c-shopping-box .left>ul li div.pinjia{
+	width: 202px;
+	height: 100%;
+	float: right;
+}
+.c-shopping-box .left>ul li div.pinjia h3{
+	height: 59px;
+	border-bottom: 2px dashed #DCDCDC;
+}
+.c-shopping-box .left>ul li div.pinjia h3 p{
+	padding: 2px 0px;
+}
+.c-shopping-box .left>ul li div.pinjia p{
+	white-space: nowrap;
+	padding: 3px 5px;
+}
+.c-shopping-box .left>ul li div.pinjia p.disp{
+	white-space: nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis; 
+}
+
+.c-shopping-box .left>ul li .pinjia h3.active {
+	color: #ed4141;;
+}
+.c-shopping-box .left>ul li .pinjia p.pinkNum{
+	height: 58px;
+	line-height: 58px;
+}
+.c-shopping-box .left>ul li .pinjia p.pinkNum img{
+	width: 20px;
+}
+.c-shopping-box .right{
+	width: 300px;
+	max-height: 489px;
+	float: right;
+	background-color: #fff;
+}
+.c-shopping-box .right h3 {
+	padding: 15px 0px;
+	padding-left: 10px;
+	border-bottom: 1px solid #CCCCCC;
+}
+.c-shopping-box .right h3 p{
+	border-left: 4px solid red;
+	height: 22px;
+	padding-left: 15px;
+}
+ul.cailist{
+	position: relative;
+	width: 100%;
+	padding: 30px 10px 30px 20px;
+}
+ul.cailist li{
+	height: 60px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.cailist-l{
+	width: 96px;
+	height: 60px;
+}
+.cailist-l img{
+	width: 100%;
+}
+.cailist-r{
+	width: 164px;
+	height: 60px;
+}
+.cailist-r h4{
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.cailist-r h4,.cailist-r p{
+	height: 30px;
+	line-height: 30px;
+}
+ul.cailist>a:hover{
+	color: #ED4040;
+}
+/*自学考试*/
+.c-study {
+	
+}
+
+
+
+/*友情链接*/
+
+
+
+
+/*页面尾部*/
+#foote{
+	height: 180px;
+	background-color: #f4f4f8;
+}
+#foote .foote{
+	width: 1200px;
+	margin: 0 auto;
+	height: 180px;
+	text-align: center;
+	padding-top: 53px;
+	color: #34353c;
+}
+#foote .foote>div span,#foote .foote>div a{
+	display: inline-block;
+}
+#foote .foote>div a{
+	padding: 10px 20px;
+}
+.copyright{
+	padding: 16px 0px 0px 0px;
+}
