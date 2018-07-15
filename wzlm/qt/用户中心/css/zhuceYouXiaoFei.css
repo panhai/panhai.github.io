@@ -1,0 +1,115 @@
+.content-list .title-line {
+	position: relative;
+	top: 9px;
+	width: 121px;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 3px solid #3d88ff;
+	font-size: 20px;
+	color: #333333;
+}
+
+.navbox-list {
+	display: block;
+	height: 60px;
+	line-height: 60px;
+}
+
+.navbox-list a {
+	color: #3D88FF;
+	margin-left: 23px;
+}
+
+hr {
+	height: 1px;
+	background-color: #dcdcdc;
+}
+
+.mytable table {
+	table-layout: fixed;
+	width: 100%;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+th {
+	color: #4e4e4e;
+}
+
+tr {
+	height: 50px;
+}
+
+tr td:nth-child(5) {
+	font-weight: 800;
+}
+
+tr td:nth-child(6) {
+	font-weight: 800;
+}
+
+td {
+	border-bottom: 1px solid #D4D4D4;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+td.tui {
+	color: #ff3545;
+}
+
+.paging {
+	margin-top: 50px;
+}
+
+.paging p {
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+}
+
+.num {
+	display: inline-block;
+	width: 35px;
+	height: 31px;
+	text-align: center;
+	line-height: 31px;
+	cursor: pointer;
+}
+
+.numblue {
+	background-color: #64a0ff;
+	color: #fff;
+	cursor: pointer;
+}
+
+.quedain {
+	width: 64px;
+	cursor: pointer;
+}
+
+.now {
+	display: inline-block;
+	padding: 0 12px;
+	max-width: 90px;
+	overflow: hidden;
+	height: 31px;
+	line-height: 31px;
+	text-align: center;
+	border: 1px solid #5c5d63;
+	margin-left: 3px;
+	cursor: pointer;
+}
+
+#totop {
+	position: fixed;
+	right: 5px;
+	bottom: 50px;
+	width: 40px;
+	padding: 10px 15px;
+	text-align: center;
+	background-color: #CCCCCC;
+	color: #e37171;
+	cursor: pointer;
+}

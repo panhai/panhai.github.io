@@ -1,0 +1,632 @@
+.toblue {
+	color: #5192ff;
+}
+
+.for-box {
+	width: 100%;
+	height: auto;
+	position: relative;
+	border-top: 1px solid #dcdcdc;
+	padding: 10px 0px 30px 0px;
+}
+
+.for-box>p {
+	height: 34px;
+	padding: 8px 0px;
+}
+
+.for-adress {
+	position: absolute;
+	left: 0px;
+	top: -43px;
+	width: 120px;
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	border-bottom: 1px solid #3d88ff;
+}
+
+.for-adress h2 {
+	width: 200px;
+	font-size: 16px;
+	text-align: left;
+	font-weight: 800;
+}
+
+.relien {
+	text-decoration: underline;
+	color: #dc201e;
+}
+
+.for-box .l,
+.for-box .k {
+	display: inline-block;
+}
+
+.for-box .l {
+	width: 90px;
+}
+
+.inp {
+	height: 32px;
+	line-height: 32px;
+	width: 300px;
+}
+
+.k select {
+	width: 119px;
+	height: 32px;
+	line-height: 32px;
+	background-color: #fff;
+}
+
+.k {
+	position: relative;
+}
+
+.userPassWorlds-box {
+	position: absolute;
+	left: 19px;
+	top: 5px;
+	width: 80px;
+	height: 15px;
+	line-height: 15px;
+	overflow: hidden;
+}
+
+.userassWorlds {
+	width: 80px;
+	height: 15px;
+	line-height: 15px;
+	visibility: hidden;
+}
+
+.k select,
+.k span {
+	vertical-align: middle;
+}
+
+.bl {
+	margin: 20px 0px;
+}
+
+.jixun {
+	position: absolute;
+	right: 0px;
+	top: -25px;
+}
+
+input {
+	border-color: #DCDCDC;
+	outline: none;
+	background-color: #fff;
+}
+
+.for-box .baocun,
+.for-box .quexiao {
+	display: inline-block;
+	width: 202px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	letter-spacing: 10px;
+	font-size: 16px;
+	margin: 0px 10px;
+}
+
+.baocun {
+	background-color: #dc201e;
+}
+
+.quexiao {
+	background-color: #3d88ff;
+}
+
+.submiBox {
+	text-align: center;
+	padding: 20px 0px;
+}
+
+#password {
+	border: none;
+	width: 80px;
+}
+
+.first-form {}
+
+
+/*保存后的信息页面*/
+
+#keep {
+	position: relative;
+	/*top: -355px;*/
+	width: 952px;
+	padding: 48px 90px;
+	box-sizing: border-box;
+	height: auto;
+	margin-bottom: 30px;
+	background-color: #fff;
+	float: right;
+	display: none;
+}
+
+.boxnone {
+	position: relative;
+	height: auto;
+	padding-top: 30px;
+	border-top: 1px solid #C9C9C9;
+	margin: 40px 0px 120px 0px;
+}
+
+.infoTable {
+	width: 100%;
+	border: none;
+}
+
+.infoTable td,
+.infoTable tr {
+	border: none;
+}
+
+.infoTable tr {
+	height: 54px;
+}
+
+.infoTable td input {
+	width: 302px;
+	height: 34px;
+	line-height: 34px;
+}
+
+
+/*添加推广网站table*/
+
+.addTable {
+	width: 100%;
+	text-align: center;
+	border: none;
+}
+
+.addTable td,
+.addTable th {
+	border: none;
+}
+
+.addTable tr {
+	position: relative;
+}
+
+.addTable td span {
+	color: #3d88ff;
+	cursor: pointer;
+}
+
+.addTable td span:hover {
+	color: #FE3F4C;
+}
+
+.addTable td,
+.addTable th {
+	border-bottom: 1px solid #C9C9C9;
+}
+
+.addTable td,
+.addTable th {
+	height: 50px;
+}
+
+.addjixu {
+	position: absolute;
+	right: 5px;
+	top: -30px;
+	color: #FF2738;
+	text-decoration: underline;
+}
+
+.addjixu:hover {
+	color: blue;
+	cursor: pointer;
+}
+
+.bankTable {
+	width: 100%;
+}
+
+.bankTable input {
+	width: 300px;
+	height: 34px;
+	line-height: 34px;
+}
+
+.bankTable tr {
+	height: 50px;
+}
+
+
+/*推广网站修改框*/
+
+#webT {
+	width: 540px;
+	height: 460px;
+	position: fixed;
+	z-index: 40;
+	top: 0px;
+	left: 0px;
+	bottom: 0;
+	right: 0px;
+	margin: auto;
+	text-align: center;
+	background-color: #fff;
+	display: none;
+}
+
+#webT form {
+	padding: 40px 50px 50px 50px;
+}
+
+#webT form p input {
+	width: 320px;
+	height: 40px;
+	line-height: 34px;
+}
+
+#webT form p {
+	height: 60px;
+	height: 60px;
+}
+
+#webT form p span {
+	float: left;
+	margin-top: 20px;
+}
+
+#webT form p input {
+	float: right;
+	margin-top: 8px;
+}
+
+#webT form button {
+	width: 270px;
+	height: 46px;
+	text-align: center;
+	letter-spacing: 5px;
+	background-color: #FF2738;
+	color: #fff;
+	margin-top: 60px;
+}
+
+#webT h2 {
+	height: 42px;
+	line-height: 42px;
+	background-color: #3d88ff;
+	color: #fff;
+	padding: 0px 10px 0px 30px;
+}
+
+#webT h2 i {
+	margin-top: 6px;
+	cursor: pointer;
+}
+
+
+/*基本信息修改后保存按钮*/
+
+.infoTableBtn {
+	width: 80px;
+	height: 40px;
+	text-align: center;
+	background-color: #FF2C40;
+	color: #fff;
+	letter-spacing: 5px;
+	position: absolute;
+	bottom: -42px;
+	right: 336px;
+	display: none;
+}
+.infoTableBtn2{
+	width: 80px;
+	height: 40px;
+	text-align: center;
+	background-color: #0066CC;
+	color: #fff;
+	letter-spacing: 5px;
+	position: absolute;
+	bottom: -42px;
+	right: 436px;
+	display: none;
+}
+
+/*推广网站添加信息框*/
+
+#AddWebMsg-boxs .AddWebMsg {
+	width: 100%;
+	padding: 30px;
+	box-sizing: border-box;
+}
+
+#AddWebMsg-boxs .tt {
+	height: 42px;
+	line-height: 42px;
+	font-size: 19px;
+	color: #fff;
+	padding: 0px 10px 0px 30px;
+	box-sizing: border-box;
+	background-color: #3d88ff;
+}
+
+#AddWebMsg-boxs .tt i {
+	margin-top: 7px;
+	cursor: pointer;
+}
+
+#AddWebMsg-boxs .AddWebMsg tr {
+	height: 50px;
+}
+
+#AddWebMsg-boxs .AddWebMsg input {
+	height: 34px;
+	line-height: 34px;
+	width: 320px;
+}
+
+#AddWebMsg-boxs {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+	z-index: 1000;
+	width: 480px;
+	height: 400px;
+	display: none;
+	background-color: #fff;
+}
+
+.bg-box {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	background-color: black;
+	opacity: 0.2;
+	filter: alpha(opacity=20);
+	-moz-opacity: 0.2;
+	-khtml-opacity: 0.2;
+	display: none;
+}
+
+#AddWebMsgBtn {
+	position: relative;
+	left: 178px;
+	bottom: -298px;
+	width: 150px;
+	height: 40px;
+	margin: 0 auto;
+	line-height: 40px;
+	color: #fff;
+	background-color: #FF2738;
+	letter-spacing: 6px;
+	padding: 0;
+	margin: 0;
+}
+
+
+/*银行修改框*/
+
+#BankMsBox {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	width: 460px;
+	height: 390px;
+	margin: auto;
+	z-index: 10000;
+	display: none;
+	background-color: #fff;
+}
+
+#BankMsBox h2 {
+	height: 42px;
+	line-height: 42px;
+	padding: 0px 10px 0px 10px;
+	background-color: #3d88ff;
+	color: #fff;
+}
+
+#BankMsBox h2 i {
+	float: right;
+	margin-top: 9px;
+	cursor: pointer;
+}
+
+.bank-fa {
+	position: relative;
+	top: -44px;
+	left: 386px;
+	font-size: 20px;
+}
+
+#BankMsBox .BankMsBoxbtn {
+	position: relative;
+	left: 60px;
+	top: 10px;
+	width: 280px;
+	height: 50px;
+	line-height: 50px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #FF2738;
+	color: #fff;
+	font-size: 16px;
+	letter-spacing: 6px;
+}
+
+#BankMsBox form {
+	width: 100%;
+	padding-left: 30px;
+	padding-right: 30px;
+	box-sizing: border-box;
+	position: relative;
+}
+
+#BankMsBox form p {
+	height: 46px;
+	line-height: 46px;
+	margin: 10px 0px 30px 0px;
+}
+
+#BankMsBox form p input {
+	width: 300px;
+	height: 46px;
+	line-height: 46px;
+	float: right;
+}
+
+#BankMsBox form p span {
+	float: left;
+}
+
+
+/*不可以修改银行信息提示框*/
+
+#bankNo {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	z-index: 20;
+	background-color: #fff;
+	width: 400px;
+	height: 300px;
+	display: none;
+}
+
+#bankNo h2 {
+	font-size: 18px;
+	height: 43px;
+	line-height: 43px;
+	padding: 0px 15px 0px 15px;
+	color: #fff;
+	background-color: #3D88FF;
+}
+
+#bankNo h2 i {
+	float: right;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+#bankNo>div {
+	width: 370px;
+	height: 210px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+	text-align: center;
+	margin-top: 20px;
+	position: relative;
+}
+
+#bankNo div.b {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	padding: 80px 0px 80px 0px;
+	border: 1px solid #ccc;
+}
+
+#bankNo div.b span {
+	line-height: 30px;
+}
+
+.visity {
+	position: relative;
+}
+
+.visity-box {
+	position: absolute;
+	height: 38px;
+	width: 304px;
+	line-height: 38px;
+	text-indent: 5px;
+}
+
+
+/*修改密码框*/
+
+#novisyPassword {
+	width: 560px;
+	height: 560px;
+	background-color: #fff;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	top: 0;
+	margin: auto;
+	z-index: 50;
+	display: none;
+}
+
+#novisyPassword h3 {
+	height: 43px;
+	line-height: 43px;
+	background-color: #3d88ff;
+	color: #fff;
+	padding: 0px 10px;
+	box-sizing: border-box;
+}
+
+#novisyPassword h3 i {
+	margin-top: 9px;
+	font-size: 22px;
+	cursor: pointer;
+}
+
+#novisyPassword form {
+	width: 560px;
+	padding: 20px 62px;
+	box-sizing: border-box;
+}
+
+#novisyPassword form p {
+	height: 60px;
+	line-height: 60px;
+	margin: 20px 0px;
+}
+
+#novisyPassword form p input {
+	height: 40px;
+	line-height: 40px;
+	width: 340px;
+	margin-top: 10px;
+}
+
+.novisyPasswordBtn {
+	position: relative;
+	left: 80px;
+	top: 30px;
+	width: 281px;
+	height: 48px;
+	margin: 0 auto;
+	line-height: 48px;
+	text-align: center;
+	color: #fff;
+	background-color: #ff2738;
+	letter-spacing: 6px;
+	border: none;
+	font-size: 20px;
+	cursor: pointer;
+}

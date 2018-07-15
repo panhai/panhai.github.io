@@ -1,0 +1,102 @@
+#header{
+	height: 140px;
+}
+#header .title{
+	height: 40px;
+	line-height: 40px;
+	background-color: #3d88ff;
+}
+
+.logo-box,.title-box{
+	width: 1200px;
+	margin: 0 auto;
+	color: #fff;
+}
+.title-box{
+	height: 100%;
+	line-height: 40px;
+}
+.title-box a,.title-box span,.title-box img{
+	vertical-align: middle;
+	color: #fff;
+	margin: 4px;
+}
+.title-box img {
+	margin-left: 20px;
+	margin-right: 8px;
+}
+.title-box a:hover{
+	color: #dc201e;
+}
+#header .logo {
+	height: 100px;
+	background-color: #fff;
+}
+
+.logo-box{
+	height: 100%;
+}
+#header .logo-box .logo-left,#header .logo-box .logo-right{
+	height: 100%;
+	width: 50%;
+	line-height: 100px;
+}
+#header .logo-box .logo-left h1{
+	display: inline;
+	color: #498fff;
+	letter-spacing: 2px;
+}
+#header .logo-box .logo-left .line{
+	margin: 10px;
+}
+#header .logo-box .logo-left img,h1{
+	vertical-align: middle;
+}
+
+#header .logo-box .logo-right .mr{
+	height: 100px;
+	line-height: 100px;
+	margin-right: 5px;
+}
+#header .logo-box .logo-right {
+	text-align: right;
+}
+.navbox{
+	display: inline;
+}
+.navbox img{
+	margin-right: 15px;
+}
+.navbox a{
+	color: #655350;
+}
+.navbox a:hover{
+	color: #ff2738;
+}
+.logo-right>.hy{
+	margin-left: 20px;
+}
+.logo-right .navbox a,.logo-right .navbox img{
+	vertical-align: middle;
+	margin: 5px;
+}
+
+.logo-right .navbox .tored{
+	color: #ff2738;
+}
+
+/*ffooter*/
+#footer{
+	height: 60px;
+	text-align: center;
+	color: #fff;
+	background-color: #3d88ff;
+	font-size: 16px;
+}
+#footer .box{
+	height: 100%;
+	line-height: 60px;
+	width: 1200px;
+	margin: 0 auto;
+}
+

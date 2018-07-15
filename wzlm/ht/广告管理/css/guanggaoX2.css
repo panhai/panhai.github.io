@@ -1,0 +1,224 @@
+body{
+	background-color: #F5F5F5;
+	
+}
+.forBox >form {
+	margin-top: 10px;
+}
+.len .usename{
+	width: 536px;
+	height: 30px;
+	line-height: 30px;
+	background-color: #ffffff;
+	border: solid 1px #dcdcdc;
+	display: inline-block;
+}
+.filebox{
+	display: inline-block;
+	position: relative;
+	width: 213px;
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+	background-color: #ffffff;
+	border: solid 1px #dcdcdc;
+	margin-left: 30px;
+	margin-top: 19px;
+	padding: 10px;
+	/*box-sizing: border-box;*/
+}
+.filebox img{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+.filebox #file{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	display: block;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+
+.len button{
+	width: 166px;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    text-align: center;
+    color: #fff;
+    border-radius: 3px;
+    margin-top: 19px;
+    margin-left: 15px;
+}
+.len .goback{
+	background-color: #64a0ff;
+}
+.len .submit{
+	background-color: #ff2738;
+}
+
+/*已添加广告主*/
+.AddWebMsg{
+	border-bottom: 1px solid #dcdcdc;
+}
+.AddWebMsg span{
+	display: block;
+	width: 85px;
+	height: 14px;
+	line-height: 14px;
+	font-family: MicrosoftYaHei-Bold;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 14px;
+	letter-spacing: 0px;
+	color: #333333;
+	border-bottom: 2px solid #2a7cff;
+	padding: 32px 0px 9px 0px;
+	position: relative;
+	bottom: -1px;
+}
+.addList{
+	width: 1100px;
+	padding-top: 35px;
+	background-color: #ffffff;
+}
+.addList .item{
+	width: 213px;
+	height: 160px;
+	float: left;
+	position: relative;
+	border: 1px solid transparent;
+}
+.item .logo{
+	width: 193px;
+	height: 49px;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+.item .logo img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.item .tt{
+	width: 190px;
+	height: 30px;
+	line-height: 30px;
+	background-color: #f6f6f6;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.revise{
+	position: absolute;
+	bottom: -54px;
+	left: 0px;
+	background-color: #ff2738;
+}
+.del{
+	position: absolute;
+	bottom: -54px;
+	left: 110px;
+	background-color: #64a0ff;
+}
+.item  button{
+	width: 100px;
+	height: 40px;
+	color: #fff;
+	line-height: 40px;
+	text-align: center;
+	display: none;
+}
+.item .btn{
+	position: absolute;
+	width: 213px;
+	height: 110px;
+	left: 0px;
+	top: 0px;
+	border: 1px solid #ff2738;
+	display: none;
+}
+
+.revise-form {
+	position: fixed;
+	z-index: 10;
+	width: 500px;
+	height: 330px;
+	background-color: #ffffff;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	margin:auto;
+}
+.titleb{
+	width: 500px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #3d88ff;
+	color: #fff;
+}
+img.closed{
+	float: right;
+	margin: 14px 20px 0px 0px;
+	cursor: pointer;
+}
+.content{
+	padding-left: 39px;
+}
+.cen input{
+	width: 310px;
+	height: 30px;
+	background-color: #ffffff;
+	border: solid 1px #dcdcdc;
+}
+.cen .filebox2{
+	position: relative;
+	display: inline-block;
+    width: 213px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    background-color: #ffffff;
+    border: solid 1px #dcdcdc;
+    margin-left: 30px;
+    margin-top: 19px;
+    padding: 10px;
+}
+.filebox2 .reviseFile{
+	position: absolute;
+	display: block;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.btnbox{
+	margin-top: 40px;
+}
+.btnbox button{
+	width: 80px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+}
+.btnbox button.submit2{
+	margin-right: 10px;
+	margin-left: 118px;
+	background-color: #ff2738;
+	
+}
+.btnbox button.reset2{
+	color: #a2a2a2;
+	background-color: #a2a2a2;
+	color: #fff;
+}

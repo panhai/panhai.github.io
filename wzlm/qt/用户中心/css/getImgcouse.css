@@ -1,0 +1,121 @@
+.content-list .title-line {
+	position: relative;
+	top: 9px;
+	width: 128px;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 3px solid #3d88ff;
+	font-size: 17px;
+	color: #333333;
+}
+
+.navbox-list {
+	display: block;
+	height: 60px;
+	line-height: 60px;
+	text-align: right;
+}
+
+.navbox-list li {
+	display: inline;
+	line-height: 30px;
+	color: #3D88FF;
+	margin-left: 23px;
+	margin-right: 6px;
+	cursor: pointer;
+}
+
+hr {
+	height: 1px;
+	background-color: #dcdcdc;
+}
+
+.getred {
+	color: #ff2738;
+}
+
+table {
+	margin-bottom: 40px;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+table,
+th,
+td {
+	border: none;
+	color: #34353c;
+	text-align: center;
+}
+
+tr {
+	height: 50px;
+	border-bottom: 1px solid #d4d4d4;
+}
+
+.tab-title {
+	background-color: #e8ebff;
+}
+
+table td a:hover {
+	color: #ff2738;
+}
+
+.paging p {
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+}
+
+.num {
+	display: inline-block;
+	width: 35px;
+	height: 31px;
+	text-align: center;
+	line-height: 31px;
+	cursor: pointer;
+}
+
+.numblue {
+	background-color: #64a0ff;
+	color: #fff;
+	cursor: pointer;
+}
+
+.quedain {
+	width: 64px;
+	cursor: pointer;
+}
+
+.now {
+	display: inline-block;
+	padding: 0 12px;
+	max-width: 90px;
+	overflow: hidden;
+	height: 31px;
+	line-height: 31px;
+	text-align: center;
+	border: 1px solid #5c5d63;
+	margin-left: 3px;
+	cursor: pointer;
+}
+
+#totop {
+	position: fixed;
+	right: 5px;
+	bottom: 50px;
+	width: 40px;
+	padding: 10px 15px;
+	text-align: center;
+	background-color: #CCCCCC;
+	color: #e37171;
+	cursor: pointer;
+}
+
+.setion {
+	display: none;
+}
+
+.show {
+	display: block;
+}

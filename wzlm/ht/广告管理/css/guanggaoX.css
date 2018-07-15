@@ -1,0 +1,163 @@
+body{
+	background-color: #F5F5F5;
+	
+}
+.forBox >form {
+	width:650px;
+	height: 650px;
+	margin: 0 auto;
+}
+ .forBox table{
+	width: 100%;
+}
+ .forBox table tr{
+ 	height: 53px;
+ 	line-height: 53px;
+ }
+input.inp{
+	width: 526px;
+	height:30px;
+	line-height: 30px;
+}
+.forBox table td i{
+ 	position: relative;
+ 	left: 525px;
+ }
+.forBox table td .bol{
+	position: relative;
+	float: left;
+	margin-right: 10px;
+}
+.bol .tg{
+	margin: 0px 5px;
+	width: 15px;
+	height: 15px;
+	line-height: 15px;
+	text-align: center;
+	background: url('../img/radioboxs.jpg') no-repeat 0px 2px;
+	margin-top: 18px; 
+}
+.bol .radio{
+	position: absolute;
+	left: 6px;
+	top: 21px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.imgbox {
+	width: 526px;
+	height: 200px;
+	border: 1px solid #ccc;
+	background:url('../img/jia.png') no-repeat center center;
+	position: relative;
+	cursor: pointer;
+	overflow: hidden;
+}
+#imgBox{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+
+#file{
+	width: 526px;
+	height: 200px;
+	border: 1px solid #ccc;
+	background:url('../img/jia.png') no-repeat center center;
+	position: absolute;
+	z-index: 3;
+	left: 0px;
+	top: 0px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	cursor: pointer;
+}
+.cimg{
+	display: none;
+	margin-top: 2px;
+}
+.show{
+	display: block;
+}
+.forBox #btn {
+	display: inline-block;
+	width: 120px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	color: #fff;
+	background-color: #ff2738;
+	cursor: pointer;
+	margin: 0px 0px 0px 200px;
+}
+.forBox .YL,.del,.delImg{
+	display: inline-block;
+	margin-left: 5px;
+	text-decoration: underline;
+	cursor: pointer;
+	color: #ff2738;
+}
+.forBox .btnbox{
+	margin-top: 20px;
+}
+table .td{
+	position: relative;
+}
+.ggz {
+	position: absolute;
+	width: 528px;
+	height: 200px;
+	overflow: auto;
+	left: 86.8px;
+	top: 46px;
+	z-index: 20;
+	border: 1px solid #DCDCDC;
+	display: none;
+}
+ul.ggz li{
+	width: 100%;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	background-color: #fff;
+	cursor: pointer;
+	transition:background-color .9s;
+	-moz-transition:background-color .9s; /* Firefox 4 */
+	-webkit-transition:background-color 0.9s; /* Safari and Chrome */
+	-o-transition:background-color 0.9s; /* Opera */
+}
+
+ul.ggz li:hover{
+	background-color: #009E94;
+	color: #fff;
+}
+.for-button,.fobtn{
+	width: 166px;
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+	margin: 0px 5px;
+	margin-top: 10px;
+}
+.for-button{
+	background-color: #64a0ff;
+	margin-left: 130px;
+}
+.fobtn{
+	background-color: #ff2738;
+}
+table {
+	margin-bottom: 160px;
+}
+table td:nth-child(2){
+	padding-left: 20px;
+}
+.imgContainer{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}

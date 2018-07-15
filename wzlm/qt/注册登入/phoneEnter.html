@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>手机登录学而好网站联盟</title>
+		<meta name="renderer" content="webkit">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/header-footer.css"/>
+		<link rel="stylesheet" href="../layui/layui/css/layui.css"  media="all">
+		<link rel="stylesheet" type="text/css" href="css/phoneEnter.css"/>
+	</head>
+	<body>
+		<!--header-->
+		<div id="header">
+			<div class="title">
+				<div class="title-box">
+					<span>欢迎进入学而好教育网站联盟!</span>
+					<img src="../images/images/rt.png"/>
+					<a href="" style="color: #ff2c40;">登录</a>
+					<span>|</span>
+					<a href="" class="tored">注册</a>
+				</div>
+			</div>
+			<div class="logo">
+				<div class="logo-box">
+					<div class="logo-left fl">
+						<a href=""><img src="../images/images/logo.png"/></a>
+						<a><img src="../images/images/jy.png" class="line"/></a>
+						<a href=""><h1>网站联盟</h1></a>
+					</div>
+					<div class="logo-right fr">
+						<a href="">
+							<div class="navbox">
+								<img src="../images/images/affiche.png" />
+								<a href="">网盟公告</a>
+							</div>
+						</a>
+						<a href="">
+							<div class="navbox mr">
+								<img src="../images/images/znan.png" />
+								<a href="">联盟指南</a>
+							</div>
+						</a>
+						<a href="">
+							<div class="navbox mr">
+								<img src="../images/images/gonggao.png" />
+								<a href="">用户中心</a>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 主体 -->
+		<div id="content">
+			<div class="contenBox">
+				<div class="loginbox">
+					<div class="layui-tab layui-tab-brief" lay-filter="docDemoTabBrief">
+					  <ul class="layui-tab-title">
+					    <li><h2>账号登录</h2></li>
+					    <li class="layui-this"><h2>手机登录</h2></li>
+					  </ul>
+					  <div class="line">
+					  	<div class="move"></div>
+					  </div>
+					  <div class="layui-tab-content" style="height: 100px;">
+					    <div class="layui-tab-item">
+					    	<!-- Pc端登入 -->
+					    	<form action="" method="post">
+					    		<p>
+					    			<input type="text" class="need" name="usename" id="usename" value="" placeholder="请输入联盟用户名"/>
+					    		</p>
+					    		<p>
+					    			<input type="password"  class="need" name="password" id="password" value="" placeholder="请输入密码" />
+					    		</p>
+					    		<div>
+					    			<input type="text" name="" class="need"  id="code" value=""  placeholder="请输入图片验证码"/>
+					    			<div class="codeImg fr">
+					    				<img src="img/b.png"/>
+					    				<img src="img/y.png"/>
+					    				<img src="img/o.png"/>
+					    				<img src="img/e.png"/>
+					    			</div>
+					    		</div>
+					    		<div class="box-c">
+					    			<a href="">忘记密码&nbsp;？</a>
+					    			<a href="" class="fr">快速注册</a>
+					    		</div>
+					    		<button class="btn2" id="PCBtn">登入</button>
+					    		<div class="box-d">
+					    			<span>合作账号登入:</span>
+					    			<a href=""><img src="img/wb.png" /></a>
+					    			<a href=""><img src="img/qq.png" /></a>
+					    		</div>
+					    	</form>
+					    </div>
+					    <div class="layui-tab-item  layui-show">
+					    	<!-- 移动端登入 -->
+					    	<form action="" method="post">
+					    		<p>
+					    			<input class="usename ned" type="text" name="phone" id="phone" value="" placeholder="请输入手机号"/>
+					    		</p>
+					    		<p >
+					    			<input class="fl phonetest ned" type="text" name="phonetest" id="phonetest" value="" placeholder="请输入验证码"/>
+					    			<div class="get fr">获取验证码</div>
+					    		</p>
+					    		<div id="" style="clear: both;"></div>
+					    		<p class="zhu">
+					    			<p class="fl"><a href="">忘记密码&nbsp;?</a></p>
+					    			<p class="fr"><a href="" class="toBg">快速注册</a></p>
+					    		</p>
+					    		<button class="btn" id="phoneBtn">登录</button>
+					    	</form>
+					    </div>
+					  </div>
+					</div> 
+				</div>
+			</div>
+		</div>
+		<!--footer-->
+		<div id="footer">
+			<div class="box">
+				<p>
+					<span>版本所有&nbsp;Copyright&nbsp;2008-2015&nbsp;粤ICP备14009694号&nbsp;www.studyems.com,&nbsp;Inc.&nbsp;All&nbsp;Rights&nbsp;Reserved</span>
+				</p>
+			</div>
+		</div>
+		
+		<script src="../js/jquery191.js"></script>
+		<script src="../layui/layui/layui.js" charset="utf-8"></script>
+		<script src="../js/IEjianrong.js"></script>
+		<script src="js/phoneEnter.js"></script>
+	</body>
+</html>

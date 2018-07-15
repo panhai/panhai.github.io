@@ -1,0 +1,233 @@
+.content-list .title-line {
+	position: relative;
+	top: 11px;
+	width: 121px;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 3px solid #3d88ff;
+	font-size: 20px;
+	color: #333333;
+}
+
+.navbox-list {
+	display: block;
+	height: 60px;
+	line-height: 60px;
+}
+
+.navbox-list a {
+	color: #3D88FF;
+	margin-left: 23px;
+}
+
+hr {
+	height: 1px;
+	background-color: #dcdcdc;
+}
+
+.getred {
+	color: #ff2738;
+}
+
+.register {
+	width: 462px;
+	height: 338px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.register-title {
+	text-align: center;
+	height: 42px;
+	line-height: 42px;
+	color: #FFFFFF;
+	background-color: #3D88FF;
+	letter-spacing: 2px;
+}
+
+.btn-box {
+	text-align: center;
+}
+
+.btn-box .btn,
+.btn-box .reset {
+	width: 150px;
+	height: 31px;
+	text-align: center;
+	line-height: 31px;
+	border: none;
+	margin: 20px 5px;
+	color: #fff;
+	letter-spacing: 5px;
+}
+
+.btn-box .reset {
+	background-color: #3D88FF;
+}
+
+.btn-box .btn {
+	background-color: #ff2738;
+}
+
+.timebox input {
+	width: 100px;
+	height: 30px;
+	text-align: center;
+}
+
+.timebox {
+	position: relative;
+	margin-top: 10px;
+}
+
+.timebox i.one,
+.timebox i.two {
+	position: absolute;
+	top: 11px;
+}
+
+.timebox i.one {
+	left: 164px;
+}
+
+.timebox i.two {
+	left: 310px;
+}
+
+.myForm {
+	padding: 30px 30px;
+}
+
+.myForm p {
+	height: 50px;
+	line-height: 50px;
+}
+
+.source span.k {
+	margin: 10px;
+}
+
+.mytable {
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+.mytable tr {
+	height: 42px;
+	border: none;
+}
+
+.titletab {
+	background-color: #e8ebff;
+}
+
+.mytable .list {
+	border-bottom: 1px solid #d4d4d4;
+}
+.mytable1{
+	display: none;
+}
+.list a:hover {
+	color: #ff2738;
+}
+
+.studyname input {
+	width: 290px;
+	height: 30px;
+}
+.studyname {
+	margin: 10px 0px;
+}
+
+.nonetable {
+	/*display: none;*/
+}
+
+#month{
+	width: 100px;
+	height: 34px;
+	text-align: center;
+	line-height: 34px;
+}
+#month,input{
+	vertical-align: middle;
+}
+
+.myForm .source .r{
+	text-align: center;
+	line-height: 20px;
+}
+.source .q{
+	width: 22px;
+	height: 22px;
+	text-align: center;
+	margin: 0px 5px;
+	background: url(../img/radio1.png) no-repeat center center;
+}
+ .fg{
+	margin-right: 15px;
+}
+
+
+/*无明细显示的提示框*/
+.nomsg-box {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: black;
+	z-index: 10;
+	opacity: 0.4;
+	filter: alpha(opacity=40);
+	display: none;
+}
+
+.nomsg {
+	width: 400px;
+	height: 400px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	background-color: #fff;
+	z-index: 100;
+	box-sizing: border-box;
+	display: none;
+}
+
+.nomsg .title {
+	color: #fff;
+	background-color: #3D88FF;
+	margin-bottom: 40px;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+
+.nomsg .title i {
+	position: absolute;
+	right: 6px;
+	top: 5px;
+	color: #fff;
+}
+
+.msgbox {
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+	text-align: center;
+	line-height: 300px;
+	font-size: 20px;
+}
+
+
+
+.nonomsgtest{
+	border-bottom: 1px solid #d4d4d4;line-height:40px;height: 40px;text-align: center;
+}

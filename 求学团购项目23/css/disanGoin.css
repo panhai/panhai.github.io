@@ -1,0 +1,33 @@
+
+.WxBox{position: fixed;right: 0px;top: 0px;
+left: 0px;bottom: 0px;margin: auto;
+width: 460px;height:520px;background-color: #fff;
+}
+.WxBox h2{font-size: 24px;text-align: center;margin-top: 34px;}
+.ren{text-align: center;margin-top: 39px;}
+.motai{position: fixed;width: 100%;height: 100%;background-color: #000000;opacity: 0.3;filter: alpha(opacity=30);}
+
+input:focus{border: 1px solid #1E9FFF;}
+input,button{display: block;width: 296px;height: 40px;line-height: 40px;margin: 0 auto;border-radius: 4px;border: 1px solid #999;}
+.sm{position: relative;}
+.getMa{position: absolute;right: 85px;top: 3px;color:#999;cursor:pointer;min-width: 96px;height: 34px;line-height: 34px;text-align: center;background-color: #eeeff1;border-radius: 3px;}
+.username{margin-top: 29px;}
+.phone,.phoneM{margin-top: 20px;}
+.submit{margin-top: 36px;background-color: #ED4141;color: #fff;font-size: 18px;border: none;}
+
+.myform{position: relative;}
+.msg{
+	position: absolute;
+	top: -58px;
+	left: 0px;
+	width: 460px;
+	height: 50px;
+	line-height: 50px;
+	background-color: #757575;
+	border-radius: 6px;
+	color: #fff;
+	display: none;
+}
+.msg .wj{color: #1EACF5;margin-left: 2px;}
+.msg img{margin: 0 10px;}
+.submit:hover{opacity: 0.8;}

@@ -1,0 +1,15 @@
+/*右侧固定导航栏*/
+.right-fixBox {position: fixed;bottom: 150px;right: 5px;z-index: 100;}
+.right-fixBox>ul li{position: relative;width: 40px;height: 40px;margin-bottom: 2px;background-color: #444444;text-align: center;line-height: 40px;cursor: pointer;}
+.right-fixBox>ul li:hover{background-color: #ED4141}
+.k {
+position: absolute;left: -120px;z-index: -1;top: -42px;width: 120px;height: 40px;
+line-height: 40px;text-align: center;color: #fff;background-color: #ED4141;
+}
+.erwei {
+position: absolute;left: -180px;z-index: -1;top: -42px;width: 180px;height: 140px;
+text-align: center;color: #fff;background-color: #ED4141;display: block;
+}
+.erwei .lef{width: 50px;height: 180px;text-align: center;line-height: 24px;font-size: 18px;padding-top: 12px}
+.right-fixBox>ul li a{display: none;position: relative;}
+.right-fixBox>ul li:hover a{display: block;}

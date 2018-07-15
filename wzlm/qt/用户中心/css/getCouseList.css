@@ -1,0 +1,118 @@
+
+#content-box .content-list{
+	padding: 0px;
+}
+
+.title-box{
+	width: 750px;
+	margin: 0 auto;
+	color: #333333;
+	position: relative;
+	margin-top: 18px;
+}
+.title-box h1{
+	font-size: 18px;
+	width: 120px;
+	text-align: center;
+	border-bottom: 2px solid #3d88ff;
+}
+.heate-tab{
+	height: 40px;
+	width: 750px;
+	margin: 0 auto;
+	margin-top: 34px;
+	font-size: 0px;
+	text-align: center;
+	background-color: red;
+}
+.heate-tab a{
+	font-size: 16px;
+	color: #4E4E4E;
+	display: inline-block;
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #e8ebff;
+}
+.heate-tab a.active{
+	color: #fff;
+	background-color: #3d88ff;
+}
+.linkItem{
+	width: 750px;
+	margin: 0 auto;
+	font-size: 0px;
+}
+.linkItem a{
+	display: inline-block;
+	width: 20%;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	border-bottom: 1px solid #d4d4d4;
+}
+.linkItem a img{
+	display: inline-block;
+	width: 138px;
+	height: 35px;
+}
+/*分页*/
+.paging{
+	text-align: center;
+	padding: 0px;
+	height: 30px;
+	line-height: 30px;
+	width: 480px;
+	margin: 0 auto;
+	color: #34353C;
+	font-size: 0px;
+	padding: 80px 0px;
+}
+.paging a{
+	display: inline-block;
+	width:30px;
+	line-height: 30px;
+	height: 30px;
+	text-align: center;
+	color: #34353C;
+	font-size: 14px;
+}
+.paging a.active{
+	color: #fff;
+	background-color: #3d88ff;
+}
+.paging span,.paging i,.paging b{
+	font-size: 14px;
+}
+img.left,img.right{
+	margin: 0px 22px 0px 20px;
+}
+.now{
+	display: inline-block;
+	width: 30px;
+	height:30px;
+	text-align: center;
+	line-height: 30px;
+	text-align: center;
+	border: solid 1px #5c5d63;
+	margin: 0px 10px;
+	outline: none;
+	text-indent: 0px;
+	border: 1px solid #5c5d63;
+}
+.end{
+	margin: 0px 20px;
+}
+.quedain{
+	display: inline-block;
+	width: 60px;
+	height: 30px;
+	background-color: #3d88ff;
+	color: #fff;
+}
+.paging span,.paging b,.paging i,.paging a,.paging button{
+	vertical-align: middle;
+}
+.start{
+		
+}

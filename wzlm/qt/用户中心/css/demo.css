@@ -1,0 +1,121 @@
+#header .f a,
+#header .f span {
+	color: #fff;
+}
+
+.f {
+	display: inline;
+}
+
+.f a:hover {
+	color: #ff2738;
+}
+
+#content {
+	background-color: #F5F5F5;
+	background-color: #F5F5F5\9;
+	*background-color: #F5F5F5;
+	height: auto;
+	margin: 0 auto;
+}
+
+#content>.main {
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#content>.main>.title {
+	height: 60px;
+	line-height: 60px;
+}
+
+#content-box {
+	width: 100%;
+	height: auto;
+}
+
+#content-box .nav {
+	width: 230px;
+	height: auto;
+	background-color: #FFFFFF;
+	.background-color:#ffffff\9;
+	+background-color:#ffffff;
+	_background-color:#ffffff;
+}
+
+#content-box .content-list {
+	width: 952px;
+	padding: 48px 86px;
+	box-sizing: border-box;
+	height: auto;
+	margin-bottom: 30px;
+	background-color: #FFFFFF;
+	.background-color:#ffffff\9;
+	+background-color:#ffffff;
+	_background-color:#ffffff;
+}
+
+.title .tored {
+	color: #ff2738;
+}
+
+.title a,
+.title span,
+.title i {
+	margin: 4px;
+	vertical-align: middle;
+	font-size: 16px;
+	color: #34353C;
+}
+.title .titleCore{
+	color:#ff2738;
+}
+.yh {
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background-color: #3d88ff;
+}
+
+.yh .toblue {
+	color: #fff;
+	letter-spacing: 3px;
+}
+
+.nav-box {
+	width: 100%;
+	height: auto;
+	padding: 0 11px;
+	box-sizing: border-box;
+}
+
+.navbox a,
+.nav-box a {
+	color: #655350;
+}
+
+.nav-box li {
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border-bottom: 1px solid #E8E8E8;
+	font-size: 15px;
+}
+
+.nav-box li:hover {
+	color: #3d88ff;
+}
+
+.nav-box li.lastLi {
+	border: none;
+}
+
+.logo-right a:hover {
+	color: #dc201e;
+}
+
+.nav-box span {
+	margin-left: 6px;
+}

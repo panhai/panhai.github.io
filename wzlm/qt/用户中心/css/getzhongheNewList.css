@@ -1,0 +1,66 @@
+.content-list .title-line {
+	position: relative;
+	top: 8px;
+	width: 121px;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 3px solid #3d88ff;
+	font-size: 20px;
+	color: #333333;
+}
+
+.radiocheck {
+	/*background: url(img/radio2.png) no-repeat center center;*/
+}
+
+.zhuyi {
+	color: #fe3f4c;
+}
+
+.content-list p {
+	padding: 11px 0px;
+}
+
+.content-list .myTextarea {
+	width: 100%;
+	height: 200px;
+	padding: 10px;
+	overflow-y: auto;
+	border: 1px solid #dcdcdc;
+	box-sizing: border-box;
+}
+
+.imgbox {
+	min-height: 328px;
+	padding: 10px;
+	border: 1px solid #dcdcdc;
+	margin: 40px 0px 30px 0px;
+	position: relative;
+}
+
+
+/*radio单选框*/
+
+.myForm .checkRadios {
+	position: relative;
+	height: 30px;
+	width: 100%;
+}
+
+.radioimg,
+.spanbox {
+	float: left;
+}
+
+.radioimg {
+	margin: 0px 20px;
+	width: 18px;
+	height: 18px;
+	text-align: center;
+	line-height: 18px;
+	background: url(../img/radio1.png) no-repeat center center;
+}
+
+.radioimg img {
+	margin-top: -5px;
+}

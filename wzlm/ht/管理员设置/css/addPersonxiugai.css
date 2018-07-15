@@ -1,0 +1,125 @@
+
+
+.form-box{
+
+}
+.form-box td{{
+	position: relative;
+}}
+.massege{
+	width: 340px;
+}
+.massege table{
+	width: 100%;
+}
+.massege table input{
+	width: 252px;
+	height: 30px;
+	line-height: 30px;
+	border:1px solid #ebe9e9;;
+}
+.massege table tr{
+	height: 50px;
+}
+/*角色设置*/
+.chek{
+	height: 50px;
+	line-height: 50px;
+	position: relative;	
+}
+.chek span{
+	margin-right: 30px;
+}
+.chek .z{
+	float: left;
+}
+.chek .z .j{
+	width: 13px;
+	height: 13px;
+	line-height: 11px;
+	margin-top: 18px;
+	margin-right: 5px;
+	float: left;
+	text-align: center;
+	background: url(../img/radioboxs.jpg) no-repeat 1px 1px;
+}
+.chek .z input{
+	position: absolute;
+	z-index: 3;
+	top: 20px;
+	opacity: 0;
+	filter:alpha(opacity=0);  //   兼容IE678
+}
+.chek .z input.n1{
+	left: 90px;
+}
+.chek .z input.n2{
+	left:195px;
+}
+.chek .z input.n3{
+	left: 284px;
+}
+.chek input ,.chek span{
+	vertical-align: middle;
+}
+/*权限设定*/
+.powers{
+	width: 100%;
+	margin-bottom: 50px;
+}
+.powers table{
+	width: 100%;
+}
+.powers table tr{
+	height: 50px;
+}
+.blue{
+	color: #64a0ff;
+}
+.powers td{
+	position: relative;
+}
+.powers td input{
+	position: absolute;
+	top: 17px;
+	left: 1px;
+	opacity: 0;
+	filter: alpha(opacity=0);;
+}
+.powers td .tg {
+	width: 15px;
+	height: 15px;
+	line-height: 14px;
+	margin-top: 16px;
+	margin-right: 6px;
+	background: url('../img/chekbox.jpg') no-repeat 1px 1px;
+}
+.powers td .tg img{
+	display: none;
+}
+.show{
+	display: block;
+}
+//权限说明
+.explain{
+	
+}
+.explain table{
+	width: 100%;
+	padding: 0px 0px 80px 0px;
+}
+.explain table button{
+	width: 160px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	letter-spacing: 2px;
+}
+.explain table button.goto{
+	background-color: #64a0ff;
+	margin-right: 38px;
+}
+.explain table button.btn{
+	background-color: #ff2c40;
+}

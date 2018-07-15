@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>联盟成员管理=-审核管理</title>
+		<meta name="renderer" content="webkit">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="../../../wzlm2/qt/layui/layui/css/layui.css" />
+		<link rel="stylesheet" type="text/css" href="../../qt/css/base.css" />
+		<link rel="stylesheet" type="text/css" href="../css/htbase.css" />
+		<link rel="stylesheet" type="text/css" href="css/managePerson.css" />
+	</head>
+	
+	<body>
+		<div id="header" class="clearfix">
+			<div class="left fl">
+				<h1>学而好网站联盟管理系统</h1>
+			</div>
+			<div class="right fr">
+				<div class="h">
+					<img src='../img/tt.png' alt="" />
+					<a>网盟首页</a>
+				</div>
+				<div class="h">
+					<img src="../img/kkk.png" alt="" />
+					<a></a>fhuerth oeriwi</a>
+				</div>
+				<div class="h">
+					<img src="../img/jk.png" />
+					<a>退出</a>
+				</div>
+			</div>
+		</div>
+		<div id="content">
+			<!--左侧导航-->
+			<div class="content-nav fl">
+				<ul class="box">
+					<a href="">
+						<li class="first">
+							<img src="img/shouye.png" />
+							<span>首页</span>
+							<i class="fa fa-angle-right"></i>
+						</li>
+					</a>
+					<a href="">
+						<li>
+							<img src="../img/d.png" />
+							<span>管理员设置</span>
+							<i class="	fa fa-angle-right"></i>
+						</li>
+					</a>
+					<a>
+						<li class="navVolor">
+							<img src="../img/g.png" />
+							<span>联盟成员管理</span>
+							<i class="fa fa-angle-down"></i>
+							<!--fa fa-angle-down    fa fa-angle-right-->
+						</li>
+						<div class="navList active"><a href="">成员资料管理</a></div>
+						<div class="navList"><a href="">成员审核管理</a></div>
+					</a>
+					<a href="">
+						<li>
+							<img src='../img/c.png' />
+							<span>分成等级管理</span>
+							<i class="fa fa-angle-right"></i>
+						</li>
+					</a>
+					<a href="">
+						<li>
+							<img src="../img/k.png" />
+							<span>结算管理</span>
+							<i class="fa fa-angle-right"></i>
+						</li>
+					</a>
+					<a href="">
+						<li>
+							<img src="../img/h.png" />
+							<span>广告管理</span>
+							<i class="fa fa-angle-right"></i>
+						</li>
+					</a>
+					<a href="">
+						<li>
+							<img src="../img/f.png" />
+							<span>联盟指南</span>
+							<i class="fa fa-angle-right"></i>
+						</li>
+					</a>
+					<a href="">
+						<li>
+							<img src="../img/j.png" />
+							<span>网盟公告</span>
+							<i class="fa fa-angle-right"></i>
+						</li>
+					</a>
+				</ul>
+			</div>
+			<div class="content-main fr">
+				<!--右侧内容-->
+				<div class="main-box">
+					<div class="url">
+						<img src="../img/b.png" />
+						<a href="">联盟成员管理</a>
+						<span>></span>
+						<span>成员资料管理</span>
+					</div>
+					<div class="search">
+						<form action="" method="post">
+							<input type="text" name="" id="" value="" placeholder="请输入机构名称" />
+							<span>注册时间：</span>
+							<input type="text" name="year" id="year" value="" class="times" />
+							<i class="fa fa-caret-down one" style="left: 422px;top: 8px;"></i>
+							<span>-</span>
+							<input type="text" name="year" id="month" value="" class="times" />
+							<i class="fa fa-caret-down two" style="left: 581px;top: 8px;"></i>
+							<a>
+								<button class="btn">确定</button>
+							</a>
+							<!--月份选着-->
+							<!--<ul class="month-box">
+							<li>1月</li>
+							<li>2月</li>
+							<li>3月</li>
+							<li>4月</li>
+							<li>5月</li>
+							<li>6月</li>
+							<li>7月</li>
+							<li>8月</li>
+							<li>9月</li>
+							<li>10月</li>
+							<li>11月</li>
+							<li>12月</li>
+							<button type="button"class="qd">确定</button>
+						</ul>-->
+						</form>
+					</div>
+					<div class="tab">
+						<button class="bgColor">全部</button>
+						<button>待审核</button>
+						<button>已通过</button>
+						<button>不通过</button>
+					</div>
+					<div class="tab-box">
+						<table border="" cellspacing="0" cellpadding="0" class="myTable">
+							<thead>
+								<tr>
+									<th width="4%"></th>
+									<th width="10.1%">联盟成员 </th>
+									<th width="10.1%">联系电话 </th>
+									<th width="8.1%">等级</th>
+									<th width="10.1%">状态 </th>
+									<th width="10%">注册时间</th>
+									<th width="20%">操作</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td style="padding-left: 20px;">
+										<div class="tg fl "><img src="img/bgc.jpg " /></div>
+										<input type="checkbox" name="" class="chek" value="" />
+									</td>
+									<td>
+										尚德教育
+									</td>
+									<td>
+										13414486735
+									</td>
+									<td class="Dj">
+										A级
+									</td>
+									<td class="zt">
+										未激活
+									</td>
+									<td>
+										2017-10-10
+									</td>
+									<td>
+										<a href="">详细信息</a>
+										<span>|</span>
+										<a href="" class="xiugai">禁用</a>
+										<span>|</span>
+										<a href="" class="deletes">删除</a>
+									</td>
+								</tr>
+								<tr>
+									<td style="padding-left: 20px;">
+										<div class="tg fl "><img src="img/bgc.jpg " /></div>
+										<input type="checkbox" name="" class="chek" value="" />
+									</td>
+									<td>
+										尚德教育
+									</td>
+									<td>
+										13414486735
+									</td>
+									<td class="Dj">
+										A级
+									</td>
+									<td class="zt">
+										禁用
+									</td>
+									<td>
+										2017-10-10
+									</td>
+									<td>
+										<a href="">详细信息</a>
+										<span>|</span>
+										<a href="" class="xiugai">禁用</a>
+										<span>|</span>
+										<a href="" class="deletes">删除</a>
+									</td>
+								</tr>
+								<tr>
+									<td style="padding-left: 20px;">
+										<div class="tg fl "><img src="img/bgc.jpg " /></div>
+										<input type="checkbox" name="" class="chek" value="" />
+									</td>
+									<td>
+										尚德教育
+									</td>
+									<td>
+										13414486735
+									</td>
+									<td class="Dj">
+										A级
+									</td>
+									<td class="zt">
+										正常
+									</td>
+									<td>
+										2017-10-10
+									</td>
+									<td>
+										<a href="">详细信息</a>
+										<span>|</span>
+										<a href="" class="xiugai">禁用</a>
+										<span>|</span>
+										<a href="" class="deletes">删除</a>
+									</td>
+								</tr>
+								<tr>
+									<td style="padding-left: 20px;">
+										<div class="tg fl "><img src="img/bgc.jpg " /></div>
+										<input type="checkbox" name="" class="chek" value="" />
+									</td>
+									<td>
+										尚德教育
+									</td>
+									<td>
+										13414486735
+									</td>
+									<td class="Dj">
+										A级
+									</td>
+									<td class="zt">
+										正常
+									</td>
+									<td>
+										2017-10-10
+									</td>
+									<td>
+										<a href="">详细信息</a>
+										<span>|</span>
+										<a href="" class="xiugai">禁用</a>
+										<span>|</span>
+										<a href="" class="deletes">删除</a>
+									</td>
+								</tr>
+								<tr>
+									<td style="padding-left: 20px;">
+										<div class="tg fl "><img src="img/bgc.jpg " /></div>
+										<input type="checkbox" name="" class="chek" value="" />
+									</td>
+									<td>
+										尚德教育
+									</td>
+									<td>
+										13414486735
+									</td>
+									<td class="Dj">
+										A级
+									</td>
+									<td class="zt">
+										正常
+									</td>
+									<td>
+										2017-10-10
+									</td>
+									<td>
+										<a href="">详细信息</a>
+										<span>|</span>
+										<a href="" class="xiugai">禁用</a>
+										<span>|</span>
+										<a href="" class="deletes">删除</a>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="pageing">
+						<div class="right fr">
+							<span>共1634条记录</span>
+							<span>首页</span>
+							<i class="fa fa-caret-left"></i>
+							<a href="" class="chek">1</a>
+							<a href="">2</a>
+							<a href="">3</a>
+							<span>...</span>
+							<a href="">12</a>
+							<i class="fa fa-caret-right"></i>
+							<span>到</span>
+							<input type="text" name="" class="now" value="12" />
+							<span>页</span>
+							<span>尾页</span>
+							<button class="btn chek">确定</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<script src="../../qt/js/jquery.min.js"></script>
+		<script type="text/javascript" src="../../layer/layer.js"></script>
+		<script src="../../../wzlm2/qt/layui/layui/layui.js"></script>
+		<script src="../js/index.js"></script>
+		<script src="js/managePseon.js"></script>
+	</body>
+
+</html>

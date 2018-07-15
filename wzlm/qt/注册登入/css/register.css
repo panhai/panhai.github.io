@@ -1,0 +1,183 @@
+#content {
+	height: 978px;
+	background: #64A0FF url('../img/aaa.png') no-repeat 100% 100%;
+	background-size: 100% 798px;
+}
+
+#content .box {
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+#content .box .main {
+	width: 540px;
+	height: 720px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	background-color: #fff;
+	padding: 0 40px;
+	box-sizing: border-box;
+}
+
+.main h1 {
+	text-align: center;
+	height: 63px;
+	line-height: 63px;
+	padding-top: 10px;
+}
+
+.main .hr {
+	height: 1px;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.main .hr img {
+	height: 1px;
+	width: 100%;
+	vertical-align: top;
+}
+
+.myForm p {
+	height: 50px;
+	line-height: 50px;
+	width: 100%;
+	margin: 15px 0px;
+	font-size: 16px;
+}
+
+.myForm p span {
+	margin: 4px;
+	font-weight: 700;
+}
+
+.myForm p input {
+	height: 38px;
+	line-height: 38px;
+}
+
+.inp {
+	width: 350px;
+}
+
+.inp2 {
+	width: 210px;
+	margin-right: 141px;
+}
+
+.myForm .getp {
+	position: relative;
+}
+
+#get {
+	position: absolute;
+	right: 40px;
+	top: 359px;
+	width: 130px;
+	height: 41px;
+	line-height: 41px;
+	text-align: center;
+	background-color: #CCCCCC;
+	color: #fff;
+	cursor: pointer;
+}
+
+#read {
+	width: 100%;
+	height: 190px;
+	position: relative;
+	top: -20px;
+}
+
+#read .left {
+	width: 20%;
+	height: 100%;
+	padding-top: 3px;
+}
+
+#read .right {
+	width: 80%;
+	height: 100%;
+}
+
+.protocol {
+	color: #64A0FF;
+	text-decoration: underline;
+}
+
+#read .right p {
+	height: 30px;
+	line-height: 30px;
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+	padding-left: 5px;
+}
+
+.myForm .btn {
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	font-size: 18px;
+	border: none;
+	background-color: #ff2c40;
+	margin-left: 81px;
+	display: block;
+	cursor: pointer;
+	position: relative;
+	top: -15px;
+}
+
+.agree {
+	width: 300px;
+	height: 30px;
+	line-height: 30px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.ag {
+	width: 14px;
+	height: 14px;
+	text-align: center;
+	position: relative;
+	top: 7px;
+	margin-right: 10px;
+	border: 2px solid #ed8a89;
+	cursor: pointer;
+}
+
+.ag img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	border: none;
+	width: 100%;
+	height: 100%;
+}
+#footer{
+	background-color: #fff;
+	color: #343434;
+}
+.goin{
+	margin-left: 10px;
+	color: #ff2c40;
+	text-decoration: underline;
+}
+form .preimg {
+	position: relative;
+}
+.preimg img{
+	position: absolute;
+	left: 115px;
+	bottom: -10px;
+	display: none;
+}

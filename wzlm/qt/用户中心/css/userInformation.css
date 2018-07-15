@@ -1,0 +1,137 @@
+.toblue {
+	color: #5192ff;
+}
+
+.for-box {
+	width: 100%;
+	height: auto;
+	position: relative;
+	border-top: 1px solid #dcdcdc;
+	padding: 10px 0px 30px 0px;
+}
+
+.xiugai {
+	position: absolute;
+	right: 0px;
+	top: -25px;
+}
+
+.xiugai a {
+	text-decoration: underline;
+	color: #dc201e;
+}
+
+.for-box>p {
+	height: 34px;
+	padding: 8px 0px;
+}
+
+.for-adress {
+	position: absolute;
+	left: 0px;
+	top: -42px;
+	width: 120px;
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	border-bottom: 1px solid #3d88ff;
+}
+
+.relien {
+	text-decoration: underline;
+	color: #dc201e;
+}
+
+.for-box .l,
+.for-box .k {
+	display: inline-block;
+}
+
+.for-box .l {
+	width: 90px;
+}
+
+.inp {
+	height: 32px;
+	line-height: 32px;
+	width: 300px;
+}
+
+.k select {
+	width: 119px;
+	height: 32px;
+	line-height: 32px;
+}
+
+.bl {
+	margin: 20px 0px;
+}
+
+.jixun {
+	position: absolute;
+	right: 0px;
+	top: -25px;
+}
+
+input {
+	border-color: #DCDCDC;
+	outline: none;
+}
+
+.for-box .baocun,
+.for-box .quexiao {
+	display: inline-block;
+	width: 202px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	letter-spacing: 10px;
+	font-size: 16px;
+	margin: 0px 10px;
+}
+
+.baocun {
+	background-color: #dc201e;
+}
+
+.quexiao {
+	background-color: #3d88ff;
+}
+
+.submiBox {
+	text-align: center;
+	padding: 20px 0px;
+}
+
+#password {
+	border: none;
+	width: 80px;
+}
+
+.caozuo {
+	color: #5192ff;
+}
+
+.caozuo a {
+	color: #5192ff;
+}
+
+.myTable {
+	border: none;
+	margin-bottom: 40px;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+.myTable td,
+.myTable th {
+	border: none;
+}
+
+.myTable tr {
+	height: 54px;
+	border-bottom: solid 1px #d0dee5;
+}

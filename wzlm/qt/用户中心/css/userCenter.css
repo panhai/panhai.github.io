@@ -1,0 +1,83 @@
+.heade-img {
+	height: 70px;
+	padding: 10px 2px;
+}
+
+.dir {
+	height: 70px;
+	padding-left: 13px;
+	box-sizing: border-box;
+}
+
+.dir p {
+	height: 35px;
+	line-height: 35px;
+}
+
+.dir p a {
+	background-color: #ff2738;
+	padding: 4px 10px;
+	color: #fff;
+	margin: 0px 5px;
+}
+
+.info {
+	height: auto;
+	border-top: 1px solid #DCDCDC;
+	position: relative;
+	top: 50px;
+}
+
+.info-box {
+	position: absolute;
+	left: 0px;
+	top: -32px;
+	height: 32px;
+	width: 120px;
+	text-align: center;
+	line-height: 32px;
+	color: #fff;
+	background-color: #3d88ff;
+}
+
+.list1 {
+	height: 111px;
+	padding: 10px 0px 0px 10px;
+}
+
+.list2,
+.list3 {
+	height: 184px;
+	padding: 28px 0px 0px 10px;
+	box-sizing: border-box;
+}
+
+.list2 p a {
+	margin: 0px 20px;
+}
+
+.list2 p.m a {
+	margin: 0px 28px;
+}
+
+.list2 p.to a:hover {
+	color: #ff2738;
+}
+
+.info span.blue {
+	color: #3d88ff;
+}
+
+.list3 span {
+	color: #eaeaea;
+	margin: 9px;
+}
+
+.list3 a:hover {
+	color: #ff2738;
+}
+
+.disabled {
+	color: #CCCCCC !important;
+	cursor: not-allowed;
+}

@@ -1,0 +1,183 @@
+.tored {
+	color: #ff2c40;
+}
+
+#content {
+	height: 880px;
+	background: #64A0FF url('../img/aaa.png') no-repeat center center;
+	background-size: cover;
+}
+
+#footer {
+	background-color: #fff;
+	position: relative;
+}
+
+#footer .box p {
+	color: #333;
+}
+
+.contenBox {
+	position: relative;
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.loginbox {
+	position: absolute;
+	width: 422px;
+	height: 371px;
+	left: 50%;
+	top: 122px;
+	margin-left: -211px;
+	padding: 0 30px;
+	box-sizing: border-box;
+	background-color: #fff;
+}
+
+.layui-tab-title {
+	text-align: center;
+}
+
+.layui-tab-title>li {
+	display: inline-block;
+	width: 30%;
+}
+
+.layui-tab-brief>.layui-tab-title .layui-this {
+	color: #ff2c40;
+}
+
+#phone {
+	text-indent: 5px;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	margin: 10px 0 16px 0;
+}
+
+#phonetest {
+	text-indent: 5px;
+	width: 190px;
+	height: 38px;
+	line-height: 40px;
+}
+
+.get {
+	width: 140px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	background: #CCCCCC;
+	color: #fff;
+	border: 1px solid #CCCCCC;
+	margin-top: 9px;
+	cursor: pointer;
+}
+
+.zhu {
+	text-indent: 5px;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+}
+
+form {
+	position: relative;
+}
+
+input {
+	text-indent: 5px;
+	width: 100%;
+	height: 38px;
+	line-height: 38px;
+	display: inline-block;
+	border: 1px solid #c9c9c9;
+	margin: 10px 0 16px 0;
+}
+
+#code {
+	width: 190px;
+}
+
+.codeImg {
+	width: 140px;
+	height: 38px;
+	line-height: 38px;
+	margin-top: 10px;
+	text-align: center;
+	border: 1px solid #CCCCCC;
+	cursor: pointer;
+}
+
+.btn {
+	position: absolute;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	letter-spacing: 14px;
+	border: none;
+	background: #ff2c40;
+	bottom: -96px;
+	left: 74px;
+}
+
+.toBg {
+	color: #ff2c40;
+}
+
+.box-c {
+	height: 30px;
+	line-height: 30px;
+}
+
+.btn2 {
+	position: relative;
+	left: 76px;
+	top: -6px;
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	letter-spacing: 15px;
+	color: #fff;
+	background-color: #ff2c40;
+	border: none;
+	cursor: pointer;
+}
+
+.box-d {
+	height: 30px;
+	line-height: 30px;
+	width: 100%;
+}
+
+.box-d a {
+	margin: 8px;
+}
+
+.layui-tab {
+	position: relative;
+}
+.layui-tab div.line{
+	position: absolute;
+	z-index: 100;
+	left: 0px;
+	top: 39px;
+	width: 100%;
+	height: 2px;
+	background-color: #aba8a8;
+}
+
+.move{
+	position: relative;
+	left: 40px;
+	top: 0px;
+	width:40%;
+	height: 2px;
+	background-color: #ff2738;
+}

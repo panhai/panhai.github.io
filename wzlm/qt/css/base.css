@@ -1,0 +1,49 @@
+blockquote, body,html, button,td,th, dd, div, dl, dt, form, h1, h2, h3, h4, h5, h6, input, p,li, ol, p, pre,table, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+body{
+	 font-size: 14px; line-height: 1.428em; 
+	 font-family: "微软雅黑";
+}
+
+.clearfix::before,.clearfix::after {
+	content: ".";
+	display: block;
+	visibility: hidden;
+	clear: both;
+	height: 0;
+}
+* html .clearfix{  
+    zoom:1;  
+}
+
+.fl{
+	float:left;
+}
+.fr{
+	float: right;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #333333;
+}
+img{
+	border: none;
+}
+span,a,img,input,select,button{
+	vertical-align: middle;
+}
+input{
+	text-indent: 5px;
+}
+button{
+	border: none;
+	cursor: pointer;
+}
+select{
+	padding: 6px;
+}

@@ -1,0 +1,135 @@
+
+/*管理员设置*/
+.search form{
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 30px;
+}
+.search form input{
+	height: 28px;
+	line-height: 28px;
+	width: 210px;
+}
+.search form .btn{
+	height: 30px;
+	width:64px;
+	color: #fff;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 5px;
+	background-color: #ff2c40;
+	margin: 0px 20px 0px 14px;
+}
+.search form .add{
+	width: 100px;
+	line-height: 30px;
+	height: 30px;
+	background-color: #64a0ff;
+	color: #fff;
+	
+}
+/*表格内容*/
+.tab-box table{
+	width: 100%;
+	border: none;
+	text-align: center;
+}
+.tab-box table,.tab-box tr,.tab-box th,.tab-box td{
+	border: none;
+}
+.tab-box table th{
+	height: 51px;
+	background-color: #e8ebff;
+}
+.tab-box table tr{
+	height: 42px;
+	width: 100%;
+}
+.tab-box table td{
+	border-bottom: 1px solid #CCCCCC;
+}
+.tab-box table td a{
+	color: #64a0ff;
+}
+.tab-box table td a:hover{
+	color: #ff2c40;
+}
+.tab-box td{
+	position: relative;
+}
+.tab-box input{
+	position: absolute;
+	left: 0px;
+	top: 12px;
+	z-index: 3;
+	opacity: 0;
+	filter: alphp(opacity=0);
+	width: 16px;
+	height: 16px;
+}
+.tab-box td .tg{
+	width: 15px;
+	height: 15px;
+	line-height: 10px;
+	text-align: center;
+	background: url('../img/chekbox.jpg') no-repeat 1px 1px;
+}
+.tab-box td .tg img{
+	display: none;
+}
+/*分页和删除操作*/
+.pageing {
+	height: 72px;
+	line-height: 72px;
+	margin-bottom: 50px;
+}
+.pageing .left{
+	width: 30%;
+}
+.pageing .right{
+	width: 70%;
+	padding-right: 30px;
+	box-sizing: border-box;
+	text-align: right;
+}
+.pageing .right i,.pageing .right a,.pageing .right button,.pageing .right span{
+	margin: 0px 6px;
+	vertical-align: middle;
+}
+.chek{
+	color: #fff;
+	background-color: #64a0ff;
+}
+.pageing .right i,.pageing .right a{
+	cursor: pointer;
+}
+.pageing .right a {
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	display: inline-block;
+}
+.pageing .right button{
+	display: inline-block;
+	width: 60px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	color: #fff;
+	background-color: #64a0ff;
+}
+.pageing .all,.pageing .delete{
+	width: 60px;
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	border: 1px solid #CCCCCC;
+	background-color: #fff;
+	margin: 0px 5px;
+}
+.pageing .bor{
+	background-color: #64a0ff;
+	border: none;
+	color: #fff;
+}

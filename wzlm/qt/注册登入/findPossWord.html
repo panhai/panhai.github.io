@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>学而好广告联盟注册</title>
+		<meta name="renderer" content="webkit">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/header-footer.css"/>
+		<link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="../layui/layui/css/modules/layer/default/layer.css"/>
+		<link rel="stylesheet" type="text/css" href="css/findPossWord.css"/>
+		<!--[if IE]>
+			<style>
+			  .main .hr{background-color: red;}
+			  .hold{}
+			</style>
+		<![endif]-->
+	</head>
+	<body>
+		<!--header-->
+		<div id="header">
+			<div class="title">
+				<div class="title-box">
+					<span>欢迎进入学而好教育网站联盟!</span>
+					<img src="../images/images/rt.png"/>
+					<a href="" style="color: #ff2c40;">登录</a>
+					<span>|</span>
+					<a href="" class="tored">注册</a>
+				</div>
+			</div>
+			<div class="logo">
+				<div class="logo-box">
+					<div class="logo-left fl">
+						<a href=""><img src="../images/images/logo.png"/></a>
+						<a><img src="../images/images/jy.png" class="line"/></a>
+						<a href=""><h1>网站联盟</h1></a>
+					</div>
+					<div class="logo-right fr">
+						<a href="">
+							<div class="navbox">
+								<img src="../images/images/affiche.png" />
+								<a href="">网盟公告</a>
+							</div>
+						</a>
+						<a href="">
+							<div class="navbox mr">
+								<img src="../images/images/znan.png" />
+								<a href="">联盟指南</a>
+							</div>
+						</a>
+						<a href="">
+							<div class="navbox mr">
+								<img src="../images/images/gonggao.png" />
+								<a href="">用户中心</a>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 主体 -->
+		<div id="content">
+			<div class="box">
+				<div class="main">
+					<h1>找回密码</h1>
+					<div class="hr">
+						<img src="img/hr.png" />
+					</div>
+					<form action="" method="post" class="myform">
+						<p>
+							<label for="phone">手机号码<span>:</span></label>
+							<input class="hold ned" type="text" name="pbone" id="pbone" value="" placeholder="请填写手机号码"/>
+						</p>
+						<p class="getCode">
+							<label for="code">验证码<span>:</span></label>
+							<input type="text" class="ned" name="code" placeholder="请填写验证码" id="code" value="" class="code-inp"/>
+						</p>
+						<div id="gets">
+							<span>获取验证码</span>
+						</div>
+						<p>
+							<label for="newPassWord">新密码<span>:</span></label>
+							<input type="password" class="ned" placeholder="请填写新密码" name="newPassWord" id="newPassWord" value="" />
+						</p>
+						<p>
+							<label for="confirm">确认密码<span>:</span></label>
+							<input type="password" class="ned" placeholder="请确认密码" name="confirm" id="confirm" value="" />
+						</p>
+						<button class="btn" id="formPhoneBtn">确认</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!--模态框-->
+		<div class="zezhao"></div>
+		<!-- 修改成功时显示的提示框 -->
+		<div class="fontPass">
+			<h2>温馨提示！<i class="fa fa-close fr"></i></h2>
+			<div class="box">
+				<p>
+					<img src="img/renTou.png"/>
+				</p>
+				<p class="r-bg">
+					恭喜您，密码修改成功！
+				</p>
+				<p>
+					<a href="">
+						<button class="goBtn">马上登录</button>
+					</a>
+				</p>
+			</div>
+		</div>
+		<!--footer-->
+		<div id="footer">
+			<div class="box">
+				<p>
+					<span>版本所有&nbsp;Copyright&nbsp;2008-2015&nbsp;粤ICP备14009694号&nbsp;www.studyems.com,&nbsp;Inc.&nbsp;All&nbsp;Rights&nbsp;Reserved</span>
+				</p>
+			</div>
+		</div>
+		
+		<script src="../js/jquery.min.js" charset="utf-8"></script>
+		<script src="../layui/layui/lay/modules/layer.js"></script>
+		<script src="js/findPossWord.js"></script>
+	</body>
+</html>

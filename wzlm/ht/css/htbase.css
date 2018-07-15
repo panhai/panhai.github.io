@@ -1,0 +1,141 @@
+body {
+	width: 100%;
+	color: #333333;
+	background-color: #F5F5F5;
+}
+
+#header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 66px;
+	background-color: #64a0ff;
+	padding: 0px 24px;
+	box-sizing: border-box;
+}
+
+#header .left {
+	width: 50%;
+	height: 66px;
+	line-height: 66px;
+}
+
+#header .right {
+	width: 50%;
+	height: 66px;
+	line-height: 66px;
+	text-align: right;
+	color: #fff;
+}
+
+#header .left h1 {
+	color: #fff;
+}
+
+#header .right .h {
+	display: inline;
+	cursor: pointer;
+	margin-left: 10px;
+}
+
+#header .right .h a {
+	color: #fff;
+	margin: 8px;
+}
+
+
+/*内容*/
+
+#content {
+	padding-top: 66px;
+	position: relative;
+}
+
+
+/*左侧导航*/
+
+.content-nav {
+	width: 200px;
+	background-color: #f6f6f6;
+	box-sizing: border-box;
+	overflow-y: auto;
+}
+
+.content-nav .box li {
+	height: 40px;
+	line-height: 40px;
+	position: relative;
+	padding-left: 24px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #dcdcdc;
+	color: #333333;
+}
+.box .navList{
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px dotted #DCDCDC;
+}
+.box .navList:hover a{
+	color: #2a7cff;
+}
+.box div.active a{
+	color: #2a7cff;
+}
+.content-nav .box li img {
+	margin-right: 15px;
+}
+
+.content-nav .box li i {
+	color: #2a7cff;
+	font-size: 20px;
+	position: absolute;
+	right: 8px;
+	top: 8px;
+}
+
+.content-nav .box li:hover {
+	color: #2a7cff;
+}
+
+/*右侧内容块*/
+
+.content-main {
+	width: "";
+	height: "";
+	overflow-y: auto;
+	overflow-x: auto;
+	position: absolute;
+	right: 0px;
+}
+
+.main-box {
+	overflow-y: auto;
+	overflow-x: auto;
+	width: 100%;
+	height: 100%;
+	padding: 10px 24px;
+	box-sizing: border-box;
+	background-color: #fff;
+}
+
+.main-box .url {
+	height: 48px;
+	line-height: 48px;
+}
+
+
+/*选着的当前nav*/
+
+.content-nav .box li.navVolor{
+	background-color:#297cfe;
+	color: #fff !important;
+}
+
+.content-nav .box li.navVolor i{
+	color: #fff;
+}
+.content-nav .box li.navVolor span{
+	color: #fff;
+}

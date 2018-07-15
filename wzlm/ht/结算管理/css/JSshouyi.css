@@ -1,0 +1,318 @@
+/*标题线*/
+.red{
+	color: #ff2c40;
+}
+.line{
+	position: relative;
+	height: 34px;
+	line-height: 34px;
+	border-bottom: 1px solid #dcdcdc;
+}
+.line h3{
+	position: absolute;
+	top: -1px;
+	height: 34px;
+	width: 100px;
+	border-bottom: 2px solid #2a7cff;
+	
+}
+.line span{
+	position: relative;
+	left: 120px;
+	color: #ff3a4d;
+}
+/*搜索栏目*/
+.bo{
+	margin-right:8px ;
+}
+.searchBox{
+	height: 78px;
+	line-height: 78px;
+}
+.chek{
+	margin: 0px 9px;
+	position: relative;
+}
+.chek .tg{
+	margin: 0px 5px;
+	width: 15px;
+	height: 15px;
+	text-align: center;
+	line-height: 15px;
+	background: url('../img/radioboxs.jpg') no-repeat 2px 3px;
+	margin-top: 30px;
+}
+.searchBox .chek input{
+	position: absolute;
+	width: 105px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	z-index: 10;
+	left: 7px;
+	top: 33px;
+	opacity: 0;
+	filter:alpha(opacity=0); 
+}
+
+input {
+	width: 105px;
+	width: 105px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+}
+
+.ck i{
+	position: relative;
+	left: -20px;
+}
+.mk{
+	margin-right: 10px;
+}
+.submit{
+	width: 86px;
+	height: 32px;
+	text-align: 30px;
+	line-height:32px;
+	color: #fff;
+	letter-spacing: 2px;
+	background-color: #ff2738;
+	margin-left: 10px;
+}
+/*信息表格*/
+.massgeBox table{
+	width: 100%;
+	text-align: center;
+}
+.massgeBox table th{
+	height: 60px;
+	line-height: 60px;
+	background-color: #e8eaff;
+}
+.massgeBox table td{
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #CCCCCC;
+}
+.massgeBox table td a:hover{
+	color: #ff2738;
+}
+.massgeBox table td .jE{
+	color: #ff2738;
+}
+.wrap {
+	letter-spacing: 2px;
+}
+.wrap a{
+	color: #ff2738;
+}
+
+/*分页和删除操作*/
+.pageing {
+	height: 72px;
+	line-height: 72px;
+	margin-bottom: 50px;
+}
+.pageing .left{
+	width: 30%;
+}
+.pageing .right{
+	width: 70%;
+	padding-right: 30px;
+	box-sizing: border-box;
+	text-align: right;
+}
+.pageing .right i,.pageing .right a,.pageing .right button,.pageing .right span{
+	margin: 0px 6px;
+	vertical-align: middle;
+}
+.chk{
+	color: #fff;
+	background-color: #64a0ff;
+}
+.pageing .right i,.pageing .right a{
+	cursor: pointer;
+}
+.pageing .right a {
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	display: inline-block;
+}
+.pageing .right button{
+	display: inline-block;
+	width: 60px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	color: #fff;
+	background-color: #64a0ff;
+}
+.pageing .all,.pageing .delete{
+	width: 60px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border: 1px solid #CCCCCC;
+	background-color: #fff;
+	margin: 0px 5px;
+}
+.pageing .bor{
+	background-color: #64a0ff;
+	border: none;
+	color: #fff;
+}
+.over,.noover{
+	width: 106px;
+	line-height: 30px;
+	height: 30px;
+	text-align: center;
+	margin: 0px 5px;
+}
+.Dj{
+	color: #679bfe;
+}
+
+/*退款原因*/
+.motai{
+	position: fixed;
+	width:100%;
+	height: 100%;
+	background-color: #000000;
+	opacity: 0.5;
+	filter:alpha(opacity=50);
+	display: none;
+}
+.tuiWhyBox{
+	width: 500px;
+	height: 400px;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	z-index: 20;
+	margin: auto;
+	background-color: #fff;
+	display: none;
+}
+
+.tuiWhyBox h3{
+	height: 40px;
+	color: #fff;
+	line-height: 40px;
+	background-color: #3d88ff;
+	padding: 0px 20px;
+}
+.tuiWhyBox h3 i{
+	position: relative;
+	left: 384px;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+.tuiWhyBox .box{
+	padding: 0px 30px;
+}
+.tuiWhyBox .box .in{
+	margin: 10px 0px;
+	
+}
+.tuiWhyBox .box .in input.inp{
+	width: 295px;
+	height: 32px;
+	line-height: 32px;
+	text-align: left;
+}
+							
+.tuiWhyBox .box .in textarea{
+	resize: none;
+	margin-left: 5px;
+}
+.tuiWhyBox .box .inbtn{
+	text-align: center;
+	padding: 40px 0px 10px 0px;
+}
+.tuiWhyBox .box .in button{
+	width:90px;
+	height: 32px;
+	line-height: 32px;
+	margin: 0px 4px;
+}
+/*退款详情*/
+.tuiMsgBox{
+	width: 500px;
+	height: 400px;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	z-index: 20;
+	margin: auto;
+	background-color: #fff;
+	display: none;
+}
+
+.tuiMsgBox h3{
+	height: 40px;
+	color: #fff;
+	line-height: 40px;
+	background-color: #3d88ff;
+	padding: 0px 20px;
+}
+.tuiMsgBox h3 i{
+	position: relative;
+	left: 384px;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+.tuiMsgBox .box p{
+	height: 45px;
+	line-height: 45px;
+}
+.tuiMsgBox .box{
+	padding: 0px 30px;
+}
+.ck{
+	position: relative;
+}
+/*选着月份*/
+.month-box{
+	position: absolute;
+	left: 0px;
+	top: 59px;
+	width: 154px;
+	height: 196px;
+	box-sizing: border-box;
+	z-index: 2;
+	border: 1px solid #CCCCCC;
+	background-color: #fff;
+	display: none;
+}
+.month-box li{
+	width: 50px;
+	line-height: 34px;
+	height: 34px;
+	text-align: center;
+	background-color: #fff;
+	float: left;
+}
+.month-box li:hover{
+	background-color: #009E94;
+	color: #fff;
+}
+.month-box button{
+	position: relative;
+	left: 100px;
+	width: 40px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	border: 1px solid #ccc;
+	background-color: #fff
+}
+.month-box button:hover{
+	color: #009E94;
+}

@@ -1,0 +1,370 @@
+
+ .box li.navVolor{
+	background-color:#297cfe;
+	color: #fff !important;
+}
+
+.content-nav .box li.navVolor i{
+	color: #fff;
+}
+.content-nav .box li.navVolor span{
+	color: #fff;
+}
+
+/*标题组件框*/
+.titleBox h3{
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	background-color: #e8ebff;
+}
+.table-one {
+	width: 100%;
+}
+.table-one tr{
+	height: 55px;
+	line-height: 55px;
+}
+.table-one tr .inp{
+	display: inline-block;
+	width: 178px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #dcdcdc;
+	text-align: center;
+}
+.table-one tr{
+	font-size: 0px;
+}
+.table-one tr td span{
+	font-size: 14px;
+}
+td.leftBoc{
+	text-align: left;
+	text-indent: 25px;
+}
+/*表格2*/
+.table-two {
+	width: 100%;
+}
+.table-two tr{
+	height: 55px;
+	line-height: 55px;
+}
+.table-two tr .inp{
+	display: inline-block;
+	width: 178px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #dcdcdc;
+	text-align: center;
+}
+.table-two tr{
+	font-size: 0px;
+}
+.table-two tr td span{
+	font-size: 14px;
+}
+.table-two tr td i{
+	position: relative;
+	left: 33px;
+}
+.table-two  .mar{
+	margin: 6px;
+}
+.inp-t{
+	margin-left: 14px;
+}
+/*推广网站表格*/
+.cont-box table{
+	width: 100%;
+	text-align: center;
+}
+.tuiTable th{
+	height: 58px;
+	line-height: 58px;
+	border-bottom: 1px solid #DCDCDC;
+	
+}
+.tuiTable td{
+	height: 44px;
+	border-bottom: 1px solid #DCDCDC;
+	
+}
+.tuiTable td span,.tuiTable td a{
+	color: #3d88ff;
+}
+.tuiTable td span:hover,.tuiTable td a:hover{
+	color: #dc201e;
+}
+
+/*分页和删除操作*/
+/*分页和删除操作*/
+.pageing {
+	height: 72px;
+	line-height: 72px;
+	margin-bottom: 50px;
+}
+.pageing .left{
+	width: 30%;
+}
+.pageing .right{
+	width: 70%;
+	padding-right: 30px;
+	box-sizing: border-box;
+	text-align: right;
+}
+.pageing .right i,.pageing .right a,.pageing .right button,.pageing .right span{
+	margin: 0px 6px;
+	vertical-align: middle;
+}
+.chek{
+	color: #fff;
+	background-color: #64a0ff;
+}
+.pageing .right i,.pageing .right a{
+	cursor: pointer;
+}
+.pageing .right a {
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	display: inline-block;
+}
+.pageing .right button{
+	display: inline-block;
+	width: 60px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #fff;
+	background-color: #64a0ff;
+}
+.pageing .all,.pageing .delete{
+	width: 60px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border: 1px solid #CCCCCC;
+	background-color: #fff;
+	margin: 0px 5px;
+}
+.pageing .bor{
+	background-color: #64a0ff;
+	border: none;
+	color: #fff;
+}
+.over,.noover{
+	width: 106px;
+	line-height: 30px;
+	height: 30px;
+	text-align: center;
+	margin: 0px 5px;
+}
+.Dj{
+	color: #679bfe;
+}
+.now{
+	display: inline-block;
+	width: 40px;
+	height: 28px;
+	text-align: center;
+	line-height: 28px;
+	text-indent: 0px;
+	padding: 0px;
+	margin: 0px;
+	border: 1px solid #999;
+}
+
+
+/*表格3*/
+
+.table-three {
+	width: 100%;
+	margin: 20px 0px;
+}
+
+.table-three tr{
+	height: 55px;
+	line-height: 55px;
+}
+.table-three tr .inp{
+	display: inline-block;
+	width: 270px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #dcdcdc;
+	text-align: center;
+	margin-left: 5px;
+}
+.table-three tr{
+	font-size: 0px;
+}
+.table-three tr td span{
+	font-size: 14px;
+}
+
+/*等级设置与审核*/
+.cont-box form{
+	width: 100%;
+}
+.kin{
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+}
+.kin>div{
+	float: left;
+	margin: 0px 10px;
+	position: relative;
+}
+.kin>div input{
+	position: absolute;
+	left: 2px;
+	top: 33px;
+	z-index: 2;
+	opacity: 0;
+	filter: alphp(opacity=0);
+}
+.kin>div .tg{
+	width: 15px;
+	height: 15px;
+	text-align: center;
+	line-height: 15px;
+	background: url('../img/radioboxs.jpg') no-repeat 2px 3px;
+	margin-top: 31px;
+	margin-right: 5px;
+}
+.kin>div .tg img{
+	display: none;
+	margin: 3px 1px 0px 2px;
+}
+.kin>div .show img{
+	display: block;
+}
+
+.cont-box .box{
+	margin-top: 33px;
+}
+.myform{
+	font-size: 14px;
+	color: #333;
+}
+.cont-box .box>div{
+	margin-bottom: 18px;
+}
+.cont-box .box>div input{
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	margin: 0px 12px 0px 23px;
+}
+
+
+.tj{
+	text-align: center;
+	margin: 20px 0px 100px 0px;
+}
+.tj .btn,.tj .reset {
+	width: 200px;
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+	color: #fff;
+	letter-spacing: 4px;
+	border: none;
+	cursor: pointer;
+	margin: 0px 10px;
+}
+.tj .btn{
+	background-color: #dc201e;
+}
+.tj .reset {
+	background-color: #3d88ff;
+}
+
+/*修改推广网站信息*/
+.change{
+	width: 500px;
+	height: 460px;
+	position: fixed;
+	z-index: 40;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	background-color: #fff;
+	display: none;
+}
+.change h3{
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	background-color: #3d88ff;
+	text-align: left;
+	padding: 0px 10px;
+}
+.change h3 i{
+	position: relative;
+	left: 366px;
+	top: 1px;
+	cursor: pointer;
+}
+.change form{
+	width: 100%;
+	padding: 0px 30px;
+	box-sizing: border-box;
+}
+.change form table{
+	width: 100%;
+}
+.change form tr{
+	height: 72px;
+}
+.change form table input{
+	width: 320px;
+	height: 34px;
+	line-height: 34px;
+}
+.change form button{
+	width: 300px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	background-color: #ff2738;
+	position: relative;
+	left: 82px;
+	top: 20px;
+	color: #fff;
+	font-size: 16px;
+	letter-spacing: 2px;
+}
+/*模态框*/
+.motai{
+	width:100%;
+	height:100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	background-color: black;
+	opacity: 0.5;
+	filter:alpha(opacity=50);
+	display: none;
+}
+.bank{
+	position: relative;
+}
+.newnum{
+	position: absolute;
+	left: 100px;
+	top: 12px;
+	display: block;
+	width: 240px;
+	height: 30px;
+	line-height: 30px;
+	background-color: #fff;
+}

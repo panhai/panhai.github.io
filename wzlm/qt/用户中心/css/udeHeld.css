@@ -1,0 +1,75 @@
+	.paging p {
+		height: 35px;
+		line-height: 35px;
+		text-align: center;
+	}
+	
+	.num {
+		display: inline-block;
+		width: 35px;
+		height: 31px;
+		text-align: center;
+		line-height: 31px;
+		cursor: pointer;
+	}
+	
+	.numblue {
+		background-color: #64a0ff;
+		color: #fff;
+		cursor: pointer;
+	}
+	
+	.quedain {
+		width: 64px;
+		cursor: pointer;
+	}
+	
+	.now {
+		display: inline-block;
+		padding: 0 12px;
+		max-width: 90px;
+		overflow: hidden;
+		height: 31px;
+		line-height: 31px;
+		text-align: center;
+		border: 1px solid #5c5d63;
+		margin-left: 3px;
+		cursor: pointer;
+	}
+	
+	#totop {
+		position: fixed;
+		right: 5px;
+		bottom: 50px;
+		width: 40px;
+		padding: 10px 15px;
+		text-align: center;
+		background-color: #CCCCCC;
+		color: #e37171;
+		cursor: pointer;
+	}
+	
+	.usehelp {
+		height: 126px;
+		text-align: center;
+		line-height: 126px;
+		color: #333333;
+		font-size: 26px;
+	}
+	
+	.make {
+		color: #3D88FF;
+	}
+	
+	.display {
+		text-indent: 2em;
+	}
+	
+	.specifications {
+		line-height: 34px;
+		padding-bottom: 50px;
+	}
+	
+	.hoverlist {
+		color: #3d88ff;
+	}

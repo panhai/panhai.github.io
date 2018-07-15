@@ -1,0 +1,292 @@
+
+
+/*bannner*/
+#bannner{
+	height: 530px;
+	background-color: #0050b3;
+	background-image: url(../images/images/banner-bg.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.banner-box {
+	width: 1200px;
+	height: 530px;
+	margin: 0 auto;
+	position: relative;
+}
+.banner-box p{
+	position: absolute;
+	width: 480px;
+	height: 40px;
+	line-height: 40px;
+	overflow: hidden;
+	color: #121212;
+	background-color: #fff220;
+	left: 169px;
+	top: 156px;
+	font-family: "微软雅黑";
+	border-radius: 4px;
+	text-align: center;
+	letter-spacing: 3px;
+	font-weight: 800;
+}
+/*我的平台*/
+#myPlaform {
+	height: 565px;
+	background: url(../images/images/pingtai.png) no-repeat center center;
+	background-color: #FFFFFF;
+}
+
+#myPlaform .myPlaform-box{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+	background: url(../images/images/pingtai.png) no-repeat center center;
+}
+
+#myPlaform .myPlaform h3{
+	padding-top: 120px;
+	font-size: 34px;
+	font-family: "微软雅黑";
+	color: black;
+	text-align: center;
+} 
+#myPlaform .content-box {
+	width: 717px;
+	height: 153px;
+	margin: 0 auto;
+	margin-top: 43px;
+}
+#myPlaform .content-box p{
+	letter-spacing: 2px;
+	margin: 5px 0;
+}
+#myPlaform .content-box span{
+	line-height: 20px;
+}
+
+#myPlaform .content-box .red{
+	color: red;
+	margin-right: 10px;
+}
+
+.myPlaform-box .look{
+	position: absolute;
+	bottom: 148px;
+	left: 460px;
+	width: 280px;
+	height: 45px;
+	background-color: #ff2738;
+	border-radius: 10px;
+	line-height: 45px;
+	text-align: center;
+	cursor: pointer;
+	letter-spacing: 2px;
+}
+
+.myPlaform-box .look a{
+	color: #fff;
+	font-weight: 800;
+}
+
+/*我的优势*/
+#MyStrength{
+	position: relative;
+	height: 1010px;
+	background: url(../images/images/youshibig.png) no-repeat center center;
+	background-size: cover;
+	background-color: #64a0ff;
+}
+#MyStrength h2{
+	position: relative;
+	font-size: 34px;
+	text-align: center;
+	width: 250px;
+	margin: 0 auto;
+	top: 45px;
+}
+#MyStrength  .box{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+	background: url(../images/images/youshi.png) no-repeat center center;
+}
+#MyStrength .box .div{
+	position: relative;
+	width: 320px;
+	height: 122px;
+	background-color: #fff;
+	z-index: 3;
+	padding: 24px 0px 0px 14px;
+	box-sizing: border-box;
+}
+#MyStrength .box .div p{
+	width: 280px;
+	height: 70px;
+	font-size: 15px;
+	letter-spacing: 2px;
+	line-height: 22px;
+}
+#MyStrength  .box div.a{
+	left: 88px;
+	top: 165px;
+}
+#MyStrength  .box div.b{
+	left: 88px;
+	top: 283px;
+}
+#MyStrength .box div.c{
+	left: 88px;
+	top: 400px;
+}
+#MyStrength .box div.d{
+	left: 795px;
+	top: -80px;
+}
+#MyStrength .box div.e{
+	left:  795px;
+	top: 38px;
+}
+
+#MyStrength .btn{
+	position: absolute;
+	bottom: 70px;
+	left: 400px;
+	padding-top: 10px;
+	height: 64px;
+	width: 400px;
+	text-align: center;
+	color: #fff;
+	border: none;
+	border-radius: 0px 0px 7px 7px;
+	background-color: #ff2738;
+	letter-spacing: 3px;
+	font-size: 15px;
+	cursor: pointer;
+	font-weight: 800;
+}
+
+/*联盟流程*/
+#process{
+	height: 648px;
+	border-color: #fff;
+	font-weight: 800;
+	position: relative;
+	background: url("../images/images/lianmeng.png") no-repeat center center;
+	background-color: #FFFFFF;
+} 
+/*联盟流程*/
+#process .process-box{
+	position: relative;
+	height: 100%;
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+	background-color: #fff;
+	background:  url("../images/images/lianmeng.png") no-repeat center center;
+	background-color:  #FFFFFFf;
+}
+
+#process h2{
+	font-size: 34px;
+	text-align: center;
+	margin: 0 auto;
+	padding-top:63px;
+}
+#process .process-box div{
+	position: absolute;
+	padding: 20px;
+	cursor: pointer;
+}
+
+.process-box a:hover{
+	color: #ff2738;
+}
+#process .process-box>div span{
+	line-height: 25px;
+}
+#process .process-box .one{
+	left: 61px;
+	bottom: 170px;
+}
+#process .process-box .two{
+	left: 299px;
+	top: 212px;
+}
+#process .process-box .three{
+	left: 540px;
+	bottom: 175px;
+}
+#process .process-box .four{
+	right: 304px;
+	top: 211px;
+}
+#process .process-box .fire{
+	right: 62px;
+	bottom: 175px;
+}
+
+
+/*联系方式*/
+#touch{
+	height: 400px;
+	background:url(../images/images/qiantai.png) no-repeat center center;
+	background-size: cover;
+	background-color: #6097f3;
+}
+.touch-box{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.touch-box h2{
+	font-size: 34px;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 49px;
+}
+.touch-box p{
+	position: absolute;
+	left: 106px;
+	top: 126px;
+	width: 710px;
+	height: 68px;
+	line-height: 68px;
+	text-align: center;
+	font-size: 23px;
+	color: #fff;
+}
+.touch-box .fk{
+	width: 710px;
+	height:68px;
+	position: absolute;
+	left: 106px;
+	top: 126px;
+	z-index: 3;
+	
+}
+.touch-list {
+	position: absolute;
+	left: 106px;
+	top: 234px;
+	width: 590px;
+	height: 90px;
+}
+.touch-list>a:hover .touch-list span{
+	color: #FF2738;
+}
+.touch-list .list{
+	width: 33.33%;
+	height: 100%;
+	text-align: center;
+	color: #fff;
+}
+.touch-list .list img{
+	width: 39px;
+	height: 39px;
+	margin-bottom: 5px;
+}

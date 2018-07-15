@@ -1,0 +1,266 @@
+.content-list .title-line {
+	position: relative;
+	top: 11px;
+	width: 121px;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 3px solid #3d88ff;
+	font-size: 20px;
+	color: #333333;
+}
+
+.navbox-list {
+	display: block;
+	height: 60px;
+	line-height: 60px;
+}
+
+.navbox-list a {
+	color: #3D88FF;
+	margin-left: 23px;
+}
+
+hr {
+	height: 1px;
+	background-color: #dcdcdc;
+}
+
+.getred {
+	color: #ff2738;
+}
+
+.register {
+	width: 462px;
+	height: 338px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.register-title {
+	text-align: center;
+	height: 42px;
+	line-height: 42px;
+	color: #FFFFFF;
+	background-color: #3D88FF;
+	letter-spacing: 2px;
+}
+
+.btn-box {
+	text-align: center;
+}
+
+.btn-box .btn,
+.btn-box .reset {
+	width: 150px;
+	height: 31px;
+	text-align: center;
+	line-height: 31px;
+	border: none;
+	margin: 20px 5px;
+	color: #fff;
+	letter-spacing: 5px;
+}
+
+.btn-box .reset {
+	background-color: #3D88FF;
+}
+
+.btn-box .btn {
+	background-color: #ff2738;
+}
+
+.studyname input {
+	height: 30px;
+	line-height: 30px;
+	width: 280px;
+}
+
+.timebox input {
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	/*margin-top: 30px;*/
+}
+
+.timebox {
+	position: relative;
+}
+
+.timebox i.one,
+.timebox i.two {
+	position: absolute;
+	top: 10px;
+}
+
+.timebox i.one {
+	left: 164px;
+}
+
+.timebox i.two {
+	left: 310px;
+}
+
+.myForm {
+	padding: 30px 30px;
+}
+
+.myForm p {
+	height: 50px;
+	line-height: 50px;
+}
+
+.source span.k {
+	margin: 10px;
+}
+
+.mytable table {
+	table-layout: fixed;
+	width: 100%;
+	border-collapse: collapse;
+	text-align: center;
+	/*display: none;*/
+}
+
+th {
+	color: #4e4e4e;
+}
+
+tr {
+	height: 50px;
+}
+
+tr td:nth-child(5) {
+	font-weight: 800;
+}
+
+tr td:nth-child(6) {
+	font-weight: 800;
+}
+
+td {
+	border-bottom: 1px solid #D4D4D4;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.first {
+	background-color: #e8ebff;
+}
+
+td.tui {
+	color: #ff3545;
+}
+
+.paging {
+	margin-top: 50px;
+	display: none;
+}
+
+.paging p {
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+}
+
+.num {
+	display: inline-block;
+	width: 35px;
+	height: 31px;
+	text-align: center;
+	line-height: 31px;
+	cursor: pointer;
+}
+
+.numblue {
+	background-color: #64a0ff;
+	color: #fff;
+	cursor: pointer;
+}
+
+.quedain {
+	width: 64px;
+	cursor: pointer;
+}
+
+.now {
+	display: inline-block;
+	padding: 0 12px;
+	max-width: 90px;
+	overflow: hidden;
+	height: 31px;
+	line-height: 31px;
+	text-align: center;
+	border: 1px solid #5c5d63;
+	margin-left: 3px;
+	cursor: pointer;
+}
+
+#totop {
+	position: fixed;
+	right: 5px;
+	bottom: 50px;
+	width: 40px;
+	padding: 10px 15px;
+	text-align: center;
+	background-color: #CCCCCC;
+	color: #e37171;
+	cursor: pointer;
+}
+
+.msg-box {
+	/*display: none;*/
+}
+#massgeTable{
+	display: none;
+}
+.myForm .source{
+	margin: 10px 0px;
+	padding: 15px 0px 25px 0px;
+}
+.myForm .source .r{
+	text-align: center;
+	line-height: 20px;
+}
+.source .q{
+	width: 22px;
+	height: 22px;
+	text-align: center;
+	margin: 0px 5px;
+	background: url(../img/radio1.png) no-repeat 3px 3px;
+}
+ .fg{
+	margin-right: 15px;
+}
+
+.timebox{
+	position: relative;
+}
+.monthChek{
+	position: absolute;
+	left: 220px;
+	top: 34px;
+	width: 300px;
+	height: auto;
+	text-align: center;
+	display: none;
+}
+.monthChek li{
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	background-color: #fff;
+}
+.monthChek li:hover{
+	background-color: #009688;
+	color: #fff;
+}
+.myForm{
+	position: relative;
+}
+.monthChek .blues{
+	background-color: #009688;
+	color: #fff;
+}
