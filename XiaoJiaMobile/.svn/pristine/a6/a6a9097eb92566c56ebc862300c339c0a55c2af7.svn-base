@@ -1,0 +1,6 @@
+1、ydui.flexible.js 有修改设置文字大小JS，有相关注释 
+    注释内容  return n.style.fontSize=5*Math.max(Math.min(i/e*20,11.2),8.55)+"px",t
+
+
+2、轮播效果样式不引用，ydui.css在移动端会与iconfont有冲突，只将ydui.css部分样式
+复制进index.css，相关地方参照XiaoJiaMobile/css/index.css 未压缩版 307行 ~ 367行

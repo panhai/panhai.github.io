@@ -1,0 +1,162 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no,email=no" name="format-detection" />
+    <meta name="apple-touch-fullscreen" content="yes">
+    <title>个人设置</title>
+    <link rel="stylesheet"  href="css/iconfont/iconfont.css">
+    <link rel="stylesheet" href="css/index.css"/>
+
+
+
+</head>
+<body class="">
+
+<div class="head other ">
+    <a href="javascript:history.back(-1)" class="back"><i class="iconfont icon-back"></i></a>
+    <div class="head-title">
+        个人设置
+    </div>
+</div>
+
+
+<div class="outer-container nopadding">
+    <a href="javascript:void (0)" class="infor-data text-nowrap cur2 noborder">
+            <span class="block  text-nowrap" >
+                <span class="font06">头像</span>
+                <img src="http://img0.imgtn.bdimg.com/it/u=2769766222,3056814714&fm=15&gp=0.jpg" alt="">
+                <i class=" iconfont icon-fanhui1 "></i>
+            </span>
+    </a>
+
+
+    <div class="infor-data text-nowrap cur2 ">
+            <span class="block  text-nowrap" >
+                <span class="font06" >姓名</span>
+                <input type="text" placeholder="Lady GAGA" class="set-msg">
+            </span>
+    </div>
+
+
+    <div class="infor-data text-nowrap cur2 ">
+            <span class="block  text-nowrap" >
+                <span class="font06" >性别</span>
+                <span   class="set-msg bounced">男</span>
+                <i class="  iconfont icon-arrow-down "></i>
+            </span>
+    </div>
+
+    <a href="修改手机.html" class="infor-data text-nowrap cur2 ">
+            <span class="block  text-nowrap" >
+                <span class="font06" >手机</span>
+                <input type="text" value="1363***3773" disabled="disabled" class="set-msg">
+                <i class=" iconfont icon-fanhui1 "></i>
+            </span>
+    </a>
+
+    <a href="修改邮箱.html" class="infor-data text-nowrap cur2 ">
+            <span class="block  text-nowrap" >
+                <span class="font06" >邮箱</span>
+                <input type="text" value="783422319qq.com" disabled="disabled" class="set-msg">
+                <i class=" iconfont icon-fanhui1 "></i>
+            </span>
+    </a>
+
+
+    <a href="javascript:void (0)" class="infor-data text-nowrap cur2 ">
+            <span class="block  text-nowrap" >
+                <span class="font06" >QQ</span>
+                <input type="text" placeholder="783422319"  class="set-msg">
+            </span>
+    </a>
+
+</div>
+
+
+
+<div class="outer-container nopadding">
+    <a href="找回密码.html" class="infor-data text-nowrap cur2 noborder">
+            <span class="block  text-nowrap">
+                <span class="font06">修改密码</span>
+                <i class=" iconfont icon-fanhui1 "></i>
+            </span>
+    </a>
+    <a href="登录.html" class="infor-data text-nowrap cur2 ">
+            <span class="block  text-nowrap">
+                <span class="font06 cur">退出登录</span>
+                <i class=" iconfont icon-fanhui1 "></i>
+            </span>
+    </a>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="Bomb move">
+    <div class="Bomb-title">请选择</div>
+    <input type="hidden">
+    <div class="scroll">
+        <div class="Bomb-text">
+            <a href="javascript:void (0)" data-val="1" title="男">男</a>
+            <a href="javascript:void (0)" data-val="2" title="女" class="noborder">女</a>
+        </div>
+    </div>
+</div>
+<div class="black-background"></div>
+<script src="js/jquery-2.1.3.min.js"></script>
+
+<script>
+
+
+    //弹框一
+    $(".Bomb .Bomb-text a").click(function () {;
+        var getTxt = $(this).text();
+        $(".bounced").text(getTxt);
+        $(".black-background").hide(0);
+        $(".Bomb").addClass("move");
+    });
+    $(".black-background").click(function () {
+        $(this).hide(00);
+        $(".Bomb").addClass("move");
+    });
+    $(".bounced").click(function () {
+        $(".black-background").show();
+        $(".Bomb").removeClass("move");
+    });
+
+
+
+
+</script>
+
+
+
+
+
+
+</body>
+</html>

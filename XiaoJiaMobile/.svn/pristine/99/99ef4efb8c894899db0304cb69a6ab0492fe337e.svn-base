@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no,email=no" name="format-detection" />
+    <meta name="apple-touch-fullscreen" content="yes">
+    <title>优势详情</title>
+    <link rel="stylesheet"  href="css/iconfont/iconfont.css">
+    <link rel="stylesheet" href="css/index.css"/>
+
+</head>
+<body class="pb">
+
+<div class="head other">
+
+    <a href="javascript:history.back(-1)" class="back"><i class="iconfont icon-back"></i></a>
+    <a href="javascript:void(0)" class="features"><i class=" iconfont icon-jiaoyi_gengduo"></i></a>
+    <div class="head-title">
+        广州天琥教育
+    </div>
+</div>
+
+<div class="outer-container">
+    <div class="inset-container">
+        <div class="menu-title">入学签协议，包分配 <i class=""></i></div>
+
+        <div class="menu-msg">
+            <p>
+                上海天琥教育培训有限公司 成立于2002年，是一所
+                集设计培训、教育教学、设计应用知识推广、设计课
+                程研发于一体的全国连锁教育机构，致力为各行业输
+                送设计精英人才。
+            </p>
+        </div>
+
+
+    </div>
+</div>
+
+<div class="outer-container">
+    <div class="inset-container">
+        <div class="menu-title">更多优势 <i class=""></i></div>
+
+        <a href="优势详情.html" class="features-layer">
+            <img src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=6082620,3784819143&amp;fm=26&amp;gp=0.jpg" alt="">
+
+            <span class="features-flex ">
+                <span class="font1 text-nowrap mb1rem">零基础定制室内设计创意培训</span>
+                <span class="font2 twofloor">广州校区</span>
+            </span>
+        </a>
+
+        <a href="优势详情.html" class="features-layer">
+            <img src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=6082620,3784819143&amp;fm=26&amp;gp=0.jpg" alt="">
+            <span class="features-flex ">
+                <span class="font1 text-nowrap mb1rem">零基础定制室内设计创意培训</span>
+                <span class="font2 twofloor">广州校区</span>
+            </span>
+        </a>
+
+        <a href="优势详情.html" class="features-layer">
+
+            <img src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=6082620,3784819143&amp;fm=26&amp;gp=0.jpg" alt="">
+            <span class="features-flex ">
+                <span class="font1 text-nowrap mb1rem">零基础定制室内设计创意培训</span>
+                <span class="font2 twofloor">广州校区</span>
+            </span>
+        </a>
+    </div>
+</div>
+
+
+
+
+<div class="theme-nav ">
+    <a href="index.html" class="nav-flex color1">
+        <span class="iconfont icon-yuanjiaojuxing"></span>
+        <span>返回首页</span>
+    </a>
+
+    <a href="课程中心.html" class="nav-flex color2">
+        <span class="iconfont icon-yuanjiaojuxing1"></span>
+        <span>课程中心</span>
+    </a>
+
+    <a href="在线咨询.html" class="nav-flex color3">
+        <span class="iconfont icon-tuoyuankaobei"></span>
+        <span>在线咨询</span>
+    </a>
+
+</div>
+
+
+
+
+<script src="js/jquery-2.1.3.min.js"></script>
+
+<script>
+
+
+
+</script>
+
+
+</body>
+</html>

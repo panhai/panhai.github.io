@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no,email=no" name="format-detection" />
+    <meta name="apple-touch-fullscreen" content="yes">
+    <title>地图</title>
+    <link rel="stylesheet"  href="css/iconfont/iconfont.css">
+    <link rel="stylesheet" href="css/index.css"/>
+
+</head>
+<body>
+
+<div class="head other">
+
+    <a href="javascript:history.back(-1)" class="back"><i class="iconfont icon-back"></i></a>
+    <a href="javascript:void(0)" class="features"><i class=" iconfont icon-jiaoyi_gengduo"></i></a>
+    <div class="head-title">
+        广州天琥教育
+    </div>
+</div>
+
+
+
+
+
+<div id="map">
+
+</div>
+
+
+<div class="information_address">
+    <div class="lefttxt">
+        <div class="school-way">
+            <p class="text-nowrap">冠鹏信息有限公司冠鹏信息有限公司冠鹏信息有限公司</p>
+            <p class="text-nowrap">广州市天河区棠下街道建业路华翠街66号202G</p>
+
+            <div class="do">
+                <a href="javascript:void(0)" class="cur">到这里去</a>
+                <a href="javascript:void(0)" class="">联系老师</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+<script src="js/jquery-2.1.3.min.js"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=xz3BcSgsx5z3LCGNmWhUvznKoVR8Ez3W"></script>
+
+<script>
+
+    //地图文本高度设置
+    var getHeight = $(window).height();
+    $("#map").css("height","calc("+getHeight+"px - .86rem - 2.08rem)");
+
+    //设置文本宽度
+    $(".school-way p").width($(window).width()-($(window).width()*.08));
+
+
+
+
+
+    // 百度地图API功能
+    var map = new BMap.Map("map");    // 创建Map实例
+    var point = new BMap.Point(113.374722,23.131981);
+    map.centerAndZoom(new BMap.Point(113.374722,23.131981), 15);  // 初始化地图,设置中心点坐标和地图级别
+    //添加地图类型控件
+    map.addControl(new BMap.MapTypeControl({
+        mapTypes:[
+            BMAP_NORMAL_MAP,
+            BMAP_HYBRID_MAP
+        ]}));
+    map.setCurrentCity("广州");          // 设置地图显示的城市 此项是必须设置的
+    map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+
+    var marker = new BMap.Marker(point);        // 创建标注
+    map.addOverlay(marker);
+
+    var opts = {
+        width : 260,     // 信息窗口宽度
+        title : "广州市天河区棠下街道建业路华翠街66号202G" // 信息窗口标题
+    }
+    var infoWindow = new BMap.InfoWindow("", opts);  // 创建信息窗口对象
+    map.openInfoWindow(infoWindow, map.getCenter());
+    marker.addEventListener("click", function(){
+        map.openInfoWindow(infoWindow,point); //开启信息窗口
+    });
+
+</script>
+
+
+</body>
+</html>

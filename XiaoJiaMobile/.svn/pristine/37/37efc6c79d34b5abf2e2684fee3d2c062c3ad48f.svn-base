@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no,email=no" name="format-detection" />
+    <meta name="apple-touch-fullscreen" content="yes">
+    <title>我的关注</title>
+    <link rel="stylesheet"  href="css/iconfont/iconfont.css">
+    <link rel="stylesheet" href="css/index.css"/>
+
+
+
+</head>
+<body class="">
+
+<div class="head other ">
+    <a href="javascript:history.back(-1)" class="back"><i class="iconfont icon-back"></i></a>
+    <a href="javascript:void(0)" class="features"><i class=" iconfont icon-jiaoyi_gengduo"></i></a>
+    <div class="head-title">
+        我的关注
+    </div>
+</div>
+
+
+<div class="outer-container nopadding">
+    <div class="inset-container">
+        <div class="attention-nav">
+            <a href="javascript:void(0)" data-floor="1" class="cur">我的关注</a>
+            <a href="javascript:void(0)" data-floor="2">我的收藏</a>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="floor1">
+    <div class="outer-container  mar nopadding">
+        <div class="inset-container">
+
+            <a href="javascript:void(0)" class="features-layer noborder">
+
+                <img src="http://img0.imgtn.bdimg.com/it/u=2769766222,3056814714&fm=15&gp=0.jpg" class="features-icon" alt="">
+
+                <span class="features-flex cur cur1">
+                <span class="font1 text-nowrap ">郭碧婷</span>
+                <span class="font2 text-nowrap">广州新东方英语学校</span>
+                    <span class="font5 text-nowrap">文章 12  <em></em>  问答 12</span>
+            </span>
+            </a>
+
+            <a href="javascript:void(0)" class="guan">已关注</a>
+        </div>
+    </div>
+
+    <div class="outer-container  mar nopadding">
+        <div class="inset-container">
+
+            <a href="javascript:void(0)" class="features-layer noborder">
+
+                <img src="http://img0.imgtn.bdimg.com/it/u=2769766222,3056814714&fm=15&gp=0.jpg" class="features-icon" alt="">
+
+                <span class="features-flex cur cur1">
+                <span class="font1 text-nowrap ">郭碧婷</span>
+                <span class="font2 text-nowrap">广州新东方英语学校</span>
+                    <span class="font5 text-nowrap">文章 12  <em></em>  问答 12</span>
+            </span>
+            </a>
+
+            <a href="javascript:void(0)" class="guan">已关注</a>
+        </div>
+    </div>
+
+
+    <div class="outer-container  mar nopadding">
+        <div class="inset-container">
+
+            <a href="javascript:void(0)" class="features-layer noborder">
+
+                <img src="http://img0.imgtn.bdimg.com/it/u=2769766222,3056814714&fm=15&gp=0.jpg" class="features-icon" alt="">
+
+                <span class="features-flex cur cur1">
+                <span class="font1 text-nowrap ">郭碧婷</span>
+                <span class="font2 text-nowrap">广州新东方英语学校</span>
+                    <span class="font5 text-nowrap">文章 12  <em></em>  问答 12</span>
+            </span>
+            </a>
+
+            <a href="javascript:void(0)" class="guan">已关注</a>
+        </div>
+    </div>
+</div>
+
+<div class="floor2" style="display: none;" >
+    <div class="outer-container  nopadding">
+        <div class="inset-container">
+
+
+            <a href="javascript:void(0)" class="features-layer border-bottom other-flex ">
+                <img src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=6082620,3784819143&amp;fm=26&amp;gp=0.jpg" alt="">
+
+                <span class="features-flex nomargin noborder">
+                <span class="font1 text-nowrap-two">零基础定制室内设计创意培训</span>
+                <span class="font2 text-nowrap">
+                    <img src="http://img0.imgtn.bdimg.com/it/u=2769766222,3056814714&amp;fm=15&amp;gp=0.jpg" alt="">
+                    <span>李老师 <em></em> 2018-02-12</span>
+                </span>
+
+            </span>
+            </a>
+
+
+
+            <a href="javascript:void(0)" class="features-layer border-bottom other-flex ">
+                <img src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=6082620,3784819143&amp;fm=26&amp;gp=0.jpg" alt="">
+
+                <span class="features-flex nomargin noborder">
+                <span class="font1 text-nowrap-two">零基础定制室内设计创意培训</span>
+                <span class="font2 text-nowrap">
+                    <img src="http://img0.imgtn.bdimg.com/it/u=2769766222,3056814714&amp;fm=15&amp;gp=0.jpg" alt="">
+                    <span>李老师 <em></em> 2018-02-12</span>
+                </span>
+
+            </span>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script src="js/jquery-2.1.3.min.js"></script>
+
+<script>
+    $(".attention-nav a").click(function () {
+        $(".attention-nav a").removeClass("cur");
+        $(this).addClass("cur");
+        var floor = $(this).data("floor");
+        if(floor==1){
+            $(".floor1").show();
+            $(".floor2").hide()
+        }else{
+            $(".floor1").hide();
+            $(".floor2").show()
+        }
+    })
+
+</script>
+
+
+
+
+
+
+</body>
+</html>

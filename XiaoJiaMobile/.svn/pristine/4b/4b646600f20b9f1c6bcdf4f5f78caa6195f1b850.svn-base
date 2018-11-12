@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" class="html">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no,email=no" name="format-detection" />
+    <meta name="apple-touch-fullscreen" content="yes">
+    <title>点评课程</title>
+    <link rel="stylesheet"  href="css/iconfont/iconfont.css">
+    <link rel="stylesheet" href="css/index.css"/>
+
+
+
+</head>
+<body class="body">
+
+<div class="head other ">
+
+    <a href="javascript:history.back(-1)" class="back"><i class="iconfont icon-back"></i></a>
+    <a href="javascript:void(0)" class="features"><i class=" iconfont icon-jiaoyi_gengduo"></i></a>
+    <div class="head-title">
+        点评课程
+    </div>
+</div>
+
+
+<div class="outer-container bg1 opcy nomargin">
+    <div class="inset-container">
+        <div class="features-layer other-style1">
+            <img src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=6082620,3784819143&amp;fm=26&amp;gp=0.jpg" class="features-icon cur">
+            <div class="features-flex cur nopadding noborder">
+                <span class="font1 text-nowrap">零基础定制室内设计创意培训</span>
+                <a href="javascript:void(0)" class="font6 text-nowrap">天河校区-白天班</a>
+                <a href="javascript:void(0)" class="font6 text-nowrap">上课时间：2018-08-14~2018-10-06</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="outer-container">
+    <div class="inset-container">
+        <div class="meassage-area">
+            <div class="comment-area">
+                <div class="area-layer nomargin noborder nopadding">
+                    <div class="area-name marginBottom">
+                        <p>老*妈</p>
+                    </div>
+                    <div class="area-star ">
+                        <span>师资</span>
+                        <i class="star iconfont icon-xingxing"></i>
+                        <i class="star iconfont icon-xingxing"></i>
+                        <i class="star iconfont icon-xingxing"></i>
+                        <i class="star iconfont icon-xingxing"></i>
+                        <i class="iconfont icon-xingxing"></i>
+                    </div>
+
+                    <div class="area-star ">
+                        <span>教学</span>
+                        <i class="star iconfont icon-xingxing"></i>
+                        <i class="star iconfont icon-xingxing"></i>
+                        <i class="star iconfont icon-xingxing"></i>
+                        <i class="star iconfont icon-xingxing"></i>
+                        <i class="iconfont icon-xingxing"></i>
+                    </div>
+
+                    <div class="area-star ">
+                        <span>环境</span>
+                        <i class="star iconfont icon-xingxing"></i>
+                        <i class="star iconfont icon-xingxing"></i>
+                        <i class="star iconfont icon-xingxing"></i>
+                        <i class="star iconfont icon-xingxing"></i>
+                        <i class="iconfont icon-xingxing"></i>
+                    </div>
+
+
+                    <textarea class="area-style" placeholder="请填写评价内容"></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<input type="submit" value="提交评价" class="submit-btn">
+
+<script src="js/jquery-2.1.3.min.js"></script>
+
+<script>
+
+
+</script>
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no,email=no" name="format-detection" />
+    <meta name="apple-touch-fullscreen" content="yes">
+    <title>开班信息</title>
+    <link rel="stylesheet"  href="css/iconfont/iconfont.css">
+    <link rel="stylesheet" href="css/index.css"/>
+
+</head>
+<body class="pb">
+
+<div class="head other">
+
+    <a href="javascript:history.back(-1)" class="back"><i class="iconfont icon-back"></i></a>
+    <a href="javascript:void(0)" class="features"><i class=" iconfont "></i></a>
+    <div class="head-title">开班信息</div>
+</div>
+
+<div class="outer-container">
+    <div class="class-gps-box">
+        <a href="javascript:void(0)" class="class-gps">
+            <i class="iconfont icon-fanhui1"></i>
+            <span class="">
+                <b class="iconfont icon-site2"></b>
+                广州总校区
+            </span>
+            <span class="text-nowrap">
+                广州市越秀区市一宫内5楼503
+            </span>
+        </a>
+
+        <div class="class-msg  text-nowrap">
+            开课时段：白天班 、晚班、周末班
+        </div>
+
+        <div class="class-btm">
+            <a href="javascript:void(0)"><i class="i1 iconfont icon-zaixianzixun"></i>在线咨询</a>
+            <a href="预约试听.html"><i class="i2 iconfont icon-shitingguanli"></i>预约试听</a>
+        </div>
+    </div>
+</div>
+
+
+<div class="outer-container">
+    <div class="class-gps-box">
+        <a href="javascript:void(0)" class="class-gps">
+            <i class="iconfont icon-fanhui1"></i>
+            <span class="">
+                <b class="iconfont icon-site2"></b>
+                广州总校区
+            </span>
+            <span class="text-nowrap">
+                广州市越秀区市一宫内5楼503
+            </span>
+        </a>
+
+        <div class="class-msg  text-nowrap">
+            开课时段：白天班 、晚班、周末班
+        </div>
+
+        <div class="class-btm">
+            <a href="javascript:void(0)"><i class="i1 iconfont icon-zaixianzixun"></i>在线咨询</a>
+            <a href="预约试听.html"><i class="i2 iconfont icon-shitingguanli"></i>预约试听</a>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="js/jquery-2.1.3.min.js"></script>
+
+<script>
+    $(".box-sha .see-more").click(function () {
+        $(".hidden").removeClass("hidden");
+        $(this).hide()
+    });
+</script>
+
+
+</body>
+</html>
