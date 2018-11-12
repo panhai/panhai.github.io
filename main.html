@@ -7,9 +7,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
 		<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>-->
+		<!--<link rel="stylesheet" type="text/css" href="css/style.css" />-->
 		<link rel="stylesheet" type="text/css" href="miaov_style.css" />
 
 		<script type="text/javascript" src="miaov.js"></script>
@@ -40,11 +39,12 @@
 			li {
 				list-style: none;
 				float: left;
-				margin: 0.1rem;
+				padding: 10px;
+				border-radius: 5px;
 				background-color: goldenrod;
 				cursor: pointer;
-				min-width: 0.80rem;
 				text-align: center;
+				margin: 0 0px 10px 10px;
 			}
 			
 			a {
@@ -134,6 +134,18 @@
 					-webkit-transform: scale(-1, 1) rotate(-50deg);
 				}
 			}
+			.container{
+				width: 97%;
+				margin: 0 auto !important;
+				clear: both;
+				position: relative;
+				z-index: 100;
+			}
+			body{
+				margin: 0 auto;
+				width: 100% !important;
+			}
+			
 		</style>
 	</head>
 	<body>
@@ -240,7 +252,7 @@
 			};
 
 			/*页面刷新时执行函数*/
-			change();
+//			change();
 
 			/*屏幕尺寸改变时执行*/
 			window.onresize = function() {
