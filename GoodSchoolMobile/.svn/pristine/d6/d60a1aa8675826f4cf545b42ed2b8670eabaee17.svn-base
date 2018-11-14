@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<meta content="yes" name="apple-mobile-web-app-capable" />
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+	<meta content="telephone=no" name="format-detection" />
+	<link rel="stylesheet" type="text/css" href="../../css/UserCenter.css">
+</head>
+<body class="bg-gray">
+	<div class="top-navbar">
+		<div class="left"><a href="javascript:history.go(-1)"><i class="navbar-icon icon01"></i></a></div>
+	    <div class="center">点评领返现</div>
+	</div>
+	<div class="top_tab">
+		<a href="课程点评-我的点评.html"><div class="top_tab_div">待领取返现</div></a>
+		<div class="top_tab_div tabon">已领取返现<span class="top_tab_border"></span></div>
+		<span class="top_tab_space"></span>
+	</div>
+	<ul class="my-dp">
+		<li>
+			<div class="dp-title">分享点评领5元助学券!</div>
+			<div class="dp-info clearfix">
+				<img src="../../images/context01.jpg" alt="">
+				<h2>室内设计百分百就业班</h2>
+				<p class="pcolor1">已点评领取返现25元</p>
+				<span>2016-10-08</span>
+			</div>
+			<div class="dp-money">分享领助学券 :<label>¥5.00</label></div>
+			<p class="p1 clearfix"><a href="课程点评.html" class="btn2">分享点评</a></p>
+		</li>
+		<li>
+			<div class="dp-title">分享点评领5元助学券!</div>
+			<div class="dp-info clearfix">
+				<img src="../../images/context01.jpg" alt="">
+				<h2>室内设计百分百就业班</h2>
+				<p class="pcolor1">已点评领取返现25元</p>
+				<span>2016-10-08</span>
+			</div>
+			<div class="dp-money">分享领助学券 :<label>¥5.00</label></div>
+			<p class="p1 clearfix"><a href="课程点评.html" class="btn4">分享点评</a></p>
+		</li>
+
+	</ul>
+</body>
+</html>

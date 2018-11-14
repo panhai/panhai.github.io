@@ -1,0 +1,48 @@
+*{margin:0; padding:0; }
+body{background: #f0f0f0;}
+.clear{clear:both;}
+
+.top{width: 100%; height: 49px; position: relative; background: #2F8AFF; text-align: center;}
+.top .return{background: url(../images/return2.png) no-repeat 0 0; background-size:22px 22px; background-origin:content-box; padding:12px 0 0 8px; height: 38px; position: absolute; left: 0; top: 0; width: 40px;}
+.top p{font-size: 0.9rem; color: white;  line-height: 49px;}
+
+.hschool-T{width: 100%; height: 50px; background: white; border-bottom: 1px solid #e0e0e0;}
+.hschool-T01{float: left; width: 33.33%;}
+.hschool-T01 .circle{margin:5px auto 0 auto; text-align: center; font-size: 0.7rem; color: white; width: 23px; line-height: 23px; border-radius: 11px; background: #a5a5a5;}
+.hschool-T01 .circle.now{background: #009b00;}
+.hschool-T01 p{font-size: 0.7rem; text-align: center;}
+
+.hschool-font{margin: 0 auto; text-align: center; width: 83%; background: #fffdd6; font-size: 0.7rem; color: #ff7f00; padding: 18px;}
+.hschool-font span{font-weight: 900;}
+
+.errorMsg{margin:15px auto 0 auto; line-height: 24px; text-indent: 12px; width: 91.53%; color:#e4133a; font-size: 0.6rem; font-family: 宋体; border: 1px solid #e86f6f; background: #f1cece;}
+.hide{display: none;}
+
+.hschool-main{margin-top: 10px;}
+.hschool-main01{margin: 0 auto; width: 93%; background: white; line-height: 37px; height: 48px; border: 1px solid #e5e5e5; border-bottom: none;}
+.hschool-main01 span{display: inline-block; font-size: 0.8rem; margin: 0 10px; vertical-align: middle;}
+.hschool-main01 input{width: 66%; font-size: 0.8rem; border: none; outline: none; vertical-align: middle;}
+.hschool-main01 input.yzm{width: 39%;}
+.hschool-main01 .btn{float: right; margin: 9px 10px 0 0; display: inline-block; width: 80px; line-height: 30px; border-radius: 3px; background: #0066cc; text-align: center; color: white; font-size: 0.7rem;}
+.hschool-main01 .btn.now{background: #a9a9a9;}
+
+.sex{float: left; margin-left: 15px;}
+.hschool-main01 label{float: left; display: block; width:42px; font-size: 0.8rem;}
+.hschool-main01 label p{float: left; display: inline-block; font-size: 0.8rem;}
+.hschool-main01 label input{float: left; width: auto; margin:18px 5px 0 0px;}
+
+.hschool-menu{display: none; position: fixed; z-index: 1; top:0; left: 0; width: 100%; height: 100%; background: white;}
+.menu-school{margin: 8px auto; width: 270px;}
+.menu-school01{float: left; width: 167px; height: 30px; font-size: 0.7rem; padding: 0 10px; outline: none;}
+.menu-school02{float: left; width: 65px; margin-left: 5px; line-height: 33px; background: #ff7f00; font-size: 0.7rem; color: white; text-align: center; }
+.menu-day{width: 100%;}
+.menu-day p{float: left; display: inline-block; width: 34%; line-height: 45px; text-align: center; font-size: 0.9rem; font-weight: 900; color: #009b00;}
+.hschool-menu .menu{height: 77%; overflow:hidden;}
+.hschool-menu .menu p,.hschool-menu .menu span{display: block; font-size: 0.8rem; line-height: 45px; border-bottom: 1px solid #e4e4e4; padding-left: 9px;}
+
+.transparent{display: none; position: fixed; top:0; left: 0; width: 100%; height: 100%; background: black; opacity: 0.5;}
+.tishi{display: none; position: fixed; z-index: 1; top: 28%; left: 10%; width: 80%; background: white;}
+.tishi p{margin: 10px auto 0 auto;  font-size: 0.8rem; width: 90%; text-align: center;}
+.tishi .btn{margin: 10px auto 16px auto;  font-size: 0.8rem; width: 108px; line-height: 36px; background: #ff7f00; text-align: center; color: white;}
+
+.hschool-btn{margin: 17px auto; display: block; width: 93%; line-height: 38px; border-radius: 3px; background: #ff7f00;  text-align: center; font-size: 0.8rem; color: white; outline: none; border: none; -webkit-appearance: none;}

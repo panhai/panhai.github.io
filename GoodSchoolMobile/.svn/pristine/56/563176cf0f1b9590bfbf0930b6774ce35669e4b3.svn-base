@@ -1,0 +1,220 @@
+<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/> 
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+	<link rel="stylesheet" type="text/css" href="../css/css.css">
+    <link rel="stylesheet" type="text/css" href="../css/css2.css">
+    <link rel="stylesheet" type="text/css" href="../css/fonts.css">
+	<title>资讯详情</title>
+</head>
+
+<body>
+<div class="information-details" style="margin-bottom:60px;">
+
+<header class="Header" >
+    <div class="left"><a href="javascript:history.go(-1)" class="icon-arrow-left f20"></a></div>
+    <h1>资讯详情</h1>
+    <div class="right"><a class="icon-share m-r6 f24 m-r10" onClick="Share()"></a><!--<a class="icon-collection f24" onClick="oCollection()"></a>--></div>
+</header>
+<div class="p9 b-blue">
+    <a href="" class="c-grey2">首页></a>
+    <a href="" class="c-grey2">广州雅思 > </a>
+    <a href="" class="c-grey2">广州新东方学校</a>
+</div>
+<div class="information01 b-white">
+<div class="h">
+	<p class="title">高考生理性留学，一年直升世界百强名校</p>
+    <p class="time">2015-08-11&nbsp;&nbsp;&nbsp;广州环球雅思学校</p>
+</div>
+<div class="content">2013年的高考硝烟散尽，就读国内本科还是选择
+国外本科的抉择摆上了很多学生和家长的议事日
+程。高考后留学，时间紧迫，学生需要在高考后
+的2个月左右做出留学的选择，理性就显得极为
+重要了。有这样一批高中生，直接凭借在国内的
+一年预科和雅思成绩，获得英澳名牌大学的录取
+，甚至赢得了英国最高本科奖学金。<img src="../images/zhiye.jpg" ><img src="../images/Head01.jpg" ></div>
+<p class="c-grey01">阅读&nbsp;&nbsp;&nbsp;136</p>
+<div class="read-btn clearfix">
+	<p class="item" onClick="Share()"><span class="icon-share"></span>120</p>
+    <p class="item"><span class="icon-collection"></span>120</p>
+    <p class="item"><span class="icon-praise"></span>120</p>
+</div>
+</div>
+<div class="school-Info">
+    <div class="school-Info-in">
+        <div class="school-addr">
+            <img src="../images/LOGO.jpg" height="64" width="64" alt="" class="img" />
+            <p>环球雅思（天河校区）</p>
+            <p>广州新东方英语培训学校组建于2000年，是
+新东方成立较早的分校……<a href="">【详情】</a></p>
+        </div>
+    </div>
+    <div class="school-contact">
+        <a href="">在线咨询</a><a href="">电话咨询</a>
+    </div>
+</div>
+<div class="b-white m-b10">
+	<div class="common-title b1 clearfix">
+        <div class="h">相关资讯</div>
+    </div>
+    <div class="dynamic-info">
+        <div class="content">
+            <p class="title">班新东方雅思口语班</p>
+            <p class="c-grey01 f12">112浏览&nbsp;&nbsp;2015-10-10</p>     
+        </div>
+        <div class="imgbox"><img src="../images/context02.jpg"></div>
+    </div>
+    <div class="dynamic-info">
+        <div class="content">
+            <p class="title">新东方雅思口语班新东方雅思口语班新东方雅思口语班新东方雅思口语班新东方雅思口语班新东方雅思口语班</p>
+            <p class="c-grey01 f12">112浏览&nbsp;&nbsp;2015-10-10</p>     
+        </div>
+        <div class="imgbox"><img src="../images/context02.jpg"></div>
+    </div>
+    <div class="dynamic-info">
+        <div class="content">
+            <p class="title">新东方雅思口语班新东方雅思口语班新东方雅思口语班</p>
+            <p class="c-grey01 f12">112浏览&nbsp;&nbsp;2015-10-10</p>     
+        </div>
+        <div class="imgbox"><img src="../images/context02.jpg"></div>
+    </div>
+</div>
+
+<div class="b-white m-b10">
+    <div class="common-title b6 clearfix">
+        <div class="h">相关课程</div>
+    </div>
+    <a class="courseinfo">
+        <div class="imgbox"><img src="../images/context02.jpg"></div>
+        <div class="content">
+            <p class="title row3">新东方雅思口语班新东方雅思口语班新东方雅思口语班</p>
+            <p class="c-grey01">广州新东方</p>
+            <p class="c-grey01 f12">112人看&nbsp;&nbsp;22人报名<span class="price" style="float:right;">21400</span></p>     
+        </div>
+    </a>
+    <a class="courseinfo">
+        <div class="imgbox"><img src="../images/context02.jpg"></div>
+        <div class="content">
+            <p class="title row3">新东方雅思口语班新东方雅思口语班新东方雅思口语班</p>
+            <p class="c-grey01">广州新东方</p>
+            <p class="c-grey01 f12">112人看&nbsp;&nbsp;22人报名<span class="price" style="float:right;">21400</span></p>     
+        </div>
+    </a>
+    <a class="courseinfo">
+        <div class="imgbox"><img src="../images/context02.jpg"></div>
+        <div class="content">
+            <p class="title row3">新东方雅思口语班新东方雅思口语班新东方雅思口语班</p>
+            <p class="c-grey01">广州新东方</p>
+            <p class="c-grey01 f12">112人看&nbsp;&nbsp;22人报名<span class="price" style="float:right;">21400</span></p>     
+        </div>
+    </a>
+</div>
+
+<div class="bottomnav clearfix">
+	<a class="item" href="index.html"><p class="icon"><span class="icon-index"></span></p><p class="text">返回首页</p></a>
+    <a class="item" href="SearchCourse.html"><p class="icon"><span class="icon-sort"></span></p><p class="text">搜索课程</p></a>
+    <a class="item" href="../UCenter/Personal.html"><p class="icon"><span class="icon-my"></span></p><p class="text">个人中心</p></a>
+</div>
+
+<div class="logo-grey">
+	<div class="imgbox"><img src="../images/logo-grey.png"></div>
+    <p class="text">读书培训，找好学校</p>
+</div>
+<!--<div class="security-box">
+<ul class="security clearfix lostbackground">
+    <li class="item">
+        <span class="icon b1 icon-security1"></span>
+        <p class="text">100%正规学校</p>
+    </li>
+    <li class="item">
+        <span class="icon b2 icon-security2"></span>
+        <p class="text">确保最低价格</p>
+    </li>
+    <li class="item">
+        <span class="icon b3 icon-security3"></span>
+        <p class="text">优质教学保障</p>
+    </li>
+</ul>
+<p style="text-align:center;">读书培训，找好学校</p>
+</div>-->
+
+</div>
+
+
+<div class="foot-course" style="z-index:2;">
+	<div class="foot-ul">
+        <ul>
+            <li><a href="Search-School.html">雅思培训</a></li>
+            <li><a href="Search-School.html">雅思培训</a></li>
+            <li><a href="Search-School.html">雅思培训</a></li>
+            <li><a href="Search-School.html">雅思培训</a></li>
+            <li><a href="Search-School.html">雅思培训</a></li>
+            <li><a href="Search-School.html">雅思培训</a></li>
+            <li><a href="Search-School.html">雅思培训</a></li>
+            <li><a href="Search-School.html">雅思培训</a></li>
+            <li><a href="Search-School.html">雅思培训</a></li>
+            <li><a href="Search-School.html">雅思培训</a></li>
+            <li><a href="Search-School.html">雅思培训</a></li>
+            <li><a href="Search-School.html">雅思培训</a></li>
+            <li><a href="Search-School.html">雅思培训</a></li>
+            <li><a href="Search-School.html">雅思培训</a></li>
+        </ul>
+    </div>
+    <div class="arrow-down"><p class="before"></p></div>
+</div>
+<div class="contact-box">
+	<a href="schoolDetails.html" class="item flex01">
+    	<p class="icon"><span class="icon-courseDetails"></span></p>
+        <p class="text">学校详情</p>
+    </a>
+	<a class="item flex01 course">
+    	<p class="icon"><span class="icon-bigClass"></span></p>
+        <p class="text">课程分类</p>
+    </a>
+	<a class="item flex01">
+    	<p class="icon"><span class="icon-consultation"></span></p>
+        <p class="text">电话</p>
+    </a>
+	<a class="item flex01">
+    	<p class="icon"><span class="icon-qq2"></span></p>
+        <p class="text">QQ</p>
+    </a>
+    <a class="item flex01">
+    	<p class="icon"><span class="icon-chat pr"><i class="dot-tips">1</i></span></p>
+        <p class="text">在线</p>
+    </a>
+</div>
+
+
+<div id="sc"><span class="c-grey03">本课程</span>收藏成功</div>
+
+<div class="background"></div>
+<dl class="Shares">
+	<dt class="bdsharebuttonbox" data-tag="share_1">        
+    	<a href="#" class="bds_qzone" data-cmd="qzone" style="background:none ;"><img data-cmd="qzone" src="../images/share/qzone.jpg" width="45" height="45">QQ空间</a>
+    	<a href="#" class="bds_tsina" data-cmd="tsina" style="background:none;"><img data-cmd="tsina" src="../images/share/sina.jpg" width="45" height="45">新浪微博</a>
+    	<a href="#" class="bds_tqq" data-cmd="tqq" style="background:none;"><img data-cmd="tqq" src="../images/share/tencent.jpg" width="45" height="45">腾讯微博</a>
+    	<a href="#" class="bds_renren" data-cmd="renren" style="background:none;"><img data-cmd="renren" src="../images/share/renren.jpg" width="45" height="45">人人网</a>
+    	<a href="#" class="bds_kaixin001" data-cmd="kaixin001" style="background:none;"><img data-cmd="kaixin001" src="../images/share/kaixin.jpg" width="45" height="45">开心网</a>
+    </dt>
+    <dd><input type="button" class="share-cancel" value="取消"></dd>
+
+</dl>
+
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/js2.js"></script>
+<script>
+$(".read-btn .item").click(function(){
+	var thisClass = $(this).find("span").attr("class");
+	if(thisClass == "icon-collection" || thisClass == "icon-praise"){
+		$(this).find("span").attr("class",thisClass+"2");
+	}
+});
+
+</script>

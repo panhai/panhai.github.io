@@ -1,0 +1,65 @@
+<!DOCTYPE html >
+<html >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+<meta content="yes" name="apple-mobile-web-app-capable" /> 
+<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+<meta content="telephone=no" name="format-detection" />
+<link rel="stylesheet" type="text/css" href="../css/css.css">
+<link rel="stylesheet" type="text/css" href="../css/css2.css">
+<link rel="stylesheet" type="text/css" href="../css/SchoolCenter.css">
+<link rel="stylesheet" type="text/css" href="../css/PersonalCenter.css">
+
+<title>我的特权</title>
+</head>
+
+<body>
+	<div class="top-navbar">
+    	<div class="left"><a href="javascript:history.go(-1)"><i class="navbar-icon icon01"></i></a></div>
+        <div class="center">我的特权 </div>
+    </div>
+    <div class="gr-common-nav02">
+    	<div class="tab"><i class="icon01"></i><p class="p-b10">最低价格保障</p></div>
+        <div class="tab"><i class="icon02"></i><p class="p-b10">优质课程保障</p></div>
+        <div class="tab"><i class="icon03"></i><p class="p-b10">学员利益保障</p></div>
+        <div class="tab-slider"></div>
+    </div>
+    
+    <div class="gr-list gr-privlege f14">
+    
+    	<div class="gr-privlege01">
+            <div class="box">
+                <p class="f16 c-blue01 fbold">给你最低报名价格：</p>
+                <p class="p-t8">你缴费报读学校后，如发现报名价格高于同班同时段其他同学的报读价，好学校会员可登录好学校进行投诉，好学校将3倍差额赔付。</p>
+            </div>
+            <div class="box">
+                <p class="f16 c-blue01 fbold">给你提供M币奖励：</p>
+                <p class="p-t8">好学校确保在最低价基础上，还进行MB奖励，MB可兑现。好学校课程咨询不收预定费，你在试听或考察学校后，直接到报读学校缴费（详询及按标准收费的课程不在低价赔付范畴）。</p>
+            </div>
+        </div>
+        
+        <div class="gr-privlege01 display">
+            <div class="box">
+                <p class="f16 c-blue01 fbold">为你提供优质课程：</p>
+                <p class="p-t8">好学校专业老师严格审核加盟学校的授课课程，确保学校发布课程的教学质量、真实性和时效性，好学校对同专业不同学校的课程进行各项受欢迎程度的数据评比，把同专业的更优质课程推荐给学员进行科学择校。</p>
+            </div>
+            <div class="box">
+                <p class="f16 c-blue01 fbold">为你提供点评权利：</p>
+                <p class="p-t8">您拥有课程点评权利，将影响学校招生，学校会更重视，给您更优质的教学。</p>
+            </div>
+        </div>
+        
+        <div class="gr-privlege01 display">
+            <div class="box">
+                <p class="f16 c-blue01 fbold">给你消费权益保障：</p>
+                <p class="p-t8">好学校与加盟学校签订了会员消费保障协议书，好学校优先保障会员的权益，监督加盟学校保障学员合法正当的权益，协助好学校会员的维权工作。如有违规情况，好学校对加盟学校进行违约处理。你将比那些没通过好学校报读学员得到更多的有力保障和支持。</p>
+            </div>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/admin/Personal.js"></script>

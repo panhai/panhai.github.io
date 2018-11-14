@@ -1,0 +1,51 @@
+<!DOCTYPE >
+<html >
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/> 
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+	<title>课程详情</title>
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/css2.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/lazyload.js"></script>
+
+</head>
+
+<body class="bfff">
+
+		<div class="top">
+			<div class="logo">
+				<a href="http://20.cnzhongzhuan.com/"><img src="images/logo.png"/></a>
+			</div>
+      <div class="area" onClick="City()">
+          <span>广州</span><img src="images/angle.png">
+      </div>
+			<div class="search-ico">
+				<a href="login.html"><img src="images/search-ico01.png" class="search-ico01"/></a>
+				<img src="images/search-ico02.png" class="search-ico02"/>
+			</div>
+		</div>
+		<div class="search-box">
+			<div class="search-box01">
+				<input type="text">
+				<div class="search-box02">
+					<img src="images/search-ico03.png"/>
+				</div>
+			</div>
+		</div>
+      <div class="clearfix"></div>
+
+	<div class="page404">
+    	<h1>404</h1>
+        <p>很抱歉，您查看的内容不存在，可能已下架或者被转移。您可以通过上面搜索框查找您需要的信息！或</p>
+        <a class="bff7f00">返回首页</a>
+    </div>
+</div>
+</body>
+
+<script type="text/javascript" src="js/js.js"></script>
+<script type="text/javascript" src="js/js2.js"></script>
+</html>

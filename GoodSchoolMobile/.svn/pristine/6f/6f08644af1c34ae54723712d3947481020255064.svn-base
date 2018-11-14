@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+    <link rel="stylesheet" type="text/css" href="../css/css.css">
+    <link rel="stylesheet" type="text/css" href="../css/css2.css">
+    <link rel="stylesheet" type="text/css" href="../css/SchoolCenter.css">
+    <link rel="stylesheet" type="text/css" href="../css/PersonalCenter.css">
+	
+	<title>微信</title>
+</head>
+<body style="background:#fffbd7;">
+	<div class="top-navbar gr-money-bj">
+    	<div class="left"><a href="javascript:history.go(-1)"><i class="navbar-icon icon01"></i></a></div>
+        <div class="center p-r30">微信</div>
+    </div>
+   
+   <div class="gr-roll f14">
+   	<div class="head"><img src="../images/UCenter/banner2.jpg"></div>
+    <div class="content01">
+    	<p class="m-t15">好友在好学校给你送了一张现金转券</p>
+        <p class="m-b10">价值是5元，报读课程后马上可以换成现金券</p>
+        <div class="rall"><img src="../images/UCenter/roll.png"></div>
+        <input class="text" placeholder="请输入你的手机号码">
+        <div class="displaybox">
+        	<input class="text displayflex m-r10" placeholder="短息验证码"><div class="m-t15 number">发送验证码</div>
+        </div>
+        <div class="btn m-t15">立即分享</div>
+        <p class="pink">领取后推荐好友，你还能获得更多现金券</p>
+    </div>
+    <div class="p20">
+    	<p class="title pink">活动规则</p>
+        <p class="p-b10">现金券在报读课程后可直接兑换成现金，</p>
+        <p class="p-b10">1000元及以下课程可使用1张，</p>
+        <p class="p-b10">1000-2000课程可使用2张，</p>
+        <p>课程金额每增加1000元可多使用1张现金券，</p>
+        <p>以此类推，可使用张数无上限。</p>
+        <p>请在现金券的有效期内兑换。</p>
+        <p class="pink">本次活动最终解释权归好学校所有</p>
+    </div>
+   </div>
+
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/lazyload.js"></script>
+<script src="../js/jquery.mobile.js"></script>
+<script src="../js/js.js"></script>
+
+
+
+
+
+
+

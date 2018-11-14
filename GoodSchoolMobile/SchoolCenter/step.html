@@ -1,0 +1,92 @@
+<!DOCTYPE html >
+<html >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+<meta content="yes" name="apple-mobile-web-app-capable" /> 
+<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+<meta content="telephone=no" name="format-detection" />
+<link rel="stylesheet" type="text/css" href="../css/css.css" />
+<link rel="stylesheet" type="text/css" href="../css/css2.css"/>
+<link rel="stylesheet" type="text/css" href="../css/SchoolCenter.css">
+
+<title>步骤1</title>
+</head>
+<style>
+
+</style>
+<body style="background:#fff;" onload="loaded()">
+<div id="wrapper" class="wrapper">
+	<div class="scroller">
+		<ul id="thelist">
+			<li><img src="../images/SchoolCenter/setp01.jpg">
+            	<p class="f24 title c-red">抢先联系，学员信任</p>
+                <p class="text f14">学员咨询实时提醒你，</p>
+                <p class="text f14">30分钟内查看回访，避免学员咨询其他学校</p>
+            </li>
+            <li><img src="../images/SchoolCenter/setp02.jpg">
+            	<p class="f24 title c-blut">填写回访记录，跟进无忧</p>
+                <p class="text f14">回访后添加记录，便于下次跟进</p>
+                <p class="text f14">与你分享学员动态，让你掌握完整跟进情况</p>
+            </li>
+            <li><img src="../images/SchoolCenter/setp03.jpg">
+            	<p class="f24 title c-green">添加回访计划，避免漏单</p>
+                <p class="text f14">计划下次回访时间，到期自动提醒，</p>
+                <p class="text f14">不遗漏每一个学员</p>
+            </li>
+            <li><img src="../images/SchoolCenter/setp04.jpg">
+            	<p class="f24 title c-red">更多沟通，学员更快报名</p>
+                <p class="text f14">通过电话、信息及时了解学员情况，</p>
+                <p class="text f14">满足学员需要，增强报读意向</p>
+                <a class="btn">继续体验</a>
+            </li>
+		</ul>
+	</div>
+</div>
+<ul id="indicator" class="indicator">
+    <li class="active">1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+</ul>
+    
+    
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/admin/Agency.js"></script>
+<script src="../js/iscroll.js"></script>
+<script type="text/javascript">
+var wWdith=$(window).width();
+var wHeight=$(window).height();
+$(".scroller li").width(wWdith);
+$(".scroller li").height(wHeight);
+$("#wrapper").height(wHeight);
+$(".scroller").width(wWdith*4);
+
+var myScroll;
+
+function loaded() {
+	
+	
+	myScroll = new IScroll('#wrapper', 
+	{
+		snap: 'li', 
+		momentum: false,
+		scrollX: true, scrollY: false, 
+	});
+	
+	myScroll.on('scrollEnd', function () {
+		
+		//console.log($(this).parent());
+		document.querySelector('#indicator li.active').className = '';
+		document.querySelector('#indicator li:nth-child(' + (this.currentPage.pageX+1) + ')').className = 'active';
+		$("title").html("步骤"+(this.currentPage.pageX+1));
+	} ); 
+	
+//	setInterval(function(){
+//		console.log(myScroll.currentPage.x);
+//	},2000)
+
+}
+</script>

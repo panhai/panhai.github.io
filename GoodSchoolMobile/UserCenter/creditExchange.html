@@ -1,0 +1,72 @@
+<!DOCTYPE html >
+<html >
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/> 
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+	<title>助学金转账</title>
+    <link rel="stylesheet" href="../css/css.css" />
+    <link rel="stylesheet" href="../css/css2.css" />
+    <script type="text/javascript" src="../js/jquery.js"></script>
+</head>
+
+<body>
+<div class="transparent2"></div>
+
+<div class="MBcenter bfff h100">
+
+  <div class="header"><a href="javascript:history.go(-1);" class="return_ico"></a>助学金转账 </div>
+
+      <div class="balance_detail" style=" margin:5px 0 -8px 0;">
+        <div class=" bfff c333 b_d_number ">助学金余额<span class="cff7f00"><em >100</em>元</span></div>
+      </div>
+
+  <div class="MB_exchange">
+    <div class="m_e_label"><label>对方账号</label><input type="text" class="m_e_text" onChange="checkExist(this.value)"><span>&nbsp;</span></div>
+    <div class="m_e_label"><label>转账余额</label><input type="text" class="m_e_text"><span>元</span></div>
+  </div>
+  <a class="m_e_button">申请兑换</a>
+  
+  
+</div>
+
+<dl class="regist-tip">
+	<dt>
+    	该号码未注册好学校
+        <q>&times;</q>
+    </dt>
+    <dd>
+    	<p><b>1</b>立即邀请对方微信扫码注册好学校</p>
+        <p align="center"><img src="../images/code.png" width="110" height="110"></p>
+        <p><b>2</b>邀请对方微信搜索“冠鹏好学校培训网”，关注并注册好学校</p>
+    </dd>
+</dl>
+
+</body>
+
+</html>
+<script>
+function checkExist(user_name)
+{
+	var t=$(".regist-tip");
+	var bg=$(".transparent2");
+	//在AJAX.success里边加入showTip()就行了
+	function showTip()
+	{
+		bg.fadeIn();
+		var ww=$(window).width(),wh=$(window).height(),
+			tw=t.width(),th=t.height();
+		t.css({
+			left: (ww-tw)/2 + 'px'
+			,top: (wh-th)/2 + 'px'
+		}).fadeIn();
+	}
+	
+	t.find("dt q").click(function(){
+		t.fadeOut();
+		bg.fadeOut();
+	});
+}
+</script>

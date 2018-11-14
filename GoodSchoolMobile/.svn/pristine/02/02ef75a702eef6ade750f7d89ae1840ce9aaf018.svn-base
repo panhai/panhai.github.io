@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/> 
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+	<link rel="stylesheet" type="text/css" href="../css/booking.css">
+    <link rel="stylesheet" type="text/css" href="../css/fonts.css">
+	<title>领取抵用券</title>
+</head>
+
+<body style="background-color:#efefef;">
+<div class="Header">
+    <div class="left"><a href="javascript:history.go(-1)" class="BACK icon-arrow-left"></a></div>
+    <h1>领取抵用券</h1>
+</div>
+<div class="course-info">
+    <p>广州新东方教育500元抵用券</p>
+</div>
+<div class="mar_t10 h">
+    <div class="info-item">
+        <p>适用课程：雅思6分强化班【广州新东方教育】</p>
+    </div>
+    <div class="info-item">
+        <span class="info-item-l">数量：</span>
+        <span class="info-item-r">1</span>
+    </div>
+    <div class="info-item">
+        <span class="info-item-l">应付金额：</span>
+        <span class="info-item-r">100</span>
+    </div>
+</div>
+<ul class="payment">
+    <li class="info-item">
+        <span class="info-item-l">还需支付：</span>
+        <span class="info-item-r">￥7300.<em>00</em></span>
+    </li>
+    <li class="info-item WeChat">
+        <span class="info-item-l">微信支付</span>
+        <span class="info-item-r"><input type="radio" name="zf"  value="1" /></span>
+    </li>
+    <li class="info-item ZFB">
+        <span class="info-item-l">支付宝支付</span>
+        <span class="info-item-r"><input type="radio" name="zf" value="2" /></span>
+    </li>
+    <li class="info-item YHK">
+        <span class="info-item-l">银行卡支付</span>
+        <span class="info-item-r"><input type="radio" name="zf" value="3" /></span>
+    </li>
+</ul>
+<div class="payment-qr">
+<a href="new-sign-up-OK.html">确认付款</a>
+<span>支持随时退</span>
+<span>贵就赔</span>
+<span>支付安全</span>
+</div>
+</body>
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript">
+// 支付选择
+    $(".payment").find('.info-item:not(:first)').click(function(){
+
+        var target = $(this).find(".info-item-r");
+        if(target.hasClass('on')){
+            target.removeClass('on').find('input').prop("checked",false)
+        }else{
+            target.closest('.payment').find('.on').removeClass('on');
+            target.addClass('on').find('input').prop("checked",true);
+        }
+        return false;
+    })
+</script>
+</html>

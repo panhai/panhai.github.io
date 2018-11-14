@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+    <link rel="stylesheet" type="text/css" href="../css/fonts.css" >
+    <link rel="stylesheet" type="text/css" href="../css/css.css">
+    <link rel="stylesheet" type="text/css" href="../css/css2.css">
+    <link rel="stylesheet" type="text/css" href="../css/SchoolCenter.css">
+    <link rel="stylesheet" type="text/css" href="../css/PersonalCenter.css">
+	
+	<title>助学券兑换</title>
+</head>
+<body class="b-white">
+<header class="Header">
+    <div class="left"><a href="javascript:history.go(-1)" class="icon-arrow-left"></a></div>
+    <h1>助学券兑换</h1>
+    <div class="right"><a href="RuleStipend.html" class="f14">兑现规则</a></div>
+</header>
+
+<div class="stipend-exchange">
+    <div class="tip">您暂无报读课程，助学券需报读课程<br>并成功点评后方可兑现（注：兑换金<br>额与课程返现金额一致）。</div>
+    
+    <div class="p10 m-t50">
+    	<a href="StipendCenter.html" class="jg-btnbig btn01">查看兑换规则</a>
+    	<a href="MBexchange-1.html" class="jg-btnbig btn02">搜索课程</a>
+    </div>
+</div>
+
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/admin/Personal.js"></script>
+
+
+
+
+
+
+

@@ -1,0 +1,60 @@
+<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/> 
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+	<link rel="stylesheet" type="text/css" href="../css/css.css">
+    <link rel="stylesheet" type="text/css" href="../css/css2.css">
+    <link rel="stylesheet" type="text/css" href="../css/fonts.css">
+	<title>学校详情</title>
+</head>
+
+<body>
+<div class="dynamic02 b-white">
+
+<header class="Header" >
+    <div class="left"><a href="javascript:history.go(-1)" class="icon-arrow-left"></a></div>
+    <h1>学校资讯</h1>
+    <div class="right"><span class="icon-dots-three-horizontal"></span></div>
+</header>
+
+<div class="nav-switch">
+	<ul class="displaybox">
+    	<li class="item displayflex"><a href="SchoolDynamic.html">学校动态</a></li>
+        <li class="item displayflex cur"><a href="SchoolNews.html">学校资讯</a></li>
+    </ul>
+</div>
+
+<div class="dynamic-info">
+	<div class="content">
+        <p class="title">新东方雅思口语班新东方雅思口语班新东方雅思口语班新东方雅思口语班新东方雅思口语班新东方雅思口语班</p>
+        <p class="c-grey01 f12">112浏览&nbsp;&nbsp;2015-10-10</p>     
+    </div>
+	<div class="imgbox"><img src="../images/context02.jpg"></div>
+</div>
+
+<div class="dynamic-info">
+	<div class="content">
+        <p class="title">新东方雅思口语班新东方雅思口语班新东方雅思口语班</p>
+        <p class="c-grey01 f12">112浏览&nbsp;&nbsp;2015-10-10</p>     
+    </div>
+	<div class="imgbox"><img src="../images/context02.jpg"></div>
+</div>
+
+<div class="dynamic-info">
+	<div class="content">
+        <p class="title">新东方雅思口语班新东方雅思口语班新东方雅思口语班</p>
+        <p class="c-grey01 f12">112浏览&nbsp;&nbsp;2015-10-10</p>     
+    </div>
+	<div class="imgbox"><!--<img src="../images/context02.jpg">--></div>
+</div>
+</div>
+
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/plugin/raphael.js"></script>
+

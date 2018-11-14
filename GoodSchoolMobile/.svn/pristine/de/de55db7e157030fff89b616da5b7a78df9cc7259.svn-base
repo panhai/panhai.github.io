@@ -1,0 +1,52 @@
+<!DOCTYPE html >
+<html >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+<meta content="yes" name="apple-mobile-web-app-capable" /> 
+<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+<meta content="telephone=no" name="format-detection" />
+<link rel="stylesheet" type="text/css" href="../css/css.css">
+<link rel="stylesheet" type="text/css" href="../css/css2.css">
+<link rel="stylesheet" type="text/css" href="../css/SchoolCenter.css">
+<link rel="stylesheet" type="text/css" href="../css/PersonalCenter.css">
+
+<title>账户明细</title>
+</head>
+
+<body>
+	<div class="top-navbar">
+    	<div class="left"><a href="javascript:history.go(-1)"><i class="navbar-icon icon01"></i></a></div>
+        <div class="center">账户明细 </div>
+    </div>
+    <ul class="gr-common-nav">
+        <li class="tab now">全部<i class="line"></i></li>
+        <li class="tab">收入<i class="line"></i></li>
+        <li class="tab">支出</li>
+        <li class="tab-slider"></li>
+    </ul>
+    
+    <div class="gr-list gr-mbdetail f14 ">
+    	
+        <div class="l-h40">
+        	<p class="clearfix p"><span class="fl w120">签到赚助学券</span><span class="fl c-grey01">2015-02-14</span><span class="fr c-orange">20元</span></p>
+            <p class="clearfix p"><span class="fl w120">分享赚助学券</span><span class="fl c-grey01">2015-02-14</span><span class="fr c-orange">50元</span></p>
+            <p class="clearfix p"><span class="fl w120">兑换M币</span><span class="fl c-grey01">2015-02-14</span><span class="fr c-orange">-20元</span></p>
+        </div>
+        <div class="l-h40 display">
+        	<p class="clearfix p"><span class="fl w120">签到赚助学券</span><span class="fl c-grey01">2015-02-15</span><span class="fr c-orange">90元</span></p>
+            <p class="clearfix p"><span class="fl w120">分享赚助学券</span><span class="fl c-grey01">2015-02-14</span><span class="fr c-orange">50元</span></p>
+            <p class="clearfix p"><span class="fl w120">签到赚助学券</span><span class="fl c-grey01">2015-02-14</span><span class="fr c-orange">20元</span></p>
+        </div>
+        <div class="l-h40 display">
+        	<p class="clearfix p"><span class="fl w120">兑换M币</span><span class="fl c-grey01">2015-02-16</span><span class="fr c-orange">-20元</span></p>
+            <p class="clearfix p"><span class="fl w120">兑换M币</span><span class="fl c-grey01">2015-02-14</span><span class="fr c-orange">-20元</span></p>
+            <p class="clearfix p"><span class="fl w120">兑换M币</span><span class="fl c-grey01">2015-02-14</span><span class="fr c-orange">-20元</span></p>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/admin/Personal.js"></script>

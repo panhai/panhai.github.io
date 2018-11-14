@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+	<link rel="stylesheet" type="text/css" href="../css/css.css">
+    <link rel="stylesheet" type="text/css" href="../css/css2.css">
+	<script src=../js/jquery.js></script>
+	<script src=../js/jquery.mobile.js></script>
+	<title>完善个人资料</title>
+</head>
+<style>
+.errorMsg{ margin:0 0 10px 0; width:auto;}
+input{ font-size:0.7rem;}
+</style>
+<body>
+	<div class="mylisten-body">
+		<div class="personal-top">
+			<a href="javascript:history.go(-1);" class="return"></a>
+			完善个人资料
+		</div>
+        <div class="completeWarn">请完善资料可再获取<b>10元</b>助学金</div>
+	</div>
+    <div class="complete"><form onSubmit="return checkJS();">
+        <p class="completeInstr">真实姓名用于大会抽奖及礼品派发</p>
+    	<div class="errorMsg">这是一条错误信息</div>
+        <ul>
+        	<li><var>真实姓名</var><dfn><input type="text" required placeholder="你的真实中文姓名（必填）"></dfn></li>
+            <li><var>性别</var><dfn><input type="radio" name="sex" checked> 男 <input type="radio" name="sex"> 女 </dfn></li>
+            <li><var>QQ</var><dfn><input type="text" placeholder="你的QQ号码"></dfn></li>
+        </ul>
+        <ul>
+            <li><var>你的账号</var><dfn>22255455</dfn></li>
+            <li><var>初始密码</var><dfn>12020</dfn></li>
+            <!--<li><var>设置新密码</var><dfn><input type="password" placeholder="你的初始化密码12020"></dfn></li>
+            <li><var>确认新密码</var><dfn><input type="password" placeholder="请再次输入密码"></dfn></li>-->
+        </ul>
+        <div class="completeBtn"><input type="submit" value="保存并领取10元助学金"></div>
+    </form></div>
+
+<div class="completeTip">
+	<strong><img src="../images/complete.jpg" width="32" height="32">保存成功</strong>
+    <p>恭喜你获得<b>10元</b>助学金，参加雅思峰会，更多精美礼品等你拿！</p>
+    <div>
+    	<a href="#">进入雅思峰会</a>
+    	<a href="#">返回个人中心</a>
+    </div>
+</div>
+
+<div class="transparent2"></div>
+</body>
+</html>
+
+<script>
+function checkJS(){
+	var OK=true;//保存资料完善结果
+	if(OK)
+	{
+		$(".transparent2").fadeIn('',function(){
+			var W=$(window),T=$(".completeTip");
+			T.css({
+				top:(W.height()-T.height())/2+"px"
+				,left:(W.width()-T.width())/2+"px"
+			})
+			.fadeIn();
+		});
+	}
+	return false;
+}
+</script>

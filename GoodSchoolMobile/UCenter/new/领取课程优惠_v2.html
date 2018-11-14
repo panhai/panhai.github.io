@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<meta content="yes" name="apple-mobile-web-app-capable" />
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+	<meta content="telephone=no" name="format-detection" />
+	<title>领取课程优惠</title>
+	<link rel="stylesheet" type="text/css" href="../../css/UserCenter.css">
+</head>
+<body class="bg-gray">
+	<div class="top-navbar">
+		<div class="left"><a href="javascript:history.go(-1)"><i class="navbar-icon icon01"></i></a></div>
+	    <div class="center">领取您的25元课程优惠</div>
+	</div>
+
+	<ul class="register">
+		<li>
+			<input type="text" class="full error" placeholder="请输入您的手机号码" id="" />
+			<p class="errorTip show"><i class="iconfont icon-close"></i>您的手机号码输入错误</p>
+		</li>
+		<li class="clearfix">
+			<input type="text"  class="code"placeholder="请输入短信验证码" id="" />
+			<input type="button" value="获取验证码" class="get-code" />
+			<p class="errorTip"><i class="iconfont icon-close"></i><span>您的手机号码输入错误</span></p>
+		</li>
+		<li>
+			<input type="text" class="full"placeholder="请设置你的账号密码" id="" />
+		</li>
+	</ul>
+	<a href="领取课程优惠-已领取_v2.html" class="next-btn">立即加入好学校</a>
+	<p class="register-read">注册即视为同意<a href="/helpcenter/helpagreement.aspx">《好学校服务协议》</a></p>
+	<script src="../../js/jquery.js"></script>
+	<script>
+		$(function(){
+			$('.register')
+		});
+		
+
+    
+    $('.register-read').css({ position: 'absolute', top: $(window).height() - 30 });
+	</script>
+</body>
+</html>

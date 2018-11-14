@@ -1,0 +1,62 @@
+<!DOCTYPE html >
+<html >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+<meta content="yes" name="apple-mobile-web-app-capable" /> 
+<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+<meta content="telephone=no" name="format-detection" />
+<link rel="stylesheet" type="text/css" href="../css/css.css">
+<link rel="stylesheet" type="text/css" href="../css/css2.css">
+<link rel="stylesheet" type="text/css" href="../css/SchoolCenter.css">
+<link rel="stylesheet" type="text/css" href="../css/PersonalCenter.css">
+
+<title>课程点评</title>
+</head>
+
+<body>
+	<div class="top-navbar">
+    	<div class="left"><a href="javascript:history.go(-1)"><i class="navbar-icon icon01"></i></a></div>
+        <div class="center">课程点评 </div>
+    </div>
+    
+    <div class="gr-list">
+    
+        <div class="gr-cursecomment p-l15">
+            <div class="gr-coursebox">
+                <div class="gr-thead f14"><span class="icon"></span>广东新东方学校(天河学区）
+                    <div class="jiantou"></div>
+                </div>
+                <a href="ConsultationDetails.html" class="gr-courseinfo">
+                    <div class="imgbox"><img src="../images/context02.jpg"></div>
+                    <div class="content">
+                        <p class="c-title">新东方雅思口语班新东方雅思口语班新东方雅思口语班</p>
+                        <p class="time-slot">白天班 </p>
+                        <p class="c-grey02 money01">3000元</p>
+                    </div>
+                </a>
+                <div class="clearfix l-h20">
+                    <p class="fl f12">报名时间：2015-02-03<br>可提现：<span class=" c-white b-orange01">点评可获45元</span></p>
+                </div>
+            </div>
+        
+            <div class="gr-star displaybox">
+                <div class="star displayflex">
+                    <p><span class="label">师资力量：</span><span class="commentStar star25"></span></p>
+                    <p><span class="label">学历环境：</span><span class="commentStar star25"></span></p>
+                    <p><span class="label">教学服务：</span><span class="commentStar star25"></span></p>
+                </div>
+                <div class="score">总分<span class="f30 c-orange">5.0</span>分</div>
+            </div>
+            <div class="p-r15 p-b20">
+                <textarea rows="5" class="jg-reply" placeholder="请对该学校做出评价："></textarea>
+                <div class="jg-btnbig">提交点评</div>
+            </div>
+        </div>
+    	
+    </div>
+    
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/admin/Personal.js"></script>

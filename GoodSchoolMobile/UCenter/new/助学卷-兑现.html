@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+	<link rel="stylesheet" type="text/css" href="../../css/UserCenter.css">
+</head>
+<body class="bg-gray">
+	<div class="top-navbar">
+		<div class="left"><a href="javascript:history.go(-1)"><i class="navbar-icon icon01"></i></a></div>
+	    <div class="center"></div>
+	    <div class="right"><a href="现金-现金明细.html">兑现记录</a></div>
+	</div>
+
+	<div class="cashing">
+		<div class="cashing-top">
+			<p><span class="quan"><i class="iconfont icon-quan"></i></span></p>
+			<h5>助学券余额</h5>
+			<h3>1254.00元</h3>
+		</div>
+		<div class="cashing-info clearfix">
+			<div class="l">
+				<span>可兑现助学券</span>
+				<strong>12.00元</strong>
+			</div>
+			<div class="r">
+				<a class="cashing-btn">立即兑现</a><span>已兑现0.00元</span>
+			</div>
+
+		</div>
+
+		<div class="cashing-get"><a href="课程点评-没有点评.html">
+			<h2 class="title">获取兑现额度</h2>
+			<div class="cashing-item clearfix">
+				<span class="iconfont icon-tongguo"></span>
+				<h2>通过好学校报读课程</h2>
+				<p>报读课程并点评后，您将可兑现<i class="tip">20-500元</i>不等助学券</p>
+				<i class="iconfont icon-arrow-right"></i></a>
+			</div>
+			<div class="cashing-item clearfix"><a href="助学券-邀请好友_v2.html">
+				<span class="iconfont icon-yaoqing"></span>
+				<h2>邀请好友加入好学校</h2>
+				<p>当好友报读课程时，您将可兑现<i class="tip">20-500元</i>不等助学券</p>
+				<i class="iconfont icon-arrow-right"></i></a>
+			</div>
+		</div>
+
+		<div class="cashing-new">
+			<h2 class="title">最新动态</h2>
+			<div class="cashing-new-slider">
+				
+			</div>
+		</div>
+	</div>
+
+	<p class="help"><a href="助学券-助学卷说明.html">查看兑换规则&nbsp;<i class="iconfont icon-arrow-right"></i></a></p>
+
+	<script src="../../js/jquery.js"></script>
+	<script src="../../js/plugin/iSlider.min.js"></script>
+	<script src="../../js/ucenter.js"></script>
+	<script>
+		var list = [
+			{
+				content: 
+				'<div class="cashing-new-item clearfix">'+
+				'<img src="../../images/UCenter/user_pic.png" alt="">'+
+				'	<h2>会员158****6047邀请好友通过好学校报读，兑现了<i>124元</i>助学券!</h2>'+
+				'	<p>2016-08-27  12:14</p>'+
+				'</div>'
+			},
+			{
+				content: 
+				'<div class="cashing-new-item clearfix">'+
+				'<img src="../../images/UCenter/user_pic.png" alt="">'+
+				'	<h2>会员158****6047邀请好友通过好学校报读，兑现了<i>124元</i>助学券!</h2>'+
+				'	<p>2016-08-27  12:14</p>'+
+				'</div>'
+			},
+			{
+				content: 
+				'<div class="cashing-new-item clearfix">'+
+				'<img src="../../images/UCenter/user_pic.png" alt="">'+
+				'	<h2>会员158****6047邀请好友通过好学校报读，兑现了<i>124元</i>助学券!</h2>'+
+				'	<p>2016-08-27  12:14</p>'+
+				'</div>'
+			}
+		];
+
+		new iSlider({
+			dom: $('.cashing-new-slider').get(0),
+			data: list,
+			isAutoplay: true
+		})
+		$(function(){
+			var tipTxt = {
+				error: {
+					title: '兑现失败',
+					content: '很抱歉，您的助学券余额为0元，暂无助学券可兑现，是否赚取助学券？',
+					confirm: '取消',
+					cancel: '我的助学券',
+					onconfirm: function(){
+						this.fadeOut();
+					},
+					oncancel: function(){
+					}
+				},
+				error2: {
+					title: '助学券不足',
+					content: '很抱歉，您的助学券不足78元，暂时无法完全兑现，是否赚取助学券？',
+					confirm: '否，先兑换一部分',
+					cancel: '我的助学券',
+					onconfirm: function(){
+						this.fadeOut();
+					},
+					oncancel: function(){
+					}
+				},
+				ok: {
+					title: ' 恭喜您兑现成功！',
+					content: '您已成功将20元助学券兑现，现金余额+20元。',
+					confirm: '关闭',
+					cancel: '查看我的现金',
+					onconfirm: function(){
+						this.fadeOut();
+					},
+					oncancel: function(){
+					}
+				}
+			}
+			var test = 'ok';
+			$('.cashing-btn').click(function(event){
+				var opts = tipTxt[test];
+				CONFIRM(null,{
+					topic: opts.title,
+					content: opts.content,
+					cancel: opts.cancel,
+					confirm: opts.confirm,
+					onconfirm: opts.onconfirm,
+					oncancel: opts.oncancel
+				});
+			});
+		});
+	</script>
+</body>
+</html>

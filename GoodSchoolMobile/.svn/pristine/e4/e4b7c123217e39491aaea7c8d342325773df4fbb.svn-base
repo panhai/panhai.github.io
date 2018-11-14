@@ -1,0 +1,147 @@
+<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/> 
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+	<link rel="stylesheet" type="text/css" href="../css/css.css">
+    <link rel="stylesheet" type="text/css" href="../css/css2.css">
+    <link rel="stylesheet" type="text/css" href="../css/fonts.css">
+	<title>学校动态</title>
+</head>
+
+<body>
+<div class="dynamic01 b-white" style="margin-bottom:60px;">
+
+<header class="Header" >
+    <div class="left"><a href="javascript:history.go(-1)" class="icon-arrow-left"></a></div>
+    <h1>学校动态</h1>
+    <div class="right"><a href="../UCenter/InfoCenter.html" class="icon-chat m-r6 f24"></a><a class="icon-dots-three-horizontal"></a></div>
+</header>
+
+<div class="nav-switch">
+	<ul class="displaybox">
+    	<li class="item displayflex"><a>学校动态</a></li>
+        <li class="item displayflex"><a>学校资讯</a></li>
+    </ul>
+</div>
+
+<div class="dynamic-content">
+
+<div class="list">
+    <div class="dynamic-info">
+        <div class="content">
+            <p class="title">新东方雅思口语班新东方雅思口语班新东方雅思口语班新东方雅思口语班新东方雅思口语班新东方雅思口语班</p>
+            <p class="c-grey01 f12">112浏览&nbsp;&nbsp;2015-10-10</p>     
+        </div>
+        <div class="imgbox"><img src="../images/context02.jpg"></div>
+    </div>
+    <div class="dynamic-info">
+        <div class="content">
+            <p class="title">新东方雅思口语班新东方雅思口语班新东方雅思口语班</p>
+            <p class="c-grey01 f12">112浏览&nbsp;&nbsp;2015-10-10</p>     
+        </div>
+        <div class="imgbox"><img src="../images/context02.jpg"></div>
+    </div>
+    <div class="dynamic-info">
+        <div class="content">
+            <p class="title">新东方雅思口语班新东方雅思口语班新东方雅思口语班</p>
+            <p class="c-grey01 f12">112浏览&nbsp;&nbsp;2015-10-10</p>     
+        </div>
+        <div class="imgbox"><!--<img src="../images/context02.jpg">--></div>
+    </div>
+</div>
+
+<div class="list">
+    <div class="dynamic-info">
+        <div class="content">
+            <p class="title">新东方雅思口语班新东方雅思口语班新东方雅思口语班新东方雅思口语班新东方雅思口语班新东方雅思口语班</p>
+            <p class="c-grey01 f12">112浏览&nbsp;&nbsp;2015-10-10</p>     
+        </div>
+        <div class="imgbox"><img src="../images/context02.jpg"></div>
+    </div>
+    <div class="dynamic-info">
+        <div class="content">
+            <p class="title">新东方雅思口语班新东方雅思口语班新东方雅思口语班</p>
+            <p class="c-grey01 f12">112浏览&nbsp;&nbsp;2015-10-10</p>     
+        </div>
+        <div class="imgbox"><img src="../images/context02.jpg"></div>
+    </div>
+    <div class="dynamic-info">
+        <div class="content">
+            <p class="title">新东方雅思口语班新东方雅思口语班新东方雅思口语班</p>
+            <p class="c-grey01 f12">112浏览&nbsp;&nbsp;2015-10-10</p>     
+        </div>
+        <div class="imgbox"><!--<img src="../images/context02.jpg">--></div>
+    </div>
+    <div class="dynamic-info">
+        <div class="content">
+            <p class="title">新东方雅思口语班新东方雅思口语班新东方雅思口语班</p>
+            <p class="c-grey01 f12">112浏览&nbsp;&nbsp;2015-10-10</p>     
+        </div>
+        <div class="imgbox"><!--<img src="../images/context02.jpg">--></div>
+    </div>
+</div>
+
+</div>
+</div>
+
+<div class="background"></div>
+<div class="foot-course" style="z-index:2;">
+	<div class="foot-ul">
+        <ul>
+            <li><a href="Search-School.html">雅思培训</a></li>
+            <li><a href="Search-School.html">雅思培训</a></li>
+            <li><a href="Search-School.html">雅思培训</a></li>
+            <li><a href="Search-School.html">雅思培训</a></li>
+            <li><a href="Search-School.html">雅思培训</a></li>
+            <li><a href="Search-School.html">雅思培训</a></li>
+            <li><a href="Search-School.html">雅思培训</a></li>
+            <li><a href="Search-School.html">雅思培训</a></li>
+            <li><a href="Search-School.html">雅思培训</a></li>
+            <li><a href="Search-School.html">雅思培训</a></li>
+            <li><a href="Search-School.html">雅思培训</a></li>
+            <li><a href="Search-School.html">雅思培训</a></li>
+            <li><a href="Search-School.html">雅思培训</a></li>
+            <li><a href="Search-School.html">雅思培训</a></li>
+        </ul>
+    </div>
+    <div class="arrow-down"><p class="before"></p></div>
+</div>
+<div class="contact-box">
+	<a href="schoolDetails.html" class="item flex01">
+    	<p class="icon"><span class="icon-courseDetails"></span></p>
+        <p class="text">学校详情</p>
+    </a>
+	<a class="item flex01 course">
+    	<p class="icon"><span class="icon-bigClass"></span></p>
+        <p class="text">课程分类</p>
+    </a>
+	<a class="item flex01">
+    	<p class="icon"><span class="icon-consultation"></span></p>
+        <p class="text">电话</p>
+    </a>
+	<a class="item flex01">
+    	<p class="icon"><span class="icon-qq2"></span></p>
+        <p class="text">QQ</p>
+    </a>
+    <a class="item flex01">
+    	<p class="icon"><span class="icon-chat pr"><i class="dot-tips">1</i></span></p>
+        <p class="text">在线</p>
+    </a>
+</div>
+
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/plugin/raphael.js"></script>
+<script src="../js/plugin/tab.js"></script>
+<script src="../js/js2.js"></script>
+<script>
+$(function(){
+	CHItab(".dynamic01",".nav-switch .item",".dynamic-content .list",{way:"click",auto:false});
+})
+</script>
+

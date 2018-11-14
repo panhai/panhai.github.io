@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<script src=js/jquery.js></script>
+	<!-- <link rel=stylesheet href=js/jquery.mobile.css> -->
+	<!-- <script src=js/jquery.mobile.js></script> -->
+	<title>忘记密码</title>
+</head>
+<body>
+	<div class="login-top">
+		<a href="javascript:history.go(-1);" class="return" id="find-img1" onclick="findTab(1)"></a>
+		<a class="return" id="find-img2" onclick="findTab(1)" style="display:none;"></a>
+		<a class="return" id="find-img3" onclick="findTab(2)" style="display:none;"></a>
+		<p>忘记密码</p>
+	</div>
+	<div class="find-main" id="find-main1" style="display:none;">
+		<div class="errorMsg">错误提示位置！</div>
+		<div class="forget-text01">
+			<input type="text" placeholder="手机号/邮箱/用户名">
+		</div>
+		<div class="forget-text02">
+			<input type="text" placeholder="请输入验证码">
+			<div class="forget-text02-01">
+				<img src="images/yzm.jpg" alt=""/>
+			</div>
+		</div>
+		<center>
+			<input type="submit" class="registration-btn" value="下一步" onclick="findTab(2)"/>
+		</center>
+	</div>
+	<div class="find-main" id="find-main2" >
+		<div class="errorMsg">错误提示位置！</div>
+		<div class="forget-phone">
+			<div class="phone-yz">
+				<span class="text">我选择156****6561手机验证</span><span class="jiao"></span>
+			</div>
+		</div>
+		<div class="forget-phone now">
+			<div class="phone-yz">
+				我选择zy***2@qq.com邮箱验证
+			</div>
+		</div>
+		<div class="data-a"></div>
+		<div class="forget-text02">
+			<input type="text" placeholder="请输入验证码">
+			<div class="login-main-text01-01">获取验证码</div>
+		</div>
+        <p>156*****935若当前号码已不用/丢失，或无法收到验证码？请联系客服帮助处理，客服联系电话400-660-5391</p>
+        <p>zy***2@163.com若当前邮箱已不用/丢失，或无法收到验证码？请联系客服帮助处理，客服联系电话400-660-539</p>
+        <center>
+			<input type="submit" class="registration-btn" value="下一步" onclick="findTab(3)"/>
+		</center>
+	</div>
+    <div class="find-main" id="find-main3" style="display:none;">
+    	<div class="errorMsg">错误提示位置！</div>
+		<div class="forget-text01">
+			<input type="text" placeholder="新密码">
+		</div>
+		<div class="forget-text02">
+			<input type="text" placeholder="确认密码">
+		</div>
+		<center>
+			<input type="submit" class="registration-btn" value="保存"/>
+		</center>
+	</div>
+</body>
+<script type="text/javascript" src="js/js.js"></script>
+
+</html>

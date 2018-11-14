@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<script src=js/jquery.js></script>
+	<title>注册</title>
+</head>
+<body>
+	<div class="login-top">
+		<a href="javascript:history.go(-1);" class="return" id="reg-img1" onclick="regTab(1)"></a>
+		<!-- <a class="return" id="reg-img2" onclick="regTab(1)" style="display:none;"></a> -->
+		<a class="return" id="reg-img3" onclick="regTab(1)" style="display:none;"></a>
+		<p>注册</p>
+	</div>
+	<!-- <div class="registration-nav">
+		<div class="registration-nav01" id="registration-nav01">
+			<p>1</p>
+			<div>输入手机号</div>
+		</div>
+		<div class="registration-nav02" id="registration-nav02">
+			<p>2</p>
+			<div>输入验证码</div>
+		</div>
+		<div class="registration-nav02" id="registration-nav03">
+			<p>3</p>
+			<div>设置密码</div>
+		</div>
+	</div> -->
+	<div class="registration-main" id="registration-main1">
+		<div class="errorMsg">错误提示位置！</div>
+		<div class="registration-main-text">
+			<input type="text" placeholder="请输入手机号码">
+		</div>
+		<div class="registration-dx">
+			<div class="registration-dx-btn">
+				获取验证号
+			</div>
+			<div class="registration-dx-text">
+				系统将发送短信验证码至您的手机
+			</div>
+			<div class="dashed"></div>
+		</div>
+		<div class="registration-main-text">
+			<input type="text" placeholder="请输入验证码">
+		</div>
+		<center>
+			<input type="submit" class="registration-btn" value="提交验证码" onclick="regTab(3)"/>
+		</center>
+		<div class="registration-bottom">
+			<div class="registration-bottom01">
+				<div class="checkbox">
+					<input type="checkbox" checked="checked"/>
+				</div>
+				已阅读并同意<a href="helpagreement.html">《好学校服务协议》</a>
+			</div>
+		</div>
+	</div>
+	<!-- <div class="registration-main" id="registration-main2" style="display:none;">
+		<div class="errorMsg">错误提示位置！</div>
+		<div class="registration-main-text">
+			<input type="text" placeholder="输入验证码">
+		</div>
+		<div class="registration-btn" onclick="regTab(3)">
+			提交验证码
+		</div>
+		<div class="registration-bottom">
+			<div class="registration-bottom01"><div class="checkbox"><input type="checkbox" checked="checked"/></div>已阅读并同意<a href="helpagreement.html">《好学校服务协议》</a></div>
+		</div>
+	</div> -->
+	<div class="registration-main" id="registration-main3" style="display:none;">
+		<div class="errorMsg">错误提示位置！</div>
+		<div class="registration-main-text">
+			<input type="text" placeholder="输入你的密码">
+		</div>
+		<div class="registration-main-text">
+			<input type="text" placeholder="再次输入你的密码">
+		</div>
+		<center>
+			<input type="submit" class="registration-btn" value="注册完成" onclick="regTab(3)"/>
+		</center>
+		<div class="registration-bottom">
+			<div class="registration-bottom01"><div class="checkbox"><input type="checkbox" checked="checked"/></div>已阅读并同意<a href="helpagreement.html">《好学校服务协议》</a></div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="js/js.js"></script>
+
+</html>

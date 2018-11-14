@@ -1,0 +1,133 @@
+/* CSS Document */
+
+*{ margin:0px; padding:0px; font-family:Microsoft YaHei, Arial;}
+ul,ol,li{ list-style:none;}
+q{ quotes:none;}
+a{ text-decoration:none; cursor:pointer;}
+img{ border:0px;}
+body{ color:#333; font-size:14px;}
+input::-ms-clear{ display:none;}
+:-moz-placeholder{ color:#999;}
+::-moz-placeholder{ color:#999;}
+:focus{ outline:none;}
+textarea{ resize:none !important;}
+.clear{ clear:both !important; float:none !important; overflow:hidden;}
+.clearfix:after {content: "."; display: block; height: 0; clear: both; visibility: hidden;  }
+
+table{ border-collapse:collapse; table-layout:fixed;}
+/*半透明背景*/
+.black5{ background:rgba(0,0,0,0.5); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4B000000,endColorstr=#4B000000);}
+.fixed{ position:fixed; _position:absolute;}
+.fixed-top{	top:0px; _top:expression(eval(document.documentElement.scrollTop));}
+.fixed-bottom{ bottom:0px; _bottom:auto; _top:expression(eval(document.documentElement.scrollTop + document.documentElement.clientHeight - this.clientHeight - (parseInt(this.currentStyle.marginTop) || 0) - (parseInt(this.currentStyle.marginBottom) || 0)));}
+/*全屏插件，为了方便横竖居中，使用表格*/
+.FullScreenPlugin{ display:none; width:100%; height:100%; _height:expression(eval(document.documentElement.clientHeight)); text-align:center; z-index:66666;}
+.FullScreenPlugin td{ vertical-align:middle; text-align:center;}
+
+header{ background-color:#40a1f2; color:#fff; font-size:18px; line-height:50px; text-align:center;  position:relative;}
+header .left{width: 30px; height: 30px; display: inline-block; vertical-align: middle; background: url(../images/navbar-icon.png) no-repeat;
+background-size: 30px auto; position:absolute; left:5px; top:10px;}
+
+.baaner01{ height:150px; background:url(../images/banner01.jpg) no-repeat; background-size:100% 150px; position:relative; margin-bottom:18px;}
+.baaner01 p{ position:absolute; left:0; bottom:-5px; color:#fff; background:#99c934; padding:5px 8px; font-size:12px;}
+
+.baaner02{ height:210px; width:100%;}
+.baaner02 img{ height:210px; width:100%; }
+
+.baaner03{ height:170px; width:100%;}
+.baaner03 img{ height:170px; width:100%;}
+
+.baaner04{ height:280px; width:100%; position:relative;}
+.baaner04 img{ height:280px; width:100%;}
+.lingqu{ width:85px; height:85px; position:absolute; right:40px; bottom:10px; background:url(../images/dot02.png) no-repeat; background-size:85px 85px;}
+
+.success{ position:fixed; top:0; left:0; color:#fff; text-align:center; background:rgba(0,0,0,0.5); width:100%; height:100%; padding-top:50px; display:none;}
+.success .h{ font-size:20px; font-weight:bold;}
+.success .h2{  font-size:16px; font-weight:bold;}
+.success .pic{height: 280px; background: url(../images/dot01.png) center center no-repeat; background-size: 207px 207px;}
+.success .btn{ width:205px; height:35px; background:#fff; text-align:center; line-height:35px; color:#ff6600; margin:0 auto; font-weight:bold; font-size:16px;}
+.success .close{ position:absolute; top:20px; right:20px; width:21px; height:21px; background:url(../images/close.png) no-repeat; background-size:21px 21px;}
+
+/*机构课程列表*/
+
+.title01{ height:40px; line-height:40px; border-bottom:1px solid #ebebeb; font-size:16px; background:#fff; padding-left:10px;}
+.gr-coursebox{ background:#fff; display:block; font-size:14px; border-bottom:1px solid #ebebeb; }
+.gr-courseinfo{ display:-moz-box; display:-webkit-box; display:box; padding:15px 0; color:#333; border-bottom:1px solid #ebebeb;}
+.gr-courseinfo .imgbox{ width:100px; height:72px; margin-left:12px;}
+.gr-courseinfo .imgbox img{ width:100px; height:72px; }
+.gr-courseinfo .content{ -moz-box-flex:1; -webkit-box-flex:1; box-flex:1;  margin:0 10px;}
+.gr-courseinfo .content p{ position:relative;}
+.gr-courseinfo .content .c-title{ font-size:16px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; display:block; font-weight:bold;}
+.gr-courseinfo .content .time-slot{ color:#999; padding-top:5px; font-size:14px;}
+.gr-courseinfo .content .money01{ padding-top:10px; font-size:0.9rem;}
+.gr-courseinfo .content .money02{ font-size:0.9rem; color:#ff7f00; padding-top:4px;}
+.gr-courseinfo .content .mb{ color:#fff; background:#ff7f00; padding:0 2px; font-size:0.7rem; margin-left:10px;}
+.gr-courseinfo .state{padding:2px;  text-align:center;  color:#fff; font-size:0.6rem; display:inline-block; line-height:12px; }
+
+.shoolbox{ background:#fff; margin-bottom:15px;}
+.shool{}
+.more01{ height:40px; line-height:40px; background:#fff; font-size:16px; text-align:center; color:#31a1fe; display:block;}
+
+.ensure{ background:#fff; margin-bottom:15px; padding:15px 15px 20px 15px;}
+.ensure h3{ padding-bottom:15px; padding-top:10px;}
+.ensure p{ padding-bottom:10px;}
+.btnbig{ height:46px; line-height:46px; text-align:center; color:#fff; background:#ff6600; font-size:18px; width:100%; margin:20px 0; cursor:pointer; display:block;}
+
+.student{ background:#faf4dc; margin-bottom:15px;}
+.student .title{ color:#fe5151; padding-bottom:10px; font-size:16px;}
+.studenttext{ padding:15px;}
+.studenttext .tips{ margin:5px 0; border:1px solid #f36565; background:#ffc5c5; color:red; height:30px; line-height:30px; padding-left:10px;}
+.studenttext .text{ background:#fff;  line-height:32px; padding:4px 10px; width:100%; box-sizing:border-box; border:1px solid #cdcdcd; margin-bottom:8px; font-size:16px;}
+
+.obtain{ width:35%; float:right; background:#fdcd3a; text-align:center; height:42px; line-height:42px; color:red; font-size:16px;}
+
+.please{ background:#fff; padding:20px 15px 80px 15px;}
+.please .h{ font-size:24px; font-weight:bold; color:#ff6600; text-align:center;}
+.please .h2{ text-align:center; font-size:18px; font-weight:bold; color:#ff6600;}
+.please .pic{ height:280px; background:url(../images/dot01.png) center center no-repeat; background-size:207px 207px;}
+.t-acenter{ text-align:center;}
+
+.btnbootom { position: fixed; left: 0; bottom: 0; background: rgba(0,0,0,0.5); padding: 7px 0; width: 100%; border-top: 1px solid #e5e5e5;display: -moz-box; display: -webkit-box; display: box;}
+.btnmiddle {-moz-box-flex: 1; -webkit-box-flex: 1; height: 34px; line-height: 34px;  border-radius: 2px; text-align: center; color: #fff; margin: 0 5px; display:block;}
+.btnbootom .btn01{ background:#2F8AFF;}
+.btnbootom .btn02{ background:#ff7f00;}
+
+.bdsharebuttonbox{ width:190px; margin:0 auto; padding-bottom:30px; height:35px;}
+.bdsharebuttonbox a{ display:block !important; float:left !important; width:35px !important; height:34px !important; margin:0 !important; background-position:0 0 !important;}
+.bdsharebuttonbox a + a{ margin:0 0 0 15px !important;}
+.bds_qzone{ background-image:url(../images/m-qzone.png) !important; background-size:35px 35px;}
+.bds_tsina{ background-image:url(../images/m-wb.png) !important; background-size:35px 35px;}
+.bds_weixin{ background-image:url(../images/m-wx.png) !important; background-size:35px 35px;}
+.bds_sqq{ background-image:url(../images/m-qq.png) !important; background-size:35px 35px;}
+
+.ShareTip{ display:none; padding:40px 75px 0 0; position:fixed; top:0; right:0; color:#fff; font-size:16px; line-height:20px; text-align:left; background:url(../images/share-arrow.png) right top no-repeat rgba(0,0,0,.7); width:100%; height:100%;}
+.ShareTip p{ float:right;}
+
+.reserve2{ padding:15px;}
+.reserve2 .btnbig{ margin:5px 0;}
+
+.p-t5{ padding-top:5px;}
+.p-t10{ padding-top:10px;}
+.p-t15{ padding-top:15px;}
+.p-t20{ padding-top:20px;}
+.p-b10{ padding-bottom:10px;}
+.p-b15{ padding-bottom:15px;}
+.p-b20{ padding-bottom:20px;}
+.p-b30{ padding-bottom:30px;}
+.p10{ padding:10px;}
+.p15{ padding:15px;}
+.c-red{ color:#fe5151;}
+.c-blue{ color:#31a1fe;}
+.c-green{ color:#398d03;}
+.c-grey01{ color:#999;}
+.c-grey02{ color:#666;}
+.c-grey03{ color:#333;}
+.c-orange{ color:#ff6600;}
+.f16{ font-size:16px;}
+
+
+
+
+
+
+

@@ -1,0 +1,71 @@
+﻿*{margin:0; padding:0; font-family: 微软雅黑; font-size: 20px;}
+a{text-decoration: none;}
+li{list-style: none;}
+.clear{clear:both;}
+
+.picture img{width: 100%;}
+.title{width: 100%; line-height: 46px; font-size: 0.7rem; color: #333333; text-align:center; font-weight: 900; border-bottom: 1px solid #d9d9d9;}
+.title span{color: #e04c56;}
+.main{width: 100%; height: 86px;}
+.main .left.c1{background: #00a348;}
+.main .left.c2{background: #0072ff;}
+.main .left{float: left; width: 28%; height: 100%; background: #ff7f00; text-align: center; font-size: 0;}
+.main .left img{margin: 20px auto 0 auto; width: 36px; height: 36px;}
+.main .left p{font-size: 0.7rem; color: white;}
+.main .right{float: left; position: relative; width: 72%; height: 100%; border-bottom: 1px solid #d9d9d9;}
+.main .right p{margin:11px 0 0 11px; font-size: 0.8rem; font-weight: 900; color:#666666;}
+.main .right span{margin:8px 0 0 11px; display: block; font-size: 0.6rem; color: #808080; line-height: 16px;}
+.main .right img{position: absolute; top:29px; right: 16px; width: 17px; height: 27px;}
+
+.top{position: relative; width: 100%; line-height: 46px; background: #2f8aff; font-size: 1rem; text-align: center; color: white;}
+.top a{position: absolute; top:5px; left: 0; width: 29px; height: 40px;}
+.top img{width: 25px; height: 25px;}
+.banner{font-size: 0;}
+.banner img{width: 100%;}
+
+.search{width: 100%; height:60px; background: #e6e6e6;}
+.search-main{margin: 0 auto; width: 242px; padding-top: 12px;}
+.search-main input{float: left; font-size: 0.8rem; width: 180px; height: 36px; background: white; border-radius: 5px; border: none; outline: none; padding: 0 10px;}
+.search-main .btn{float: left; margin: 0 0 0 2px; width: 36px; height: 36px; background: white; text-align: center;}
+.search-main .btn img{vertical-align: middle;}
+
+.shengxue{margin: 16px auto 0 auto; width: 90%;}
+.shengxue a{float: left; margin-bottom: 5px; display: block; width: 49%; line-height: 108px; text-align: center; font-size: 0.9rem; color: white; font-weight: 900;}
+.shengxue a span{font-weight: 100;}
+.shengxue a.c1{background: #90ce6a;}
+.shengxue a.c2{float: right; background: #58b4e0;}
+.shengxue a.c3{background: #f6764a;}
+.shengxue a.c4{float: right; background: #c066a5;}
+.shengxue a.c5{float: left; width: 100%; line-height: 45px; background: #f96466;}
+
+.shengxue-main{display: none;}
+.shengxue-main:target{display: block;}
+.shengxue_1{margin: 20px auto 0 auto; width: 90%;}
+.shengxue_1 a{float: left; margin:0 3px 5px 3px; display: block; width: 31%; line-height: 90px; text-align: center; font-size: 0.9rem; color: white; font-weight: 900;}
+.shengxue_1 a.c1{background: #90ce6a;}
+.shengxue_1 a.c2{background: #58b4e0;}
+.shengxue_1 a.c3{background: #f6764a;}
+.shengxue_1 a.c4{background: #c066a5;}
+.shengxue_1 a.c5{background: #f96466;}
+.shengxue_1 a.c6{background: #ff9a4f;}
+.shengxue_1 a.c7{background: #ce906a;}
+.shengxue_1 a.c8{background: #42aca6;}
+.shengxue_1 a.c9{background: #90ce6a;}
+
+.jiuye{width: 100%;}
+.jiuye .left{float: left; width: 25%; line-height: 73px; text-align: center;}
+.jiuye .left img{vertical-align: middle; width: 37px;}
+.jiuye .left.c1{background: #90ce6a;}
+.jiuye .left.c2{background: #58b4e0;}
+.jiuye .left.c3{background: #c066a5;}
+.jiuye .left.c4{background: #f6764a;}
+.jiuye .left.c5{background: #f96466;}
+.jiuye .right{float: right; width: 75%; line-height: 73px; position: relative; border-bottom: 1px solid #d9d9d9;}
+.jiuye .right p{width: 68%; font-size: 0.7rem; color: #333333; margin-left: 10px;}
+.jiuye .right p.new{line-height: 16px; margin: 21px 0 20px 10px;}
+.jiuye .right img{position: absolute; top:29px; right: 16px; width: 17px; height: 27px;}
+
+.jiuye_1{margin-top: 10px; width: 100%; background: white; border-bottom: 1px solid #c3c3c3;}
+.jiuye_1 p{line-height: 38px; font-size: 0.8rem; font-weight: 900; color: #ff7f00; padding-left: 10px;}
+.jiuye_1 li{float: left; width: 33%; text-align: center; border-top: 1px dashed #e0e0e0; border-right: 1px dashed #e0e0e0;}
+.jiuye_1 li a{display: block; line-height: 42px; font-size: 0.7rem; color: #333333;}

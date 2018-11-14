@@ -1,0 +1,60 @@
+<!DOCTYPE html >
+<html >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+<meta content="yes" name="apple-mobile-web-app-capable" /> 
+<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+<meta content="telephone=no" name="format-detection" />
+<link rel="stylesheet" type="text/css" href="../css/css.css" />
+<link rel="stylesheet" type="text/css" href="../css/css2.css"/>
+<link rel="stylesheet" type="text/css" href="../css/SchoolCenter.css">
+
+<title>点评详情</title>
+</head>
+
+<body>
+	<div class="top-navbar">
+    	<div class="left"><a href="javascript:history.go(-1)"><i class="navbar-icon icon01"></i></a></div>
+        <div class="center">点评详情</div>
+        <div class="right"><a href="#"><i class="navbar-icon icon03 "></i></a></div>
+    </div>
+    
+    <div class="jg-comment01">
+    	<div class="jg-coursebox">
+            <div class="jg-courseinfo">
+                <div class="imgbox"><img src="../images/SchoolCenter/course-pict.jpg"></div>
+                <div class="content">
+                    <p class="f16">新东方雅思口语班</p>
+                    <p class="c-grey">广州岗顶 </p>
+                    <p class="c-orange money">3000元</p>
+                </div>
+            </div>
+        </div>
+    	
+    	<div class="course">
+        	<div class="star">
+            	<p><span class="label">师资力量：</span><span class="commentStar star25"></span></p>
+                <p><span class="label">学历环境：</span><span class="commentStar star25"></span></p>
+                <p><span class="label">教学服务：</span><span class="commentStar star25"></span></p>
+            </div>
+            <div class="score">总分<span class="f30 c-orange">5.0</span>分</div>
+        </div>
+        <div class="course01">
+        	<div class="sudent">
+                <img src="../images/SchoolCenter/i-img.jpg">
+                <span class="name">张先生</span>
+            </div>
+            <div class="content">教师认真负责，学校环境优美，生活方便，教学服务好，课程活动丰富，能使学生多才多艺，宿舍环境舒服</div>
+        </div>
+        <div class="course01">
+        	<textarea rows="5" cols="" class="reply" placeholder="回复学员"></textarea>
+            <div class="jg-btnbig">回复</div>
+        </div>
+       
+    </div>
+    
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/admin/Agency.js"></script>

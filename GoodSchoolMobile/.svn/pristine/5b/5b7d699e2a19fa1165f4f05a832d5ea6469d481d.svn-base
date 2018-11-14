@@ -1,0 +1,41 @@
+<!DOCTYPE html >
+<html >
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/> 
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+	<title>签到赚助学金</title>
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <link rel="stylesheet" href="../css/css.css" />
+    <link rel="stylesheet" href="../css/css2.css" />
+</head>
+
+<body>
+
+<div >
+
+  <div class="header"><a href="javascript:history.go(-1);" class="return_ico"></a>签到赚助学金</div>
+  <div class="Signin">
+    <p class="c009b00 fw_bold" style="font-size:35px; line-height:48px;">每日签到有惊喜!</p>
+    <p>看看你的手气和运气是否爆棚吧</p>
+    <p>助学金可以抵学费哟！</p>
+    <a  href="javascript:void(0);" >签到</a>
+    <div class="Signin_Success">
+        <strong>恭喜你！</strong>
+        <p>今天通过好学校签到抽到了<span class="cff7f00 f16">36</span>助学金。</p>
+        <a class="s_s_lose" href="javascript:void(0);">关闭</a>
+    </div>
+    <div style="top: 0px; opacity: 0.5; display: none;" class="transparent"></div>
+  
+  </div>
+  <div class="S_rule"><a href="creditRule.html">签到助学金规则>></a></div>
+
+  
+</div>
+<script type="text/javascript" src="../js/js.js"></script>
+<script type="text/javascript" src="../js/js2.js"></script>
+</body>
+
+</html>

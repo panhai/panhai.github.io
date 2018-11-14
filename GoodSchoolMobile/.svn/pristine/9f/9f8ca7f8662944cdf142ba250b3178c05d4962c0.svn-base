@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/> 
+<meta content="yes" name="apple-mobile-web-app-capable" /> 
+<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+<meta content="telephone=no,email=no" name="format-detection" />
+<title>中专招生专题-报名</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css.css">
+
+<body>
+<header>
+	<a href="javascript:history.go(-1)"></a>
+    参观报名
+</header>
+
+<!--<dl class="block2">
+	<dt>选择参观时间</dt>
+    <dd class="Radios">
+    	<input type="radio" name="radios" id="r1" checked><label for="r1">6月24日</label>
+    	<input type="radio" name="radios" id="r2"><label for="r2">6月26日</label>
+    	<input type="radio" name="radios" id="r3"><label for="r3">6月28日</label>
+    </dd>
+</dl>-->
+
+<dl class="block2">
+	<dt>联系方式</dt>
+	<dd class="Inputs">
+    	<input type="text" class="text" placeholder="学生真实姓名">
+    	<input type="text" class="text" placeholder="您想报读学校">
+    	<div class="clear">
+        	<input type="text" class="mobile" placeholder="联系手机">
+            <input type="button" class="send" value="获取验证码">
+        </div>
+        <input type="text" class="text" placeholder="短信验证码">
+        <!--<div>
+            <input type="text" class="mobile" placeholder="联系手机">
+            <input type="button" class="send" value="获取验证码">
+        </div>
+    	<input type="text" class="text" placeholder="短信验证码">-->
+    </dd>
+	<dt>参观人数</dt>
+    <dd class="Numbers">
+        <div><span>学生</span><i>-</i><input type="text" value="0" maxlength="1" readonly><u>+</u></div>
+        <div><span>家长</span><i>-</i><input type="text" value="0" maxlength="1" readonly><u>+</u></div>
+    </dd>
+    <input type="button" class="submit" value="提交">
+</dl>
+
+
+<table class="FullScreenPlugin fixed fixed-top black5"><tr><td>
+    <div class="SUCCESS">
+    	<q>&times;</q>
+        <h5>恭喜你，报名成功！</h5>
+        <h6><img src="images/share.jpg" width="287" height="15"></h6>
+        <div class="bdsharebuttonbox"><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a class="bds_weixin" title="分享到微信"></a><a class="bds_sqq" title="分享到QQ好友"></a></div>
+        <p class="SHARE">分享给朋友</p>
+    </div>
+</td></tr></table>
+<div class="ShareTip">
+    <p>点击右上角<br>
+    发送给朋友或分享<br>
+    到朋友圈</p>
+</div>
+
+</body>
+</html>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"32"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+<script src="js/jquery.js"></script>
+<script>
+$(function(){
+	$("label").click(function(){
+		$(this).addClass("checked")
+			.find("input").prop("checked",true)
+			.end()
+			.siblings("label").removeClass("checked")
+			.find("input").prop("checked",false);
+	});
+	$(".Numbers").find("i").click(function(){
+		var input=$(this).siblings("input")
+			n=input.val();
+		input.val(Math.max(0,+n-1));
+	}).end()
+	.find("u").click(function(){
+		var input=$(this).siblings("input")
+			n=input.val();
+		input.val(Math.min(9,+n+1));
+	});
+	
+	$(".send").click(function(){
+		$(this).prop('disabled',true).addClass("disabled")
+			.val("60秒后可重新发送");
+		var cnt=59,
+			t=setInterval(function(){
+				if(cnt) $(".send").val(cnt+'秒后可重新发送');
+				else
+				{
+					clearInterval(t);
+					$(".send").removeClass("disabled").val("获取验证码").prop('disabled',false);
+				}
+				cnt--;
+			},1000);
+	});
+	
+	$(".submit").click(function(){
+		$(".FullScreenPlugin").fadeIn();
+	});
+	$(".FullScreenPlugin").find("q").click(function(){
+		$(this).closest(".FullScreenPlugin").fadeOut();
+	});
+	$(".SHARE,.bds_sqq,.bds_weixin").click(function(){
+		$(this).closest(".FullScreenPlugin").fadeOut();
+		$(".ShareTip").fadeIn();
+		setTimeout(function(){
+			$(".ShareTip").fadeOut();
+		},5000);
+	});
+});	
+</script>

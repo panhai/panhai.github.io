@@ -1,0 +1,478 @@
+
+
+/*banner*/
+.gr-banner{ height:110px; width:100%; color:#fff; background:url(../images/UCenter/personal-bj.jpg) no-repeat; background-size:100% 110px;}
+.gr-banner .userinfo{ padding-top:20px; padding-left:15px;}
+.gr-banner .img{ width:65px; height:65px; border-radius:65px; float:left; background:#fff; border:2px solid #fff;}
+.gr-banner .img img{ width:65px; height:65px; border-radius:65px;}
+.gr-banner .gr-header{ float:left; color:#fff; line-height:20px; padding-left:15px; padding-top:10px;}
+
+.gr-order{ height:98px; width:100%; color:#333; background:#fff; font-size:0.7rem; display:-moz-box; display:-webkit-box; }
+.gr-order .options{  text-align:center;  height:98px; font-size:0;  -moz-box-flex:1; -webkit-box-flex:1; }
+.gr-order a{ display:block; height:100%; color:#333;}
+.gr-order i{width:45px; height:45px; line-height:45px; display:inline-block; margin-top:15px; position:relative; color:#fff; font-size:30px; border-radius:12px; margin-bottom:8px;}
+.gr-order .dot-tips{ right:inherit; left:38px;}
+/*.gr-order i{ width:45px; height:45px; background:url(../images/UCenter/order-icon01.png) no-repeat; display:inline-block; margin-top:15px; background-size:45px auto; position:relative;}*/
+.gr-order i.icon01{ background:#f67f44;}
+.gr-order i.icon02{ background:#02b74a;}
+.gr-order i.icon03{ background:#368ae8;}
+.gr-order p{ margin:0 auto; /*width:70px;*/ overflow:hidden; text-overflow:ellipsis; white-space:nowrap; font-size:0.7rem; color:#777;}
+
+
+.gr-info{ background:#fff;  padding-left:50px;}
+.gr-info a{ color:#333; font-size:0.75rem; position:relative;}
+.gr-info a .dot-tips{ left:-23px; top:2px; right:inherit;}
+.gr-info a p:after{ content:""; float:right; height:20px; width:20px; padding-top:15px; background:url(../images/SchoolCenter/arrow01.png) 0 15px no-repeat; background-size:20px auto; margin-right:5px;}
+.gr-info a p{ width:100%; height:50px; line-height:50px; border-bottom:1px solid #f2f2f2;  vertical-align:middle;   position:relative;}
+.gr-info .i-box{ width:30px; height:30px; display:inline-block; position:absolute; left:-40px; top:10px; font-size:30px; color:#999;}
+/*.gr-info .icon01{ background:url(../images/UCenter/gr-info1.png) no-repeat; background-size:30px auto; }*/
+.gr-info .icon02{ background:url(../images/UCenter/gr-info2.png) no-repeat; background-size:30px auto; }
+.gr-info .icon03{ background:url(../images/UCenter/gr-info3.png) no-repeat; background-size:30px auto; }
+.gr-info .i1{ background-position:0 0;}
+.gr-info .i2{ background-position:0 -30px;}
+.gr-info .i3{ background-position:0 -60px;}
+.gr-info .i4{ background-position:0 -90px;}
+.gr-info .i5{ background-position:0 -120px;}
+.gr-info .i6{ background-position:0 -150px;}
+.gr-info .i7{ background-position:0 -180px;}
+
+.gr-info .info-icon.icon2-1{ background-position:-30px 0;}
+.gr-info .info-icon.icon2-2{ background-position:-30px -30px;}
+.gr-info .info-icon.icon2-3{ background-position:-30px -60px;}
+.gr-info .info-icon.icon2-4{ background-position:-30px -90px;}
+.gr-info .info-icon.icon2-5{ background-position:-30px -120px;}
+.gr-info .text{ }
+.gr-info .text02{ position:absolute; right:38px; font-size:0.7rem; color:#bebebe;}
+
+
+/*我的钱包*/
+.gr-nav{ background:#fff; font-size:0.7rem; margin-top:15px;}
+.gr-nav .item:nth-child(odd){ border-right:1px solid #ebebeb;}
+.gr-nav .item{ float:left; width:50%; height:120px; box-sizing:border-box; text-align:center; color:#333; padding-top:20px; border-bottom:1px  solid #ebebeb;}
+.gr-nav .img{ width:35px; height:35px; margin:0 auto; display:block; background:url(../images/UCenter/Mymoey01.png) no-repeat; background-size:35px auto;}
+.gr-nav .img.i1{ background-position:0 0;}
+.gr-nav .img.i2{ background-position:0 -35px;}
+.gr-nav .img.i3{ background-position:0 -70px;}
+.gr-nav .img.i4{ background-position:0 -105px;}
+.gr-nav .img.i5{ background-position:0 -140px;}
+.gr-nav .img.i6{ background-position:0 -140px;}
+.gr-nav .text{ display:block;}
+.wallet{}
+.wallet-box{ background:white; padding:15px 0; margin-bottom:10px;}
+.wallet-box .item{ position:relative; border-right:1px solid #ebebeb; padding-left:12px;}
+.wallet-box .item i{ position:absolute; right:10px; top:15px; color:#ccc; font-size:14px;}
+.wallet-box .item i:before{ font-family:"icomoon"; content: "\e605";}
+.wallet-box .item p{ line-height:24px; font-family:"icomoon";}
+.wallet .use{ height:35px; line-height:35px; background:white; position:relative; color:#666; display:block; padding-left:10px;}
+.wallet .use i{ position:absolute; top:0px; right:15px; color:#ccc; font-size:14px;}
+.wallet .use i:before{font-family:"icomoon"; content: "\e605";}
+
+/*学员信息列表*/
+.gr-infobox{ background:#fff; margin-bottom:15px; }
+.gr-studentinfo{ display:-moz-box; display:-webkit-box; display:box;  background:#fff;  height:100%; font-size:0; padding:10px 0;}
+.gr-studentinfo dl{-moz-box-flex:1; -webkit-box-flex:1; box-flex:1; padding-right:10px; position:relative;}
+.gr-studentinfo .dl02{  margin-top:-5px;}
+.gr-studentinfo .dl02 .i-content .msg01{ padding-top:4px; padding-bottom:2px;}
+.gr-studentinfo .i-img{   width:56px; height:56px; padding-right:10px; position:relative; padding-left:10px;}
+.gr-studentinfo .i-img img{ float:left; width:56px; height:56px; border-radius:56px; }
+.gr-studentinfo .i-name{ color:#333; font-size:0.8rem; position:relative; }
+.gr-studentinfo .i-content{ color:#999; font-size:0.7rem; position:relative;  }
+.gr-studentinfo .i-content .number{ display:block; margin-bottom:4px; line-height:18px; padding-top:2px;}
+.gr-studentinfo .i-content .msg01{ width:100%; }
+.gr-studentinfo .i-right{ position:absolute; top:0; right:0;}
+.gr-studentinfo .state{ padding:2px;  text-align:center;  color:#fff; font-size:0.6rem; display:inline-block; line-height:12px;}
+.gr-studentinfo .btn01{ top:-2px; display:inline-block;  text-align:center;  font-size:0.6rem; color:#666; line-height:22px; padding:10px 20px 20px 20px; }
+.gr-studentinfo .btn01 .border{ border:1px solid #e5e5e5; display:block; border-radius:2px; padding:0 3px;}
+.gr-studentinfo .btn01 .icon{ width:20px; height:20px; display:inline-block; background:url(../images/SchoolCenter/chat-icon.png) 0 -102px no-repeat; background-size:20px auto; vertical-align:middle;}
+
+/*除掉下外边距*/
+.delete-margin .gr-infobox{ margin:0; border-bottom:1px solid #f2f2f2; font-size:0.7rem;}
+
+/*机构课程列表*/
+.gr-coursebox{  margin-bottom:10px; background:#fff; display:block; font-size:0.7rem;}
+.gr-courseinfo{ display:-moz-box; display:-webkit-box; display:box; padding:15px 0; color:#333;}
+.gr-courseinfo .imgbox{ width:80px; height:80px; margin-left:12px;}
+.gr-courseinfo .imgbox img{ width:80px; height:80px; }
+.gr-courseinfo .content{ -moz-box-flex:1; -webkit-box-flex:1; box-flex:1;  margin:0 10px;}
+.gr-courseinfo .content p{ position:relative;}
+.gr-courseinfo .content .c-title{ font-size:0.8rem; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; display:block;}
+.gr-courseinfo .content .time-slot{ color:#999; padding-top:5px; font-size:14px;}
+.gr-courseinfo .content .money01{ padding-top:10px; font-size:0.9rem;}
+.gr-courseinfo .content .money02{ font-size:0.9rem; color:#ff7f00; padding-top:4px;}
+.gr-courseinfo .content .mb{ color:#fff; background:#ff7f00; padding:0 2px; font-size:0.7rem; margin-left:10px;}
+.gr-courseinfo .state{padding:2px;  text-align:center;  color:#fff; font-size:0.6rem; display:inline-block; line-height:12px; }
+
+/*个人后台→沟通导航*/
+.gr-chat-nav{ background:#fff;  width:100%;   position:relative; font-size:0.7rem; color:#666;}
+.gr-chat-nav .chat-ul{display:-moz-box; display:-webkit-box; display:box; border-top:1px solid #ebebeb; overflow:hidden; line-height:40px;}
+.gr-chat-nav .tab{-moz-box-flex:1; -webkit-box-flex:1; box-flex:1; width:0%; display:block; color:#666; text-align:center; /*float:left; overflow:hidden;*/ position:relative;}
+.gr-chat-nav .tab a{ color:#666;}
+.gr-chat-nav .tab .icon{ width:25px; height:25px; background:url(../images/SchoolCenter/chat-icon.png) no-repeat; background-size:25px auto; display:inline-block; vertical-align:middle; margin-right:3px;}
+.gr-chat-nav .tab .icon.icon01{ background-position:0 0;}
+.gr-chat-nav .tab .icon.icon02{ background-position:0 -25px;}
+.gr-chat-nav .tab .icon.icon03{ background-position:0 -50px;}
+.gr-chat-nav .tab .line{ width:1px; height:20px; background:#e1e1e1; position:absolute; top:12px; right:0;}
+.gr-chat-nav .tab a{ color:#666;  display:block;}
+
+.gr-thead{ border-bottom:1px solid #ebebeb;  position:relative; height:40px; line-height:40px; padding-right:40px; overflow:hidden;  text-overflow:ellipsis;  white-space:nowrap; display:block; color:#333;}
+.gr-thead .jiao{ width:0; height:0; border-top:25px solid red; border-left:25px solid transparent; position:absolute; top:0; right:0;}
+.gr-thead .jiao.blue{ border-top:25px solid #40a1f2;}
+.gr-thead .tips{ position:absolute; top:0; right:2px; color:#fff; line-height:15px; font-weight:lighter;}
+.gr-thead .icon{width: 25px; height: 25px; background: url(../images/SchoolCenter/chat-icon.png)0 -175px no-repeat; background-size: 25px auto; display: inline-block; vertical-align:middle; margin-right: 3px;}
+.gr-thead .right{ position:absolute; top:0; right:15px; font-size:14px;  font-weight:lighter;}
+
+/*共用箭头*/
+.jiantou{  height:20px; width:20px;  background:url(../images/SchoolCenter/arrow01.png) no-repeat; background-size:20px auto; position:absolute; top:10px; right:10px;
+}
+
+/*待点评(马上点评)*/
+.soon{ padding:10px; background:#fff; border-top:1px solid #ebebeb;}
+.soon .btn{ height:30px; line-height:30px; width:130px; text-align:center; border:1px solid #e5e5e5; border-radius:2px; float:right; color:#666;}
+.soon .btn .icon{width: 22px; height: 22px; background: url(../images/SchoolCenter/chat-icon.png) 0 -160px no-repeat; background-size: 20px auto; display: inline-block; vertical-align: middle; margin-right: 1px;}
+.soon .r-text{ font-size:16px; float:right; font-weight:bold;}
+.soon .btn .icon.i2{ background-position:0 -178px;}
+
+.abtn{ height:30px; line-height:30px; width:130px; text-align:center; border:1px solid #e5e5e5; border-radius:2px; color:#666; display:inline-block;}
+.abtn .icon{width: 22px; height: 22px; background: url(../images/SchoolCenter/chat-icon.png) 0 -160px no-repeat; background-size: 20px auto; display: inline-block; vertical-align: middle; margin-right: 1px;}
+.abtn .icon.i2{ background-position:0 -180px;}
+
+.gr-list{}
+/*点评详情*/
+.gr-comment01{}
+.gr-comment02{ font-size:0.7rem; background:#fff; margin-top:-15px;}
+.gr-comment02 .gr-thead{ border-top:15px solid #ebebeb; margin-left:-15px; padding-left:15px;}
+.gr-comment02 .gr-coursebox{ border-bottom:1px solid #ebebeb;}
+.gr-comment02 .imgbox{ margin:0;}
+.gr-comment02 .course01{background:#fff; padding:5px 15px 5px 0;}
+.gr-comment02 .course01 .b-grey{ background:#f2f2f2; padding:3px;}
+.gr-comment02 .gr-star{ border-bottom:1px solid #ebebeb;}
+/*星星*/
+.gr-star{ background:#fff; padding:5px 15px 10px 0; }
+.gr-star .score{ text-align:right; padding-top:18px;}
+.gr-star .star{ width:200px; height:80px;}
+.gr-star .star .label{ vertical-align:top; line-height:24px;}
+/*.gr-star .star .pict{ height:24px; width:125px;  background:url(../images/SchoolCenter/stars02.png) no-repeat;   background-size:125px auto; display:inline-block;}
+.gr-star .star .pict.pict00{ background-position:0 0;}
+.gr-star .star .pict.pict01{ background-position:0 -30px;}
+.gr-star .star .pict.pict02{ background-position:0 -60px;}
+.gr-star .star .pict.pict03{ background-position:0 -90px;}
+.gr-star .star .pict.pict04{ background-position:0 -120px;}
+.gr-star .star .pict.pict05{ background-position:0 -150px;}*/
+/*课程点评*/
+.gr-cursecomment{ background:#fff; font-size:14px;}
+.gr-cursecomment .imgbox{ margin:0;}
+.gr-cursecomment .gr-coursebox{ border-bottom:1px solid #ebebeb; padding-bottom:10px; margin-bottom:5px;}
+/*点评回复*/
+.jg-reply{ border:none; padding:5px; background:#f2f2f2; box-sizing:border-box; width:100%; margin-bottom:10px; font-size:0.7rem;}
+/*点评老师*/
+.gr-teacher{ padding-top:10px;}
+.gr-teacher .teacher{ padding-bottom:10px; border-bottom:1px solid #ebebeb;}
+
+.gr-buxue{}
+
+/*规则*/
+.gr-rule{ background:#fff; padding:15px; margin-bottom:10px; color:#333; display:block;}
+.gr-rule .title{ font-size:18px; font-weight:bold; color:#40a1f2; padding-bottom:10px;}
+.gr-rule .text{padding-bottom:15px;padding-left:24px;position:relative;}
+.gr-rule .number{ display:inline-block; text-align:center; width:20px; height:20px; line-height:20px; border:1px solid #ebebeb; border-radius:2px; color:#ff7f00; margin-right:5px; font-weight:bold;position:absolute;left:-2px; top:0;}
+
+
+/*个人后台共用导航切换*/
+.gr-common-nav{ display:-moz-box; display:-webkit-box; display:box; background:#fff; height:42px; width:100%;/* border-bottom:1px solid #e5e5e5;*/ line-height:42px; position:relative; font-size:0.7rem; color:#666; margin-bottom:15px;}
+.gr-common-nav .tab{-moz-box-flex:1; -webkit-box-flex:1; box-flex:1; width:0%; color:#666; text-align:center; float:left; overflow:hidden; position:relative;}
+.gr-common-nav .tab .line{ width:1px; height:20px; background:#e5e5e5; position:absolute; top:12px; right:0;}
+.gr-common-nav .tab a{ color:#666;  display:block;}
+.gr-common-nav .tab.now{ color:#ff7f00; font-weight:bold; border-bottom:2px solid #ff7f00;}
+.gr-common-nav .tab-slider{ height:2px; background:#ff7f00; width:50%; position:absolute; bottom:0; left:0;}
+
+.gr-common-nav02{  width:100%; color:#333; background:#fff; font-size:0.7rem; display:-moz-box; display:-webkit-box; margin-bottom:15px; position:relative;}
+.gr-common-nav02 .tab{text-align:center;  font-size:0;  -moz-box-flex:1; -webkit-box-flex:1; width:0%;border-bottom: 2px solid #fff;}
+.gr-common-nav02 a{ display:block; height:100%; color:#333;}
+.gr-common-nav02 i{ width:45px; height:45px; background:url(../images/UCenter/Security.png) no-repeat; display:inline-block; margin-top:15px; background-size:45px auto; position:relative;}
+.gr-common-nav02 i.icon01{ background-position:0 0;}
+.gr-common-nav02 i.icon02{ background-position:0 -45px;}
+.gr-common-nav02 i.icon03{ background-position:0 -90px;}
+.gr-common-nav02 p{  font-size:0.7rem; }
+.gr-common-nav02 .tab-slider{ height:2px; background:#ff7f00; width:50%; position:absolute; bottom:0; left:0;}
+.gr-common-nav02 .tab.now { color: #ff7f00; font-weight: bold; border-bottom: 2px solid #ff7f00;}
+
+.top-navbar.bj{ background:url(../images/UCenter/top-navbar.jpg) no-repeat; background-size:100% 48px;}
+/*选项打钩的*/
+.gr-optionbox{ margin-bottom:10px; font-size:0; text-align:center;}
+.gr-optionbox .option,.gr-optionbox .change{ background:#fff; font-size:0.7rem; vertical-align:middle; text-align:center;  position:relative; display:inline-block; width:21%; margin:0 2%; padding:5px 0;}
+
+.gr-optionbox02{ padding:0 1px 5px 0; text-align:center;  background:#fff; border-bottom:1px solid #dbdbdb; font-size:0;}
+.gr-optionbox02 .option{ background:#fff; font-size:0.7rem; vertical-align:middle; text-align:center;  position:relative; display:inline-block; width:20%; margin:10px 2% 5px 2%;  border:1px solid #2F8AFF; color:#2F8AFF; border-radius:2px; position:relative;}
+.gr-optionbox02 .option.now{ background:#2F8AFF;}
+.gr-optionbox02 .option.now a{ color:#fff;}
+.gr-optionbox02 .option a{ display:block; color:#2F8AFF; padding:3px 0;}
+.gr-optionbox02 .change{ background:#fff; font-size:0.7rem; vertical-align:middle; text-align:center;  position:relative; display:inline-block; width:20%; margin:10px 2% 5px 2%; padding:3px 0; border:1px solid #2F8AFF; color:#2F8AFF; border-radius:2px; position:relative;}
+.gr-optionbox02 .option .close{ width:13px; height:13px; border-radius:13px; background:#2F8AFF; line-height:13px; text-align:center; color:#fff; position:absolute; top:-5px; right:-5px; }
+
+
+/*助学金中心*/
+.gr-money{ }
+.gr-money .p{ background:#fff; line-height:40px; text-align:center; color:#40a1f2; margin-top:-15px; margin-bottom:15px; display:block;}
+.top-navbar.gr-money-bj{ background:#40a1f2;}
+/*.gr-money .title{ background:#fff; height:50px; line-height:50px; padding-left:10px; font-size:0.7rem; font-weight:bold; border-bottom:1px solid #f2f2f2;}*/
+.gr-money .total{ height:45px; line-height:45px; background:#379cf1; text-align:center; color:#fff;}
+.gr-money .total p{ position:relative;}
+.gr-money .total .line{width: 1px; height: 18px; background:rgba(255,255,255,0.4); position: absolute; top: 14px;right: 0;}
+
+.gr-money-head{ background:#40a1f2; color:#fff; padding:20px 20px 10px 20px;}
+.gr-money-head p{ text-align:right;}
+
+/*MB兑换*/
+.gr-mbexchange{}
+.gr-mbexchange .select{width:100%; background:#fff; height:40px; line-height:40px; text-align:center; box-sizing:border-box; border-radius:2px; font-size:0.8rem; display:block; color:#333;}
+.gr-mbexchange .select .xiala{vertical-align: middle; display: inline-block; width: 20px; height: 20px; margin-left:6px; position:relative;}
+.gr-mbexchange .select .i{ position:absolute; top:5px; left:0; width:0; height:0; border:5px solid  transparent; border-top-color:#666;}
+.gr-mbexchange .select .i.i1{ top:0; border:5px solid transparent; border-bottom-color:#666;}
+.gr-mbexchange .tips{position: fixed; z-index: 2; text-align: center; top: 30%; left: 2.5%; width: 95%; height: 200px;background: white; z-index:100;}
+.gr-mbexchange .close{ position:absolute; top:0; right:0; font-size:1.5rem; width:30px; height:30px; line-height:1.5rem; color:#999;}
+.gr-mbexchange .btn{}
+
+.choose { padding:0 10px; height:30px; line-height:30px; border:1px solid #dfdfdf; margin-right:5px; margin-bottom:5px; display:inline-block; text-align:center;}
+.choose.now{ border:1px solid #2F8AFF; background:url(../images/SchoolCenter/close-big.png) right -30px no-repeat; background-size:30px auto; }
+
+
+/*热点推荐*/
+.gr-recommend{}
+.gr-head01{ height:40px; line-height:40px; background:#2F8AFF; color:#fff; text-align:center; position:relative;}
+.gr-head01 .icon{width: 30px; height: 30px; display: inline-block; background: url(../images/SchoolCenter/navbar-icon.png) no-repeat;background-size: 30px auto; position:absolute; top:5px; left:3px;}
+.gr-recommend .news .gr-thead{padding-right:100px;}
+.gr-search-menu .search-menu01{ margin-top:2px;}
+
+.specialty-menu{ position:fixed; top:0; left:0; width:100%; height:75%; display:none; background:#fff; z-index:22;}
+.specialty-menu .tips{ font-size:0.7rem; padding:2px 0; background:#fffad5; text-align:center; color:#ff570c; font-weight:bold;}
+.specialty-menu01{ height:100%;}
+.specialty-menu-left{ border-right:1px solid #dbdbdb; background:#f0f0f0; overflow:hidden;}
+.specialty-menu-left p{ border-bottom:1px solid #dbdbdb; line-height:36px; font-size:0.8rem; padding-left:0.8rem;}
+.specialty-menu-left p.now{ background:#fff; color:#ff570c; font-weight:bold; border-left:2px solid #ff570c;}
+.specialty-menu-right{ height:100%; background:white; overflow:hidden;}
+.specialty-menu-right a{ display:block; border-bottom:1px solid #dbdbdb; font-size:0.8rem; padding-left:0.8rem; line-height:35px; text-overflow:ellipsis; overflow:hidden; white-space:nowrap; color:#333;}
+.specialty-menu-right .listmove{ display:none; /*height: 100%;*/ overflow: hidden;}
+.specialty-menu-right .listmove.now{ display:block;}
+.specialty-menu-h{ background:#fffad5; padding-left:0.8rem; font-size:0.8rem; font-weight:bold; color:#0066cc; line-height:35px; border-bottom:1px solid #fffad5;}
+
+/*我的收藏*/
+.gr-collection01{color: #fff;font-size: 0.8rem;padding-right: 10px;}
+.gr-collection02{color: #fff;font-size: 0.8rem;padding-right: 10px;}
+.gr-collection{}
+.gr-collection .gr-courseinfo{ margin-left:12px;}
+.gr-collection .gr-courseinfo .imgbox{ margin-left:0;}
+.gr-collection .news .gr-thead{padding-right:100px;}
+/*.gr-collection .checkbox{top:60px; left:6px; width:22px; height:22px; position:absolute; display:none;}*/
+.gr-collection .checkbox{ display:none;}
+.gr-collection .checkbox:checked+label{ background:url(../images/UCenter/tick.jpg) no-repeat; background-size:20px auto;}
+.gr-collection .label{ width:20px; height:20px; border:2px solid #ccc; display:inline-block; position:absolute; top:60px; left:6px; background:#fff; display:none;}
+.gr-collection .delete{ width:100%; height:50px; line-height:50px; background:#fff; text-align:center; font-size:0.8rem; color:#40a1f2; position:fixed; left:0; bottom:0; display:none; border-top:1px solid #dbdbdb;}
+
+/*MB明细*/
+.gr-mbdetail{ background:#fff;}
+.gr-mbdetail .p{ margin-left:10px; padding-right:10px; border-bottom:1px solid #ebebeb;}
+
+/*浏览记录*/
+.gr-browse{}
+.gr-browse .news .gr-thead{padding-right:100px;}
+
+/*分享赚取助学金*/
+.gr-shaer{}
+
+/*签到赚助学金*/
+.gr-singin{}
+.gr-singin .g-top{height:220px; background:#fff url(../images/UCenter/qiandao.jpg) no-repeat; background-size:100% 172px; padding-top:95px; text-align:center;}
+.gr-singin .top-pic{ width:80px; height:80px; border-radius:80px; background:#b7deff; overflow:hidden; margin:0 auto;}
+.gr-singin .top-pic img{width:80px; height:80px;}
+.gr-singin .title{ padding:30px 0 15px 0; font-size:28px; font-weight:bold; text-align:center;}
+
+/*我的现金卷*/
+.gr-moneyroll{}
+.gr-unused{ background:#fff; padding:20px;}
+.moneyroll-box{ height:90px; background:#fdcd3a; color:#ff5a00;}
+.moneyroll-box .box-l{ width:100px; height:70px; padding-top:20px; text-align:center; font-weight:bold; font-size:0.8rem; float:left; color:white; background:#ffa817 url(../images/UCenter/roll01.jpg) no-repeat; background-size:auto 90px; }
+.moneyroll-box .box-r{ float:left; padding:6px 3px 3px 5px;}
+
+/*助学金兑换现金卷（兑换数量）*/
+.gr-changenumber{ -webkit-box-flex:1; padding-top:5px;}
+.gr-changenumber .reduction{ border-radius:2px 0 0 2px; border-right:0;}
+.gr-changenumber .plus{ border-radius:0 2px 2px 0; border-left:0;}
+.gr-changenumber span{ width:38px; height:36px; line-height:36px; text-align:center; border:1px solid #999; display:inline-block; float:left;}
+
+/*咨询详情*/
+.gr-details{ font-size:0.7rem;}
+.gr-details01{}
+.gr-details02{}
+.gr-details03{ background:#fff;}
+.gr-details03 .route{ padding:15px 10px 15px 30px; /*border-bottom:1px solid #ebebeb;*/ position:relative;}
+.gr-details03 .route .icon{width: 25px;height: 25px; background: url(../images/SchoolCenter/chat-icon.png)0 -175px no-repeat; background-size: 25px auto; position:absolute; top:15px; left:0px;}
+.gr-details03 .route .icon.i2{ background-position:0 -250px;}
+.gr-details03 .teacher{ padding:10px 0;}
+.gr-details04{ background:#fff; padding:10px 10px 10px 15px;}
+.gr-details04 p{ position:relative;}
+
+.gr-more{ background:#fff; border-top:1px solid #e5e5e5;  text-align:center; color:#0066cc; height:35px; line-height:35px; font-size:0.8rem; }
+.gr-more .icon{ vertical-align:middle; display:inline-block; width:20px; height:20px; background:url(../images/SchoolCenter/arrow01.png) no-repeat; background-size:20px auto; margin-left:4px; background-position:0 -42px;}
+.gr-more .icon01{background-position:0 -22px;}
+.gr-more .icon02{background-position:0 -42px;}
+.gr-b-btn{ position:fixed; left:0; bottom:0;  background:rgba(0,0,0,0.5); width:100%; padding:5px 0; font-size:0.7rem; display:none;}
+.gr-b-btn .btn{ width:45%; height:30px; line-height:30px; text-align:center; color:white; border-radius:2px; margin:0 2.5%; display:block; float:left;}
+.gr-b-btn .btn01{background: #ff7f00; }
+.gr-b-btn .btn02{background: #2F8AFF;}
+
+/*我的特权*/
+.gr-privlege{ background:#fff; padding:10px;}
+.gr-privlege .box{ padding:10px;}
+.gr-privlege01{}
+.gr-privlege02{}
+.gr-privlege03{}
+
+/*抢现金卷*/
+.gr-roll{}
+.gr-roll .pink{ color:#fe5151;}
+.gr-roll .title{ text-align:center; font-size:18px; font-weight:bold; line-height:40px;}
+.gr-roll .head{ width:100%; height:157px;}
+.gr-roll .head img{ width:100%; height:157px;}
+.gr-roll .content01{ padding-left:30px; padding-right:30px; color:#ab5901;}
+.gr-roll .rall{ height:100px; width:100%;}
+.gr-roll .rall img{ height:100px; width:100%;}
+.gr-roll .btn{ background:#fe5151; width:100%; height:50px; line-height:50px; color:#fff; text-align:center; border-radius:2px; font-size:0.9rem;}
+.gr-roll .text{ border:1px solid #fdcd3a;  background:#fff; height:48px; line-height:45px; padding-left:5px; box-sizing:border-box; margin-top:15px; width:100%; display:block;}
+.gr-roll .number{ width:100px;  height:47px; line-height:47px; color:#f02f1c; text-align:center; background:#fdcd3a;}
+
+/*时间轴*/
+.timeline{ padding-top:20px; position:relative; height:185px; overflow:hidden; background:#fff;}
+.timeline .line{ width:2px; height:28px; background:#fff; position:absolute; top:-12px; left:-2px;}
+.timeline .content{ position:relative; padding-left:15px; padding-bottom:10px; color:#999; padding-right:5px;}
+.timeline .content.one{ color:#333;}
+.timeline .content.one .dot{ background:#ff7f00;}
+.timeline .dot{ width:9px; height:9px; border-radius:9px; background:#c7c7c7; border:2px solid #e5e5e5; position:absolute; top:4px; left:-8px; display:inline-block;}
+.timeline .contentbox{ margin-left:16px; border-left:2px solid #e5e5e5; position:relative;}
+.timeline .text{display: block; width: 100%;  padding:5px; box-sizing: border-box; border:1px solid #ccc; background:#fff; border-radius:2px; -webkit-appearance: none; font-size:0.7rem;}
+
+.jr-details02  .title01{ height:35px; line-height:35px; background:#f1f1f1; font-size:0.8rem; padding:0 10px;}
+.jr-details02  .title01 span{ float:right; color:#999; font-size:0.7rem;}
+
+/*提交报名*/
+.gr-submit{}
+.gr-submit .title{ border-bottom:1px solid #ebebeb; font-size:18px; font-weight:bold;}
+
+/*提交申请*/
+.gr-apply{}
+.gr-apply .checked{ display:none;}
+.gr-apply .checked:checked+label{ background:url(../images/UCenter/tick.jpg) no-repeat; background-size:20px auto;}
+.gr-apply .label{ width:20px; height:20px; border:2px solid #ccc; display:inline-block; top:-8px;}
+
+
+/*个人设置*/
+.gr-set{ background:#fff; overflow:hidden;}
+.gr-set .jiantou{ top:17px;}
+.gr-set .successMsg,.gr-set .errorMsg,.gr-set .errorMsg2{ margin-bottom:10px;}
+.gr-set01{}
+.gr-set02{ display:none;}
+.gr-set .set-list{ background:#fff;}
+.gr-set .group{ display:-moz-box; display:-webkit-box; display:box; height:50px; line-height:50px; font-size:0.8rem; border-bottom:1px solid #f2f2f2; position:relative; width:100%;}
+.gr-set .group .exit{ color:#0066cc;}
+.gr-set .group.d-height{ height:auto; line-height:25px; padding:5px 15px;}
+.gr-set .group.d-height .label{ width:auto; height: auto; line-height:25px; padding-right:10px; padding-left:0;}
+.gr-set .group.d-height .text01{ padding:8px 25px 8px 0;}
+.gr-set .label{ display:inline-block; width:75px; height:50px; line-height:50px; text-align:left; color:#333;}
+.gr-set .label.w100{ width:100px;}
+.gr-set .text01{-moz-box-flex:1; -webkit-box-flex:1; box-flex:1; text-align:right; padding-right:40px; color:#999;}
+.gr-set .text01 img{ width:40px; height:40px; border-radius:40px; margin-top:5px;}
+.gr-set .text02{-moz-box-flex:1; -webkit-box-flex:1; box-flex:1; /*text-align:left;*/ padding-left:5px; color:#333; border:none; font-size:0.8rem; display:block; line-height:50px; padding-right:15px;}
+.gr-set .text02.p-r35{ padding-right:35px;}
+.gr-set .btn01{width:75px; height:35px; line-height:35px; background:#333; position:absolute; top:10px; right:10px; color:#fff; background:#2F8AFF; border-radius:2px;  text-align:center; font-size:0.7rem; display:none;}
+
+.b-b{ border-bottom:1px solid #ebebeb;}
+
+/*邀请记录*/
+.invite{}
+.invite-friend{ background:white; display:box; display:-webkit-box; display:-moz-box; padding:10px; border-bottom:1px solid #f2f2f2;}
+.invite-friend .imgbox{ width:60px; height:60px; border-radius:60px; overflow:hidden;}
+.invite-friend .imgbox img{ width:60px; height:60px;}
+.invite-friend .content{ box-flex:1; -webkit-box-flex:1; -moz-box-flex:1; font-size:14px; margin-left:10px;}
+.invite-lingqu{ background:white; height:35px; line-height:35px; text-align:center; color:#999; margin-bottom:10px;font-size:12px;}
+
+/*我的现金*/
+.my-cash{ padding:10px;}
+.my-cash .btn01{margin-bottom:10px;}
+.my-cash .btn02{ background:#f2f2f2; color:#333;}
+.my-cash .item{ text-align:center; margin:30px 0 40px 0;}
+.my-cash .item .imgbox{ width:70px; height:70px; margin:0 auto; border-radius:70px; background:#ffcc00; overflow:hidden;}
+.my-cash .item .dot{ width:40px; height:40px; line-height:40px; border-radius:40px; text-align:center; margin:auto; border:2px solid #ffff00; color:#ffff00; font-size:28px; margin-top:12px;}
+.my-cash .item .text{ font-size:40px;}
+
+.cj-wenti{ color:#0099ff; height:30px; line-height:30px; text-align:center; width:100%; display:block; margin-bottom:15%;}
+.cj-wenti .dot{ height:20px; width:20px; line-height:20px; font-weight:bold; margin-right:5px; display:inline-block; border-radius:20px; background:#0099ff; color:#fff;}
+
+/*我的助学金*/
+.my-stipend{}
+.my-stipend .btn01{margin-bottom:10px; }
+.my-stipend .btn02{ background:#f2f2f2; color:#333;}
+
+/*助学金兑换*/
+.stipend-exchange{}
+.stipend-exchange .tip{ margin-top:50px; margin-bottom:30px; text-align:center; color:#666; font-size:16px;}
+.stipend-exchange .btn01{margin-bottom:10px; }
+.stipend-exchange .btn02{ background:#f2f2f2; color:#333;}
+/*助学金兑换02*/
+.stipend-exchange02{}
+.stipend-exchange02 .zhu{ padding:10px 10px 10px 15px; border-bottom:1px solid #f2f2f2; background:white; margin-bottom:10px;}
+.stipend-exchange02 .zhu .imgbox{ width:50px; height:50px; float:left;}
+.stipend-exchange02 .zhu .imgbox img{ width:50px; height:50px;}
+.stipend-exchange02 .zhu .content{ float:left; margin-left:10px;}
+
+
+
+/*助学金兑换02*/
+.stipend-exchange02{}
+
+/*我的咨询*/
+.my-consultation{}
+
+/*邀请好友赚助学金*/
+.invite-friend02{}
+.invite-friend02 .i-top{height:290px; background:url(../images/invite-b.jpg) no-repeat center 50px; background-size:200px 140px; line-height:22px; font-size:13px;  margin-bottom:30px; text-align: center; color: #666;}
+.invite-friend02 .i-top .text{ padding-top:210px;}
+/*.invite-friend02 .btn01{margin-bottom:10px; }*/
+
+
+/*邀请流程*/
+.invite-lc{}
+.invite-lc{ padding:20px 0 10px 0; border-left:1px solid #e6e6e6; margin-left:40px;}
+.invite-lc .lc{ padding-left:12px; padding-bottom:20px; position:relative; font-size:12px;}
+.invite-lc .lc p{ line-height:20px;}
+.invite-lc .lc .dot{ position:absolute; top:5px; left:-5px; display:inline-block; height:7px; width:7px; border:2px solid white; border-radius:7px; background:#0066cc;}
+
+/*邀请分享*/
+.invite-shaer{ background:#f0f0f0; padding:30px 10px 10px 10px;}
+.invite-shaer .url{float:left; height:35px; width:80%; padding-left:5px; line-height:35px; background:white; border-radius:2px; border:none;}
+.invite-shaer .btn02{float:left; width:15%; height:35px; line-height:35px; color:white; text-align:center; background:#0099ff; margin-left:5px; border-radius: 2px;}
+
+/*返现的课程框*/
+.return-stipend{display: -moz-box; display: -webkit-box; display: box; padding: 15px 0; color: #333; background:#fff; border-bottom:1px solid #f2f2f2;  margin-left: 12px;}
+.return-stipend .imgbox{width: 60px; height: 60px; }
+.return-stipend .imgbox img{ width:60px; height:60px;}
+.return-stipend .content{ box-flex:1; -webkit-box-flex:1; -moz-box-flex:1; margin:0 10px; font-size:14px;}
+.return-stipend .content span{ display:inline-block;}
+.return-stipend .content .title{font-size:14px; line-height:24px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: block; margin-bottom:8px;}
+.return-stipend .content .title.row3{ padding-bottom:15px;}
+.return-stipend .content .title.row2{ padding-bottom:5px;}
+.return-stipend .content p{ line-height:20px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; display: block;}
+.return-stipend-tip{background:white; width:300px; margin-left:-150px; position:fixed; top:20%; left:50%; text-align:center; z-index:111; padding:53px 0 40px 0; display:none; }
+.return-stipend-tip .jg-btnbig{ margin:15px auto;}
+.return-stipend-tip .close{ position:absolute; top:5px; right:5px; color:#333; font-size:20px;}
+.return-stipend-success{background:white; width:300px; margin-left:-150px; position:fixed; top:20%; left:50%; text-align:center; z-index:111; padding:50px 0 40px 0; display:none;}
+.return-stipend-success .h{ font-size:18px; font-weight:bold; color:#14ab00; margin-bottom:10px; display:inline-block;}
+.return-stipend-success .close{position:absolute; top:5px; right:5px; color:#333; font-size:20px;}
+
+/*赚助学券*/
+.earn-stipend{ display:box; display:-webkit-box; display:-moz-box;  background:white; padding:10 0; border-bottom:1px solid #f2f2f2; padding:15px 0; margin-left:12px;}
+.earn-stipend .imgbox{ width:50px; height:50px; border-radius:4px; color:white; text-align:center; background:#000; font-size:36px;}
+.earn-stipend .imgbox [class^="icon-"]{ line-height:50px;}
+.earn-stipend .e-content{ box-flex:1; -webkit-box-flex:1; -moz-flex-box:1; margin:0 10px; font-size:12px; color:#999; position:relative;}
+.earn-stipend .e-content .btn{ position:absolute; top:13px; right:0; height:27px; line-height:27px; text-align:center; display:inline-block; width:55px; border-radius:4px; color:#0099ff; background:white; border:1px solid #e5e5e5; font-size: 12px;}
+
+
+

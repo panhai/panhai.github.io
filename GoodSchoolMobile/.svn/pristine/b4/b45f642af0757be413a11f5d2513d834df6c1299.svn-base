@@ -1,0 +1,27 @@
+<!DOCTYPE html >
+<html >
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/> 
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+	<title>MB兑换规则</title>
+    <link rel="stylesheet" href="../css/css.css" />
+    <link rel="stylesheet" href="../css/css2.css" />
+</head>
+
+<body>
+
+  <div class="h100 bfff">
+	 <div class="header"><a href="javascript:history.go(-1);" class="return_ico"></a>MB兑换规则</div>
+	 <div class="rule">
+       <p><i>1</i>M币可兑换现金，1M币=1元人民币。<br/><span>兑换到银行卡</span><br/>M币值达到200或以上，可申请兑换到银行卡，兑换金额须是10的整数倍。<br/><span>兑换话费</span><br/>M币值达到30或以上，可申请兑换话费，兑换金额可为30，50，100。<br/><span>兑换到支付宝</span><br/>M币值达到20或以上，可兑换到支付宝，兑换金额必须是5的整数倍。<br/>M币值未达到20，可通过DNA分享或参加好学校网站活动增加M币收入。
+       </p>
+       <p><i>2</i>不同兑换方式，不同银行，确认时间有所不同，一般在申请后的15个工作日内到账。</p>
+     </div>
+  </div>
+
+</body>
+
+</html>

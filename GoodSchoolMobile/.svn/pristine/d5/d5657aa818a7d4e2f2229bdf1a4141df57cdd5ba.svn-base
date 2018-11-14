@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"> 
+        <meta content="yes" name="apple-mobile-web-app-capable"> 
+        <meta content="black" name="apple-mobile-web-app-status-bar-style"> 
+        <meta content="telephone=no" name="format-detection">
+        <meta name="Description" content="好学校为广大初高中毕业生提供2016最新中专/技校招生简章、报读指南、择校技巧，挑选出适合男女生最吃香的专业供大家参考报读" />
+        <title>2016最新中专/技校招生简章大全-报读指南-择校技巧-适合男、女生的专业-好学校</title>
+        <link rel="stylesheet" type="text/css" href="css/index.min.css" />
+    </head>
+    <body class="grey">
+    <div class="topBan"></div>
+    <div class="block">
+        <a class="one" href="招生简章.html">
+            <h2>招生简章</h2>
+            <p>2016中专/技校招</p>
+            <p>生简章大全</p>
+        </a>
+        <a class="two" href="女生热门专业.html">
+            <h2>女生选专业</h2>
+            <p>快来看看哪些专业最吃香？</p>
+        </a>
+        <a class="three" href="男生热门专业.html">
+            <h2>男生选专业</h2>
+            <p>快来看看哪些专业最吃香？</p>
+        </a>
+        <a class="four" href="中专技校择校技巧.html">
+            <h2>选学校必看</h2>
+            <p>12042名学生看后找到满意学校！ </p>
+        </a>
+        <a class="five" href="中专技校报读指南.html">
+            <h2>报读指南</h2>
+            <p>免学费政策、中专 </p>
+            <p>必备知识 </p>
+        </a>
+    </div>
+
+    <div class="fixed bottomBar">
+        <a href="">
+            <span class="icon msg"></span>
+            <p>在线</p>
+        </a>
+        <a href="">
+            <span class="icon qq"></span>
+            <p>QQ</p>
+        </a>
+        <a href="tel:400-660-3310">
+            <p><span class="icon phone"></span>
+            <span>电话咨询</span><br>
+            <span>400-660-3310</span>
+            </p>
+        </a>
+        <a href="免费择校服务.html">
+            咨询择校顾问
+        </a>
+    </div>
+    </body>
+    <script type="text/javascript" src="js/iSlider.min.js"></script>
+    <script type="text/javascript">
+    var data = [
+    {'content': '<a href="中专技校择校技巧.html"><img src="img/topBan.png"></img></a>'},
+    {'content': '<a href="送话费.html"><img src="img/free.png"></img></a>'}
+    ]
+    var slider = new iSlider(document.querySelector(".topBan"),data,{isAutoplay:true,isLooping:true});
+    </script>
+</html>

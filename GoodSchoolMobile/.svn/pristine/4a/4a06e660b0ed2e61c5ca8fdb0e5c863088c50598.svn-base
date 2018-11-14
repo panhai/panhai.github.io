@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<meta content="yes" name="apple-mobile-web-app-capable" />
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+	<meta content="telephone=no" name="format-detection" />
+	<link rel="stylesheet" type="text/css" href="../../css/UserCenter.css">
+</head>
+<body>
+<div class="cash-list body_white">
+	<div class="top-navbar">
+		<div class="left"><a href="javascript:history.go(-1)"><i class="navbar-icon icon01"></i></a></div>
+	    <div class="center">现金转账</div>
+	    <div class="right"><a href="">提现规则</a></div>
+	</div>
+
+	<div class="cash-balance">
+		<p>现金余额</p>
+		<h2>360.00 <i>元</i></h2>
+	</div>
+	<ul>
+		<li>
+			<i class="iconfont icon-zhifubao"></i>
+			<a href="转账到支付宝-填写转账信息_v1.html">
+				<div class="r">
+				<h3>转账到支付宝</h3>
+				<p>转账金额不得低于10元</p></div>
+			</a>
+		</li>
+		<li>
+			<i class="iconfont icon-card w-h76"></i><div class="r">
+			<h3>转账到银行卡</h3>
+			<p>转账金额不得低于10元</p></div>
+		</li>
+		<li>
+			<i class="iconfont icon-xiaofei w-h76"></i><div class="r">
+			<h3>话费充值</h3>
+			<p>转账金额不得低于10元</p></div>
+		</li>
+	</ul>
+	<p class="partition">最近</p>
+	<ul style="border-bottom:1px solid #e7e7e7;">
+		<li>
+			<i class="iconfont icon-card w-h76"></i><div class="r">
+			<h3>潘家柱</h3>
+			<p>中国建设银行(0568)</p></div>
+		</li>
+		<li>
+			<i class="iconfont icon-xiaofei w-h76"></i><div class="r">
+			<h3>话费充值</h3>
+			<p>139****8977</p></div>
+		</li>
+	</ul>
+</div>
+	<!-- 弹窗 -->
+	<div class="popup popup-dialog animated fadeIn">
+		<div class="popup-title">很抱歉！你的现金不足</div>
+		<div class="popup-contain"><p>暂不支持提现，如需提现，请尽可能赚取助学券兑现。</p></div>
+		<div class="popup-btn">
+			<span class="cancel">取消</span>
+			<span class="confirm"><a href="">查看我的助学券	</a></span>
+		</div>
+		<span class="popup-setwin">
+			<a class="popup-close"></a>
+		</span>
+	</div>
+	<!-- 弹窗背景 -->
+	<div class="popup-cover animated fadeIn"></div>
+
+	<script src="../../js/jquery.js"></script>
+	<script src="../../js/ucenter.js"></script>
+	<script>
+
+		var tipTxt = {
+			/*
+			error: {
+				title: '很抱歉！你的现金不足10元',
+				content: '暂不支持提现，如需提现，请尽可能将助学券兑现，或赚取足够现金。',
+				confirm: '关闭',
+				cancel: '去赚现金',
+				onconfirm: function(){
+					this.fadeOut();
+				},
+				oncancel: function(){
+				}
+			},
+
+			error2: {
+				title: '很抱歉！你的现金不足20元',
+				content: '请选用支付宝转账或充值话费提现，或赚取现金！',
+				confirm: '关闭',
+				cancel: '去赚现金',
+				onconfirm: function(){
+					this.fadeOut();
+				},
+				oncancel: function(){
+				}
+			},*/
+			ok: {
+				title: ' 很抱歉！你的现金不足10元',
+				content: '暂不支持提现，如需提现，请尽可能将助学券兑现，或赚取足够现金！',
+				confirm: '关闭',
+				cancel: '去赚现金',
+				onconfirm: function(){
+					this.fadeOut();
+				},
+				oncancel: function(){
+				}
+			}
+		}
+		var test = 'ok';
+		$('.cash-list ul li i').click(function(event){
+			var opts = tipTxt[test];
+			CONFIRM(null,{
+				topic: opts.title,
+				content: opts.content,
+				cancel: opts.cancel,
+				confirm: opts.confirm,
+				onconfirm: opts.onconfirm,
+				oncancel: opts.oncancel
+			});
+		});
+
+
+	</script>
+</body>
+</html>

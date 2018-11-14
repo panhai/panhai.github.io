@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<meta content="yes" name="apple-mobile-web-app-capable" />
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+	<meta content="telephone=no" name="format-detection" />
+	<link rel="stylesheet" type="text/css" href="../../css/UserCenter.css">
+</head>
+<body class="bg-gray">
+	<div class="volume">
+		<div class="top-navbar">
+			<div class="left"><a href="javascript:history.go(-1)"><i class="navbar-icon icon01"></i></a></div>
+		    <div class="center">赚助学券</div>
+		    <div class="right"><a href="助学券-助学卷明细.html">收益明细</a></div>
+		</div>
+
+		<div class="volume-info">
+			<p>助学券余额</p>
+			<h2>360.00 <span>元</span></h2>
+		</div>
+
+		<div class="volume-receive">
+			<div class="receive">
+				<p class="r-prompt">您还有未领取报读奖励</p>
+				<p class="r-money"><label>100.00</label>元现金</p>
+				<div class="r-btn">
+					<a href="">立即领取</a>
+					<p>还差10元助学券即可领取</p>
+				</div>
+			</div>
+			<div class="funlist">
+				<p class="head">获取助学券</p>
+				<ul>
+					<li>
+						<span class="icon iconbg_blue"><i class="iconfont">&#xe62c;</i></span>
+						<p class="txt">帮助好友<label>+25元助学券</label></p>
+						<a href="" class="btn">立刻帮助</a>
+					</li>
+					<li>
+						<span class="icon iconbg_green"><i class="iconfont">&#xe62b;</i></span>
+						<p class="txt">绑定微信<label>+10元助学券</label></p>
+						<a href="" class="btn">去绑定</a>
+					</li>
+					<li>
+						<span class="icon iconbg_yellow"><i class="iconfont">&#xe621;</i></span>
+						<p class="txt">帮助好友<label>+10元助学券</label></p>
+						<a href="" class="btn">去绑定</a>
+					</li>
+					<li>
+						<span class="icon iconbg_green"><i class="iconfont">&#xe611;</i></span>
+						<p class="txt">请TA赠送<label>+25元助学券</label></p>
+						<a href="" class="btn">求TA一个</a>
+					</li>
+					<li>
+						<span class="icon iconbg_yellow"><i class="iconfont">&#xe631;</i></span>
+						<p class="txt">分享好评<label>+5元助学券</label></p>
+						<a href="" class="btn">去分享</a>
+					</li>
+					<li>
+						<span class="icon iconbg_blue"><i class="iconfont">&#xe62f;</i></span>
+						<p class="txt">完善资料<label>+25元助学券</label></p>
+						<a href="" class="btn">立刻帮助</a>
+					</li>
+				</ul>
+			</div>
+			<div class="receive">
+				<p class="r-prompt">您还有未领取报读奖励</p>
+				<p class="r-money"><label>100.00</label>元现金</p>
+				<div class="r-btn not-receive">
+					<a href="">立即领取</a>
+					<p>还差10元助学券即可领取</p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<p class="pd7"></p>
+	<script src="../../js/jquery.js"></script>
+	<script src="../../js/ucenter.js"></script>
+	<script>
+		$('.sharGoodSchool').click(function(){
+			(createShareCover())(1);
+		})
+	</script>
+</body>
+</html>

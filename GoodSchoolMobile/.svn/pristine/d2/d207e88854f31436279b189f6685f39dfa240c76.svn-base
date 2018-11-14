@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/> 
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+	<link rel="stylesheet" type="text/css" href="../css/booking.css">
+    <link rel="stylesheet" type="text/css" href="../css/fonts.css">
+	<title>退款详情</title>
+</head>
+
+<body style="background-color:#efefef;">
+<div class="Header">
+    <div class="left"><a href="javascript:history.go(-1)" class="BACK icon-arrow-left"></a></div>
+    <h1>退款详情</h1>
+    <a href="" class="Header-r">取消退款</a>
+</div>
+<div class="procedure-txt">
+    <p>您的退款申请好学校已受理</p>
+    <p>预计3~10个工作日内将退回到您的原付款账户</p>
+</div>
+<div class="procedure">
+    <h2>退款流程</h2>
+    <div class="item">
+        <div class="item-l"></div>
+        <div class="item-r">
+            <p>你已提交退款申请</p>
+            <p>2015-01-24 12:45</p>
+        </div>
+    </div>
+    <div class="item">
+        <div class="item-l"></div>
+        <div class="item-r">
+            <p>好学校审核处理中</p>
+            <p>2015-01-24 12:45</p>
+        </div>
+    </div>
+    <div class="item old">
+        <div class="item-l"></div>
+        <div class="item-r">
+            <p>退款成功</p>
+            <p>2015-01-24 12:45</p>
+        </div>
+    </div>
+</div>
+<div class="footNav">
+    <a href="">我的咨询</a>
+    <a href="Personal.html">个人主页</a>
+    <a href="index.html">回到首页</a>
+</div>
+<div class="footLogo">
+    <img src="../images/logo-grey.png" height="30" width="80" alt="" />
+    <p>读书培训，找好学校</p>
+</div>
+</body>
+
+</html>

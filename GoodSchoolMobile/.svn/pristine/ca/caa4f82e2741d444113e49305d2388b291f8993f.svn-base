@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/> 
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+	<script src="../../js/jquery.js"></script>
+	<script src="../../js/jquery.mobile.js"></script>
+	<title>参会报名</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/css.css">
+<link rel="stylesheet" type="text/css" href="css/regist.css">
+<body>
+<div class="clear"><img src="images/logo.jpg" width="95" height="45"></div>
+<h3>选择学校</h3>
+<form class="clear" onSubmit="return Regist();">
+	<p class="errorMsg">123123123</p>
+    <label class="long select">
+    	<i>学校</i>
+        <input class="text" type="text" readonly placeholder="请选择你的学校">
+        <q></q>
+    </label>
+    <label class="button">
+    	<input type="submit" class="btn" value="确认报名">
+    </label>
+</form>
+
+<div class="tip">
+	<pre><img src="images/check.jpg" width="30" height="30"> 报名成功</pre>
+    <p>您已成功报名！</p>
+    <p>峰会入场券将通过微信发送给你</p>
+    <p>到时请凭入场券参与峰会！</p>
+    <input value="确认" class="close">
+</div>
+
+<dl class="schools">
+	<dt>请选择你的学校<q>&times;</q></dt>
+    <dd>
+    	<a>广州大学</a>
+    	<a>广州美术学院</a>
+    	<a>广东工业大学</a>
+    	<a>华南理工大学</a>
+    	<a>广东药学院</a>
+    	<a>广州中医药大学</a>
+    	<a>广东外语外贸大学</a>
+    	<a>中山大学</a>
+    	<a>华南师范大学</a>
+    	<a>星海音乐学院</a>
+    	<a>其他</a>
+    </dd>
+</dl>
+</body>
+</html>
+<script src="js/all.js"></script>
+<script>
+$(function(){
+	SingUp();
+	TipInit();
+	Schools();
+});
+</script>

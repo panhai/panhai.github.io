@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/> 
+<meta content="yes" name="apple-mobile-web-app-capable" /> 
+<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+<meta content="telephone=no" name="format-detection" />
+<title>中专招生专题</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/css.css">
+<body style="background:#e1e1e1;">
+<header>找中专技校，就找好学校</header>
+<div class="baaner01"><p>好学校从1200多所中专技校中，精选办学最佳，就业最好的116所重
+点中专技校共同学们参考报名。</p></div>
+<div class="shoolbox">
+	<div class="title01">2015中专技校招生简章大全</div>
+    <div class="shool">
+        <a href="#" class="gr-courseinfo">
+            <div class="imgbox"><img src="images/mob-1.jpg"></div>
+            <div class="content">
+                <p class="c-title">广东省轻工职业技校学校广东省轻工职业技校学校</p>
+                <p class="time-slot">国家级重点中专 </p>
+                <p class="p-t5 c-green f16">561人报名</p>
+            </div>
+        </a>
+        <a href="#" class="gr-courseinfo">
+            <div class="imgbox"><img src="images/mob-1.jpg"></div>
+            <div class="content">
+                <p class="c-title">广东省轻工职业技校学校广东省轻工职业技校学校</p>
+                <p class="time-slot">国家级重点中专 </p>
+                <p class="p-t5 c-green f16">561人报名</p>
+            </div>
+        </a>
+    </div>
+	<a class="more01">查看全部招生简章</a>
+</div>
+<div class="baaner02"><img src="images/banner02.jpg"></div>
+<div class="ensure">
+	<h3>好学校提供免费择校服务</h3>
+    <p>1、免费安排到校参观/报名，专车接送，专人接待，不愁人生地不熟。</p>
+    <p>2、免费提供择校和专业选择建议，专人为你解答疑惑。</p>
+    <div class="btnbig">立即咨询择校顾问</div>
+</div>
+<div class="baaner03"><img src="images/banner03.jpg"></div>
+<div class="ensure">
+	<h3>好学校提供双重就业保障</h3>
+    <p>1、通过好学校报读中专技校，在学校就业保障基础上， 好学校为你提供3次就业推荐机会。</p>
+    <p>2、好学校更联合中国招聘领导品牌《好工作》为好学校报读学生提供终身包就业服务，让你就业无忧。</p>
+    <a href="reserve.html" class="btnbig">立即网上预报名</a>
+</div>
+<div class="baaner04"><img src="images/banner05.jpg"></div>
+<div class="student">
+	<div class="studenttext">
+    	<p class="title">登记资料，领取助学金</p>
+        <div class="tips">提示错误位置</div>
+    	<input class="text" type="text" placeholder='学生真实姓名'>
+        <input class="text" type="text" placeholder='报读学校'>
+        <input class="text" type="text" placeholder='报读专业'>
+        <div class="clearfix"><input class="text" type="text" style=" float:left; width:65%;" placeholder='联系手机'><div class="obtain">获取验证码</div></div>
+        <input class="text" type="text" placeholder='短信验证码'>
+        <div class="btnbig">立即领取</div> 
+    </div>
+</div>
+<div class="please">
+	<p class="h">这个夏天，我们一起读中专</p>
+    <p class="h2">邀请好友拿现金转</p>
+    <div class="pic"></div>
+    <p class="t-acenter">在陌生的环境，有个照应延续三年的同窗情好兄弟，好姐妹让我们一起读中专，上技校</p>
+    <p class="t-acenter p-t20"><span class="c-grey01">—————</span>告诉好友，一起读：<span class="c-grey01">—————</span></p>
+    <div class="btnbig">立即分享</div>
+</div>
+<div class="btnbootom">
+    <a href="#" class="btnmiddle btn01">咨询招生老师</a>
+    <a href="reserve.html" class="btnmiddle btn02">免费预留学位</a>
+</div>
+
+<div class="success">
+	<a href="success.html" class="close"></a>
+	<p class="h">你的报名信息已成功提交</p>
+    <p class="h2">助学金已到账!</p>
+    <div class="pic"></div>
+    <p class="p-b10">——邀请好友一起来领助学金吧——</p>
+    <div class="bdsharebuttonbox"><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a class="bds_weixin" title="分享到微信"></a><a class="bds_sqq" title="分享到QQ好友"></a></div>
+    <div class="btn">分享给小伙伴</div>
+</div>
+<div class="ShareTip">
+    <p>点击右上角<br>
+    发送给朋友或分享<br>
+    到朋友圈</p>
+</div>
+</body>
+</html>
+<script>
+window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"32"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+<script src="js/jquery.js"></script>
+<script>
+$(function(){
+	$(".bds_sqq,.bds_weixin,.success .btn,.please .btnbig").click(function(){
+		var t=$(".ShareTip").fadeIn();
+		setTimeout(function(){
+			t.fadeOut();
+		},5000);
+	});
+	/*$(".success .close").click(function(){
+		$(".success").fadeOut();
+	})*/
+	$(".studenttext .btnbig").click(function(){
+		$(".success").fadeIn();
+	})
+});
+</script>

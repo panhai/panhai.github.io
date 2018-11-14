@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+<meta content="telephone=no" name="format-detection" />
+<title>我的优惠券</title>
+<style>
+body{ background:#e8f5ff;}
+</style>
+</head>
+<link rel="stylesheet" type="text/css" href="css/fonts.css">
+<link rel="stylesheet" type="text/css" href="css/css.css">
+
+<body>
+
+<header class="Header">
+    <div class="left"><a href="javascript:history.go(-1)" class="icon-arrow-left"></a></div>
+    <h1>我的优惠券</h1>
+</header>
+
+<div class="juan-box">
+	<div class="juan">
+    	<div class="j-content clearfix">
+        	<div class="left">
+            	<p>优惠券</p>
+                <p class="big"><span style="font-size:1rem;">￥</span>100</p>
+            </div>
+            <div class="right">
+            	<p class="name">广州津桥外语培训</p>
+                <p class="line">————&nbsp;•&nbsp;————</p>
+            	<p class="text">报读任意课程立减300元</p>
+            </div>
+        </div>
+        <div class="see">
+            <div class="title clearfix">
+                <p class="f-l"  style="font-size:12px;">2015-11-25~2015-12-31</p>
+                <p class="f-r">查看优惠备注&nbsp;<span></span></p>
+            </div>
+            <p class="text">单人报读，一个课程优惠300元，二个课程优惠800元三个课程优惠1500元。到学校出示此券，即可享受以上优惠。</p>
+        </div>
+    </div>
+    <div class="juan two">
+    	<div class="j-content clearfix">
+        	<div class="left">
+            	<p>优惠券</p>
+                <p class="big">9.8折</p>
+            </div>
+            <div class="right">
+            	<p class="name">广州津桥外语培训</p>
+                <p class="line">————&nbsp;•&nbsp;————</p>
+                <p class="text">报读任意课程立减300元</p>
+            </div>
+        </div>
+        <div class="see">
+            <div class="title clearfix">
+                <p class="f-l"  style="font-size:12px;">2015-11-25~2015-12-31</p>
+                <p class="f-r">查看优惠备注&nbsp;<span class="icon-arrow-down"></span></p>
+            </div>
+            <p class="text">单人报读，一个课程优惠300元，二个课程优惠800元三个课程优惠1500元。到学校出示此券，即可享受以上优惠。</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+<script src="js/jquery.js"></script>
+<script>
+$(function(){
+	$(".juan .see .title").click(function(){
+		$(this).siblings(".text").toggle();
+		$(this).find(".f-r span").toggleClass("cur");
+	});
+});
+</script>
+
+
+
+
+

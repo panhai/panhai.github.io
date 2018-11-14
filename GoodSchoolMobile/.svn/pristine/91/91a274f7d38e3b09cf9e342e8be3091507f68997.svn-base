@@ -1,0 +1,43 @@
+<!DOCTYPE html >
+<html >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+<meta content="yes" name="apple-mobile-web-app-capable" /> 
+<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+<meta content="telephone=no" name="format-detection" />
+<link rel="stylesheet" type="text/css" href="../css/css.css">
+<link rel="stylesheet" type="text/css" href="../css/css2.css">
+<link rel="stylesheet" type="text/css" href="../css/SchoolCenter.css">
+<link rel="stylesheet" type="text/css" href="../css/PersonalCenter.css">
+
+<title>现金券使用规则</title>
+</head>
+
+<body>
+	<div class="top-navbar">
+    	<div class="left"><a href="javascript:history.go(-1)"><i class="navbar-icon icon01"></i></a></div>
+        <div class="center">现金券使用规则</div>
+    </div>
+    <div class="f14 l-h22">
+        <div class="gr-rule">
+            <p class="title">现金券是什么?</p>
+            <p>现金券为好学校提供给用户的有价电子凭证报读课程后可兑换M币（5元现金券=5M币)</p>
+        </div>
+        <div class="gr-rule">
+            <p class="title">如何获得现金券?</p>
+            <p class="text"><span class="number">1</span>通过好友发送的“好友送现金券”链接而注册的会员，立即可获得5元现金券奖励。</p>
+            <p class="text"><span class="number">2</span>成为好学校会员后可以通过微信抢现金券活动，邀请更多好友通过您发出的微信链接注册为会员，即可获取更多现金券，数量不限。</p>
+            <p class="text"><span class="number">3</span>使用助学券兑换现金券，每50助学券可兑换一张5元现金券，可兑换数量不限</p>
+        </div>
+        <div class="gr-rule">
+            <p class="title">如何使用现金券?</p>
+            <p>现金券在报读课程后可提现到M币，1000元及以下课程可使用1张，1000-2000课程可使用2张，课程金额每增加1000元可多使用1张现金券，以此类推，可使
+用张数无上限。请在现金券的有效期内兑换。</p>
+        </div>
+    </div>
+    
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/admin/Personal.js"></script>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<meta content="yes" name="apple-mobile-web-app-capable" />
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+	<meta content="telephone=no" name="format-detection" />
+	<link rel="stylesheet" type="text/css" href="../../css/UserCenter.css">
+</head>
+<body class="">
+	<div class="top-navbar">
+		<div class="left"><a href="javascript:void"><i class="navbar-icon icon01"></i></a></div>
+	    <div class="center">领取您的25元课程优惠</div>
+	</div>
+
+	<div class="receive">
+
+		<div class="receive-box">
+
+			<div class="receive-item zx receive-item-color receive-item-top clearfix">
+				<a href="我的助学券_v2.html">
+					<div class="receive-img">
+						<p>25</p>
+						<span>助学券</span>
+					</div>
+					<h3>【邀请奖励】助学券</h3>
+					<h5>&nbsp;&nbsp;助学券25元</h5>
+					<div class="icondiv">
+						<i class="icon"></i>
+						<p>我的助学券</p>
+					</div>
+				</a>
+			</div>
+
+			<div class="receive-item xj receive-item-color clearfix">
+				<a href="我的现金_v2.html">
+					<div class="receive-img">
+						<p>5</p>
+						<span>现金</span>
+					</div>
+					<h3>【邀请奖励】现金</h3>
+					<h5>&nbsp;&nbsp;现金5元</h5>
+					<div class="icondiv">
+						<i class="icon"></i>
+						<p>我的现金</p>
+					</div>
+				</a>
+			</div>
+			<div class="receive-checkbox">
+				<p class="lqinfo">注册领取奖励，可帮潘*柱获得25元课程优惠。</p>
+				<section class="inputbox error">
+					<input type="txt" name="" class="btn input-validation-error" placeholder="输入手机号">
+					<span class="field-validation-error"><i class="iconfont icon-close"></i>您的手机号码输入错误</span>
+				</section>
+				<section class="inputbox">
+					<input type="password" name="" class="btn" placeholder="请设置你的密码">
+					<span class="field-validation-error"><i class="iconfont icon-close"></i>您的密码输入错误</span>
+				</section>
+			</div>
+			<a href="javascript:void" class="next-btn receivebtn">立即注册领取</a>
+			<p class="linkdl">手机已注册?<a href="">立即登录>></a></p>
+			<a href="https://www.baidu.com/" class="linkrule">注册即视为同意<label>《好学校服务协议》</label></a>
+		</div>
+
+	</div>
+	<div class="popup-cover animated fadeIn">
+		<div class="content">
+			<span class="close"></span>
+			<p class="info">验证码已发你手机158****6047上，输入验证码即可领取奖励！</p>
+			<div class="btns">
+				<input type="txt" placeholder="请输入验证码" class="yzmbtn"><span class="obtain">获取验证码</span>
+				<span class="field-validation-error"><i class="iconfont icon-close"></i>您的手机号码不能为空</span>
+			</div>
+			<input type="submit" href="领取课程优惠-已领取_v3.html" class="link" value="领取奖励"/>
+		</div>
+	</div>
+
+	<script src="../../js/jquery.js"></script>
+	<script src="../../js/ucenter.js"></script>
+	<script type="text/javascript">
+
+		var tipTxt = {
+			/*
+			error: {
+				title: '很抱歉！你的现金不足10元',
+				content: '暂不支持提现，如需提现，请尽可能将助学券兑现，或赚取足够现金。',
+				confirm: '关闭',
+				cancel: '去赚现金',
+				onconfirm: function(){
+					this.fadeOut();
+				},
+				oncancel: function(){
+				}
+			},
+
+			error2: {
+				title: '很抱歉！你的现金不足20元',
+				content: '请选用支付宝转账或充值话费提现，或赚取现金！',
+				confirm: '关闭',
+				cancel: '去赚现金',
+				onconfirm: function(){
+					this.fadeOut();
+				},
+				oncancel: function(){
+				}
+			},*/
+			ok: {
+				title: ' 温馨提示',
+				content: '只差最后一步了，你要放弃帮助潘*柱获得<label style="color:#ff5000">25元</label>课程优惠吗？！',
+				confirm: '放弃',
+				cancel: '继续帮助',
+				onconfirm: function(){
+					window.history.back();
+				},
+				oncancel: function(){
+					this.fadeOut();
+				}
+			}
+		};
+		var test = 'ok';
+		$('.left').click(function(event){
+			var opts = tipTxt[test];
+			CONFIRM(null,{
+				topic: opts.title,
+				content: opts.content,
+				cancel: opts.cancel,
+				confirm: opts.confirm,
+				onconfirm: opts.onconfirm,
+				oncancel: opts.oncancel
+			});
+		});
+
+	</script>
+	<script type="text/javascript">
+		$(".next-btn").click(function(event) {
+			$(".popup-cover").fadeIn();
+
+		});
+		$(".close").click(function(event) {
+			$(".popup-cover").fadeOut();
+		});
+		$(".obtain").click(function(event) {
+			$(this).parent("").addClass('error');
+			$(this).addClass('clicked');
+			$(this).html("59s重新获取");
+		});
+	</script>
+</body>
+</html>

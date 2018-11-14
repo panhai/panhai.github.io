@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/> 
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+    <link rel="stylesheet" type="text/css" href="css/css2.css">
+	<script src=js/jquery.js></script>
+	<!-- <link rel=stylesheet href=js/jquery.mobile.css> -->
+	<script src=js/jquery.mobile.js></script>
+	<title>微网站首页</title>
+</head>
+<body>
+    <div class="top">
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.png"/></a>
+        </div>
+        <div class="area" onClick="City()">
+            <span>广州</span><img src="images/angle.png"/>
+        </div>
+        <div class="search-text">
+            <input type="text" placeholder="请输入搜索内容"/>
+        </div>
+        <div class="search-ico-0">
+            <a href="login.html"><img src="images/search-ico01.png"/></a>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div class="search-div">
+        <div class="search-div-T">
+            <div class="school-search01">
+                <input type="text" placeholder="请输入搜索内容"/>
+                <div class="clear"></div>
+            </div>
+            <div class="sousuo">搜索</div>
+            <div class="close"><img src="images/close.png" alt="" /></div>
+        </div>
+        <div class="search-div01">
+            <span>猜你喜欢</span>
+            <div>
+                <a href="search.html">雅思雅思雅</a>
+                <a href="search.html">雅思雅思雅</a>
+                <a href="search.html">雅思</a>
+            </div>
+        </div>
+        <div class="search-div02">
+            <div>最近搜索</div>
+            <a href="search.html">英语考试1</a>
+            <a href="search.html">英语考试2</a>
+            <a href="search.html">英语考试3</a>
+            <a href="search.html">英语考试4</a>
+            <a href="search.html">英语考试5</a>
+        </div>
+    </div>
+    <div class="unreadWarning"><a href="UserCenter/Message.html">您有5条新信息</a><i onClick="$(this).parent().slideUp();"><img src="images/unreadWarning.png" width="30" height="30"></i></div>
+    <div class="banner"></div>
+    <div class="main">
+        <ul style="margin: auto; display: block; overflow: hidden; width: 100%;">
+            <li onclick="courseTab(1)" style=" margin-right:0.5%">
+                <em class="circle1"></em>
+                <p>外语/小语种</p>
+            </li>
+            <li onclick="courseTab(2)" style=" margin-right:0.5%">
+                <em class="circle2"></em>
+                <p>电脑/IT/设计</p>
+            </li>
+            <li onclick="courseTab(3)">
+                <em class="circle3"></em>
+                <p>职业技能</p>
+            </li>
+            <li onclick="courseTab(4)" style=" margin-right:0.5%">
+                <em class="circle4"></em>
+                <p>学历教育</p>
+            </li>
+            <li onclick="courseTab(5)" style=" margin-right:0.5%">
+                <em class="circle5"></em>
+                <p>基础教育</p>
+            </li>
+            <li onclick="courseTab(6)">
+                <em class="circle6"></em>
+                <p>资格认证</p>
+            </li>
+            <li onclick="courseTab(7)" style=" margin-right:0.5%">
+                <em class="circle7"></em>
+                <p>文体艺术</p>
+            </li>
+            <li onclick="courseTab(8)" style=" margin-right:0.5%">
+                <em class="circle8"></em>
+                <p>企业管理</p>
+            </li>
+            <a href="search.html">
+                <li>
+                    <em class="circle9"></em>
+                    <p>更多</p>
+                </li>
+            </a>
+        </ul>
+    </div>
+    <div class="clear"></div>
+    <div class="transparent1"></div>
+    <div class="menu" id="chang1">
+        <div class="menu-title ">
+            <div class="return"/></div>
+            <div class="m_t_text clearfix "><em class="circle1"></em><p>外语/小语种</p></div>
+        </div>
+        <div class="menu-left">
+            <div class="listmove">
+                <p><span class="now" onclick="classTab(1)">雅思托福类</span></p>
+                <p><span onclick="classTab(2)">英语考证</span></p>
+                <p><span onclick="classTab(3)">外语翻译</span></p>
+                <p><span onclick="classTab(4)">行业英语</span></p>
+                <p><span onclick="classTab(5)">综合英语</span></p>
+                <p><span onclick="classTab(6)">小语种</span></p>
+                <p><span onclick="classTab(7)">更多课程</span></p>
+            </div>
+        </div>
+        <div class="menu-right1">
+            <div class="listmove">
+                <a href="SchoolCenter/Schoollogin.html"><p>雅思</p></a>
+                <a href="aa/try.html"><p>托福</p></a>
+                <a href="school.html"><p>托业</p></a>
+                <a href=""><p>留学预科班</p></a>
+                <a href=""><p>SSAT</p></a>
+                <a href=""><p>SAT</p></a>
+                <a href=""><p>ACT</p></a>
+                <a href=""><p>AP</p></a>
+                <a href=""><p>GMAT</p></a>
+                <a href=""><p>PTE</p></a>
+                <a href=""><p>GRE</p></a>
+                <a href=""><p>TOPE</p></a>
+                <a href=""><p>A-level</p></a>
+                <a href=""><p>IGCSE</p></a>
+                <a href=""><p>SLEP</p></a>
+            </div>
+        </div>
+        <div class="menu-right2" style="display:none">
+            <div class="listmove">
+                <a href=""><p>考研英语</p></a>
+                <a href=""><p>英语四级</p></a>
+                <a href=""><p>公共英语(PETS)</p></a>
+                <a href=""><p>英语六级</p></a>
+                <a href=""><p>专业四级</p></a>
+                <a href=""><p>专业八级</p></a>
+                <a href=""><p>考博英语</p></a>
+                <a href=""><p>学位英语</p></a>
+                <a href=""><p>在职申硕英语</p></a>
+                <a href=""><p>职称英语</p></a>
+                <a href=""><p>自考英语</p></a>
+            </div>
+        </div>
+        <div class="menu-right3" style="display:none">
+            <div class="listmove">
+                <a href=""><p>英语笔译</p></a>
+                <a href=""><p>英语翻译</p></a>
+                <a href=""><p>英语口译</p></a>
+                <a href=""><p>同声传译</p></a>
+            </div>
+        </div>
+        <div class="menu-right4" style="display:none">
+            <div class="listmove">
+                <a href=""><p>商务英语(BEC)</p></a>
+                <a href=""><p>外贸英语</p></a>
+                <a href=""><p>服装英语</p></a>
+                <a href=""><p>旅游英语</p></a>
+                <a href=""><p>面试英语</p></a>
+                <a href=""><p>金融英语</p></a>
+                <a href=""><p>影视英语</p></a>
+                <a href=""><p>酒店英语</p></a>
+            </div>
+        </div>
+        <div class="menu-right5" style="display:none">
+            <div class="listmove">
+                <a href=""><p>新概念</p></a>
+                <a href=""><p>英语口语</p></a>
+                <a href=""><p>英语零起点</p></a>
+                <a href=""><p>剑桥英语</p></a>
+                <a href=""><p>少儿英语</p></a>
+                <a href=""><p>日常英语</p></a>
+            </div>
+        </div>
+        <div class="menu-right6" style="display:none">
+            <div class="listmove">
+                <a href=""><p>日语</p></a>
+                <a href=""><p>德语</p></a>
+                <a href=""><p>法语</p></a>
+                <a href=""><p>阿拉伯语</p></a>
+                <a href=""><p>越南语</p></a>
+                <a href=""><p>葡萄牙语</p></a>
+                <a href=""><p>匈牙利语</p></a>
+                <a href=""><p>波兰语</p></a>
+                <a href=""><p>荷兰语</p></a>
+                <a href=""><p>意大利语</p></a>
+                <a href=""><p>西班牙语</p></a>
+                <a href=""><p>瑞典语</p></a>
+                <a href=""><p>波斯语</p></a>
+                <a href=""><p>韩语</p></a>
+                <a href=""><p>俄语</p></a>
+                <a href=""><p>印尼语</p></a>
+                <a href=""><p>印度语</p></a>
+                <a href=""><p>缅甸语</p></a>
+                <a href=""><p>土耳其语</p></a>
+                <a href=""><p>泰语</p></a>
+            </div>
+        </div>
+        <div class="menu-right7" style="display:none">
+            <div class="listmove">
+                <a href=""><p>粤语</p></a>
+                <a href=""><p>普通话</p></a>
+                <a href=""><p>对外汉语</p></a>
+                <a href=""><p>其他</p></a>
+            </div>
+        </div>
+    </div>
+    <div class="menu" id="chang2">
+        <div class="menu-title">
+            <div class="return"/></div>
+            <div class="m_t_text clearfix "><em class="circle2"></em><p>电脑/IT/设计</p></div>
+        </div>
+        <div class="menu-left">
+            <div class="listmove">  
+                <p><span class="now" onclick="classTab(1)">电脑设计</span></p>
+                <p><span onclick="classTab(2)">IT认证</span></p>
+                <p><span onclick="classTab(3)">程序开发</span></p>
+                <p><span onclick="classTab(4)">电脑基础</span></p>
+            </div>
+        </div>
+        <div class="menu-right1">
+            <div class="listmove">
+                <a href=""><p>平面设计</p></a>
+                <a href=""><p>室内设计</p></a>
+                <a href=""><p>广告设计</p></a>
+                <a href=""><p>动漫设计</p></a>
+                <a href=""><p>影视设计</p></a>
+                <a href=""><p>动画设计</p></a>
+                <a href=""><p>游戏设计</p></a>
+                <a href=""><p>陈列设计</p></a>
+                <a href=""><p>网页设计</p></a>
+                <a href=""><p>模具设计</p></a>
+                <a href=""><p>产品设计</p></a>
+                <a href=""><p>景观设计</p></a>
+                <a href=""><p>插画设计</p></a>
+                <a href=""><p>建筑设计</p></a>
+                <a href=""><p>珠宝设计</p></a>
+                <a href=""><p>UI设计</p></a>
+            </div>
+        </div>
+        <div class="menu-right2" style="display:none">
+            <div class="listmove">
+                <a href=""><p>微软认证</p></a>
+                <a href=""><p>Adobe认证</p></a>
+                <a href=""><p>CISCO认证</p></a>
+                <a href=""><p>NIIT认证</p></a>
+                <a href=""><p>Oracle认证</p></a>
+                <a href=""><p>IBM认证</p></a>
+                <a href=""><p>SUN认证</p></a>
+                <a href=""><p>JAVA认证</p></a>
+                <a href=""><p>ITIL认证</p></a>
+                <a href=""><p>华为认证</p></a>
+                <a href=""><p>CEAC认证</p></a>
+                <a href=""><p>Macromedia认证</p></a>
+                <a href=""><p>Android</p></a>
+                <a href=""><p>Symbian认证</p></a>
+                <a href=""><p>linux认证</p></a>
+                <a href=""><p>IOS</p></a>
+            </div>
+        </div>
+        <div class="menu-right3" style="display:none">
+            <div class="listmove">
+                <a href=""><p>JAVA</p></a>
+                <a href=""><p>C/C++</p></a>
+                <a href=""><p>ASP</p></a>
+                <a href=""><p>嵌入式</p></a>
+                <a href=""><p>C#</p></a>
+                <a href=""><p>Delphi</p></a>
+                <a href=""><p>VB语言</p></a>
+                <a href=""><p>嵌入式</p></a>
+                <a href=""><p>游戏开发</p></a>
+                <a href=""><p>Oracle</p></a>
+                <a href=""><p>PHP</p></a>
+                <a href=""><p>数据库</p></a>
+                <a href=""><p>软件开发</p></a>
+                <a href=""><p>网络工程师</p></a>
+                <a href=""><p>手机开发</p></a>
+                <a href=""><p>信息安全工程师</p></a>
+                <a href=""><p>系统需求分析师</p></a>
+            </div>
+        </div>
+        <div class="menu-right4" style="display:none">
+            <div class="listmove">
+                <a href=""><p>办公软件</p></a>
+                <a href=""><p>网络技术</p></a>
+                <a href=""><p>软件测试</p></a>
+                <a href=""><p>电子商务</p></a>
+                <a href=""><p>计算机等级考试</p></a>
+                <a href=""><p>计算机水平考试</p></a>
+                <a href=""><p>速录</p></a>
+                <a href=""><p>电脑基础</p></a>
+            </div>
+        </div>
+    </div>
+    <div class="menu" id="chang3">
+        <div class="menu-title">
+            <div class="return"/></div>
+            <div class="m_t_text clearfix "><em class="circle3"></em><p>职业技能</p></div>
+        </div>
+        <div class="menu-left">
+            <div class="listmove">
+                <p><span class="now" onclick="classTab(1)">驾驶技能</span></p>
+                <p><span onclick="classTab(2)">烹饪厨艺</span></p>
+                <p><span onclick="classTab(3)">维修技能</span></p>
+                <p><span onclick="classTab(4)">美容化妆</span></p>
+                <p><span onclick="classTab(5)">服装/模具/摄影</span></p>
+                <p><span onclick="classTab(6)">更多课程</span></p>
+            </div>
+        </div>
+        <div class="menu-right1">
+            <div class="listmove">
+                <a href=""><p>驾驶考证</p></a>
+                <a href=""><p>叉车</p></a>
+                <a href=""><p>挖掘机</p></a>
+                <a href=""><p>装载机</p></a>
+                <a href=""><p>吊车</p></a>
+                <a href=""><p>船舶驾驶</p></a>
+                <a href=""><p>拖车</p></a>
+                <a href=""><p>飞机驾驶</p></a>
+                <a href=""><p>铲车</p></a>
+            </div>
+        </div>
+        <div class="menu-right2" style="display:none">
+            <div class="listmove">
+                <a href=""><p>厨师</p></a>
+                <a href=""><p>面点师</p></a>
+                <a href=""><p>糖水小吃</p></a>
+                <a href=""><p>寿司</p></a>
+                <a href=""><p>调酒师</p></a>
+                <a href=""><p>品酒师</p></a>
+                <a href=""><p>烹饪酒店管理</p></a>
+                <a href=""><p>茶艺师</p></a>
+                <a href=""><p>咖啡师</p></a>
+                <a href=""><p>西餐</p></a>
+                <a href=""><p>料理</p></a>
+                <a href=""><p>烧腊卤水</p></a>
+            </div>
+        </div>
+        <div class="menu-right3" style="display:none">
+            <div class="listmove">
+                <a href=""><p>汽车维修</p></a>
+                <a href=""><p>手机维修</p></a>
+                <a href=""><p>电脑维修</p></a>
+                <a href=""><p>家电维修</p></a>
+                <a href=""><p>办公设备维修</p></a>
+                <a href=""><p>汽车美容</p></a>
+                <a href=""><p>汽车音响改装</p></a>
+                <a href=""><p>制冷维修</p></a>
+            </div>
+        </div>
+        <div class="menu-right4" style="display:none">
+            <div class="listmove">
+                <a href=""><p>美容</p></a>
+                <a href=""><p>化妆</p></a>
+                <a href=""><p>美发</p></a>
+                <a href=""><p>中医美容</p></a>
+                <a href=""><p>彩妆造型</p></a>
+                <a href=""><p>形象设计</p></a>
+                <a href=""><p>美体</p></a>
+                <a href=""><p>按摩足疗</p></a>
+                <a href=""><p>纹绣</p></a>
+                <a href=""><p>影楼</p></a>
+                <a href=""><p>美甲</p></a>
+                <a href=""><p>店面管理</p></a>
+                <a href=""><p>中医养生</p></a>
+            </div>
+        </div>
+        <div class="menu-right5" style="display:none">
+            <div class="listmove">
+                <a href=""><p>服装设计</p></a>
+                <a href=""><p>服装裁剪</p></a>
+                <a href=""><p>服装打版</p></a>
+                <a href=""><p>数控机床</p></a>
+                <a href=""><p>模具设计</p></a>
+                <a href=""><p>摄影培训</p></a>
+                <a href=""><p>服装营销</p></a>
+            </div>
+        </div>
+        <div class="menu-right6" style="display:none">
+            <div class="listmove">
+                <a href=""><p>眼镜培训</p></a>
+                <a href=""><p>窗帘培训</p></a>
+                <a href=""><p>会计电算化</p></a>
+                <a href=""><p>会计实务</p></a>
+                <a href=""><p>电工</p></a>
+                <a href=""><p>焊工</p></a>
+                <a href=""><p>高压电工</p></a>
+                <a href=""><p>电梯工</p></a>
+                <a href=""><p>模特</p></a>
+                <a href=""><p>插花</p></a>
+                <a href=""><p>口才训练</p></a>
+                <a href=""><p>礼仪培训</p></a>
+                <a href=""><p>心理学/NLP</p></a>
+                <a href=""><p>保健按摩</p></a>
+                <a href=""><p>针灸</p></a>
+                <a href=""><p>DJ音控</p></a>
+                <a href=""><p>播音主持</p></a>
+                <a href=""><p>宠物美容护理</p></a>
+                <a href=""><p>钳工</p></a>
+                <a href=""><p>创业指导</p></a>
+                <a href=""><p>PLC设计</p></a>
+                <a href=""><p>PCB设计</p></a>
+                <a href=""><p>家庭关系、亲子教育</p></a>
+                <a href=""><p>演艺培训</p></a>
+                <a href=""><p>CTP印前工程师</p></a>
+                <a href=""><p>其他</p></a>
+            </div>
+        </div>
+    </div>
+    <div class="menu" id="chang4">
+        <div class="menu-title">
+            <div class="return"/></div>
+            <div class="m_t_text clearfix "><em class="circle4"></em><p>学历教育</p></div>
+        </div>
+        <div class="menu-left">
+            <div class="listmove">
+                <p><span class="now" onclick="classTab(1)">中专/中技/高技</span></p>
+                <p><span onclick="classTab(2)">大学教育</span></p>
+                <p><span onclick="classTab(3)">研究生教育</span></p>
+                <p><span onclick="classTab(4)">出国留学</span></p>
+            </div>
+        </div>
+        <div class="menu-right1">
+            <div class="listmove">
+                <a href=""><p>中专</p></a>
+                <a href=""><p>中技</p></a>
+                <a href=""><p>职业学校</p></a>
+                <a href=""><p>高技</p></a>
+                <a href=""><p>职业中学</p></a>
+                <a href=""><p>技师</p></a>
+            </div>
+        </div>
+        <div class="menu-right2" style="display:none">
+            <div class="listmove">
+                <a href=""><p>自考</p></a>
+                <a href=""><p>成人高考</p></a>
+                <a href=""><p>网络教育</p></a>
+                <a href=""><p>电大</p></a>
+                <a href=""><p>本科</p></a>
+                <a href=""><p>大专</p></a>
+            </div>
+        </div>
+        <div class="menu-right3" style="display:none">
+            <div class="listmove">
+                <a href=""><p>研修班</p></a>
+                <a href=""><p>考研辅导</p></a>
+                <a href=""><p>工商管理硕士(MBA)</p></a>
+                <a href=""><p>高级管理人员工商管理硕士(EMBA)</p></a>
+                <a href=""><p>公共管理硕士(MPA)</p></a>
+                <a href=""><p>项目管理工程硕士(MPM)</p></a>
+                <a href=""><p>工程硕士</p></a>
+                <a href=""><p>在职硕士</p></a>
+                <a href=""><p>会计硕士(MPAcc)</p></a>
+                <a href=""><p>教育硕士(Ed.M)</p></a>
+                <a href=""><p>法律硕士(J.M)</p></a>
+                <a href=""><p>农业推广硕士(MAE)</p></a>
+                <a href=""><p>在职博士</p></a>
+            </div>
+        </div>
+        <div class="menu-right4" style="display:none">
+            <div class="listmove">
+                <a href=""><p>美国留学</p></a>
+                <a href=""><p>日本留学</p></a>
+                <a href=""><p>英国留学</p></a>
+                <a href=""><p>澳洲留学</p></a>
+                <a href=""><p>德国留学</p></a>
+                <a href=""><p>法国留学</p></a>
+                <a href=""><p>加拿大留学</p></a>
+                <a href=""><p>韩国留学</p></a>
+                <a href=""><p>新加坡留学</p></a>
+                <a href=""><p>新西兰留学</p></a>
+                <a href=""><p>瑞士留学</p></a>
+                <a href=""><p>荷兰留学</p></a>
+                <a href=""><p>俄罗斯留学</p></a>
+                <a href=""><p>意大利留学</p></a>
+                <a href=""><p>爱尔兰留学</p></a>
+                <a href=""><p>马来西亚留学</p></a>
+                <a href=""><p>南非留学</p></a>
+                <a href=""><p>少年国际教育</p></a>
+                <a href=""><p>出国移民</p></a>
+                <a href=""><p>香港留学</p></a>
+                <a href=""><p>泰国留学</p></a>
+                <a href=""><p>台湾留学</p></a>
+                <a href=""><p>西班牙留学</p></a>
+            </div>
+        </div>
+    </div>
+    <div class="menu" id="chang5">
+        <div class="menu-title">
+            <div class="return"/></div>
+            <div class="m_t_text clearfix "><em class="circle5"></em><p>基础教育</p></div>
+        </div>
+        <div class="menu-left">
+            <div class="listmove">
+                <p><span class="now" onclick="classTab(1)">学前教育</span></p>
+                <p><span onclick="classTab(2)">中小学</span></p>
+                <p><span onclick="classTab(3)">小学辅导</span></p>
+                <p><span onclick="classTab(4)">初中辅导</span></p>
+                <p><span onclick="classTab(5)">高中辅导</span></p>
+                <p><span onclick="classTab(6)">游学/冬令营/夏令营</span></p>
+                <p><span onclick="classTab(7)">术科/特色培训</span></p>
+            </div>
+        </div>
+        <div class="menu-right1">
+            <div class="listmove">
+                <a href=""><p>幼儿园</p></a>
+                <a href=""><p>婴幼儿早教</p></a>
+                <a href=""><p>托管</p></a>
+                <a href=""><p>少儿美术</p></a>
+                <a href=""><p>少儿舞蹈</p></a>
+                <a href=""><p>少儿音乐</p></a>
+                <a href=""><p>少儿健身</p></a>
+            </div>
+        </div>
+        <div class="menu-right2" style="display:none">
+            <div class="listmove">
+                <a href=""><p>小学</p></a>
+                <a href=""><p>初中(初级中学)</p></a>
+                <a href=""><p>高中(高级中学)</p></a>
+                <a href=""><p>完全中学</p></a>
+            </div>
+        </div>
+        <div class="menu-right3" style="display:none">
+            <div class="listmove">
+                <a href=""><p>小学语文</p></a>
+                <a href=""><p>小学数学</p></a>
+                <a href=""><p>小学英语</p></a>
+                <a href=""><p>小学奥数</p></a>
+                <a href=""><p>小学奥英</p></a>
+                <a href=""><p>小学作文</p></a>
+                <a href=""><p>小学美术</p></a>
+                <a href=""><p>小升初辅导</p></a>
+            </div>
+        </div>
+        <div class="menu-right4" style="display:none">
+            <div class="listmove">
+                <a href=""><p>初中语文</p></a>
+                <a href=""><p>初中数学</p></a>
+                <a href=""><p>初中英语</p></a>
+                <a href=""><p>初中物理</p></a>
+                <a href=""><p>初中化学</p></a>
+                <a href=""><p>初中地理</p></a>
+                <a href=""><p>初中历史</p></a>
+                <a href=""><p>初中生物</p></a>
+                <a href=""><p>初中政治</p></a>
+                <a href=""><p>初中美术</p></a>
+                <a href=""><p>初中奥数</p></a>
+                <a href=""><p>初升高辅导</p></a>
+                <a href=""><p>中考复读</p></a>
+            </div>
+        </div>
+        <div class="menu-right5" style="display:none">
+            <div class="listmove">
+                <a href=""><p>高中语文</p></a>
+                <a href=""><p>高中数学</p></a>
+                <a href=""><p>高中英语</p></a>
+                <a href=""><p>高中物理</p></a>
+                <a href=""><p>高中化学</p></a>
+                <a href=""><p>高中地理</p></a>
+                <a href=""><p>高中历史</p></a>
+                <a href=""><p>高中生物</p></a>
+                <a href=""><p>高中政治</p></a>
+                <a href=""><p>高考复读</p></a>
+                <a href=""><p>艺术生文化课</p></a>
+                <a href=""><p>文综辅导</p></a>
+                <a href=""><p>理综辅导</p></a>
+                <a href=""><p>高中奥数</p></a>
+            </div>
+        </div>
+        <div class="menu-right6" style="display:none">
+            <div class="listmove">
+                <a href=""><p>游学</p></a>
+                <a href=""><p>冬令营</p></a>
+                <a href=""><p>夏令营</p></a>
+            </div>
+        </div>
+        <div class="menu-right7" style="display:none">
+            <div class="listmove">
+                <a href=""><p>美术高考</p></a>
+                <a href=""><p>音乐高考</p></a>
+                <a href=""><p>传媒艺术高考</p></a>
+                <a href=""><p>科学竞赛</p></a>
+                <a href=""><p>记忆力培训</p></a>
+                <a href=""><p>课外拓展</p></a>
+                <a href=""><p>体育特招</p></a>
+                <a href=""><p>素质训练</p></a>
+                <a href=""><p>影视表演</p></a>
+                <a href=""><p>学习能力训练</p></a>
+            </div>
+        </div>
+    </div>
+    <div class="menu" id="chang6">
+        <div class="menu-title">
+            <div class="return"/></div>
+            <div class="m_t_text clearfix "><em class="circle6"></em><p>资格认证</p></div>
+        </div>
+        <div class="menu-left">
+            <div class="listmove">
+                <p><span class="now" onclick="classTab(1)">财会金融</span></p>
+                <p><span onclick="classTab(2)">工程/建筑类</span></p>
+                <p><span onclick="classTab(3)">管理/贸易类</span></p>
+                <p><span onclick="classTab(4)">医学保健</span></p>
+                <p><span onclick="classTab(5)">更多课程</span></p>
+            </div>
+        </div>
+        <div class="menu-right1">
+            <div class="listmove">
+                <a href=""><p>会计从业资格</p></a>
+                <a href=""><p>会计职称</p></a>
+                <a href=""><p>注册会计师</p></a>
+                <a href=""><p>资产评估师</p></a>
+                <a href=""><p>鉴定估价师</p></a>
+                <a href=""><p>注册税务师</p></a>
+                <a href=""><p>特许公认会计师ACCA</p></a>
+                <a href=""><p>特许金融分析师CFA</p></a>
+                <a href=""><p>财务总监(CFO)</p></a>
+                <a href=""><p>国际注册会计师</p></a>
+                <a href=""><p>银行从业</p></a>
+                <a href=""><p>基金从业</p></a>
+                <a href=""><p>理财规划师</p></a>
+                <a href=""><p>证券从业</p></a>
+                <a href=""><p>期货从业</p></a>
+                <a href=""><p>保险从业</p></a>
+                <a href=""><p>证券经纪人</p></a>
+                <a href=""><p>经济师</p></a>
+                <a href=""><p>精算师</p></a>
+                <a href=""><p>审计师</p></a>
+                <a href=""><p>统计师</p></a>
+                <a href=""><p>会计上岗证</p></a>
+            </div>
+        </div>
+        <div class="menu-right2" style="display:none">
+            <div class="listmove">
+                <a href=""><p>建筑五大员</p></a>
+                <a href=""><p>建造师</p></a>
+                <a href=""><p>造价工程师</p></a>
+                <a href=""><p>监理工程师</p></a>
+                <a href=""><p>安全工程师</p></a>
+                <a href=""><p>咨询工程师</p></a>
+                <a href=""><p>房地产估价师</p></a>
+                <a href=""><p>土地估价师</p></a>
+                <a href=""><p>房地产经纪人</p></a>
+                <a href=""><p>房地产策划师</p></a>
+                <a href=""><p>结构工程师</p></a>
+                <a href=""><p>岩土工程师</p></a>
+                <a href=""><p>注册测绘师</p></a>
+                <a href=""><p>注册计量师</p></a>
+                <a href=""><p>城市规划师</p></a>
+                <a href=""><p>弱电工师</p></a>
+                <a href=""><p>造价员</p></a>
+                <a href=""><p>预算员</p></a>
+                <a href=""><p>招标师</p></a>
+            </div>
+        </div>
+        <div class="menu-right3" style="display:none">
+            <div class="listmove">
+                <a href=""><p>人力资源师</p></a>
+                <a href=""><p>物业管理</p></a>
+                <a href=""><p>物流师</p></a>
+                <a href=""><p>电子商务师</p></a>
+                <a href=""><p>营销师</p></a>
+                <a href=""><p>项目管理师</p></a>
+                <a href=""><p>报关员</p></a>
+                <a href=""><p>跟单员</p></a>
+                <a href=""><p>货代员</p></a>
+                <a href=""><p>报检员</p></a>
+                <a href=""><p>策划师</p></a>
+                <a href=""><p>酒店管理师</p></a>
+                <a href=""><p>企业培训师</p></a>
+                <a href=""><p>职业经理人</p></a>
+                <a href=""><p>客户关系管理</p></a>
+                <a href=""><p>内审员</p></a>
+                <a href=""><p>外审员</p></a>
+                <a href=""><p>单证员</p></a>
+                <a href=""><p>采购师</p></a>
+                <a href=""><p>食品安全管理</p></a>
+                <a href=""><p>信用管理</p></a>
+                <a href=""><p>会展管理</p></a>
+                <a href=""><p>外销员</p></a>
+                <a href=""><p>工商管理师</p></a>
+                <a href=""><p>职业指导师</p></a>
+            </div>
+        </div>
+        <div class="menu-right4" style="display:none">
+            <div class="listmove">
+                <a href=""><p>心理咨询师</p></a>
+                <a href=""><p>公共营养师</p></a>
+                <a href=""><p>康复理疗师</p></a>
+                <a href=""><p>芳疗师</p></a>
+                <a href=""><p>心理保健师</p></a>
+                <a href=""><p>中医推拿师</p></a>
+                <a href=""><p>针灸推拿师</p></a>
+                <a href=""><p>健康管理师</p></a>
+                <a href=""><p>执业药师</p></a>
+                <a href=""><p>执业医师</p></a>
+                <a href=""><p>中医师</p></a>
+                <a href=""><p>卫生职称</p></a>
+                <a href=""><p>保健按摩师</p></a>
+                <a href=""><p>催乳师</p></a>
+                <a href=""><p>护士资格证</p></a>
+            </div>
+        </div>
+        <div class="menu-right5" style="display:none">
+            <div class="listmove">
+                <a href=""><p>公务员</p></a>
+                <a href=""><p>导游证</p></a>
+                <a href=""><p>教师资格证</p></a>
+                <a href=""><p>育婴师</p></a>
+                <a href=""><p>月嫂</p></a>
+                <a href=""><p>司法考试</p></a>
+                <a href=""><p>秘书证</p></a>
+                <a href=""><p>职称考试</p></a>
+                <a href=""><p>律师资格证</p></a>
+                <a href=""><p>商业银行考试</p></a>
+                <a href=""><p>教师招聘考试</p></a>
+                <a href=""><p>事业单位考试</p></a>
+                <a href=""><p>其他</p></a>
+            </div>
+        </div>
+    </div>
+    <div class="menu" id="chang7">
+        <div class="menu-title">
+            <div class="return"/></div>
+            <div class="m_t_text clearfix "><em class="circle7"></em><p>文体艺术</p></div>
+        </div>
+        <div class="menu-left">
+            <div class="listmove">
+                <p><span class="now" onclick="classTab(1)">舞蹈类</span></p>
+                <p><span onclick="classTab(2)">形体/保健类</span></p>
+                <p><span onclick="classTab(3)">音乐</span></p>
+                <p><span onclick="classTab(4)">球类</span></p>
+                <p><span onclick="classTab(5)">更多课程</span></p>
+            </div>
+        </div>
+        <div class="menu-right1">
+            <div class="listmove">
+                <a href=""><p>国标舞</p></a>
+                <a href=""><p>芭蕾</p></a>
+                <a href=""><p>肚皮舞</p></a>
+                <a href=""><p>街舞</p></a>
+                <a href=""><p>交谊舞</p></a>
+                <a href=""><p>印度舞</p></a>
+                <a href=""><p>现代舞</p></a>
+                <a href=""><p>钢管舞</p></a>
+                <a href=""><p>爵士舞</p></a>
+                <a href=""><p>中国舞</p></a>
+                <a href=""><p>拉丁舞</p></a>
+                <a href=""><p>酒吧舞</p></a>
+            </div>
+        </div>
+        <div class="menu-right2" style="display:none">
+            <div class="listmove">
+                <a href=""><p>形体训练</p></a>
+                <a href=""><p>瑜伽</p></a>
+                <a href=""><p>健美操</p></a>
+                <a href=""><p>养生保健</p></a>
+                <a href=""><p>健身</p></a>
+            </div>
+        </div>
+        <div class="menu-right3" style="display:none">
+            <div class="listmove">
+                <a href=""><p>钢琴</p></a>
+                <a href=""><p>声乐</p></a>
+                <a href=""><p>吉他</p></a>
+                <a href=""><p>古筝</p></a>
+                <a href=""><p>琵琶</p></a>
+                <a href=""><p>小提琴</p></a>
+                <a href=""><p>视唱练耳</p></a>
+                <a href=""><p>音乐制作</p></a>
+                <a href=""><p>作曲</p></a>
+                <a href=""><p>乐理</p></a>
+                <a href=""><p>二胡</p></a>
+                <a href=""><p>爵士鼓</p></a>
+                <a href=""><p>大提琴</p></a>
+                <a href=""><p>萨克斯</p></a>
+                <a href=""><p>长笛</p></a>
+                <a href=""><p>手风琴</p></a>
+                <a href=""><p>竹笛</p></a>
+                <a href=""><p>葫芦丝</p></a>
+                <a href=""><p>扬琴</p></a>
+                <a href=""><p>电子琴</p></a>
+                <a href=""><p>箫</p></a>
+                <a href=""><p>电吉他</p></a>
+                <a href=""><p>电贝司</p></a>
+                <a href=""><p>古琴</p></a>
+            </div>
+        </div>
+        <div class="menu-right4" style="display:none">
+            <div class="listmove">
+                <a href=""><p>羽毛球</p></a>
+                <a href=""><p>乒乓球</p></a>
+                <a href=""><p>篮球</p></a>
+                <a href=""><p>高尔夫</p></a>
+                <a href=""><p>足球</p></a>
+                <a href=""><p>排球</p></a>
+                <a href=""><p>网球</p></a>
+                <a href=""><p>台球</p></a>
+                <a href=""><p>棒球</p></a>
+            </div>
+        </div>
+        <div class="menu-right5" style="display:none">
+            <div class="listmove">
+                <a href=""><p>击剑</p></a>
+                <a href=""><p>棋类培训</p></a>
+                <a href=""><p>书法</p></a>
+                <a href=""><p>美术</p></a>
+                <a href=""><p>跆拳道</p></a>
+                <a href=""><p>武术</p></a>
+                <a href=""><p>陶艺/手工</p></a>
+                <a href=""><p>太极拳</p></a>
+                <a href=""><p>柔道</p></a>
+                <a href=""><p>空手道</p></a>
+                <a href=""><p>相声</p></a>
+                <a href=""><p>小品</p></a>
+                <a href=""><p>魔术</p></a>
+                <a href=""><p>游泳</p></a>
+                <a href=""><p>其他</p></a>
+            </div>
+        </div>
+    </div>
+    <div class="menu" id="chang8">
+        <div class="menu-title">
+            <div class="return"/></div>
+            <div class="m_t_text clearfix "><em class="circle8"></em><p>企业管理</p></div>
+        </div>
+        <div class="menu-left">
+            <div class="listmove">
+                <p><span class="now" onclick="classTab(1)">全部课程</span></p>
+            </div>
+        </div>
+        <div class="menu-right1">
+            <div class="listmove">
+                <a href=""><p>拓展训练</p></a>
+                <a href=""><p>高级经理人研修</p></a>
+                <a href=""><p>财务管理</p></a>
+                <a href=""><p>人力资源</p></a>
+                <a href=""><p>文化管理</p></a>
+                <a href=""><p>市场营销</p></a>
+                <a href=""><p>品牌管理</p></a>
+                <a href=""><p>生产管理</p></a>
+                <a href=""><p>项目管理</p></a>
+                <a href=""><p>客户管理</p></a>
+                <a href=""><p>客户服务</p></a>
+                <a href=""><p>经营管理</p></a>
+                <a href=""><p>采购管理</p></a>
+                <a href=""><p>供应链管理</p></a>
+                <a href=""><p>职业道德</p></a>
+                <a href=""><p>总裁管理研修</p></a>
+                <a href=""><p>总监管理研修</p></a>
+                <a href=""><p>企业内训</p></a>
+                <a href=""><p>领导力</p></a>
+                <a href=""><p>其他</p></a>
+            </div>
+        </div>
+    </div>
+    <div class="city">
+        <div class="header"><div class="return_ico"></div>选择城市</div>
+        <div class="city-main">
+          <ul class="listmove">
+                <li><a href="javascript:void(0);">广州</a></li>
+                <li><a href="javascript:void(0);">深圳</a></li>
+                <li><a href="javascript:void(0);">上海</a></li>
+                <li><a href="javascript:void(0);">东莞</a></li>
+                <li><a href="javascript:void(0);">佛山</a></li>
+                <li><a href="javascript:void(0);">北京</a></li>
+                <li><a href="javascript:void(0);">长沙</a></li>
+                <li><a href="javascript:void(0);">福州</a></li>
+                <li><a href="javascript:void(0);">中山</a></li>
+                <li><a href="javascript:void(0);">惠州</a></li>
+                <li><a href="javascript:void(0);">湛江</a></li>
+                <li><a href="javascript:void(0);">成都</a></li>
+                <li><a href="javascript:void(0);">济南</a></li>
+                <li><a href="javascript:void(0);">杭州</a></li>
+                <li><a href="javascript:void(0);">珠海</a></li>
+                <li><a href="javascript:void(0);">娄底</a></li>
+                <li><a href="javascript:void(0);">株洲</a></li>
+                <li><a href="javascript:void(0);">南京</a></li>
+                <li><a href="javascript:void(0);">郴州</a></li>
+                <li><a href="javascript:void(0);">韶关</a></li>
+                <li><a href="javascript:void(0);">武汉</a></li>
+                <li><a href="javascript:void(0);">贵阳</a></li>
+                <li><a href="javascript:void(0);">衡阳</a></li>
+                <li><a href="javascript:void(0);">南充</a></li>
+                <li><a href="javascript:void(0);">乐山</a></li>
+                <li><a href="javascript:void(0);">湘潭</a></li>
+                <li><a href="javascript:void(0);">合肥</a></li>
+                <li><a href="javascript:void(0);">德阳</a></li>
+                <li><a href="javascript:void(0);">厦门</a></li>
+                <li><a href="javascript:void(0);">河源</a></li>
+                <li><a href="javascript:void(0);">汕尾</a></li>
+                <li><a href="javascript:void(0);">桂林</a></li>
+          </ul>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="js/js.js"></script>
+<script type="text/javascript">
+    gb.Index();
+</script>
+
+</html>
+<script>
+$(function(){
+	$(window).load(IndexResponse).resize(IndexResponse);
+});
+function IndexResponse()
+{//屏幕过矮不适应，高于640按640算
+	var wh=Math.min(640,$(window).height());
+	var hh=$(".top").height();
+	var uh=$(".unreadWarning").height();
+	var bh=$(".banner").height();
+	var th=hh+uh+bh;
+	if(wh<th) return;
+	var lh=wh-th-15;
+	var nh=lh/3;
+	var lis=$(".main ul").find("li");
+	var ph=lis.height();
+	lis.css({"padding":(nh-ph)/2+"px 0px"});
+	
+}
+</script>

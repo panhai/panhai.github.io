@@ -1,0 +1,115 @@
+/* CSS Document */
+
+*{ margin:0px; padding:0px; font-family:Microsoft YaHei, Arial;}
+ul,ol,li{ list-style:none;}
+q{ quotes:none;}
+a{ text-decoration:none; cursor:pointer;}
+img{ border:0px;}
+body{}
+input::-ms-clear{ display:none;}
+:-moz-placeholder{ color:#999;}
+::-moz-placeholder{ color:#999;}
+:focus{ outline:none;}
+textarea{ resize:none !important;}
+.clear{ clear:both !important; float:none !important; overflow:hidden;}
+table{ border-collapse:collapse; table-layout:fixed;}
+/*半透明背景*/
+.black5{ background:rgba(0,0,0,0.5); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4B000000,endColorstr=#4B000000);}
+.fixed{ position:fixed; _position:absolute;}
+.fixed-top{	top:0px; _top:expression(eval(document.documentElement.scrollTop));}
+.fixed-bottom{ bottom:0px; _bottom:auto; _top:expression(eval(document.documentElement.scrollTop + document.documentElement.clientHeight - this.clientHeight - (parseInt(this.currentStyle.marginTop) || 0) - (parseInt(this.currentStyle.marginBottom) || 0)));}
+/*全屏插件，为了方便横竖居中，使用表格*/
+.FullScreenPlugin{ display:none; width:100%; height:100%; _height:expression(eval(document.documentElement.clientHeight)); text-align:center; z-index:66666;}
+.FullScreenPlugin td{ vertical-align:middle; text-align:center;}
+
+header{ background-color:#40a1f2; color:#fff; font-size:18px; line-height:50px; text-align:center; padding:0 50px;}
+header a{ width:50px; height:50px; float:left; margin-left:-50px; background-image:url(images/back.jpg);}
+
+.BANNER{ text-align:center; font-size:0;}
+.BANNER img{ max-width:100%; height:auto;}
+
+.block{ margin:0 10px 20px; background-color:#fff; color:#626262; line-height:20px; font-size:14px;}
+.intro{ padding:15px;}
+.block dt{ height:50px; line-height:50px; text-indent:10px; border-bottom:1px solid #dfdfdf;}
+.block dt *{ font-size:18px; color:#0081e5;}
+
+.List{}
+.List figure{ height:70px; padding:15px; border-bottom:1px solid #dfdfdf;}
+.List figure img{ float:left; margin-right:10px;}
+.List figure a{ color:#333;}
+.List figure h4{ font-size:16px; color:#333; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.List figure p{ font-size:14px; color:#767676; line-height:15px; margin-top:5px; overflow:hidden; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient: vertical;}
+
+.Enroll{ height:50px; background-color:#f60; color:#fff; cursor:pointer; border:0; font-size:18px; margin:20px 15px 10px; display:block; text-align:center; line-height:50px;}
+.Enroll + samp{ font-size:14px; color:#767676; display:block; padding:0 15px 10px;}
+samp mark{ color:#f90; background-color:transparent;}
+
+.Schedule{}
+.Schedule li{ clear:both; margin-left:25px; padding:25px 10px 0 25px; position:relative; border-left:1px solid #dfdfdf;}
+.Schedule li:before{ content:''; width:20px; height:20px; border-radius:50%; position:absolute; border:2px solid #dfdfdf; top:25px; left:-13px; background-color:#fff;}
+.Schedule li:after{ content:''; width:6px; height:6px; border-radius:50%; position:absolute; background-color:#f60; top:34px; left:-4px;}
+.Schedule li:last-child{ padding-bottom:25px;}
+.Schedule h5{ font-size:16px; color:#333; line-height:25px;}
+.Schedule p{ margin-top:5px; line-height:20px; font-size:14px;}
+
+.Dates{}
+.Dates p{ padding:10px 15px; border-bottom:1px solid #dfdfdf; font-size:14px;}
+.Dates em{ font-size:18px; color:#646464; font-style:normal;}
+.Dates b{ font-size:16px;}
+
+.share{ text-align:center; padding:20px 0;}
+.bdsharebuttonbox{ width:220px; margin:0 auto; padding-bottom:30px; height:35px;}
+.bdsharebuttonbox a{ display:block !important; float:left !important; width:35px !important; height:34px !important; margin:0 !important; background-position:0 0 !important;}
+.bdsharebuttonbox a + a{ margin:0 0 0 25px !important;}
+.bds_qzone{ background-image:url(images/m-qzone.jpg) !important;}
+.bds_tsina{ background-image:url(images/m-wb.jpg) !important;}
+.bds_weixin{ background-image:url(images/m-wx.jpg) !important;}
+.bds_sqq{ background-image:url(images/m-qq.jpg) !important;}
+
+.block2{}
+.block2 dt{ font-size:18px; color:#5a5a5a; font-weight:bold; text-indent:15px; height:50px; line-height:50px; border-bottom:1px solid #dfdfdf;}
+
+.Radios{ border-bottom:15px solid #dfdfdf; padding:15px;}
+.Radios:after{ content:''; display:block; clear:both;}
+.Radios input{ display:none;}
+.Radios label{ display:block; width:31%; margin:0 1%; float:left; text-align:center; font-size:16px; color:#646464; height:32px; line-height:28px; border:2px solid #e8e8e8; box-sizing:border-box;}
+.Radios :checked + label{ border-color:#f60; color:#f60; position:relative;}
+.Radios :checked + label:after{ content:''; width:18px; height:18px; position:absolute; bottom:0; right:0; background-image:url(images/checked.png);}
+
+
+.Inputs{ clear:both; padding-top:10px;}
+.Inputs input{ box-sizing:border-box;}
+.Inputs .text{ width:90%; border:1px solid #dfdfdf; margin:5px 5%; height:40px; line-height:40px; text-indent:10px;}
+.Inputs .mobile{ width:60%; border:1px solid #dfdfdf; border-right:0; margin:5px 0 5px 5%; height:40px; line-height:40px; text-indent:10px; float:left;}
+.Inputs .send{ width:30%; background-color:#0099ff; border:0; cursor:pointer; font-size:16px; color:#fff; float:left; margin:5px 5% 5px 0; height:40px;}
+.Inputs .disabled{ background-color:#eee; color:#ccc; font-size:12px;}
+
+
+.Numbers{ clear:both; font-size:12px; color:#333; line-height:25px;}
+.Numbers:after{ content:''; display:block; clear:both;}
+.Numbers *{ display:block; float:left; box-sizing:border-box;}
+.Numbers div{ width:50%; padding:15px;}
+.Numbers u,.Numbers i{ width:25px; height:25px; border:1px solid #b6b3b4; text-align:center; color:#333; cursor:pointer; font-size:16px; line-height:22px;}
+.Numbers u{ text-decoration:none;}
+.Numbers i{ margin-left:5px;}
+.Numbers input{ width:40px; height:25px; background-color:#f60; color:#fff; border:0; text-align:center; font-size:16px; margin:0 5px;}
+
+.submit{ width:300px; height:50px; background-color:#f60; border:0; font-size:18px; color:#fff; display:block; margin:20px auto 50px;}
+
+.SUCCESS{ width:300px; margin:0 auto; position:relative; background-color:#fff; overflow:hidden;}
+.SUCCESS q{ position:absolute; font-size:36px; color:#333; right:5px; top:-5px;}
+.SUCCESS h5{ font-size:24px; color:#0078dc; margin:50px auto 30px;}
+.SUCCESS h6{ margin-bottom:20px;}
+.SUCCESS .SHARE{ width:240px; height:35px; line-height:35px; border:2px solid #ababab; text-align:center; font-size:18px; color:#f60; margin:0 auto 30px;}
+
+.ShareTip{ display:none; padding:40px 75px 0 0; position:fixed; top:0; right:0; color:#fff; font-size:16px; line-height:20px; text-align:left; background:url(images/share-arrow.png) right top no-repeat rgba(0,0,0,.5); width:100%; height:100%;}
+.ShareTip p{ float:right;}
+
+.banner{}
+.banner img{ width:100%; height:auto;}
+
+footer{ position:fixed; left:0; bottom:0; width:100%; height:45px; line-height:45px; font-size:18px; text-align:center;}
+footer a{ display:block; float:left; width:50%;}
+footer a:first-child{ background-color:#fff; color:#40a1f2;}
+footer a:last-child{ background-color:#f60; color:#fff;}=======
+.banner img{ width:100%; height:auto;}

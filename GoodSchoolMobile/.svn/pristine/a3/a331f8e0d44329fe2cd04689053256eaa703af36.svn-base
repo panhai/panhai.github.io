@@ -1,0 +1,57 @@
+<!DOCTYPE html >
+<html >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+<meta content="yes" name="apple-mobile-web-app-capable" /> 
+<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+<meta content="telephone=no" name="format-detection" />
+<link rel="stylesheet" type="text/css" href="../css/css.css" />
+<link rel="stylesheet" type="text/css" href="../css/css2.css"/>
+<link rel="stylesheet" type="text/css" href="../css/SchoolCenter.css">
+
+<title>提交报名</title>
+</head>
+
+<body>
+	<div class="top-navbar">
+    	<div class="left"><a href="javascript:history.go(-1)"><i class="navbar-icon icon01"></i></a></div>
+        <div class="center">提交报名</div>
+        <div class="right"><a href="#"><i class="navbar-icon icon03 "></i></a></div>
+    </div>
+    
+    <div class="jg-submit">
+        <a href="Schoolcenter_Enroll_1.html"><div class="good">提交报名有什么好处？</div></a>
+        <div class="jg-coursebox delete-margin">
+            <div class="jg-courseinfo">
+                <div class="imgbox"><img src="../images/SchoolCenter/course-pict.jpg"></div>
+                <div class="content">
+                    <p class="f16">新东方雅思口语班</p>
+                    <p class="c-grey">广州岗顶 <span class="state b-grey">不想学</span></p>
+                    <p class="c-orange money">3000元</p>
+                </div>
+            </div>
+        </div>
+        <div class="jg-submit01">
+        	<div class="titel"> 报名时间</div>
+            <div class="select">
+            	<div class="p">
+                	<div class="time01 m-r">前天</div>
+                    <div class="time01 m-r">昨天</div>
+                    <div class="time01 now ">今天</div>
+                </div>
+                <div class="p">
+                	<input type="text" value="选择报名时间" class="time01">
+                	
+                </div>
+            </div>
+            <div class="titel">报名价格(元)</div>
+            <div class="price"><!--<span>元：</span>--><input class="text" type="text"></div>
+            <div class="jg-btnbig">提交报名</div>
+        </div>
+    </div>
+    
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/admin/Agency.js"></script>

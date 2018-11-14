@@ -1,0 +1,25 @@
+<!DOCTYPE >
+<html >
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/> 
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+	<title>提交成功</title>
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/css2.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script src="js/move2.js"></script>
+</head>
+
+<body style="background:white;">
+<div class="apply">
+    <div class="from_title"><a class="return_ico" href="javascript:history.go(-1);"></a>提交成功</div>
+    <div class="apply01"><img src="images/applyList_1.jpg" alt=""/>您的试听申请已成功发送</div>
+    <div class="apply02">您可以</div>
+    <div class="apply-btn">查看试听跟踪</div>
+</div>
+</body>
+</html>

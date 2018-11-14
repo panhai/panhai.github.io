@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+    <link rel="stylesheet" type="text/css" href="../css/css.css">
+    <link rel="stylesheet" type="text/css" href="../css/css2.css">
+    <link rel="stylesheet" type="text/css" href="../css/SchoolCenter.css">
+    <link rel="stylesheet" type="text/css" href="../css/PersonalCenter.css">
+	
+	<title>MB中心</title>
+</head>
+<body>
+	<div class="top-navbar gr-money-bj">
+    	<div class="left"><a href="javascript:history.go(-1)"><i class="navbar-icon icon01"></i></a></div>
+        <div class="center">MB中心 </div>
+        <div class="right"><a href="MBdetail.html" class="f12 p-r20">查看明细</a></div>
+    </div>
+   
+    <div class="gr-money f14">
+    	<div class="gr-money-head">
+            <p class="f14">M币余额</p>
+            <p class="f40">300.00</p>
+        </div>
+        <div class="total displaybox">
+            <p class="displayflex">总收入&nbsp;&nbsp;50.00<span class="line"></span></p>
+            <p class="displayflex">已使用&nbsp;&nbsp;20.00</p>
+        </div>
+        <div class="gr-info m-b15">
+            <a href="MBcomment.html"><p><i class="i-box icon02 i6"></i><span class="text">点评获M币</span></p></a>
+            <a href="MBexchange-1.html"><p><i class="i-box icon02 i5"></i><span class="text">M币兑换</span></p></a>
+         </div>
+         <a  class="p" href="RuleMB.html">M币使用规则>></a>
+    </div>
+
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/lazyload.js"></script>
+<script src="../js/jquery.mobile.js"></script>
+<script src="../js/js.js"></script>
+
+
+
+
+
+
+

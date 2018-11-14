@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/> 
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+	<link rel="stylesheet" type="text/css" href="../css/css.css">
+    <link rel="stylesheet" type="text/css" href="../css/css2.css">
+    <link rel="stylesheet" type="text/css" href="../css/fonts.css">
+	<title>课程相关</title>
+</head>
+<body style="padding-bottom:44px;">
+<div class="get-info">  
+    
+<header class="Header">
+    <div class="left"><a class="icon-arrow-left" href="javascript:history.go(-1)"></a></div>
+    <h1>课程相关</h1>
+</header>
+
+<div class="FAQ b-white p-l12">
+	<div class="item">
+    	<p class="f-title"><span class="dot">Q</span>我怎么找不到我咨询的课程？</p>
+        <div class="f-content">
+        	<span class="dot">A</span>
+            <div class="text">
+            	<p>您好，<a href="javascript:void(0)">点击这里</a>查看您咨询的课程。</p>
+                <p>找不到课程订单的原因可能有：</p>	
+                <p>①您是通过人工咨询老师的，好学校老师还未及时给您下单。</p>
+                <p>②您咨询的时候用的是不同的手机号，不同手机对应不同的会员账号。</p>
+                <p>您也可以，<a href="javascript:void(0)">点击这里</a>联系在线客服，为您解决。</p>
+            </div>
+        </div>
+    </div>
+    <div class="item">
+    	<p class="f-title"><span class="dot">Q</span>会员中心显示的课程与我咨询的不一致？</p>
+        <div class="f-content">
+        	<span class="dot">A</span>
+            <div class="text">
+                <p>课程订单与您所咨询的不一致的原因可能是：</p>	
+                <p>您咨询的课程可能尚未上线，暂时用临时课程替代</p>
+                <p>您不用担心课程不同影响返现问题，课程返现是按您到校真实缴纳的学费计算的。</p>
+            </div>
+        </div>
+    </div>
+    <div class="item">
+    	<p class="f-title"><span class="dot">Q</span>为什么咨询那么久，都没有学校联系我？</p>
+        <div class="f-content">
+        	<span class="dot">A</span>
+            <div class="text">
+                <p>学校未能及时联系您，可能是当前咨询人数较多。</p>	
+                <p>建议您<a href="javascript:void(0)">点击这里</a>跳转“我的咨询”，找到学校联系方式，直接联系学校老师</p>
+            </div>
+        </div>
+    </div>
+    <div class="item">
+    	<p class="f-title"><span class="dot">Q</span>为什么学校报名的价格与好学校网站上的不一致？</p>
+        <div class="f-content">
+        	<span class="dot">A</span>
+            <div class="text">
+                <p>价格不一致的原因可能是：</p>	
+                <p>您咨询的课程可能价格尚未更新，好学校网站上的价格为学校发布，具体的课程价格以学校的缴费价格为准。</p>
+            </div>
+        </div>
+    </div>
+    <div class="item">
+    	<p class="f-title"><span class="dot">Q</span>为什么我报名了，课程订单却显示没有报名？</p>
+        <div class="f-content">
+        	<span class="dot">A</span>
+            <div class="text">
+            	<p>您好，建议您点击这里跳转“我的咨询”提交报名。若您已提交报名，出现这种情况可能是以下原因：</p>
+                <p>1、您的报名状态正在确认中，但好学校正与学校核对您的缴费情况，不同学校每月核对时间有所不同，一般报名1~2个月内确认完毕</p>	
+                <p>2、您已通过其他渠道咨询学校，学校不认可您是通过好学校报名的，故好学校无法为您提供低价保障、现金返利等服务。
+您也可以，<a href="javascript:void(0)">点击这里</a>联系在线客服，为您解决。</p>
+            </div>
+        </div>
+    </div>
+    <div class="item">
+    	<p class="f-title"><span class="dot">Q</span>我报名很久了，怎么还不可以点评课程？</p>
+        <div class="f-content">
+        	<span class="dot">A</span>
+            <div class="text">
+                <p>您好，根据不同课程，点评时间有所不同，一般报名后1~3个月内可以进行点评。</p>	
+                <p>若会员中心显示您已报名，可<a href="javascript:void(0)"></a>点击这里联系在线客服，为您解决。</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<p class="m-t15 m-l10">还有疑问，你可以：</p>
+<div class="contact-way b-ash">
+	<div class="item">
+    	<div class="icon bc-b6"><span class="icon-consultation"></span></div>
+        <p class="text">电话咨询</p>
+    </div>
+    <div class="item">
+    	<div class="icon bc-b1"><span class="icon-info"></span></div>
+        <p class="text">在线咨询</p>
+    </div>
+    <div class="item">
+    	<div class="icon bc-b8"><span class="icon-qq2"></span></div>
+        <p class="text">qq咨询</p>
+    </div>
+</div>
+
+
+</body>
+</html>
+
+<script src="../js/jquery.js"></script>
+<script src="../js/jquery.mobile.js"></script>
+<script src="../js/plugin/movie.js"></script>
+<script src="../js/iscroll.js"></script>
+<script src="../js/js.js"></script>
+<script src="../js/js2.js"></script>
+<script type="text/javascript">
+    //gb.Index();
+</script>
+
+
+<script>
+
+$(function(){
+	var close1=setTimeout(function(){
+		CHImovie(".banner-box");
+	})
+	$(window).resize(function(){
+		clearTimeout(close1);
+	})
+	
+	$(".banner-box").width($(window).width());
+	$(".banner-box li").width($(window).width());
+	
+	
+	
+	$(window).load(IndexResponse).resize(IndexResponse);
+});
+function IndexResponse()
+{//屏幕过矮不适应，高于640按640算
+	var wh=Math.min(640,$(window).height());
+	var hh=$(".top").height();
+	var uh=$(".unreadWarning").height();
+	var bh=$(".banner").height();
+	var th=hh+uh+bh;
+	if(wh<th) return;
+	var lh=wh-th-15;
+	var nh=lh/3;
+	var lis=$(".main ul").find("li");
+	var ph=lis.height();
+	lis.css({"padding":(nh-ph)/2+"px 0px"});
+	
+}
+</script>

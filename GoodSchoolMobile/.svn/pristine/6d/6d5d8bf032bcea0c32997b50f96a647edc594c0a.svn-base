@@ -1,0 +1,29 @@
+*{margin:0; padding:0; font-family: 微软雅黑; font-size: 20px;}
+.clear{clear:both;}
+
+.top{float: initial; width: 100%; height: 49px; position: relative; background: #2F8AFF; text-align: center;}
+.top img{position: absolute; left: 0; top: 0; width: 74px; height: 30px; padding:9px 0 0 8px;}
+.top p{font-size: 0.9rem; color: white;  line-height: 49px;}
+
+.errorMsg{margin:15px auto 0 auto; line-height: 24px; text-indent: 12px; width: 91.53%; color:#e4133a; font-size: 0.6rem; font-family: 宋体; border: 1px solid #e86f6f; background: #f1cece;}
+.hide{display: none;}
+
+.hschool-main{margin-top: 10px;}
+.hschool-main01{margin: 0 auto; width: 93%; background: white; line-height: 37px; height: 48px; border: 1px solid #e5e5e5; border-bottom: none;}
+.hschool-main01 .sex{ float:right; width:100px; font-size:0.8rem;}
+.hschool-main01 .sex input{ float:none; width:auto;}
+.hschool-main01 input{float: left; margin:16px 0 0 6%; width: 88%; font-size: 0.7rem; font-family: 宋体; border: none; outline: none;}
+.hschool-main01 input.width50{ width:50%}
+.hschool-main01 input.yzm{width: 39%;}
+.hschool-main01 .btn{float: right; margin: 6px 10px 0 0; display: inline-block; width: 80px; line-height: 36px; border-radius: 3px; background: #0066cc; text-align: center; color: white; font-size: 0.7rem;}
+.hschool-main01 .btn.now{background: #a9a9a9;}
+
+.hschool-btn{margin: 17px auto; display: block; width: 93%; line-height: 38px; border-radius: 3px; background: #ff7f00;  text-align: center; font-size: 0.8rem; color: white; outline: none; border: none; -webkit-appearance: none;}
+
+.all{margin:20px auto; width: 80%; text-align: center;}
+.img01{width: 100%;}
+.img03{width: 33.4%; height: 33.4%;}
+.all table{margin:0 auto; border-collapse: collapse; width: 100%;}
+.all td{text-align: center; background: url(../images/img02.png); background-size: 100% 100%;}
+.all p{color: #ffec14; font-size: 0.8rem;}
+.all .text{margin-top: 20px; font-size: 0.9rem; color: white;}

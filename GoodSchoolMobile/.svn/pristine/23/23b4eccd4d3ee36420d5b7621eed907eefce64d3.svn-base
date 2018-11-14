@@ -1,0 +1,94 @@
+<!DOCTYPE >
+<html >
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<meta content="yes" name="apple-mobile-web-app-capable" />
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+	<meta content="telephone=no" name="format-detection" />
+	<title>邀请记录</title>
+  <link rel="stylesheet" type="text/css" href="../../css/UserCenter.css">
+</head>
+
+<body>
+<div class="invite-jl">
+<div class="top-navbar">
+	<div class="left"><a href="javascript:history.go(-1)"><i class="navbar-icon icon01"></i></a></div>
+    <div class="center">邀请记录</div>
+    <div class="right"><a href="">我的现金</a></div>
+</div>
+
+<div class="tab">
+  <span class="cur" data-v="list1">邀请记录</span>
+  <span data-v="list2">我的收益</span>
+</div>
+<p class="tip">好友报读课程后，可将助学券兑现</p>
+<ul class="user-list list1 clearfix">
+  <li><a href="">
+    <img src="../../images/UCenter/user_pic.png" alt="">
+    <h2>15889936047</h2>
+    <p class="p1">已注册</p>
+    <span class="time">2015-08-12</span><span class="money">+25元助学券</span></a>
+  </li>
+  <li><a href="">
+    <img src="../../images/UCenter/user_pic.png" alt="">
+    <h2>15889936047</h2>
+    <p class="p1">已注册</p>
+    <span class="time">2015-08-12</span><span class="money">+25元助学券</span></a>
+  </li>
+  <li><a href="">
+    <img src="../../images/UCenter/user_pic.png" alt="">
+    <h2>15889936047</h2>
+    <p class="p1">已注册</p>
+    <span class="time">2015-08-12</span><span class="money">+25元助学券</span></a>
+  </li>
+</ul>
+<ul class="list list2 clearfix">
+  <li><a href="">
+    <img src="../../images/UCenter/user_pic.png" alt="">
+    <h2>15889936047</h2>
+    <p class="p1">已注册</p>
+    <span class="time">2015-08-12</span></a>
+    <p class="p2">可兑现助学券50元<a href="" class="btn btn2">已兑现</a></p>
+  </li>
+  <li><a href="">
+    <img src="../../images/UCenter/user_pic.png" alt="">
+    <h2>15889936047</h2>
+    <p class="p1">已注册</p>
+    <span class="time">2015-08-12</span></a>
+    <p class="p2">可兑现助学券50元<a href="" class="btn">立即兑现</a></p>
+  </li>
+  <li><a href="">
+    <img src="../../images/UCenter/user_pic.png" alt="">
+    <h2>15889936047</h2>
+    <p class="p1">已注册</p>
+    <span class="time">2015-08-12</span></a>
+    <p class="p2">可兑现助学券50元<a href="" class="btn">立即兑现</a></p>
+  </li>
+</ul>
+</div>
+<script src="../../js/zepto.js"></script>
+<script type="text/javascript">
+
+  var $tabItem = $(".tab span");
+
+      function switchTab(event){
+
+        var list1 = $(".list1"),
+            list2 = $(".list2");
+
+        $(this).addClass("cur").siblings().removeClass("cur");
+        if($(this).data("v") == "list1"){
+          list1.show();
+          list2.hide();
+        }else{
+          list1.hide();
+          list2.show()
+        }
+      }
+
+      $tabItem.on("tap", switchTab);
+</script>
+</body>
+</html>

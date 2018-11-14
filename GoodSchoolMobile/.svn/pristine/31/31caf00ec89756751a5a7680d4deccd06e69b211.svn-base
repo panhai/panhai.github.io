@@ -1,0 +1,42 @@
+<!DOCTYPE html >
+<html >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+<meta content="telephone=no" name="format-detection" />
+<link rel="stylesheet" type="text/css" href="../css/UserCenter.css">
+<link rel="stylesheet" type="text/css" href="../css/PersonalCenter.css">
+
+<title>现金说明</title>
+</head>
+
+<body>
+	<div class="top-navbar">
+    	<div class="left"><a href="javascript:history.go(-1)"><i class="navbar-icon icon01"></i></a></div>
+        <div class="center">现金说明</div>
+    </div>
+    <div class="f14 l-h22">
+        <div class="gr-rule">
+            <p>现金账户是好学校设立的资产账户，现金可通过使用助学券兑换课程返现或邀请奖励获得，可提现到支付宝、银行卡，也可充值话费。</p>
+        </div>
+        <div class="gr-rule">
+            <p class="title">现金如何获取？</p>
+            <p class="text"><span class="number">1</span>通过好学校成功报读课程后，您将可使用助学券兑换课程返现，助学券与现金兑换比例为1：1。</p>
+            <p class="text"><span class="number">2</span>若您邀请好友成功注册好学校，好学校通过好学校成功报读课程，您也可以使用助学券领取现金奖励。</p>
+        </div>
+        <div class="gr-rule">
+            <p class="title">现金如何提现？</p>
+            <p class="m-b10">现金可申请转账到支付宝、银行卡或充值话费。具体规则如下：</p>
+            <p class="text"><span class="number">1</span>现金转账到支付宝：每次转账金额必须是10元以上。</p>
+            <p class="text"><span class="number">2</span>现金转账到银行卡：每次转账金额必须是10元以上。</p>
+            <p class="text"><span class="number">3</span>现充值话费：每次充值金额必须为10元、20元、30元、50元或100元。</p>
+            <p class="text"><span class="number">4</span>根据转账方式及申请时间不同，转账或充值到期时间一般为3~7个工作日。</p>
+        </div>
+    </div>
+
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/admin/Personal.js"></script>

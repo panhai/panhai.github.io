@@ -1,0 +1,893 @@
+<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <link rel="stylesheet" type="text/css" href="../css/css.css">
+    <link rel="stylesheet" type="text/css" href="../css/css2.css">
+    <link rel="stylesheet" type="text/css" href="../css/fonts.css">
+    <!--<link rel="stylesheet" type="text/css" href="../css/jquery.lightbox-0.5.css">-->
+    <link rel="stylesheet" type="text/css" href="../css/lightbox.css" >
+    <link rel="stylesheet prefetch" href="../js/PhotoSwipe-master/dist/photoswipe.css">
+    <link rel="stylesheet prefetch" href="../js/PhotoSwipe-master/dist/default-skin/default-skin.css">
+    <title>课程详情</title>
+    <style>
+        * {margin: 0;padding: 0;}
+        .clearfix::before, .clearfix::after {
+            display: block;
+            content: '';
+            visibility: hidden;
+            height: 100%;
+            clear: both;
+        }
+        body {padding-top: 2%;}
+        .my-gallery {width:96%;margin: 0 auto;}
+        .my-gallery .img-dv {width:100%;margin-bottom: 1%;}
+        .my-gallery .img-dv a {display:block;width:100%;text-align: center}
+        .my-gallery .img-dv a img {width:100%;}
+
+    </style>
+</head>
+
+<body>
+<div class="course-details">
+
+    <header class="Header" >
+        <div class="left"><a href="javascript:history.go(-1)" class="icon-arrow-left"></a></div>
+        <h1>
+            <span>好学校</span>
+            <div class="city-link city2">
+                <i>广州</i>
+                <span class="icon1 icon-arrow-down"></span>
+            </div>
+        </h1>
+        <div class="right"><a class="icon-share m-r12" onClick="Share()"></a><a class="icon-dots-three-horizontal"></a></div>
+        <div class="Header-menu">
+            <div class="arrow-up"></div>
+            <a href="index.html" class="item"><span class="icon-index"></span>首页</a>
+            <a href="../UCenter/Personal.html" class="item"><span class="icon-my"></span>个人中心</a>
+            <a href="SearchCourse.html" class="item"><span class="icon-search2"></span>搜索</a>
+        </div>
+    </header>
+    <div class="p9 bc-b0">
+        <a href="" class="c-grey2">首页&gt;</a>
+        <a href="" class="c-grey2">广州雅思 &gt; </a>
+        <a href="" class="c-grey2">广州新东方学校</a>
+    </div>
+    <div class="banner-box banner2" id="banner-box">
+    </div>
+    <div class="course-head">
+        <div class="course displaybox p-t15">
+            <a  class="count displayflex">
+                <div class="f15"><p>广州雅思vip6.5分保分班分保分广州雅思vip6.5分保分班分保分</p><span class="collect" onclick="oCollection()"></span></div>
+                <p><span class="keshi">120课时</span><span class="keshi k2">小班</span><span class="keshi k2">面授</span></p>
+                <p><span class="price">244</span> <span class="c-grey01 m-l6">120人看过</span>   <span class="c-grey01 m-l6">12人报读</span></p>
+            </a>
+        </div>
+        <!--<div class="title">
+            <div class="h">广州雅思vip6.5分保分班分保分广州雅思vip6.5分保分班分保分</div>
+            <div onClick="Share()" class="share">
+                <p class="icon icon-share"></p>
+                <p class="text">分享</p>
+            </div>
+        </div>
+        <div class="item01">
+            <p><span class="price">244</span><span class="return-cash m-l15">20元</span></p>
+            <p class="c-grey01 m-t8">116人看过&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3人报读</p>
+        </div>
+        <div class="item02">
+            <p class="c-grey01 p-b5">学时：<span>120课时</span></p>
+            <p class="c-grey01 p-b5">班制：<span>小班</span></p>
+        </div>-->
+        <div class="item03">
+
+            <a href="../new/new-sign-up.html"> <span class="fan">返30元</span>报读本课程，可在好学校领取30元现金返利
+                <span class="icon1 icon-arrow-right"></span></a>
+            <!-- <a class="padL40">报读本课程，可领取30元现金优惠返利<span class="icon1 icon-arrow-right"></span>  </a>-->
+
+            <!--        <a href="../SpecialTopic/college/aoutGoodSchool.html">
+                <span class="bz"><i class="icon icon-check"></i>贵就赔</span>
+                <span class="bz"><i class="icon icon-check"></i>教学保障</span>
+                <span class="bz"><i class="icon icon-check"></i>现金返利</span>
+                <span class="icon1 icon-arrow-right"></span>
+                       </a> -->
+        </div>
+        <a href="schoolDetails.html" class="course-area-time">
+            <div class="imgbox"><span class="icon-phone"></span></div>
+            <div class="s-content">
+                <span class="icon01 icon-arrow-right"></span>
+                <p class="f16 p c-org"><span class="f14 c-grey01">咨询热线</span>400-660-5391</p>
+            </div>
+        </a>
+        <a href="schoolDetails.html" class="course-area-time">
+            <div class="imgbox"><span class="icon-school"></span></div>
+            <div class="s-content">
+                <span class="icon01 icon-arrow-right"></span>
+                <p class="f14 p"><span class="c-grey01">授课学校</span>广州新东方培训学校广州新东方培训学校广州新东方培训学校广州新东方培训学校广州新东方培训学校</p>
+            </div>
+        </a>
+        <a href="OpenClassInfo.html" class="course-area-time">
+            <div class="imgbox"><span class="icon-map"></span></div>
+            <div class="s-content">
+                <span class="icon01 icon-arrow-right"></span>
+                <p class="f14 p"><span class="c-grey01">上课地址</span>天河校区、荔湾校区等4个教学点</p>
+            </div>
+        </a>
+        <a href="ApplyList.html" class="course-area-time">
+            <div class="imgbox"><span class="icon-course-time"></span></div>
+            <div class="s-content">
+                <span class="icon01 icon-arrow-right"></span>
+                <p class="f14 p"><span class="c-grey01">上课时段</span>白天班、晚班、周末班</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="block01 b-white m-b10">
+        <div class="common-title b1 clearfix">
+            <div class="h">课程详情</div>
+        </div>
+        <div id="imgbig" class="s-content toggleheight" >
+
+            <!--<a href="../images/cushi.jpg" data-lightbox="example-set">
+                <img src="../images/cushi.jpg"/>
+            </a>-->
+            <!--
+              <a class="example-image-link" href="../images/cushi.jpg" data-lightbox="example-set" data-title="">
+                  <img class="example-image" src="../images/cushi.jpg" alt=""/>
+              </a>
+              -->
+            <!--如果有多个data-pswp-uid 它的值是不能重复的-->
+            <div class="my-gallery" data-pswp-uid="1">
+                <figure>
+                    <div class="img-dv"><a href="../images/banner.jpg" data-size="1920x1080"><img src="../images/banner.jpg" style="height:auto"></a></div>
+                    <figcaption style="display:none;">在这里可增加图片描述</figcaption>
+
+
+                    <a class="example-image-link" href="../images/icon-good3.png" data-lightbox="example-set" data-title="">
+                        <img class="example-image" src="../images/icon-good3.png" alt="" />
+                    </a>
+
+                    学习对象
+                    在校大学生，英语发音薄弱的学生广州雅思vip6.5分保分
+                    班分保分可使用助学券领取30元现金优惠。在校大学生
+                    ，英语发音薄弱的学生广州雅思vip6.5分保分班分保分可
+                    使用助学券领取30元现金优惠。
+                </figure>
+
+
+
+
+
+
+                <figure>
+                    <div class="img-dv"><a href="../images/banner.jpg" data-size="1920x1080"><img src="../images/banner.jpg"></a></div>
+                    <figcaption style="display:none;">在这里可增加图片描述</figcaption>
+
+
+                    <a class="example-image-link" href="../images/icon-good3.png" data-lightbox="example-set" data-title="">
+                        <img class="example-image" src="../images/icon-good3.png" alt="" />
+                    </a>
+
+                    学习对象
+                    在校大学生，英语发音薄弱的学生广州雅思vip6.5分保分
+                    班分保分可使用助学券领取30元现金优惠。在校大学生
+                    ，英语发音薄弱的学生广州雅思vip6.5分保分班分保分可
+                    使用助学券领取30元现金优惠。
+                    学习对象
+                    在校大学生，英语发音薄弱的学生广州雅思vip6.5分保分
+                    班分保分可使用助学券领取30元现金优惠。在校大学生
+                    ，英语发音薄弱的学生广州雅思vip6.5分保分班分保分可
+                    使用助学券领取30元现金优惠。
+                    在校大学生，英语发音薄弱的学生广州雅思vip6.5分保分
+                    班分保分可使用助学券领取30元现金优惠。在校大学生
+                    ，英语发音薄弱的学生广州雅思vip6.5分保分班分保分可
+                    使用助学券领取30元现金优惠。
+                    在校大学生，英语发音薄弱的学生广州雅思vip6.5分保分
+                    班分保分可使用助学券领取30元现金优惠。在校大学生
+                    ，英语发音薄弱的学生广州雅思vip6.5分保分班分保分可
+                    使用助学券领取30元现金优惠。
+                    在校大学生，英语发音薄弱的学生广州雅思vip6.5分保分
+                    班分保分可使用助学券领取30元现金优惠。在校大学生
+                    ，英语发音薄弱的学生广州雅思vip6.5分保分班分保分可
+                    使用助学券领取30元现金优惠。
+                    在校大学生，英语发音薄弱的学生广州雅思vip6.5分保分
+                    班分保分可使用助学券领取30元现金优惠。在校大学生
+                    ，英语发音薄弱的学生广州雅思vip6.5分保分班分保分可
+                    使用助学券领取30元现金优惠。
+
+                </figure>
+
+            </div>
+
+
+        </div>
+        <div class="seeall xiala"><em class="text">查看全部</em>&nbsp;<span class="icon-arrow-right"></span></div>
+    </div>
+
+    <div class="block03 b-white m-b10">
+        <div class="common-title b6 clearfix">
+            <div class="h">课程点评</div>
+        </div>
+        <div class="commont-dp">
+            <p><span>好评率：<i class="c-org">100%</i></span><span class=""><i class="c-org">200</i>人评论</span></p>
+            <p class="item-dp"><span class="">综合评分：4.5</span><span> 环境：4.0 </span><span>师资：5.0</span><span>教学：4.5</span></p>
+        </div>
+        <div class="comment-box m-l10">
+            <div class="info clearfix"><span class="imgbox"><img src="../images/mylisten-img01.jpg"></span><span class="name">李*发</span><span class="f-l commentStar star25"></span></div>
+            <p class="f12">广州雅思vip6.5分保分班分保分可使用助学券领取30元现金优惠助学券领取30元现金优惠</p>
+            <p class="clearfix f12 m-t10"><span class="tiem">2015-01-11</span><a href="../course_dp_1.html" class="small-btn f-r m-r10">请教</a></p>
+        </div>
+        <a href="commentDetails.html" class="seeall">查看全部&nbsp;<span class="icon-arrow-right"></span></a>
+    </div>
+    <div class="mconsult m-b10">
+        <div class="common-title b1 clearfix">
+            <div class="h">咨询优惠 </div>
+            <a href="" class="more">更多详情<i class="icon-arrow-right"></i></a>
+        </div>
+        <ul class="clearfix">
+            <li><i class="icons icon-min"></i><span>最低价格</span></li>
+            <li><i class="icons icon-better"></i><span>更优教学</span></li>
+            <li><i class="icons icon-rebate"></i><span>现金返利</span></li>
+        </ul>
+        <div class="link">
+            <a href="">电话咨询</a>
+            <a href="">预约免费试听</a>
+        </div>
+    </div>
+    <div class="school-Info">
+        <div class="common-title b6 clearfix">
+            <div class="h">学校信息 </div>
+        </div>
+        <div class="school-Info-in">
+            <div class="school-addr">
+                <h4>环球雅思（天河校区）</h4>
+                <p class="auth"><span>营业执照认证</span> <span>办学资质认证</span></p>
+                <p>新东方，全名北京新东方教育科技（集团）
+                    有限公司，总部位于北京市海…</p>
+                <span class="icon-arrow-right c-grey01"></span>
+            </div>
+            <div class="school-map">
+                <span>学校地址</span>
+            </div>
+        </div>
+        <div class="">
+            <a href="" class="seeall">查看学校全部课程（12）<span class="icon-arrow-right"></span></a>
+        </div>
+    </div>
+    <div class="selectCourse m-b10">
+        <div class="common-title b1 clearfix">
+            <div class="h">帮我选课</div>
+        </div>
+        <p>想求学更省心？提交需求，我们帮您找到合适的课程</p>
+        <ul>
+            <li><span>课程：</span><input type="text" placeholder="您想培训哪方面的课程呢？" /></li>
+            <li><span>姓名：</span><input type="text" placeholder="如何称呼您" /></li>
+            <li><span>手机：</span><input type="text" placeholder="请留下您的手机号码，我们会联系你" /></li>
+        </ul>
+        <a href="" class="btn">立刻提交</a>
+        <label for="bm" class="ckbx"><input type="checkbox" id="bm"/>签订《用户信息保密协议》，您的信息安全有保障</label>
+    </div>
+    <div class="classmenu b3">
+        <!--<div class="clearfix">
+            <div class="h">热门搜索</div>
+        </div>-->
+        <div class="common-title b7 clearfix">
+            <div class="h">热门搜索</div>
+        </div>
+        <!--<ul class="count clearfix">
+            <li class="item"><a href="SearchCourse.html">雅思设计</a></li>
+            <li class="item"><a href="SearchCourse.html">平面设计</a></li>
+            <li class="item"><a href="SearchCourse.html">出国留学</a></li>
+            <li class="item"><a href="SearchCourse.html">公务员考试</a></li>
+            <li class="item"><a href="SearchCourse.html">自考/电大</a></li>
+            <li class="item"><a href="SearchCourse.html">钢琴</a></li>
+            <li class="item"><a href="SearchCourse.html">吉他</a></li>
+            <li class="item"><a href="SearchCourse.html">篮球</a></li>
+            <li class="item"><a href="SearchCourse.html">跆拳道</a></li>
+        </ul>-->
+        <div class="count clearfix">
+            <a class="item" href="SearchCourse.html"><p style="padding-top: 7px; display: -webkit-box;">中专专中专中专中专中专中专</p></a>
+            <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+            <a class="item" href="SearchCourse.html"><p style="padding-top: 7px; display: -webkit-box;">中专专中中专中专中专</p></a>
+            <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+            <a class="item" href="SearchCourse.html"><p style="padding-top: 7px; display: -webkit-box;">中专中专中专中专</p></a>
+            <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+            <a class="item" href="SearchCourse.html"><p style="padding-top: 7px; display: -webkit-box;">中专中专中专中专</p></a>
+            <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+            <a class="item" href="SearchCourse.html"><p style="padding-top: 7px; display: -webkit-box;">中专专中专中专中专中专专中专中专中专中专</p></a>
+            <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+            <a class="item" href="SearchCourse.html"><p style="padding-top: 7px; display: -webkit-box;">中专专中专中专中专中专专中专中专中专中专</p></a>
+            <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+            <a class="item" href="SearchCourse.html"><p style="padding-top: 7px; display: -webkit-box;">中专专中专中专中专中专专中专中专中专中专</p></a>
+            <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+            <a class="item" href="SearchCourse.html"><p style="padding-top: 7px; display: -webkit-box;">中专专中专中专中专中专专中专中专中专中专</p></a>
+            <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+            <a class="item" href="SearchCourse.html"><p style="padding-top: 7px; display: -webkit-box;">中专专中专中专中专中专专中专中专中专中专</p></a>
+            <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+            <a class="item" href="SearchCourse.html"><p style="padding-top: 7px; display: -webkit-box;">中专专中专中中专中专中专中专</p></a>
+            <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+        </div>
+    </div>
+
+    <div class="block04 b-white m-b10">
+        <div class="common-title b1 clearfix">
+            <div class="h">为你推荐</div>
+        </div>
+        <a class="courseinfo">
+            <div class="imgbox"><img src="../images/context02.jpg"></div>
+            <div class="content">
+                <p class="title row3">新东方雅思口语班新东方雅思口语班新东方雅思口语班</p>
+                <p class="c-grey01">广州新东方</p>
+                <p class="c-grey01 f12">112人看&nbsp;&nbsp;22人报名<span class="price" style="float:right;">21400</span></p>
+            </div>
+        </a>
+        <a class="courseinfo">
+            <div class="imgbox"><img src="../images/context02.jpg"></div>
+            <div class="content">
+                <p class="title row3">新东方雅思口语班新东方雅思口语班新东方雅思口语班</p>
+                <p class="c-grey01">广州新东方</p>
+                <p class="c-grey01 f12">112人看&nbsp;&nbsp;22人报名<span class="price" style="float:right;">21400</span></p>
+            </div>
+        </a>
+        <a class="courseinfo">
+            <div class="imgbox"><img src="../images/context02.jpg"></div>
+            <div class="content">
+                <p class="title row3">新东方雅思口语班新东方雅思口语班新东方雅思口语班</p>
+                <p class="c-grey01">广州新东方</p>
+                <p class="c-grey01 f12">112人看&nbsp;&nbsp;22人报名<span class="price" style="float:right;">21400</span></p>
+            </div>
+        </a>
+        <a href="SearchCourse.html" class="seeall">查看更多雅思课程&nbsp;<span class="icon-arrow-right"></span></a>
+    </div>
+
+    <div class="displaybox bottomback">
+        <a href="index.html" class="displayflex">返回首页</a>
+        <a href="SearchCourse.html" class="displayflex">搜索课程</a>
+        <a href="../UCenter/Personal.html" class="displayflex">个人中心</a>
+    </div>
+
+    <div class="logo-grey">
+        <div class="imgbox"><img src="../images/logo-grey.png" /></div>
+        <p class="text">读书培训，找好学校</p>
+    </div>
+
+    <div class="TK-notice">
+        <div class="close"><span class=" icon-cross"></span></div>
+        <p class="h">最新通知</p>
+        <p class="text">《好学校》已暂停该课程招生！<br>如需更多【平面设计】课程，<br>请点击继续搜索</p>
+        <p class="p-b30"><a href="SearchCourse.html" class="btn">搜索</a></p>
+    </div>
+
+    <div id="sc"><span class="c-grey03">本课程</span>收藏成功</div>
+
+    <div class="contact-box">
+        <a class="item flex02">
+            <p class="icon"><span class="icon-chat pr"><i class="dot-tips">1</i></span></p>
+            <p class="text">在线</p>
+        </a>
+        <a class="item flex02">
+            <p class="icon"><span class="icon-qq2"></span></p>
+            <p class="text">QQ</p>
+        </a>
+        <a class="item flex04">
+            <p class="icon2 c-org"><span class="icon-consultation"></span></p>
+            <p class="text">电话咨询<br />
+                <span class="c-org">400-660-5391</span></p>
+        </a>
+        <a href="new-ApplyList.html" class="flex03 yuyue">免费试听</a>
+    </div>
+
+</div>
+
+<div class="background"></div>
+
+
+
+<div class="search-popup">
+    <div class="Header">
+        <div class="left"><a class="icon-arrow-left BACK"></a></div>
+        <div class="search-box m01 displaybox">
+            <div class="city-link">
+                广州
+                <span class="icon-triangle-down"></span>
+            </div>
+            <input class="search-word" type="text" placeholder="搜索你想报读的专业">
+            <div class="submit"><span class="icon-search"></span></div>
+        </div>
+    </div>
+    <div class="sc-main">
+        <div class="item m-t10"><span class="f16">搜索:&nbsp;&nbsp;</span><i class="f16 c-grey03">平面设计</i><span class="f14">&nbsp;课程</span></div>
+        <div class="item m-b15"><span class="f16">搜索:&nbsp;&nbsp;</span><i class="f16 c-grey03">平面设计</i><span class="f14">&nbsp;学校</span></div>
+        <div>
+            <p class="h">最近搜索</p>
+            <div class="clearfix"><span class="major">平面设计</span><span class="major">平面设计</span><span class="major">平面设计</span></div>
+            <p class="h">热门搜索</p>
+            <div class="clearfix"><span class="major">平面设计</span><span class="major">平面设计</span><span class="major">平面设计</span><span class="major">平面设计</span><span class="major">平面设计</span></div>
+        </div>
+    </div>
+</div>
+
+<dl class="Shares">
+    <dt class="bdsharebuttonbox" data-tag="share_1">
+        <a href="#" class="bds_qzone" data-cmd="qzone" style="background:none ;"><img data-cmd="qzone" src="../images/share/qzone.jpg" width="45" height="45">QQ空间</a>
+        <a href="#" class="bds_tsina" data-cmd="tsina" style="background:none;"><img data-cmd="tsina" src="../images/share/sina.jpg" width="45" height="45">新浪微博</a>
+        <a href="#" class="bds_tqq" data-cmd="tqq" style="background:none;"><img data-cmd="tqq" src="../images/share/tencent.jpg" width="45" height="45">腾讯微博</a>
+        <a href="#" class="bds_renren" data-cmd="renren" style="background:none;"><img data-cmd="renren" src="../images/share/renren.jpg" width="45" height="45">人人网</a>
+        <a href="#" class="bds_kaixin001" data-cmd="kaixin001" style="background:none;"><img data-cmd="kaixin001" src="../images/share/kaixin.jpg" width="45" height="45">开心网</a>
+    </dt>
+    <dd><input type="button" class="share-cancel" value="取消"></dd>
+
+</dl>
+<div class="Cities">
+    <div class="Header">
+        <div class="left"><a class="icon-arrow-left"></a></div>
+        <h1>选择城市</h1>
+    </div>
+    <div class="cities-content">
+        <div style="padding-bottom:500px;">
+            <div class="cities-item line">
+                <p class="title">热门城市</p>
+                <ul class="cities-list line clearfix">
+                    <li><a href="javascript:void(0)">广州</a></li>
+                    <li><a href="javascript:void(0)">上海</a></li>
+                    <li><a href="javascript:void(0)">北京</a></li>
+                    <li><a href="javascript:void(0)">深圳</a></li>
+                    <li><a href="javascript:void(0)">东莞</a></li>
+                    <li><a href="javascript:void(0)">佛山</a></li>
+                    <li><a href="javascript:void(0)">中山</a></li>
+                    <li><a href="javascript:void(0)">南京</a></li>
+                    <li><a href="javascript:void(0)">合肥</a></li>
+                    <li><a href="javascript:void(0)">长沙</a></li>
+                    <li><a href="javascript:void(0)">福州</a></li>
+                    <li><a href="javascript:void(0)">南昌</a></li>
+                </ul>
+            </div>
+            <div id="Letter" class="cities-item" data-list="letter">
+                <p class="title">按字母选择</p>
+                <ul class="cities-list line clearfix">
+                    <li><a href="javascript:void(0)">B</a></li>
+                    <li><a href="javascript:void(0)">C</a></li>
+                    <li><a href="javascript:void(0)">D</a></li>
+                    <li><a href="javascript:void(0)">F</a></li>
+                    <li><a href="javascript:void(0)">G</a></li>
+                    <li><a href="javascript:void(0)">H</a></li>
+                    <li><a href="javascript:void(0)">J</a></li>
+                    <li><a href="javascript:void(0)">L</a></li>
+                    <li><a href="javascript:void(0)">M</a></li>
+                    <li><a href="javascript:void(0)">N</a></li>
+                    <li><a href="javascript:void(0)">Q</a></li>
+                    <li><a href="javascript:void(0)">S</a></li>
+                    <li><a href="javascript:void(0)">T</a></li>
+                    <li><a href="javascript:void(0)">W</a></li>
+                    <li><a href="javascript:void(0)">X</a></li>
+                    <li><a href="javascript:void(0)">Y</a></li>
+                    <li><a href="javascript:void(0)">Z</a></li>
+                </ul>
+            </div>
+            <div class="cities-item">
+                <p class="title">B</p>
+                <ul class="cities-list clearfix">
+                    <li><a href="javascript:void(0)">北京</a></li>
+                    <li><a href="javascript:void(0)">保定</a></li>
+                </ul>
+            </div>
+            <div class="cities-item">
+                <p class="title">C</p>
+                <ul class="cities-list clearfix">
+                    <li><a href="javascript:void(0)">长沙</a></li>
+                    <li><a href="javascript:void(0)">郴州</a></li>
+                    <li><a href="javascript:void(0)">成都</a></li>
+                    <li><a href="javascript:void(0)">常州</a></li>
+                </ul>
+            </div>
+            <div class="cities-item">
+                <p class="title">D</p>
+                <ul class="cities-list clearfix">
+                    <li><a href="javascript:void(0)">东莞</a></li>
+                    <li><a href="javascript:void(0)">达州</a></li>
+                    <li><a href="javascript:void(0)">德阳</a></li>
+                </ul>
+            </div>
+            <div class="cities-item">
+                <p class="title">F</p>
+                <ul class="cities-list clearfix">
+                    <li><a href="javascript:void(0)">佛山</a></li>
+                    <li><a href="javascript:void(0)">福州</a></li>
+                </ul>
+            </div>
+            <div class="cities-item">
+                <p class="title">G</p>
+                <ul class="cities-list clearfix">
+                    <li><a href="javascript:void(0)">贵阳</a></li>
+                    <li><a href="javascript:void(0)">广安</a></li>
+                    <li><a href="javascript:void(0)">赣州</a></li>
+                    <li><a href="javascript:void(0)">桂林</a></li>
+                </ul>
+            </div>
+            <div class="cities-item">
+                <p class="title">H</p>
+                <ul class="cities-list clearfix">
+                    <li><a href="javascript:void(0)">合肥</a></li>
+                    <li><a href="javascript:void(0)">杭州</a></li>
+                    <li><a href="javascript:void(0)">惠州</a></li>
+                    <li><a href="javascript:void(0)">衡阳</a></li>
+                    <li><a href="javascript:void(0)">海口</a></li>
+                    <li><a href="javascript:void(0)">河源</a></li>
+                    <li><a href="javascript:void(0)">呼伦贝尔</a></li>
+                </ul>
+            </div>
+            <div class="cities-item">
+                <p class="title">J</p>
+                <ul class="cities-list clearfix">
+                    <li><a href="javascript:void(0)">济南</a></li>
+                    <li><a href="javascript:void(0)">江门</a></li>
+                    <li><a href="javascript:void(0)">嘉华</a></li>
+                    <li><a href="javascript:void(0)">金华</a></li>
+                </ul>
+            </div>
+            <div class="cities-item">
+                <p class="title">L</p>
+                <ul class="cities-list clearfix">
+                    <li><a href="javascript:void(0)">娄底</a></li>
+                    <li><a href="javascript:void(0)">乐山</a></li>
+                    <li><a href="javascript:void(0)">临沂</a></li>
+                </ul>
+            </div>
+            <div class="cities-item">
+                <p class="title">M</p>
+                <ul class="cities-list clearfix">
+                    <li><a href="javascript:void(0)">马鞍山</a></li>
+                </ul>
+            </div>
+            <div class="cities-item">
+                <p class="title">N</p>
+                <ul class="cities-list clearfix">
+                    <li><a href="javascript:void(0)">南京</a></li>
+                    <li><a href="javascript:void(0)">南昌</a></li>
+                    <li><a href="javascript:void(0)">宁波</a></li>
+                    <li><a href="javascript:void(0)">南充</a></li>
+                    <li><a href="javascript:void(0)">南通</a></li>
+                    <li><a href="javascript:void(0)">南宁</a></li>
+                </ul>
+            </div>
+            <div class="cities-item">
+                <p class="title">Q</p>
+                <ul class="cities-list clearfix">
+                    <li><a href="javascript:void(0)">泉州</a></li>
+                    <li><a href="javascript:void(0)">青岛</a></li>
+                </ul>
+            </div>
+            <div class="cities-item">
+                <p class="title">S</p>
+                <ul class="cities-list clearfix">
+                    <li><a href="javascript:void(0)">苏州</a></li>
+                    <li><a href="javascript:void(0)">韶关</a></li>
+                    <li><a href="javascript:void(0)">绍兴</a></li>
+                    <li><a href="javascript:void(0)">汕尾</a></li>
+                </ul>
+            </div>
+            <div class="cities-item">
+                <p class="title">T</p>
+                <ul class="cities-list clearfix">
+                    <li><a href="javascript:void(0)">天津</a></li>
+                    <li><a href="javascript:void(0)">台州</a></li>
+                </ul>
+            </div>
+            <div class="cities-item">
+                <p class="title">W</p>
+                <ul class="cities-list clearfix">
+                    <li><a href="javascript:void(0)">武汉</a></li>
+                    <li><a href="javascript:void(0)">无锡</a></li>
+                    <li><a href="javascript:void(0)">温州</a></li>
+                    <li><a href="javascript:void(0)">芜湖</a></li>
+                </ul>
+            </div>
+            <div class="cities-item">
+                <p class="title">X</p>
+                <ul class="cities-list clearfix">
+                    <li><a href="javascript:void(0)">厦门</a></li>
+                    <li><a href="javascript:void(0)">湘潭</a></li>
+                    <li><a href="javascript:void(0)">西安</a></li>
+                </ul>
+            </div>
+            <div class="cities-item">
+                <p class="title">Y</p>
+                <ul class="cities-list clearfix">
+                    <li><a href="javascript:void(0)">扬州</a></li>
+                    <li><a href="javascript:void(0)">宜昌</a></li>
+                </ul>
+            </div>
+            <div class="cities-item">
+                <p class="title">Z</p>
+                <ul class="cities-list clearfix">
+                    <li><a href="javascript:void(0)">湛江</a></li>
+                    <li><a href="javascript:void(0)">珠海</a></li>
+                    <li><a href="javascript:void(0)">中山</a></li>
+                    <li><a href="javascript:void(0)">株洲</a></li>
+                    <li><a href="javascript:void(0)">镇江</a></li>
+                    <li><a href="javascript:void(0)">郑州</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--放大缩小滑动必须样式-->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="pswp__bg"></div>
+    <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <div class="pswp__ui ">
+            <div class="pswp__top-bar">
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <!--<button class="pswp__button pswp__button&#45;&#45;share" title="Share"></button>-->
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/plugin/iSlider.min.js"></script>
+<script src="../js/iscroll.js"></script>
+<script src="../js/plugin/lightbox.js"></script>
+<script src="../js/plugin/tab.js"></script>
+<script src="../js/js2.js"></script>
+<script src="../js/PhotoSwipe-master/dist/photoswipe.js"></script>
+<script src="../js/PhotoSwipe-master/dist/photoswipe-ui-default.min.js"></script>
+<script>
+
+
+
+    $(".xiala").click(function(){
+        var oText = $(this).find("em");
+        if(oText.text()=="查看全部"){
+            oText.text("收起")
+        }else{
+            oText.text("查看全部");
+        }
+        $(this).find(".icon-arrow-right").toggleClass("icon-arrow-up");
+        $(".course-details .block01 .s-content").toggleClass("toggleheight");
+    });
+
+</script>
+<script type="text/javascript">
+
+    // 同意保密协议
+
+    $(".ckbx").click(function(event){
+        event.stopPropagation();
+        var bol = $(this).hasClass('selected'),
+            cls = bol ? "removeClass" : "addClass";
+        var checkbox = $(this).find("[type=checkbox]");
+
+        bol ?  checkbox.prop("checked", false) :  checkbox.prop("checked", "checked") ;
+        $(this)[cls]("selected");
+
+        return false;
+    })
+    var list = [
+        {content: "<img src='../images/context01.png' /><img src='../images/context01.png' /><img src='../images/context01.png' />"},
+        {content: "<img src='../images/context01.png' /><img src='../images/context01.png' /><img src='../images/context01.png' />"}
+    ];
+    var islider = new iSlider({
+        data: list,
+        dom: document.getElementById("banner-box"),
+        isLooping: true,
+        animateType: 'default',
+        plugins: [['dot', {locate:'relative'}]]
+    });
+
+</script>
+<script type="text/javascript">
+    var initPhotoSwipeFromDOM = function(gallerySelector) {
+        // 解析来自DOM元素幻灯片数据（URL，标题，大小...）
+        var parseThumbnailElements = function(el) {
+            var thumbElements = el.childNodes,
+                numNodes = thumbElements.length,
+                items = [],
+                figureEl,
+                linkEl,
+                size,
+                item,
+                divEl;
+            for(var i = 0; i < numNodes; i++) {
+                figureEl = thumbElements[i]; // <figure> element
+                // 仅包括元素节点
+                if(figureEl.nodeType !== 1) {
+                    continue;
+                }
+                divEl = figureEl.children[0];
+
+                linkEl = divEl.children[0]; // <a> element
+                size = linkEl.getAttribute('data-size').split('x');
+                // 创建幻灯片对象
+                item = {
+                    src: linkEl.getAttribute('href'),
+                    w: parseInt(size[0], 10),
+                    h: parseInt(size[1], 10),
+                };
+                if(figureEl.children.length > 1) {
+                    item.title = figureEl.children[1].innerHTML;
+                }
+                if(linkEl.children.length > 0) {
+                    // <img> 缩略图节点, 检索缩略图网址
+                    item.msrc = linkEl.children[0].getAttribute('src');
+                }
+                item.el = figureEl; // 保存链接元素 for getThumbBoundsFn
+                items.push(item);
+            }
+            return items;
+        };
+
+        // 查找最近的父节点
+        var closest = function closest(el, fn) {
+            return el && ( fn(el) ? el : closest(el.parentNode, fn) );
+        };
+
+        // 当用户点击缩略图触发
+        var onThumbnailsClick = function(e) {
+            e = e || window.event;
+            e.preventDefault ? e.preventDefault() : e.returnValue = false;
+            var eTarget = e.target || e.srcElement;
+            var clickedListItem = closest(eTarget, function(el) {
+                return (el.tagName && el.tagName.toUpperCase() === 'FIGURE');
+            });
+            if(!clickedListItem) {
+                return;
+            }
+            var clickedGallery = clickedListItem.parentNode,
+                childNodes = clickedListItem.parentNode.childNodes,
+                numChildNodes = childNodes.length,
+                nodeIndex = 0,
+                index;
+            for (var i = 0; i < numChildNodes; i++) {
+                if(childNodes[i].nodeType !== 1) {
+                    continue;
+                }
+                if(childNodes[i] === clickedListItem) {
+                    index = nodeIndex;
+                    break;
+                }
+                nodeIndex++;
+            }
+            if(index >= 0) {
+                openPhotoSwipe( index, clickedGallery );
+            }
+            return false;
+        };
+
+        var photoswipeParseHash = function() {
+            var hash = window.location.hash.substring(1),
+                params = {};
+            if(hash.length < 5) {
+                return params;
+            }
+            var vars = hash.split('&');
+            for (var i = 0; i < vars.length; i++) {
+                if(!vars[i]) {
+                    continue;
+                }
+                var pair = vars[i].split('=');
+                if(pair.length < 2) {
+                    continue;
+                }
+                params[pair[0]] = pair[1];
+            }
+            if(params.gid) {
+                params.gid = parseInt(params.gid, 10);
+            }
+            return params;
+        };
+
+        var openPhotoSwipe = function(index, galleryElement, disableAnimation, fromURL) {
+            var pswpElement = document.querySelectorAll('.pswp')[0],
+                gallery,
+                options,
+                items;
+            items = parseThumbnailElements(galleryElement);
+            // 这里可以定义参数
+            options = {
+                barsSize: {
+                    top: 100,
+                    bottom: 100
+                },
+                fullscreenEl : false,
+                shareButtons: [
+                    {id:'wechat', label:'分享微信', url:'#'},
+                    {id:'weibo', label:'新浪微博', url:'#'},
+                    {id:'download', label:'保存图片', url:'{{raw_image_url}}', download:true}
+                ],
+                galleryUID: galleryElement.getAttribute('data-pswp-uid'),
+                getThumbBoundsFn: function(index) {
+                    var thumbnail = items[index].el.getElementsByTagName('img')[0], // find thumbnail
+                        pageYScroll = window.pageYOffset || document.documentElement.scrollTop,
+                        rect = thumbnail.getBoundingClientRect();
+                    return {x:rect.left, y:rect.top + pageYScroll, w:rect.width};
+                }
+            };
+            if(fromURL) {
+                if(options.galleryPIDs) {
+                    for(var j = 0; j < items.length; j++) {
+                        if(items[j].pid == index) {
+                            options.index = j;
+                            break;
+                        }
+                    }
+                } else {
+                    options.index = parseInt(index, 10) - 1;
+                }
+            } else {
+                options.index = parseInt(index, 10);
+            }
+            if( isNaN(options.index) ) {
+                return;
+            }
+            if(disableAnimation) {
+                options.showAnimationDuration = 0;
+            }
+            gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+            gallery.init();
+        };
+
+        var galleryElements = document.querySelectorAll( gallerySelector );
+        for(var i = 0, l = galleryElements.length; i < l; i++) {
+            galleryElements[i].setAttribute('data-pswp-uid', i+1);
+            galleryElements[i].onclick = onThumbnailsClick;
+        }
+        var hashData = photoswipeParseHash();
+        if(hashData.pid && hashData.gid) {
+            openPhotoSwipe( hashData.pid ,  galleryElements[ hashData.gid - 1 ], true, true );
+        }
+    };
+
+    initPhotoSwipeFromDOM('.my-gallery');
+
+</script>
+<script>
+    //设置data-size高度自适应
+    window.onload=function(){
+        auto_data_size();
+    };
+    function auto_data_size(){
+        var imgss= $("figure img");
+        $("figure img").each(function() {
+            var imgs = new Image();
+            imgs.src=$(this).attr("src");
+            var w = imgs.width,
+                h =imgs.height;
+            $(this).parent("a").attr("data-size","").attr("data-size",w+"x"+h);
+        })
+    };
+
+</script>

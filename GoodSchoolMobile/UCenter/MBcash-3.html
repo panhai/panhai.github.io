@@ -1,0 +1,127 @@
+<!DOCTYPE html >
+<html >
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/> 
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+	<title>充值话费</title>
+    <link rel="stylesheet" type="text/css" href="../css/css.css">
+    <link rel="stylesheet" type="text/css" href="../css/css2.css">
+    <link rel="stylesheet" type="text/css" href="../css/SchoolCenter.css">
+    <link rel="stylesheet" type="text/css" href="../css/PersonalCenter.css">
+</head>
+
+<body>
+
+<div class="MBcenter" style="overflow:visible;">
+
+  <div class="top-navbar">
+    <div class="left"><a href="javascript:history.go(-1)"><i class="navbar-icon icon01"></i></a></div>
+    <div class="center">充值话费</div>
+  </div>  
+  <div class="MBxinxi-p">请核实信息准确：</div>
+  <div class="MBxinxi01">
+    <div class="MBxinxi01-main">
+      <div class="MBxinxi01-main01">
+        <div class="l">充值话费：</div>
+        <div class="r"><span class="c01">120</span><span class="c02">元</span></div>
+        <div class="clear"></div>
+      </div>
+      <div class="MBxinxi01-main01">
+        <div class="l">手机号码：</div>
+        <div class="r"><span class="c03">15322645821</span></div>
+        <div class="clear"></div>
+      </div>
+    </div>
+  </div>
+  <div class="errorMsg">验证码已发送到手机/邮箱，请及时验证！</div>
+  <div class="MBcash-phone">
+    <div class="phone-yz">
+      <span class="text">验证方式&nbsp;&nbsp;<input type="text" value="jia***an@163.com" readOnly></span><span class="MBjiao"></span>
+    </div>
+    <div class="MBcash-yz" style="height:103px;">
+      <img class="MBcash-yz-img" src="../images/MBcash-ico03.png" alt="">
+      <div class="MBcash-yz01">
+        <span>邮箱</span>
+        <span class="yz">jia***an@163.com</span>
+        <div class="MBcash-ico02 now"></div>
+        <div class="clear"></div>
+      </div>
+      <div class="MBcash-yz01">
+        <span>手机</span>
+        <span class="yz">15322645821</span>
+        <div class="MBcash-ico02"></div>
+        <div class="clear"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="MB-yzm">
+    <input type="text" placeholder="请输入验证码">
+    <div class="MB-yzm-01">获取验证码</div>
+  </div>
+
+  <div class="MBcash-btn">提交申请</div>
+</div>
+
+<div class="MBcash-tishi01 fx" style="display:none;">
+  <div class="font"><span>兑现申请提交成功</span><br/>兑换XX经审核后15个工作内到账</div>
+  <p>现在分享，申请提前1周到账！<br/>方式1：点击微信右上角“...”按钮分享到朋友圈</p>
+  <div class="fangshi">方式2：</div>
+  <div class="comment-btn" onclick="Share()">点击这里分享</div>
+  <a href="MBcenter.html" class="comment-btn new">取消</a>
+  <div class="clear"></div>
+  <div class="beizhu">注：（分享出去的链接被点击即算成功）</div>
+</div>
+
+<div class="tishi"></div>
+<div class="black01"></div>
+
+<div class="transparent2"></div>
+<dl class="Shares">
+  <dt class="bdsharebuttonbox bdshare-button-style0-16" data-tag="share_1" data-bd-bind="1421740191105">        
+      <a href="#" class="bds_qzone" data-cmd="qzone" style="background:none ;" title="分享到QQ空间">
+      	<img data-cmd="qzone" src="../images/share/qzone.jpg" width="45" height="45">QQ空间
+      </a>
+      <a href="#" class="bds_tsina" data-cmd="tsina" style="background:none;" title="分享到新浪微博">
+      	<img data-cmd="tsina" src="../images/share/sina.jpg" width="45" height="45">新浪微博
+      </a>
+      <a href="#" class="bds_tqq" data-cmd="tqq" style="background:none;" title="分享到腾讯微博">
+      	<img data-cmd="tqq" src="../images/share/tencent.jpg" width="45" height="45">腾讯微博
+      </a>
+      <a href="#" class="bds_renren" data-cmd="renren" style="background:none;" title="分享到人人网">
+      	<img data-cmd="renren" src="../images/share/renren.jpg" width="45" height="45">人人网
+      </a>
+      <a href="#" class="bds_kaixin001" data-cmd="kaixin001" style="background:none;" title="分享到开心网">
+      	<img data-cmd="kaixin001" src="../images/share/kaixin.jpg" width="45" height="45">开心网
+      </a>
+    </dt>
+    <dd><a href="MBcenter.html"><input type="button" class="share-cancel" value="取消"></a></dd>
+
+</dl>
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/admin/Personal.js"></script>
+
+<!--<script type="text/javascript" src="../js/MB.js"></script>-->
+<script type="text/javascript">
+$(".comment-btn:eq(0)").click(function(){
+    $(".tishi").fadeOut(300);
+    $(".MBcash-tishi01").slideUp(300);
+})
+
+  with (document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?cdnversion=' + ~(-new Date() / 36e5)];
+
+function Share()
+{
+  var bg=$(".transparent2");
+  var T=$(".Shares");
+  bg.fadeIn('',function(){
+    T.slideDown();
+  });
+}
+</script>
+

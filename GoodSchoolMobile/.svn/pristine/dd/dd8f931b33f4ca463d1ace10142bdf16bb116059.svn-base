@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<meta content="yes" name="apple-mobile-web-app-capable" />
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+	<meta content="telephone=no" name="format-detection" />
+    <link rel="stylesheet" type="text/css" href="../css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="../css/css.css">
+    <link rel="stylesheet" type="text/css" href="../css/css2.css">
+    <link rel="stylesheet" type="text/css" href="../css/SchoolCenter.css">
+    <link rel="stylesheet" type="text/css" href="../css/PersonalCenter.css">
+
+	<title>我的好学校</title>
+</head>
+<body style="margin-bottom:55px;">
+<div class="Personal">
+
+<div class="gr-banner">
+    <a href="Set.html">
+        <div class="userinfo clearfix">
+            <div class="img"><img src="../images/Head01.jpg"></div>
+            <div class="gr-header">
+                <p class="f18">苏珍珠</p>
+                <p class="f14 p-t7">账户安全等级：低></p>
+            </div>
+        </div>
+    </a>
+</div>
+
+<div class="gr-order">
+    <div class="options"><a href="InfoCenter.html"><i class="icon01 icon-inform"><em class="dot-tips">10</em></i><p>信息通知</p></a></div>
+    <div class="options"><a href="MyConsultation.html"><i class="icon02 icon-myConsultation2"><em class="dot-tips">222</em></i><p>我的咨询</p></a></div>
+    <div class="options"><a href="new/课程点评-我的点评.html"><i class="icon03 icon-comment"><em class="dot-tips">3</em></i><p>点评领返现</p></a></div>
+</div>
+
+<div class="gr-info m-t15">
+    <a href="new/现金-邀请好友_v2.html"><p><i class="i-box icon-invite"></i><span class="text">邀请好友</span><span class="text02">赚现金</span></p></a>
+    <a href="new/我的钱包.html"><p><i class="i-box icon-wallet"></i><span class="text">我的钱包</span><span class="text02">助学券102.00</span></p></a>
+    <a href="Recommend.html"><em class="dot-tips">3</em><p><i class="i-box icon-hotRecommend2"></i><span class="text">热门推荐</span><span class="text02">4条未读</span></p></a>
+</div>
+<div class="gr-info m-t15">
+    <a href="MyPrivilege .html"><p><i class="i-box icon-privilege"></i><span class="text">我的特权</span><span class="text02">专享优惠</span></p></a>
+    <a href="MyCollection.html"><p><i class="i-box icon-myCollection"></i><span class="text">我的收藏</span><span class="text02">12个</span></p></a>
+    <a href="Browse.html"><p><i class="i-box icon-browse"></i><span class="text">浏览记录</span></p></a>
+    <a href="Set.html"><p><i class="i-box icon-reset"></i><span class="text">资料设置</span></p></a>
+</div>
+
+<div class="bottomnav clearfix">
+	<a class="item" href="../new/index.html"><p class="icon"><span class="icon-index"></span></p><p class="text">首页</p></a>
+    <a class="item" href="../new/SearchCourse.html"><p class="icon"><span class="icon-sort"></span></p><p class="text">搜索</p></a>
+    <a class="item" href="../new/getInfo.html"><p class="icon"><span class="icon-receiver"></span></p><p class="text">咨询</p></a>
+    <a class="item" href="Personal.html"><p class="icon"><span class="icon-my2 bc-c1"></span></p><p class="text">我的</p></a>
+</div>
+
+</div>
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/js.js"></script>
+<script src="../js/js2.js"></script>
+<!--<script src="../js/lazyload.js"></script>
+<script src="../js/jquery.mobile.js"></script>-->
+
+
+
+
+
+
+
+

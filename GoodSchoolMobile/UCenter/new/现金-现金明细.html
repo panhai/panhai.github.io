@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<meta content="yes" name="apple-mobile-web-app-capable" />
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+	<meta content="telephone=no" name="format-detection" />
+	<link rel="stylesheet" type="text/css" href="../../css/UserCenter.css">
+</head>
+<body class="bg-gray">
+	<div class="top-navbar">
+		<div class="left"><a href="javascript:history.go(-1)"><i class="navbar-icon icon01"></i></a></div>
+	    <div class="center">现金明细</div>
+	</div>
+	<div class="cash">
+		<p class="time">2015-11</p>
+		<ul>
+			<li class="row">
+				<div class="col1 txtl">
+					<p class="week">周六</p>
+					<p class="date">10-23</p>
+				</div>
+				<div class="col6-5">
+					<span class=" txtc"> <i class="iconfont icon-quan2"></i></span>
+					<h2>助学券兑现</h2>
+					<p>广州平面设计基础提升班</p>
+				</div>
+				<div class="col2 txtr">
+					<span>+500.00</span>
+				</div>
+			</li>
+			<li class="row">
+				<div class="col1 txtl">
+					<p class="week">周六</p>
+					<p class="date">10-23</p>
+				</div>
+				<div class="col6-5">
+					<span class=" txtc"> <i class="iconfont icon-quan2"></i></span>
+					<h2>助学券兑现</h2>
+					<p>广州平面设计基础提升班</p>
+				</div>
+				<div class="col2 txtr">
+					<span>+500.00</span>
+				</div>
+			</li>
+			<li class="row">
+				<div class="col1 txtl">
+					<p class="week">周六</p>
+					<p class="date">10-23</p>
+				</div>
+				<div class="col6-5">
+					<span class=" txtc"> <i class="iconfont geren">&#xe63b;</i></span>
+					<h2>好友赠送 <i>（处理中）</i></h2>
+					<p>受邀注册，获韩*梅赠送5元现金</p>
+				</div>
+				<div class="col2 txtr">
+					<span class="add">+5.00</span>
+				</div>
+			</li>
+			<li class="row">
+				<div class="col1 txtl">
+					<p class="week">周六</p>
+					<p class="date">10-23</p>
+				</div>
+				<div class="col6-5">
+					<span class=" txtc"> <i class="iconfont icon-zhifubao2"></i></span>
+					<h2>转账到支付宝 <i>（处理中）</i></h2>
+					<p>潘家住</p>
+				</div>
+				<div class="col2 txtr">
+					<span class="add">+500.00</span>
+				</div>
+			</li>
+		</ul>
+		<p class="time">2015-11</p>
+		<ul>
+			<li class="row" onclick="window.location.href = 'BringForwardToZFB.html'"">
+				<div class="col1 txtl">
+					<p class="week">周六</p>
+					<p class="date">10-23</p>
+				</div>
+				<div class="col6-5">
+					<span class=" txtc"> <i class="iconfont icon-quan2"></i></span>
+					<h2>助学券兑现<i>（兑现失败）</i></h2>
+					<p>广州平面设计基础提升班</p>
+				</div>
+				<div class="col2 txtr">
+					<span class="add">+500.00</span>
+				</div>
+			</li>
+			<li class="row">
+				<div class="col1 txtl">
+					<p class="week">周六</p>
+					<p class="date">10-23</p>
+				</div>
+				<div class="col6-5">
+					<span class=" txtc"> <i class="iconfont icon-yinxingqia"></i></span>
+					<h2>转账到银行卡<i>（转账失败）</i></h2>
+					<p>广州平面设计基础提升班</p>
+				</div>
+				<div class="col2 txtr">
+					<span class="add">+500.00</span>
+				</div>
+			</li>
+			<li class="row">
+				<div class="col1 txtl">
+					<p class="week">周六</p>
+					<p class="date">10-23</p>
+				</div>
+				<div class="col6-5">
+					<span class=" txtc"> <i class="iconfont icon-xiaofei w-h76"></i></span>
+					<h2>充值话费</h2>
+					<p>13288847445（潘家住）</p>
+				</div>
+				<div class="col2 txtr">
+					<span>-500.00</span>
+				</div>
+			</li>
+		</ul>
+		<p class="time">更早前</p>
+		<ul class="history">
+			<li>
+				<p>2016-11-24</p>
+				<h3>充值话费</h3>
+				<span>-50</span>
+			</li>
+			<li>
+				<p>2016-11-24</p>
+				<h3>转账到支付宝</h3>
+				<span class="add">+500</span>
+			</li>
+		</ul>
+	</div>
+	<p class="not-more">没有更多了</p>
+
+	<script src="../../js/jquery.js"></script>
+	<script src="../../js/ucenter.js"></script>
+	<script>
+		dropDownLoading(document,$(".cash"),function(event){
+			console.log('dd')
+		});
+	</script>
+</body>
+</html>

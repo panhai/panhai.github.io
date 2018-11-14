@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+    <link rel="stylesheet" type="text/css" href="css/css2.css">
+	<script src=js/jquery.js></script>
+	<script type="text/javascript" src="js/lazyload.js"></script>
+	<script src=js/jquery.mobile.js></script>
+	<title>更多学校动态</title>
+</head>
+<body>
+	<div class="mylisten-body">
+        <ul class="recommend-links">
+        	<li><a href="#" class="cur">推荐</a></li>
+        	<li><a href="#">雅思</a></li>
+        	<li><a href="#">考研</a></li>
+        	<li><a href="#">公务员</a></li>
+        </ul>
+		<div class="recommend-main-1">
+			<a href="school-dongtai_1.html">
+				<div class="recommend-main">
+					<div class="recommend-main-title">
+						<span class="xin"><span class="jiao"></span>新</span>广东公务员考试异地面试增至17市广东公务员考试异地面试增至17市
+					</div>
+					<div class="r_m_pic"><img class="lazy" src="images/pixel.gif" data-original="images/search-school01.jpg" alt=""/></div>
+					<div class="recommend-main01">
+						<samp>2014-06-12</samp>3 人阅读
+					</div>
+					<p>
+						广州、珠海、佛山三市职位仍在本市面试 但考官全员“异地交流”从本月24日起，广东省2014年公务员考试面试分两个阶段展开。记者昨日从省人社厅获悉，继2012年广东省6市首次开展异地面试以来，今年“省考”面试中
+					</p>
+					<div class="clear"></div>
+				</div>
+			</a>
+			<a href="school-dongtai_1.html">
+				<div class="recommend-main">
+					<div class="recommend-main-title">
+						<span class="xin re"><span class="jiao"></span>热</span>广东公务员考试异地面试增至17市广东公务员考试异地面试增至17市
+					</div>
+					<div class="r_m_pic"><img class="lazy" src="images/pixel.gif" data-original="images/search-school01.jpg" alt=""/></div>
+					<div class="recommend-main01">
+						<samp>2014-06-12</samp>3 人阅读
+					</div>
+					<p>
+						广州、珠海、佛山三市职位仍在本市面试 但考官全员"异地交流"从本月24日起，广东省2014年公务员考试面试分两个阶段展开。记者昨日从省人社厅获悉，继2012年广东省6市首次开展异地面试以来，今年"省考"面试中
+					</p>
+					<div class="clear"></div>
+				</div>
+			</a>
+			<a href="school-dongtai_1.html">
+				<div class="recommend-main">
+					<div class="recommend-main-title">
+						广东公务员考试异地面试增至17市广东公务员考试异地面试增至17市
+					</div>
+					<div class="r_m_pic"><img class="lazy" src="images/pixel.gif" data-original="images/search-school01.jpg" alt=""/></div>
+					<div class="recommend-main01">
+						<samp>2014-06-12</samp>3 人阅读
+					</div>
+					<p>
+						广州、珠海、佛山三市职位仍在本市面试 但考官全员"异地交流"从本月24日起，广东省2014年公务员考试面试分两个阶段展开。记者昨日从省人社厅获悉，继2012年广东省6市首次开展异地面试以来，今年"省考"面试中
+					</p>
+					<div class="clear"></div>
+				</div>
+			</a>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="js/js.js"></script>
+</html>

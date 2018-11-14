@@ -1,0 +1,424 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/> 
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+	<link rel="stylesheet" type="text/css" href="../css/css.css">
+    <link rel="stylesheet" type="text/css" href="../css/css2.css">
+    <link rel="stylesheet" type="text/css" href="../css/fonts.css">
+	<title>学校详情</title>
+</head>
+
+<body>
+<div class="school-details">
+
+<header class="Header" >
+    <div class="left"><a href="javascript:history.go(-1)" class="icon-arrow-left"></a></div>
+    <h1>学校详情</h1>
+    <div class="right"><a class="icon-share m-r12" onClick="Share()"></a><a class="icon-dots-three-horizontal"></a></div>
+    <!--<div class="right"><a class="icon-dots-three-horizontal"></a></div>-->
+    <div class="Header-menu">
+    	<div class="arrow-up"></div>
+    	<a href="index.html" class="item"><span class="icon-index"></span>首页</a>
+        <a href="../UCenter/Personal.html" class="item"><span class="icon-my"></span>个人中心</a>
+        <a href="SearchCourse.html" class="item"><span class="icon-search2"></span>搜索</a>
+    </div>
+</header>
+
+<div class="school-head">
+	<div class="item01">
+    	<div class="displaybox p-t30">
+        	<div class="imgbox"><img src="../images/LOGO.jpg"></div>
+        	<div class="displayflex">
+                <p class="title">广州新东方学校职业技术学校术学校<!--<span class="rz">已认证</span>--></p>
+                <p class="rz"><img class="Renzheng" src="../images/renzheng.png">学校认证</p>
+            </div>
+            <!--<div class="share" onClick="Share()">
+                <span class="icon icon-share"></span>
+            </div>-->
+        </div>
+    </div>
+    <div class="item02" style="position:relative;">
+    	<div class="next"><span class="icon-arrow-right"></span></div>
+        <div class="pege"><span class="icon-arrow-left"></span></div>
+        <div class="scroll-nav clearfix">
+            <div class="item02-box">
+                <a class="x" href="Search-School.html">
+                    <p class="c-orange fbold">12</p>
+                    <p>全部课程1</p>
+                </a>
+                <a class="x" href="SchoolArea.html">
+                    <p class="c-orange fbold">12</p>
+                    <p>上课校区2</p>
+                </a>
+                <a class="x" href="SchoolDynamic.html">
+                    <p class="c-orange fbold">12</p>
+                    <p>学校动态3</p>
+                </a>
+                <a class="x" href="SchoolDynamic.html">
+                    <p class="c-orange fbold">12</p>
+                    <p>学校资讯4</p>
+                </a>
+                <a class="x" href="SchoolDynamic.html">
+                    <p class="c-orange fbold">12</p>
+                    <p>学校资讯5</p>
+                </a>
+                <a class="x" href="SchoolDynamic.html">
+                    <p class="c-orange fbold">12</p>
+                    <p>学校资讯6</p>
+                </a>
+                <a class="x" href="Search-School.html">
+                    <p class="c-orange fbold">12</p>
+                    <p>全部课程7</p>
+                </a>
+                <a class="x" href="SchoolArea.html">
+                    <p class="c-orange fbold">12</p>
+                    <p>上课校区8</p>
+                </a>
+                <a class="x" href="SchoolDynamic.html">
+                    <p class="c-orange fbold">12</p>
+                    <p>学校动态9</p>
+                </a>
+            </div>
+        </div>
+    </div>
+	<div class="item03">
+    	<p class="f14">已与好学校签订读书保障协议：</p>
+        <p>
+        	<span class="bz"><i class="icon icon-check"></i>低价保障</span>
+            <span class="bz"><i class="icon icon-check"></i>教学保障</span>
+            <span class="bz"><i class="icon icon-check"></i>退款保障</span>
+        </p>
+    </div>
+	<div class="schoolpic">
+    	<img src="../images/context02.jpg">
+        <img src="../images/context01.jpg">
+        <img src="../images/context03.jpg">
+        <img src="../images/context04.jpg">
+    </div>
+</div>
+
+<div class="block01 m-b10">
+	<div class="common-title b6 clearfix">
+        <div class="h">课程点评</div>
+    </div>
+    <div class="comment-info">
+    	<!--<div>
+        	<div id="Complete">50</div>
+            <div class="c-orange t-acenter">50%好评</div>
+        </div>-->
+        <div class="Round">
+            <canvas width="70" height="70" id="RoundRun">
+              <!--IE下canvas不能包在P标签里，会有一个命令不正常，至于还不能包在哪些别的标签中，我没试
+              下边的Circle命令就是画圈圈的操作，然后里边的参数就是n%的那个n，可以是0-100-->
+            </canvas>
+        	<b>20%</b>
+            <p class="p">20%好评</p>
+        </div>
+        <div class="content" style="line-height:24px;">
+        	<p class="clearfix"><span class="f-l m-r5">综合</span><span class="commentStar star25 f-l"></span><span class="f-l c-orange m-l2">5.0</span></p>
+            <p class="m-t10"><span class="text">144人看过</span><span class="text">123人报读</span><span class="text">56人评论</span></p>
+            <p class="c-grey02 m-t10">环境：4.0&nbsp;&nbsp;&nbsp;师资：5.0&nbsp;&nbsp;&nbsp;教学：4.5</p>
+        </div>
+    </div>
+    <div class="comment-box m-l10">
+    	<div class="info clearfix"><span class="imgbox"><img src="../images/mylisten-img01.jpg"></span><span class="name">李*发</span><span class="f-l commentStar star25"></span></div>
+        <p class="f12">广州雅思vip6.5分保分班分保分可使用助学券领取30元现金优惠助学券领取30元现金优惠</p>
+        <p class="clearfix f12"><span class="tiem">2015-01-11</span></p>
+    </div>
+    <a href="CommentDetails.html" class="seeall" style="border-top:0;">查看全部&nbsp;<span class="icon-arrow-right"></span></a>
+</div>
+
+<div class="block02 b-white m-b10">
+	<div class="common-title b1 clearfix">
+        <div class="h">学校简介</div>
+    </div>
+    <div class="sd-brief p10">广州新东方英语培训学校组建于2000年，是新东方成立较早的分校。历经12年的发展，目前在广州拥有23个分校，取得快速的发展离不开社会各界朋友对新东方的关心和支持。广州新东方英语培训学校组建于2000年，是新东方成立较早的分校。历经12年的发展，目前在广州拥有23个分校，取得快速的发展离不开社会各界朋友对新东方的关心和支持广州新东方英语培训学校组建于2000年，是新东方成立较早的分校。历经12年的发展，目前在广州拥有23个分校，取得快速的发展离不开社会各界朋友对新东方的关心和支持。广州新东方英语培训学校组建于2000年，是新东方成立较早的分校。历经12年的发展，目前在广州拥有23个分校，取得快速的发展离不开社会各界朋友对新东方的关心和支持广州新东方英语培训学校组建于2000年，是新东方成立较早的分校。历经12年的发展，目前在广州拥有23个分校，取得快速的发展离不开社会各界朋友对新东方的关心和支持。广州新东方英语培训学校组建于2000年，是新东方成立较早的分校。历经12年的发展，目前在广州拥有23个分校，取得快速的发展离不开社会各界朋友对新东方的关心和支持</div>
+    <a href="SchoolBrief.html" class="seeall">查看全部&nbsp;<span class="icon-arrow-right"></span></a>
+</div>
+
+<div class="block03 b-white m-b10">
+    <div class="common-title b7 clearfix">
+        <div class="h">学校课程</div>
+    </div>
+    <a href="CourseDetails.html" class="courseinfo">
+        <div class="imgbox"><img src="../images/context02.jpg"></div>
+        <div class="content">
+            <p class="title row3">新东方雅思口语班新东方雅思口语班新东方雅思口语班</p>
+            <p class="c-grey02">广州新东方</p>
+            <p class="c-grey01 f12">112人看&nbsp;&nbsp;22人报名<span class="price" style="float:right;">21400</span></p>     
+        </div>
+    </a>
+    <a href="CourseDetails.html" class="courseinfo">
+        <div class="imgbox"><img src="../images/context02.jpg"></div>
+        <div class="content">
+            <p class="title row3">新东方雅思口语班新东方雅思口语班新东方雅思口语班</p>
+            <p class="c-grey02">广州新东方</p>
+            <p class="c-grey01 f12">112人看&nbsp;&nbsp;22人报名<span class="price" style="float:right;">21400</span></p>     
+        </div>
+    </a>
+    <a href="CourseDetails.html" class="courseinfo">
+        <div class="imgbox"><img src="../images/context02.jpg"></div>
+        <div class="content">
+            <p class="title row3">新东方雅思口语班新东方雅思口语班新东方雅思口语班</p>
+            <p class="c-grey02">广州新东方</p>
+            <p class="c-grey01 f12">112人看&nbsp;&nbsp;22人报名<span class="price" style="float:right;">21400</span></p>     
+        </div>
+    </a>
+    <a href="Search-School.html" class="seeall">查看全部&nbsp;<span class="icon-arrow-right"></span></a>
+</div>
+
+<div class="block04 b-white m-b10">
+    <div class="common-title b4 clearfix">
+        <div class="h">学校地址</div>
+    </div>
+    <a href="Map-2.html" class="school-aera displaybox">
+        <div class="imgbox"><img src="../images/map02.jpg" ></div>
+        <div class="count displayflex">
+            <span class="icon1 icon-arrow-right"></span>
+            <p class="f14">越秀地区越秀地区</p>
+            <p class="text">广州市越秀区中山四路228号城投大厦3.4楼投大厦3.4楼</p>
+        </div>
+    </a>
+    <a  href="Map-2.html" class="school-aera displaybox">
+        <div class="imgbox"><img src="../images/map02.jpg" ></div>
+        <div class="count displayflex">
+            <span class="icon1 icon-arrow-right"></span>
+            <p class="f14">越秀地区越秀地区</p>
+            <p class="text">广州市越秀区中山四路228号城投大厦3.4楼投大厦3.4楼</p>
+        </div>
+    </a>
+    <a  href="Map-2.html" class="school-aera displaybox lostline">
+        <div class="imgbox"><img src="../images/map02.jpg" ></div>
+        <div class="count displayflex">
+            <span class="icon1 icon-arrow-right"></span>
+            <p class="f14">越秀地区越秀地区</p>
+            <p class="text">广州市越秀区中山四路228号城投大厦3.4楼投大厦3.4楼</p>
+        </div>
+    </a>
+    <a href="SchoolArea.html" class="seeall">查看全部&nbsp;<span class="icon-arrow-right"></span></a>
+</div>
+
+<div class="block05 b-white m-b10">
+	<div class="common-title b6 clearfix">
+        <div class="h">学校资讯</div>
+    </div>
+    <a href="InformationDetails.html" class="displaybox item">
+    	<div class="displayflex">
+        	<p class="title">高考生理性留学，一年直升世界百强名校一年直升世界百强名校一年直升世界百强名校</p>
+            <p class="c-grey01 m-t20 f12">23人浏览&nbsp;&nbsp;2015-08-11</p>
+        </div>
+    	<div class="imgbox m-l20"><img src="../images/context01.jpg" ></div>
+    </a>
+    <a href="InformationDetails.html" class="displaybox item">
+    	<div class="displayflex">
+        	<p class="title">高考生理性留学，一年直升世界百强名校</p>
+            <p class="c-grey01 m-t20 f12">23人浏览&nbsp;&nbsp;2015-08-11</p>
+        </div>
+    	<div class="imgbox m-l20"><img src="../images/context01.jpg" ></div>
+    </a>
+    <a href="InformationDetails.html" class="displaybox item lostline">
+    	<div class="displayflex">
+        	<p class="title">高考生理性留学，一年直升世界百强名校</p>
+            <p class="c-grey01 m-t20 f12">23人浏览&nbsp;&nbsp;2015-08-11</p>
+        </div>
+    	<div class="imgbox m-l20"><img src="../images/context01.jpg" ></div>
+    </a>
+    <a href="SchoolDynamic.html" class="seeall">查看全部&nbsp;<span class="icon-arrow-right"></span></a>
+</div>
+
+<div class="displaybox bottomback">
+	<a href="index.html" class="displayflex">返回首页</a>
+    <a href="SearchCourse.html" class="displayflex">搜索课程</a>
+    <a href="../UCenter/Personal.html" class="displayflex">个人中心</a>
+</div>
+
+<div class="logo-grey">
+	<div class="imgbox"><img src="../images/logo-grey.png" /></div>
+    <p class="text">读书培训，找好学校</p>
+</div>
+
+<div class="foot-course" style="z-index:3;">
+	<div class="foot-ul">
+        <ul>
+            <li><a href="Search-School.html">雅思培训</a></li>
+            <li><a href="Search-School.html">雅思培训</a></li>
+            <li><a href="Search-School.html">雅思培训</a></li>
+            <li><a href="Search-School.html">雅思培训</a></li>
+            <li><a href="Search-School.html">雅思培训</a></li>
+            <li><a href="Search-School.html">雅思培训</a></li>
+            <li><a href="Search-School.html">雅思培训</a></li>
+            <li><a href="Search-School.html">雅思培训</a></li>
+            <li><a href="Search-School.html">雅思培训</a></li>
+            <li><a href="Search-School.html">雅思培训</a></li>
+            <li><a href="Search-School.html">雅思培训</a></li>
+            <li><a href="Search-School.html">雅思培训</a></li>
+            <li><a href="Search-School.html">雅思培训</a></li>
+            <li><a href="Search-School.html">雅思培训</a></li>
+        </ul>
+    </div>
+    <div class="arrow-down" style="left:0.5rem;"><p class="before"></p></div>
+</div>
+
+<div class="contact-box">
+	<a class="item flex01 course">
+    	<p class="icon"><span class="icon-bigClass"></span></p>
+        <p class="text">课程分类</p>
+    </a>
+	<a class="item flex01 ditu">
+    	<p class="icon"><span class="icon-map"></span></p>
+        <p class="text">学校地图</p>
+    </a>
+	<a class="item flex01">
+    	<p class="icon"><span class="icon-consultation"></span></p>
+        <p class="text">电话</p>
+    </a>
+	<a class="item flex01">
+    	<p class="icon"><span class="icon-qq2"></span></p>
+        <p class="text">QQ</p>
+    </a>
+    <a class="item flex01">
+    	<p class="icon"><span class="icon-chat pr"><i class="dot-tips2">1</i></span></p>
+        <p class="text">在线</p>
+    </a>
+</div>
+
+<!--<div class="Map">
+    <div class="Header">
+        <div class="left"><a class="BACK icon-arrow-left"></a></div>
+        <h1>学校地图</h1>
+        <div class="right"><a class="f18 gj">公交</a></div>
+    </div>
+	<div class="bus">
+    	<div class="item">
+        	<p class="h">公交指南</p>
+        	<p class="text">10路夜班、136路、302A路、302A路时代、10路夜班、136路、302A路、302A路时代、10路夜班、136路、302A路、302A路时代</p>
+        </div>
+    </div>
+    <div class="site">
+    	<div class="item">
+        	<p class="h">高考生理性留学校高考生理性留学校高考生理性留学校</p>
+            <p class="text">天河区天河路壬丰大厦490号西厅711室天河区天河路壬丰大厦490号西厅711室</p>
+        </div>
+        <div class="btn displaybox">
+        	<a class="jg-btnmiddle btn01">到这里去</a>
+            <a class="jg-btnmiddle btn02">拨打老师电话</a>
+        </div>
+    </div>
+</div>-->
+
+<div class="background"></div>
+
+<div class="TK-notice">
+	<div class="close"><span class=" icon-cross"></span></div>
+	<p class="h">最新通知</p>
+    <p class="text">因合作终止，《好学校》已停止刻效<br>招生服务！如需更多类似学校/课程，<br>请点击搜索</p>
+    <p class="p-b30"><a href="SearchCourse.html" class="btn">搜索</a></p>
+</div>
+
+</div>
+
+<dl class="Shares">
+	<dt class="bdsharebuttonbox" data-tag="share_1">        
+    	<a href="#" class="bds_qzone" data-cmd="qzone" style="background:none ;"><img data-cmd="qzone" src="../images/share/qzone.jpg" width="45" height="45">QQ空间</a>
+    	<a href="#" class="bds_tsina" data-cmd="tsina" style="background:none;"><img data-cmd="tsina" src="../images/share/sina.jpg" width="45" height="45">新浪微博</a>
+    	<a href="#" class="bds_tqq" data-cmd="tqq" style="background:none;"><img data-cmd="tqq" src="../images/share/tencent.jpg" width="45" height="45">腾讯微博</a>
+    	<a href="#" class="bds_renren" data-cmd="renren" style="background:none;"><img data-cmd="renren" src="../images/share/renren.jpg" width="45" height="45">人人网</a>
+    	<a href="#" class="bds_kaixin001" data-cmd="kaixin001" style="background:none;"><img data-cmd="kaixin001" src="../images/share/kaixin.jpg" width="45" height="45">开心网</a>
+    </dt>
+    <dd><input type="button" class="share-cancel" value="取消"></dd>
+
+</dl>
+
+
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/plugin/raphael.js"></script>
+<script src="../js/RaphaelRun.js"></script>
+<script src="../js/iscroll.js"></script>
+<script src="../js/js2.js"></script>
+<script>
+
+
+$(function(){
+
+	$(".Map").find(".gj").click(function(){
+		$(this).closest(".Header").siblings(".bus").toggle();
+	});
+	$(".SHUT").click(function(){
+		$(this).closest(".Header").parent().hide();
+	});
+	
+	var A=$(".school-head .scroll-nav .x");
+	var xWidth=$(window).width()/4;
+	A.width(xWidth);
+	$(".school-head .item02-box").width(A.length*xWidth);
+	if(A.length>4){
+		$(".school-head .item02 .next").show();
+	}
+	myScroll = new IScroll('.school-head .scroll-nav', 
+	{
+		snap: 'a', 
+		momentum: false,
+		scrollX: true, scrollY: false,
+		tap:"click" 
+	});
+	
+	var jilu=0;
+	myScroll.on("scrollEnd",function(){
+
+		setTimeout(function(){
+			if(A.length<=4) return;
+			var iIndex=myScroll.currentPage.pageX;
+			var iCont=$(".school-head .scroll-nav .x").length;
+			var dir=myScroll.directionX
+			
+			if(jilu < iIndex){
+				$(".school-head .item02 .pege").hide();
+				$(".school-head .item02 .next").hide();
+
+				if(iIndex+4 == iCont){
+					
+					$(".school-head .item02 .pege").show();
+				}else{
+					$(".school-head .item02 .next").show();
+				}
+				
+			}else if(jilu > iIndex){
+				$(".school-head .item02 .pege").hide();
+				$(".school-head .item02 .next").hide();
+				if(iIndex == 0){
+					
+					$(".school-head .item02 .next").show();
+				}else{
+					$(".school-head .item02 .pege").show();
+				}
+			}
+			jilu=iIndex;
+		},200)
+
+	})
+
+    //底部小红点闪动
+	function redicon() {
+	    var icon_timer = null;
+	    icon_timer = setTimeout(function () {
+	        $(".dot-tips2").css("display", "block");
+	        var iNow = 0;
+	        setInterval(function () {
+	            iNow++;
+	            if (iNow % 2 == 1) {
+	                $(".dot-tips2").css("display", "none");
+	            } else {
+	                $(".dot-tips2").css("display", "block");
+	            }
+	        },500);
+	    },1000);
+	}
+	redicon();
+});
+</script>

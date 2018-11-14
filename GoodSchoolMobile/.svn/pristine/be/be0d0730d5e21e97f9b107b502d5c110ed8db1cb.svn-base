@@ -1,0 +1,106 @@
+<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<meta content="yes" name="apple-mobile-web-app-capable" />
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+	<meta content="telephone=no" name="format-detection" />
+	<link rel="stylesheet" type="text/css" href="../css/css.css">
+    <link rel="stylesheet" type="text/css" href="../css/css2.css">
+    <link rel="stylesheet" type="text/css" href="../css/fonts.css">
+	<title>高级搜索</title>
+</head>
+
+<body>
+<div class="Search02">
+
+<div class="GoToTop">
+	<span class="icon-arrow-up"></span>
+</div>
+
+<header class="Header" >
+    <div class="left"><a class="f18" href="#">好学校</a></div>
+    <div class="search-box m01 displaybox" style="margin-right:45px;">
+        <div class="city-link">
+            <i>广州</i>
+            <span class="icon-triangle-down"></span>
+        </div>
+        <input class="search-word" type="text" placeholder="搜索你想报读的专业">
+        <div class="submit"><span class="icon-search"></span></div>
+    </div>
+    <div class="right">
+        <a href="Classify.html" class="icon-bigClass f18" style="vertical-align:top; line-height:12px; padding-top:8px;"><br><span  style="font-size:10px;line-height:10px;">分类</span></a>
+    </div>
+</header>
+
+
+
+<div class="search-content b-white">
+
+    <div class="content">
+    	<div class="no-content disappear">
+        	<p><img src="../images/null.png" alt="你查看的学校已下架了" class="img"></p>
+        	<p class="c-grey01">对不起，你查看的课程已经下架了</p>
+            <p class="txt p-t3">广州地区还有<label>5个雅思</label>课程供你选择</p>
+
+        </div>
+        <div onClick="javascript:window.location.href='SchoolDetails.html'" class="school-info disappear-info" >
+            <div class="imgbox"><img src="../images/search-school01.jpg"></div>
+            <div class="content">
+                <p  class="title row2">新东方雅思中心</p>
+                <p class="c-grey01 f12">新东方广州分校区</p>
+                <p class="c-grey01 f12 pt10">112人查看&nbsp;&nbsp;22人报读</p>
+                <div class="si-fit money" onclick=" javascript:window.location.href='Search-School.html';"><label>¥</label>63340.00</div>
+            </div>
+        </div>
+        <div onClick="javascript:window.location.href='SchoolDetails.html'" class="school-info disappear-info" >
+            <div class="imgbox"><img src="../images/search-school01.jpg"></div>
+            <div class="content">
+                <p  class="title row2">新东方雅思中心</p>
+                <p class="c-grey01 f12">新东方广州分校区</p>
+                <p class="c-grey01 f12 pt10">112人查看&nbsp;&nbsp;22人报读</p>
+                <div class="si-fit money" onclick=" javascript:window.location.href='Search-School.html';"><label>¥</label>63340.00</div>
+            </div>
+        </div>
+        <div onClick="javascript:window.location.href='SchoolDetails.html'" class="school-info disappear-info" >
+            <div class="imgbox"><img src="../images/search-school01.jpg"></div>
+            <div class="content">
+                <p  class="title row2">新东方雅思中心</p>
+                <p class="c-grey01 f12">新东方广州分校区</p>
+                <p class="c-grey01 f12 pt10">112人查看&nbsp;&nbsp;22人报读</p>
+                <div class="si-fit money" onclick=" javascript:window.location.href='Search-School.html';"><label>¥</label>63340.00</div>
+            </div>
+        </div>
+        <div class="more">查看更多</div>
+    </div>
+</div>
+
+
+<div class="bottomnav clearfix">
+	<a class="item" href="index.html"><p class="icon"><span class="icon-index"></span></p><p class="text">首页</p></a>
+    <a class="item" href="SearchCourse.html"><p class="icon"><span class="icon-sort2 bc-c1"></span></p><p class="text">搜索</p></a>
+    <a class="item" href="getInfo.html"><p class="icon"><span class="icon-consultation"></span></p><p class="text">咨询</p></a>
+    <a class="item" href="../UCenter/Personal.html"><p class="icon"><span class="icon-my"></span></p><p class="text">我的</p></a>
+</div>
+
+
+
+</div><!--尾-->
+
+
+
+</body>
+</html>
+
+<script src="../js/jquery.js"></script>
+<script src="../js/iscroll.js"></script>
+<script src="../js/js2.js"></script>
+<script>
+$(function(){
+	$(".school-info .content div").click(function(e){
+		e.stopPropagation();
+	})
+})
+</script>
+

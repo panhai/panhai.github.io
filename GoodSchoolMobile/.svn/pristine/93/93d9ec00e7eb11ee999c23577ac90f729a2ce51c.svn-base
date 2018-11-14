@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<meta content="yes" name="apple-mobile-web-app-capable" />
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+	<meta content="telephone=no" name="format-detection" />
+	<title>请TA赠送</title>
+	<link rel="stylesheet" type="text/css" href="../../css/UserCenter.css">
+</head>
+<body class="body_white">
+<div class="invite">
+	<div class="top-navbar">
+		<div class="left"><a href="javascript:history.go(-1)"><i class="navbar-icon icon01"></i></a></div>
+	    <div class="center">请TA赠送</div>
+	</div>
+
+	<div class="txt clearfix">
+		<i class="iconfont icon-give w-h76 mr22"></i>
+		<h5>请TA赠送</h5>
+		<p>请求好友帮忙，注册好学校，并将助学券转送给你！</p>
+	</div>
+	<p class="separate-line"></p>
+	<div class="pd">
+		<h3>方式一：</h3>
+		<p>让好友通过微信扫此二维码，完成注册，好友将获得25元助学券，你可让好友将助学券转送给你！</p>
+		<img src="" alt="" class="code">
+
+		<h3>方式二：</h3>
+		<p>通过以下方式发送链接，或分享到朋友圈空间，让更多好友帮忙，每注册一个人，你都将获得25元助学券奖励</p>
+		<div class="share-box">
+			<p>
+				<a class="iconfont icon-qq1"></a>
+				<a class="iconfont icon-weixin"></a>
+				<a class="iconfont icon-kongjian"></a>
+				<a class="iconfont icon-pengyouquan"></a>
+			</p>
+		</div>
+
+
+		<div class="line"></div>
+		<p class="inner-tip">
+			温馨提示：好友通过以上方式注册成功，无需赠送，你可额外获得25元助学券，若好友转送助学券给你，你将获得超过50元助学券。
+		</p>
+	</div>
+	<h2 class="help-list-title">常见问题</h2>
+	<ul class="help-list">
+		<li>
+			<h3>1、好友如何将助学券转送给我？<i class="iconfont icon-arrow-top"></i></h3>
+			<p>好友通过扫码或你发送的链接注册成功后：<br>
+				①让好友进入我的助学券—>点击右上角“转送好友”按钮，
+				进入转送页面。<br>
+				②选择或输入你的账号—>输入转送额度，确认转送，即
+				可转送成功！</p>
+		</li>
+		<li>
+			<h3>2、好友若未通过我提供的链接注册，能否获得助学券？<i class="iconfont icon-arrow-top"></i></h3>
+<p>好友若未通过你的链接注册，将不能获得助学券赠送。建议可将链接分享给更多好友，让好友获得助学券，享受读优惠或将助学券赠送给你。<br><br></p>
+		</li>
+		<li>
+			<h3>3、一个好友注册，最多可以帮我获得多少助学券？<i class="iconfont icon-arrow-top"></i></h3><p>一个好友最多可以帮你获得最多65元助学券。好友通过你的链接注册成功，你和好友都将获得好学校赠送25元助学券，若好友再绑定微信、分享好学校，可再获15元助学券，此时好友将有40元助学券。让好友将助学券都转送给你，你将获得25+40=65元助学券。</p></li>
+	</ul>
+</div>
+<script src="../../js/jquery.js"></script>
+<script src="../../js/ucenter.js"></script>
+<script>
+
+	$(".help-list .iconfont").click(function(event){
+
+		$(this).toggleClass("icon-arrow-bottom");
+
+		var li = $(this).closest("li")
+		if( !$(this).hasClass("icon-arrow-bottom") ){
+			li.attr("style","");
+			return false;
+		}
+		li.height($(this).closest("h3").height());
+	});
+
+	$('.share-box .iconfont').click(function(){
+		(createShareCover())(1);
+	})
+</script>
+</body>
+</html>
+

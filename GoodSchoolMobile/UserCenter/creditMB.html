@@ -1,0 +1,176 @@
+<!DOCTYPE html >
+<html >
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/> 
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+	<title>助学金中心</title>
+  <script src="../js/jquery.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="../css/css.css" />
+    <link rel="stylesheet" href="../css/css2.css" />
+</head>
+<style type="text/css">
+.search-course02{margin-top: 18px;}
+.search-course04{line-height: 20px;}
+</style>
+<body style="background:white">
+
+<div class="MBcenter">
+
+  <div class="header"><a href="javascript:history.go(-1);" class="return_ico"></a>助学金兑换MB</div>
+  
+  <div class="balance_detail">
+  	<div class="b_d_number">助学金余额<span><em>1000</em>元</span></div>
+  </div>
+
+  <div class="zhuxue-MB01">
+    <p>无可兑换记录</p>
+    <span>
+      报读课程后，你就可以用助学金兑换<br/>成一定额度的MB。还不赶快<br/>行动，立即搜索课程。
+    </span>
+    <a href="../search.html">搜索课程</a>
+  </div>
+
+  <div class="zhuxue-MB02">
+    <div class="zhuxue-MB02-1">
+      <a href="../course.html">
+        <div class="search-course02">
+          <div class="search-course03">
+            雅思口语单项VIP(冲6.5分)
+          </div>
+          <div class="search-course05">
+            广州新东方学校
+          </div>
+          <p>已兑换15元</p>
+        </div>
+      </a>
+      <div class="right">
+        <div class="fenxiang" onclick="Share()">分享获助学金</div>
+        <span>可获13元助学金</span>
+      </div>
+      <div class="clear"></div>
+    </div>
+
+    <div class="zhuxue-MB02-1">
+      <a href="../course.html">
+        <div class="search-course02">
+          <div class="search-course03">
+            雅思口语单项VIP(冲6.5分)
+          </div>
+          <div class="search-course05">
+            广州新东方学校
+          </div>
+        </div>
+      </a>
+      <div class="right">
+        <div class="fenxiang new">已分享</div>
+        <span>已获15元助学金</span>
+      </div>
+      <div class="clear"></div>
+    </div>
+
+    <div class="zhuxue-MB02-1">
+      <a href="../course.html">
+        <div class="search-course02">
+          <div class="search-course03">
+            雅思口语单项VIP(冲6.5分)
+          </div>
+          <div class="search-course05">
+            广州新东方学校
+          </div>
+        </div>
+      </a>
+      <div class="right">
+        <div class="btn">立即兑换</div>
+        <span>可兑换15元</span>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+
+  <div class="MBcash-tishi01" id="tishi01" style="display:none;">
+    <div class="font">是否确认用<span>15</span>元助学金<br/>兑换成MB?</div>
+    <div class="queren">确认</div>
+    <div class="quxiao">取消</div>
+  </div>
+  <div class="comment-tishi01" id="tishi02">
+    <div class="font">点评成功，获10MB奖励</div>
+    <p>现在分享，再送10元助学金！<br/>方式1：点击微信右上角“...”按钮分享到朋友圈</p>
+    <b>方式2：</b>
+    <div class="comment-btn" onclick="Share()">点击这里分享</div>
+    <div class="comment-btn new">下次再说</div>
+    <div class="clear"></div>
+    <p>注：（分享出去的链接被点击即算成功）</p>
+  </div>
+  <div class="MBcash-tishi01" id="tishi03" style="display:none;">
+    <div class="font">你的助学金账户不足<br/>15元，<span>兑换不了</span></div>
+    <div class="queren02">确认</div>
+  </div>
+  <div class="tishi" style="display:none;"></div>
+</div>
+
+  <div class="transparent2"></div>
+  <dl class="Shares">
+    <dt class="bdsharebuttonbox bdshare-button-style0-16" data-tag="share_1" data-bd-bind="1421740191105">        
+        <a href="#" class="bds_qzone" data-cmd="qzone" style="background:none ;" title="分享到QQ空间"><img data-cmd="qzone" src="../images/share/qzone.jpg" width="45" height="45">QQ空间</a>
+        <a href="#" class="bds_tsina" data-cmd="tsina" style="background:none;" title="分享到新浪微博"><img data-cmd="tsina" src="../images/share/sina.jpg" width="45" height="45">新浪微博</a>
+        <a href="#" class="bds_tqq" data-cmd="tqq" style="background:none;" title="分享到腾讯微博"><img data-cmd="tqq" src="../images/share/tencent.jpg" width="45" height="45">腾讯微博</a>
+        <a href="#" class="bds_renren" data-cmd="renren" style="background:none;" title="分享到人人网"><img data-cmd="renren" src="../images/share/renren.jpg" width="45" height="45">人人网</a>
+        <a href="#" class="bds_kaixin001" data-cmd="kaixin001" style="background:none;" title="分享到开心网"><img data-cmd="kaixin001" src="../images/share/kaixin.jpg" width="45" height="45">开心网</a>
+      </dt>
+      <dd><input type="button" class="share-cancel" value="取消"></dd>
+
+  </dl>
+</body>
+<script type="text/javascript">
+  var div;
+$(".right .btn").click(function(){
+    div=$(this).parent();
+    $(".tishi").fadeIn(300);
+    $("#tishi01").slideDown(300);
+})
+$(".quxiao").click(function(){
+    $(".tishi").fadeOut(300);
+    $(".MBcash-tishi01").slideUp(300);
+})
+$(".queren01,.queren02").click(function(){
+    $(div).empty().append("<p>已兑换15元</p>");
+    $(".tishi").fadeOut(300);
+    $(".MBcash-tishi01").slideUp(300);
+})
+
+
+$(".queren").click(function(){
+    $("#tishi01").slideUp(300);
+    $("#tishi02").fadeIn(300);
+});
+
+$(".comment-btn").click(function(){
+      $(".tishi").fadeOut(300);
+      $(".comment-tishi01").slideUp(300);
+  });
+
+
+with (document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?cdnversion=' + ~(-new Date() / 36e5)];
+
+function Share()
+{
+  var bg=$(".transparent2");
+  var T=$(".Shares");
+  T.find("dd input").click(function(){
+    $(".icons-share").removeClass("on");
+    shut();
+  });
+  var shut=function(){
+    T.slideUp('','',function(){
+      bg.fadeOut();
+    })
+  }
+  bg.fadeIn('',function(){
+    T.slideDown();
+  }).click(shut);
+}
+</script>
+</html>

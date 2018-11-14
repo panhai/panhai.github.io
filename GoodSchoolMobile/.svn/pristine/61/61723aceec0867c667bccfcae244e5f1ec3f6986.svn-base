@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/> 
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+	<script src="../../js/jquery.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="css/css.css" />
+	<title>升学</title>
+</head>
+<body>
+	<div class="shengxue-main" id="xyz">
+		<div class="top">
+			外语/小语种
+			<a href="javascript:history.go(-1);"><img src="images/return.png" alt="" /></a>
+		</div>
+		<div class="banner">
+			<img src="images/banner02.jpg" alt="" />
+		</div>
+		<div class="shengxue_1">
+			<a class="c1" href="http://m.91goodschool.com/kc/k12anye2a7h8/">英语</a>
+			<a class="c2" href="http://m.91goodschool.com/jg-gz-fayu/">法语</a>
+			<a class="c3" href="http://m.91goodschool.com/jg-gz-xbyy/">西班牙语</a>
+			<a class="c4" href="http://m.91goodschool.com/jg-gz-deyu/">德语</a>
+			<a class="c5" href="http://m.91goodschool.com/jg-gz-riyu/">日语</a>
+			<a class="c6" href="http://m.91goodschool.com/jg-gz-hanyu/">韩语</a>
+			<a class="c7" href="http://m.91goodschool.com/jg-gz-ydly/">意大利语</a>
+			<a class="c8" href="http://m.91goodschool.com/jg-gz-alby/">阿拉伯语</a>
+			<a class="c9" href="http://m.91goodschool.com/kc">其他</a>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<div class="shengxue-main" id="it">
+		<div class="top">
+			IT技术，就业首选
+			<a href="javascript:history.go(-1);"><img src="images/return.png" alt="" /></a>
+		</div>
+		<div class="banner">
+			<img src="images/banner04.jpg" alt="" />
+		</div>
+		<div class="shengxue_1">
+			<a class="c1" href="http://m.91goodschool.com/kc-gz-java/">Java</a>
+			<a class="c2" href="http://m.91goodschool.com/kc-gz-ccjj/">C/C++</a>
+			<a class="c3" href="http://m.91goodschool.com/kc-gz-qrs/">嵌入式</a>
+			<a class="c4" href="http://m.91goodschool.com/kc-gz-android/">Andorid</a>
+			<a class="c5" href="http://m.91goodschool.com/kc-gz-ios/">iOS</a>
+			<a class="c6" href="http://m.91goodschool.com/kc-gz-php/">PHP</a>
+			<a class="c7" href="http://m.91goodschool.com/kc-gz-snsj/">室内设计</a>
+			<a class="c8" href="http://m.91goodschool.com/kc-gz-pmsj/">平面设计</a>
+			<a class="c9" href="http://m.91goodschool.com/kc">其他</a>
+			<div class="clear"></div>
+		</div>
+	</div>
+</body>
+</html>

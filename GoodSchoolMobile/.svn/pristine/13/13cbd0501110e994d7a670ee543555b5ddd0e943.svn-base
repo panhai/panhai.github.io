@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+	<link rel="stylesheet" type="text/css" href="../../css/UserCenter.css">
+</head>
+<body class="bg-gray">
+	<div class="top-navbar">
+		<div class="left"><a href="javascript:history.go(-1)"><i class="navbar-icon icon01"></i></a></div>
+	    <div class="center">个人资料</div>
+	</div>
+	<div class="setting-tip">资料完善度20%，完善资料可获2元助学券！</div>
+	<div class="setting">
+		<ul class="base-info">
+	        <li class="item-opt base-pic"><a href="">
+	            <div class="item-l">头像</div>
+	            <label for="Upload" class="item-r">
+	                <div class="base-pic-in">
+	                    <img src="../../images/UCenter/user_pic.png" height="44" width="44" alt="" />
+	                </div>
+	            </label></a>
+	        </li>
+	        <li class="item-opt"><a href="">
+	            <div class="item-l">姓名</div>
+	            <div class="item-r">未填写</div></a>
+	        </li>
+	        <li class="item-opt"><a href="">
+	            <div class="item-l">性别</div>
+	            <div class="item-r sex">男</div></a>
+	        </li>
+	        <li class="item-opt"><a href="../ResetInfo.html">
+	            <div class="item-l">QQ</div>
+	            <div class="item-r" >31690234</div></a>
+	        </li>
+	        <li class="item-opt"><a href="">
+	            <div class="item-l">邮箱</div>
+	            <div class="item-r" >316024763@126.com</div></a>
+	        </li>
+	    </ul>
+	    <ul class="base-info">
+	    	<li class="item-opt"><a href="">
+	    	    <div class="item-l">修改手机</div>
+	    	    <div class="item-r">13288847449</div></a>
+	    	</li>
+	    	<li class="item-opt"><a href="">
+	    	    <div class="item-l">修改密码</div>
+	    	    <div class="item-r"></div></a>
+	    	</li>
+	    </ul>
+
+	</div>
+	<a href="" class="next-btn">退出当前账号</a>
+</body>
+</html>

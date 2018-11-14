@@ -1,0 +1,91 @@
+<!DOCTYPE html >
+<html >
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/> 
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+	<title>助学金中心</title>
+  <script src="../js/jquery.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="../css/css.css" />
+    <link rel="stylesheet" href="../css/css2.css" />
+</head>
+
+<body>
+
+<div class="MBcenter">
+
+  <div class="header"><a href="javascript:history.go(-1);" class="return_ico"></a>助学金中心 </div>
+  
+  <div class="balance_detail">
+  	<div class="b_d_number">助学金余额<span><em>1000</em>元</span></div>
+  </div>
+  
+  <div class="zhuxue01">赚助学金</div>
+  <a class="zhuxue02" href="creditSignin.html" style="border-bottom:1px solid #e5e5e5;">
+    <div class="sp1 c1">
+      <img src="../images/zhuxue01.png" alt="">
+    </div>
+    <div class="sp2">签到赚助学金</div>
+    <img src="../images/zhuxue0.png" class="sp4" alt="">
+    <div class="sp3">连续签到<span>2</span>天</div>
+    <div class="clear"></div>
+  </a>
+  <a class="zhuxue02" href="creditFx.html">
+    <div class="sp1 c2">
+      <img src="../images/zhuxue02.png" alt="">
+    </div>
+    <div class="sp2">分享赚助学金</div>
+    <img src="../images/zhuxue0.png" class="sp4" alt="">
+    <div class="sp3">分享了<span>5</span>次</div>
+    <div class="clear"></div>
+  </a>
+
+  <div class="zhuxue01">助学金使用</div>
+  <a class="zhuxue02" href="creditExchange.html" style="border-bottom:1px solid #e5e5e5;">
+    <div class="sp1 c3">
+      <img src="../images/zhuxue03.png" alt="">
+    </div>
+    <div class="sp2">转送他人</div>
+    <img src="../images/zhuxue0.png" class="sp4" alt="">
+    <div class="clear"></div>
+  </a>
+  <a class="zhuxue02" href="creditMB.html">
+    <div class="sp1 c4">
+      <img src="../images/zhuxue04.png" alt="">
+    </div>
+    <div class="sp2">兑换MB</div>
+    <img src="../images/zhuxue0.png" class="sp4" alt="">
+    <div class="sp3">未兑换<span>2</span>元</div>
+    <div class="clear"></div>
+  </a>
+  
+  <div class="zhuxue03">
+    <a href="creditDetail.html">查看助学金明细<span></span></a>
+    <a href="creditInstruction.html">助学金使用说明</a>
+    <div class="clear"></div>
+  </div>
+  
+  <div class="transparent" style="display:none; top:0;"></div>
+  <div class="MBcenter-tishi">
+    <div class="close">&times;</div>
+    <p>领取成功！</p>
+    <span>您的1000元助学金已到账。报读课程即可使用助学金哦！</span>
+    <a href="">查看你关注的课程</a>
+  </div>
+<script type="text/javascript">
+$(function(){
+  $(".MBcenter-tishi .close").click(function(){
+    $(".MBcenter-tishi").slideUp(300,function(){
+      $(".transparent").fadeOut(200);
+    });
+  });
+})
+</script>
+
+
+</div>
+
+</body>
+</html>

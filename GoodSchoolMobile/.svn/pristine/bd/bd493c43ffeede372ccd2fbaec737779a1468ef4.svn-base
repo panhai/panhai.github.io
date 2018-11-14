@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+	<link rel="stylesheet" type="text/css" href="../../css/UserCenter.css">
+</head>
+<body>
+	<div class="top-navbar">
+		<div class="left"><a href="javascript:history.go(-1)"><i class="navbar-icon icon01"></i></a></div>
+	    <div class="center"></div>
+	</div>
+	<div class="my-cash">
+		<div class="top-cash">
+			<p>我的收益</p>
+			<h2>￥125.00</h2>
+			<a href="" class="receive-btn">立即领取</a>
+			<div class="total">
+				<div>
+					<span>累计获得助学券</span>
+					<strong>55.00</strong>
+				</div>
+				<div>
+					<span>累计获得收益</span>
+					<strong>55.00</strong>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="total-info">
+			<h2 class="title">累计好友<i>14人</i>，好友报读后即可给你带来相应收益</h2>
+			<ul class="user-list clearfix">
+				<li><a href="">
+				  <img src="../../images/UCenter/user_pic.png" alt="">
+				  <h2>潘家住（未报读）</h2>
+				  <p class="p2">已邀请2人，获得助学奖励12元<br>给你带来助学收益45元</p>
+				  <span class="add">+124</span></a>
+				</li>
+				<li><a href="">
+				  <img src="../../images/UCenter/user_pic.png" alt="">
+				  <h2>张家住<i>（已报读）</i></h2>
+				  <p class="p2">已邀请2人，获得助学奖励12元<br>给你带来助学收益45元</p>
+				  <span class="add">+124</span></a>
+				</li>
+				<li><a href="">
+				  <img src="../../images/UCenter/user_pic.png" alt="">
+				  <h2>胖家住</h2>
+				  <p class="p2">已邀请2人，获得助学奖励12元<br>给你带来助学收益45元</p>
+				  <span class="add">+124</span></a>
+				</li>
+			</ul>
+
+			<a href="" class="see-more-btn">点击查更多</a>
+		</div>
+	</div>
+</body>
+</html>

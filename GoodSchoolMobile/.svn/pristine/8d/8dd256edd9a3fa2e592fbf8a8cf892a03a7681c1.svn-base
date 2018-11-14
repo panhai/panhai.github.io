@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+<meta content="telephone=no" name="format-detection" />
+<title>学校优惠详情</title>
+<style>
+body{ background:#e8f5ff;}
+</style>
+</head>
+<link rel="stylesheet" type="text/css" href="css/fonts.css">
+<link rel="stylesheet" type="text/css" href="css/css.css">
+
+<body>
+
+<header class="Header">
+    <div class="left"><a href="javascript:history.go(-1)" class="icon-arrow-left"></a></div>
+    <h1>学校优惠详情</h1>
+</header>
+
+<div class="detail">
+	<a href="detail2.html" class="school-aera displaybox" style="border:none;">
+        <div class="imgbox" style="border:1px solid #e3e8ea;"><img src="images/jinqiao.jpg"></div>
+        <div class="count displayflex">
+            <p class="f16 c-blue">广州津桥外语培训</p>
+            <p class="text">文都教育是一家全国性的教育科技产始创于1996年，查看更多 》文都教育是一家全国性的教育科技产始创于1996年，查看更多 》文都教育是一家全国性的教育科技产始创于1996年，查看更多 》</p>
+        </div>
+    </a>
+</div>
+
+<div class="detail">
+	<div class="dot left"></div>
+    <div class="dot right"></div>
+	<p class="title two">已有20人领券，名额有限，先到先得</p>
+    <a href="login.html" class="youhui-peizhi1">
+        <p class="c-red f18 fbold">优惠券300元</p>
+        <p style="padding-top:5px;">报读任意课程<span class="c-red">立减300元</span></p>
+        <div class="youhui-btn">立即领取</div>
+    </a>
+</div>
+
+<div class="detail">
+	<p class="title">优惠备注</p>
+    <p class="youhui-peizhi">单人报读，一个课程优惠300元，二个课程
+优惠800元，三个课程优惠1500元。到学校
+出示此券，即可享受以上优惠。</p>
+</div>
+
+<div class="detail">
+	<p class="title">开课校区</p>
+    <div class="school-aera displaybox">
+        <div class="imgbox"><img src="images/map02.jpg"></div>
+        <div class="count displayflex">
+            <span class="icon1 icon-arrow-right"></span>
+            <p class="f14">越秀地区越秀地区</p>
+            <p class="text">广州市越秀区中山四路228号城投大厦3.4楼投大厦3.4楼</p>
+        </div>
+    </div>
+    <div class="school-aera displaybox">
+        <div class="imgbox"><img src="images/map02.jpg"></div>
+        <div class="count displayflex">
+            <span class="icon1 icon-arrow-right"></span>
+            <p class="f14">越秀地区越秀地区</p>
+            <p class="text">广州市越秀区中山四路228号城投大厦3.4楼投大厦3.4楼</p>
+        </div>
+    </div>
+    <div class="school-aera displaybox">
+        <div class="imgbox"><img src="images/map02.jpg"></div>
+        <div class="count displayflex">
+            <span class="icon1 icon-arrow-right"></span>
+            <p class="f14">越秀地区越秀地区</p>
+            <p class="text">广州市越秀区中山四路228号城投大厦3.4楼投大厦3.4楼</p>
+        </div>
+    </div>
+    <a href="javascript:void(0)" class="seeall">查看全部&nbsp;<span class="icon-arrow-right"></span></a>
+</div>
+
+<div class="detail f14" style="padding-bottom:10px;">
+	<p class="title">报读须知</p>
+    <p class="xvzhi">1、在好学校登记领取优惠券，到学校缴费报读时出示优惠券，即可享受优惠。</p>
+    <p class="xvzhi">2、优惠券不可转让，需手机验证方可领取1人只可以领取1张。</p>
+    <p class="xvzhi">3、点击【立即领券】可领取优惠券，后续将有专业客服回访，为您解答具体报读流程及优惠。</p>
+    <p class="xvzhi">4、所有费用都是到学校直接缴费，好学校不收取任何费用。</p>
+</div>
+
+<div class="contact-box">
+	<a class="item flex01">
+    	<p class="icon"><span class="icon-consultation"></span></p>
+        <p class="text">电话</p>
+    </a>
+    <a class="item flex01 m-r20">
+    	<p class="icon"><span class="icon-chat pr"><i class="dot-tips">1</i></span></p>
+        <p class="text">在线</p>
+    </a>
+    <a href="login.html" class="flex02 yuyue">立刻领券</a>
+</div>
+<div style="height:50px;"></div>
+
+</body>
+</html>

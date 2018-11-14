@@ -1,0 +1,338 @@
+<!DOCTYPE html >
+<html >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+<meta content="yes" name="apple-mobile-web-app-capable" /> 
+<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+<meta content="telephone=no" name="format-detection" />
+<link rel="stylesheet" type="text/css" href="../css/fonts.css">
+<link rel="stylesheet" type="text/css" href="../css/css.css">
+<link rel="stylesheet" type="text/css" href="../css/css2.css">
+<link rel="stylesheet" type="text/css" href="../css/SchoolCenter.css">
+<link rel="stylesheet" type="text/css" href="../css/PersonalCenter.css">
+
+
+<title>我的咨询</title>
+</head>
+
+<body>
+
+<div class="top-navbar">
+    <div class="left"><a href="javascript:history.go(-1)"><i class="navbar-icon icon01"></i></a></div>
+    <div class="center">我的咨询</div>
+    <!--<div class="right"><a href="Other.html">其他咨询</a></div>-->
+</div>
+
+
+<!--<div class="gr-coursebox">
+    <a href="#" class="gr-thead p-l10 f14" onClick="map()"><span class="icon"></span>广东新东方学广东新东方学校广东新东方学校广东新东方学校校(天河学区）
+        <div class="jiao"></div>
+        <span class="tips f12">新</span>
+        <div class="jiantou"></div>
+    </a>
+    <a href="ConsultationDetail.html" class="gr-courseinfo">
+        <div class="imgbox"><img src="../images/context02.jpg"></div>
+        <div class="content">
+            <p class="c-title">新东方雅思口语班新东方雅思口语班新东方雅思口语班</p>
+            <p class="time-slot">白天班 </p>
+            <p class="c-orange money01">3000元<span class="mb">返现90MB</span></p>
+        </div>
+    </a>
+    <div class="gr-chat-nav">
+        <ul class="chat-ul">
+            <li class="tab"><a href="#"><span class="icon icon01"></span>打给老师<i class="line"></i></a></li>
+            <li class="tab"><a href="Chat.html"><span class="icon icon02"></span>发微信<i class="line"></i></a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="gr-coursebox delete-padding">
+    <a href="#" class="gr-thead p-l10 f14" onClick="map()"><span class="icon"></span>广东新东方学校(天河学区）
+        <div class="jiantou"></div>
+    </a>
+    <a href="ConsultationDetail.html" class="gr-courseinfo">
+        <div class="imgbox"><img src="../images/context02.jpg"></div>
+        <div class="content">
+            <p class="c-title">新东方雅思口语班新东方雅思口语班新东方雅思口语班</p>
+            <p class="time-slot">白天班 </p>
+            <p class="c-orange money01">3000元<span class="mb">返现90MB</span></p>
+        </div>
+    </a>
+    <div class="gr-chat-nav">
+        <ul class="chat-ul">
+            <li class="tab"><a href="#"><span class="icon icon01"></span>打给老师<i class="line"></i></a></li>
+            <li class="tab"><a href="Chat.html"><span class="icon icon02"></span>发微信<i class="line"></i></a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="map">
+    <div class="top">
+        <div class="header-menu">
+            <a class="h_m02" href="UserCenter/Message.html"><span>消息
+                <div class="personal-nav-num">1</div>
+            </span><i></i></a>
+            <a class="h_m03" href="index.html">首页<i></i></a>
+            <a class="h_m04" href="login.html" style="border:0;">用户<i></i></a>
+        </div>
+        <div class="search-area">
+            <span><span>学校地图</span></span>
+        </div>
+        <a class="search-top-return map-return"></a>
+    </div>
+    <div class="map-main">
+        <dl class="map-infor" minh="50" maxh="180" style="height: 50px;">
+            <dt>交通指南：</dt>
+            <dd>
+                <p>附近公交站</p>
+                <p>龙城街道办-公交车站，龙城街道办-公交车站，龙城街道办-公交车站，龙城街道办-公交车站</p>
+                <p>途经公交车：m319路</p>
+            </dd>
+            <dt>交通指南：</dt>
+            <dd>
+                <p>附近公交站</p>
+                <p>龙城街道办-公交车站，龙城街道办-公交车站，龙城街道办-公交车站，龙城街道办-公交车站</p>
+                <p>途经公交车：m319路</p>
+            </dd>
+        </dl>
+        <div class="map-infor-expand">查看更多<i class="arrow-down"></i></div>
+    </div>
+    
+    <div class="map-tip">
+        <div class="map-tip01">朗阁广州培训中心(广州旗舰中心)</div>
+        <p>
+            <span class="map-tip02">地址：天河路490号壬地址壬地址地址：天河路490号壬地址壬地址</span>
+        </p>
+        <img src="images/map-img.png" class="map-img" alt="">
+        <img src="images/map-close.jpg" class="map-close" alt="">
+    </div>
+</div>-->
+
+
+<div class="my-consultation">
+
+<div class="nav-switch m-b10">
+	<ul class="displaybox">
+    	<li class="item displayflex cur"><a>全部</a></li>
+        <li class="item displayflex"><a>咨询中</a></li>
+        <li class="item displayflex"><a>报名确认中</a></li>
+        <li class="item displayflex"><a>已报名</a></li>
+    </ul>
+</div>
+
+<div class="consultation-content">
+
+<div class="list">
+<div class="b-white m-b10">
+    <a  href="../new/SchoolDetails.html" class="courseinfo-h clearfix">
+        <span class="title">广州新通教育（广州总部）</span>
+        <i></i>
+        <span class="f-r">已报名</span>
+    </a>
+    <a href="../new/new-ConsultationDetail.html" class="courseinfo">
+        <div class="imgbox"><img src="../images/context02.jpg"></div>
+        <div class="content">
+            <p class="title row3">新东方雅思口语班新东方雅思口语班新东方雅思口语班</p>
+            <p class="c-grey01">全日制</p>
+            <p><ins class="price">21400</ins></p>     
+        </div>
+    </a>
+    <p class="b-white p10 clearfix">
+        <a href="submit.html" class="small-btn f-r m-r10">提交报名</a>
+        <span class="small-btn border f-r m-r10">联系老师</span>
+        <a href="../new/Map-2.html" class="small-btn border see-jt f-r m-r10">查看交通</a>
+    </p>
+</div>
+<div class="b-white m-b10">
+    <a class="courseinfo-h clearfix">
+        <span class="title">广州新通教育（广州总部）（广州总部）（广州总部）（广州总部）</span>
+        <i></i>
+        <span class="f-r">咨询中</span>
+    </a>
+    <a href="ConsultationDetail.html" class="courseinfo">
+        <div class="imgbox"><img src="../images/context02.jpg"></div>
+        <div class="content">
+            <p class="title row3">新东方雅思口语班新东方雅思口语班新东方雅思口语班</p>
+            <p class="c-grey01">全日制</p>
+            <p><ins class="price">21400</ins></p>     
+        </div>
+    </a>
+    <p class="b-white p10 clearfix">
+        <a href="submit.html" class="small-btn f-r m-r10">提交报名</a>
+        <span class="small-btn border f-r m-r10">联系老师</span>
+        <a href="../new/Map-2.html" class="small-btn border see-jt f-r m-r10">查看交通</a>
+    </p>
+</div>
+</div>
+
+<div class="list">
+<div class="b-white m-b10">
+    <a class="courseinfo-h clearfix">
+        <span class="title">广州新通教育（广州总部）</span>
+        <i></i>
+        <span class="f-r">咨询中</span>
+    </a>
+    <a href="ConsultationDetail.html" class="courseinfo">
+        <div class="imgbox"><img src="../images/context02.jpg"></div>
+        <div class="content">
+            <p class="title row3">新东方雅思口语班新东方雅思口语班新东方雅思口语班</p>
+            <p class="c-grey01">全日制</p>
+            <p><ins class="price">21400</ins></p>     
+        </div>
+    </a>
+    <p class="b-white p10 clearfix">
+        <a href="Submit.html" class="small-btn f-r m-r10">提交报名</a>
+        <span class="small-btn border f-r m-r10">联系老师</span>
+        <a href="../new/Map-2.html" class="small-btn border see-jt f-r m-r10">查看交通</a>
+    </p>
+</div>
+<div class="b-white m-b10">
+    <a class="courseinfo-h clearfix">
+        <span class="title">广州新通教育（广州总部）（广州总部）（广州总部）（广州总部）</span>
+        <i></i>
+        <span class="f-r">咨询中</span>
+    </a>
+    <a href="ConsultationDetail.html" class="courseinfo">
+        <div class="imgbox"><img src="../images/context02.jpg"></div>
+        <div class="content">
+            <p class="title row3">新东方雅思口语班新东方雅思口语班新东方雅思口语班</p>
+            <p class="c-grey01">全日制</p>
+            <p><ins class="price">21400</ins></p>     
+        </div>
+    </a>
+    <p class="b-white p10 clearfix">
+        <a href="submit.html" class="small-btn f-r m-r10">提交报名</a>
+        <span class="small-btn border f-r m-r10">联系老师</span>
+        <a href="../new/Map-2.html" class="small-btn border see-jt f-r m-r10">查看交通</a>
+    </p>
+</div>
+</div>
+
+<div class="list">
+<div class="b-white m-b10">
+    <a class="courseinfo-h clearfix">
+        <span class="title">广州新通教育（广州总部）</span>
+        <i></i>
+        <span class="f-r">报名确认中</span>
+    </a>
+    <a class="courseinfo">
+        <div class="imgbox"><img src="../images/context02.jpg"></div>
+        <div class="content">
+            <p class="title row3">新东方雅思口语班新东方雅思口语班新东方雅思口语班</p>
+            <p class="c-grey01">全日制</p>
+            <p><ins class="price">21400</ins></p>     
+        </div>
+    </a>
+    <p class="b-white p10 clearfix">
+        <a href="submit.html" class="small-btn f-r m-r10">提交报名</a>
+        <span class="small-btn border f-r m-r10">联系老师</span>
+        <a href="../new/Map-2.html" class="small-btn border see-jt f-r m-r10">查看交通</a>
+    </p>
+</div>
+<div class="b-white m-b10">
+    <a class="courseinfo-h clearfix">
+        <span class="title">广州新通教育（广州总部）（广州总部）（广州总部）（广州总部）</span>
+        <i></i>
+        <span class="f-r">报名确认中</span>
+    </a>
+    <a class="courseinfo">
+        <div class="imgbox"><img src="../images/context02.jpg"></div>
+        <div class="content">
+            <p class="title row3">新东方雅思口语班新东方雅思口语班新东方雅思口语班</p>
+            <p class="c-grey01">全日制</p>
+            <p><ins class="price">21400</ins></p>     
+        </div>
+    </a>
+    <p class="b-white p10 clearfix">
+        <a href="submit.html" class="small-btn f-r m-r10">提交报名</a>
+        <span class="small-btn border f-r m-r10">联系老师</span>
+        <a href="../new/Map-2.html" class="small-btn border see-jt f-r m-r10">查看交通</a>
+    </p>
+</div>
+</div>
+
+<div class="list">
+<div class="b-white m-b10">
+    <a class="courseinfo-h clearfix">
+        <span class="title">广州新通教育（广州总部）</span>
+        <i></i>
+        <span class="f-r">已报名</span>
+    </a>
+    <a class="courseinfo">
+        <div class="imgbox"><img src="../images/context02.jpg"></div>
+        <div class="content">
+            <p class="title row3">新东方雅思口语班新东方雅思口语班新东方雅思口语班</p>
+            <p class="c-grey01">全日制</p>
+            <p><ins class="price">21400</ins></p>     
+        </div>
+    </a>
+    <p class="b-white p10 clearfix">
+        <a href="submit.html" class="small-btn f-r m-r10">提交报名</a>
+        <span class="small-btn border f-r m-r10">联系老师</span>
+        <a href="../new/Map-2.html" class="small-btn border see-jt f-r m-r10">查看交通</a>
+    </p>
+</div>
+<div class="b-white m-b10">
+    <a class="courseinfo-h clearfix">
+        <span class="title">广州新通教育（广州总部）（广州总部）（广州总部）（广州总部）</span>
+        <i></i>
+        <span class="f-r">已报名</span>
+    </a>
+    <a class="courseinfo">
+        <div class="imgbox"><img src="../images/context02.jpg"></div>
+        <div class="content">
+            <p class="title row3">新东方雅思口语班新东方雅思口语班新东方雅思口语班</p>
+            <p class="c-grey01">全日制</p>
+            <p><ins class="price">21400</ins></p>     
+        </div>
+    </a>
+    <p class="b-white p10 clearfix">
+        <a href="submit.html" class="small-btn f-r m-r10">提交报名</a>
+        <span class="small-btn border f-r m-r10">联系老师</span>
+        <a href="../new/Map-2.html" class="small-btn border see-jt f-r m-r10">查看交通</a>
+    </p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<!--<div class="Map">
+    <div class="Header">
+        <div class="left"><a class="BACK icon-arrow-left"></a></div>
+        <h1>学校地图</h1>
+        <div class="right"><a class="f18 gj">公交</a></div>
+    </div>
+	<div class="bus">
+    	<div class="item">
+        	<p class="h">公交指南</p>
+        	<p class="text">10路夜班、136路、302A路、302A路时代、10路夜班、136路、302A路、302A路时代、10路夜班、136路、302A路、302A路时代</p>
+        </div>
+    </div>
+    <div class="site">
+    	<div class="item">
+        	<p class="h">高考生理性留学校高考生理性留学校高考生理性留学校</p>
+            <p class="text">天河区天河路壬丰大厦490号西厅711室天河区天河路壬丰大厦490号西厅711室</p>
+        </div>
+        <div class="btn displaybox">
+        	<a class="jg-btnmiddle btn01">到这里去</a>
+            <a class="jg-btnmiddle btn02">拨打老师电话</a>
+        </div>
+    </div>
+</div>-->
+    
+</body>
+</html>
+
+<script src="../js/jquery.js"></script>
+<script src="../js/admin/Personal.js"></script>
+<script src="../js/plugin/tab.js"></script>
+<script src="../js/js.js"></script>
+<script src="../js/js2.js"></script>
+<script>
+$(function(){
+	CHItab(".my-consultation",".nav-switch .item",".consultation-content .list")
+})
+</script>

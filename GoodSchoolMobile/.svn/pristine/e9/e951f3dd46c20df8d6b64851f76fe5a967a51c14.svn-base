@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/> 
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+	<link rel="stylesheet" type="text/css" href="../css/booking.css">
+    <link rel="stylesheet" type="text/css" href="../css/fonts.css">
+	<title>咨询详情</title>
+</head>
+
+<body style="background:#efefef;">
+<div class="Header">
+    <div class="left"><a href="javascript:history.go(-1)" class="BACK icon-arrow-left"></a></div>
+    <h1>咨询详情</h1>
+    <a href="../UCenter/MyConsultation.html" class="Header-r">我的预约</a>
+</div>
+<section class="info">
+    <div class="info-in">
+    <a href="CourseDetails.html">
+        <div class="info-t">
+            
+            <div class="info-pic">
+                <img src="../images/mylisten-other3.png" alt="" />
+            </div>
+            <div class="info-txt">
+                <h2>瑞思玛特英语同质同步美国幼儿园</h2>
+                <p><span>120课时</span><em>小班</em> <i class="icon-arrow-right"></i></p>
+                <div class="info-txt-b">
+                    <span><em>￥</em>78000.00</span>
+                    <span>￥20</span>
+
+                </div>
+            </div>
+        </div>
+        </a>
+    </div>
+</section>
+<div class="welfare">
+    <span>贵就赔</span>
+    <span>教学保障</span>
+    <span>现金返利</span>
+    <em class="icon-arrow-right"></em>
+</div>
+<div class="consult-State">
+    <p>李老师已查看你的咨询单，将与您联系</p>
+    <p>2015-04-24 12:45</p>
+   <em class="icon-arrow-right"></em>
+</div>
+<div class="Discount clearfix">
+    <h2>优惠信息</h2>
+    <div class="Discount-in">
+        <h3>抵用券500元</h3>
+    <p>在线支付100元即可领取抵用券，到校报名缴费时出示抵用
+券支付码即可抵扣学费，到校报名前可随时退款。</p>
+<em class="icon-arrow-right"></em>
+    </div>
+
+</div>
+<ul class="payment-Info">
+    <li>
+        <div class="item-l">
+            <span>已领抵用券：</span>
+            <span><em>￥</em>500</span>
+        </div>
+        <div class="item-r">
+            <a href="new-refund.html">申请退款</a>
+        </div>
+    </li>
+    <li>
+        <div class="item-l">
+            支付码： <i>1452441</i>
+        </div>
+        <div class="item-r"><span>未使用</span></div>
+    </li>
+    <li>到校出示此支付码即可抵扣500元学费</li>
+</ul>
+<div class="school-Info">
+    <h2>学校信息</h2>
+    <div class="school-Info-in">
+        <div class="school-addr">
+            <p>环球雅思（天河校区）</p>
+            <p>广州天河区东圃王园路启星商务中心A座</p>
+        </div>
+        <div class="school-map"></div>
+    </div>
+    <div class="school-contact">
+        <a href="">联系老师</a><a href="">在线交谈</a>
+    </div>
+</div>
+<!-- 课程详情 -->
+<div class="course-Info">
+    <h2>课程详情</h2>
+    <div class="course-Info-in">
+    <h3>长沙在校生英语口语专业培训课程</h3> 
+
+    <p>在校大学生，英语发音薄弱的学生广州雅思vip6.5分保分班分保
+分可使用助学金领取30元现金优惠。在校大学生，英语发音薄
+弱的学生广州雅思vip6.5分保分班分保分可使。</p>
+<br>
+    <p>美语发音，美语语调，所用教材American Accent Training和
+在校大学生，英语发音薄弱的学生广州雅思vip6.5分保分班分保
+分可使用助学金领取30元现金优惠。</p>
+    <p>美语发音，美语语调，所用教材American Accent Training和
+在校大学生，英语发音薄弱的学生广州雅思vip6.5分保分班分保
+分可使用助学金领取30元现金优惠。</p>
+
+    <p>美语发音，美语语调，所用教材American Accent Training和
+在校大学生，英语发音薄弱的学生广州雅思vip6.5分保分班分保
+分可使用助学金领取30元现金优惠。</p>
+    </div>
+    <div class="course-more">
+    <em>查看全部</em>
+    <span class="icon-arrow-right"></span>
+</div>
+</div>
+<div class="contact">
+    <img src="../images/map.jpg"/>
+    <h3>彭老师</h3>
+    <p>如有疑问，请联系好学校专属老师</p>
+</div>
+<div class="school-contact footer">
+    <a href="">联系老师</a><a href="">在线交谈</a>
+</div>
+<div class="serviceTip">
+    <h2>服务说明</h2>
+    <p>通过好学校报读，您将享受以下3大服务保障：</p>
+    <div class="item">
+       <p class="item-g">贵就赔：</p> 
+       <p>好学校确保您全班报名价格最低，若高于同班同学可向
+        好学校申诉，好学校给您3倍差额赔付。</p>
+
+    </div>
+    <div class="item">
+        <p class="item-b">教学保障：</p>
+        <p>您在好学校报读课程，您的点评将影响学校招生，学校和
+        授课老师会更加重视和关照您，带给您更优质教学。</p>
+    </div>
+    <div class="item">
+        <p class="item-f">现金返利：</p>
+        <p>您在好学校报读课程，除最低价保障外，您还可以在报读
+        后，到好学校点评课程领取课程返现。</p>
+    </div>
+    
+    <h3>备注：以上服务需唯一通过好学校预约报名方可享受。</h3>
+    <div class="service-close">
+        关闭
+    </div>
+</div>
+<div class="procedure procedureTip">
+    <h2>报名详情</h2>
+    <div class="item">
+        <div class="item-l"></div>
+        <div class="item-r">
+            <p>你已提交报名，报名确认中</p>
+            <p>2015-01-24 12:45</p>
+        </div>
+    </div>
+    <div class="item">
+        <div class="item-l"></div>
+        <div class="item-r">
+            <p>李老师已查看你的咨询单，将与您联系</p>
+            <p>2015-01-24 12:45</p>
+        </div>
+    </div>
+    <div class="item">
+        <div class="item-l"></div>
+        <div class="item-r">
+            <p>你已成功咨询，系统已将你的咨询单发送给广州
+千秋业教育</p>
+            <p>2015-01-24 12:45</p>
+        </div>
+    </div>
+    <p class="service-close">
+        关闭
+    </p>
+</div>
+<div class="Cover"></div>
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script type="text/javascript">
+    // 打开服务说明
+    $(".welfare").click(function(){
+        $(".Cover").show();
+        $(".serviceTip").show().addClass('slideInUp animated');
+    });
+    $(".service-close").click(function(){
+        $(".Cover").hide();
+        $(".serviceTip").hide();
+           $(".procedureTip").hide();
+    })
+    // 打开遮罩层
+    $(".Cover").click(function(){
+        $(this).hide();
+        $(".serviceTip").hide();
+        $(".procedureTip").hide();
+    })
+    // 打开报名详情
+    $(".consult-State").click(function(){
+        $(".Cover").show();
+        $(".procedureTip").show().addClass('slideInUp animated');
+    });
+
+    // 查看更多
+    $(".course-more").click(function(){
+        if ($(this).hasClass('on')) {
+            $(this).removeClass('on').find('em').text('查看全部');
+            $(".course-Info-in").height(200);
+        }else{
+            $(".course-Info-in").height("auto");
+            $(this).addClass('on').find('em').text('收起');
+        }
+      
+    })
+</script>

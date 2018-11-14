@@ -1,0 +1,86 @@
+<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/> 
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+	<link rel="stylesheet" type="text/css" href="../css/css.css">
+    <link rel="stylesheet" type="text/css" href="../css/css2.css">
+    <link rel="stylesheet" type="text/css" href="../css/fonts.css">
+	<title>地图</title>
+</head>
+
+<body>
+<!--<header class="Header" style="z-index:2;">
+    <div class="left"><a href="javascript:history.go(-1)" class="icon-arrow-left"></a></div>
+    <div class="search-box m02 displaybox">
+        <input class="search-word" type="text">
+        <div class="submit"><span class="icon-search"></span></div>
+    </div>
+</header>-->
+<header class="Header">
+    <div class="left"><a href="javascript:history.go(-1)" class="icon-arrow-left"></a></div>
+    <h1>学校地图</h1>
+    <div class="right"><a class="f18 gj" style="margin-right:5px;">公交</a><a class="icon-dots-three-horizontal"></a></div>
+    <div class="Header-menu">
+    	<div class="arrow-up"></div>
+    	<a href="index.html" class="item"><span class="icon-index"></span>首页</a>
+        <a href="../UCenter/Personal.html" class="item"><span class="icon-my"></span>个人中心</a>
+        <a href="SearchCourse.html" class="item"><span class="icon-search2"></span>搜索</a>
+    </div>
+</header>
+
+
+<div class="Map" style="display:block">
+    <!--<div class="Header">
+        <div class="left"><a href="javascript:history.go(-1)" class="icon-arrow-left"></a></div>
+        <h1>学校地图</h1>
+        <div class="right"><a class="f18 gj">公交</a></div>
+    </div>-->
+	<div class="bus">
+    	<div class="item">
+        	<p class="h">公交指南</p>
+        	<p class="text">10路夜班、136路、302A路、302A路时代、10路夜班、136路、302A路、302A路时代、10路夜班、136路、302A路、302A路时代</p>
+        </div>
+    </div>
+    <div id="map"></div>
+    <div class="site">
+    	<div class="item">
+        	<p class="h">高考生理性留学校高考生理性留学校高考生理性留学校</p>
+            <p class="text">天河区天河路壬丰大厦490号西厅711室天河区天河路壬丰大厦490号西厅711室</p>
+        </div>
+        <div class="btn displaybox">
+        	<a class="jg-btnmiddle btn01">到这里去</a>
+            <a class="jg-btnmiddle btn02">拨打老师电话</a>
+        </div>
+    </div>
+</div>
+
+<div class="background"></div>
+
+</body>
+</html>
+
+<script src="../js/jquery.js"></script>
+<script src="../js/iscroll.js"></script>
+<script src="../js/js2.js"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?type=quick&ak=OlGzoCwcKN9OvM16T9RnFwOl&v=1.0"></script>
+
+
+	
+	
+
+<script>
+$(function(){
+	$(".school-info .content div").click(function(e){
+		e.stopPropagation();
+	})
+	
+	// 百度地图API功能
+	var map = new BMap.Map("map");
+	var point = new BMap.Point(116.404, 39.915);
+	map.centerAndZoom(point, 15);
+})
+</script>

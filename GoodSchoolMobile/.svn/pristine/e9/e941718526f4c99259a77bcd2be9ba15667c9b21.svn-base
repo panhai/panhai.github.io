@@ -1,0 +1,91 @@
+<!DOCTYPE html >
+<html >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+<meta content="yes" name="apple-mobile-web-app-capable" /> 
+<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+<meta content="telephone=no" name="format-detection" />
+<link rel="stylesheet" type="text/css" href="../css/css.css" />
+<link rel="stylesheet" type="text/css" href="../css/css2.css"/>
+<link rel="stylesheet" type="text/css" href="../css/SchoolCenter.css">
+
+<title>信息聊天</title>
+</head>
+
+<body>
+	<div class="top-navbar">
+    	<div class="left"><a href="javascript:history.go(-1)"><i class="navbar-icon icon01"></i></a></div>
+        <div class="center">好学校-彭老师</div>
+        <div class="right"><a href="new-SchoolCenter.html">首页</a></div>
+    </div>
+    
+    <div class="jg-chat">
+        
+        <div class="jg-chatinfo clearfix">
+        	<div class="i-img"><img src="../images/SchoolCenter/i-img.jpg"></div>
+            <div class="text"><i class="jiao"></i><span class="text01">两款发动机的师科技两款发动机的师科技是的疯狂的克拉是的克拉是否两款发动机的师科技是的疯狂的克拉是的克拉是否是的疯狂的克拉是的克拉是否</span></div>
+        </div>
+        
+        <div class="jg-chatinfo clearfix">
+        	<div class="i-img"><img src="../images/SchoolCenter/i-img.jpg"></div>
+            <div class="text"><i class="jiao"></i><span class="text01">77</span></div>
+        </div>
+        <div class="jg-chatime"><span class="time01">2015-05-15&nbsp;10:51</span></div>
+        <div class="jg-chatinfo reply02 clearfix">
+        	<div class="i-img"><img src="../images/SchoolCenter/i-img.jpg"></div>
+            <div class="text"><i class="jiao"></i><span class="text01">挺合适的</span></div>
+            
+        </div>
+        <div class="jg-chatinfo reply02 clearfix">
+        	<div class="i-img"><img src="../images/SchoolCenter/i-img.jpg"></div>
+            <div class="text"><i class="jiao"></i><span class="text01">的立方可接受的发来的开始放假是的离开福建省；的路口附近</span></div>
+        </div>
+    
+    </div>
+    
+    <div class="jg-chatinput">
+    	<input type="text" class="text">
+        <div class="send"><div class="btn01">发送</div><span class="moble"></span></div>
+    </div>
+    
+    <!--<div class="ejectbox " style="display:none;">
+        <div class="boxarea">	
+            <div class="topbar"><div class="title">填写回访记录</div><div class="close"></div></div>
+            <div class="boxcontent ejectrecord">
+                <textarea class="textarea" placeholder="回复学员" rows="5"></textarea>
+                <div class="select">
+                    <span class="option">不需要</span>
+                    <span class="option">电话关机</span>
+                    <span class="option">电话忙</span>
+                    <span class="option now">还没有时间</span>
+                    <span class="option">电话无人接听</span>
+                </div>
+                <div class="jg-btnbig">提交</div>
+            </div>
+        </div>
+    </div>-->
+    
+    <div class="boxarea boxarea02" style="display:none">	
+        <div class="topbar"><div class="title">填写回访记录</div><div class="close"></div></div>
+        <div class="boxcontent ejectrecord">
+            <textarea class="textarea" placeholder="回复学员" rows="5"></textarea>
+            <div class="select">
+                <span class="option">不需要</span>
+                <span class="option">电话关机</span>
+                <span class="option">电话忙</span>
+                <span class="option now">还没有时间</span>
+                <span class="option">电话无人接听</span>
+            </div>
+            <div class="title01">计划下次回访时间：</div>
+            <input class="time01" type="text" placeholder="2015-05-05 10:12">
+            <div class="jg-btnbig">提交</div>
+        </div>
+    </div>
+    <div class="background"></div>
+    
+    
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/admin/Agency.js"></script>

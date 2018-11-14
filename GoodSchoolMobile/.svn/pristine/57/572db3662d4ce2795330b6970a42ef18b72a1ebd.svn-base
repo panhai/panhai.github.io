@@ -1,0 +1,2489 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/> 
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+    <link rel="stylesheet" type="text/css" href="../css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="../css/css.css">
+    <link rel="stylesheet" type="text/css" href="../css/css2.css">
+    <!--<link rel="stylesheet" type="text/css" href="../css/swiper.css">-->
+	<title>微网站首页</title>
+</head>
+<body>
+
+<div class="Index" style="padding-bottom:44px;">
+    
+<header class="Header" >
+    <div class="left"><a class="f18" href="#">好学校</a></div>
+    <div class="search-box m01 displaybox" style="margin-right:45px;">
+        <div class="city-link">
+            <i>广州</i>
+            <span class="icon-triangle-down"></span>
+        </div>
+        <input class="search-word" type="text" placeholder="搜索你想报读的专业">
+        <div class="submit"><span class="icon-search"></span></div>
+    </div>
+    <div class="right">
+    	<a href="Classify.html" class="icon-bigClass f18" style="vertical-align:top; line-height:12px; padding-top:8px;"><br><span  style="font-size:10px;line-height:10px;">分类</span></a>
+    </div>
+</header>
+
+<!--<div class="banner-box swiper-container">
+    <ul class="swiper-wrapper">
+        <li class="swiper-slide"><img src="../images/SchoolCenter/picture .jpg"></li>
+        <li class="swiper-slide"><img src="../images/UCenter/banner2.jpg" ></li>
+        <li class="swiper-slide"><img src="../images/UCenter/banner1.png"></li>
+    </ul>
+    <div class="swiper-pagination"></div>
+</div>-->
+<div class="banner-box" id="banner-box">
+    <ul class="">
+        <li><img src="../images/UCenter/banner2.jpg" ></li>
+        <li><img src="../images/UCenter/banner1.png"></li>
+        <li><img src="../images/personal-banner.jpg"></li>
+        <li><img src="../images/banner.jpg"></li>
+        <li><img src="../images/SchoolCenter/picture .jpg"></li>
+    </ul>
+    <div class="banner-pagination"></div>
+</div>
+
+
+<div class="bigclass-box">
+    <ul class="bigclass clearfix">
+        <li class="item" data-list="bigClassYY">
+            <div class="icon bc-b1"><span class="icon-class1"></span></div>
+            <p class="text">语言培训</p>
+        </li>
+        <li class="item" data-list="bigClassZY">
+            <div class="icon bc-b2"><span class="icon-class2"></span></div>
+            <p class="text">职业技能</p>
+        </li>
+        <li class="item" data-list="bigClassIT">
+            <div class="icon bc-b3"><span class="icon-class3"></span></div>
+            <p class="text">IT/设计</p>
+        </li>
+        <li class="item" data-list="bigClassXL">
+            <div class="icon bc-b4"><span class="icon-class4"></span></div>
+            <p class="text">学历教育</p>
+        </li>
+        <li class="item" data-list="bigClassJC">
+            <div class="icon bc-b5"><span class="icon-class5"></span></div>
+            <p class="text">基础教育</p>
+        </li>
+        <li class="item" data-list="bigClassZG">
+            <div class="icon bc-b6"><span class="icon-class6"></span></div>
+            <p class="text">资格认证</p>
+        </li>
+        <li class="item" data-list="bigClassWT">
+            <div class="icon bc-b7"><span class="icon-class7"></span></div>
+            <p class="text">文体艺术</p>
+        </li>
+        <li class="item" data-list="bigClassQY">
+            <div class="icon bc-b8"><span class="icon-class8"></span></div>
+            <p class="text">企业管理</p>
+        </li>
+    </ul>
+</div>
+
+<a href="../SpecialTopic/college/aoutGoodSchool.html" class="security-box">
+    <ul class="security clearfix">
+        <li class="item">
+        	<span class="icon"><img src="../images/icon-good1.png" /></span>
+            <span class="text">100%正规</span>
+        </li>
+        <li class="item">
+        	<span class="icon"><img src="../images/icon-good2.png" /></span>
+            <span class="text">低价保障</span>
+        </li>
+        <li class="item">
+        	<span class="icon"><img src="../images/icon-good3.png" /></span>
+            <span class="text">优质保障</span>
+        </li>
+    </ul>
+</a>
+
+<div class="hotclass">
+	<a href="SearchCourse.html" class="left" style=" background:url(../images/liuxue-1.png) no-repeat bottom left; background-size:100% auto;">
+    	<p class="h bc-c1 p-l12">雅思</p>
+        <p class="text p-l12">出国留学</p>
+    </a>
+    <div class="right">
+    	<a href="SearchCourse.html" class="up" style="background:url(../images/chushi-1.png) no-repeat top right; background-size:auto 3.5rem;">
+        	<p class="h bc-c6">自考</p>
+            <p class="text">拿学历</p>
+        </a>
+        <div class="down clearfix">
+        	<a href="SearchCourse.html" class="down01">
+            	<p class="h bc-c2">公务员</p>
+            	<p class="text">参加保过班</p>
+            </a>
+            <a href="SearchCourse.html" class="down02">
+            	<p class="h bc-c8">平面设计</p>
+            	<p class="text">做个平面设计师</p>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="classmenu b3">
+<div class="clearfix">
+    <div class="h">职业培训</div>
+    <a href="javascript:void(0)" class="more" data-list="bigClassZY">更多<span class="icon icon-arrow-right"></span></a>
+</div>
+<a href="http://cs.91goodschool.com/kc-tsxc/" class="pic"><img src="../images/zhiye.jpg"><!--<img src="../images/UCenter/banner2.jpg">--></a>
+<a href="CourseDetails.html" class="courseinfo">
+	<div class="imgbox"><img src="../images/context02.jpg"></div>
+    <div class="content">
+    	<p class="title row2">新东方雅思口语班新东方雅思口语班新东方雅思口语班</p>
+        <p><span class="price">28888</span><span class="return-cash">30元</span></p>
+    </div>
+</a>
+<a href="CourseDetails.html" class="courseinfo lostline">
+	<div class="imgbox"><img src="../images/context02.jpg"></div>
+    <div class="content">
+    	<p class="title row2">新东方雅思口语班新东方雅思口语班新东方雅思口语班</p>
+        <p><span class="price">28888</span><span class="return-cash">30元</span></p>
+    </div>
+</a>
+<ul class="smal-class clearfix">
+	<li class="item b1"><a href="SearchCourse.html" class="bc-c1">婴幼儿早教早好</a></li>
+    <li class="item b2"><a href="SearchCourse.html" class="bc-c6">平面设计</a></li>
+    <li class="item b3"><a href="SearchCourse.html" class="bc-c8">商务英语</a></li>
+    <li class="item b4"><a href="SearchCourse.html" class="bc-c7">环球雅思</a></li>
+</ul>
+</div>
+
+<div class="classmenu b1">
+<div class="clearfix">
+    <div class="h">语言培训</div>
+    <a href="javascript:void(0)" class="more" data-list="bigClassYY">更多<span class="icon icon-arrow-right"></span></a>
+</div>
+<a href="http://cs.91goodschool.com/kc-riyu/" class="pic"><img src="../images/yuyan.jpg"></a>
+<a href="CourseDetails.html" class="courseinfo">
+	<div class="imgbox"><img src="../images/context02.jpg"></div>
+    <div class="content">
+    	<p class="title row2">新东方雅思口语班新东方雅思口语班新东方雅思口语班</p>
+        <p><span class="price">28888</span><span class="return-cash">30元</span></p>
+    </div>
+</a>
+<a href="CourseDetails.html" class="courseinfo lostline">
+	<div class="imgbox"><img src="../images/context02.jpg"></div>
+    <div class="content">
+    	<p class="title row2">新东方雅思口语班新东方雅思口语班新东方雅思口语班</p>
+        <p><span class="price">28888</span><span class="return-cash">30元</span></p>
+    </div>
+</a>
+<ul class="smal-class clearfix">
+	<li class="item b1"><a href="SearchCourse.html" class="bc-c1">婴幼儿早教</a></li>
+    <li class="item b2"><a href="SearchCourse.html" class="bc-c6">平面设计</a></li>
+    <li class="item b3"><a href="SearchCourse.html" class="bc-c8">商务英语</a></li>
+    <li class="item b4"><a href="SearchCourse.html" class="bc-c7">环球雅思</a></li>
+</ul>
+</div>
+
+<div class="classmenu b3">
+<div class="clearfix">
+    <div class="h">IT/设计</div>
+    <a href="javascript:void(0)" class="more" data-list="bigClassIT">更多<span class="icon icon-arrow-right"></span></a>
+</div>
+<a href="http://cs.91goodschool.com/kc-pmsj/" class="pic"><img src="../images/sheji.jpg"></a>
+<a class="courseinfo">
+	<div class="imgbox"><img src="../images/context02.jpg"></div>
+    <div class="content">
+    	<p class="title row2">新东方雅思口语班新东方雅思口语班新东方雅思口语班</p>
+        <p><span class="price">28888</span><span class="return-cash">30元</span></p>
+    </div>
+</a>
+<a class="courseinfo lostline">
+	<div class="imgbox"><img src="../images/context02.jpg"></div>
+    <div class="content">
+    	<p class="title row2">新东方雅思口语班新东方雅思口语班新东方雅思口语班</p>
+        <p><span class="price">28888</span><span class="return-cash">30元</span></p>
+    </div>
+</a>
+<ul class="smal-class clearfix">
+	<li class="item b1"><a href="SearchCourse.html" class="bc-c1">婴幼儿早教</a></li>
+    <li class="item b2"><a href="SearchCourse.html" class="bc-c6">平面设计</a></li>
+    <li class="item b3"><a href="SearchCourse.html" class="bc-c8">商务英语</a></li>
+    <li class="item b4"><a href="SearchCourse.html" class="bc-c7">环球雅思</a></li>
+</ul>
+</div>
+
+<div class="classmenu b1">
+	<div class="clearfix">
+    	<div class="h">学历教育</div>
+        <a href="javascript:void(0)" class="more" data-list="bigClassXL">更多<span class="icon icon-arrow-right"></span></a>
+    </div>
+    <div class="count clearfix">
+    	
+        <a class="item" href="SearchCourse.html"><p>中专专中专中专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>中专专中中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>中专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>中专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>中专专中专中专中专中专专中专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>中专专中专中专中专中专专中专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>中专专中专中专中专中专专中专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>中专专中专中专中专中专专中专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>中专专中专中专中专中专专中专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>中专专中专中中专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+    </div>
+</div>
+
+<div class="classmenu b2">
+	<div class="clearfix">
+    	<div class="h">课外辅导</div>
+        <a href="javascript:void(0)" class="more" data-list="bigClassJC">更多<span class="icon icon-arrow-right"></span></a>
+    </div>
+    <div class="count clearfix">
+    	<a class="item" href="SearchCourse.html"><p>中专专中专中专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>中专专中中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>中专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>中专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>中专专中专中专中专中专专中专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>中专专中专中专中专中专专中专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>中专专中专中专中专中专专中专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>中专专中专中专中专中专专中专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>中专专中专中专中专中专专中专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>中专专中专中中专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+    </div>
+</div>
+
+<div class="classmenu b3">
+	<div class="clearfix">
+    	<div class="h">兴趣特长</div>
+        <a href="javascript:void(0)" class="more" data-list="bigClassWT">更多<span class="icon icon-arrow-right"></span></a>
+    </div>
+    <div class="count clearfix">
+    	<a class="item" href="SearchCourse.html"><p>中专专中专中专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>中专专中中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>中专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>中专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>中专专中专中专中专中专专中专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>中专专中专中专中专中专专中专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>中专专中专中专中专中专专中专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>中专专中专中专中专中专专中专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>中专专中专中专中专中专专中专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>中专专中专中中专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+    	<!--<li class="item"><a href="SearchCourse.html">芭蕾</a></li>
+        <li class="item"><a href="SearchCourse.html">爵士舞</a></li>
+        <li class="item"><a href="SearchCourse.html">拉丁舞</a></li>
+        <li class="item"><a href="SearchCourse.html">瑜伽</a></li>
+        <li class="item"><a href="SearchCourse.html">健美操</a></li>
+        <li class="item"><a href="SearchCourse.html">钢琴</a></li>
+        <li class="item"><a href="SearchCourse.html">吉他</a></li>
+        <li class="item"><a href="SearchCourse.html">篮球</a></li>
+        <li class="item"><a href="SearchCourse.html">跆拳道</a></li>-->
+    </div>
+</div>
+
+<div class="classmenu b4">
+	<div class="clearfix">
+    	<div class="h">资格认证</div>
+        <a href="javascript:void(0)" class="more" data-list="bigClassZG">更多<span class="icon icon-arrow-right"></span></a>
+    </div>
+    <div class="count clearfix">
+    	<a class="item" href="SearchCourse.html"><p>中专专中专中专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>中专专中中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>中专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>中专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>中专专中专中专中专中专专中专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>中专专中专中专中专中专专中专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>中专专中专中专中专中专专中专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>中专专中专中专中专中专专中专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>中专专中专中专中专中专专中专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>中专专中专中中专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+    	<!--<li class="item"><a href="SearchCourse.html">平面设计</a></li>
+        <li class="item"><a href="SearchCourse.html">室内设计</a></li>
+        <li class="item"><a href="SearchCourse.html">景观设计</a></li>
+        <li class="item"><a href="SearchCourse.html">微软认证</a></li>
+        <li class="item"><a href="SearchCourse.html">CISCO认证</a></li>
+        <li class="item"><a href="SearchCourse.html">IOS</a></li>
+        <li class="item"><a href="SearchCourse.html">C/C++</a></li>
+        <li class="item"><a href="SearchCourse.html">VB语言</a></li>
+        <li class="item"><a href="SearchCourse.html">办公软件</a></li>-->
+    </div>
+</div>
+
+<div class="classmenu b5">
+	<div class="clearfix">
+    	<div class="h">企业管理</div>
+        <a href="javascript:void(0)" class="more" data-list="bigClassQY">更多<span class="icon icon-arrow-right"></span></a>
+    </div>
+    <div class="count clearfix">
+    	<a class="item" href="SearchCourse.html"><p>中专专中专中专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>中专专中中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>中专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>中专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>中专专中专中专中专中专专中专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>中专专中专中专中专中专专中专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>中专专中专中专中专中专专中专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>中专专中专中专中专中专专中专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>中专专中专中专中专中专专中专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>中专专中专中中专中专中专中专</p></a>
+        <a class="item" href="SearchCourse.html"><p>专中专中专中专</p></a>
+    	<!--<li class="item"><a href="SearchCourse.html">雅思</a></li>
+        <li class="item"><a href="SearchCourse.html">外贸英语</a></li>
+        <li class="item"><a href="SearchCourse.html">雅思</a></li>
+        <li class="item"><a href="SearchCourse.html">托福</a></li>
+        <li class="item"><a href="SearchCourse.html">GRE</a></li>
+        <li class="item"><a href="SearchCourse.html">商务英语</a></li>
+        <li class="item"><a href="SearchCourse.html">英语翻译</a></li>
+        <li class="item"><a href="SearchCourse.html">法语</a></li>
+        <li class="item"><a href="SearchCourse.html">阿拉伯语</a></li>-->
+    </div>
+</div>
+
+<div class="findcs">
+	<a class="item clearfix" href="SearchCourse.html">
+    	<div class="icon bc-b1"><span class="icon-findCourse"></span></div>
+        <div class="text">找课程</div>
+    </a>
+    <a class="item clearfix" href="SearchSchool.html">
+    	<div class="icon bc-b5"><span class="icon-findShool"></span></div>
+        <div class="text">找学校</div>
+    </a>
+</div>
+
+<div class="logo-grey">
+	<div class="imgbox"><img src="../images/logo-grey.png" /></div>
+    <p class="text">读书培训，找好学校</p>
+</div>
+
+<div class="bottomnav clearfix">
+	<a class="item" href="index.html"><p class="icon"><span class="icon-index2 bc-c1"></span></p><p class="text">首页</p></a>
+    <a class="item" href="SearchCourse.html"><p class="icon"><span class="icon-sort"></span></p><p class="text"><!--分类-->搜索</p></a>
+    <a class="item" href="getInfo.html"><p class="icon"><span class="icon-receiver"></span></p><p class="text">咨询</p></a>
+    <a class="item" href="../UCenter/Personal.html"><p class="icon"><span class="icon-my"></span></p><p class="text">我的</p></a>
+</div>
+
+<div class="bottomload"><img src="../images/bg_loading.gif"></div>
+
+</div><!--结尾-->
+
+
+<div class="tab-container bigClassYY">
+    <div class="Header">
+        <div class="left"><a class="icon-arrow-left"></a></div>
+        <h1>语言培训</h1>
+    </div>
+     
+    <div class="tab-content clearfix">
+    <div class="tab-nav">
+        <ul>
+            <li><span class="bigclass-text">雅思托福</span><span class="icon1 icon-arrow-right"></span></li>
+            <li class="cur"><span class="bigclass-text">英语考证</span><span class="icon1 icon-arrow-right"></span></li>
+            <li><span class="bigclass-text">外语翻译</span><span class="icon1 icon-arrow-right"></span></li>
+            <li><span class="bigclass-text">行业英语</span><span class="icon1 icon-arrow-right"></span></li>
+            <li><span class="bigclass-text">综合英语</span><span class="icon1 icon-arrow-right"></span></li>
+            <li><span class="bigclass-text">小语种</span><span class="icon1 icon-arrow-right"></span></li>
+            <li><span class="bigclass-text">更多课程</span><span class="icon1 icon-arrow-right"></span></li>
+        </ul>
+    </div>
+    <div class="tab-menu  clearfix">
+        <ul class="tab-ul">
+            <li class="tab-li">
+                <div class="tab-list">
+                    <ul class="clearfix">
+                        <li class="tab-class"><a href="javascript:void(0)">雅思</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">托福</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">SAT</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">SSAT</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">GRE</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">托业</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">PTE</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">A-level</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">ACT</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">GMAT</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">TOPE</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">IGCSE</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">SLEP</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">留学预科班</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="tab-li">
+            	<div class="tab-list">
+                    <ul class="clearfix">
+                        <li class="tab-class"><a href="javascript:void(0)">考研英语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">英语四级</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">公共英语(PETS)</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">英语六级</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">专业四级</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">专业八级</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">考博英语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">学位英语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">在职申硕英语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">职称英语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">自考英语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">专业四级</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="tab-li">
+            	<div class="tab-list">
+                    <ul class="clearfix">
+                        <li class="tab-class"><a href="javascript:void(0)">英语笔译</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">英语翻译</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">英语口译</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">同声传译</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="tab-li">
+            	<div class="tab-list">
+                    <ul class="clearfix">
+                        <li class="tab-class"><a href="javascript:void(0)">商务英语(BEC)</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">外贸英语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">服装英语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">旅游英语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">面试英语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">金融英语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">影视英语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">酒店英语</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="tab-li">
+            	<div class="tab-list">
+                    <ul class="clearfix">
+                        <li class="tab-class"><a href="javascript:void(0)">新概念</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">英语口语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">英语零起点</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">剑桥英语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">少儿英语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">日常英语</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="tab-li">
+            	<div class="tab-list">
+                    <ul class="clearfix">
+                        <li class="tab-class"><a href="javascript:void(0)">日语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">德语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">法语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">阿拉伯语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">越南语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">葡萄牙语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">匈牙利语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">波兰语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">意大利语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">西班牙语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">瑞典语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">波斯语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">韩语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">俄语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">印尼语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">印度语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">缅甸语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">土耳其语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">泰语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">马来西亚语</a></li>
+                        
+                        
+                        <li class="tab-class"><a href="javascript:void(0)">日语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">德语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">法语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">阿拉伯语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">越南语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">葡萄牙语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">匈牙利语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">波兰语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">意大利语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">西班牙语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">瑞典语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">波斯语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">韩语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">俄语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">印尼语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">印度语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">缅甸语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">土耳其语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">泰语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">马来西亚语</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="tab-li">
+            	<div class="tab-list">
+                    <ul class="clearfix">
+                        <li class="tab-class"><a href="javascript:void(0)">粤语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">普通话</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">对外汉语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">其他</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>	
+    </div>
+</div>
+
+<div class="tab-container bigClassZY">
+    <div class="Header">
+        <div class="left"><a class="icon-arrow-left"></a></div>
+        <h1>职业技能</h1>
+    </div>
+     
+    <div class="tab-content clearfix">
+    <div class="tab-nav">
+        <ul>
+            <li><span class="bigclass-text">驾驶技能</span><span class="icon1 icon-arrow-right"></span></li>
+            <li class="cur"><span class="bigclass-text">烹饪厨艺</span><span class="icon1 icon-arrow-right"></span></li>
+            <li><span class="bigclass-text">维修技能</span><span class="icon1 icon-arrow-right"></span></li>
+            <li><span class="bigclass-text">美容化妆</span><span class="icon1 icon-arrow-right"></span></li>
+            <li><span class="bigclass-text">服装/模具/摄影</span><span class="icon1 icon-arrow-right"></span></li>
+            <li><span class="bigclass-text">更多课程</span><span class="icon1 icon-arrow-right"></span></li>
+        </ul>
+    </div>
+    <div class="tab-menu  clearfix">
+        <ul class="tab-ul">
+            <li class="tab-li">
+                <div class="tab-list">
+                    <ul class="clearfix">
+                        <li class="tab-class"><a href="javascript:void(0)">驾驶考证</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">叉车</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">挖掘机</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">装载机</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">吊车</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">船舶驾驶</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">拖车</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">飞机驾驶</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">铲车</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="tab-li">
+            	<div class="tab-list">
+                    <ul class="clearfix">
+                        <li class="tab-class"><a href="javascript:void(0)">厨师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">面点师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">糖水小吃</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">寿司</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">调酒师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">品酒师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">烹饪酒店管理</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">茶艺师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">咖啡师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">西餐</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">料理</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">烧腊卤水</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="tab-li">
+            	<div class="tab-list">
+                    <ul class="clearfix">
+                        <li class="tab-class"><a href="javascript:void(0)">汽车维修</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">手机维修</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">电脑维修</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">家电维修</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">办公设备维修</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">汽车美容</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">汽车音响改装</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">制冷维修</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="tab-li">
+            	<div class="tab-list">
+                    <ul class="clearfix">
+                        <li class="tab-class"><a href="javascript:void(0)">美容</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">化妆</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">美发</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">中医美容</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">彩妆造型</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">形象设计</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">美体</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">按摩足疗</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">纹绣</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">影楼</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">美甲</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">店面管理</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">中医养生</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="tab-li">
+            	<div class="tab-list">
+                    <ul class="clearfix">
+                        <li class="tab-class"><a href="javascript:void(0)">服装设计</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">服装裁剪</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">服装打版</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">数控机床</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">模具设计</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">摄影培训</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">服装营销</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="tab-li">
+            	<div class="tab-list">
+                    <ul class="clearfix">
+                    	<li class="tab-class"><a href="javascript:void(0)">鞋样设计</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">眼镜培训</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">窗帘培训</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">会计电算化</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">会计实务</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">电工</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">钳工</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">焊工</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">高压电工</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">电梯工</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">插花</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">保健按摩</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">针灸</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">心理学/NLP</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">口才训练</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">礼仪培训</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">DJ音控</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">播音主持</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">演艺培训</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">模特</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">宠物美容护理</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">创业指导</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">PLC设计</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">PCB设计</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">CTP印前工程师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">家庭关系、亲子教育</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">风水八字</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">锁匠培训</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">其他</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>	
+    </div>
+</div>
+
+<div class="tab-container bigClassIT">
+    <div class="Header">
+        <div class="left"><a class="icon-arrow-left"></a></div>
+        <h1>IT/设计</h1>
+    </div>
+     <!--<div class="search-outer-box" style="border-bottom:1px solid #ededed; background:#fff;">
+        <div class="submit02">搜索</div>
+        <div class="search-box02 displaybox">
+            <div class="submit"><span class="icon-search"></span></div>
+            <input type="text" class="search-word" placeholder="请输入课程名称搜索">
+        </div>
+    </div>-->
+    <div class="tab-content clearfix">
+    <div class="tab-nav">
+        <ul>
+            <li><span class="bigclass-text">电脑设计</span><span class="icon1 icon-arrow-right"></span></li>
+            <li class="cur"><span class="bigclass-text">IT认证</span><span class="icon1 icon-arrow-right"></span></li>
+            <li><span class="bigclass-text">程序开发</span><span class="icon1 icon-arrow-right"></span></li>
+            <li><span class="bigclass-text">电脑基础</span><span class="icon1 icon-arrow-right"></span></li>
+        </ul>
+    </div>
+    <div class="tab-menu  clearfix">
+        <ul class="tab-ul">
+            <li class="tab-li">
+                <div class="tab-list">
+                    <ul class="clearfix">
+                        <li class="tab-class"><a href="javascript:void(0)">平面设计</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">室内设计</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">广告设计</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">动漫设计</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">影视设计</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">动画设计</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">游戏设计</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">陈列设计</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">网页设计</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">模具设计</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">产品设计</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">景观设计</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">插画设计</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">建筑设计</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">珠宝设计</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">UI设计</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="tab-li">
+            	<div class="tab-list">
+                    <ul class="clearfix">
+                        <li class="tab-class"><a href="javascript:void(0)">微软认证</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">Adobe认证</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">CISCO认证</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">NIIT认证</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">Oracle认证</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">IBM认证</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">SUN认证</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">JAVA认证</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">ITIL认证</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">华为认证</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">CEAC认证</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">Macromedia认证</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">Android</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">Symbian认证</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">linux认证</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">IOS</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">Citrix认证</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="tab-li">
+            	<div class="tab-list">
+                    <ul class="clearfix">
+                        <li class="tab-class"><a href="javascript:void(0)">JAVA</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">C/C++</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">ASP</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">嵌入式</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">C#</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">Delphi</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">VB语言</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">游戏开发</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">Oracle</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">PHP</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">数据库</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">软件开发</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">网络工程师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">手机开发</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">信息安全工程师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">系统需求分析师</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="tab-li">
+            	<div class="tab-list">
+                    <ul class="clearfix">
+                    	<li class="tab-class"><a href="javascript:void(0)">办公软件</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">网络技术</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">软件测试</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">电子商务</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">计算机等级考试</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">计算机水平考试</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">速录</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">电脑基础</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>	
+    </div>
+</div>
+
+<div class="tab-container bigClassXL">
+    <div class="Header">
+        <div class="left"><a class="icon-arrow-left"></a></div>
+        <h1>学历教育</h1>
+    </div>
+     
+    <div class="tab-content clearfix">
+    <div class="tab-nav">
+        <ul>
+            <li><span class="bigclass-text">中专/中技/高技</span><span class="icon1 icon-arrow-right"></span></li>
+            <li class="cur"><span class="bigclass-text">大学教育</span><span class="icon1 icon-arrow-right"></span></li>
+            <li><span class="bigclass-text">研究生教育</span><span class="icon1 icon-arrow-right"></span></li>
+            <li><span class="bigclass-text">出国留学</span><span class="icon1 icon-arrow-right"></span></li>
+        </ul>
+    </div>
+    <div class="tab-menu  clearfix">
+        <ul class="tab-ul">
+            <li class="tab-li">
+                <div class="tab-list">
+                    <ul class="clearfix">
+                        <li class="tab-class"><a href="javascript:void(0)">中专</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">中技</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">职业学校</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">高技</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">职业中学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">技师</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="tab-li">
+            	<div class="tab-list">
+                    <ul class="clearfix">
+                        <li class="tab-class"><a href="javascript:void(0)">自考</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">成人高考</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">网络教育</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">电大</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">大专</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">本科</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="tab-li">
+            	<div class="tab-list">
+                    <ul class="clearfix">
+                        <li class="tab-class"><a href="javascript:void(0)">考研辅导</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">研修班</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">工商管理硕士(MBA)</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">旅游管理硕士(MTA)</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">高级管理人员工商管理硕士(EMBA)</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">公共管理硕士(MPA)</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">项目管理工程硕士(MPM)</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">会计硕士(MPAcc)</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">教育硕士(Ed.M)</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">法律硕士(J.M)</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">农业推广硕士(MAE)</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">工程硕士</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">在职硕士</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">在职博士</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="tab-li">
+            	<div class="tab-list">
+                    <ul class="clearfix">
+                        <li class="tab-class"><a href="javascript:void(0)">美国留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">英国留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">澳洲留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">加拿大留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">德国留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">爱尔兰留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">意大利留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">瑞士留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">丹麦留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">新西兰留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">荷兰留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">西班牙留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">法国留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">俄罗斯留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">日本留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">韩国留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">马来西亚留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">新加坡留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">南非留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">泰国留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">香港留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">台湾留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">少年国际教育</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">出国移民</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">瑞典留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">芬兰留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">挪威留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">其他国家留学</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>	
+    </div>
+</div>
+
+<div class="tab-container bigClassJC">
+    <div class="Header">
+        <div class="left"><a class="icon-arrow-left"></a></div>
+        <h1>基础教育</h1>
+    </div>
+     
+    <div class="tab-content clearfix">
+    <div class="tab-nav">
+        <ul>
+            <li><span class="bigclass-text">学前教育</span><span class="icon1 icon-arrow-right"></span></li>
+            <li class="cur"><span class="bigclass-text">中小学</span><span class="icon1 icon-arrow-right"></span></li>
+            <li><span class="bigclass-text">小学辅导</span><span class="icon1 icon-arrow-right"></span></li>
+            <li><span class="bigclass-text">初中辅导</span><span class="icon1 icon-arrow-right"></span></li>
+            <li><span class="bigclass-text">高中辅导</span><span class="icon1 icon-arrow-right"></span></li>
+            <li><span class="bigclass-text">游学/冬令营/夏令营</span><span class="icon1 icon-arrow-right"></span></li>
+            <li><span class="bigclass-text">术科/特色培训</span><span class="icon1 icon-arrow-right"></span></li>
+        </ul>
+    </div>
+    <div class="tab-menu  clearfix">
+        <ul class="tab-ul">
+            <li class="tab-li">
+                <div class="tab-list">
+                    <ul class="clearfix">
+                        <li class="tab-class"><a href="javascript:void(0)">幼儿园</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">婴幼儿早教</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">托管</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">少儿美术</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">少儿舞蹈</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">少儿音乐</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">少儿健身</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="tab-li">
+            	<div class="tab-list">
+                    <ul class="clearfix">
+                        <li class="tab-class"><a href="javascript:void(0)">小学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">初中(初级中学)</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">高中(高级中学)</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">完全中学</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="tab-li">
+            	<div class="tab-list">
+                    <ul class="clearfix">
+                        <li class="tab-class"><a href="javascript:void(0)">小学语文</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">小学数学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">小学英语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">小学奥数</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">小学奥英</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">小学作文</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">小学美术</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">小升初辅导</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="tab-li">
+            	<div class="tab-list">
+                    <ul class="clearfix">
+                        <li class="tab-class"><a href="javascript:void(0)">初中语文</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">初中数学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">初中英语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">初中物理</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">初中化学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">初中地理</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">初中历史</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">初中生物</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">初中政治</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">初中美术</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">初中奥数</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">初升高辅导</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">中考复读</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="tab-li">
+            	<div class="tab-list">
+                    <ul class="clearfix">
+                        <li class="tab-class"><a href="javascript:void(0)">高中语文</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">高中数学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">高中英语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">高中物理</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">高中化学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">高中地理</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">高中历史</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">高中生物</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">高中政治</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">高考复读</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">艺术生文化课</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">文综辅导</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">理综辅导</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">高中奥数</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="tab-li">
+            	<div class="tab-list">
+                    <ul class="clearfix">
+                        <li class="tab-class"><a href="javascript:void(0)">游学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">冬令营</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">夏令营</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="tab-li">
+            	<div class="tab-list">
+                    <ul class="clearfix">
+                        <li class="tab-class"><a href="javascript:void(0)">美术高考</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">音乐高考</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">传媒艺术高考</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">科学竞赛</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">记忆力培训</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">课外拓展</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">体育特招</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">素质训练</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">影视表演</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">学习能力训练</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>	
+    </div>
+</div>
+
+<div class="tab-container bigClassZG">
+    <div class="Header">
+        <div class="left"><a class="icon-arrow-left"></a></div>
+        <h1>资格认证</h1>
+    </div>
+     
+    <div class="tab-content clearfix">
+    <div class="tab-nav">
+        <ul>
+            <li><span class="bigclass-text">财会金融</span><span class="icon1 icon-arrow-right"></span></li>
+            <li class="cur"><span class="bigclass-text">工程/建筑类</span><span class="icon1 icon-arrow-right"></span></li>
+            <li><span class="bigclass-text">管理/贸易类</span><span class="icon1 icon-arrow-right"></span></li>
+            <li><span class="bigclass-text">医学保健</span><span class="icon1 icon-arrow-right"></span></li>
+            <li><span class="bigclass-text">更多课程</span><span class="icon1 icon-arrow-right"></span></li>
+        </ul>
+    </div>
+    <div class="tab-menu  clearfix">
+        <ul class="tab-ul">
+            <li class="tab-li">
+                <div class="tab-list">
+                    <ul class="clearfix">
+                        <li class="tab-class"><a href="javascript:void(0)">会计从业资格</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">会计职称</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">注册会计师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">资产评估师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">鉴定估价师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">注册税务师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">特许公认会计师ACCA</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">特许金融分析师CFA</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">财务总监(CFO)</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">国际注册会计师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">银行从业</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">基金从业</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">理财规划师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">证券从业</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">期货从业</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">保险从业</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">证券经纪人</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">经济师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">精算师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">审计师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">统计师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">会计上岗证</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="tab-li">
+            	<div class="tab-list">
+                    <ul class="clearfix">
+                        <li class="tab-class"><a href="javascript:void(0)">建筑五大员</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">建造师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">造价工程师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">监理工程师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">安全工程师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">咨询工程师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">房地产估价师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">土地估价师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">房地产经纪人</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">房地产策划师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">结构工程师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">岩土工程师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">注册测绘师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">注册计量师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">城市规划师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">弱电工师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">造价员</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">预算员</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">招标师</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="tab-li">
+            	<div class="tab-list">
+                    <ul class="clearfix">
+                        <li class="tab-class"><a href="javascript:void(0)">人力资源师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">物业管理</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">物流师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">电子商务师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">营销师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">项目管理师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">报关员</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">跟单员</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">货代员</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">报检员</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">策划师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">酒店管理师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">企业培训师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">职业经理人</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">客户关系管理</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">内审员</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">外审员</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">单证员</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">采购师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">食品安全管理</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">信用管理</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">会展管理</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">外销员</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">工商管理师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">职业指导师</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="tab-li">
+            	<div class="tab-list">
+                    <ul class="clearfix">
+                        <li class="tab-class"><a href="javascript:void(0)">心理咨询师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">公共营养师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">康复理疗师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">芳疗师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">心理保健师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">中医推拿师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">针灸推拿师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">健康管理师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">执业药师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">执业医师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">中医师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">卫生职称</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">保健按摩师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">催乳师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">护士资格证</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="tab-li">
+            	<div class="tab-list">
+                    <ul class="clearfix">
+                        <li class="tab-class"><a href="javascript:void(0)">公务员</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">保育员</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">育婴师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">月嫂</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">教师资格证</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">导游证</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">司法考试</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">职称考试</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">秘书证</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">律师资格证</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">商业银行考试</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">教师招聘考试</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">事业单位考试</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">旅游咨询师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">其他</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>	
+    </div>
+</div>
+
+<div class="tab-container bigClassWT">
+    <div class="Header">
+        <div class="left"><a class="icon-arrow-left"></a></div>
+        <h1>文体艺术</h1>
+    </div>
+     
+    <div class="tab-content clearfix">
+    <div class="tab-nav">
+        <ul>
+            <li><span class="bigclass-text">舞蹈类</span><span class="icon1 icon-arrow-right"></span></li>
+            <li class="cur"><span class="bigclass-text">形体/保健类</span><span class="icon1 icon-arrow-right"></span></li>
+            <li><span class="bigclass-text">音乐</span><span class="icon1 icon-arrow-right"></span></li>
+            <li><span class="bigclass-text">球类</span><span class="icon1 icon-arrow-right"></span></li>
+            <li><span class="bigclass-text">更多课程</span><span class="icon1 icon-arrow-right"></span></li>
+        </ul>
+    </div>
+    <div class="tab-menu  clearfix">
+        <ul class="tab-ul">
+            <li class="tab-li">
+                <div class="tab-list">
+                    <ul class="clearfix">
+                        <li class="tab-class"><a href="javascript:void(0)">国标舞</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">芭蕾</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">肚皮舞</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">街舞</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">交谊舞</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">印度舞</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">现代舞</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">钢管舞</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">爵士舞</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">中国舞</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">拉丁舞</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">酒吧舞</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="tab-li">
+            	<div class="tab-list">
+                    <ul class="clearfix">
+                        <li class="tab-class"><a href="javascript:void(0)">形体训练</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">瑜伽</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">健美操</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">养生保健</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">健身</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="tab-li">
+            	<div class="tab-list">
+                    <ul class="clearfix">
+                        <li class="tab-class"><a href="javascript:void(0)">钢琴</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">声乐</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">吉他</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">古筝</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">琵琶</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">小提琴</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">视唱练耳</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">音乐制作</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">作曲</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">乐理</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">二胡</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">爵士鼓</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">大提琴</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">萨克斯</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">长笛</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">手风琴</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">竹笛</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">葫芦丝</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">扬琴</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">电子琴</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">箫</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">电吉他</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">电贝司</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">古琴</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="tab-li">
+            	<div class="tab-list">
+                    <ul class="clearfix">
+                        <li class="tab-class"><a href="javascript:void(0)">羽毛球</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">乒乓球</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">篮球</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">高尔夫</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">足球</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">排球</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">网球</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">台球</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">棒球</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="tab-li">
+            	<div class="tab-list">
+                    <ul class="clearfix">
+                        <li class="tab-class"><a href="javascript:void(0)">击剑</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">剑道</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">棋类培训</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">书法</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">美术</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">跆拳道</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">武术</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">陶艺/手工</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">太极拳</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">柔道</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">空手道</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">相声</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">小品</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">魔术</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">编剧</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">游泳</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">散打</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">其他</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>	
+    </div>
+</div>
+
+<div class="tab-container bigClassQY">
+    <div class="Header">
+        <div class="left"><a class="icon-arrow-left"></a></div>
+        <h1>企业管理</h1>
+    </div>
+     
+    <div class="tab-content clearfix">
+    <div class="tab-nav">
+        <ul>
+            <li class="cur"><span class="bigclass-text">全部课程</span><span class="icon1 icon-arrow-right"></span></li>
+        </ul>
+    </div>
+    <div class="tab-menu  clearfix">
+        <ul class="tab-ul">
+            <li class="tab-li">
+                <div class="tab-list">
+                    <ul class="clearfix">
+                        <li class="tab-class"><a href="javascript:void(0)">拓展训练</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">总裁管理研修</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">总监管理研修</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">高级经理人研修</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">财务管理</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">人力资源</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">经营管理</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">文化管理</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">市场营销</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">品牌管理</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">生产管理</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">项目管理</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">客户管理</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">客户服务</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">采购管理</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">供应链管理</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">职业道德</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">企业内训</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">领导力</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">国学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">其他</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>	
+    </div>
+</div>
+
+<div class="Cities">
+	<div class="Header">
+        <div class="left"><a class="icon-arrow-left"></a></div>
+        <h1>选择城市</h1>
+    </div>
+    <div class="cities-content">
+      <div style="padding-bottom:500px;">	
+    	<div class="cities-item line">
+        	<p class="title">热门城市</p>
+            <ul class="cities-list line clearfix">
+            	<li><a href="javascript:void(0)">广州</a></li>
+                <li><a href="javascript:void(0)">上海</a></li>
+                <li><a href="javascript:void(0)">北京</a></li>
+                <li><a href="javascript:void(0)">深圳</a></li>
+                <li><a href="javascript:void(0)">东莞</a></li>
+                <li><a href="javascript:void(0)">佛山</a></li>
+                <li><a href="javascript:void(0)">中山</a></li>
+                <li><a href="javascript:void(0)">南京</a></li>
+                <li><a href="javascript:void(0)">合肥</a></li>
+                <li><a href="javascript:void(0)">长沙</a></li>
+                <li><a href="javascript:void(0)">福州</a></li>
+                <li><a href="javascript:void(0)">南昌</a></li>
+            </ul>
+        </div>
+        <div id="Letter" class="cities-item" data-list="letter">
+        	<p class="title">按字母选择</p>
+            <ul class="cities-list line clearfix">
+            	<li><a href="javascript:void(0)">B</a></li>
+                <li><a href="javascript:void(0)">C</a></li>
+                <li><a href="javascript:void(0)">D</a></li>
+                <li><a href="javascript:void(0)">F</a></li>
+                <li><a href="javascript:void(0)">G</a></li>
+                <li><a href="javascript:void(0)">H</a></li>
+                <li><a href="javascript:void(0)">J</a></li>
+                <li><a href="javascript:void(0)">L</a></li>
+                <li><a href="javascript:void(0)">M</a></li>
+                <li><a href="javascript:void(0)">N</a></li>
+                <li><a href="javascript:void(0)">Q</a></li>
+                <li><a href="javascript:void(0)">S</a></li>
+                <li><a href="javascript:void(0)">T</a></li>
+                <li><a href="javascript:void(0)">W</a></li>
+                <li><a href="javascript:void(0)">X</a></li>
+                <li><a href="javascript:void(0)">Y</a></li>
+                <li><a href="javascript:void(0)">Z</a></li>
+            </ul>
+        </div>
+        <div class="cities-item">
+        	<p class="title">B</p>
+            <ul class="cities-list clearfix">
+            	<li><a href="javascript:void(0)">北京</a></li>
+                <li><a href="javascript:void(0)">保定</a></li>
+            </ul>
+        </div>
+        <div class="cities-item">
+        	<p class="title">C</p>
+            <ul class="cities-list clearfix">
+            	<li><a href="javascript:void(0)">长沙</a></li>
+                <li><a href="javascript:void(0)">郴州</a></li>
+                <li><a href="javascript:void(0)">成都</a></li>
+                <li><a href="javascript:void(0)">常州</a></li>
+            </ul>
+        </div>
+        <div class="cities-item">
+        	<p class="title">D</p>
+            <ul class="cities-list clearfix">
+            	<li><a href="javascript:void(0)">东莞</a></li>
+                <li><a href="javascript:void(0)">达州</a></li>
+                <li><a href="javascript:void(0)">德阳</a></li>
+            </ul>
+        </div>
+        <div class="cities-item">
+        	<p class="title">F</p>
+            <ul class="cities-list clearfix">
+            	<li><a href="javascript:void(0)">佛山</a></li>
+                <li><a href="javascript:void(0)">福州</a></li>
+            </ul>
+        </div>
+        <div class="cities-item">
+        	<p class="title">G</p>
+            <ul class="cities-list clearfix">
+            	<li><a href="javascript:void(0)">贵阳</a></li>
+                <li><a href="javascript:void(0)">广安</a></li>
+                <li><a href="javascript:void(0)">赣州</a></li>
+                <li><a href="javascript:void(0)">桂林</a></li>
+            </ul>
+        </div>
+        <div class="cities-item">
+        	<p class="title">H</p>
+            <ul class="cities-list clearfix">
+            	<li><a href="javascript:void(0)">合肥</a></li>
+                <li><a href="javascript:void(0)">杭州</a></li>
+                <li><a href="javascript:void(0)">惠州</a></li>
+                <li><a href="javascript:void(0)">衡阳</a></li>
+                <li><a href="javascript:void(0)">海口</a></li>
+                <li><a href="javascript:void(0)">河源</a></li>
+                <li><a href="javascript:void(0)">呼伦贝尔</a></li>
+            </ul>
+        </div>
+        <div class="cities-item">
+        	<p class="title">J</p>
+            <ul class="cities-list clearfix">
+            	<li><a href="javascript:void(0)">济南</a></li>
+                <li><a href="javascript:void(0)">江门</a></li>
+                <li><a href="javascript:void(0)">嘉华</a></li>
+                <li><a href="javascript:void(0)">金华</a></li>
+            </ul>
+        </div>
+        <div class="cities-item">
+        	<p class="title">L</p>
+            <ul class="cities-list clearfix">
+            	<li><a href="javascript:void(0)">娄底</a></li>
+                <li><a href="javascript:void(0)">乐山</a></li>
+                <li><a href="javascript:void(0)">临沂</a></li>
+            </ul>
+        </div>
+        <div class="cities-item">
+        	<p class="title">M</p>
+            <ul class="cities-list clearfix">
+            	<li><a href="javascript:void(0)">马鞍山</a></li>
+            </ul>
+        </div>
+        <div class="cities-item">
+        	<p class="title">N</p>
+            <ul class="cities-list clearfix">
+            	<li><a href="javascript:void(0)">南京</a></li>
+                <li><a href="javascript:void(0)">南昌</a></li>
+                <li><a href="javascript:void(0)">宁波</a></li>
+                <li><a href="javascript:void(0)">南充</a></li>
+                <li><a href="javascript:void(0)">南通</a></li>
+                <li><a href="javascript:void(0)">南宁</a></li>
+            </ul>
+        </div>
+        <div class="cities-item">
+        	<p class="title">Q</p>
+            <ul class="cities-list clearfix">
+            	<li><a href="javascript:void(0)">泉州</a></li>
+                <li><a href="javascript:void(0)">青岛</a></li>
+            </ul>
+        </div>
+        <div class="cities-item">
+        	<p class="title">S</p>
+            <ul class="cities-list clearfix">
+            	<li><a href="javascript:void(0)">苏州</a></li>
+                <li><a href="javascript:void(0)">韶关</a></li>
+                <li><a href="javascript:void(0)">绍兴</a></li>
+                <li><a href="javascript:void(0)">汕尾</a></li>
+            </ul>
+        </div>
+        <div class="cities-item">
+        	<p class="title">T</p>
+            <ul class="cities-list clearfix">
+            	<li><a href="javascript:void(0)">天津</a></li>
+                <li><a href="javascript:void(0)">台州</a></li>
+            </ul>
+        </div>
+        <div class="cities-item">
+        	<p class="title">W</p>
+            <ul class="cities-list clearfix">
+            	<li><a href="javascript:void(0)">武汉</a></li>
+                <li><a href="javascript:void(0)">无锡</a></li>
+                <li><a href="javascript:void(0)">温州</a></li>
+                <li><a href="javascript:void(0)">芜湖</a></li>
+            </ul>
+        </div>
+        <div class="cities-item">
+        	<p class="title">X</p>
+            <ul class="cities-list clearfix">
+            	<li><a href="javascript:void(0)">厦门</a></li>
+                <li><a href="javascript:void(0)">湘潭</a></li>
+                <li><a href="javascript:void(0)">西安</a></li>
+            </ul>
+        </div>
+        <div class="cities-item">
+        	<p class="title">Y</p>
+            <ul class="cities-list clearfix">
+            	<li><a href="javascript:void(0)">扬州</a></li>
+                <li><a href="javascript:void(0)">宜昌</a></li>
+            </ul>
+        </div>
+        <div class="cities-item">
+        	<p class="title">Z</p>
+            <ul class="cities-list clearfix">
+            	<li><a href="javascript:void(0)">湛江</a></li>
+                <li><a href="javascript:void(0)">珠海</a></li>
+                <li><a href="javascript:void(0)">中山</a></li>
+                <li><a href="javascript:void(0)">株洲</a></li>
+                <li><a href="javascript:void(0)">镇江</a></li>
+                <li><a href="javascript:void(0)">郑州</a></li>
+            </ul>
+        </div>
+    </div>
+  </div>  
+</div>
+
+<div class="tab-container Classify" style="display:none">
+    
+    <div class="Header">
+        <div class="left"><a class="icon-arrow-left"></a></div>
+        <div class="search-box m01 displaybox">
+            <!--<div class="city-link">
+                广州
+                <span class="icon-triangle-down"></span>
+            </div>-->
+            <input class="search-word" type="text" placeholder="搜索你想报读的专业">
+            <div class="submit"><span class="icon-search"></span></div>
+        </div>
+    </div>
+    
+    <div class="tab-content clearfix">
+    <div class="tab-nav">
+        <ul>
+            <li><span class="bigclass-text">外语培训</span><span class="icon1 icon-arrow-right"></span></li>
+            <li class="cur"><span class="bigclass-text">IT/设计</span><span class="icon1 icon-arrow-right"></span></li>
+            <li><span class="bigclass-text">职业技能</span><span class="icon1 icon-arrow-right"></span></li>
+            <li><span class="bigclass-text">学历教育</span><span class="icon1 icon-arrow-right"></span></li>
+            <li><span class="bigclass-text">基础教育</span><span class="icon1 icon-arrow-right"></span></li>
+            <li><span class="bigclass-text">资格认证</span><span class="icon1 icon-arrow-right"></span></li>
+            <li><span class="bigclass-text">文体艺术</span><span class="icon1 icon-arrow-right"></span></li>
+            <li><span class="bigclass-text">企业管理</span><span class="icon1 icon-arrow-right"></span></li>
+            
+        </ul>
+    </div>
+    <div class="tab-menu  clearfix">
+        <ul class="tab-ul">
+            <li class="tab-li">
+                <div class="tab-list">
+                    <p class="title">雅思托福</p>
+                    <ul class="clearfix">
+                        <li class="tab-class"><a href="javascript:void(0)">雅思</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">托福</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">SAT</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">SSAT</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">GRE</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">托业</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">PTE</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">A-level</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">ACT</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">GMAT</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">TOPE</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">IGCSE</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">SLEP</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">留学预科班</a></li>
+                    </ul>
+                </div>
+                <div class="tab-list">
+                    <p class="title">英语考证</p>
+                    <ul class="clearfix">
+                        <li class="tab-class"><a href="javascript:void(0)">考研英语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">英语四级</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">公共英语(PETS)</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">英语六级</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">专业四级</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">专业八级</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">考博英语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">学位英语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">在职申硕英语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">职称英语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">自考英语</a></li>
+                    </ul>
+                </div>
+                <div class="tab-list">
+                	<p class="title">外语翻译</p>
+                    <ul class="clearfix">
+                    	<li class="tab-class"><a href="javascript:void(0)">英语笔译</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">英语翻译</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">英语口译</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">同声传译</a></li>
+                    </ul>
+                </div>
+                <div class="tab-list">
+                	<p class="title">行业英语</p>
+                    <ul class="clearfix">
+                    	<li class="tab-class"><a href="javascript:void(0)">商务英语(BEC)</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">外贸英语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">服装英语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">旅游英语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">面试英语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">金融英语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">影视英语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">酒店英语</a></li>
+                    </ul>
+                </div>
+                <div class="tab-list">
+                	<p class="title">综合英语</p>
+                    <ul class="clearfix">
+                    	<li class="tab-class"><a href="javascript:void(0)">新概念</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">英语口语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">英语零起点</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">剑桥英语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">少儿英语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">日常英语</a></li>
+                    </ul>
+                </div>
+                <div class="tab-list">
+                	<p class="title">小语种</p>
+                    <ul class="clearfix">
+                    	<li class="tab-class"><a href="javascript:void(0)">日语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">德语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">法语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">阿拉伯语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">越南语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">葡萄牙语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">匈牙利语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">波兰语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">意大利语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">西班牙语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">瑞典语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">波斯语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">韩语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">俄语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">印尼语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">印度语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">缅甸语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">土耳其语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">泰语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">马来西亚语</a></li>
+                    </ul>
+                </div>
+                <div class="tab-list">
+                	<p class="title">更多课程</p>
+                    <ul class="clearfix">
+                    	<li class="tab-class"><a href="javascript:void(0)">粤语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">普通话</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">对外汉语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">其他</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="tab-li">
+                <div class="tab-list">
+                    <p class="title">电脑/IT/设计</p>
+                    <ul class="clearfix">
+                        <li class="tab-class"><a href="javascript:void(0)">平面设计</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">室内设计</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">广告设计</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">动漫设计</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">影视设计</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">动画设计</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">游戏设计</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">陈列设计</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">网页设计</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">模具设计</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">产品设计</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">景观设计</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">插画设计</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">建筑设计</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">珠宝设计</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">UI设计</a></li>
+                    </ul>
+                </div>
+                <div class="tab-list">
+                    <p class="title">IT认证</p>
+                    <ul class="clearfix">
+                        <li class="tab-class"><a href="javascript:void(0)">微软认证</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">Adobe认证</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">CISCO认证</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">NIIT认证</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">Oracle认证</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">IBM认证</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">SUN认证</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">JAVA认证</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">ITIL认证</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">华为认证</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">CEAC认证</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">Macromedia认证</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">Android</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">Symbian认证</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">linux认证</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">IOS</a></li>
+                    </ul>
+                </div>
+                <div class="tab-list">
+                    <p class="title">程序开发</p>
+                    <ul class="clearfix">
+                    	<li class="tab-class"><a href="javascript:void(0)">JAVA</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">C/C++</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">ASP</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">嵌入式</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">C#</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">Delphi</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">VB语言</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">游戏开发</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">Oracle</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">PHP</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">数据库</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">软件开发</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">网络工程师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">手机开发</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">信息安全工程师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">系统需求分析师</a></li>
+                	</ul>
+                </div>
+                <div class="tab-list">
+                    <p class="title">电脑基础</p>
+                    <ul class="clearfix">
+                    	<li class="tab-class"><a href="javascript:void(0)">办公软件</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">网络技术</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">软件测试</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">电子商务</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">计算机等级考试</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">计算机水平考试</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">速录</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">电脑基础</a></li>
+                	</ul>
+                </div>
+            </li>
+            <li class="tab-li">
+                <div class="tab-list">
+                    <p class="title">驾驶技能</p>
+                    <ul class="clearfix">
+                    	<li class="tab-class"><a href="javascript:void(0)">驾驶考证</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">叉车</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">挖掘机</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">装载机</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">吊车</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">船舶驾驶</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">拖车</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">飞机驾驶</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">铲车</a></li>
+                    </ul>
+                </div>
+                <div class="tab-list">
+                    <p class="title">烹饪厨艺</p>
+                    <ul class="clearfix">
+                    	<li class="tab-class"><a href="javascript:void(0)">厨师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">面点师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">糖水小吃</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">寿司</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">调酒师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">品酒师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">烹饪酒店管理</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">茶艺师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">咖啡师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">西餐</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">料理</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">烧腊卤水</a></li>
+                    </ul>
+                </div>
+                <div class="tab-list">
+                    <p class="title">维修技能</p>
+                    <ul class="clearfix">
+                    	<li class="tab-class"><a href="javascript:void(0)">汽车维修</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">手机维修</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">电脑维修</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">家电维修</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">办公设备维修</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">汽车美容</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">汽车音响改装</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">制冷维修</a></li>
+                    </ul>
+                </div>
+                <div class="tab-list">
+                    <p class="title">美容化妆</p>
+                    <ul class="clearfix">
+                    	<li class="tab-class"><a href="javascript:void(0)">美容</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">化妆</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">美发</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">中医美容</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">彩妆造型</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">形象设计</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">美体</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">按摩足疗</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">纹绣</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">影楼</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">美甲</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">店面管理</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">中医养生</a></li>
+                    </ul>
+                </div>
+                <div class="tab-list">
+                    <p class="title">服装/模具/摄影</p>
+                    <ul class="clearfix">
+                    	<li class="tab-class"><a href="javascript:void(0)">服装设计</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">服装裁剪</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">服装打版</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">数控机床</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">模具设计</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">摄影培训</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">服装营销</a></li>
+                    </ul>
+                </div>
+                <div class="tab-list">
+                    <p class="title">更多课程</p>
+                    <ul class="clearfix">
+                    	<li class="tab-class"><a href="javascript:void(0)">鞋样设计</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">眼镜培训</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">窗帘培训</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">会计电算化</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">会计实务</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">电工</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">钳工</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">焊工</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">高压电工</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">电梯工</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">插花</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">保健按摩</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">针灸</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">心理学/NLP</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">口才训练</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">礼仪培训</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">DJ音控</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">播音主持</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">演艺培训</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">模特</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">宠物美容护理</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">创业指导</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">PLC设计</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">PCB设计</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">CTP印前工程师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">家庭关系、亲子教育</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">风水八字</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">锁匠培训</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">其他</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="tab-li">
+                <div class="tab-list">
+                    <p class="title">中专/中技/高技</p>
+                    <ul class="clearfix">
+                    	<li class="tab-class"><a href="javascript:void(0)">中专</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">中技</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">职业学校</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">高技</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">职业中学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">技师</a></li>
+                    </ul>
+                </div>
+                <div class="tab-list">
+                    <p class="title">大学教育</p>
+                    <ul class="clearfix">
+                    	<li class="tab-class"><a href="javascript:void(0)">自考</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">成人高考</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">网络教育</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">电大</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">大专</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">本科</a></li>
+                    </ul>
+                </div>
+                <div class="tab-list">
+                    <p class="title">研究生教育</p>
+                    <ul class="clearfix">
+                    	<li class="tab-class"><a href="javascript:void(0)">考研辅导</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">研修班</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">工商管理硕士(MBA)</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">旅游管理硕士(MTA)</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">高级管理人员工商管理硕士(EMBA)</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">公共管理硕士(MPA)</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">项目管理工程硕士(MPM)</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">会计硕士(MPAcc)</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">教育硕士(Ed.M)</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">法律硕士(J.M)</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">农业推广硕士(MAE)</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">工程硕士</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">在职硕士</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">在职博士</a></li>
+                    </ul>
+                </div>
+                <div class="tab-list">
+                    <p class="title">出国留学</p>
+                    <ul class="clearfix">
+                    	<li class="tab-class"><a href="javascript:void(0)">美国留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">英国留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">澳洲留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">加拿大留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">德国留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">爱尔兰留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">意大利留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">瑞士留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">丹麦留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">新西兰留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">荷兰留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">西班牙留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">法国留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">俄罗斯留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">日本留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">韩国留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">马来西亚留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">新加坡留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">南非留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">泰国留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">香港留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">台湾留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">少年国际教育</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">出国移民</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">瑞典留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">芬兰留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">挪威留学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">其他国家留学</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="tab-li">
+                <div class="tab-list">
+                    <p class="title">学前教育</p>
+                    <ul class="clearfix">
+                    	<li class="tab-class"><a href="javascript:void(0)">幼儿园</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">婴幼儿早教</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">托管</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">少儿美术</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">少儿舞蹈</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">少儿音乐</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">少儿健身</a></li>
+                    </ul>
+                </div>
+                <div class="tab-list">
+                    <p class="title">中小学</p>
+                    <ul class="clearfix">
+                    	<li class="tab-class"><a href="javascript:void(0)">小学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">初中(初级中学)</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">高中(高级中学)</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">完全中学</a></li>
+                    </ul>
+                </div>
+                <div class="tab-list">
+                    <p class="title">小学辅导</p>
+                    <ul class="clearfix">
+                    	<li class="tab-class"><a href="javascript:void(0)">小学语文</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">小学数学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">小学英语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">小学奥数</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">小学奥英</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">小学作文</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">小学美术</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">小升初辅导</a></li>
+                    </ul>
+                </div>
+                <div class="tab-list">
+                    <p class="title">初中辅导</p>
+                    <ul class="clearfix">
+                    	<li class="tab-class"><a href="javascript:void(0)">初中语文</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">初中数学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">初中英语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">初中物理</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">初中化学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">初中地理</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">初中历史</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">初中生物</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">初中政治</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">初中美术</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">初中奥数</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">初升高辅导</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">中考复读</a></li>
+                    </ul>
+                </div>
+                <div class="tab-list">
+                    <p class="title">高中辅导</p>
+                    <ul class="clearfix">
+                    	<li class="tab-class"><a href="javascript:void(0)">高中语文</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">高中数学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">高中英语</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">高中物理</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">高中化学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">高中地理</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">高中历史</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">高中生物</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">高中政治</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">高考复读</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">艺术生文化课</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">文综辅导</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">理综辅导</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">高中奥数</a></li>
+                    </ul>
+                </div>
+                <div class="tab-list">
+                    <p class="title">游学/冬令营/夏令营</p>
+                    <ul class="clearfix">
+                    	<li class="tab-class"><a href="javascript:void(0)">游学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">冬令营</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">夏令营</a></li>
+                    </ul>
+                </div>
+                <div class="tab-list">
+                    <p class="title">术科/特色培训</p>
+                    <ul class="clearfix">
+                    	<li class="tab-class"><a href="javascript:void(0)">美术高考</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">音乐高考</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">传媒艺术高考</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">科学竞赛</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">记忆力培训</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">课外拓展</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">体育特招</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">素质训练</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">影视表演</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">学习能力训练</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="tab-li">
+                <div class="tab-list">
+                    <p class="title">财会金融</p>
+                    <ul class="clearfix">
+                    	<li class="tab-class"><a href="javascript:void(0)">会计从业资格</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">会计职称</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">注册会计师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">资产评估师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">鉴定估价师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">注册税务师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">特许公认会计师ACCA</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">特许金融分析师CFA</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">财务总监(CFO)</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">国际注册会计师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">银行从业</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">基金从业</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">理财规划师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">证券从业</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">期货从业</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">保险从业</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">证券经纪人</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">经济师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">精算师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">审计师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">统计师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">会计上岗证</a></li>
+                    </ul>
+                </div>
+                <div class="tab-list">
+                    <p class="title">工程/建筑类</p>
+                    <ul class="clearfix">
+                    	<li class="tab-class"><a href="javascript:void(0)">建筑五大员</a></li>
+
+
+                        <li class="tab-class"><a href="javascript:void(0)">建造师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">造价工程师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">监理工程师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">安全工程师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">咨询工程师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">房地产估价师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">土地估价师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">房地产经纪人</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">房地产策划师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">结构工程师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">岩土工程师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">注册测绘师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">注册计量师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">城市规划师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">弱电工师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">造价员</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">预算员</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">招标师</a></li>
+                    </ul>
+                </div>
+                <div class="tab-list">
+                    <p class="title">管理/贸易类</p>
+                    <ul class="clearfix">
+                    	<li class="tab-class"><a href="javascript:void(0)">人力资源师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">物业管理</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">物流师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">电子商务师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">营销师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">项目管理师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">报关员</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">跟单员</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">货代员</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">报检员</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">策划师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">酒店管理师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">企业培训师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">职业经理人</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">客户关系管理</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">内审员</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">外审员</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">单证员</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">采购师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">食品安全管理</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">信用管理</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">会展管理</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">外销员</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">工商管理师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">职业指导师</a></li>
+                    </ul>
+                </div>
+                <div class="tab-list">
+                    <p class="title">医学保健</p>
+                    <ul class="clearfix">
+                    	<li class="tab-class"><a href="javascript:void(0)">心理咨询师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">公共营养师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">康复理疗师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">芳疗师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">心理保健师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">中医推拿师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">针灸推拿师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">健康管理师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">执业药师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">执业医师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">中医师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">卫生职称</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">保健按摩师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">催乳师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">护士资格证</a></li>
+                    </ul>
+                </div>
+                <div class="tab-list">
+                    <p class="title">更多课程</p>
+                    <ul class="clearfix">
+                    	<li class="tab-class"><a href="javascript:void(0)">公务员</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">保育员</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">育婴师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">月嫂</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">教师资格证</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">导游证</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">司法考试</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">职称考试</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">秘书证</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">律师资格证</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">商业银行考试</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">教师招聘考试</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">事业单位考试</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">旅游咨询师</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">其他</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="tab-li">
+                <div class="tab-list">
+                    <p class="title">舞蹈类</p>
+                    <ul class="clearfix">
+                    	<li class="tab-class"><a href="javascript:void(0)">国标舞</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">芭蕾</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">肚皮舞</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">街舞</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">交谊舞</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">印度舞</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">现代舞</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">钢管舞</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">爵士舞</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">中国舞</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">拉丁舞</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">酒吧舞</a></li>
+                    </ul>
+                </div>
+                <div class="tab-list">
+                    <p class="title">形体/保健类</p>
+                    <ul class="clearfix">
+                    	<li class="tab-class"><a href="javascript:void(0)">形体训练</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">瑜伽</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">健美操</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">养生保健</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">健身</a></li>
+                    </ul>
+                </div>
+                <div class="tab-list">
+                    <p class="title">音乐</p>
+                    <ul class="clearfix">
+                    	<li class="tab-class"><a href="javascript:void(0)">钢琴</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">声乐</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">吉他</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">古筝</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">琵琶</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">小提琴</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">视唱练耳</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">音乐制作</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">作曲</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">乐理</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">二胡</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">爵士鼓</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">大提琴</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">萨克斯</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">长笛</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">手风琴</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">竹笛</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">葫芦丝</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">扬琴</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">电子琴</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">箫</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">电吉他</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">电贝司</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">古琴</a></li>
+                    </ul>
+                </div>
+                <div class="tab-list">
+                    <p class="title">球类</p>
+                    <ul class="clearfix">
+                    	<li class="tab-class"><a href="javascript:void(0)">羽毛球</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">乒乓球</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">篮球</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">高尔夫</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">足球</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">排球</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">网球</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">台球</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">棒球</a></li>
+                    </ul>
+                </div>
+                <div class="tab-list">
+                    <p class="title">更多课程</p>
+                    <ul class="clearfix">
+                    	<li class="tab-class"><a href="javascript:void(0)">击剑</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">剑道</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">棋类培训</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">书法</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">美术</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">跆拳道</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">武术</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">陶艺/手工</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">太极拳</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">柔道</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">空手道</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">相声</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">小品</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">魔术</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">编剧</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">游泳</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">散打</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">其他</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="tab-li">
+                <div class="tab-list">
+                    <p class="title">全部课程</p>
+                    <ul class="clearfix">
+                    	<li class="tab-class"><a href="javascript:void(0)">拓展训练</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">总裁管理研修</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">总监管理研修</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">高级经理人研修</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">财务管理</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">人力资源</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">经营管理</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">文化管理</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">市场营销</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">品牌管理</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">生产管理</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">项目管理</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">客户管理</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">客户服务</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">采购管理</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">供应链管理</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">职业道德</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">企业内训</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">领导力</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">国学</a></li>
+                        <li class="tab-class"><a href="javascript:void(0)">其他</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>	
+    </div>
+</div>
+
+<div class="search-popup">
+<div class="Header">
+    <div class="left"><a class="icon-arrow-left BACK"></a></div>
+    <div class="search-box m01 displaybox">
+        <div class="city-link">
+            <i>广州</i>
+            <span class="icon-triangle-down"></span>
+        </div>
+        <input class="search-word" type="text" placeholder="搜索你想报读的专业">
+        <div class="submit"><span class="icon-search"></span></div>
+    </div>
+</div>
+<div class="sc-main">
+	<div class="item m-t10"><span class="f16">搜索:&nbsp;&nbsp;</span><a href="SearchCourse.html" class="f16 c-grey03">平面设计</a><span class="f14">&nbsp;课程</span></div>
+	<div class="item m-b15"><span class="f16">搜索:&nbsp;&nbsp;</span><a href="SearchSchool.html" class="f16 c-grey03">平面设计</a><span class="f14">&nbsp;学校</span></div>
+    <div>
+        <p class="h">最近搜索</p>
+        <div class="clearfix"><span class="major">平面设计</span><span class="major">平面设计</span><span class="major">平面设计</span></div>
+        <p class="h">热门搜索</p>
+        <div class="clearfix"><span class="major">平面设计</span><span class="major">平面设计</span><span class="major">平面设计</span><span class="major">平面设计</span><span class="major">平面设计</span></div>
+    </div>
+</div>
+</div>
+
+</body>
+</html>
+
+<script src="../js/jquery.js"></script>
+<script src="../js/jquery.mobile.js"></script>
+<script src="../js/plugin/movie.js"></script>
+<script src="../js/iscroll.js"></script>
+<script src="../js/hammer.js"></script>
+<script src="../js/js.js"></script>
+<script src="../js/js2.js"></script>
+<!--<script src="../js/plugin/swiper.min.js"></script>-->
+
+<script>
+
+$(function(){
+	$(window).load(IndexResponse).resize(IndexResponse);
+});
+function IndexResponse()
+{//屏幕过矮不适应，高于640按640算
+	var wh=Math.min(640,$(window).height());
+	var hh=$(".top").height();
+	var uh=$(".unreadWarning").height();
+	var bh=$(".banner").height();
+	var th=hh+uh+bh;
+	if(wh<th) return;
+	var lh=wh-th-15;
+	var nh=lh/3;
+	var lis=$(".main ul").find("li");
+	var ph=lis.height();
+	lis.css({"padding":(nh-ph)/2+"px 0px"});
+	
+}
+
+$(".classmenu .count .item p").each(function(){
+	if($(this).height()>34){
+		$(this).css({"paddingTop":"7px","display":"-webkit-box"});
+		
+	}
+});
+
+
+
+
+
+
+
+
+
+function bannerSlides(obj){
+	
+	var bannerBox = $(obj),
+	    bannerUl = bannerBox.find("ul"),
+	    bannerLi = bannerBox.find("li"),
+	    bannerPage = bannerBox.find(".banner-pagination");
+	var bannerId = obj.replace('.', '');		
+	var createLi = bannerUl.find("li:last").html();	
+	var cur = 0;
+	var fun = function(){ bannerLi.width($(window).width()); }
+	var oSpan = [];
+	var oneTime,nuber;
+	
+	fun();
+	$(window).resize(fun);
+	
+	//ul首部插入一个li
+	bannerUl.prepend('<li>'+createLi+'</li>');
+		
+	
+	//分页器
+	for(var i = 0; i < bannerLi.length; i++){
+		oSpan.push("<span></span>");
+	}
+	oSpan[0] = '<span class="cur"></span>';
+	bannerPage.html(oSpan.join(""));
+	
+	
+	//运动块
+	function tab(){
+		
+		clearTimeout(oneTime);
+		bannerUl.css({'transitionDuration':300+'ms'});
+		bannerUl.css({"transform":'translate('+bannerLi.width()*-(cur+1)+'px'+',0)'});
+			
+		for(var i = 0; i < bannerLi.length; i++){
+			bannerLi.eq(i).css({'left':(bannerLi.width()*(i+1))+'px'})
+		}
+		
+		oneTime = setTimeout(function(){
+			
+			bannerUl.css({'transitionDuration':0+'ms'});
+			if(cur == bannerLi.length){
+				bannerUl.css({"transform":'translate(0,0)'});
+			}
+		},500)
+		
+		if(cur == bannerLi.length-1){
+			
+			nuber = bannerLi.length-1;
+		}else{
+			nuber = -1;
+		}
+		bannerPage.find("span").eq(cur-nuber).addClass("cur").siblings().removeClass("cur");
+	}
+	
+	//下一页
+	function nextPag(){
+		if(cur == bannerLi.length) cur = 0;
+		tab();
+		cur++;
+	}
+	//上一页
+	function prevPag(){
+		cur--;
+		if(cur == -1) cur = bannerLi.length - 1;
+		tab();
+	}
+	
+	//执行
+	var timer = setInterval(nextPag,2000);
+	
+	
+	//手指滑动 这里要用到hammer.js插件
+	//创建一个新的hammer对象并且在初始化时指定要处理的dom元素
+	var hammertime = new Hammer(document.getElementById(bannerId));
+	//添加事件
+	hammertime.on("swipeleft", function (e) {
+		
+		clearInterval(timer); 
+		nextPag();
+		timer = setInterval(nextPag,2000);
+		 
+	});
+	hammertime.on("swiperight", function (e) {
+		
+		clearInterval(timer); 
+		prevPag();
+		timer = setInterval(nextPag,2000);
+	 
+	});
+
+}
+
+bannerSlides(".banner-box");
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

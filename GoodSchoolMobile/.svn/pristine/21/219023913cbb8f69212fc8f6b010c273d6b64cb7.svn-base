@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/> 
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+	<script src="../../js/jquery.js"></script>
+	<script src="../../js/jquery.mobile.js"></script>
+	<title>峰会详情</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/css.css">
+<link rel="stylesheet" type="text/css" href="css/detail.css">
+<body>
+<div class="clear adv"><img src="images/detail.png"></div>
+<div class="clear ban">
+	<a href="#" class="sign-up sign">参会报名</a>
+    <!--<a href="javascript:void(0)" class="sign-ok sign">已报名</a>如果已经报名，显示这个，不显示上个链接-->
+</div>
+
+<h1>峰会<b>3</b>大看点</h1>
+<ul class="details clear">
+	<li>
+    	<h3>最高规格</h3>
+        <p>史上最高规格雅思峰会，首次齐聚36所最顶尖雅思名校，汇聚全行业最顶级雅思名师。</p>
+    </li>
+	<li>
+    	<h3>最具价值</h3>
+        <p>雅思培训行业标杆人物，巅峰对话，汇聚全行业最精华雅思提分秘诀 。</p>
+    </li>
+	<li>
+    	<h3>公益助学</h3>
+        <p>杜绝商业，纯粹公益，参会即送精美小礼品，现场更抽取重磅大奖。更可免费领取50～1500元不等助学金。</p>
+    </li>
+</ul>
+
+</body>
+</html>
+<script src="js/all.js"></script>
+<script>
+$(function(){
+	SingUp();
+	TipInit();
+});
+</script>

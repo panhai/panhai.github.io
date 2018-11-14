@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+	<link rel="stylesheet" type="text/css" href="../css/css.css">
+    <link rel="stylesheet" type="text/css" href="../css/css2.css">
+	<script src=../js/jquery.js></script>
+	<script type="text/javascript" src="../js/lazyload.js"></script>
+	<script src=../js/jquery.mobile.js></script>
+	<title>试听申请跟踪</title>
+</head>
+<body>
+	<div class="mylisten-top">
+		<a href="javascript:history.go(-1);" class="return"></a>
+		我的申请试听
+	</div>
+	<div class="mylisten-track-nav">
+		<div class="mylisten-track-nav03">
+			<div class="mylisten-track-nav04"><img src="../images/mylisten-ico.png" alt=""></div>
+			<p>发送成功</p>
+			<div class="mylisten-track-line01"><img src="../images/mylisten-ico02.jpg" alt=""/></div>
+		</div>
+		<div class="mylisten-track-nav01">
+			<div class="mylisten-track-nav02">2</div>
+			<p>老师查收</p>
+			<div class="mylisten-track-line"><img src="../images/mylisten-ico01.jpg" alt=""/></div>
+		</div>
+		<div class="mylisten-track-nav01">
+			<div class="mylisten-track-nav02">3</div>
+			<p>老师回复</p>
+		</div>
+	</div>
+	<div class="mylisten-track-main">
+		<div class="mylisten-track-day">
+			<div class="mylisten-track-day01">2014-06-12&nbsp;16:44</div>
+		</div>
+		<div class="mylisten-track-main01">
+			<div class="mylisten-track-main01-img">
+				<img class="lazy" src="../images/pixel.gif" data-original="../images/mylisten-img01.jpg" alt=""/>
+			</div>
+			<div class="mylisten-track-main01-font">
+				<img src="../images/mylisten-ico03.jpg" alt="">
+				<div>周先生您申请的试听已经成功发送</div>
+			</div>
+		</div>
+		<div class="mylisten-track-day">
+			<div class="mylisten-track-day01">2014-06-12&nbsp;16:44</div>
+		</div>
+		<div class="mylisten-track-main02">
+			<div class="mylisten-track-main02-img">
+				<img class="lazy" src="../images/pixel.gif" data-original="../images/mylisten-img02.jpg" alt=""/>
+			</div>
+			<div class="mylisten-track-main02-font">
+				<img src="../images/mylisten-ico04.jpg" alt="">
+				<div>
+					<p>新东方老师已经收到你的试听申请，会尽快与你约定时间，请保持电话畅通。如果老师老师长时间未联系，请直接拨打预约</p>
+					<table>
+						<tr>
+							<td class="mylisten-track-main02-td">联系方式：</td>
+							<td>李老师<br/>135805645834</td>
+						</tr>
+						<tr>
+							<td class="mylisten-track-main02-td">学校地址：</td>
+							<td>广州越秀金鹰大厦3011房</td>
+						</tr>
+						<tr>
+							<td class="mylisten-track-main02-td">乘车路线：</td>
+							<td>小北地铁站B2出口</td>
+						</tr>
+						<tr>
+							<td class="mylisten-track-main02-td">点击查看：</td>
+							<td style="color:#3366cc;" onclick="map()">
+								<img src="../images/point.png" alt="" style="position:static; margin-right:3px;"/>地图
+							</td>
+						</tr>
+					</table>
+					<div class="mylisten-track-main02-bottom">
+						<div class="mylisten-track-main02-bottom01">注：</div>
+						<div class="mylisten-track-main02-bottom02">
+							联系老师时，请说是在好学校会员，将会享受优质服务，并且报名成功后你将获得XXMB，1MB可兑换1元。
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+		<div class="mylisten-track-day">
+			<div class="mylisten-track-day01">2014-06-12&nbsp;16:44</div>
+		</div>
+		<div class="mylisten-track-main02">
+			<div class="mylisten-track-main02-img">
+				<img class="lazy" src="../images/pixel.gif" data-original="../images/mylisten-img02.jpg" alt=""/>
+			</div>
+			<div class="mylisten-track-main02-font">
+				<img src="../images/mylisten-ico04.jpg" alt="">
+				<div>周同学，你好，我们我们明天下午有课程，你可以过来免费试听</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="mylisten-track-btn">
+		<a href="javascript:void(0);" class="mylisten-track-btn01">拨打老师电话</a>
+		<div class="mylisten-track-btn02">回复</div>
+	</div>
+	<div class="mylisten-track-bottom">
+		<div class="mylisten-return"></div>
+		<div class="mylisten-track-bottom01">
+			<input type="text"/>
+		</div>
+		<div class="mylisten-track-bottom02">发送</div>
+	</div>
+	<div class="map">
+        <div class="top">
+            <div class="header-menu">
+                <a class="h_m02" href="UserCenter/Message.html"><span>消息
+                    <div class="personal-nav-num">1</div>
+                </span><i></i></a>
+                <a class="h_m03" href="index.html">首页<i></i></a>
+                <a class="h_m04" href="login.html" style="border:0;">用户<i></i></a>
+            </div>
+            <div class="search-area">
+                <span><span>学校地图</span></span>
+            </div>
+            <a class="search-top-return map-return"></a>
+        </div>
+    	<div class="map-main">
+        	<dl class="map-infor">
+            	<dt>交通指南：</dt>
+                <dd>
+                	<p>附近公交站</p>
+                    <p>龙城街道办-公交车站，龙城街道办-公交车站，龙城街道办-公交车站，龙城街道办-公交车站</p>
+                    <p>途经公交车：m319路</p>
+                </dd>
+            	<dt>交通指南：</dt>
+                <dd>
+                	<p>附近公交站</p>
+                    <p>龙城街道办-公交车站，龙城街道办-公交车站，龙城街道办-公交车站，龙城街道办-公交车站</p>
+                    <p>途经公交车：m319路</p>
+                </dd>
+            </dl>
+            <div class="map-infor-expand">查看更多<i class="arrow-down"></i></div>
+        </div>
+    	
+    	<div class="map-tip">
+    		<div class="map-tip01">朗阁广州培训中心(广州旗舰中心)</div>
+    		<p>
+    			<span class="map-tip02">地址：天河路490号壬地址壬地址地址：天河路490号壬地址壬地址</span>
+    		</p>
+    		<img src="../images/map-img.png" class="map-img" alt=""/>
+    		<img src="../images/map-close.jpg" class="map-close" alt=""/>
+    	</div>
+    </div>
+</body>
+<script type="text/javascript" src="../js/js.js"></script>
+</html>

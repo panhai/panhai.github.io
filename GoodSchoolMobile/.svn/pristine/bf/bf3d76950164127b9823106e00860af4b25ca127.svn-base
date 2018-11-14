@@ -1,0 +1,17 @@
+/* 峰会详情 */
+.adv{ background-color:#0189FF; text-align:center; overflow:hidden;}
+.adv img{ max-width:900px; width:100%; height:auto;}
+.ban{ background-color:#FFFEE5; text-align:center; overflow:hidden;}
+/*报名按钮*/
+.sign{ display:block; width:184px; height:45px; color:#fff; font-size:1rem; font-weight:bold; line-height:45px; margin:10px auto;}
+.sign-up{ background-color:#FF7F00;}
+.sign-ok{ background-color:#21b101;}
+
+h1{ font-size:1.2rem; color:#333; line-height:40px; padding:0px 15px;}
+h1 b{ color:#ff7e00; font-size:1.5rem; position:relative; top:2px; padding:0px 2px;}
+
+.details{ padding:0px 15px; counter-reset:DETAIL;}
+.details li{ padding:0px 15px 5px 30px; position:relative;}
+.details li:before{ counter-increment:DETAIL; content:counter(DETAIL); display:block; width:22px; height:22px; position:absolute; line-height:20px; font-size:0.8rem; color:#fff; text-align:center; left:0px; top:0px; background-color:#018AFE;}
+.details h3{ font-size:0.8rem; color:#018AFE; line-height:20px; margin-bottom:5px;}
+.details p{ font-size:0.6rem; color:#333; line-height:150%;}

@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/> 
+<meta content="yes" name="apple-mobile-web-app-capable" /> 
+<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+<meta content="telephone=no" name="format-detection" />
+<title>中专招生专题</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/css.css">
+<body style="background:#e1e1e1;">
+<header><a href="javascript:history.go(-1)" class="left"></a>网上咨询，预留学位</header>
+
+<div class="baaner04"><img src="images/banner05.jpg"></div>
+<div class="student">
+	<div class="studenttext">
+    	<p class="title">登记资料，领取助学金</p>
+        <div class="tips">提示错误位置</div>
+    	<input class="text" type="text" placeholder='学生真实姓名'>
+        <input class="text" type="text" placeholder='报读学校'>
+        <input class="text" type="text" placeholder='报读专业'>
+        <div class="clearfix"><input class="text" type="text" style=" float:left; width:65%;" placeholder='联系手机'><div class="obtain">获取验证码</div></div>
+        <input class="text" type="text" placeholder='短信验证码'>
+        <div class="btnbig">立即领取</div> 
+    </div>
+</div>
+<div class="success">
+	<a href="success.html" class="close"></a>
+	<p class="h">你的报名信息已成功提交</p>
+    <p class="h2">助学金已到账!</p>
+    <div class="pic"></div>
+    <p class="p-b10">——邀请好友一起来领助学金吧——</p>
+    <div class="bdsharebuttonbox"><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a class="bds_weixin" title="分享到微信"></a><a class="bds_sqq" title="分享到QQ好友"></a></div>
+    <div class="btn">分享给小伙伴</div>
+</div>
+<div class="ShareTip">
+    <p>点击右上角<br>
+    发送给朋友或分享<br>
+    到朋友圈</p>
+</div>
+</body>
+</html>
+<script>
+window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"32"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+<script src="js/jquery.js"></script>
+<script>
+$(function(){
+	$(".bds_sqq,.bds_weixin,.success .btn").click(function(){
+		var t=$(".ShareTip").fadeIn();
+		setTimeout(function(){
+			t.fadeOut();
+		},5000);
+	});
+	/*$(".success .close").click(function(){
+		$(".success").fadeOut();
+	})*/
+	$(".btnbig").click(function(){
+		$(".success").fadeIn();
+	})
+});
+</script>

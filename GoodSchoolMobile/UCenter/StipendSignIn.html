@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<meta content="yes" name="apple-mobile-web-app-capable" />
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+	<meta content="telephone=no" name="format-detection" />
+    <link rel="stylesheet" type="text/css" href="../css/css.css">
+    <link rel="stylesheet" type="text/css" href="../css/css2.css">
+    <link rel="stylesheet" type="text/css" href="../css/fonts.css" >
+    <link rel="stylesheet" type="text/css" href="../css/SchoolCenter.css">
+    <link rel="stylesheet" type="text/css" href="../css/PersonalCenter.css">
+
+	<title>签到赚助学券</title>
+</head>
+<body>
+<div class="top-navbar gr-money-bj">
+    <div class="left"><a href="javascript:history.go(-1)"><i class="navbar-icon icon01"></i></a></div>
+    <div class="center p-r30">签到赚助学券 </div>
+</div>
+
+<div class="gr-singin f14">
+	<div class="g-top">
+    	<div class="top-pic"><img src="../images/Head01.jpg" /></div>
+        <p class="p-t10 p-b20">小学二年级</p>
+        <p class="f18">今天已经签到<span class="c-orange">0.1</span>元继续保持！</p>
+        <p class="p10"><span class="jg-btnbig w200" style="margin:0 auto;">签到</span></p>
+    </div>
+
+
+    <!--<div class="title c-blue01">每日签到有惊喜</div>
+    <p >看看你的手气和运气是否爆棚<br>报读后助学券还可兑换M币</p>
+    <div class="p15 m-t8">
+        <a href="RuleSignin.html" class="jg-btnbig">签到</a>
+    </div>-->
+</div>
+
+<div class="b-white">
+<div class="Date">
+	<div class="clearfix h"><span class="f-l date">2015年11月11日</span><span class="f-r">还差<i class="c-orange">22天</i>兑现<i class="c-orange">20元</i>助学经</span></div>
+	<div class="d-top clearfix">
+    	<p class="week">日</p>
+        <p class="week">一</p>
+        <p class="week">二</p>
+        <p class="week">三</p>
+        <p class="week">四</p>
+        <p class="week">五</p>
+        <p class="week">六</p>
+    </div>
+    <ul class="d-content clearfix">
+    	<li class="li"><span class="dot"></span></li>
+    	<li class="li"><span class="dot cur">1</span></li>
+    </ul>
+</div>
+</div>
+
+<div class="background"></div>
+<div class="TK-notice display">
+	<div class="close"><span class=" icon-cross"></span></div>
+	<p class="h">恭喜你</p>
+    <p class="text">今天签到获得<span class="c-orange">4元</span>助学券<br>(小学四年级)等级助学券*<span class="c-orange">4倍</span></p>
+    <p class="p-b30"><a href="javascript:void(0);" class="btn" onClick="Share()">分享</a></p>
+</div>
+
+<dl class="Shares">
+	<dt class="bdsharebuttonbox" data-tag="share_1">
+    	<a href="#" class="bds_qzone" data-cmd="qzone" style="background:none ;"><img data-cmd="qzone" src="../images/share/qzone.jpg" width="45" height="45">QQ空间</a>
+    	<a href="#" class="bds_tsina" data-cmd="tsina" style="background:none;"><img data-cmd="tsina" src="../images/share/sina.jpg" width="45" height="45">新浪微博</a>
+    	<a href="#" class="bds_tqq" data-cmd="tqq" style="background:none;"><img data-cmd="tqq" src="../images/share/tencent.jpg" width="45" height="45">腾讯微博</a>
+    	<a href="#" class="bds_renren" data-cmd="renren" style="background:none;"><img data-cmd="renren" src="../images/share/renren.jpg" width="45" height="45">人人网</a>
+    	<a href="#" class="bds_kaixin001" data-cmd="kaixin001" style="background:none;"><img data-cmd="kaixin001" src="../images/share/kaixin.jpg" width="45" height="45">开心网</a>
+    </dt>
+    <dd><input type="button" class="share-cancel" value="取消"></dd>
+
+</dl>
+
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/admin/Personal.js"></script>
+<script src="../js/js2.js"></script>
+<script>
+var myDate=new Date(),
+	oYear=myDate.getFullYear(),
+	oMonth=myDate.getMonth(),
+	oDay=myDate.getDate(),
+    oArray=[],oLi, oNull=[];
+
+//显示日期yyyy-MM-dd
+if(oMonth<10) oMonth="0"+oMonth;
+$(".Date .date").html(oYear+"年"+(oMonth+1)+"月"+oDay+"日");
+
+myDate.setDate(1);
+for(var i=0; i<myDate.getDay(); i++){
+	oNull.push('<li class="li"><span class="dot"></span></li>');
+}
+
+myDate.setMonth(myDate.getMonth()+1);
+var contDate = new Date(myDate-3600000*24);
+
+for(var i=0; i<contDate.getDate(); i++){
+	oLi='<li class="li"><span class="dot">' + (i+1) + '</span></li>';
+	oArray.push(oLi);
+}
+//填充 没日期的空格
+oArray.unshift(oNull.join(""));
+
+//填充日期
+$(".Date .d-content").html(oArray.join(""));
+
+//点击签到 显示今天几号
+$(".gr-singin .jg-btnbig").click(function(){
+	$(".TK-notice").show();
+	$(".background").show();
+	$(this).css("background","#8c8c8c");
+	$(this).text("已签到");
+	$(".Date .d-content .li .dot").each(function(i) {
+        if($(this).text()==new Date().getDate()){
+
+			$(this).addClass("cur");
+		}
+    });
+});
+
+
+$(".TK-notice .btn").click(function(){
+	if($(this).text()=="分享"){
+		$(this).closest(".TK-notice").hide();
+	}
+})
+</script>
+
+
+
+
+
+
+
+
+
+
+
+

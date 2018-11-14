@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+    <link rel="stylesheet" type="text/css" href="../css/fonts.css" >
+    <link rel="stylesheet" type="text/css" href="../css/css.css">
+    <link rel="stylesheet" type="text/css" href="../css/css2.css">
+    <link rel="stylesheet" type="text/css" href="../css/SchoolCenter.css">
+    <link rel="stylesheet" type="text/css" href="../css/PersonalCenter.css">
+	
+	<title>邀请好友赚助学券</title>
+</head>
+<body class="b-white">
+<header class="Header">
+    <div class="left"><a href="javascript:history.go(-1)" class="icon-arrow-left"></a></div>
+    <h1>邀请好友赚助学券</h1>
+    <div class="right"><a href="Invite.html" class="f14">邀请收益</a></div>
+</header>
+
+<div class="invite-friend02">
+    <div class="i-top">
+    	<p class="text">为好友送上50元课程优惠，帮助好友以最低价<br>找到最合适的学校。你可获得30元~1000元<br>不等的现金收益。好友也将感激您的邀请！</p>
+    </div>
+    
+    <!--<div class="p10 m-t50">
+    	<a href="" class="jg-btnbig btn01">邀请好友</a>
+        <div class="clearfix">
+        	<input class="url" type="text">
+            <div class="btn02">复制</div>
+        </div>
+        <p class="t-acenter m-t10">分享链接</p>
+    </div>-->
+    <div class="invite-shaer">
+        <a class="jg-btnbig" onClick="Share()">邀请好友</a>
+        <p class="t-acenter m-t10"><span style="color:#ccc;">—————————</span>&nbsp;&nbsp;或&nbsp;&nbsp;<span style="color:#ccc;">—————————</span></p>
+        <p class="t-acenter p-b10">分享链接</p>
+        <div class="clearfix">
+            <input class="url" type="text">
+            <div class="btn02">复制</div>
+        </div>
+        <p class="m-t10 p-b20 f12">备注：将此链接发送给好友，好友通过此链接注册即可邀请成功</p>
+    </div>
+    <div style="border-bottom:1px solid #e6e6e6; margin-left:10px; height:30px; line-height:30px;">邀请好友奖励说明</div>
+    <div class="invite-lc">
+        <div class="lc">
+            <span class="dot"></span>
+            <p class="f14 c-blue">邀请好友注册</p>
+            <p>送你25元助学券</p>
+            <p class="c-grey01">你的好友将获得50元助学券</p>
+        </div>
+        <div class="lc">
+            <span class="dot"></span>
+            <p class="f14 c-blue">好友咨询课程</p>
+            <p>你可兑现5元助学券</p>
+            <p class="c-grey01">你的好友将获得一站式服务</p>
+        </div>
+        <div class="lc">
+            <span class="dot"></span>
+            <p class="f14 c-blue">好友报读课程</p>
+            <p>你可兑现25-1000元助学券</p>
+            <p class="c-grey01">你的好友也可兑现25-1000元助学券</p>
+        </div>
+    </div>
+</div>
+
+<a class="cj-wenti" href="RuleInvite.html" style=" margin-top:20px;"><span class="dot">?</span>邀请奖金说明</a>
+
+<div class="background"></div>
+<dl class="Shares">
+	<dt class="bdsharebuttonbox" data-tag="share_1">        
+    	<a href="#" class="bds_qzone" data-cmd="qzone" style="background:none ;"><img data-cmd="qzone" src="../images/share/qzone.jpg" width="45" height="45">QQ空间</a>
+    	<a href="#" class="bds_tsina" data-cmd="tsina" style="background:none;"><img data-cmd="tsina" src="../images/share/sina.jpg" width="45" height="45">新浪微博</a>
+    	<a href="#" class="bds_tqq" data-cmd="tqq" style="background:none;"><img data-cmd="tqq" src="../images/share/tencent.jpg" width="45" height="45">腾讯微博</a>
+    	<a href="#" class="bds_renren" data-cmd="renren" style="background:none;"><img data-cmd="renren" src="../images/share/renren.jpg" width="45" height="45">人人网</a>
+    	<a href="#" class="bds_kaixin001" data-cmd="kaixin001" style="background:none;"><img data-cmd="kaixin001" src="../images/share/kaixin.jpg" width="45" height="45">开心网</a>
+    </dt>
+    <dd><input type="button" class="share-cancel" value="取消"></dd>
+
+</dl>
+
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/admin/Personal.js"></script>
+<script src="../js/js2.js"></script>
+<script>
+with (document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?cdnversion=' + ~(-new Date() / 36e5)];
+
+function Share()
+{
+	var bg=$(".background");
+	var T=$(".Shares");
+	T.find("dd input").click(function(){
+		$(".icons-share").removeClass("on");
+		shut();
+	});
+	var shut=function(){
+		T.slideUp('','',function(){
+			bg.fadeOut();
+		})
+	}
+	bg.fadeIn('',function(){
+		T.slideDown();
+	}).click(shut);
+}
+</script>
+
+
+
+
+
+

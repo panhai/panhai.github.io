@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"> 
+        <meta content="yes" name="apple-mobile-web-app-capable"> 
+        <meta content="black" name="apple-mobile-web-app-status-bar-style"> 
+        <meta content="telephone=no" name="format-detection">
+        <title>中专技校择校技巧</title>
+        <link rel="stylesheet" type="text/css" href="css/index.min.css" />
+    </head>
+    <body class="grey">
+        <header>
+            <h1>中专技校择校技巧</h1>
+            <a class="" href="javascript:history.go(-1)"><i class="icon break"></i></a>
+            <a href="index.html">关闭</a>
+        </header> 
+        <div class="topOk">
+            <h2><i class="icon"></i>恭喜你提交成功</h2>
+        </div>
+        <div class="ws">
+        <p class="txt">请完善你的需求，方便老师为您推荐更合适学校！</p>
+            <ul class="">
+                <li>
+                    <span>意向学校：</span><input type="text" placeholder="你想报读什么样的学校？"/>
+                </li>
+                <li>
+                    <span>报读层次：</span> <span class="double"><label for="cz" class="on"><input type="radio" id="cz" name="qd"/>初中起点</label><label for="gz"><input type="radio" id="gz" name="qd"/>高中起点</label></span>
+                </li>
+                <li>
+                    <span>户口所在：</span><input type="text" placeholder="格式，xx省xx市xx区xx县"/>
+                </li>
+                <li>
+                    <span>出生年月：</span><input type="tel" placeholder="格式xx年xx月"/>
+                </li>
+                <li>
+                    <span>毕业学校：</span><input type="text" placeholder=""/>
+                </li>
+                <li>
+                    <span>联系Q Q：</span><input type="tel" placeholder=""/>
+                </li>
+            </ul>
+        </div>
+        <a class="link link3">立即提交</a>
+        <div class="Popup">
+            <div class="PopupMain">
+                <h2>您的需求已提交<i class="close icon"></i></h2>
+                <p>您的专属择校顾问已收到您的信息，会电话与您联系，请保持电话畅通哦！</p>
+                <button class="close">确定</button>
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript" src="js/all.js"></script>
+    <script type="text/javascript">
+        (function(){
+            var select = document.querySelector(".double");
+            select.addEventListener("click", function(event){
+
+                event.preventDefault();
+                var target = event.target,
+                    clsName =  target.className;
+
+                function removeClass(){
+                    var sibling = target.previousElementSibling,
+                        next = target.nextElementSibling;
+                    if( sibling ){
+                        sibling.className = clsName.replace("on","")
+                        sibling.firstChild.checked = false;
+                    }else if( next ){
+                        next.firstChild.checked = false;
+                        next.className =  clsName.replace("on","");
+                    }
+                }
+
+                
+                if( target.tagName == "LABEL"){
+                    if(clsName.indexOf("on")!=0){
+                        target.className+="on";
+                        target.firstChild.checked = true;
+                        removeClass();
+                    }
+                }
+                return true;
+            }, false);
+
+            var link = document.querySelector(".link3"),
+                popup = document.querySelector(".Popup"),
+                popupClose = popup.querySelectorAll(".close");
+                
+            link.addEventListener("click",function(event){
+                if(!popup) return true;
+                popup.style.display = "block";
+
+            },false);
+
+            for( var i= 0,len = popupClose.length ; i < len; i++ ){
+                popupClose[i].addEventListener("click", function(event){
+                    popup.style.display = "none";
+                    location.replace("送话费.html")
+                });
+            }
+
+            function formTest(){
+
+            }
+        })()
+    </script>
+</html>

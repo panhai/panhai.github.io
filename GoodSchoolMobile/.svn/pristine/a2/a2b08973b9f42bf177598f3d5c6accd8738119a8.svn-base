@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<link rel="stylesheet" href="css/css2.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/lazyload.js"></script>
+    <script src="js/move2.js"></script>
+	<title>学校介绍</title>
+</head>
+<body>
+	<div class="clear"></div>
+	<div class="school-img-1">
+		<div class="close"></div>
+	</div>
+	<div  class="s_i_details" style=" display:block;">
+        <div class="s_i_details1" > 
+          <div  class="s_i_context">
+            <div class="s_number"></div>
+            <ul class="s_i_c_box">
+              <li><img class="lazy" src="images/pixel.gif" data-original="images/context01.jpg"></li>
+              <li><img class="lazy" src="images/pixel.gif" data-original="images/context02.jpg"></li>
+              <li><img class="lazy" src="images/pixel.gif" data-original="images/context03.jpg"></li>
+              <li><img class="lazy" src="images/pixel.gif" data-original="images/context04.jpg"></li>
+            </ul>
+         </div>
+          <p><img src="images/cushi.jpg"></p>
+          <p>新东方，全名北京新东方教育科技（集团）有限公司，总部位于北京市海淀区中关村，是目前中国大陆规模最大的综合性教育集团。公司业务包括外语培训、中小学基础教育、学前教育、出国咨询、在线教育、图书出版等各个领域。除新东方外，旗下还设有优能中学教育、泡泡少儿教育、精英英语、前途出国咨询、迅程在线教育、大愚文化出版、满天星亲子教育、同文高考复读等子品牌。公司于2006年在美国纽约证券交易所上市，是中国大陆第一家在美国上市的教育机构。截至到2011年12月31日前，新东方已在全国49个城市设立了54所学校、6家产业机构、47家书店以及500家学习中心，培训学员已达1500万人次。</p>
+          <p><strong>广州新东方简介</strong></p>
+          <p>广州新东方英语培训学校组建于2000年，是新东方成立较早的分校。历经12年的发展，目前在广州拥有23个分校，取得快速的发展离不开社会各界朋友对新东方的关心和支持</p>
+          <p>广州新东方英语培训学校目前拥有以下项目：泡泡少儿教育、优能中学教育、国内部、国外部、前途出国、企业培训等，在不同领域为不同年龄的学员提供服务。</p>
+          <p><strong>学校使命</strong></p>
+          <p>为提升学生终身竞争力 塑造学生公民素质 赋予学生全球眼光而努力</p>
+          <p>核心价值观</p>
+          <p>诚信负责</p>
+          <p>真情关爱</p>
+          <p>志高行远</p>
+          <p>好学精进</p>
+          <p><strong>学校精神</strong></p>
+          <p>	广州新东方英语培训学校一直致力于阐扬一种朝气蓬勃、奋发向上的精神，一种从绝望中义无反顾地寻找希望的精神。当世界上的一切都成为如烟往事，唯一能够珍藏心中的是我们在今天的奋斗中所得到的精神启示。在将来的岁月里，我们的心灵将引导我们，使我们能够潇洒地对待生活中的成功与失败，并在成功与失败时做出更奋发的努力，取得最终的辉煌。广州新东方短期培训学校提供的培训项目包括TOEFL、GRE、GMAT、TSE、LSAT、IELTS、BEC、托业、四级、六级、考研英语、职称英语、公共英语等级考试（PETS）、英语高教自考培训、美国口语、《新概念英语》、英语语法、听力提高、语音速成、《英语900句》、听说速成、高级口译、写作提高、中学英语、少儿英语和多语种培训等。</p>
+        </div>
+    </div>
+
+    <div class="Pause_admissions">
+	  <div class="p_a_Close common_ico"></div>
+	  <div class="p_a_info">
+	    <h1>本课程暂停招生！</h1>
+	    <p>好学校与【新东方】沟通明确：【少儿英语】暂停招生，暂不接受任何咨询或预定。<i>1</i></p>
+	    <p>如果还需要与【少儿英语】相似的课程服务，请点击搜索。<i>2</i></p>
+	    <div class="searchbtn bff7f00"><a href="#" title="搜索更多学校/课程">搜索更多学校/课程</a></div>
+	  </div>
+	</div>
+	<div class="Pause_admissions">
+	  <div class="p_a_Close common_ico"></div>
+	  <div class="p_a_info">
+	    <h1>【广州好学校好新东方】暂停招生！</h1>
+	    <p>好学校为了保证学员权益不受损害，已将【新东方】全部课程下架，不接受任何咨询或预定。<i>1</i></p>
+	    <p>提醒：学员不要相信社会上"好学校的【新东方】招生信息"，防止上当受骗。<i>2</i></p>
+	    <div class="searchbtn bff7f00"><a href="#" title="搜索更多学校/课程">搜索更多学校/课程</a></div>
+	  </div>
+	</div>
+</body>
+<script type="text/javascript" src="js/js.js"></script>
+<script type="text/javascript" src="js/hammer.js"></script>
+<script>
+$(window).load(function(){
+	$(".s_i_details1 img").click(function(){
+		UseHammer(this);
+		$(".school-img-1 .close").click(function(){
+	        $(this).parent().find('img').remove().end().fadeOut(300);
+	    })
+	});
+});
+
+</script>
+</html>

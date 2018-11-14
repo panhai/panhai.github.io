@@ -1,0 +1,46 @@
+<!DOCTYPE html >
+<html >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+<meta content="yes" name="apple-mobile-web-app-capable" /> 
+<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+<meta content="telephone=no" name="format-detection" />
+<link rel="stylesheet" type="text/css" href="../css/css.css">
+<link rel="stylesheet" type="text/css" href="../css/css2.css">
+<link rel="stylesheet" type="text/css" href="../css/SchoolCenter.css">
+<link rel="stylesheet" type="text/css" href="../css/PersonalCenter.css">
+
+<title>点评老师</title>
+</head>
+
+<body>
+	<div class="top-navbar">
+    	<div class="left"><a href="javascript:history.go(-1)"><i class="navbar-icon icon01"></i></a></div>
+        <div class="center">点评老师</div>
+    </div>
+    
+    <div class="gr-teacher b-white f14 p-l15">
+    	<div class="teacher">
+        	<p class="f20">给老师点评</p>
+        	<p>评论老师可获50元助学券</p>
+        </div>
+        <p class="p-t8">广州新东方学校-李老师</p>
+        <div class="gr-star displaybox">
+            <div class="star displayflex">
+                <p><span class="label">师资力量：</span><span class="commentStar star00"><a></a><a></a><a></a><a></a><a></a><a></a></span></p>
+                <p><span class="label">学历环境：</span><span class="commentStar star00"><a></a><a></a><a></a><a></a><a></a><a></a></span></p>
+                <p><span class="label">教学服务：</span><span class="commentStar star00"><a></a><a></a><a></a><a></a><a></a><a></a></span></p>
+            </div>
+            <div class="score">总分<span class="f30 c-orange">5.0</span>分</div>
+        </div>
+        <div class="p-r15 p-b20">
+            <textarea rows="5" class="jg-reply" placeholder="请对该学校做出评价："></textarea>
+            <div class="jg-btnbig">提交点评</div>
+        </div>
+    </div>
+    
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/admin/Personal.js"></script>

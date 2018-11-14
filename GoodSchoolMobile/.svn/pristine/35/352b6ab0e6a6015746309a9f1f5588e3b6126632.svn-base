@@ -1,0 +1,204 @@
+<!DOCTYPE html >
+<html >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+<meta content="yes" name="apple-mobile-web-app-capable" /> 
+<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+<meta content="telephone=no" name="format-detection" />
+<link rel="stylesheet" type="text/css" href="../css/css.css" />
+<link rel="stylesheet" type="text/css" href="../css/css2.css"/>
+<link rel="stylesheet" type="text/css" href="../css/SchoolCenter.css">
+
+<title>查看回访</title>
+</head>
+
+<body>
+	<div class="top-navbar">
+    	<div class="left"><a href="javascript:history.go(-1)"><i class="navbar-icon icon01"></i></a></div>
+        <div class="center">今日回访</div>
+        <div class="right"><a href="#"><i class="navbar-icon icon03 "></i></a></div>
+    </div>
+    	<ul class="common-nav">
+        	<li class="tab now">今日回访(31) <i class="line"></i></li>
+        	<li class="tab ">无计划(13) <i class="line"></i></li>
+            <li class="tab">已过期(21)</li>
+            <li class="tab-slider"></li>
+        </ul>
+    
+    <div class="jg-list">
+    
+        <div class="jg-list01 now">
+            <div class="jg-infobox">
+            	<div class="tips">下次回访时间：2015-4-28  14:30<i class="c-orange">（已过期）</i></div>
+            	<a href="StudentDetails.html" class="jg-studentinfo">
+                    <div class="i-img"><img src="../images/SchoolCenter/i-img.jpg"/></div>
+                    <dl class="dl02">
+                        <dt class="i-name">张先生11<span class="grey">(男)</span><span class="grey i-right">2015-05-05</span></dt>
+                        <dd class="i-content"><span class="number">13632233773</span><span class="i-right state b-green">有意向</span></dd>
+                        <dd class="i-content"><span class="o-hidden msg01">咨询：新东方雅思口新东方雅思口语班新东方雅思口语班新东方雅思口语班语班</span></dd>
+                    </dl>
+                </a>
+                <div class="chat-nav number3 m-bottom-15">
+                    <ul class="chat-ul">
+                        <li class="tab"><a href="#"><span class="icon icon01"></span>打电话<i class="line"></i></a></li>
+                        <li class="tab"><a href="Chat.html"><span class="icon icon02"></span>发信息<i class="line"></i></a></li>
+                        <li class="tab jilu" data-id="02"><a href="#"><span class="icon icon03"></span>填记录</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="jg-infobox">
+            	<a href="StudentDetails.html" class="jg-studentinfo">
+                <div class="i-img"><img src="../images/SchoolCenter/i-img.jpg"/></div>
+                <dl class="dl02">
+                    <dt class="i-name">张先生<span class="grey">(男)</span><span class="grey i-right">2015-05-05</span></dt>
+                    <dd class="i-content"><span class="number">13632233773</span><span class="i-right state b-red">未查看</span></dd>
+                    <dd class="i-content"><span class="o-hidden msg01">咨询：新东方雅思口新东方雅思口语班新东方雅思口语班新东方雅思口语班语班</span></dd>
+                </dl>
+                </a>
+                <div class="chat-nav number3 m-bottom-15">
+                    <ul class="chat-ul">
+                        <li class="tab"><a href="#"><span class="icon icon01"></span>打电话<i class="line"></i></a></li>
+                        <li class="tab"><a href="Chat.html"><span class="icon icon02"></span>发信息<i class="line"></i></a></li>
+                        <li class="tab jilu" data-id="02"><a href="#"><span class="icon icon03"></span>填记录</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="jg-infobox">
+            	<a href="StudentDetails.html" class="jg-studentinfo">
+                    <div class="i-img"><img src="../images/SchoolCenter/i-img.jpg"/></div>
+                    <dl class="dl02">
+                        <dt class="i-name">张先生<span class="grey">(男)</span><span class="grey i-right">2015-05-05</span></dt>
+                        <dd class="i-content"><span class="number">13632233773</span><span class="i-right state b-green">有意向</span></dd>
+                        <dd class="i-content"><span class="o-hidden msg01">咨询：新东方雅思口新东方雅思口语班新东方雅思口语班新东方雅思口语班语班</span></dd>
+                    </dl>
+                </a>
+                <div class="chat-nav number3 m-bottom-15">
+                    <ul class="chat-ul">
+                        <li class="tab"><a href="#"><span class="icon icon01"></span>打电话<i class="line"></i></a></li>
+                        <li class="tab"><a href="Chat.html"><span class="icon icon02"></span>发信息<i class="line"></i></a></li>
+                        <li class="tab jilu" data-id="02"><a href="#"><span class="icon icon03"></span>填记录</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="jg-list02">
+            <div class="jg-infobox">
+            	<div class="tips">下次回访时间：2015-4-28  14:30<i class="c-orange">（已过期）</i></div>
+            	<a href="StudentDetails.html" class="jg-studentinfo">
+                    <div class="i-img"><img src="../images/SchoolCenter/i-img.jpg"/></div>
+                    <dl class="dl02">
+                        <dt class="i-name">张先生22<span class="grey">(男)</span><span class="grey i-right">2015-05-05</span></dt>
+                        <dd class="i-content"><span class="number">13632233773</span><span class="i-right state b-green">已报名</span></dd>
+                        <dd class="i-content"><span class="o-hidden msg01">咨询：新东方雅思口新东方雅思口语班新东方雅思口语班新东方雅思口语班语班</span></dd>
+                    </dl>
+                </a>
+                <div class="chat-nav number3 m-bottom-15">
+                	
+                    <ul class="chat-ul">
+                        <li class="tab"><a href="#"><span class="icon icon01"></span>打电话<i class="line"></i></a></li>
+                        <li class="tab"><a href="Chat.html"><span class="icon icon02"></span>发信息<i class="line"></i></a></li>
+                        <li class="tab jilu" data-id="02"><a href="#"><span class="icon icon03"></span>填记录</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="jg-infobox">
+            	<a href="StudentDetails.html" class="jg-studentinfo">
+                <div class="i-img"><img src="../images/SchoolCenter/i-img.jpg"/></div>
+                <dl class="dl02">
+                    <dt class="i-name">张先生<span class="grey">(男)</span><span class="grey i-right">2015-05-05</span></dt>
+                    <dd class="i-content"><span class="number">13632233773</span><span class="i-right state b-green">有意向</span></dd>
+                    <dd class="i-content"><span class="o-hidden msg01">咨询：新东方雅思口新东方雅思口语班新东方雅思口语班新东方雅思口语班语班</span></dd>
+                </dl>
+                </a>
+                <div class="chat-nav number3 m-bottom-15">
+                    <ul class="chat-ul">
+                        <li class="tab"><a href="#"><span class="icon icon01"></span>打电话<i class="line"></i></a></li>
+                        <li class="tab"><a href="Chat.html"><span class="icon icon02"></span>发信息<i class="line"></i></a></li>
+                        <li class="tab jilu" data-id="02"><a href="#"><span class="icon icon03"></span>填记录</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="jg-infobox">
+            	<a href="StudentDetails.html" class="jg-studentinfo">
+                    <div class="i-img"><img src="../images/SchoolCenter/i-img.jpg"/></div>
+                    <dl class="dl02">
+                        <dt class="i-name">张先生<span class="grey">(男)</span><span class="grey i-right">2015-05-05</span></dt>
+                        <dd class="i-content"><span class="number">13632233773</span><span class="i-right state  b-green">有意向</span></dd>
+                        <dd class="i-content"><span class="o-hidden msg01">咨询：新东方雅思口新东方雅思口语班新东方雅思口语班新东方雅思口语班语班</span></dd>
+                    </dl>
+                </a>
+                <div class="chat-nav number3 m-bottom-15">
+                    <ul class="chat-ul">
+                        <li class="tab"><a href="#"><span class="icon icon01"></span>打电话<i class="line"></i></a></li>
+                        <li class="tab"><a href="Chat.html"><span class="icon icon02"></span>发信息<i class="line"></i></a></li>
+                        <li class="tab jilu" data-id="02"><a href="#"><span class="icon icon03"></span>填记录</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="jg-list03">
+            <div class="jg-infobox">
+            	<a href="StudentDetails.html" class="jg-studentinfo">
+                    <div class="i-img"><img src="../images/SchoolCenter/i-img.jpg"/></div>
+                    <dl class="dl02">
+                        <dt class="i-name">张先生33<span class="grey">(男)</span><span class="grey i-right">2015-05-05</span></dt>
+                        <dd class="i-content"><span class="number">13632233773</span><span class="i-right state b-grey">无意向</span></dd>
+                        <dd class="i-content"><span class="o-hidden msg01">咨询：新东方雅思口新东方雅思口语班新东方雅思口语班新东方雅思口语班语班</span></dd>
+                    </dl>
+                </a>
+                <div class="chat-nav number3 m-bottom-15">
+                    <ul class="chat-ul">
+                        <li class="tab"><a href="#"><span class="icon icon01"></span>打电话<i class="line"></i></a></li>
+                        <li class="tab"><a href="Chat.html"><span class="icon icon02"></span>发信息<i class="line"></i></a></li>
+                        <li class="tab jilu" data-id="02"><a href="#"><span class="icon icon03"></span>填记录</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="jg-infobox">
+            	<a href="StudentDetails.html" class="jg-studentinfo">
+                <div class="i-img"><img src="../images/SchoolCenter/i-img.jpg"/></div>
+                <dl class="dl02">
+                    <dt class="i-name">张先生<span class="grey">(男)</span><span class="grey i-right">2015-05-05</span></dt>
+                    <dd class="i-content"><span class="number">13632233773</span><span class="i-right state b-green">已报名</span></dd>
+                    <dd class="i-content"><span class="o-hidden msg01">咨询：新东方雅思口新东方雅思口语班新东方雅思口语班新东方雅思口语班语班</span></dd>
+                </dl>
+                </a>
+                <div class="chat-nav number3 m-bottom-15">
+                    <ul class="chat-ul">
+                        <li class="tab"><a href="#"><span class="icon icon01"></span>打电话<i class="line"></i></a></li>
+                        <li class="tab"><a href="Chat.html"><span class="icon icon02"></span>发信息<i class="line"></i></a></li>
+                        <li class="tab jilu" data-id="02"><a href="#"><span class="icon icon03"></span>填记录</a></li>
+                    </ul>
+                </div>
+            </div>
+           
+        </div>
+        
+        <div class="background"></div>
+        
+        <div class="boxarea boxarea02" style="display:none;">
+            <div class="topbar"><div class="title">填写回访记录</div><div class="close"></div></div>
+            <div class="boxcontent ejectrecord">
+                <textarea class="textarea" placeholder="回复学员" rows="5"></textarea>
+                <div class="select">
+                    <span class="option">不需要</span>
+                    <span class="option">电话关机</span>
+                    <span class="option">电话忙</span>
+                    <span class="option now">还没有时间</span>
+                    <span class="option">电话无人接听</span>
+                </div>
+                <div class="title01">计划下次回访时间：</div>
+            	<input class="time01" type="text" placeholder="2015-05-05 10:12">
+                <div class="jg-btnbig">提交</div>
+            </div>		
+        </div>
+        
+    </div>
+    
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/admin/Agency.js"></script>

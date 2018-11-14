@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+    <link rel="stylesheet" type="text/css" href="../css/css.css">
+    <link rel="stylesheet" type="text/css" href="../css/css2.css">
+    <link rel="stylesheet" type="text/css" href="../css/SchoolCenter.css">
+    <link rel="stylesheet" type="text/css" href="../css/PersonalCenter.css">
+	
+	<title>分享赚助学券</title>
+</head>
+<body>
+	<div class="top-navbar gr-money-bj">
+    	<div class="left"><a href="javascript:history.go(-1)"><i class="navbar-icon icon01"></i></a></div>
+        <div class="center p-r30">分享赚助学券</div>
+    </div>
+   
+    <div class="gr-shaer f14">
+    	<div class="gr-money-head">
+            <p class="f14">助学券余额</p>
+            <p class="f40 fnew">300.00</p>
+        </div>
+        <div class="gr-info m-b15">
+            <a href="creditFx-zixun.html"><p><i class="i-box icon03 i1"></i><span class="text">我要分享资讯</span><span class="text02">累计收益10元</span></p></a>
+            <a href="creditFx-kecheng.html"><p><i class="i-box icon03 i2"></i><span class="text">我要分享课程</span><span class="text02">累计收益20元</span></p></a>
+            <a href="creditFx-wangzhan.html"><p><i class="i-box icon03 i3"></i><span class="text">我要推广网站任务</span><span class="text02">累计收益5元</span></p></a>
+         </div>
+         
+    </div>
+
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/lazyload.js"></script>
+<script src="../js/jquery.mobile.js"></script>
+<script src="../js/js.js"></script>
+
+
+
+
+
+
+

@@ -1,0 +1,311 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+	<link rel="stylesheet" type="text/css" href="../css/css.css">
+    <link rel="stylesheet" type="text/css" href="../css/css2.css">
+	<script src=../js/jquery.js></script>
+	<script type="text/javascript" src="../js/lazyload.js"></script>
+	<script src=../js/jquery.mobile.js></script>
+	<title>我的点评</title>
+</head>
+<style type="text/css">
+.mylisten-btn{bottom: 26px;}
+.mylisten-main p{position: absolute; bottom: 6px; right: 2px; color: #ff6600; font-size: 0.6rem;}
+.mylisten-main p.new{color: #c0c3bc;}
+.mylisten-btn.now.new{background: #bfbfbf; color: #616161;}
+</style>
+<body>
+	<div class="mylisten-body">
+		<div class="personal-top">
+			<a href="javascript:history.go(-1);" class="return"></a>
+			我的点评
+		</div>
+    <div class="recommend-nav">
+      <a href="Comment.html">待点评</a>
+      <a href="Comment_1.html" class="now">已点评</a>
+      <div class="line" style="left:initial; right:0;"></div>
+    </div>
+		<div class="mylisten-main">
+			<div class="mylisten-main-img">
+				<img class="lazy" src="../images/pixel.gif" data-original="../images/mylisten-img.jpg" alt=""/>
+			</div>
+			<div class="mylisten-main01">室内设计百分百就业班</div>
+			<div class="mylisten-main02">广州新东方培训学校</div>
+			<div class="mylisten-RMB"><span>¥</span>13000</div>
+			<div class="mylisten-day">2014-06-12&nbsp;&nbsp;20:33</div>
+			<a href="javascript:void(0);" class="mylisten-btn now new">已分享</a>
+      <p class="new">已获10元助学金</p>
+			<img src="../images/comment-ybm.png" class="comment-ybm" alt=""/>
+		</div>
+		<div class="compose_rating_box clearfix" style="display:block">
+         <i class="common_ico"></i>
+           <div class="compose_rating_list ">
+             <div class="compose_rating teachers">
+               <div class="rating_tilet ">师资力量</div>
+               <div class="rating_content">
+                 <span class="rating_star star_5">
+                   <!--<a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a>-->
+                 </span>
+                 <span class="fenshu">5.0</span>
+                 <span class="rating_result">5.0 分&nbsp;&nbsp;好</span>             
+               </div>
+             </div>
+             <div class="compose_rating environment">
+               <div class="rating_tilet ">学校环境</div>
+               <div class="rating_content">
+                 <span class="rating_star star_5">
+                   <!--<a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a>-->
+                 </span>
+                 <span class="fenshu">5.0</span>
+               </div>
+             </div>
+             <div class="compose_rating Service">
+               <div class="rating_tilet ">教学服务</div>
+               <div class="rating_content">
+                 <span class="rating_star star_5">
+                   <!--<a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a>-->
+                 </span>
+                 <span class="fenshu">5.0</span>
+               </div>
+             </div>
+          </div>
+          
+          <div class="review2">
+            <em>课程点评</em>
+            <p><span></span>老师不错嘛！老师不错嘛！老师不错嘛！老师不错嘛！老师不错嘛！老师不错嘛！老师不错嘛！老师不错嘛！老师不错嘛！老师不错嘛！老师不错嘛！老师不错嘛！老师不错嘛！老师不错嘛！老师不错嘛！老师不错嘛！老师不错嘛！老师不错嘛！老师不错嘛！</p>
+          </div>
+          <div class="teacher_answer">
+            <p><span class="f16">老师回复：</span><span>2014-08-27</span></p>
+            <p>同学 你好，学校里还有更大的惊喜！</p>
+          </div>
+       </div>
+		<div class="mylisten-main">
+			<div class="mylisten-main-img">
+				<img class="lazy" src="../images/pixel.gif" data-original="../images/mylisten-img.jpg" alt=""/>
+			</div>
+			<div class="mylisten-main01">室内设计百分百就业班</div>
+			<div class="mylisten-main02">广州新东方培训学校</div>
+			<div class="mylisten-RMB"><span>¥</span>13000</div>
+			<div class="mylisten-day">2014-06-12&nbsp;&nbsp;20:33</div>
+			<a href="javascript:void(0);" class="mylisten-btn now" onclick="Share()">分享获助学金<span></span></a>
+      <p>可获10元助学金</p>
+			<img src="../images/comment-ybm.png" class="comment-ybm" alt=""/>
+		</div>
+    <div class="compose_rating_box clearfix" style="display:block">
+         <i class="common_ico"></i>
+           <div class="compose_rating_list ">
+             <div class="compose_rating teachers">
+               <div class="rating_tilet ">师资力量</div>
+               <div class="rating_content">
+                 <span class="rating_star star_5">
+                   <!--<a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a>-->
+                 </span>
+                 <span class="fenshu">5.0</span>
+                 <span class="rating_result">5.0 分&nbsp;&nbsp;好</span>             
+               </div>
+             </div>
+             <div class="compose_rating environment">
+               <div class="rating_tilet ">学校环境</div>
+               <div class="rating_content">
+                 <span class="rating_star star_5">
+                   <!--<a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a>-->
+                 </span>
+                 <span class="fenshu">5.0</span>
+               </div>
+             </div>
+             <div class="compose_rating Service">
+               <div class="rating_tilet ">教学服务</div>
+               <div class="rating_content">
+                 <span class="rating_star star_5">
+                   <!--<a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a>-->
+                 </span>
+                 <span class="fenshu">5.0</span>
+               </div>
+             </div>
+          </div>
+          
+          <div class="review2">
+            <em>课程点评</em>
+            <p><span></span>老师不错嘛！</p>
+          </div>
+          <div class="teacher_answer">
+            <p><span class="f16">老师回复：</span><span>2014-08-27</span></p>
+            <p>同学 你好，学校里还有更大的惊喜！</p>
+          </div>
+       </div>
+		<div class="mylisten-main">
+			<div class="mylisten-main-img">
+				<img class="lazy" src="../images/pixel.gif" data-original="../images/mylisten-img.jpg" alt=""/>
+			</div>
+			<div class="mylisten-main01">室内设计百分百就业班</div>
+			<div class="mylisten-main02">广州新东方培训学校</div>
+			<div class="mylisten-RMB"><span>¥</span>13000</div>
+			<div class="mylisten-day">2014-06-12&nbsp;&nbsp;20:33</div>
+			<a href="javascript:void(0);" class="mylisten-btn now" onclick="Share()">分享获助学金</a>
+      <p>可获10元助学金</p>
+			<img src="../images/comment-ybm.png" class="comment-ybm" alt=""/>
+		</div>
+		<div class="compose_rating_box clearfix" style="display:block">
+         <i class="common_ico"></i>
+           <div class="compose_rating_list ">
+             <div class="compose_rating teachers">
+               <div class="rating_tilet ">师资力量</div>
+               <div class="rating_content">
+                 <span class="rating_star star_5">
+                   <!--<a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a>-->
+                 </span>
+                 <span class="fenshu">5.0</span>
+                 <span class="rating_result">5.0 分&nbsp;&nbsp;好</span>             
+               </div>
+             </div>
+             <div class="compose_rating environment">
+               <div class="rating_tilet ">学校环境</div>
+               <div class="rating_content">
+                 <span class="rating_star star_5">
+                   <!--<a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a>-->
+                 </span>
+                 <span class="fenshu">5.0</span>
+               </div>
+             </div>
+             <div class="compose_rating Service">
+               <div class="rating_tilet ">教学服务</div>
+               <div class="rating_content">
+                 <span class="rating_star star_5">
+                   <!--<a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a>-->
+                 </span>
+                 <span class="fenshu">5.0</span>
+               </div>
+             </div>
+          </div>
+          
+          <div class="review2">
+            <em>课程点评</em>
+            <p><span></span>老师不错嘛！</p>
+          </div>
+          <div class="teacher_answer">
+            <p><span class="f16">老师回复：</span><span>2014-08-27</span></p>
+            <p>同学 你好，学校里还有更大的惊喜！</p>
+          </div>
+       </div>
+		<div class="mylisten-main">
+			<div class="mylisten-main-img">
+				<img class="lazy" src="../images/pixel.gif" data-original="../images/mylisten-img.jpg" alt=""/>
+			</div>
+			<div class="mylisten-main01">室内设计百分百就业班</div>
+			<div class="mylisten-main02">广州新东方培训学校</div>
+			<div class="mylisten-RMB"><span>¥</span>13000</div>
+			<div class="mylisten-day">2014-06-12&nbsp;&nbsp;20:33</div>
+			<a href="javascript:void(0);" class="mylisten-btn now" onclick="Share()">分享获助学金</a>
+      <p>可获10元助学金</p>
+			<img src="../images/comment-ybm.png" class="comment-ybm" alt=""/>
+		</div>
+		<div class="compose_rating_box clearfix" style="display:block">
+         <i class="common_ico"></i>
+           <div class="compose_rating_list ">
+             <div class="compose_rating teachers">
+               <div class="rating_tilet ">师资力量</div>
+               <div class="rating_content">
+                 <span class="rating_star star_5">
+                   <!--<a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a>-->
+                 </span>
+                 <span class="fenshu">5.0</span>
+                 <span class="rating_result">5.0 分&nbsp;&nbsp;好</span>             
+               </div>
+             </div>
+             <div class="compose_rating environment">
+               <div class="rating_tilet ">学校环境</div>
+               <div class="rating_content">
+                 <span class="rating_star star_5">
+                   <!--<a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a>-->
+                 </span>
+                 <span class="fenshu">5.0</span>
+               </div>
+             </div>
+             <div class="compose_rating Service">
+               <div class="rating_tilet ">教学服务</div>
+               <div class="rating_content">
+                 <span class="rating_star star_5">
+                   <!--<a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a>-->
+                 </span>
+                 <span class="fenshu">5.0</span>
+               </div>
+             </div>
+          </div>
+          
+          <div class="review2">
+            <em>课程点评</em>
+            <p><span></span>老师不错嘛！</p>
+          </div>
+          <div class="teacher_answer">
+            <p><span class="f16">老师回复：</span><span>2014-08-27</span></p>
+            <p>同学 你好，学校里还有更大的惊喜！</p>
+          </div>
+       </div>
+	</div>
+  
+  <div class="transparent2"></div>
+  <dl class="Shares">
+    <dt class="bdsharebuttonbox bdshare-button-style0-16" data-tag="share_1" data-bd-bind="1421740191105">        
+        <a href="#" class="bds_qzone" data-cmd="qzone" style="background:none ;" title="分享到QQ空间"><img data-cmd="qzone" src="../images/share/qzone.jpg" width="45" height="45">QQ空间</a>
+        <a href="#" class="bds_tsina" data-cmd="tsina" style="background:none;" title="分享到新浪微博"><img data-cmd="tsina" src="../images/share/sina.jpg" width="45" height="45">新浪微博</a>
+        <a href="#" class="bds_tqq" data-cmd="tqq" style="background:none;" title="分享到腾讯微博"><img data-cmd="tqq" src="../images/share/tencent.jpg" width="45" height="45">腾讯微博</a>
+        <a href="#" class="bds_renren" data-cmd="renren" style="background:none;" title="分享到人人网"><img data-cmd="renren" src="../images/share/renren.jpg" width="45" height="45">人人网</a>
+        <a href="#" class="bds_kaixin001" data-cmd="kaixin001" style="background:none;" title="分享到开心网"><img data-cmd="kaixin001" src="../images/share/kaixin.jpg" width="45" height="45">开心网</a>
+      </dt>
+      <dd><input type="button" class="share-cancel" value="取消"></dd>
+
+  </dl>
+</body>
+<script>
+  $(function(){
+	  
+	 $(".c_l_right a").click(function() {
+             $(this).parent().parent().next().toggle();
+     });
+			  
+	$(".rating_star a").click(function()
+	{
+		var span=$(this).parent();
+		var index=span.find("a").index($(this))+1;
+		span.removeClass().addClass("rating_star star_"+index);
+		span.siblings(".fenshu").html(index+".0");
+		
+		var root = span.parent().parent().parent();
+		var score1=parseFloat(root.find(".teachers .fenshu").html());
+		var score2=parseFloat(root.find(".environment .fenshu").html());
+		var score3=parseFloat(root.find(".Service .fenshu").html());
+		var all=score1+score2+score3;
+		
+		root.find(".rating_result").html((all / 3).toFixed(1) + "分&nbsp;&nbsp;" + (all <= 4 ? "差" : all > 9 ? "好" : "中"));
+		
+	});
+  });
+
+with (document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?cdnversion=' + ~(-new Date() / 36e5)];
+
+function Share()
+{
+  var bg=$(".transparent2");
+  var T=$(".Shares");
+  T.find("dd input").click(function(){
+    $(".icons-share").removeClass("on");
+    shut();
+  });
+  var shut=function(){
+    T.slideUp('','',function(){
+      bg.fadeOut();
+    })
+  }
+  bg.fadeIn('',function(){
+    T.slideDown();
+  }).click(shut);
+}
+</script>
+<script type="text/javascript" src="../js/js.js"></script>
+
+</html>

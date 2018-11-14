@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+    <link rel="stylesheet" type="text/css" href="../css/css.css">
+    <link rel="stylesheet" type="text/css" href="../css/css2.css">
+    <link rel="stylesheet" type="text/css" href="../css/SchoolCenter.css">
+    <link rel="stylesheet" type="text/css" href="../css/PersonalCenter.css">
+	
+	<title>现金转账</title>
+</head>
+<body>
+	<div class="top-navbar gr-money-bj">
+    	<div class="left"><a href="javascript:history.go(-1)"><i class="navbar-icon icon01"></i></a></div>
+        <div class="center">现金转账</div>
+    </div>
+   
+    <div class="gr-mbexchange f14">
+    	<div class="gr-money-head">
+            <p class="f14">现金余额(元)</p>
+            <p class="f40 fnew">300.00</p>
+        </div>
+        
+        <div class="m10 pr">
+            <div class="select">转账到支付宝<span class="xiala"><i class="i"></i></span></div>
+            <div class="MBcash-tc">
+                <span class="MBcash-tc-img"></span>
+                <a href="MBexchange-1.html" class="MBcash-tc01">
+                  <img class="zfb" src="../images/MBcash-zfb.jpg">
+                  <span>转账到支付宝</span>
+                  <div class="MBcash-ico02"></div>
+                  <div class="clear"></div>
+                </a>
+                <a href="MBexchange-2.html" class="MBcash-tc01">
+                  <img class="bank" class="fl" src="../images/MBcash-bank.jpg">
+                  <span>转账到银行卡</span>
+                  <div class="clear"></div>
+                </a>
+                <a href="MBexchange-3.html" class="MBcash-tc01">
+                  <img class="phone" src="../images/MBcash-phone.jpg">
+                  <span>充值话费</span>
+                  <div class="clear"></div>
+                </a>
+           </div>
+        </div>
+		<div class="gr-set">
+        	 <div class="errorMsg">错误提示位置！</div> 	
+             <ul class="set-list p-l15">
+                <li class="group">
+                    <span class="label">转账金额</span><input type="text"  class="text02 t-aright" placeholder="金额须为5的倍数">
+                </li>
+                <li class="group mobile">
+                    <span class="label">账号</span><input type="text" class="text02 t-aright"  placeholder="请输入支付宝账号">
+                </li>
+                <li class="group mobile">
+                    <span class="label">姓名</span><input type="text" class="text02 t-aright"  placeholder="请输入支付宝姓名">
+                </li>
+            </ul>
+            <div class="p15 m-t8">
+            	<a href="MBcash-1.html" class="jg-btnbig">下一步</a>
+            </div>
+        </div>
+        <div class="tips f16">
+            <span class="close">×</span>
+            <p class="m-t50 l-h30">你的余额不足，需<span class="fbold c-orange">20元</span>现金以上<br>方可提现</p>
+            <div class="m-l20 m-r20 m-t20"><a href="RuleMB.html" class="jg-btnbig">查看提现规则</a></div>
+        </div>        
+    </div>
+	<div class="background"></div>
+    <div class="background" style=" display:block;" id="background01"></div>
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/admin/Personal.js"></script>
+
+
+
+
+
+
+

@@ -1,0 +1,203 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/> 
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+	<script src="../../js/jquery.js" type="text/javascript"></script>
+	<title>互动抢大奖</title>
+</head>
+<link rel="stylesheet" href="css/css.css" />
+<body>
+	<div class="fixed-top">截止时间12月21日，请分享给好友一起参与吧！</div>
+	<div class="top">
+		<img src="images/banner.jpg" alt="" />
+		<div class="clear"></div>
+	</div>
+	<div class="prize-all">
+		<div class="prize">
+			<div class="prize01">
+				<p>特等奖</p>
+				<div class="main bg01">
+					<p>5000<span>元</span></p>
+					<div>雅思口语写作技巧班(1份)</div>
+				</div>
+			</div>
+			<div class="prize01">
+				<p>一等奖</p>
+				<div class="main bg02">
+					<p>3000<span>元</span></p>
+					<div>世界前500强企业实习推荐班(1份)</div>
+				</div>
+			</div>
+			<div class="prize01">
+				<p>二等奖</p>
+				<div class="main bg03">
+					<p>2480<span>元</span></p>
+					<div>好学校助学金2000元(10份)+启德480元代金券(10份除VIP课程外其余课程通用）</div>
+				</div>
+			</div>
+			<div class="prize01">
+				<p>三等奖</p>
+				<div class="main bg04">
+					<p>200<span>元</span></p>
+					<div>好学校助学金200元(50份)<br/><br/><br/></div>
+				</div>
+			</div>
+			<div class="clear"></div>
+			
+		</div>
+	</div>
+	<div class="title">
+		奖品丰富，先答先得！
+	</div>
+	<div class="clear"></div>
+	<div class="topic">
+		<p><span>1</span>下次雅思考试你的目标是：</p>
+		<div class="topic01">
+			<input name="topic01" id="topic01-1" type="radio" />
+			<label for="topic01-1">5.5分</label>
+
+			<input name="topic01" id="topic01-2" type="radio" />
+			<label for="topic01-2">6分</label>
+
+			<input name="topic01" id="topic01-3" type="radio" />
+			<label for="topic01-3">7分</label>
+
+			<input name="topic01" id="topic01-4" type="radio" />
+			<label for="topic01-4">7分以上</label>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<div class="topic">
+		<p><span>2</span>你打算什么时候参与雅思课程学习：</p>
+		<div class="topic01">
+			<input name="topic02" id="topic02-1" type="radio" />
+			<label for="topic02-1">12月份</label>
+
+			<input name="topic02" id="topic02-2" type="radio" />
+			<label for="topic02-2">明年1月份</label>
+
+			<input name="topic02" id="topic02-3" type="radio" />
+			<label for="topic02-3">明年2、3月份</label>
+
+			<input name="topic02" id="topic02-4" type="radio" />
+			<label for="topic02-4">其他</label>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<div class="topic">
+		<p><span>3</span>你打算花费多少钱来学习雅思：</p>
+		<div class="topic01">
+			<input name="topic03" id="topic03-1" type="radio" />
+			<label for="topic03-1">3000以下</label>
+
+			<input name="topic03" id="topic03-2" type="radio" />
+			<label for="topic03-2">3000-5000</label>
+
+			<input name="topic03" id="topic03-3" type="radio" />
+			<label for="topic03-3">5000-10000</label>
+
+			<input name="topic03" id="topic03-4" type="radio" />
+			<label for="topic03-4">10000以上</label>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<div class="topic">
+		<p><span>4</span>在雅思学习中你薄弱环节是（可多选）：</p>
+		<div class="topic01">
+			<input name="topic04" id="topic04-1" type="checkbox" />
+			<label for="topic04-1">口语</label>
+
+			<input name="topic04" id="topic04-2" type="checkbox" />
+			<label for="topic04-2">听力</label>
+
+			<input name="topic04" id="topic04-3" type="checkbox" />
+			<label for="topic04-3">阅读</label>
+
+			<input name="topic04" id="topic04-4" type="checkbox" />
+			<label for="topic04-4">写作</label>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<div class="errorMsg"></div>
+	<div class="name">
+		<span>您的姓名:</span>
+		<div class="text">
+			<input type="text" id="name" placeholder="此名字将用于课程领取时使用"/>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="name" style="margin-top:10px;">
+		<span>手机号码:</span>
+		<div class="text">
+			<input type="text" id="phone" placeholder="获奖后通过此手机号联系你"/>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="bottom">
+		<input type="button" value="提交抢心动奖品"/>
+		<a href="../../search.html">查看我感兴趣的课程</a>
+	</div>
+
+	<div class="transparent"></div>
+	<div class="tishi">
+		<p>验证提交</p>
+		<span>你已成功提交答案，好学校将会在12月14日前通过微信公布获奖名单，敬请关注！</span>
+		<span style="color:red;">务必输入你收到的短信验证码，获奖后我们将第一时间通过电话通知你，同时送你50元助学金。</span>
+		<input type="text" placeholder="输入收到的短信验证码"/>
+		<div class="btn">确认</div>
+	</div>
+</body>
+<script type="text/javascript">
+	$(function(){
+		function fixedB(){
+			if($(".bottom a:visible").length>0){
+				$(".topic").eq(3).css({"margin-bottom":"45px"});
+			};
+			if($(".fixed-top:visible").length>0){
+				$(".top").css({"margin-top":"32px"});
+			};
+
+		}
+		
+
+		$(".bottom input").click(function(){
+			if($("#name").val().trim().length==0){
+				$(".errorMsg").html("请输入您的姓名").show();
+			}
+			else if($("#phone").val().trim().length==0){
+				$(".errorMsg").html("请输入手机号码").show();
+			}
+			else if(!$("#phone").val().match(/^(((13[0-9]{1})|159|153)+\d{8})$/)){
+				$(".errorMsg").html("请输入正确手机号码").show();
+			}
+			else{
+				$(".errorMsg").hide();
+				$(".transparent").fadeIn(200,function(){
+					$(".tishi").slideDown(500,'',function(){
+						window.scrollTo(0,9999);
+					});
+				});
+			}
+		});
+		$(".tishi .btn").click(function(){
+			$(".tishi").slideUp(500,function(){
+				$(".transparent").fadeOut(200);
+			});
+		});
+
+		var resetPos = function() {
+			$(".tishi").css({'left':'10%','top':'16%'});
+			$(".fixed-top").css({'top':'0'});
+		}
+		$(window).resize(function() {
+            resetPos();
+    	});
+    	resetPos();
+		fixedB();
+	})
+</script>
+</html>

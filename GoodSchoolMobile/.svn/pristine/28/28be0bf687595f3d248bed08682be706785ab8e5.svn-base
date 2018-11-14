@@ -1,0 +1,57 @@
+<!DOCTYPE html >
+<html >
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/> 
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+	<title>助学金中心</title>
+  <script src="../js/jquery.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="../css/css.css" />
+    <link rel="stylesheet" href="../css/css2.css" />
+</head>
+
+<body>
+
+<div class="MBcenter">
+
+  <div class="header"><a href="javascript:history.go(-1);" class="return_ico"></a>分享助学金</div>
+  
+  <div class="balance_detail">
+  	<div class="b_d_number">助学金余额<span><em>1000</em>元</span></div>
+    <div class="MBcenter-intro"><a href="creditMj.html">赚取助学金秘籍>></a></div>
+  </div>
+
+  <a class="zhuxue02" href="creditFx-zixun.html" style="border-bottom:1px solid #e5e5e5;">
+    <div class="sp1 c5">
+      <img src="../images/zhuxue05.png" alt="">
+    </div>
+    <div class="sp2">我要分享资讯</div>
+    <img src="../images/zhuxue0.png" class="sp4" alt="">
+    <div class="sp3">累计收益<span>10</span>元</div>
+    <div class="clear"></div>
+  </a>
+  <a class="zhuxue02" href="creditFx-kecheng.html" style="border-bottom:1px solid #e5e5e5;">
+    <div class="sp1 c6">
+      <img src="../images/zhuxue06.png" alt="">
+    </div>
+    <div class="sp2">我要分享课程</div>
+    <img src="../images/zhuxue0.png" class="sp4" alt="">
+    <div class="sp3">累计收益<span>25</span>元</div>
+    <div class="clear"></div>
+  </a>
+  <a class="zhuxue02" href="creditFx-wangzhan.html">
+    <div class="sp1 c7">
+      <img src="../images/zhuxue07.png" alt="">
+    </div>
+    <div class="sp2">我要推广网站任务</div>
+    <img src="../images/zhuxue0.png" class="sp4" alt="">
+    <div class="sp3">累计收益<span>5</span>元</div>
+    <div class="clear"></div>
+  </a>
+
+</div>
+
+</body>
+</html>

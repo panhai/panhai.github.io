@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+    <link rel="stylesheet" type="text/css" href="../css/fonts.css" >
+    <link rel="stylesheet" type="text/css" href="../css/css.css">
+    <link rel="stylesheet" type="text/css" href="../css/css2.css">
+    <link rel="stylesheet" type="text/css" href="../css/SchoolCenter.css">
+    <link rel="stylesheet" type="text/css" href="../css/PersonalCenter.css">
+	
+	<title>赚助学券</title>
+</head>
+<body>
+<div class="top-navbar gr-money-bj">
+    <div class="left"><a href="javascript:history.go(-1)"><i class="navbar-icon icon01"></i></a></div>
+    <div class="center">赚助学券 </div>
+    <div class="right"><a href="MBdetail.html" class="f12 p-r20">收益明细</a></div>
+</div>
+
+<div class="gr-money f14">
+    <div class="gr-money-head">
+        <p class="f14">助学券收益</p>
+        <p class="f40 fnew">300.00</p>
+    </div>
+   <!-- <div class="total displaybox">
+        <p class="displayflex">总收入&nbsp;&nbsp;50.00<span class="line"></span></p>
+        <p class="displayflex">已使用&nbsp;&nbsp;20.00</p>
+    </div>
+    <div class="title">赚助学券</div>-->
+    
+    <!--<div class="gr-info m-b15">
+        <a href="StipendSignIn.html"><p><i class="i-box icon-comment" style="color:#ffb24a;"></i><span class="text">签到赚助学券<span class="text02">今日未签到</span></span></p></a>
+        <a href="StipendShaer.html"><p><i class="i-box icon-share" style="color:#40a1f2;"></i><span class="text">分享赚助学券<span class="text02">今日未分享</span></span></p></a>
+        <a href="InviteFriend.html"><p><i class="i-box icon-invite" style="color:#75b540;"></i><span class="text">邀请好友送助学券</span></p></a>
+     </div>-->
+     
+     <!--<div class="title">助学券使用</div>
+     <div class="gr-info m-b15">
+        <a href="StipendExchangeRoll.html"><p><i class="i-box icon02 i3"></i><span class="text">兑换现金券</span></p></a>
+        <a href="StipendSend.html"><p><i class="i-box icon02 i4"></i><span class="text">转送好友</span></p></a>
+        <a href="StipendExchangeMB.html"><p><i class="i-box icon02 i5"></i><span class="text">兑换M币</span></p></a>
+     </div>
+     <a class="p" href="RuleStipend.html">助学券使用规则>></a>-->
+     
+</div>
+
+<div class="b-white">
+<a href="StipendSignIn.html" class="earn-stipend">
+   <div class="imgbox bc-b6"><span class="icon-comment"></span></div>
+   <div class="e-content">
+       <p class="p-b4"><span class="f14 c-grey03">每日签到&nbsp;</span>送<span class="c-orange">0.1~4元</span>助学券</p>
+       <p class="w_70">看看今天的运气是否爆棚吧！</p>
+       <div class="btn">签到</div>
+   </div>
+</a>
+<a class="earn-stipend" href="InviteFriend.html">
+   <div class="imgbox bc-b1"><span class="icon-addFriends"></span></div>
+   <div class="e-content">
+       <p class="p-b4"><span class="f14 c-grey03">邀请好友&nbsp;</span>送<span class="c-orange">25元</span>助学券</p>
+       <p class="w_70">为好友送上50元课程优惠，好友将感激你的邀请！</p>
+       <div class="btn">邀请</div>
+   </div>
+</a>
+<a class="earn-stipend">
+   <div class="imgbox bc-b8"><span class="icon-weixin"></span></div>
+   <div class="e-content">
+       <p class="p-b4"><span class="f14 c-grey03">绑定微信&nbsp;</span>送<span class="c-orange">20元</span>助学券</p>
+       <p class="w_70">首次绑定好学校微信即送</p>
+       <div class="btn">绑定</div>
+   </div>
+</a>
+<a class="earn-stipend" href="Set.html">
+   <div class="imgbox bc-b7"><span class="icon-perfectData"></span></div>
+   <div class="e-content">
+       <p class="p-b4"><span class="f14 c-grey03">完善资料&nbsp;</span>送<span class="c-orange">5元</span>助学券</p>
+       <p class="w_70">补充完善资料，上传头像有奖啦</p>
+       <div class="btn">完善</div>
+   </div>
+</a>
+<a class="earn-stipend" href="StipendExchange-2.html">
+   <div class="imgbox bc-b4"><span class="icon-hotRecommend2"></span></div>
+   <div class="e-content">
+       <p class="p-b4"><span class="f14 c-grey03">分享好评&nbsp;</span>送<span class="c-orange">5元</span>助学券</p>
+       <p class="w_70">报读课程后，分享好评到朋友圈、空间、微博</p>
+       <div class="btn">分享</div>
+   </div>
+</a>
+<a class="earn-stipend" href="creditFx-kecheng.html">
+   <div class="imgbox bc-b2"><span class="icon-shareCourse"></span></div>
+   <div class="e-content">
+       <p class="p-b4"><span class="f14 c-grey03">分享课程&nbsp;</span>送<span class="c-orange">5元</span>助学券</p>
+       <p class="w_70">给有需要的人推荐优质的课程</p>
+       <div class="btn">分享</div>
+   </div>
+</a>
+<a class="earn-stipend" href="creditFx-zixun.html">
+   <div class="imgbox bc-b6"><span class="icon-myConsultation2"></span></div>
+   <div class="e-content">
+       <p class="p-b4"><span class="f14 c-grey03">分享资讯&nbsp;</span>送<span class="c-orange">5元</span>助学券</p>
+       <p class="w_70">分享有价值的资讯给好友，一起共同进步吧！</p>
+       <div class="btn">分享</div>
+   </div>
+</a>
+</div>
+
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/admin/Personal.js"></script>
+
+
+
+
+
+
+

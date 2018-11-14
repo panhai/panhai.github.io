@@ -1,0 +1,56 @@
+<!DOCTYPE >
+<html >
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/> 
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+	<title>修改密码</title>
+    <link rel="stylesheet" href="../css/css.css">
+    <link rel="stylesheet" href="../css/css2.css" >
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script src="js/move2.js"></script>
+</head>
+
+<body>
+<div  style=" padding-bottom:40px;">
+    <div class="header"><a href="javascript:history.go(-1);" class="return_ico"></a>修改密码</div>
+  
+    
+    <form class="form-widget pt10" name="myform">
+      <div class="form-group">
+        <div class="form-control">
+          <label class="input-group">
+            <input id=""  type="password" class="input-text pl10" value="" placeholder='输入您的旧密码'></label>
+          </label>
+        </div>
+      </div>
+      
+      <div class="form-group">
+        <div class="form-control">
+          <label class="input-group">
+            <input id=""  type="password" class="input-text pl10" value="" placeholder='输入您的新密码'></label>
+          </label>
+        </div>
+      </div>
+     
+      
+      <div class="form-group" style="border-bottom:1px solid #E5E5E5;">
+        <div class="form-control">
+          <label class="input-group">
+            <input id="" type="password" class="input-text pl10" value="" placeholder='确认您的新密码' ></label>
+          </label>
+        </div>
+      </div>
+      
+      <a href="ResetMobile2.html" class="f_btn" > 确认</a>
+      
+      
+    </form>
+</div>
+
+</body>
+
+</html>

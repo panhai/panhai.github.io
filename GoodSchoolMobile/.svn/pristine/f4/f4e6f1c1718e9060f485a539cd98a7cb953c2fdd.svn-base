@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<meta content="yes" name="apple-mobile-web-app-capable" />
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+	<meta content="telephone=no" name="format-detection" />
+	<link rel="stylesheet" type="text/css" href="../../css/UserCenter.css">
+</head>
+<body class="">
+	<div class="top-navbar">
+		<div class="left"><a href="javascript:history.go(-1)"><i class="navbar-icon icon01"></i></a></div>
+	    <div class="center">助学券明细</div>
+	</div>
+	<div class="cash">
+		<p class="time">2015-11</p>
+		<ul>
+			<li class="row">
+				<div class="col1 txtl">
+					<p class="week">周六</p>
+					<p class="date">10-23</p>
+				</div>
+				<div class="col6-5">
+					<span class="txtc"> <i class="iconfont icon-jiahaoyou"></i></span>
+					<h2>邀请好友奖励</h2>
+					<p>潘*柱已成为你的好友</p>
+				</div>
+				<div class="col2 txtr">
+					<span class="add">+500.00</span>
+				</div>
+			</li>
+			<li class="row">
+				<div class="col1 txtl">
+					<p class="week">周六</p>
+					<p class="date">10-23</p>
+				</div>
+				<div class="col6-5">
+					<span class="txtc"><i class="iconfont geren">&#xe63b;</i></span>
+					<h2>好友转送</h2>
+					<p>韩梅梅转送你20元助学券</p>
+				</div>
+				<div class="col2 txtr">
+					<span class="add">+500.00</span>
+				</div>
+			</li>
+			<li class="row">
+				<div class="col1 txtl">
+					<p class="week">周六</p>
+					<p class="date">10-23</p>
+				</div>
+				<div class="col6-5">
+					<span class="txtc"> <i class="iconfont icon-xiedianping"></i></span>
+					<h2>分享好评</h2>
+					<p>广州雅思6.5分保分精品培训…</p>
+				</div>
+				<div class="col2 txtr">
+					<span class="add">+500.00</span>
+				</div>
+			</li>
+		</ul>
+		<p class="time">2015-11</p>
+		<ul>
+			<li class="row" onclick="window.location.href = 'BringForwardToZFB.html'"">
+				<div class="col1 txtl">
+					<p class="week">周六</p>
+					<p class="date">10-23</p>
+				</div>
+				<div class="col6-5">
+					<span class="txtc"> <img src="../../images/UCenter/91goodschool.com.png" alt=""></span>
+					<h2>分享好学校</h2>
+					<p>首次分享好学校</p>
+				</div>
+				<div class="col2 txtr">
+					<span class="add">+500.00</span>
+				</div>
+			</li>
+			<li class="row" onclick="window.location.href = 'BringForwardToZFB.html'"">
+				<div class="col1 txtl">
+					<p class="week">周六</p>
+					<p class="date">10-23</p>
+				</div>
+				<div class="col6-5">
+					<span class="txtc"> <i class="iconfont icon-weixin3"></i></span>
+					<h2>绑定微信奖励</h2>
+					<p>首次绑定微信</p>
+				</div>
+				<div class="col2 txtr">
+					<span class="add">+500.00</span>
+				</div>
+			</li>
+			<li class="row">
+				<div class="col1 txtl">
+					<p class="week">周六</p>
+					<p class="date">10-23</p>
+				</div>
+				<div class="col6-5">
+					<span class="txtc"> <i class="iconfont icon-quan2"></i></span>
+					<h2>助学券兑现</h2>
+					<p>使用100元助学券兑换现金</p>
+				</div>
+				<div class="col2 txtr">
+					<span >-500.00</span>
+				</div>
+			</li>
+			<li class="row">
+				<div class="col1 txtl">
+					<p class="week">周六</p>
+					<p class="date">10-23</p>
+				</div>
+				<div class="col6-5">
+					<span class="txtc"> <i class="iconfont icon-gerenziliao w-h76"></i></span>
+					<h2>完善资料</h2>
+					<p>个人资料完善度100%</p>
+				</div>
+				<div class="col2 txtr">
+					<span class="add">+500.00</span>
+				</div>
+			</li>
+			<li class="row">
+				<div class="col1 txtl">
+					<p class="week">周六</p>
+					<p class="date">10-23</p>
+				</div>
+				<div class="col6-5">
+					<span class="txtc"><i class="iconfont geren">&#xe63b;</i></span>
+					<h2>好友咨询课程</h2>
+					<p>潘*柱咨询课程</p>
+				</div>
+				<div class="col2 txtr">
+					<span class="add">+500.00</span>
+				</div>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>

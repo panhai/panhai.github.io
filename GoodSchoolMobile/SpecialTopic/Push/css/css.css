@@ -1,0 +1,52 @@
+﻿*{padding: 0; margin:0; font-family: 微软雅黑; font-size: 125%;}
+.clear{clear: both;}
+a{text-decoration: none;}
+
+.fixed-top{position: fixed; font-size: 0.7rem; top:0; left:0; width:100%; line-height: 32px; text-align: center; color: white; background: #ca0c3f;}
+
+.top{float: left; width: 100%;}
+.top img{float: left; width: 100%;}
+
+.prize-all{float: left; width: 100%; background: #ca0c3f; padding-bottom: 6px;}
+.prize{margin:0 auto; width: 306px;}
+.prize01{float:left; margin: 10px 4px 0 4px; width: 145px;}
+.prize01 p{text-align: center; font-size:0.9rem; font-weight: 900; color: white;}
+.prize01 .main{margin-top: 5px; padding: 4px 0 5px 0; width: 100%;}
+.prize01 .main p{font-size: 1.2rem; font-weight: 900; color: #ffff00;}
+.prize01 .main p span{font-size: 0.8rem; font-weight:100;}
+.prize01 .main div{margin: 0 auto 0 auto; font-size: 0.6rem; font-family: 宋体; color: white; line-height: 20px; width: 116px;}
+.prize .ico{width: 36px; height: 19px; margin:10px auto;}
+.prize .ico img{float: left;}
+
+.bg01{background: url(../images/bg01.jpg) no-repeat;}
+.bg02{background: url(../images/bg02.jpg) no-repeat;}
+.bg03{background: url(../images/bg03.jpg) no-repeat;}
+.bg04{background: url(../images/bg04.jpg) no-repeat;}
+
+.errorMsg{display: none; margin:15px auto 0 auto; line-height: 24px; text-indent: 12px; width: 91.53%; color:#e4133a; font-size: 0.6rem; font-family: 宋体; border: 1px solid #e86f6f; background: #f1cece;}
+
+.title{float: left; width: 100%; background: #0088ff; text-align: center; line-height: 37px; font-size: 0.8rem; font-weight: 900; color: white;}
+
+.topic{margin:3px auto; width: 93%;}
+.topic p{font-size: 0.7rem; font-weight: 900; color: #333333;}
+.topic p span{margin-right: 7px; color: #ff4e00;}
+.topic01{margin: 11px 0 0 27px; width: 90%;}
+.topic01 input{display: none;}
+.topic01 label{float: left; margin: 4px 3px; padding:7px 13px; font-size: 0.6rem; font-family: 宋体; color: #3c3c3c; border: 1px solid #d9d9d9;}
+:checked+label{color: #ff4e00; border: 2px solid #ff4e00; padding:6px 12px;}
+
+.name{margin:20px auto 0 auto; width: 93%;}
+.name span{float: left; font-size: 0.7rem; line-height: 36px; font-weight: 900; color: #333333;}
+.name .text{float: left; margin-left: 5px; width: 201px; height: 36px; border: 1px solid #cacaca;}
+.name .text input{float: left; width: 183px; border: none; outline: none; margin:9px 0 0 9px; font-size: 0.7rem; font-family: 宋体;}
+
+.bottom{margin:30px auto; text-align: center;}
+.bottom input{width: 215px; line-height: 53px; border:none; outline: none; background: #ff4e00; text-align: center; font-size: 0.9rem; color: white; -webkit-appearance: none;}
+.bottom a{display: block; position: fixed; bottom:0; width: 100%; line-height: 37px; font-size: 0.9rem; background: #ff4e00; color: white;}
+
+.transparent{display: none; position: fixed; top:0; left: 0; width: 100%; height: 100%; background: black; opacity: 0.6;}
+.tishi{display: none; position:fixed; width: 80%; background: white; text-align: center;}
+.tishi p{line-height: 50px; font-size: 1rem; font-weight: 900; text-align: center; color: green;}
+.tishi span{display: block; padding: 0 1rem; font-size: 0.8rem; line-height: 25px;}
+.tishi input{width: 159px; height: 35px; font-size: 0.8rem; padding: 0 10px;}
+.tishi .btn{margin:10px auto 25px auto; width: 183px; line-height: 35px; background: #ff7b24; color: white; font-size: 0.8rem; text-align: center;}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<meta content="yes" name="apple-mobile-web-app-capable" />
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+	<meta content="telephone=no" name="format-detection" />
+	<link rel="stylesheet" type="text/css" href="../../css/UserCenter.css">
+</head>
+<body class="body_white">
+<div class="invite-register">
+	<div class="top-navbar">
+		<div class="left"><a href="javascript:history.go(-1)"><i class="navbar-icon icon01"></i></a></div>
+	    <div class="center">领取您的25元课程优惠</div>
+	</div>
+
+	<div class="user-pic-bg">
+		<div class="user-pic">
+			<img src="../../images/UCenter/user_pic.png">
+		</div>
+	</div>
+
+	<div class="info">
+		<h2 class="rem3">接受潘家柱的邀请</h2>
+		<p class="p1">加入好学校，帮助潘家柱获得<i>25元</i>课程优惠的同时，<br>你也可以享受<i>25元</i>课程优惠！</p>
+
+		<a href="领取课程优惠_v3.html">立即加入好学校</a>
+		<p class="p2">已有463万用户加入好学校，享受课程优惠</p>
+	</div>
+
+	<div class="ad">
+		<h2>好学校，您的最佳择校助手！</h2>
+		<p>无论您想培训什么，您都能在好学校轻松找到最合适的学校</p>
+		<img src="../../images/UCenter/invite-info-bg.png">
+	</div>
+
+	<ul class="list">
+		<li>
+			<h3>读书培训，找好学校</h3>
+			<p>为什么463万学员选择好学校</p>
+		</li>
+		<li>
+			<h4>更优的择校选择</h4>
+			<p>3000+品牌学校，100%正规优质，给你更多好选择，更有点评请教，让你最佳择校！</p>
+			<img src="../../images/UCenter/invite-info-l1.png">
+			<h5>你不用担心广告、水军，虚假信息，好学校让你快速知道哪个学校好！</h5>
+		</li>
+		<li>
+			<h4>更低的报名价格</h4>
+			<p>贵就赔，确保全班最低价，更有现金返利，比任何渠道价格更低！</p>
+			<img src="../../images/UCenter/invite-info-l2.png">
+			<h5>你不用担心收费高，乱抬价，无论报读什 么，好学校确保你都是最低价！</h5>
+		</li>
+		<li>
+			<h4>更好的教学保障</h4>
+			<p>点评请教，免费试听，还有平台保障，让你满意报读，放心入学！</p>
+			<img src="../../images/UCenter/invite-info-l3.png">
+			<h5>好学校杜绝劣质办学，对每个学校建立诚 信优质评价体系，让你放心报读！</h5>
+		</li>
+	</ul>
+
+	<a href="领取课程优惠_v2.html" class="next-btn" >立即加入好学校</a>
+</div>
+</body>
+
+</html>

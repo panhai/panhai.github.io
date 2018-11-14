@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<meta content="yes" name="apple-mobile-web-app-capable" />
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+	<meta content="telephone=no" name="format-detection" />
+	<link rel="stylesheet" type="text/css" href="../../css/UserCenter.css">
+</head>
+<body class="body_white">
+<div class="forward-zfb">
+	<div class="top-navbar">
+		<div class="left"><a href="javascript:history.go(-1)"><i class="navbar-icon icon01"></i></a></div>
+	    <div class="center">提交成功</div>
+	</div>
+	<div class="transfer">
+		<div><i class="iconfont chenggong">&#xe63a;</i>提交成功!</div>
+		<p class="firstp">款项将在3~7个工作日内到账,请留意查收!</p>
+		<p>您还有8元返现奖励可用助学券领取!</p>
+		<a class="btn1" href="我的助学券_v2.html">领取剩余奖励</a>
+		<a class="btn2" href="我的现金_v2.html">查看我的现金</a>
+	</div>
+</div>
+
+<script src="../../js/jquery.js"></script>
+<script src="../../js/ucenter.js"></script>
+<script>
+
+	function forWardTargetType( target ) {
+
+		var bankDom = target&&target;
+
+		bankDom.on('click', function(event){
+			console.log("dd")
+		});
+
+	}
+
+	forWardTargetType($(".bankSelect"))
+</script>
+</body>
+
+</html>

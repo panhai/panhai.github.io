@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/> 
+<meta content="yes" name="apple-mobile-web-app-capable" /> 
+<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+<meta content="telephone=no,email=no" name="format-detection" />
+<meta name="apple-touch-fullscreen" content="yes">
+<title>中专招生专题</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css.css">
+<body bgcolor="#9fd3ff" style="padding-bottom:50px;">
+<header>读书培训，找好学校</header>
+<div class="BANNER"><img src="images/banner.jpg"></div>
+<div class="block intro">
+	<p>好学校应2万多学生家长呼唤，推出公益助学行：</p>
+    <p>&nbsp;</p>
+    <p>1、免费到省汽车站接送广大学生家长，参观报读全省第一中专/技校。</p>
+    <p>&nbsp;</p>
+    <p>2、并由学校领导亲自接待，让各位学生家长优先报名缴费。解决你“人生地不熟，到校没人理”等顾虑。</p>
+</div>
+
+<dl class="block">
+	<dt><h1>全省第一中专/技校介绍</h1></dt>
+    <dd class="List">
+    	<figure><a href="detail.html">
+        	<img src="images/mob-1.jpg" width="100" height="72">
+        	<figcaption>
+                <h4>广东省轻工职业技术学校</h4>
+                <p>广东中专学校排名第一，国家重点中专。</p>
+            </figcaption>
+        </a></figure>
+    	<figure><a href="detail2.html">
+        	<img src="images/mob-2.jpg" width="100" height="72">
+        	<figcaption>
+                <h4>广州白云工商技师学院</h4>
+                <p>广东技校排名第一，国家重点技校，全国职业教育先进单位。</p>
+            </figcaption>
+        </a></figure>
+        <a class="Enroll" href="enroll.html">点击抢占免费参观名额</a>
+        <samp>已有<mark>2451</mark>名学生报名参观</samp>
+    </dd>
+</dl>
+
+<dl class="block">
+	<dt><h2>公益助学——你没理由不来</h2></dt>
+    <dd><ul class="Schedule">
+    	<li>
+        	<h5>最好中专/技校，机会仅此一次</h5>
+            <p>好学校特别联合全省第一的中专/技校，预留少量学位，机会仅此一次，你将享受最优质的师资、最好就业和最好升学途径。</p>
+        </li>
+    	<li>
+        	<h5>安全便捷的免费参观！</h5>
+            <p>《好学校》公益助学行的豪华大巴到省汽车站集中接送来回，当天参观完返程回家。你不用担心人生地不熟，及安全问题！全程免费参观，学校提供中餐服务及饮料。</p>
+        </li>
+    	<li>
+        	<h5>学校重视，领导接待！</h5>
+            <p>好学校“公益助学行”得到学校领导高度重视，安排专人接待，带你全方位零距离了解校园环境、师资力量、就业情况和住宿等。你不再担心：学校门卫刁难！到校没人理！</p>
+        </li>
+    </ul></dd>
+</dl>
+
+<dl class="block">
+	<dt><h3>名额有限，你还在等什么？</h3></dt>
+    <dd class="Dates">
+        <p><b>参观学校：</b><br>广东省轻工职业技术学校、广州白云工商技师学院。</p>
+        <p><b>参观日期：</b><br>2015年7月2日</p>
+        <p><b>接送站点：</b><br>广东省汽车客运站二楼售票大厅门口</p>
+        <p><b>出发时间：</b><br>上午9：30&nbsp;&nbsp;&nbsp;&nbsp;下午2：00</p>
+        <a class="Enroll" href="enroll.html">点击抢占免费参观名额</a>
+        <samp>剩余名额有限，迟了学校就停招了</samp>
+    </dd>
+</dl>
+
+<dl class="block">
+	<dt><h3>温馨提示：</h3></dt>
+    <dd class="intro">
+        <p>因学校学位非常紧张，随时截止招生，请参加公益助学行的同学：带好户口本、身份证和学费，尽快当天在校缴费报名。</p>
+    </dd>
+</dl>
+
+<div class="block">
+	<div class="share"><img src="images/share.jpg" width="287" height="15"></div>
+    <div class="bdsharebuttonbox"><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a class="bds_weixin" title="分享到微信"></a><a class="bds_sqq" title="分享到QQ好友"></a></div>
+</div>
+
+<div class="ShareTip">
+    <p>点击右上角<br>
+    发送给朋友或分享<br>
+    到朋友圈</p>
+</div>
+
+
+<footer>
+	<a href="tel:02022944421">电话咨询</a>
+    <a href="enroll.html">立即报名参观</a>
+</footer>
+</body>
+</html>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"32"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+<script src="js/jquery.js"></script>
+<script>
+$(function(){
+	$(".bds_sqq,.bds_weixin").click(function(){
+		var t=$(".ShareTip").fadeIn();
+		setTimeout(function(){
+			t.fadeOut();
+		},5000);
+	});
+});
+</script>

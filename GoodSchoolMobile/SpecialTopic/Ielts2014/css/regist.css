@@ -1,0 +1,26 @@
+/* 注册页 */
+body{ background-color:#F5F5F5;}
+
+h1,h2,h3{ text-align:center; font-weight:normal;}
+h1{ color:#0189FF; line-height:45px; font-size:1.2rem;}
+h2{ color:#333; line-height:20px; font-size:0.6rem;}
+h3{ color:#0189FF; line-height:45px; font-size:1.2rem;}
+
+.long{ display:block; margin:15px 25px 0px; clear:both; background:#fff; border:1px solid #E0E0E0; line-height:40px; height:40px;}
+.long i{ display:block; width:45px; padding:0px 10px; font-size:0.7rem; font-style:normal; float:left;}
+.long q{ display:block; width:0px; height:0px; font-size:0px; border:5px solid transparent; border-top-color:#333; float:right; margin:18px 10px 0px 0px;}
+.text{ border:0px; float:left; display:block; height:20px; line-height:20px; font-family:"微软雅黑"; width:120px; font-size:0.7rem; vertical-align:middle;  margin-top:12px;}
+
+.inner-btn{ width:68px; height:36px; margin:2px; float:right; background-color:#0189FF; font-size:0.6rem; color:#fff; text-align:center; border:0px; border-radius:2px;}
+
+.button{ display:block; margin:25px 25px 0px; clear:both; height:45px; line-height:45px; text-align:center; background-color:#FF7F00;}
+.button input{ color:#fff; border:0px; font-size:1rem; background-color:#FF7F00; font-family:"微软雅黑";}
+
+.errorMsg{ clear:both; margin:15px 25px 0px; line-height: 24px; text-indent: 12px; color:#e4133a; font-size: 0.6rem; font-family: 宋体; border: 1px solid #e86f6f; background: #f1cece;}
+.successMsg{ display:none;}
+
+.schools{ position:fixed; width:270px; z-index:55555; display:none;}
+.schools dt{ background-color:#008aff; color:#fff; font-size:1rem; text-align:center; height:45px; line-height:45px;}
+.schools q{ quotes:none; display:block; width:30px; height:30px; line-height:30px; text-align:center; right:5px; top:5px; position:absolute; font-size:1.5rem;}
+.schools dd{ background-color:#fff; font-size:0.7rem; color:#333; line-height:40px; overflow:auto;}
+.schools dd a{ display:block; clear:both; padding:0px 20px; border-bottom:1px solid #e4e4e4;}

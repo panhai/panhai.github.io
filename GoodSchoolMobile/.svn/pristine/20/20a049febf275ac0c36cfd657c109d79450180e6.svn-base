@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+    <link rel="stylesheet" type="text/css" href="../css/css.css">
+    <link rel="stylesheet" type="text/css" href="../css/css2.css">
+    <link rel="stylesheet" type="text/css" href="../css/SchoolCenter.css">
+    <link rel="stylesheet" type="text/css" href="../css/PersonalCenter.css">
+	
+	<title>助学券兑MB</title>
+</head>
+<body>
+	<div class="top-navbar gr-money-bj">
+    	<div class="left"><a href="javascript:history.go(-1)"><i class="navbar-icon icon01"></i></a></div>
+        <div class="center">助学券兑MB </div>
+    </div>
+   
+    <div class="gr-money f14 b-white">
+        <div class="total displaybox">
+            <p class="displayflex">未兑换&nbsp;&nbsp;50.00<span class="line"></span></p>
+            <p class="displayflex">已兑换&nbsp;&nbsp;20.00</p>
+        </div>
+        <div class="p10 b-b">
+        	<p class="f16 o-hidden">豆辩雅思全能高分班豆辩雅思全能高分班豆辩雅思全能高分班</p>
+            <p class="c-grey01 p-t2">广州新东方英语学校</p>
+            <p class="clearfix"><span class="c-orange m-t8 di-b">可兑换5M币</span><span class="abtn fr">马上提现</span></p>
+        </div>
+        <div class="p10 b-b">
+        	<p class="f16 o-hidden">豆辩雅思全能高分班</p>
+            <p class="c-grey01 p-t2">广州新东方英语学校</p>
+            <p class="clearfix"><span class="c-orange m-t8 di-b">可兑换5M币</span><span class="abtn fr">立即兑换</span></p>
+        </div>
+        <div class="p10 b-b">
+        	<p class="f16 o-hidden">豆辩雅思全能高分班</p>
+            <p class="c-grey01 p-t2">广州新东方英语学校</p>
+            <p class="clearfix"><span class="c-orange m-t8 di-b">可兑换5M币</span><span class="abtn fr" onClick="$(this).addClass('on'); Share();">马上提现</span></p>
+        </div>
+    </div>
+
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/admin/Personal.js"></script>
+
+
+
+
+
+
+

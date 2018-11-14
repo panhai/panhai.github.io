@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+    <link rel="stylesheet" type="text/css" href="../css/css.css">
+    <link rel="stylesheet" type="text/css" href="../css/css2.css">
+    <link rel="stylesheet" type="text/css" href="../css/SchoolCenter.css">
+    <link rel="stylesheet" type="text/css" href="../css/PersonalCenter.css">
+	
+	<title>抢现金卷</title>
+</head>
+<body style="background:#fffbd7;">
+	<div class="top-navbar gr-money-bj">
+    	<div class="left"><a href="javascript:history.go(-1)"><i class="navbar-icon icon01"></i></a></div>
+        <div class="center">抢现金卷</div>
+    </div>
+   
+   <div class="gr-roll f14">
+   	<div class="head"><img src="../images/UCenter/banner1.png"></div>
+    <div class="content01">
+    	<p>将5元现金券分享给你好友</p>
+        <p class="m-b10">好友注册后方可领取，你将获得5元现金券奖励</p>
+        <div class="rall"><img src="../images/UCenter/roll.png"></div>
+        <div onClick="$(this).addClass('on'); Share();" class="btn m-t15">立即分享</div>
+    </div>
+    <div class="p20">
+    	<p class="title pink">活动规则</p>
+        <p class="p-b10">1、更多好友注册，你将获得更多现金券，无上限。</p>
+        <p class="p-b10">2、现金券在报读课程后可直接兑换成现金，1000元及以下课程可使用1张，1000-2000课程可使用2张。</p>
+        <p class="p-b10">3、课程金额每增加1000元可多使用1张现金券，以此类推，可使用张数无上限。请在现金券的有效期内兑换。</p>
+        <p class="pink">本次活动最终解释权归好学校所有</p>
+    </div>
+   </div>
+   
+   <dl class="Shares">
+        <dt class="bdsharebuttonbox" data-tag="share_1">        
+            <a href="#" class="bds_qzone" data-cmd="qzone" style="background:none ;"><img data-cmd="qzone" src="../images/share/qzone.jpg" width="45" height="45">QQ空间</a>
+            <a href="#" class="bds_tsina" data-cmd="tsina" style="background:none;"><img data-cmd="tsina" src="../images/share/sina.jpg" width="45" height="45">新浪微博</a>
+            <a href="#" class="bds_tqq" data-cmd="tqq" style="background:none;"><img data-cmd="tqq" src="../images/share/tencent.jpg" width="45" height="45">腾讯微博</a>
+            <a href="#" class="bds_renren" data-cmd="renren" style="background:none;"><img data-cmd="renren" src="../images/share/renren.jpg" width="45" height="45">人人网</a>
+            <a href="#" class="bds_kaixin001" data-cmd="kaixin001" style="background:none;"><img data-cmd="kaixin001" src="../images/share/kaixin.jpg" width="45" height="45">开心网</a>
+        </dt>
+        <dd><input type="button" class="share-cancel" value="取消"></dd>
+        
+   </dl>
+   <div class="transparent2"></div>
+
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/js.js"></script>
+
+<script>
+with (document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?cdnversion=' + ~(-new Date() / 36e5)];
+
+
+function Share()
+{
+	var bg=$(".transparent2");
+	var T=$(".Shares");
+	T.find("dd input").click(function(){
+		$(".icons-share").removeClass("on");
+		shut();
+	});
+	var shut=function(){
+		T.slideUp('','',function(){
+			bg.fadeOut();
+		})
+	}
+	bg.fadeIn('',function(){
+		T.slideDown();
+	}).click(shut);
+}
+</script>
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<meta content="yes" name="apple-mobile-web-app-capable" />
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+	<meta content="telephone=no" name="format-detection" />
+	<link rel="stylesheet" type="text/css" href="../../css/UserCenter.css">
+</head>
+<body class="body_white">
+	<div class="top-navbar">
+		<div class="left"><a href="javascript:history.go(-1)"><i class="navbar-icon icon01"></i></a></div>
+	    <div class="center">领取您的25元课程优惠</div>
+	</div>
+
+	<div class="receive">
+
+		<section class="receive_title">
+			<h2 class="h2">领取成功 !</h2>
+			<p class="detail">恭喜你获得了25元助学券+5元现金！你已帮助潘*柱获得25元课程优惠！</p>
+			<img src="../../images/code.jpg" class="imgdiv">
+			<p class="guide"><label>长按二维码识别关注，即可查看奖励，</label>还有额外10元助学券赠送！</p>
+			<a href="我的钱包.html" class="next-btn">查看奖励</a>
+			<a href="http://viewer.maka.im/pcviewer/FGOAURZA" class="next-btn btn2">了解好学校</a>
+		</section>
+
+
+	</div>
+</body>
+</html>

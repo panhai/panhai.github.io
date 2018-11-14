@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<meta content="yes" name="apple-mobile-web-app-capable" />
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+	<meta content="telephone=no" name="format-detection" />
+	<link rel="stylesheet" type="text/css" href="../../css/UserCenter.css">
+</head>
+<body class="body_white">
+	<div class="top-navbar">
+		<div class="left"><a href="javascript:history.go(-1)"><i class="navbar-icon icon01"></i></a></div>
+	    <div class="center">邀请好友赚现金</div>
+
+	</div>
+	<div  class="invite-user">
+	<div class="invite-user-bg">
+		<img src="../../images/UCenter/invite-user.png">
+
+		<h3>为好友送上25元课程优惠</h3>
+		<p class="p2">介绍好友通过好学校报读课程，你和他都将获得<i class="tip-color">20~500</i><br>元不等的现金奖励！</p>
+		<div class="block">
+			<p>
+				<a class="icon qq-btn"><i class="iconfont icon-qq"></i></a>
+				<a class="icon weixin-btn"><i class="iconfont icon-weixin2"></i></a>
+				<a class="icon erweima-btn"><i class="iconfont icon-erweima"></i></a>
+			</p>
+			<p>
+				<span class="w32">QQ好友</span>
+				<span class="w32">微信</span>
+				<span class="w32">面对面分享</span>
+			</p>
+			<a class="next-btn">更多邀请方式</a>
+			<p class="msg">已邀请<i class="tip-color">0人</i>，累计现金奖励<i class="tip-color">0元</i></p>
+		</div>
+	</div>
+	<h2 class="h2">邀请好友奖励说明</h2>
+	<ul>
+		<li>
+			<h2>邀请好友注册</h2>
+			<h4>送你25元助学券</h4>
+			<p>你的好友将获得25元助学券+5元现金奖励</p>
+		</li>
+		<li>
+			<h2>好友咨询课程</h2>
+			<h4>你可获得5元助学券奖励</h4>
+			<p>你的好友将获得一站式求学服务，不用再为找学校烦恼！</p>
+		</li>
+		<li>
+			<h2>好友报读课程</h2>
+			<h4>你可获得20~500元现金奖励</h4>
+			<p>你的好友可在最低报读价基础上，再获得20~500元现金返利，及额外的助学优惠。</p>
+		</li>
+	</ul>
+	<p class="p3">每邀请一位好友报读，你和好友都可获得20元~500元不
+等的现金收益。</p>
+	<p class="p4">备注：所有现金奖励，可使用助学券领取</p>
+	</div>
+
+	<div class="mask-wrap codeWin-wrap  animated">
+		<div class="codeWin animated">
+			<div class="in">
+				<img src="../../images/code.png" alt="">
+				<p class="codeMsg">让好友通过微信扫码注册，即可邀请成功</p>
+				<p class="close">取消</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="mask-wrap share-foot-wrap">
+			<div class="share-foot-box animated">
+				<h4>发送到</h4>
+				<div class="clearfix">
+					<div class="f5"><a class="iconfont shareCover icon-qq1"></a><span>qq好友</span></div>
+					<div class="f5"><a class="iconfont shareCover icon-weixin"></a><span>微信</span></div>
+					<div class="f5"><a class="iconfont shareCover icon-kongjian"></a><span>空间</span></div>
+					<div class="f5"><a class="iconfont icon-erweima"></a><span>面对面分享</span></div>
+					<div class="f5"><a class="iconfont icon-link"></a><span>复制链接</span></div>
+				</div>
+				<p class="close">取消</p>
+			</div>
+	</div>
+
+	<script src="../../js/jquery.js"></script>
+	<script src="../../js/ucenter.js"></script>
+	<script>
+		bindShareEvent();
+	</script>
+</body>
+</html>

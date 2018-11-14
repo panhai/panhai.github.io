@@ -1,0 +1,93 @@
+<!DOCTYPE html >
+<html >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+<meta content="yes" name="apple-mobile-web-app-capable" /> 
+<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+<meta content="telephone=no" name="format-detection" />
+<link rel="stylesheet" type="text/css" href="../css/fonts.css">
+<link rel="stylesheet" type="text/css" href="../css/user.css">
+
+
+<title>个人中心</title>
+</head>
+<body class="p_b40">
+    <section class="user">
+        <div class="user_info clearfix">
+            <img src="../images/UCenter/user_pic.png" alt="" />
+            <a href="Set.html" class="user_info_txt">
+                <h2>苏珍珠</h2>
+                <p>账户安全等级：低</p>
+                <span class="icon_arrow_right"></span>
+            </a>
+        </div>
+        <div class="user_link">
+            <a href=""><h4>0</h4><h4>我的收藏</h4></a>
+            <a href="InfoCenter.html"><h4>0</h4><h4>消息通知</h4></a>
+            <a href=""><h4>0</h4><h4>邀请好友</h4></a>
+        </div>
+    </section>
+    <section class="order">
+        <div class="userList line">
+            <div class="userList_icon"><img src="../images/UCenter/icon_order.png" alt="" /></div>
+            <div class="userList_txt">
+                <a href="">我的订单<span>查看我的订单<em class="icon_arrow_rightH"></em></span></a>
+            </div>
+        </div>
+    </section>
+    <div class="menu_list">
+        <a href="" class="new"><span>12</span><img src="../images/UCenter/icon_menu1.png" alt="" />咨询中</a>
+        <a href=""><img src="../images/UCenter/icon_menu2.png" alt="" />已报名</a>
+        <a href=""><img src="../images/UCenter/icon_menu3.png" alt="" />待点评</a>
+        <a href="New_MyCoupon.html"><img src="../images/UCenter/icon_menu4.png" alt="" />抵用券</a>
+    </div>
+    <section class="item">
+        <div class="userList">
+            <div class="userList_icon"><img src="../images/UCenter/upload.png" alt="" /></div>
+            <div class="userList_txt line">
+                <a href="Recommend.html">热门推荐<span>最火雅思培训班<em class="icon_arrow_rightH"></em></span></a>
+            </div>
+        </div>
+        <div class="userList">
+            <div class="userList_icon"><img src="../images/UCenter/icon_wallet.png" alt="" /></div>
+            <div class="userList_txt">
+                <a href="MyWallet.html">我的钱包<span>M币余额100<em class="icon_arrow_rightH"></em></span></a>
+            </div>
+        </div>
+    </section>
+    <section class="item">
+        <div class="userList">
+            <div class="userList_icon"><img src="../images/UCenter/icon_privilege.png" alt="" /></div>
+            <div class="userList_txt line">
+                <a href="MyPrivilege .html">我的特权<span>专享优惠<em class="icon_arrow_rightH"></em></span></a>
+            </div>
+        </div>
+    </section>
+    <section class="item">
+        <div class="userList">
+            <div class="userList_icon"><img src="../images/UCenter/icon_record.png" alt="" /></div>
+            <div class="userList_txt line">
+                <a href="Browse.html">浏览记录<span><em class="icon_arrow_rightH"></em></span></a>
+            </div>
+        </div>
+    </section>
+    <section class="item">
+        <div class="userList">
+            <div class="userList_icon"><img src="../images/UCenter/icon_setting.png" alt="" /></div>
+            <div class="userList_txt line">
+                <a href="Set.html">资料设置<span><em class="icon_arrow_rightH"></em></span></a>
+            </div>
+        </div>
+    </section>
+    <section class="fixed_bottom">
+        <a href="../new/index.html"><em class="icon-index"></em><p>首页</p></a>
+        <a href="../new/SearchCourse.html"><em class="icon-sort"></em><p>分类</p></a>
+        <a href="../new/getInfo.html"><em class="icon-receiver"></em><p>咨询</p></a>
+        <a href="New_UCenter_index.html" class="on"><em class="icon-my2"></em><p>我的</p></a>
+    </section>
+</body>
+</html>
+
+<script src="../js/jquery.js"></script>
+<script src="../js/admin/Agency.js"></script>

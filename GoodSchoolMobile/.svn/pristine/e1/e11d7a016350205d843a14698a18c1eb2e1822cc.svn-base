@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<script src=js/jquery.js></script>
+	<title>DNA注册</title>
+</head>
+<body>
+	<div class="login-top">
+		<a href="javascript:history.go(-1);" class="return"></a>
+		<p>DNA注册</p>
+	</div>
+	<div class="login-main">
+		<div class="errorMsg">错误提示位置！</div>
+		<div class="login-main-text">
+			邀请码&nbsp;<input type="text" placeholder="请输入邀请码">
+		</div>
+		<div class="login-main-text">
+			手机号&nbsp;<input type="text" placeholder="请输入手机号码">
+		</div>
+		<div class="login-main-text01">
+			验证码&nbsp;<input type="text" placeholder="请输入验证码">
+			<div class="login-main-text01-01">获取验证码</div>
+		</div>
+		<center>
+			<a href="UserCenter/Personal.html">
+		    	<input type="submit" value="注册" class="login-btn" onclick="javascript:window.location.href='../UserCenter/Personal.html'"/>
+			</a>
+	    </center>
+	    <div class="registration-bottom" style="margin-bottom:15px;">
+			<div class="registration-bottom01">
+				<div class="checkbox">
+					<input type="checkbox" checked="checked">
+				</div>
+				已阅读并同意<a href="helpagreement.html">《好学校服务协议》</a>
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="js/js.js"></script>
+
+</html>
+<script>
+//function f1(){
+//	alert("22");
+//}
+//var f2=f1;
+//	console.log(f2());
+	
+	
+//$(function(){	
+//function f1(){
+//　　　　var n=999;
+//　　　　nAdd=function(){n+=1}
+//　　　　function f2(){
+//　　　　　　alert(n);
+//　　　　}
+//　　　　return f2;
+//　　}
+//　　var result=f1();
+//　　result(); // 999
+//　　nAdd();
+//　　result(); // 1000
+//});
+</script>
+
+
+
+
+
+
+
+
+
+

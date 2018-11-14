@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+    <link rel="stylesheet" type="text/css" href="../css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="../css/css.css">
+	<link rel="stylesheet" type="text/css" href="../css/css2.css">
+	
+	<title>助学券中心</title>
+</head>
+<body style="background:white;">
+<div class="MBcenter">
+  <header class="Header">
+  	<div class="left"><a href="javascript:history.go(-1)" class="icon-arrow-left"></a></div>
+    <h1>网站任务</h1>
+  </header>
+  
+  <div class="zhuxue-zixun02">
+  	<a class="left" href="../school-zixun_1.html">
+  		第一届中国雅思峰会11月26日在大学城举行
+  	</a>
+  	<div class="right" onclick="$(this).addClass('now'); Share();"><span>分享</span></div>
+  	<div class="clear"></div>
+  </div>
+  <div class="zhuxue-zixun02">
+  	<a class="left" href="../school-zixun_1.html">
+  		第一届中国雅思峰会11月26日在大学城举行
+  	</a>
+  	<div class="right" onclick="$(this).addClass('now'); Share();"><span>分享</span></div>
+  	<div class="clear"></div>
+  </div>
+  <div class="zhuxue-zixun02">
+  	<a class="left" href="../school-zixun_1.html">
+  		第一届中国雅思峰会11月26日在大学城举行
+  	</a>
+  	<div class="right" onclick="$(this).addClass('now'); Share();"><span>分享</span></div>
+  	<div class="clear"></div>
+  </div>
+  <div class="zhuxue-zixun02">
+  	<a class="left" href="../school-zixun_1.html">
+  		第一届中国雅思峰会11月26日在大学城举行
+  	</a>
+  	<div class="right" onclick="$(this).addClass('now'); Share();"><span>分享</span></div>
+  	<div class="clear"></div>
+  </div>
+  <div class="zhuxue-zixun02">
+  	<a class="left" href="../school-zixun_1.html">
+  		第一届中国雅思峰会11月26日在大学城举行
+  	</a>
+  	<div class="right" onclick="$(this).addClass('now'); Share();"><span>分享</span></div>
+  	<div class="clear"></div>
+  </div>
+
+  <div class="zhuxue-zixun03">
+  	<div class="btn">换一组</div>
+  </div>
+  <div class="clear"></div>
+
+<div class="transparent2"></div>
+<dl class="Shares">
+	<dt class="bdsharebuttonbox" data-tag="share_1">        
+		<a href="#" class="bds_qzone" data-cmd="qzone" style="background:none ;"><img data-cmd="qzone" src="../images/share/qzone.jpg" width="45" height="45">QQ空间</a>
+		<a href="#" class="bds_tsina" data-cmd="tsina" style="background:none;"><img data-cmd="tsina" src="../images/share/sina.jpg" width="45" height="45">新浪微博</a>
+		<a href="#" class="bds_tqq" data-cmd="tqq" style="background:none;"><img data-cmd="tqq" src="../images/share/tencent.jpg" width="45" height="45">腾讯微博</a>
+		<a href="#" class="bds_renren" data-cmd="renren" style="background:none;"><img data-cmd="renren" src="../images/share/renren.jpg" width="45" height="45">人人网</a>
+		<a href="#" class="bds_kaixin001" data-cmd="kaixin001" style="background:none;"><img data-cmd="kaixin001" src="../images/share/kaixin.jpg" width="45" height="45">开心网</a>
+	</dt>
+	<dd><input type="button" class="share-cancel" value="取消"></dd>
+</dl>
+
+</div>
+</body>
+<style>
+.bdshare-button-style0-16 a, .bdshare-button-style0-16 .bds_more{ margin:0 !important; padding:0 !important;}
+</style>
+
+</html>
+
+<script src="../js/jquery.js"></script>
+<script src="../js/admin/Personal.js"></script>
+
+<!--<script type="text/javascript" src="../js/lazyload.js"></script>
+<script src=../js/jquery.mobile.js></script>
+
+<script type="text/javascript" src="../js/js.js"></script>-->
+<script>
+with (document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?cdnversion=' + ~(-new Date() / 36e5)];
+
+
+function Share()
+{
+	var bg=$(".transparent2");
+	var T=$(".Shares");
+	T.find("dd input").click(function(){
+		$(".icons-share").removeClass("on");
+		shut();
+	});
+	var shut=function(){
+		T.slideUp('','',function(){
+			bg.fadeOut();
+		})
+	}
+	bg.fadeIn('',function(){
+		T.slideDown();
+	}).click(shut);
+}
+</script>

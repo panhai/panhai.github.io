@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/> 
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+	<script src="../../js/jquery.js"></script>
+	<script src="../../js/jquery.mobile.js"></script>
+	<title>第一届中国雅思峰会</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/css.css">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<body>
+<div class="share">
+	<span class="close"><img src="images/share-close.png" alt=""/></span>
+	<div class="font">
+		<img src="images/share-font.png" alt=""/>
+	</div>
+	<div class="ico">
+		<img src="images/share-ico.png" alt=""/>
+	</div>
+</div>
+<div class="clear adv">
+	<img src="images/index1.png">
+    <a href="#" class="sign-up"><img src="images/index2.png"></a>
+    <!--<img src="images/index3.png">如果已经报名，显示这块，不显示带链接的index2图-->
+    <img src="images/index4.png">
+    <a href="detail.html"><img src="images/index5.png"></a>
+</div>
+
+<!--<a href="detail.html" class="detail">峰会详情</a>-->
+
+<div class="clear scroll"><ul>
+	<li><img src="images/logo/1.png"></li>
+	<li><img src="images/logo/2.png"></li>
+	<li><img src="images/logo/3.png"></li>
+	<li><img src="images/logo/4.png"></li>
+	<li><img src="images/logo/5.png"></li>
+	<li><img src="images/logo/6.png"></li>
+	<li><img src="images/logo/7.png"></li>
+	<li><img src="images/logo/8.png"></li>
+	<li><img src="images/logo/9.png"></li>
+	<li><img src="images/logo/a.png"></li>
+	<li><img src="images/logo/b.png"></li>
+	<li><img src="images/logo/c.png"></li>
+	<li><img src="images/logo/d.png"></li>
+	<li><img src="images/logo/e.png"></li>
+	<li><img src="images/logo/f.png"></li>
+	<li><img src="images/logo/g.png"></li>
+</ul></div>
+
+
+</body>
+</html>
+<script src="js/all.js"></script>
+<script src="js/scroll.js"></script>
+<script>
+$(function(){
+	SingUp(true);
+	TipInit();
+});
+$(window).load(function(){
+	CHIscroll(".scroll",'','',{mstop:false});
+});
+
+$(".share .close").click(function(){
+	$(".share").slideUp(200);;
+})
+</script>

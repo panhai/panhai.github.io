@@ -1,0 +1,46 @@
+<!DOCTYPE html >
+<html >
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/> 
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+	<title>MB中心</title>
+    <link rel="stylesheet" href="../css/css.css" />
+    <link rel="stylesheet" href="../css/css2.css" />
+</head>
+
+<body>
+
+<div class="MBcenter">
+
+  <div class="header"><a href="javascript:history.go(-1);" class="return_ico"></a>MB中心 </div>
+  
+  <div class="balance_detail">
+  	<div class="b_d_number">MB余额<span><em>1000</em>MB</span></div>	
+    <div class=" bfff c333 b_d_number ">已兑换现金<span class="cff7f00"><em >100</em>元</span></div>
+    <div class="b_d_source">
+    	<ul class="clearfix">
+        	<li category="1">MB总收额<span class="cff7f00"><em >298</em>MB</span><i class="common_ico" style=" background-position:-80px -20px;"></i></li>
+            <li category="2">DNA收益<span class="cff7f00"><em >298</em>MB</span><i class="common_ico"></i></li>
+            <li category="3">我的订单<span class="cff7f00"><em >298</em>MB</span></li>
+        </ul>
+    </div>
+  </div>
+  
+  <div class="listview ">
+  	<ul >
+    	<li><a href="MBdetail.html">MB明细</a><i class="common_ico"></i></li>
+        <li><a href="MBcomment.html">点评获MB</a><i class="common_ico"></i></li>
+        <li><a href="MBcash.html">MB兑现</a><i class="common_ico"></i></li>
+        <li><a href="MBrule_1.html">MB返还规则</a><i class="common_ico"></i></li>
+        <li><a href="MBrule.html">MB兑现规则</a><i class="common_ico"></i></li>
+    </ul>
+  </div>
+  
+</div>
+
+</body>
+
+</html>

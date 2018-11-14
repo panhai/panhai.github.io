@@ -1,0 +1,285 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/> 
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+	<title>机构首页</title>
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/css2.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/lazyload.js"></script>
+    <script src=js/jquery.mobile.js></script>
+    <script type="text/javascript" src="js/promptu.js"></script>
+</head>
+<body>
+	<div class="top">
+    	<div class="header-menu">
+	        <a class="h_m02" href="UserCenter/Message.html"><span>消息
+            	<div class="personal-nav-num">1</div>
+            </span><i></i></a>
+	        <a class="h_m03" href="index.html">首页<i></i></a>
+	        <a class="h_m04" href="login.html" style="border:0;">用户<i></i></a>
+        </div>
+    	<div class="school-search">
+    		<div class="school-area">
+				<span onclick="City()"><span>广州</span><div class="angle"></div></span>
+			</div>
+    		<div class="school-search01">
+				<input type="text" placeholder="请输入搜索内容"/>
+    		</div>
+    		<div class="clear"></div>
+    	</div>
+		<div class="search-ico01">
+			<img src="images/search-ico02.png">
+			<span class="personal-main01-num" style="top:6px; right:6px;">3</span>
+		</div>
+		<a href="javascript:history.go(-1);" class="search-top-return"></a>
+	</div>
+	<div class="transparent2"></div>
+	<div class="clear"></div>
+    <div class="search-div">
+    	<div class="search-div-T">
+    		<div class="school-search01">
+    			<input type="text" placeholder="请输入搜索内容"/>
+				<div class="clear"></div>
+    		</div>
+			<div class="sousuo">搜索</div>
+			<div class="close"><img src="images/close.png" alt="" /></div>
+    	</div>
+        <div class="search-div01">
+        	<span>猜你喜欢</span>
+        	<div>
+        		<a href="search.html">雅思雅思雅</a>
+        		<a href="search.html">雅思雅思雅</a>
+	        	<a href="search.html">雅思</a>
+        	</div>
+        </div>
+        <div class="search-div02">
+        	<div>最近搜索</div>
+        	<a href="search.html">英语考试1</a>
+        	<a href="search.html">英语考试2</a>
+        	<a href="search.html">英语考试3</a>
+        	<a href="search.html">英语考试4</a>
+        	<a href="search.html">英语考试5</a>
+        </div>
+    </div>
+
+	<div class="school01">
+		<a href="school-jieshao.html">
+			<div class="left">
+				<div class="name">广州新东方学校</div>
+				<p>广州新东方教育属于北京教育于广州新东方教育属于育教广州新东方教育属于北京教育于广州新东方教育属于育教广州新东方教育属于北京教育于广州新东方教育属于育教广州新东方教育属于北京教育于广州新东方教育属于育教</p>
+				<div class="more">更多</div><br/>
+				<span>5524人看过</span>
+				<span>255人报读</span>
+			</div>
+			<div class="right">
+				<div class="search-diamond10"></div>
+				<img src="images/school-img01.jpg"/>
+			</div>
+			<div class="clear"></div>
+		</a>
+	</div>
+
+<script type="text/javascript">
+	$(function(){
+		$('ul.promptu-menu').promptumenu({width:$(window).width(), height:84, rows: 1, columns: 4, direction: 'horizontal', pages: false});		
+	});
+</script>
+	<div class="school02">
+		<ul class="promptu-menu">
+			<li><img src="images/context01.jpg" alt="" /></li>
+			<li><img src="images/context02.jpg" alt="" /></li>
+			<li><img src="images/context03.jpg" alt="" /></li>
+			<li><img src="images/context04.jpg" alt="" /></li>
+			<li><img src="images/context01.jpg" alt="" /></li>
+			<li><img src="images/context02.jpg" alt="" /></li>
+			<li><img src="images/context03.jpg" alt="" /></li>
+			<li><img src="images/context04.jpg" alt="" /></li>
+			<li><img src="images/context01.jpg" alt="" /></li>
+			<li><img src="images/context02.jpg" alt="" /></li>
+			<li><img src="images/context03.jpg" alt="" /></li>
+			<li><img src="images/context04.jpg" alt="" /></li>
+			<li><img src="images/context01.jpg" alt="" /></li>
+			<li><img src="images/context02.jpg" alt="" /></li>
+			<li><img src="images/context03.jpg" alt="" /></li>
+			<li><img src="images/context01.jpg" alt="" /></li>
+			<li><img src="images/context02.jpg" alt="" /></li>
+			<li><img src="images/context03.jpg" alt="" /></li>
+		</ul>
+	</div>
+
+	<div class="school03">
+		<div class="school-T">
+			<span>12</span>个教学点
+		</div>
+		<a href="school-address.html">
+			<div class="school03-1">
+				<div><img src="images/school-img02.jpg" alt=""/>天河校区</div>
+				<p><span>地址：</span>浙江省杭州市江干区三新</p>
+				<p><span>公交指南：</span>景芳五区(公交站)途径公交：100路,100路区间空调</p>
+			</div>
+			<div class="school-M">
+				<span>查看全部教学点</span>
+				<div></div>
+			</div>
+		</a>
+	</div>
+
+	<div class="school04">
+		<div class="school-T">
+			<span>20</span>个课程
+		</div>
+		<a href="course.html">
+			<div class="school04-1">
+				<div class="left">
+					<img src="images/context02.jpg" alt=""/>
+				</div>
+				<div class="right">
+					<span class="name">泡泡少儿英语泡泡少儿英语泡泡少儿英语泡泡少儿英语</span>
+					<div class="p1">155课时</div>
+					<div class="p2"><span class="c1"><span>¥</span>2160</span><span class="c2">35人看过</span></div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</a>
+		<a href="course.html">
+			<div class="school04-1">
+				<div class="left">
+					<img src="images/context02.jpg" alt=""/>
+				</div>
+				<div class="right">
+					<span class="name">泡泡少儿英语泡泡少儿英语泡泡少儿英语泡泡少儿英语</span>
+					<div class="p1">155课时</div>
+					<div class="p2"><span class="c1"><span>¥</span>2160</span><span class="c2">35人看过</span></div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</a>
+		<a href="course-more.html">
+			<div class="school-M">
+				<span>查看全部课程</span>
+				<div></div>
+			</div>
+		</a>
+	</div>
+
+	<div class="school05">
+		<div class="school-T">
+			<span>20</span>条学校动态
+		</div>
+		<div class="school05-main">
+			<a href="school-dongtai_1.html">
+				<p><span>热</span>围住神经猫的漫画原型</p>
+			</a>
+			<a href="school-dongtai_1.html">
+				<p><span>新</span>创想时代教师岗前授课技能评比造全创想时代教师岗前授课技能评比造全</p>
+			</a>
+			<a href="school-dongtai_1.html">
+				<p><span>热</span>围住神经猫的漫画原型</p>
+			</a>
+			<a href="school-dongtai_1.html">
+				<p><span>新</span>创想时代教师岗前授课技能评比造全创想时代教师岗前授课技能评比造全</p>
+			</a>
+		</div>
+		<a href="school-dongtai.html">
+			<div class="school-M">
+				<span>查看全部动态</span>
+				<div></div>
+			</div>
+		</a>
+	</div>
+
+	<div class="school05" style="margin-bottom: 45px;">
+		<div class="school-T">
+			<span>20</span>条学习资讯
+		</div>
+		<div class="school05-T">
+			<a href="school-zixun.html">全部资讯</a>
+			<a href="school-zixun.html">热门资讯</a>
+			<a href="school-zixun.html">雅思</a>
+			<a href="school-zixun.html">研修班</a>
+			<a href="school-zixun.html">美容</a>
+			<a href="school-zixun.html">更多</a>
+			<a href="school-zixun.html">全部资讯1</a>
+			<a href="school-zixun.html">热门资讯1</a>
+			<a href="school-zixun.html">雅思1</a>
+			<a href="school-zixun.html">研修班1</a>
+			<a href="school-zixun.html">美容1</a>
+			<a href="school-zixun.html">更多1</a>
+			<div class="clear"></div>
+		</div>
+		<div class="school05-main">
+			<a href="school-zixun_1.html">
+				<p><span>热</span>围住神经猫的漫画原型</p>
+			</a>
+			<a href="school-zixun_1.html">
+				<p><span>新</span>创想时代教师岗前授课技能评比造全创想时代教师岗前授课技能评比造全</p>
+			</a>
+			<a href="school-zixun_1.html">
+				<p><span>热</span>围住神经猫的漫画原型</p>
+			</a>
+			<a href="school-zixun_1.html">
+				<p><span>新</span>创想时代教师岗前授课技能评比造全创想时代教师岗前授课技能评比造全</p>
+			</a>
+		</div>
+		<a href="school-zixun.html">
+			<div class="school-M">
+				<span>查看全部资讯</span>
+				<div></div>
+			</div>
+		</a>
+	</div>
+
+	<div class="city">
+	    <div class="header"><div class="return_ico"></div>选择城市</div>
+	    <div class="city-main">
+	      <ul class="listmove">
+	            <li><a href="javascript:void(0);">广州</a></li>
+	            <li><a href="javascript:void(0);">深圳</a></li>
+	            <li><a href="javascript:void(0);">上海</a></li>
+	            <li><a href="javascript:void(0);">东莞</a></li>
+	            <li><a href="javascript:void(0);">佛山</a></li>
+	            <li><a href="javascript:void(0);">北京</a></li>
+	            <li><a href="javascript:void(0);">长沙</a></li>
+	            <li><a href="javascript:void(0);">福州</a></li>
+	            <li><a href="javascript:void(0);">中山</a></li>
+	            <li><a href="javascript:void(0);">惠州</a></li>
+	            <li><a href="javascript:void(0);">湛江</a></li>
+	            <li><a href="javascript:void(0);">成都</a></li>
+	            <li><a href="javascript:void(0);">济南</a></li>
+	            <li><a href="javascript:void(0);">杭州</a></li>
+	            <li><a href="javascript:void(0);">珠海</a></li>
+	            <li><a href="javascript:void(0);">娄底</a></li>
+	            <li><a href="javascript:void(0);">株洲</a></li>
+	            <li><a href="javascript:void(0);">南京</a></li>
+	            <li><a href="javascript:void(0);">郴州</a></li>
+	            <li><a href="javascript:void(0);">韶关</a></li>
+	            <li><a href="javascript:void(0);">武汉</a></li>
+	            <li><a href="javascript:void(0);">贵阳</a></li>
+	            <li><a href="javascript:void(0);">衡阳</a></li>
+	            <li><a href="javascript:void(0);">南充</a></li>
+	            <li><a href="javascript:void(0);">乐山</a></li>
+	            <li><a href="javascript:void(0);">湘潭</a></li>
+	            <li><a href="javascript:void(0);">合肥</a></li>
+	            <li><a href="javascript:void(0);">德阳</a></li>
+	            <li><a href="javascript:void(0);">厦门</a></li>
+	            <li><a href="javascript:void(0);">河源</a></li>
+	            <li><a href="javascript:void(0);">汕尾</a></li>
+	            <li><a href="javascript:void(0);">桂林</a></li>
+	      </ul>
+	    </div>
+	</div>
+	<div class="bban">
+	  <ul>
+	  	<IFRAME id="ss" name="ss" src="" style="display:none;"></IFRAME>
+	    <li><a href="http://wpa.qq.com/msgrd?v=3&uin=4006605391&site=qq&menu=yes" target="ss" class="bff7f00">QQ咨询</a></li>
+	    <li><a href="#" class="b0066cc">电话咨询</a></li>
+	  </ul>
+	</div>
+</body>
+<script type="text/javascript" src="js/js.js"></script>
+</html>

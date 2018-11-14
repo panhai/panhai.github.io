@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<link rel="stylesheet" type="text/css" href="css/css2.css">
+	<script src=js/jquery.js></script>
+	<!-- <link rel=stylesheet href=js/jquery.mobile.css> -->
+	<!-- <script src=js/jquery.mobile.js></script> -->
+	<title>课程点评</title>
+</head>
+<body>
+	<div class="login-top">
+		<a href="javascript:history.go(-1);" class="search-top-return"></a>
+		<p>课程点评</p>
+	</div>
+	<div class="clear"></div>
+	<div class="course-dp-top">
+		<div class="course-dp-top01">
+			<div class="p1">98<span>%</span></div>
+			<div class="p2">满意度</div>
+		</div>
+		<div class="course-dp-top02">
+			<div class="course-dp-top02-main">
+				<span class="font01">好评</span><p><span></span></p><span class="font02">100%</span>
+			</div>
+			<div class="course-dp-top02-main">
+				<span class="font01">中评</span><p><span></span></p><span class="font02">100%</span>
+			</div>
+			<div class="course-dp-top02-main">
+				<span class="font01">差评</span><p><span></span></p><span class="font02">100%</span>
+			</div>
+		</div>
+	</div>
+	<div class="clear"></div>
+	<div class="course-dp-nav">
+		<div class="now">全部</div>
+		<div>好评</div>
+		<div>中评</div>
+		<div>差评</div>
+	</div>
+	<div class="clear"></div>
+	<div class="course-dp-main">
+		<div class="course-dp-main01">
+			<div class="course-dp-nt">
+			    <div class="name">陈*生</div>
+			    <div class="time">2014-7-22</div>
+			</div>
+		    <div class="course-dp-main02">
+		      在这上课的老师都是有很强的设计能力而且有很好的教学方式， 课时也蛮自由的，比较适合我上班族
+		    </div>
+		    <a href="course_dp_1.html" class="qj">请教</a>
+		</div>
+		<div class="course-dp-main01">
+		    <div class="course-dp-nt">
+			    <div class="name">陈*生</div>
+			    <div class="time">2014-7-22</div>
+			</div>
+		    <div class="course-dp-main02">
+		      在这上课的老师都是有很强的设计能力而且有很好的教学方式， 课时也蛮自由的，比较适合我上班族
+		    </div>
+		    <a href="course_dp_1.html" class="qj">请教</a>
+		</div>
+		<div class="course-dp-main01">
+		    <div class="course-dp-nt">
+			    <div class="name">陈*生</div>
+			    <div class="time">2014-7-22</div>
+			</div>
+		    <div class="course-dp-main02">
+		      在这上课的老师都是有很强的设计能力而且有很好的教学方式， 课时也蛮自由的，比较适合我上班族
+		    </div>
+		    <a href="course_dp_1.html" class="qj">请教</a>
+		</div>
+		<div class="course-dp-main01">
+		    <div class="course-dp-nt">
+			    <div class="name">陈*生</div>
+			    <div class="time">2014-7-22</div>
+			</div>
+		    <div class="course-dp-main02">
+		      在这上课的老师都是有很强的设计能力而且有很好的教学方式， 课时也蛮自由的，比较适合我上班族
+		    </div>
+		    <a href="course_dp_1.html" class="qj">请教</a>
+		</div>
+    </div>
+    <div class="course-dp-pager">
+    	<div class="pager bg">
+	      <a href="javascript:void(0);" class="pageprev pagedisable">上一页</a>
+	      <a href="javascript:void(0);" class="pageno Now">1</a>
+	      <a href="javascript:void(0);" class="pageno">2</a>
+	      <a href="javascript:void(0);" class="pageno">3</a>
+	      <a href="javascript:void(0);" class="pagenext">下一页</a>
+	    </div>
+    </div>
+</body>
+<script type="text/javascript" src="js/js.js"></script>
+
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<meta content="yes" name="apple-mobile-web-app-capable" />
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+	<meta content="telephone=no" name="format-detection" />
+	<link rel="stylesheet" type="text/css" href="../../css/UserCenter.css">
+
+</head>
+<body>
+<div class="forward-zfb">
+	<div class="top-navbar">
+		<div class="left"><a href="javascript:history.go(-1)"><i class="navbar-icon icon01"></i></a></div>
+	    <div class="center">话费充值</div>
+	</div>
+
+	<div class="forward-user-info">
+		<h2>充值话费</h2>
+		<p>手机号码（13588847445）</p>
+		<label>¥ 20.00</label>
+
+		<div class="MBcash-phone">
+		    <div class="phone-yz">
+			    <span class="text">验证方式&nbsp;&nbsp;<input type="text" value="jia***an@163.com" readOnly></span><span class="MBjiao"></span>
+			</div>
+			<div class="MBcash-yz" style="height:103px;">
+			    <img class="MBcash-yz-img" src="../../images/MBcash-ico03.png" alt="">
+			    <div class="MBcash-yz01">
+			        <span>邮箱</span>
+			        <span class="yz">jia***an@163.com</span>
+			        <div class="MBcash-ico02 now"></div>
+			        <div class="clear"></div>
+			    </div>
+			    <div class="MBcash-yz01">
+			        <span>手机</span>
+			        <span class="yz">15322645821</span>
+			        <div class="MBcash-ico02"></div>
+			        <div class="clear"></div>
+			    </div>
+			</div>
+	    </div>
+
+		<div class="btnlist"><input class="txtbtn" type="text" placeholder="请输入验证码" /><input type="button" class="getCode" value="获取验证码" /></div>
+	</div>
+	<a href="转账到支付宝-成功.html" class="next-btn">提交申请</a>
+</div>
+<div class="black01"></div>
+<script src="../../js/jquery.js"></script>
+<script src="../../js/ucenter.js"></script>
+<script src="../../js/admin/Personal.js"></script>
+<script>
+	$(".comment-btn:eq(0)").click(function(){
+	    $(".tishi").fadeOut(300);
+	    $(".MBcash-tishi01").slideUp(300);
+	});
+	function forWardTargetType( target ) {
+
+		var bankDom = target&&target;
+
+		bankDom.on('click', function(event){
+			console.log("dd");
+		});
+
+	}
+
+	$(".next-btn").click(function() {
+		var input =$(".txtbtn");
+		if (input.val()=="") {
+			input.css('color', '#ff6600');
+			input.val("验证码输入错误");
+		};
+	});
+
+	forWardTargetType($(".bankSelect"));
+</script>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE >
+<html >
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<meta content="yes" name="apple-mobile-web-app-capable" />
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+	<meta content="telephone=no" name="format-detection" />
+	<title>转账到支付宝</title>
+  <link rel="stylesheet" type="text/css" href="../../css/UserCenter.css">
+</head>
+
+<body class="bg-gray">
+<div class="forward-zfb">
+<div class="top-navbar">
+	<div class="left"><a href="javascript:history.go(-1)"><i class="navbar-icon icon01"></i></a></div>
+    <div class="center">转账到支付宝</div>
+</div>
+
+<div class="forward">
+    <p><span class="forwrad-money">-200.00</span></p>
+    <p class="forward-type">
+      <!-- <i class="iconfont icon-zhifubao"></i><span>转账到支付宝</span> -->
+       <!-- <i class="iconfont icon-xiaofei"></i><span>充话费</span>  -->
+      <i class="iconfont  icon-yinxingqia"></i><span>转账到银行卡</span>
+    </p>
+</div>
+
+<div class="progress mt16 clearfix">
+  <div class="progress-l"><p>处理进度</p></div>
+  <div class="progress-r">
+    <ul class="clearfix">
+        <li class="on"><span class="prgs-item">提出申请</span><span class="prgs-time">2015-11-06 14:12</span></li>
+        <li class="on"><span class="prgs-item">处理中</span><span class="prgs-time">2015-11-06 14:12</span></li>
+        <li><span class="prgs-item">已到账</span></li>
+    </ul>
+  </div>
+</div>
+
+<div class="forward-info">
+  <p>类型<span class="cur">转账到支付宝</span></p>
+  <p>账号<span>1588745214</span></p>
+  <p>姓名<span>潘家柱</span></p>
+  <p>到账时间<span>5个工作日内</span></p>
+</div>
+
+<a href="" class="help">有疑问？联系客服</a>
+</div>
+</body>
+</html>
+<script src="../../js/jquery.js"></script>
+<script src="../../js/admin/Personal.js"></script>

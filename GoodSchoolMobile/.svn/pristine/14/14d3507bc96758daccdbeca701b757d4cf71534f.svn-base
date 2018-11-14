@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<meta content="yes" name="apple-mobile-web-app-capable" />
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+	<meta content="telephone=no" name="format-detection" />
+	<link rel="stylesheet" type="text/css" href="../../css/UserCenter.css">
+</head>
+<body class="body_white">
+
+<div class="forward-zfb bg-white">
+	<div class="top-navbar">
+		<div class="left"><a href="javascript:history.go(-1)"><i class="navbar-icon icon01"></i></a></div>
+	    <div class="center">充话费</div>
+	</div>
+
+	<ul class="form2">
+		<li>
+			<p>
+				<input type="text" placeholder="请输入手机号码" class="text" />
+				<label><span>对方手机号不能为空</span></label>
+			</p>
+		</li>
+		<li>
+			<p class="selectType">
+			<input type="button" class="cur" value="10元" /><input type="button" class="" value="20元" /><input type="button" class="" value="30元" /><input type="button" class="" value="50元" /><input type="button" class="not" value="100元" />
+			<label><span>金额不能为空</span></label>
+			</p>
+		</li>
+	</ul>
+
+	<a href="转账到支付宝-成功.html" class="next-btn">下一步</a>
+</div>
+
+<script src="../../js/jquery.js"></script>
+<script src="../../js/ucenter.js"></script>
+<script>
+	$(".selectType input").click(function(){
+		if ($(this).hasClass('not')) {
+			return;
+		};
+		$(this).addClass('cur').siblings().removeClass('cur');
+	})
+	function forWardTargetType( target ) {
+
+		var bankDom = target&&target,
+			MBbank = $('.MBbank-choice');
+
+		bankDom.on('click', function(event){
+			MBbank.slideDown();
+		});
+
+		$('.return_ico').on('click', function(evnet){
+			MBbank.slideUp();
+		});
+
+		$('.MBbank-all').on('click', '.MBbank', function(evnet){
+			bankDom.text($(this).find('.name').text()).css({
+				color: '#333'
+			});
+			MBbank.slideUp();
+		});
+
+	}
+
+	forWardTargetType($(".bankSelect"))
+</script>
+</body>
+
+</html>

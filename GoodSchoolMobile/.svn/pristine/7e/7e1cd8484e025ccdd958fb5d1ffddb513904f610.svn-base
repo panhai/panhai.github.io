@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"> 
+        <meta content="yes" name="apple-mobile-web-app-capable"> 
+        <meta content="black" name="apple-mobile-web-app-status-bar-style"> 
+        <meta content="telephone=no" name="format-detection">
+        <title>免费择校服务</title>
+        <link rel="stylesheet" type="text/css" href="css/index.min.css" />
+    </head>
+    <body class="grey">
+    <header>
+        <h1>免费择校服务</h1>
+        <a class="" href="javascript:history.go(-1)"><i class="icon break"></i></a>
+    </header>
+    <div class="topTip error hide sigle">
+        <p class=""><i>!</i>请输入手机号码！</p>
+    </div>
+    <div class="topTip error sigle">
+        <div class="validation-summary-errors" data-valmsg-summary="true">
+            <ul>
+            <li>请填写学生姓名</li>
+            <li>请填写手机号码</li>
+            <li>请填写验证码</li>
+            <li>请填写意向报读专业</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="text"><p>1分钟留下信息，会有专业择校顾问，电话联系您，免
+费为您量身推荐合适学校。</p></div>
+    <div class="bm">
+        <ul class="">
+            <li>
+                <input type="text" placeholder="请输入学生姓名"/>
+            </li>
+            <li>
+                <input type="tel" placeholder="请输入联系手机"/>
+            </li>
+            <li class="hide">
+                <input type="tel" placeholder="验证码" class="yzm" />
+                <input type="button" class="btn" value="获取验证码" />
+            </li>
+            <li>
+                <input type="text" placeholder="请输入意向报读专业"/>
+            </li>
+        </ul>
+        <a href="提交成功.html" class="link">立即提交</a>
+        <input type="button" value="立即提交" class="link" />
+        <p>已有12541名学生提交并找到满意学校，现仅剩241个免费名额！</p>
+        <a href="tel:400-660-3310" class="phone">拨打咨询热线460-660-3310</a>
+    </div>
+    <div class="bot_txt">
+        <h2>服务说明：</h2>
+        <p>1、以上服务仅在好学校拓展用户量期间推出，活动结束后，择校服务将会收费。</p>
+        <p>2、好学校择校顾问普遍具备6年以上的中专/技校择校经 验，已帮助超过8万学生找到满意中专/技校。</p>
+        <p>3、通过好学校择校服务成功找到满意学校者，可到好学 校领取50元话费奖励。</p>
+        <p>4、你提交的信息仅用于联系您或为您预留学位，信息安 全有保障。</p>
+    </div>
+    </body>
+</html>

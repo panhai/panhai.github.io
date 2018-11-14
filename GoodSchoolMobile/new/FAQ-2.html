@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/> 
+	<meta content="yes" name="apple-mobile-web-app-capable" /> 
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+	<meta content="telephone=no" name="format-detection" />
+	<link rel="stylesheet" type="text/css" href="../css/css.css">
+    <link rel="stylesheet" type="text/css" href="../css/css2.css">
+    <link rel="stylesheet" type="text/css" href="../css/fonts.css">
+	<title>我的优惠</title>
+</head>
+<body style="padding-bottom:44px;">
+<div class="get-info">  
+    
+<header class="Header">
+    <div class="left"><a href="javascript:history.go(-1)" class="icon-arrow-left"></a></div>
+    <h1>我的优惠</h1>
+</header>
+
+<div class="FAQ b-white p-l12">
+	<div class="item">
+    	<p class="f-title"><span class="dot">Q</span>通过好学校报读有什么优惠？</p>
+        <div class="f-content">
+        	<span class="dot">A</span>
+            <div class="text">
+            	<p>您好，通过好学校报读，您可以享受以下优惠：</p>
+                <p>①全班报名最低价</p>	
+                <p>不管学校如何打折，好学校确保您享受全班报名最低价，如果您发现同班同学报名价格比您低，您可以<a href="javascript:void(0)">点击这里</a>反馈，好学校给您3倍差额赔付。</p>
+                <p>②好学校现金返利</p>
+                <p>通过好学校成功报读，您可以到好学校点评课程领取返现，返现金额由报读课程决定，几元到几千元不等。</p>
+            </div>
+        </div>
+    </div>
+    <div class="item">
+    	<p class="f-title"><span class="dot">Q</span>什么情况下，无法享受好学校的报读优惠？</p>
+        <div class="f-content">
+        	<span class="dot">A</span>
+            <div class="text">
+                <p>您好，具备以下情况，您将有可能无法享受好学校服务保障及报读优惠：</p>	
+                <p>①您不是唯一通过好学校咨询学校；</p>
+                <p>②您与学校联系时，未声明您是好学校会员；</p>
+                <p>③您未在会员中心提交报名。</p>
+            </div>
+        </div>
+    </div>
+    <div class="item">
+    	<p class="f-title"><span class="dot">Q</span>我是好学校会员，为什么学校说没有优惠？</p>
+        <div class="f-content">
+        	<span class="dot">A</span>
+            <div class="text">
+                <p>您好，好学校会员享受的是报名最低价保障，不管学校给其他学员打多少折，学校保证给您的是全班最低价。若您发现其他同学比您低，您可以向好学校申诉，好学校给您3倍差额赔付。</p>	
+                <p>在最低价保障上，好学校会给予现金返利优惠，您在好学校点评后可以领取。</p>
+            </div>
+        </div>
+    </div>
+    <div class="item">
+    	<p class="f-title"><span class="dot">Q</span>为什么我的返现金额和网站显示的不一致？</p>
+        <div class="f-content">
+        	<span class="dot">A</span>
+            <div class="text">
+                <p>您好，返现金额由实际缴费金额决定，好学校网站上显示的是学校发布的价格，若学校未能及时更新价格，就会出现网站价格与实际价格不一致，同理返现金额也会不一致。</p>	
+            </div>
+        </div>
+    </div>
+    <div class="item">
+    	<p class="f-title"><span class="dot">Q</span>如何领取返现？助学券有什么用？</p>
+        <div class="f-content">
+        	<span class="dot">A</span>
+            <div class="text">
+            	<p>您好，成功在好学校报读并点评，方可领取返现。返现需要使用助学券领取。</p>
+                <p>助学券是好学校的虚拟货币，可以通过分享、推广或邀请好友等多种方式获得。可以通过点评或邀请好友方式100%兑换成现金。（1元助学券=1元现金）</p>	
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<p class="m-t15 m-l10">还有疑问，你可以：</p>
+<div class="contact-way b-ash">
+	<div class="item">
+    	<div class="icon bc-b6"><span class="icon-consultation"></span></div>
+        <p class="text">电话咨询</p>
+    </div>
+    <div class="item">
+    	<div class="icon bc-b1"><span class="icon-info"></span></div>
+        <p class="text">在线咨询</p>
+    </div>
+    <div class="item">
+    	<div class="icon bc-b8"><span class="icon-qq2"></span></div>
+        <p class="text">qq咨询</p>
+    </div>
+</div>
+
+
+</body>
+</html>
+
+<script src="../js/jquery.js"></script>
+<script src="../js/jquery.mobile.js"></script>
+<script src="../js/plugin/movie.js"></script>
+<script src="../js/iscroll.js"></script>
+<script src="../js/js.js"></script>
+<script src="../js/js2.js"></script>
+<script type="text/javascript">
+    //gb.Index();
+</script>
+
+
+<script>
+
+$(function(){
+	var close1=setTimeout(function(){
+		CHImovie(".banner-box");
+	})
+	$(window).resize(function(){
+		clearTimeout(close1);
+	})
+	
+	$(".banner-box").width($(window).width());
+	$(".banner-box li").width($(window).width());
+	
+	
+	
+	$(window).load(IndexResponse).resize(IndexResponse);
+});
+function IndexResponse()
+{//屏幕过矮不适应，高于640按640算
+	var wh=Math.min(640,$(window).height());
+	var hh=$(".top").height();
+	var uh=$(".unreadWarning").height();
+	var bh=$(".banner").height();
+	var th=hh+uh+bh;
+	if(wh<th) return;
+	var lh=wh-th-15;
+	var nh=lh/3;
+	var lis=$(".main ul").find("li");
+	var ph=lis.height();
+	lis.css({"padding":(nh-ph)/2+"px 0px"});
+	
+}
+</script>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+	<meta content="yes" name="apple-mobile-web-app-capable" />
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+	<meta content="telephone=no" name="format-detection" />
+	<title>微信绑定步骤</title>
+	<link rel="stylesheet" type="text/css" href="../../css/UserCenter.css">
+</head>
+<body class="body_white">
+	<div class="top-navbar">
+		<div class="left"><a href="javascript:history.go(-1)"><i class="navbar-icon icon01"></i></a></div>
+	    <div class="center">微信绑定步骤</div>
+	</div>
+
+	<ul class="wechat-pro">
+		<li><h2>1、打开微信搜索公众号“haoxuexiao”</h2>
+		<img src="../../images/code.png" alt="">
+		<h4>公众号名称：haoxuexiao    微信号：goodschoolcom</h4>
+		<p>（正使用微信浏览，可长按二维码关注）</p></li>
+		<li>
+			<h2>2、点击关注好学校公众号</h2>
+			<div class="img"></div>
+		</li>
+		<li>
+			<h2>3、点击“我的好学校”进入登录页面</h2>
+			<div class="img"></div>
+		</li>
+		<li>
+			<h2>4、填写账号密码，完成登录绑定</h2>
+			<div class="img"></div>
+		</li>
+		<li>
+			<h2>5、进入"我的钱包"—"赚取助学券"领取奖励</h2>
+			<div class="img"></div>
+		</li>
+	</ul>
+</body>
+</html>

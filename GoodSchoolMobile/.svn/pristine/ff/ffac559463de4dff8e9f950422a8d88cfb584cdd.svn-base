@@ -1,0 +1,67 @@
+<!DOCTYPE html >
+<html >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+<meta content="yes" name="apple-mobile-web-app-capable" /> 
+<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+<meta content="telephone=no" name="format-detection" />
+<link rel="stylesheet" type="text/css" href="../css/css.css">
+<link rel="stylesheet" type="text/css" href="../css/css2.css">
+<link rel="stylesheet" type="text/css" href="../css/SchoolCenter.css">
+<link rel="stylesheet" type="text/css" href="../css/PersonalCenter.css">
+
+
+<title>提交报名</title>
+</head>
+
+<body>
+	<div class="top-navbar">
+    	<div class="left"><a href="javascript:history.go(-1)"><i class="navbar-icon icon01"></i></a></div>
+        <div class="center">提交报名</div>
+    </div>
+    
+    <div class="gr-submit f14">
+        <div class="gr-details01 gr-coursebox">
+        	<a href="#" class="gr-thead p-l10 f14"><span class="icon"></span>广东新东方学广东新东方学校广东新东方学校广东新东方学校校(天河学区）
+                <div class="jiantou"></div>
+            </a>
+            <div class="gr-courseinfo">
+                <div class="imgbox"><img src="../images/context02.jpg"></div>
+                <div class="content">
+                    <p class="c-title">新东方雅思口语班新东方雅思口语班新东方雅思口语班</p>
+                    <p class="time-slot">白天班 </p>
+                    <p class="c-orange money01">3000元<span class="mb">报名后返现90MB</span></p>
+                </div>
+            </div>
+            <div class="gr-set">
+                 <div class="errorMsg">错误提示位置！</div> 	
+                 <ul class="set-list p-l15">
+                    <li class="group">
+                        <span class="label">实际学费</span><input type="text" class="text02 t-aright" placeholder="请输入报名价格（元）">
+                    </li>
+                    <li class="group mobile">
+                        <span class="label">报名时间</span><input type="text" class="text02 t-aright" placeholder="请输入实际报名时间">
+                    </li>
+                </ul>
+                <div class="p15 m-t8">
+                    <div class="jg-btnbig">提交报名</div>
+                </div>
+            </div>
+        </div>
+        <div class="p15 b-white">
+        	<p class="title p-b10 m-b10">提交报名三大好处</p>
+        	<p class="c-blue01 f16 p-b3">更多优惠</p>
+            <p class="p-b10">提交报名，你即可申请将助学券从账户中领取处理，兑换成M币，同时还可获得好学校M币奖励。</p>
+            <p class="c-blue01 f16 p-b3">更优教学</p>
+            <p class="p-b10">提交报名，您将获得课程点评权利，将影响学校招生，学校会更重视，给您更优质的教学。</p>
+            <p class="c-blue01 f16 p-b3">更好保障</p>
+            <p class="p-b10">好学校与学校签订读书保障协议，若学校违约，好学校惩罚学校，或协助您让学校退款，保障您的合法权益。</p>
+        </div>
+    </div>
+    
+</body>
+</html>
+
+<script src="../js/jquery.js"></script>
+<script src="../js/admin/Personal.js"></script>
