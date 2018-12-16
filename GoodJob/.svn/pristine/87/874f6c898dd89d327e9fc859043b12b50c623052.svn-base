@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>企业中心-资金帐户-充值</title>
+<link rel="stylesheet" type="text/css" href="../css/v2/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/CCenter/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/CCenter/other.css">
+</head>
+
+<body>
+<div class="HEADER"><div class="common">
+	<div class="TOP-LOGO"><a href="#"><img src="../images/v2/logo-s.jpg" width="119" height="62"></a></div>
+    <div class="TOP-TOOLS">
+    	Admin, <a href="#">退出</a>&nbsp;&nbsp;&nbsp;<a href="#">个人中心</a>&nbsp;&nbsp;&nbsp;<a href="#">反馈</a>&nbsp;&nbsp;&nbsp;<a href="#">HR帮助</a>
+    </div>
+    <ul class="TOP-NAV">
+    	<li><a href="new-index.html">首页</a></li>
+    	<li><a href="new-publish.html">发布职位</a></li>
+    	<li><a href="new-profile.html">企业资料</a></li>
+    	<li><a href="new-hrfavors.html">HR收藏夹</a></li>
+    	<li><a href="new-settings.html">账号管理</a></li>
+    </ul>
+</div></div>
+
+<div class="Main common">
+	<div class="Left">
+    	<a href="new-publish.html" class="Publish">发布新职位</a>
+        <div class="LeftNav">
+            <h3>资金账户</h3>
+            <p>
+                <a href="new-other-charge.html" class="cur"><span>充值</span><i>30</i></a>
+                <a href="new-other-detail.html"><span>账户明细</span><i>30</i></a>
+            </p>
+            <h3>增值服务</h3>
+            <p>
+                <a href="new-other-push.html"><span>职位置顶</span><i>30</i></a>
+                <a href="new-other-cooperation.html"><span>校企合作</span><i>30</i></a>
+            </p>
+        </div>
+    </div>
+	<div class="Right">
+    	<div class="Adv"><img src="../images/v2/adv.jpg" width="790" height="180"></div>
+        <div class="Balance green">
+        	<var><img src="../images/v2/money1.jpg" width="62" height="62"></var>
+            <h3>账户余额</h3>
+            <p><b>10000</b>元</p>
+            <h4>账户余额不可提现</h4>
+        </div>
+        <div class="Balance red">
+        	<var><img src="../images/v2/money2.jpg" width="62" height="62"></var>
+            <h3>赠送余额</h3>
+            <p><b>1000</b>元</p>
+            <h4>赠送余额优先使用</h4>
+        </div>
+        
+        <div class="Charge">
+        	<table class="Form">
+            	<tr><th width="110">充值金额：</th><td width="590" class="radios">
+                	<label class="checked"><input type="radio" name="money" checked><em>100元</em><i>赠送100元</i></label>
+                	<label><input type="radio" name="money"><em>200元</em><i>赠送200元</i></label>
+                	<label><input type="radio" name="money"><em>500元</em><i>赠送1000元</i></label>
+                	<label><input type="radio" name="money"><em>1000元</em><i>赠送2000元</i></label>
+                    <input type="text" class="text" placeholder="自定义金额">
+                    <a href="#" target="_blank" class="activity">查看活动详情</a>
+                </td></tr>
+            	<tr><td colspan="2"><img src="../images/v2/longline.jpg" width="692" height="8"></td></tr>
+            	<tr><td colspan="2"><p>确保已经在银行柜台开通了网上支付功能，为了方便您支付，windows用户建议使用IE浏览器</p></td></tr>
+            	<tr><th>支付方式：</th><td class="radios">
+                	<label class="checked"><input type="radio" name="way" checked>网银支付</label>
+                	<label><input type="radio" name="way">支付宝</label>
+                </td></tr>
+                <tr><th></th><td class="tail">
+                	<input type="button" class="submit" value="立刻支付">
+                    <label class="checked agree">
+                    	<input type="checkbox" name="agree">
+                        已阅读并同意
+                    </label>
+                    <a href="#new-protocol.html" class="protocol" target="_blank">《好工作使用协议》</a>
+                </td></tr>
+            </table>
+        </div>
+        
+        <dl class="Announce">
+        	<dt>好工作温馨提示：</dt>
+            <dd>
+                <p>1.若出现已成功充值的提示，但金额未到帐，可能是网络或系统繁忙导致，我们会在3个工作日内核对后为您充值。</p>
+                <p>2.在充值过程中如出现网页错误或打开缓慢时，请先查询银行或者相关支付方式的交易记录，检查扣款是否成功，然后查看好工作帐户是否已成功充值。请不要反复刷新页面，请勿按浏览器"后退"键以防止重复购买。</p>
+                <p>3.如有任何疑问也可直接联系客服：020-59012066</p>
+            </dd>
+        </dl>
+	</div>
+	<div class="clear"></div>
+</div>
+
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/v2/all.js"></script>
+<script>
+$(function(){
+});
+$(window).load(function(){
+});
+</script>

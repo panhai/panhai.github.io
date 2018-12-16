@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>机构管理-新增机构</title>
+    <meta name=viewport content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="../css/all.css" />
+    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+    <link href="../css/layerskin/default/layer.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/scrollbar.css">
+</head>
+
+<body>
+    <div class="head_navgater">
+        <div class="rightCenter">
+            <div class="search">
+                <div>
+                    <a href="javascript:;">退出</a>
+                </div>
+                <div>
+                    <a href="javascript:;">个人设置</a>
+                </div>
+                <div class="num">
+                    <b>5</b>
+                    <span class="icon"></span>
+                </div>
+                <div class="from">
+                    <i></i>
+                    <input type="text" name="" placeholder="搜索咨询，学员，帮助文档">
+                    <div class="history-layer" style="display: none;">
+                        <a href="javascript:void(0)">
+                            <i>咨询学员</i>
+                            <span>"啊啊啊啊"</span>
+                        </a>
+    
+                        <a href="javascript:void(0)">
+                            <i>报名学员</i>
+                            <span>"啊啊啊啊"</span>
+                        </a>
+    
+                        <a href="javascript:void(0)">
+                            <i>班级</i>
+                            <span>"啊啊啊啊"</span>
+                        </a>
+    
+                        <a href="javascript:void(0)">
+                            <i>课程</i>
+                            <span>"啊啊啊啊"</span>
+                        </a>
+    
+                        <a href="javascript:void(0)">
+                            <i>教师</i>
+                            <span>"啊啊啊啊"</span>
+                        </a>
+    
+                        <a href="javascript:void(0)">
+                            <i>帮助文档</i>
+                            <span>"啊啊啊啊"</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="left_navgater" style="display:block">
+        <div class="logo">
+            <span>运营后台</span>
+            <a href="javascript:void(0)" class="changeArrow">
+                <i></i>
+            </a>
+        </div>
+        <div class="info">
+            <div class="person">
+                <img src="../images/boy.png" alt="">
+            </div>
+            <div class="user">
+                <p class="tearch">李老师</p>
+                <p class="kf">客服部</p>
+            </div>
+        </div>
+        <div class="nav">
+            <a href="#">
+                <i class="position1"></i>
+                <span>工作台</span>
+            </a>
+            <a href="#" class="cur">
+                <i class="position2"></i>
+                <span>合作机构</span>
+            </a>
+
+            <a href="#">
+                <i class="position3"></i>
+                <span>学员管理</span>
+            </a>
+            <a href="#">
+                <i class="position4"></i>
+                <span>内容管理</span>
+            </a>
+            <a href="#">
+                <i class="position5"></i>
+                <span>财务管理</span>
+            </a>
+            <a href="#">
+                <i class="position9"></i>
+                <span>会员管理</span>
+            </a>
+            <a href="#">
+                <i class="position6"></i>
+                <span>就业管理</span>
+            </a>
+            <a href="#">
+                <i class="position7"></i>
+                <span>校+联盟</span>
+            </a>
+            <a href="#">
+                <i class="position8"></i>
+                <span>系统设置</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="left_small_navgater" style="display:none">
+        <div class="logoBox">
+            <a href="javascript:void(0)" class="changeArrow">
+                <i></i>
+            </a>
+        </div>
+        <div class="school_infor">
+            <img src="../images/boy.png" alt="">
+        </div>
+        <div class="small_nav">
+            <div class="nav_url">
+                <div class="url_icon position1"></div>
+                <div class="moveLayer">
+                    <i></i>
+                    <a href="/school">工作台</a>
+                </div>
+            </div>
+            <div class="nav_url">
+                <div class="url_icon position2"></div>
+                <div class="moveLayer">
+                    <i></i>
+                    <a href="/school">好学校</a>
+                    <a href="/school">微营销</a>
+                    <a href="/school">微官网</a>
+                    <a href="/school">微活动</a>
+                </div>
+            </div>
+            <div class="nav_url">
+                <div class="url_icon position3"></div>
+                <div class="moveLayer">
+                    <i></i>
+                    <a href="/school">咨询管理</a>
+                    <a href="/school">今日跟进</a>
+                    <a href="/school">到访登记</a>
+                    <a href="/school">跟进统计</a>
+                </div>
+            </div>
+            <div class="nav_url">
+                <div class="url_icon position4"></div>
+                <div class="moveLayer">
+                    <i></i>
+                    <a href="/school">全部学员</a>
+                    <a href="/school">在读学员</a>
+                    <a href="/school">毕业学员</a>
+                    <a href="/school">学员统计</a>
+                </div>
+            </div>
+            <div class="nav_url">
+                <div class="url_icon position5"></div>
+                <div class="moveLayer">
+                    <i></i>
+                    <a href="/school">开课管理</a>
+                    <a href="/school">班级管理</a>
+                    <a href="/school">课程管理</a>
+                    <a href="/school">教师管理</a>
+                </div>
+            </div>
+            <div class="nav_url">
+                <div class="url_icon position6"></div>
+                <div class="moveLayer">
+                    <i></i>
+                    <a href="/school">全部明细</a>
+                    <a href="/school">收入</a>
+                    <a href="/school">支出</a>
+                    <a href="/school">财务报表</a>
+                </div>
+            </div>
+            <div class="nav_url">
+                <div class="url_icon position7"></div>
+                <div class="moveLayer">
+                    <i></i>
+                    <a href="/school">合作企业</a>
+                    <a href="/school">合作职位</a>
+                    <a href="/school">就业学员</a>
+                    <a href="/school">合作申请</a>
+                </div>
+            </div>
+            <div class="nav_url">
+                <div class="url_icon position8"></div>
+                <div class="moveLayer">
+                    <i></i>
+                    <a href="/school">合作学校</a>
+                    <a href="/school">合作课程</a>
+                    <a href="/school">学员佣金</a>
+                    <a href="/school">申请合作</a>
+                </div>
+            </div>
+            <div class="nav_url">
+                <div class="url_icon position9"></div>
+                <div class="moveLayer">
+                    <i></i>
+                    <a href="/school">校区设置</a>
+                    <a href="/school">账号设置</a>
+                    <a href="/school">权限设置</a>
+                    <a href="/school">基本设置</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="right_content">
+        <div class="right_content_box New_institutions">
+            <div class="New_institutions_box">
+                <div class="top">
+                    <span>
+                        < 返回</span> <strong>新增机构</strong>
+                </div>
+                <div class="titel">
+                    <span>基本信息</span>
+                </div>
+                <!-- 基本信息 -->
+                <div class="info">
+                    <div>
+                        <div class="left">
+                            <span>机构名称：</span>
+                            <span class="bi">*</span>
+                        </div>
+                        <div class="right">
+                            <input type="text" name="" placeholder="机构全称（必填，填写后不可修改">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="left">
+                            <span>机构简称：</span>
+                            <span class="bi">*</span>
+                        </div>
+                        <div class="right">
+                            <input type="text" name="" placeholder="机构全称（必填，填写后不可修改">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="left">
+                            <span>所属公司：</span>
+                            <span class="bi">*</span>
+                        </div>
+                        <div class="right">
+                            <input type="text" name="" placeholder="与营业执照一致（必填）">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="left">
+                            <span>组织代码：</span>
+                        </div>
+                        <div class="right">
+                            <input type="text" name="" placeholder="英语执照登记的组织机构代码">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="left">
+                            <span>成立时间：</span>
+                        </div>
+                        <div class="right">
+                            <input type="text" name="" class="Wdate mydate" data-val="true" onclick="WdatePicker()"
+                                placeholder="选择时间">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="left">
+                            <span>招生规模：</span>
+                        </div>
+                        <div class="right">
+                            <dl class="SELECT comment" data-placeholder="请选择">
+                                <input type="hidden" value="" autocomplete="off">
+                                <dt><span class=""></span></dt>
+                                <dd class="normal maxHeight">
+                                    <a href="javascript:void(0)" data-id="0" class="" title="不限">每年100人一下</a>
+                                    <a href="javascript:void(0)" data-id="0" class="" title="2000人/年">每年100-500人</a>
+                                    <a href="javascript:void(0)" data-id="0" class="" title="2000人/年">每年500-1000人</a>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="left">
+                            <span>机构号：</span>
+                            <span class="bi">*</span>
+                        </div>
+                        <div class="right">
+                            <input type="text" name="" placeholder="由字母开头，字母，数字组合">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="left">
+                            <span>机构类型：</span>
+                        </div>
+                        <div class="right">
+                            <dl class="SELECT comment" data-placeholder="请选择">
+                                <input type="hidden" value="" autocomplete="off">
+                                <dt><span class=""></span></dt>
+                                <dd class="normal maxHeight">
+                                    <a href="javascript:void(0)" data-id="0" class="" title="不限">小型机构</a>
+                                    <a href="javascript:void(0)" data-id="0" class="" title="2000人/年">中型机构</a>
+                                    <a href="javascript:void(0)" data-id="0" class="" title="2000人/年">大型机构</a>
+
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="left">
+                            <span>机构等级：</span>
+                            <span class="bi">*</span>
+                        </div>
+                        <div class="right">
+                            <dl class="SELECT comment" data-placeholder="请选择">
+                                <input type="hidden" value="" autocomplete="off">
+                                <dt><span class=""></span></dt>
+                                <dd class="normal maxHeight">
+                                    <a href="javascript:void(0)" data-id="0" class="" title="不限">VIP机构</a>
+                                    <a href="javascript:void(0)" data-id="0" class="" title="2000人/年">优质机构</a>
+                                    <a href="javascript:void(0)" data-id="0" class="" title="2000人/年">普通机构</a>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="left">
+                            <span>机构类别：</span>
+                        </div>
+                        <div class="right">
+                            <input type="text" name="" placeholder="请选择类别">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="left">
+                            <span>机构星级：</span>
+                        </div>
+                        <div class="right">
+                            <input type="text" name="" placeholder="请选择" value="7">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="left">
+                            <span>机构官网：</span>
+                        </div>
+                        <div class="right">
+                            <input type="text" name="" placeholder="请输入网址" value="http://">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="left">
+                            <span>所在地区：</span>
+                            <span class="bi">*</span>
+                        </div>
+                        <div class="right">
+                            <i></i>
+                            <input type="text" name="" placeholder="请选择">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="left">
+                            <span>机构地址：</span>
+                        </div>
+                        <div class="right">
+                            <input type="text" name="" placeholder="请输入机构详情地址" value="">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="left">
+                            <span>联系电话：</span>
+                        </div>
+                        <div class="right">
+                            <input type="text" name="" placeholder="请输入联系电话" value="">
+                        </div>
+                    </div>
+                    <div class="textarea">
+                        <span>招生优势：</span>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+                <div class="titel">
+                    <span>合作信息</span>
+                </div>
+                <!-- 合作信息  -->
+                <div class="Cooperative_information">
+                    <div class="lan">
+                        <div>
+                            <div class="left">
+                                <span>合作状态：</span>
+                                <span class="bi">*</span>
+                            </div>
+                            <div class="right">
+                                <dl class="SELECT comment" data-placeholder="请选择">
+                                    <input type="hidden" value="" autocomplete="off">
+                                    <dt><span class=""></span></dt>
+                                    <dd class="normal maxHeight">
+                                        <a href="javascript:void(0)" data-id="0" class="" title="不限">正常</a>
+                                        <a href="javascript:void(0)" data-id="0" class="" title="2000人/年">暂停合作</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="left">
+                                <span>合作状态：</span>
+                                <span class="bi">*</span>
+                            </div>
+                            <div class="right time_sele">
+                                <input type="text" name="" placeholder="清选择时间" class="Wdate mydate" value="2018-12-30"
+                                    data-val="true" onclick="WdatePicker()">
+                                <span>~</span>
+                                <input type="text" name="" placeholder="清选择时间" class="Wdate mydate" value="2018-12-30"
+                                    data-val="true" onclick="WdatePicker()">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="left">
+                                <span>合作套餐：</span>
+                                <span class="bi">*</span>
+                            </div>
+                            <div class="right">
+                                <input type="text" name="" placeholder="请输入套餐总价">
+                                <i></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lan lan2">
+                        <div>
+                            <div class="left">
+                                <span>合作城市：</span>
+                                <span class="bi">*</span>
+                            </div>
+                            <div class="right">
+                                <input type="text" name="" placeholder="清选择">
+                                <i></i>
+                            </div>
+                        </div>
+                        <div class="k2">
+                            <div class="left">
+                                <span>合作校区：</span>
+                                <span class="bi">*</span>
+                            </div>
+                            <div class="right">
+                                <span class="h" style="font-family:'微软雅黑';font-weight:400;">个</span>
+                                <input type="text" name="" class="inp1" placeholder="合作校区数">
+                                <i></i>
+                                <input type="text" name="" class="inp2" placeholder="具体合作校区备注">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lan lan2 lan3">
+                        <div>
+                            <div class="left">
+                                <span>推荐权重：</span>
+                            </div>
+                            <div class="right">
+                                <input type="text" name="" placeholder="0~100（用于机构权重加分）">
+                            </div>
+                        </div>
+                        <div class="k2">
+                            <div class="left">
+                                <span>结款周期：</span>
+                                <span class="bi">*</span>
+                            </div>
+                            <div class="right">
+                                <input class="t" type="text" name="" class="inp2" placeholder="请填写结款周期">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="textarea">
+                            <span>项目提成：</span>
+                            <textarea name="" id="" cols="30" rows="10">请从师资、环境、数学、办学优势、特色项目等方面对机构进行简要介绍，用于客服推荐学员时快速了解机构</textarea>
+                        </div>
+                    </div>
+                    <!-- 营业执照 -->
+                    <div class="business">
+                        <div>
+                            <span>营业执照：</span>
+                            <div>
+                                <img src="../images/add_03.png" alt="">
+                            </div>
+                        </div>
+                        <div>
+                            <span>办学许可：</span>
+                            <div>
+                                <img src="../images/add_03.png" alt="">
+                            </div>
+                        </div>
+                        <div>
+                            <span>办学许可：</span>
+                            <div class="update">
+                                <span>+上传合同</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="titel">
+                    <span>对接信息</span>
+                </div>
+                <div class="Cooperative_information2">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>姓名</th>
+                                <th>负责对接</th>
+                                <th>手机</th>
+                                <th>QQ </th>
+                                <th>微信 </th>
+                                <th>固话 </th>
+                                <th>邮箱</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <i></i>
+                                    <input type="text" placeholder="姓名">
+                                </td>
+                                <td class="dui">
+                                    <i></i>
+                                    <b></b>
+                                    <input type="text" placeholder="清选择">
+                                </td>
+                                <td>
+                                    <i></i>
+                                    <input type="text" placeholder="联系手机">
+                                </td>
+                                <td>
+                                    <i></i>
+                                    <input type="text" placeholder="联系QQ">
+                                </td>
+                                <td>
+                                    <i></i>
+                                    <input type="text" placeholder="联系微信">
+                                </td>
+                                <td class="last2">
+                                    <i></i>
+                                    <input type="text" placeholder="联系固定电话">
+                                </td>
+                                <td class="last">
+                                    <i></i>
+                                    <input type="text" placeholder="联系邮箱">
+                                    <span class="add_tr">+</span>
+                                    <span class="delete_tr">-</span>
+                                </td>
+                            </tr>
+                           
+                        </tbody>
+                    </table>
+                </div>
+                <div class="titel">
+                    <span>合作备注</span>
+                </div>
+                <!-- 合作备注 -->
+                <div class="Cooperation_notes">
+                    <div class="box1">
+                        <div class="left">
+                            <span>签单人：</span>
+                            <div class="sele_box">
+                                <dl class="SELECT comment" data-placeholder="0~100（用于机构权重加分）">
+                                    <input type="hidden" value="" autocomplete="off">
+                                    <dt><span class="">0~100（用于机构权重加分）</span></dt>
+                                    <dd class="normal maxHeight">
+                                        <a href="javascript:void(0)" data-id="0" class="" title="不限">不限</a>
+                                        <a href="javascript:void(0)" data-id="0" class="" title="2000人/年">200人0/年</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </div>
+                        <div class="left2">
+                                <span>售后跟进：</span>
+                                <div class="sele_box">
+                                    <div class="sele_box">
+                                        <dl class="SELECT comment" data-placeholder="0~100（用于机构权重加分）">
+                                            <input type="hidden" value="" autocomplete="off">
+                                            <dt><span class="">0~100（用于机构权重加分）</span></dt>
+                                            <dd class="normal maxHeight">
+                                                <a href="javascript:void(0)" data-id="0" class="" title="不限">不限</a>
+                                                <a href="javascript:void(0)" data-id="0" class="" title="2000人/年">200人0/年</a>
+                                            </dd>
+                                        </dl>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="box2">
+                        <span class="span">合作备注：</span>
+                        <textarea class="text" name="" id="" cols="30" rows="10"> 请从师资、环境、数学、办学优势、特色项目等方面对机构进行简要介绍，用于客服推荐学员时快速了解机构</textarea>
+                    </div>
+                    <div class="btn">
+                        <button>保存</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="../js/jquery.js"></script>
+        <script src="../js/layer.js"></script>
+        <script src="../js/area.js"></script>
+        <script src="../js/all.js"></script>
+        <script src="../js/all2.js"></script>
+        <script src="../js/plugin/select.js"></script>
+        <script src="../js/My97DatePicker/WdatePicker.js"></script>
+        <script src="../js/plugin/scrollBar.js"></script>
+        <script>
+
+
+            VitaeSource();
+            Vitaeclick();
+
+
+            //收起筛选条件
+            $(".recruit_searchCondition .tollger").click(function () {
+                if ($(this).hasClass('cur')) {
+                    $(this).removeClass('cur');
+                    $(this).parent().css("borderBottom", "1px dashed #e4e4e4");
+                    $(this).children("span").text('收起筛选').removeClass('cur');
+                    $(this).children("i").removeClass('cui');
+                    $(".tollger-box").show();
+                } else {
+                    $(this).addClass('cur');
+                    $(this).parent().css("borderBottom", "none");
+                    $(this).children("span").text('展开筛选').addClass('cur');
+                    $(this).children("i").addClass('cui');
+                    $(".tollger-box").hide();
+                }
+            })
+
+
+
+            $('.recruit_searchCondition .s_condition a').click(function () {
+                $(this).siblings().removeClass('cur');
+                $(this).addClass('cur');
+            });
+
+
+            $('.recruit_searchCondition .line .openbtn').click(function () {
+                if ($(this).hasClass('cur')) {
+                    $(this).removeClass('cur');
+                    $(this).html('更多岗位<i></i>')
+                    $(this).siblings('.alist').css('height', '33px');
+                } else {
+                    $(this).addClass('cur');
+                    $(this).html('收起<i></i>')
+                    $(this).siblings('.alist').css('height', 'auto');
+                }
+            });
+
+
+
+
+
+
+        </script>
+</body>
+
+</html>

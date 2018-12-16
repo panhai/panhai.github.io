@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/> 
+<meta content="yes" name="apple-mobile-web-app-capable" /> 
+<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+<meta content="telephone=no" name="format-detection" />
+<title>分享特权</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/all.css">
+<link rel="stylesheet" type="text/css" href="css/share.css">
+<body>
+<div class="CardPhoto"><img src="images/nophoto.png"></div>
+<div class="CardIntro CardIntro2">我是Andy,送你一张</div>
+<div class="Card Card2"><img src="images/card.png" width="125"></div>
+<a class="CardRight" onClick="$('.FullScreenPlugin').fadeIn()">查看求职特权</a>
+<div class="CardIntro CardIntro2">祝你有一份更好的工作！</div>
+<div class="CardMobile"><input type="tel" placeholder="输入手机号码领取" maxlength="13"></div>
+<a class="CardBtn" href="#">领取</a>
+<div class="CardMemory">该号码登录好工作（93hgz.com)即可享用特权</div>
+
+<table class="FullScreenPlugin"><tr><td>
+	<div class="CardContent">
+    	<q onClick="$(this).closest('.FullScreenPlugin').fadeOut();">&times;</q>
+    	<h1>求职特权卡</h1>
+        <p>1.“最高求职成功率”职位推荐权；</p>
+		<p>2. 职位邀请专享特权。</p>
+    </div>
+</td></tr></table>
+</body>
+</html>
+<script src="js/jquery.js"></script>

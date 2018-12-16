@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>预约演示</title>
+    <link href="css/swiper.min.css" rel="stylesheet" />
+    <link href="css/index.css" rel="stylesheet" />
+    <meta name=viewport content="width=device-width, initial-scale=1" />
+</head>
+<body class="subscribe">
+    <div class="head">
+        <div class="nav">
+            <div class="logo">
+                <a href="http://www.93hgz.com"><img src="images/logo.png" alt="前往好工作" /></a>
+                <p>全球首家DT-ST时代互联网招聘服务商</p>
+            </div>
+            <div class="navigation">
+                <a href="../cooperation/index.htm">好工作介绍<i></i></a>
+                <a href="../cooperation1-2/index.htm">产品优势<i></i></a>
+                <a href="../cooperation1-3/index.htm">招聘报告<i></i></a>
+                <a href="javascript:void (0)" class="cur lastA">预约演示<i></i></a>
+            </div>
+
+        </div>
+        <div class="banner"></div>
+    </div>
+
+    <div class="white_bg filldiv">
+        <div class="formdiv">
+            <p class="title">预约演示</p>
+            <p class="text">留下信息，我们会联系您，约定时间上门拜访演示</p>
+            <form action="/st/sale/addbook" data-ajax="true" data-ajax-begin="ajaxBegin" data-ajax-complete="ajaxComplete" data-ajax-failure="ajaxError" data-ajax-method="POST" data-ajax-success="ajaxJsonResult" id="form0" method="post">
+                <div class="linebox">
+                    <label class="lefttxt">您的姓名</label>
+                    <input autocomplete="off" class="input" data-val="true" data-val-length="姓名长度不能大于20" data-val-length-max="20" data-val-required="请输入姓名" id="Name" name="Name" value="" type="text">
+                </div>
+                <span class="field-validation-valid" data-valmsg-for="Name" data-valmsg-replace="true"></span>
+                <div class="linebox">
+                    <label class="lefttxt">您的手机</label>
+                    <input autocomplete="off" class="input" data-val="true" data-val-mobile="手机格式错误" data-val-required="请输入手机号码" id="Mobile" name="Mobile" value="" type="text">
+                </div>
+                <span class="field-validation-valid" data-valmsg-for="Mobile" data-valmsg-replace="true"></span>
+                <div class="linebox">
+                    <label class="lefttxt">您的邮箱</label>
+                    <input autocomplete="off" class="input" data-val="true" data-val-email="邮箱格式错误" data-val-required="请输入邮箱" id="Mail" name="Mail" value="" type="text">
+                </div>
+                <span class="field-validation-valid" data-valmsg-for="Mail" data-valmsg-replace="true"></span>
+                <div class="linebox">
+                    <label class="lefttxt">您所在公司</label>
+                    <input autocomplete="off" class="input" data-val="true" data-val-length="所在公司名称长度不能大于100" data-val-length-max="100" data-val-required="请输入所在公司" id="Company" name="Company" value="" type="text">
+                </div>
+                <span class="field-validation-valid" data-valmsg-for="Company" data-valmsg-replace="true"></span>
+                <input type="submit" class="submit" value="立即提交" />
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="outSideBox foot">
+        <div class="footNav">
+            <a href="../cooperation/index.htm">好工作介绍<i></i></a>
+            <a href="../cooperation1-2/index.htm">产品优势<i></i></a>
+            <a href="../cooperation1-3/index.htm">招聘报告<i></i></a>
+            <a href="#" class="cur">预约演示<i></i></a>
+        </div>
+        <div class="footMenu">
+            <div class="call">
+                <p>联系我们</p>
+                <a href="javascript:void(0)">服务热线：020-61019925 </a>
+                <a href="javascript:void(0)">服务QQ：1396014448</a>
+                <a href="javascript:void(0)">服务邮箱：1396014448@qq.com</a>
+                <a href="javascript:void(0)">服务时间：周一至周六9:00-18:40</a>
+            </div>
+
+            <div class="call">
+                <p>产品服务</p>
+                <a href="http://www.93hgz.com/">好工作</a>
+                <a href="http://www.91goodschool.com/">好学校</a>
+            </div>
+
+            <div class="aboutUs">
+                <p>关注我们</p>
+                <img src="images/aboutUs.png" />
+            </div>
+
+            <div class="clear"></div>
+            <div class="copyright">粤ICP备09027680号-25&nbsp;&nbsp;&nbsp;&nbsp;&#169;版权所有广州冠鹏信息技术有限公司</div>
+        </div>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script>
+        //导航显示隐藏计算公式
+        function formula(m) {
+            var docuemntHeight = $(document).height(),
+                windowHeight = $(window).height();
+            var lastHeight = docuemntHeight - windowHeight ;
+            if($(window).scrollTop()<=58){
+                $(".nav").css("position","absolute").css("background","transparent").css("boxShadow","box-shadow: 0 0 0 1px rgba(255, 255, 255, .2);");
+                $(".head .logo p").css("color","#fff");
+                $(".head .navigation a").css("color","#fff");
+                $(".head .navigation .cur i").css("background","#fff")
+
+            }else {
+                $(".nav").css("position","fixed").css("background","rgba(245,245,245,.95)");
+                $(".head .logo p").css("color","#333");
+                $(".head .navigation a").css("color","#333");
+                $(".head .navigation a.cur").css("color","#ff6464");
+                $(".head .navigation .cur i").css("background","#ff6464")
+
+            }
+
+            ;
+        }
+        //初始化计算
+        formula(0);
+
+
+        //滚动时计算
+        $(window).scroll(function (e) {
+            e.preventDefault();
+            var data  = $(window).scrollTop();
+            formula();
+        });
+
+    </script>
+</body>
+</html>

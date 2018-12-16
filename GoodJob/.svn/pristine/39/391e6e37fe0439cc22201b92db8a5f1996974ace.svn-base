@@ -1,0 +1,484 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+
+</title>
+    <link href="../css/1024/common.css" rel="stylesheet" type="text/css" />
+    <link href="../css/1024/companyAdmin.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/MD5.js"></script>
+    <script type="text/javascript" src="../js/jbody.js"></script>
+    <script type="text/javascript" src="../js/jbody-plugin.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+    <script type="text/javascript" src="../js/area.js"></script>
+    <script type="text/javascript" src="../js/subjects.js"></script>
+    <script type="text/javascript" src="../js/admin/common.js"></script>
+    <script type="text/javascript" src="../js/selectors.js"></script>
+    <script type="text/javascript" src="../js/menuControl.js"></script>
+    <script type="text/javascript" src="../js/jobPositions.js"></script>
+    <script type="text/javascript" src="../js/admin/companyAdmin.js"></script>
+    
+</head>
+<body>
+    <iframe id="_postTargetIframe" name="_postTargetIframe" style="display:none;" src="about:blank;"></iframe>
+    
+
+    
+<div id="pg-header" class="pg-header">
+    <div class="pg-header-main">
+        <div class="logo">
+            <a href="/"><img alt="好工作网Logo" src="../images/logo.png" class="pngfix" width="232" height="40" /></a>
+        </div>
+        <div class="cname">天津市温药复有限公司</div>
+        <div class="r mginT10">
+    <div class="platform-switch-container">
+    <div class="platform-switch-main msout">
+        <span class="floatR">切换后台</span>
+        <span class="floatR" style="border:solid 1px #ffc183; line-height:12px; margin-right:5px; padding-left:1px; padding-right:1px;">+</span>
+        <div style="clear:both;"></div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        $(".platform-switch-main").click(function () {
+            JBFrameHelper.showPage("/UCenter/PlatformSwitch.phtml", { obj: this, title: "切换到个人中心或其他管理后台", w: 500, pos: { to: "win", parent: "doc", park: "inside", parkInside: "center" } }, true, false);
+        });
+    })
+</script>
+
+</div>
+    </div>
+</div>
+    
+<div id="pg-nav" class="pg-nav">
+    <ul>
+        <li><div class="nav-title"><a href="#">管理首页</a></div></li>
+        <li><div class="nav-title"><a href="/Company/drjrz/admin/Offer/Add.phtml">发布职位</a></div></li>
+        <li><div class="nav-title"><a href="#">找简历</a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">职位<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">简历<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">资讯 ▪ 介绍<sub></sub></a></div></li>        
+        <li><div class="nav-title"><a href="javascript:void(0);">合作院校<sub></sub></a></div></li>        
+        <li><div class="nav-title"><a href="#">用户与设置<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="/Company/drjrz/" target="_blank">企业主页</a></div></li>
+    </ul>
+</div>
+<div style="clear:both;"></div>
+<div id="pg-nav-sub" style="display:none;">
+    <div id="pg-nav-sub-inner">
+    <div id="pg-nav-sub-main">
+        <ul style="display:none;">
+            <li><a href="Sum.html">系统概况</a></li>
+            <li><a href="Company.html">后台管理功能快捷链接</a></li>
+            <li><a href="#">站内消息</a></li>
+        </ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;">
+            <li><a href="Offer-Add.html">发布新职位</a></li>
+            <li><a href="Offer-ing.html">正在招聘</a></li>
+            <li><a href="Offer-Review.html">审核中</a></li>
+            <li><a href="Secur.html">保密职位</a></li>
+            <li><a href="Cooperation.html">院校招聘职位</a></li>
+            <li><a href="Offer-stop.html">已暂停或取消</a></li>
+            <li><a href="Offer-Timeout.html">已过期</a></li>
+            <li><a href="Offer-all.html">全部职位</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="/Company/drjrz/admin/resumes/">搜简历</a></li>
+            <li><a href="/Company/drjrz/admin/resumes/received.phtml">收到简历</a></li>
+            <li><a href="/Company/drjrz/admin/resumes/favor.phtml">简历收藏</a></li>
+            <li><a href="/Company/drjrz/admin/resumes/history.phtml">最近查看</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="/Company/drjrz/admin/About/Intro.phtml">企业介绍</a></li>
+            <li><a href="/Company/drjrz/admin/Articles/?tp=2">企业公告</a></li>
+            <li><a href="/Company/drjrz/admin/Articles/?tp=3">企业快讯</a></li>
+            <li><a href="/Company/drjrz/admin/Articles/?tp=4">行业新闻</a></li>
+            <li><a href="/Company/drjrz/admin/Articles/?tp=5">产品服务</a></li>
+            <li><a href="/Company/drjrz/admin/Articles/?tp=6">收费标准</a></li>
+            <li><a href="/Company/drjrz/admin/Articles/?tp=7">员工风采</a></li>
+            <li><a href="/Company/drjrz/admin/Articles/?tp=9">工作环境</a></li>
+        </ul>        
+        <ul style="display:none;">
+            <li><a href="/Company/drjrz/admin/Schools/Search.phtml">院校搜索</a></li>
+            <li><a href="/Company/drjrz/admin/Schools/Request/Recieved.phtml">收到的请求</a></li>
+            <li><a href="/Company/drjrz/admin/Schools/Request/Sended.phtml">发出的请求</a></li>
+            <li><a href="/Company/drjrz/admin/Schools/Default.phtml">合作院校列表</a></li>
+            <li><a href="/Company/drjrz/admin/Schools/Black.phtml">黑名单院校</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Setting.html">系统设置</a></li>
+            <li><a href="CustmRoles.html">管理员角色</a></li>
+            <li><a href="Manager.html">管理员</a></li>
+            <li><a href="Info.html">个人设置</a></li>
+            <li><a href="Password.html">修改密码</a></li>
+        </ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+    </div>
+    </div>
+</div>
+<div style="clear:both;"></div>
+    <div class="pageMainContentContainer">         
+    <form method="post" action="/Company/drjrz/admin/Resumes/" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="CNMhu/KK3j+2HutM7qTRv/F6lbx8eoLN2Oa6Yw0kRVd1HBU/MfwdgFhTBnUHBE+hgolDK1iT3i7OhQT79QI8Jd4Ah6wU4171gyq8JtwiDQ8LmE1aNlqyKzC6359H9jUZoa6BRGbflH871C1pgZuOK9usjue1qwwG8HZIDEUn1lJoClGJSs/7gH64IpTkiLMFNTAB8Zw9QmzCgDBQawEPJDijpWd5QzfDwIwIzVD+2F9o4Zg5OsYIDdv2+c6bIjy6+ssTveof/Gswn92H9DjxIsD60xMTpcjK5pNP3YZQmjSxZV+dfHPcBMSV/iQjM4pej8IrGS6s62VmV8MVj2CDSikRcMXP8Vz55XTMPYE95e9e2u5otQ7lsCSJ18HGbI1Meb9RyphOc3N/oIsSKomdEDER+WSwhXMybzjv/TO3aJFnLoH0CW+vvRWHPrpAwb/inNLUxVVsx6riiDUIST0OJyiCtiWUlFLe/NHV3K/bWGLePYkeH9VXoVENkVlcKSB8OlRMCKDjOvFVeiIk5hNOaYgI9GGlHHjoHl0u7ooljrUDUpCn5XbwuXolAqT5kykMbclYSmnb5o8IdgQHQ5MUCs75zFN0RYBL8K6s9OOYLzQbOr02hE3H3BWJlq0ulSxZMnSBHEACNZVMuyWLdBF8Km5C9aa/D7girs/1vGthsQMkyX9/CuvVPX2Ij6hlnDuN9s4oN7kllPfbYFn2tAmmsJKCgGSevt1g+02CZhcE5FYf9gmLlpDqs3gCrflmNk8/04A2RGTuz67ko6WXvGFRO9uhOIHpDJFNiN9V9d4ZqWbnUunY35tsDSOx25Pjhz7qHosZu57zF7RkLLj4Kqzg1cO88G4QrkE9B9fvA652DIVOFhQVRTJUtxEgrqbzzwcI8LFJfw+JFQc24pBIt1SvKA==" />
+</div>
+
+<div class="aspNetHidden">
+
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="647EA08D" />
+</div>
+    
+    <div class="bodyBlock">
+        <div class="searchMain">   
+            <div class="condition width060">所在城市：</div>
+            <div class="conditionL">
+                <input type="hidden" name="ctl00$form$MultiCitys2$HiddenCityIds" id="form_MultiCitys2_HiddenCityIds" />
+<div style="width:120px; height:30px;">
+    <div onclick="MultiCitysSelector.show(this)">
+        <select id="form_MultiCitys2select" style="float:left;; width:120px; height:30px;" disabled="disabled">
+            <option></option>
+        </select>
+        <div style="position:relative; left:0px; top:0px;" id="form_MultiCitys2front">
+            <div style="position:absolute; left:0px; top:0px; width:120px; height:30px; border:solid 0px #000;"></div>
+        </div>
+    </div>    
+    <div style="clear:both;"></div>
+</div>
+<script type="text/javascript">
+    var MultiCitysSelector = null;
+    $(function(){
+        MultiCitysSelector = new MultiCityCreater({
+            objName: "MultiCitysSelector",
+            maxSelect: 3,
+            objHiddenId : document.getElementById("form_MultiCitys2_HiddenCityIds"),
+            selectElement : document.getElementById("form_MultiCitys2select"),
+            textWhenEmpty:"不限",
+            dialogTitle:"请选择城市",
+            onchange: [function (opt) { $("#form_MultiCitys2front").attr("title", opt.tts); },null]
+        });
+    });
+</script>
+            </div>
+            <div class="condition width070">性别：</div>
+            <div class="conditionL">
+                <select name="ctl00$form$DropDownListGender" id="form_DropDownListGender" style="height:32px;width:80px;">
+    <option selected="selected" value="-1">不限</option>
+    <option value="1">男</option>
+    <option value="0">女</option>
+
+</select>                
+            </div>
+            <div class="condition width050">年龄：</div>
+            <div class="conditionL">
+                <select name="ctl00$form$DropDownListAge" id="form_DropDownListAge" style="height:32px;width:142px;">
+    <option selected="selected" value="0,0">不限</option>
+    <option value="0,20">20岁以下</option>
+    <option value="0,25">25岁以下</option>
+    <option value="20,30">20-30</option>
+    <option value="25,35">25-35</option>
+    <option value="35,45">35-45</option>
+    <option value="35,0">35以上</option>
+    <option value="40,0">40以上</option>
+
+</select>  
+            </div>
+            <div class="condition width070">工作经验：</div>
+            <div class="conditionL">
+                <select name="ctl00$form$DropDownListExperience" id="form_DropDownListExperience" style="height:32px;width:120px;">
+    <option selected="selected" value="0">不限</option>
+    <option value="1">1年以上</option>
+    <option value="2">2年以上</option>
+    <option value="3">3年以上</option>
+    <option value="5">5年以上</option>
+    <option value="8">8年以上</option>
+    <option value="10">10年以上</option>
+    <option value="15">15年以上</option>
+
+</select> 
+            </div>
+            <div class="condition width070">婚姻状况：</div>
+            <div class="conditionL">
+                <select name="ctl00$form$DropDownListMaritalStatus" id="form_DropDownListMaritalStatus" style="height:32px;width:82px;">
+    <option selected="selected" value="-1">不限</option>
+    <option value="0">未婚</option>
+    <option value="1">已婚</option>
+
+</select>
+            </div>
+            <div style="clear: both;"></div>
+            <div class="condition width060">意向城市：</div>
+            <div class="conditionL">
+                <input type="hidden" name="ctl00$form$MultiCitysTarget$HiddenCityIds" id="form_MultiCitysTarget_HiddenCityIds" />
+<div style="width:120px; height:30px;">
+    <div onclick="MultiCitysSelectorTarget.show(this)">
+        <select id="form_MultiCitysTargetselect" style="float:left;; width:120px; height:30px;" disabled="disabled">
+            <option></option>
+        </select>
+        <div style="position:relative; left:0px; top:0px;" id="form_MultiCitysTargetfront">
+            <div style="position:absolute; left:0px; top:0px; width:120px; height:30px; border:solid 0px #000;"></div>
+        </div>
+    </div>    
+    <div style="clear:both;"></div>
+</div>
+<script type="text/javascript">
+    var MultiCitysSelectorTarget = null;
+    $(function(){
+        MultiCitysSelectorTarget = new MultiCityCreater({
+            objName: "MultiCitysSelectorTarget",
+            maxSelect: 3,
+            objHiddenId : document.getElementById("form_MultiCitysTarget_HiddenCityIds"),
+            selectElement : document.getElementById("form_MultiCitysTargetselect"),
+            textWhenEmpty:"不限",
+            dialogTitle:"请选择城市",
+            onchange: [function (opt) { $("#form_MultiCitysTargetfront").attr("title", opt.tts); },null]
+        });
+    });
+</script>
+            </div>
+            <div class="condition width070">意向行业：</div>
+            <div class="conditionL">
+                <input type="hidden" name="ctl00$form$MutiSubjectSelectorTarget$HiddenSubjectIds" id="form_MutiSubjectSelectorTarget_HiddenSubjectIds" />
+<div style="">
+    <div onclick="ResumeTargetSubjsSelector.show(this)">
+        <select id="form_MutiSubjectSelectorTargetselect" style="float:left;; width:280px; height:32px;" disabled="disabled">
+            <option></option>
+        </select>
+        <div style="position:relative;" id="form_MutiSubjectSelectorTargetfront">
+            <div style="position:absolute; width:280px; height:32px; border:solid 0px #000;"></div>
+        </div>
+    </div>    
+    <div style="clear:both;"></div>
+</div>
+<script type="text/javascript">
+    var ResumeTargetSubjsSelector = null;
+    $(function(){
+        ResumeTargetSubjsSelector = new MultiSubjectCreater({
+            objName: "ResumeTargetSubjsSelector",
+            maxSelect: 3,
+            objHiddenId : document.getElementById("form_MutiSubjectSelectorTarget_HiddenSubjectIds"),
+            selectElement : document.getElementById("form_MutiSubjectSelectorTargetselect"),
+            textWhenEmpty:"不限",
+            dialogTitle:"请选择行业",
+            canSelectTopLevel:true,
+            mode : "multi",
+            onchange: [function (opt) { $("#form_MutiSubjectSelectorTargetfront").attr("title", opt.tts); },null]
+        });
+    });
+</script>
+            </div>
+            <div class="condition width070">意向职位：</div>
+            <div class="conditionL">
+                <input type="hidden" name="ctl00$form$MultiPositionsTarget$HiddenPositionIds" id="form_MultiPositionsTarget_HiddenPositionIds" />
+<div style="">
+    <div onclick="ResumeTargetPositionSelector.show(this)">
+        <select id="form_MultiPositionsTargetselect" style="float:left;; width:280px; height:32px;" disabled="disabled">
+            <option></option>
+        </select>
+        <div style="position:relative;" id="form_MultiPositionsTargetfront">
+            <div style="position:absolute; width:280px; height:32px; border:solid 0px #000;"></div>
+        </div>
+    </div>
+    <div style="clear:both;"></div>
+</div>
+<script type="text/javascript">
+    var ResumeTargetPositionSelector = null;
+    $(function(){
+        ResumeTargetPositionSelector = new MutiPositionCreater({
+            objName: "ResumeTargetPositionSelector",
+            maxSelect: 3,
+            objHiddenId : document.getElementById("form_MultiPositionsTarget_HiddenPositionIds"),
+            selectElement : document.getElementById("form_MultiPositionsTargetselect"),
+            textWhenEmpty:"不限",
+            dialogTitle:"请选择职位类别",
+            onchange: [function (opt) { $("#form_MultiPositionsTargetfront").attr("title", opt.tts); },null]
+        });
+    });
+</script>
+            </div>
+            <div style="clear: both;"></div>
+            <div class="condition width060">学历：</div>
+            <div class="conditionL">
+                <select name="ctl00$form$DropDownListEducation" id="form_DropDownListEducation" style="height:32px;width:120px;">
+    <option selected="selected" value="不限">不限</option>
+    <option value="1">小学</option>
+    <option value="2">初中</option>
+    <option value="4">高中</option>
+    <option value="8">职中</option>
+    <option value="16">大专</option>
+    <option value="32">本科</option>
+    <option value="64">硕士</option>
+    <option value="128">博士</option>
+    <option value="256">博士后</option>
+
+</select>    
+            </div>
+            <div class="condition width070">毕业院校：</div>
+            <div class="conditionL">
+                <input name="ctl00$form$TextBoxSchool" type="text" id="form_TextBoxSchool" class="inputText" data-jbextendid="exinput_form_TextBoxSchool_120_535" data-jbtips="院校名称" style="width:100px;" />
+            </div>
+            <div class="condition width050">专业：</div>
+            <div class="conditionL">
+                <input name="ctl00$form$TextBoxMajor" type="text" id="form_TextBoxMajor" class="inputText" data-jbextendid="exinput_form_TextBoxMajor_303_535" data-jbtips="专业名称" style="width:105px;" />
+            </div>
+            <div class="condition width070">语言能力：</div>
+            <div class="conditionL">
+                <input name="ctl00$form$TextBoxLanguage" type="text" id="form_TextBoxLanguage" class="inputText" data-jbextendid="exinput_form_TextBoxLanguage_708_535" data-jbtips="语言" style="width:80px;" />
+            </div>
+            <div class="condition width050">版本：</div>
+            <div class="conditionL">
+                <select name="ctl00$form$DropDownListInEnglish" id="form_DropDownListInEnglish" style="height:32px;width:80px;">
+    <option selected="selected" value="中文简历">中文简历</option>
+    <option value="英文简历">英文简历</option>
+
+</select>    
+            </div>
+            <div class="conditionL mginL15">
+                <input type="button" class="btn-3d btn-3d-orange" onclick="CommonIframeSubmitHelper.submit()" value="查询" />
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+        <div style="clear:both;"></div>
+    </div>
+    <div class="bodyBlock">
+        <table class="listTable" id="listTableMain">
+            <tr class="theader">
+                <td>所在城市</td>
+                <td>姓名</td>
+                <td>性别</td>
+                <td>年龄</td>
+                <td>学历</td>
+                <td>毕业学校</td>
+                <td>专业</td>
+                <td>经验</td>
+                <td>状态</td>
+                <td style="width:105px;">操作</td></tr>
+            
+                    <tr class="tr0" onmouseover="$(this).addClass('mOver');" onmouseout="$(this).removeClass('mOver');">
+                        <td>成都</td>
+                        <td>纪汉</td>
+                        <td>男</td>
+                        <td>19</td>
+                        <td>硕士</td>
+                        <td>北京大学</td>
+                        <td>戏剧影视文学</td>
+                        <td>4年</td>
+                        <td>急跳槽</td>
+                        <td><a class="showWhenOver btn-3d btn-3d-blue btn-3d-mini" href="/Company/drjrz/Admin/Resumes/Detail.phtml?id=100008">查看</a> <a class="showWhenOver btn-3d btn-3d-blue btn-3d-mini" href="/Company/drjrz/Admin/Resumes/Detail.phtml?id=100008">收藏</a></td>
+                    </tr>
+                
+                    <tr class="tr1" onmouseover="$(this).addClass('mOver');" onmouseout="$(this).removeClass('mOver');">
+                        <td>天津</td>
+                        <td>任佳苓</td>
+                        <td>男</td>
+                        <td>38</td>
+                        <td>博士</td>
+                        <td>深圳大学</td>
+                        <td>工商管理</td>
+                        <td>0年</td>
+                        <td>急跳槽</td>
+                        <td><a class="showWhenOver btn-3d btn-3d-blue btn-3d-mini" href="/Company/drjrz/Admin/Resumes/Detail.phtml?id=100009">查看</a> <a class="showWhenOver btn-3d btn-3d-blue btn-3d-mini" href="/Company/drjrz/Admin/Resumes/Detail.phtml?id=100009">收藏</a></td>
+                    </tr>
+                
+                    <tr class="tr0" onmouseover="$(this).addClass('mOver');" onmouseout="$(this).removeClass('mOver');">
+                        <td>上海</td>
+                        <td>韩凰</td>
+                        <td>女</td>
+                        <td>35</td>
+                        <td>高中</td>
+                        <td>厦门大学</td>
+                        <td>城市地下空间工程</td>
+                        <td>1年</td>
+                        <td>有意跳槽</td>
+                        <td><a class="showWhenOver btn-3d btn-3d-blue btn-3d-mini" href="/Company/drjrz/Admin/Resumes/Detail.phtml?id=100011">查看</a> <a class="showWhenOver btn-3d btn-3d-blue btn-3d-mini" href="/Company/drjrz/Admin/Resumes/Detail.phtml?id=100011">收藏</a></td>
+                    </tr>
+                
+        </table>
+        <div style="width:98%; margin:0px auto;" id="PageNaverContainer">
+            <span class="allpage_num">49条结果，共17页</span><a class="page_num" href="javascript:void(0);">首页</a><a class="page_num" href="javascript:void(0);">上一页</a><span class="page_current">1</span><a class="page_num" href="javascript:void(0)" onclick="javascript:CommonIframeSubmitHelper.resetAndSubmit({data:{pid:2}})">2</a><a class="page_num" href="javascript:void(0)" onclick="javascript:CommonIframeSubmitHelper.resetAndSubmit({data:{pid:3}})">3</a><a class="page_num" href="javascript:void(0)" onclick="javascript:CommonIframeSubmitHelper.resetAndSubmit({data:{pid:4}})">4</a><a class="page_num" href="javascript:void(0)" onclick="javascript:CommonIframeSubmitHelper.resetAndSubmit({data:{pid:5}})">5</a><span class="page_ellipsis">...</span><a class="page_num" href="javascript:void(0)" onclick="javascript:CommonIframeSubmitHelper.resetAndSubmit({data:{pid:17}})">17</a><a class="page_num" href="javascript:void(0)" onclick="javascript:CommonIframeSubmitHelper.resetAndSubmit({data:{pid:2}})">下一页</a><a class="page_num" href="javascript:void(0)" onclick="javascript:CommonIframeSubmitHelper.resetAndSubmit({data:{pid:17}})">尾页</a><script language='javascript'>function GoToPage(url){document.location.href=url;}function jumpPage(obj,url){var i=parseInt(obj.previousSibling.value);if(!i&&i!=0)return false;if(i<=0)i=1;if(i>17)i=17;GoToPage(url + i);}</script>
+        </div>
+    </div>
+
+    
+
+<script type="text/javascript">
+//<![CDATA[
+pageMainMenuCreater.setActive({mainText:'简历',subText: '搜简历'});//]]>
+</script>
+<script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxSchool'});var exinput_form_TextBoxSchool_120_535=null; JB.ready(function(){exinput_form_TextBoxSchool_120_535= new JBValidator({varId:'exinput_form_TextBoxSchool_120_535',exType:'Text',checkWhere:'ServerAndClient',msgShowType:'Right',msgCloseType:'NotClose',dataTitle:'输入',innerTextTip:'院校名称',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:true,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0});});</script><script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxMajor'});var exinput_form_TextBoxMajor_303_535=null; JB.ready(function(){exinput_form_TextBoxMajor_303_535= new JBValidator({varId:'exinput_form_TextBoxMajor_303_535',exType:'Text',checkWhere:'ServerAndClient',msgShowType:'Right',msgCloseType:'NotClose',dataTitle:'输入',innerTextTip:'专业名称',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:true,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0});});</script><script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxLanguage'});var exinput_form_TextBoxLanguage_708_535=null; JB.ready(function(){exinput_form_TextBoxLanguage_708_535= new JBValidator({varId:'exinput_form_TextBoxLanguage_708_535',exType:'Text',checkWhere:'ServerAndClient',msgShowType:'Right',msgCloseType:'NotClose',dataTitle:'输入',innerTextTip:'语言',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:true,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0});});</script></form>
+    
+    <script type="text/javascript">
+        CommonIframeSubmitHelper.init({ obj: $(".searchMain").get(0), jqSelector: ["#listTableMain", "#PageNaverContainer"] });
+    </script>
+
+    <div style="clear:both;"></div>
+    </div> 
+    
+<div style="clear:both;"></div>
+<div class="footerOuter">
+    <div class="footer">
+        <div>
+            <div class="contact">
+                <span style="margin-top:60px; font-size:14px;">服务热线 (免长话费)</span>
+                <span style="font-size:16px;">400-6838-789</span>
+                <span>工作日 9:00-19:00</span>
+            </div>
+            <div class="footerBlock">
+                <span>网站简介</span>
+                <a>网站简介</a>
+                <a>产品服务</a>
+                <a>创新优势</a>
+                <a>友情链接</a>
+                <a>联系我们</a>
+            </div>
+            <div class="footerBlock">
+                <span>使用帮助</span>
+                <a>网站简介</a>
+                <a>产品服务</a>
+                <a>创新优势</a>
+                <a>友情链接</a>
+                <a>联系我们</a>
+            </div>
+            <div class="footerBlock">
+                <span>合作共赢</span>
+                <a>网站简介</a>
+                <a>产品服务</a>
+                <a>创新优势</a>
+                <a>友情链接</a>
+                <a>联系我们</a>
+            </div>
+            <div class="footerBlock">
+                <span>快捷方式</span>
+                <a>网站简介</a>
+                <a>产品服务</a>
+                <a>创新优势</a>
+                <a>友情链接</a>
+                <a>联系我们</a>
+            </div>
+        </div>
+        <div style="clear:both;"></div>
+        <div style="margin-top:20px; color:#888;">
+        版权所有：好工作网
+        联系电话：88888888&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        联系邮箱：88888@qq.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+        地址：广州市环市中路&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        邮政编码：510000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script type="text/javascript">
+    $(function () {   adminPageInit({ unresize: "" });    });
+</script>
+<!--[if IE 6]>
+<script type="text/javascript" src="/js/DD_belatedPNG_0.0.8a.js"></script>
+<script type="text/javascript">   
+  DD_belatedPNG.fix('.pngfix'); 
+</script>
+<![endif]-->

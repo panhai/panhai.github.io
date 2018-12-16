@@ -1,0 +1,184 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>企业中心-宣讲会管理-受邀请记录-调整时间</title>
+</head>
+<!--[if IE 6]>
+<script src="../js/UCenter/png.js"></script>
+<script type="text/javascript">
+   DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="../css/Company/css.css">
+<link rel="stylesheet" type="text/css" href="../css/Company/conf.css">
+<body>
+<div class="header"><div class="common">
+    <p>
+    	<a href="#">Admin</a> |
+        <a href="#">退出</a> |
+        <a href="#">切换后台</a> |
+        <a href="#">消息</a> |
+        <a href="#">反馈</a> |
+        <a href="#">帮助</a>
+    </p>
+</div></div>
+<div class="nav"><div class="common">
+	<a href="#" class="nav-logo"><img src="../images/CpCenter/logo.jpg" width="104" height="45"></a>
+    <ul>
+    	<li><a href="index.html" class="cur">首页<i></i></a></li>
+    	<li><a href="profile.html">企业资料<i></i></a></li>
+    	<li><a href="favors.html">HR收藏<i></i></a></li>
+    	<li><a href="tools.html">实用工具<i></i></a></li>
+    	<li><a href="manage.html">帐号管理<i></i></a></li>
+    </ul>
+    <div class="tool">
+    	<p><a href="publish.html">发布新职位</a></p>
+    	<p class="tool-pull">
+        	<span>校企合作邀请</span>
+        	<i></i>
+        	<samp>
+            	<a href="invite.html">校企合作邀请</a>
+            	<a href="invite-job.html">校企合作职位申请</a>
+            	<a href="invite-conf.html">宣讲会申请</a>
+            </samp>
+        </p>
+    </div>
+</div></div>
+
+<div class="main common">
+	<div class="left">
+    	<ul class="menus">
+        	<li>
+            	<h3>简历管理<i></i></h3>
+                <p>
+                	<a href="resumes-unread.html">未处理简历<i class="i1">2</i></a>
+                    <!--此处的i，如果是一位数，就写class="i1"，两位数就是i2-->
+                	<a href="resumes-invite.html">已邀请面试</a>
+                	<a href="resumes-sure.html">确认来面试</a>
+                	<a href="resumes-notmatch.html">更多</a>
+                </p>
+            </li>
+        	<li>
+            	<h3>职位管理<i></i></h3>
+                <p>
+                	<a href="jobs.html">有效职位</a>
+                	<a href="jobs-checking.html">审核中职位</a>
+                	<a href="jobs-stop.html">已暂停职位</a>
+                </p>
+            </li>
+        	<li>
+            	<h3>宣讲会管理<i></i></h3>
+                <p>
+                	<a href="conf.html">申请记录</a>
+                	<a href="#" class="cur">受邀请记录</a>
+                	<a href="conf-passed.html">已通过宣讲会</a>
+                </p>
+            </li>
+        	<li>
+            	<h3>企业合作<i></i></h3>
+                <p>
+                	<a href="coop.html">邀请合作</a>
+                	<a href="coop-invited.html">被邀请合作</a>
+                	<a href="coop-ing.html">已达成合作协议</a>
+                </p>
+            </li>
+        </ul>
+    </div>
+	<div class="right">
+    	<ol class="labels">
+        	<li><a href="conf-invited.html">学校邀请</a></li>
+            <li class="cur"><a href="conf-invited-time.html">已调整时间</a></li>
+            <li class="last"><a href="#">申请宣讲会</a></li>
+        </ol>
+        
+        <div class="list checking time"><table>
+        	<thead><tr>
+            	<th width="195" class="first em15">宣讲会主题</th>
+            	<th width="140">合作学校/院系</th>
+            	<th width="150">类别/地区</th>
+            	<th width="155">申请时间</th>
+            	<th width="130" class="last">操作</th>
+            </tr></thead>
+            <tbody>
+            	<tr>
+                	<th class="first"><a href="#">冠鹏信息技术有限公司<br>开启宣讲会</a></th>
+                	<th class="second">广州工业大学<br>艺术设计学院</th>
+                	<td>本科院校（广州）</td>
+                	<td><code>时间调整为：<b>2014-11-20 14:30</b></code></td>
+                	<td class="last">已调整</td>
+                </tr>
+            	<tr>
+                	<th class="first"><a href="#">冠鹏信息技术有限公司<br>开启宣讲会</a></th>
+                	<th class="second">广州工业大学<br>艺术设计学院</th>
+                	<td>本科院校（广州）</td>
+                	<td><code>时间调整为：<b>2014-11-20 14:30</b></code></td>
+                	<td class="last">已调整</td>
+                </tr>
+            	<tr>
+                	<th class="first"><a href="#">冠鹏信息技术有限公司<br>开启宣讲会</a></th>
+                	<th class="second">广州工业大学<br>艺术设计学院</th>
+                	<td>本科院校（广州）</td>
+                	<td><code>时间调整为：<b>2014-11-20 14:30</b></code></td>
+                	<td class="last">已调整</td>
+                </tr>
+            	<tr>
+                	<th class="first"><a href="#">冠鹏信息技术有限公司<br>开启宣讲会</a></th>
+                	<th class="second">广州工业大学<br>艺术设计学院</th>
+                	<td>本科院校（广州）</td>
+                	<td><code>时间调整为：<b>2014-11-20 14:30</b></code></td>
+                	<td class="last">已调整</td>
+                </tr>
+            	<tr>
+                	<th class="first"><a href="#">冠鹏信息技术有限公司<br>开启宣讲会</a></th>
+                	<th class="second">广州工业大学<br>艺术设计学院</th>
+                	<td>本科院校（广州）</td>
+                	<td><code>时间调整为：<b>2014-11-20 14:30</b></code></td>
+                	<td class="last">已调整</td>
+                </tr>
+            </tbody>
+        </table></div>
+        
+        <div class="pages2">
+        	<span class="ctrl">首页</span>
+        	<span class="ctrl">上一页</span>
+            <b>1</b>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#" class="ctrl">下一页</a>
+            <a href="#" class="ctrl">尾页</a>
+        </div>
+
+    </div>
+	<div class="clear"></div>
+</div>
+
+<div class="footer">
+	<div class="common tail">
+        <samp class="tail-nav">
+            <a href="#" class="first">关于我们</a>
+            <a href="#">法律声明</a>
+            <a href="#">保密承诺</a>
+            <a href="#">Investor Relatiao</a>
+            <a href="#">关于我们</a>
+        </samp>
+    </div>
+    <div class="common copyright">
+    	<p>京ICP备09083200号 京ICP证070419号 人才服务许可证：RC0710280</p>
+    	<p>Copyright&copy;2000-2014 liepin.com All Rights Reserved</p>
+    </div>
+</div>
+
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/company/all.js"></script>
+<script src="../js/company/conf.js"></script>
+<script>
+$(function(){	LeftMenu();
+    ToolPull();
+TimePicker("td.last a:nth-of-type(2)");
+});
+</script>

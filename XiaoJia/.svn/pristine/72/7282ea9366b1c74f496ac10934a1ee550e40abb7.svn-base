@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>欢迎使用校家-1</title>
+    <meta name=viewport content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../js/scrollbarplugin/jquery.mCustomScrollbar.css" />
+    <link rel="stylesheet" type="text/css" href="../css/all.css" />
+    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+    <link href="../css/layerskin/default/layer.css" rel="stylesheet" />
+</head>
+
+<body>
+<div class="head-navgater">
+    <div class="rightCenter">
+        <div class="setting">
+            <a href="javascript:void(0)" >设置</a>
+        </div>
+
+        <div class="feed_back">
+            <a href="javascript:void(0)" >我要反馈</a>
+        </div>
+
+        <div class="information">
+            <span class="icon"></span>
+        </div>
+
+        <div class="news">
+            <span class="icon"></span>
+        </div>
+
+
+        <div class="search">
+            <input type="text" value="" placeholder="搜求职者" class="search_txet">
+            <span class="icon"></span>
+            <div class="history-layer">
+                <a href="javascript:void(0)" >
+                    <i>咨询学员</i>
+                    <span>"啊啊啊啊"</span>
+                </a>
+
+                <a href="javascript:void(0)" >
+                    <i>报名学员</i>
+                    <span>"啊啊啊啊"</span>
+                </a>
+
+                <a href="javascript:void(0)" >
+                    <i>班级</i>
+                    <span>"啊啊啊啊"</span>
+                </a>
+
+                <a href="javascript:void(0)" >
+                    <i>课程</i>
+                    <span>"啊啊啊啊"</span>
+                </a>
+
+                <a href="javascript:void(0)" >
+                    <i>教师</i>
+                    <span>"啊啊啊啊"</span>
+                </a>
+
+                <a href="javascript:void(0)" >
+                    <i>帮助文档</i>
+                    <span>"啊啊啊啊"</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="left-navgater">
+    <div class="logoBox">
+        <a href="javascript:void(0)"  class="changeArrow">
+            <i></i>
+        </a>
+    </div>
+
+    <div class="school-infor">
+        <div class="inforBox cur">
+            <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2114797134,526769156&fm=26&gp=0.jpg" alt="">
+        </div>
+        <div class="inforBox">
+            <p>迪丽热巴</p>
+            <p>早上好</p>
+        </div>
+    </div>
+
+    <div class="nav">
+        <a href="首页.html"  class="cur">
+            <i class="position1"></i>
+            <span>工作台</span>
+        </a>
+
+        <div class="option ">
+            <i class="position2"></i>
+            <span>招生宣传</span>
+            <b></b>
+
+            <div class="midLa">
+                <a href="招生宣传-微营销-微官网-1.html" class="" >微营销</a>
+                <a href="招生宣传-校+推广-1.html"   class="">校+推广</a>
+                <a href="招生宣传-会员推广-1.html"  class="">会员推广</a>
+                <a href="招生宣传-SEO推广-1.html"  class="">SEO推广</a>
+                <a href="招生宣传-渠道管理.html"  class="">渠道管理</a>
+            </div>
+        </div>
+
+        <a href="咨询管理-全部咨询.html"  class="">
+            <i class="position3"></i>
+            <span>咨询管理</span>
+        </a>
+        <a href="学员管理-全部学员.html"  class="">
+            <i class="position4"></i>
+            <span>学员管理</span>
+        </a>
+        <a href="教务管理-班级管理.html"  class="">
+            <i class="position5"></i>
+            <span>教务管理</span>
+        </a>
+        <a href="财务管理-1.html"  class="">
+            <i class="position6"></i>
+            <span>财务管理</span>
+        </a>
+        <a href="就业中心-1.html"  class="">
+            <i class="position7"></i>
+            <span>就业中心</span>
+        </a>
+        <a href="校+创收-1.html"  class="">
+            <i class="position8"></i>
+            <span>校+联盟</span>
+        </a>
+        <a href="学校设置-账号管理.html"  class="">
+            <i class="position9"></i>
+            <span>学校设置</span>
+        </a>
+    </div>
+</div>
+
+<div class="left-small-navgater">
+    <div class="logoBox">
+        <a href="javascript:void(0)"  class="changeArrow">
+            <i></i>
+        </a>
+    </div>
+
+    <div class="school-infor">
+        <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2114797134,526769156&fm=26&gp=0.jpg" alt="">
+    </div>
+
+    <div class="small-nav">
+        <div class="nav-url">
+            <div class="url-icon position1"></div>
+
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >控制台</a>
+            </div>
+        </div>
+
+        <div class="nav-url">
+            <div class="url-icon position2"></div>
+
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >好学校</a>
+                <a href="javascript:void(0)" >微官网</a>
+                <a href="javascript:void(0)" >微营销</a>
+                <a href="javascript:void(0)" >微活动</a>
+            </div>
+        </div>
+
+        <div class="nav-url">
+            <div class="url-icon position3"></div>
+
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >咨询管理</a>
+                <a href="javascript:void(0)" >今日跟进</a>
+                <a href="javascript:void(0)" >到访记录</a>
+                <a href="javascript:void(0)" >跟进统计</a>
+            </div>
+        </div>
+
+        <div class="nav-url">
+            <div class="url-icon position4"></div>
+
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >全部学员</a>
+                <a href="javascript:void(0)" >在读学员</a>
+                <a href="javascript:void(0)" >毕业学员</a>
+                <a href="javascript:void(0)" >学员统计</a>
+            </div>
+        </div>
+
+        <div class="nav-url">
+            <div class="url-icon position5"></div>
+
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >排课管理</a>
+                <a href="javascript:void(0)" >班级管理</a>
+                <a href="javascript:void(0)" >课程管理</a>
+                <a href="javascript:void(0)" >教师管理</a>
+            </div>
+        </div>
+
+        <div class="nav-url">
+            <div class="url-icon position6"></div>
+
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >排课管理</a>
+                <a href="javascript:void(0)" >班级管理</a>
+                <a href="javascript:void(0)" >课程管理</a>
+                <a href="javascript:void(0)" >教师管理</a>
+            </div>
+        </div>
+
+        <div class="nav-url">
+            <div class="url-icon position7"></div>
+
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >排课管理</a>
+                <a href="javascript:void(0)" >班级管理</a>
+                <a href="javascript:void(0)" >课程管理</a>
+                <a href="javascript:void(0)" >教师管理</a>
+            </div>
+        </div>
+
+        <div class="nav-url">
+            <div class="url-icon position8"></div>
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >排课管理</a>
+                <a href="javascript:void(0)" >班级管理</a>
+                <a href="javascript:void(0)" >课程管理</a>
+                <a href="javascript:void(0)" >教师管理</a>
+            </div>
+
+        </div>
+
+        <div class="nav-url">
+            <div class="url-icon position9"></div>
+
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >排课管理</a>
+                <a href="javascript:void(0)" >班级管理</a>
+                <a href="javascript:void(0)" >课程管理</a>
+                <a href="javascript:void(0)" >教师管理</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="right-content">
+
+
+
+    <div class="content-layer ">
+        <div class="welcome-title">
+            <p>欢迎使用校+</p>
+            <p class="p1">现在你可以开设校区，开始使用校+了</p>
+        </div>
+
+        <div class="pro-bar-layer">
+            <div class="bar-infor">
+                <a href="javascript:void(0)">开设进度<span>(1/6)</span></a>
+                <b>16%</b>
+            </div>
+            <div class="welcome-bar">
+                <div class="progress-bar bar1"></div><!--bar1~6-->
+            </div>
+        </div>
+
+        <div class="welcome-fill">
+            <div class="welcome-box">
+
+                <div class="welcome-cell">
+                    <b>1</b>
+
+                    <p>开设校区</p>
+                    <p class="p2">创建你的第一个校区，开始使用校+管理</p>
+
+                    <a href="javascript:void(0)">去创建</a>
+                </div>
+
+            </div>
+
+
+
+            <div class="welcome-box">
+
+                <div class="welcome-cell">
+                    <b>1</b>
+
+                    <p>开设校区</p>
+                    <p class="p2">创建你的第一个校区，开始使用校+管理</p>
+
+                    <a href="javascript:void(0)" class="cur">已有校区(1)</a>
+                </div>
+
+            </div>
+
+
+            <div class="welcome-box">
+
+                <div class="welcome-cell">
+                    <b>2</b>
+
+                    <p>设置教师</p>
+                    <p class="p2">方便进行授课安排</p>
+
+                    <a href="javascript:void(0)">去设置</a>
+                </div>
+
+            </div>
+
+
+             <div class="welcome-box">
+
+                <div class="welcome-cell">
+                    <b>3</b>
+
+                    <p>设置课室</p>
+                    <p class="p2">合理利用课室，减少空置率</p>
+
+                    <a href="javascript:void(0)">去设置</a>
+                </div>
+
+            </div>
+
+
+             <div class="welcome-box">
+
+                <div class="welcome-cell">
+                    <b>4</b>
+
+                    <p>设置课程</p>
+                    <p class="p2">开始进行课程安排</p>
+
+                    <a href="javascript:void(0)">去设置</a>
+                </div>
+
+            </div>
+
+
+             <div class="welcome-box">
+
+                <div class="welcome-cell">
+                    <b>5</b>
+
+                    <p>设置班级</p>
+                    <p class="p2">更好地进行班级管理</p>
+
+                    <a href="javascript:void(0)">去设置</a>
+                </div>
+
+            </div>
+
+
+             <div class="welcome-box">
+
+                <div class="welcome-cell">
+                    <b>6</b>
+
+                    <p>设置账号</p>
+                    <p class="p2">让你的同事加入到校+系统协作</p>
+
+                    <a href="javascript:void(0)">去设置</a>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+</div>
+
+<script src="../js/jquery.js"></script>
+<script src="../js/layer.js"></script>
+<script src="../js/area.js"></script>
+<script src="../js/all.js"></script>
+<script src="../js/plugin/select.js"></script>
+<script src="../js/plugin/highcharts/highcharts.js"></script>
+<script src="../js/plugin/highcharts/exporting.js"></script>
+<script src="../js/plugin/highcharts/highcharts-zh_CN.js"></script>
+
+<script src="../js/scrollbarplugin/jquery.mCustomScrollbar.js"></script>
+
+<script type="text/javascript">
+
+</script>
+
+</body>
+</html>

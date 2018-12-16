@@ -1,0 +1,630 @@
+﻿
+
+//$(window).resize(function () {
+//    resizeMap();
+//})
+//function resizeMap() {
+//    $(".Shadow .Close,.cancel").click(function () {
+//        $(this).parents(".Shadow").fadeOut();
+//    })
+//    $(".AddHRAccount").css("margin-top", ($(window).height() - 300) / 2);
+//    $(".UPCompanyLogo").css("margin-top", ($(window).height() - 417) / 2);
+//    $(".loginDiv").css("margin-top", ($(window).height() - 450) / 2);
+//    $(".AddMailuser").css("margin-top", ($(window).height() - 364) / 2);
+//}
+//resizeMap()
+
+function openAudition() {
+    if ($(".info_botton .hear").hasClass("prohibit")) {
+        return;
+    }
+    $(".Div_Audition").fadeIn();
+    var time = 60;
+    $(".Audition .provingcode span").click(function () {
+        if (!$(this).hasClass("gray_bg")) {
+            $(this).addClass("gray_bg");
+            $(this).html("重新发送(60)");
+            Countdown(time);
+        }
+    });
+    function Countdown(time) {
+        if (time >= 1) {
+            time -= 1;
+            setTimeout(function () {
+                $(".Audition .provingcode span").html("重新发送(" + time + ")");
+                Countdown(time);
+            }, 1000);
+        } else {
+            $(".Audition .provingcode span").html("获取验证码");
+            $(".Audition .provingcode span").removeClass("gray_bg");
+        }
+    }
+}
+
+function Morebtn() {
+    $('.recruit_searchCondition .s_condition .alist').css('height', 'auto');
+    var height = $('.recruit_searchCondition .s_condition .openbtn').siblings('.alist').height();
+    console.log(height);
+    if (height > 33) {
+        $('.recruit_searchCondition .s_condition .openbtn').show();
+    } else {
+        $('.recruit_searchCondition .s_condition .openbtn').hide();
+    }
+    $('.recruit_searchCondition .s_condition .alist').css('height', '33px');
+};
+
+function VitaeSource() {
+    $('.recruit_searchResult .recruitTab td .vitaesource').hover(function () {
+        layer.tips('<div class="vitae_Tips"><p class="source">2017-06-01<em></em>前程无忧<em></em>投递销售代表<em></em>面试不合适</p><p class="source">2017-04-12<em></em>智联招聘<em></em>投递销售代表<em></em>面试不合适</p></div>', $(this), {
+            tips: [1, 'rgba(0,0,0,0.9)'],
+            time: 0
+        });
+    }, function () {
+        layer.closeAll('tips');
+    });
+};
+
+function Resumedetail_Nav() {
+    var isIE = !!window.ActiveXObject;
+    var isIE6 = isIE && !window.XMLHttpRequest;
+
+    $(window).scroll(function () {
+
+        var offset = $('.Mould4').offset(),//产品List偏移
+            startTop = offset.top,//List头部距离html顶部 318
+            startLeft = offset.left,//List距离html左边 0
+            bottomTop = startTop + $('.Mould4').height(),//List底部距离html顶部 2683
+            toolWidth = $('.resume_Navdiv').width(),//导航条宽度
+            toolHeight = $('.resume_Navdiv').height(),//导航条高度
+            scrollTop = $(window).scrollTop() + toolHeight;
+        if (scrollTop < startTop) {
+            $('.resume_Navdiv').removeClass('fixed');
+        } else if (scrollTop >= startTop && scrollTop <= bottomTop) {
+            if (scrollTop >= bottomTop - toolHeight) {
+                $('.resume_Navdiv').removeClass('fixed');
+            }
+            else {
+                $('.resume_Navdiv').addClass('fixed');
+                if (isIE6) {
+                    $('.JG-tool').css({ position: 'absolute', top: scrollTop, left: startLeft });
+                }
+            }
+
+        } else {
+            $('.resume_Navdiv').removeClass('fixed');
+        }
+    });
+}
+
+
+
+function Vitaeclick() {
+    $('.resume_userInfo .resume_state .state i').click(function () {
+        layer.open({
+            title: '修改状态',
+            type: 1,
+            area: '580px',
+            skin: 'ChangeState',
+            content: $('#ChangeState')
+        });
+    });
+
+    $('.resume_userInfo .userdiv .info .number').hover(function () {
+        layer.tips('<div class="vitae_Tips">优才指数<label>89</label>，表现良好，已被<label>120名</label>HR青睐收藏，<label>12名HR</label>给予好评！</div>', $(this), {
+            tips: [3, 'rgba(0,0,0,0.9)'],
+            time: 0
+        });
+    }, function () {
+        layer.closeAll('tips');
+    });
+
+    $('.resume_userInfo .resume_state .btn .relay').hover(function () {
+        layer.tips('<div class="vitae_Tips">转发用人部门筛选简历</div>', $(this), {
+            tips: [1, 'rgba(0,0,0,0.9)'],
+            time: 0
+        });
+    }, function () {
+        layer.closeAll('tips');
+    });
+
+    $('.resume_userInfo .resume_state .btn .inapproper').click(function () {
+        layer.open({
+            title: '标记不合适',
+            type: 1,
+            area: '650px',
+            skin: 'SendInterview',
+            content: $('#Inappropriate')
+        });
+    });
+    $("#Inappropriate .donot_need .plus_other_why").click(function (){
+        event.stopPropagation();
+    });
+    $("#handler").click(function (){
+        event.stopPropagation();
+        $("#Inappropriate .donot_need").show();
+    });
+    $("#Inappropriate .donot_need .tell_u_why p").click(function (){
+        var getText = $(this).text();
+        $("#handler").text(getText);
+        $("#Inappropriate .donot_need").hide();
+    });
+    $(document).click(function () {
+        $("#Inappropriate .donot_need").hide();
+    })
+
+    $('.vitae_right .operation .collect').click(function () {
+        layer.open({
+            title: '收藏到优才库',
+            type: 1,
+            area: '580px',
+            skin: 'ChangeState',
+            content: $('#CollectDepot')
+        });
+    });
+    $('.vitae_left .evaluate_headdiv .btn').click(function () {
+        layer.open({
+            title: '我来评价',
+            type: 1,
+            area: '580px',
+            skin: 'ChangeState',
+            content: $('#MyEvaluate')
+        });
+    });
+    $('.vitae_left .impressdiv .evaluateBtn').click(function () {
+        layer.open({
+            title: '我来评价',
+            type: 1,
+            area: '580px',
+            skin: 'ChangeState',
+            content: $('#MyEvaluate')
+        });
+    });
+    $('.ChangeState .taglist .append,.evaluate_div .taglist .append').click(function () {
+        layer.open({
+            title: '添加标签',
+            type: 1,
+            area: '680px',
+            skin: 'AddTags',
+            content: $('#AddTags')
+        });
+    });
+
+    $('.resume_userInfo .resume_state .btn .sendinvite').click(function () {
+        layer.open({
+            title: '发送面试邀请',
+            type: 1,
+            area: '650px',
+            skin: 'SendInterview',
+            content: $('#SendInterview')
+        });
+    });
+
+    $('.resume_userInfo .resume_state .btn .adjustinterview').click(function () {
+        layer.open({
+            title: '调整面试',
+            type: 1,
+            area: '650px',
+            skin: 'SendInterview',
+            content: $('#AdjustInterview')
+        });
+    });
+
+    $('.resume_userInfo .resume_state .btn .relay').click(function () {
+        layer.open({
+            title: '转发用人部门筛选',
+            type: 1,
+            area: '650px',
+            skin: 'SendInterview',
+            content: $('#Repeatscreen')
+        });
+    });
+
+    $('.resume_userInfo .resume_state .btn .addplan').click(function () {
+        layer.open({
+            title: '添加跟进计划',
+            type: 1,
+            area: '650px',
+            skin: 'SendInterview',
+            content: $('#AddPlan')
+        });
+    });
+
+    $('.resume_userInfo .resume_state .btn .addrecord').click(function () {
+        layer.open({
+            title: '添加跟进记录',
+            type: 1,
+            area: '650px',
+            skin: 'SendInterview',
+            content: $('#AddRecord')
+        });
+    });
+
+    $('.resume_userInfo .resume_state .btn .seecontact').click(function () {
+        layer.open({
+            title: '查看联系方式',
+            type: 1,
+            area: '500px',
+            skin: 'LookContact',
+            content: $('#LookContact')
+        });
+    });
+
+    $('.resume_userInfo .resume_state .btn .recommend').click(function () {
+        layer.open({
+            title: '提示',
+            type: 1,
+            area: '500px',
+            skin: 'LookContact',
+            content: $('#RecomdCandidate')
+        });
+    });
+
+    $('.resume_userInfo .resume_state .btn .introduce').click(function () {
+        layer.open({
+            title: '介绍给HR好友',
+            type: 1,
+            area: '600px',
+            skin: 'IntroduceCandidate',
+            content: $('#IntroduceCandidate')
+        });
+    });
+
+    $('.resume_userInfo .resume_state .btn .jobinvitation').click(function () {
+        layer.open({
+            title: '职位邀请',
+            type: 1,
+            area: '540px',
+            skin: 'AddrelayHR',
+            content: $('#PositionInvitation')
+        });
+    });
+
+    $('.resume_userInfo .resume_state .btn .sign').click(function () {
+        layer.open({
+            title: '面试签到',
+            type: 1,
+            area: '450px',
+            skin: 'InterviewSign',
+            content: $('#InterviewSign')
+        });
+    });
+
+    $('.resume_userInfo .resume_state .btn .alreadyinterviewed').click(function () {
+        layer.open({
+            title: '标记已面试',
+            type: 1,
+            area: '650px',
+            skin: 'Interviewed',
+            content: $('#Interviewed')
+        });
+    });
+
+    $('.resume_userInfo .resume_state .btn .cancle').click(function () {
+        layer.open({
+            title: '取消面试',
+            type: 1,
+            area: '600px',
+            skin: 'IntroduceCandidate',
+            content: $('#CancelInterview')
+        });
+    });
+
+    $('.resume_userInfo .resume_state .btn .sendOffer').click(function () {
+        layer.open({
+            title: 'Offer模板',
+            type: 1,
+            area: '900px',
+            skin: 'AddEmailMould',
+            content: $('#AddMould')
+        });
+    });
+
+    $('#IntroduceCandidate .add').click(function () {
+        layer.open({
+            title: '提示',
+            type: 1,
+            area: '460px',
+            skin: 'RequseSuccess',
+            content: $('#SendIntroduceMsg')
+        });
+    });
+
+    $('#RecomdCandidate .confirm').click(function () {
+        layer.open({
+            title: '提示',
+            type: 1,
+            area: '460px',
+            skin: 'RequseSuccess',
+            content: $('#RequseSuccess')
+        });
+    });
+
+    $('.deptdiv .deptmian .addobject span').click(function () {
+        layer.open({
+            title: '添加转发对象（面试官）',
+            type: 1,
+            area: '540px',
+            skin: 'AddrelayHR',
+            content: $('#AddrelayHR')
+        });
+    });
+
+    $('.ChangeState .collect .addfriend i,.SendInterview .mianbox .line_box .addfriend i,.IntroduceCandidate .c_interview .option span,.Interviewed .already .option span').click(function () {
+        if ($(this).hasClass('check')) {
+            $(this).removeClass('check');
+        } else {
+            $(this).addClass('check');
+        }
+    });
+
+    $('.SELECT.Dept .deptdiv .head .dept').click(function () {
+        $(this).parent().siblings('.deptmian').find('.postlist').hide();
+        $(this).parent().siblings('.deptmian').find('.deptlist').show();
+    });
+
+    $('#CollectDepot .Star i,.evaluate_div .detaildiv .hrname .Star i,#MyEvaluate .Star i,.Interviewed .already .Star i').click(function () {
+        $(this).parent().find('i').removeClass();
+        $(this).addClass('show');
+        $(this).prevAll().addClass('show');
+    });
+
+    $('.SELECT.Dept .deptdiv .deptmian .deptlist span').click(function () {
+        var data = $(this).attr('data');
+        var list;
+        console.log(data);
+        switch (data) {
+            case 'khfw':
+                list = '<a href="javascript:void(0)" data-id="1" class="" title="">客户专员</a>' + '<a href="javascript:void(0)" data-id="2" class="" title="">客户主管</a>' +
+                    '<a href="javascript:void(0)" data-id="3" class="" title="">客户总监</a>' + '<a href="javascript:void(0)" data-id="4" class="" title="">客户实习生</a>';
+                $(this).closest('.deptmian').find('.postlist').empty();
+                $(this).closest('.deptmian').find('.postlist').append(list);
+                $(this).parent().hide();
+                $(this).closest('.deptmian').find('.postlist').show();
+                break;
+            case 'cpyf':
+                list = '<a href="javascript:void(0)" data-id="8" class="" title="">产品经理</a>' + '<a href="javascript:void(0)" data-id="5" class="" title="">前端开发</a>' +
+                    '<a href="javascript:void(0)" data-id="6" class="" title="">后台开发</a>' + '<a href="javascript:void(0)" data-id="7" class="" title="">项目经理</a>';
+                $(this).closest('.deptmian').find('.postlist').empty();
+                $(this).closest('.deptmian').find('.postlist').append(list);
+                $(this).parent().hide();
+                $(this).closest('.deptmian').find('.postlist').show();
+                break;
+            case 'rlxz':
+                list = '<a href="javascript:void(0)" data-id="9" class="" title="">行政专员</a>' + '<a href="javascript:void(0)" data-id="10" class="" title="">人事专员</a>' +
+                    '<a href="javascript:void(0)" data-id="11" class="" title="">人事主管</a>';
+                $(this).closest('.deptmian').find('.postlist').empty();
+                $(this).closest('.deptmian').find('.postlist').append(list);
+                $(this).parent().hide();
+                $(this).closest('.deptmian').find('.postlist').show();
+                break;
+            case 'scxs':
+                list = '<a href="javascript:void(0)" data-id="12" class="" title="">销售专员</a>' + '<a href="javascript:void(0)" data-id="13" class="" title="">市场调研</a>';
+                $(this).closest('.deptmian').find('.postlist').empty();
+                $(this).closest('.deptmian').find('.postlist').append(list);
+                $(this).parent().hide();
+                $(this).closest('.deptmian').find('.postlist').show();
+                break;
+            case 'cw':
+                list = '<a href="javascript:void(0)" data-id="14" class="" title="">会计</a>' + '<a href="javascript:void(0)" data-id="15" class="" title="">出纳</a>';
+                $(this).closest('.deptmian').find('.postlist').empty();
+                $(this).closest('.deptmian').find('.postlist').append(list);
+                $(this).parent().hide();
+                $(this).closest('.deptmian').find('.postlist').show();
+                break;
+            default:
+                alert('该部门没有下级岗位');
+        }
+    })
+
+    $('.AddTags .tagdiv .taglist .addinput span').click(function () {
+        var t = $.trim($(this).siblings('input').val());
+        if (t != '' && t.length != 0) {
+            b = '<span class="newtag">' + t + '<i onclick="$(this).parent().hide()"></i></span>';
+            $(this).closest('.taglist').append(b);
+        } else {
+            alert('不能为空!');
+        }
+    });
+
+    $('.Interviewed .already .typelist a').click(function () {
+        $(this).siblings().removeClass('cur');
+        $(this).addClass('cur');
+    });
+
+    $('#ChangeState .SELECT:first .normal a').click(function () {
+        var id = $(this).data('id');
+        console.log(id);
+        if (id == 10) {
+            $(this).closest('.line_box').siblings('.hidediv').show();
+            $(this).closest('.line_box').next('.line_box').hide();
+        } else {
+            $(this).closest('.line_box').siblings('.hidediv').hide();
+            $(this).closest('.line_box').next('.line_box').show();
+        }
+    });
+
+    $('.Interviewed .typelist a').click(function () {
+        var index = $(this).data('id');
+        console.log(index);
+        $(this).siblings().removeClass('cur');
+        $(this).addClass('cur');
+        $(this).parent().siblings('.funtdiv').hide();
+        $(this).parent().siblings('.funtdiv').eq(index).show();
+        $(window).resize();
+    });
+
+    $('.bStage_Contactsmian .pushList .operation .pushbtn').click(function () {
+        layer.open({
+            title: '请求简历',
+            type: 1,
+            area: '667px',
+            skin: 'RequestResume',
+            content: $('#RequestResume')
+        });
+    });
+};
+
+
+$(".HeadNav .userCenter .user").click(function () {
+    $(this).find('.switchUser').show();
+});
+
+$('.WebMsg').click(function () {
+    $(this).siblings('.WebMsgList').animate({ right: '0' });
+});
+$('.WebMsgList .head .close').click(function () {
+    $(this).closest('.WebMsgList').animate({ right: '-317px' });
+});
+$('.WebMsgList .head a').click(function () {
+    $(this).siblings('a').removeClass('cur');
+    $(this).addClass('cur');
+});
+
+//提示弹框  确认框
+function confirmationBox(message,btm1,btm2,func1,func2) {
+    if(!btm1){
+        btm1 = "确定"
+    }else {}
+    if(!btm2){
+        btm2 = "取消"
+    }else {}
+    if(!message){
+        message = "请不要漏掉提示语言哦~"
+    }else {}
+    if(!func2){
+        func2 =function(){layer.closeAll()}
+    }else {}
+    layer.open({
+        title:'提示',
+        area: '576px',
+        skin: '',
+        content: " <div class='togetherLayer fucClass'><div class='toTitle'><img src='../images/fail.png' class='failImg'>温馨提示</div> <div class='toMenu'>"+message+"</div><div class='submitBtn ml42'> <a href='javascript:void(0)' class='funcSe funcBtn'>"+btm1+"</a> <a href='javascript:void(0)' class='closeLy'>"+btm2+"</a> </div></div>"
+            ,btn: []
+     });
+    $(".funcBtn").click(func1);
+    $(".closeLy").click(func2);
+}
+
+function confirmationBoxByTwo(message1,message2,btm1,btm2,func1,func2) {
+    if(!btm1){
+        btm1 = "确定"
+    }else {}
+    if(!btm2){
+        btm2 = "取消"
+    }else {}
+    if(!message1){
+        message1 = "请不要漏掉提示语言哦~"
+    }else {}
+    if(!func2){
+        func2 =function(){layer.closeAll()}
+    }else {}
+    layer.open({
+        title:'提示',
+        area: '576px',
+        skin: '',
+        content: " <div class='togetherLayer fucClass'><div class='toTitle'><img src='../images/fail.png' class='failImg'>温馨提示</div> <div class='toMenu'>"+message1+"</div><div class='toMenu'>"+message2+"</div><div class='submitBtn ml42'> <a href='javascript:void(0)' class='funcSe funcBtn'>"+btm1+"</a> <a href='javascript:void(0)' class='closeLy'>"+btm2+"</a> </div></div>"
+        ,btn: []
+    });
+    $(".funcBtn").click(func1);
+    $(".closeLy").click(func2);
+}
+
+//////////////////////////////////////////////////////////////校++导航事件 以及 搜索点击事件
+//导航多选事件
+$(".option").click(function () {
+    if($(this).hasClass("cur")){
+        $(this).removeClass("cur");
+    }else {
+        $(this).addClass("cur");
+    }
+});
+
+//导航切换样式事件
+
+$(".left-navgater .logoBox .changeArrow").click(function () {
+    $(".left-navgater").hide();
+    $(".left-small-navgater").show();
+    $(".right-content").addClass("dif")
+
+})
+
+$(".left-small-navgater .logoBox .changeArrow").click(function () {
+    $(".left-navgater").show();
+    $(".left-small-navgater").hide();
+    $(".right-content").removeClass("dif")
+})
+
+
+//小导航hover事件
+$(".left-small-navgater .small-nav .nav-url").on("mouseenter",function () {
+
+    $(this).addClass("cur");
+    $(this).find(".moveLayer").fadeIn(0).addClass("moveClass")
+
+}).on("mouseleave",function () {
+
+    $(this).removeClass("cur");
+    $(this).find(".moveLayer").fadeOut(0).removeClass("moveClass")
+
+});
+$(".moveLayer").mouseover(function (e) {
+    e.stopPropagation();
+    e.preventDefault();
+});
+
+//搜索弹框
+$(".search_txet").click(function (e) {
+    $(".head-navgater .history-layer").show();
+    e.stopPropagation();
+    e.preventDefault();
+});
+$(document).click(function () {
+    $(".head-navgater .history-layer").hide()
+});
+$(".search").mouseleave(function () {
+    $(".head-navgater .history-layer").hide()
+})
+
+
+
+//公共提示框
+
+var Silder = function (ele,opt,title,message,btm1,btm2,func1,func2) {
+    //元素  属性
+    this.$ele = $(ele);
+    //定义用户可更改的默认值  ===> 以后用的变量(不确定的值或者说是数据)
+    this.defaults = {
+        title: '温馨提示',
+        message:"请不要漏掉提示语言哦",
+        message1:"",
+        btn1:'确定',
+        btn2:'取消',
+        func1:function () {},
+        func2:function () {}
+    };
+    //定义并接受合成设置的值
+    this.settings = $.extend({}, this.defaults, opt);
+};
+//2.方法  ===> 函数
+Silder.prototype = {
+    // 初始化函数  页面加载之前就要添加所有的事件
+    initialize:function() {
+        var _this = this;
+        layer.open({
+            title:'提示',
+            area: '576px',
+            skin: '',
+            content: " <div class='togetherLayer fucClass'><div class='toTitle'><img src='../images/warning.png' class='failImg'>"+_this.settings.title+"</div> <div class='toMenu'>"+_this.settings.message+"</div><div class='toMenu'>"+_this.settings.message1+"</div><div class='submitBtn ml42'> <a href='javascript:void(0)' class='funcSe funcBtn'>"+_this.settings.btn1+"</a> <a href='javascript:void(0)' class='closeLy'>"+_this.settings.btn2+"</a> </div></div>"
+            ,btn: []
+        });
+        $(".funcBtn").click(_this.settings.func1);
+        $(".closeLy").click(_this.settings.func2);
+    }
+};
+//3. 类方法返回对象
+$.fn.publicPrompt = function (option) {
+    var silder = new Silder(this,option)
+    return silder.initialize();
+};
+
+

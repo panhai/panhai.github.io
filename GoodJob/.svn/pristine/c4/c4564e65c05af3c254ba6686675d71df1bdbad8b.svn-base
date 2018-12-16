@@ -1,0 +1,100 @@
+/* 校园招聘样式 */
+.CRUMB{ padding-top:65px;}
+/*.NAV-EXTRA,.NAV-EXTRA p{ display:block !important;}*/
+.Main{ padding-bottom:40px;}
+
+/*左导航*/
+.Left{ width:215px; float:left; background-color:#f2f8ff; line-height:44px;}
+.Left h2{ font-size:18px; color:#525252; text-indent:1em;}
+.Left h3{ font-weight:normal; text-indent:26px; font-size:16px;}
+.Left h3 a{ display:block; color:#525252; border-left:4px solid #f2f8ff;}
+.Left h3 a.cur{ background-color:#fff; border-left:4px solid #1562c8; border-top:1px solid #e8f2ff; border-bottom:1px solid #e8f2ff; color:#1562c8; font-weight:bold;}
+.Left h3 a:hover{ color:#1562c8; text-decoration:underline;}
+
+.Right{ width:820px; float:right;}
+.Right h1{ clear:both; font-size:18px; color:#1562c8; height:35px; border-bottom:1px solid #1562c8; font-weight:normal;}
+.Right h1 span{ display:block; line-height:33px; border-bottom:2px solid #1562c8; float:left;}
+
+/*过滤条*/
+.Filters{ clear:both; height:60px; background-color:#f2f8ff; margin:30px 0;}
+.Filters p{ float:left; line-height:58px; height:58px; border:1px solid #f2f8ff;}
+.Filters p a{ display:block; float:left; padding:0 10px; font-size:18px; color:#508dde; margin-right:10px;}
+.Filters p a.cur{ background-color:#fff; color:#1562c8; font-size:20px;}
+.Filters p a:hover{ color:#1562c8; text-decoration:underline;}
+.Filters .time{ display:block; float:right; width:25px; height:58px; background:url(../../images/v2/icons/cal.png) center no-repeat; margin-right:10px;}
+.Filters .time{ _background-image:url(../../images/v2/icons/cal.gif);}
+.Filters .time input{ visibility:hidden; width:5px;}
+.Filters input{ float:right; height:40px; font-size:16px; border:0; margin:10px 10px 0 0;}
+.Filters .submit{ width:100px; cursor:pointer; background-color:#1562c8; color:#fff;}
+.Filters .text{ width:300px; line-height:40px; padding:0 10px; color:#1562c8;}
+
+/*信息列表*/
+.Infors{ clear:both;}
+.Infors li{ clear:both; height:70px; padding:20px 0; line-height:35px;}
+.Infors li.bg{ background-color:#f8fbff;}
+.Infors li p{ font-size:16px; color:#525252; clear:both; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; background-repeat:no-repeat; background-position:left center;}
+.Infors h4,.Infors h5{ font-weight:normal; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; width:14em;}
+.Infors h4 a,.Infors h5 a{ color:#525252; text-decoration:underline;}
+.Infors h4 a:hover,.Infors h5 a:hover{ color:#1562c8; text-decoration:none;}
+/*公司信息*/
+.Infors .company{ width:400px; float:left; padding-left:10px;}
+.Infors h4{ font-size:20px;}
+.Infors .time{ padding-left:20px; background-image:url(../../images/v2/icons/clock.png); _background-image:url(../../images/v2/icons/clock.gif);}
+.Infors .timeout{ padding-left:20px; background-image:url(../../images/v2/icons/clock-gray.png); _background-image:url(../../images/v2/icons/clock-gray.gif);}
+/*学校信息*/
+.Infors .school{ width:405px; float:left;}
+.Infors h5{ font-size:18px; float:left;}
+.Infors .map{ padding-left:15px; background-image:url(../../images/v2/icons/mapmark-s.png); _background-image:url(../../images/v2/icons/mapmark-s.gif);}
+/*浏览数及链接*/
+.Infors .tools{ display:block; float:right; position:relative;}
+.Infors .tools u{ display:inline-block; color:#a4a4a4; font-size:14px; text-decoration:none; float:left;}
+.Infors .tools .icon{ width:20px; height:20px; display:block; position:relative; margin:8px 0 0 10px; float:left; cursor:pointer; font-style:normal;}
+.Infors .favor,.Infors .favored{ background-image:url(../../images/v2/icons/favor-square-m.png); _background-image:url(../../images/v2/icons/favor-square-m.gif); font-style:normal;}
+.Infors .share{ width:20px; height:20px; background-image:url(../../images/v2/icons/share-square-m.png); _background-image:url(../../images/v2/icons/share-square-m.gif);}
+
+/*分享条*/
+.share cite{ left:30px; top:-20px;}
+.share cite{ width:60px; border:1px solid #c5dbf9; padding:10px 0 1px\9; position:absolute; top:-20px; left:30px;}
+.share cite i{ display:block; width:8px; height:14px; left:-8px; top:20px; background-image:url(../../images/v2/share/angle-right.png); _background-image:url(../../images/v2/share/angle-right.gif); _overflow:hidden;}
+.share cite span{ display:block; clear:both; margin:10px auto; text-align:center; width:36px; height:36px;}
+
+/*收藏提示*/
+.Infors .tip{ display:none; position:absolute; top:30px; right:0px; background-color:#d1e3fc; line-height:34px; height:34px; color:#525252; font-size:0px; padding:0px 10px; white-space:nowrap; width:auto;}
+.Infors .tip q,.Infors .tip span{ display:inline-block; vertical-align:middle;}
+.Infors .tip span{ font-size:14px;}
+.Infors .tip a{ color:#1562c8; text-decoration:underline;}
+.Infors .tip a:hover{ text-decoration:none;}
+.Infors .tip q{ font-size:24px; width:14px; height:34px; color:#fff; padding-left:10px; cursor:pointer; background:url(../../images/v2/icons/times.png) center right no-repeat;}
+.Infors .tip q{ _background-image:url(../../images/v2/icons/times.gif);}
+.Infors ins{ text-decoration:none;}
+.Infors del{ text-decoration:none;}
+
+/*分页*/
+.PAGES{ text-align:right; padding:40px 0;}
+
+/*宣讲会详情*/
+.Conference{ background-color:#f8fbff; margin:15px auto 20px;}
+.Conference h1{ float:left; padding:20px 40px; font-size:30px; color:#1562c8; width:20em; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+/*工具按钮*/
+.Conference .tools{ float:right; position:relative; padding-right:30px;}
+.Conference .icons{ display:block; float:right; margin:20px 0 0 10px; width:26px; height:26px;}
+.Conference .share{ background-image:url(../../images/v2/icons/share.png); _background-image:url(../../images/v2/icons/share.gif);}
+/*分享条*/
+.Conference cite{ left:40px; top:-20px;}
+/*收藏提示*/
+.Conference .favor{ background-image:url(../../images/v2/icons/favor.png); _background-image:url(../../images/v2/icons/favor.gif);}
+.Conference .favored{ background-image:url(../../images/v2/icons/favor2.png); _background-image:url(../../images/v2/icons/favor2.gif);}
+.Conference .tip{ display:none; position:absolute; top:50px; right:30px; background-color:#d1e3fc; line-height:34px; height:34px; overflow:hidden; color:#525252; font-size:0px; padding:0px 10px; white-space:nowrap; text-decoration:none;}
+.Conference .tip q,.Conference .tip span{ display:inline-block; vertical-align:middle;}
+.Conference .tip span{ font-size:14px;}
+.Conference .tip a{ color:#1562c8; text-decoration:underline;}
+.Conference .tip a:hover{ text-decoration:none;}
+.Conference .tip q{ font-size:24px; width:14px; height:34px; color:#fff; padding-left:10px; cursor:pointer; background:url(../../images/v2/icons/times.png) center right no-repeat;}
+.Conference .tip q{ _background-image:url(../../images/v2/icons/times.gif);}
+/*简介*/
+.Conference .Intro{ padding:10px 30px; border-bottom:1px solid #e1ebf9; line-height:30px; font-size:16px; color:#a4a4a4;}
+.Conference .Intro p{ clear:both; margin-bottom:5px;}
+.Conference .Intro b{ font-weight:normal; color:#525252;}
+/*内容*/
+.Conference .Content{ padding:20px 30px 40px; border-top:1px solid #fff; line-height:30px; font-size:18px; color:#525252;}
+.Conference .Content h2{ font-size:18px; color:#1562c8; line-height:20px; border-left:3px solid #1562c8; text-indent:10px; margin:20px 0;}

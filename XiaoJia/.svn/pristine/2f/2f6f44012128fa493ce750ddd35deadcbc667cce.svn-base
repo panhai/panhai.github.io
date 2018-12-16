@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>机构详情</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="../css/all.css" />
+   <link rel="stylesheet" type="text/css" href="../css/gp/index.css" />
+    <link href="../css/layerskin/default/layer.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/scrollbar.css" />
+</head>
+
+<body>
+    <div class="scholl_box_box">
+        <div class="scholl_box">
+            <!-- 头部 -->
+            <div class="head_navgater">
+                <div class="rightCenter">
+                    <div class="fl">
+                        <img src="../images/log_03.png" alt="" />
+                        <span>运营后台</span>
+                    </div>
+                    <div class="search">
+                        <div>
+                            <a href="javascript:;">退出</a>
+                        </div>
+                        <div>
+                            <a href="javascript:;">个人设置</a>
+                        </div>
+                        <div class="num">
+                            <b>5</b>
+                            <span class="icon"></span>
+                        </div>
+                        <div class="from">
+                            <i></i>
+                            <input type="text" name="" placeholder="搜索咨询，学员，帮助文档" />
+                            <div class="history-layer" style="display: none;">
+                                <a href="javascript:void(0)">
+                                    <i>咨询学员</i>
+                                    <span>"啊啊啊啊"</span>
+                                </a>
+
+                                <a href="javascript:void(0)">
+                                    <i>报名学员</i>
+                                    <span>"啊啊啊啊"</span>
+                                </a>
+
+                                <a href="javascript:void(0)">
+                                    <i>班级</i>
+                                    <span>"啊啊啊啊"</span>
+                                </a>
+
+                                <a href="javascript:void(0)">
+                                    <i>课程</i>
+                                    <span>"啊啊啊啊"</span>
+                                </a>
+
+                                <a href="javascript:void(0)">
+                                    <i>教师</i>
+                                    <span>"啊啊啊啊"</span>
+                                </a>
+
+                                <a href="javascript:void(0)">
+                                    <i>帮助文档</i>
+                                    <span>"啊啊啊啊"</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 内容 -->
+        <div class="main_bxo">
+            <div class="left">
+                <div class="img_box">
+                    <img src="../images/boy.png" alt="">
+                </div>
+            </div>
+            <!-- 学校信息头 -->
+            <div class="right">
+                <div class="btn_box">
+                    <a href="javscript:;" class="bian">编辑</a>
+                    <a href="javscript:;" class="biao select_box_box">
+                        标记<img src="../images/xiala_07 (2).png" style="margin-left:9px;" alt="">
+                        <div class="select_box">
+                            <p>培训进度</p>
+                            <p>机构等级</p>
+                            <p>机构状态</p>
+                            <p>机构标签</p>
+                            <p>对接方式</p>
+                            <p>上线等级</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="msg_top">
+                    <div>
+                        <div class="name">
+                            <span>天琥教育</span>
+                            <a href="javscript" class="zc">正常</a>
+                            <a href="javscript" class="good">配合良好</a>
+                            <b>一天前登录</b>
+                        </div>
+                        <div class="ke_time">
+                            <p>广州天河区 | 成人英语 | 每年招生1000~2000人 | 成立时间2015-04-03 >></p>
+                        </div>
+                        <div class="num_all">
+                            <div>
+                                <p>150</p>
+                                <span>全部咨询</span>
+                            </div>
+                            <div>
+                                <p>50</p>
+                                <span>意向学员</span>
+                            </div>
+                            <div>
+                                <p>15</p>
+                                <span>报名学员</span>
+                            </div>
+                            <span class="line"></span>
+                            <div>
+                                <p>15%</p>
+                                <span>报名率</span>
+                            </div>
+                            <div>
+                                <p>90%</p>
+                                <span>到账率</span>
+                            </div>
+                            <div>
+                                <p>0.1%</p>
+                                <span>异议率</span>
+                            </div>
+                            <span class="line"></span>
+                            <div>
+                                <p>2</p>
+                                <span>校区数</span>
+                            </div>
+                            <div>
+                                <p>50</p>
+                                <span>课程数</span>
+                            </div>
+                            <div>
+                                <p>15</p>
+                                <span>咨询数</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 主体 -->
+        <div class="main_content">
+            <div class="nav">
+                <div class="top">
+                    <img src="../images/jia_07.png" alt="">
+                    <a href="javascript:;">首页</a>
+                </div>
+                <div class="list_box">
+                    <div class="titl">
+                        <span class="jian">-</span>
+                        <span>学校概况</span>
+                    </div>
+                    <div class="lists">
+                        <a href="javscript:;">学校介绍</a>
+                    </div>
+                    <div class="lists">
+                        <a href="javscript:;">合作信息</a>
+                    </div>
+                    <div class="lists">
+                        <a href="javscript:;">招生状态</a>
+                    </div>
+                </div>
+                <div class="list_box">
+                    <div class="titl">
+                        <span class="jian">-</span>
+                        <span>内容管理</span>
+                    </div>
+                    <div class="lists">
+                        <a href="javscript:;">课程管理</a>
+                    </div>
+                    <div class="lists">
+                        <a href="javscript:;">咨询管理</a>
+                    </div>
+                    <div class="lists">
+                        <a href="javscript:;">校区管理</a>
+                    </div>
+                </div>
+                <div class="list_box">
+                    <div class="titl">
+                        <span class="jian">+</span>
+                        <span>学员管理</span>
+                    </div>
+                    <div class="lists">
+                        <a href="javscript:;">咨询学员</a>
+                    </div>
+                    <div class="lists">
+                        <a href="javscript:;">佣金核对</a>
+                    </div>
+                </div>
+                <div class="list_box">
+                    <div class="titl">
+                        <span class="jian">-</span>
+                        <span>系统设置</span>
+                    </div>
+                    <div class="lists">
+                        <a href="javscript:;">账号充值</a>
+                    </div>
+                    <div class="lists">
+                        <a href="javscript:;">短信充值</a>
+                    </div>
+                    <div class="lists">
+                        <a href="javscript:;">账号管理</a>
+                    </div>
+                </div>
+            </div>
+            <div class="right_content Institutional_details">
+                <div class="left">
+                    <!-- 快速操作 -->
+                    <div class="box_top1">
+                        <div class="ks">
+                            快捷操作
+                        </div>
+                        <div class="ks_box">
+                            <a href="javscript:;">
+                                <div class="list">
+                                    <p><img src="../images/index-icon/item-18.png" alt=""></p>
+                                    <p class="name">最新咨询</p>
+                                </div>
+                            </a>
+                            <a href="javscript:;">
+                                <div class="list">
+                                    <p><img src="../images/index-icon/item-3.png" alt=""></p>
+                                    <p class="name">办理报名</p>
+                                </div>
+                            </a>
+                            <a href="javscript:;">
+                                <div class="list">
+                                    <p><img src="../images/index-icon/item-16.png" alt=""></p>
+                                    <p class="name">办理退费</p>
+                                </div>
+                            </a>
+                            <a href="javscript:;">
+                                <div class="list">
+                                    <p><img src="../images/index-icon/item-2.png" alt=""></p>
+                                    <p class="name">办理转班</p>
+                                </div>
+                            </a>
+                            <a href="javscript:;">
+                                <div class="list">
+                                    <p><img src="../images/index-icon/item-6.png" alt=""></p>
+                                    <p class="name">补交费用</p>
+                                </div>
+                            </a>
+                            <a href="javscript:;">
+                                <div class="list">
+                                    <p><img src="../images/index-icon/item-15.png" alt=""></p>
+                                    <p class="name">办理休学</p>
+                                </div>
+                            </a>
+                            <a href="javscript:;">
+                                <div class="list">
+                                    <p><img src="../images/item20_03.png" alt=""></p>
+                                    <p class="name">到访登记</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box_top2">
+                        <div class="gen">
+                            <span>跟进记录</span>
+                        </div>
+                        <!--  编译器 -->
+                        <div class="Compiler">
+                            <div class="enter">输入添加跟进记录</div>
+                            <div class="Compiler_box">
+
+                            </div>
+                        </div>
+                        <!-- 评价列表 -->
+                        <div class="Evaluation_list">
+                            <div class="img_box">
+                                <img src="../images/boy.png" alt="">
+                            </div>
+                            <div class="list_box">
+                                <div class="time">03月01日 12:30</div>
+                                <div class="name">李龙岩-合作部</div>
+                                <div class="editer">修改了合作信息【合作校区、合作项目、提成点数、结款周期】，新值为：</div>
+                                <div class="msg_box">
+                                    <div class="msg_list">
+                                        <span class="key">合作城市：</span>
+                                        <span class="value">成都</span>
+                                    </div>
+                                    <div class="msg_list">
+                                        <span class="key">合作校区：</span>
+                                        <span class="value">附全国校区地址</span>
+                                    </div>
+                                    <div class="msg_list">
+                                        <span class="key">合作项目：</span>
+                                        <span class="value">少儿英语</span>
+                                    </div>
+                                    <div class="msg_list msg_listd">
+                                        <span class="key">提成点数：</span>
+                                        <span class="value">全部城市合作，当月1-20人报读，广深返1500元，其他城市返1200元
+                                            全部城市合作，当月第21人报读，广深返1800元，其他城市返1500元</span>
+                                    </div>
+                                    <div class="msg_list">
+                                        <span class="key">结款周期：</span>
+                                        <span class="value">少儿每月30号周经理工行</span>
+                                    </div>
+                                </div>
+                                <div class="btn">
+                                    <a href="javascript:;" class="ph">良好</a>
+                                    <a href="javascript:;" class="xy">续约</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Evaluation_list">
+                            <div class="img_box">
+                                <img src="../images/boy.png" alt="">
+                            </div>
+                            <div class="list_box">
+                                <div class="time">03月01日 12:30</div>
+                                <div class="name">李龙岩-合作部</div>
+                                <div class="editer">修改了合作信息【合作校区、合作项目、提成点数、结款周期】，新值为：</div>
+                                <div class="msg_box">
+                                    <div class="img_b">
+                                        <img src="../images/tu_03.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="btn">
+                                    <a href="javascript:;" class="ph">配合较差</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Evaluation_list">
+                            <div class="img_box">
+                                <img src="../images/boy.png" alt="">
+                            </div>
+                            <div class="list_box">
+                                <div class="time">03月01日 12:30</div>
+                                <div class="name">李龙岩-合作部</div>
+                                <div class="editer">12月下旬学习，跟同事两个人一起学，问有没有到访，说没有，加微信，发资料给他对比了解 pjy1102</div>
+
+                                <div class="btn">
+                                    <a href="javascript:;" class="ph">配合良好</a>
+                                    <a href="javascript:;" class="xy">续约</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="clear:both"></div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="item_box">
+                        <div class="item_list">
+                            <span class="key_t">合作时间 : </span>
+                            <span class="value_t">2015-04-03~2016-08-12</span>
+                        </div>
+                        <div class="item_list">
+                            <span class="key_t">合作跟进 : </span>
+                            <span class="value_t">李佳怡</span>
+                            <img src="../images/bainjia_07.png" alt="" class="bianji_btn">
+                        </div>
+                        <div class="item_list">
+                            <span class="key_t">售后跟进 : </span>
+                            <span class="value_t">李佳怡</span>
+                            <span class="value_t">2018-08-12</span>
+                            <img src="../images/bainjia_07.png" alt="" class="bianji_btn">
+                        </div>
+                        <div class="item_list">
+                            <span class="key_t">客服跟进 : </span>
+                            <span class="value_t">李佳怡</span>
+                            <span class="value_t">2018-08-12</span>
+                            <img src="../images/bainjia_07.png" alt="" class="bianji_btn">
+                        </div>
+                        <div class="item_list">
+                            <span class="key_t">运营跟进 : </span>
+                            <span class="value_t">李佳怡</span>
+                            <span class="value_t">2018-08-12</span>
+                            <img src="../images/bainjia_07.png" alt="" class="bianji_btn">
+                        </div>
+                        <div class="item_list">
+                            <span class="key_t">财务核对 : </span>
+                            <span class="value_t">李佳怡</span>
+                            <span class="value_t">2018-08-12</span>
+                            <img src="../images/bainjia_07.png" alt="" class="bianji_btn">
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="item_box">
+                        <div class="item_list">
+                            <span class="key_t">专业上线 : </span>
+                            <span class="value_t">1/3</span>
+                        </div>
+                        <div class="item_list">
+                            <span class="key_t">栏目上线 : </span>
+                            <span class="value_t">1/2</span>
+                        </div>
+                        <div class="item_list">
+                            <span class="key_t">教务课程 : </span>
+                            <span class="value_t">21个，招生班级145个</span>
+                        </div>
+                        <div class="item_list">
+                            <span class="key_t">微官网 : </span>
+                            <span class="value_t">21个课程</span>
+                        </div>
+                        <div class="item_list">
+                            <span class="key_t">好学校 : </span>
+                            <span class="value_t">2个课程</span>
+                        </div>
+                        <div class="item_list">
+                            <span class="key_t">会员推广 : </span>
+                            <span class="value_t">2个课程</span>
+                        </div>
+                        <div class="item_list">
+                            <span class="key_t">校+推广 : </span>
+                            <span class="value_t">12个课程，推广学校23家</span>
+                        </div>
+                        <div class="item_list">
+                            <span class="key_t">校+创收 : </span>
+                            <span class="value_t">12个课程，合作学校23家</span>
+                        </div>
+                        <div class="item_list">
+                            <span class="key_t">最近更新 : </span>
+                            <span class="value_t">2018-12-15 12:41</span>
+                        </div>
+                        <div class="item_list">
+                            <span class="key_t">最近回访 : </span>
+                            <span class="value_t">2018-12-15 12:41</span>
+                        </div>
+                        <div class="item_list">
+                            <span class="key_t">最近报名 : </span>
+                            <span class="value_t">2018-12-15 12:41</span>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="item_box">
+                        <div>活跃趋势</div>
+                        <div class="h_img_box">
+                            折线图表
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/jquery.js"></script>
+    <script src="../js/layer.js"></script>
+    <script src="../js/area.js"></script>
+    <script src="../js/all.js"></script>
+     <script src="../js/gp/all.js"></script>
+    <script src="../js/plugin/select.js"></script>
+    <script src="../js/My97DatePicker/WdatePicker.js"></script>
+    <script src="../js/plugin/scrollBar.js"></script>
+    <script>
+        $(".label-selec").click(function () {
+            $(".fill-types").show();
+        });
+        $(".fill-types .right-select a").click(function () {
+            $(".fill-types").hide();
+        });
+        $(".recruit_searchCondition .inputdiv2").mouseleave(function () {
+            $(".fill-types").hide();
+        });
+        VitaeSource();
+        Vitaeclick();
+        //收起筛选条件
+        $(".recruit_searchCondition .tollger").click(function () {
+            if ($(this).hasClass("cur")) {
+                $(this).removeClass("cur");
+                $(this)
+                    .parent()
+                    .css("borderBottom", "1px dashed #e4e4e4");
+                $(this)
+                    .children("span")
+                    .text("收起筛选")
+                    .removeClass("cur");
+                $(this)
+                    .children("i")
+                    .removeClass("cui");
+                $(".tollger-box").show();
+            } else {
+                $(this).addClass("cur");
+                $(this)
+                    .parent()
+                    .css("borderBottom", "none");
+                $(this)
+                    .children("span")
+                    .text("展开筛选")
+                    .addClass("cur");
+                $(this)
+                    .children("i")
+                    .addClass("cui");
+                $(".tollger-box").hide();
+            }
+        });
+
+        $(".recruit_searchCondition .s_condition a").click(function () {
+            $(this)
+                .siblings()
+                .removeClass("cur");
+            $(this).addClass("cur");
+        });
+
+        $(".recruit_searchCondition .line .openbtn").click(function () {
+            if ($(this).hasClass("cur")) {
+                $(this).removeClass("cur");
+                $(this).html("更多岗位<i></i>");
+                $(this)
+                    .siblings(".alist")
+                    .css("height", "33px");
+            } else {
+                $(this).addClass("cur");
+                $(this).html("收起<i></i>");
+                $(this)
+                    .siblings(".alist")
+                    .css("height", "auto");
+            }
+        });
+
+        //单选
+        $(".right-content .class-table td.sele-one i").click(function () {
+            if ($(this).hasClass("cur")) {
+                $(this).removeClass("cur");
+                $(".right-content .class-table th.sele-all i").removeClass("cur");
+                $(".right-content .t_foot .leftbox .icon").removeClass("cur");
+            } else {
+                $(this).addClass("cur");
+            }
+        });
+
+        //全选
+        $(".right-content .class-table th.sele-all i").click(function () {
+            if ($(this).hasClass("cur")) {
+                $(this).removeClass("cur");
+                $(".right-content .class-table td.sele-one i").removeClass("cur");
+                $(".right-content .t_foot .leftbox .icon").removeClass("cur");
+            } else {
+                $(this).addClass("cur");
+                $(".right-content .class-table td.sele-one i").addClass("cur");
+                $(".right-content .t_foot .leftbox .icon").addClass("cur");
+            }
+        });
+    </script>
+</body>
+
+</html>

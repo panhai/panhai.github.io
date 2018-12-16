@@ -1,0 +1,52 @@
+/* 首页 */
+.Right{ background-color:transparent;}
+/*公司资料*/
+.Profile{ clear:both; background:#ebf3ff url(../../../images/v2/fold2.jpg) right bottom no-repeat; padding:20px 30px; margin-bottom:20px;}
+.Profile .logo{ width:190px; height:190px; overflow:hidden; border:2px solid #77b0fb; float:left; margin-right:20px;}
+.Profile .attrs{ width:510px; float:right;}
+.Profile .attrs_left{width: 360px; float:left;}
+.Profile .attrs_right{ width: 108px; height:108px; margin-top: 16px; float:right;background:#fff;}
+.Profile .attrs_right img{margin: 6px 0 0 6px;}
+.Profile .attrs_right p{ font-size:12px; color:#646464; line-height:28px;}
+.Profile h1{width: 360px; font-size:24px; color:#333; float:left; font-weight:normal;white-space: nowrap;overflow: hidden; text-overflow: ellipsis;}
+.Profile h1 i{ display:inline-block; width:20px; height:23px; background-image:url(../../../images/v2/icons/check-s.png); _background-image:url(../../../images/v2/icons/check-s.gif); margin-left:5px; vertical-align:middle;}
+.Profile .pact{ float:right; display:block; background-color:#cde4ff; color:#3c82e0; font-size:14px; line-height:25px; padding:0 10px;}
+.Profile .pact:hover{ background-color:#3c82e0; color:#fff;}
+.Profile h2{width: 360px; clear:both; font-size:18px; color:#525252; font-weight:normal; padding:10px 0; border-bottom:1px dashed #c7dfff; white-space: nowrap;overflow: hidden; text-overflow: ellipsis;}
+.Profile .money{ /*background-color:#cde4ff;*/ width: 370px; height:78px;font-size:14px; color:#707070; line-height:40px; }
+.Profile .money b{ color:#ff4401; font-size:22px; font-weight:normal;}
+.Profile .links {clear:both;}
+.Profile .links a{ display:inline-block; width:140px; line-height:36px; border:2px solid #ff771a; background-color:#ffddc6; color:#ff771a; text-align:center; margin-right:14px;}
+.Profile .links a:hover{ background-color:#ff771a; color:#fff;}
+.Profile .money_balance{ width:162px;}
+.Profile .money_balance, .Profile .money_give{float: left;}
+.Profile .money_balance p, .Profile .money_give p{
+	margin-left: 2px;
+	text-align:left;
+	line-height:26px;}
+
+/*左边两个*/
+.Interact{ float:left; width:280px; background-color:#fff;}
+.Interact li{ height:190px; overflow:hidden;}
+.Interact h3{ width:184px; margin:35px auto 20px; background-position:bottom center; background-repeat:no-repeat; font-size:16px; color:#525252; text-align:center; padding-bottom:20px;}
+.Interact b{ font-size:36px; font-weight:normal; margin-left:5px;}
+.Interact a{ display:block; margin:0 auto; width:140px; height:40px; font-size:18px; color:#fff; line-height:40px; text-align:center; border:2px solid #fff;}
+.Interact a:hover{ background-color:#fff !important;}
+.Interact .blue{ border-bottom:1px solid #e7e7e7;}
+.Interact .blue h3{ background-image:url(../../../images/v2/line-blue.png);}
+.Interact .blue b{ color:#77b0fb;}
+.Interact .blue a{ background-color:#77b0fb; border-color:#77b0fb;}
+.Interact .blue a:hover{ color:#77b0fb;}
+.Interact .green h3{ background-image:url(../../../images/v2/line-green.jpg);}
+.Interact .green b{ color:#5dbf90;}
+.Interact .green a{ background-color:#5dbf90; border-color:#5dbf90;}
+.Interact .green a:hover{ color:#5dbf90;}
+
+/*右边四个*/
+.Infors{ width:460px; float:right;}
+.Infors li{ width:220px; height:186px; background-color:#fff; margin:0 0 8px 8px; float:right; text-align:center;}
+.Infors h4{ font-size:18px; color:#525252; font-weight:normal; margin:25px auto 15px;}
+.Infors a{ display:block; margin:0 auto; width:110px; height:110px; position:relative;}
+.Infors div{ width:110px; height:110px; position:absolute; top:0; left:0; z-index:1;}
+.Infors b{ display:block; width:110px; height:110px; line-height:110px; font-size:36px; font-weight:normal; text-align:center; position:absolute; top:0; left:0; z-index:2;}
+.Infors a:hover{ color:#fff !important;}

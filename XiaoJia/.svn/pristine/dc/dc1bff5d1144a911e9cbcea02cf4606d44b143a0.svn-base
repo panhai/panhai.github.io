@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>忘记密码2</title>
+    <meta name=viewport content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="../css/all.css" />
+    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+    <link href="../css/layerskin/default/layer.css" rel="stylesheet" />
+</head>
+
+<body>
+
+<div class="parseword_box">
+	<div class="parseword_box_top">
+		<img src="../images/parseword_logo1.png" alt="" class="pasee_img"/>
+		<span class="z_parseword">找回密码</span>
+		<div class="login_copy login_copy2">
+			<i class=""></i>
+			<span>400-600-3310</span>
+		</div>
+		<div class="parseword_main">
+				<div class="zhuche_box">
+					<a href="">免费注册</a>
+					<a href="">投诉建议</a>
+				</div>
+			<div class="parse_s">
+				<img src="../images/password.png" alt="" style="width: 18px;"/>
+				<span style="color:  #777777;">找回密码</span>
+			</div>
+			<div class="shenfen">
+				<div class="shenfen_top">
+					<div class="shenfen_top_item float_l shenfen_top_item_active">
+						<div class="circle">1</div>
+						<div>验证身份</div>
+					</div>
+					<div class="shenfen_top_item float_r">
+						<div class="circle active_shenfen">3</div>
+						<div>完成</div>
+					</div>
+					<div class="shenfen_top_item">
+						<div class="circle active_shenfen shenfen_top_item_f2">2</div>
+						<div class="shenfen_top_item_z">重置密码</div>
+					</div>
+					<div class="shenfen_top_line">
+						<div class="shenfen_top_line-f shenfen_top_item_f2"></div>
+						<div class="shenfen_top_line-f"></div>
+					</div>
+				</div>
+			</div>
+			<div class="phone">
+				<form action="form_action.asp" method="get">
+				 	<div class="inp_item">
+				 		<span class="span_left">新密码</span>
+				 		<input type="password" class="from_inp" value="hl16574962" placeholder="请输入手机号码/邮箱"/>
+				 		
+				 		<span class="error">
+				 			<img src="../images/success1.png" alt="" />
+				 			<span></span>
+				 		</span>
+				 	</div>
+				 	<div class="inp_item">
+				 		<span class="span_left">确认新密码</span>
+				 		<input type="text" class="from_inp" placeholder="请输入密码"/>
+				 		<span class="error">
+				 			<img src="../images/error.png" alt="" />
+				 			<span>不能为空</span>
+				 		</span>
+				 	</div>
+				 	<div class="btn_box">
+				 		<!--<button type="button">下一步</button>-->
+				 		<a href="重置密码成功.html">下一步</a>
+				 	</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+
+
+<script src="../js/jquery.js"></script>
+<script src="../js/layer.js"></script>
+<script src="../js/all.js"></script>
+
+<script>
+	
+</script>
+</body>
+</html>

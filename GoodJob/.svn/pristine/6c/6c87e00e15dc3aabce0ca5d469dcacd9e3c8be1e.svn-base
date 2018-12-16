@@ -1,0 +1,103 @@
+/* 发布职位 */
+
+.Main{ width:960px; margin:40px auto; background-color:#fff; border-top:1px solid #fff;}
+
+/*带背景图片的大标题*/
+.TOPIC{ width:184px; height:52px; position:relative; left:-10px; background-image:url(../../../images/v2/topicbg.png); margin:25px 0 0px; line-height:44px; text-indent:28px; color:#fff; font-weight:normal; font-size:20px; font-weight:bold; margin-top:40px;}
+.TOPIC{ _background-image:url(../../../images/v2/topicbg.gif);}
+
+.PubForm{ margin:0 auto; font-size:18px; color:#828282;}
+.PubForm thead *{ height:30px;}
+.PubForm tbody td,.PubForm tbody th{ vertical-align:top; padding:5px 0; line-height:40px;}
+.PubForm tbody th{ font-size:16px; color:#1562c8; font-weight:normal; text-align:right; padding-right:10px;}
+.PubForm tbody th b{ color:#ff5a00; padding-right:5px;}
+/*文本框，分别是全框，带尾按钮的框，半框，三分框*/
+.PubForm .text{ border:2px solid #cae2ff; padding:0 10px; font-size:18px; color:#1562c8; height:40px; line-height:40px; float:left;}
+.PubForm textarea{ resize:none; border:2px solid #cae2ff; padding:10px; font-size:18px; color:#1562c8; line-height:30px; float:left; height:200px; width:576px;}
+.PubForm .t-l{ width:576px;}
+.PubForm .t-m{ width:460px; border-right:0;}
+.PubForm .t-s{ width:186px;}
+.PubForm .t-3{ width:166px;}
+.PubForm .btn-addup{ width:118px; background-color:#77b0fb; color:#fff; cursor:pointer; border:0; font-size:16px; height:44px; float:left;}
+/*下拉列表*/
+.PubForm .SELECT{ float:left;}
+.PubForm .SELECT dt{ border:2px solid #cae2ff;}
+.PubForm .SELECT dt *{ font-size:18px;}
+.PubForm .SELECT dt span{ color:#a4a4a4;}
+.PubForm .SELECT dd{ border:2px solid #cae2ff; top:42px;}
+.PubForm .normal a{ font-size:16px; padding:0 10px;}
+/*分别是全框，半框，三分框*/
+.PubForm .s-l{ width:600px;}
+.PubForm .s-l dt span,.PubForm .s-l dt b{ width:560px;}
+.PubForm .s-m{ width:210px;}
+.PubForm .s-m dt span,.PubForm .s-m dt b{ width:170px;}
+.PubForm .s-m dd{ width:206px;}
+.PubForm .s-m dd a{ padding:0 10px;}
+.PubForm .s-s{ width:190px;}
+.PubForm .s-s dt span,.PubForm .s-s dt b{ width:150px;}
+/*灰字提示*/
+.PubForm small{ color:#828282; font-size:16px; padding-left:50px;}
+/*职位框*/
+.filter-jobs .FilterMenu{ left:-280px;}
+/*省市区*/
+.Addresses{}
+.Provinces,.Cities{ margin-right:15px;}
+.ADDRESS dd{ width:320px;}
+.ADDRESS dd a{ width:80px; text-indent:10px; _width:79px; float:left; font-size:16px; padding:0 !important;}
+/*兼职薪水结算*/
+.salary-parttime{ margin-left:15px;}
+.salary-parttime dd{ width:186px;}
+
+/*职位类型及福利*/
+.Jobtypes{}
+.Jobtypes a{ display:inline-block; margin-right:10px; font-size:16px; color:#a4a4a4; border:2px solid #cae2ff; padding:0 20px;}
+.Welfares input{ display:none;}
+.Jobtypes a:hover{ border-color:#67a8fc; color:#1562c8;}
+.Jobtypes a.checked,.Welfares label.checked{ background:url(../../../images/v2/icons/checked.png) right top no-repeat; border-color:#67a8fc; color:#1562c8;}
+.Jobtypes a.checked,.Welfares label.checked{ _background-image:url(../../../images/v2/icons/checked.gif);}
+.Welfares{ float:left;}
+.Welfares,.WelfaresAddup{ width:600px;}
+.Welfares label{ display:inline-block; margin-right:5px; font-size:14px; color:#a4a4a4; border:2px solid #cae2ff; padding:0 10px; line-height:30px;}
+.WelfaresAddup a{ display:inline-block; margin:5px 10px 0 0; padding:0 10px; background-color:#cae2ff; color:#1562c8;}
+.WelfaresAddup a q{ display:inline-block; width:16px; background:url(../../../images/v2/icons/times.png) center no-repeat; margin-left:5px;}
+.WelfaresAddup a q{ _background-image:url(../../../images/v2/icons/times.gif);}
+
+.button{ width:120px; height:40px; color:#fff; background-color:#77b0fb; border:0; cursor:pointer; font-size:18px; margin-bottom:30px;}
+.long{ width:240px; margin:30px auto; display:block; background-color:#1562c8;}
+
+/*邮箱用到的下拉菜单*/
+.Emails{ border:0 !important;}
+.Emails dt{ padding:0 !important; border:0 !important}
+.Emails dd{ width:596px;}
+.Emails dd a{ padding:0 10px;}
+
+/*地图*/
+#MapContainer{ width:700px; height:300px; margin-left:50px;}
+#MapContainer td,#MapContainer th{ padding:0; line-height:16px; height:auto;}
+
+/*分成两块，不然百度地图的层级会变高*/
+.table1{ position:relative; z-index:2;}
+
+/*编辑器下边的提示*/
+.editorTip{ display:block; text-align:center; padding:0 50px 0 20px; font-size:14px; color:#a4a4a4;}
+
+/*公司地址有改动*/
+.AddressDetail{ width:482px;}
+.AddressDetail dt{ height:40px !important;}
+.AddressDetail dt span,.AddressDetail dt input{ width:100%;}
+.AddressDetail dt input{ border:0;}
+.AddressDetail dd{ width:478px; border:2px solid #cae2ff; top:42px !important;}
+.AddressDetail dd a{ text-indent:10px; padding-left:0 !important;}
+
+
+/* 导入外站简历 */
+.ImportResume { }
+.ImportResume .in1 { position: relative; margin: 28px auto 10px; width: 810px; padding-left: 108px; height: 174px; background: url(../../../images/v2/import_resume_bg.jpg) no-repeat 0 0; overflow: hidden; }
+.ImportResume .in1 h2 { margin: 40px 0 10px; fotn-size: 26px; color: #307de2; }
+.ImportResume .in1 h2 strong { color: #ff5a00; }
+.ImportResume p { color: #918a81; font-size: 16px; }
+.ImportResume .in1 a { position: absolute; top: 64px; right: 106px; display: block; width: 132px; height: 44px; background: url(../../../images/v2/import_resume.png) no-repeat 0 -33px; line-height: 44px; text-align: center; color: #fff; }
+.ImportResume .in1 .close { position: absolute; right: 6px; top: 8px; display: block; width: 24px; height: 24px; background: url(../../../images/v2/import_resume.png) no-repeat -21px -79px; cursor: pointer; }
+.ImportResume .in2 { display: none; position: relative; margin: 28px auto 10px; width: 878px; height: 48px; line-height: 48px; background-color: #fff7ec; border: 1px solid #ffeacd; overflow: hidden; }
+.ImportResume .in2 p { padding-left: 90px; float: left; color: #ff8813; font-size: 16px; }
+.ImportResume .in2 a { margin: 8px 110px 0 0; float: right; display: inline-block; width: 98px; height: 31px; background: url(../../../images/v2/import_resume.png) no-repeat 0 0; text-align: center; line-height: 31px; color: #fff; }

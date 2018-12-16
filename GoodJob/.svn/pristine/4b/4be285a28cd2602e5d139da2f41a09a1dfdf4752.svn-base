@@ -1,0 +1,820 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>好工作-首页</title>
+<link rel="stylesheet" type="text/css" href="css/v2/all.css">
+<link rel="stylesheet" type="text/css" href="css/v2/web.css">
+<link rel="stylesheet" type="text/css" href="css/v2/index.css">
+<link rel="stylesheet" type="text/css" href="css/v2/plugin/CitiesPicker.css">
+</head>
+
+<body>
+<div class="Top-advertise">
+    <a href="http://www.93hgz.com/specialtopic/2016zz/" target="_blank">
+    <div class="register">
+        <img src="images/v2/logo-t.png" alt="" />
+        <div class="txt">
+        <h3></h3>
+        <p>携手为626所中专/技校毕业生提供就业保障服务</p></div>
+    <q></q>
+    </div>
+    </a>
+</div>
+<div class="HEADER common">
+	<div class="TOP-LOGO"><a href="index-new.html"><img src="images/v2/logo.jpg" width="177" height="91"></a></div>
+    <div class="TOP-SEARCH">
+    	<div class="TOP-SEARCH-BAR">
+            <dl class="TOP-SEARCH-KEY SELECT" data-matches="10" data-trigger="input.TOP-SUBMIT">
+            	<input type="hidden">
+                <dt><input class="TOP-SEARCH-INPUT KEY-GUIDANCE" data-init="true" type="text" data-list="arrow" data-holdway="image"></dt>
+            	<dd class="normal single">
+                	<div class="tip">找不到符合【老板】的职位</div>
+                    <div class="matches" data-list="datas">
+                        <!--<a href="#" data-id="">客服经理</a>-->
+                    </div>
+                </dd>
+            </dl>
+            <dl class="TOP-CitiesPicker CitiesPicker SELECT" data-matches="5">
+            	<input type="hidden">
+                <dt><span><input type="text" value="广州" data-list="arrow"></span><i></i></dt>
+                <dd>
+                    <div class="CitiesHot">
+                        <h5>热门城市（可直接选择城市或输入城市拼音/简拼）</h5>
+                        <div class="cities">
+                            <a data-id="271000">广州</a><a data-id="271200">深圳</a><a data-id="171000">上海</a><a data-id="272600">东莞</a><a data-id="271500">佛山</a><a data-id="101000">北京</a><a data-id="261000">长沙</a><a data-id="251000">武汉</a><a data-id="191000">杭州</a><a data-id="181000">南京</a><a data-id="211000">福州</a><a data-id="272700">中山</a><a data-id="272000">惠州</a><a data-id="271300">珠海</a><a data-id="201000">合肥</a><a data-id="301000">成都</a><a data-id="231000">济南</a><a data-id="271700">湛江</a><a data-id="262200">娄底</a><a data-id="261100">株洲</a><a data-id="261900">郴州</a><a data-id="271100">韶关</a><a data-id="311000">贵阳</a><a data-id="261300">衡阳</a><a data-id="221000">南昌</a><a data-id="301900">乐山</a><a data-id="211400">泉州</a><a data-id="302000">南充</a><a data-id="261200">湘潭</a><a data-id="241000">郑州</a><a data-id="302300">广安</a><a data-id="301500">绵阳</a><a data-id="301400">德阳</a><a data-id="211100">厦门</a><a data-id="271600">江门</a><a data-id="111000">天津</a><a data-id="331000">西安</a><a data-id="272200">汕尾</a><a data-id="272300">河源</a><a data-id="391200">桂林</a><a data-id="181100">无锡</a><a data-id="251300">宜昌</a>
+                        </div>
+                    </div>
+                    <div class="CitiesQuery">
+                        <div class="tip">d，若缩小范围，请输入全拼</div>
+                        <div class="matches" data-list="datas">
+                            <!--<a data-id="" href="#">广东</a>-->
+                        </div>
+                    </div>
+                    <!--<div class="CitiesStatic">
+                        <div class="topic">可直接选择城市或输入城市拼音或简称</div>
+                        <div class="tabs"><b class="cur">热门</b><b>ABCDEF</b><b>GHJK</b><b>LMNPQ</b><b>RSTW</b><b>XYZ</b></div>
+                        <div class="cities first"><a data-id="271000">广州</a><a data-id="271200">深圳</a><a data-id="171000">上海</a><a data-id="272600">东莞</a><a data-id="271500">佛山</a><a data-id="101000">北京</a><a data-id="261000">长沙</a><a data-id="251000">武汉</a><a data-id="191000">杭州</a><a data-id="181000">南京</a><a data-id="211000">福州</a><a data-id="272700">中山</a><a data-id="272000">惠州</a><a data-id="271300">珠海</a><a data-id="201000">合肥</a><a data-id="301000">成都</a><a data-id="231000">济南</a><a data-id="271700">湛江</a><a data-id="262200">娄底</a><a data-id="261100">株洲</a><a data-id="261900">郴州</a><a data-id="271100">韶关</a><a data-id="311000">贵阳</a><a data-id="261300">衡阳</a><a data-id="221000">南昌</a><a data-id="301900">乐山</a><a data-id="211400">泉州</a><a data-id="302000">南充</a><a data-id="261200">湘潭</a><a data-id="241000">郑州</a><a data-id="302300">广安</a><a data-id="301500">绵阳</a><a data-id="301400">德阳</a><a data-id="211100">厦门</a><a data-id="271600">江门</a><a data-id="111000">天津</a><a data-id="331000">西安</a><a data-id="272200">汕尾</a><a data-id="272300">河源</a><a data-id="391200">桂林</a><a data-id="181100">无锡</a><a data-id="251300">宜昌</a></div>
+                        <div class="cities">
+                            <div><em>A</em><p><a data-id="302800">阿坝</a><a data-id="361500">阿里</a><a data-id="141200">鞍山</a><a data-id="201700">安庆</a><a data-id="241400">安阳</a><a data-id="331800">安康</a><a data-id="311300">安顺</a><a data-id="431000">澳门</a><a data-id="401700">阿克苏</a><a data-id="382100">阿拉善盟</a><a href="javascript:void(0)" target="_blank">阿勒泰</a></p></div>
+                            <div><em>B</em><p><a data-id="401600">巴音郭楞蒙古</a><a data-id="322200">白族</a><a data-id="101000">北京</a><a data-id="121500">保定</a><a data-id="381100">包头</a><a data-id="201200">蚌埠</a><a data-id="202400">亳州</a><a data-id="391900">百色</a><a data-id="331200">宝鸡</a><a data-id="391400">北海</a><a data-id="232500">滨州</a><a data-id="311600">毕节</a><a data-id="141400">本溪</a><a data-id="151500">白山</a><a data-id="341300">白银</a><a data-id="321300">保山</a><a data-id="302600">巴中</a><a data-id="151700">白城</a><a data-id="401500">博尔塔拉蒙古</a><a data-id="381700">巴彦淖尔</a></p></div>
+                            <div><em>C</em><p><a data-id="291000">重庆</a><a data-id="301000">成都</a><a data-id="261000">长沙</a><a data-id="151000">长春</a><a data-id="181300">常州</a><a data-id="272800">潮州</a><a data-id="121800">沧州</a><a data-id="202200">巢湖</a><a data-id="131300">长治</a><a data-id="201900">滁州</a><a data-id="261900">郴州</a><a data-id="261600">常德</a><a data-id="202500">池州</a><a data-id="381300">赤峰</a><a data-id="361100">昌都</a><a data-id="121700">承德</a><a data-id="392300">崇左</a><a data-id="401400">昌吉</a><a data-id="321800">楚雄</a><a data-id="142200">朝阳</a></p></div>
+                            <div><em>D</em><p><a data-id="141100">大连</a><a data-id="162200">大兴安岭</a><a data-id="272600">东莞</a><a data-id="161500">大庆</a><a data-id="232300">德州</a><a data-id="231400">东营</a><a data-id="302400">达州</a><a data-id="141500">丹东</a><a data-id="301400">德阳</a><a data-id="131100">大同</a><a data-id="322300">德宏景颇族</a><a data-id="322500">迪庆</a><a data-id="342000">定西</a></p></div>
+                            <div><em>E</em><p><a data-id="251500">鄂州</a><a data-id="252200">恩施</a><a data-id="381500">鄂尔多斯</a></p></div>
+                            <div><em>F</em><p><a data-id="211000">福州</a><a data-id="271500">佛山</a><a data-id="141300">抚顺</a><a data-id="221900">抚州</a><a data-id="202000">阜阳</a><a data-id="141800">阜新</a><a data-id="391500">防城港</a></p></div>
+                        </div>
+                        <div class="cities">
+                            <div><em>G</em><p><a data-id="342300">甘南</a><a data-id="302900">甘孜</a><a data-id="271000">广州</a><a data-id="311000">贵阳</a><a data-id="391200">桂林</a><a data-id="302300">广安</a><a data-id="221600">赣州</a><a data-id="301600">广元</a><a data-id="391700">贵港</a><a data-id="371300">固原</a><a data-id="351500">果洛</a></p></div>
+                            <div><em>H</em><p><a data-id="351400">海南</a><a data-id="351700">海西</a><a data-id="191000">杭州</a><a data-id="201000">合肥</a><a data-id="161000">哈尔滨</a><a data-id="381000">呼和浩特</a><a data-id="181700">淮安</a><a data-id="191400">湖州</a><a data-id="351300">黄南</a><a data-id="272000">惠州</a><a data-id="331600">汉中</a><a data-id="392100">河池</a><a data-id="121300">邯郸</a><a data-id="201800">黄山</a><a data-id="251100">黄石</a><a data-id="241500">鹤壁</a><a data-id="161300">鹤岗</a><a data-id="162000">黑河</a><a data-id="201300">淮南</a><a data-id="201500">淮北</a><a data-id="262100">怀化</a><a data-id="261300">衡阳</a><a data-id="122000">衡水</a><a data-id="402000">和田</a><a data-id="272300">河源</a><a data-id="232600">菏泽</a><a data-id="392000">贺州</a><a data-id="281000">海口</a><a data-id="381600">呼伦贝尔</a><a data-id="142300">葫芦岛</a><a href="javascript:void(0)" target="_blank">哈密</a><a data-id="251900">黄冈</a><a data-id="321900">红河</a></p></div>
+                            <div><em>J</em><p><a data-id="231000">济南</a><a data-id="231700">济宁</a><a data-id="191600">金华</a><a data-id="191300">嘉兴</a><a data-id="271600">江门</a><a data-id="221300">九江</a><a data-id="221700">吉安</a><a data-id="151100">吉林</a><a data-id="221100">景德镇</a><a data-id="241700">焦作</a><a data-id="272900">揭阳</a><a data-id="341200">金昌</a><a data-id="131400">晋城</a><a data-id="251600">荆门</a><a data-id="251800">荆州</a><a data-id="131600">晋中</a><a data-id="141600">锦州</a><a data-id="161200">鸡西</a><a data-id="161700">佳木斯</a><a data-id="341800">酒泉</a><a data-id="341100">嘉峪关</a></p></div>
+                            <div><em>K</em><p><a data-id="321000">昆明</a><a data-id="241100">开封</a><a data-id="401100">克拉玛依</a><a data-id="401800">克孜勒苏柯尔克孜</a><a href="javascript:void(0)" target="_blank">喀什</a></p></div>
+                        </div>
+                        <div class="cities">
+                            <div><em>L</em><p><a data-id="341000">兰州</a><a data-id="361000">拉萨</a><a data-id="241200">洛阳</a><a data-id="181600">连云港</a><a data-id="303000">凉山</a><a data-id="391100">柳州</a><a data-id="202300">六安</a><a data-id="121900">廊坊</a><a data-id="392200">来宾</a><a data-id="262200">娄底</a><a data-id="301900">乐山</a><a data-id="242000">漯河</a><a data-id="232400">聊城</a><a data-id="141900">辽阳</a><a data-id="151300">辽源</a><a data-id="321700">临沧</a><a data-id="131900">临汾</a><a data-id="342200">临夏</a><a data-id="232200">临沂</a><a data-id="192000">丽水</a><a data-id="321500">丽江</a><a data-id="132000">吕梁</a><a data-id="342100">陇南</a><a data-id="211700">龙岩</a><a data-id="311100">六盘水</a><a data-id="301300">泸州</a><a data-id="232100">莱芜</a></p></div>
+                            <div><em>M</em><p><a data-id="301500">绵阳</a><a data-id="201400">马鞍山</a><a data-id="271800">茂名</a><a data-id="161900">牡丹江</a><a data-id="302100">眉山</a></p></div>
+                            <div><em>N</em><p><a data-id="181000">南京</a><a data-id="221000">南昌</a><a data-id="191100">宁波</a><a data-id="181500">南通</a><a data-id="302000">南充</a><a data-id="211800">宁德</a><a data-id="301800">内江</a><a data-id="391000">南宁</a><a data-id="361400">那曲</a><a data-id="242200">南阳</a><a data-id="211600">南平</a></p></div>
+                            <div><em>P</em><p><a data-id="241300">平顶山</a><a data-id="301200">攀枝花</a><a data-id="142000">盘锦</a><a data-id="221200">萍乡</a><a data-id="341700">平凉</a><a data-id="321600">普洱</a><a data-id="241800">濮阳</a><a data-id="211200">莆田</a></p></div>
+                            <div><em>Q</em><p><a data-id="311800">黔南</a><a data-id="311500">黔西南</a><a data-id="311700">黔东南</a><a data-id="231100">青岛</a><a data-id="211400">泉州</a><a data-id="121200">秦皇岛</a><a data-id="161100">齐齐哈尔</a><a data-id="191700">衢州</a><a data-id="272500">清远</a><a data-id="391600">钦州</a><a data-id="321100">曲靖</a><a data-id="341900">庆阳</a><a data-id="161800">七台河</a><a data-id="252500">潜江</a></p></div>
+                        </div>
+                        <div class="cities">
+                            <div><em>R</em><p><a data-id="232000">日照</a><a data-id="361300">日喀则</a></p></div>
+                            <div><em>S</em><p><a data-id="171000">上海</a><a data-id="271200">深圳</a><a data-id="121000">石家庄</a><a data-id="141000">沈阳</a><a data-id="181400">苏州</a><a data-id="271400">汕头</a><a data-id="191500">绍兴</a><a data-id="281100">三亚</a><a data-id="211300">三明</a><a data-id="271100">韶关</a><a data-id="242300">商丘</a><a data-id="261400">邵阳</a><a data-id="251200">十堰</a><a data-id="131500">朔州</a><a data-id="331900">商洛</a><a data-id="242100">三门峡</a><a data-id="301700">遂宁</a><a data-id="151600">松原</a><a data-id="151200">四平</a><a data-id="222000">上饶</a><a data-id="162100">绥化</a><a data-id="252100">随州</a><a data-id="182200">宿迁</a><a data-id="202100">宿州</a><a data-id="272200">汕尾</a><a data-id="161400">双鸭山</a><a data-id="371100">石嘴山</a></p></div>
+                            <div><em>T</em><p><a data-id="111000">天津</a><a data-id="131000">太原</a><a data-id="121100">唐山</a><a data-id="191900">台州</a><a data-id="231800">泰安</a><a data-id="182100">泰州</a><a data-id="421000">台湾</a><a data-id="142100">铁岭</a><a data-id="341400">天水</a><a data-id="401200">吐鲁番</a><a data-id="331100">铜川</a><a data-id="381400">通辽</a><a data-id="151400">通化</a><a data-id="201600">铜陵</a><a data-id="311400">铜仁</a><a data-id="252600">天门</a></p></div>
+                            <div><em>W</em><p><a data-id="251000">武汉</a><a data-id="401000">乌鲁木齐</a><a data-id="181100">无锡</a><a data-id="191200">温州</a><a data-id="231900">威海</a><a data-id="231600">潍坊</a><a data-id="201100">芜湖</a><a data-id="391300">梧州</a><a data-id="331400">渭南</a><a data-id="381200">乌海</a><a data-id="371200">吴忠</a><a data-id="381800">乌兰察布</a><a data-id="341500">武威</a></p></div>
+                        </div>
+                        <div class="cities">
+                            <div><em>X</em><p><a data-id="331000">西安</a><a data-id="351000">西宁</a><a data-id="322100">西双版纳</a><a href="javascript:void(0)" target="_blank">厦门</a><a data-id="411000">香港</a><a data-id="181200">徐州</a><a data-id="331300">咸阳</a><a data-id="261200">湘潭</a><a data-id="251400">襄樊</a><a data-id="262300">湘西</a><a data-id="241600">新乡</a><a data-id="121400">邢台</a><a data-id="251700">孝感</a><a data-id="241900">许昌</a><a data-id="411000">香港</a><a data-id="131800">忻州</a><a data-id="202600">宣城</a><a data-id="382000">锡林郭勒盟</a><a data-id="381900">兴安盟</a><a data-id="242400">信阳</a><a data-id="402400">新疆</a><a data-id="221400">新余</a><a data-id="252400">仙桃</a><a data-id="252000">咸宁</a></p></div>
+                            <div><em>Y</em><p><a data-id="371000">银川</a><a data-id="231500">烟台</a><a data-id="331500">延安</a><a data-id="181900">扬州</a><a data-id="251300">宜昌</a><a data-id="302200">宜宾</a><a data-id="221800">宜春</a><a data-id="181800">盐城</a><a data-id="261500">岳阳</a><a data-id="221500">鹰潭</a><a data-id="321200">玉溪</a><a data-id="131700">运城</a><a data-id="141700">营口</a><a data-id="391800">玉林</a><a data-id="262000">永州</a><a data-id="272400">阳江</a><a data-id="131200">阳泉</a><a data-id="302500">雅安</a><a data-id="351600">玉树</a><a data-id="261800">益阳</a><a data-id="273000">云浮</a><a data-id="161600">伊春</a><a data-id="151800">延边</a><a data-id="402100">伊犁哈萨克</a><a data-id="331700">榆林</a></p></div>
+                            <div><em>Z</em><p><a data-id="241000">郑州</a><a data-id="272700">中山</a><a data-id="231200">淄博</a><a data-id="271300">珠海</a><a data-id="182000">镇江</a><a data-id="121600">张家口</a><a data-id="261100">株洲</a><a data-id="211500">漳州</a><a data-id="271700">湛江</a><a data-id="271900">肇庆</a><a data-id="231300">枣庄</a><a data-id="242500">周口</a><a data-id="242600">驻马店</a><a data-id="301100">自贡</a><a data-id="261700">张家界</a><a data-id="302700">资阳</a><a data-id="311200">遵义</a><a data-id="191800">舟山</a><a data-id="321400">昭通</a><a data-id="371400">中卫</a><a data-id="341600">张掖</a></p></div>
+                        </div>
+                    </div>-->
+                </dd>
+            </dl>
+            <input class="TOP-SUBMIT" type="submit" value="好工作">
+        </div>
+        <div class="TOP-HOTKEYS">
+            热门搜索：<a href="#">服务员</a>     <a href="#">送餐员</a>     <a href="#">健身教练</a>    <a href="#">保姆</a>    <a href="#">月嫂</a>     <a href="#">高级技工</a>     <a href="#">淘宝美工</a>
+        </div>
+    </div>
+    <div class="TOP-LOGIN">
+    	<div class="codes">
+	        <span class="wx">关注我们
+            	<p>
+                	<q></q><u></u>
+                	<img src="images/v2/code-wx.jpg" width="100" height="100"><br>
+                    <b>关注好工作微信</b>
+                </p>
+            </span>
+    	    <span class="mobile">手机版下载
+            	<p>
+                	<q></q><u></u>
+                	<img src="images/v2/code-app.jpg" width="100" height="100"><br>
+                    <b><i>安卓版</i>APP下载</b>
+                </p>
+            </span>
+        </div>
+        <div class="rnl">
+            <a href="#">登录</a> 
+            <a href="#">注册</a>
+        </div>
+    </div>
+</div>
+
+<div class="NAV">
+	<div class="common">
+        <dl class="NAV-HEAD">
+            <dt class="NAV-HEAD-ROOT">
+                <span>职位分类</span>
+                <!--内页要加i元素<i><img src="images/new/icons/chevron-down.png" width="14" height="14"></i>-->
+            </dt>
+            <dd class="NAV-HEAD-MENU"><!--内页此处要加hidden类-->
+                <a href="#" class="menu"><h3>生活　服务</h3></a>
+                <ul class="NAV-HEAD-SUBMENU">
+                    <li>
+                        <h4><a href="#">餐饮</a></h4>
+                        <p><a href="#">服务员</a>  <a href="#">送餐员</a>  <a href="#">配菜/打荷</a>  <a href="#">厨师/厨师长</a>  <a href="#">后厨传菜员</a>  <a href="#">茶艺师</a>  <a href="#">预订员</a>  <a href="#">迎宾/接待</a>  <a href="#">大堂经理/领班</a>  <a href="#">餐饮管理</a>  <a href="#">洗碗工</a>  <a href="#">咖啡师</a>  <a href="#">面点师</a>  <a href="#">预订员</a>  <a href="#">学徒</a>  <a href="#">杂工</a></p>
+                    </li>
+                    <li>
+                        <h4><a href="#">家政保洁/保安</a></h4>
+                        <p><a href="#">保洁</a>  <a href="#">保姆</a>  <a href="#">月嫂</a>  <a href="#">育婴师/保育师</a>  <a href="#">洗衣工</a>  <a href="#">钟点工</a>  <a href="#">保安</a>  <a href="#">护工</a>  <a href="#">送水工</a></p>
+                    </li>
+                    <li>
+                        <h4><a href="#">美容/美发</a></h4>
+                        <p><a href="#">美容导师</a>  <a href="#">美发助理/学徒</a>  <a href="#">洗头工</a>  <a href="#">发型师</a>  <a href="#">美容师</a>  <a href="#">宠物美容</a>  <a href="#">美容/瘦身顾问</a>  <a href="#">美甲师</a>  <a href="#">化妆师</a>  <a href="#">媒体师</a>  <a href="#">美容店长</a>  <a href="#">彩妆培训师</a></p>
+                    </li>
+                    <li>
+                        <h4><a href="#">酒店/旅游</a></h4>
+                        <p><a href="#">酒店前台</a>  <a href="#">客户服务员</a>  <a href="#">楼面经理</a>  <a href="#">行李员</a>  <a href="#">救生员</a>  <a href="#">旅游顾问</a>  <a href="#">酒店管理</a>  <a href="#">订票员</a>  <a href="#">计调签证专员</a>  <a href="#">导游</a></p>
+                    </li>
+                    <li>
+                        <h4><a href="#">娱乐/休闲</a></h4>
+                        <p><a href="#">影视/后期制作</a>  <a href="#">主持人</a>  <a href="#">调酒师</a>  <a href="#">音效师</a>  <a href="#">酒吧服务员</a>  <a href="#">摄影师/摄像师</a>  <a href="#">灯光师</a>  <a href="#">配音员</a>  <a href="#">放映员</a>  <a href="#">娱乐厅服务员</a>  <a href="#">礼仪/迎宾</a></p>
+                    </li>
+                    <li>
+                        <h4><a href="#">保健/按摩</a></h4>
+                        <p><a href="#">按摩师</a>  <a href="#">足疗师</a>  <a href="#">搓澡工</a>  <a href="#">针灸推拿</a></p>
+                    </li>
+                    <li>
+                        <h4><a href="#">运动/健身</a></h4>
+                        <p><a href="#">健身教练</a>  <a href="#">瑜伽教练</a>  <a href="#">舞蹈老师</a>  <a href="#">游泳教练</a>  <a href="#">台球教练</a>  <a href="#">高尔夫球助理</a></p>
+                    </li>
+                </ul>
+                <a href="#" class="menu"><h3>计算机　互联网　通信</h3></a>
+                <ul class="NAV-HEAD-SUBMENU"></ul>
+                <a href="#" class="menu"><h3>财会　金融　保险</h3></a>
+                <ul class="NAV-HEAD-SUBMENU"></ul>
+                <a href="#" class="menu"><h3>人力　行政　管理</h3></a>
+                <ul class="NAV-HEAD-SUBMENU"></ul>
+                <a href="#" class="menu"><h3>销售　市场　淘宝　客服</h3></a>
+                <ul class="NAV-HEAD-SUBMENU"></ul>
+                <a href="#" class="menu"><h3>生产　制造　汽车　电子</h3></a>
+                <ul class="NAV-HEAD-SUBMENU"></ul>
+                <a href="#" class="menu"><h3>房产　建筑　装修　物业</h3></a>
+                <ul class="NAV-HEAD-SUBMENU"></ul>
+                <a href="#" class="menu"><h3>贸易　采购　物流　仓储</h3></a>
+                <ul class="NAV-HEAD-SUBMENU"></ul>
+                <a href="#" class="menu"><h3>广告　艺术　影视　媒体</h3></a>
+                <ul class="NAV-HEAD-SUBMENU"></ul>
+                <a href="#" class="menu last"><h3>法律　咨询　教育　其它</h3></a>
+                <ul class="NAV-HEAD-SUBMENU"></ul>
+            </dd>
+        </dl>
+        <ul class="NAV-BODY">
+            <li><a href="index-new.html" class="cur">首页</a></li>
+            <li><a href="search-new.html">职位搜索</a></li>
+            <li data-extra="3"><a href="#"><span>校园招聘</span><i></i></a></li>
+            <li><a href="new-parttimes.html">兼职</a></li>
+            <li><a href="companies-new.html">名企</a></li>
+            <li><a href="schools-new.html">院校合作</a></li>
+        </ul>
+        <dl class="NAV-FOOT">
+            <dt class="new"><a href="#"><i></i><span class="tiny">abcdefg</span></a></dt>
+            <dd>
+                <p><a href="#">登录/注册</a></p>
+                <ul>
+                    <li><a href="#">简历中心</a></li>
+                    <!--只有这两项加点的才需要span标签，其它的可以不放，可以放-->
+                    <li class="new"><a href="#"><span>投递反馈</span></a></li>
+                    <li><a href="#"><span>我收藏的职位</span></a></li>
+                    <li class="new"><a href="#"><span>职位邀请</span></a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">我要招人</a></li>
+                    <li><a href="#">帐号设置</a></li>
+                    <li><a href="#">退出</a></li>
+                </ul>
+            </dd>
+        </dl>
+    </div>
+    <!--要写在外边，不然IE6下的100%是按照直接父元素的尺寸计算，而不是定位父元素position的尺寸计算-->
+    <ul class="NAV-EXTRA clear">
+    	<p data-extra="3"><a href="schools-index-new.html">校园招聘首页</a><a href="#">全职/实习招聘</a><a href="new-school-conferences.html">校园宣讲会</a></p>
+    </ul>
+</div>
+<div class="Banner">
+	<ul>
+        <li><a href="#" style="background-image:url(images/v2/ban6.jpg)"></a></li>
+    	<li><a href="SpecialTopic/hgz/new-Special-page.html" target="_blank" style="background-image:url(images/v2/ban7.jpg)"></a></li>
+        <!-- <li><a href="#" style="background-image:url(images/v2/ban.jpg)"></a></li> -->
+        <li><a href="SpecialTopic/easy/index.html" target="_blank" style="background-image:url(images/v2/ban1-2.jpg)"></a></li>
+    </ul>
+    <div class="dots"></div>
+    <div style="display:none;"><ol class="common">
+    	<li>1</li>
+    	<li>2</li>
+    	<li>3</li>
+    	<li>4</li>
+    </ol></div>
+</div>
+
+<div class="Main common">
+	<div class="Left">
+    	<dl class="Block CompanyPush">
+        	<dt><h3>名企推荐</h3><a href="companies-new.html" class="more">更多</a></dt>
+            <dd><ul>
+            	<li><a href="#"><img src="images/v2/logos/1.png" width="90" height="40"></a></li>
+            	<li><a href="#"><img src="images/v2/logos/2.png" width="75" height="31"></a></li>
+            	<li><a href="#"><img src="images/v2/logos/3.png" width="58" height="65"></a></li>
+            	<li><a href="#"><img src="images/v2/logos/4.png" width="62" height="49"></a></li>
+            	<li><a href="#"><img src="images/v2/logos/5.png" width="55" height="54"></a></li>
+            	<li><a href="#"><img src="images/v2/logos/6.png" width="87" height="41"></a></li>
+            	<li><a href="#"><img src="images/v2/logos/7.png" width="82" height="36"></a></li>
+            	<li><a href="#"><img src="images/v2/logos/8.png" width="92" height="15"></a></li>
+            </ul></dd>
+        </dl>
+        <ul class="LeftAdvs">
+        	<li><a href="#"><img src="images/v2/index-left-adv1.jpg" width="234" height="97"></a></li>
+        	<li><a href="#"><img src="images/v2/index-left-adv2.jpg" width="234" height="97"></a></li>
+        </ul>
+    </div>
+	<div class="Right">
+    	<dl class="Block Jobs">
+        	<dt>
+            	<h3 class="cur">热招职位</h3><h3>最新职位</h3>
+                <a href="#" class="more">更多地区</a>
+                <ul>
+                	<li><a href="#" class="cur">广州</a></li>
+                	<li><a href="#">深圳</a></li>
+                	<li><a href="#">东莞</a></li>
+                	<li><a href="#">佛山</a></li>
+                	<li><a href="#">中山</a></li>
+                </ul>
+            </dt>
+            <dd>
+                <ul><!--偶数加class="bg"-->
+                    <li>
+                        <div class="job">
+                            <h4><a href="job-new.html">平面设计师平面设计师平面设计师</a><i>100</i></h4>
+                            <p>月薪：<b>5000-7000</b>&nbsp;&nbsp;&nbsp;<b class="map">天河</b></p>
+                            <p>经验：<b>10年以上</b>&nbsp;&nbsp;&nbsp;学历：<b>高中/初中</b></p>
+                        </div>
+                        <div class="company">
+                            <h5><a href="#">广州星辰广告传媒有限公司广州星辰广告传媒有限公司</a><i></i></h5>
+                            <p>领域：<b>电子技术/半导体/集成电路</b>&nbsp;&nbsp;&nbsp;&nbsp;规模：<b>15-30人</b></p>
+                            <div class="tags">
+                                <span><u>五险一金</u><s></s></span>
+                                <span><u>交通补助</u><s></s></span>
+                                <span><u>年度旅游</u><s></s></span>
+                                <span><u>绩效奖金</u><s></s></span>
+                                <span><u>五险一金</u><s></s></span>
+                                <span><u>交通补助</u><s></s></span>
+                                <span><u>年度旅游</u><s></s></span>
+                                <span><u>绩效奖金</u><s></s></span>
+                            </div>
+                        </div>
+                        <div class="post">
+                        	<del>已投递</del>
+                            <!--<a href="#">急速投递</a>-->
+                            <span>今天09:30</span>
+                        </div>
+                    </li>
+                    <li class="bg">
+                        <div class="job">
+                            <h4><a href="job-new.html">平面设计师</a><i>100</i></h4>
+                            <p>月薪：<b>5000-7000</b>&nbsp;&nbsp;&nbsp;<b class="map">天河</b></p>
+                            <p>经验：<b>10年以上</b>&nbsp;&nbsp;&nbsp;学历：<b>高中/初中</b></p>
+                        </div>
+                        <div class="company">
+                            <h5><a href="#">广州星辰广告传媒有限公司</a><i></i></h5>
+                            <p>领域：<b>电子技术/半导体/集成电路</b>&nbsp;&nbsp;&nbsp;&nbsp;规模：<b>15-30人</b></p>
+                            <div class="tags">
+                                <span><u>五险一金</u><s></s></span>
+                                <span><u>交通补助</u><s></s></span>
+                                <span><u>年度旅游</u><s></s></span>
+                                <span><u>绩效奖金</u><s></s></span>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <a href="#">急速投递</a>
+                            <span>2015-12-11</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="job">
+                            <h4><a href="job-new.html">平面设计师</a><i>100</i></h4>
+                            <p>月薪：<b>5000-7000</b>&nbsp;&nbsp;&nbsp;<b class="map">天河</b></p>
+                            <p>经验：<b>10年以上</b>&nbsp;&nbsp;&nbsp;学历：<b>高中/初中</b></p>
+                        </div>
+                        <div class="company">
+                            <h5><a href="#">广州星辰广告传媒有限公司</a><i></i></h5>
+                            <p>领域：<b>电子技术/半导体/集成电路</b>&nbsp;&nbsp;&nbsp;&nbsp;规模：<b>15-30人</b></p>
+                            <div class="tags">
+                                <span><u>五险一金</u><s></s></span>
+                                <span><u>交通补助</u><s></s></span>
+                                <span><u>年度旅游</u><s></s></span>
+                                <span><u>绩效奖金</u><s></s></span>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <a href="#">急速投递</a>
+                            <span>今天09:30</span>
+                        </div>
+                    </li>
+                    <li class="bg">
+                        <div class="job">
+                            <h4><a href="job-new.html">平面设计师</a><i>100</i></h4>
+                            <p>月薪：<b>5000-7000</b>&nbsp;&nbsp;&nbsp;<b class="map">天河</b></p>
+                            <p>经验：<b>10年以上</b>&nbsp;&nbsp;&nbsp;学历：<b>高中/初中</b></p>
+                        </div>
+                        <div class="company">
+                            <h5><a href="#">广州星辰广告传媒有限公司</a><i></i></h5>
+                            <p>领域：<b>电子技术/半导体/集成电路</b>&nbsp;&nbsp;&nbsp;&nbsp;规模：<b>15-30人</b></p>
+                            <div class="tags">
+                                <span><u>五险一金</u><s></s></span>
+                                <span><u>交通补助</u><s></s></span>
+                                <span><u>年度旅游</u><s></s></span>
+                                <span><u>绩效奖金</u><s></s></span>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <a href="#">急速投递</a>
+                            <span>2015-12-11</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="job">
+                            <h4><a href="job-new.html">平面设计师</a><i>100</i></h4>
+                            <p>月薪：<b>5000-7000</b>&nbsp;&nbsp;&nbsp;<b class="map">天河</b></p>
+                            <p>经验：<b>10年以上</b>&nbsp;&nbsp;&nbsp;学历：<b>高中/初中</b></p>
+                        </div>
+                        <div class="company">
+                            <h5><a href="#">广州星辰广告传媒有限公司</a><i></i></h5>
+                            <p>领域：<b>电子技术/半导体/集成电路</b>&nbsp;&nbsp;&nbsp;&nbsp;规模：<b>15-30人</b></p>
+                            <div class="tags">
+                                <span><u>五险一金</u><s></s></span>
+                                <span><u>交通补助</u><s></s></span>
+                                <span><u>年度旅游</u><s></s></span>
+                                <span><u>绩效奖金</u><s></s></span>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <a href="#">急速投递</a>
+                            <span>今天09:30</span>
+                        </div>
+                    </li>
+                    <li class="bg">
+                        <div class="job">
+                            <h4><a href="job-new.html">平面设计师</a><i>100</i></h4>
+                            <p>月薪：<b>5000-7000</b>&nbsp;&nbsp;&nbsp;<b class="map">天河</b></p>
+                            <p>经验：<b>10年以上</b>&nbsp;&nbsp;&nbsp;学历：<b>高中/初中</b></p>
+                        </div>
+                        <div class="company">
+                            <h5><a href="#">广州星辰广告传媒有限公司</a><i></i></h5>
+                            <p>领域：<b>电子技术/半导体/集成电路</b>&nbsp;&nbsp;&nbsp;&nbsp;规模：<b>15-30人</b></p>
+                            <div class="tags">
+                                <span><u>五险一金</u><s></s></span>
+                                <span><u>交通补助</u><s></s></span>
+                                <span><u>年度旅游</u><s></s></span>
+                                <span><u>绩效奖金</u><s></s></span>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <a href="#">急速投递</a>
+                            <span>2015-12-11</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="job">
+                            <h4><a href="job-new.html">平面设计师</a><i>100</i></h4>
+                            <p>月薪：<b>5000-7000</b>&nbsp;&nbsp;&nbsp;<b class="map">天河</b></p>
+                            <p>经验：<b>10年以上</b>&nbsp;&nbsp;&nbsp;学历：<b>高中/初中</b></p>
+                        </div>
+                        <div class="company">
+                            <h5><a href="#">广州星辰广告传媒有限公司</a><i></i></h5>
+                            <p>领域：<b>电子技术/半导体/集成电路</b>&nbsp;&nbsp;&nbsp;&nbsp;规模：<b>15-30人</b></p>
+                            <div class="tags">
+                                <span><u>五险一金</u><s></s></span>
+                                <span><u>交通补助</u><s></s></span>
+                                <span><u>年度旅游</u><s></s></span>
+                                <span><u>绩效奖金</u><s></s></span>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <a href="#">急速投递</a>
+                            <span>今天09:30</span>
+                        </div>
+                    </li>
+                    <li class="bg">
+                        <div class="job">
+                            <h4><a href="job-new.html">平面设计师</a><i>100</i></h4>
+                            <p>月薪：<b>5000-7000</b>&nbsp;&nbsp;&nbsp;<b class="map">天河</b></p>
+                            <p>经验：<b>10年以上</b>&nbsp;&nbsp;&nbsp;学历：<b>高中/初中</b></p>
+                        </div>
+                        <div class="company">
+                            <h5><a href="#">广州星辰广告传媒有限公司</a><i></i></h5>
+                            <p>领域：<b>电子技术/半导体/集成电路</b>&nbsp;&nbsp;&nbsp;&nbsp;规模：<b>15-30人</b></p>
+                            <div class="tags">
+                                <span><u>五险一金</u><s></s></span>
+                                <span><u>交通补助</u><s></s></span>
+                                <span><u>年度旅游</u><s></s></span>
+                                <span><u>绩效奖金</u><s></s></span>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <a href="#">急速投递</a>
+                            <span>2015-12-11</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="job">
+                            <h4><a href="job-new.html">平面设计师</a><i>100</i></h4>
+                            <p>月薪：<b>5000-7000</b>&nbsp;&nbsp;&nbsp;<b class="map">天河</b></p>
+                            <p>经验：<b>10年以上</b>&nbsp;&nbsp;&nbsp;学历：<b>高中/初中</b></p>
+                        </div>
+                        <div class="company">
+                            <h5><a href="#">广州星辰广告传媒有限公司</a><i></i></h5>
+                            <p>领域：<b>电子技术/半导体/集成电路</b>&nbsp;&nbsp;&nbsp;&nbsp;规模：<b>15-30人</b></p>
+                            <div class="tags">
+                                <span><u>五险一金</u><s></s></span>
+                                <span><u>交通补助</u><s></s></span>
+                                <span><u>年度旅游</u><s></s></span>
+                                <span><u>绩效奖金</u><s></s></span>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <a href="#">急速投递</a>
+                            <span>今天09:30</span>
+                        </div>
+                    </li>
+                    <li class="bg">
+                        <div class="job">
+                            <h4><a href="job-new.html">平面设计师</a><i>100</i></h4>
+                            <p>月薪：<b>5000-7000</b>&nbsp;&nbsp;&nbsp;<b class="map">天河</b></p>
+                            <p>经验：<b>10年以上</b>&nbsp;&nbsp;&nbsp;学历：<b>高中/初中</b></p>
+                        </div>
+                        <div class="company">
+                            <h5><a href="#">广州星辰广告传媒有限公司</a><i></i></h5>
+                            <p>领域：<b>电子技术/半导体/集成电路</b>&nbsp;&nbsp;&nbsp;&nbsp;规模：<b>15-30人</b></p>
+                            <div class="tags">
+                                <span><u>五险一金</u><s></s></span>
+                                <span><u>交通补助</u><s></s></span>
+                                <span><u>年度旅游</u><s></s></span>
+                                <span><u>绩效奖金</u><s></s></span>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <a href="#">急速投递</a>
+                            <span>2015-12-11</span>
+                        </div>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="job">
+                            <h4><a href="job-new.html">平面设计师平面设计师平面设计师</a><i>100</i></h4>
+                            <p>月薪：<b>5000-7000</b>&nbsp;&nbsp;&nbsp;<b class="map">天河</b></p>
+                            <p>经验：<b>10年以上</b>&nbsp;&nbsp;&nbsp;学历：<b>高中/初中</b></p>
+                        </div>
+                        <div class="company">
+                            <h5><a href="#">广州星辰广告传媒有限公司</a><i></i></h5>
+                            <p>领域：<b>电子技术/半导体/集成电路</b>&nbsp;&nbsp;&nbsp;&nbsp;规模：<b>15-30人</b></p>
+                            <div class="tags">
+                                <span><u>五险一金</u><s></s></span>
+                                <span><u>交通补助</u><s></s></span>
+                                <span><u>年度旅游</u><s></s></span>
+                                <span><u>绩效奖金</u><s></s></span>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <a href="#">急速投递</a>
+                            <span>今天09:30</span>
+                        </div>
+                    </li>
+                    <li class="bg">
+                        <div class="job">
+                            <h4><a href="job-new.html">平面设计师</a><i>100</i></h4>
+                            <p>月薪：<b>5000-7000</b>&nbsp;&nbsp;&nbsp;<b class="map">天河</b></p>
+                            <p>经验：<b>10年以上</b>&nbsp;&nbsp;&nbsp;学历：<b>高中/初中</b></p>
+                        </div>
+                        <div class="company">
+                            <h5><a href="#">广州星辰广告传媒有限公司</a><i></i></h5>
+                            <p>领域：<b>电子技术/半导体/集成电路</b>&nbsp;&nbsp;&nbsp;&nbsp;规模：<b>15-30人</b></p>
+                            <div class="tags">
+                                <span><u>五险一金</u><s></s></span>
+                                <span><u>交通补助</u><s></s></span>
+                                <span><u>年度旅游</u><s></s></span>
+                                <span><u>绩效奖金</u><s></s></span>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <a href="#">急速投递</a>
+                            <span>2015-12-11</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="job">
+                            <h4><a href="job-new.html">平面设计师</a><i>100</i></h4>
+                            <p>月薪：<b>5000-7000</b>&nbsp;&nbsp;&nbsp;<b class="map">天河</b></p>
+                            <p>经验：<b>10年以上</b>&nbsp;&nbsp;&nbsp;学历：<b>高中/初中</b></p>
+                        </div>
+                        <div class="company">
+                            <h5><a href="#">广州星辰广告传媒有限公司</a><i></i></h5>
+                            <p>领域：<b>电子技术/半导体/集成电路</b>&nbsp;&nbsp;&nbsp;&nbsp;规模：<b>15-30人</b></p>
+                            <div class="tags">
+                                <span><u>五险一金</u><s></s></span>
+                                <span><u>交通补助</u><s></s></span>
+                                <span><u>年度旅游</u><s></s></span>
+                                <span><u>绩效奖金</u><s></s></span>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <a href="#">急速投递</a>
+                            <span>今天09:30</span>
+                        </div>
+                    </li>
+                    <li class="bg">
+                        <div class="job">
+                            <h4><a href="job-new.html">平面设计师</a><i>100</i></h4>
+                            <p>月薪：<b>5000-7000</b>&nbsp;&nbsp;&nbsp;<b class="map">天河</b></p>
+                            <p>经验：<b>10年以上</b>&nbsp;&nbsp;&nbsp;学历：<b>高中/初中</b></p>
+                        </div>
+                        <div class="company">
+                            <h5><a href="#">广州星辰广告传媒有限公司</a><i></i></h5>
+                            <p>领域：<b>电子技术/半导体/集成电路</b>&nbsp;&nbsp;&nbsp;&nbsp;规模：<b>15-30人</b></p>
+                            <div class="tags">
+                                <span><u>五险一金</u><s></s></span>
+                                <span><u>交通补助</u><s></s></span>
+                                <span><u>年度旅游</u><s></s></span>
+                                <span><u>绩效奖金</u><s></s></span>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <a href="#">急速投递</a>
+                            <span>2015-12-11</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="job">
+                            <h4><a href="job-new.html">平面设计师</a><i>100</i></h4>
+                            <p>月薪：<b>5000-7000</b>&nbsp;&nbsp;&nbsp;<b class="map">天河</b></p>
+                            <p>经验：<b>10年以上</b>&nbsp;&nbsp;&nbsp;学历：<b>高中/初中</b></p>
+                        </div>
+                        <div class="company">
+                            <h5><a href="#">广州星辰广告传媒有限公司</a><i></i></h5>
+                            <p>领域：<b>电子技术/半导体/集成电路</b>&nbsp;&nbsp;&nbsp;&nbsp;规模：<b>15-30人</b></p>
+                            <div class="tags">
+                                <span><u>五险一金</u><s></s></span>
+                                <span><u>交通补助</u><s></s></span>
+                                <span><u>年度旅游</u><s></s></span>
+                                <span><u>绩效奖金</u><s></s></span>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <a href="#">急速投递</a>
+                            <span>今天09:30</span>
+                        </div>
+                    </li>
+                    <li class="bg">
+                        <div class="job">
+                            <h4><a href="job-new.html">平面设计师</a><i>100</i></h4>
+                            <p>月薪：<b>5000-7000</b>&nbsp;&nbsp;&nbsp;<b class="map">天河</b></p>
+                            <p>经验：<b>10年以上</b>&nbsp;&nbsp;&nbsp;学历：<b>高中/初中</b></p>
+                        </div>
+                        <div class="company">
+                            <h5><a href="#">广州星辰广告传媒有限公司</a><i></i></h5>
+                            <p>领域：<b>电子技术/半导体/集成电路</b>&nbsp;&nbsp;&nbsp;&nbsp;规模：<b>15-30人</b></p>
+                            <div class="tags">
+                                <span><u>五险一金</u><s></s></span>
+                                <span><u>交通补助</u><s></s></span>
+                                <span><u>年度旅游</u><s></s></span>
+                                <span><u>绩效奖金</u><s></s></span>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <a href="#">急速投递</a>
+                            <span>2015-12-11</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="job">
+                            <h4><a href="job-new.html">平面设计师</a><i>100</i></h4>
+                            <p>月薪：<b>5000-7000</b>&nbsp;&nbsp;&nbsp;<b class="map">天河</b></p>
+                            <p>经验：<b>10年以上</b>&nbsp;&nbsp;&nbsp;学历：<b>高中/初中</b></p>
+                        </div>
+                        <div class="company">
+                            <h5><a href="#">广州星辰广告传媒有限公司</a><i></i></h5>
+                            <p>领域：<b>电子技术/半导体/集成电路</b>&nbsp;&nbsp;&nbsp;&nbsp;规模：<b>15-30人</b></p>
+                            <div class="tags">
+                                <span><u>五险一金</u><s></s></span>
+                                <span><u>交通补助</u><s></s></span>
+                                <span><u>年度旅游</u><s></s></span>
+                                <span><u>绩效奖金</u><s></s></span>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <a href="#">急速投递</a>
+                            <span>今天09:30</span>
+                        </div>
+                    </li>
+                    <li class="bg">
+                        <div class="job">
+                            <h4><a href="job-new.html">平面设计师</a><i>100</i></h4>
+                            <p>月薪：<b>5000-7000</b>&nbsp;&nbsp;&nbsp;<b class="map">天河</b></p>
+                            <p>经验：<b>10年以上</b>&nbsp;&nbsp;&nbsp;学历：<b>高中/初中</b></p>
+                        </div>
+                        <div class="company">
+                            <h5><a href="#">广州星辰广告传媒有限公司</a><i></i></h5>
+                            <p>领域：<b>电子技术/半导体/集成电路</b>&nbsp;&nbsp;&nbsp;&nbsp;规模：<b>15-30人</b></p>
+                            <div class="tags">
+                                <span><u>五险一金</u><s></s></span>
+                                <span><u>交通补助</u><s></s></span>
+                                <span><u>年度旅游</u><s></s></span>
+                                <span><u>绩效奖金</u><s></s></span>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <a href="#">急速投递</a>
+                            <span>2015-12-11</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="job">
+                            <h4><a href="job-new.html">平面设计师</a><i>100</i></h4>
+                            <p>月薪：<b>5000-7000</b>&nbsp;&nbsp;&nbsp;<b class="map">天河</b></p>
+                            <p>经验：<b>10年以上</b>&nbsp;&nbsp;&nbsp;学历：<b>高中/初中</b></p>
+                        </div>
+                        <div class="company">
+                            <h5><a href="#">广州星辰广告传媒有限公司</a><i></i></h5>
+                            <p>领域：<b>电子技术/半导体/集成电路</b>&nbsp;&nbsp;&nbsp;&nbsp;规模：<b>15-30人</b></p>
+                            <div class="tags">
+                                <span><u>五险一金</u><s></s></span>
+                                <span><u>交通补助</u><s></s></span>
+                                <span><u>年度旅游</u><s></s></span>
+                                <span><u>绩效奖金</u><s></s></span>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <a href="#">急速投递</a>
+                            <span>今天09:30</span>
+                        </div>
+                    </li>
+                    <li class="bg">
+                        <div class="job">
+                            <h4><a href="job-new.html">平面设计师</a><i>100</i></h4>
+                            <p>月薪：<b>5000-7000</b>&nbsp;&nbsp;&nbsp;<b class="map">天河</b></p>
+                            <p>经验：<b>10年以上</b>&nbsp;&nbsp;&nbsp;学历：<b>高中/初中</b></p>
+                        </div>
+                        <div class="company">
+                            <h5><a href="#">广州星辰广告传媒有限公司</a><i></i></h5>
+                            <p>领域：<b>电子技术/半导体/集成电路</b>&nbsp;&nbsp;&nbsp;&nbsp;规模：<b>15-30人</b></p>
+                            <div class="tags">
+                                <span><u>五险一金</u><s></s></span>
+                                <span><u>交通补助</u><s></s></span>
+                                <span><u>年度旅游</u><s></s></span>
+                                <span><u>绩效奖金</u><s></s></span>
+                            </div>
+                        </div>
+                        <div class="post">
+                            <a href="#">急速投递</a>
+                            <span>2015-12-11</span>
+                        </div>
+                    </li>
+                </ul>
+                <div class="more"><a href="#">查看更多职位</a></div>
+            </dd>
+        </dl>
+    </div>
+	<div class="clear"></div>
+</div>
+
+
+<div class="FOOTER">
+	<div class="FOOT-NAV">
+    	<a href="new-about.html">关于我们</a><a href="new-help.html">帮助中心</a>
+        <a href="new-law.html">法律声明</a><a href="index-navigation-new.html" class="last">网站导航</a>
+    </div>
+    <p>服务热线：400-6600-952&nbsp;&nbsp;&nbsp;&nbsp;服务QQ：4006600952&nbsp;&nbsp;&nbsp;&nbsp;服务邮箱：csc@93hgz.com</p>
+    <p>服务时间：周一至周六9:00-18:40&nbsp;&nbsp;&nbsp;&nbsp;粤ICP备09027680号-25</p>
+    <div class="Links common">
+    	<a href="#" target="_blank">友情链接</a><a href="#" target="_blank">友情链接</a><a href="#" target="_blank">友情链接</a><a href="#" target="_blank">友情链接</a><a href="#" target="_blank">友情链接</a><a href="#" target="_blank">友情链接</a><a href="#" target="_blank">友情链接</a><a href="#" target="_blank">友情链接</a><a href="#" target="_blank">友情链接</a><a href="#" target="_blank">友情链接</a><a href="#" target="_blank">友情链接</a><a href="#" target="_blank">友情链接</a><a href="#" target="_blank">友情链接</a><a href="#" target="_blank">友情链接</a><a href="#" target="_blank">友情链接</a>
+    </div>
+</div>
+
+<table class="FullScreenPlugin fixed fixed-top CenterDivContainer"><tr><td>
+	<dl class="CENTERDIV CenterLarge Feedback" data-active=".TOOL .feed">
+    	<dt class="CENTERTOPIC"><b>意见反馈</b><q></q></dt>
+        <dd class="CENTERCONTENT">
+        	<table class="CenterForm">
+            	<caption><h6 class="single">感谢您使用好工作，您的反馈是对我们莫大的支持和鼓励！</h6></caption>
+                <tr>
+                	<th width="120">反馈内容：</th><td width="480">
+                    	<textarea placeholder="使用帮助，产品bug，功能建议，问题反馈，吐槽等（500字以内）"></textarea>
+                        <code class="form-tip successMsg"></code>
+                        <code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>
+                    </td>
+                </tr>
+                <tr>
+                    <th>联系方式：</th><td>
+                    	<input type="text" class="text" placeholder="手机、QQ或邮箱">
+                        <code class="form-tip successMsg"></code>
+                        <code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>
+                    </td>
+                </tr>
+                <tr>
+                    <th></th><td class="CENTERBTNS">
+                    	<input type="button" class="submit" value="确定">
+                    	<input type="button" class="reset" value="取消">
+                    </td>
+                </tr>
+            </table>
+        </dd>
+    </dl>
+</td></tr></table>
+
+<div class="TOOL">
+	<a href="#" class="top"></a>
+    <a href="#" class="feed"></a>
+</div>
+
+
+<div class="Advertise_two black8 fixed fixed-bottom"><q></q><a class="common" href="/st/hurry/" target="_blank">
+     <span>24小时必有反馈，已有<b id="Advertise_nums">20847</b>人当天入职！</span> 
+    
+    </a></div>
+
+</body>
+</html>
+<script src="js/jquery.js"></script>
+<script src="js/v2/all.js"></script>
+<script src="js/v2/web.js"></script>
+<script src="js/area.js"></script>
+<script src="js/jobPositions.js"></script>
+<script src="js/plugin/CitiesPicker.js"></script>
+<script src="js/effect/ppt.js"></script>
+<script src="js/effect/correct.js"></script>
+<script src="js/effect/tab.js"></script>
+<script src="js/effect/float.js"></script>
+<script src="js/plugin/CenterDiv.js"></script>
+<script src="js/effect/bg.js"></script>
+<script src="js/plugin/raphael.js"></script>
+<script>
+$(function(){
+	var PPT=CHIppt(".Banner ul",'li',{indices:'.Banner .common'},{mstop:false,delay:5000},{
+		show:function(li){
+			var index=li.index();
+			circles.animate({opacity:.5},100);
+			circles[index].animate({opacity:.8},100);
+		}
+	});
+	CHItab(".Jobs","dt h3","dd ul",{way:'click'});
+	if(isIE6())
+	{
+		TextOverflow(".Jobs dd h4 a",12);
+		TextOverflow(".Jobs dd h4 a",16);
+	}
+	var ppts=$(".Banner ul li").length,
+		paper=Raphael($(".Banner .dots").get(0),ppts*20+14,22),
+		circles=paper.set(),
+        ellipse=paper.rect(0,0,ppts*20+14,22,11).attr({
+            stroke: false,
+            fill:'#000',
+            opacity:.2
+        });
+	for(var n=0;n<ppts;n++)
+	{
+		circles.push(
+			paper.circle(n*18+18,11,5).attr({
+				stroke:false,
+				fill:'#fff',
+				opacity:.5,
+				cursor:'pointer'
+			}).data('index',n).click(function(){
+				PPT.show(this.data('index'));
+			})
+		)
+	}
+	circles[0].attr({opacity:.8});
+
+    $(".Top-advertise q").click(function(event){
+            $(".Top-advertise").hide();
+            return false;
+     });
+    
+    $(".Advertise_two q").click(function(){
+        
+        $(".Advertise_two").hide();
+    })
+});
+$(window).load(function(){
+});
+</script>

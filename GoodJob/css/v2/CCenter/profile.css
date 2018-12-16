@@ -1,0 +1,60 @@
+/* 企业资料 */
+body{ background-color:#fff;}
+.Main{ margin-bottom:20px;}
+.Left{ width:720px; float:left;}
+.Right{ width:300px; float:right;}
+
+/*顶部详细信息*/
+.Attribs{ width:680px; float:left; padding:30px 20px; background-color:#f8fbff; margin-bottom:30px;}
+.Attribs dt{ width:190px; height:190px; float:left; margin-right:20px; overflow:hidden; border:2px solid #86b1e9;}
+.Attribs h1{ font-size:24px; color:#333; line-height:40px;}
+.Attribs h1 i{ display:inline-block; vertical-align:text-top; width:20px; background:url(../../../images/v2/icons/check-s.png) left center no-repeat; height:30px; margin-left:10px;}
+.Attribs h1 i{ _background-image:url(../../../images/v2/icons/check-s.gif);}
+.Attribs h2{ font-size:18px; color:#494949; font-weight:normal; line-height:30px; margin-bottom:10px;}
+.Attribs dd{ width:440px; float:left; position:relative;}
+.Attribs .edit{ display:block; position:absolute; right:-30px; top:-40px; font-size:16px; color:#1562c8; width:140px; height:40px; line-height:40px; text-align:center; text-indent:20px; background:url(../../../images/v2/icons/pen-circle.png) 10px 12px no-repeat #ddedff;}
+.Attribs .edit{ _background-image:url(../../../images/v2/icons/pen-circle.gif);}
+.Attribs .edit:hover{ background-color:#1562c8; color:#fff; _background-image:url(../../../images/v2/icons/pen-circle2.gif);}
+.WELFARE span{ margin-bottom:5px;}
+.WELFARE u,.WELFARE s{ color:#5593e6; background-image:url(../../../images/v2/tag2.png); _background-image:url(../../../images/v2/tag2.gif);}
+
+/*三块描述通用样式*/
+.Intros{ clear:both; padding:0px 28px; background-color:#f8fbff; margin-bottom:30px;}
+.Intros dt{ clear:both; color:#1562c8; padding:23px 0px;}
+.Intros dt h3{ font-size:18px; height:20px; line-height:20px; border-left:4px solid #1562c8; padding-left:6px;}
+.Intros dd{ clear:both; font-size:18px; line-height:32px; color:#525252;}
+/*公司介绍*/
+.Introduction{ overflow:hidden; padding-bottom:20px;}
+.Introduction p{ text-indent:2em;}
+.Introduction h4{ font-weight:normal; font-size:18px;}
+/*公司图片*/
+.Pics{ width:102%; float:left; margin-bottom:20px;}
+.Pics li{ width:158px; height:118px; float:left; border:1px solid #d1e5ff; margin:0 8px 10px 0; overflow:hidden; cursor:pointer;}
+/*右侧信息*/
+.Company{ background-color:#f8fbff; color:#5593e6; font-size:14px; height:120px; margin-bottom:15px; overflow:hidden;}
+.Company dt{ float:left; margin:10px; border:1px solid #86b1e9; width:98px; height:98px; overflow:hidden;}
+.Company dd{ margin:25px 10px 0 5px; line-height:22px;}
+.Company dd a{ color:#5593e6;}
+.Company dd a:hover{ color:#f16702; text-decoration:underline;}
+.Company dd i{ display:inline-block; width:20px; height:23px; background-image:url(../../../images/v2/icons/check-s.png); _background-image:url(../../../images/v2/icons/check-s.gif);}
+.Props{ background-color:#f8fbff; color:#656565; line-height:30px; font-size:16px; margin-bottom:15px;}
+.Props p{ border-bottom:3px solid #fff; padding:5px 20px}
+.Props a{ word-break:break-all; color:#1562c8;}
+.Props a:hover{ color:#6c6c6c; text-decoration:underline;}
+
+/*图片查看器*/
+.PhotoViewer{ visibility:hidden;}
+.PhotoViewer h5{ color:#7a7a7a; font-size:24px; margin-bottom:25px;}
+.PhotoViewer q{ position:absolute; right:10px; top:10px; cursor:pointer;}
+.PPT{ margin:0 auto;}
+.PPT,.PPT ul,.PPT ul li{ width:880px; height:580px; background-color:#ccc;}
+.PPT,.PPT ul{ position:relative;}
+.PPT ul li{ left:0px; top:0px; position:absolute;}
+.PPT ol{ left:4px; bottom:5px; position:absolute; height:83px;}
+.PPT ol li{ float:left; width:103px; height:78px; background-color:#adb9c9; overflow:hidden; margin:3px; cursor:pointer;}
+.PPT ol li.cur{ border:3px solid #fff; margin:0;}
+.PPT sub,.PPT sup{ display:block; position:absolute; top:213px; width:38px; height:72px; cursor:pointer;}
+.PPT sub{ left:24px; background-image:url(../../../images/v2/icons/chevron-left-huge.png); _background-image:url(../../../images/v2/icons/chevron-left-huge.gif);}
+.PPT sup{ right:24px; background-image:url(../../../images/v2/icons/chevron-right-huge.png); _background-image:url(../../../images/v2/icons/chevron-right-huge.gif);}
+.PhotoViewer h6{ font-size:18px; color:#fff; margin-top:15px;}
+

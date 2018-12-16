@@ -1,0 +1,82 @@
+/* 高级搜索-表单 */
+.Main{ background-color:#f2f8ff; margin:40px auto;}
+.Main h1,.Main h2{ margin-top:10px; color:#1562c8; line-height:38px; height:40px; border-bottom:1px solid #1562c8; font-size:18px;}
+.Main h1 b,.Main h2 b{ border-bottom:2px solid #1562c8; display:block; float:left; padding:0px 10px; font-weight:normal;}
+.Main h2{ margin:15px 0 40px;}
+
+/*大表格*/
+.SearchForm{ width:790px; margin:0 auto; font-size:14px;}
+.SearchForm thead .outer{ height:45px;}
+.SearchForm tbody .outer{ height:55px; font-size:16px; color:#525252; text-align:right; font-weight:normal;}
+.text{ border:1px solid #f4f4f4; height:38px; line-height:38px; padding:0px 10px;}
+.t-l{ width:666px;}
+
+/*职位类别及行业类别定位*/
+.filter-jobs dd{ left:-244px;}
+.filter-profs dd{ left:-659px;}
+
+/*下拉列表格式*/
+.SearchForm .SELECT{ width:273px;}
+.SearchForm .SELECT dt{ height:38px; background-color:#fff; border:1px solid #f4f4f4; line-height:38px;}
+.SearchForm .SELECT dt span,.SearchForm .SELECT dt b{ width:230px;}
+.SearchForm .SELECT dt i{ background-image:url(../../images/v2/icons/chevron-down-gray.png); _background-image:url(../../images/v2/icons/chevron-down-gray.gif); opacity:0.5; filter:alpha(opacity=50);}
+.SearchForm .SELECT dt span{ color:#a4a4a4;}
+.SearchForm .SELECT-on dt{ z-index:2;}
+.SearchForm .SELECT-on dd{ z-index:1; top:38px;}
+/*有蓝色边框的尺寸要调整*/
+.SearchForm .SELECT-on .blue{ border:2px solid #93c6fe;}
+.SearchForm .SELECT-on dt.blue{ border-bottom:0; padding-left:9px; line-height:37px; line-height:36px\9;}
+.SearchForm .SELECT-on dt.blue i{ background-image:url(../../images/v2/icons/chevron-down.png); _background-image:url(../../images/v2/icons/chevron-down.gif);}
+/*超长的下拉菜单*/
+.s-l{ width:686px;}
+.s-l dt{ width:686px; padding:0px;}
+.s-l dt input{ border:0; width:666px; padding:0 10px; color:#1562c8; height:38px; line-height:38px; float:left;}
+.s-l dd.normal{ width:686px !important;}
+/*城市选择器*/
+.SearchForm .CitiesPicker dt input{ font-size:14px;}
+.SearchForm .CitiesQuery{ width:271px;}
+
+/*下拉列表分一二三列*/
+.SearchForm .SELECT .normal a:hover,.SearchForm .SELECT .normal a.checked{ background-color:#1562c8; color:#fff;}
+.SearchForm .SELECT .normal{ width:271px; border:1px solid #f4f4f4;}
+.SearchForm .SELECT .normal a{ display:block; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; line-height:35px; height:35px; color:#666;}
+.SearchForm .single a{ clear:both; padding:0px 10px;}
+.SearchForm .double a{ width:135px; _width:134px; float:left; text-indent:10px;}
+.SearchForm .triple a{ width:90px; _width:89px; float:left; text-indent:10px;}
+
+/*地铁的采集器*/
+.Railway{}
+.Railway dd{ border:1px solid #f4f4f4;}
+.Railway table{ width:685px;}
+.Railway td{ padding:10px;}
+.Railway td a{ display:inline-block; padding:0px 10px;}
+.Railway td a:hover,.Railway td a.checked{ color:#1562c8; text-decoration:underline;}
+
+
+.MoreForm{ display:none;}
+/*其它操作*/
+.Options{ width:790px; height:50px; margin:10px auto; padding:5px 0; border-top:1px solid #e8e8e8; color:#525252;}
+/*更多搜索条件*/
+.Expand{ cursor:pointer; display:block; float:left; margin-right:45px; font-size:0; padding:10px 0;}
+.Expand span{ display:inline-block; font-size:16px;}
+.Expand i{ display:inline-block; width:14px; height:14px; margin-left:5px; overflow:hidden; background-image:url(../../images/v2/icons/chevron-down-gray.png); _background-image:url(../../images/v2/icons/chevron-down-gray.gif);}
+.Expand i.on{ background-image:url(../../images/v2/icons/chevron-up-gray.png); _background-image:url(../../images/v2/icons/chevron-up-gray.gif);}
+/*下拉菜单*/
+.Options .SELECT{ float:left; margin-right:30px;}
+.Options .SELECT dt{ padding:10px 15px; border:1px solid #f2f8ff; border-bottom:0; cursor:pointer;}
+.Options .SELECT dt span{ font-size:16px; color:#525252; margin-right:5px; font-size:16px;}
+.Options .SELECT dt i{ background-image:url(../../images/v2/icons/chevron-down-gray.png); _background-image:url(../../images/v2/icons/chevron-down-gray.gif);}
+.Options .SELECT-on dt{ background-color:#fff; border-color:#f4f4f4; z-index:2;}
+.Options .SELECT dd{ border:1px solid #f4f4f4; padding:10px 0; z-index:1; top:39px;}
+/*保存搜索器*/
+.Save dd{ padding:10px !important; width:315px; height:35px;}
+.Save dd .text{ width:215px; height:33px; border:1px solid #c8e0ff; float:left;}
+.Save dd .submit{ width:65px; height:35px; float:right; border:0; cursor:pointer; background-color:#3478d2; font-size:16px; color:#fff;}
+/*选择搜索器*/
+.Choose dd{ width:200px;}
+.Choose dd a{ width:180px; _width:178px; float:left; text-indent:10px; line-height:40px; height:40px;}
+.ClearAll{ float:right; color:#1562c8; text-decoration:underline; display:block; line-height:40px;}
+.ClearAll:hover{ color:#525252; text-decoration:none;}
+div.SearchForm{ text-align:right; overflow:hidden;}
+.SearchForm .submit-search{ width:181px; padding-right:20px; height:38px; font-size:18px; color:#fff; background:#1562c8 url(../../images/v2/icons/magnifier-l.png) 110px center no-repeat; cursor:pointer; border:0; margin-bottom:20px;}
+.SearchForm .submit-search{ _background-image:url(../../images/v2/icons/magnifier-l.gif);}

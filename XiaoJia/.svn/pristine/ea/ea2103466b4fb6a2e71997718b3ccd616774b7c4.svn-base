@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>切换学校</title>
+    <meta name=viewport content="width=device-width, initial-scale=1" />
+    <style>
+        html,body,div,p{
+            padding: 0px;
+            margin: 0px;
+        }
+        .parseword_box{
+            height: 52px;
+            background-color: #fff;
+            position: relative;
+        }
+        body{
+            background-color:rgb(242,245,248);
+        }
+        .z_parseword{
+            color: #666;
+            position: relative;
+            top: -4px;
+            margin-left: 4px;
+        }
+        .login_copy{
+            float: right;
+            height: 52px;
+            line-height: 52px;
+            padding-right: 37px;
+            box-sizing: border-box;        
+        }
+        .i_img{
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background: #fff url(../images/tele.png) no-repeat 50% 50%;
+            vertical-align: middle;
+        }
+        .i_img,span{
+            vertical-align: middle;
+        }
+        .box{
+            width: 713px;
+            min-height: 464px;
+            background-color: #ffffff;
+            box-shadow: 0px 1px 6px 0px 
+                rgba(224, 224, 224, 0.75);
+            border-radius: 4px;
+            margin: 0 auto;
+            margin-top: 43px;
+            padding-bottom: 40px;
+        }
+        .g{
+            width: 713px;
+            height: 8px;
+            background-image: linear-gradient(-89deg, 
+                #b196ff 0%, 
+                #5981e0 54%, 
+                #006cc1 100%), 
+            linear-gradient(
+                #ffffff, 
+                #ffffff);
+            background-blend-mode: normal, 
+                normal;
+            border-radius: 2px;
+        }
+        .qie{
+            text-align: center;
+            padding-top: 86px;
+            padding-bottom: 45px;
+        }
+        .qie_box_list{
+            font-size: 0px;
+            text-align: center;
+        }
+        .qie_box_list .one,.qie_box_list .two{
+            display: inline-block;
+            width: 105px;
+            height: 105px;
+            line-height: 105px;
+            text-align: center;
+            border-radius: 50%;
+            font-size: 14px;
+            border: 2px solid #e3e3e3;
+            cursor: pointer;
+        }
+        .qie_box_list .one img,.qie_box_list .two img{
+            vertical-align: middle;
+        }
+        .qie_box_list>div{
+            margin: 20px 22.5px;
+        }
+        .qie_box_list .one{
+            margin: 0 22.5px;
+        }
+        .qie_box_list .one.cur{
+            border: 2px solid #066cbd;
+        }
+        .qie_box_list .two{
+
+        }
+        .qie_box_list .two.cur{
+            border: 2px solid #066cbd;
+        }
+        .btn_box{
+            text-align: center;
+            padding-top: 54px;
+        }
+        .btn_box a{
+            display: inline-block;
+            width: 261px;
+            height: 48px;
+            line-height: 48px;
+            background-color: #066cbd;
+            border-radius: 2px;
+            color: #fff;
+            text-align: center;
+        }
+        a{
+            text-decoration: none;
+        }
+       .sc_name{
+           height: 30px;
+           line-height: 30px;
+           padding-top: 10px;
+           overflow: hidden;
+           text-overflow: ellipsis;
+           white-space: nowrap;
+       }
+    </style>
+</head>
+<body>
+
+<div class="parseword_box">
+	<div class="parseword_box_top">
+		<img src="../images/parseword_logo1.png" alt="" class="pasee_img" style="margin:6px 0px 0px 18px;"/>
+		<span class="z_parseword"></span>
+		<div class="login_copy login_copy2">
+			<i class="i_img"></i>
+			<span>400-600-3310</span>
+		</div>
+		<div class="parseword_main">
+            
+            <div class="box">
+                <div class="g"></div>
+                <div class="qie">
+                    <img src="../images/qie_scholl_03.png" alt="">
+                </div>
+                <div class="qie_box_list">
+                    <div class="one cur">
+                        <img src="../images/xjiao1.png" alt="">
+                        <div class="sc_name">趴趴教育趴趴教育趴趴教育趴趴教育</div>
+                    </div>
+                    <div class="two">
+                        <img src="../images/jixoa2.png" alt="">
+                        <div class="sc_name">天琥教育</div>
+                    </div>
+                </div>
+               
+                <div class="btn_box">
+                    <a href="javascript:;">确  认</a>
+                </div>
+            </div>
+            
+			
+		</div>
+	</div>
+</div>
+
+<script src="../js/jquery.js"></script>
+<script>
+    $(function(){
+        $('.qie_box_list>div').click(function(){
+            $(this).addClass('cur').siblings().removeClass('cur');
+        })
+    })
+</script>
+</body>
+</html>

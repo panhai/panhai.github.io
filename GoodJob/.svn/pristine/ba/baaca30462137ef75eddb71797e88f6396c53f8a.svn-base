@@ -1,0 +1,356 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>企业中心-职位管理-有效职位-所有职位</title>
+</head>
+<link rel="stylesheet" type="text/css" href="../css/Company/css.css">
+<link rel="stylesheet" type="text/css" href="../css/Company/jobs.css">
+<link rel="stylesheet" type="text/css" href="../css/plugin/center4.css">
+<body>
+<div class="header"><div class="common">
+    <p>
+    	<a href="#">Admin</a> |
+        <a href="#">退出</a> |
+        <a href="#">切换后台</a> |
+        <a href="#">消息</a> |
+        <a href="#">反馈</a> |
+        <a href="#">帮助</a>
+    </p>
+</div></div>
+<div class="nav"><div class="common">
+	<a href="#" class="nav-logo"><img src="../images/CpCenter/logo.jpg" width="104" height="45"></a>
+    <ul>
+    	<li><a href="index.html" class="cur">首页<i></i></a></li>
+    	<li><a href="profile.html">企业资料<i></i></a></li>
+    	<li><a href="favors.html">HR收藏<i></i></a></li>
+    	<li><a href="tools.html">实用工具<i></i></a></li>
+    	<li><a href="manage.html">帐号管理<i></i></a></li>
+    </ul>
+    <div class="tool">
+    	<p><a href="publish.html">发布新职位</a></p>
+    	<p class="tool-pull">
+        	<span>校企合作邀请</span>
+        	<i></i>
+        	<samp>
+            	<a href="invite.html">校企合作邀请</a>
+            	<a href="invite-job.html">校企合作职位申请</a>
+            	<a href="invite-conf.html">宣讲会申请</a>
+            </samp>
+        </p>
+    </div>
+</div></div>
+
+<div class="main common">
+	<div class="left">
+    	<ul class="menus">
+        	<li>
+            	<h3>简历管理<i></i></h3>
+                <p>
+                	<a href="resumes-unread.html">未处理简历<i class="i1">2</i></a>
+                    <!--此处的i，如果是一位数，就写class="i1"，两位数就是i2-->
+                	<a href="resumes-invite.html">已邀请面试</a>
+                	<a href="resumes-sure.html">确认来面试</a>
+                	<a href="resumes-notmatch.html">更多</a>
+                </p>
+            </li>
+        	<li>
+            	<h3>职位管理<i></i></h3>
+                <p>
+                	<a href="jobs.html" class="cur">有效职位</a>
+                	<a href="jobs-checking.html">审核中职位</a>
+                	<a href="jobs-stop.html">已暂停职位</a>
+                </p>
+            </li>
+        	<li>
+            	<h3>宣讲会管理<i></i></h3>
+                <p>
+                	<a href="conf.html">申请记录</a>
+                	<a href="conf-invited.html">受邀请记录</a>
+                	<a href="conf-passed.html">已通过宣讲会</a>
+                </p>
+            </li>
+        	<li>
+            	<h3>企业合作<i></i></h3>
+                <p>
+                	<a href="coop.html">邀请合作</a>
+                	<a href="coop-invited.html">被邀请合作</a>
+                	<a href="coop-ing.html">已达成合作协议</a>
+                </p>
+            </li>
+        </ul>
+    </div>
+	<div class="right">
+    	<ol class="labels">
+        	<li class="cur"><a href="jobs.html">所有职位</a></li>
+            <li><a href="jobs-co.html">校企合作职位</a></li>
+        </ol>
+        <form class="form">
+        	<p class="form-left">
+            	<a href="#" class="cur">全职</a>
+            	<a href="#">实习</a>
+            	<a href="#">兼职</a>
+            </p>
+            <div class="form-right">
+                <input type="text" class="form-key" placeholder="请输入关键词">
+                <input type="submit" class="form-submit" value="">
+                <div class="form-select">
+                	<input type="hidden" class="form-hidden">
+                	<i></i>
+                	<span>全部职位</span>
+                    <ul>
+                    	<li><a href="javascript:void(0)">职位名称一</a></li>
+                    	<li><a href="javascript:void(0)">职位名称一</a></li>
+                    	<li><a href="javascript:void(0)">职位名称一</a></li>
+                    	<li><a href="javascript:void(0)">职位名称一</a></li>
+                    </ul>
+                </div>
+            </div>
+        </form>
+        
+        <dl class="list all">
+        	<dt>
+            	<var>职位名称</var><dfn>更新时间</dfn><kbd>职位详情</kbd><ins>操作</ins>
+            </dt>
+            <dd>
+            	<var>安卓技术工程师</var>
+                <dfn>2014-11-17 14:30</dfn>
+                <kbd><p>
+                    浏览：<b>205</b>&nbsp;&nbsp;
+                    投递：<b>100</b><br>
+                    简历查看率：<b>80%</b><br>
+                    <samp>收起信息<i></i></samp>
+                </p></kbd>
+                <ins><p>
+                	<span>已刷新</span>|<a href="#">分享</a><br>
+					<a href="#">编辑</a>|<a href="#" data-id="1">暂停</a>|<a href="#" data-id="1">置顶</a>
+                </p></ins>
+                <blockquote>
+                	<p>职位“安卓技术工程师”共收到 <b>50</b> 份简历</p>
+                    <p>
+                    	待处理：<b>10</b>&nbsp;&nbsp;&nbsp;
+                    	确认来应聘：<em>10</em>&nbsp;&nbsp;&nbsp;
+                    	已邀请面试：<em>10</em>&nbsp;&nbsp;&nbsp;
+                    	系统自动处理：<em>10</em>&nbsp;&nbsp;&nbsp;
+                    	不适合简历：<q>10</q>&nbsp;&nbsp;&nbsp;
+                    	拒绝应聘：<q>10</q>
+                    </p>
+                </blockquote>
+            </dd>
+            <dd>
+            	<var>安卓技术工程师</var>
+                <dfn>2014-11-17 14:30</dfn>
+                <kbd><p>
+                    浏览：<b>205</b>&nbsp;&nbsp;
+                    投递：<b>100</b><br>
+                    简历查看率：<b>80%</b><br>
+                    <samp>收起信息<i></i></samp>
+                </p></kbd>
+                <ins><p>
+                	<span>已刷新</span>|<a href="#">分享</a><br>
+					<a href="#">编辑</a>|<a href="#" data-id="2">暂停</a>|<a href="#" data-id="2">置顶</a>
+                </p></ins>
+                <blockquote>
+                	<p>职位""共收到 <b>50</b> 份简历</p>
+                    <p>
+                    	待处理：<b>10</b>&nbsp;&nbsp;&nbsp;
+                    	确认来应聘：<em>10</em>&nbsp;&nbsp;&nbsp;
+                    	已邀请面试：<em>10</em>&nbsp;&nbsp;&nbsp;
+                    	系统自动处理：<em>10</em>&nbsp;&nbsp;&nbsp;
+                    	不适合简历：<q>10</q>&nbsp;&nbsp;&nbsp;
+                    	拒绝应聘：<q>10</q>
+                    </p>
+                </blockquote>
+            </dd>
+            <dd>
+            	<var>安卓技术工程师</var>
+                <dfn>2014-11-17 14:30</dfn>
+                <kbd><p>
+                    浏览：<b>205</b>&nbsp;&nbsp;
+                    投递：<b>100</b><br>
+                    简历查看率：<b>80%</b><br>
+                    <samp>收起信息<i></i></samp>
+                </p></kbd>
+                <ins><p>
+                	<span>已刷新</span>|<a href="#">分享</a><br>
+					<a href="#">编辑</a>|<a href="#" data-id="3">暂停</a>|<a href="#" data-id="3">置顶</a>
+                </p></ins>
+                <blockquote>
+                	<p>职位""共收到 <b>50</b> 份简历</p>
+                    <p>
+                    	待处理：<b>10</b>&nbsp;&nbsp;&nbsp;
+                    	确认来应聘：<em>10</em>&nbsp;&nbsp;&nbsp;
+                    	已邀请面试：<em>10</em>&nbsp;&nbsp;&nbsp;
+                    	系统自动处理：<em>10</em>&nbsp;&nbsp;&nbsp;
+                    	不适合简历：<q>10</q>&nbsp;&nbsp;&nbsp;
+                    	拒绝应聘：<q>10</q>
+                    </p>
+                </blockquote>
+            </dd>
+            <dd>
+            	<var>安卓技术工程师</var>
+                <dfn>2014-11-17 14:30</dfn>
+                <kbd><p>
+                    浏览：<b>205</b>&nbsp;&nbsp;
+                    投递：<b>100</b><br>
+                    简历查看率：<b>80%</b><br>
+                    <samp>收起信息<i></i></samp>
+                </p></kbd>
+                <ins><p>
+                	<span>已刷新</span>|<a href="#">分享</a><br>
+					<a href="#">编辑</a>|<a href="#" data-id="4">暂停</a>|<a href="#" data-id="4">置顶</a>
+                </p></ins>
+                <blockquote>
+                	<p>职位""共收到 <b>50</b> 份简历</p>
+                    <p>
+                    	待处理：<b>10</b>&nbsp;&nbsp;&nbsp;
+                    	确认来应聘：<em>10</em>&nbsp;&nbsp;&nbsp;
+                    	已邀请面试：<em>10</em>&nbsp;&nbsp;&nbsp;
+                    	系统自动处理：<em>10</em>&nbsp;&nbsp;&nbsp;
+                    	不适合简历：<q>10</q>&nbsp;&nbsp;&nbsp;
+                    	拒绝应聘：<q>10</q>
+                    </p>
+                </blockquote>
+            </dd>
+            <dd>
+            	<var>安卓技术工程师</var>
+                <dfn>2014-11-17 14:30</dfn>
+                <kbd><p>
+                    浏览：<b>205</b>&nbsp;&nbsp;
+                    投递：<b>100</b><br>
+                    简历查看率：<b>80%</b><br>
+                    <samp>收起信息<i></i></samp>
+                </p></kbd>
+                <ins><p>
+                	<span>已刷新</span>|<a href="#">分享</a><br>
+					<a href="#">编辑</a>|<a href="#" data-id="5">暂停</a>|<a href="#" data-id="5">置顶</a>
+                </p></ins>
+                <blockquote>
+                	<p>职位""共收到 <b>50</b> 份简历</p>
+                    <p>
+                    	待处理：<b>10</b>&nbsp;&nbsp;&nbsp;
+                    	确认来应聘：<em>10</em>&nbsp;&nbsp;&nbsp;
+                    	已邀请面试：<em>10</em>&nbsp;&nbsp;&nbsp;
+                    	系统自动处理：<em>10</em>&nbsp;&nbsp;&nbsp;
+                    	不适合简历：<q>10</q>&nbsp;&nbsp;&nbsp;
+                    	拒绝应聘：<q>10</q>
+                    </p>
+                </blockquote>
+            </dd>
+        </dl>
+        
+        <div class="pages2">
+        	<span class="ctrl">首页</span>
+        	<span class="ctrl">上一页</span>
+            <b>1</b>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#" class="ctrl">下一页</a>
+            <a href="#" class="ctrl">尾页</a>
+        </div>
+
+    </div>
+	<div class="clear"></div>
+</div>
+
+<div class="footer">
+	<div class="common tail">
+        <samp class="tail-nav">
+            <a href="#" class="first">关于我们</a>
+            <a href="#">法律声明</a>
+            <a href="#">保密承诺</a>
+            <a href="#">Investor Relatiao</a>
+            <a href="#">关于我们</a>
+        </samp>
+    </div>
+    <div class="common copyright">
+    	<p>京ICP备09083200号 京ICP证070419号 人才服务许可证：RC0710280</p>
+    	<p>Copyright&copy;2000-2014 liepin.com All Rights Reserved</p>
+    </div>
+</div>
+
+
+<dl class="CenterDiv CancelAsk top-fixed white5">
+	<dt class="CenterTopic"><h3>暂停职位</h3><q>&times;</q></dt>
+    <dd class="CenterContent">
+    	<h4>暂停该职位？</h4>
+        <p>暂停后再次发布，该职位将按暂停前的好工作指数进行排名。</p>
+        <div class="CenterBtns">
+        	<input type="submit" class="submit" value="确定">
+            <input type="reset" class="reset" value="再考虑一下">
+        </div>
+    </dd>
+</dl>
+
+
+<dl class="CenterDiv top-fixed white5 PushDiv">
+	<dt class="CenterTopic"><h3>职位竞价顶置</h3><q>&times;</q></dt>
+    <dd class="CenterContent">
+    	<div class="PushTopic">
+        	<strong>职位：产品经理产品经理产品经理</strong>
+            <a href="services.html">置顶帮助</a>
+        </div>
+        <div class="PushList">
+        	<p><em>出价</em></p>
+            <p>剩余时间：<b class="hour">2</b>小时<b class="minute">23</b>分<b class="second">20</b>秒</p>
+            <p>地区：<strong class="area">广州</strong></p>
+            <p>职能：<strong class="sort">产品经理</strong></p>
+            <p>出价：<input type="text" class="money"> 参考价格：<q class="reference">100</q>元</p>
+            <p><span>*最低起价<q class="lowest">50</q>元</span></p>
+        </div>
+        <div class="PushTip">
+            <p><strong>温馨提示：</strong></p>
+            <p>1、置顶功能只针对有效职位，置顶后请确保职位处于有效状态；</p>
+            <p>2、置顶生效时间内请勿更改职能类别，否则职位将不能保证正常置顶显示；</p>
+            <p>3、在截止时间之前，您可以随意追加出价，但不能撤销或者降低出价；</p>
+            <p>4、职能排名生效时间：竞价后次日（0时～24时）</p>
+        </div>
+        <div class="PushMoney clear">
+        	余额：<q class="charge">2000</q>元 <a href="#">立即充值</a>
+            <label><input type="checkbox" class="message"> 竞价结果及时短信通知（免费）</label>
+        </div>
+        
+        <div class="CenterBtns">
+        	<input type="submit" class="submit" value="确定">
+            <input type="reset" class="reset" value="取消">
+        </div>
+    </dd>
+</dl>
+
+<dl class="CenterDiv top-fixed white5 ConfirmDiv">
+    <dt class="CenterTopic"><h3>确认出价</h3><q>&times;</q></dt>
+    <dd class="CenterContent">
+    	<table class="ItemTable"><tbody>
+        	<tr><th>职能</th><th>地区</th><th>出价金额（元）</th></tr>
+            <tr><td class="sort">广州</td><td class="area">产品经理</td><td class="money">money</td></tr>
+        </tbody></table>
+        <div class="ConfirmTip">*系统将暂时冻结<span class="money">200</span>元账户余额，成功竞标后直接扣除，否则自动返还至您的账户。</div>
+        
+        <div class="CenterBtns">
+        	<input type="submit" class="submit" value="确定">
+            <input type="reset" class="reset" value="取消">
+        </div>
+    </dd>
+</dl>
+
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/web/all.js"></script>
+<script src="../js/web/center.js"></script>
+<script src="../js/company/all.js"></script>
+<script src="../js/company/jobs.js"></script>
+<script>
+$(function(){
+	LeftMenu();
+    ToolPull();
+	Selects();
+	Blockquote();
+	ClearBorder(".list");
+	CenterDiv();
+	ConfirmAsk("ins p a:contains('暂停')",".CancelAsk");
+	PushSet();
+});
+</script>

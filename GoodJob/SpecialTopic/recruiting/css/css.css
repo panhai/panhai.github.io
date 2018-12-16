@@ -1,0 +1,183 @@
+﻿*{margin:0; padding: 0; font-family: 微软雅黑; list-style-type: none; text-decoration: none; }
+.clear{clear:both; height:0; font-size:0; overflow:hidden;}
+input::-ms-clear{ display:none;}
+.display{display: none;}
+.successMsg{display: none}
+a img{ border:0px;}
+body{ font-size:12px; color:#333;}
+i{ font-style:normal;}
+em{ font-style:normal;}
+textarea{resize:none;}
+input,button,select,textarea{ outline:none;}
+/*撑开父容器*/  
+.clearfix:after {content: "."; display: block; height: 0; clear: both; visibility: hidden;  }
+/*针对IE*/  
+.clearfix { /*float:none !important; clear:both !important;*/ zoom:1; }  
+.gd-xindan01 *,.gd-xindan02 *,.gd-xindan02-2 *,.gd-baoming01 *,.gd-student02 *{font-family: 宋体;}
+table{ border-collapse:collapse; /*table-layout:fixed;*/}
+/*CustomerService.js多个位置都用这个类.hidden */
+.f-l{ float:left ;}
+.f-r{ float:right !important;}
+.c-blue{ color:#208efe;}
+.c-blue2{ color:#3bb2d0;}
+.c-green{ color:#22973b;}
+.c-orange{ color:#fe6000;}
+.c-red{ color:#ff6666;}
+
+.c-grey01{ color:#999 !important;}
+.c-grey02{ color:#666 !important;}
+.c-grey03{ color:#333 !important;}
+.common{ width:1000px; margin:0 auto; clear:both;}
+
+.m-l5{ margin-left:5px !important;}
+.m-l10{ margin-left:10px !important;}
+.m-l15{ margin-left:15px !important;}
+.m-l20{ margin-left:20px !important;}
+.m-l30{ margin-left:30px !important;}
+.m-l50{ margin-left:50px !important;}
+.m-l55{ margin-left:55px !important;}
+.m-l90{ margin-left:90px !important;}
+.m-l150{ margin-left:150px !important;}
+.m-r5{ margin-right:5px !important;}
+.m-r10{ margin-right:10px !important;}
+.m-r15{ margin-right:15px !important;}
+.m-r30{ margin-right:30px !important;}
+.m-r50{ margin-right:50px !important;}
+.m-t8{ margin-top:8px !important;}
+.m-t10{ margin-top:10px !important;}
+.m-t15{ margin-top:15px !important;}
+.m-t20{ margin-top:20px !important;}
+.m-b10{ margin-bottom:10px !important;}
+.m-b30{ margin-bottom:30px !important;}
+.m0{ margin:0 !important;}
+.p-l5{ padding-left:5px !important;}
+.p-l10{ padding-left:10px !important;}
+.p-l15{ padding-left:15px !important;}
+.p-l20{ padding-left:20px !important;}
+.p-l25{ padding-left:25px !important;}
+.p-l30{ padding-left:30px !important;}
+.p-l35{ padding-left:35px !important;}
+.p-l65{ padding-left:65px !important;}
+.p-l90{ padding-left:90px !important;}
+.p-r5{ padding-right:5px;}
+.p-r10{ padding-right:10px;}
+.p-r15{ padding-right:15px;}
+.p-r20{ padding-right:20px;}
+.p-r25{ padding-right:25px;}
+.p-r30{ padding-right:30px;}
+.p-r35{ padding-right:35px;}
+.p-t10{ padding-top:10px !important;}
+.p-t20{ padding-top:20px !important;}
+.p-t30{ padding-top:30px !important;}
+.p-t60{ padding-top:60px !important;}
+.p-b3{ padding-bottom:3px !important;}
+.p-b5{ padding-bottom:5px !important;}
+.p-b6{ padding-bottom:6px !important;}
+.p-b7{ padding-bottom:7px !important;}
+.p-b8{ padding-bottom:8px !important;}
+.p-b9{ padding-bottom:9px !important;}
+.p-b10{ padding-bottom:10px !important;}
+.p-b12{ padding-bottom:12px !important;}
+.p-b14{ padding-bottom:14px !important;}
+.p-b16{ padding-bottom:16px !important;}
+.p-b18{ padding-bottom:18px !important;}
+.p-b20{ padding-bottom:20px !important;}
+.hidden{ display:none;}
+.header{position: relative; height:70px;}
+.f14{ font-size:14px !important;}
+.f16{ font-size:16px !important;}
+.f18{ font-size:18px !important;}
+.f20{ font-size:20px !important;}
+.banner{ height:442px; background:#3598dc url(../images/banner.png) no-repeat center center; position:relative;}
+
+.logo{}
+.header-nav{ padding-top:10px;}
+.header-nav li{ padding:0 5px; margin-left:30px; height:60px; line-height:60px; float:left;}
+.header-nav li.cur{height:57px; border-bottom:3px solid #fe6000;}
+.header-nav li a{ color:#666; display:inline-block; font-size:16px;}
+
+
+.background{display:none; background:#000; opacity:0.5; filter:alpha(opacity=50);   position:absolute; top:0; left:0; height:100%; width:100%; z-index:11; }
+
+/*****好学校排名规则*****/
+.rule{ position: relative; background:#fff;}
+.rule .h{ height:47px; line-height:47px; text-align:center;}
+.rule .h span{ width: 200px;display:inline-block; background:#fd362f;  color:#fff; font-size:22px;}
+.rule .menu{ background:#fff;}
+.rule .block01{ padding:50px 0 70px 24px;}
+.rule .block01 .item{ width:423px; height:105px; float:left; margin:0 10px 17px; padding:12px 15px; border:1px solid #e9e9e9; display:block;}
+.rule .block01 .imgbox{ width:100px; height:100px; border:1px solid #e9e9e9; float:left;}
+.rule .block01 .imgbox img{ width:100px; height:100px;}
+.rule .block01 .text{padding-top:6px; float:left; width:300px; position:relative; margin-left:15px;}
+.rule .block01 .text .money{ position:absolute; top:6px; right:0; text-align:right; color:#ff554e; font-size:18px;}
+.rule .block01 .text .title{ font-size:20px; width:220px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; padding-bottom:10px; color:#333;}
+.rule .block01 .text .title a{
+    color: #333;
+}
+.rule .block01 .text .p a{color: #666;}
+.rule .block01 .text .p{cursor: pointer; font-size:16px; color:#666; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; padding-bottom:7px;}
+.rule .block02{ padding:50px 50px 0 50px;}
+.rule .block02 .item{ padding-bottom:40px;cursor: pointer;}
+.rule .block02 .title{ font-size:20px; padding-bottom:20px; font-weight:bold;}
+.rule .block02 .subtitle{ font-size:16px; padding-bottom:5px;}
+.rule .block02 .text{ font-size:14px; color:#999; line-height:24px;}
+.rule .bottom{ height:170px; border-top:1px solid #d7d7d7;}
+.rule .bottom .left{ float:left; color:#666; padding-top:40px;}
+.rule .bottom .left .numbar{ font-size:40px; color:#00aee1; font-weight:bold;}
+.rule .bottom .right{ float:right; text-align:right; padding:50px 0 0 0;}
+.rule .bottom .right a{ display:inline-block; color:#666; padding:0 30px; border-right:1px solid #d4d4d4; font-size:14px;}/*****好学校排名规则*****/
+.rule{ position: relative; background:#fff;}
+.rule .h{ height:47px; line-height:47px; text-align:center;}
+.rule .h span{ display:inline-block; background:#fd362f;  color:#fff; padding:0 20px; font-size:22px;}
+.rule .menu{ background:#fff;}
+.rule .block01{ padding:50px 0 70px 24px;}
+.rule .block01 .item{ cursor:pointer;width:423px; height:105px; float:left; margin:0 10px 17px; padding:12px 15px; border:1px solid #e9e9e9; display:block;}
+.rule .block01 .imgbox{ width:100px; height:100px; border:1px solid #e9e9e9; float:left;}
+.rule .block01 .imgbox img{ width:100px; height:100px;}
+.rule .block01 .text{padding-top:6px; float:left; width:300px; position:relative; margin-left:15px;}
+.rule .block01 .text .money{ position:absolute; top:6px; right:0; text-align:right; color:#ff554e; font-size:18px;}
+.rule .block01 .text .title{ font-size:20px; width:220px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; padding-bottom:10px; color:#333;}
+.rule .block01 .text .title a{
+    color: #333;
+}
+.rule .block01 .text .p a{color: #666;}
+.rule .block01 .text .p{ font-size:16px; color:#666; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; padding-bottom:7px;}
+.rule .block02{ padding:50px 50px 0 50px;}
+.rule .block02 .item{ padding-bottom:40px;}
+.rule .block02 .title{ font-size:20px; padding-bottom:20px; font-weight:bold;}
+.rule .block02 .subtitle{ font-size:16px; padding-bottom:5px;}
+.rule .block02 .text{ font-size:14px; color:#999; line-height:24px;}
+.rule .bottom{ height:170px; border-top:1px solid #d7d7d7;}
+.rule .bottom .left{ float:left; color:#666; padding-top:40px;}
+.rule .bottom .left .numbar{ font-size:40px; color:#00aee1; font-weight:bold;}
+.rule .bottom .right{ float:right; text-align:right; padding:50px 0 0 0;}
+.rule .bottom .right a{ display:inline-block; color:#666; padding:0 30px; border-right:1px solid #d4d4d4; font-size:14px;}
+
+.sidebars{ width:160px; height:490px; position: absolute;top: 30px; left: -180px; /*position:fixed; top:10px; left:10px;*/ background:url(../images/sidebars2.png) no-repeat;}
+.sidebars .item{ height:53px; line-height:52px; text-align:center; margin-bottom:16px; color:#fff; font-size:16px; font-weight:bold; position:relative; cursor:pointer;}
+.sidebars .item i{ width:29px; height:21px; background:url(../images/jiao.png) no-repeat; position:absolute; top:15px; left:160px; display:none;}
+.sidebars .item.cur{ background:#fff; color:#fd362f;}
+.sidebars .item.cur i{ display:block;}
+
+
+
+
+#space-baidu{z-index: 1;position: absolute; right: -38px; top: 100px; width: 120px; height: 30px;}
+#space-baidu a{  width: 21px; height: 21px; padding-left: 0;}
+#space-baidu .bds_tsina{background: url(../images/weibo.png) no-repeat; background-position: 0 0;}
+#space-baidu .bds_weixin{background: url(../images/wx.png) no-repeat; background-position: 0 0;}
+#space-baidu .bds_more{/*background-position: 0 3px;*/background: url("../images/space.png") no-repeat center left;}
+/*	
+	IE6屏幕固定
+*/
+.fixed{ position:fixed; _position:absolute;}
+.fixed-top{
+    top:0px;
+    _top:expression(eval(document.documentElement.scrollTop));
+}
+
+.fixed-bottom{
+    bottom:0px;
+    _top:expression(eval(document.documentElement.scrollTop + document.documentElement.clientHeight - this.clientHeight - (parseInt(this.currentStyle.marginTop) || 0) - (parseInt(this.currentStyle.marginBottom) || 0)));
+}
+.fixed-left{ left:0; _left:expression(eval(document.documentElement.scrollLeft));}

@@ -1,0 +1,296 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+
+</title>
+    <link href="../css/1024/common.css" rel="stylesheet" type="text/css" />
+    <link href="../css/1024/schoolAdmin.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/MD5.js"></script>
+    <script type="text/javascript" src="../js/jbody.js"></script>
+    <script type="text/javascript" src="../js/jbody-plugin.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+    <script type="text/javascript" src="../js/area.js"></script>
+    <script type="text/javascript" src="../js/subjects.js"></script>
+    <script type="text/javascript" src="../js/jobPositions.js"></script>
+    <script type="text/javascript" src="../js/admin/common.js"></script>
+    <script type="text/javascript" src="../js/selectors.js"></script>
+    <script type="text/javascript" src="../js/admin/schoolAdmin.js"></script>
+    
+    <style type="text/css">
+        .bodyBlock .editBlockBorder a{ margin-right:15px; color:#0094ff; }
+        .bodyBlock .editBlockBorder a:hover{ text-decoration:underline; }
+    </style>
+</head>
+<body>
+    <iframe id="_postTargetIframe" name="_postTargetIframe" style="display:none;" src="about:blank"></iframe>
+    
+
+    
+    
+<div class="pg-msg-orange">
+    <div class="pg-msg-txt">你必须完善内容</div>
+    <div class="pg-msg-bt">×</div>
+</div>
+<div id="pg-header" class="pg-header">
+    <div class="pg-header-main">
+        <div class="logo">
+            <a href="/sysuxky/"><img alt="好工作网Logo" src="../images/logo.png" class="pngfix" width="232" height="40" /></a>
+        </div>
+        <div class="cname">中山大学信息技术与科学学院</div>
+        <div class="r mginT10">
+    <div class="platform-switch-container">
+    <div class="platform-switch-main msout">
+        <span class="floatR">切换后台</span>
+        <span class="floatR" style="border:solid 1px #ffc183; line-height:12px; margin-right:5px; padding-left:1px; padding-right:1px;">+</span>
+        <div style="clear:both;"></div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        $(".platform-switch-main").click(function () {
+            JBFrameHelper.showPage("/UCenter/PlatformSwitch.html", { obj: this, title: "切换到个人中心或其他管理后台", w: 500, pos: { to: "win", parent: "doc", park: "inside", parkInside: "center" } }, true, false);
+        });
+    })
+</script>
+
+</div>
+    </div>
+</div>
+    
+<div id="pg-nav" class="pg-nav">
+    <ul>
+        <li><div class="nav-title"><a href="#">管理首页</a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">用户与设置<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">资讯通告<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">校企合作<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">招聘信息<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">专业 ▪ 导师<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">学籍学生<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">更多<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="/School/sysuxky/">前台</a></div></li>
+    </ul>
+</div>
+<div style="clear:both;"></div>
+<div id="pg-nav-sub"  style="display:none;">
+    <div id="pg-nav-sub-inner">
+        <div id="pg-nav-sub-main">
+        <ul style="display:none;">
+            <li><a href="sum.html">系统概况</a></li>
+            <li><a href="School.html">后台管理功能快捷链接</a></li>
+            <li><a href="#">消息</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Setting.html">系统设置</a></li>
+            <li><a href="Intro.html">院校介绍</a></li>
+            <li><a href="Manager-custmRoles.html">管理员角色</a></li>
+            <li><a href="Manager.html">管理员</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Article-list.html">事务通知</a></li>
+            <li><a href="Article-kx.html">学院快讯</a></li>
+            <li><a href="Article-jyzd.html">就业指导</a></li>
+            <li><a href="Article-sxzn.html">升学指南</a></li>
+            <li><a href="Article-zsxx.html">招生信息</a></li>
+            <li><a href="Article-bnner.html">首页Banner</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Company-Search.html">企业搜索</a></li>
+            <li><a href="Company-Recieved.html">收到的请求</a></li>
+            <li><a href="Company-Sended.html">发出的请求</a></li>
+            <li><a href="Company-Default.html">合作企业列表</a></li>
+            <li><a href="Company-Black.html">黑名单企业</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Offers-all.html">合作企业请求的招聘</a></li>
+            <li><a href="Offers-Fairs.html">招聘会 ▪ 宣讲会</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Majors.html">学科专业</a></li>
+            <li><a href="#">特聘导师</a></li>
+            <li><a href="#">导师申请</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="#">在校学生</a></li>
+            <li><a href="#">往届学生</a></li>
+            <li><a href="#">全部学生</a></li>
+            <li><a href="#">学籍导入</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="FriendLinks.html">友情链接</a></li>
+            <li><a href="Info.html">个人设置</a></li>
+            <li><a href="Password.html">修改密码</a></li>
+        </ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+    </div>
+    </div>
+</div>
+<div style="clear:both;"></div>
+    <div class="pageMainContentContainer">            
+    <form method="post" action="" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="s0XZCHWEqdoPRVrwzm+QuFiA1QTnoxFildT3E0AJvDoDYRMbEF9YYjXdZxrd/wK2dO8wbf+PcDJ6D5JbWQuQJXTnHrEw8xBkUBb0HSJG+Kpk4YmNTw5Z3y0+WYAeLmXO+KUg9nKZqxAGz6fdGK8VUD2EQ6HkMIznyTCnIRT7LpLbZqvTDlVzxYD5bkeBHeyEJ/ZCg0+OFjgY4by0lZgaXPUMaG2LIm/bbdG9DOERNKA=" />
+</div>
+
+<div class="aspNetHidden">
+
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="C3402E54" />
+</div>
+    
+    <div class="bodyBlock">
+        <div class="detailBlockTitle" style="padding-left:20px;"><div class="leftIco"></div><div class="left">后台管理功能快捷链接</div></div>
+        <div class="editBlockBorder">   
+            <div class="mgin30 font14">
+                <div class="font16 bold">信息汇总</div>
+                <a href="sum.html">系统概况</a>
+                <a href="all.html">全部功能列表</a>
+            </div>    
+            <div class="mgin30 font14">
+                <div class="font16 bold">招聘信息管理</div>
+                <a href="Offers-wait.html">等待审核的招聘请求</a>
+                <a href="Offers-all.html">全部招聘请求</a>
+                <a href="Offers-ing.html">正在招聘的企业职位</a>
+                <a href="Offers-Fairs.html">招聘会/宣讲会管理</a>
+                <a href="Offers-Fairs-add.html">添加招聘会/宣讲会</a>
+            </div>
+            <div class="mgin30 font14">
+                <div class="font16 bold">新闻 / 资讯 / 文章 / 广告管理</div>
+                <a href="Article-list.html">事务通知管理</a>
+                <a href="Article-add.html">添加事务通知</a>
+                <a href="Article-kx.html">院校快讯管理</a>
+                <a href="Article-kx-add.html">添加院校快讯</a>
+                <a href="Article-jyzd.html">就业指导管理</a>
+                <a href="Article-jyzd-add.html">添加就业指导</a><br />
+                <a href="Article-sxzn.html">升学指南管理</a>
+                <a href="Article-sxzn-add.html">添加升学指南</a>
+                <a href="Article-zsxx.html">招生信息管理</a>
+                <a href="Article-zsxx-add.html">添加招生信息</a>
+                <a href="Article-bnner.html">首页Banner图片广告管理</a>
+                <a href="Article-bnner-add.html">添加首页Banner图片广告</a>
+            </div>
+            <div class="mgin30 font14">
+                <div class="font16 bold">就业招聘合作企业</div>
+                <a href="Company-Search.html">搜索企业</a>
+                <a href="Company-Default.html">合作企业管理</a>
+                <a href="Company-Recieved.html">收到的合作请求</a>
+                <a href="Company-Sended.html">发出的合作请求</a>
+                <a href="Company-Black.html">黑名单企业</a>
+            </div>
+            <div class="mgin30 font14">
+                <div class="font16 bold">学科 / 专业</div>
+                <a href="Majors.html">全部学科专业</a>
+                <a href="Majors-add.html">添加学科专业</a>
+            </div>
+            <div class="mgin30 font14">
+                <div class="font16 bold">导师</div>
+                <a href="#">导师申请管理</a>
+                <a href="#">导师列表</a>
+            </div>
+            <div class="mgin30 font14">
+                <div class="font16 bold">学生 / 学籍</div>
+                <a href="#">在校学生</a>
+                <a href="#">往届学生</a>
+                <a href="#">全部学生</a>
+                <a href="#">学籍导入</a>
+            </div>
+            <div class="mgin30 font14">
+                <div class="font16 bold">管理员角色及成员管理</div>
+                <a href="Manager.html">管理员管理</a>
+                <a href="Manager-add.html">添加管理员</a>
+                <a href="Manager-custmRoles.html">角色管理</a>
+            </div>
+            <div class="mgin30 font14">
+                <div class="font16 bold">系统设置</div>
+                <a href="Setting.html">系统设置</a>
+                <a href="Intro.html">院校介绍管理</a>
+                <a href="FriendLinks.html">友情链接管理</a>
+                <a href="FriendLinks-add.html">添加友情链接</a>
+            </div>
+            <div class="mgin30 font14">
+                <div class="font16 bold">个人设置</div>
+                <a href="Info.html">个人信息设置</a>
+                <a href="Password.html">修改我的密码</a>
+            </div>
+        </div>        
+    </div>
+
+    
+
+<script type="text/javascript">
+//<![CDATA[
+pageMainMenuCreater.setActive({mainText:'管理首页',subText: '后台管理功能快捷链接'});//]]>
+</script>
+</form>
+    
+
+    <div style="clear:both;"></div>
+    </div>
+    
+<div style="clear:both;"></div>
+<div class="footerOuter">
+    <div class="footer">
+        <div>
+            <div class="contact">
+                <span style="margin-top:60px; font-size:14px;">服务热线 (免长话费)</span>
+                <span style="font-size:16px;">400-6838-789</span>
+                <span>工作日 9:00-19:00</span>
+            </div>
+            <div class="footerBlock">
+                <span>网站简介</span>
+                <a>网站简介</a>
+                <a>产品服务</a>
+                <a>创新优势</a>
+                <a>友情链接</a>
+                <a>联系我们</a>
+            </div>
+            <div class="footerBlock">
+                <span>使用帮助</span>
+                <a>网站简介</a>
+                <a>产品服务</a>
+                <a>创新优势</a>
+                <a>友情链接</a>
+                <a>联系我们</a>
+            </div>
+            <div class="footerBlock">
+                <span>合作共赢</span>
+                <a>网站简介</a>
+                <a>产品服务</a>
+                <a>创新优势</a>
+                <a>友情链接</a>
+                <a>联系我们</a>
+            </div>
+            <div class="footerBlock">
+                <span>快捷方式</span>
+                <a>网站简介</a>
+                <a>产品服务</a>
+                <a>创新优势</a>
+                <a>友情链接</a>
+                <a>联系我们</a>
+            </div>
+        </div>
+        <div style="clear:both;"></div>
+        <div style="margin-top:20px; color:#888;">
+        版权所有：好工作网
+        联系电话：88888888&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        联系邮箱：88888@qq.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+        地址：广州市环市中路&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        邮政编码：510000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+<script type="text/javascript">
+           $(function () { adminPageInit({ unresize: "" }); });
+</script>
+<!--[if IE 6]>
+<script type="text/javascript" src="/js/DD_belatedPNG_0.0.8a.js"></script>
+<script type="text/javascript">   
+  DD_belatedPNG.fix('.pngfix'); 
+</script>
+<![endif]-->

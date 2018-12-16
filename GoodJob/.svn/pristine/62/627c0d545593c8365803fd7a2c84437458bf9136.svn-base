@@ -1,0 +1,219 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>学校中心-首页</title>
+</head>
+<link rel="stylesheet" type="text/css" href="../css/School/css.css">
+<link rel="stylesheet" type="text/css" href="../css/School/index.css">
+<link rel="stylesheet" type="text/css" href="../css/plugin/center3.css">
+<body>
+ <div class="header">
+    <div class="header-in">
+        <div class="logo">
+            <a href="">
+                <img src="../images/v2/school/logo.jpg" alt="">
+            </a>
+            <span>就业网管理系统</span>
+        </div>
+        <div class="header-top">
+             <a href="" class="cur">Admin, </a> <a href="" class="cur">退出</a> <a href="">好工作首页</a><a href="">学校招聘</a><a href="">平台管理后台</a>
+        </div>
+    </div>
+    <div class="header-nav">
+        <p><a href="index.html" class="index">首页</a> <a href="contents.html">网站内容管理</a> <a href="manage-admin.html">系统管理</a> <a href="total.html">统计分析</a> <a href="Class-manage.html" class="cur">学生管理</a>
+        <a href="conference.html" class="last">发布宣讲会</a>
+        <a href="invite-coop.html" class="last">校企合作邀请</a>
+        </p>
+    </div>
+</div>
+
+<div class="main common">
+	<div class="left">
+    	<ul class="menus">
+        	<li>
+            	<h3>校企合作<i></i></h3>
+                <p>
+                	<!--<a href="invite-coop.html">邀请合作</a>-->
+                	<a href="invite.html">邀请合作</a>
+                	<a href="cooperate.html">发出的邀请</a>
+                	<a href="coo-apply.html">收到的申请<s class="canvas circle"><span>2</span></s></a>
+                    <!--此处的i，如果是一位数，就写class="i1"，两位数就是i2-->
+                	<a href="coo-agree.html">已合作的企业</a>
+                	<a href="coo-black.html">已取消合作的企业</a>
+                </p>
+            </li>
+        	<li>
+            	<h3>职位管理<i></i></h3>
+                <p>
+                	<a href="jobs.html">待审核的职位</a>
+                	<a href="jobs-wanting.html">已发布的职位</a>
+                    <a href="jobs-stop.html">已暂停的职位</a>
+                </p>
+            </li>
+        	<li>
+            	<h3>宣讲会管理<i></i></h3>
+                <p>
+                	<a href="invite-conf.html">发邀请函</a>
+                	<a href="conf.html">发出的邀请</a>
+                	<a href="conf-apply.html">收到的申请</a>
+                    <a href="conference.html">发布宣讲会</a>
+                	<a href="conf-publish.html">已发布的宣讲会</a>
+                </p>
+            </li>
+        	<li>
+            	<h3>学生管理<i></i></h3>
+                <p>
+                	<a href="student-auto.html">系统自动验证</a>
+                	<a href="student.html">待验证的学生</a>
+                	<a href="student-ok.html">已验证的学生</a>
+                </p>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="right2">
+    	<div class="crumb"><a href="#">学校中心</a> > <a href="#">首页</a></div>
+    	<div class="greet">
+            <a href="#" class="more">
+            	<img src="../images/schools/index/icon-alarm.png" width="15" height="15">
+            	系统消息<i class="canvas circle"><span>20</span></i>
+            </a>
+        	<b>早上好，陈老师！</b>
+            上次登陆时间：2014-12-31 15:31
+        </div>
+        
+        <table class="census companies">
+        	<caption>好工作合作企业<strong>23000</strong>家</caption>
+            <tbody>
+                <tr>
+                    <td width="200">金融/银行/保险</td>
+                    <td width="475"><div class="canvas bar">1000</div></td>
+                    <th width="115">1000</th>
+                </tr>
+                <tr>
+                    <td width="200">金融/银行/保险</td>
+                    <td width="475"><div class="canvas bar">2000</div></td>
+                    <th width="115">2000</th>
+                </tr>
+                <tr>
+                    <td width="200">金融/银行/保险</td>
+                    <td width="475"><div class="canvas bar">3000</div></td>
+                    <th width="115">3000</th>
+                </tr>
+                <tr>
+                    <td width="200">金融/银行/保险</td>
+                    <td width="475"><div class="canvas bar">4000</div></td>
+                    <th width="115">4000</th>
+                </tr>
+                <tr>
+                    <td width="200">金融/银行/保险</td>
+                    <td width="475"><div class="canvas bar">5000</div></td>
+                    <th width="115">5000</th>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div class="ours">
+        	<dl><dt>23</dt><dd>本校合作企业</dd></dl>
+        	<dl><dt>2</dt><dd>近期新增合作企业</dd></dl>
+            <dl class="last"><dt><a href="invite-coop.html">邀请合作</a></dt><dd>那么多优秀企业，还在等什么，马上邀请吧！</dd></dl>
+            <div class="clear"></div>
+        </div>
+        
+        <table class="census schools">
+        	<caption>好工作校园职位<strong>25000</strong>个</caption>
+            <tbody>
+                <tr>
+                    <td width="200">金融/银行/保险</td>
+                    <td width="475"><div class="canvas bar">1000</div></td>
+                    <th width="115">1000</th>
+                </tr>
+                <tr>
+                    <td width="200">金融/银行/保险</td>
+                    <td width="475"><div class="canvas bar">2000</div></td>
+                    <th width="115">2000</th>
+                </tr>
+                <tr>
+                    <td width="200">金融/银行/保险</td>
+                    <td width="475"><div class="canvas bar">3000</div></td>
+                    <th width="115">3000</th>
+                </tr>
+                <tr>
+                    <td width="200">金融/银行/保险</td>
+                    <td width="475"><div class="canvas bar">4000</div></td>
+                    <th width="115">4000</th>
+                </tr>
+                <tr>
+                    <td width="200">金融/银行/保险</td>
+                    <td width="475"><div class="canvas bar">5000</div></td>
+                    <th width="115">5000</th>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div class="ours">
+        	<dl><dt>23</dt><dd>本校合作职位</dd></dl>
+        	<dl><dt>2</dt><dd>近期新增合作职位</dd></dl>
+            <dl class="last"><dt><a href="invite-coop.html">邀请合作</a></dt><dd>大批企业正在寻找应届生人才，马上邀请吧！</dd></dl>
+            <div class="clear"></div>
+        </div>
+        
+        <table class="census total">
+        	<caption>信息统计</caption>
+            <tbody><tr>
+            	<td width="25%">已注册学生：<b>200</b></td><td width="25%">今日在校生浏览：<b>200</b></td>
+            	<td width="25%">今日在校生投递：<b>200</b></td><td width="25%">今日在校生应聘：<b>200</b></td>
+            </tr></tbody>
+        </table>
+        
+    </div>
+    
+	<div class="clear"></div>
+</div>
+
+<div class="footer">
+	<div class="common tail">
+        <samp class="tail-nav">
+            <a href="#" class="first">关于我们</a>
+            <a href="#">法律声明</a>
+            <a href="#">保密承诺</a>
+            <a href="#">Investor Relatiao</a>
+            <a href="#">关于我们</a>
+        </samp>
+    </div>
+    <div class="common copyright">
+    	<p>京ICP备09083200号 京ICP证070419号 人才服务许可证：RC0710280</p>
+    	<p>Copyright&copy;2000-2014 liepin.com All Rights Reserved</p>
+    </div>
+</div>
+
+
+
+<dl class="CenterDiv top-fixed SwitchPlatform">
+	<dt class="CenterTopic"><h4>切换后台</h4><q>&times;</q></dt>
+    <dd class="CenterContent">
+    	<p>个人中心：<a href="#" class="cur">个人中心</a></p>
+        <p>企业管理中心：<br><a href="#">广东省华南信息技术科学院</a></p>
+        <p>学校管理中心：<br><a href="#">广州冠鹏信息有限公司</a> <a href="#">腾讯科技有限公司</a></p>
+    </dd>
+</dl>
+
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/school/all.js"></script>
+<script src="../js/school/index.js"></script>
+<script src="../js/web/all.js"></script>
+<script src="../js/web/center.js"></script>
+<script src="../js/UCenter/raphael-min.js"></script>
+<script>
+$(function(){
+	LeftMenu();
+	TopSelect();
+	CenterDiv();
+	CanvasInitialize();
+	Bars("companies",5000);
+	Bars("schools",6000);
+});
+</script>

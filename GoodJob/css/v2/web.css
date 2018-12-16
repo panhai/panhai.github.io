@@ -1,0 +1,124 @@
+﻿/* 前台页面通用样式 */
+
+/*通用头部--关键字及城市的下拉列表Z轴5位数*/
+.HEADER{ height:148px; position:relative\9; z-index:11111\9; }
+.AD-top{margin-top: 100px;}
+.TOP-LOGO{ width:232px; float:left; padding-top:29px;}
+/*顶搜索*/
+.TOP-SEARCH{ width:673px; float:left;}
+.TOP-SEARCH-BAR{ width:669px; height:40px; border:2px solid #1562c8; margin-top:62px;}
+/*职位关键字*/
+.TOP-SEARCH-KEY{ width:421px; height:40px; float:left;}
+.TOP-SEARCH-INPUT{ width:100%; height:40px; line-height:40px; font-size:16px; background-image:url(../../images/v2/top-key.gif); border:0px; float:left; font-size:16px !important;}
+.TOP-SEARCH-KEY .normal{ top:40px; border:2px solid #1562c8; width:420px; left:-2px; z-index:11111;}
+/*城市选择*/
+.TOP-CitiesPicker{ width:98px; height:40px; float:left; background-color:#d1e5ff;}
+.TOP-CitiesPicker dt span{ width:64px;}
+.TOP-CitiesPicker dt i{ _background-image:url(../../images/v2/icons/chevron-down.gif) !important;}
+.TOP-CitiesPicker dd{ z-index:11111; top:40px; border:2px solid #1562c8 !important;}
+.TOP-CitiesPicker .CitiesQuery{ width:246px;}
+.TOP-SUBMIT{ width:150px; padding-right:10px; float:left; height:40px; font-size:18px; color:#fff; text-align:center; color:#fff; background:url(../../images/v2/icons/magnifier-l.png) #1562c8 no-repeat 100px center; border:0px; cursor:pointer;}
+.TOP-SUBMIT{ _background-image:url(../../images/v2/icons/magnifier-l.gif);}
+/*顶右登录注册*/
+.TOP-LOGIN{ width:155px; float:right; text-align:right;/* padding-top:75px;*/ font-size:14px; color:#1562c8;}
+.TOP-LOGIN .codes{ clear:both; font-size:12px; color:#525252; padding:5px 0; margin-bottom:45px; white-space:nowrap;}
+.TOP-LOGIN .codes span{ display:inline-block; padding-left:18px; background-repeat:no-repeat; background-position:left center; position:relative;}
+.TOP-LOGIN .codes p{ display:none; position:absolute; left:-55px; top:25px; width:120px; height:140px; border:1px solid #c4c4c4; background-color:#fff; text-align:center; font-size:14px; color:#525252; z-index:11111;}
+.TOP-LOGIN .codes span:hover p{ display:block;}
+.TOP-LOGIN .codes img{ margin:8px auto 2px;}
+.TOP-LOGIN .codes p *{ font-weight:normal; font-style:normal;}
+.TOP-LOGIN .codes p i{ color:#1562c8;}
+.TOP-LOGIN .codes q,.TOP-LOGIN .codes u{ display:block; position:absolute; font-size:0; width:0; height:0; overflow:hidden;}
+.TOP-LOGIN .codes q{ border:8px solid #c4c4c4; border-color:transparent transparent #c4c4c4; left:55px; top:-16px;}
+.TOP-LOGIN .codes q{ _border-color:#ff0000 #ff0000 #c4c4c4; _filter:chroma(color=#ff0000);}
+.TOP-LOGIN .codes u{ border:7px solid #fff; border-color:transparent transparent #fff; left:56px; top:-14px;}
+.TOP-LOGIN .codes u{ _border-color:#ff0000 #ff0000 #fff; _filter:chroma(color=#ff0000);}
+.TOP-LOGIN .codes .wx{ background-image:url(../../images/v2/icons/head-wx.jpg); padding-right:4px;}
+.TOP-LOGIN .codes .mobile{ background-image:url(../../images/v2/icons/head-mobile.jpg);}
+.TOP-LOGIN a{ color:#1562c8;}
+.TOP-LOGIN a:hover{ color:#5593e6; text-decoration:underline;}
+/*顶热搜关键字*/
+.TOP-HOTKEYS{ font-size:14px; color:#a4a4a4; line-height:32px; width:420px; overflow:hidden; height:32px;}
+.TOP-HOTKEYS a{ color:#a4a4a4; margin-right:.8em; display:inline-block;}
+.TOP-HOTKEYS a:hover{ color:#1562c8; text-decoration:underline;}
+
+/*通用顶导航--导航头脚Z轴4位数较大，导航体Z轴4位数较小*/
+.NAV{ height:40px; position:relative; z-index:1111\9;}
+/*导航头*/
+.NAV-HEAD{ width:234px; float:left; position:relative; z-index:2222;}
+.NAV-HEAD-ROOT{ padding:0px 20px; line-height:40px; height:40px;}
+.NAV-HEAD-ROOT *{ display:inline-block; vertical-align:middle;}
+.NAV-HEAD-ROOT span{ font-size:18px; color:#1562c8;}
+.NAV-HEAD-ROOT i{ margin-left:3px; width:14px; height:14px; background:url(../../images/v2/icons/chevron-down.png) center no-repeat;}
+.NAV-HEAD-ROOT i{ _overflow:hidden; _ background:url(../../images/new/icons/chevron-down.gif) center top no-repeat;}
+/*头下一级导航*/
+.NAV-HEAD-MENU{ position:absolute !important; top:40px; left:0px; background-color:#1562c8; width:100%; height:390px; font-size:0px;}
+/*内页的要在dd上加hidden类*/
+.NAV-HEAD .hidden{ display:none;}
+.NAV-HEAD.SELECT-on .hidden{ display:block;}
+.NAV-HEAD-MENU .menu{ display:block; clear:both; color:#fff; line-height:38px; height:39px; cursor:default;}
+.NAV-HEAD-MENU h3{ font-size:16px; border-bottom:1px solid #347cda; margin:0px 20px; font-weight:normal;}
+.NAV-HEAD-MENU a.last h3{ border:0;}
+.NAV-HEAD-MENU a.cur{ background-color:#fff; color:#1562c8; height:35px; border:2px solid #1562c8; line-height:35px; border-right:0; position:relative; z-index:2;}
+.NAV-HEAD-MENU a.cur h3{ border:0;}
+/*头下二级导航*/
+.NAV-HEAD-SUBMENU{ display:none; position:absolute; top:0px; left:232px; width:824px; border:2px solid #1562c8; min-height:386px; _height:386px; line-height:30px; background-color:#fff;}
+.NAV-HEAD-SUBMENU li{ width:96%; float:left; margin:0px 2%; border-bottom:1px solid #f0f0f0;}
+.NAV-HEAD-SUBMENU h4{ width:14%; float:left; text-align:right; font-size:16px; color:#1562c8; padding-top:10px; font-weight:normal;}
+/*.NAV-HEAD-SUBMENU h4 a{ color:#1562c8; cursor:text;}
+.NAV-HEAD-SUBMENU h4 a:hover{ color:#5593e6; text-decoration:underline;}*/
+.NAV-HEAD-SUBMENU p{ width:80%; float:left; font-size:14px; padding:10px 0px 10px 5%; color:#ccc;}
+.NAV-HEAD-SUBMENU p a{ color:#666; padding:0 5px 0 10px; white-space:nowrap;  border-left: 1px solid #CCCCCC;_zoom:1;display:inline-block; height: 14px;
+    line-height: 14px;}
+.NAV-HEAD-SUBMENU p a:hover{ color:#1562c8; text-decoration:underline;}
+
+/*导航体*/
+.NAV-BODY{ width:692px; float:left; line-height:40px; font-size:18px;}
+.NAV-BODY li{ float:left; width:auto;}
+.NAV-BODY a{ display:block; padding:0px 20px; color:#1562c8; overflow:hidden; height:40px; _float:left;}
+/*.NAV-BODY a:hover,*/.NAV-BODY a.cur,.NAV-BODY li.on a{ background-color:#1562c8; color:#fff;}
+.NAV-BODY a *{ display:inline-block; vertical-align:top;}
+.NAV-BODY a i{ width:14px; height:14px; padding:13px 0 0 3px; background:url(../../images/v2/icons/chevron-down.png) bottom center no-repeat;}
+.NAV-BODY a i{ _background-position:center; _background-image:url(../../images/v2/icons/chevron-down.gif);}
+.NAV-BODY a:hover i,.NAV-BODY a.cur i,.NAV-BODY li.on i{ background-image:url(../../images/v2/icons/chevron-down2.png);}
+.NAV-BODY a:hover i,.NAV-BODY a.cur i,.NAV-BODY li.on i{ _background-image:url(../../images/v2/icons/chevron-down2.gif);}
+/*导航尾*/
+.NAV-FOOT{ width:134px; float:right; z-index:4444; position:relative\9;}
+.NAV-FOOT dt{ font-size:18px; line-height:40px; font-size:0px;}
+.NAV-FOOT dt i,.NAV-FOOT dt span{ display:inline-block; vertical-align:middle; height:40px;}
+.NAV-FOOT dt.new span{ background:url(../../images/v2/icons/new.png) right 8px no-repeat; padding-right:10px; _background-image:url(../../images/v2/icons/new.gif); }
+.NAV-FOOT dt .tiny{ font-size:12px;}
+.NAV-FOOT dt i{ width:25px; background:url(../../images/v2/icons/person.png) left center no-repeat; _background-image:url(../../images/v2/icons/person.gif);}
+.NAV-FOOT dt a{ display:block; color:#1562c8; padding-left:16px; _height:40px;}
+.NAV-FOOT dt span{ font-size:18px;max-width:72px; _width:72px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+.NAV-FOOT.SELECT-on dt a{ background-color:#1562c8; color:#fff;}
+.NAV-FOOT.SELECT-on dt i{ background-image:url(../../images/v2/icons/person2.png); _background-image:url(../../images/v2/icons/person2.gif);}
+.NAV-FOOT dd{ display:none; position:absolute; background-color:#1562c8; width:100%; font-size:16px; line-height:30px; z-index:2222;}
+.NAV-FOOT.SELECT-on dd{ display:block;}
+.NAV-FOOT dd p{ clear:both; background-color:#fff; text-align:center; margin:10px 18px; box-shadow:-1px 2px 0px rgba(255,255,255,0.5);}
+.NAV-FOOT dd p a{ color:#1562c8;}
+.NAV-FOOT dd p a:hover{ text-decoration:underline;}
+.NAV-FOOT dd ul{ clear:both; margin:10px 18px;}
+.NAV-FOOT dd li{ _height:30px; overflow:hidden\9;}
+/*专门为了放那个点才用到的*/
+.NAV-FOOT dd li span{ display:inline-block; height:30px;}
+.NAV-FOOT dd li.new span{ background:url(../../images/v2/icons/new.png) 65px 2px no-repeat; _background-image:url(../../images/v2/icons/new.gif); padding-right:15px;}
+.NAV-FOOT dd ul a{ color:#fff; display:block;}
+.NAV-FOOT dd ul a:hover{ background-color:#fff; color:#1562c8;}
+/*次导航条以导航最外围为基准*/
+.NAV-EXTRA{ position:absolute; left:0px; top:40px; width:100%; background-color:#f0f4ff; line-height:44px; text-align:center; font-size:16px; overflow:hidden; z-index:3333; border-top:2px solid #1562c8;}
+.NAV-EXTRA p{ height:44px; display:none;}
+.NAV-EXTRA a{ display:inline-block; padding:0px 22px; color:#333;}
+.NAV-EXTRA a:hover,.NAV-EXTRA a.cur{ color:#1562c8;}
+/*.NAV-EXTRA a:hover,.NAV-EXTRA a.cur{ background-color:#1562c8; color:#fff;}*/
+/*右下角回顶及反馈*/
+.TOOL{ position:fixed; right:0; bottom:0; width:60px; height:104px; z-index:2222; padding-left:20px;}
+.TOOL a{ display:block; width:58px; height:50px; border:1px solid #eee;}
+.TOOL .top{ background-image:url(../../images/v2/icons/tool/tool-top1.jpg);}
+.TOOL .top:hover{ background-image:url(../../images/v2/icons/tool/tool-top2.jpg);}
+.TOOL .feed{ background-image:url(../../images/v2/icons/tool/tool-feed1.jpg);}
+.TOOL .feed:hover{ background-image:url(../../images/v2/icons/tool/tool-feed2.jpg);}
+/*反馈表单*/
+.Feedback{}
+.Feedback textarea{ width:420px; height:150px;}
+.Feedback .text{ width:200px;}

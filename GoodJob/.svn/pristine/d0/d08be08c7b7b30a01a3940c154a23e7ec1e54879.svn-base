@@ -1,0 +1,448 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>企业中心-校企合作-发出的邀请-学校合作邀请-已合作</title>
+    <link rel="stylesheet" type="text/css" href="../css/v2/all.css">
+    <link rel="stylesheet" type="text/css" href="../css/v2/CCenter/all.css">
+    <link rel="stylesheet" type="text/css" href="../css/v2/CCenter/find-resume.css">
+</head>
+<body>
+<div class="HEADER"><div class="common">
+    <div class="TOP-LOGO"><a href="#"><img src="../images/v2/logo-s.jpg" width="119" height="62"></a></div>
+    <div class="TOP-TOOLS">
+        Admin, <a href="#">退出</a>&nbsp;&nbsp;&nbsp;<a href="#">个人中心</a>&nbsp;&nbsp;&nbsp;<a href="#">反馈</a>&nbsp;&nbsp;&nbsp;<a href="#">HR帮助</a>
+    </div>
+    <ul class="TOP-NAV">
+        <li><a href="new-index.html" >首页</a></li>
+        <li><a href="new-publish.html">发布职位</a></li>
+        <li><a href="new-profile.html">企业资料</a></li>
+        <li><a href="new-hrfavors.html">HR收藏夹</a></li>
+        <li><a href="new-settings.html" class="cur">搜索简历</a></li>
+    </ul>
+</div></div>
+
+<div class="Main">
+    <div class="Filter">
+        <div class="Filter-top">
+           <div class="FilterTab">
+            <div class="Filter-bg"><a href="two-new-down-resume.html">已下载简历</a>&nbsp;&nbsp;
+                <a href="two-new-find-resume.html" class="cur">下载新简历</a></div>
+           </div>
+           <p>好工作简历库仅开放“允许企业搜索”的求职简历，请尊重求职者隐私，下载后勿传播或另作其他商业用途！</p>
+        </div>
+        <div class="Filter-main">
+
+                <table class="line">
+                    <tbody>
+                    <tr>
+                        <td class="line-title">期望城市</td>
+                        <td width="240"><input type="text" class="text" placeholder="请输入关键词搜索"><em></em></td>
+                        <td class="line-title">目前职位</td>
+                        <td width="240"><input type="text" class="text"placeholder="请输入关键词搜索"><em></em></td>
+                        <td class="line-title">期望职位</td>
+                        <td width="240"><input type="text" class="text" placeholder="请输入关键词搜索"><em></em></td>
+                    </tr>
+                    <tr>
+                        <td class="line-title">期望行业</td>
+                        <td width="240"><input type="text" class="text"placeholder="请输入关键词搜索"><em></em></td>
+
+                        <td class="line-title">学历</td>
+                        <td width="240">
+                            <dl class="SELECT">
+                                <input type="hidden">
+                                <dt><span></span><i></i></dt>
+                                <dd class="normal">
+                                    <a data-id="1">初中/高中</a>
+                                    <a data-id="2">技校/中专</a>
+                                    <a data-id="3">大专</a>
+                                    <a data-id="4">本科</a>
+                                    <a data-id="5">硕士</a>
+                                    <a data-id="6">博士</a>
+                                    <a data-id="7">其他</a>
+                                </dd>
+                            </dl>
+                        </td>
+                        <td class="line-title">经验</td>
+                        <td width="240">
+                            <dl class="SELECT">
+                                <input type="hidden">
+                                <dt><span></span><i></i></dt>
+                                <dd class="normal">
+                                    <a data-id="1">在读学生</a>
+                                    <a data-id="2">应届生</a>
+                                    <a data-id="3">1年以下</a>
+                                    <a data-id="4">1-3年</a>
+                                    <a data-id="5">3-5年</a>
+                                    <a data-id="6">5-10年</a>
+                                    <a data-id="7">10年以上</a>
+                                </dd>
+                            </dl>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="line-title">性别</td>
+                        <td>
+                            <dl class="SELECT">
+                                <input type="hidden">
+                                <dt><span></span><i></i></dt>
+                                <dd class="normal">
+                                    <a data-id="1">男</a>
+                                    <a data-id="2">女</a>
+                                </dd>
+                            </dl>
+                        </td>
+                        <td colspan="4"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <div class="filter-search">
+                    <input type="button" value="搜索简历" />
+                </div>
+      </div>
+    </div>
+
+    <div class="resumeInfo">
+        <div class="Info-title">
+            <p>简历信息</p><span>更新时间</span><em>操作</em>
+        </div>
+        <div class="Info-item">
+            <div class="Info-item-l">
+            <div class="Info-item-l-t">
+                <label class="Info-item-ck">
+                    <input type="checkbox" group="infoCK" data-id="-1"/>
+                </label>
+                <h2><a href="two-new-down-resume.html" target="_blank" title="UI设计师 UI设计师 UI设计师 UI设计师 UI设计师 UI设计师 UI设计师">黄章腾<span>(<label>UI设计师 UI设计师 UI设计师 UI设计师 UI设计师 UI设计师 UI设计师</label>)</span></a> </h2> <p>&nbsp;&nbsp;&nbsp;&nbsp;男&nbsp;&nbsp;&nbsp;&nbsp;28岁&nbsp;&nbsp;&nbsp;&nbsp;本科&nbsp;&nbsp;&nbsp;3年    </p>
+            </div>
+            <div class="Info-item-l-b">
+                <ul>
+                    <li class="city">期望城市：<b>广州</b></li>
+                    <li class="job">期望职位：<b>产品经理</b>        </li>
+                    <li class="hy">期望行业：<b>计算机/产品专员/产品助理/产品专员/产品设计</b></li>
+                </ul>
+            </div>
+            </div>
+            <div class="Info-item-r">
+                <div class="Resume-update"><img src="../images/v2/CCenter/resume-update.jpg" height="14" width="14" alt="" />&nbsp;一周内有更新</div>
+                <div class="Resume-operate">
+                    <a href="two-new-resume-preview.html" target="_blank">查看</a>&nbsp;&nbsp;
+                    <a href="javascript:void" target="_blank" class="down">下载</a>
+                </div>
+            </div>
+        </div>
+           <div class="Info-item">
+            <div class="Info-item-l">
+            <div class="Info-item-l-t">
+                <label class="Info-item-ck">
+                    <input type="checkbox" group="infoCK" data-id="0"/>
+                </label>
+                <h2><a href="two-new-down-resume.html" target="_blank" title="UI设计师 UI设计师 UI设计师 UI设计师 UI设计师 UI设计师 UI设计师">黄章腾<span>(<label>UI设计师 UI设计师 UI设计师 UI设计师 UI设计师 UI设计师 UI设计师</label>)</span></a> </h2> <p>&nbsp;&nbsp;&nbsp;&nbsp;男&nbsp;&nbsp;&nbsp;&nbsp;28岁&nbsp;&nbsp;&nbsp;&nbsp;本科&nbsp;&nbsp;&nbsp;3年    </p>
+            </div>
+            <div class="Info-item-l-b">
+                <ul>
+                    <li class="city">期望城市：广州</li>
+                    <li class="job">期望职位：产品经理        </li>
+                    <li class="hy">期望行业：计算机/产品专员/产品助理/产品专员/产品设计</li>
+                </ul>
+            </div>
+            </div>
+            <div class="Info-item-r">
+                <div class="Resume-update"><img src="../images/v2/CCenter/resume-update.jpg" height="14" width="14" alt="" />&nbsp;一周内有更新</div>
+                <div class="Resume-operate">
+                    <a href="two-new-HGZ-resume-preview.html" target="_blank">查看</a>&nbsp;&nbsp;
+                    <a href="">下载</a>
+                </div>
+            </div>
+        </div>
+           <div class="Info-item">
+            <div class="Info-item-l">
+            <div class="Info-item-l-t">
+                <label class="Info-item-ck">
+                    <input type="checkbox" group="infoCK" data-id="1"/>
+                </label>
+                <h2><a href="two-new-down-resume.html" target="_blank" title="UI设计师 UI设计师 UI设计师 UI设计师 UI设计师 UI设计师 UI设计师">黄章腾<span>(<label>UI设计师 UI设计师 UI设计师 UI设计师 UI设计师 UI设计师 UI设计师</label>)</span></a> </h2> <p>&nbsp;&nbsp;&nbsp;&nbsp;男&nbsp;&nbsp;&nbsp;&nbsp;28岁&nbsp;&nbsp;&nbsp;&nbsp;本科&nbsp;&nbsp;&nbsp;3年    </p>
+            </div>
+            <div class="Info-item-l-b">
+                <ul>
+                    <li class="city">期望城市：广州</li>
+                    <li class="job">期望职位：产品经理        </li>
+                    <li class="hy">期望行业：计算机/产品专员/产品助理/产品专员/产品设计</li>
+                </ul>
+            </div>
+            </div>
+            <div class="Info-item-r">
+                <div class="Resume-update"><img src="../images/v2/CCenter/resume-update.jpg" height="14" width="14" alt="" />&nbsp;一周内有更新</div>
+                <div class="Resume-operate">
+                    <a href="">查看</a>&nbsp;&nbsp;
+                    <a href="">下载</a>
+                </div>
+            </div>
+        </div>
+           <div class="Info-item">
+            <div class="Info-item-l">
+            <div class="Info-item-l-t">
+                <label class="Info-item-ck">
+                    <input type="checkbox" group="infoCK" data-id="2"/>
+                </label>
+                <h2><a href="two-new-down-resume.html" target="_blank" title="UI设计师 UI设计师 UI设计师 UI设计师 UI设计师 UI设计师 UI设计师">黄章腾<span>(<label>UI设计师 UI设计师 UI设计师 UI设计师 UI设计师 UI设计师 UI设计师</label>)</span></a> </h2> <p>&nbsp;&nbsp;&nbsp;&nbsp;男&nbsp;&nbsp;&nbsp;&nbsp;28岁&nbsp;&nbsp;&nbsp;&nbsp;本科&nbsp;&nbsp;&nbsp;3年    </p>
+            </div>
+            <div class="Info-item-l-b">
+                <ul>
+                    <li class="city">期望城市：广州</li>
+                    <li class="job">期望职位：产品经理        </li>
+                    <li class="hy">期望行业：计算机/产品专员/产品助理/产品专员/产品设计</li>
+                </ul>
+            </div>
+            </div>
+            <div class="Info-item-r">
+                <div class="Resume-update"><img src="../images/v2/CCenter/resume-update.jpg" height="14" width="14" alt="" />&nbsp;一周内有更新</div>
+                <div class="Resume-operate">
+                    <a href="">查看</a>&nbsp;&nbsp;
+                    <a href="">下载</a>
+                </div>
+            </div>
+        </div>
+           <div class="Info-item">
+            <div class="Info-item-l">
+            <div class="Info-item-l-t">
+                <label class="Info-item-ck">
+                    <input type="checkbox" group="infoCK" data-id="3"/>
+                </label>
+                <h2><a href="two-new-down-resume.html" target="_blank" title="UI设计师 UI设计师 UI设计师 UI设计师 UI设计师 UI设计师 UI设计师">黄章腾<span>(<label>UI设计师 UI设计师 UI设计师 UI设计师 UI设计师 UI设计师 UI设计师</label>)</span></a> </h2> <p>&nbsp;&nbsp;&nbsp;&nbsp;男&nbsp;&nbsp;&nbsp;&nbsp;28岁&nbsp;&nbsp;&nbsp;&nbsp;本科&nbsp;&nbsp;&nbsp;3年    </p>
+            </div>
+            <div class="Info-item-l-b">
+                <ul>
+                    <li class="city">期望城市：广州</li>
+                    <li class="job">期望职位：产品经理        </li>
+                    <li class="hy">期望行业：计算机/产品专员/产品助理/产品专员/产品设计</li>
+                </ul>
+            </div>
+            </div>
+            <div class="Info-item-r">
+                <div class="Resume-update"><img src="../images/v2/CCenter/resume-update.jpg" height="14" width="14" alt="" />&nbsp;一周内有更新</div>
+                <div class="Resume-operate">
+                    <a href="">查看</a>&nbsp;&nbsp;
+                    <a href="">下载</a>
+                </div>
+            </div>
+        </div>
+           <div class="Info-item">
+            <div class="Info-item-l">
+            <div class="Info-item-l-t">
+                <label class="Info-item-ck">
+                    <input type="checkbox" group="infoCK" data-id="4"/>
+                </label>
+                <h2><a href="two-new-down-resume.html" target="_blank" title="UI设计师 UI设计师 UI设计师 UI设计师 UI设计师 UI设计师 UI设计师">黄章腾<span>(<label>UI设计师 UI设计师 UI设计师 UI设计师 UI设计师 UI设计师 UI设计师</label>)</span></a> </h2> <p>&nbsp;&nbsp;&nbsp;&nbsp;男&nbsp;&nbsp;&nbsp;&nbsp;28岁&nbsp;&nbsp;&nbsp;&nbsp;本科&nbsp;&nbsp;&nbsp;3年    </p>
+            </div>
+            <div class="Info-item-l-b">
+                <ul>
+                    <li class="city">期望城市：广州</li>
+                    <li class="job">期望职位：产品经理        </li>
+                    <li class="hy">期望行业：计算机/产品专员/产品助理/产品专员/产品设计</li>
+                </ul>
+            </div>
+            </div>
+            <div class="Info-item-r">
+                <div class="Resume-update"><img src="../images/v2/CCenter/resume-update.jpg" height="14" width="14" alt="" />&nbsp;一周内有更新</div>
+                <div class="Resume-operate">
+                    <a href="">查看</a>&nbsp;&nbsp;
+                    <a href="">下载</a>
+                </div>
+            </div>
+        </div>
+           <div class="Info-item">
+            <div class="Info-item-l">
+            <div class="Info-item-l-t">
+                <label class="Info-item-ck">
+                    <input type="checkbox" group="infoCK"data-id="5"/>
+                </label>
+                <h2><a href="two-new-down-resume.html" target="_blank" title="UI设计师 UI设计师 UI设计师 UI设计师 UI设计师 UI设计师 UI设计师">黄章腾<span>(<label>UI设计师 UI设计师 UI设计师 UI设计师 UI设计师 UI设计师 UI设计师</label>)</span></a> </h2> <p>&nbsp;&nbsp;&nbsp;&nbsp;男&nbsp;&nbsp;&nbsp;&nbsp;28岁&nbsp;&nbsp;&nbsp;&nbsp;本科&nbsp;&nbsp;&nbsp;3年    </p>
+            </div>
+            <div class="Info-item-l-b">
+                <ul>
+                    <li class="city">期望城市：广州</li>
+                    <li class="job">期望职位：产品经理        </li>
+                    <li class="hy">期望行业：计算机/产品专员/产品助理/产品专员/产品设计</li>
+                </ul>
+            </div>
+            </div>
+            <div class="Info-item-r">
+                <div class="Resume-update"><img src="../images/v2/CCenter/resume-update.jpg" height="14" width="14" alt="" />&nbsp;一周内有更新</div>
+                <div class="Resume-operate">
+                    <a href="">查看</a>&nbsp;&nbsp;
+                    <a href="">下载</a>
+                </div>
+            </div>
+        </div>
+           <div class="Info-item">
+            <div class="Info-item-l">
+            <div class="Info-item-l-t">
+                <label class="Info-item-ck">
+                    <input type="checkbox" group="infoCK" data-id="6"/>
+                </label>
+                <h2><a href="two-new-down-resume.html" target="_blank" title="UI设计师 UI设计师 UI设计师 UI设计师 UI设计师 UI设计师 UI设计师">黄章腾<span>(<label>UI设计师 UI设计师 UI设计师 UI设计师 UI设计师 UI设计师 UI设计师</label>)</span></a> </h2> <p>&nbsp;&nbsp;&nbsp;&nbsp;男&nbsp;&nbsp;&nbsp;&nbsp;28岁&nbsp;&nbsp;&nbsp;&nbsp;本科&nbsp;&nbsp;&nbsp;3年    </p>
+            </div>
+            <div class="Info-item-l-b">
+                <ul>
+                    <li class="city">期望城市：广州</li>
+                    <li class="job">期望职位：产品经理        </li>
+                    <li class="hy">期望行业：计算机/产品专员/产品助理/产品专员/产品设计</li>
+                </ul>
+            </div>
+            </div>
+            <div class="Info-item-r">
+                <div class="Resume-update"><img src="../images/v2/CCenter/resume-update.jpg" height="14" width="14" alt="" />&nbsp;一周内有更新</div>
+                <div class="Resume-operate">
+                    <a href="" target="_blank">查看</a>&nbsp;&nbsp;
+                    <a href="" target="_blank">下载</a>
+                </div>
+            </div>
+        </div>
+           <div class="Info-item">
+            <div class="Info-item-l">
+            <div class="Info-item-l-t">
+                <label class="Info-item-ck">
+                    <input type="checkbox" group="infoCK" data-id="7"/>
+                </label>
+                <h2><a href="two-new-down-resume.html" target="_blank" title="UI设计师 UI设计师 UI设计师 UI设计师 UI设计师 UI设计师 UI设计师">黄章腾<span>(<label>UI设计师 UI设计师 UI设计师 UI设计师 UI设计师 UI设计师 UI设计师</label>)</span></a> </h2> <p>&nbsp;&nbsp;&nbsp;&nbsp;男&nbsp;&nbsp;&nbsp;&nbsp;28岁&nbsp;&nbsp;&nbsp;&nbsp;本科&nbsp;&nbsp;&nbsp;3年    </p>
+            </div>
+            <div class="Info-item-l-b">
+                <ul>
+                    <li class="city">期望城市：广州</li>
+                    <li class="job">期望职位：产品经理        </li>
+                    <li class="hy">期望行业：计算机/产品专员/产品助理/产品专员/产品设计</li>
+                </ul>
+            </div>
+            </div>
+            <div class="Info-item-r">
+                <div class="Resume-update"><img src="../images/v2/CCenter/resume-update.jpg" height="14" width="14" alt="" />&nbsp;一周内有更新</div>
+                <div class="Resume-operate">
+                    <a href="">查看</a>&nbsp;&nbsp;
+                    <a href="">下载</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="all">
+        <label class="Info-item-ck"><input type="checkbox" /></label>全选&nbsp;&nbsp;
+        <a class='all-d'>下载</a>
+    </div>
+
+
+    <div class="PAGES">
+        <a href="#">上一页</a>
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">下一页</a>
+    </div>
+</div>
+<table class="FullScreenPlugin fixed fixed-top CenterDivContainer" style="display:none"><tr><td>
+
+        <dl  class="CENTERDIV CenterW550 DownResume" data-active=".all-d" data-attrs='length,meny,id' data-t="true">
+            <dt class="CENTERTOPIC"><b>下载简历</b><q></q></dt>
+            <dd class="CENTERCONTENT">
+                <table class="CenterForm">
+
+                    <tbody>
+                    <tr>
+                        <th></th>
+                        <td><input type="hidden" data-attr="id">
+                        <div class="Balance">
+                            可用余额：<strong>60.0元</strong> <a href="" class='cz'>充值</a>
+                        </div>
+                        <p>下载简历数   <span class="cur" data-attr='length'>1</span>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;所需费用：<span class="cur" data-attr='meny'>2.0</span><span class="cur">元</span></p>
+                        </td>
+                    </tr>
+                    <tr><th></th><td class="CENTERBTNS">
+                        <input type="button" class="submit" value="确定下载">
+                        <input type="button" class="reset" value="取消">
+                    </td></tr>
+                    </tbody>
+                </table>
+            </dd>
+            </dl>
+
+</td></tr></table>
+</body>
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/v2/all.js"></script>
+<script src="../js/effect/bg.js"></script>
+<script src="../js/plugin/CenterDiv.js"></script>
+<script type="text/javascript">
+    //点击已看
+    $(".Resume-operate a").click(function(){
+        if($(this).index() == 0)
+          $(this).addClass('not').text("已看");
+    });
+
+    $(".Main").delegate("label","click",function(event){
+
+        if(event.target.nodeName == "LABEL"){
+            if($(this).hasClass('check')){
+                $(this).removeClass('check').find("input")[0].checked = false;
+            }else{
+                $(this).addClass('check').find("input")[0].checked = true;
+            }
+        }
+        setCs();
+        return false;
+    });
+
+
+    $(".all label").click(function(){
+        var _this = this;
+        setTimeout(function(){
+            var bool = $(_this).hasClass("check"),
+                    attr = bool ? "addClass":"removeClass";
+            $(".resumeInfo").find("label").each(function(idx,el){
+                $(this)[attr]("check").find("input").prop("checked",bool);
+            });
+            setCs();
+        },10)
+
+    });
+    var array = [];
+    $(".Info-item:odd").css("background","#f4f9ff");
+    function setCs(){
+        var    ipt =  $(".resumeInfo").find("input:checked"),
+            length =  ipt.length,
+                id =  ipt.attr('data-id');
+
+
+        $(".all").find("a").attr({'data-length': length,'data-meny':length+".0"});
+    }
+
+    $(".all a").click(function(){
+        var id = [];
+        if(!$(".resumeInfo").find("input:checked").length == 0){
+        $("input:checked").each(function(){
+               id.push($(this).data('id'));
+        })
+            $(".all").find("a").attr("data-id",id)
+            console.log(id)
+            CENTERDIV.open.call($(".DownResume").get(0))
+        }else{
+            alert("不能为空")
+            return false;
+        }
+    })
+
+
+    $(".text").focus(function() {
+         $(this).closest("td").find('em').show();
+    }).focusout(function(){
+        var _this = this;
+        setTimeout(function () { $(_this).closest("td").find('em').hide(); }, 100);
+    })
+    $(".text").siblings('em').click(function(event) {
+        $(this).siblings('.text').val("")
+    });
+
+
+</script>
+</html>

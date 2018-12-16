@@ -1,0 +1,221 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+
+</title>
+    <link href="../css/1024/common.css" rel="stylesheet" type="text/css" />
+    <link href="../css/1024/ucenter.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/MD5.js"></script>
+    <script type="text/javascript" src="../js/jbody.js"></script>
+    <script type="text/javascript" src="../js/jbody-plugin.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+    <script type="text/javascript" src="../js/area.js"></script>
+    <script type="text/javascript" src="../js/subjects.js"></script>
+    <script type="text/javascript" src="../js/jobPositions.js"></script>
+    <script type="text/javascript" src="../js/admin/common.js"></script>
+    <script type="text/javascript" src="../js/selectors.js"></script>
+    <script type="text/javascript" src="../js/menuControl.js"></script>
+    <script type="text/javascript" src="../js/admin/ucenter.js"></script>
+    
+    <style type="text/css">
+        .bodyBlock .editBlockBorder a{ margin-right:15px; color:#0094ff; }
+        .bodyBlock .editBlockBorder a:hover{ text-decoration:underline; }
+    </style>
+</head>
+<body>
+    <iframe id="_postTargetIframe" name="_postTargetIframe" style="display:none;" src="about:blank"></iframe>
+    
+    
+<div id="pg-header" class="pg-header">
+    <div class="pg-header-main">
+        <div class="logo">
+            <img alt="好工作网Logo" src="../images/logo.png" class="pngfix" width="232" height="40" />
+        </div>
+        <div class="cname">个人中心</div>
+        <div class="r mginT10">
+    <div class="platform-switch-container">
+    <div class="platform-switch-main msout">
+        <span class="floatR">切换后台</span>
+        <span class="floatR" style="border:solid 1px #ffc183; line-height:12px; margin-right:5px; padding-left:1px; padding-right:1px;">+</span>
+        <div style="clear:both;"></div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        $(".platform-switch-main").click(function () {
+            JBFrameHelper.showPage("PlatformSwitch.html", { obj: this, title: "切换到个人中心或其他管理后台", w: 500, pos: { to: "win", parent: "doc", park: "inside", parkInside: "center" } }, true, false);
+        });
+    })
+</script>
+
+</div>
+    </div>
+</div>
+    
+<div id="pg-nav" class="pg-nav">
+    <ul>
+        <li><div class="nav-title"><a href="#">首页</a></div></li>
+        <li><div class="nav-title"><a href="/job/">找职位</a></div></li>
+        <li><div class="nav-title"><a href="/companies/">找企业</a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">简历<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">职位<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">个人设置<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="#">校园招聘</a></div></li>
+        <li><div class="nav-title"><a href="#">更多服务<sub></sub></a></div></li>
+    </ul>
+</div>
+<div style="clear:both;"></div>
+<div id="pg-nav-sub" style="display:none;">
+    <div id="pg-nav-sub-inner">
+    <div id="pg-nav-sub-main">
+        <ul style="display:none;">
+            <li><a href="Sum.html">系统概况</a></li>
+            <li><a href="">功能快捷连接</a></li>
+            <li><a href="#">站内消息</a></li>
+        </ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;">
+            <li><a href="Default.html">我的简历</a></li>
+            <li><a href="MyTarget.html">我的求职意向</a></li>
+            <li><a href="#">谁看过我的简历</a></li>
+            <li><a href="#">高级功能</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Sended.html">已投职位</a></li>
+            <li><a href="Favor.html">关注的职位</a></li>
+            <li><a href="History.html">最近浏览职位</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Default.html">个人信息</a></li>
+            <li><a href="Privacy.html">隐私设置</a></li>
+            <li><a href="Email.html">变更邮箱</a></li>
+            <li><a href="Mobile.html">变更手机</a></li>
+            <li><a href="Password.html">修改密码</a></li>
+        </ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+    </div>
+    </div>
+</div>
+<div style="clear:both;"></div>
+    <div class="pageMainContentContainer">
+    <form method="post" action="" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="QkBJoP0s+VJdpQh3mcxEMjfIE+pStb2V5VIZQrNhd/VfVl7xDd+BxNTDBn4wWJrU1b1zKfafKlaT6/Z588/+4uSQ08MdKeSeL+BEg0tvXL17ssDrLikHhVR1acOnw1ifIxK20j64iz0BsPtuIzSIOktrUZmUUvTpIRNEK4+Td6E=" />
+</div>
+
+<div class="aspNetHidden">
+
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="010FB32B" />
+</div>
+    
+    <div class="bodyBlock">
+        <div class="detailBlockTitle" style="padding-left:20px;"><div class="leftIco"></div><div class="left">功能快捷链接</div></div>
+        <div class="editBlockBorder">   
+            <div class="mgin30 font14">
+                <div class="font16 bold">信息汇总</div>
+                <a href="sum.html">系统概况</a>
+                <a href="">全部功能列表</a>
+            </div>    
+            <div class="mgin30 font14">
+                <div class="font16 bold">简历</div>
+                <a href="Resume.html">我的简历</a>
+                <a href="MyTarget.html">我的求职意向</a>
+            </div>   
+            <div class="mgin30 font14">
+                <div class="font16 bold">职位 / 企业</div>
+                <a href="Sended.html">已投职位</a>
+                <a href="Favor.html">我关注的职位</a>
+                <a href="History.html">最近浏览的职位</a>
+                <a href="Favor.html">我关注的企业</a>
+            </div>
+            <div class="mgin30 font14">
+                <div class="font16 bold">个人设置</div>
+                <a href="Default.html">个人信息</a>
+                <a href="Privacy.html">隐私设置</a>
+                <a href="Email.html">变更邮箱</a>
+                <a href="Mobile.html">变更手机</a>
+                <a href="Password.html">修改密码</a>
+            </div>
+            <br />
+            <br />
+        </div>        
+    </div>
+
+    
+
+<script type="text/javascript">
+//<![CDATA[
+pageMainMenuCreater.setActive({mainText:'首页',subText: '功能快捷连接'});//]]>
+</script>
+</form>
+    
+
+    <div style="clear:both;"></div>
+    </div> 
+    
+<div style="clear:both;"></div>
+<div class="footerOuter">
+    <div class="footer">
+        <div>
+            <div class="contact">
+                <span style="margin-top:60px; font-size:14px;">服务热线 (免长话费)</span>
+                <span style="font-size:16px;">400-6838-789</span>
+                <span>工作日 9:00-19:00</span>
+            </div>
+            <div class="footerBlock">
+                <span>网站简介</span>
+                <a>网站简介</a>
+                <a>产品服务</a>
+                <a>创新优势</a>
+                <a>友情链接</a>
+                <a>联系我们</a>
+            </div>
+            <div class="footerBlock">
+                <span>使用帮助</span>
+                <a>网站简介</a>
+                <a>产品服务</a>
+                <a>创新优势</a>
+                <a>友情链接</a>
+                <a>联系我们</a>
+            </div>
+            <div class="footerBlock">
+                <span>合作共赢</span>
+                <a>网站简介</a>
+                <a>产品服务</a>
+                <a>创新优势</a>
+                <a>友情链接</a>
+                <a>联系我们</a>
+            </div>
+            <div class="footerBlock">
+                <span>快捷方式</span>
+                <a>网站简介</a>
+                <a>产品服务</a>
+                <a>创新优势</a>
+                <a>友情链接</a>
+                <a>联系我们</a>
+            </div>
+        </div>
+        <div style="clear:both;"></div>
+        <div style="margin-top:20px; color:#888;">
+        版权所有：好工作网
+        联系电话：88888888&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        联系邮箱：88888@qq.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+        地址：广州市环市中路&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        邮政编码：510000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<!--[if IE 6]>
+<script type="text/javascript" src="/js/DD_belatedPNG_0.0.8a.js"></script>
+<script type="text/javascript">   
+  DD_belatedPNG.fix('.pngfix'); 
+</script>
+<![endif]-->

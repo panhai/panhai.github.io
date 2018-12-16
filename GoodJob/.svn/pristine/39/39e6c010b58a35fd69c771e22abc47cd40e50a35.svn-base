@@ -1,0 +1,110 @@
+﻿/* 新改的HR收藏夹（简历云）比较麻烦，所以单列出来 */
+.HRstore{ clear:both; background-color:#fff; margin-bottom:10px;}
+.HRstore div{ padding:20px;}
+.HRstore h3{ font-size:18px; color:#3d3d3d; font-weight:normal;}
+.HRstore samp{ display:block; clear:both; margin:5px 0;}
+.HRstore p{ font-size:14px; color:#a4a4a4;}
+.HRstore b,.HRstore i{ color:#525252; font-weight:normal; font-style:normal;}
+.HRstore code{ display:block; clear:both; text-align:center; font-size:16px; color:#1562c8; background-color:#ebf3ff; line-height:40px; margin-bottom:10px;}
+.HRstore em{ font-style:normal; background-color:#4594fc; padding:0 3px; margin-left:5px; color:#fff;}
+
+.HRmenus{ clear:both; background-color:#fff;}
+.HRmenus h3,.HRmenus li,.HRmenus h4{ background:url(../../../images/v2/icons/navline.jpg) bottom center no-repeat;}
+.HRmenus h3{ font-size:18px; color:#3d3d3d; font-weight:normal; padding:20px 20px 10px;}
+.HRmenus ul{ max-height:288px; overflow:hidden; _height:288px;}
+.HRmenus li a{ display:block; line-height:36px; height:36px; color:#3f3f3f; font-size:16px; padding-left:35px; white-space:nowrap; background:url(../../../images/v2/icons/li-dot.png) 20px center no-repeat;}
+.HRmenus li a{ _background-image:url(../../../images/v2/icons/li-dot.gif);}
+.HRmenus a:hover{ color:#1562c8;}
+.HRmenus a.cur{ background-image:url(../../../images/v2/icons/li-dot-cur.png); color:#1562c8;}
+.HRmenus a.cur{ _background-image:url(../../../images/v2/icons/li-dot-cur.gif);}
+/*点击展开*/
+.HRmenus h4{ display:none; line-height:36px; font-weight:normal; padding-left:15px;}
+.HRmenus h4 a{ display:block; color:#9e9d9d; background:url(../../../images/v2/icons/triangle-down.png) left center no-repeat; padding-left:20px;}
+.HRmenus h4 a{ _background-image:url(../../../images/v2/icons/triangle-down.gif);}
+.HRmenus h4 a.on{ background-image:url(../../../images/v2/icons/triangle-up.png); _background-image:url(../../../images/v2/icons/triangle-up.gif);}
+/*操作项*/
+.HRmenus h5{ padding:20px;}
+.HRmenus h5 a{ display:inline-block; background-color:#ddecff; color:#1562c8; font-size:12px; font-weight:normal; line-height:30px; padding:0 10px;}
+
+/*过滤项*/
+.Topics span{ float:right; font-size:16px; color:#1562c8; padding:0 15px; background:url(../../../images/v2/icons/triangle-down-blue-deep.png) right center no-repeat; cursor:pointer;}
+.Topics span{ _background-image:url(../../../images/v2/icons/triangle-down-blue-deep.gif);}
+.Filters{ background-color:#ebf3ff; padding:10px 0 0 20px; clear:both; display:none;}
+.Filters th{ text-align:right; font-size:14px; color:#525252; font-weight:normal; line-height:50px;}
+.Filters var{ display:block; width:70px; float:left; text-align:right; font-size:14px; color:#525252; font-style:normal; line-height:35px;}
+.Filters thead{ height:0;}
+.Filters td{ padding:7px 0;}
+.Filters div.half{ width:50%; float:left;}
+.Filters .SELECT{ float:left;}
+.Filters .SELECT dt{ background-color:#fff; border:1px solid #f4f4f4; line-height:33px;}
+.Filters ins{ display:block; text-decoration:none; float:left; line-height:35px; padding:0 5px;}
+/*长条*/
+.blue dt{ width:280px;}
+.blue.SELECT-on dt{ z-index:2; position:relative;}
+.blue dt span,.blue dt b{ width:262px;}
+.blue dd{ top:33px; border:2px solid #ebf3ff;}
+.filter-jobs{ _position:relative;}
+.filter-jobs dd{ left:-360px;}
+.filter-profs dd{ left:-745px;}
+/*单条*/
+.alone{}
+.alone dt{ width:148px;}
+.alone dt input,.alone dt b,.alone dt span{ width:128px !important; font-size:14px !important;}
+.alone dd{ width:168px; border:1px solid #f4f4f4;}
+/*双条*/
+.couple{}
+.couple dt{ width:73px;}
+.couple dt b,.couple dt span{ width:56px;}
+.couple dd{ width:93px; font-size:14px; border:1px solid #f4f4f4;}
+/*学历*/
+.Education{ width:207px;}
+.Education dt b,.Education dt span{ width:167px; font-size:14px;}
+.Education dd{ width:205px; border:1px solid #f4f4f4;}
+/*按钮项*/
+.Filters tfoot td{ text-align:center; padding:20px;}
+.Filters tfoot td *{ vertical-align:middle; display:inline-block;}
+.Filters .submit{ width:180px; height:30px; color:#fff; cursor:pointer; background-color:#1562c8; font-size:18px; cursor:pointer; border:0;}
+.Filters .reset,.Filters .fold{ color:#525252; font-size:16px; text-decoration:underline; padding-left:20px; background-color:transparent;}
+.Filters .reset{ border:0; cursor:pointer;}
+
+/*创建新分组/修改当前分组*/
+.Create,.Edit{}
+.Create .text,.Create textarea,.Edit .text,.Edit textarea{ width:298px;}
+.Create textarea,.Edit textarea{ height:150px;}
+.CENTERDIV img{ vertical-align:middle; margin-right:5px;}
+
+/*移动简历*/
+.Move{}
+.Move table{ width:450px; margin:0 auto;}
+.Move textarea{ height:150px; width:428px;}
+.Move strong{ color:#1562c8; font-weight:normal;}
+.Move .groups{}
+.Move .groups label{ display:inline-block; width:130px; float:left; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; font-size:16px; padding-left:20px; background:url(../../../images/v2/icons/box-empty.jpg) left center no-repeat; cursor:pointer;}
+.Move .groups input{ display:none;}
+.Move .groups label.checked{ color:#1562c8; background-image:url(../../../images/v2/icons/box-checked.jpg);}
+.Move .create{ border:1px solid #b9b9b9; background-color:#fff; font-size:16px; color:#525252; width:120px; height:30px; cursor:pointer;}
+/*移动下的创建新分类*/
+.create-subform{ display:none;}
+.create-subform input{ vertical-align:top; margin:5px 10px 0 0; float:left; _margin-right:5px;}
+.create-subform .text{ width:278px; height:34px; line-height:34px;}
+.create-subform .btn{ width:65px; height:36px; font-size:16px; border:0; cursor:pointer;}
+.create-subform .sub-submit{ background-color:#1562c8; color:#fff;}
+.create-subform .sub-reset{ background-color:#e5e5e5; color:#525252; margin-right:0;}
+/*新增小小小字提示*/
+.Move .summary{ display:none;}
+.Move .summary small{ font-size:12px;}
+/*新增样式控制*/
+.Move .memory{ display:;}
+.multiple .memory{ display:none !important;}
+.multiple .summary{ display:block !important;}
+
+/*备注提示*/
+td.profile.on{ position:relative;}
+.profile .memory{ display:none; min-width: 60px;max-width:379px; height:42px;padding:16px 16px 16px 0; position:absolute; top:55px; left: 20px; z-index:3; color:#1562c8; font-size:14px; line-height:25px;/*  background-color: #cde4ff; */background: url("../../../images/v2/memorybg-r.png") no-repeat right top;}
+.profile .memory{ _background-image:url(../../../images/v2/memorybg.gif);}
+td.profile.on .memory{ display:block;}
+.profile .memory em{ position: absolute; top: -1px; left: -22px;width: 40px; height: 82px; background: url(../../../images/v2/memorybg-l.png) no-repeat top left;}
+.profile .memory i{ position: absolute; top: -8px; left: 10px;width: 18px; height: 8px; background: url("../../../images/v2/memorybg-t.png") no-repeat;}
+/*为了整理z轴而更改的样式，要保证标题标签栏上的时间选择器在最上，要保证过滤选项中的下拉列表在信息列表任意内容之上（SVG会自动设置成relative）*/
+.Topics{ position:relative; z-index:1111;}
+.Filters{ position:relative; z-index:111;}

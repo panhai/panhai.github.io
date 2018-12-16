@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="../css/v2/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/login.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/jiuye/all.css">
+<title>好工作-注册页-邮箱验证成功</title>
+</head>
+
+<body>
+<div class="TOPHR"></div>
+<div class="HEADER"><div class="common">
+	<div class="LOGO"><img src="../images/v2/jiuye/logo.png" height="92"></div>
+    <div class="WEBNAME">就业信息网</div>
+    <div class="ENTRANCE"><a href="#">好工作就业服务系统>></a></div>
+    <div class="NAV">
+    	<ul>
+        	<li class="green"><a href="#">学生<i></i></a>
+            	<div>
+                	<a href="#">招聘信息</a>
+                	<a href="#">宣讲会</a>
+                	<a href="#">学校通知</a>
+                </div>
+            </li>
+        	<li class="yellow"><a href="#">企业<i></i></a>
+            	<div>
+                	<a href="#">信息发布</a>
+                	<a href="#">校企合作</a>
+                	<a href="#">专业介绍</a>
+                </div>
+            </li>
+        	<li class="orange"><a href="#">校友<i></i></a>
+            	<div>
+                	<a href="#">校友风采</a>
+                	<a href="#">工作机会</a>
+                	<a href="#">职业生涯</a>
+                </div>
+            </li>
+        </ul>
+        <a href="about.html" class="about">关于我们</a>
+    </div>
+</div></div>
+
+<div class="Main">
+	<h1 class="TOPIC">注册 [好工作] 账号</h1>
+    <div class="Final">
+        <h4>恭喜您，使用邮箱<ins>13428596252@193.com</ins>注册成功！</h4>
+        <p><b>5</b> 秒后<a href="new-login.html">直接登录</a></p>
+    </div>
+</div>
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/v2/jiuye.js"></script>

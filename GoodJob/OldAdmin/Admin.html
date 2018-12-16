@@ -1,0 +1,272 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><title>
+    管理后台
+</title><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta http-equiv="pragma" content="no-cache" /><meta http-equiv="Cache-Control" content="no-cache, must-revalidate" /><meta http-equiv="expires" content="0" />
+    <link href="../css/1024/common.css" rel="stylesheet" type="text/css" />
+    <link href="../css/1024/admin.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/MD5.js"></script>
+    <script type="text/javascript" src="../js/jbody.js"></script>
+    <script type="text/javascript" src="../js/jbody-plugin.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+    <script type="text/javascript" src="../js/area.js"></script>
+    <script type="text/javascript" src="../js/subjects.js"></script>
+    <script type="text/javascript" src="../js/jobPositions.js"></script>
+    <script type="text/javascript" src="../js/oldadmin/gpAdmin.js"></script>
+    <script type="text/javascript" src="../js/menuControl.js"></script>
+    <script type="text/javascript" src="../js/oldadmin/common.js"></script>
+    <script type="text/javascript" src="../js/selectors.js"></script>
+    
+    <script type="text/javascript" src="../UploadFile/UploadFile.js"></script>
+    <script type="text/javascript" src="../UploadFile/ManageCtrl.js"></script>
+    
+    <style type="text/css">
+        .bodyBlock .editBlockBorder a{ margin-right:15px; color:#0094ff; }
+        .bodyBlock .editBlockBorder a:hover{ text-decoration:underline; }
+    </style>
+</head>
+<body>
+        
+    
+    
+    
+<div id="pg-header" class="pg-header">
+    <div class="pg-header-main">
+        <div class="logo">
+            <a href="/"><img alt="好工作网Logo" src="../images/logo.png" class="pngfix" width="232" height="40" /></a>
+        </div>
+        <div class="cname">平台管理后台</div>
+        <div class="r mginT10">
+    <div class="platform-switch-container">
+    <div class="platform-switch-main msout">
+        <span class="floatR">切换后台</span>
+        <span class="floatR" style="border:solid 1px #ffc183; line-height:12px; margin-right:5px; padding-left:1px; padding-right:1px;">+</span>
+        <div style="clear:both;"></div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        $(".platform-switch-main").click(function () {
+            JBFrameHelper.showPage("/UCenter/PlatformSwitch.phtml", { obj: this, title: "切换到个人中心或其他管理后台", w: 500, pos: { to: "win", parent: "doc", park: "inside", parkInside: "center" } }, true, false);
+        });
+    })
+</script>
+
+</div>
+    </div>
+</div>
+    
+<div id="pg-nav" class="pg-nav">
+    <ul>
+        <li><div class="nav-title"><a href="#">管理首页</a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">院校<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">企业<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">资讯公告<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">招聘<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">简历<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">用户<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">广告<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">更多<sub></sub></a></div></li>
+    </ul>
+</div>
+<div style="clear:both;"></div>
+<div id="pg-nav-sub" style="display:none;">
+    <div id="pg-nav-sub-inner">
+    <div id="pg-nav-sub-main">
+        <ul style="display:none;">
+            <li><a href="Sum.html">系统概况</a></li>
+            <li><a href="Admin.html">系统功能链接汇总</a></li>
+            <li><a href="#">消息</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="School-cooperation.html">合作院校</a></li>
+            <li><a href="School-hasexpired.html">已到期</a></li>
+            <li><a href="School-expire.html">即将到期</a></li>
+            <li><a href="School-application.html">申请中</a></li>
+            <li><a href="School-mobilization.html">动员中</a></li>
+            <li><a href="School-all.html">全部院校</a></li>
+            <li><a href="School-add.html">添加院校</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Company-application.html">合作企业</a></li>
+            <li><a href="Company-hasexpired.html">已到期</a></li>
+            <li><a href="Company-expire.html">即将到期</a></li>
+            <li><a href="Company-application.html">申请中</a></li>
+            <li><a href="Company-mobilization.html">动员中</a></li>
+            <li><a href="Company-all.html">全部企业</a></li>
+            <li><a href="Company-add.html">添加企业</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Articles.html">管理平台资讯</a></li>
+            <li><a href="Articles.html">管理企业发布的资讯</a></li>
+            <li><a href="Articles.html">管理院校发布的资讯</a></li>
+            <li><a href="Articles.html">添加资讯</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Offers-wait.html">待审核</a></li>
+            <li><a href="Offers-ing.html">正在招聘</a></li>
+            <li><a href="Offers-fulltime.html">全职岗位</a></li>
+            <li><a href="Offers-parktime.html">兼职岗位</a></li>
+            <li><a href="Offers-internship.html">实习岗位</a></li>
+            <li><a href="Offers-school.html">校园招聘</a></li>
+            <li><a href="Offers-public.html">社会招聘</a></li>
+            <li><a href="Offers-all.html">全部</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Resumes.html">企业下载</a></li>
+            <li><a href="Resumes.html">正在求职</a></li>
+            <li><a href="Resumes.html">等待推荐</a></li>
+            <li><a href="Resumes.html">已推荐</a></li>
+            <li><a href="Resumes.html">已面试</a></li>
+            <li><a href="Resumes.html">全部</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="CustmRoles.html">平台管理员角色</a></li>
+            <li><a href="Admin-admin.html">平台管理员</a></li>
+            <li><a href="Admin-school.html">院校方管理员</a></li>
+            <li style="display:none;"><a href="/admin/users/school/">院校方导师</a></li>
+            <li><a href="Admin-company.html">企业方管理员</a></li>
+            <li><a href="Admin-user.html">全部注册用户</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="#">正在投放</a></li>
+            <li><a href="#">已过期</a></li>
+            <li><a href="#">全部</a></li>
+            <li><a href="#">添加广告</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Setting.html">系统设置</a></li>
+            <li><a href="Info.html">个人设置</a></li>
+            <li><a href="Password.html">修改密码</a></li>
+        </ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+    </div>
+    </div>
+</div>
+<div style="clear:both;"></div>
+    <div class="pageMainContentContainer">         
+    <div id="titleAndTabMenuContainer" class="titleAndTabMenuContainer" style="display:none; clear:both;"></div>
+    <div id="titleAndTabMenuContainer2" class="titleAndTabMenuContainer" style="display:none; clear:both;"></div>
+    <iframe id="_postTargetIframe" name="_postTargetIframe" style="display:none;" src="about:blank"></iframe>
+    <form method="post" action="/Admin/" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="PEL7vGKs9iRJNj4LL5XFjppYWTkXb020Bq7Z/qvqTR84kwdr0QQVRhAUDQOgbYDs60Su8rz7skC9D7opEiApXJcyj5LEnAw6k9L4J71ZVlvfOl3n2aVbsgHjq0ImNamYJ7kHHSR5D5JoVmaf/64K5WX2fjUkpBC/6uSPtZeAxG4JYkwLjMWwIFqfei8B47cAHrVFGuwdKKmN0kRC86s6kA==" />
+</div>
+
+<div class="aspNetHidden">
+
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="35273DFB" />
+</div>
+    
+    <div class="bodyBlock">
+        <div class="detailBlockTitle" style="padding-left:20px;"><div class="leftIco"></div><div class="left">管理功能快捷链接</div></div>
+        <div class="editBlockBorder">   
+            <div class="mgin30 font14">
+                <div class="font16 bold">信息汇总</div>
+                <a href="Sum.html">系统概况</a>
+                <a href="Admin.html">功能链接汇总</a>
+            </div>    
+            <div class="mgin30 font14">
+                <div class="font16 bold">院校管理</div>
+                <a href="School-application.html">等待批准（申请中）</a>
+                <a href="School-expire.html">即将到期</a>
+                <a href="School-hasexpired.html">已到期</a>
+                <a href="School-mobilization.html">动员中</a>
+                <a href="School-cooperation.html">合作中</a>
+                <a href="School-all.html">全部院校</a>
+                <a href="School-add.html">添加院校</a>
+            </div>
+            <div class="mgin30 font14">
+                <div class="font16 bold">企业管理</div>
+                <a href="Company-application.html">等待批准（申请中）</a>
+                <a href="Company-expire.html">即将到期</a>
+                <a href="Company-hasexpired.html">已到期</a>
+                <a href="Company-mobilization.html">动员中</a>
+                <a href="Company-cooperation.html">合作中</a>
+                <a href="Company-all.html">全部企业</a>
+                <a href="Company-add.html">添加企业</a>
+            </div>
+            <div class="mgin30 font14">
+                <div class="font16 bold">资讯/公告管理</div>
+                <a href="Articles.html">我方资讯管理</a>
+                <a href="Articles.html">院校资讯管理</a>
+                <a href="Articles.html">企业资讯管理</a>
+            </div>
+            <div class="mgin30 font14">
+                <div class="font16 bold">招聘管理</div>
+                <a href="Offers-wait.html">待审核</a>
+                <a href="Offers-ing.html">正在招聘</a>
+                <a href="Offers-fulltime.html">全职岗位</a>
+                <a href="Offers-parktime.html">兼职岗位</a>
+                <a href="Offers-internship.html">实习岗位</a>
+                <a href="Offers-school.html">校园招聘</a>
+                <a href="Offers-public.html">社会招聘</a>
+                <a href="Offers-all.html">全部</a>
+            </div>
+            <div class="mgin30 font14">
+                <div class="font16 bold">简历管理</div>
+                <a href="Resumes.html">企业下载</a>
+                <a href="Resumes.html">正在求职</a>
+                <a href="Resumes.html">等待推荐</a>
+                <a href="Resumes.html">已推荐</a>
+                <a href="Resumes.html">已面试</a>
+                <a href="Resumes.html">全部</a>
+            </div>
+            <div class="mgin30 font14">
+                <div class="font16 bold">广告管理</div>
+                <a href="Setting.html">系统设置</a>
+            </div>
+            <div class="mgin30 font14">
+                <div class="font16 bold">用户管理</div>
+                <a href="CustmRoles.html">平台管理员角色</a>
+                <a href="Admin-admin.html">平台管理员</a>
+                <a href="Admin-school.html">院校方管理员</a>
+                <a href="Admin-company.html">企业方管理员</a>
+                <a href="Admin-user.html">全部注册用户</a>
+            </div>
+            <div class="mgin30 font14">
+                <div class="font16 bold">系统设置</div>
+                <a href="Setting.html">系统设置</a>
+            </div>
+            <div class="mgin30 font14">
+                <div class="font16 bold">个人设置</div>
+                <a href="Info.html">个人信息设置</a>
+                <a href="Password.html">修改我的密码</a>
+            </div>
+        </div>        
+    </div>
+
+    
+
+<script type="text/javascript">
+//<![CDATA[
+pageMainMenuCreater.setActive({mainText:'管理首页',subText: '系统功能链接汇总'});//]]>
+</script>
+</form>
+    
+   
+    <div style="clear:both;"></div>
+    </div> 
+    
+<div style="clear:both;"></div>
+<div class="footerOuter">
+    <div class="footer">
+        版权所有：好工作网
+        联系电话：88888888&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        联系邮箱：88888@qq.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+        地址：广州市环市中路&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        邮政编码：510000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+    </div>
+</div>
+
+</body>
+</html>
+<script type="text/javascript">
+    $(function () { adminPageInit({ unresize: "" }); });
+</script>

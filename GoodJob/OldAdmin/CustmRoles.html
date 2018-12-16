@@ -1,0 +1,312 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><title>
+    管理后台
+</title><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta http-equiv="pragma" content="no-cache" /><meta http-equiv="Cache-Control" content="no-cache, must-revalidate" /><meta http-equiv="expires" content="0" />
+    <link href="../css/1024/common.css" rel="stylesheet" type="text/css" />
+    <link href="../css/1024/admin.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/MD5.js"></script>
+    <script type="text/javascript" src="../js/jbody.js"></script>
+    <script type="text/javascript" src="../js/jbody-plugin.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+    <script type="text/javascript" src="../js/area.js"></script>
+    <script type="text/javascript" src="../js/subjects.js"></script>
+    <script type="text/javascript" src="../js/jobPositions.js"></script>
+    <script type="text/javascript" src="../js/oldadmin/gpAdmin.js"></script>
+    <script type="text/javascript" src="../js/menuControl.js"></script>
+    <script type="text/javascript" src="../js/oldadmin/common.js"></script>
+    <script type="text/javascript" src="../js/selectors.js"></script>
+    
+    <script type="text/javascript" src="../UploadFile/UploadFile.js"></script>
+    <script type="text/javascript" src="../UploadFile/ManageCtrl.js"></script>
+    
+</head>
+<body>
+    
+
+    
+<div id="pg-header" class="pg-header">
+    <div class="pg-header-main">
+        <div class="logo">
+            <a href="/"><img alt="好工作网Logo" src="../images/logo.png" class="pngfix" width="232" height="40" /></a>
+        </div>
+        <div class="cname">平台管理后台</div>
+        <div class="r mginT10">
+    <div class="platform-switch-container">
+    <div class="platform-switch-main msout">
+        <span class="floatR">切换后台</span>
+        <span class="floatR" style="border:solid 1px #ffc183; line-height:12px; margin-right:5px; padding-left:1px; padding-right:1px;">+</span>
+        <div style="clear:both;"></div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        $(".platform-switch-main").click(function () {
+            JBFrameHelper.showPage("/UCenter/PlatformSwitch.phtml", { obj: this, title: "切换到个人中心或其他管理后台", w: 500, pos: { to: "win", parent: "doc", park: "inside", parkInside: "center" } }, true, false);
+        });
+    })
+</script>
+
+</div>
+    </div>
+</div>
+    
+<div id="pg-nav" class="pg-nav">
+    <ul>
+        <li><div class="nav-title"><a href="#">管理首页</a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">院校<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">企业<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">资讯公告<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">招聘<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">简历<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">用户<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">广告<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">更多<sub></sub></a></div></li>
+    </ul>
+</div>
+<div style="clear:both;"></div>
+<div id="pg-nav-sub" style="display:none;">
+    <div id="pg-nav-sub-inner">
+    <div id="pg-nav-sub-main">
+        <ul style="display:none;">
+            <li><a href="Sum.html">系统概况</a></li>
+            <li><a href="Admin.html">系统功能链接汇总</a></li>
+            <li><a href="#">消息</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="School-cooperation.html">合作院校</a></li>
+            <li><a href="School-hasexpired.html">已到期</a></li>
+            <li><a href="School-expire.html">即将到期</a></li>
+            <li><a href="School-application.html">申请中</a></li>
+            <li><a href="School-mobilization.html">动员中</a></li>
+            <li><a href="School-all.html">全部院校</a></li>
+            <li><a href="School-add.html">添加院校</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Company-application.html">合作企业</a></li>
+            <li><a href="Company-hasexpired.html">已到期</a></li>
+            <li><a href="Company-expire.html">即将到期</a></li>
+            <li><a href="Company-application.html">申请中</a></li>
+            <li><a href="Company-mobilization.html">动员中</a></li>
+            <li><a href="Company-all.html">全部企业</a></li>
+            <li><a href="Company-add.html">添加企业</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Articles.html">管理平台资讯</a></li>
+            <li><a href="Articles.html">管理企业发布的资讯</a></li>
+            <li><a href="Articles.html">管理院校发布的资讯</a></li>
+            <li><a href="Articles.html">添加资讯</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Offers-wait.html">待审核</a></li>
+            <li><a href="Offers-ing.html">正在招聘</a></li>
+            <li><a href="Offers-fulltime.html">全职岗位</a></li>
+            <li><a href="Offers-parktime.html">兼职岗位</a></li>
+            <li><a href="Offers-internship.html">实习岗位</a></li>
+            <li><a href="Offers-school.html">校园招聘</a></li>
+            <li><a href="Offers-public.html">社会招聘</a></li>
+            <li><a href="Offers-all.html">全部</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Resumes.html">企业下载</a></li>
+            <li><a href="Resumes.html">正在求职</a></li>
+            <li><a href="Resumes.html">等待推荐</a></li>
+            <li><a href="Resumes.html">已推荐</a></li>
+            <li><a href="Resumes.html">已面试</a></li>
+            <li><a href="Resumes.html">全部</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="CustmRoles.html">平台管理员角色</a></li>
+            <li><a href="Admin-admin.html">平台管理员</a></li>
+            <li><a href="Admin-school.html">院校方管理员</a></li>
+            <li style="display:none;"><a href="/admin/users/school/">院校方导师</a></li>
+            <li><a href="Admin-company.html">企业方管理员</a></li>
+            <li><a href="Admin-user.html">全部注册用户</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="#">正在投放</a></li>
+            <li><a href="#">已过期</a></li>
+            <li><a href="#">全部</a></li>
+            <li><a href="#">添加广告</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Setting.html">系统设置</a></li>
+            <li><a href="Info.html">个人设置</a></li>
+            <li><a href="Password.html">修改密码</a></li>
+        </ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+    </div>
+    </div>
+</div>
+<div style="clear:both;"></div>
+    <div class="pageMainContentContainer">         
+    <div id="titleAndTabMenuContainer" class="titleAndTabMenuContainer" style="display:none; clear:both;"></div>
+    <div id="titleAndTabMenuContainer2" class="titleAndTabMenuContainer" style="display:none; clear:both;"></div>
+    <iframe id="_postTargetIframe" name="_postTargetIframe" style="display:none;" src="about:blank"></iframe>
+    <form method="post" action="/admin/users/admin/CustmRoles.phtml" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/yxn5mTHjwfV1Girb7gmQJI2D/m3E+CzWNFtwcj33PMTeK1eRFezzp6dcWH365aTcjrF8TqkBi1832Qfg10rffSAqOxDp3XEAsFqYOGz4UtZBtQ/pWvntXeitQX6A1S2EEt0O7vHy/eNIbNVJp18bASSc9Ygnz4eQZdOPB9wS2NJQ4NeIdpkGnd9S46bXZaWwkD/S/O0TqoFHbFJHfMsYurwOI8BwB/CZpdDi5uU/InZof1C8+qFnWgtMrT9iukojy8xl/cHgEWh1Gpt1L3bTQBhAD4FLHr4Yuboy2MmjOLW9EmvsUIeua5KlRQIBefmgxYSLXrGCgJKjyHI1GGdYZx0Y4XAYxxMHTtz78vwAIfN/AfEa6XO4TZoBGuen1ArwBspx2LGTszSVYe+yl4BxxvdlECzmKVfp7XpRao4DMkQb+oWsX3Kbbbsou0SCFPbnQlUzeLOweX+KpsVifuSJc0cgdLAOq7TjgCE1J9SJcTNjTP4xbW+elw6JJhfW3TCj7PmLvj31DXAl1Ue9abIonbh14D2mrMvBNydURr3CRDYVjMIhZTzrLO9RBdbreCf1uuEZ4h6rtEjxsEjJDhOZ44hLM+CaqSwimHhUYo2zA3gkNLBZ+2a+dSg9SmC7hz7DlBexYW9EnZLKbsuOS3g3TF9vj2ksLIOlNF54LRFR+g2LtT0cujKDrJcmoKZxMnerjqjQGmoZXpLbJO3+pWZToX7J2hwcyMwUqwCaDM9Pbxpk+6gqaQucQMFoeb3uWc30rP0WWr6agtg3+5LyWG4rRYIBG82gPecK9CgIel4sRge9XiOyeKL0ETYslghBpvM13yU/5XTL7RElqfGDj8MLt0T/GwZhqR99k7InMBezLr0JPpxv2LiwFtjevDHEASuFeOiDeFINEINvHYc6UaiVl6zm2g6z52XkMEldpmojWgQmNsWCVoR9wlux1S29drc/V5VBOWhu/DP56hXXg5mXyJ5l6jB01u9b2rbKkdVy1zyqVR+Ud0z+L07flgR6HQUxkzuysofdWSUAozSQQamMb7ToIBhX5xJkMbHt0gmdmqcYZQLRM6Ya2hwYAdSr0biZts+sUyw8WW1Ug4XJN3h3yGjJvj1nnEfOk2MhiiPurmeIWnYZU5uOHZ6DMTB7v8UU4nsO79bW8WSB7WZIPIGY2dwculcyg6XXeI5qQTAF7QZG/rWC5jhglzqefOaDJgEdFhIweYrKqp9oql89JVgbo1LTgrktEaRTwXVGQjP04g=" />
+</div>
+
+<div class="aspNetHidden">
+
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D2511043" />
+</div>
+    
+    <div class="bodyBlock">
+         <div class="editBlock editable">
+            <div class="detailBlockTitle"><div class="leftIco"></div><div class="left">平台管理员角色列表</div><div class="btn-3d btn-3d-green btn-3d-mini floatL mginL20" onclick="addRoleGroup(this)">添加新角色</div></div>
+            <div class="blockMain">
+                <table class="listTable">
+                    <thead><tr>
+                        <td style="width:150px;">角色名</td>
+                        <td>权限</td>
+                        <td style="width:120px;">操作</td></tr></thead>
+                    
+                            <tr class="tr0">
+                                <td>超管</td>
+                                <td>超级管理</td>
+                                <td><a href="javascript:viod(0)" onclick="editRoleGroup(this,'100006','超管',1)" style="display:none">修改</a>
+                                     | <a href="javascript:viod(0)" onclick="delRoleGroup(this,'100006','超管',1)" style="display:none">删除</a>
+                                </td>
+                            </tr>
+                        
+                            <tr class="tr1">
+                                <td>网编</td>
+                                <td>网编,高级网编</td>
+                                <td><a href="javascript:viod(0)" onclick="editRoleGroup(this,'100007','网编',96)" style="">修改</a>
+                                     | <a href="javascript:viod(0)" onclick="delRoleGroup(this,'100007','网编',96)" style="">删除</a>
+                                </td>
+                            </tr>
+                        
+                            <tr class="tr0">
+                                <td>学校客户经理</td>
+                                <td>学校管理,高级学校管理</td>
+                                <td><a href="javascript:viod(0)" onclick="editRoleGroup(this,'100008','学校客户经理',24)" style="">修改</a>
+                                     | <a href="javascript:viod(0)" onclick="delRoleGroup(this,'100008','学校客户经理',24)" style="">删除</a>
+                                </td>
+                            </tr>
+                        
+                            <tr class="tr1">
+                                <td>企业客户经理</td>
+                                <td>企业管理,高级企业管理</td>
+                                <td><a href="javascript:viod(0)" onclick="editRoleGroup(this,'100009','企业客户经理',6)" style="">修改</a>
+                                     | <a href="javascript:viod(0)" onclick="delRoleGroup(this,'100009','企业客户经理',6)" style="">删除</a>
+                                </td>
+                            </tr>
+                        
+                </table>
+                <div style="clear:both;"></div>
+            </div>
+        </div>
+     </div>
+    <div style="display:none;">
+    <div class="bodyBlock" id="addRoleContainer" style="width:500px; min-width:500px; margin:0px;padding:0px;">
+         <div class="editBlock editable" style="padding:0px; margin:0px;">
+            <div class="blockMain">
+                <table class="blockMainTable mginT10" style="width:500px;min-width:500px;">
+                    <tr>
+                        <th style="width:100px;"><span class="reqValidate">*</span>角色名称：</th><td style="text-align:left;">
+                            <input name="ctl00$form$TextBoxName" type="text" maxlength="15" id="form_TextBoxName" class="inputText" AutoComplete="false" data-jbextendid="exinput_form_TextBoxName_973_628" data-jbtips="管理员角色名称" style="width:160px;" />
+                            <div style="clear:both; margin-top:8px;"></div>
+                            <span id="nameMsg" style="margin-left:0px;"></span>
+                            </td>
+                    </tr>
+                    <tr>
+                        <th><span class="reqValidate">*</span>角色权限：</th><td style="text-align:left;">
+                            <div style="clear:both; margin-top:8px;"></div>
+                            <input type="hidden" name="ctl00$form$HiddenFieldId" id="form_HiddenFieldId" value="0" />
+                            <input type="hidden" name="ctl00$form$HiddenFieldRolePower" id="form_HiddenFieldRolePower" value="0" />
+                            
+                                    <div style="float:left; width:180px;"><input onclick="rolesclick(this,2)" type="checkbox" value="2" />企业管理</div>
+                                
+                                    <div style="float:left; width:180px;"><input onclick="rolesclick(this,4)" type="checkbox" value="4" />高级企业管理</div>
+                                
+                                    <div style="float:left; width:180px;"><input onclick="rolesclick(this,8)" type="checkbox" value="8" />学校管理</div>
+                                
+                                    <div style="float:left; width:180px;"><input onclick="rolesclick(this,16)" type="checkbox" value="16" />高级学校管理</div>
+                                
+                                    <div style="float:left; width:180px;"><input onclick="rolesclick(this,32)" type="checkbox" value="32" />网编</div>
+                                
+                                    <div style="float:left; width:180px;"><input onclick="rolesclick(this,64)" type="checkbox" value="64" />高级网编</div>
+                                
+                                    <div style="float:left; width:180px;"><input onclick="rolesclick(this,128)" type="checkbox" value="128" />客服</div>
+                                
+                                    <div style="float:left; width:180px;"><input onclick="rolesclick(this,256)" type="checkbox" value="256" />高级客服</div>
+                                
+                                    <div style="float:left; width:180px;"><input onclick="rolesclick(this,512)" type="checkbox" value="512" />财务</div>
+                                
+                                    <div style="float:left; width:180px;"><input onclick="rolesclick(this,1024)" type="checkbox" value="1024" />高级财务</div>
+                                
+                                     </td>
+                    </tr> 
+                    <tr><th>&nbsp;</th><td colspan="5" style="padding-top:30px; padding-bottom:40px;">
+                        <input type="submit" name="ctl00$form$ButtonSubmit" value="提交" id="form_ButtonSubmit" class="btn-3d btn-3d-large btn-3d-orange floatL" />
+                        <input type="button" class="btn-3d btn-3d-large btn-3d-gray floatL mginL20" value="取消" onclick="JBDialog.close()" />
+                    </td></tr>
+                </table>
+                <div style="clear:both;"></div>
+            </div>
+        </div>
+     </div>
+     </div>
+
+    
+
+<script type="text/javascript">
+//<![CDATA[
+function iframeSubmitRegister(){$("#form1").get(0).target = "_postTargetIframe";if(JBValidatorContainer.containAutoFireObj($("#form1").get(0))){   JBValidatorContainer.afterSuccess.push(function(){     if(this==$("#form1").get(0)){ new JBodyDialog().show(window, "<img alt='' src='/images/common/loading/5.gif' />", {w:200,h:90,modal:true,title:"提交中，请稍候...", pos:[{to:'win',park:'inside',parkInside:'center'}]}); }    return true; });}else{  $("#form1").submit(function() {  new JBodyDialog().show(window, "<img alt='' src='/images/common/loading/5.gif' />", {w:200,h:90,modal:true,title:"提交中，请稍候...。", pos:[{to:'win',park:'inside',parkInside:'center'}]});  return true;  });}}$(function(){ setTimeout("iframeSubmitRegister()",1000); });pageMainMenuCreater.setActive({mainText:'用户',subText: '平台管理员角色'});//]]>
+</script>
+<script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxName'});var exinput_form_TextBoxName_973_628=null; JB.ready(function(){exinput_form_TextBoxName_973_628= new JBValidator({varId:'exinput_form_TextBoxName_973_628',exType:'Chinease',checkWhere:'ServerAndClient',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'nameMsg',dataTitle:'管理员角色名称',inputTip:'管理员角色名称',tipShow:'StartAndOnfoucs',tipPos:'InnerText',innerTextTip:'管理员角色名称',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:false,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:2,maxLen:15});});</script></form>
+    
+    <script type="text/javascript">
+        function addRoleGroup(elm) {
+            editOrAddRoleGroup(elm, "添加新管理员角色", 0, "", 0);
+        }
+        function editRoleGroup(elm,id,name,v) {
+            if(v==1){ alert("不能操作超管"); return;}
+            editOrAddRoleGroup(elm, "编辑管理员角色", id, name, v);
+        }
+        function editOrAddRoleGroup(elm, txt, id, name, v) {
+            $("#form_HiddenFieldRolePower").val(v);
+            $("#form_HiddenFieldId").val(id);
+            $("#addRoleContainer input:text").first().val(name);
+            JB.fireEvent($("#addRoleContainer input:text").get(0), "change");
+            $("#addRoleContainer input:checkbox").each(function () {
+                this.checked = ((parseInt(this.value) & v) > 0);
+            });
+            JBDialog.show(elm, document.getElementById("addRoleContainer"), { title: txt, padding: 0, modal: true, pos: [{ to: "win", parent:$(".bodyBlock").first().get(0), parkInside: "center" }] });
+        }
+        function rolesclick(elm, v) {
+            var vv = parseInt($("#form_HiddenFieldRolePower").val());
+            if(elm.checked) vv= (vv|v);
+            else vv = (vv & (~v));
+            $("#form_HiddenFieldRolePower").val(vv);
+        }
+    </script>
+   
+    <div style="clear:both;"></div>
+    </div> 
+    
+<div style="clear:both;"></div>
+<div class="footerOuter">
+    <div class="footer">
+        版权所有：好工作网
+        联系电话：88888888&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        联系邮箱：88888@qq.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+        地址：广州市环市中路&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        邮政编码：510000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+    </div>
+</div>
+
+</body>
+</html>
+<script type="text/javascript">
+    $(function () { adminPageInit({ unresize: "" }); });
+</script>

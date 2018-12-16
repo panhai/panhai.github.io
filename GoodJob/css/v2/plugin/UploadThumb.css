@@ -1,0 +1,20 @@
+
+/*上传图片弹窗*/
+.Upload{}
+.Upload table{ margin:0px auto;}
+.Upload td{ vertical-align:middle; text-align:left;}
+#LogoUpload{ width:0px; height:0px; visibility:hidden;}
+.Upload caption label{ display:block; float:left; width:154px; height:40px; background-image:url(../../../images/v2/upload.png); cursor:pointer;}
+.LogoProgress{ display:none; float:left; width:200px; height:20px; font-size:0; border:1px solid #a4a4a4; position:relative; left:10px; top:10px;}
+.LogoProgress span{ display:block; float:left; height:20px; background-color:#5295f0; color:#fff; font-size:16px; text-indent:5px; line-height:20px;}
+.ThumbClipping .primary,.ThumbClipping .thumbs{ border:1px solid #bbbbbb; background-color:#fff; overflow:hidden;}
+.ThumbClipping .primary{ width:340px; height:340px; position:relative\9;}
+.ThumbClipping .thumbs,.ThumbClipping .thumbs .large{ width:190px; height:190px;}
+.ThumbClipping .view{ width:190px; height:190px; z-index:1; position:relative;}
+.ThumbClipping .view,.ThumbClipping .left,.ThumbClipping .right{ float:left;}
+.ThumbClipping .top,.ThumbClipping .bottom{ clear:both;}
+.ThumbClipping .top,.ThumbClipping .left,.ThumbClipping .right,.ThumbClipping .bottom{ z-index:2; position:relative;}
+.ThumbClipping .slider{ clear:both; width:344px; overflow:hidden; margin-top:3px;}
+.ThumbClipping .slider sub,.ThumbClipping .slider sup{ vertical-align:baseline; display:block; float:left; width:21px; height:20px; text-align:center; line-height:20px; color:#fff;}
+.ThumbClipping .role{ width:290px; height:20px; float:left; position:relative; margin:0 5px;}
+.ThumbClipping .role b{ display:block; width:20px; height:20px; position:absolute; top:0;}

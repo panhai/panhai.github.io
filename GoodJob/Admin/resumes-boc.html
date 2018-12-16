@@ -1,0 +1,184 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>好工作运营后台-简历管理-在线简历</title>
+</head>
+<link rel="stylesheet" type="text/css" href="../css/v2/admin/all.css">
+
+<body>
+<header class="clear">
+	<img src="../images/v2/logo-s.png" width="119" height="62">
+    <em>后台管理系统</em>
+    <p>
+    	<a href="#"><i><img src="../images/v2/nophoto.png" width="30" height="30"></i><span>用户名称</span></a>
+        <a href="#">安全退出</a>
+    </p>
+</header>
+<nav>
+	<li><a href="index.html">首页</a></li>
+	<li><a href="companies.html">企业管理</a></li>
+	<li><a href="schools.html">院校管理</a></li>
+	<li><a href="users.html">用户管理</a></li>
+	<li><a href="jobs.html">职位管理</a></li>
+	<li class="cur"><a href="resumes.html">简历管理</a></li>
+	<li><a href="servers.html">客服系统</a></li>
+	<li><a href="moneys.html">财务系统</a></li>
+	<li><a href="system.html">系统管理</a></li>
+</nav>
+
+<menu>
+	<li><a href="resumes.html">在线简历</a></li>
+    <li><a href="resumes-feedbacks.html">简历投递反馈</a></li>
+    <li><a href="Store.html">简历库</a></li>
+	<li><a href="resumes-replacePush.html">代投简历</a></li>
+    <li><a href="resumes-urgent.html">急招企业</a></li>
+    <li class="cur"><a href="resumes-urgent.html">BOC管理</a></li>
+</menu>
+<div class="filterNav"><a href="resumes-boc.html" class="cur">BOC管理</a><a>根据记录</a><a href="resumes-bocCount.html">BOC统计</a></div>
+<div class="Filter"><table>
+	<tr>
+    	<th width="7%">职位标签：</th><td width="26%" class="jobsTab">
+        	<dl class="SELECT" data-leave="-1">
+                <dt data-placeholder="用于关键词搜索求职者，标签间用空格隔开"></dt>
+                <dd class="">
+                    <table >
+                        <caption data-choices="">
+                            <p></p>
+                            <span>
+                                <input type="button" class="confirm" value="确定">
+                            </span>
+                        </caption>
+                        <tbody><tr><td></td></tr></tbody>
+                    </table>
+                </dd>
+            </dl>
+        </td>
+        <th width="7%">投递简历数：</th><td>
+            <input type="text" class="text double">
+            <ins></ins>
+            <input type="text" class="text double">
+        </td>
+        <th width="7%">急招企业数：</th><td>
+            <input type="text" class="text double">
+            <ins></ins>
+            <input type="text" class="text double">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="6" class="btns">
+            <input type="button" class="submit" value="查询" autocomplete="off">
+            <input type="button" class="reset" value="重置" onclick="allSelectsReset('.Filter');allInputsReset('.Filter');" autocomplete="off">
+        </td>
+    </tr>
+</table></div>
+
+<div class="total">共统计简历 12030 份 <input type="button" value="系统代投设置" class="pushSetBtn" /></div>
+
+<div class="List"><table border="1" bordercolor="#e2e4f0">
+	<thead><tr>
+    	<th width="90">ID</th>
+    	<th width="" class="txtL">标签</th>
+    	<th width="120">代投简历数</th>
+    	<th width="100"><small>新增代投<br>今日/昨日</small></th>
+    	<th width="150"><small>企业数<br>急招/全部</small></th>
+    	<th width="160"><small>职位数<br>急招/全部</small></th>
+    	<th width="160"><small>投递数<br>今日/昨日</small></th>
+    	<th width="160"><small>职位平均投递<br>今日/昨日</small></th>
+    </tr></thead>
+    <tbody>
+    	<tr>
+        	<th><label><input type="checkbox" value="1">10001</label></th>
+            <td class="txtL"><span>电话销售</span></td>
+            <td><a href="resumes-replacePush.html">7</a></td>
+            <td>200/140</td>
+            <td><a href="resumes-urgent.html">200</a>/140</td>
+            <td><a href="resumes-bocCount.html">20</a>/140</td>
+            <td>150/140</td>
+            <td>10/100</td>
+            
+        </tr>
+    	<tr>
+        	<th><label><input type="checkbox" value="2">10002</label></th>
+            <td class="txtL"><span>电话销售</span></td>
+            <td><a href="resumes-replacePush.html">7</a></td>
+            <td>200/140</td>
+            <td><a href="resumes-urgent.html">200</a>/140</td>
+            <td><a href="resumes-bocCount.html">20</a>/140</td>
+            <td>150/140</td>
+            <td>10/100</td>
+            
+        </tr>
+    	<tr>
+        	<th><label><input type="checkbox" value="3">10003</label></th>
+            <td class="txtL"><span>电话销售</span></td>
+            <td><a href="resumes-replacePush.html">7</a></td>
+            <td>200/140</td>
+            <td><a>200</a>/140</td>
+            <td><a>20</a>/140</td>
+            <td>150/140</td>
+            <td>10/100</td>
+            
+        </tr>
+    	<tr>
+        	<th><label><input type="checkbox" value="4">10004</label></th>
+            <td class="txtL"><span>电话销售</span></td>
+            <td><a href="resumes-replacePush.html">7</a></td>
+            <td>200/140</td>
+            <td><a>200</a>/140</td>
+            <td><a>20</a>/140</td>
+            <td>150/140</td>
+            <td>10/100</td>
+            
+        </tr>
+    </tbody>
+    <caption>
+        <div class="Pages">
+        	<span>5874条结果，共294页</span>
+            <a href="#">首页</a>
+            <a href="#">上一页</a>
+            <a href="#">1</a>
+            <a href="#" class="cur">2</a>
+            <a href="#">3</a>
+            <a href="#">...</a>
+            <a href="#">294</a>
+            <a href="#">下一页</a>
+            <a href="#">尾页</a>
+        </div>
+    </caption>
+</table></div>
+
+<table class="FullScreenPlugin black5"><tr><td>
+	<dl class="CENTERDIV pushSet CenterX" data-active=".pushSetBtn" data-datas="id">
+    	<dt><b>系统代投设置</b><q>&times;</q></dt>
+        <dd>
+            <table class="CenterTableFull">
+                <tbody>
+                    <tr><th width="120"><h3>职位急聘设置</h3></th><td></td></tr>
+                   <!--  <tr><th >急聘周期：</th><td><input type="text" /><em>天</em><span>（企业设置急聘后，多久自动取消急聘）</span></td></tr> -->
+                    <tr><th >代投递时间：</th><td><input type="text" /><ins>-</ins><input type="text" /><span>（每天该时段内系统随机代递，晚上23:00~早上8:00不投递）</span></td></tr>
+                    <tr><th >急招等级：</th><td class="leave"><span>极度急招</span><span>急招</span><span>正常</span></td></tr>
+                    <tr><th >默认代投数：</th><td><input type="number" /><em>份</em><input type="number" /><em>份</em><input type="number" /><em>份</em><span>（默认一天系统自动代投递多少份简历）</span></td></tr>
+                    <tr><th >默认权重加分：</th><td><input type="number" /><em>份</em><input type="number" /><em>份</em><input type="number" /><em>份</em><span>（默认不同急招等级职位权重加分）</span></td></tr>
+                    <tr><th><h3>简历投递设置</h3></th><td></td></tr>
+                    <tr><th >默认投递数：</th><td><input type="number" /><em>天</em><span>（同一求职者，一天默认最多代投多少份）</span></td></tr>
+                    <tr><th >重复投递周期：</th><td><input type="number" /><em>天</em><span>（同一职位，同一份简历，多久能重复代投递）</span></td></tr>
+                </tbody>
+                <tfoot>
+                <tr><td colspan="2">
+                <input type="button" class="submit" value="提交" autocomplete="off">
+                <input type="button" class="cancel" value="取消" autocomplete="off">
+                </td></tr>
+                </tfoot>
+            </table>
+        </dd>
+    </dl>
+</td></tr></table>
+</body>
+</html>
+<script src="../js/v2/admin/jquery2.js"></script>
+<script src="../js/universities.js"></script>
+<script src="../js/v2/admin/all.js"></script>
+<script>
+
+</script>

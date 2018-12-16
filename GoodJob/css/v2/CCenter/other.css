@@ -1,0 +1,129 @@
+/* 其它页面样式 */
+.Right{ background:none;}
+/*资金帐户-明细*/
+.Adv{ clear:both; overflow:hidden; font-size:0; margin-bottom:15px;}
+/*余额*/
+.Balance{ width:352px; float:left; background-color:#fff; height:60px; padding:20px; line-height:30px; margin-bottom:4px;}
+.Balance var{ display:block; float:left; margin-right:10px; width:62px; height:62px;}
+.Balance h3{ font-size:18px; font-weight:normal; width:170px; float:left;}
+.Balance p{ float:right; font-size:14px; color:#333; line-height:60px;}
+.Balance p b{ color:#1562c8; font-size:20px; padding-right:5px; font-weight:normal;}
+.Balance h4{ font-weight:normal; width:170px; float:left; color:#7c7c7c;}
+.green{}
+.green h3{ color:#5bc69a;}
+.red{ float:right;}
+.red h3{ color:#ed7a6b;}
+/*搜索条*/
+.Filter{ clear:both; border-bottom:2px solid #ededed; background-color:#fff; height:40px; padding:10px 20px;}
+.Filter h5{ font-size:20px; color:#525252; float:left; line-height:40px; font-weight:normal;}
+/*类型选择*/
+.Filter .SELECT{ float:left; width:130px; padding-top:4px; margin-left:90px; _margin-left:85px;}
+.Filter .SELECT dt{ height:34px; background-color:#ebf3ff; color:#1562c8;}
+.Filter .SELECT dt *{ font-size:18px; line-height:34px;}
+.Filter .SELECT dt span,.Filter .SELECT dt b{ width:95px;}
+.Filter .SELECT dd{ width:128px; border:1px solid #ebf3ff;}
+.Filter .SELECT dd a{ padding:0 10px;}
+/*起止时间*/
+.Filter div{ float:right; padding-top:3px; width:440px;}
+.Filter input{ border:0;}
+.Filter .times{ width:120px; padding:0 40px 0 10px; background:url(../../../images/v2/icons/calendar.png) 140px center no-repeat #ebf3ff; height:34px; line-height:34px; font-size:16px; color:#1562c8;}
+.Filter .times{ _background-image:url(../../../images/v2/icons/calendar.gif);}
+.Filter ins{ text-decoration:none; color:#1562c8; font-size:20px;}
+.Filter .submit{ width:70px; background-color:#1562c8; border:0; font-size:18px; cursor:pointer; height:34px; color:#fff; margin-left:5px;}
+/*账单列表*/
+.Details{ clear:both;}
+.Details dt{ clear:both; height:40px; line-height:40px; color:#959595; font-size:16px; background-color:#f0f0f0; padding:0 20px; margin-top:10px;}
+.Details dt b{ color:#525252; font-weight:normal;}
+.Details dt p{ float:left;}
+.Details dt q{ float:right;}
+.Details dd{ clear:both; padding:20px; background-color:#fff; height:86px;}
+.Details dd div{ float:left;}
+/*信息说明*/
+.Details var{ width:86px; height:86px; overflow:hidden; float:left; margin-right:20px;}
+.Details .infor{ width:470px;}
+.Details .infor h3{ font-size:20px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; font-weight:normal; line-height:35px;}
+.Details .infor a{ color:#1562c8;}
+.Details .infor a:hover{ text-decoration:underline;}
+.Details .infor small{ font-size:14px; color:#3d3d3d; padding-left:10px;}
+.Details .infor p{ font-size:14px; color:#525252;}
+/*消费及余额*/
+.Details .change,.Details .balance{ font-size:16px; color:#959595;}
+.Details .change{ width:140px;}
+.Details .change b{ font-weight:normal; color:#525252;}
+.Details .balance{ width:130px; text-align:right;}
+.Details .balance em{ font-style:normal; color:#ff6000;}
+/*分页*/
+.PAGES{ text-align:right; padding:20px 0;}
+/*帐户资金-充值*/
+.Charge{ clear:both; margin-top:20px; background-color:#fff; padding:30px;}
+/*表单*/
+.Form{ margin:0 auto;}
+.Form th{ text-align:right; line-height:40px; font-size:16px; color:#1562c8; font-weight:normal; vertical-align:top; padding-right:10px;}
+.Form td{ line-height:40px; height:40px;}
+/*单选框组*/
+.radios{}
+.radios label{ display:block; border:2px solid #bbdaff; width:180px; margin:0 10px 10px 0; float:left; text-align:center; font-size:18px; color:#525252; cursor:pointer;}
+.radios label input{ display:none;}
+.radios label *{ font-style:normal;}
+.radios label em{ font-size:18px; color:#525252; padding-left:10px; float:left;}
+.radios label i{ font-size:14px; color:#fd4b14; float:right; padding-right:10px; line-height:15px; padding-top:20px;}
+.radios .text{ height:40px; line-height:40px; font-size:18px; color:#1562c8; border:2px solid #bbdaff; padding:0 10px; width:220px; float:left;}
+.radios .checked{ border-color:#ff5e00; background:url(../../../images/v2/icons/checked-o.png) right top no-repeat; _background-image:url(../../../images/v2/icons/checked-o.gif);}
+/*充值活动的链接*/
+.activity{ float:left; font-size:18px; color:#1562c8; line-height:40px; margin-left:20px;}
+.Form a:hover{ text-decoration:underline; color:#ff5e00;}
+/*蓝条提示*/
+.Form p{ background-color:#e3efff; font-size:16px; color:#1562c8; text-align:center; margin:10px 0 20px;}
+/*剩下的*/
+.tail{ padding-top:10px;}
+.tail .submit{ width:184px; height:40px; font-size:18px; color:#fff; background-color:#ff771a; border:0; float:left;}
+.tail .agree{ display:inline-block; background:url(../../../images/v2/icons/box-empty.jpg) left center no-repeat; font-size:14px; color:#525252; padding-left:20px; margin-left:10px; float:left; line-height:40px; cursor:pointer;}
+.tail .agree input{ display:none;}
+.tail .checked{ background-image:url(../../../images/v2/icons/box-checked.jpg);}
+.tail .protocol{ float:left; font-size:14px; color:#1562c8;}
+/*说明*/
+.Announce{ clear:both; background-color:#fff; margin-top:20px; padding:25px 30px; color:#525252; font-size:16px; line-height:200%;}
+.Announce dt{ font-size:20px; color:#1562c8;}
+
+/*顶置介绍*/
+.Push{ clear:both; background-color:#fff; margin-bottom:20px;}
+.Push dt{ line-height:50px; text-indent:15px; border-bottom:1px solid #e4e4e4;}
+.Push dt h1{ font-size:20px; color:#414141; font-weight:normal;}
+.Push dd{ padding:15px 25px; line-height:30px;}
+.Push dd h4{ font-size:16px; color:#3a3a3a; padding-left:35px; background:url(../../../images/v2/icons/star.png) 10px center no-repeat; margin-top:10px;}
+.Push dd h4{ _background-image:url(../../../images/v2/icons/star.gif);}
+.Push dd p{ font-size:14px; color:#666; margin:0 0 10px 35px; border-bottom:1px dashed #e4e4e4; padding-bottom:10px;}
+/*顶置四个说明*/
+.Pushes{ clear:both; background-color:#fff; margin-bottom:120px;}
+.Pushes dt{ line-height:40px; background-color:#cde4ff; padding:0 10px; height:42px;}
+.Pushes dt h3{ font-size:18px; color:#6c9ee2; font-weight:normal; padding:0 10px; float:left;}
+.Pushes dt h3.cur{ background-color:#fff; border-top:2px solid #1562c8;}
+.Pushes div{ clear:both; padding:30px 0;}
+.Pushes .center{ text-align:center;}
+.Pushes .content{ padding:30px 20px; font-size:16px; color:#525252; line-height:30px;}
+.Pushes .content span{ color:#a4a4a4;}
+.Pushes .margin{ margin-bottom:10px;}
+.Pushes strong{ font-size:18px; display:inline-block; margin-top:10px;}
+.Pushes .intro{ padding:20px; font-size:14px; color:#525252; line-height:30px;}
+
+/*顶置的静止条*/
+.Tail{ width:100%; height:100px; text-align:center; overflow:hidden;}
+.Tail a{ display:inline-block; width:270px; height:55px; line-height:55px; color:#1562c8; background-color:#fff; font-size:22px; margin-top:20px; border:2px solid #fff;}
+.Tail a:hover{ background-color:#1562c8; color:#fff;}
+
+/*校企合作*/
+.Cooperate{ clear:both; font-size:14px; color:#525252; line-height:25px;}
+.Cooperate dt{ border-bottom:1px solid #e4e4e4; line-height:40px; padding:0 15px; background-color:#fff;}
+.Cooperate dt *{ font-size:18px; color:#1562c8; font-weight:normal;}
+.Cooperate dd{ margin-bottom:20px; background-color:#fff; padding:20px;}
+.Cooperate h4{ font-weight:normal; font-size:14px; padding:0 35px; background:url(../../../images/v2/icons/star.png) 5px 3px no-repeat; margin-bottom:10px;}
+.Cooperate h4{ _background-image:url(../../../images/v2/icons/star.gif);}
+
+/*新增充值成功页面*/
+.ChargeOK{ background-color:#fff; overflow:hidden; margin-top:40px;}
+.ChargeWarn{ width:270px; margin:100px auto;}
+.ChargeWarn var{ display:block; width:58px; height:58px; float:left; margin:10px 20px 100px 0; background-image:url(../../../images/v2/icons/checked-huge.png); _background-image:url(../../../images/v2/icons/checked-huge.gif);}
+.ChargeWarn h1{ font-size:32px; color:#525252; font-weight:normal; line-height:50px;}
+.ChargeWarn a{ color:#1562c8;}
+.ChargeWarn a:hover{ color:#ff2e12; text-decoration:underline;}
+.ChargeTip{ clear:both; margin:70px; background-color:#f6faff; font-size:16px; color:#525252; line-height:30px; padding:20px 50px;}

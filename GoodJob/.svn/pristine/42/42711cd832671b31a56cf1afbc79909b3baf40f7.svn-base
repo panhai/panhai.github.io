@@ -1,0 +1,108 @@
+body { background-color: #fff; }
+.HEADER { box-shadow: none; }
+.Main { width: 1000px; margin: 15px auto 200px; }
+.Main .Filter .filter-search { text-align: center; }
+.Main .Filter .filter-search input { width: 160px; height: 34px; background-color: #1562c8; font-size: 16px; color: #fff; border: 0; cursor: pointer; }
+.Filter-top .FilterTab { height: 72px; background: #f4f9ff url("../../../images/v2/CCenter/find-rt.jpg") no-repeat right top; }
+.Filter-top .FilterTab .Filter-bg { border-bottom: 1px solid #cde4ff; }
+.Filter-top .FilterTab .Filter-bg a { display: inline-block; margin-left: 32px; font-size: 18px; color: #161616; line-height: 45px; }
+.Filter-top .FilterTab .Filter-bg a.cur { color: #1562c8; border-bottom: 3px solid #1562c8; }
+.Filter-top p { padding-left: 24px; color: #ff7800; font-size: 16px; line-height: 40px; background-color: #cde4ff; }
+.Filter-main { height: 188px; padding-top: 20px; padding-left: 23px; background-color: #fff; border: 1px solid #cfe5ff; }
+.Filter-main .line { font-size: 16px; color: #666666; }
+.Filter-main .line .text { width: 195px; height: 32px; padding-left: 12px; border: 1px solid #ececec; }
+.Filter-main .line em{ display:none; position: absolute; right: 40px; top: 10px; width: 14px; height: 14px; background: url("../../../images/v2/icons/resume/colse.jpg") no-repeat; cursor: pointer;}
+.Filter-main .line td { position: relative; padding-bottom: 10px; }
+.Filter-main .line .line-title { float: left; width: 75px; padding-right: 10px; line-height: 34px; text-align: right; }
+.Filter-main .line .SELECT { width: 207px; border: 1px solid #ececec; }
+.Filter-main .line .SELECT .normal { width: 206px; border: 1px solid #ececec; }
+.Filter-main .line .SELECT .normal a { padding-left: 12px; }
+.Filter-main .line .SELECT dt { height: 32px; line-height: 32px; }
+.Filter-main .line .SELECT dt i { background: url("../../../images/v2/icons/triangle-down-m.jpg") no-repeat center center; }
+.Filter-main .line .SELECT dt b { width: 170px; }
+.Filter-main .line .SELECT dt span { width: 170px; height: 32px; line-height: 32px; }
+.Filter-main .line .SELECT-on dt i { background: url("../../../images/v2/icons/triangle-top-m.jpg") no-repeat center center; }
+.resumeInfo { margin-top: 16px; }
+.Info-title { background-color: #cde4ff; height: 47px; padding-left: 46px; font-size: 16px; line-height: 47px; color: #333333; }
+.Info-title span, .Info-title p, .Info-title em { float: left; }
+.Info-title p { width: 725px; }
+.Info-title span { width: 150px; }
+.Info-cz{ width: 170px; text-align: center;}
+.Info-title em { font-style: normal; }
+.Info-item { overflow: hidden; padding: 22px 0 26px 18px; margin-top: 12px; border: 1px solid #ececec; }
+.bg { background-color: #f4f9ff; }
+.Info-item-l { width: 700px; float: left; }
+.Info-item-l .Info-item-ck, .Info-item-l h2, .Info-item-l p { float: left; }
+.Info-item-l .Info-item-l-t { width: 670px; height: 36px; }
+.Info-item-l .Info-item-l-t p { float: left; font-size: 14px; color: #999999; line-height: 33px; }
+.Info-item-l .Info-item-l-b { height: 20px; padding-left: 32px; }
+.Info-item-l .Info-item-l-b ul{ width: 670px; height: 20px;}
+.Info-item-l .Info-item-l-b li { float: left; font-size: 14px; color: #999999; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.Info-item-l .Info-item-l-b li b{ color:#525252;}
+.Info-item-l .Info-item-l-b li.city { width: 126px; }
+.Info-item-l .Info-item-l-b li.job {max-width: 260px; }
+.Info-item-l .Info-item-l-b li.hy { max-width:250px; margin-left: 30px;}
+.Info-item-l a{color:#000;line-height:25px;}
+.Info-item-l a span{color:#0048a7;}
+.Info-item-l a label{ display:inline-block; max-width:200px; overflow:hidden; white-space: nowrap; text-overflow:ellipsis; height:24px; line-height:20px;cursor:pointer; vertical-align:middle;color:#0048a7;}
+//.Info-item-l a:visited{color:#772360;}
+.Info-item-l a:visited label{color:#772360;}
+.Info-item-l h2 { padding-left: 10px; font-size: 18px; line-height: 33px; font-weight: normal;}
+.Info-item-l h2 label { color: #0048a7; }
+.Info-item-l .Info-item-bz { color: #ff771a; font-size: 14px; margin-top: 10px; }
+.Info-item-r { width: 279px; float: right; }
+.Info-item-r .Resume-update, .Info-item-r .Resume-operate, .Info-item-r .Resume-operates { float: left; text-align: center; line-height: 60px; font-size: 14px; color: #666666; }
+.Info-item-r .Resume-update a.not, .Info-item-r .Resume-operate a.not, .Info-item-r .Resume-operates a.not { color: #666666; }
+.Resume-update { width: 152px; height: 60px; border-left: 1px dashed #ccc; border-right: 1px dashed #ccc; }
+.Resume-operate, .Resume-operates { width: 124px; float: left; }
+.Resume-operate a, .Resume-operates a { color: #0048a7; }
+.Resume-operates span { color: #0048a7; cursor: pointer; }
+.Resume-operates span.cur { color: #666666; }
+.Resume-operates { width: 276px; border-left: 1px dashed #ccc; }
+.Info-item-ck { display: inline-block; float: left; width: 17px; height: 17px; margin-top: 8px; border: 1px solid #cacaca; }
+.Info-item-ck input { display: none; }
+.Info-item-ck.check { background: url("../../../images/v2/CCenter/dg.jpg") no-repeat center center; }
+.all { height: 32px; margin-top: 20px; line-height: 34px; font-size: 14px; color: #333333; }
+.all .Info-item-ck { margin-right: 10px; }
+.all a { color: #1562c8; }
+.PAGES { float: right; margin-top: 50px; }
+.CENTERCONTENT h6 { color: #666666; font-size: 16px; margin-bottom: auto; }
+.CenterW550 { width: 550px; }
+.CenterW550 dd { padding: 40px 0 32px; }
+.CenterW550 .CenterForm caption { margin-bottom: 0; border: 0; }
+.TimeChange .submit { margin: 5px 10px 0 60px; }
+.TimeChange dd{  padding:0;}
+.CENTERCONTENT .delCur { font-size: 20px; color: #1562c8; line-height: 60px; margin-left: 50px; }
+.CenterW460 { width: 460px; }
+.Remarks textarea { width: 400px; height: 138px; }
+.Remarks .CENTERBTNS .submit { display: inline-block; float: none; }
+.Remarks .CENTERBTNS { text-align: center; padding-top: 0 !important; }
+.Remarks dd { padding: 10px 20px 24px; }
+.not-resume{ height: 510px; background: url("../../../images/v2/error.png" ) no-repeat center 86px;}
+.not-resume p{ font-size: 26px; color: #87b7f5; line-height: 580px; text-align: center;}
+/*可用余额*/
+.DownResume dd { padding: 20px 20px; }
+.DownResume .Balance { width: 487px; height: 56px; margin: 0 auto; background-color: #f0f0f0; font-size: 16px; line-height: 56px; color: #333; }
+.DownResume .Balance  { padding-left: 24px; }
+.DownResume .Balance  strong {font-size: 24px; font-weight: normal; }
+.DownResume .Balance .cz{ display: inline-block; width: 56px; height: 30px; margin-left: 20px; background-color: #ff771a; color: #fff; line-height: 30px; text-align: center; border-radius: 4px;}
+.DownResume p{ text-align: center; color: #787878; margin: 27px 0 10px ;}
+.DownResume p .cur{ color: #ff771a; font-size: 20px;}
+.DownResume .CENTERBTNS .submit{ margin-left: 100px;}
+/**/
+.TimeChange dd{
+    padding: 40px 0;
+}
+.TimeChange h6{
+    padding-left: 84px;
+    background-position: 8px top;
+}
+.TimeChange th{
+    padding-right: 7px;
+}
+.TimeChange .Jobs span{
+    width: 230px!important;
+}
+.TimeChange .Jobs dt b{
+    width: 230px!important;
+}

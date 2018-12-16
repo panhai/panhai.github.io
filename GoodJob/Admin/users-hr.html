@@ -1,0 +1,196 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>好工作运营后台-用户管理-HR用户</title>
+</head>
+<link rel="stylesheet" type="text/css" href="../css/v2/admin/all.css">
+
+<body>
+<header class="clear">
+	<img src="../images/v2/logo-s.png" width="119" height="62">
+    <em>后台管理系统</em>
+    <p>
+    	<a href="#"><i><img src="../images/v2/nophoto.png" width="30" height="30"></i><span>用户名称</span></a>
+        <a href="#">安全退出</a>
+    </p>
+</header>
+<nav>
+	<li><a href="index.html">首页</a></li>
+	<li><a href="companies.html">企业管理</a></li>
+	<li><a href="schools.html">院校管理</a></li>
+	<li class="cur"><a href="users.html">用户管理</a></li>
+	<li><a href="jobs.html">职位管理</a></li>
+	<li><a href="resumes.html">简历管理</a></li>
+	<li><a href="servers.html">客服系统</a></li>
+	<li><a href="moneys.html">财务系统</a></li>
+	<li><a href="system.html">系统管理</a></li>
+</nav>
+
+<menu>
+	<li><a href="users.html">全部注册用户</a></li>
+	<li class="cur"><a href="users-hr.html">HR用户</a></li>
+	<li><a href="users-teachers.html">学校管理员</a></li>
+	<li><a href="users-sales.html">渠道统计</a></li>
+</menu>
+
+<div class="Filter"><table>
+	<tr>
+    	<th width="7%">关键词：</th><td width="26%">
+        	<input type="text" class="text long" placeholder="请输入关键字">
+        </td>
+    	<th width="7%">所在地区：</th><td width="26%">
+        	<dl class="SELECT double citiesAt ADDRESS" data-child=".districtsAt" data-address="GetHotCities">
+            	<input type="hidden">
+                <dt></dt>
+                <dd class="normal">
+                </dd>
+            </dl>
+            <ins></ins>
+        	<dl class="SELECT double districtsAt ADDRESS" data-unlimit="true" data-parent="citiesAt">
+            	<input type="hidden">
+                <dt></dt>
+                <dd class="normal">
+                </dd>
+            </dl>
+        </td>
+    	<th width="7%">等级：</th><td width="26%">
+        	<dl class="SELECT long">
+            	<input type="hidden">
+                <dt></dt>
+                <dd class="normal">
+                	<a data-id="">不限</a>
+                	<a data-id="1">LV1</a>
+                	<a data-id="2">LV2</a>
+                	<a data-id="3">LV3</a>
+                </dd>
+            </dl>
+        </td>
+    </tr>
+    <tr>
+    	<th>注册时间：</th><td>
+        	<input type="text" class="text double time">
+            <ins></ins>
+        	<input type="text" class="text double time">
+        </td>
+    	<th>最近登录：</th><td>
+        	<input type="text" class="text double time">
+            <ins></ins>
+        	<input type="text" class="text double time">
+        </td>
+    	<th>简历收藏量：</th><td>
+        	<dl class="SELECT long">
+            	<input type="hidden">
+                <dt></dt>
+                <dd class="normal">
+                    <a data-id="">V0</a>
+                    <a data-id="1">V1</a>
+                    <a data-id="2">V2</a>
+                    <a data-id="3">V3</a>
+                </dd>
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="6" class="btns">
+            <input type="button" class="submit" value="查询">
+            <input type="button" class="reset" value="重置" onClick="allSelectsReset('.Filter');allInputsReset('.Filter');">
+        </td>
+    </tr>
+</table></div>
+
+<div class="total">共统计简历 12030 份</div>
+
+<div class="List"><table border="1" bordercolor="#e2e4f0">
+	<thead><tr>
+    	<th width="90">ID</th>
+    	<th width="100">姓名</th>
+    	<th width="120">手机</th>
+    	<th width="">邮箱</th>
+    	<th width="90">注册时间</th>
+    	<th width="95">简历云收藏</th>
+    	<th width="80">职位邀请</th>
+    	<th width="50">等级</th>
+    	<th width="150">最近登陆</th>
+    	<th width="250">操作</th>
+    </tr></thead>
+    <tbody>
+    	<tr>
+        	<th><label><input type="checkbox">10001</label></th>
+            <td>关之谷</td>
+            <td>13812345678</td>
+            <td>123465798@qq.com</td>
+            <td>2015-07-08</td>
+            <td><a href="#">100</a></td>
+            <td>70</td>
+            <td>LV1</td>
+            <td>2015-07-08 17:26</td>
+            <td><a href="#">绑定记录</a><a href="#">重置密码</a><a href="#">解绑</a></td>
+        </tr>
+    	<tr>
+        	<th><label><input type="checkbox">10001</label></th>
+            <td>关之谷</td>
+            <td>13812345678</td>
+            <td>123465798@qq.com</td>
+            <td>2015-07-08</td>
+            <td><a href="#">100</a></td>
+            <td>70</td>
+            <td>LV1</td>
+            <td>2015-07-08 17:26</td>
+            <td><a href="#">绑定记录</a><a href="#">重置密码</a><a href="#">解绑</a></td>
+        </tr>
+    	<tr>
+        	<th><label><input type="checkbox">10001</label></th>
+            <td>关之谷</td>
+            <td>13812345678</td>
+            <td>123465798@qq.com</td>
+            <td>2015-07-08</td>
+            <td><a href="#">100</a></td>
+            <td>70</td>
+            <td>LV1</td>
+            <td>2015-07-08 17:26</td>
+            <td><a href="#">绑定记录</a><a href="#">重置密码</a><a href="#">解绑</a></td>
+        </tr>
+    	<tr>
+        	<th><label><input type="checkbox">10001</label></th>
+            <td>关之谷</td>
+            <td>13812345678</td>
+            <td>123465798@qq.com</td>
+            <td>2015-07-08</td>
+            <td><a href="#">100</a></td>
+            <td>70</td>
+            <td>LV1</td>
+            <td>2015-07-08 17:26</td>
+            <td><a href="#">绑定记录</a><a href="#">重置密码</a><a href="#">解绑</a></td>
+        </tr>
+    </tbody>
+    <caption>
+    	<input type="button" value="全选" class="checkAll">
+    	<input type="button" value="反选" class="checkNeg">
+        <div class="Pages">
+        	<span>5874条结果，共294页</span>
+            <a href="#">首页</a>
+            <a href="#">上一页</a>
+            <a href="#">1</a>
+            <a href="#" class="cur">2</a>
+            <a href="#">3</a>
+            <a href="#">...</a>
+            <a href="#">294</a>
+            <a href="#">下一页</a>
+            <a href="#">尾页</a>
+        </div>
+    </caption>
+</table></div>
+</body>
+</html>
+<script src="../js/v2/admin/jquery2.js"></script>
+<script src="../js/jbody.js"></script>
+<script src="../js/jbody-plugin.js"></script>
+<script src="../js/area.js"></script>
+<script src="../js/subjects.js"></script>
+<script src="../js/jobPositions.js"></script>
+<script src="../js/jobPositionsParttime.js"></script>
+<script src="../js/universities.js"></script>
+<script src="../js/v2/admin/all.js"></script>
+<script>
+</script>

@@ -1,0 +1,341 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>好工作运营后台-企业管理-编辑企业资料</title>
+</head>
+
+
+<link rel="stylesheet" type="text/css" href="../css/v2/plugin/UploadThumb.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/admin/all.css">
+<body>
+<header class="clear">
+	<img src="../images/v2/logo-s.png" width="119" height="62">
+    <em>后台管理系统</em>
+    <p>
+    	<a href="#"><i><img src="../images/v2/nophoto.png" width="30" height="30"></i><span>用户名称</span></a>
+        <a href="#">安全退出</a>
+    </p>
+</header>
+<nav>
+	<li><a href="index.html">首页</a></li>
+	<li class="cur"><a href="companies.html">企业管理</a></li>
+	<li><a href="schools.html">院校管理</a></li>
+	<li><a href="users.html">用户管理</a></li>
+	<li><a href="jobs.html">职位管理</a></li>
+	<li><a href="resumes.html">简历管理</a></li>
+	<li><a href="servers.html">客服系统</a></li>
+	<li><a href="moneys.html">财务系统</a></li>
+	<li><a href="system.html">系统管理</a></li>
+</nav>
+
+<!--<menu>
+	<li class="cur"><a href="companies.html">全部企业</a></li>
+	<li><a href="companies-rpo.html">RPO企业</a></li>
+	<li><a href="companies-done.html">已合作</a></li>
+	<li><a href="companies-check.html">待审核</a></li>
+	<li><a href="companies-down.html">被下架</a></li>
+	<li><a href="company-edit.html">添加企业/RPO</a></li>
+</menu>-->
+
+<ol class="SubMenu">
+	<li>企业名称企业名称企业名称</li>
+	<li class="cur"><a href="company-detail.html">企业资料</a></li>
+	<li><a href="company-jobs.html">招聘管理</a></li>
+	<li><a href="company-resumes.html">简历管理</a></li>
+	<li><a href="company-schools.html">合作院校</a></li>
+	<li><a href="company-admins.html">管理员</a></li>
+	<!--<li><a href="company-logins.html">登陆日志</a></li>
+	<li><a href="company-moneys.html">财务日志</a></li>-->
+</ol>
+
+<div class="Filter"><table style="position:relative; z-index:1;">
+	<tr>
+    	<th width="7%">公司全称：</th><td width="26%">
+        	<input type="text" class="text long" placeholder="公司全称">
+        </td>
+    	<th width="7%">公司简称：</th><td width="26%">
+        	<input type="text" class="text long" placeholder="公司简称">
+        </td>
+    	<th width="7%">网址：</th><td width="26%">
+        	<input type="text" class="text long" placeholder="公司的官方网站，以http://开头">
+        </td>
+    </tr>
+    <tr>
+    	<th>地区：</th><td>
+        	<dl class="SELECT double cities ADDRESS" data-child=".districts" data-address="GetHotCities">
+            	<input type="hidden" value="271000">
+                <dt></dt>
+                <dd class="normal">
+                </dd>
+            </dl>
+            <ins></ins>
+        	<dl class="SELECT double districts ADDRESS" data-parent=".cities">
+            	<input type="hidden" value="271010">
+                <dt></dt>
+                <dd class="normal">
+                </dd>
+            </dl>
+        </td>
+    	<th>规模：</th><td>
+        	<dl class="SELECT long">
+            	<input type="hidden" value="100">
+                <dt></dt>
+                <dd class="normal">
+                    <a data-id="50">少于50人</a>
+                    <a data-id="100">50-100人</a>
+                    <a data-id="500">100-500人</a>
+                    <a data-id="1000">500-1000人</a>
+                    <a data-id="1000000">1000人以上</a>
+                </dd>
+            </dl>
+        </td>
+    	<th>行业：</th><td>
+            <dl class="SELECT long" data-leave="-1">
+                <input type="hidden" value="">
+                <dt></dt>
+                <dd class="PROFESSIONS">
+                    <table>
+                        <caption data-choices="1">
+                            <p></p>
+                            <span>
+                                <input type="button" class="confirm" value="确定">
+                            </span>
+                        </caption>
+                        <thead><tr><th width="200"></th><td width="1000"></td></tr></thead>
+                        <tbody></tbody>
+                    </table>
+                </dd>
+            </dl>
+        </td>
+    </tr>
+    <tr>
+        <th>性质：</th><td>
+            <dl class="SELECT long">
+                <input type="hidden">
+                <dt></dt>
+                <dd class="normal">
+                    <a data-id="2">私营</a>
+                    <a data-id="4">国有</a>
+                    <a data-id="8">股份制</a>
+                    <a data-id="16">外资</a>
+                    <a data-id="32">合资</a>
+                    <a data-id="64">事业单位</a>
+                    <a data-id="128">政府机关</a>
+                    <a data-id="256">非营利机构</a>
+                    <a data-id="512">其他</a>
+                </dd>
+            </dl>
+        </td>
+        <th>阶段：</th><td>
+            <dl class="SELECT long">
+                <input type="hidden">
+                <dt></dt>
+                <dd class="normal">
+                    <a data-id="1">初创期</a>
+                    <a data-id="2">发展期</a>
+                    <a data-id="3">成熟期</a>
+                    <a data-id="4">上市公司</a>
+                </dd>
+            </dl>
+        </td>   
+        <th>次要行业：</th><td>
+            <dl class="SELECT long secondary" data-leave="-1">
+                <input type="hidden" value="">
+                <dt></dt>
+                <dd class="PROFESSIONS">
+                    <table>
+                        <caption data-choices="3">
+                            <p></p>
+                            <span>
+                                <input type="button" class="confirm" value="确定">
+                            </span>
+                        </caption>
+                        <thead><tr><th width="200"></th><td width="1000"></td></tr></thead>
+                        <tbody></tbody>
+                    </table>
+                </dd>
+            </dl>
+        </td>
+    </tr>
+    <tr>
+	   <th>公司地点：</th><td>
+            <input type="text" class="text long" placeholder="公司的详细地址">
+        </td>
+        <th>联系人：</th><td>
+            <input type="text" class="text long" placeholder="公司负责人">
+        </td>
+	   <th>联系电话：</th><td>
+            <input type="text" class="text long" placeholder="负责人电话">
+        </td>
+    </tr>
+    <tr>
+        <th>邮箱：</th><td>
+            <dl class="SELECT long input">
+                <dt><input type="text" class="EMAILS" placeholder="负责人邮箱"></dt>
+                <dd class="normal"></dd>
+            </dl>
+            
+        </td>
+    </tr>
+</table><table>
+    <tr class="valign-top">
+    	<th width="7%">地图定位：</th><td>
+        	<p>如果定位失败或者出错，请拖动地图，并在正确位置单机右键，选择"在此添加标注"进行定位!</p>
+        	<div id="MapContainer" class="fulllong"></div>
+        </td>
+    </tr>
+    <tr class="welfares valign-top">
+    	<th>公司福利：</th><td>
+        	<label><input type="checkbox"><span>五险一金</span></label>
+        	<label><input type="checkbox"><span>五险一金</span></label>
+        	<label><input type="checkbox"><span>五险一金</span></label>
+        	<label><input type="checkbox"><span>五险一金</span></label>
+        	<label><input type="checkbox"><span>五险一金</span></label>
+        	<label><input type="checkbox"><span>五险一金</span></label>
+        </td>
+    </tr>
+    <tr class="intro valign-top">
+        <th>公司简介：</th><td><textarea class="editor-samp fulllong">
+            　　公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介
+            　　公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介
+        </textarea></td>
+    </tr>
+    <tr>
+    	<th>LOGO：</th><td>
+        	<p>上传企业LOGO，支持jpg png jif格式，图片小于2M</p>
+        	<div class="figure imgLoad"><p></p><span><samp style="width:50%">UPLOADING...</samp></span></div>
+        </td>
+    </tr>
+    <tr>
+    	<th>营业执照：</th><td>
+        	<p>上传营业执照，支持jpg png jif格式，图片小于10M</p>
+        	<div class="figure"><img src="../images/v2/pics/1.jpg" width="158" height="118"><p></p><q></q></div>
+            <a href="javascript:void(0)" class="see">查看原图</a>
+        </td>
+    </tr>
+    <tr class="albums valign-top"><th>企业相册：</th><td width="720"><!--一直都有八个-->
+        <input type="hidden" value="" class="clipAttrs">
+        <div class="albumsbox">
+                <div class="figure"><img src="../images/v2/pics/3.jpg" alt="" /><p></p><q></q></div>
+                <div class="figure"><p></p><span><samp style="width:50%">UPLOADING...</samp></span></div>
+                <div class="figure"><p></p><q></q></div>
+                <div class="figure"><p></p><span><samp style="width:30%">UPLOADING...</samp></span></div>
+                <div class="figure"><p></p><span><samp style="width:20%">UPLOADING...</samp></span></div>
+                <div class="figure"><p></p><q></q></div>
+                <div class="figure"><p></p><span><samp style="width:60%">UPLOADING...</samp></span></div>
+                <div class="figure"><p></p><span><samp style="width:80%">UPLOADING...</samp></span></div>
+        </div>
+        </td></tr>
+    <tr>
+        <td colspan="2" class="btns">
+        	<input type="button" class="submit" value="保存">
+        	<input type="button" class="reset" value="重置" onClick="allSelectsReset('.Filter');allInputsReset('.Filter');">
+        </td>
+    </tr>
+</table></div>
+
+
+ 
+<table class="FullScreenPlugin fixed fixed-top CenterDivContainer black5"><tr><td>
+    <dl class="CENTERDIV  CENTERDIV_TWO Upload " data-active=".imgLoad">
+        <dt class="CENTERTOPIC"><b></b><q></q></dt>
+        <dd class="CENTERCONTENT">
+            <table class="ThumbClipping">
+                <caption>
+                    <input type="file" id="LogoUpload">
+                    <label for="LogoUpload"></label>
+                    <div class="LogoProgress"><span style="width:20%">20%</span></div>
+                </caption>
+                <tr>
+                    <td width="340">
+                        <input type="hidden" class="clipAttrs" value="width:273,height:273,ratio:0.70,x:268,y:267">
+                        <small>支持JPG、PNG、GIF格式的图片，文件小于<b class="filesize">2</b>M</small>
+                        <div class="primary">
+                            <div class="top cover"></div>
+                            <div class="left cover"></div>
+                            <div class="view"><img src="../images/v2/fruits.png"></div>
+                            <div class="right cover"></div>
+                            <div class="bottom cover"></div>
+                        </div>
+                        <div class="slider">
+                            <sub></sub>
+                            <div class="role"><b></b></div>
+                            <sup></sup>
+                        </div>
+                    </td>
+                    <td width="30">&nbsp;</td>
+                    <td width="200">
+                        <div class="thumbs">
+                            <div class="thumb large" data-ratio="1"></div>
+                            <!--<div class="thumb middle" data-ratio="0.5"></div>
+                            <div class="thumb small" data-ratio="0.25"></div>-->
+                        </div>
+                        <small>画像尺寸190*190</small>
+                    </td>
+                </tr>
+                <tr><td class="CENTERBTNS">
+                    <input type="button" class="submit" value="确定">
+                    <input type="button" class="reset" value="取消">
+                </td></tr>
+            </table>
+        </dd>
+    </dl>
+</td></tr></table>
+
+ 
+
+</body>
+</html>
+
+<script src="../js/v2/admin/jquery2.js"></script>
+<script src="../js/jbody.js"></script>
+<script src="../js/jbody-plugin.js"></script>
+<script src="../js/area.js"></script>
+<script src="../js/subjects.js"></script>
+<script src="../js/v2/admin/all.js"></script>
+<script src="../js/plugin/raphael.js"></script>
+<script src="../js/effect/correct.js"></script>
+<script src="http://api.map.baidu.com/api?v=2.0&ak=OlGzoCwcKN9OvM16T9RnFwOl"></script>
+<script src="../js/plugin/BaiduMap.js"></script>
+<script src="../js/plugin/upload_thumb.js"></script>
+
+
+
+
+<script>
+$(function(){
+	//地图行为 已在页面实现
+	var Map=BaiduMap("MapContainer",{editable:true});
+	//更换城市时，自动锁定新中心 已在页面实现
+	$(".Cities input[type=hidden]").change(function(){
+		var city=GetArea(this.value),
+			name=city[0];
+		Map.search(name);
+	});
+	//点击定位，至少要有城市 已在页面实现
+	$(".Locate").click(function(){
+		var detail=$(".AddressDetail").val(),
+			city=$(".Cities input[type=hidden]").val(),
+			names=[];
+		if(!city)
+		{
+			alert("请选择城市！");
+			return false;
+		}
+		if(!detail)
+		{
+			alert("请输入详细地址！");
+			return false;
+		}
+		names.push(GetArea(city)[0]);
+		names.push(detail);
+		Map.search(names.join(''));
+	});
+var obj = $(".albumsbox .figure").eq(4);
+var obj2 = $(".albumsbox .figure").eq(1);
+upImg("../images/v2/pics/6.jpg", obj)
+upImg("../images/v2/pics/7.jpg", obj2)
+
+})
+</script>

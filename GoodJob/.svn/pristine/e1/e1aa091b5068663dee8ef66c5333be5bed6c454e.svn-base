@@ -1,0 +1,384 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>新的注册页</title>
+<link rel="stylesheet" type="text/css" href="css/v2/REGIST-NEW.css">
+</head>
+
+<body>
+<div class="HEADER common clear">
+	<div class="LOGO"></div>
+    <div class="SLOGAN"></div>
+</div>
+
+<div class="common clear">
+	<div class="Left">
+    	<div class="JobLists clear">
+            <ul class="tabs clear">
+            	<li>市场</li>
+            	<li>运营</li>
+            	<li>服务</li>
+            	<li>产品</li>
+            	<li>技术</li>
+            	<li class="last">金融</li>
+            </ul>
+            <div class="lists clear">
+            	<table>
+                	<tr>
+                	  <td width="40%">快的打车</td>
+                	  <td>华南区市场经理</td>
+                	  <th>15K-20K</th>
+              	  </tr>
+                	<tr>
+                	  <td>阿里巴巴集团</td>
+                	  <td>资深市场专员</td>
+                	  <th>30K以上</th>
+              	  </tr>
+                	<tr>
+                	  <td>家美乐</td>
+                	  <td>市场策划</td>
+                	  <th>40K-50K</th>
+              	  </tr>
+                	<tr>
+                	  <td>毕德企业管理咨询</td>
+                	  <td>高级市场推广经理</td>
+                	  <th>25K-30K</th>
+              	  </tr>
+                	<tr>
+                	  <td>圣禾网络科技</td>
+                	  <td>网络销售</td>
+                	  <th>15K-20K</th>
+              	  </tr>
+                	<tr>
+                	  <td>广州三信药业</td>
+                	  <td>市场推广专员</td>
+                	  <th>15K-20K</th>
+              	  </tr>
+                	<tr>
+                	  <td>尚德机构</td>
+                	  <td>电话销售</td>
+                	  <th>10K以上</th>
+              	  </tr>
+                	<tr>
+                	  <td>销售经理</td>
+                	  <td>西安远拓物流有限公司</td>
+                	  <th>10K-15K</th>
+              	  </tr>
+               	</table>
+            	<table>
+               	  <tr>
+               	    <td width="40%">百田信息</td>
+               	    <td>手游运营主管（评测方向）</td>
+               	    <th>20K以上</th>
+           	      </tr>
+               	  <tr>
+               	    <td>恒大乳业集团</td>
+               	    <td>APP运营经理</td>
+               	    <th>20K-30K</th>
+           	      </tr>
+               	  <tr>
+               	    <td>欢聚时代</td>
+               	    <td>运营经理-yy娱乐事业部</td>
+               	    <th>25K以上</th>
+           	      </tr>
+               	  <tr>
+               	    <td>珠江实业集团</td>
+               	    <td>房地产运营总监</td>
+               	    <th>15K-20K</th>
+           	      </tr>
+               	  <tr>
+               	    <td>卡音信息技术</td>
+               	    <td>网络运营推广（APP）</td>
+               	    <th>10K-15K</th>
+           	      </tr>
+               	  <tr>
+               	    <td>阿里巴巴集团</td>
+               	    <td>产品商务运营专员</td>
+               	    <th>30K以上</th>
+           	      </tr>
+               	  <tr>
+               	    <td>广州科密办公</td>
+               	    <td>天猫运营总监</td>
+               	    <th>10K-15K</th>
+           	      </tr>
+               	  <tr>
+               	    <td>三七互娱</td>
+               	    <td>平台运营专员/主管</td>
+               	    <th>10K以上</th>
+           	      </tr>
+               	</table>
+            	<table>
+               	  <tr>
+               	    <td width="40%">中升凌志汽车销售</td>
+               	    <td>服务顾问</td>
+               	    <th>10K-20K</th>
+           	      </tr>
+               	  <tr>
+               	    <td>中外运-敦豪(DHL-Sinotrans)</td>
+               	    <td>服务中心作业经理</td>
+               	    <th>10K-15K</th>
+           	      </tr>
+               	  <tr>
+               	    <td>太平洋人寿保险</td>
+               	    <td>保险客户服务</td>
+               	    <th>8K-10K</th>
+           	      </tr>
+               	  <tr>
+               	    <td>高德置地广场</td>
+               	    <td>客户服务经理</td>
+               	    <th>8K-10K</th>
+           	      </tr>
+               	  <tr>
+               	    <td>银河大酒店</td>
+               	    <td>酒店客房服务员</td>
+               	    <th>6K-8K</th>
+           	      </tr>
+               	  <tr>
+               	    <td>美墅馆家具</td>
+               	    <td>家具导购</td>
+               	    <th>8K-10K</th>
+           	      </tr>
+               	  <tr>
+               	    <td>安肤堂</td>
+               	    <td>美容店长</td>
+               	    <th>15K-20K</th>
+           	      </tr>
+               	  <tr>
+               	    <td>旅易商务服务</td>
+               	    <td>酒店管理</td>
+               	    <th>8K-10K</th>
+           	      </tr>
+               	</table>
+            	<table>
+               	  <tr>
+               	    <td width="40%">合富金融&nbsp;&nbsp;</td>
+               	    <td>金融产品经理</td>
+               	    <th>15K-20K</th>
+           	      </tr>
+               	  <tr>
+               	    <td>易票联支付</td>
+               	    <td>支付方向产品经理</td>
+               	    <th>20K以上</th>
+           	      </tr>
+               	  <tr>
+               	    <td>美团网</td>
+               	    <td>产品总监</td>
+               	    <th>40K-60K</th>
+           	      </tr>
+               	  <tr>
+               	    <td>房友圈</td>
+               	    <td>移动产品经理</td>
+               	    <th>12k以上</th>
+           	      </tr>
+               	  <tr>
+               	    <td>唯品会</td>
+               	    <td>电商产品经理</td>
+               	    <th>15K以上</th>
+           	      </tr>
+               	  <tr>
+               	    <td>美篮子</td>
+               	    <td>网页产品设计师</td>
+               	    <th>10k以上</th>
+           	      </tr>
+               	  <tr>
+               	    <td>荔枝FM</td>
+               	    <td>产品助理</td>
+               	    <th>7-14K</th>
+           	      </tr>
+               	  <tr>
+               	    <td>冠鹏信息</td>
+               	    <td>产品设计总监</td>
+               	    <th>30K以上</th>
+           	      </tr>
+               	</table>
+            	<table>
+               	  <tr>
+               	    <td width="40%">珠江实业</td>
+               	    <td>研发管理部总经理</td>
+               	    <th>70K-90K</th>
+           	      </tr>
+               	  <tr>
+               	    <td>蓝盾信息安全</td>
+               	    <td>Java工程师</td>
+               	    <th>15K以上</th>
+           	      </tr>
+               	  <tr>
+               	    <td>安居宝</td>
+               	    <td>高级IOS开发工程师</td>
+               	    <th>20K以上</th>
+           	      </tr>
+               	  <tr>
+               	    <td>猎豹移动 </td>
+               	    <td>Android开发工程师</td>
+               	    <th>20K以上</th>
+           	      </tr>
+               	  <tr>
+               	    <td>购快商城</td>
+               	    <td>PHP工程师</td>
+               	    <th>16K-30K</th>
+           	      </tr>
+               	  <tr>
+               	    <td>网易游戏</td>
+               	    <td>前端开发工程师</td>
+               	    <th>15K-25K</th>
+           	      </tr>
+               	  <tr>
+               	    <td>唯品会</td>
+               	    <td>测试工程师</td>
+               	    <th>20K以上</th>
+           	      </tr>
+               	  <tr>
+               	    <td>分利宝</td>
+               	    <td>运维工程师</td>
+               	    <th>10K以上</th>
+           	      </tr>
+
+               	</table>
+            	<table>
+               	  <tr>
+               	    <td width="40%">索菲亚家居</td>
+               	    <td>会计</td>
+               	    <th>10K以上</th>
+           	      </tr>
+               	  <tr>
+               	    <td>广州万达广场投资有限公司</td>
+               	    <td>出纳</td>
+               	    <th>8K-12K</th>
+           	      </tr>
+               	  <tr>
+               	    <td>合富金融</td>
+               	    <td>风控总监</td>
+               	    <th>20K-25K</th>
+           	      </tr>
+               	  <tr>
+               	    <td>中国平安人寿保险</td>
+               	    <td>信用卡专员</td>
+               	    <th>10K-15K</th>
+           	      </tr>
+               	  <tr>
+               	    <td>广东永裕恒丰投资有限公司</td>
+               	    <td>证券分析师</td>
+               	    <th>20K-25K</th>
+           	      </tr>
+               	  <tr>
+               	    <td>华审会计师事务</td>
+               	    <td>注册资产评估师</td>
+               	    <th>10K以上</th>
+           	      </tr>
+               	  <tr>
+               	    <td>东方融资网&nbsp;</td>
+               	    <td>融资总监</td>
+               	    <th>10K-15K</th>
+           	      </tr>
+               	  <tr>
+               	    <td>中国人寿保险</td>
+               	    <td>保险代理/经纪人</td>
+               	    <th>10K以上</th>
+           	      </tr>
+               	</table>
+            </div>
+        </div>
+        <div class="Logos clear">
+        	<sub></sub>
+            <div class="scroll"><ul>
+            	<li>
+                	<img src="images/v2/logos/a.png" width="100" height="40">
+                    <img src="images/v2/logos/b.png" width="100" height="40">
+                    <img src="images/v2/logos/c.png" width="100" height="40">
+                    <img src="images/v2/logos/d.png" width="100" height="40">
+                    <img src="images/v2/logos/e.png" width="100" height="40">
+                </li>
+            	<li>
+                    <img src="images/v2/logos/f.png" width="100" height="40">
+                    <img src="images/v2/logos/g.png" width="100" height="40">
+                	<img src="images/v2/logos/h.png" width="100" height="40">
+                    <img src="images/v2/logos/i.png" width="100" height="40">
+                    <img src="images/v2/logos/j.png" width="100" height="40">
+                </li>
+            	<li>
+                	<img src="images/v2/logos/k.png" width="100" height="40">
+                    <img src="images/v2/logos/l.png" width="100" height="40">
+                    <img src="images/v2/logos/m.png" width="100" height="40">
+                    <img src="images/v2/logos/n.png" width="100" height="40">
+                    <img src="images/v2/logos/o.png" width="100" height="40">
+                </li>
+            </ul></div>
+            <sup></sup>
+        </div>
+        <div class="Cover black5">
+        	<div></div>
+            <q></q>
+        </div>
+    </div>
+    <div class="Right">
+    	<ul class="tabs clear">
+        	<li>手机注册</li>
+        	<li>邮箱注册</li>
+        </ul>
+        <div class="sign"></div>
+        <div class="forms swap clear">
+        	<h4>6秒注册，入职高薪名企</h4>
+            <div class="clear item">
+                <label class="clear item">
+                    <i class="user"></i><p><input type="text" class="text" placeholder="请输入注册邮箱号" data-init="true"></p>
+                </label>
+                <code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>
+            </div>
+            <div class="clear item">
+                <label class="half item"><i class="key"></i><p><input type="text" class="text" placeholder="请输入验证码" data-init="true"></p></label>
+                <input type="button" value="获取手机验证码" class="SendVerify">
+                <code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>
+            </div>
+            <div class="clear item">
+                <label class="clear item">
+                    <i class="key"></i><p><input type="text" class="text" placeholder="请设置密码" data-init="true"></p>
+                </label>
+                <code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>
+            </div>
+        </div>
+        <div class="forms swap clear hidden">
+        	<h4>6秒注册，入职高薪名企</h4>
+            <div class="clear item">
+            <label class="clear item"><i class="user"></i><p><input type="text" class="text" placeholder="请输入注册邮箱号" data-init="true"></p></label>
+            </div>
+            <div class="clear item">
+            <label class="clear item"><i class="key"></i><p><input type="text" class="text" placeholder="请输入密码" data-init="true"></p></label>
+            </div>
+            <div class="clear item">
+            <label class="clear item"><i class="key"></i><p><input type="text" class="text" placeholder="请再次输入密码" data-init="true"></p></label>
+            </div>
+        </div>
+        <div class="forms clear">
+            <input type="button" class="submit" value="立即注册">
+            <label class="agree"><input type="checkbox"> 我已阅读并接受《好工作网用户协议》</label>
+            <a href="#" class="Gologin">已注册，去登录>></a>
+        </div>
+    </div>
+</div>
+
+<div class="FOOTER clear">
+    <div class="Nav"><a href="#">关于我们</a>  |  <a href="#">帮助中心</a>  |   <a href="#">法律声明</a>  |  <a href="#">网站导航</a></div>
+    <div class="Contact">
+        <p>服务热线：400-6600-952&nbsp;&nbsp;&nbsp;&nbsp;服务QQ：4006600952&nbsp;&nbsp;&nbsp;&nbsp;服务邮箱：csc@93hgz.com&nbsp;&nbsp;&nbsp;&nbsp;服务时间：周一至周六9:00-18:40</p>
+        <p><a href="#">粤ICP备09027680号-25</a> &nbsp;&nbsp;&nbsp;&nbsp;sitemap &nbsp;&nbsp;&nbsp;&nbsp;站长统计</p>
+    </div>
+</div>
+</body>
+</html>
+<script src="js/jquery.js"></script>
+<script src="js/v2/all.js"></script>
+<script src="js/effect/tab.js"></script>
+<script src="js/effect/page.js"></script>
+<script src="js/plugin/SendVerify.js"></script>
+<script>
+CHItab(".JobLists",".tabs li",".lists table",{way:'click'});
+CHIpage(".Logos .scroll","ul",{prev:".Logos sub",next:".Logos sup"},{auto:false})
+$(".scroll,.lists").click(function(){
+	$(".Cover").fadeIn();
+});
+$(".Cover q").click(function(){
+	$(".Cover").fadeOut();
+});
+CHItab(".Right",".tabs li",".forms.swap",{way:'click'});
+</script>

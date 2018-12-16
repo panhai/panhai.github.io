@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>首页</title>
+    <meta name=viewport content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../js/scrollbarplugin/jquery.mCustomScrollbar.css" />
+    <link rel="stylesheet" type="text/css" href="../css/all.css" />
+    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+    <link href="../css/layerskin/default/layer.css" rel="stylesheet" />
+</head>
+
+<body>
+<div class="head-navgater">
+    <div class="rightCenter">
+        <div class="setting">
+            <a href="javascript:void(0)" >设置</a>
+
+            <div class="tips-set"><a href="javascript:void(0)" class="setting-url"><span class="setting-icon cur1"></span><span class="setting-msg">主题颜色</span><i></i></a>
+                <a href="javascript:void(0)" class="setting-url"><span class="setting-icon cur1"></span><span class="setting-msg">个人设置</span></a>
+
+                <a href="javascript:void(0)" class="setting-url"><span class="setting-icon cur1"></span><span class="setting-msg">切换学校</span></a>
+
+                <a href="javascript:void(0)" class="setting-url"><span class="setting-icon cur1"></span><span class="setting-msg">退出</span></a></div>
+        </div>
+
+        <div class="feed_back">
+            <a href="javascript:void(0)" >我要反馈</a>
+        </div>
+
+        <div class="information">
+            <span class="icon"></span>
+
+            <div class="tips-set" style="right: -60px;"><a href="javascript:void(0)" class="setting-url"><span class="setting-msg">校+售后服务</span></a>
+                <a href="javascript:void(0)" class="setting-url "><span class="setting-msg cur">电话：020-26210401</span></a>
+
+                <a href="javascript:void(0)" class="setting-url "></span><span class="setting-msg cur">Q Q：2230014124</span></a>
+
+                <a href="javascript:void(0)" class="setting-url "></span><span class="setting-msg cur">微信：xiaojia10000</span></a></div>
+        </div>
+
+        <div class="news">
+            <span class="icon"></span>
+
+            <div class="news-layer">
+                <div class="news-title">
+                    待办事项
+                </div>
+
+                <div class="news-box">
+                   <div class="news-table">
+                       <div class="news-cell">
+                           <a href="javascript:void(0)"><i></i>[系统公告]校+新增排课功能</a>
+                           <p>12月1日  08:58</p>
+                       </div>
+                   </div>
+
+                    <div class="news-table">
+                        <div class="news-cell">
+                            <a href="javascript:void(0)"><i></i>[系统公告]校+新增排课功能</a>
+                            <p>12月1日  08:58</p>
+                        </div>
+                    </div>
+
+                    <div class="news-table">
+                        <div class="news-cell">
+                            <a href="javascript:void(0)"><i></i>[系统公告]校+新增排课功能</a>
+                            <p>12月1日  08:58</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+                <a href="系统消息.html" class="see-more-news">查看更多（3）</a>
+            </div>
+        </div>
+
+
+        <div class="search">
+            <input type="text" value="" placeholder="搜求职者" class="search_txet">
+            <span class="icon"></span>
+            <div class="history-layer">
+                <a href="javascript:void(0)" >
+                    <i>咨询学员</i>
+                    <span>"啊啊啊啊"</span>
+                </a>
+
+                <a href="javascript:void(0)" >
+                    <i>报名学员</i>
+                    <span>"啊啊啊啊"</span>
+                </a>
+
+                <a href="javascript:void(0)" >
+                    <i>班级</i>
+                    <span>"啊啊啊啊"</span>
+                </a>
+
+                <a href="javascript:void(0)" >
+                    <i>课程</i>
+                    <span>"啊啊啊啊"</span>
+                </a>
+
+                <a href="javascript:void(0)" >
+                    <i>教师</i>
+                    <span>"啊啊啊啊"</span>
+                </a>
+
+                <a href="javascript:void(0)" >
+                    <i>帮助文档</i>
+                    <span>"啊啊啊啊"</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="left-navgater">
+    <div class="logoBox">
+        <a href="javascript:void(0)"  class="changeArrow">
+            <i></i>
+        </a>
+    </div>
+
+    <div class="school-infor">
+        <div class="inforBox cur">
+            <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2114797134,526769156&fm=26&gp=0.jpg" alt="">
+        </div>
+        <div class="inforBox">
+            <p>迪丽热巴</p>
+            <p>早上好</p>
+        </div>
+    </div>
+
+    <div class="nav">
+        <a href="首页.html"  class="cur">
+            <i class="position1"></i>
+            <span>工作台</span>
+        </a>
+
+        <div class="option ">
+            <i class="position2"></i>
+            <span>招生宣传</span>
+            <b></b>
+
+            <div class="midLa">
+                <a href="招生宣传-微营销-微官网-1.html" class="" >微营销</a>
+                <a href="招生宣传-校+推广-1.html"   class="">校+推广</a>
+                <a href="招生宣传-会员推广-1.html"  class="">会员推广</a>
+                <a href="招生宣传-SEO推广-1.html"  class="">SEO推广</a>
+                <a href="招生宣传-渠道管理.html"  class="">渠道管理</a>
+            </div>
+        </div>
+
+        <a href="咨询管理-全部咨询.html"  class="">
+            <i class="position3"></i>
+            <span>咨询管理</span>
+        </a>
+        <a href="学员管理-全部学员.html"  class="">
+            <i class="position4"></i>
+            <span>学员管理</span>
+        </a>
+        <a href="教务管理-班级管理.html"  class="">
+            <i class="position5"></i>
+            <span>教务管理</span>
+        </a>
+        <a href="财务管理-1.html"  class="">
+            <i class="position6"></i>
+            <span>财务管理</span>
+        </a>
+        <a href="就业中心-1.html"  class="">
+            <i class="position7"></i>
+            <span>就业中心</span>
+        </a>
+        <a href="校+创收-1.html"  class="">
+            <i class="position8"></i>
+            <span>校+联盟</span>
+        </a>
+        <a href="学校设置-账号管理.html"  class="">
+            <i class="position9"></i>
+            <span>学校设置</span>
+        </a>
+    </div>
+</div>
+
+<div class="left-small-navgater">
+    <div class="logoBox">
+        <a href="javascript:void(0)"  class="changeArrow">
+            <i></i>
+        </a>
+    </div>
+
+    <div class="school-infor">
+        <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2114797134,526769156&fm=26&gp=0.jpg" alt="">
+    </div>
+
+    <div class="small-nav">
+        <div class="nav-url">
+            <div class="url-icon position1"></div>
+
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >控制台</a>
+            </div>
+        </div>
+
+        <div class="nav-url">
+            <div class="url-icon position2"></div>
+
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >好学校</a>
+                <a href="javascript:void(0)" >微官网</a>
+                <a href="javascript:void(0)" >微营销</a>
+                <a href="javascript:void(0)" >微活动</a>
+            </div>
+        </div>
+
+        <div class="nav-url">
+            <div class="url-icon position3"></div>
+
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >咨询管理</a>
+                <a href="javascript:void(0)" >今日跟进</a>
+                <a href="javascript:void(0)" >到访记录</a>
+                <a href="javascript:void(0)" >跟进统计</a>
+            </div>
+        </div>
+
+        <div class="nav-url">
+            <div class="url-icon position4"></div>
+
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >全部学员</a>
+                <a href="javascript:void(0)" >在读学员</a>
+                <a href="javascript:void(0)" >毕业学员</a>
+                <a href="javascript:void(0)" >学员统计</a>
+            </div>
+        </div>
+
+        <div class="nav-url">
+            <div class="url-icon position5"></div>
+
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >排课管理</a>
+                <a href="javascript:void(0)" >班级管理</a>
+                <a href="javascript:void(0)" >课程管理</a>
+                <a href="javascript:void(0)" >教师管理</a>
+            </div>
+        </div>
+
+        <div class="nav-url">
+            <div class="url-icon position6"></div>
+
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >排课管理</a>
+                <a href="javascript:void(0)" >班级管理</a>
+                <a href="javascript:void(0)" >课程管理</a>
+                <a href="javascript:void(0)" >教师管理</a>
+            </div>
+        </div>
+
+        <div class="nav-url">
+            <div class="url-icon position7"></div>
+
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >排课管理</a>
+                <a href="javascript:void(0)" >班级管理</a>
+                <a href="javascript:void(0)" >课程管理</a>
+                <a href="javascript:void(0)" >教师管理</a>
+            </div>
+        </div>
+
+        <div class="nav-url">
+            <div class="url-icon position8"></div>
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >排课管理</a>
+                <a href="javascript:void(0)" >班级管理</a>
+                <a href="javascript:void(0)" >课程管理</a>
+                <a href="javascript:void(0)" >教师管理</a>
+            </div>
+
+        </div>
+
+        <div class="nav-url">
+            <div class="url-icon position9"></div>
+
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >排课管理</a>
+                <a href="javascript:void(0)" >班级管理</a>
+                <a href="javascript:void(0)" >课程管理</a>
+                <a href="javascript:void(0)" >教师管理</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="right-content">
+
+
+
+    <div class="content-layer  nobg">
+
+        <div class="home-page-information">
+            <div class="people-infor">
+                <img src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3642780983,1304351810&fm=26&gp=0.jpg" alt="">
+                <div CLASS="infor-cell">
+                    <p class="infor-nm">某老师<span>早上好</span></p>
+                    <p class="infor-msg2">广州千源职业培训学院</p>
+                    <div class="infor-add">
+                        <span>系统通知：</span>
+                        <span>已开通邮箱 </span>
+                        <a href="javascript:void(0)">开通微信</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="home-page-data">
+                <a href="javascript:void(0)">
+                    <span>今日资讯</span>
+                    <span class="diff-co">12</span>
+                </a>
+
+                <a href="javascript:void(0)">
+                    <span>今日报名</span>
+                    <span class="diff-co">12</span>
+                </a>
+
+                <a href="javascript:void(0)">
+                    <span>今日营收</span>
+                    <span class="diff-co">40000.00</span>
+                </a>
+
+                <a href="javascript:void(0)">
+                    <span>今日支出</span>
+                    <span class="diff-co">500.00</span>
+                </a>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="home-page-theme">
+
+
+            <div class="home-page-box">
+                <div  class="home-page-icon">
+                    <div class="home-page-title">
+                        <span>  快捷操作</span>
+                        <a href="javascript:void(0)" class="set"></a>
+                    </div>
+
+                    <div class="icon-box">
+                        <a href="javascript:void(0)">
+                            <i>12</i>
+                            <img src="../images/index-icon/item-18.png" alt="">
+                            <span>最新咨询</span>
+                        </a>
+
+
+                        <a href="javascript:void(0)">
+                            <i>12</i>
+                            <img src="../images/index-icon/item-3.png" alt="">
+                            <span>办理报名</span>
+                        </a>
+
+                        <a href="javascript:void(0)">
+                            <i>12</i>
+                            <img src="../images/index-icon/item-16.png" alt="">
+                            <span>办理退费</span>
+                        </a>
+
+                        <a href="javascript:void(0)">
+                            <i>12</i>
+                            <img src="../images/index-icon/item-2.png" alt="">
+                            <span>办理转班</span>
+                        </a>
+
+                        <a href="javascript:void(0)">
+                            <i>12</i>
+                            <img src="../images/index-icon/item-6.png" alt="">
+                            <span>补交费用</span>
+                        </a>
+
+                        <a href="javascript:void(0)">
+                            <i>12</i>
+                            <img src="../images/index-icon/item-15.png" alt="">
+                            <span>办理休学</span>
+                        </a>
+
+                        <a href="javascript:void(0)">
+                            <i>12</i>
+                            <img src="../images/index-icon/item-5.png" alt="">
+                            <span>到访登记</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div  class="home-page-icon mt10" style="height: auto">
+                    <div class="home-page-title">
+                        <span>  趋势统计</span>
+                        <a href="javascript:void(0)" class="time">近1年</a>
+                        <a href="javascript:void(0)" class="time">近90天</a>
+                        <a href="javascript:void(0)" class="time">近10天</a>
+                        <a href="javascript:void(0)" class="time cur">近7天</a>
+                    </div>
+
+                    <div class="icon-box" id="line-chart" style="padding-top:50px;padding-bottom: 20px;">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="home-page-message">
+                <div class="home-page-title">
+                    <span>  通知公告</span>
+                    <a href="javascript:void(0)" class="more">更多</a>
+                </div>
+
+                <div class="message-url">
+                  <div class="ofa" style="height: 280px;">
+                      <a href="javascript:void(0)">
+                        <span>
+                            <b>【系统通知】</b>
+                            课程【雅思6分提升培升培培培培训培培培训培培培训
+                        </span>
+
+                          <span class="span-o2">
+                            2018-07-31
+                        </span>
+
+                          <i></i>
+                      </a>
+
+                      <a href="javascript:void(0)">
+                        <span>
+                            课程【雅思6分提升培升培培培培训培培培训培培培训
+                        </span>
+
+                          <span class="span-o2">
+                            2018-07-31
+                        </span>
+
+                          <i></i>
+                      </a>
+
+                      <a href="javascript:void(0)">
+                        <span>
+                            课程【雅思6分提升培升培培培培训培培培训培培培训
+                        </span>
+
+                          <span class="span-o2">
+                            2018-07-31
+                        </span>
+
+                          <i></i>
+                      </a>
+
+                      <a href="javascript:void(0)">
+                        <span>
+                            课程【雅思6分提升培升培培培培训培培培训培培培训
+                        </span>
+
+                          <span class="span-o2">
+                            2018-07-31
+                        </span>
+
+                          <i></i>
+                      </a>
+
+                      <a href="javascript:void(0)">
+                        <span>
+                            课程【雅思6分提升培升培培培培训培培培训培培培训
+                        </span>
+
+                          <span class="span-o2">
+                            2018-07-31
+                        </span>
+
+                          <i></i>
+                      </a>
+                  </div>
+                </div>
+
+                <div class="home-page-title">
+                    <span>  最新动态</span>
+                    <a href="javascript:void(0)" class="more">更多</a>
+                </div>
+                <div class="message-url">
+                    <div class="ofa" style="height: 297px;">
+                        <a href="javascript:void(0)">
+                        <span>
+                            课程【雅思6分提升培升培培培培训培培培训培培培训
+                        </span>
+
+                            <span class="span-o2">
+                            2018-07-31
+                        </span>
+
+                            <i></i>
+                        </a>
+
+                        <a href="javascript:void(0)">
+                        <span>
+                            课程【雅思6分提升培升培培培培训培培培训培培培训
+                        </span>
+
+                            <span class="span-o2">
+                            2018-07-31
+                        </span>
+
+                            <i></i>
+                        </a>
+
+                        <a href="javascript:void(0)">
+                        <span>
+                            课程【雅思6分提升培升培培培培训培培培训培培培训
+                        </span>
+
+                            <span class="span-o2">
+                            2018-07-31
+                        </span>
+
+                            <i></i>
+                        </a>
+
+                        <a href="javascript:void(0)">
+                        <span>
+                            课程【雅思6分提升培升培培培培训培培培训培培培训
+                        </span>
+
+                            <span class="span-o2">
+                            2018-07-31
+                        </span>
+
+                            <i></i>
+                        </a>
+
+                        <a href="javascript:void(0)">
+                        <span>
+                            课程【雅思6分提升培升培培培培训培培培训培培培训
+                        </span>
+
+                            <span class="span-o2">
+                            2018-07-31
+                        </span>
+
+                            <i></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+</div>
+
+
+
+
+
+<div class="icon-layer" id="icon-layer">
+    <div class="icon-title">
+        选择操作设置
+    </div>
+
+    <div class="icon-home">
+        <div class="home-box">
+            <span class="home-tick"></span>
+            <div class="home-html">
+                <img src="../images/index-icon/item-17.png" alt="">
+                <span>校+推广</span>
+            </div>
+        </div>
+
+        <div class="home-box">
+            <span class="home-tick"></span>
+            <div class="home-html">
+                <img src="../images/index-icon/item-8.png" alt="">
+                <span>会员推广</span>
+            </div>
+        </div>
+
+        <div class="home-box">
+            <span class="home-tick"></span>
+            <div class="home-html">
+                <img src="../images/index-icon/item-18.png" alt="">
+                <span>新增咨询</span>
+            </div>
+        </div>
+
+        <div class="home-box">
+            <span class="home-tick"></span>
+            <div class="home-html">
+                <img src="../images/index-icon/item-2.png" alt="">
+                <span>到访管理</span>
+            </div>
+        </div>
+
+        <div class="home-box">
+            <span class="home-tick"></span>
+            <div class="home-html">
+                <img src="../images/index-icon/item-13.png" alt="">
+                <span>失控咨询</span>
+            </div>
+        </div>
+
+        <div class="home-box">
+            <span class="home-tick"></span>
+            <div class="home-html">
+                <img src="../images/index-icon/item-3.png" alt="">
+                <span>今日报名</span>
+            </div>
+        </div>
+
+        <div class="home-box">
+            <span class="home-tick"></span>
+            <div class="home-html">
+                <img src="../images/index-icon/item-6.png" alt="">
+                <span>欠费学员</span>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="home-box">
+            <span class="home-tick"></span>
+            <div class="home-html">
+                <img src="../images/index-icon/item-1.png" alt="">
+                <span>班级管理</span>
+            </div>
+        </div>
+
+        <div class="home-box">
+            <span class="home-tick"></span>
+            <div class="home-html">
+                <img src="../images/index-icon/item-9.png" alt="">
+                <span>教师管理</span>
+            </div>
+        </div>
+
+        <div class="home-box">
+            <span class="home-tick"></span>
+            <div class="home-html">
+                <img src="../images/index-icon/item-7.png" alt="">
+                <span>课室管理</span>
+            </div>
+        </div>
+
+        <div class="home-box">
+            <span class="home-tick"></span>
+            <div class="home-html">
+                <img src="../images/index-icon/item-10.png" alt="">
+                <span>教务排课</span>
+            </div>
+        </div>
+
+        <div class="home-box">
+            <span class="home-tick"></span>
+            <div class="home-html">
+                <img src="../images/index-icon/item-4.png" alt="">
+                <span>到账确认</span>
+            </div>
+        </div>
+
+        <div class="home-box">
+            <span class="home-tick"></span>
+            <div class="home-html">
+                <img src="../images/index-icon/item-16.png" alt="">
+                <span>退款处理</span>
+            </div>
+        </div>
+
+        <div class="home-box">
+            <span class="home-tick"></span>
+            <div class="home-html">
+                <img src="../images/index-icon/item-11.png" alt="">
+                <span>投放申请</span>
+            </div>
+        </div>
+
+
+
+
+        <div class="home-box">
+            <span class="home-tick"></span>
+            <div class="home-html">
+                <img src="../images/index-icon/item-15.png" alt="">
+                <span>合作申请</span>
+            </div>
+        </div>
+
+        <div class="home-box">
+            <span class="home-tick"></span>
+            <div class="home-html">
+                <img src="../images/index-icon/item-12.png" alt="">
+                <span>课程推广</span>
+            </div>
+        </div>
+
+        <div class="home-box">
+            <span class="home-tick"></span>
+            <div class="home-html">
+                <img src="../images/index-icon/item-14.png" alt="">
+                <span>SEO推广</span>
+            </div>
+        </div>
+
+        <div class="home-box">
+            <span class="home-tick"></span>
+            <div class="home-html">
+                <img src="../images/index-icon/item-19.png" alt="">
+                <span>资讯管理</span>
+            </div>
+        </div>
+
+        <div class="home-box">
+            <span class="home-tick"></span>
+            <div class="home-html">
+                <img src="../images/index-icon/item-5.png" alt="">
+                <span>今日回访</span>
+            </div>
+        </div>
+
+
+
+
+
+
+
+    </div>
+
+    <div class="submitBtn">
+        <a href="javascript:void(0)" class="cur">确认</a>
+        <a href="javascript:void(0)" class="">取消</a>
+    </div>
+</div>
+
+
+
+
+
+
+<script src="../js/jquery.js"></script>
+<script src="../js/layer.js"></script>
+<script src="../js/area.js"></script>
+<script src="../js/all.js"></script>
+<script src="../js/plugin/select.js"></script>
+<script src="../js/plugin/highcharts/highcharts.js"></script>
+<script src="../js/plugin/highcharts/exporting.js"></script>
+<script src="../js/plugin/highcharts/highcharts-zh_CN.js"></script>
+
+<script src="../js/scrollbarplugin/jquery.mCustomScrollbar.js"></script>
+
+<script type="text/javascript">
+
+    //选择图标
+    $(".set").click(function () {
+        layer.open({
+            title: '常用操作设置',
+            type: 1,
+            area: '778px',
+            skin: '',
+            content: $('#icon-layer')
+        });
+    });
+
+    $(".home-box").click(function (e) {
+      if($(this).hasClass("icon-index")){
+          $(this).removeClass("icon-index");
+      }else {
+          $(this).addClass("icon-index");
+      }
+
+    });
+
+
+
+    $(".home-page-title .time").click(function () {
+        $(".home-page-title .time").removeClass("cur");
+        $(this).addClass("cur")
+    });
+
+
+        $('.setting').mouseenter(function () {
+            $(this).find(".tips-set").show()
+        }).mouseleave(function () {
+            $(this).find(".tips-set").hide()
+         });
+
+
+
+    $('.information').mouseenter(function () {
+        $(this).find(".tips-set").show()
+    }).mouseleave(function () {
+        $(this).find(".tips-set").hide()
+    });
+
+
+
+    $('.news').mouseenter(function () {
+        $(this).find(".news-layer").show()
+    }).mouseleave(function () {
+        $(this).find(".news-layer").hide()
+    });
+
+
+
+
+    var chart = Highcharts.chart('line-chart', {
+        chart: {
+            type: 'spline'
+        },
+        title: {
+            text: ''
+        },
+        exporting: {
+            enabled: false  //设置导出按钮不可用
+        },
+
+
+        xAxis: {
+            type: 'datetime',
+            title: {
+                text: null
+            }
+        },
+        colors: ['#6CF', '#39F', '#06C', '#036', '#000'],
+        yAxis: {
+            title: {
+                text: ''
+            },
+            min: 0
+        },
+        credits:{
+            enabled:false // 禁用版权信息
+        },
+
+        tooltip: {
+            headerFormat: '<b>{series.name}</b><br>',
+            pointFormat: '{point.x:%e. %b}: {point.y:.2f} m'
+        },
+
+        plotOptions: {
+            series: {
+                label: {
+                    connectorAllowed: false
+                },
+                pointStart: Date.UTC(2017, 2, 1), // 开始值
+                pointInterval: 24 * 3600 * 1000 // 间隔一天
+            }
+        },
+        series: [{
+            name: '咨询量',
+            data: [0, 1400, 0, 1400, 0, 1400, 0, 1400]
+        }, {
+            name: '报名量',
+            data: [3500, 150, 3500, 150, 3500, 150, 3500, 150]
+        }],
+    });
+
+
+    (function($){
+        $(window).load(function(){
+            $(".message-url .ofa").mCustomScrollbar();
+        });
+    })(jQuery);
+
+
+</script>
+
+</body>
+</html>

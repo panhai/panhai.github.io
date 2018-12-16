@@ -1,0 +1,180 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="css/v2/all.css">
+<link rel="stylesheet" type="text/css" href="css/v2/web.css">
+<link rel="stylesheet" type="text/css" href="css/v2/help.css">
+<link rel="stylesheet" type="text/css" href="css/v2/plugin/CitiesPicker.css">
+<title>好工作-帮助中心-常见问题</title>
+</head>
+
+<body>
+<div class="HEADER"><div class="common">
+	<div class="LOGO"><a href="index-new.html"><img src="images/v2/logo.jpg" width="177" height="91"></a></div>
+    <div class="SLOGAN"><img src="images/v2/help.gif" width="116" height="27"></div>
+    <div class="TOP-SEARCH">
+    	<div class="TOP-SEARCH-BAR">
+            <dl class="TOP-SEARCH-KEY SELECT" data-matches="10">
+            	<input type="hidden">
+                <dt><input class="TOP-SEARCH-INPUT KEY-GUIDANCE" data-init="true" type="text" data-list="arrow" data-holdway="image"></dt>
+            	<dd class="normal single">
+                	<div class="tip">找不到符合【老板】的职位</div>
+                    <div class="matches" data-list="datas">
+                        <!--<a href="#" data-id="">客服经理</a>-->
+                    </div>
+                </dd>
+            </dl>
+            <dl class="TOP-CitiesPicker CitiesPicker SELECT" data-matches="5">
+            	<input type="hidden">
+                <dt><span><input type="text" value="广州" data-list="arrow"></span><i></i></dt>
+                <dd>
+                    <div class="CitiesHot">
+                        <h5>热门城市（可直接选择城市或输入城市拼音/简拼）</h5>
+                        <div class="cities">
+                            <a data-id="271000">广州</a><a data-id="271200">深圳</a><a data-id="171000">上海</a><a data-id="272600">东莞</a><a data-id="271500">佛山</a><a data-id="101000">北京</a><a data-id="261000">长沙</a><a data-id="251000">武汉</a><a data-id="191000">杭州</a><a data-id="181000">南京</a><a data-id="211000">福州</a><a data-id="272700">中山</a><a data-id="272000">惠州</a><a data-id="271300">珠海</a><a data-id="201000">合肥</a><a data-id="301000">成都</a><a data-id="231000">济南</a><a data-id="271700">湛江</a><a data-id="262200">娄底</a><a data-id="261100">株洲</a><a data-id="261900">郴州</a><a data-id="271100">韶关</a><a data-id="311000">贵阳</a><a data-id="261300">衡阳</a><a data-id="221000">南昌</a><a data-id="301900">乐山</a><a data-id="211400">泉州</a><a data-id="302000">南充</a><a data-id="261200">湘潭</a><a data-id="241000">郑州</a><a data-id="302300">广安</a><a data-id="301500">绵阳</a><a data-id="301400">德阳</a><a data-id="211100">厦门</a><a data-id="271600">江门</a><a data-id="111000">天津</a><a data-id="331000">西安</a><a data-id="272200">汕尾</a><a data-id="272300">河源</a><a data-id="391200">桂林</a><a data-id="181100">无锡</a><a data-id="251300">宜昌</a>
+                        </div>
+                    </div>
+                    <div class="CitiesQuery">
+                        <div class="tip">d，若缩小范围，请输入全拼</div>
+                        <div class="matches" data-list="datas">
+                            <!--<a data-id="" href="#">广东</a>-->
+                        </div>
+                    </div>
+                </dd>
+            </dl>
+            <input class="TOP-SUBMIT" type="submit" value="好工作">
+        </div>
+        <div class="TOP-HOTKEYS">
+            热门搜索：<a href="#">服务员</a>     <a href="#">送餐员</a>     <a href="#">健身教练</a>    <a href="#">保姆</a>    <a href="#">月嫂</a>     <a href="#">高级技工</a>     <a href="#">淘宝美工</a>
+        </div>
+    </div>
+</div></div>
+
+<div class="Main common">
+    <div class="Left">
+    	<dl class="cur list">
+        	<dt><a href="new-help.html" class="t1">帮助中心</a></dt>
+            <dd>
+            	<a href="new-help.html" class="cur">常见问题</a><a href="new-help-cheat.html">求职防骗</a>
+            </dd>
+        </dl>
+        <dl>
+        	<dt><a href="new-about.html" class="t2">关于我们</a></dt>
+        </dl>
+        <dl>
+        	<dt><a href="new-protocal.html" class="t3">使用协议</a></dt>
+        </dl>
+        <dl>
+        	<dt><a href="new-contact.html" class="t4">联系我们</a></dt>
+        </dl>
+        <dl>
+        	<dt><a href="new-law.html" class="t5">法律声明</a></dt>
+        </dl>
+        <dl>
+        	<dt><a href="new-secret.html" class="t6">保密协议</a></dt>
+        </dl>
+    </div>
+    <div class="Right">
+        <h1 class="TOPIC">常见问题</h1>
+        <ul class="Questions">
+        	<li class="cur">
+            	<h3>简历查看率是什么，有什么用？<i></i></h3>
+                <div>
+                    <p>1、负责对用户特征提取，用户聚类分类，推荐系统协同过滤等业务问题，提供先进、适用的解决方案（模型）、高可扩展性的可并行算法设计。</p>
+                    <p>2、协助对项目实施中遇到的算法性能瓶颈进行诊断和改进。</p>
+                    <p>3、提高拉勾网职位推荐的相关度、用户体验、投放效果。</p>
+                </div>
+            </li>
+        	<li>
+            	<h3>个人信用度是什么，有什么作用？<i></i></h3>
+                <div>
+                	<p>个人信用度是衡量一个求职者信誉的指标，如果您确定去面试之后却缺席面试或无故迟到，HR可以进行投诉，被投诉后您的信用度将会受到影响。</p>
+			    	<p>信用度的高低是影响您的简历在企业简历库中排名的因素之一。</p>
+    			</div>
+            </li>
+        	<li>
+            	<h3>绑定手机、邮箱有什么作用？<i></i></h3>
+                <div><p>绑定手机，邮箱后可以直接用绑定过的手机或邮箱直接登录好工作。</p></div>
+            </li>
+        	<li>
+            	<h3>简历中填写手机、邮箱与个人设置中绑定的手机和邮箱有什么区别？<i></i></h3>
+                <div><p>简历中填写手机需要绑定后才能保存，跟个人设置中绑定手机是一样的功能；简历中填写邮箱不需要绑定，只用于接收简历，但无法用该邮箱登录好工作。</p></div>
+            </li>
+        	<li>
+            	<h3>在好工作填写的简历有谁会看到？<i></i></h3>
+                <div><p>在好工作填写的简历只有企业的HR，在好工作平台上才能看到，为保护您的信息隐私，百度等搜索引擎是无法搜索到您的简历。</p></div>
+            </li>
+        	<li>
+            	<h3>怎么样才算一份完整的简历，为什么我一定要把简历填写完整？<i></i></h3>
+                <div>
+					<p>职位搜索分为两个部分的内容：</p>
+                    <p>　　1.如果使用关键字搜索，要精确搜索结果，可以同时输入多个关键字搜索（中间用空格隔开） 如：客户经理  互联网</p>
+                    <p>　　2.如果使用高级搜索器，建议除输入关键字等条件外，选择"行业类别"、"职位类别""学历要求"、"工作经验"、"发布时间"等条件一起进行搜索.当然，过多的筛选条件也会导致没有搜索结果.</p>
+                </div>
+            </li>
+        	<li>
+            	<h3>如何提高职位搜索的精确度？<i></i></h3>
+                <div>
+                	<p>完整的简历是指简历的基本个人信息、教育经历、工作经验等各项都已经填写完整。部分职位需要您拥有一份完整的简历才能够投递。</p>
+				    <p>简历是您进行求职的利器，一份完整的简历不但可以提升的面试机会，同时提高您在HR面前的良好形象，企业更喜欢勤奋和认真的求职者！</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear"></div>
+</div>
+<table class="FullScreenPlugin fixed fixed-top CenterDivContainer"><tr><td>
+	<dl class="CENTERDIV CenterLarge Feedback" data-active=".TOOL .feed">
+    	<dt class="CENTERTOPIC"><b>意见反馈</b><q></q></dt>
+        <dd class="CENTERCONTENT">
+        	<table class="CenterForm">
+            	<caption><h6 class="single">感谢您使用好工作，您的反馈是对我们莫大的支持和鼓励！</h6></caption>
+                <tr>
+                	<th width="120">反馈内容：</th><td width="480">
+                    	<textarea placeholder="使用帮助，产品bug，功能建议，问题反馈，吐槽等（500字以内）"></textarea>
+                        <code class="form-tip successMsg"></code>
+                        <code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>
+                    </td>
+                </tr>
+                <tr>
+                    <th>联系方式：</th><td>
+                    	<input type="text" class="text" placeholder="手机、QQ或邮箱">
+                        <code class="form-tip successMsg"></code>
+                        <code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>
+                    </td>
+                </tr>
+                <tr>
+                    <th></th><td class="CENTERBTNS">
+                    	<input type="button" class="submit" value="确定">
+                    	<input type="button" class="reset" value="取消">
+                    </td>
+                </tr>
+            </table>
+        </dd>
+    </dl>
+</td></tr></table>
+<div class="TOOL">
+	<a href="#" class="top"></a>
+    <a href="#" class="feed"></a>
+</div>
+</body>
+</html>
+<script src="js/jquery.js"></script>
+<script src="js/v2/all.js"></script>
+<script src="js/v2/web.js"></script>
+<script src="js/area.js"></script>
+<script src="js/jobPositions.js"></script>
+<script src="js/plugin/CitiesPicker.js"></script>
+<script src="js/effect/float.js"></script>
+<script src="js/effect/fixed.js"></script>
+<script src="js/effect/bg.js"></script>
+<script src="js/plugin/CenterDiv.js"></script>
+<script>
+$(function(){
+	$(".Questions li").click(function(){
+		$(this).toggleClass("cur");
+	});
+	CHIfixed(".Left",'top');
+});
+</script>

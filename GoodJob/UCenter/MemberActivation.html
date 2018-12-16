@@ -1,0 +1,181 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>个人后台-简历中心</title>
+    <link rel="stylesheet" type="text/css" href="../css/v2/all.css">
+    <link rel="stylesheet" type="text/css" href="../css/v2/UCenter/all.css">
+    <link rel="stylesheet" type="text/css" href="../css/v2/UCenter/resume.css">
+    <link rel="stylesheet" type="text/css" href="../css/v2/plugin/JobAndProf.css">
+    <link rel="stylesheet" type="text/css" href="../css/v2/UCenter/new.css" />
+    <link href="../css/layerskin/default/layer.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="HEADER HEADER-GUIDE">
+        <div class="common">
+            <div class="TOP-LOGO">
+                <a href="#"><img src="../images/v2/logo.jpg" width="177" height="91"></a>
+                <span>账号初始化</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="guide-main common active">
+        <div class="guide-create">
+            <div class="guide-create-title">
+                <h2>请填写<span>基本信息</span>，以完成账号初始化</h2>
+            </div>
+            <div class="guide-resume">
+                <div class="FormLine">
+                    <div class="item">
+                        <var class="required">姓名：</var>
+                        <dfn><input id="fullname" type="text" class="text name" placeholder="请填写真实姓名，2-4汉字"></dfn>
+                        <span class="field-validation-error" data-valmsg-for="FullName" data-valmsg-replace="true"><span for="FullName" class="">不能为空</span></span>
+                    </div>
+                </div>
+
+                <div class="FormLine">
+                    <div class="item">
+                        <var class="required">出生年月：</var>
+                        <dfn>
+                            <dl class="SELECT quarter left YEARS new" data-child=".BirthMonth" data-from="1960" data-to="1999" data-placeholder="出生年份">
+                                <input type="hidden" id="birthYear">
+                                <dt><span></span><i></i></dt>
+                                <dd class="normal">
+                                </dd>
+                            </dl>
+                            <dl class="SELECT quarter right BirthMonth MONTHS" data-autofill="" data-placeholder="出生月份">
+                                <input type="hidden" id="birthMonth">
+                                <dt><span></span><i></i></dt>
+                                <dd class="normal"></dd>
+                            </dl>
+                        </dfn>
+                        <!-- <code class="form-tip tipMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code> -->
+                    </div>
+                </div>
+
+                <div class="FormLine">
+                    <div class="item full special">
+                        <var class="required">电子邮箱：</var>
+                        <dfn>
+                            <dl class="SELECT">
+                                <dt class="email-edit"><span><input type="text" id="email" class="text EMAILS" data-list="arrow" placeholder="请输入电子邮箱地址，用于接收面试通知"></span> </dt>
+                                <dd class="normal"><div data-list='datas' class="matches"></div></dd>
+                            </dl>    <!-- 用户第一次填写保存邮箱后修改邮箱时出现的链接 -->
+                        </dfn>
+                        <span class="field-validation-error" data-valmsg-for="FullName" data-valmsg-replace="true"><span for="FullName" class="">不能为空</span></span>
+                    </div>
+                </div>
+
+                <div class="clear"></div>
+            </div>
+            <div class="FormLine">
+                <input type="submit" class="resume-next resume-next1" value="初始化成功" />
+                <input type="submit" class="resume-next resume-next2" value="账号异常" />
+                <input type="submit" class="resume-next resume-next3" value="导入成功" />
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+    <div class="RegistNotice" id="RegistNotice" style="display:none;">
+        <div class="mianbox">
+            <p class="redtxt">账号异常提醒！</p>
+            <p class="msgtxt">
+                系统检测李云生（5544**45@qq.com)3个月前使用该手机号，在其他招聘<br/>
+                网站投递过好工作·才+合作企业，请问是否你本人投递?
+            </p>
+            <p class="line_box">
+                <span class="leftBlock"></span>
+                <span class="add">是本人，导入该简历</span>
+                <span class="cancel layui-layer-close">非本人，清除使用记录</span>
+            </p>
+        </div>
+    </div>
+    <div class="RegistNotice" id="RegistSuccess" style="display:none;">
+        <div class="regist">
+            <img src="../images/UCenter/success.png" class="success_logo"/>
+            <p class="success_head">初始化成功，请核实信息是否正确！</p>
+            <p class="success_text">
+                你在其他招聘网站投递过好工作·才+合作企业，为了方便你不用再填写简历，系<br />
+                统刚刚为你将简历及投递信息同步到了好工作，请核对是否正确！
+            </p>
+            <span class="btn layui-layer-close">确认</span>
+        </div>
+    </div>
+    <div class="RegistNotice" id="ImportSuccess" style="display:none;">
+        <div class="regist">
+            <img src="../images/UCenter/success.png" class="success_logo" />
+            <p class="success_head">导入成功！</p>
+            <p class="success_text">
+                系统已为你将简历及投递信息同步到了好工作，请核对是否正确！
+            </p>
+            <span class="btn layui-layer-close">确认</span>
+        </div>
+    </div>
+
+    <script src="../js/jquery.js"></script>
+    <script>INPUTINIT = false</script>
+    <script src="../js/plugin/YearsList-new.js"></script>
+    <script src="../js/v2/all.js"></script>
+    <script src="../js/effect/fixed.js"></script>
+    <script src="../js/area.js"></script>
+    <script src="../js/subjects.js"></script>
+    <script src="../js/universities.js" type="text/javascript"></script>
+    <script src="../js/plugin/CitiesPicker.js"></script>
+    <script src="../js/plugin/Addresses.js"></script>
+    <script src="../js/plugin/EmailTip.js"></script>
+    <script src="../js/plugin/SchoolTip.js"></script>
+    <script src="../js/plugin/SendVerify.js"></script>
+    <script src="../js/UCenter/layer.js"></script>
+
+    <script type="text/javascript">
+        $(function () {
+
+            $(".mobile").keyup(function () {
+                var b = true;
+                if (b) $(".MobileVCode").show();
+                else $(".MobileVCode").hide();
+            });
+            //男女选择
+            Boxes(".Sex");
+
+            
+
+        })
+    </script>
+
+    <script type="text/javascript">
+        $('.resume-next1').click(function () {
+            layer.open({
+                title: '提示',
+                type: 1,
+                area: '610px',
+                skin: 'RegistNotice',
+                content: $('#RegistSuccess')
+            });
+        });
+        $('.resume-next2').click(function () {
+            layer.open({
+                title: '提示',
+                type: 1,
+                area: '610px',
+                skin: 'RegistNotice',
+                content: $('#RegistNotice')
+            });
+        });
+        $('.resume-next3').click(function () {
+            layer.open({
+                title: '提示',
+                type: 1,
+                area: '610px',
+                skin: 'RegistNotice',
+                content: $('#ImportSuccess')
+            });
+        });
+        
+    </script>
+
+</body>
+</html>

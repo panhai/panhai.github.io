@@ -1,0 +1,121 @@
+/* 首页样式 */
+body{ background:#eeeff3 url(../../../images/v2/jiuye/bg.jpg) center 96px no-repeat;}
+.Banner{ height:360px; overflow:hidden; position:relative;}
+.Banner ul{ width:100%; height:100%; position:relative;}
+.Banner li{ width:1000px; height:360px; left:0; top:0; position:absolute;}
+.Dots{ position:absolute; height:25px; bottom:0; left:0; text-align:center; width:100%;}
+
+.Left{ width:695px; float:left;}
+.Right{ width:290px; float:right; _width:285px;}
+
+/*三色块*/
+.Triple{ width:690px; height:270px; box-shadow:0 0 6px rgba(15,54,155,.2); margin:10px; border:1px solid #eee\9;}
+.Triple li{ width:229px; height:270px; float:left; border-right:1px solid #ecf0f4;}
+.Triple h3{ clear:both; font-size:20px; color:#fff; line-height:48px; padding-left:15px; font-weight:normal;}
+.Triple small{ font-size:14px; padding-left:3px;}
+.Triple .green h3{ background-color:#14d087;}
+.Triple .yellow h3{ background-color:#eac30f;}
+.Triple li.orange{ width:230px; border-right:0;}
+.Triple .orange h3{ background-color:#ff8e15;}
+.Triple h3 i{ display:block; float:right; width:12px; height:12px; background:url(../../../images/v2/icons/jiuye.png) 24px 0; margin:20px 18px 0 0; _margin-right:9px;}
+.Triple a{ display:block; clear:both; padding-bottom:15px;}
+.Triple a.first{ margin-top:20px;}
+.Triple a i{ display:block; width:12px; height:12px; float:left; margin:8px 15px 30px 30px; background-image:url(../../../images/v2/icons/jiuye.png); _margin-left:15px;}
+.Triple h3 i,.Triple a i{ _background-image:url(../../../images/v2/icons/jiuye.gif);}
+.Triple .green a:hover *{ color:#14d087;}
+.Triple .green a i{ background-position:84px 0;}
+.Triple .yellow a:hover *{ color:#eac30f;}
+.Triple .yellow a i{ background-position:72px 0;}
+.Triple .orange a:hover *{ color:#ff8e15;}
+.Triple .orange a i{ background-position:60px 0;}
+.Triple h4{ font-size:18px; color:#333; font-weight:normal; line-height:28px;}
+.Triple h5{ font-size:14px; color:#777; font-weight:normal;}
+
+/*登录框*/
+.Login,.Menu{ height:270px; margin:10px; box-shadow:0 0 6px rgba(15,54,155,.2); border:1px solid #eee\9; overflow:hidden; margin-bottom:20px;}
+.Login table{ width:220px; margin:0 auto;}
+.Login thead label{ line-height:35px; padding-top:12px; font-size:16px; color:#9a9a9a; display:block; width:50%; float:left;}
+.Login thead label.checked{ color:#333; line-height:34px;}
+.Login .text{ width:198px; border:1px solid #d9d9d9; padding:0 10px; height:38px; line-height:38px; font-size:14px; margin-top:15px;}
+.Login tbody label{ font-size:14px; color:#b6bac1; float:left; padding:10px 0; cursor:pointer;}
+.Login a.forget{ float:right; color:#b6bac1; padding:10px 0; font-size:14px;}
+.Login a.forget:hover{ color:#965fb3;}
+.Login .submit{ height:33px; color:#fff; font-size:16px; width:100%; border:0; background-color:#965fb3; cursor:pointer;}
+.Login .links{ font-size:14px; color:#965fb3; padding-top:10px;}
+.Login .links a{ color:#965fb3;}
+.Login .links a:hover{ color:#333; text-decoration:underline;}
+
+/*登录后的菜单*/
+.Menu a{ display:block; padding-left:70px; font-size:16px; color:#777; line-height:35px; height:35px;}
+.Menu a:hover{ color:#965fb3; text-decoration:underline;}
+.Menu a i{ display:inline-block; width:25px; height:25px; background-image:url(../../../images/v2/icons/jiuye.png); vertical-align:text-top; margin-right:10px;}
+.Menu a i{ _background-image:url(../../../images/v2/icons/jiuye.gif);}
+.Menu a.first{ color:#965fb3; font-size:18px; margin:25px 0 10px;}
+.Menu .person{ background-position:-100px 0;}
+.Menu .resume{ background-position:0 0;}
+.Menu .plane{ background-position:-25px 0;}
+.Menu .star{ background-position:-75px 0;}
+.Menu .cog{ background-position:-50px 0;}
+.Menu input{ display:block; width:220px; margin:10px auto; height:33px; color:#fff; font-size:16px; border:0; background-color:#965fb3; cursor:pointer;}
+
+/*新闻与公告、招聘信息与宣讲会共用的样式*/
+.more i{ display:inline-block; width:12px; height:12px; background:url(../../../images/v2/icons/jiuye.png) 12px -2px; vertical-align:middle; vertical-align:text-bottom\9;}
+.more i{ _background-image:url(../../../images/v2/icons/jiuye.gif); _position:relative; _top:5px;}
+.Block{ width:690px; margin:20px 10px;}
+.Block dt{ height:40px;}
+.Block dt h3{ width:100px; height:38px; line-height:38px; border:1px solid #f4f4f4; background-color:#f4f4f4; text-align:center; font-weight:normal; color:#333; font-size:18px; float:left; margin-right:2px; cursor:pointer;}
+.Block dt h3.cur{ border-bottom-color:#ecf0f4; background-color:#fff; border-top:2px solid #965fb3; border-bottom:1px solid #fff; position:relative;}
+.Block dt .more{ font-size:12px; color:#965fb3; float:right; padding-top:15px;}
+.Block dd{ border:1px solid #ecf0f4; padding:20px 10px;}
+.Block li{ border-bottom:1px solid #ecf0f4; clear:both; line-height:40px; height:40px;}
+.Block li a{ font-size:16px; color:#444;}
+.Block li a:hover{ color:#965fb3; text-decoration:underline;}
+.Block li span{ font-size:14px; color:#986ab1; float:right; text-align:right;}
+/*新闻与公告*/
+.News li h3{ width:580px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; float:left; font-weight:normal; _padding-top:8px;}
+.News li i{ display:inline-block; width:12px; height:12px; background:url(../../../images/v2/icons/jiuye.png) 48px 0px; vertical-align:middle\9;}
+.News li i{ _background-image:url(../../../images/v2/icons/jiuye.gif); _position:relative; _top:5px;}
+/*第一块，可能有图*/
+.News li.first{ height:auto; padding-bottom:10px;}
+.News .first var{ display:block; float:left; width:300px; height:215px; border:1px solid #ecf0f4; overflow:hidden; margin-right:10px;}
+.News .first h2{ font-size:18px; color:#444; line-height:30px; font-weight:normal; max-height:60px; overflow:hidden;}
+.News .photo h2{ width:350px; float:left;}
+.News .first span{ display:block; float:none;}
+.News .first p{ font-size:14px; color:#888; line-height:25px;}
+
+/*招聘信息及宣讲会*/
+.Jobs li h4{ width:240px; float:left; font-weight:normal; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+.Jobs h4 a{ color:#444;}
+.Jobs li h5{ width:320px; float:left; font-weight:normal; text-indent:1em; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+.Jobs h5 a{ color:#888;}
+/*新增信息来源标识*/
+.Jobs li i{ display:block; float:left; width:13px; height:13px; margin-top:13px; margin-right:5px;}
+.Jobs li i.on{ position:relative;}
+.Jobs .school i{ background-image:url(../../../images/v2/jiuye/school.png);}
+.Jobs .push i{ background-image:url(../../../images/v2/jiuye/push.png);}
+.Jobs li i samp{ display:none; position:absolute; left:-12px; top:16px; width:132px; height:34px;}
+.Jobs li i.on samp{ display:block;}
+.Jobs .school samp{ background-image:url(../../../images/v2/jiuye/school-tip.png);}
+.Jobs .push samp{ background-image:url(../../../images/v2/jiuye/push-tip.png);}
+
+/*合作伙伴*/
+.Partners{ margin:10px;}
+.Partners dt{ clear:both; padding:10px 0; height:30px;}
+.Partners dt strong{ float:left; font-size:18px; color:#333; padding-left:5px; border-left:3px solid #965fb3; height:20px; line-height:20px;}
+.Partners dt .more{ font-size:12px; color:#965fb3; float:right; padding-top:5px;}
+.Partners dd a{ display:block; width:104px; height:104px; border:1px solid #ecf0f4; overflow:hidden; margin:7px 14px; float:left; _margin:7px;}
+
+/*四个块*/
+.Links{}
+.Links li{ height:70px; box-shadow:0 0 6px rgba(15,54,155,.2); border:1px solid #eee\9; margin:10px; overflow:hidden; line-height:70px; font-size:18px;}
+.Links li a{ color:#555; display:block;}
+.Links li i{ display:block; width:52px; height:52px; background-image:url(../../../images/v2/icons/jiuye.png); margin:12px 15px 0 30px; float:left; _margin-left:15px;}
+.Links i.file{ background-position:-100px 50px;}
+.Links i.board{ background-position:-50px 50px;}
+.Links i.camera{ background-position:0 50px;}
+.Links i.plane{ background-position:-150px 50px;}
+.Links li s{ display:block; float:right; margin:24px; width:25px; height:25px; background:url(../../../images/v2/icons/jiuye.png) -125px 0; _margin-right:12px;}
+.Links li i,.Links li s{ _background-image:url(../../../images/v2/icons/jiuye.gif);}
+.Links li em{ float:left; font-style:normal;}
+
+.FullScreenPlugin{ display:none;}

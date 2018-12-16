@@ -1,0 +1,42 @@
+﻿/* 公司资料页，与前台的企业展示页比，稍有改动 */
+
+.infor{ margin-top:20px; position:relative;}
+.infor h1 small{ font-size:12px; font-weight:normal;}
+.infor img{ vertical-align:middle;}
+.infor p{ height:35px; overflow:hidden;}
+.infor p a,.infor h1 a{ color:#015FDD; font-size:12px; font-family:"宋体";}
+.infor pre{ width:760px;}
+.infor code{ position:absolute; right:25px; top:20px; font-size:22px;}
+.infor code a{ color:#ff5000; font-weight:bold; font-family:"微软雅黑";}
+.infor code img{ vertical-align:super;}
+.infor .q1{ width:135px;}
+.infor .q2{ width:175px;}
+.infor .q3{ width:330px;}
+
+/*分页---企业展示页用*/
+.pages3{ float:right; margin:20px 0px 50px; font-size:12px;}
+.pages3 span,.pages3 a,.pages3 b{ display:block; float:left; width:34px; height:34px; line-height:34px; text-align:center; font-size:12px; border:1px solid #e7e7e7; margin-left:-1px;}
+.pages3 a{ color:#585858;}
+.pages3 b{ background:#9a9a9a; color:#fff; font-weight:normal;}
+.pages3 .prev i,.pages3 .next i{ background-image:url(../../images/icons.gif); width:12px; height:12px; display:inline-block; font-size:0px; vertical-align:text-bottom; vertical-align:middle\9;}
+.pages3 a.prev,.pages3 a.next{ width:auto !important; padding:0px 15px;}
+.pages3 a.prev i{ background-position:bottom left;}
+.pages3 a.next i{ background-position:right top;}
+.pages3 span.prev i{ background-position:right center;}
+.pages3 span.next i{ background-position:left center;}
+.pages3 .prev{ margin-left:0px;}
+/*IE67兼容*/
+.pages3 span i{ *margin-top:12px; _margin-top:0px;}
+.pages3 a.next,.pages3 a.prev{ _height:23px; _padding-top:11px;}
+
+
+/*显示出来的大地图*/
+.map-large{ display:none; position:fixed; width:858px; height:460px; padding:10px; background:rgba(0,0,0,0.5); left:0px; top:0px; z-index:66666;}
+.map-large{
+	_position: absolute !important;
+    _top:expression(eval(document.documentElement.scrollTop) + parseInt(this.style.marginTop));
+}
+.map-large dl{ background:#fff; height:460px;}
+.map-large dt{ line-height:35px; height:35px; background:#2677E2; color:#fff; font-size:16px; padding:0px 10px;}
+.map-large dt q{ display:block; position:absolute; font-size:20px; line-height:30px; width:30px; right:5px; top:10px; cursor:pointer;}
+.map-large dd{ padding:10px; text-align:center;}

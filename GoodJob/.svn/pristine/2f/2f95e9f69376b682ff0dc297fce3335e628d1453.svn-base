@@ -1,0 +1,100 @@
+/* 充值系列页面*/
+.right{ margin-bottom:15px;}
+.adv{ margin-bottom:30px; clear:both;}
+h1{ font-size:18px; color:#333; font-family:"微软雅黑"; line-height:45px;}
+h1.bg{ background-color:#EAF9FF; width:730px; margin:0 0 25px 15px;}
+h1.bd{ border-bottom:1px solid #dcdcdc; padding-left:15px;}
+h1 strong{ color:#ff5e00;}
+h1 small{ font-size:16px; padding-left:38px; margin-right:3em; font-weight:normal;}
+label{ cursor:pointer;}
+
+h2,h3{ color:#333; font-family:"微软雅黑"; line-height:35px; font-weight:normal; padding-left:20px;}
+h2{ font-size:16px;}
+h3{ font-size:18px; border-bottom:1px solid #eee; margin-bottom:20px;}
+h3 strong{ color:#ff5e00; font-size:24px; font-weight:normal;}
+h3 span{ font-family:"宋体"; color:#999; font-size:14px;}
+h3 b{ color:#ff5e00; font-weight:normal;}
+
+.lr{ clear:both; font-family:"微软雅黑";}
+.lr dt{ width:100px; float:left; font-size:16px; text-align:right; color:#666; line-height:35px;}
+.lr dd{ width:715px; float:left; line-height:35px;}
+.lr strong{ display:inline-block; font-weight:normal;}
+.lr em{ font-style:normal; color:#ff5e00; margin-right:100px;}
+.lr q{ color:#666; font-size:14px;}
+
+/*充值金额*/
+.moneys{ clear:both; font-size:0px; white-space:nowrap; margin-bottom:30px;}
+.moneys label{ line-height:30px; height:30px; display:inline-block; margin:0 11px 0 1px; border:1px solid #ababab; padding:0px 13px; padding:0px 10px\9; font-size:14px; color:#ff5e00; vertical-align:middle;}
+.moneys label{ _height:25px; _padding-top:5px;}
+.moneys b{ font-size:18px; font-family:"微软雅黑"; color:#333;}
+.moneys input{ visibility:hidden;}
+.moneys .checked{ border:2px solid #f00; margin:0 10px 0 0; border-radius:2px;}
+
+.input_rule{ clear:both; margin-bottom:20px; margin-bottom:0px\9;}
+.input_rule .text{ width:144px; height:35px; line-height:35px; border:1px solid #ababab; font-size:16px; font-family:"微软雅黑"; padding:0px 5px; width:150px\9; vertical-align:middle;}
+.input_rule a{ font-size:16px; color:#2677e2; font-weight:bold; font-family:"微软雅黑";}
+
+/*支付方式*/
+.payway{ clear:both; margin-top:30px;}
+.payways{ clear:both; font-size:0px;}
+.payways label{ line-height:35px; height:35px; display:inline-block; margin:0 16px 0 1px; border:1px solid #ababab; padding:0px 15px; padding:0px 10px\9;  font-size:16px; font-family:"微软雅黑"; color:#333; vertical-align:middle; font-weight:bold;}
+.payways input{ display:none;}
+.payways .checked{ border:2px solid #2673ec; margin:0 15px 0 0; border-radius:2px;}
+
+.warn{ line-height:50px; font-size:16px; font-family:"微软雅黑";}
+
+/*银行*/
+.banks{ clear:both; font-size:0px;}
+.banks label{ width:157px; height:47px; overflow:hidden; border:1px solid #ababab; display:inline-block; margin:0px 19px 25px 0px;}
+.banks img{ border:1px solid #fff;}
+.banks input{ display:none;}
+.banks .checked{ border-color:#2673ec; border-radius:2px;}
+.banks .checked img{ border-color:#2673ec;}
+
+.agree{ clear:both;}
+.agree .submit{ width:175px; height:40px; border:0px; font-size:18px; color:#fff; text-align:center; font-family:"微软雅黑"; background-color:#005fdd; margin-right:10px; vertical-align:middle;}
+.agree label{ font-size:16px; color:#454545; font-family:"微软雅黑";}
+.agree a{ color:#005fdd;}
+
+.tips{ clear:both; padding:50px 0px 60px 45px; font-family:"微软雅黑"; line-height:30px; padding-top:20px\9;}
+.tips h6{ font-size:16px; color:#005fdd;}
+.tips p{ color:#333; font-size:14px; font-weight:bold;}
+
+/*支付明细*/
+.topic{ clear:both; height:27px; line-height:27px; margin:20px;}
+.topic *{ font-family:"微软雅黑";}
+.topic h4{ float:left; font-size:16px;}
+.topic div{ float:right;}
+.topic .submit{ width:70px; height:27px; color:#fff; text-align:center; background-color:#2677e2; font-size:16px; border:0px; cursor:pointer; vertical-align:middle; margin-left:5px;}
+.topic .datetime{ width:100px; padding:0px 5px; height:25px; border:1px solid #bcbcbc; line-height:25px; vertical-align:middle; background:url(../../images/CpCenter/ico-cal.jpg) 90px center no-repeat;}
+.topic .blank{ border:0px; font-size:18px; color:#666; background:transparent; font-weight:bold;}
+
+.table{ border-collapse:collapse; width:780px; table-layout:fixed; margin-left:20px; clear:both; font-family:"微软雅黑";}
+.table thead th{ background-color:#fafafa; color:#3e3e3e; font-size:14px; text-align:left; font-weight:normal; line-height:35px; border:1px solid #ddd; border-width:1px 0px; padding-left:20px;}
+.table thead th.first{ border-left-width:1px; text-indent:10px;}
+.table thead th.last{ border-right-width:1px;}
+.table tbody td,.table tbody th{ border-bottom:1px dashed #ddd; height:80px; text-align:left; padding-left:20px; line-height:25px;}
+.table td{ font-size:16px; color:#999;}
+.table p{ font-size:12px; color:#999; font-family:"宋体"; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.table h5{ color:#494949; font-size:16px; font-weight:normal;}
+.table del{ color:#347FE5; text-decoration:none;}
+.table b{ color:#ff5e00;}
+.table span{ font-size:14px; color:#999; font-family:"宋体";}
+
+/*下拉列表*/
+.select{ position:relative; display:inline-block; float:left; z-index:111; font-size:12px; color:#666; width:100px; top:2px; top:7px\9; margin-right:10px;}
+.select dt{ clear:both; height:25px; border:1px solid #bcbcbc; padding:0px 20px 0px 10px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; line-height:28px; position:relative;}
+.select dt i{ display:block; position:absolute; right:3px; top:8px; height:12px; width:12px; background:url(../../images/icons.gif) -12px top; color:#999;}
+.select dt span{ color:#999;}
+.select dd{ display:none; position:absolute; left:0px; background:#fff; line-height:25px; border:1px solid #d9d9d9; width:98px;}
+.select dd.on{ display:block; z-index:555;}
+.select dd a{ display:block; text-indent:5px; color:#666;}
+.select dd a:hover{ background-color:#2673ec; color:#fff;}
+
+/*买币*/
+.coins .text{ width:144px; height:35px; line-height:35px; border:1px solid #ababab; font-size:16px; font-family:"微软雅黑"; padding:0px 5px; width:150px\9; vertical-align:middle; position:relative; top:-1px;}
+.coins b{ display:inline-block; padding:0px 15px; border:1px solid #ccc; font-size:14px; color:#333; font-weight:normal;}
+.coins b.cur{ border-color:#ff5e00; background-color:#ff5e00; color:#fff;}
+
+.BuyCoin{ clear:both; padding:20px; border-bottom:1px dashed #ccc;}
+.BuyCoin .btn{ background-color:#ff5e00; font-size:16px; color:#fff; cursor:pointer; width:140px; font-family:"微软雅黑"; border:0px; height:40px;}

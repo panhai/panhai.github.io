@@ -1,0 +1,339 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>企业中心-发布职位-全职/实习</title>
+<link rel="stylesheet" type="text/css" href="../css/v2/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/CCenter/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/CCenter/publish.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/plugin/JobAndProf.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/plugin/CitiesPicker.css">
+</head>
+
+<body>
+<div class="HEADER"><div class="common">
+	<div class="TOP-LOGO"><a href="#"><img src="../images/v2/logo-s.jpg" width="119" height="62"></a></div>
+    <div class="TOP-TOOLS">
+    	Admin, <a href="#">退出</a>&nbsp;&nbsp;&nbsp;<a href="#">个人中心</a>&nbsp;&nbsp;&nbsp;<a href="#">反馈</a>&nbsp;&nbsp;&nbsp;<a href="#">HR帮助</a>
+    </div>
+    <ul class="TOP-NAV">
+    	<li><a href="new-index.html">首页</a></li>
+    	<li><a href="new-publish.html" class="cur">发布职位</a></li>
+    	<li><a href="new-profile.html">企业资料</a></li>
+    	<li><a href="new-hrfavors.html">HR收藏夹</a></li>
+    	<li><a href="new-settings.html">账号管理</a></li>
+    </ul>
+</div></div>
+
+<div class="Main">
+	<h1 class="TOPIC">发布职位</h1>
+    <div class="ImportResume">
+       <div class="in1">
+           <h2>发布职位麻烦？快尝试<strong>一键发布</strong>！</h2>
+           <p>好工作新增一键发布功能，可一键将你的智联/前程招聘职位发布到好工<br>作，不用重复发布职位啦！</p>
+           <a href="new-settings-release.html" title="">立即一键发布</a>
+           <span class="close"></span>
+       </div>
+        <div class="in2">
+            <p>输入麻烦？立即一键将前程、智联等网站招聘信息发布到好工作</p>
+            <a href="new-settings-release.html" title="">一键发布</a>
+        </div>
+    </div>
+    <table class="PubForm table1">
+    	<thead><tr><th width="150"></th><td width="260"></td><th width="130"></th><td width="260"></td></tr></thead>
+        <tbody>
+        	<tr><th><b>*</b>职位名称：</th><td colspan="3">
+            	<input type="text" class="text t-l" placeholder="请输入职位名称">
+                <!--<code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>-->
+                <code class="form-tip successMsg"></code>
+            </td></tr>
+            <tr><th><b>*</b>职位类型：</th><td colspan="3" class="Jobtypes">
+            	<a href="new-publish.html" class="checked">全职</a>
+            	<a href="#new-publish-practice.html">实习</a>
+            	<a href="new-publish-parttime.html">兼职</a>
+            </td></tr>
+            <tr><th><b>*</b>职位类别：</th><td colspan="3">
+                <dl class="SELECT filter-jobs blue s-l" data-placeholder="请选择职位类别" data-leave="egnore">
+                    <input type="hidden">
+                    <dt class=""><span></span><i></i></dt>
+                    <dd class="FilterMenu">
+                    <table>
+                        <th class="menus"><!--由JS生成--></th>
+                        <td class="submenus SELECT-CHOICES"><!--由JS生成--></td>
+                    </table>
+                    </dd>
+                </dl>
+                <!--<code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>-->
+                <code class="form-tip successMsg"></code>
+            </td></tr>
+            <tr>
+            	<th><b>*</b>招聘人数：</th>
+            	<td>
+                	<input type="text" class="text t-s" placeholder="请输入招聘人数">
+                    <!--<code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>-->
+                    <code class="form-tip successMsg"></code>
+                </td>
+                <th><b>*</b>每月薪资：</th>
+                <td>
+                    <dl class="SELECT s-m">
+                        <input type="hidden" value="2">
+                        <dt><span></span><i></i></dt>
+                        <dd class="normal">
+                            <a data-id="">不限</a>
+                            <a data-id="1">1000以下</a>
+                            <a data-id="2">1000-2000</a>
+                            <a data-id="3">2000-3000</a>
+                            <a data-id="4">3000-5000</a>
+                            <a data-id="5">5000-8000</a>
+                            <a data-id="6">8000-12000</a>
+                            <a data-id="7">12000-20000</a>
+                            <a data-id="8">20000以上</a>
+                        </dd>
+                    </dl>
+                    <!--<code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>-->
+                    <code class="form-tip successMsg"></code>
+                </td>
+            </tr>
+            <tr>
+            	<th><b>*</b>学历要求：</th>
+                <td>
+                    <dl class="SELECT s-m">
+                        <input type="hidden" value="3">
+                        <dt><span></span><i></i></dt>
+                        <dd class="normal">
+                            <a data-id="1">初中/高中</a>
+                            <a data-id="2">技校/中专</a>
+                            <a data-id="3">大专</a>
+                            <a data-id="4">本科</a>
+                            <a data-id="5">硕士</a>
+                            <a data-id="6">博士</a>
+                            <a data-id="7">其他</a>
+                        </dd>
+                    </dl>
+                    <!--<code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>-->
+                    <code class="form-tip successMsg"></code>
+                </td>
+            	<th><b>*</b>工作年限：</th>
+                <td>
+                    <dl class="SELECT s-m">
+                        <input type="hidden">
+                        <dt><span></span><i></i></dt>
+                        <dd class="normal">
+                            <a data-id="1">在读学生</a>
+                            <a data-id="2">应届生</a>
+                            <a data-id="3">1年以下</a>
+                            <a data-id="4">1-3年</a>
+                            <a data-id="5">3-5年</a>
+                            <a data-id="6">5-10年</a>
+                            <a data-id="7">10年以上</a>
+                        </dd>
+                    </dl>
+                    <!--<code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>-->
+                    <code class="form-tip successMsg"></code>
+                </td>
+            </tr>
+            <tr><th><b>*</b>所属部门：</th><td colspan="3">
+            	<input type="text" class="text t-l" placeholder="请输入所属部门">
+                <!--<code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>-->
+                <code class="form-tip successMsg"></code>
+            </td></tr>
+            <tr><th><b>*</b>工作地点：</th><td colspan="3" class="Addresses">
+                <dl class="SELECT Provinces ADDRESS s-s" data-child=".Cities" data-placeholder="省份">
+                    <input type="hidden" class="PROVINCE" value="270000">
+                    <dt><span></span><i></i></dt>
+                    <dd class="normal"></dd>
+                </dl>
+                <dl class="SELECT Cities ADDRESS s-s" data-child=".Districts" data-parent=".Provinces" data-placeholder="城市">
+                    <input type="hidden" class="CITY" value="271200">
+                    <dt><span></span><i></i></dt>
+                    <dd class="normal"></dd>
+                </dl>
+                <dl class="SELECT Districts ADDRESS s-s" data-parent=".Cities" data-placeholder="区域" data-unlimited="true">
+                    <input type="hidden" class="DISTRICT" value="271215">
+                    <dt><span></span><i></i></dt>
+                    <dd class="normal"></dd>
+                </dl>
+                <!--<code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>-->
+                <code class="form-tip successMsg"></code>
+            </td></tr>
+            <tr><th><b>*</b>详细地址：</th><td colspan="3">
+                <dl class="SELECT AddressDetail" data-placeholder="请输入详细地址">
+                    <dt><span><input type="text" id="company_address" class="COMPANYADDRESS" data-list="arrow"></span></dt>
+                    <dd class="normal">
+                        <div class="matches" data-list="datas"></div>
+                    </dd>
+                </dl>
+                <input type="button" class="btn-addup Locate" value="定位">
+                <!--<code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>-->
+                <code class="form-tip successMsg"></code>
+            </td></tr>
+        </tbody>
+    </table>
+    <table class="PubForm">
+    	<thead><th width="140"></th><td width="650"></td></thead>
+    	<tbody>
+            <tr><td colspan="2"><small>如果定位失败或者出错，请拖动地图，并在正确位置单机右键，选择"在此添加标注"进行定位!</small></td></tr>
+            <tr><td colspan="2" class="MapTd"><div id="MapContainer"></div></td></tr>
+            <tr><th><b>*</b>福利标签：</th><td>
+                <div class="Welfares">
+                    <label class="checked"><input type="checkbox" name="welfares" checked>五险一金</label>
+                    <label><input type="checkbox" name="welfares">年底双薪</label>
+                    <label><input type="checkbox" name="welfares">绩效奖金</label>
+                    <label><input type="checkbox" name="welfares">绩效奖级</label>
+                    <label><input type="checkbox" name="welfares">高温补贴</label>
+                    <label><input type="checkbox" name="welfares">技能培训</label>
+                    <label><input type="checkbox" name="welfares">年底分红</label>
+                </div>
+                <!--<code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>-->
+                <code class="form-tip successMsg"></code>
+                <input type="hidden" class="WelfaresAddition">
+                <div class="WelfaresAddup"></div>
+            </td></tr>
+            <tr><th>&nbsp;</th><td>
+            	<input type="text" class="text t-m WelfareInput" placeholder="请最多增加三个福利,字数限制为10字以内">
+                <input type="button" class="btn-addup WelfareSubmit" value="添加福利">
+            </td></tr>
+            <tr><th><b>*</b>职位描述：</th><td>（请勿输入公司邮箱、联系电话及其它外链，否则将自动删除）</td></tr>
+            <tr><th></th><td>
+            	<textarea></textarea>
+                <code class="form-tip successMsg"></code>
+                <code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>
+                <span class="editorTip">鼠标放在上边位置↑可调节编辑器高度</span>
+            </td></tr>
+            <tr><th><b>*</b>接收简历邮箱：</th><td>
+                <dl class="SELECT Emails">
+                    <dt>
+                        <input type="text" class="text t-m EMAILS" data-list="arrow" placeholder="默认的绑定邮箱">
+                        <input type="button" class="btn-addup" value="修改简历邮箱">
+                    </dt>
+                    <dd class="normal"><div class="matches" data-list="datas"></div></dd>
+                </dl>
+                <!--<code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>-->
+                <code class="form-tip successMsg"></code>
+            </td></tr>
+            <tr><th>&nbsp;</th><td>
+                <dl class="SELECT Emails">
+                    <dt>
+                        <input type="text" class="text t-l EMAILS" data-list="arrow" placeholder="增加一个简历接收邮箱">
+                    </dt>
+                    <dd class="normal"><div class="matches" data-list="datas"></div></dd>
+                </dl>
+                <!--<code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>-->
+                <code class="form-tip successMsg"></code>
+            </td></tr>
+            <tr><td colspan="2">
+            	<input type="submit" class="button long" value="发布并提交审核">
+            </td></tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/v2/all.js"></script>
+<script src="../js/effect/correct.js"></script>
+<script src="../js/area.js"></script>
+<script src="../js/jobPositions.js"></script>
+<script src="../js/plugin/CitiesPicker.js"></script>
+<script src="../js/plugin/Addresses.js"></script>
+<script src="../js/plugin/EmailTip.js"></script>
+<script src="../js/effect/tab.js"></script>
+<script src="http://api.map.baidu.com/api?v=2.0&ak=OlGzoCwcKN9OvM16T9RnFwOl"></script>
+<script src="../js/plugin/BaiduMap.js"></script>
+<script src="../js/v2/CCenter/welfares.js"></script>
+<script src="../js/plugin/AddressTip.js"></script>
+<script>
+(function(){
+	//////////////////////////////////////////////////////////////////////////////////////////////////////////////填充职位大列表
+	var strTH=[],strTD=[],array=positionArray,
+		level1Reset=true,level2Reset=true;
+	for(var n=0;n<array.length;n++)
+	{
+		var id=array[n][2],name=array[n][0];
+		if(id.indexOf('0000')>=0)
+		{//一级名称，加入表头
+			if(!level1Reset) strTD.push('</ul>');
+			strTH.push('<h3 class="menu">'+ name.replace(/[\|\/]/g,'　') +'</h3>');
+			strTD.push('<ul class="FilterSubmenu">');
+			level1Reset=false;
+			level2Reset=true;
+		}
+		else if(id.indexOf('00')>=0)
+		{//二级名称，加入列表项（需要先结束上个列表项）
+			if(!level2Reset) strTD.push('</p></li>');
+			strTD.push('<li><h4>'+ name +'</h4><p>');
+			level2Reset=false;
+		}
+		else
+		{//三级名称，直接加入链接
+			strTD.push('<a data-id="'+ id +'">'+ name +'</a> ');
+		}
+	}
+	strTD.push('</p></li></ul>');
+	$(".filter-jobs table").find("th").html(strTH.join(''))
+		.end().find('td').html(strTD.join(''));
+})();
+$(function(){
+	//职位选择
+	CHItab(".filter-jobs .FilterMenu",".menu",".FilterSubmenu");
+
+	//地图行为
+	var Map=BaiduMap("MapContainer",{editable:true});
+	$(".ADDRESS input[type=hidden]").change(function(){
+		if(!$(this).val()) return;
+		var names,items=["PROVINCE"];
+		if($(this).hasClass("CITY")) items.push("CITY");
+		if($(this).hasClass("DISTRICT")) items.push("DISTRICT");
+		names=getAreaPath(items.join(','));
+		Map.search(names);
+	});
+	//点击定位，至少要有省市，区有则加入无则忽略
+	$(".Locate").click(function(){
+		var detail=$(".COMPANYADDRESS").val(),
+			province=$(".PROVINCE").val(),
+			city=$(".CITY").val(),
+			district=$(".DISTRICT").val(),
+			names=[];
+		if(!province)
+		{
+			alert("请选择省份！");
+			return false;
+		}
+		if(!city)
+		{
+			alert("请选择城市！");
+			return false;
+		}
+		if(!detail)
+		{
+			alert("请输入详细地址！");
+			return false;
+		}
+		names.push(GetArea(province)[0]);
+		names.push(GetArea(city)[0]);
+		if(district) names.push(GetArea(district)[0]);
+		names.push(detail);
+		Map.search(names.join(''));
+	});
+});
+function getAreaPath(sItems)
+{
+	if(!sItems)return '';
+	var arr=sItems.split(','),
+		names=[];
+	for(var n in arr)
+	{
+		var id=$("."+arr[n]).val()
+		if(id) names.push(GetArea(id)[0]);
+	}
+	return names.join('');
+}
+
+
+$('.close').click(function(event){
+    var importResume = $('.ImportResume');
+    $('.in1',importResume).slideUp(400);
+    $('.in2',importResume).slideDown(400);
+});
+</script>

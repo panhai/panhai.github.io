@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>毕业项目</title>
+    <link rel="stylesheet" type="text/css" href="static/fonts/iconfont.css"/>
+		<link rel="icon" href="./static/img/logo.png" type="image/x-icon">
+		<script src="http://cdn.bootcss.com/highlight.js/8.0/highlight.min.js"></script>  
+  </head>
+  <body>
+    <div id="app"></div>
+    
+    <script type="text/javascript">
+    	//移动端自适应
+    	var maxWidth = 640; //这是设计图纸限定为手机端宽度
+    	var htmlFontsize = 100; //这是设定手机端375宽度的手机的字体大小
+    	var standardSize = 375;//这是以375宽度大小的手机为准
+    	
+    	window.onresize = setFontSize; //设置页面改变视口大小时候页面字体大小自适应
+    	
+    	setFontSize();  //设置在不同手机宽度下的字体大小
+    	
+    	function setFontSize() {
+	    	var windowInnerWidth = window.innerWidth;
+    		windowInnerWidth = (windowInnerWidth > maxWidth) ? maxWidth : windowInnerWidth;
+    		document.documentElement.style.fontSize = ((windowInnerWidth / standardSize) * htmlFontsize) + 'px';
+    	}
+    	
+    </script>
+  </body>
+</html>
+
+<!-- index.html  主页面文 做一些页面预处理  -->

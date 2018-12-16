@@ -1,0 +1,87 @@
+/* 校园招聘首页 */
+/*.NAV-EXTRA,.NAV-EXTRA p{ display:block !important;}*/
+.Banner{ height:390px; width:100%; clear:both; overflow:hidden; margin-bottom:30px; text-align:center; background-color:#019be3;}
+
+/*通用版块样式*/
+.block{ margin-bottom:20px;}
+.block dt{ clear:both; height:40px; line-height:40px; border-bottom:1px solid #1562c8;}
+.block dt h2,.block dt h3{ font-size:18px; line-height:38px; height:38px; border-bottom:2px solid #fff; color:#95bdf3; font-weight:normal; float:left; padding:0 5px; margin-right:10px; cursor:pointer;}
+.block dt h2.cur,.block dt h3{ color:#1562c8; border-bottom-color:#1562c8;}
+.block dt .more{ display:block; float:right; font-size:14px; color:#95bdf3; padding-right:20px; background:url(../../images/v2/icons/chevron-right.png) right center no-repeat;}
+.block dt .more{ _background-image:url(../../images/v2/icons/chevron-right.gif);}
+.block dt .more:hover{ color:#1562c8;}
+/*职位推荐*/
+.Pushes dt ul{ float:right;}
+.Pushes dt li{ float:left; font-size:14px; margin-right:20px;}
+.Pushes dt li a{ color:#b5b5b5;}
+.Pushes dt li a:hover{ color:#1562c8;}
+
+/*职位列表*/
+.Jobs{ width:520px; padding:15px 0; float:left; height:100px; color:#525252; font-size:14px; line-height:25px;}
+.j1,.j2{ background-color:#fff;}
+.j3,.j4{ background-color:#f8fbff;}
+.j1,.j3{ padding-right:10px;}
+.j2,.j4{ padding-left:10px;}
+.Jobs var{ display:none; float:left; border:1px solid #f8fbff; overflow:hidden; width:90px; height:90px; margin-right:10px;}
+.Jobs h4{ margin:5px 0; font-size:20px; font-weight:normal; width:410px; float:left;}
+.Jobs h4{ white-space:nowrap; overflow:hidden;}
+.Jobs h4 *{ vertical-align:middle; display:inline-block;}
+.Jobs h4 a{ color:#525252; margin-right:10px; max-width:12em; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.Jobs h4 a:hover{ color:#1562c8; text-decoration:underline;}
+.Jobs h4 i{ background:url(../../images/v2/icons/push-s.png) left 3px no-repeat; font-size:12px; font-family:Arial, Helvetica, sans-serif; color:#ddac15; font-style:normal; padding-left:25px; line-height:40px; font-weight:bold; height:30px; overflow:hidden; margin-right:40px;}
+.Jobs h4 i{ _background-image:url(../../images/v2/icons/push-s.gif);}
+.Jobs small{ font-size:12px; color:#a4a4a4;}
+.Jobs b{ font-weight:normal; color:#525252;}
+.Jobs div{ width:410px; float:left;}
+.Jobs div p{ float:left; white-space:nowrap; overflow:hidden; color:#a4a4a4;}
+.Jobs .WELFARE{ float:right; padding-top:0; margin-top:-3px; margin-top:0\9; clear:none; height:auto;}
+.Jobs h5{ font-weight:normal; float:left; font-size:16px; color:#a4a4a4;}
+.Jobs q{ float:left; color:#87b8f8; line-height:15px; padding-top:15px;}
+.Jobs .map{ display:inline-block; padding-left:15px; margin-left:10px; background:url(../../images/v2/icons/mapmark-s.png) left center no-repeat; font-size:14px;}
+.Jobs .map{ _background-image:url(../../images/v2/icons/mapmark-s.gif);}
+
+/*宣讲会*/
+.Conferences{}
+.Conferences .left{ float:left;}
+.Conferences .right{ float:right;}
+.Conf{ width:520px; height:115px; background-color:#f8fbff; margin-top:20px;}
+.Conf .left{ width:420px; line-height:20px;}
+.Conf .right{ width:80px; padding-right:10px;}
+.Conf var{ display:block; width:130px; height:115px; overflow:hidden; float:left; margin-right:10px;}
+.Conf h3{ width:280px; float:left; font-size:18px; font-weight:normal; margin:15px 0 5px;}
+.Conf h3 a{ display:block; width:100%; color:#1562c8; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.Conf h3 a:hover{ color:#3a3a3a;}
+.Conf h4{ font-size:14px; color:#3a3a3a; font-weight:normal; margin-bottom:5px;}
+.Conf p{ font-size:12px; color:#747474;}
+.Conf dfn{ float:right; color:#87b8f8; font-size:14px; font-style:normal; margin-top:40px;}
+.Conf dfn b{ font-weight:normal; font-size:18px;}
+
+/*工具按钮*/
+.Conf .tools{ float:right; position:relative;}
+.Conf .icons{ display:block; float:right; margin:10px 0 0 10px; width:26px; height:26px;}
+.Conf .share{ background-image:url(../../images/v2/icons/share.png); _background-image:url(../../images/v2/icons/share.gif);}
+
+/*分享条*/
+.share cite{ width:60px; border:1px solid #c5dbf9; padding:10px 0 1px\9; position:absolute; top:-20px; left:30px;}
+.share cite i{ display:block; width:8px; height:14px; left:-8px; top:20px; background-image:url(../../images/v2/share/angle-right.png); _background-image:url(../../images/v2/share/angle-right.gif); _overflow:hidden;}
+.share cite span{ display:block; clear:both; margin:10px auto; text-align:center; width:36px; height:36px;}
+.share cite{ left:35px; top:-17px;}
+/*收藏提示*/
+.Conf .favor{ background-image:url(../../images/v2/icons/favor.png); _background-image:url(../../images/v2/icons/favor.gif);}
+.Conf .favored{ background-image:url(../../images/v2/icons/favor2.png); _background-image:url(../../images/v2/icons/favor2.gif);}
+.Conf .tip{ display:none; position:absolute; top:40px; right:36px; background-color:#d1e3fc; line-height:34px; height:34px; overflow:hidden; color:#525252; font-size:0px; padding:0px 10px; white-space:nowrap; text-decoration:none;}
+.Conf .tip q,.Conf .tip span{ display:inline-block; vertical-align:middle;}
+.Conf .tip span{ font-size:14px;}
+.Conf .tip a{ color:#1562c8; text-decoration:underline;}
+.Conf .tip a:hover{ text-decoration:none;}
+.Conf .tip q{ font-size:24px; width:14px; height:34px; color:#fff; padding-left:10px; cursor:pointer; background:url(../../images/v2/icons/times.png) center right no-repeat;}
+.Conf .tip q{ _background-image:url(../../images/v2/icons/times.gif);}
+
+/*名企推荐*/
+.Companies{}
+.Companies dd{ width:100%; overflow:hidden; padding-top:20px;}
+.Companies ul{ width:1200px;}
+.Companies li{ width:138px; height:138px; margin:0 11px 11px 0; border:2px solid #f8fbff; float:left;}
+
+/*新增分页*/
+.PAGES{ text-align:right; padding:20px 0 100px 0;}

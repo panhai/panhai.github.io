@@ -1,0 +1,157 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="css/v2/all.css">
+<link rel="stylesheet" type="text/css" href="css/v2/login-new.css">
+<title>好工作-登陆页</title>
+</head>
+
+<body>
+<div class="HEADER"><div class="common">
+	<div class="LOGO"><a href="index-new.html"><img src="images/v2/logo.jpg" width="177" height="91"></a></div>
+    <div class="SLOGAN"><img src="images/v2/top-key.gif" width="401" height="38"></div>
+    <div class="LINKS"><a href="two-new-login.html" class="cur">登陆</a>|<a href="new-regist-email.html" >注册</a></div>
+</div></div>
+
+<div class="Main-new">
+	<div class="Relation-topWb"></div>
+    <div class="Relation-main">
+        <div class="Relation-title Relation-in"><i class="relation-icon"></i><h2>创建新账号，并关联已登微博&nbsp;<span>( 绑定成功后，你可以使用微博账号或创建的账号登录好工作 )</span></h2></div>
+        <div class="Relation-create">
+            
+            <ul class="Regist-regist">
+            <li class="entrance">
+                <label class="left"><i></i><input type="radio" id="forJob"  value="求职" name="entrance">我要求职</label>
+                <label class="right"><i></i><input type="radio" id="hiring" value="找人" name="entrance">我要招人</label>
+            </li>
+               <li>
+                   <dl class="SELECT">
+                       <dt>
+                           <input type="text"  class="regist-input regist-phone EMAILS"  placeholder="输入手机号/邮箱" data-list="arrow" data-init="true" autocomplete="off"/>
+                       </dt>
+                       <dd class="normal"><div class="matches" data-list="datas" style="display: none;"></div></dd>
+                   </dl>
+                   <code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>
+               </li>
+               <li>
+                    <input type="password" class="regist-input regist-phone"  placeholder="输入6-16 位密码"/>
+                    <code class="form-tip successMsg"></code>
+                    <code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>
+                    </li>
+               <li class="hide">
+                    <input type="text" class="regist-input regist-code" placeholder="请输入图片验证码" /> <img src="images/v2/regist_code.png" alt="" />
+               </li>
+               <li style="display:none">
+                    <input type="text" class="regist-input regist-code"/>
+                     <input class="regist-phone-code SendVerify" type="button"  value="获取验证码" />
+               </li>
+               <li class="check-two">
+                   <input type="checkbox" /> &nbsp;我已阅读并同意 <span class="cur">《好工作使用协议》</span>
+               </li>
+               <li>
+                   <!-- <a href="two-new-relation.html" class="public-btn ">创建并关联账号</a> -->
+                   <input type="button" value="创建并关联账号" class="public-btn" />
+               </li>
+            </ul>
+            <a href="two-new-relation-ok.html">手机关联成功</a>
+            <a href="two-new-Relation-email.html">邮箱关联成功</a>
+        </div>
+        
+       
+    </div>
+    <div class="Relation-main Relation-cur">
+        <div class="Relation-title Relation-out">
+            <i class="relation-icon"></i><h2>账号关联你已有的好工作账号&nbsp;<span>( 绑定成功后，微博账号和好工作账号合并为一，均可登录 )</span></h2>
+        </div>
+          <div class="Relation-create Relation-create-cur" style="display: none;">
+            
+            <ul class="Regist-regist">
+            
+               <li>
+                <dl  class="SELECT">
+                 <dt>
+                  <input type="text"  class="regist-input regist-phone EMAILS"  placeholder="手机号/邮箱" data-list="arrow" data-init="true" autocomplete="off"/>
+                 </dt>
+                 <dd class="normal"><div class="matches" data-list="datas" style="display: none;"></div></dd>
+                </dl>
+                <code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>                       
+               </li>
+               <li>
+                    <input type="password" class="regist-input regist-phone"  placeholder="输入6-16 位英文数字组合密码"/>
+                   <code class="form-tip successMsg"></code>
+                   <code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>
+               </li>
+             
+            
+               <li class="check">
+                   <input type="checkbox" /> &nbsp;记住密码 <a href="" class="cur password">忘记密码？</a>
+               </li>
+               <li>
+                   <!-- <a href="two-new-relation-ok.html" class="public-btn">立即关联</a> -->
+                   <input type="button" class="public-btn" value="立即关联" />
+               </li>
+            </ul>
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+
+<div class="footer">
+    <div class="footer-about">
+    @2015好工作-京ICP证070419号
+    <span>
+      <a href="#">关于我们  </a>       |
+      <a href="#">法律声明  </a>       |
+      <a href="#">联系我们  </a>    |
+      <a href="#">Investor Relatiao </a>
+    </span>
+    </div>
+</div>
+</body>
+</html>
+<script src="js/jquery.js"></script>
+<script src="js/v2/all.js"></script>
+<script src="js/plugin/EmailTip_New.js"></script>
+<script type="text/javascript">
+  
+/*账号关联切换*/
+
+    $(".Relation-title").click(function(event) {
+         if(!$(this).hasClass('Relation-in')){
+
+           $(this).addClass('Relation-in')
+           .siblings('.Relation-create').slideDown()
+           .closest('.Relation-main').css('border-color', '#1562c8')
+
+           $(".Relation-title").not($(this)).removeClass('Relation-in').addClass('Relation-out')
+           .siblings('.Relation-create').slideUp()
+           .closest('.Relation-main').css('border-color', '#bdbdbd');
+
+         }
+    });
+/*判断是手机还是邮箱注册*/
+       $('.EMAILS').change(function(){
+         $key = $(this).val();
+         if($key.indexOf("@")==-1 && $key){
+            $('.regist-phone-code').closest('li').show();
+            $('.hide').show();
+          }else{
+            $('.regist-phone-code').closest('li').hide();
+            $('.hide').hide();
+          }
+
+          // if($key){
+            
+          //     $('.hide').show();
+          // }else{
+          //    $('.hide').hide();
+          // }
+        
+        
+      })
+
+
+   regSelect(".entrance");
+   
+</script>

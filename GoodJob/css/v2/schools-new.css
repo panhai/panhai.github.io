@@ -1,0 +1,646 @@
+/* CSS Document */
+
+*{ margin:0px; padding:0px; font-family:Microsoft YaHei, Arial;}
+ul,ol,li{ list-style:none;}
+q{ quotes:none;}
+a{ text-decoration:none; cursor:pointer;}
+a img{ border:0px;}
+i{font-style: normal;}
+.profs i{font-style: normal!important; display: inline-block!important;}
+.common{ width:1060px; margin:0 auto; clear:both; }
+body{behavior:url("csshover.htc");}
+input::-ms-clear{ display:none;}
+:-moz-placeholder{ color:#999;}
+::-moz-placeholder{ color:#999;}
+:-ms-input-placeholder{ color:#999 !important;}
+:focus{ outline:none;}
+textarea{ resize:none !important;}
+.clear{ clear:both; float:none; zoom:1\9;}
+.clear:after{ content:''; display:block; clear:both;}
+table{ border-collapse:collapse; table-layout:fixed;}
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+/*IE6 用absolute模拟fixed*/
+body{
+	_background-image: url(about:blank);     /*用浏览器空白页面作为背景*/
+	_background-attachment: fixed;     /* prevent screen flash in IE6 确保滚动条滚动时，元素不闪动*/
+}
+/*半透明背景*/
+.black5{ background:rgba(0,0,0,0.5); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4B000000,endColorstr=#4B000000);}
+.black8{ background:rgba(0,0,0,0.8); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC000000,endColorstr=#CC000000);}
+.fixed{ position:fixed; _position:absolute;}
+.fixed-top{	top:0px; _top:expression(eval(document.documentElement.scrollTop));}
+.fixed-bottom{ bottom:0px; _bottom:auto; _top:expression(eval(document.documentElement.scrollTop + document.documentElement.clientHeight - this.clientHeight - (parseInt(this.currentStyle.marginTop) || 0) - (parseInt(this.currentStyle.marginBottom) || 0)));}
+/*全屏插件，为了方便横竖居中，使用表格*/
+.FullScreenPlugin{ display:none; width:100%; height:100%; _height:expression(eval(document.documentElement.clientHeight)); text-align:center; z-index:66666 !important;}
+.FullScreenPlugin td{ vertical-align:middle; text-align:center;}
+
+/*头*/
+.HEADER{ height:90px; padding:20px 0;}
+.shadow{ box-shadow:0 5px 5px rgba(207,207,207,.35)}
+.LOGO{ float:left;}
+.SLOGAN{ float:left; font-size:24px; color:#ff9500; padding:46px 0 0 10px;}
+.SEARCH{ float:right; padding-top:50px;}
+.SEARCH .SELECT{ float: left; }
+.SEARCH .TOSEARCH{float:left; width:66px;}
+.SELECT-on{ position:relative;}
+.SELECT dt{padding:0!important;}
+.SEARCH .SELECT dt b{
+    font-size:16px; color:#5a5a5a; height:40px; line-height:40px; text-indent:10px; font-weight:normal;
+     display: block!important;}
+
+.SELECT dd{ display:none; position:absolute; left:0; top:41px; width:64px; border:1px solid #1562c8; text-align:center; background-color:#fff;}
+.TOSEARCH dt{ border:1px solid #1562c8; border-right:1px dotted #a6a6a6; font-size:16px; color:#5a5a5a; height:40px; line-height:40px; text-indent:10px; font-weight:normal; background:url(../../images/v2/icons/triangle-down-blue.png) 50px center no-repeat;}
+.TOPINPUT dd{
+	display:none; position:absolute; left:0; top:41px; width:310px; border:1px solid #1562c8; text-align:center; background-color:#fff;
+}
+.matches a{
+	padding-left: 10px;
+	text-align: left;
+}
+.SELECT-on dd{ display:block;}
+.SELECT dd a{ display:block; line-height:30px; height:30px; font-size:14px; color:#525252;}
+.SELECT dd a:hover{ background-color:#41BDFA; color:#fff;}
+.SEARCH .text{ float:left; width:312px; border:1px solid #1562c8; height:40px; line-height:40px; border-left:0; text-indent:10px; font-size: 16px;}
+.SEARCH .btn{ float:left; width:80px; height:42px; color:#fff; background-color:#1562c8; font-size:16px; border:0; cursor:pointer;}
+.SEARCH .tip{
+	width: 312px;
+	text-align: left;
+}
+/*幻灯片*/
+.BANNER{ height:402px; background:url(../../images/v2/schools/ban.png) center no-repeat;}
+.NAV{ width:208px; height:364px; background-color:#016db8;/*  background-color:rgba(20,117,184,.8); */ background-color:none\9; /* filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC1475b8,endColorstr=#CC1475b8);  */position:relative;
+		_background-color:#016db8;
+}
+.NAV-DT{ width:208px;background-color:#005baa; height:38px; line-height:38px; font-size:16px; text-align:center; color:#fff;}
+.NAV dt{ background-color:#00629f; height:38px; line-height:38px; font-size:16px; text-align:center; color:#fff;}
+.NAV h3{position: relative; height:34px; line-height:34px; font-size:14px; font-weight:normal;}
+.NAV h3 span{ display:block; color:#fff; padding-left:48px; background-image:url(../../images/v2/schools/icons.png); background-repeat:no-repeat; _background-image:url(../../images/v2/schools/icons.gif);}
+.NAV h3.on i{
+	display: block;
+}
+.NAV h3 i{
+	position: absolute;
+	z-index: 11;
+	top: 10px;
+	right: -1px;
+	display: none;
+	width: 9px;
+	height: 13px;
+	background: url(../../images/v2/ccenter/shape.png);
+}
+.NAV h3.on span{ background-color:#0294ce;}
+h3.i1 span{ background-position:10px 0px;}
+h3.i2 span{ background-position:10px -34px;}
+h3.i3 span{ background-position:10px -68px;}
+h3.i4 span{ background-position:10px -102px;}
+h3.i5 span{ background-position:10px -238px;}
+h3.i6 span{ background-position:10px -136px;}
+h3.i7 span{ background-position:10px -170px;}
+h3.i8 span{ background-position:10px -204px;}
+h3.i9 span{ background-position:10px -272px;}
+
+/* 导航彩蛋 */
+.NAV dd{
+	width: 208px;
+	height: 34px;
+}
+.NAV .nav-head-menu{ 
+	position:absolute;
+	left:208px;
+	top:-38px;
+	display: none;
+	width:464px;
+	min-height: 400px;
+/* 	height: 100%; */
+	_height:402px;
+	background-color:#f2f6f8;
+	opacity: 0.94;
+	filter:alpha(opacity = 94);
+	border: 1px solid #999;
+	}
+
+.NAV div.cur{
+	 display: block; 
+}
+.NAV .nav-head-menu table{
+	width: 464px;
+	margin: 0 auto;
+
+}
+
+.nav-head-menu p{
+	width: 93%;
+	padding: 0 16px;
+}
+.NAV .nav-head-menu table td{
+	color: #7e7f7f;
+	font-weight: normal;
+	font-size: 14px;
+	padding-bottom: 10px;
+	
+}
+.NAV .nav-head-menu table td h4{
+	width: 424px;
+	color: #000;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 43px;
+	border-bottom: 1px dashed #ccc;
+	margin: 0 auto;
+}
+.NAV .nav-head-menu .title{
+	width: 424px;
+	display: inline-block;
+	margin: 0 auto;
+}
+.NAV .nav-head-menu table td a{
+	padding: 0 9px;
+	font-size: 12px;
+	line-height: 24px;
+	color: #666666!important;
+	white-space: nowrap;
+	border-left: 1px solid #ccc;
+
+}
+.NAV .nav-head-menu table td a:hover{
+	color: #016db8!important;
+	text-decoration: underline;
+}
+.NAV .nav-head-menu table td a.cur{
+	color: #fb0000!important;
+}
+
+.Part{ text-align:center; padding:80px 0;}
+.Part h1,.Part h2,.Part h3{ font-size:60px; color:#002453; font-weight:normal; letter-spacing:10px; margin-bottom:46px;}
+.bg{ background-color:#f8f8f8 !important;}
+.Part1{}
+.Part1 p{
+	width: 675px;
+	margin: 0 auto;
+	padding: 0 24px;
+	font-size: 18px;
+	color: #6c6c6c;
+	line-height: 30px;
+	text-align: left;
+
+}
+.Part1_schols{
+	width: 900px;
+	padding: 110px 80px 0;
+	margin: 0 auto;
+}
+.Part1_schols li{
+
+	float: left;
+}
+
+.Part1_bg{
+	height: 241px;
+	padding: 0 22px;
+}
+
+.Part1_bg var{
+	display: inline-block;
+	margin-top: 104px;
+}
+
+.Part1 h4{
+	font-size: 24px;
+	color: #0057c9;
+	line-height: 64px;
+}
+.Part2{ background-color:#fff;}
+.Part2 strong{ display:inline-block; font-size:30px; color:#262626; padding-left:70px; background:url(../../images/v2/schools/item.png) left center no-repeat; font-weight:normal; margin-bottom:10px;}
+.Part2 strong i{ display:inline-block; width:55px; margin:0 20px 0 -70px; font-style:normal; color:#fff; font-size:24px;}
+.Part2 p{ font-size:18px; color:#6c6c6c; line-height:200%;}
+.Part2-1{ height:560px; background:url(../../images/v2/schools/i2.jpg) bottom center no-repeat; margin-bottom:100px;}
+.Part2-2{}
+.Part2-2 b{ display:inline-block; font-size:20px; color:#393939; font-weight:normal; margin:20px 0 50px;}
+.sorts{ height:380px;}
+.sorts li{ width:20%; _width:19%; float:left; text-align:center;}
+.sorts var{ display:block; width:212px; height:212px; text-align:center; overflow:hidden; margin:0 auto 30px;}
+.sorts var a{ display:block; width:212px; height:212px;}
+.sorts var a:hover{ background-image:url(../../images/v2/schools/i2-bg.jpg);}
+.sorts var img{ margin:13px;}
+.sorts h4{ color:#0057b1; font-size:20px; margin-bottom:10px;}
+.sorts h5{ color:#007aec; font-size:24px; font-weight: 500; margin-bottom:0px;}
+.sorts p{ font-size:18px; color:#2686e0;}
+.sorts span{ font-size:16px; color:#969696; text-align: left;display: block; width: 120px; margin: 0 auto;}
+.Part3{ height:960px; background-color: #f1f4f9!important;background: url(../../images/v2/schools/i3.jpg) center center no-repeat;}
+.Part4 .Part4-Good{
+	width: 900px;
+	height: 390px;
+	padding: 0 65px 0 85px;
+	margin: 0 auto;
+}
+.Part4 .Part4-Good li{
+	width: 160px;
+	height: 160px;
+	float: left;
+	margin:0 20px 20px 0;
+	
+}
+.FOOTER{ background-color:#f5f5f5; padding:20px 0;}
+.FOOTER .SLOGAN{ font-size:20px; color:#595959;}
+.COPYRIGHT{ float:right; font-size:14px; color:#333; line-height:250%; text-align:right; padding-top:20px;}
+.COPYRIGHT em{ font-style:normal; color:#1562c8;}
+
+.MAIN{ margin:0 auto;}
+.left{ float:left; width:900px; margin-bottom:20px;}
+.right{ float:right;}
+.CRUMB, .CRUMB-I{ font-size:18px; color:#000; margin-bottom:20px;}
+.CRUMB{ margin-top:20px; font-size: 14px; color: #2c2c2c;}
+.CRUMB-I{width: 208px;}
+.CRUMB a{ color:#2c2c2c;}
+.CRUMB a i{color: #0066ed;}
+.CRUMB a:hover{ text-decoration:underline;} 
+.CRUMB-I dt {
+	position: relative;
+	display: block;
+	width: 208px;
+	height: 37px;
+	border-top: 2px solid #005baa;
+	line-height: 37px;
+	cursor: pointer;
+} 
+
+.CRUMB-I dt.cur{
+	background-color: #005baa;
+	color: #fff;
+	text-align: center;
+}
+.CRUMB-I dt i{
+	position: absolute;
+	width: 14px;
+	height: 7px;
+	right: 78px;
+	top: 16px;
+	background-image:url(../../images/v2/schools/list-i.png);
+
+}
+
+.CRUMB-I dl{
+	position: absolute;
+}
+
+
+.CRUMB-I dl{
+     display: none;
+}
+.Filter{ height:28px; padding:5px 0;}
+.Filter dt{ float:left; font-size:14px; color:#2c2c2c; line-height:28px;}
+.Filter dd{ float:left;}
+.Filter a{ display:block; float:left; margin-right:20px; background:url(../../images/v2/schools/filter-bg.jpg) left center no-repeat; height:27px; padding-left:22px; line-height:27px; color:#7f7f7f; font-size:0;}
+.Filter a *{ display:inline-block; vertical-align:top; height:27px;}
+.Filter a span{ font-size:14px;}
+.Filter a s{ width:12px; height:27px; background:url(../../images/v2/schools/filter-tail.jpg) right center no-repeat; margin-left:10px;}
+.Filter a:hover,.Filter a.cur{ background-image:url(../../images/v2/schools/filter-bg-cur.jpg); color:#fff;}
+.Filter a:hover s,.Filter a.cur s{ background-image:url(../../images/v2/schools/filter-tail-cur.jpg);}
+
+/*学校列表*/
+.List{ border-top:1px solid #efefef; padding-bottom:20px;}
+.List h4{ font-size:14px; color:#7f7f7f; font-weight:normal; margin-top:20px;}
+.List li{ height:123px; padding:20px 0; border-bottom:1px solid #efefef;}
+.List .items{height: 126px; width: 1060px; padding-right: 10px;}
+.List .items:hover{
+	border: 1px solid #8cbaf8;
+	margin-top: -1px;
+	margin-left: -1px;
+}
+.List .items:hover var{
+	border-left: 1px solid transparent;
+	border-top: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+}
+.List var{ display:block; float:left; width:124px; height:124px; border:1px solid #ccc; margin-right:20px;}
+.List var a{ display:block; width:124px; height:124px; overflow:hidden;}
+.List .company{ width:410px; float:left; margin-right:40px;}
+.List .company .company-text{width: 410px; height: 48px;}
+.company h3{ font-weight:normal; color:#333; font-size:20px; line-height:42px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.company h5{ font-weight:normal; color:#7c7c7c; font-size:14px; line-height:30px;}
+.company p{ font-size:12px; color:#666; line-height:24px;  overflow:hidden;width:400px;}
+.List .profs{ width:260px; float:left; line-height:24px; font-size:12px;}
+.profs *{ display:block;}
+.profs b{ font-weight:normal; color:#333; line-height:30px; margin:8px 0; font-size:14px;}
+.profs b i{color: #eb3900;}
+.profs span{ color:#7c7c7c;}
+.profs a{ color:#333;}
+.items:hover .profs a{ color:#1562c8; text-decoration:underline;}
+.List .apply{ display:block; float:right; width:114px; height:38px; background-image:url(../../images/v2/schools/apply-hover.jpg); margin-top:40px;}
+.List .items:hover .apply{ background-image:url(../../images/v2/schools/apply.jpg);}
+.apply-not{
+	position: relative;
+    display: block;
+	height: 38px;
+	width: 135px;
+    background: url("../../images/v2/schools/apply-not.png") no-repeat left top;
+
+	font-size: 16px;
+    line-height: 36px;
+    text-align: center;
+    color: #666666;
+}
+.List .apply-not{
+	width: 114px;
+	float: right;
+	margin-top: 40px;
+	background: url("../../images/v2/schools/apply-not2.png") no-repeat left top;
+}
+.List-not{ width:1060px; height: 480px; background: url(../../images/v2/schools/icon_not.png) no-repeat center center;}
+.List-not p{
+	font-size: 18px;
+	color: #656565;
+	text-align: center;
+	line-height: 656px;
+}
+h4.List-recom{
+    line-height: 48px;
+    border: 1px solid #b2d3ff;
+    background-color: #eef5ff;
+    color: #333333;
+    font-size: 16px;
+    text-indent: 0.8em;
+}
+/*邀请*/
+.Application, .Cooperation{ width:580px; background-color:#fff; border:1px solid #ccc; margin:0 auto; padding:0 10px; position:relative;}
+.Application dt, .Cooperation dt{ background-color: #fff; height: 56px; line-height:56px; border-bottom:1px solid #f2f2f2; font-size:18px; color:#444;}
+.Application q, .Cooperation q{ display:block; position:absolute; width:20px; height:20px; right:10px; top:10px; background-image:url(../../images/v2/schools/x.jpg); cursor:pointer; overflow:hidden;}
+.Application table, .Cooperation table{ width:100%;}
+.Application caption, .Cooperation caption{ color:#eb3900; font-size:14px; text-align:center; line-height:46px;}
+.Application th, .Cooperation th{ width:120px; text-align:center; font-size:16px; color:#444; line-height:46px; font-weight:normal; vertical-align:top;}
+.Application td, .Cooperation td{ text-align:left; vertical-align:top;}
+.Application div.text-container{ float:left; height:28px; border:1px solid #ccc; background-color:#f9f9f9; padding:0 10px; margin-top:6px; font-size:12px; line-height:28px; overflow:hidden;}
+.Application div.text-container .text{ border:0; background-color:transparent; height:28px; line-height:28px; width:100%;}
+.Application div.placeholding .text{ width:1px; float:left;}
+.Application div.text-container samp{ display:none; color:#999; float:left;}
+.Application div.placeholding samp{ display:block;}
+.Application .full{ width:410px;}
+.Application .middle{ width:200px;}
+.Application .short{ width:70px;}
+.Application .mr10{ margin-right:13px;}
+.Application code.form-tip{ display:block; padding-left:20px; height:20px; margin:2px 0; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; font-size:12px; color:#666; line-height:20px;}
+.Application code.successMsg{ width:0px;float:left; background:url(../../images/v2/icons/tip-ok.gif) center no-repeat; margin-top:10px;}
+.Application code.errorMsg{ clear:both; background:url(../../images/v2/icons/tip-no.gif) left center no-repeat;}
+.Application code.tipMsg{ clear:both; background:url(../../images/v2/icons/tip-warn.gif) left center no-repeat;}
+.Application tfoot input{ width:125px; height:38px; margin:0 10px; border:0; cursor:pointer; font-size:16px; color:#fff;}
+.Application tfoot td{ padding:38px 0; text-align:center;}
+.Application .submit{ background-color:#eb3900;}
+.Application .reset{ background-color:#b2b2b2;}
+
+
+.Cooperation .balance{
+	height: 104px;
+    padding: 0 14px;
+	border-top: 1px solid #f2f2f2;
+	border-bottom: 1px solid #f2f2f2;
+}
+
+.Cooperation .plase-schools{
+    _position: relative;
+	height: 310px;
+	width: 552px;
+    padding: 20px 14px 0;
+
+}
+.Cooperation .plase-schools textarea{
+    display: block;
+
+}
+
+.Cooperation ul{
+    width: 560px;
+    height: 70px;
+}
+.Cooperation ul li{
+    padding-top: 8px;
+	float: left;
+    font-size: 16px;
+    color: #333333;
+    line-height: 60px;
+    text-align: left;
+    
+}
+.Cooperation ul li strong{
+    margin-right: 80px;
+    font-size: 30px;
+    font-family: "Arial";
+    font-weight: 500;
+    vertical-align:middle;
+    color: #ff3e00;
+}
+.balance p{
+    font-size: 14px;
+    color: #a2a2a2;
+    text-align: left;
+    line-height: 20px;
+    padding-top: 1px\9;
+}
+.money{
+    position: relative;
+}
+.money i{
+    position: absolute;
+    display: block;
+    left: -22px;
+    top: 28px;
+    width: 18px;
+    height: 18px;
+    background: url(../../images/v2/schools/money.png) no-repeat;
+}
+.plase-schools p{
+    font-size: 16px;
+    color: #444;
+    text-align: left;
+    line-height: 30px;
+}
+.plase-schools p strong{
+
+    font-size: 16px;
+    font-weight: 600;
+    color: #fe3e00;
+}
+.plase-schools .plase-text{
+    color: #000000;
+    line-height: 38px;
+}
+
+.plase-schools textarea{
+    width: 540px;
+    height: 153px;
+    padding: 10px 0 0 10px;
+
+}
+.plase-schools input{
+    _position: absolute;
+    _left: 400px;
+    width: 165px;
+    height: 38px;
+    margin-top: 24px;
+    outline-style: none;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    background-color:#eb3900;
+    cursor: pointer;
+}
+
+/*邀请联系人*/
+.plase-schools  .author,.tel,.email{
+	position: relative;
+	display: inline-block;
+	padding-left: 18px;
+	margin-left: 10px;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	vertical-align: bottom;
+}
+.plase-schools .author{
+	width: 64px;
+	line-height: 38px;
+	margin-left: 0;
+}
+.plase-schools   span i{
+	position: absolute;
+	left: 0;
+	top: -10px;
+	display: inline-block;
+	height: 18px;
+	margin-top: 14px;
+	padding-right: 20px;
+	background: url(../../images/v2/CCenter/pic.png) no-repeat;
+}
+.plase-schools .author i{
+	top: 10px;
+	margin-top: 0;
+}
+.plase-schools .tel{
+	width: 113px;
+}
+.plase-schools .tel i{
+	top: -5px;
+	background: url(../../images/v2/CCenter/iPhone.png) no-repeat;
+}
+.plase-schools .email{
+	width: 164px;
+}
+.plase-schools .email i{
+	top: -7px;
+	background: url(../../images/v2/CCenter/email.png) no-repeat bottom left ;
+}
+
+
+/*登录*/
+.FullScreenPlugin .Login{
+    padding: 0;
+}
+.Login td{
+	text-align: left;
+}
+.Login-password td{
+    text-align: left;
+}
+.CenterForm .t-m{
+	width: 280px;
+}
+.Login .addition{
+	padding: 0;
+    font-size: 14px;
+    color: #666;
+}
+.Login .addition label{
+	float: left;
+}
+.Login .addition a{
+	float: right;
+    color: #666;
+    text-decoration: underline;
+	text-align: left;
+}
+.Login .submit{
+	margin-right: 20px;
+}
+/*详情左侧*/
+.About{ width:760px; float:left;}
+.About .topic{ clear:both; height:30px; font-size:24px; color:#eb3900; padding-left:10px; line-height:30px; border-left:10px solid #eb3900; margin-bottom:10px;}
+.About .intro{ font-size:14px; color:#686868; line-height:22px; padding:10px; margin-bottom:20px;}
+.About .major{ padding:10px 0 30px;}
+.About .major li{ height:62px; line-height:62px; font-size:16px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; text-indent:1em; border-bottom:1px dotted #cfcfcf;}
+.About .major li a{ color:#333; display:block;}
+.About .major li a:hover{ background-color:#f4f9ff;}
+.Profile{ width:240px; float:right;}
+.Profile var{ display:block; width:160px;  margin:16px 0 10px; overflow:hidden; font-size:0;}
+.Profile var img{ width:160px; height:auto;}
+.Profile h1{ font-size:20px; line-height:30px; padding-top:10px; color:#333; font-weight:normal;}
+.Profile b{ display:block; font-size:14px; color:#666; margin-bottom:12px; font-weight:normal;}
+.Profile .apply{ margin-top:11px; display:block;}
+
+
+
+/* 提示框 */
+
+.Point{
+	width: 355px;
+	height: 210px;
+}
+.Point dd{
+	margin-top: 10px;
+	line-height: 30px;
+	text-align: center;
+}
+.Point p{
+	font-size: 20px;
+	color: #333333;
+}
+.Point .apply{
+	display: block;
+	width: 165px;
+	height: 38px;
+	margin: 14px auto 0;
+	background-color: #ff3e00;
+	color: #fff;
+	line-height: 38px;
+}
+
+/* 分页 */
+
+.page{
+    width: 760px;
+    height: 25px;
+    margin-bottom: 54px;
+    text-align: right;
+    float: right;
+}
+.page a.cur{
+    color: #fff;
+    background-color: #0b89f4;
+}
+.page a{
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin-left: 5px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 22px;
+    color: #0b89f4;
+    border: 1px solid #0b89f4;
+}
+.page .prev, .page .next{
+    width: 54px;
+   
+}
+
+.List .page{
+    margin-top: 20px;
+}
+/*取消申请加入联盟弹出框hover效果*/
+
+.Application .submit:hover{
+	background: #EB3900;
+
+}
+.CENTERDIV .reset:hover{
+	background-color: #B2B2B2;
+}

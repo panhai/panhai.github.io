@@ -1,0 +1,1163 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>学员详情</title>
+    <meta name=viewport content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="../css/all.css" />
+    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+    <link href="../css/layerskin/default/layer.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/scrollbar.css">
+</head>
+<body>
+
+<div class="head-navgater">
+    <div class="logo">
+    	<img src="../images/parseword_logo1.png" alt="" class="LOGO_IMG"/>
+    </div>
+    <div class="rightCenter">
+        <div class="setting">
+            <a href="javascript:void(0)">设置</a>
+        </div>
+
+        <div class="feed_back">
+            <a href="javascript:void(0)">我要反馈</a>
+        </div>
+
+        <div class="information">
+            <span class="icon"></span>
+        </div>
+
+        <div class="news">
+            <span class="icon"></span>
+        </div>
+
+
+        <div class="search">
+            <input type="text" value="" placeholder="搜求职者" class="search_txet">
+            <span class="icon"></span>
+            <div class="history-layer" style="display: none;">
+                <a href="javascript:void(0)">
+                    <i>咨询学员</i>
+                    <span>"啊啊啊啊"</span>
+                </a>
+
+                <a href="javascript:void(0)">
+                    <i>报名学员</i>
+                    <span>"啊啊啊啊"</span>
+                </a>
+
+                <a href="javascript:void(0)">
+                    <i>班级</i>
+                    <span>"啊啊啊啊"</span>
+                </a>
+
+                <a href="javascript:void(0)">
+                    <i>课程</i>
+                    <span>"啊啊啊啊"</span>
+                </a>
+
+                <a href="javascript:void(0)">
+                    <i>教师</i>
+                    <span>"啊啊啊啊"</span>
+                </a>
+
+                <a href="javascript:void(0)">
+                    <i>帮助文档</i>
+                    <span>"啊啊啊啊"</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="content">
+
+
+    <div class="character-data-layer">
+        <div class="character-head">
+            <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2114797134,526769156&fm=26&gp=0.jpg" alt="">
+            <div class="charcter-name">迪丽热巴</div>
+            <div class="charcter-state">在读</div>
+
+            <div class="right-char">
+                <a href="javascript:void(0)" class="cur1">发短信</a>
+                <a href="javascript:void(0)" class="cur2">发微信</a>
+                <a href="javascript:void(0)" class="cur3">发邮件</a>
+            </div>
+        </div>
+
+        <div class="character-body">
+            <span>男 <em></em>  海珠校区</span>
+            <a href="javascript:void(0)" class="">编辑</a>
+        </div>
+
+        <div class="character-foot">
+            手机：<span>15889936047</span><em></em>微信：<span>15889936047</span><em></em>QQ：<span>254687456221</span><em></em>邮箱：<span>254687456221@qq.com</span>
+        </div>
+    </div>
+
+
+
+    <div class="character-table-layer">
+        <div class="character-table">
+            <table>
+                <thead>
+                <tr>
+                    <th>班级名称</th>
+                    <th>实收费用</th>
+                    <th>开课时间</th>
+                    <th>授课老师</th>
+                    <th>人数</th>
+                    <th>状态</th>
+                    <th>操作</th>
+                </tr>
+                </thead>
+
+                <tbody>
+                <tr>
+                    <td>商务英语基础1807班</td>
+                    <td class="diffrent-bgco">
+                        <span class="diffrent-co">1200.00</span><i class="qian">欠</i>
+                    </td>
+                    <td>2018-09-01~2018-10-30</td>
+                    <td>刘洪波</td>
+                    <td>2/6</td>
+                    <td>未开课</td>
+                    <td><a href="教务管理-班级管理-班级详情.html" class="more-data">详情</a></td>
+                </tr>
+
+                <tr>
+                    <td>商务英语基础1807班</td>
+                    <td class="diffrent-bgco">
+                        <span class="diffrent-co">1200.00</span><i class="qian">欠</i>
+                    </td>
+                    <td>2018-09-01~2018-10-30</td>
+                    <td>刘洪波</td>
+                    <td>2/6</td>
+                    <td>未开课</td>
+                    <td><a href="教务管理-班级管理-班级详情.html" class="more-data">详情</a></td>
+                </tr>
+                <tr>
+                    <td>商务英语基础1807班</td>
+                    <td class="diffrent-bgco">
+                        <span class="diffrent-co">1200.00</span><i class="qian">欠</i>
+                    </td>
+                    <td>2018-09-01~2018-10-30</td>
+                    <td>刘洪波</td>
+                    <td>2/6</td>
+                    <td>未开课</td>
+                    <td><a href="教务管理-班级管理-班级详情.html" class="more-data">详情</a></td>
+                </tr>
+                <tr>
+                    <td>商务英语基础1807班</td>
+                    <td class="diffrent-bgco">
+                        <span class="diffrent-co">1200.00</span><i class="qian">欠</i>
+                    </td>
+                    <td>2018-09-01~2018-10-30</td>
+                    <td>刘洪波</td>
+                    <td>2/6</td>
+                    <td>未开课</td>
+                    <td><a href="教务管理-班级管理-班级详情.html" class="more-data">详情</a></td>
+                </tr>
+
+                </tbody>
+
+
+            </table>
+        </div>
+
+        <div class="character-label">
+            <a href="新增报名.html">再报一科</a>
+            <a href="javascript:void(0)" class="setting-classroom">转班</a>
+            <a href="javascript:void(0)" class="tuition-fee">退学退费</a>
+            <a href="javascript:void(0)" class="renewal-fee">补费续费</a>
+            <a href="javascript:void(0)">推荐就业</a>
+            <a href="javascript:void(0)">课程推荐</a>
+
+
+        </div>
+
+    </div>
+
+
+    <div class="ionfor-comment-area  ">
+
+        <div class="infor-navgater">
+            <a href="学员详情.html" class="">跟进记录 <i></i></a>
+            <a href="学员详情-1.html" class="cur">学员资料 <i></i></a>
+            <a href="学员详情-2.html" class="">咨询记录 <i></i></a>
+            <a href="学员详情-3.html" class="">操作日志 <i></i></a>
+        </div>
+
+        <div class="character-details-layer cur1">
+            <div class="two-title">
+                <span>学习者</span>
+                <a href="编辑咨询.html">编辑</a>
+            </div>
+
+            <div class="fill-two-box">
+
+                <div class="fill-in-box mal-one nopadding in-block fsz12">
+                    <div class="fill-name">
+                        姓名：
+                    </div>
+
+                    <div class="fill-data">
+                        <div class="over-text auto-width1">刘德华</div>
+                    </div>
+                </div>
+
+                <div class="fill-in-box mal-one nopadding in-block fsz12">
+                    <div class="fill-name">
+                        性别：
+                    </div>
+
+                    <div class="fill-data">
+                        <div class="over-text auto-width1">女</div>
+                    </div>
+                </div>
+
+                <div class="fill-in-box mal-one nopadding in-block fsz12">
+                    <div class="fill-name">
+                        生日：
+                    </div>
+
+                    <div class="fill-data">
+                        <div class="over-text auto-width1">1999-09-09</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="fill-two-box">
+
+                <div class="fill-in-box mal-one nopadding in-block fsz12">
+                    <div class="fill-name">
+                        手机：
+                    </div>
+
+                    <div class="fill-data">
+                        <div class="over-text auto-width1">13288847445</div>
+                    </div>
+                </div>
+
+                <div class="fill-in-box mal-one nopadding in-block fsz12">
+                    <div class="fill-name">
+                        微信：
+                    </div>
+
+                    <div class="fill-data">
+                        <div class="over-text auto-width1">13288847445</div>
+                    </div>
+                </div>
+
+                <div class="fill-in-box mal-one nopadding in-block fsz12">
+                    <div class="fill-name">
+                        QQ：
+                    </div>
+
+                    <div class="fill-data">
+                        <div class="over-text auto-width1">13288847445</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="fill-two-box">
+
+                <div class="fill-in-box mal-one nopadding in-block fsz12">
+                    <div class="fill-name">
+                        邮箱：
+                    </div>
+
+                    <div class="fill-data">
+                        <div class="over-text auto-width1">15896352304@qq,com</div>
+                    </div>
+                </div>
+
+                <div class="fill-in-box mal-one nopadding in-block fsz12">
+                    <div class="fill-name">
+                        备用电话：
+                    </div>
+
+                    <div class="fill-data">
+                        <div class="over-text auto-width1">15896352304</div>
+                    </div>
+                </div>
+
+                <div class="fill-in-box mal-one nopadding in-block fsz12">
+                    <div class="fill-name">
+                        身份证号：
+                    </div>
+
+                    <div class="fill-data">
+                        <div class="over-text auto-width">43062619931127711X</div><!--auto-width 不同类名-->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="character-details-layer cur1" >
+            <div class="two-title">
+                <span>家庭信息</span>
+                <a href="编辑咨询.html">编辑</a>
+            </div>
+
+            <div class="fill-two-box">
+                <div class="fill-in-box mal-one nopadding in-block fsz12">
+                    <div class="fill-name">
+                        现居住地：
+                    </div>
+
+                    <div class="fill-data">
+                        <div class="over-text auto-width">广州天河-天河公园新湖名苑</div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="fill-two-box">
+
+                <div class="fill-in-box mal-one nopadding in-block fsz12">
+                    <div class="fill-name">
+                        父亲名字：
+                    </div>
+
+                    <div class="fill-data">
+                        <div class="over-text auto-width1">刘有德</div>
+                    </div>
+                </div>
+
+                <div class="fill-in-box mal-one nopadding in-block fsz12">
+                    <div class="fill-name">
+                        联系电话：
+                    </div>
+
+                    <div class="fill-data">
+                        <div class="over-text auto-width1">13288847445</div>
+                    </div>
+                </div>
+
+                <div class="fill-in-box mal-one nopadding in-block fsz12">
+                    <div class="fill-name">
+                        职业：
+                    </div>
+
+                    <div class="fill-data">
+                        <div class="over-text auto-width1">买鱼蛋</div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="fill-two-box">
+
+                <div class="fill-in-box mal-one nopadding in-block fsz12">
+                    <div class="fill-name">
+                        母亲名字：
+                    </div>
+
+                    <div class="fill-data">
+                        <div class="over-text auto-width1">刘有德</div>
+                    </div>
+                </div>
+
+                <div class="fill-in-box mal-one nopadding in-block fsz12">
+                    <div class="fill-name">
+                        联系电话：
+                    </div>
+
+                    <div class="fill-data">
+                        <div class="over-text auto-width1">13288847445</div>
+                    </div>
+                </div>
+
+                <div class="fill-in-box mal-one nopadding in-block fsz12">
+                    <div class="fill-name">
+                        职业：
+                    </div>
+
+                    <div class="fill-data">
+                        <div class="over-text auto-width1">卖鱼蛋</div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+        <div class="character-details-layer cur1">
+            <div class="two-title">
+                <span>其他信息</span>
+                <a href="编辑咨询.html">编辑</a>
+            </div>
+
+            <div class="fill-two-box">
+                <div class="fill-in-box mal-one nopadding in-block fsz12">
+                    <div class="fill-name">
+                        备注信息：
+                    </div>
+
+                    <div class="fill-data">
+                        <div class="over-text auto-width">初一年级，在天湖中学就读</div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+<!--发通知-->
+<div class="send-msg" id="send-msg">
+
+    <div class="fill-in-box">
+        <div class="fill-name">
+            通知对象：
+        </div>
+
+        <div class="fill-data">
+            <dl class="SELECT comment" data-placeholder="请选择">
+                <input type="hidden" value="" autocomplete="off">
+                <dt><span class="">请选择</span></dt>
+                <dd class="normal maxHeight">
+                    <a href="javascript:void(0)" data-id="0" class="" title="不限">不限</a>
+                    <a href="javascript:void(0)" data-id="0" class="" title="2000人/年">200人0/年</a>
+                </dd>
+            </dl>
+        </div>
+    </div>
+
+    <div class="fill-in-box">
+        <div class="fill-name">
+            通知标题：
+        </div>
+
+        <div class="fill-data">
+            <input type="text" class="fill-text" placeholder="请输入">
+        </div>
+
+        <span class="field-validation-error" data-valmsg-for="FullName" data-valmsg-replace="true"><span for="FullName" class="">信息不能为空</span></span>
+    </div>
+
+
+    <div class="fill-in-box">
+        <div class="fill-name">
+            通知附件：
+        </div>
+
+        <div class="fill-data">
+            <a href="javascript:void(0)" class="plus-word">+添加附件</a>
+            <div class="over-text auto-width">asldjlsajd.doc</div>
+        </div>
+    </div>
+
+    <div class="fill-in-box">
+        <div class="fill-name">
+            通知内容：
+        </div>
+
+        <div class="fill-data">
+            <textarea class="fill-about" style="width: 480px;height: 84px;"></textarea>
+
+            <div class="promotion-layer nomargin">
+                <a href="javascript:void(0)" class="pro-url "><i class=""></i>微信通知</a>
+
+                <a href="javascript:void(0)" class="pro-url pro-settings"><i class=""></i>邮件通知[<span class="toSee">预览</span>]</a>
+
+            </div>
+        </div>
+
+        <span class="field-validation-error" data-valmsg-for="FullName" data-valmsg-replace="true"><span for="FullName" class="">信息不能为空</span></span>
+    </div>
+    <div class="submitBtn ml148">
+        <a href="javascript:void(0)" class="cur    ">确认</a>
+        <a href="javascript:void(0)" class="">取消</a>
+    </div>
+</div>
+
+
+
+<!--退学退费-->
+<div class="fee-layer" id="fee-layer1">
+    <div class="fill-in-box mal-one">
+        <div class="fill-name">
+            补费班级：
+        </div>
+
+        <div class="fill-data">
+            <dl class="SELECT comment" data-placeholder="请选择">
+                <input type="hidden" value="" autocomplete="off">
+                <dt><span class="">请选择</span></dt>
+                <dd class="normal maxHeight">
+                    <a href="javascript:void(0)" data-id="0" class="" title="不限">不限</a>
+                    <a href="javascript:void(0)" data-id="0" class="" title="2000人/年">200人0/年</a>
+                </dd>
+            </dl>
+        </div>
+        <span class="field-validation-error" data-valmsg-for="FullName" data-valmsg-replace="true"><span for="FullName" class="">信息不能为空</span></span>
+    </div>
+
+    <div class="fill-in-box mal-one">
+        <div class="fill-name">
+            费用明细：
+        </div>
+
+        <div class="fill-data">
+            <div class="fill-table">
+                <table>
+                    <thead>
+                    <tr>
+                        <th>收费项目</th>
+                        <th>实缴费用</th>
+                        <th>欠费</th>
+                        <th>剩余金额</th>
+                    </tr>
+                    </thead>
+
+                    <tbody>
+                    <tr>
+                        <td>学费</td>
+                        <td>￥1000</td>
+                        <td class="owe">-500.00</td>
+                        <td>￥800.00</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <a href="javascript:void(0)" class="plus-sth" style="color: #066cbd;">+添加退费项</a>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+    <div class="fill-in-box mal-one">
+        <div class="fill-name">
+            累计应缴：
+        </div>
+
+        <div class="fill-data">
+            <div class="color-text"> ￥1195.00</div>
+        </div>
+    </div>
+
+    <div class="fill-in-box mal-one">
+        <div class="fill-name">
+            实际缴费：
+        </div>
+
+        <div class="fill-data">
+            <dl class="SELECT long" data-placeholder="请选择">
+                <input type="hidden" value="" autocomplete="off">
+                <dt><span class="">请选择</span></dt>
+                <dd class="normal maxHeight">
+                    <a href="javascript:void(0)" data-id="0" class="" title="不限">不限</a>
+                    <a href="javascript:void(0)" data-id="0" class="" title="2000人/年">200人0/年</a>
+                </dd>
+            </dl>
+
+            <input type="text" class="fill-text other-width2  other-width5" placeholder="￥请输入账号">
+            <a href="javascript:void(0)" class="tick-end">已到账</a>
+        </div>
+    </div>
+
+
+    <div class="fill-in-box mal-one">
+        <div class="fill-name">
+            选择银行：
+        </div>
+
+        <div class="fill-data">
+            <dl class="SELECT comment" data-placeholder="请选择">
+                <input type="hidden" value="" autocomplete="off">
+                <dt><span class="">请选择</span></dt>
+                <dd class="normal maxHeight">
+                    <a href="javascript:void(0)" data-id="0" class="" title="不限">不限</a>
+                    <a href="javascript:void(0)" data-id="0" class="" title="2000人/年">200人0/年</a>
+                </dd>
+            </dl>
+        </div>
+    </div>
+
+    <div class="fill-in-box mal-one">
+        <div class="fill-name">
+            退费账号：
+        </div>
+
+        <div class="fill-data">
+            <input type="text" class="fill-text other-width2">
+            <input type="text" class="fill-text ">
+        </div>
+    </div>
+
+    <div class="fill-in-box mal-one ">
+        <div class="fill-name">
+            原因备注：
+        </div>
+
+        <div class="fill-data">
+            <textarea class="fill-about " placeholder="请输入学员情况" style="width: 590px;height: 80px;"></textarea>
+        </div>
+    </div>
+
+    <div class="submitBtn ml125 mt0">
+        <a href="javascript:void(0)" class="cur">确认</a>
+        <a href="javascript:void(0)" class="">取消</a>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+<!--退学退费-->
+<div class="fee-layer" id="fee-layer">
+    <div class="fill-in-box mal-one">
+        <div class="fill-name">
+            当前班级：
+        </div>
+
+        <div class="fill-data">
+            <dl class="SELECT comment" data-placeholder="请选择">
+                <input type="hidden" value="" autocomplete="off">
+                <dt><span class="">请选择</span></dt>
+                <dd class="normal maxHeight">
+                    <a href="javascript:void(0)" data-id="0" class="" title="不限">不限</a>
+                    <a href="javascript:void(0)" data-id="0" class="" title="2000人/年">200人0/年</a>
+                </dd>
+            </dl>
+        </div>
+        <span class="field-validation-error" data-valmsg-for="FullName" data-valmsg-replace="true"><span for="FullName" class="">信息不能为空</span></span>
+    </div>
+
+    <div class="fill-in-box mal-one">
+        <div class="fill-name">
+            费用明细：
+        </div>
+
+        <div class="fill-data">
+            <div class="fill-table">
+                <table>
+                    <thead>
+                    <tr>
+                        <th>收费项目</th>
+                        <th>实缴费用</th>
+                        <th>课节进度</th>
+                        <th>课次均价</th>
+                        <th>剩余课节数</th>
+                        <th>剩余金额</th>
+                    </tr>
+                    </thead>
+
+                    <tbody>
+                    <tr>
+                        <td>学费</td>
+                        <td>￥1000</td>
+                        <td>4/20</td>
+                        <td class="class-fee">
+                            <div>
+                                <span>￥</span>
+                                <input type="text" placeholder="800">
+                            </div>
+
+                        </td>
+                        <td class="psw">
+                            <input type="password" placeholder="密码">
+                        </td>
+                        <td>￥800.00</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <a href="javascript:void(0)" class="plus-sth" style="color: #066cbd;">+添加退费项</a>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+    <div class="fill-in-box mal-one">
+        <div class="fill-name">
+            累计结余：
+        </div>
+
+        <div class="fill-data">
+            <div class="color-text"> ￥1195.00</div>
+        </div>
+    </div>
+
+    <div class="fill-in-box mal-one">
+        <div class="fill-name">
+            退费方式：
+        </div>
+
+        <div class="fill-data">
+            <dl class="SELECT comment" data-placeholder="请选择">
+                <input type="hidden" value="" autocomplete="off">
+                <dt><span class="">请选择</span></dt>
+                <dd class="normal maxHeight">
+                    <a href="javascript:void(0)" data-id="0" class="" title="不限">不限</a>
+                    <a href="javascript:void(0)" data-id="0" class="" title="2000人/年">200人0/年</a>
+                </dd>
+            </dl>
+        </div>
+    </div>
+
+
+    <div class="fill-in-box mal-one">
+        <div class="fill-name">
+            选择银行：
+        </div>
+
+        <div class="fill-data">
+            <dl class="SELECT comment" data-placeholder="请选择">
+                <input type="hidden" value="" autocomplete="off">
+                <dt><span class="">请选择</span></dt>
+                <dd class="normal maxHeight">
+                    <a href="javascript:void(0)" data-id="0" class="" title="不限">不限</a>
+                    <a href="javascript:void(0)" data-id="0" class="" title="2000人/年">200人0/年</a>
+                </dd>
+            </dl>
+        </div>
+    </div>
+
+    <div class="fill-in-box mal-one">
+        <div class="fill-name">
+            退费账号：
+        </div>
+
+        <div class="fill-data">
+            <input type="text" class="fill-text other-width2">
+            <input type="text" class="fill-text ">
+        </div>
+    </div>
+
+    <div class="fill-in-box mal-one">
+        <div class="fill-name">
+            退费状态：
+        </div>
+
+        <div class="fill-data">
+            <div class="fill-radio">
+                <a href="javascript:void(0)" class="cur">已退费</a>
+                <a href="javascript:void(0)">待支付</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="fill-in-box mal-one ">
+        <div class="fill-name">
+            原因备注：
+        </div>
+
+        <div class="fill-data">
+            <textarea class="fill-about " placeholder="请输入学员情况" style="width: 590px;height: 80px;"></textarea>
+        </div>
+    </div>
+
+    <div class="submitBtn ml125 mt0">
+        <a href="javascript:void(0)" class="cur">确认</a>
+        <a href="javascript:void(0)" class="">取消</a>
+    </div>
+
+</div>
+
+
+
+
+<!--转班-->
+<div class="send-msg" id="setting-classroom">
+
+    <div class="fill-in-box">
+        <div class="fill-name">
+            转班学员：
+        </div>
+
+        <div class="fill-data">
+            <div class="color-text">潘家柱等7人</div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="fill-in-box">
+        <div class="fill-name">
+            通知标题：
+        </div>
+
+        <div class="fill-data">
+            <input type="text" class="fill-text other-bgpc setting-select" placeholder="请输入">
+        </div>
+
+        <span class="field-validation-error" data-valmsg-for="FullName" data-valmsg-replace="true"><span for="FullName" class="">信息不能为空</span></span>
+    </div>
+
+
+
+
+    <div class="fill-in-box">
+        <div class="fill-name">
+            通知内容：
+        </div>
+
+        <div class="fill-data">
+            <textarea class="fill-about" style="width: 480px;height: 84px;"></textarea>
+        </div>
+
+        <span class="field-validation-error" data-valmsg-for="FullName" data-valmsg-replace="true"><span for="FullName" class="">信息不能为空</span></span>
+    </div>
+    <div class="submitBtn ml148">
+        <a href="javascript:void(0)" class="cur    ">确认</a>
+        <a href="javascript:void(0)" class="">取消</a>
+    </div>
+</div>
+
+<!--转班弹框2-->
+
+<div class="plus-and-select " id="plus-and-select">
+    <div class="select-piece">
+        <!--名称-->
+        <div class="fill-in-box in-block border-one">
+            <div class="fill-box-name">
+                名称
+            </div>
+
+            <div class="fill-data fl">
+                <input type="text" value="" class="fill-text fill-other-text">
+            </div>
+
+        </div>
+
+        <!--类别-->
+        <div class="fill-in-box in-block border-one this-fill selec-id">
+            <div class="fill-box-name">
+                类别
+            </div>
+
+            <div class="fill-data fl ">
+                <input type="text" value="" class="fill-text fill-other-text click-window">
+            </div>
+
+            <div class="fill-types">
+
+                <div class="box-types">
+                    <div class="left-types">
+                        <a href="javascript:void(0)">商务英语</a>
+                    </div>
+
+                    <div class="right-select">
+                        <a href="javascript:void(0)">国标英语</a>
+                    </div>
+                </div>
+
+
+                <div class="box-types">
+                    <div class="left-types">
+                        <a href="javascript:void(0)">雅思英语</a>
+                    </div>
+
+                    <div class="right-select">
+                        <a href="javascript:void(0)">6分</a>
+                        <a href="javascript:void(0)">7分</a>
+                    </div>
+                </div>
+
+
+                <div class="box-types">
+                    <div class="left-types">
+                        <a href="javascript:void(0)">出国留学</a>
+                    </div>
+
+                    <div class="right-select">
+                        <a href="javascript:void(0)">加拿大留学</a>
+                    </div>
+                </div>
+
+                <div class="box-types">
+                    <div class="left-types">
+                        <a href="javascript:void(0)">游学</a>
+                    </div>
+
+                    <div class="right-select">
+                        <a href="javascript:void(0)">加拿大游学</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!--校区-->
+        <div class="fill-in-box in-block border-one">
+            <div class="fill-box-name">
+                校区
+            </div>
+
+            <div class="fill-data fl">
+                <dl class="SELECT MultiSEL comment noborder" data-placeholder="请选择">
+                    <input type="hidden" value="" autocomplete="off">
+                    <dt><span title="">请选择</span><i></i></dt>
+                    <dd class="normal">
+                        <div class="Multiselect">
+                            <p class="multilist ">
+                                <a href="javascript:void(0)" data-id="0" class="unlimited cur">全部校区</a>
+                            </p>
+                            <p class="multilist state">
+                                <a href="javascript:void(0)" data-id="1" class="">天河校区</a>
+                                <a href="javascript:void(0)" data-id="2" class="">天河校区</a>
+                                <a href="javascript:void(0)" data-id="3" class="">天河校区</a>
+                                <a href="javascript:void(0)" data-id="4" class="">天河校区</a>
+                            </p>
+                            <p class="option_btn">
+                                <input type="submit" value="确认" class="c_confirm">
+                                <span class="c_cancel">取消</span>
+                            </p>
+                        </div>
+                    </dd>
+                </dl>
+            </div>
+
+        </div>
+
+        <a href="javascript:void(0)" class="fill-find">查询</a>
+    </div>
+
+
+    <div class="table-piece">
+        <div class="til">
+            共有<span>2</span>个班级
+        </div>
+        <table>
+            <tbody class="this-head">
+            <tr>
+                <td>课程名称</td>
+                <td>开课时间</td>
+                <td>上课时间</td>
+                <td>授课老师</td>
+                <td>学费</td>
+                <td>人数</td>
+                <td style="text-align: center;">
+                    <span>操作</span>
+                </td>
+            </tr>
+            </tbody>
+
+            <tbody>
+
+            <tr>
+                <td>商务英语基础A班</td>
+                <td class="cor">2018-01-01（已开课）</td>
+                <td>周一、三</td>
+                <td>古力娜扎</td>
+                <td>¥1200/期</td>
+                <td>5/6</td>
+                <td style="text-align: center;text-indent: 0;">
+                    <a href="javascript:void(0)" class="other-style1">+选择班级</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>商务英语基础A班</td>
+                <td class="cor">2018-01-01（已开课）</td>
+                <td>周一、三</td>
+                <td>古力娜扎</td>
+                <td>¥1200/期</td>
+                <td>5/6</td>
+                <td style="text-align: center;text-indent: 0;">
+                    <a href="javascript:void(0)" class="other-style1">+选择班级</a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+
+</div>
+
+
+
+
+<!--添加退费项-->
+<div class="plus-number" id="plus-sth" style="display: none;">
+
+    <div class="fill-in-box ml34">
+        <div class="fill-name tar">
+            名称：
+        </div>
+
+        <div class="fill-data">
+            <input type="text" class="fill-text ">
+        </div>
+    </div>
+
+    <div class="fill-in-box ml34">
+        <div class="fill-name tar">
+            价格：
+        </div>
+
+        <div class="fill-data">
+            <input type="text" class="fill-text">
+        </div>
+    </div>
+
+
+
+
+    <div class="submitBtn ml112">
+        <a href="javascript:void(0)" class="cur">确认</a>
+        <a href="javascript:void(0)" class="">取消</a>
+    </div>
+</div>
+
+
+<script src="../js/jquery.js"></script>
+<script src="../js/layer.js"></script>
+<script src="../js/area.js"></script>
+<script src="../js/all.js"></script>
+<script src="../js/plugin/select.js"></script>
+<script src="../js/My97DatePicker/WdatePicker.js"></script>
+<script src="http://api.map.baidu.com/api?v=2.0&amp;ak=OlGzoCwcKN9OvM16T9RnFwOl"></script>
+<script src='../js/plugin/scrollBar.js'></script>
+<script type="text/javascript">
+    //類型
+    $(".fill-in-box .click-window").click(function () {
+        $(".fill-types").show();
+    });
+    $(".fill-in-box .fill-types .right-select a").click(function () {
+        $(".fill-types").hide();
+    });
+    $(".selec-id").mouseleave(function () {
+        $(".fill-types").hide();
+    });
+
+    $(".qian").hover(function () {
+        layer.tips('<div style="min-width:269px;padding:6px;color: #fff;font-size: 12px;position:relative"><p><span style="margin-right:10px;display: inline-block;width: 74px;">学费</span>欠费200.00元</p>' +
+            '<p><span style="margin-right:10px;display: inline-block;width: 74px;">工具费</span>欠费200.00元</p>' +
+            '<p><span style="margin-right:10px;display: inline-block;width: 74px;">合计</span>欠费200.00元</p></div>', $(this), {
+            tips: [1, 'rgba(0,0,0,.9)'],
+            area:"349px",
+            time: 0
+        });
+    },function () {
+        layer.closeAll()
+    });
+
+
+    //调整班级
+    $(".setting-classroom").click(function () {
+        layer.open({
+            title: '转班',
+            type: 1,
+            area: '744px',
+            skin: '',
+            content: $('#setting-classroom')
+        });
+    });
+    //调整班级
+    $(".setting-select").click(function () {
+        layer.open({
+            title: '选择转班',
+            type: 1,
+            area: '744px',
+            skin: '',
+            content: $('#plus-and-select')
+        });
+    });
+
+
+
+
+    //发通知
+    $(".renewal-fee").click(function () {
+        layer.open({
+            title: '补费续费',
+            type: 1,
+            area: '800px',
+            skin: '',
+            content: $('#fee-layer1')
+        });
+    });
+
+    //发通知
+    $(".tuition-fee").click(function () {
+        layer.open({
+            title: '退学退费',
+            type: 1,
+            area: '800px',
+            skin: '',
+            content: $('#fee-layer')
+        });
+    });
+
+    //退费状态点击事件
+    $(".fill-in-box .fill-radio a").click(function () {
+        $(".fill-in-box .fill-radio a").removeClass("cur");
+        $(this).addClass("cur")
+    });
+
+    //添加退费项
+    $(".plus-sth").click(function () {
+        layer.open({
+            title: '教材杂费',
+            type: 1,
+            area: '488px',
+            skin: '',
+            content: $('#plus-sth')
+        });
+    });
+
+
+
+
+
+
+    //只看自己
+    $(".see-myself").click(function () {
+        if ($(this).find("i").hasClass('cur')) {
+            $(this).find("i").removeClass('cur');
+        } else {
+            $(this).find("i").addClass('cur');
+
+        }
+    });
+
+    //已到账
+    $(".tick-end").click(function () {
+        if ($(this).hasClass('cur')) {
+            $(this).removeClass('cur');
+        } else {
+            $(this).addClass('cur');
+
+        }
+    });
+
+
+
+
+</script>
+
+</body>
+</html>

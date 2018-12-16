@@ -1,0 +1,55 @@
+/* 就业网-校企合作 */
+.left{ width:200px; float:left; margin-top:10px; border-top:solid #FE6C3B 3px; font-family:"微软雅黑";}
+.left ul{ background-color:#FAFAFA; font-size:0px;}
+.left li{ line-height:45px; font-size:16px; text-align:center; border-left:6px solid #fafafa; border-right:6px solid #fafafa;}
+.left li.cur{ border-left-color:#fe6c3b; border-right-color:#fff; background-color:#fff;}
+.left li a{ color:#333;}
+.left .cur a{ color:#fe6c3b; font-weight:bold;}
+.right{ width:760px; float:right;}
+/*右侧顶条*/
+.topic{ height:40px; line-height:40px; border-bottom:1px solid #C8C8C8;}
+.topic *{ font-family:"微软雅黑";}
+.topic h2,.topic h1{ font-size:18px; color:#2673ec; line-height:39px; border-bottom:2px solid #2673ec; float:left; padding:0px 5px; font-weight:normal;}
+.topic .more{ display:block; float:right; font-size:12px; color:#2673ec;}
+.topic .more i{ display:block; float:right; width:12px; height:12px; overflow:hidden; background:url(../../images/icons.gif) top center; margin-top:15px;}
+.topic .more:hover{ color:#ff5e00;}
+/*合作伙伴*/
+.Partners{ width:760px; float:left; margin:20px 0px;}
+.Partners li{ width:126px; height:80px; float:left;}
+.Partners li a{ display:block; width:124px; height:78px; border:1px solid #F5F5F5;}
+/*合作动态*/
+.News{ clear:both; margin-bottom:40px;}
+.News li{ clear:both; padding:20px 0px 25px 0px; border-bottom:1px dotted #ccc;}
+.News li.last{ border-bottom-style:solid;}
+.News h3{ font-family:"微软雅黑"; font-size:16px; line-height:35px; font-weight:normal;}
+.News h3 a{ color:#1a1a1A;}
+.News samp{ font-family:"微软雅黑"; font-size:14px; line-height:35px; color:#333;}
+.News p{ line-height:22px; font-size:14px; color:#999;}
+.News p a{ color:#666;}
+.News a:hover{ color:#ff5000;}
+
+/*分页*/
+.pages{ float:right; margin-bottom:60px; font-size:12px;}
+.pages span,.pages a,.pages b{ display:block; float:left; width:23px; height:23px; line-height:23px; text-align:center; font-size:12px; border:1px solid; margin-right:5px;}
+.pages a{ border-color:#ababab; color:#1256A9;}
+.pages b{ border-color:#1256A9; color:#1256A9; font-weight:normal;}
+.pages .prev i,.pages .next i{ background-image:url(../../images/icons.gif); width:12px; height:12px; display:inline-block; font-size:0px; vertical-align:text-bottom; vertical-align:middle\9;}
+.pages a.prev,.pages a.next{ width:auto !important; padding:0px 4px;}
+.pages span{ border-color:#ccc;}
+.pages a.prev i{ background-position:bottom center;}
+.pages a.next i{ background-position:center top;}
+.pages span.prev i{ background-position:right center;}
+.pages span.next i{ background-position:left center;}
+/*IE67兼容*/
+.pages span i{ *margin-top:5px; _margin-top:0px;}
+.pages a.next,.pages a.prev{ _height:18px; _padding-top:5px;}
+/*跳转*/
+.pages .number{ width:20px; border:1px solid #ccc; padding:0px 5px; font-size:12px; height:23px; line-height:23px; vertical-align:middle;}
+.pages .btn{ width:38px; height:23px; background:url(../../images/pages-btnbg.jpg); border:1px solid #aaa; vertical-align:middle;}
+
+/*校企合作图片列表*/
+.lists{ float:left; width:100%; margin-bottom:40px;}
+.lists li{ width:152px; float:left; height:110px; text-align:center;}
+.lists li a{ clear:both; display:block; border:1px solid #E7E7E7; width:150px; height:108px; color:#909090;}
+.lists li div{ height:60px; overflow:hidden; margin-top:10px;}
+.lists li p{ line-height:30px; font-size:14px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}

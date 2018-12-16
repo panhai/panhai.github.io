@@ -1,0 +1,74 @@
+/* 校企合作邀请等页面 */
+body{ background-color:#fff;}
+.main{ _overflow:hidden;}
+h1{ line-height:40px; margin:10px 0px 40px 0px; font-size:18px; font-family:"微软雅黑"; border-bottom:1px solid #cbcbcb; height:40px; _overflow:hidden;}
+h1 b{ display:inline-block; padding:0px 10px; border-bottom:1px solid #2677e2; _position:relative; color:#006eda;}
+h1.nobd{ margin-bottom:0px;}
+h1.nobd b{ border:0px;}
+h1 small{ color:#999; font-size:14px; font-weight:normal;}
+
+/*选择标签*/
+.labels{ clear:both; height:40px; background-color:#f6f6f6; font-size:16px; line-height:40px; border-bottom:1px solid #2677e2; font-family:"微软雅黑"; margin-bottom:30px;}
+.labels li{ float:left; width:120px; text-align:center; border:1px solid transparent; margin:-1px 15px 0px 0px; cursor:pointer;}
+.labels li.cur{ background-color:#fff; border-color:#2677e2; border-bottom-color:#fff;}
+.labels a{ color:#545454;}
+.labels .cur a{ color:#ff5000;}
+
+.form{ width:100%; float:left;}
+.form .form-line{ width:100%; float:left; line-height:30px; margin-bottom:15px;}
+.form var,.form dfn{ display:block; float:left; font-style:normal;}
+.form var{ font-size:16px; font-family:"微软雅黑"; color:#3e3e3e; text-align:right; width:120px;}
+.form dfn{ font-size:12px; width:880px; float:right;}
+.form samp{ font-size:14px; color:#999; font-family:"微软雅黑";}
+.last{ text-align:right;}
+.last label{ color:#2677e2;}
+.last label input{ vertical-align:text-bottom;}
+
+h2{ clear:both; background-color:#f6f6f6; border-bottom:1px solid #E6E6E6; font-size:16px; padding:0px 10px; line-height:35px; height:35px; color:#4b4b4b;}
+.logos{ clear:both; padding-top:15px; width:1080px;}
+.logos li{ width:135px; height:45px; overflow:hidden; float:left; margin:0 80px 30px 0;}
+
+/*带叉的标签*/
+.addup{}
+.addup a{ display:inline-block; background-color:#FEF9F5; color:#3e3e3e; border:1px solid #FE9055; padding:3px 10px 0px; margin:0px 5px 5px 0px; font-size:12px; font-family:"宋体"; line-height:25px; float:left; padding:0px 10px 3px\9;}
+.addup a q{ position:relative; left:5px; top:1px; font-size:16px; color:#999; font-weight:bold;}
+.add-text{ border:1px solid #D4D4D4; height:28px; line-height:28px; padding:0px 10px; width:120px; float:left;}
+.add-btn{ border:1px solid #d4d4d4; height:30px; line-height:30px; padding:0px 10px; background-color:#eee; font-size:12px; float:left; border-left:0px; cursor:pointer;}
+
+.btn{ width:145px; height:30px; background-color:#2677e2; border:0px; color:#fff; cursor:pointer; font-size:16px; font-family:"微软雅黑";}
+.textarea{ width:650px !important; border:1px solid #bdbdbd; height:220px !important;}
+.button{ width:125px; height:32px; background-color:#ff5000; font-size:14px; color:#fff; border:0px; font-weight:bold; cursor:pointer;}
+.form-tip{ font-size:14px; color:#999; font-family:"微软雅黑";}
+
+.d-s1{ width:130px !important; float:left !important;}
+.t-s1{ width:118px;}
+.d-s2{ width:170px !important; float:left !important;}
+.t-s2{ width:150px;}
+.v-i{ _width:100px !important;}
+
+/*下拉列表*/
+.select{ position:relative; display:inline-block; float:left; z-index:111; width:190px;}
+.select dt{ clear:both; height:30px; border:1px solid #d4d4d4; padding:0px 20px 0px 10px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; line-height:30px; position:relative;}
+.select dt i{ display:block; position:absolute; right:5px; top:10px; height:12px; width:12px; background:url(../../images/icons.gif) -12px -36px; overflow:hidden;}
+.select dt span{ color:#999;}
+.select dd{ display:none; position:absolute; left:0px; background:#fff; line-height:25px; border:1px solid #d9d9d9;}
+.select dd.on{ display:block;}
+.select input{ border:0px;}
+
+.text{ border:1px solid #d4d4d4; height:30px; line-height:30px; padding:0px 10px;}
+.t-l{ width:390px;}
+.t-m{ width:168px;}
+.date{ background:url(../../images/date_icon_set.png) right center no-repeat;}
+
+/*中心静止层的特别样式*/
+.CenterDiv{ width:775px; height:480px;}
+.CenterContent{ height:435px;}
+.CenterContents label.checked{ color:#ff5e00;}
+.CenterLabelsContainer{ height:325px; overflow:hidden; margin-top:10px; border-bottom:2px solid #c9c9c9;}
+.schools .CenterLabelsContainer p{ white-space:normal !important; height:55px; _height:45px; padding-top:10px; line-height:20px !important;}
+.schools .CenterLabelsContainer p input{ float:left; position:relative; top:5px; top:0px\9;}
+.schools .CenterLabelsContainer p label{ display:block; width:160px; float:left;}
+.schools .pages2{ margin-top:10px !important;}
+.single input{ display:none;}
+.single label{ padding-left:10px;}
+.single a q{ display:none;}

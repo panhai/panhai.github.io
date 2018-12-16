@@ -1,0 +1,21 @@
+/* 好工作手机站通用样式 */
+*{ margin:0px; padding:0px; font-family:Microsoft YaHei, Arial;}
+ul,ol,li{ list-style:none;}
+q{ quotes:none;}
+a{ text-decoration:none; cursor:pointer;}
+a img{ border:0px;}
+body{}
+input::-ms-clear{ display:none;}
+input[type=button],input[type=reset],input[type=submit]{ -webkit-appearance:none;}
+:-moz-placeholder{ color:#999;}
+::-moz-placeholder{ color:#999;}
+:focus{ outline:none;}
+textarea{ resize:none !important;}
+.clear{ clear:both; float:none;}
+.clearSelf{ zoom:1\9;}
+.clearSelf:after{ content:''; display:block; clear:both;}
+table{ border-collapse:collapse; table-layout:fixed;}
+/*全屏插件，为了方便横竖居中，使用表格*/
+.FullScreenPlugin{ display:none; position:fixed; top:0; left:0; width:100%; height:100%; text-align:center; z-index:55555; background:rgba(0,0,0,0.5);}
+.FullScreenPlugin > tbody > tr > td{ vertical-align:middle; text-align:center;}
+

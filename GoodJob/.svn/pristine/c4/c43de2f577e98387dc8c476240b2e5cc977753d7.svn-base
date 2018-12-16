@@ -1,0 +1,14 @@
+/* 首页导航 */
+.Main{ padding:20px 0 100px;}
+.NavTable{ margin:20px auto;}
+.NavTable caption{ background-color:#f4f4f4; color:#525252; font-size:18px; padding-left:10px; border-top:1px solid #ebebeb; line-height:40px; text-align:left; font-weight:bold; margin-bottom:20px;}
+.NavTable .blue{ color:#1562c8;}
+.NavTable th,.NavTable td{ vertical-align:top; line-height:30px;}
+.NavTable thead th{ text-align:left; color:#1562c8; font-size:18px;}
+.NavTable a{ font-size:14px; color:#525252; margin-right:10px;}
+.NavTable a:hover{ color:#1562c8; text-decoration:underline;}
+.NavTable thead th{ padding:10px 0 0 10px;}
+.NavTable thead td{ padding:0 0 10px 10px;}
+.NavTable tbody th,.NavTable tbody td{ padding:20px 0 20px 10px;}
+.NavTable tbody th{ border-bottom:1px solid #e8e8e8; text-align:left; font-weight:normal; color:#1562c8; font-size:16px;}
+.NavTable tbody td{ border-bottom:1px solid #e8e8e8;}

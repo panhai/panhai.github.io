@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>学校介绍-学校介绍</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="../css/all.css" />
+    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+    <link href="../css/layerskin/default/layer.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/scrollbar.css" />
+</head>
+
+<body>
+    <div class="scholl_box_box">
+        <div class="scholl_box">
+            <!-- 头部 -->
+            <div class="head_navgater">
+                <div class="rightCenter">
+                    <div class="fl">
+                        <img src="../images/log_03.png" alt="" />
+                        <span>运营后台</span>
+                    </div>
+                    <div class="search">
+                        <div>
+                            <a href="javascript:;">退出</a>
+                        </div>
+                        <div>
+                            <a href="javascript:;">个人设置</a>
+                        </div>
+                        <div class="num">
+                            <b>5</b>
+                            <span class="icon"></span>
+                        </div>
+                        <div class="from">
+                            <i></i>
+                            <input type="text" name="" placeholder="搜索咨询，学员，帮助文档" />
+                            <div class="history-layer" style="display: none;">
+                                <a href="javascript:void(0)">
+                                    <i>咨询学员</i>
+                                    <span>"啊啊啊啊"</span>
+                                </a>
+
+                                <a href="javascript:void(0)">
+                                    <i>报名学员</i>
+                                    <span>"啊啊啊啊"</span>
+                                </a>
+
+                                <a href="javascript:void(0)">
+                                    <i>班级</i>
+                                    <span>"啊啊啊啊"</span>
+                                </a>
+
+                                <a href="javascript:void(0)">
+                                    <i>课程</i>
+                                    <span>"啊啊啊啊"</span>
+                                </a>
+
+                                <a href="javascript:void(0)">
+                                    <i>教师</i>
+                                    <span>"啊啊啊啊"</span>
+                                </a>
+
+                                <a href="javascript:void(0)">
+                                    <i>帮助文档</i>
+                                    <span>"啊啊啊啊"</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 内容 -->
+        <div class="main_bxo">
+            <div class="left">
+                <div class="img_box">
+                    <img src="../images/boy.png" alt="">
+                </div>
+            </div>
+            <!-- 学校信息头 -->
+            <div class="right">
+                <div class="btn_box">
+                    <a href="编辑机构.html" class="bian">编辑</a>
+                    <a href="javscript:;" class="biao select_box_box">
+                        标记<img src="../images/xiala_07 (2).png" style="margin-left:9px;" alt="">
+                        <div class="select_box">
+                            <p>培训进度</p>
+                            <p>机构等级</p>
+                            <p>机构状态</p>
+                            <p>机构标签</p>
+                            <p>对接方式</p>
+                            <p>上线等级</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="msg_top">
+                    <div>
+                        <div class="name">
+                            <span>天琥教育</span>
+                            <a href="javscript" class="zc">正常</a>
+                            <a href="javscript" class="good">配合良好</a>
+                            <b>一天前登录</b>
+                        </div>
+                        <div class="ke_time">
+                            <p>广州天河区 | 成人英语 | 每年招生1000~2000人 | 成立时间2015-04-03 >></p>
+                        </div>
+                        <div class="num_all">
+                            <div>
+                                <p>150</p>
+                                <span>全部咨询</span>
+                            </div>
+                            <div>
+                                <p>50</p>
+                                <span>意向学员</span>
+                            </div>
+                            <div>
+                                <p>15</p>
+                                <span>报名学员</span>
+                            </div>
+                            <span class="line"></span>
+                            <div>
+                                <p>15%</p>
+                                <span>报名率</span>
+                            </div>
+                            <div>
+                                <p>90%</p>
+                                <span>到账率</span>
+                            </div>
+                            <div>
+                                <p>0.1%</p>
+                                <span>异议率</span>
+                            </div>
+                            <span class="line"></span>
+                            <div>
+                                <p>2</p>
+                                <span>校区数</span>
+                            </div>
+                            <div>
+                                <p>50</p>
+                                <span>课程数</span>
+                            </div>
+                            <div>
+                                <p>15</p>
+                                <span>咨询数</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 主体 -->
+        <div class="main_content">
+            <div class="nav">
+                <div class="top">
+                    <img src="../images/jia_07.png" alt="">
+                    <a href="javascript:;">首页</a>
+                </div>
+                <div class="list_box">
+                    <div class="titl">
+                        <span class="jian">-</span>
+                        <span>学校概况</span>
+                    </div>
+                    <div class="lists cur">
+                        <a href="javscript:;">学校介绍</a>
+                    </div>
+                    <div class="lists">
+                        <a href="javscript:;">合作信息</a>
+                    </div>
+                    <div class="lists">
+                        <a href="javscript:;">招生状态</a>
+                    </div>
+                </div>
+                <div class="list_box">
+                    <div class="titl">
+                        <span class="jian">-</span>
+                        <span>内容管理</span>
+                    </div>
+                    <div class="lists">
+                        <a href="javscript:;">课程管理</a>
+                    </div>
+                    <div class="lists">
+                        <a href="javscript:;">咨询管理</a>
+                    </div>
+                    <div class="lists">
+                        <a href="javscript:;">校区管理</a>
+                    </div>
+                </div>
+                <div class="list_box">
+                    <div class="titl">
+                        <span class="jian">+</span>
+                        <span>学员管理</span>
+                    </div>
+                    <div class="lists">
+                        <a href="javscript:;">咨询学员</a>
+                    </div>
+                    <div class="lists">
+                        <a href="javscript:;">佣金核对</a>
+                    </div>
+                </div>
+                <div class="list_box">
+                        <div class="titl">
+                            <span class="jian">-</span>
+                            <span>系统设置</span>
+                        </div>
+                        <div class="lists">
+                            <a href="javscript:;">账号充值</a>
+                        </div>
+                        <div class="lists">
+                            <a href="javscript:;">短信充值</a>
+                        </div>
+                        <div class="lists">
+                            <a href="javscript:;">账号管理</a>
+                        </div>
+                    </div>
+            </div>
+            <div class="right_content">
+                <div class="banner_nav">
+                    <a href="学校介绍1-3.html" >基本信息</a>
+                    <a href="学校介绍.html" class="cur">学校介绍</a>
+                    <a href="学校Logo.html">学校Logo</a>
+                    <a href="学校Banner.html">学校Banner</a>
+                </div>
+                <div class="scholl_jie_box">
+                   <div class="title">
+                       <span>广州天琥教育</span>
+                       <a href="编辑机构.html" class="ready">
+                           <img src="../images/bainjia_07.png" alt="">
+                           编辑
+                       </a>
+                   </div>
+                   <div class="scholl_msg_box">
+                        "广州市天琥教育信息咨询有限公司是联合业界经验丰富的专家打造的全新培训机构。是以电脑应用，电脑设计类为主的培训基地，是国家优秀设计师实训基地
+                        .地处广州市高新科技中心天河区，紧邻天河城,太平洋电脑城，华南师范大学、暨南大学。    天琥以电脑应用、设计类培训、设计制作等视觉表现为主要业务，
+                        是广东技术能力强大，培训效果优秀,以作品取胜的培训学校。公司汇集了年青的设计师以及计算机软硬件专家，有着精湛的专业技术水平、作为教育工作者的
+                        社会责任感和敬业精神，我们组建了一支富有梦想、充满活力与激情，同时执行能力超强的队伍，我们的目标是提供一流的广告设计服务，并且打造设计培训
+                        业的超值版。开创以来，天琥在广州设计培训行业中有口皆碑，深得各大高校包括：华南理工大学建筑学院、华南农业大学、华南师范大学、广州美术学院、
+                        中山大学城市规划与建筑学院、广东工业大学、广州大学、仲恺工程农学院、广东商学院及其华商学院、广东轻工职业学院、广东技术师范学院、广东省建设
+                        职业学院、肇庆学院、广东科贸学院、珠海艺术学院、佛山大学、广州大学松田学院、增城学院、华立学院、私立华联、肇庆工商、福建师范等艺术设计师生
+                        的青睐及肯定，长期为华南地区艺术设计行业培养输送了大量优秀的设计师。
+                        <br><br><br><br>
+                        前，天琥设计开设的课程主要有五大类：<br>
+                        1、3D效果图表现类（CAD绘图）<br>
+                        2、平面广告、网页设计类<br>
+                        3、影视广告，建筑动画，MAYA动画类<br>
+                        4、工业产品与家具造型设计类<br>
+                        5、动漫FLASH、游戏设计类<br><br>
+                        
+                        学习模块有近50个，组合灵活，时间充分，个性化的课程设置，配合独创的教学方法，真正实现高效的学习目标。连续几年,培养的华工,华师,华农,广美的毕业生
+                        中,频频拿奖.为广州的设计业增添了不少光彩.获奖人数众多，其中有广美的"吴丽君"同学,以优秀的作品表现概念和表现手法荣获了"全国毕业设计作品一等奖"．我
+                        们的培训对象主要是大中专院校的艺术类学生、师资、各界社会人士以及企业整体培训。目前，我公司已为各市政工程，各大设计院，广告公司以及专业院校培
+                        养并输送了大批优秀的专业人才．由“3D第一人柳絮”亲自创办的“设计实战基地”，成功地和学员们完成了“奥林匹克珍藏品中国巡展纪念品开发”设计项目
+                        ，“武汉的虚拟城市建设”和“中山大学古文物修复”等大中型项目。这些业务都运用了目前全国乃至全球高端的三维仿真模拟技术，为培训工作提供了量的实战
+                        机会，凡参加培训的同学都有机会参于设计公司的制作业务，亲身休验制作工程的每个步聚。    十多年来，我们秉承“执着—单纯—专业”的精神，以“感受设
+                        计、体验快乐”为教学宗旨，在行业内倍受赞誉。     天琥培训中心热诚欢迎你加入我们的团体，与我们共同体验学习与设计的快乐！"
+                        
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/jquery.js"></script>
+    <script src="../js/layer.js"></script>
+    <script src="../js/area.js"></script>
+    <script src="../js/all.js"></script>
+    <script src="../js/all2.js"></script>
+    <script src="../js/plugin/select.js"></script>
+    <script src="../js/My97DatePicker/WdatePicker.js"></script>
+    <script src="../js/plugin/scrollBar.js"></script>
+    <script>
+        $(".label-selec").click(function () {
+            $(".fill-types").show();
+        });
+        $(".fill-types .right-select a").click(function () {
+            $(".fill-types").hide();
+        });
+        $(".recruit_searchCondition .inputdiv2").mouseleave(function () {
+            $(".fill-types").hide();
+        });
+        VitaeSource();
+        Vitaeclick();
+        //收起筛选条件
+        $(".recruit_searchCondition .tollger").click(function () {
+            if ($(this).hasClass("cur")) {
+                $(this).removeClass("cur");
+                $(this)
+                    .parent()
+                    .css("borderBottom", "1px dashed #e4e4e4");
+                $(this)
+                    .children("span")
+                    .text("收起筛选")
+                    .removeClass("cur");
+                $(this)
+                    .children("i")
+                    .removeClass("cui");
+                $(".tollger-box").show();
+            } else {
+                $(this).addClass("cur");
+                $(this)
+                    .parent()
+                    .css("borderBottom", "none");
+                $(this)
+                    .children("span")
+                    .text("展开筛选")
+                    .addClass("cur");
+                $(this)
+                    .children("i")
+                    .addClass("cui");
+                $(".tollger-box").hide();
+            }
+        });
+
+        $(".recruit_searchCondition .s_condition a").click(function () {
+            $(this)
+                .siblings()
+                .removeClass("cur");
+            $(this).addClass("cur");
+        });
+
+        $(".recruit_searchCondition .line .openbtn").click(function () {
+            if ($(this).hasClass("cur")) {
+                $(this).removeClass("cur");
+                $(this).html("更多岗位<i></i>");
+                $(this)
+                    .siblings(".alist")
+                    .css("height", "33px");
+            } else {
+                $(this).addClass("cur");
+                $(this).html("收起<i></i>");
+                $(this)
+                    .siblings(".alist")
+                    .css("height", "auto");
+            }
+        });
+
+        //单选
+        $(".right-content .class-table td.sele-one i").click(function () {
+            if ($(this).hasClass("cur")) {
+                $(this).removeClass("cur");
+                $(".right-content .class-table th.sele-all i").removeClass("cur");
+                $(".right-content .t_foot .leftbox .icon").removeClass("cur");
+            } else {
+                $(this).addClass("cur");
+            }
+        });
+
+        //全选
+        $(".right-content .class-table th.sele-all i").click(function () {
+            if ($(this).hasClass("cur")) {
+                $(this).removeClass("cur");
+                $(".right-content .class-table td.sele-one i").removeClass("cur");
+                $(".right-content .t_foot .leftbox .icon").removeClass("cur");
+            } else {
+                $(this).addClass("cur");
+                $(".right-content .class-table td.sele-one i").addClass("cur");
+                $(".right-content .t_foot .leftbox .icon").addClass("cur");
+            }
+        });
+    </script>
+</body>
+
+</html>

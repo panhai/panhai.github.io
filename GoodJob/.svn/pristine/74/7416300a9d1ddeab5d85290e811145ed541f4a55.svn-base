@@ -1,0 +1,751 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>企业中心-校企合作-校企合作邀请</title>
+<link rel="stylesheet" type="text/css" href="../css/v2/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/CCenter/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/CCenter/cooperate.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/plugin/CitiesPicker.css">
+</head>
+
+<body>
+<div class="HEADER"><div class="common">
+	<div class="TOP-LOGO"><a href="#"><img src="../images/v2/logo-s.jpg" width="119" height="62"></a></div>
+    <div class="TOP-TOOLS">
+    	Admin, <a href="#">退出</a>&nbsp;&nbsp;&nbsp;<a href="#">个人中心</a>&nbsp;&nbsp;&nbsp;<a href="#">反馈</a>&nbsp;&nbsp;&nbsp;<a href="#">HR帮助</a>
+    </div>
+    <ul class="TOP-NAV">
+    	<li><a href="new-index.html" class="cur">首页</a></li>
+    	<li><a href="new-publish.html">发布职位</a></li>
+    	<li><a href="new-profile.html">企业资料</a></li>
+    	<li><a href="new-hrfavors.html">HR收藏夹</a></li>
+    	<li><a href="new-settings.html">账号管理</a></li>
+    </ul>
+</div></div>
+
+<div class="Main common">
+	<div class="Left">
+    	<a href="new-publish.html" class="Publish">发布新职位</a>
+        <div class="LeftNav">
+            <h3>简历管理</h3>
+            <p>
+                <a href="new-index-resume-newcome.html"><span>未处理简历</span><i>30</i></a>
+                <a href="new-index-resume-invited.html"><span>已邀请面试</span><i>30</i></a>
+                <a href="new-index-resume-confirmed.html"><span>已确认面试</span><i>30</i></a>
+                <a href="new-index-resume-notmatch.html"><span>不合适简历</span><i>30</i></a>
+                <a href="new-index-resume-stores.html"><span>企业人才库</span><i>30</i></a>
+            </p>
+            <h3>职位管理</h3>
+            <p>
+                <a href="new-index-job-published.html"><span>已发布职位</span><i>30</i></a>
+                <a href="new-index-job-checking.html"><span>审核中职位</span><i>30</i></a>
+                <a href="new-index-job-stopped.html"><span>已暂停职位</span><i>30</i></a>
+            </p>
+            <h3>校企合作</h3>
+            <p>
+                <a href="new-index-cooperate.html" class="cur"><span>学校合作邀请</span><i>30</i></a>
+                <a href="new-index-cooperate-sent.html"><span>发出的邀请</span><i>30</i></a>
+                <a href="new-index-cooperate-received.html"><span>收到的申请</span><i>30</i></a>
+                <a href="new-index-cooperate-schools.html"><span>已达成合作</span><i>30</i></a>
+            </p>
+        </div>
+    </div>
+	<div class="Right">
+        <dl class="Intro">
+            <dt>
+                <h1>校企合作邀请<small>（共6份）</small></h1>
+                <a href="#" class="refresh">刷新</a>
+            </dt>
+        </dl>
+        <div class="Filters float-left">
+            <dl class="CitiesPicker SELECT" data-matches="5" data-init='egnore'>
+                <input type="hidden">
+                <dt><span><!--<input type="text" value="" data-list="arrow" data-init="true">--></span><i></i></dt>
+                <dd>
+                    <div class="CitiesHot">
+                        <h5>热门城市（可直接选择城市或输入城市拼音/简拼）</h5>
+                        <div class="cities">
+                            <a data-id=''>不限</a><a data-id="271000">广州</a><a data-id="271200">深圳</a><a data-id="171000">上海</a><a data-id="272600">东莞</a><a data-id="271500">佛山</a><a data-id="101000">北京</a><a data-id="261000">长沙</a><a data-id="251000">武汉</a><a data-id="191000">杭州</a><a data-id="181000">南京</a><a data-id="211000">福州</a><a data-id="272700">中山</a><a data-id="272000">惠州</a><a data-id="271300">珠海</a><a data-id="201000">合肥</a><a data-id="301000">成都</a><a data-id="231000">济南</a><a data-id="271700">湛江</a><a data-id="262200">娄底</a><a data-id="261100">株洲</a><a data-id="261900">郴州</a><a data-id="271100">韶关</a><a data-id="311000">贵阳</a><a data-id="261300">衡阳</a><a data-id="221000">南昌</a><a data-id="301900">乐山</a><a data-id="211400">泉州</a><a data-id="302000">南充</a><a data-id="261200">湘潭</a><a data-id="241000">郑州</a><a data-id="302300">广安</a><a data-id="301500">绵阳</a><a data-id="301400">德阳</a><a data-id="211100">厦门</a><a data-id="271600">江门</a><a data-id="111000">天津</a><a data-id="331000">西安</a><a data-id="272200">汕尾</a><a data-id="272300">河源</a><a data-id="391200">桂林</a><a data-id="181100">无锡</a><a data-id="251300">宜昌</a>
+                        </div>
+                    </div>
+                    <div class="CitiesQuery">
+                        <div class="tip">d，若缩小范围，请输入全拼</div>
+                        <div class="matches" data-list="datas">
+                            <!--<a data-id="">广东</a>-->
+                        </div>
+                    </div>
+                </dd>
+            </dl>
+            <div class="Keywords">
+                <pre class="text-container"><input type="text" class="text" placeholder="请输入关键词搜索" data-init="true"></pre>
+                <input type="button" class="submit" value="搜索">
+            </div>
+        </div>
+        <dl class="Pushes">
+            <dt><b>广州</b>-热门推荐<small>（选择类别，搜索相关学校）</small></dt>
+            <dd>
+            	<a href="#"><span>商务英语商务英语</span></a>
+                <a href="#"><span>焊工</span></a>
+                <a href="#"><span>网页设计</span></a>
+                <a href="#"><span>礼仪</span></a>
+                <a href="#"><span>Java</span></a>
+            	<a href="#"><span>商务英语商务英语</span></a>
+                <a href="#"><span>焊工</span></a>
+                <a href="#"><span>网页设计</span></a>
+                <a href="#"><span>礼仪</span></a>
+                <a href="#"><span>Java</span></a>
+                <div class="clear"></div>
+            </dd>
+        </dl>
+        <dl class="Professions">
+        	<dt class="tabs"><h2 class="cur">技能培训机构</h2><h2>中专/技校</h2></dt>
+            <dd class="contents">
+            	<table class="Skills conts"><tr>
+                	<th width="220">
+                    	<h3 class="cur">电钳工/服装/印刷</h3>
+                        <h3>维修/驾驶</h3>
+                        <h3>烹饪/餐饮</h3>
+                        <h3>美容/护理/医学保健</h3>
+                        <h3>设计/IT/电脑</h3>
+                        <h3>金融/建筑/贸易</h3>
+                        <h3>外语/行业英语/小语种</h3>
+						<h3>企业管理</h3>
+						<h3>更多</h3>
+                    </th>
+                    <td>
+                    <div class="lists">
+                    	<div>
+                        	<h4><b>电工/钳工</b></h4>
+                            <p>
+                                <a href="new-index-cooperate-schools-list.html?sub=电工">电工</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=焊工">焊工</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=高压电工">高压电工</a> 
+                                <a href="new-index-cooperate-schools-list.html?sub=电梯工">电梯工</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=钳工">钳工</a>
+                            </p>
+                        </div>
+                    	<div>
+                        	<h4><b>服装/模具/印刷</b></h4>
+                            <p>
+                                <a href="new-index-cooperate-schools-list.html?sub=服装设计">服装设计</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=服装裁剪">服装裁剪</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=服装打版">服装打版</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=服装营销">服装营销</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=数控机床">数控机床</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=模具设计">模具设计</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=PCB设计">PCB设计</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=CTP印前工程师">CTP印前工程师</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="lists">
+                    	<div>
+                        	<h4><b>维修技能</b></h4>
+                            <p>
+                                <a href="new-index-cooperate-schools-list.html?sub=汽车维修">汽车维修</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=汽车美容">汽车美容</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=汽车音响改装">汽车音响改装</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=机电维修">机电维修</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=制冷维修">制冷维修</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=办公设备维修">办公设备维修</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=家电维修">家电维修</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=电脑维修">电脑维修</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=手机维修">手机维修</a>
+                            </p>
+                        </div>
+                    	<div>
+                        	<h4><b>驾驶技能</b></h4>
+                            <p>
+                                <a href="new-index-cooperate-schools-list.html?sub=叉车">叉车</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=吊车">吊车</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=拖车">拖车</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=铲车">铲车</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=挖掘机">挖掘机</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=装载机">装载机</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=船舶驾驶">船舶驾驶</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="lists">
+                    	<div>
+                        	<h4><b>烹饪/餐饮</b></h4>
+                            <p>
+                                <a href="new-index-cooperate-schools-list.html?sub=厨师">厨师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=西餐">西餐</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=料理">料理</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=烧腊卤水">烧腊卤水</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=面点师">面点师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=糖水小吃">糖水小吃</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=寿司">寿司</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=调酒师">调酒师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=品酒师">品酒师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=咖啡师">咖啡师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=茶艺师">茶艺师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=烹饪酒店管理">烹饪酒店管理</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="lists">
+                    	<div>
+                        	<h4><b>美容/化妆/护理</b></h4>
+                            <p>
+                                <a href="new-index-cooperate-schools-list.html?sub=美容">美容</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=中医美容">中医美容</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=美发">美发</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=美甲">美甲</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=美体">美体</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=化妆">化妆</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=彩妆造型">彩妆造型</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=形象设计">形象设计</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=中医养生">中医养生</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=保健按摩">保健按摩</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=按摩足疗">按摩足疗</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=针灸">针灸</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=针灸推拿师">针灸推拿师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=纹绣">纹绣</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=影楼">影楼</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=店面管理">店面管理</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=宠物美容护理">宠物美容护理</a>
+                            </p>
+                        </div>
+                    	<div>
+                        	<h4><b>医学保健</b></h4>
+                            <p>
+                                <a href="new-index-cooperate-schools-list.html?sub=健康管理师">健康管理师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=心理咨询师">心理咨询师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=中医推拿师">中医推拿师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=中医师">中医师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=心理保健师">心理保健师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=保健按摩师">保健按摩师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=公共营养师">公共营养师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=康复理疗师">康复理疗师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=芳疗师">芳疗师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=催乳师">催乳师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=执业药师">执业药师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=执业医师">执业医师</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="lists">
+                    	<div>
+                        	<h4><b>设计</b></h4>
+                            <p>
+                                <a href="new-index-cooperate-schools-list.html?sub=平面设计">平面设计</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=广告设计">广告设计</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=网页设计">网页设计</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=游戏设计">游戏设计</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=动漫设计">动漫设计</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=影视设计">影视设计</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=动画设计">动画设计</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=室内设计">室内设计</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=景观设计">景观设计</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=建筑设计">建筑设计</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=陈列设计">陈列设计</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=产品设计">产品设计</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=珠宝设计">珠宝设计</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=模具设计">模具设计</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=鞋样设计">鞋样设计</a>
+                            </p>
+                        </div>
+                    	<div>
+                        	<h4><b>程序开发</b></h4>
+                            <p>
+                                <a href="new-index-cooperate-schools-list.html?sub=IOS">IOS</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=Android">Android</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=JAVA">JAVA</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=C/C++">C/C++</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=PHP">PHP</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=ASP">ASP</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=C#">C#</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=Delphi">Delphi</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=Oracle">Oracle</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=软件开发">软件开发</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=数据库">数据库</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=手机开发">手机开发</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=信息安全工程师">信息安全工程师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=系统需求分析师">系统需求分析师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=网络工程师">网络工程师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=嵌入式">嵌入式</a>
+                            </p>
+                        </div>
+                    	<div>
+                        	<h4><b>电脑应用</b></h4>
+                            <p>
+                                <a href="new-index-cooperate-schools-list.html?sub=办公应用">办公应用（好学校：办公软件）</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=电脑基础">电脑基础</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=电子商务">电子商务</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=速录">速录</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=软件测试">软件测试</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=网络技术">网络技术</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="lists">
+                    	<div>
+                        	<h4><b>财会金融</b></h4>
+                            <p>
+                                <a href="new-index-cooperate-schools-list.html?sub=会计电算化">会计电算化</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=会计实务">会计实务</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=特许公认会计师ACCA">特许公认会计师ACCA</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=国际注册会计师">国际注册会计师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=注册会计师">注册会计师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=注册税务师">注册税务师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=资产评估师">资产评估师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=鉴定估价师">鉴定估价师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=特许金融分析师CFA">特许金融分析师CFA</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=理财规划师">理财规划师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=银行从业">银行从业</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=基金从业">基金从业</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=证券从业">证券从业</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=证券经纪人">证券经纪人</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=期货从业">期货从业</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=保险从业">保险从业</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=经济师">经济师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=精算师">精算师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=审计师">审计师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=统计师">统计师</a>
+                            </p>
+                        </div>
+                    	<div>
+                        	<h4><b>工程/建筑类</b></h4>
+                            <p>
+                                <a href="new-index-cooperate-schools-list.html?sub=建筑五大员">建筑五大员</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=建造师">建造师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=造价工程师">造价工程师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=监理工程师">监理工程师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=安全工程师">安全工程师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=咨询工程师">咨询工程师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=结构工程师">结构工程师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=岩土工程师">岩土工程师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=房地产估价师">房地产估价师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=土地估价师">土地估价师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=房地产经纪人">房地产经纪人</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=房地产策划师">房地产策划师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=注册测绘师">注册测绘师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=注册计量师">注册计量师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=弱电工师">弱电工师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=造价员">造价员</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=预算员">预算员</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=招标师">招标师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=城市规划师">城市规划师</a>
+                            </p>
+                        </div>
+                    	<div>
+                        	<h4><b>管理/贸易类</b></h4>
+                            <p>
+                                <a href="new-index-cooperate-schools-list.html?sub=人力资源师">人力资源师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=项目管理师">项目管理师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=酒店管理师">酒店管理师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=工商管理师">工商管理师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=物流师">物流师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=电子商务师">电子商务师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=营销师">营销师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=策划师">策划师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=采购师">采购师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=企业培训师">企业培训师</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=报关员">报关员</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=跟单员">跟单员</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=货代员">货代员</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=报检员">报检员</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=内审员">内审员</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=外审员">外审员</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=单证员">单证员</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=外销员">外销员</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=物业管理">物业管理</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=客户关系管理">客户关系管理</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=食品安全管理">食品安全管理</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=信用管理">信用管理</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=会展管理">会展管理</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=职业经理人">职业经理人</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=职业指导师">职业指导师</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="lists">
+                    	<div>
+                        	<h4><b>外语翻译</b></h4>
+                            <p>
+                                <a href="new-index-cooperate-schools-list.html?sub=英语笔译">英语笔译</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=英语翻译">英语翻译</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=英语口译">英语口译</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=同声传译">同声传译</a>
+                            </p>
+                        </div>
+                    	<div>
+                        	<h4><b>行业英语</b></h4>
+                            <p>
+                                <a href="new-index-cooperate-schools-list.html?sub=商务英语(BEC)">商务英语(BEC)</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=外贸英语">外贸英语</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=服装英语">服装英语</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=旅游英语">旅游英语</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=面试英语">面试英语</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=金融英语">金融英语</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=影视英语">影视英语</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=酒店英语">酒店英语</a>
+                            </p>
+                        </div>
+                    	<div>
+                        	<h4><b>小语种</b></h4>
+                            <p>
+                                <a href="new-index-cooperate-schools-list.html?sub=日语">日语</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=德语">德语</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=法语">法语</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=阿拉伯语">阿拉伯语</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=越南语">越南语</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=葡萄牙语">葡萄牙语</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=匈牙利语">匈牙利语</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=波兰语">波兰语</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=荷兰语">荷兰语</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=意大利语">意大利语</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=西班牙语">西班牙语</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=瑞典语">瑞典语</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=波斯语">波斯语</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=韩语">韩语</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=俄语">俄语</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=印尼语">印尼语</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=印度语">印度语</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=缅甸语">缅甸语</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=土耳其语">土耳其语</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=泰语">泰语</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=马来西亚语">马来西亚语</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=对外汉语">对外汉语</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="lists">
+                    	<div>
+                        	<h4><b>企业管理</b></h4>
+                            <p>
+                                <a href="new-index-cooperate-schools-list.html?sub=总裁管理">总裁管理（好学校：总裁管理研修）</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=总监管理">总监管理（好学校：总监管理研修）</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=财务总监(CFO)">财务总监(CFO)</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=财务管理">财务管理</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=品牌管理">品牌管理</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=项目管理">项目管理</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=生产管理">生产管理</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=经营管理">经营管理</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=采购管理">采购管理</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=文化管理">文化管理</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=供应链管理">供应链管理</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=客户管理">客户管理</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=客户服务">客户服务</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=高级经理人">高级经理人（好学校：高级经理人研修）</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=人力资源">人力资源</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=拓展训练">拓展训练</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=市场营销">市场营销</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="lists">
+                    	<div>
+                        	<h4><b>更多</b></h4>
+                            <p>
+                                <a href="new-index-cooperate-schools-list.html?sub=模特">模特</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=礼仪">礼仪（好学校：礼仪培训）</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=演艺">演艺（好学校：演艺培训）</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=播音主持">播音主持</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=DJ音控">DJ音控</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=PLC设计">PLC设计</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=摄影">摄影（好学校：摄影培训）</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=心理学/NLP">心理学/NLP</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=眼镜验光">眼镜验光（好学校：眼睛培训）</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=窗帘布艺">窗帘布艺（好学校：窗帘培训）</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=插花">插花</a>
+                                <a href="new-index-cooperate-schools-list.html?sub=风水八字">风水八字</a>
+                            </p>
+                        </div>
+                    </div>
+                    <!--以此类推-->
+                    </td>
+                </tr></table>
+                <div class="Other conts">
+                	<h5><a href="new-index-cooperate-schools-list.html?sub=中专">中专</a></h5>
+                    <h5><a href="new-index-cooperate-schools-list.html?sub=中技">中技</a></h5>
+                    <h5><a href="new-index-cooperate-schools-list.html?sub=职业学校">职业学校</a></h5>
+                    <h5><a href="new-index-cooperate-schools-list.html?sub=职业中学">职业中学</a></h5>
+                    <h5><a href="new-index-cooperate-schools-list.html?sub=技师">技师</a></h5>
+                    <h5><a href="new-index-cooperate-schools-list.html?sub=高技">高技</a></h5>
+                    <div class="clear"></div>
+                </div>
+            </dd>
+        </dl>
+	</div>
+	<div class="clear"></div>
+</div>
+
+<table class="FullScreenPlugin fixed fixed-top black5"><tr><td>
+	<div class="WarmTip"><a>知道了</a><q></q></div>
+</td></tr></table>
+
+
+<div class="ResumePushIcon fixed fixed-top"></div>
+<table class="FullScreenPlugin fixed fixed-top black5 hidden"><tr><td>
+	<div class="ResumePush">
+    	<q></q>
+        <table class="ResumePushList">
+        	<caption>惊喜来了，好工作为你送来优质简历推荐，赶紧看看吧，过期就没有了！</caption>
+        	<tr class="bg">
+            	<td width="140"><a href="#"><img src="../images/v2/job-logo.jpg" width="106" height="102"></a></td>
+                <td width="260"><a href="#" class="profile">
+                	<h4>张宇英<small>女/2年/本科</small></h4>
+                    <p>信用度：<samp>80</samp></p>
+                   
+                </a></td>
+                <td width="190" class="timetip">
+                	<span class="rest">剩余处理时间：</span>
+                    <span class="time">1天2小时20分</span>
+                </td>
+                <td class="options">
+                	<a href="#" class="invite" data-id="" data-name="">发面试邀请</a>
+                    <a href="#" class="notmatch" data-id="" data-name="">不合适</a>
+                </td>
+            </tr>
+        	<tr>
+            	<td width="140"><a href="#"><img src="../images/v2/job-logo.jpg" width="106" height="102"></a></td>
+                <td width="260"><a href="#" class="profile">
+                	<h4>张宇英<small>女/2年/本科</small></h4>
+                    
+                    <p>信用度：<samp>80</samp></p>
+                </a></td>
+                <td width="190" class="timetip">
+                	<span class="rest">剩余处理时间：</span>
+                    <span class="time">1天2小时20分</span>
+                </td>
+                <td class="options">
+                	<a href="#" class="invite" data-id="" data-name="">发面试邀请</a>
+                    <a href="#" class="notmatch" data-id="" data-name="">不合适</a>
+                </td>
+            </tr>
+        	<tr class="bg">
+            	<td width="140"><a href="#"><img src="../images/v2/job-logo.jpg" width="106" height="102"></a></td>
+                <td width="260"><a href="#" class="profile">
+                	<h4>张宇英<small>女/2年/本科</small></h4>
+                    <p>信用度：<samp>80</samp></p>
+                </a></td>
+                <td width="190" class="timetip">
+                	<span class="rest">剩余处理时间：</span>
+                    <span class="time">1天2小时20分</span>
+                </td>
+                <td class="options">
+                	<a href="#" class="invite" data-id="" data-name="">发面试邀请</a>
+                    <a href="#" class="notmatch" data-id="" data-name="">不合适</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+</td></tr></table>
+
+<table class="FullScreenPlugin fixed fixed-top CenterDivContainer"><tr><td>
+	<dl class="CENTERDIV ResumePush" data-active=".ResumePushIcon">
+    	<dt>惊喜来了，好工作为你送来优质简历推荐，赶紧看看吧，过期就没有了！<q></q></dt>
+        <dd>
+            <table class="ResumePushList">
+                <tr class="bg">
+                    <td width="140"><a href="#"><img src="../images/v2/job-logo.jpg" width="106" height="102"></a></td>
+                    <td width="260"><a href="#" class="profile">
+                        <h4>张宇英<small>女/2年/本科</small></h4>
+                        <p>信用度：<samp>80</samp></p>
+                        <p>推荐职位：<span class="profile_color">APP新媒体运营专员</span></p>
+                    </a></td>
+                    <td width="190" class="timetip">
+                        <span class="rest">剩余处理时间：</span>
+                        <span class="time">1天2小时20分</span>
+                    </td>
+                    <td class="options">
+                        <a href="javascript:void(0)" class="invite" data-id="" data-name="">发面试邀请</a>
+                        <a href="javascript:void(0)" class="nomatch" data-id="" data-name="">不合适</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="140"><a href="#"><img src="../images/v2/job-logo.jpg" width="106" height="102"></a></td>
+                    <td width="260"><a href="#" class="profile">
+                        <h4>张宇英<small>女/2年/本科</small></h4>
+                        <p>信用度：<samp>80</samp></p>
+                        <p>推荐职位：<span class="profile_color">APP新媒体运营专员</span></p>
+                    </a></td>
+                    <td width="190" class="timetip">
+                        <span class="rest">剩余处理时间：</span>
+                        <span class="time">1天2小时20分</span>
+                    </td>
+                    <td class="options">
+                        <a href="javascript:void(0)" class="invite" data-id="" data-name="">发面试邀请</a>
+                        <a href="javascript:void(0)" class="nomatch" data-id="" data-name="">不合适</a>
+                    </td>
+                </tr>
+                <tr class="bg">
+                    <td width="140"><a href="#"><img src="../images/v2/job-logo.jpg" width="106" height="102"></a></td>
+                    <td width="260"><a href="#" class="profile">
+                        <h4>张宇英<small>女/2年/本科</small></h4>
+                        <p>信用度：<samp>80</samp></p>
+                        <p>推荐职位：<span class="profile_color">APP新媒体运营专员</span></p>
+                    </a></td>
+                    <td width="190" class="timetip">
+                        <span class="rest">剩余处理时间：</span>
+                        <span class="time">1天2小时20分</span>
+                    </td>
+                    <td class="options">
+                        <a href="javascript:void(0)" class="invite" data-id="" data-name="">发面试邀请</a>
+                        <a href="javascript:void(0)" class="nomatch" data-id="" data-name="">不合适</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="140"><a href="#"><img src="../images/v2/job-logo.jpg" width="106" height="102"></a></td>
+                    <td width="260"><a href="#" class="profile">
+                        <h4>张宇英<small>女/2年/本科</small></h4>
+                        <p>信用度：<samp>80</samp></p>
+                        <p>推荐职位：<span class="profile_color">APP新媒体运营专员</span></p>
+                    </a></td>
+                    <td width="190" class="timetip">
+                        <span class="rest">剩余处理时间：</span>
+                        <span class="time">1天2小时20分</span>
+                    </td>
+                    <td class="options">
+                        <a href="javascript:void(0)" class="invite" data-id="" data-name="">发面试邀请</a>
+                        <a href="javascript:void(0)" class="nomatch" data-id="" data-name="">不合适</a>
+                    </td>
+                </tr>
+                <tr class="bg">
+                    <td width="140"><a href="#"><img src="../images/v2/job-logo.jpg" width="106" height="102"></a></td>
+                    <td width="260"><a href="#" class="profile">
+                        <h4>张宇英<small>女/2年/本科</small></h4>
+                        <p>信用度：<samp>80</samp></p>
+                        <p>推荐职位：<span class="profile_color">APP新媒体运营专员</span></p>
+                    </a></td>
+                    <td width="190" class="timetip">
+                        <span class="rest">剩余处理时间：</span>
+                        <span class="time">1天2小时20分</span>
+                    </td>
+                    <td class="options">
+                        <a href="javascript:void(0)" class="invite" data-id="" data-name="">发面试邀请</a>
+                        <a href="javascript:void(0)" class="nomatch" data-id="" data-name="">不合适</a>
+                    </td>
+                </tr>
+            </table>
+        </dd>
+    </dl>
+    <dl class="CENTERDIV CenterLarge Invitation" data-active=".options a:first-child" data-attrs="id,name" data-init="false">
+        <dt class="CENTERTOPIC"><b>发面试邀请</b><q></q></dt>
+        <dd class="CENTERCONTENT">
+        	<table class="CenterForm">
+            	<caption>
+                	<p>可用余额：<b>300.00</b>&nbsp;&nbsp;&nbsp;&nbsp;邀请耗费：<b>600.00</b><del>（如已查看联系方式，则不扣费）</del></p>
+                    <a href="new-other-charge.html">充值</a>
+                </caption>
+                <tbody>
+                	<tr><th width="110">收件人：</th><td width="480"><em data-attr="name">张腾</em></td></tr>
+                	<tr><th>面试时间：</th><td>
+                    	<input type="text" class="text t-m Date" value="2016-02-26">
+                    	<dl class="SELECT Hour s-s" data-autofill="8,20,1" data-child=".Minute">
+                            <input type="hidden" value="19">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal"></dd>
+                        </dl>
+                        <ins>：</ins>
+                    	<dl class="SELECT Minute s-s" data-autofill="0,50,10">
+                            <input type="hidden" value="10">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal"></dd>
+                        </dl>
+                        <code class="form-tip successMsg"></code>
+                        <!--<code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>-->
+                    </td></tr>
+                	<tr><th>选择模版：</th><td>
+                    	<dl class="SELECT s-l Templates">
+                        	<input type="hidden">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal">
+                            	<a data-id="1">模版一</a>
+                            	<a data-id="2">模版二</a>
+                            	<a data-id="3">模版三</a>
+                            </dd>
+                        </dl>
+                        <a href="new-settings-templates.html" target="_blank" class="link">模版管理</a>
+                    </td></tr>
+                	<tr><th>联系人：</th><td>
+                    	<div class="AuthorDiv">
+                            <input type="text" class="text t-s Author" value="浩斌">
+                            <!--<code class="form-tip successMsg"></code>-->
+                            <code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>
+                        </div>
+                        <div class="TelDiv">
+                            <ins>电话：</ins>
+                            <input type="text" class="text t-m Tel" value="13632293773">
+                            <!--<code class="form-tip successMsg"></code>-->
+                            <code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>
+                        </div>
+                    </td></tr>
+                	<tr><th>面试地址：</th><td>
+                    	<input type="text" class="text t-l Address" value="广州天河区建业路华翠街68号仙湖名苑202G">
+                        <!--<code class="form-tip successMsg"></code>-->
+                        <code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>
+                    </td></tr>
+                	<tr><th>邀请内容：</th><td>
+                    	<textarea class="Content"></textarea>
+                        <!--<code class="form-tip successMsg"></code>-->
+                        <code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>
+                    </td></tr>
+                    <tr><th></th><td><p class="tip">确定发送后，好工作将同时代发<b>面试邀请邮件</b>至求职者邮箱</p></td></tr>
+                	<tr><th></th><td class="CENTERBTNS">
+                        <input type="button" class="submit" value="发送邀请">
+                        <input type="button" class="reset" value="取消">
+                    </td></tr>
+                </tbody>
+            </table>
+        </dd>
+	</dl>
+    <dl class="CENTERDIV CenterLarge NotMatch" data-attrs="id,name" data-active=".options a:last-child">
+    	<dt class="CENTERTOPIC"><b>不合适</b><q></q></dt>
+        <dd class="CENTERCONTENT">
+        	<table class="CenterForm">
+            	<caption><h6 class="single">确认不合适后将求职者发送拒绝通知。</h6></caption>
+                <tbody>
+                	<tr><th width="110">收件人：</th><td width="480"><em data-attr="name">张腾</em></td></tr>
+                	<tr><th>选择模版：</th><td>
+                    	<dl class="SELECT s-l Templates">
+                        	<input type="hidden">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal">
+                            	<a data-id="1">模版一</a>
+                            	<a data-id="2">模版二</a>
+                            	<a data-id="3">模版三</a>
+                            </dd>
+                        </dl>
+                        <a href="new-settings-templates.html" target="_blank" class="link">模版管理</a>
+                    </td></tr>
+                	<tr><th>通知内容：</th><td>
+                    	<textarea class="Content"></textarea>
+                        <code class="form-tip successMsg"></code>
+                        <!--<code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>-->
+                    </td></tr>
+                	<tr><th></th><td class="CENTERBTNS">
+                        <input type="button" class="submit" value="确定不合适">
+                        <input type="button" class="reset" value="取消">
+                    </td></tr>
+                </tbody>
+            </table>
+        </dd>
+    </dl>
+</td></tr></table>
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/v2/all.js"></script>
+<script src="../js/v2/CCenter/all.js"></script>
+<script src="../js/plugin/raphael.js"></script>
+<script src="../js/area.js"></script>
+<script src="../js/effect/bg.js"></script>
+<script src="../js/plugin/CenterDiv.js"></script>
+<script src="../js/plugin/CitiesPicker.js"></script>
+<script src="../js/effect/tab.js"></script>
+<script>
+$(function(){
+	CHItab(".Professions",".tabs h2",".contents .conts",{way:'click'});
+	CHItab(".Skills","th h3","td .lists");
+	$(".WarmTip").find("a,q").click(function(){
+		$(this).closest(".FullScreenPlugin").fadeOut();
+	});
+});
+$(window).load(function(){
+});
+</script>

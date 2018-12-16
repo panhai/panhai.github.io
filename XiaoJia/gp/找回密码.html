@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>找回密码</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" href="../css/all.css">
+		<link rel="stylesheet" href="../css/validate.css">
+		<style>
+			body {
+				background-color: #f9fbfd;
+			}
+			
+			.golin {}
+			
+			.golin_top {
+				height: 52px;
+				line-height: 52px;
+				background-color: #fcfcfc;
+				box-shadow: 0px 2px 6px 0px #e8f0f8;
+				clear: both;
+			}
+			
+			.golin_top>img {
+				margin-left: 19px;
+			}
+			
+			.golin_top img,
+			.golin_top span {
+				vertical-align: middle;
+			}
+			
+			.golin_top>span {
+				font-size: 16px;
+				color: #666666;
+				position: relative;
+				top: 6px;
+				left: 9px;
+			}
+			
+			.phone {
+				float: right;
+				text-align: left;
+				line-height: 52px;
+				height: 52px;
+				margin-right: 35px;
+			}
+			
+			.phone img,
+			.phone span {
+				vertical-align: middle;
+				margin-right: 9px;
+			}
+			
+			.box {
+				position: fixed;
+				left: 0;
+				right: 0;
+				top: 0;
+				bottom: 0;
+				margin: auto;
+				width: 686px;
+				height: 430px;
+				background-color: #ffffff;
+				box-shadow: 0px 1px 6px 0px rgba(224, 224, 224, 0.75);
+				border-radius: 4px;
+				box-sizing: border-box;
+			}
+			
+			.line {
+				height: 4px;
+				;
+				background-color: #358ee9;
+				border-top-left-radius: 3px;
+				border-top-right-radius: 3px;
+			}
+			
+			.top {
+				text-align: center;
+				margin-top: 31px;
+			}
+			
+			.top img,
+			.top span {
+				vertical-align: middle;
+				font-size: 16px;
+				color: #666666
+			}
+			
+			.from_box table {
+				width: 338px;
+				margin: 0 auto;
+				margin-top: 48px;
+			}
+			
+			.from_box table .one {
+				width: 25%;
+				text-align: right;
+				padding-right: 10px;
+				box-sizing: border-box;
+				color: #888888;
+			}
+			
+			.from_box table .two {
+				text-indent: 5px;
+			}
+			
+			.from_box table .two input {
+				border: none;
+				border-bottom: 1px solid #e4e4e4;
+				display: inline-block;
+				padding-bottom: 8px;
+				width: 100%;
+			}
+			
+			.from_box table .two.duan input {
+				width: 55%;
+			}
+			
+			.from_box table td {
+				padding-bottom: 50px;
+				position: relative;
+			}
+			
+			.submit_btn {
+				width: 301px;
+				height: 48px;
+				background-color: #066cbd;
+				border-radius: 2px;
+				border: none;
+				color: #fff;
+				cursor: pointer;
+				margin: 0 auto;
+				display: block;
+			}
+			
+			.duan a {
+				color: #066cbd;
+				position: absolute;
+				right: 0px;
+				top: -4px;
+				width: 90px;
+				height: 30px;
+				line-height: 30px;
+				text-align: center;
+				border: 1px solid #a7d0f1;
+				border-radius: 5px;
+			}
+			
+			td {
+				position: relative;
+			}
+			
+			.field-validation-error {
+				color: #fb6f12;
+				font-size: 14px;
+				display: block;
+				line-height: 20px;
+				padding-left: 20px;
+				background: url(../images/icon.png) no-repeat;
+				background-position: -4px -211px;
+				background: url(../images/warning-1.png) no-repeat left 50%;
+				-webkit-background-size: auto 80%;
+				background-size: auto 80%;
+			}
+			.field-validation-error span{
+				color: #fb6f12 !important;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<div class="golin">
+			<div class="golin_top">
+				<img src="../images/parseword_logo1.png" alt="">
+				<span>校+运营后台</span>
+				<div class="phone">
+					<span>400-600-3310</span>
+				</div>
+			</div>
+			<div class="box">
+				<div class="line"></div>
+				<div class="top">
+					<img src="../images/password.png" style="height: 23px">
+					<span>找回密码</span>
+				</div>
+
+				<div class="from_box">
+					<table>
+						<tr>
+							<td class="one">手机/邮箱</td>
+							<td class="two">
+								<input type="text" name="" placeholder="请输入手机号码" value="15989223204">
+								<div class="in_e" style="width: 251px;margin: 0 auto;margin-bottom: 3px;display: block;position: absolute;left: 0px;top: 40px;">
+									<span class="field-validation-error" data-valmsg-for="FullName" data-valmsg-replace="true"><span for="FullName" class="">信息不能为空</span></span>
+								</div>
+							</td>
+
+						</tr>
+
+						<tr>
+							<td class="one">验证码</td>
+							<td class="two duan">
+								<input type="text" name="" placeholder="请输入短信验证码">
+								<a href="javascript:;">获取验证码</a>
+								<div class="in_e" style="width: 251px;margin: 0 auto;margin-bottom: 3px;display: block;position: absolute;left: 0px;top: 40px;">
+									<span class="field-validation-error" data-valmsg-for="FullName" data-valmsg-replace="true"><span for="FullName" class="">信息不能为空</span></span>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td class="one">新密码</td>
+							<td class="two">
+								<input type="text" name="" placeholder="请输入新密码" value="63336222">
+								<div class="in_e" style="width: 251px;margin: 0 auto;margin-bottom: 3px;display: block;position: absolute;left: 0px;top: 40px;">
+									<span class="field-validation-error" data-valmsg-for="FullName" data-valmsg-replace="true"><span for="FullName" class="">信息不能为空</span></span>
+								</div>
+							</td>
+						</tr>
+					</table>
+					<div>
+						<button type="submit" class="submit_btn">登  录</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="../js/jquery.js"></script>
+
+		<script>
+			$(function() {
+
+			})
+		</script>
+	</body>
+
+</html>

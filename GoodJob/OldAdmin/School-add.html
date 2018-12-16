@@ -1,0 +1,708 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><title>
+    管理后台
+</title><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta http-equiv="pragma" content="no-cache" /><meta http-equiv="Cache-Control" content="no-cache, must-revalidate" /><meta http-equiv="expires" content="0" />
+    <link href="../css/1024/common.css" rel="stylesheet" type="text/css" />
+    <link href="../css/1024/admin.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../css/v2/all.css" />
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/MD5.js"></script>
+    <script type="text/javascript" src="../js/jbody.js"></script>
+    <script type="text/javascript" src="../js/jbody-plugin.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+    <script type="text/javascript" src="../js/area.js"></script>
+    <script type="text/javascript" src="../js/subjects.js"></script>
+    <script type="text/javascript" src="../js/jobPositions.js"></script>
+    <script type="text/javascript" src="../js/admin/gpAdmin.js"></script>
+    <script type="text/javascript" src="../js/menuControl.js"></script>
+    <script type="text/javascript" src="../js/admin/common.js"></script>
+    <script type="text/javascript" src="../js/selectors.js"></script>
+    
+    <script type="text/javascript" src="../js/UploadFile.js"></script>
+    <script type="text/javascript" src="../js/ManageCtrl.js"></script>
+    <style type="text/css">
+      .education-c{
+        width: 78px;
+        height: 30px;
+        padding-left: 6px;
+        padding-right: 10px;
+        background: url(../images/common/down.png) no-repeat 80px center;
+        border: 1px solid #8d8d8d;
+        border-radius: 4px;
+        text-align: left;
+        line-height: 30px;
+        display: inline-block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      .education{
+        position: relative;
+        z-index: 22;
+        width: 414px;
+       
+        background-color: #fff;
+        border: 1px solid #a9a9a9;
+      }
+      .education-t{
+        position: relative;
+        height: 40px;
+        padding-left: 10px;
+        background: #dddddd;
+        font-size: 14px;
+        font-weight: bold;
+        color:#008c81;
+        line-height: 40px;
+      }
+      .education-m{
+        padding: 6px;
+      }
+      .education-yx{
+        height: 30px;
+        line-height: 30px;
+        padding-left: 6px;
+        background-color: #d9e9ff;
+      }
+      .education-yx div{
+        display: inline-block;
+      }
+      .education-yx div a{
+        display: inline-block;
+        padding: 0 4px;
+        height: 24px;
+        border: 1px solid #ccc;
+        background-color: #fff;
+        text-align: center;
+        line-height: 24px;
+        margin-left: 5px;
+      }
+      .education-t .close{
+            position: absolute;
+            color: #fff;
+            padding: 0px;
+            text-align: center;
+            overflow: hidden;
+            text-decoration: none;
+            cursor: pointer;
+            line-height: 14px;
+            font-family: Arial, Simsun;
+            font-size: 18px;
+            width: 14px;
+            height: 14px;
+            top: 10px;
+            right: 10px;
+            border: 1px solid rgb(164, 199, 238);
+            border-radius: 2px;
+            background-color: #008c81;
+      }
+    .education-xx{
+        
+    }
+    .education-xx ul{
+        padding-bottom: 10px;
+    }
+      .education-xx ul li{
+        float: left;
+        width: 110px;
+        padding-left: 10px;
+        height: 30px;
+        line-height:30px;
+
+      }
+
+      .education-xx ul li span input{
+            vertical-align: middle;
+            margin-right: 4px;
+      }
+        .education-xx ul li span:last-child{
+            margin-right: 0;
+        }
+    .education-btn{
+        width: 240px;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+    .education-qd,
+    .education-qx,
+    .education-bx{
+        display:inline-block;
+        width: 60px;
+        height: 26px;
+        border: 1px solid #eb6900;
+        border-radius: 3px;
+        text-align: center;
+        line-height: 26px;
+        cursor: pointer;
+        margin-right: 10px;
+    }
+    .education-qd{
+        color: #fff;
+        background-color: #fa7e0a;
+    }
+    .education-qx,.education-bx{
+        border: 1px solid #c1c1c1;
+        background-color: #d7d7d7;
+    }
+    </style>
+</head>
+<body>
+    
+
+    
+<div id="pg-header" class="pg-header">
+    <div class="pg-header-main">
+        <div class="logo">
+            <a href="/"><img alt="好工作网Logo" src="../images/logo.png" class="pngfix" width="232" height="40" /></a>
+        </div>
+        <div class="cname">平台管理后台</div>
+        <div class="r mginT10">
+    <div class="platform-switch-container">
+    <div class="platform-switch-main msout">
+        <span class="floatR">切换后台</span>
+        <span class="floatR" style="border:solid 1px #ffc183; line-height:12px; margin-right:5px; padding-left:1px; padding-right:1px;">+</span>
+        <div style="clear:both;"></div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        $(".platform-switch-main").click(function () {
+            JBFrameHelper.showPage("/UCenter/PlatformSwitch.phtml", { obj: this, title: "切换到个人中心或其他管理后台", w: 500, pos: { to: "win", parent: "doc", park: "inside", parkInside: "center" } }, true, false);
+        });
+    })
+</script>
+
+</div>
+    </div>
+</div>
+    
+<div id="pg-nav" class="pg-nav">
+    <ul>
+        <li><div class="nav-title"><a href="#">管理首页</a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">院校<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">企业<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">资讯公告<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">招聘<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">简历<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">用户<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">广告<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">更多<sub></sub></a></div></li>
+    </ul>
+</div>
+<div style="clear:both;"></div>
+<div id="pg-nav-sub" style="display:none;">
+    <div id="pg-nav-sub-inner">
+    <div id="pg-nav-sub-main">
+        <ul style="display:none;">
+            <li><a href="Sum.html">系统概况</a></li>
+            <li><a href="Admin.html">系统功能链接汇总</a></li>
+            <li><a href="#">消息</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="School-cooperation.html">合作院校</a></li>
+            <li><a href="School-hasexpired.html">已到期</a></li>
+            <li><a href="School-expire.html">即将到期</a></li>
+            <li><a href="School-application.html">申请中</a></li>
+            <li><a href="School-mobilization.html">动员中</a></li>
+            <li><a href="School-all.html">全部院校</a></li>
+            <li><a href="School-add.html">添加院校</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Company-application.html">合作企业</a></li>
+            <li><a href="Company-hasexpired.html">已到期</a></li>
+            <li><a href="Company-expire.html">即将到期</a></li>
+            <li><a href="Company-application.html">申请中</a></li>
+            <li><a href="Company-mobilization.html">动员中</a></li>
+            <li><a href="Company-all.html">全部企业</a></li>
+            <li><a href="Company-add.html">添加企业</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Articles.html">管理平台资讯</a></li>
+            <li><a href="Articles.html">管理企业发布的资讯</a></li>
+            <li><a href="Articles.html">管理院校发布的资讯</a></li>
+            <li><a href="Articles.html">添加资讯</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Offers-wait.html">待审核</a></li>
+            <li><a href="Offers-ing.html">正在招聘</a></li>
+            <li><a href="Offers-fulltime.html">全职岗位</a></li>
+            <li><a href="Offers-parktime.html">兼职岗位</a></li>
+            <li><a href="Offers-internship.html">实习岗位</a></li>
+            <li><a href="Offers-school.html">校园招聘</a></li>
+            <li><a href="Offers-public.html">社会招聘</a></li>
+            <li><a href="Offers-all.html">全部</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Resumes.html">企业下载</a></li>
+            <li><a href="Resumes.html">正在求职</a></li>
+            <li><a href="Resumes.html">等待推荐</a></li>
+            <li><a href="Resumes.html">已推荐</a></li>
+            <li><a href="Resumes.html">已面试</a></li>
+            <li><a href="Resumes.html">全部</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="CustmRoles.html">平台管理员角色</a></li>
+            <li><a href="Admin-admin.html">平台管理员</a></li>
+            <li><a href="Admin-school.html">院校方管理员</a></li>
+            <li style="display:none;"><a href="/admin/users/school/">院校方导师</a></li>
+            <li><a href="Admin-company.html">企业方管理员</a></li>
+            <li><a href="Admin-user.html">全部注册用户</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="#">正在投放</a></li>
+            <li><a href="#">已过期</a></li>
+            <li><a href="#">全部</a></li>
+            <li><a href="#">添加广告</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Setting.html">系统设置</a></li>
+            <li><a href="Info.html">个人设置</a></li>
+            <li><a href="Password.html">修改密码</a></li>
+        </ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+    </div>
+    </div>
+</div>
+<div style="clear:both;"></div>
+    <div class="pageMainContentContainer">         
+    <div id="titleAndTabMenuContainer" class="titleAndTabMenuContainer" style="display:none; clear:both;"></div>
+    <div id="titleAndTabMenuContainer2" class="titleAndTabMenuContainer" style="display:none; clear:both;"></div>
+    <iframe id="_postTargetIframe" name="_postTargetIframe" style="display:none;" src="about:blank"></iframe>
+    <form method="post" action="/admin/School/Add.phtml" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="2xsQMJbVkg3OUMJ+ZqPqk8tmusE998QLkqMZ1thGCgyj7YKLtnaICYzVqRWtikK0qnLZ0JgOZFF4hfck9e4HoJ5/6kvU2IvRKpQXNLKOGB3fJWuUzsloyjAl0SOJW0Wo/9Q/jXTZSwi5QfzCouXNliRswGGZVCOYM+TnpB545xbfYIupkMqCvSLjlOZwZKwymSf18nmbQRpBKkfnjdSsuGScjC9vuymH2TS6Q7NXrMWLWxR7xhUkvtxHW7Z5QkOqQM68z27+m+ScB9YDmSTTUFKix76wX+IM+jAYa04d/19YnaItfHuo7oMrH0s602cVZ0SJOpPxd05cgh0zF1TlcQvsut5io9VbvhRhsUU6x+GDaeiESljQYtkHs8v8pWVmrrcF+8pLRAIXuyWPs6rirUyXtXyBld0FY2FJWcoHDxv+uVFPBS2dYUcGL+fZ/mSWf9BsIEQUkP2CyzEgtZjXmVdZkZWn6/2g5/7/+1VgWsW1YrikeH3VgpAjyBkf+fNaVGz7U0zvYRSTMvk+P/Tn41mb6ZutJAbdv/7BqSoIipwecPvTqgfQRXrP4Hp86GLGiSNn8pJQvwHCJa3KelR82xI5asuFsEYv9UPiJ8bpTebPDt7yawbddeoLU7ROozQulvvkhRTSNcAuWHcgmO69Wb8rJ2az0KfaVRk7EFYdW9mZLyDkt0Ykp4ZhZACWnL/Cahvc8qugU+M5IzwtSAVTqrDpeLjsN+JeKQEn8DKVbm/k0B5TjGEV4+IKi+6gDZ/4q7GIjNoYIFiGal1kNyOwtz7LO3g19lyZLUQmpBbAj9dfvtx9CQ7USSoU+83IDGjBFPUjjN9BwpctSC2GDy7Mt75NyKIVWAjS/Kj3jFXJIIJxBE60/AhounClvqehgFGG2Vvkgta437rX9ewy6UhJ4WRlfuYIAf7DJnE6YQ6Jn9/puLdfKbKvnyiT8nHq6l68XmVwy6IJs1GgiVhVH5VDnEinMuW6MOZx7/Vdo86qj1wXGztg0N19EkptIBuEsvnW89A+IqQLqu54+CXa0D4v84mrGUCtn42pySKJLdBc7pGzNS6JwyN5+5U/tnPb/sIxSPTv5bZPazWZvoa8coVnaiJtYvK1jP8B7ynocJjpOZK9/Wv6UtUYH8dFzDH0kwFqcyUAT/2r8RubcSQskwtffzBmL8zRmm19tcAilMPz778J2pityqstRfgMABpCGvcRLwKrC21Ghpg4d8lndZ397+jpFlfBPa5Y//n9X8AsE+bWJBGdYq3b3Zb9jaqbSw0l" />
+</div>
+
+<div class="aspNetHidden">
+
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="497D8CEE" />
+</div>
+    
+     <div class="bodyBlock">
+         <div class="editBlock editable">
+            <div class="detailBlockTitle"><div class="leftIco"></div><div class="left">添加新院校</div></div>
+            <div class="blockMain">
+                <div id="stepTabContainer" style="margin-left:180px;"></div>
+                <table class="blockMainTable mginL20 mginT20" style="width:930px;" id="addStep1Container">
+                    <tr>
+                        <th style="width:150px;">院校简称：</th><td style="width:320px;" colspan="3">
+                            <input name="ctl00$form$TextBoxName" type="text" id="form_TextBoxName" class="inputText" AutoComplete="false" onchange="shortNameIdentChecker.onchange(this)" data-jbextendid="exinput_form_TextBoxName_973_161" data-jbtips="院校简称" style="width:300px;" />
+                            <div style="clear:both; margin-top:8px;"></div>
+                            <span id="nameMsg" style="margin-left:0px;"></span>
+                            <img id="aloadingName" style="display:none;" alt="" src="/images/common/loading/1.gif" />
+                            </td>
+                        <th style="width:100px;">院校全称：</th><td>                              
+                            <input name="ctl00$form$TextBoxFullName" type="text" id="form_TextBoxFullName" class="inputText" AutoComplete="false" onchange="fullNameIdentChecker.onchange(this)" data-jbextendid="exinput_form_TextBoxFullName_545_161" data-jbtips="院校全称" style="width:300px;" />
+                            <div style="clear:both; margin-top:8px;"></div>
+                            <span id="nameFullMsg" style="margin-left:0px;"></span>  
+                            <img id="aloadingFullName" style="display:none;" alt="" src="/images/common/loading/1.gif" />
+                            </td>
+                    </tr>
+                    <tr>
+                        <th>办学类型：</th><td><select name="ctl00$form$DropDownListCreateType" id="form_DropDownListCreateType" style="width:100px;">
+    <option value="1">公办</option>
+    <option value="2">民办</option>
+    <option value="4">公私合营</option>
+    <option value="8">中外合资</option>
+    <option value="16">外国</option>
+    <option value="32">其他</option>
+
+</select>
+                                      </td>
+                        <th style="width:80px;">办学层次：</th><td style="width:140px;">
+                                <select name="ctl00$form$DropDownListTeachType" id="form_DropDownListTeachType" style="width:127px;">
+    <option value="1">博士</option>
+    <option value="2">研究生</option>
+    <option value="4">本科</option>
+    <option value="8">大专</option>
+    <option value="16">大学</option>
+    <option value="32">中专</option>
+    <option value="64">技校</option>
+    <option value="128">职中</option>
+    <option value="256">中学</option>
+    <option value="1024">培训机构</option>
+    <option value="2048">社会机构</option>
+    <option value="4096">其他</option>
+
+</select>
+                            <div style="clear:both; margin-top:8px;"></div>
+                        </td>
+                        <th>主管单位：</th><td>
+                            <input name="ctl00$form$TextBoxCompetentUnits" type="text" id="form_TextBoxCompetentUnits" class="inputText" AutoComplete="false" data-jbextendid="exinput_form_TextBoxCompetentUnits_754_161" data-jbtips="(教育部，XX省教育厅，XX市教育局，XX大学)" style="width:300px;" />
+                            <div style="clear:both; margin-top:8px;"></div>
+                            <span id="competentUnitsMsg" style="margin-left:0px;"></span></td>
+                    </tr> 
+                    <tr>
+                        <th>所在城市：</th><td colspan="3">
+                            <input type="hidden" name="ctl00$form$HiddenFieldCity" id="form_HiddenFieldCity" />
+                            <select id="selProvince" style="width:155px;"></select><select id="selCity" style="width:155px; margin-left:5px;"></select>
+                            
+                            <div style="clear:both; margin-top:8px;"></div>
+                            <span id="cityMsg" style="margin-left:0px;"></span> 
+                                     </td>
+                        <th>学院地址：</th><td>
+                            <input name="ctl00$form$TextBoxAddress" type="text" id="form_TextBoxAddress" class="inputText" AutoComplete="false" data-jbextendid="exinput_form_TextBoxAddress_182_161" data-jbtips="学院详细地址" style="width:300px;" />
+                            <div style="clear:both; margin-top:8px;"></div>
+                            <span id="addressMsg" style="margin-left:0px;"></span></td>
+                    </tr> 
+                    <tr>
+                        <th>Url Key：</th><td colspan="3">
+                            <input name="ctl00$form$TextBoxUrlKey" type="text" id="form_TextBoxUrlKey" class="inputText" AutoComplete="false" onchange="urlKeyIdentChecker.onchange(this)" data-jbextendid="exinput_form_TextBoxUrlKey_557_161" data-jbtips="（域名/Key）直达主页，必须含字母，可含数字" style="width:300px;" />
+                            <div style="clear:both; margin-top:8px;"></div>
+                            <span id="urlKeyMsg" style="margin-left:0px;"></span>  
+                            <img id="aloadingUrlKey" style="display:none;" alt="" src="/images/common/loading/1.gif" />
+                                     </td>
+                        <th>在读学生规模：</th><td>
+                            <select name="ctl00$form$DropDownListStudentMaxLevel" id="form_DropDownListStudentMaxLevel">
+    <option value="1000">1千人以下</option>
+    <option value="3000">1千至3千人</option>
+    <option value="5000">3千至5千人</option>
+    <option value="10000">5千至1万人</option>
+    <option value="30000">1万至3万人</option>
+    <option value="1000000">3万人以上</option>
+
+</select>
+                            </td> 
+                    </tr> 
+                    <tr>
+                        <th>合同状态：</th><td colspan="3">
+                            <div class="floatL">
+                            <select name="ctl00$form$DropDownListContractState" id="form_DropDownListContractState" style="width:100px;">
+    <option value="1">合作</option>
+    <option value="2">准合作</option>
+    <option value="4">试用</option>
+    <option value="8">申请待审核</option>
+    <option value="16">动员中</option>
+    <option value="32">院校已拒绝</option>
+    <option value="64">我方已拒绝</option>
+    <option value="96">双方已拒绝</option>
+
+</select>                                
+                            <div style="clear:both; margin-top:8px;"></div>
+                            </div>
+                            <div class="floatL">
+                                &nbsp;&nbsp;&nbsp;结束时间：
+                            </div>
+                            <div class="floatL mginL05">
+                                <input name="ctl00$form$TextBoxContractTimeout" type="text" id="form_TextBoxContractTimeout" class="inputText" AutoComplete="false" data-jbextendid="exinput_form_TextBoxContractTimeout_803_161" onclick="JBCalendar.show(this)" readonly="readonly" data-jbtips="结束时间" style="width:115px;" />
+                                <div style="clear:both; margin-top:8px;"></div>
+                                <span id="contractTimeoutMsg" style="margin-left:0px;"></span>
+                            </div>
+                            </td>
+                         <th>其他：</th><td><input id="form_CheckBox211University" type="checkbox" name="ctl00$form$CheckBox211University" />211高校&nbsp;&nbsp;&nbsp;&nbsp;
+                             <input id="form_CheckBox985University" type="checkbox" name="ctl00$form$CheckBox985University" />985高校</td>                       
+                    </tr>  
+                     <tr>
+                    <th>学历要求：</th><td>
+                        <div class="floatL">
+                            <input type="hidden" name="" id="form_MutiEducation_HiddenEducationIds" value="1,4" class="xl" />
+                            <div style="width:130px; height:30px;">
+                                <div><span class="education-c">请选择</span>
+                                    <div style="display:none;position:relative; left:0px; top:0px;" class='education'>
+                                        <div class='education-t' >请选择学历要求<div class="close">×</div></div>
+                                        <div class="education-m">
+                                            <div class="education-yx">
+                                                <span>已选中：</span>
+                                                <div></div>
+                                            </div>
+                                            <div class="education-xx">
+                                                <ul>
+                                                    
+                                                <li><input type="checkbox" data-id='1'/>初中</li>
+                                                <li><input type="checkbox" data-id='2'/>高中</li>
+                                                <li><input type="checkbox" data-id='3'/>技校/中专</li>
+                                                <li><input type="checkbox" data-id='4'/>大专</li>
+                                                <li><input type="checkbox" data-id='5'/>本科</li>
+                                                <li><input type="checkbox" data-id='6'/>硕士</li>
+                                                <li><input type="checkbox" data-id='7'/>博士</li>
+                                                <li><input type="checkbox" data-id='8'/>其他</li>
+                                                   
+                                                </ul>
+                                                <div class="education-btn">
+                                                    <span class="education-qd">确定</span>
+                                                    <span class="education-qx">取消</span>
+                                                    <span class="education-bx">不限学历</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>    
+                                <div style="clear:both;"></div>
+                            </div>                              
+                        </div>
+                    
+                    </td>
+                      <th>经验要求：</th>
+                        <td>
+                        <div class="floatL">
+                            <input type="hidden" name="" id="form_MutiEducation_HiddenEducationIds"  class="xl"/>
+                            <div style="width:130px; height:30px;">
+                                <div><span class="education-c">请选择</span>
+                                    <div style="display:none;position:relative; left:0px; top:0px;" class='education'>
+                                        <div class='education-t' >请选择经验要求<div class="close">×</div></div>
+                                        <div class="education-m">
+                                            <div class="education-yx">
+                                                <span>已选中：</span>
+                                                <div></div>
+                                            </div>
+                                            <div class="education-xx">
+                                                <ul>
+                                                                   
+                                                        <li><input type="checkbox" data-id='1'/>在读学生</li>
+                                                        <li><input type="checkbox" data-id='2'/>应届生</li>
+                                                        <li><input type="checkbox" data-id='3'/>1年以下</li>
+                                                   
+                                                        <li><input type="checkbox" data-id='4'/>1-3年</li>
+                                                        <li><input type="checkbox" data-id='5'/>3-5年</li>
+                                                        <li><input type="checkbox" data-id='6'/>5-10年</li>
+                                                
+                                                        <li style="width: 80%"><input type="checkbox" data-id='7'/>10年以上</li>
+                                                        <li style="clear: both;width: 80%;height:1px;"></li>
+                                                    </li>
+                                                </ul>
+                                                <div class="education-btn">
+                                                    <span class="education-qd">确定</span>
+                                                    <span class="education-qx">取消</span>
+                                                    <span class="education-bx">不限学历</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>    
+                                <div style="clear:both;"></div>
+                            </div>                              
+                        </div>
+                    
+                    </td>
+                    </tr>
+                    
+                    <tr><th>&nbsp;</th><td colspan="5" style="padding-top:30px;">
+                        <input type="button" onclick="checkAndGotoNextStep(1)" class="btn-3d btn-3d-large btn-3d-blue floatL" value="下一步" />
+                    </td></tr>
+                </table>
+                <table class="blockMainTable mginL20 mginT20" style="width:930px; display:none;" id="addStep2Container">
+                    <tr>
+                        <th style="width:150px;">院校简介：</th><td>
+                            <textarea name="ctl00$form$TextBoxShortDesc" rows="2" cols="20" id="form_TextBoxShortDesc" class="inputText" AutoComplete="false" data-jbextendid="exinput_form_TextBoxShortDesc_660_161" data-jbtips="院校简介，100至500字符，可留空（留空则使用详细介绍前500字符作为简介）" style="height:80px;width:660px;">
+</textarea>
+                            <div style="clear:both; margin-top:8px;"></div>
+                            <span id="shortDescMsg" style="margin-left:0px;"></span>
+                            </td>
+                    </tr>
+                    <tr>
+                        <th>详细介绍：</th><td>
+                            <textarea name="ctl00$form$TextBoxFullDesc" rows="2" cols="20" id="form_TextBoxFullDesc" class="inputText" AutoComplete="false" data-jbextendid="exinput_form_TextBoxFullDesc_795_161" data-jbtips="详细介绍" style="height:400px;width:660px;">
+</textarea>
+                            <div style="clear:both; margin-top:8px;"></div>
+                            <span id="fullDescMsg" style="margin-left:0px;"></span>
+                            </td>
+                    </tr>
+                    <tr><th>&nbsp;</th><td style="padding-top:20px;">
+                        <input type="button" onclick="checkAndGotoPrevStep(2)" class="btn-3d btn-3d-large btn-3d-blue2 floatL" value="上一步" />
+                        <input type="submit" name="ctl00$form$ButtonSubmit" value="提交" id="form_ButtonSubmit" class="btn-3d btn-3d-large btn-3d-blue floatL mginL15" />
+                        <input type="submit" name="ctl00$form$ButtonSaveDraft" value="保存草稿" id="form_ButtonSaveDraft" class="btn-3d btn-3d-large btn-3d-blue2 floatL mginL15" />
+                    </td></tr>
+                </table>                
+                <div style="clear:both;"></div>
+            </div>
+        </div>
+     </div>
+    <script type="text/javascript">
+        var shortNameIdentChecker = new JBodyIdentInputValidator({
+            data: { cmd: "checkshortname" },
+            loadingMsgObj: $("#aloadingName").get(0),
+            msgObj: $("#nameMsg").get(0),
+            msgChecking: "学院简称检测中......",
+            msgFalse: "学院简称不可用，可能是存在相同的简称！",
+            defaultResult: false,
+            debug: false
+        });
+        var fullNameIdentChecker = new JBodyIdentInputValidator({
+            data: { cmd: "checkshortname" },
+            loadingMsgObj: $("#aloadingFullName").get(0),
+            msgObj: $("#nameFullMsg").get(0),
+            msgChecking: "学院全称检测中......",
+            msgFalse: "学院全称不可用，可能是存在相同的全称！",
+            defaultResult: false,
+            debug: false
+        });
+        var urlKeyIdentChecker = new JBodyIdentInputValidator({
+            data: { cmd: "checkurlkey" },
+            loadingMsgObj: $("#aloadingUrlKey").get(0),
+            msgObj: $("#urlKeyMsg").get(0),
+            msgChecking: "Url Key检测中......",
+            msgFalse: "Url Key不可用，可能是存在相同的Url Key！",
+            defaultResult: false,
+            debug: false
+        });
+
+        $(function () {
+            CreateAreaSelector({ slProv: "selProvince", slCity: "selCity", titleProv: "选择省份", value: $("#form_HiddenFieldCity").val(), afterchange: function (v) { $("#form_HiddenFieldCity").val(v); if (v != "" && JBValidaterCity != null) JBValidaterCity.check(); } });
+        });
+        function CheckCitySelect(jbv) {
+            var v = $("#form_HiddenFieldCity").val();
+            if (v == "") jbv.msg = "请选择城市";
+            return v != "";
+        }
+    </script>
+
+    
+
+<script type="text/javascript">
+//<![CDATA[
+pageMainMenuCreater.setActive({mainText:'院校',subText: '添加院校'});function iframeSubmitRegister(){$("#form1").get(0).target = "_postTargetIframe";if(JBValidatorContainer.containAutoFireObj($("#form1").get(0))){   JBValidatorContainer.afterSuccess.push(function(){     if(this==$("#form1").get(0)){ new JBodyDialog().show(window, "<img alt='' src='/images/common/loading/5.gif' />", {w:200,h:90,modal:true,title:"正在添加院校", pos:[{to:'win',park:'inside',parkInside:'center'}]}); }    return true; });}else{  $("#form1").submit(function() {  new JBodyDialog().show(window, "<img alt='' src='/images/common/loading/5.gif' />", {w:200,h:90,modal:true,title:"正在添加院校。", pos:[{to:'win',park:'inside',parkInside:'center'}]});  return true;  });}}$(function(){ setTimeout("iframeSubmitRegister()",1000); });//]]>
+</script>
+<script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxName'});var exinput_form_TextBoxName_973_161=null; JB.ready(function(){exinput_form_TextBoxName_973_161= new JBValidator({varId:'exinput_form_TextBoxName_973_161',exType:'Chinease',checkWhere:'ServerAndClient',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'nameMsg',successMsg:'简称检测通过，可以使用',dataTitle:'院校简称',inputTip:'院校简称',tipShow:'Onfoucs',tipPos:'InnerText',innerTextTip:'院校简称',appendChecks:[shortNameIdentChecker.check],showSuccess:true,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:false,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0});});</script><script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxFullName'});var exinput_form_TextBoxFullName_545_161=null; JB.ready(function(){exinput_form_TextBoxFullName_545_161= new JBValidator({varId:'exinput_form_TextBoxFullName_545_161',exType:'Chinease',checkWhere:'ServerAndClient',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'nameFullMsg',successMsg:'全称检测通过，可以使用',dataTitle:'院校全称',inputTip:'院校全称',tipShow:'Onfoucs',tipPos:'InnerText',innerTextTip:'院校全称',appendChecks:[fullNameIdentChecker.check],showSuccess:true,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:false,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0});});</script><script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxCompetentUnits'});var exinput_form_TextBoxCompetentUnits_754_161=null; JB.ready(function(){exinput_form_TextBoxCompetentUnits_754_161= new JBValidator({varId:'exinput_form_TextBoxCompetentUnits_754_161',exType:'ChineaseAndNum',checkWhere:'ServerAndClient',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'competentUnitsMsg',dataTitle:'主管单位',inputTip:'主管单位(教育部，XX省教育厅，XX市教育局，XX大学)',tipShow:'Onfoucs',tipPos:'InnerText',innerTextTip:'(教育部，XX省教育厅，XX市教育局，XX大学)',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:true,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0});});</script><script type='text/javascript'>var JBValidaterCity=null; JB.ready(function(){JBValidaterCity= new JBValidator({obj:'selProvince',exType:'Text',checkWhere:'ClientAuto',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'cityMsg',dataTitle:'输入',appendChecks:[CheckCitySelect],showSuccess:false,inCaseHidden:false,checkAppendOnly:true,msgAlwaysAlert:false});});</script><script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxAddress'});var exinput_form_TextBoxAddress_182_161=null; JB.ready(function(){exinput_form_TextBoxAddress_182_161= new JBValidator({varId:'exinput_form_TextBoxAddress_182_161',exType:'Text',checkWhere:'ServerAndClient',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'addressMsg',dataTitle:'学院地址',inputTip:'学院详细地址',tipShow:'Onfoucs',tipPos:'InnerText',innerTextTip:'学院详细地址',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:false,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0});});</script><script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxUrlKey'});var exinput_form_TextBoxUrlKey_557_161=null; JB.ready(function(){exinput_form_TextBoxUrlKey_557_161= new JBValidator({varId:'exinput_form_TextBoxUrlKey_557_161',exType:'Text',checkWhere:'ServerAndClient',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'urlKeyMsg',ptEncode:'None',ptEncodingName:'GB2312',jsPattern:'^[0-9a-zA-Z]*[a-zA-Z]+[0-9a-zA-Z]*$',successMsg:'Url Key检测通过，可以使用',dataTitle:'Url Key',inputTip:'（域名/Key）直达学校主页，必须含字母，可含数字',tipShow:'Onfoucs',tipPos:'InnerText',innerTextTip:'（域名/Key）直达主页，必须含字母，可含数字',appendChecks:[urlKeyIdentChecker.check],showSuccess:true,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:false,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:3,maxLen:15});});</script><script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxContractTimeout'});var exinput_form_TextBoxContractTimeout_803_161=null; JB.ready(function(){exinput_form_TextBoxContractTimeout_803_161= new JBValidator({varId:'exinput_form_TextBoxContractTimeout_803_161',exType:'Date',checkWhere:'ServerAndClient',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'contractTimeoutMsg',dataTitle:'结束时间',innerTextTip:'结束时间',showSuccess:false,checkOnFocusout:false,checkOnChange:true,ignoreCase:true,canNull:false,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0});});</script><script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxShortDesc'});var exinput_form_TextBoxShortDesc_660_161=null; JB.ready(function(){exinput_form_TextBoxShortDesc_660_161= new JBValidator({varId:'exinput_form_TextBoxShortDesc_660_161',exType:'Text',checkWhere:'ServerAndClient',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'shortDescMsg',dataTitle:'院校简介',inputTip:'院校简介，100至500字符，可留空（留空则使用详细介绍前500字符作为简介）',tipShow:'Onfoucs',tipPos:'InnerText',innerTextTip:'院校简介，100至500字符，可留空（留空则使用详细介绍前500字符作为简介）',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:true,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:100,maxLen:500});});</script><script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxFullDesc'});var exinput_form_TextBoxFullDesc_795_161=null; JB.ready(function(){exinput_form_TextBoxFullDesc_795_161= new JBValidator({varId:'exinput_form_TextBoxFullDesc_795_161',exType:'Text',checkWhere:'ServerAndClient',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'fullDescMsg',dataTitle:'详细介绍',inputTip:'详细介绍',tipShow:'Onfoucs',tipPos:'InnerText',innerTextTip:'详细介绍',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:false,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0});});</script></form>
+        
+    <script type="text/javascript">
+        $("#form_DropDownListContractState").change(function () {
+            //alert($(this).val());
+            if (parseInt($(this).val()) > 4) {
+                $(this).parent().parent().find(".floatL").hide();
+                $(this).parent().show();
+            } else {
+                $(this).parent().parent().find(".floatL").show();
+            }
+        });
+        $("#form_DropDownListContractState").change();
+        function checkAndGotoNextStep(currentStep) {
+            if (JBValidatorContainer.checkAllChildren(document.getElementById("addStep" + currentStep + "Container"))) {
+                $("#addStep" + currentStep + "Container").hide();
+                $("#addStep" + (currentStep + 1) + "Container").show();
+                setAddSchoolStep(currentStep + 1);
+            }
+        }
+        function checkAndGotoPrevStep(currentStep) {
+            $("#addStep" + currentStep + "Container").hide();
+            $("#addStep" + (currentStep - 1) + "Container").show();
+            setAddSchoolStep(currentStep - 1);
+        }
+        function setAddSchoolStep(st) {
+            var addSchlStep = ["第一步、填写基本信息", "第二步、填写学校介绍", "第三步、完成"];
+            stepTabMenus("stepTabContainer", addSchlStep, st);
+        }
+        function addFinished() {
+            $("#addStep2Container").hide();
+            $("#addStep3Container").show();
+            setAddSchoolStep(3);
+        }
+        setAddSchoolStep(1);
+    </script>
+   
+    <div style="clear:both;"></div>
+    </div> 
+    
+<div style="clear:both;"></div>
+<div class="footerOuter">
+    <div class="footer">
+        版权所有：好工作网
+        联系电话：88888888&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        联系邮箱：88888@qq.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+        地址：广州市环市中路&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        邮政编码：510000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+    </div>
+</div>
+<div class="Popup"></div>
+</body>
+</html>
+<script type="text/javascript">
+    $(function () { adminPageInit({ unresize: "" }); });
+    $(".education-c").click(function(event) {
+        open.call(this,".education")
+    });
+    var md ;
+    $(".education-xx").on("click",'input',function(){
+            md = $(this).closest('.education-xx').siblings('.education-yx').find('div');
+            if($(this).prop("checked")){
+                if(md.find('a').length < 3 ){
+                    md.append($('<a data-id='+$(this).data('id')+'>'+$(this).closest("li").text()+'</a>'))
+                    md.delegate("a","click",function(){
+                        $(".education-xx").find("[data-id='"+$(this).data("id")+"']").prop("checked",false);
+                        $(this).remove();
+                    })
+                } else{
+                  
+                alert("最多选择3个")
+                return false;
+             }
+            }else{
+                 $(this).prop("checked",false);
+                 md.find("[data-id='"+$(this).data("id")+"']").remove()
+            }
+            
+       
+               
+                 
+    })
+  
+    $(".education-qd").click(function(event) {
+        
+            save.call(this,".education-c")
+        
+    });
+    $(".education-qx").click(function(event) {
+        close.call(this,".education")
+    });
+    $(".education-bx").click(function(event) {
+        $(this).closest('.education-m').find("input").prop("checked",false)
+        .end()
+        .find(".education-yx div a").remove();
+    });
+    $(".close").click(function(event) {
+       close.call(this,".education")
+    });
+    function open(oprent){
+        $(oprent).hide();
+        $(this).siblings(oprent).show();
+        reset();
+    }
+    function save(oprent){
+       var str = '';
+       var ids = [];
+       var yx =  $(this).closest(".education-xx").siblings(".education-yx");
+       if(yx.find("div a").length == 0 ){
+        $(this).closest(".floatL").find("input[type='hidden']").val("");
+         $(this).closest(".education").siblings(oprent).text("请选择");
+            close.call(this,".education")
+       }else{
+        yx.find('div a').each(function(index, el) {
+            str+=$(this).text()+',';
+            ids.push($(this).data('id'))
+        });
+        $(this).closest(".education").siblings(oprent).text(str)
+        $(this).closest(".floatL").find("input[type='hidden']").val(ids)
+        close.call(this,".education")
+        }
+    }
+    function close(oprent){
+        $(this).closest($(oprent)).hide();
+    }
+    function reset(){
+        $(".xl").each(function(index, el) {
+            var oprent  = ".education"
+            var id = $(this).val();
+            var yx = $(this).siblings('div').find(oprent),str='';
+            yx.find('div a').remove()
+             $(this).siblings('div').find(".education-xx").find('input').prop("checked",false);
+            if(id.length!=''){
+                id = id.split(',');
+                for (var i = id.length - 1; i >= 0; i--) {
+                    
+                    $(this).siblings('div').find('.education-yx div').append($('<a data-id='+id[i]+'>'+yx.find('[data-id='+id[i]+']').closest('li').text()+'</a>'))
+                    $(this).siblings('div').find(".education-xx").find('[data-id="'+id[i]+'"]').prop("checked","true")
+                    str+=yx.find('[data-id='+id[i]+']').closest('li').text()+',';
+                };      
+                $(this).closest('.floatL').find('.education-c').text(str)
+            }
+       
+        });
+    }
+    reset();
+</script>
+
+

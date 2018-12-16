@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>个人后台-简历中心</title>
+<link rel="stylesheet" type="text/css" href="../css/v2/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/UCenter/all.css">
+
+<link rel="stylesheet" type="text/css" href="../css/v2/UCenter/new.css" />
+</head>
+
+<body>
+    <div class="HEADER HEADER-GUIDE">
+        <div class="common">
+            <div class="TOP-LOGO">
+                <a href="#"><img src="../images/v2/logo.jpg" width="177" height="91"></a>
+                <span>创建全职简历</span>
+            </div>
+        </div>
+    </div>
+    <div class="guide-main common">
+        <div class="guide-create">
+            <div class="guide-create-title">
+                <h2>第一步，初始化会员信息</h2>
+            </div>
+            <div class="guide-resume">
+            <ul class="init-info">
+                <li>
+                     <input type="text" class="" placeholder="请输入就业编号，用于身份认证" autocomplete="off">
+                     <code class="form-tip errorMsg">请输入就业编号，用于身份认证</code>
+                </li>
+               <li>
+                    <input type="text" class="" placeholder="请输入手机号码，用于开通会员服务" autocomplete="off">
+                    <code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>
+               </li>
+               <li>
+                     <input type="text" class="w216" autocomplete="off" placeholder="请输入短信验证码">
+                      <input class="SendVerify" type="submit" value="获取验证码" autocomplete="off">
+                </li>
+               <li>
+                    <input type="password" class="" placeholder="请设置登录密码" autocomplete="off">
+                    <code class="form-tip successMsg"></code>
+                    <code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>
+                    </li>
+
+                
+               <li>
+                   <a href="two-create-rsume.html" class="public-btn resume-next">下一步</a>
+                   <!-- <input type="submit" class="public-btn resume-next" value="下一步" autocomplete="off"> -->
+                   <p class="login">已有会员账号，<a href="two-">立即登录</a></p>
+               </li>
+            
+            </ul>
+              <div class="clear"></div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+<script src="../js/jquery.js"></script>
+<script src="../js/v2/all.js"></script>
+<script src="../js/plugin/SendVerify.js"></script>
+<script type="text/javascript">
+$(function(){
+
+    $(".mobile").keyup(function(){
+        var b=true;
+        if(b) $(".MobileVCode").show();
+        else $(".MobileVCode").hide();
+    });
+    //男女选择
+    Boxes(".Sex");
+
+})
+</script>
+</html>

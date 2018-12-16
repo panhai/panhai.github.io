@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>企业中心-账号管理-修改接收简历邮箱</title>
+</head>
+<link rel="stylesheet" type="text/css" href="../css/Company/css.css">
+<link rel="stylesheet" type="text/css" href="../css/Company/manage.css">
+<body>
+<div class="header"><div class="common">
+    <p>
+    	<a href="#">Admin</a> |
+        <a href="#">退出</a> |
+        <a href="#">切换后台</a> |
+        <a href="#">消息</a> |
+        <a href="#">反馈</a> |
+        <a href="#">帮助</a>
+    </p>
+</div></div>
+<div class="nav"><div class="common">
+	<a href="#" class="nav-logo"><img src="../images/CpCenter/logo.jpg" width="104" height="45"></a>
+	<ul>
+    	<li><a href="index.html">首页<i></i></a></li>
+    	<li><a href="profile.html">企业资料<i></i></a></li>
+    	<li><a href="favors.html">HR收藏<i></i></a></li>
+    	<li><a href="tools.html">实用工具<i></i></a></li>
+    	<li><a href="manage.html" class="cur">帐号管理<i></i></a></li>    </ul>
+        <div class="tool">
+    	<p><a href="publish.html">发布新职位</a></p>
+    	<p class="tool-pull">
+        	<span>校企合作邀请</span>
+        	<i></i>
+        	<samp>
+            	<a href="invite.html">校企合作邀请</a>
+            	<a href="invite-job.html">校企合作职位申请</a>
+            	<a href="invite-conf.html">宣讲会申请</a>
+            </samp>
+        </p>
+    </div>
+</div></div>
+
+<div class="main common">
+	<div class="left">
+    	<ul class="menus">
+        	<li>
+            	<h5><a href="manage.html">管理员帐号设置</a></h5>
+            	<h5><a href="manage-edit.html">修改帐号密码</a></h5>
+            	<h5><a href="manage-email.html" class="cur">修改接收简历邮箱</a></h5>
+            	<h5><a href="manage-temps.html">简历通知模板设置</a></h5>
+	        </li>
+        </ul>
+    </div>
+	<div class="right">
+		<form><ul class="form">
+        	<li>&nbsp;</li>
+            <li>
+                <var>当前验证邮箱</var>
+                <dfn><strong>321654983@qq.com</strong></dfn>
+            </li>
+            <li>
+                <var>修改新接收邮箱：</var>
+                <dfn><input type="text" class="text"></dfn>
+                <!--<ins class="successMsg">此邮箱可用于注册</ins>
+                <ins class="errorMsg">请填写电子邮箱</ins>-->
+                <ins class="tipMsg">请填写你的手机号码，用于登录及找回密码</ins>
+            </li>
+            <li>
+                <var>&nbsp;</var>
+                <dfn><input type="submit" class="submit" value="确认修改"></dfn>
+            </li>
+        </ul></form>
+    </div>
+	<div class="clear"></div>
+</div>
+
+<div class="footer">
+	<div class="common tail">
+        <samp class="tail-nav">
+            <a href="#" class="first">关于我们</a>
+            <a href="#">法律声明</a>
+            <a href="#">保密承诺</a>
+            <a href="#">Investor Relatiao</a>
+            <a href="#">关于我们</a>
+        </samp>
+    </div>
+    <div class="common copyright">
+    	<p>京ICP备09083200号 京ICP证070419号 人才服务许可证：RC0710280</p>
+    	<p>Copyright&copy;2000-2014 liepin.com All Rights Reserved</p>
+    </div>
+</div>
+
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/company/all.js"></script>
+<script src="../js/company/favors.js"></script>
+<script>
+$(function(){	LeftMenu();
+    ToolPull();
+});
+</script>

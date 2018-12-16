@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>SEO推广</title>
+    <meta name=viewport content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="../css/all.css" />
+    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+    <link href="../css/layerskin/default/layer.css" rel="stylesheet" />
+</head>
+
+<body style="">
+    <div class="head-navgater">
+        <div class="rightCenter">
+            <div class="setting">
+                <a href="javascript:void(0)">设置</a>
+            </div>
+            <div class="feed_back">
+                <a href="javascript:void(0)">我要反馈</a>
+            </div>
+            <div class="information">
+                <span class="icon"></span>
+            </div>
+            <div class="news">
+                <span class="icon"></span>
+            </div>
+            <div class="search">
+                <input type="text" value="" placeholder="搜求职者" class="search_txet">
+                <span class="icon"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="menudiv">
+        <div class="left-navgater" style="">
+            <div class="logoBox">
+                <a href="javascript:void(0)" class="changeArrow">
+                    <i></i>
+                </a>
+            </div>
+            <div class="school-infor">
+                <div class="inforBox cur">
+                    <img src="/images/nophoto.png" alt="">
+                </div>
+                <div class="inforBox">
+                    <p>潘海应</p>
+                    <p>晚上好</p>
+                </div>
+            </div>
+            <div class="nav">
+                <a href="/school" class="gzt">
+                    <i class="position1"></i>
+                    <span>工作台</span>
+                </a>
+                <div class="option zsxc cur">
+                    <i class="position2"></i>
+                    <span>招生宣传</span>
+                    <b></b>
+                    <div class="midLa">
+                        <a href="/school/publicity" class="wyx zsxc">微营销</a>
+                        <a href="/school/xjpromote" class="xjtg zsxc">校+推广</a>
+                        <a href="/school/hxxpromote" class="hytg zsxc">会员推广</a>
+                        <a href="/school/hxxpromote/seopromote" class="seotg zsxc cur">SEO推广</a>
+                        <a href="/school/channel" class="qdgl zsxc">渠道管理</a>
+                    </div>
+                </div>
+                <a href="/school/orders" class="zxgl">
+                    <i class="position3"></i>
+                    <span>咨询管理</span>
+                </a>
+                <a href="/school/student" class="xygl">
+                    <i class="position4"></i>
+                    <span>学员管理</span>
+                </a>
+                <a href="/school/teach" class="jwgl">
+                    <i class="position5"></i>
+                    <span>教务管理</span>
+                </a>
+                <a href="/school/finance" class="cwgl">
+                    <i class="position6"></i>
+                    <span>财务管理</span>
+                </a>
+                <a href="/school/income" class="xjlm">
+                    <i class="position8"></i>
+                    <span>校+创收</span>
+                </a>
+                <a href="/school/setting" class="xxsz">
+                    <i class="position9"></i>
+                    <span>学校设置</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="left-small-navgater" style="">
+            <div class="logoBox">
+                <a href="javascript:void(0)" class="changeArrow">
+                    <i></i>
+                </a>
+            </div>
+            <div class="school-infor">
+                <img src="/images/nophoto.png" alt="">
+            </div>
+            <div class="small-nav">
+                <div class="nav-url">
+                    <div class="url-icon position1"></div>
+                    <div class="moveLayer">
+                        <i></i>
+                        <a href="/school">控制台</a>
+                    </div>
+                </div>
+                <div class="nav-url">
+                    <div class="url-icon position2"></div>
+                    <div class="moveLayer">
+                        <i></i>
+                        <a href="/school/publicity" class="wyx">微营销</a>
+                        <a href="/school/xjpromote" class="xjtg">校+推广</a>
+                        <a href="/school/hxxpromote" class="hytg">会员推广</a>
+                        <a href="/school/hxxpromote/seopromote" class="seotg cur">SEO推广</a>
+                        <a href="/school/channel" class="qdgl">渠道管理</a>
+                    </div>
+                </div>
+                <div class="nav-url">
+                    <div class="url-icon position3"></div>
+                    <div class="moveLayer">
+                        <i></i>
+                        <a href="/school/orders">咨询管理</a>
+                        <a href="/school/orders">今日跟进</a>
+                        <a href="/school/orders">到访记录</a>
+                    </div>
+                </div>
+                <div class="nav-url">
+                    <div class="url-icon position4"></div>
+                    <div class="moveLayer">
+                        <i></i>
+                        <a href="/school/student">全部学员</a>
+                        <a href="/school/student">在读学员</a>
+                        <a href="/school/student">欠费学员</a>
+                    </div>
+                </div>
+                <div class="nav-url">
+                    <div class="url-icon position5"></div>
+                    <div class="moveLayer">
+                        <i></i>
+                        <a href="/school/teach">班级管理</a>
+                        <a href="/school/teach">课程管理</a>
+                        <a href="/school/teach">教师管理</a>
+                        <a href="/school/teach/classroom">课室管理</a>
+                    </div>
+                </div>
+                <div class="nav-url">
+                    <div class="url-icon position6"></div>
+                    <div class="moveLayer">
+                        <i></i>
+                        <a href="/school/finance">财务流水</a>
+                        <a href="/school/finance">到帐确认</a>
+                        <a href="/school/finance">支出确认</a>
+                        <a href="/school/finance">退款处理</a>
+                    </div>
+                </div>
+                <div class="nav-url">
+                    <div class="url-icon position8"></div>
+                    <div class="moveLayer">
+                        <i></i>
+                        <a href="/school/income">校+创收</a>
+                        <a href="/school/income">合作学校</a>
+                    </div>
+                </div>
+                <div class="nav-url">
+                    <div class="url-icon position9"></div>
+                    <div class="moveLayer">
+                        <i></i>
+                        <a href="/school/setting">帐号管理</a>
+                        <a href="/school/setting/schoolarea">校区设置</a>
+                        <a href="/school/setting/property">属性配置</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="right-content ">
+
+        <div class="content-nav">
+            <a href="/school/hxxpromote/seopromote" class="cur"><span>首页</span> <i></i></a>
+            <a href="/school/hxxpromote/hxxcourse" class=""><span>课程管理</span> <i></i></a>
+            <a href="/school/hxxpromote/news" class=""><span>资讯管理</span> <i></i></a>
+            <a href="/school/hxxpromote/seocourse" class=""><span>SEO教程</span> <i></i></a>
+        </div>
+
+        <div class="content-layer border">
+            <div class="recruit_searchCondition">
+                <form id="searchForm" action="/school/hxxpromote/hxxcourse" onsubmit="return false;" novalidate="novalidate">
+                    <div class="line" style="border-bottom: none;">
+                        <div class="inputdiv ">
+                            <label class="prompt_txt">课程</label>
+                            <input class="input1" id="Key" name="Key" placeholder="请输入关键词搜索" type="text" value="">
+                        </div>
+                        <div class="inputdiv inputdiv2 wid-auto">
+                            <div class="theme-sele label-theme">
+                                <label class="prompt_txt">状态</label>
+                                <dl class="SELECT diff-wid" data-placeholder="请选择">
+                                    <input autocomplete="off" data-val="true" data-val-number="字段 State 必须是一个数字。" id="State"
+                                        name="State" type="hidden" value="">
+                                    <dt><span class="">请选择</span><i></i></dt>
+                                    <dd class="normal maxHeight">
+                                        <a href="javascript:void(0)" data-id="" title="不限">不限</a>
+                                        <a href="javascript:void(0)" data-id="0" title="正常">正常</a>
+                                        <a href="javascript:void(0)" data-id="1" title="修改待审核">修改待审核</a>
+                                        <a href="javascript:void(0)" data-id="3" title="修改审核不通过">修改审核不通过</a>
+                                        <a href="javascript:void(0)" data-id="4" title="新增待审核">新增待审核</a>
+                                        <a href="javascript:void(0)" data-id="6" title="新增审核不通过">新增审核不通过</a>
+                                        <a href="javascript:void(0)" data-id="16" title="草稿">草稿</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </div>
+                        <div class="inputdiv inputdiv3 wid-auto">
+                            <input class="Wdate mydate" data-val="true" data-val-date="字段 TimeBegin 必须是日期。" id="TimeBegin"
+                                name="TimeBegin" placeholder="请选择时间" type="text" value="">
+                            <label class="symbol">~</label>
+                            <input class="Wdate" data-val="true" data-val-date="字段 TimeEnd 必须是日期。" id="TimeEnd" name="TimeEnd"
+                                placeholder="请选择时间" type="text" value="">
+                        </div>
+                        <input type="submit" class="searchbtn" value="查询">
+                    </div>
+                </form>
+            </div>
+            <div class="general-layer nomargin">
+                <div class="general-top the-style over-fh">
+                    <div class="num-data">共<span>5</span>个课程</div>
+                    <div class="select-and-plus">
+                        <a href="/school/hxxpromote/addcourse" class="plus">+添加新课程</a>
+                    </div>
+                </div>
+                <div class="class-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="sele-all">
+                                    <span>课程名称</span>
+                                </th>
+                                <th class="">
+                                    <span>关联课程</span>
+                                </th>
+                                <th>
+                                    <span>开课班级</span>
+                                </th>
+                                <th class="tal">
+                                    <span>状态</span>
+                                </th>
+                                <th>
+                                    <span>浏览量</span>
+                                </th>
+
+
+                                <th style="width: 260px;text-align: center;">
+                                    <span>学员状态</span>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="sele-one">
+                                   <div class="in_block">
+                                    <img src="../images/index-icon/item-1.png" alt="">
+                                   </div>
+                                    <div class="people-data">
+                                        <a href="#" class="">雅思6分大学生培训课程</a>
+                                        <p>广州-外语/小语种-雅思</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    雅思6分大学生培训课程 </td>
+                                <td>
+                                    1
+                                </td>
+                                <td class="tal">
+                                    <p style="color: #066cbd;">已过期</p>
+                                    <span class="diffrent-co cur">2018-11-06 12:05</span>
+                                </td>
+                                <td>
+                                    1
+                                </td>
+
+                                <td>
+                                    <a href="/school/hxxpromote/editcourse/1422" class="name-for-class plus-mar">编辑</a>
+                                    <a href="javascript:void(0)" class="name-for-class plus-mar  setstate" data-id="1422"
+                                        date-state="0">下架</a>
+                                </td>
+                            </tr>
+                           
+                        </tbody>
+                    </table>
+                    <div class="t_foot">
+                        <div class="page">
+
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="plus-and-select" id="plus-and-select">
+            <div class="select-piece">
+                <form onsubmit="return false;">
+                    <div class="fill-in-box in-block border-one">
+                        <div class="fill-box-name">
+                            名称
+                        </div>
+                        <div class="fill-data fl">
+                            <input type="text" id="txtName" class="fill-text fill-other-text">
+                        </div>
+                    </div>
+
+                    <input type="submit" class="fill-find-submit" value="查询">
+                </form>
+            </div>
+            <div class="cont">
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="/js/jquery?v=YRj8STDE3Ve2hF_TwSmg8X_N5apNgM7GHMUll3cZsO01"></script>
+    <script src="/js/jqueryval?v=Cp0aWtVWqUPlnpbEO6W3kAeLmuP534yU5gGmVuYSH6M1"></script>
+    <script src="/js/my97datepicker/wdatepicker?v=PzRD3y3kEEeDIvGKvLjegkBjNvgbCbHbvKMejtIVPB01"></script>
+
+
+    <script src="/js/all?v=NJR-mR4lHGUxZRT9oYGqf1HrsfBAga78ELp9dhdx2j41"></script>
+
+
+    <script src="/js/school/hxxpromote/index?v=pObWpA499StpyN3hW573ksWqfhITxYUxFFM4LgrfH_c1"></script>
+    <script src="/js/school/hxxpromote/seo/index?v=u4eZql3dDAOZM3_8vim8F_0-yWUUBeBq9tuXgg9Sxh81"></script>
+
+
+    <script>
+        window.pageMenu.setActive({ selected: 'seotg' });
+    </script>
+
+</body>
+
+</html>

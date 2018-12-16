@@ -1,0 +1,410 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>好工作帮助中心</title>
+<link rel="stylesheet" type="text/css" href="css/css.css">
+<link rel="stylesheet" type="text/css" href="css/help.css">
+<link rel="stylesheet" type="text/css" href="css/plugin/center3.css">
+</head>
+
+<body>
+<div class="header"><div class="common">
+	<a href="#" class="orange">我的好工作</a>&nbsp;&nbsp;
+    <a href="#">登陆</a>&nbsp;|&nbsp;<a href="#">注册</a>&nbsp;&nbsp;
+    <a href="#">企业入口</a>&nbsp;&nbsp;
+    <a href="#">帮助</a>
+</div></div>
+<div class="common top">
+	<a href="#" class="top-logo"><img src="images/logo.jpg" width="234" height="118"><em>帮助中心</em></a>
+    <div class="top-search">
+    	<input type="text" class="top-search-i top-search-text" placeholder="请输入职位名称、公司名等关键名">
+        <input class="top-search-i top-search-item" value="广州">
+        <input type="submit" class="top-search-i top-search-submit" value="">
+        <dl class="top-search-list">
+        	<dt>热门城市（可直接选择城市或输入城市拼音/简拼）</dt>
+            <dd class="top-search-address">
+            	<b>热门城市</b>
+                <div>
+                	<a>广东</a><a>北京</a><a>广西</a><a>甘肃</a><a>贵州</a><a>湖南</a><a>湖北</a><a>河南</a>
+                    <a>河北</a><a>黑龙江</a><a>海南</a><a>JLNQ</a><a>吉林</a><a>江苏</a><a>江西</a><a>辽宁</a>
+                	<a>内蒙古</a><a>宁夏</a><a>青海</a><a>上海</a><a>山东</a><a>山西</a><a>陕西</a><a>四川</a>
+                	<a>TXYZ</a><a>天津</a><a>西藏</a><a>新疆</a><a>云南</a><a>浙江</a><a>香港</a>
+                </div>
+            </dd>
+        </dl>
+    </div>
+    <div class="top-keywords">
+    	热门搜索：
+        <a href="#">淘宝职位</a>
+        <a href="#">UI设计</a>
+        <a href="#">Java</a>
+        <a href="#">IOS</a>
+        <a href="#">服务员</a>
+        <a href="#">厨师</a>
+        <a href="#">普工</a>
+        <a href="#">技师</a>
+    </div>
+</div>
+<div class="nav nav-inner"><div class="common">
+	<div class="nav-head">
+    	<samp><i></i>全部职位分类</samp>
+        <ul class="nav-menu nav-menu-inner">
+            <li>
+            	<p>生活 服务业</p>
+                <div class="sub-menu">
+                	<div class="sub-menu-left">
+                    	<dl>
+                            <dt>餐饮</dt>
+                            <dd>
+                                <a href="#">服务员</a>
+                                <a href="#">送餐员</a>
+                                <a href="#">配菜/打荷</a>
+                                <a href="#">厨师/厨师长</a>
+                                <a href="#">后厨传菜员</a>
+                                <a href="#">茶艺师</a>
+                                <a href="#">预订员</a>
+                                <a href="#">迎宾/接待</a>
+                                <a href="#">大堂经理/领班</a>
+                                <a href="#">餐饮管理</a>
+                                <a href="#">洗碗工</a>
+                                <a href="#">咖啡师</a>
+                                <a href="#">面点师</a>
+                                <a href="#">预订员</a>
+                                <a href="#">学徒</a>
+                                <a href="#">杂工</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                        	<dt>家政保洁/安保</dt>
+                            <dd>
+                            	<a href="#">保洁</a>
+                            	<a href="#">保姆</a>
+                            	<a href="#">月嫂</a>
+                            	<a href="#">育婴师/保育师</a>
+                            	<a href="#">洗衣工</a>
+                            	<a href="#">钟点工</a>
+                            	<a href="#">保安</a>
+                            	<a href="#">护工</a>
+                            	<a href="#">送水工</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                        	<dt>美容/美发</dt>
+                            <dd>
+                            	<a href="#">美容导师</a>
+                            	<a href="#">美发助理/学徒</a>
+                            	<a href="#">洗头工</a>
+                            	<a href="#">发型师</a>
+                            	<a href="#">美容师</a>
+                            	<a href="#">宠物美容</a>
+                            	<a href="#">美容/瘦身顾问</a>
+                            	<a href="#">美甲师</a>
+                            	<a href="#">化妆师</a>
+                            	<a href="#">媒体师</a>
+                            	<a href="#">美容店长</a>
+                            	<a href="#">彩妆培训师</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                        	<dt>酒店/旅游</dt>
+                            <dd>
+                            	<a href="#">酒店前台</a>
+                            	<a href="#">客户服务员</a>
+                            	<a href="#">楼面经理</a>
+                            	<a href="#">行李员</a>
+                            	<a href="#">救生员</a>
+                            	<a href="#">旅游顾问</a>
+                            	<a href="#">酒店管理</a>
+                            	<a href="#">计调签证专员</a>
+                            	<a href="#">订票员</a>
+                            	<a href="#">导游</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                        	<dt>保健按摩</dt>
+                            <dd>
+                            	<a href="#">按摩师</a>
+                            	<a href="#">足疗师</a>
+                            	<a href="#">搓澡工</a>
+                            	<a href="#">针灸推拿</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                        	<dt>娱乐/休闲</dt>
+                            <dd>
+                            	<a href="#">影视/后期制作</a>
+                            	<a href="#">主持人</a>
+                            	<a href="#">调酒师</a>
+                            	<a href="#">音效师</a>
+                            	<a href="#">酒吧服务员</a>
+                            	<a href="#">摄影师/摄像师</a>
+                            	<a href="#">灯光师</a>
+                            	<a href="#">配音员</a>
+                            	<a href="#">放映员</a>
+                            	<a href="#">娱乐厅服务员</a>
+                            	<a href="#">礼仪/迎宾</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                        	<dt>运动健身</dt>
+                            <dd>
+                            	<a href="#">健身教练</a>
+                            	<a href="#">瑜伽教练</a>
+                            	<a href="#">舞蹈老师</a>
+                            	<a href="#">游泳教练</a>
+                            	<a href="#">台球教练</a>
+                            	<a href="#">高尔夫球助理</a>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="sub-menu-right">
+                    	<q>&times;</q>
+                    	<b>推荐品牌</b>
+                        <a href="#" class="odd first"><img src="images/sub-menu-right1.jpg" width="88" height="38"></a>
+                        <a href="#" class="even first"><img src="images/sub-menu-right2.jpg" width="88" height="38"></a>
+                        <a href="#" class="odd"><img src="images/sub-menu-right3.jpg" width="88" height="38"></a>
+                        <a href="#" class="even"><img src="images/sub-menu-right4.jpg" width="88" height="38"></a>
+                        <a href="#" class="odd"><img src="images/sub-menu-right5.jpg" width="88" height="38"></a>
+                        <a href="#" class="even"><img src="images/sub-menu-right6.jpg" width="88" height="38"></a>
+                        <a href="#" class="alone"><img src="images/sub-menu-right0.jpg" width="185" height="340"></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+            	<p>生产 物流 质控 汽车</p>
+                <div class="sub-menu"></div>
+            </li>
+            <li>
+            	<p>销售 客服 采购 市场</p>
+                <div class="sub-menu"></div>
+            </li>
+            <li>
+            	<p>媒体 广告 设计 淘宝</p>
+                <div class="sub-menu"></div>
+            </li>
+            <li>
+            	<p>网络 通信 电子</p>
+                <div class="sub-menu"></div>
+            </li>
+            <li>
+            	<p>法律 财会 金融 保险</p>
+                <div class="sub-menu"></div>
+            </li>
+            <li>
+            	<p>教育 翻译 出版</p>
+                <div class="sub-menu"></div>
+            </li>
+            <li>
+            	<p>医疗 制药 环保</p>
+                <div class="sub-menu"></div>
+            </li>
+            <li>
+            	<p>建筑 装修 物业 其它</p>
+                <div class="sub-menu"></div>
+            </li>
+            <li class="last">
+            	<p>人力 行政 管理</p>
+                <div class="sub-menu"></div>
+            </li>
+        </ul>
+    </div>
+    <ul class="nav-body">
+    	<li class="first"><a href="index.html">首页</a></li>
+    	<li><a href="search.html" class="cur">职位搜索</a></li>
+    	<li><a href="schools-jobs.html" data-nav="schools">校园招聘<i></i></a></li>
+    	<li><a href="parttimes.html">兼职</a></li>
+    	<li><a href="companies.html">知名企业</a></li>
+    	<li><a href="schools.html">合作院校</a></li>
+    </ul>
+    <div class="nav-foot">
+    	<ul>
+        	<li><a href="#">我的简历</a></li>
+        	<li><a href="#">投递反馈</a></li>
+        	<li><a href="#">个人设置</a></li>
+        </ul>
+    </div>
+</div></div>
+<div class="nav-sub nav-sub-inner" data-nav="schools"><p><a href="schools-jobs.html">校园招聘首页</a><a href="#">全职/实习招聘</a><a href="schools-confs.html">校园宣讲会</a></p></div>
+
+<div class="crumbs common">
+	<a href="#">好工作</a> &gt;
+	<a href="new-help.html">帮助中心</a> &gt;
+	<a href="#">常见问题</a> 
+</div>
+<div class="common">
+	<div class="left">
+    	<h3>帮助导航</h3>
+        <ul>
+        	<li><a href="help.html" class="cur">常见问题</a></li>
+            <li><a href="help-single.html">用户使用协议</a></li>
+            <li><a href="help-single.html">关于我们</a></li>
+            <li><a href="help-contact.html">联系我们</a></li>
+            <li><a href="help-single.html">法律声明</a></li>
+            <li><a href="help-single.html">保密协议</a></li>
+        </ul>
+    </div>
+    <div class="right">
+    	<h2>常见问题</h2>
+        <ul class="links">
+        	<li class="li1"><a href="#">忘记密码</a></li>
+        	<li class="li2"><a href="#">举报投诉</a></li>
+        	<li class="li3"><a href="#">意见反馈</a></li>
+        	<li class="li4"><a href="#">求职防骗指南</a></li>
+        </ul>
+        <ol class="asks">
+        	<li>
+            	<h3><b>1.</b>简历查看率是什么，有什么用？</h3>
+                <div>
+                	<p>1、负责对用户特征提取，用户聚类分类，推荐系统协同过滤等业务问题，提供先进、适用的解决方案（模型）、高可扩展性的可并行算法设计。</p>
+                    <p>2、协助对项目实施中遇到的算法性能瓶颈进行诊断和改进。</p>
+                    <p>3、提高拉勾网职位推荐的相关度、用户体验、投放效果。</p>
+                </div>
+            </li>
+            <li>
+            	<h3><b>2.</b>如何提高职位搜索的精确度？</h3>
+                <div>
+                	<p>1、负责对用户特征提取，用户聚类分类，推荐系统协同过滤等业务问题，提供先进、适用的解决方案（模型）、高可扩展性的可并行算法设计。</p>
+                    <p>2、协助对项目实施中遇到的算法性能瓶颈进行诊断和改进。</p>
+                    <p>3、提高拉勾网职位推荐的相关度、用户体验、投放效果。</p>
+                </div>
+            </li>
+            <li>
+            	<h3><b>3.</b>个人信用度是什么，有什么作用？</h3>
+                <div>
+                	<p>1、负责对用户特征提取，用户聚类分类，推荐系统协同过滤等业务问题，提供先进、适用的解决方案（模型）、高可扩展性的可并行算法设计。</p>
+                    <p>2、协助对项目实施中遇到的算法性能瓶颈进行诊断和改进。</p>
+                    <p>3、提高拉勾网职位推荐的相关度、用户体验、投放效果。</p>
+                </div>
+            </li>
+            <li>
+            	<h3><b>4.</b>怎么样才算一份完整的简历，为什么我一定要把简历填写完整？</h3>
+                <div>
+                	<p>1、负责对用户特征提取，用户聚类分类，推荐系统协同过滤等业务问题，提供先进、适用的解决方案（模型）、高可扩展性的可并行算法设计。</p>
+                    <p>2、协助对项目实施中遇到的算法性能瓶颈进行诊断和改进。</p>
+                    <p>3、提高拉勾网职位推荐的相关度、用户体验、投放效果。</p>
+                </div>
+            </li>
+            <li>
+            	<h3><b>5.</b>在好工作填写的简历有谁会看到？</h3>
+                <div>
+                	<p>1、负责对用户特征提取，用户聚类分类，推荐系统协同过滤等业务问题，提供先进、适用的解决方案（模型）、高可扩展性的可并行算法设计。</p>
+                    <p>2、协助对项目实施中遇到的算法性能瓶颈进行诊断和改进。</p>
+                    <p>3、提高拉勾网职位推荐的相关度、用户体验、投放效果。</p>
+                </div>
+            </li>
+            <li>
+            	<h3><b>6.</b>绑定微信、手机、邮箱有什么作用？</h3>
+                <div>
+                	<p>1、负责对用户特征提取，用户聚类分类，推荐系统协同过滤等业务问题，提供先进、适用的解决方案（模型）、高可扩展性的可并行算法设计。</p>
+                    <p>2、协助对项目实施中遇到的算法性能瓶颈进行诊断和改进。</p>
+                    <p>3、提高拉勾网职位推荐的相关度、用户体验、投放效果。</p>
+                </div>
+            </li>
+            <li>
+            	<h3><b>7.</b>简历中填写手机、邮箱与绑定的手机和邮箱有什么区别？</h3>
+                <div>
+                	<p>1、负责对用户特征提取，用户聚类分类，推荐系统协同过滤等业务问题，提供先进、适用的解决方案（模型）、高可扩展性的可并行算法设计。</p>
+                    <p>2、协助对项目实施中遇到的算法性能瓶颈进行诊断和改进。</p>
+                    <p>3、提高拉勾网职位推荐的相关度、用户体验、投放效果。</p>
+                </div>
+            </li>
+            <li>
+            	<h3><b>8.</b>HR如何注册帐号？</h3>
+                <div>
+                	<p>1、负责对用户特征提取，用户聚类分类，推荐系统协同过滤等业务问题，提供先进、适用的解决方案（模型）、高可扩展性的可并行算法设计。</p>
+                    <p>2、协助对项目实施中遇到的算法性能瓶颈进行诊断和改进。</p>
+                    <p>3、提高拉勾网职位推荐的相关度、用户体验、投放效果。</p>
+                </div>
+            </li>
+            <li>
+            	<h3><b>9.</b>HR如何进入企业后台？</h3>
+                <div>
+                	<p>1、负责对用户特征提取，用户聚类分类，推荐系统协同过滤等业务问题，提供先进、适用的解决方案（模型）、高可扩展性的可并行算法设计。</p>
+                    <p>2、协助对项目实施中遇到的算法性能瓶颈进行诊断和改进。</p>
+                    <p>3、提高拉勾网职位推荐的相关度、用户体验、投放效果。</p>
+                </div>
+            </li>
+        </ol>
+    </div>
+</div>
+
+<div class="footer footer-inner">
+	<div class="common tail">
+        <samp class="tail-nav">
+            <a href="#" class="first">关于我们</a>
+            <a href="new-help.html">帮助中心</a>
+            <a href="#">保密承诺</a>
+            <a href="#">Investor Relatiao</a>
+            <a href="new-about.html">关于我们</a>
+        </samp>
+    </div>
+    <div class="common copyright">
+    	<p>京ICP备09083200号 京ICP证070419号 人才服务许可证：RC0710280</p>
+    	<p>Copyright&copy;2000-2014 liepin.com All Rights Reserved</p>
+    </div>
+</div>
+<div class="float bottom-fixed">
+	<a href="#" class="float-code"><img src="images/search/code.jpg" width="49" height="49"></a>
+	<a class="float-link SuggestionStart">提出建议</a>
+    <a href="#" class="float-top"> </a>
+</div>
+
+
+
+<dl class="CenterDiv top-fixed Suggestion">
+	<dt class="CenterTopic"><h4>意见反馈</h4><q>&times;</q></dt>
+    <dd class="CenterContent">
+    	<p class="tip"><img src="images/regist/i.jpg" width="17" height="17">感谢您使用好工作，您的反馈是对我们莫大的支持和鼓励！</p>
+        <div class="SuggestForm">
+            <var>反馈内容：</var>
+            <dfn><textarea placeholder="使用帮助，产品bug，功能建议，问题反馈，吐槽等（500字以内）"></textarea></dfn>
+            <var>如何与您联系：</var>
+            <dfn>
+                <p><input type="checkbox"> <input type="text" class="text" placeholder="请输入邮箱"></p>
+                <p><input type="checkbox" id="systemInformation"> <label for="systemInformation">系统信息</label></p>
+            </dfn>
+            <div class="btns">
+                <input type="submit" class="submit btn" value="确定">
+                <input type="reset" class="reset btn" value="取消">
+            </div>
+        </div>
+        <div class="SuggestResult">
+            <p class="ResultOK"><img src="images/UCenter/ok.jpg" width="42" height="42"> 感谢您的反馈！</p>
+            <p>我们一定认真阅读和处理并尽快通过邮箱与您取得联系！</p>
+            <p><input type="submit" class="close btn" value="关闭"></p>
+        </div>
+    </dd>
+</dl>
+
+</body>
+</html>
+<script src="js/jquery.js"></script>
+<script src="js/web/all.js"></script>
+<script src="js/area.js"></script>
+<script src="js/web/center.js"></script>
+
+<script>
+$(function(){
+	NavFoot();
+	NavHead();
+	NavSubMenu();
+	SearchList();
+	NavPull();
+	CenterDiv();
+	SuggestionReady();
+	
+	$(".asks li h3").click(function(){
+		if($(this).hasClass('cur'))
+		{
+			$(this).removeClass('cur')
+				.next().hide();
+		}
+		else
+		{
+			$(this).addClass('cur')
+				.next().show();
+		}
+	});
+});
+</script>

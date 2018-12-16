@@ -1,0 +1,425 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><title>
+    管理后台
+</title><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta http-equiv="pragma" content="no-cache" /><meta http-equiv="Cache-Control" content="no-cache, must-revalidate" /><meta http-equiv="expires" content="0" />
+    <link href="../css/1024/common.css" rel="stylesheet" type="text/css" />
+    <link href="../css/1024/admin.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/MD5.js"></script>
+    <script type="text/javascript" src="../js/jbody.js"></script>
+    <script type="text/javascript" src="../js/jbody-plugin.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+    <script type="text/javascript" src="../js/area.js"></script>
+    <script type="text/javascript" src="../js/subjects.js"></script>
+    <script type="text/javascript" src="../js/jobPositions.js"></script>
+    <script type="text/javascript" src="../js/oldadmin/gpAdmin.js"></script>
+    <script type="text/javascript" src="../js/menuControl.js"></script>
+    <script type="text/javascript" src="../js/oldadmin/common.js"></script>
+    <script type="text/javascript" src="../js/selectors.js"></script>
+    
+    <script type="text/javascript" src="../UploadFile/UploadFile.js"></script>
+    <script type="text/javascript" src="../UploadFile/ManageCtrl.js"></script>
+    
+    <script type="text/ecmascript">
+        function SubjectChanged() {
+            JBValidaterSubject.check();
+        }
+    </script>
+</head>
+<body>
+    
+
+    
+<div id="pg-header" class="pg-header">
+    <div class="pg-header-main">
+        <div class="logo">
+            <a href="/"><img alt="好工作网Logo" src="../images/logo.png" class="pngfix" width="232" height="40" /></a>
+        </div>
+        <div class="cname">平台管理后台</div>
+        <div class="r mginT10">
+    <div class="platform-switch-container">
+    <div class="platform-switch-main msout">
+        <span class="floatR">切换后台</span>
+        <span class="floatR" style="border:solid 1px #ffc183; line-height:12px; margin-right:5px; padding-left:1px; padding-right:1px;">+</span>
+        <div style="clear:both;"></div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        $(".platform-switch-main").click(function () {
+            JBFrameHelper.showPage("/UCenter/PlatformSwitch.phtml", { obj: this, title: "切换到个人中心或其他管理后台", w: 500, pos: { to: "win", parent: "doc", park: "inside", parkInside: "center" } }, true, false);
+        });
+    })
+</script>
+
+</div>
+    </div>
+</div>
+    
+<div id="pg-nav" class="pg-nav">
+    <ul>
+        <li><div class="nav-title"><a href="#">管理首页</a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">院校<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">企业<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">资讯公告<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">招聘<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">简历<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">用户<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">广告<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">更多<sub></sub></a></div></li>
+    </ul>
+</div>
+<div style="clear:both;"></div>
+<div id="pg-nav-sub" style="display:none;">
+    <div id="pg-nav-sub-inner">
+    <div id="pg-nav-sub-main">
+        <ul style="display:none;">
+            <li><a href="Sum.html">系统概况</a></li>
+            <li><a href="Admin.html">系统功能链接汇总</a></li>
+            <li><a href="#">消息</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="School-cooperation.html">合作院校</a></li>
+            <li><a href="School-hasexpired.html">已到期</a></li>
+            <li><a href="School-expire.html">即将到期</a></li>
+            <li><a href="School-application.html">申请中</a></li>
+            <li><a href="School-mobilization.html">动员中</a></li>
+            <li><a href="School-all.html">全部院校</a></li>
+            <li><a href="School-add.html">添加院校</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Company-application.html">合作企业</a></li>
+            <li><a href="Company-hasexpired.html">已到期</a></li>
+            <li><a href="Company-expire.html">即将到期</a></li>
+            <li><a href="Company-application.html">申请中</a></li>
+            <li><a href="Company-mobilization.html">动员中</a></li>
+            <li><a href="Company-all.html">全部企业</a></li>
+            <li><a href="Company-add.html">添加企业</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Articles.html">管理平台资讯</a></li>
+            <li><a href="Articles.html">管理企业发布的资讯</a></li>
+            <li><a href="Articles.html">管理院校发布的资讯</a></li>
+            <li><a href="Articles.html">添加资讯</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Offers-wait.html">待审核</a></li>
+            <li><a href="Offers-ing.html">正在招聘</a></li>
+            <li><a href="Offers-fulltime.html">全职岗位</a></li>
+            <li><a href="Offers-parktime.html">兼职岗位</a></li>
+            <li><a href="Offers-internship.html">实习岗位</a></li>
+            <li><a href="Offers-school.html">校园招聘</a></li>
+            <li><a href="Offers-public.html">社会招聘</a></li>
+            <li><a href="Offers-all.html">全部</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Resumes.html">企业下载</a></li>
+            <li><a href="Resumes.html">正在求职</a></li>
+            <li><a href="Resumes.html">等待推荐</a></li>
+            <li><a href="Resumes.html">已推荐</a></li>
+            <li><a href="Resumes.html">已面试</a></li>
+            <li><a href="Resumes.html">全部</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="CustmRoles.html">平台管理员角色</a></li>
+            <li><a href="Admin-admin.html">平台管理员</a></li>
+            <li><a href="Admin-school.html">院校方管理员</a></li>
+            <li style="display:none;"><a href="/admin/users/school/">院校方导师</a></li>
+            <li><a href="Admin-company.html">企业方管理员</a></li>
+            <li><a href="Admin-user.html">全部注册用户</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="#">正在投放</a></li>
+            <li><a href="#">已过期</a></li>
+            <li><a href="#">全部</a></li>
+            <li><a href="#">添加广告</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Setting.html">系统设置</a></li>
+            <li><a href="Info.html">个人设置</a></li>
+            <li><a href="Password.html">修改密码</a></li>
+        </ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+    </div>
+    </div>
+</div>
+<div style="clear:both;"></div>
+    <div class="pageMainContentContainer">         
+    <div id="titleAndTabMenuContainer" class="titleAndTabMenuContainer" style="display:none; clear:both;"></div>
+    <div id="titleAndTabMenuContainer2" class="titleAndTabMenuContainer" style="display:none; clear:both;"></div>
+    <iframe id="_postTargetIframe" name="_postTargetIframe" style="display:none;" src="about:blank"></iframe>
+    <form method="post" action="/admin/Company/Add.phtml" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="vEqre/9nErEUaLIHPgSGvVZbS1xwNopcHlr69UtoJ3rUmWEFLwkBsv1r0bNmp8AGBQZuWK/IpRKpQOWV/7AgxyDFN9pgXWRbIfEcDQUV5udkgOBrqeFAfxys7+Xv5EwsFPU2YP2nJGL6i92gQD0wogGuAp/3J1hvqUsIt50b6K4C0ihsiZ6iiR1qD5Rt78GaSuqdCd6i0vqkxQYeqWrDXU9/8INBuXVZqgBbH2IdM+nFQyA6OgpC6lNphxW8I4Tjxq+FVT1lufr70krPH0Y4Dz5Lw+Wji4jsVIitIozZKbUDcO2RAaXLoFmD67qBeSa8lh1SBeg03L+z6X9wD8XkVGsfpMub35HGNkR9sVGLx64o+9901GPWUV7LPtwzJ9eI3+jOPPdHsp2GTv3ts4tGEuUgd4KNP3+fku9VD4jE4xg6H0T6rCQGFD2N97IOZ9ACSXJC2SCE5o0BgPqFTkO98rE4R5spOrI25B2eVKnNYXu8AURxiUUEsdXfUZ8LuJ3LH61OzZ3FGzZueEqUEZDpXtgJ6aQB6paUhPQRh2yKaYgh41RQHcP4xfRDcEmyAD0uebFUHU19T+N7lWMW+s7iUKko/ruq8T7IZzvMR3a4R9LttOKG9iahsMDvU4HOU0DqEAadQ/5LIWc55biM8Bp3btoGGfiuyyElMQ6so3Nu1EF2IZQf3mXUwDlMcLO6uwzKuXNKtk/1HGLkxiVtYwBgn8rQGoHYvYncG+7ZgMolkY9BU/kfM409bsQVoWeCZbEEhxS+7hxQD1bXVwP8p7ZF2juF1mHOFmp7W3eq9Z6BJEJvtoxN9GUSy9/budwQHxtwKOX9bxzc/dklHMJgxXcyvk1MBDRMMib/wMqGhO/43p1+HfZRF0GItkfpLePkQ6kbuGxNBboTyzhsZQWPUuCdsC0v8pAoYRcR8mfxGI4M5CcsRSNI35PZzsp0GOpyCEu/NoOtGVKznL2CgN6w2vjykSgiHsvlQTW/aqg364Cw1VL1fruVfpMZdzLePA79k4BX" />
+</div>
+
+<div class="aspNetHidden">
+
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="B1953A26" />
+</div>
+    
+    <div class="bodyBlock">
+         <div class="editBlock editable">
+             <div class="detailBlockTitle"><div class="leftIco"></div><div class="left">添加新企业</div></div>
+            <div class="blockMain">
+                <div id="stepTabContainer" style="margin-left:135px;"></div>
+                <table class="blockMainTable mginL20 mginT20" style="width:930px;" id="addStep1Container">
+                    <tr>
+                        <th style="width:140px;">企业简称：</th><td style="width:320px;" colspan="3">
+                            <input name="ctl00$form$TextBoxName" type="text" id="form_TextBoxName" class="inputText" AutoComplete="false" onchange="shortNameIdentChecker.onchange(this)" data-jbextendid="exinput_form_TextBoxName_973_354" data-jbtips="企业简称" style="width:300px;" />
+                            <div style="clear:both; margin-top:8px;"></div>
+                            <span id="nameMsg" style="margin-left:0px;"></span>
+                            <img id="aloadingName" style="display:none;" alt="" src="/images/common/loading/1.gif" />
+                            </td>
+                        <th style="width:100px;">企业全称：</th><td>                              
+                            <input name="ctl00$form$TextBoxFullName" type="text" id="form_TextBoxFullName" class="inputText" AutoComplete="false" onchange="fullNameIdentChecker.onchange(this)" data-jbextendid="exinput_form_TextBoxFullName_545_354" data-jbtips="企业全称" style="width:300px;" />
+                            <div style="clear:both; margin-top:8px;"></div>
+                            <span id="nameFullMsg" style="margin-left:0px;"></span>  
+                            <img id="aloadingFullName" style="display:none;" alt="" src="/images/common/loading/1.gif" />
+                            </td>
+                    </tr>
+                    <tr>
+                        <th>性质：</th><td><select name="ctl00$form$DropDownListNatureType" id="form_DropDownListNatureType" style="width:113px;">
+    <option value="2">外商独资</option>
+    <option value="4">外企办事处</option>
+    <option value="8">中外合资合作</option>
+    <option value="16">私营_民营企业</option>
+    <option value="32">国有企业</option>
+    <option value="64">国内上市公司</option>
+    <option value="128">政府机关</option>
+    <option value="256">非营利机构</option>
+    <option value="512">事业单位</option>
+    <option value="1024">其他</option>
+
+</select>
+                                      </td>
+                        <th style="width:80px;">员工规模：</th><td><select name="ctl00$form$DropDownListEmployeesMax" id="form_DropDownListEmployeesMax" style="width:112px;">
+    <option value="50">50人以下</option>
+    <option value="150">50至150人</option>
+    <option value="500">150至500人</option>
+    <option value="1000">500至1000人</option>
+    <option value="3000">1000至3000人</option>
+    <option value="1000000">3000人以上</option>
+
+</select></td>
+                        <th>所属行业：</th><td id="subjectContainer">
+                            <input type="hidden" name="ctl00$form$MutiSubjectSelector1$HiddenSubjectIds" id="form_MutiSubjectSelector1_HiddenSubjectIds" />
+<div style="">
+    <div onclick="MutiSubjectSelector.show(this)">
+        <select id="form_MutiSubjectSelector1select" style="float:left;; width:315px; height:30px;" disabled="disabled">
+            <option></option>
+        </select>
+        <div style="position:relative;" id="form_MutiSubjectSelector1front">
+            <div style="position:absolute; width:315px; height:30px; border:solid 0px #000;"></div>
+        </div>
+    </div>    
+    <div style="clear:both;"></div>
+</div>
+<script type="text/javascript">
+    var MutiSubjectSelector = null;
+    $(function(){
+        MutiSubjectSelector = new MultiSubjectCreater({
+            objName: "MutiSubjectSelector",
+            maxSelect: 1,
+            objHiddenId : document.getElementById("form_MutiSubjectSelector1_HiddenSubjectIds"),
+            selectElement : document.getElementById("form_MutiSubjectSelector1select"),
+            textWhenEmpty:"请选择行业",
+            dialogTitle:"请选择行业",
+            canSelectTopLevel:true,
+            mode : "single",
+            onchange: [function (opt) { $("#form_MutiSubjectSelector1front").attr("title", opt.tts); },SubjectChanged]
+        });
+    });
+</script>
+                            
+                            <div style="clear:both; margin-top:8px;"></div>
+                            <span id="subjectMsg" style="margin-left:0px;"></span></td>
+                    </tr> 
+                    <tr>
+                        <th><span class="reqValidate">*</span>所在城市：</th><td colspan="3">
+                            <input type="hidden" name="ctl00$form$HiddenFieldCity" id="form_HiddenFieldCity" />
+                            <select id="selProvince" style="width:155px;"></select><select id="selCity" style="width:155px; margin-left:5px;"></select>
+                            
+                            <div style="clear:both; margin-top:8px;"></div>
+                            <span id="cityMsg" style="margin-left:0px;"></span>
+                                     </td>
+                        <th>企业地址：</th><td>
+                            <input name="ctl00$form$TextBoxAddress" type="text" id="form_TextBoxAddress" class="inputText" AutoComplete="false" data-jbextendid="exinput_form_TextBoxAddress_182_354" data-jbtips="企业详细地址" style="width:300px;" />
+                            <div style="clear:both; margin-top:8px;"></div>
+                            <span id="addressMsg" style="margin-left:0px;"></span></td>
+                    </tr> 
+                     <tr>
+                        <th>Url Key：</th><td colspan="3">
+                            <input name="ctl00$form$TextBoxUrlKey" type="text" id="form_TextBoxUrlKey" class="inputText" AutoComplete="false" onchange="urlKeyIdentChecker.onchange(this)" data-jbextendid="exinput_form_TextBoxUrlKey_557_354" data-jbtips="（域名/Key）直达主页，必须含字母，可含数字" style="width:300px;" />
+                            <div style="clear:both; margin-top:8px;"></div>
+                            <span id="urlKeyMsg" style="margin-left:0px;"></span>  
+                            <img id="aloadingUrlKey" style="display:none;" alt="" src="/images/common/loading/1.gif" />
+                                     </td>
+                        <th>合同状态：</th><td colspan="3">
+                            <div class="floatL">
+                            <select name="ctl00$form$DropDownListContractState" id="form_DropDownListContractState" style="width:92px;">
+    <option value="1">合作</option>
+    <option value="2">准合作</option>
+    <option value="4">试用</option>
+    <option value="8">申请待审核</option>
+    <option value="16">动员中</option>
+    <option value="32">企业已拒绝</option>
+    <option value="64">我方已拒绝</option>
+    <option value="96">双方已拒绝</option>
+
+</select>                                
+                            <div style="clear:both; margin-top:8px;"></div>
+                            </div>
+                            <div class="floatL">
+                                &nbsp;&nbsp;&nbsp;结束时间：
+                            </div>
+                            <div class="floatL mginL05">
+                                <input name="ctl00$form$TextBoxContractTimeout" type="text" id="form_TextBoxContractTimeout" class="inputText" AutoComplete="false" data-jbextendid="exinput_form_TextBoxContractTimeout_803_354" onclick="JBCalendar.show(this)" readonly="readonly" data-jbtips="结束时间" style="width:120px;" />
+                                <div style="clear:both; margin-top:8px;"></div>
+                                <span id="contractTimeoutMsg" style="margin-left:0px;"></span>
+                            </div>
+                            </td>
+                        <th>&nbsp;</th><td></td>                        
+                    </tr>  
+                    <tr><th>&nbsp;</th><td colspan="5" style="padding-top:30px;">
+                        <input type="button" onclick="checkAndGotoNextStep(1)" class="btn-3d btn-3d-large btn-3d-blue floatL" value="下一步" />
+                    </td></tr>
+                </table>
+                <table class="blockMainTable mginL20 mginT20" style="width:930px; display:none;" id="addStep2Container">
+                    <tr>
+                        <th style="width:150px;">企业简介：</th><td>
+                            <textarea name="ctl00$form$TextBoxShortDesc" rows="2" cols="20" id="form_TextBoxShortDesc" class="inputText" AutoComplete="false" data-jbextendid="exinput_form_TextBoxShortDesc_660_354" data-jbtips="企业简介，100至500字符，可留空（留空则使用详细介绍前500字符作为简介）" style="height:80px;width:660px;">
+</textarea>
+                            <div style="clear:both; margin-top:8px;"></div>
+                            <span id="shortDescMsg" style="margin-left:0px;"></span>
+                            </td>
+                    </tr>
+                    <tr>
+                        <th>详细介绍：</th><td>
+                            <textarea name="ctl00$form$TextBoxFullDesc" rows="2" cols="20" id="form_TextBoxFullDesc" class="inputText" AutoComplete="false" data-jbextendid="exinput_form_TextBoxFullDesc_795_354" data-jbtips="详细介绍" style="height:400px;width:660px;">
+</textarea>
+                            <div style="clear:both; margin-top:8px;"></div>
+                            <span id="fullDescMsg" style="margin-left:0px;"></span>
+                            </td>
+                    </tr>
+                    <tr><th>&nbsp;</th><td style="padding-top:20px;">
+                        <input type="button" onclick="checkAndGotoPrevStep(2)" class="btn-3d btn-3d-large btn-3d-blue2 floatL" value="上一步" />
+                        <input type="submit" name="ctl00$form$ButtonSubmit" value="提交" id="form_ButtonSubmit" class="btn-3d btn-3d-large btn-3d-blue floatL mginL15" />
+                        <input type="submit" name="ctl00$form$ButtonSaveDraft" value="保存草稿" id="form_ButtonSaveDraft" class="btn-3d btn-3d-large btn-3d-blue2 floatL mginL15" />
+                    </td></tr>
+                </table>                
+                <div style="clear:both;"></div>
+            </div>
+        </div>
+     </div>
+    <script type="text/javascript">
+        var shortNameIdentChecker = new JBodyIdentInputValidator({
+            data: { cmd: "checkshortname" },
+            loadingMsgObj: $("#aloadingName").get(0),
+            msgObj: $("#nameMsg").get(0),
+            msgChecking: "企业简称检测中......",
+            msgFalse: "企业简称不可用，可能是存在相同的简称！",
+            defaultResult: false,
+            debug: false
+        });
+        var fullNameIdentChecker = new JBodyIdentInputValidator({
+            data: { cmd: "checkfullname" },
+            loadingMsgObj: $("#aloadingFullName").get(0),
+            msgObj: $("#nameFullMsg").get(0),
+            msgChecking: "企业全称检测中......",
+            msgFalse: "企业全称不可用，可能是存在相同的全称！",
+            defaultResult: false,
+            debug: false
+        });
+        var urlKeyIdentChecker = new JBodyIdentInputValidator({
+            data: { cmd: "checkurlkey" },
+            loadingMsgObj: $("#aloadingUrlKey").get(0),
+            msgObj: $("#urlKeyMsg").get(0),
+            msgChecking: "Url Key检测中......",
+            msgFalse: "Url Key不可用，可能是存在相同的Url Key！",
+            defaultResult: false,
+            debug: false
+        });
+    </script>
+
+    
+
+<script type="text/javascript">
+//<![CDATA[
+pageMainMenuCreater.setActive({mainText:'企业',subText: '添加企业'});function iframeSubmitRegister(){$("#form1").get(0).target = "_postTargetIframe";if(JBValidatorContainer.containAutoFireObj($("#form1").get(0))){   JBValidatorContainer.afterSuccess.push(function(){     if(this==$("#form1").get(0)){ new JBodyDialog().show(window, "<img alt='' src='/images/common/loading/5.gif' />", {w:200,h:90,modal:true,title:"正在添加企业", pos:[{to:'win',park:'inside',parkInside:'center'}]}); }    return true; });}else{  $("#form1").submit(function() {  new JBodyDialog().show(window, "<img alt='' src='/images/common/loading/5.gif' />", {w:200,h:90,modal:true,title:"正在添加企业。", pos:[{to:'win',park:'inside',parkInside:'center'}]});  return true;  });}}$(function(){ setTimeout("iframeSubmitRegister()",1000); });//]]>
+</script>
+<script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxName'});var exinput_form_TextBoxName_973_354=null; JB.ready(function(){exinput_form_TextBoxName_973_354= new JBValidator({varId:'exinput_form_TextBoxName_973_354',exType:'Chinease',checkWhere:'ServerAndClient',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'nameMsg',successMsg:'简称检测通过，可以使用',dataTitle:'企业简称',inputTip:'企业简称',tipShow:'Onfoucs',tipPos:'InnerText',innerTextTip:'企业简称',appendChecks:[shortNameIdentChecker.check],showSuccess:true,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:false,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0});});</script><script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxFullName'});var exinput_form_TextBoxFullName_545_354=null; JB.ready(function(){exinput_form_TextBoxFullName_545_354= new JBValidator({varId:'exinput_form_TextBoxFullName_545_354',exType:'Chinease',checkWhere:'ServerAndClient',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'nameFullMsg',successMsg:'全称检测通过，可以使用',dataTitle:'企业全称',inputTip:'企业全称',tipShow:'Onfoucs',tipPos:'InnerText',innerTextTip:'企业全称',appendChecks:[fullNameIdentChecker.check],showSuccess:true,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:false,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0});});</script><script type='text/javascript'>var JBValidaterSubject=null; JB.ready(function(){JBValidaterSubject= new JBValidator({obj:'subjectContainer',exType:'Text',checkWhere:'ClientAuto',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'subjectMsg',dataTitle:'输入',appendChecks:[CheckSebjectSelect],showSuccess:false,inCaseHidden:false,checkAppendOnly:true,msgAlwaysAlert:false});});</script><script type='text/javascript'>var JBValidaterCity=null; JB.ready(function(){JBValidaterCity= new JBValidator({obj:'selProvince',exType:'Text',checkWhere:'ClientAuto',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'cityMsg',dataTitle:'输入',appendChecks:[CheckCitySelect],showSuccess:false,inCaseHidden:false,checkAppendOnly:true,msgAlwaysAlert:false});});</script><script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxAddress'});var exinput_form_TextBoxAddress_182_354=null; JB.ready(function(){exinput_form_TextBoxAddress_182_354= new JBValidator({varId:'exinput_form_TextBoxAddress_182_354',exType:'Text',checkWhere:'ServerAndClient',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'addressMsg',dataTitle:'企业地址',inputTip:'企业详细地址',tipShow:'Onfoucs',tipPos:'InnerText',innerTextTip:'企业详细地址',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:false,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0});});</script><script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxUrlKey'});var exinput_form_TextBoxUrlKey_557_354=null; JB.ready(function(){exinput_form_TextBoxUrlKey_557_354= new JBValidator({varId:'exinput_form_TextBoxUrlKey_557_354',exType:'Text',checkWhere:'ServerAndClient',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'urlKeyMsg',ptEncode:'None',ptEncodingName:'GB2312',jsPattern:'^[0-9a-zA-Z]*[a-zA-Z]+[0-9a-zA-Z]*$',successMsg:'Url Key检测通过，可以使用',dataTitle:'Url Key',inputTip:'（域名/Key）直达学校主页，必须含字母，可含数字',tipShow:'Onfoucs',tipPos:'InnerText',innerTextTip:'（域名/Key）直达主页，必须含字母，可含数字',appendChecks:[urlKeyIdentChecker.check],showSuccess:true,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:false,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:3,maxLen:15});});</script><script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxContractTimeout'});var exinput_form_TextBoxContractTimeout_803_354=null; JB.ready(function(){exinput_form_TextBoxContractTimeout_803_354= new JBValidator({varId:'exinput_form_TextBoxContractTimeout_803_354',exType:'Date',checkWhere:'ServerAndClient',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'contractTimeoutMsg',dataTitle:'结束时间',innerTextTip:'结束时间',showSuccess:false,checkOnFocusout:false,checkOnChange:true,ignoreCase:true,canNull:false,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0});});</script><script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxShortDesc'});var exinput_form_TextBoxShortDesc_660_354=null; JB.ready(function(){exinput_form_TextBoxShortDesc_660_354= new JBValidator({varId:'exinput_form_TextBoxShortDesc_660_354',exType:'Text',checkWhere:'ServerAndClient',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'shortDescMsg',dataTitle:'企业简介',inputTip:'企业简介，100至500字符，可留空（留空则使用详细介绍前500字符作为简介）',tipShow:'Onfoucs',tipPos:'InnerText',innerTextTip:'企业简介，100至500字符，可留空（留空则使用详细介绍前500字符作为简介）',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:true,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:100,maxLen:500});});</script><script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxFullDesc'});var exinput_form_TextBoxFullDesc_795_354=null; JB.ready(function(){exinput_form_TextBoxFullDesc_795_354= new JBValidator({varId:'exinput_form_TextBoxFullDesc_795_354',exType:'Text',checkWhere:'ServerAndClient',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'fullDescMsg',dataTitle:'详细介绍',inputTip:'详细介绍',tipShow:'Onfoucs',tipPos:'InnerText',innerTextTip:'详细介绍',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:false,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0});});</script></form>
+    
+    <script type="text/javascript">
+        $("#form_DropDownListContractState").change(function () {
+            //alert($(this).val());
+            if (parseInt($(this).val()) > 4) {
+                $(this).parent().parent().find(".floatL").hide();
+                $(this).parent().show();
+            } else {
+                $(this).parent().parent().find(".floatL").show();
+            }
+        });
+        $("#form_DropDownListContractState").change();
+        function checkAndGotoNextStep(currentStep) {
+            if (JBValidatorContainer.checkAllChildren(document.getElementById("addStep" + currentStep + "Container"))) {
+                $("#addStep" + currentStep + "Container").hide();
+                $("#addStep" + (currentStep + 1) + "Container").show();
+                setAddSchoolStep(currentStep + 1);
+            }
+        }
+        function checkAndGotoPrevStep(currentStep) {
+            $("#addStep" + currentStep + "Container").hide();
+            $("#addStep" + (currentStep - 1) + "Container").show();
+            setAddSchoolStep(currentStep - 1);
+        }
+        function setAddSchoolStep(st) {
+            var addSchlStep = ["第一步、填写基本信息", "第二步、填写企业介绍", "第三步、完成"];
+            stepTabMenus("stepTabContainer", addSchlStep, st);
+        }
+        function addFinished() {
+            $("#addStep2Container").hide();
+            $("#addStep3Container").show();
+            setAddSchoolStep(3);
+        }
+        $(function () {
+            CreateAreaSelector({ slProv: "selProvince", slCity: "selCity", titleProv: "选择省份", value: $("#form_HiddenFieldCity").val(), afterchange: function (v) { $("#form_HiddenFieldCity").val(v); if (v != "" && JBValidaterCity!=null) JBValidaterCity.check(); } });
+        });
+        function CheckCitySelect(jbv) {
+            var v = $("#form_HiddenFieldCity").val();
+            if (v == "") jbv.msg = "请选择城市";
+            return v != "";
+        }
+        function CheckSebjectSelect(jbv) {
+            var v = MutiSubjectSelector.getValue();
+            if (v == "") jbv.msg = "请选择行业";
+            return v != "";
+        }
+        setAddSchoolStep(1);
+    </script>
+   
+    <div style="clear:both;"></div>
+    </div> 
+    
+<div style="clear:both;"></div>
+<div class="footerOuter">
+    <div class="footer">
+        版权所有：好工作网
+        联系电话：88888888&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        联系邮箱：88888@qq.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+        地址：广州市环市中路&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        邮政编码：510000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+    </div>
+</div>
+
+</body>
+</html>
+<script type="text/javascript">
+    $(function () { adminPageInit({ unresize: "" }); });
+</script>

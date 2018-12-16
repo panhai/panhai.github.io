@@ -1,0 +1,1708 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>
+	好工作运营后台
+</title><link rel="stylesheet" type="text/css" href="..//css/v2/admin/all.css" /><link rel="stylesheet" type="text/css" href="../css/v2/admin/index.css" />
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/MD5.js"></script>
+    <script type="text/javascript" src="../js/jbody.js"></script>
+    <script type="text/javascript" src="../js/jbody-plugin.js"></script>
+
+</head>
+<body>
+    <iframe id="_postTargetIframe" name="_postTargetIframe" style="display:none;" src="../images/common/empty.jpg"></iframe>
+    <header class="clear">
+        <a href="/" target="_blank"><img src="../images/v2/logo-s.png" width="119" height="62" /></a>
+        <em>后台管理系统</em>
+        <p>
+            <a href="/AdminOld/">旧版后台</a>
+            <a href="#"><i>
+                <img src="../images/v2/nophoto.png" width="30" height="30"></i><span>潘家</span></a>
+            <a href="/logout.html">安全退出</a>
+        </p>
+    </header>
+    <div id="mainMenu">
+        <nav>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="companies.html">企业管理</a></li>
+            <li><a href="schools.html">院校管理</a></li>
+            <li><a href="users.html">用户管理</a></li>
+            <li><a href="jobs.html">职位管理</a></li>
+            <li class="cur"><a href="resumes.html">简历管理</a></li>
+            <li><a href="servers.html">客服系统</a></li>
+            <li><a href="moneys.html">财务系统</a></li>
+            <li><a href="system.html">系统管理</a></li>
+        </nav>
+        <menu class="hidden"></menu>
+        <menu class="hidden">
+            <li><a href="/Admin/company/">全部企业</a></li>
+            <li><a href="#">RPO企业</a></li>
+            <li><a href="/Admin/company/cooperating.html">已合作</a></li>
+            <li><a href="/Admin/company/checking.html">待审核</a></li>
+            <li><a href="/Admin/company/offline.html">被下架</a></li>
+            <li><a href="/Admin/company/detail/add.html">添加企业/RPO</a></li>
+            <li><a href="/Admin/company/detail/schoolcoop.html">院校联盟申请</a></li>
+        </menu>
+        <menu class="hidden">
+            <li><a href="/Admin/school/">全部院校</a></li>
+            <li><a href="/Admin/school/?listType=cooperation">已合作</a></li>
+            <li><a href="/Admin/school/?listType=shelves">已下架</a></li>
+            <li><a href="/Admin/school/add.html">添加院校</a></li>
+        </menu>
+        <menu class="hidden">
+            <li><a href="/Admin/users/">全部注册用户</a></li>
+            <li><a href="/Admin/users/company/">HR用户</a></li>
+            <li><a href="/Admin/users/school/">学校管理员</a></li>
+            <li><a href="/Admin/users/Hannels/">渠道统计</a></li>
+            <li><a href="/Admin/users/notactivation.html">未激活用户</a></li>
+        </menu>
+        <menu class="hidden">
+            <li><a href="/Admin/Offers/jobs.html">正在招聘职位</a></li>
+            <li><a href="/Admin/Offers/JobsCheck.html">待审核职位</a></li>
+            <li><a href="/Admin/Offers/JobsStop.html">已暂停职位</a></li>
+            <li><a href="/Admin/Offers/JobsOff.html">被下架职位</a></li>
+            <li><a href="/Admin/Offers/JobsRefuse.html">审核不通过职位</a></li>
+            <li><a href="/Admin/Offers/Detail/Add.html">添加新职位</a></li>
+            <li><a href="/Admin/Offers/fairs.html">宣讲会</a></li>
+            <li><a href="/Admin/Offers/fairsjob.html">招聘会</a></li>
+            <li><a href="/Admin/Offers/promotion.html">热荐职位</a></li>
+        </menu>
+        <menu class="">
+            <li><a href="resumes.html">在线简历</a></li>
+            <li><a href="resumes-feedbacks.html">简历投递反馈</a></li>
+            <li class="cur"><a href="/Admin/resumes/Store.html">简历库</a></li>
+            <li><a href="resumes-replacePush.html">代投简历</a></li>
+            <li><a href="resumes-urgent.html">急招企业</a></li>
+        </menu>
+        <menu class="hidden"></menu>
+        <menu class="hidden"></menu>
+        <menu class="hidden">
+            <li><a href="javascript:">好工作管理员</a></li>
+            <li><a href="javascript:">友情链接</a></li>
+            <li><a href="/Admin/system/advertice/">广告设置</a></li>
+        </menu>
+    </div>
+
+    <form method="get" action="/Admin/resumes/Store.html" id="ctl00">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="kRUPR6xRDmlFH4q2iYoLaaPJATbwd7aT8iy5A0bvRKp5nI2cLpJOJrMMwBr5wnoFgcdiFTl+o4B6UH9F8jUckMhkcpVpF9vtI2bSCrIV1jSnQkb0zU7IZzkMdFKqfDd9PioRktCACcUQB2WqbFr0iLIkawukUnQjUifaW+1WWDwsbahLyxo4x88npJeUlO6OqL9pI7FX6nYFb+YnDQmXvPqxekLcDRbmZgHjLpS6rqiojxTflOatObIgSK2n19cGyYP4TZadLPJzyHsO/AkcfPJIruW/uIZ62duo/84MsoWX9pfMNHcC8AayrnflnPEBQeJfXsopSOrCto+YygsMITcqwlHUY4keQXHW96hN7x/yQVqjB9D6igfbacDTxSAyriOhrUrD5Y2bozBaik9vWRVzlh8wBA3oiFqe8pvxXrm7EidPSzmC8b1SKH1Xb5UGhNBeeSchAYqb9VwIzDGnOD4ElxHJV4qcEAZNhmSOLrUB8wf1XH/97ut/rKmoGxPcvprifzZIeofeKsAezLRN5KOm9ST2PJdgZiRusK+Hlspe7b0XzIR9BOHKqET72OvF/2cmo8TSL5d1CuLn+lqlGK7qSRVPKSB13JTG98EyvdV7aDOwjVMnj4l7HtFd0OLT4JsymD4DpF3kb+T9qyXR7wNHDrMc/qbkaCP1LVAtIaMUBjUWa0Rs4Uy8f0OUr1xgUmjo+N3fjX6D18gmTe0CynUxiIkKQwDQsZCS5A/dtCZxIkClURqOI4v/oG9+6VyDRsbwkdFrxB9IbQWCr0te56K9DAX67VnGWhXYHsYs5TH8EW5Iq/PHouOOHoaHaPN1hL33+06mIze6tMZ5rw8ghBuXn/WAVbo+6CS/L97sDnUJTvJXc6ozmnEep/qpFtHfbfOX5vGcgJY/vVSyMnhgOK4qbcO16wfsIrPgQJoKTn5Uo+Ottx246MH3G95qDYwNvozlQGWnUyrcDd0208MEVfl7v39FCu94q/F9Y1DpGFFEX+Go2veGxH/W9is8JrK2dqxr5jsb5pdFhi4iV3QFdm1SLVIKl0C0LfLeougVVZMrJxCttyT7jMdAf7s7KrxdED9kz0agPQuiePii6rmvC2Gf3jxmQ3zgkYcgULlPojYXFShtCK2yb24zv20a9/f/jDrsNgA73TDcw9Lnff/6PTgstC85f47r8MjMwQYPbTT1fUvlEO8kE7r9luOTSv8E9CNUXdZRjNv19hLeSC2w+ZrCCxsEd+jdw1pW5L9uboBxn35fL1/5ZYE1g3xCCGOuWmHHKK4J9Se15NiYa2ei1a9SB7FuAVASDvJ9GeKjO8OI+A7ZMqZYoor9iC9C0BhCl1dYuYCMgmSggTKgw7MMFNLsyiBs31wTyW0OJQMXdE68UByRLEz0JZ22SZ8cnPFfRyTmIs1zwvaNAQ1hrD23nSZM4oO9+t4bxi7QAiBk/PtJjwB16RYf4iLCXyfmE6n/wSYLHAFmUu8QOv/5TWZsaOB/eeL0/7HHVnMoN1nbBHy29CPJARE+nxEsITe0uc08otpeL70lSHVOg8bYa4rTUSAek1FYervP36faW0zrfGObqT4y+c6gvoOFvL9cscZ5ZQ21OZrKXnKqUxnODfzxw5Pi4PWPn4R2r/a8oskUBCnXqeuWy8/W6sNgWdq3UUrVP7Q4ER5DGff4gZZ4vgRmw9VuN4QVsBiOputtztP5Iz7XL5BaF6KBXwGSFiLrRMExQnX1FoqIipXtST3iKf92WgDO/IxL6jT5S7i7jLw59uJiTfRp53srUJPmGUYK5QBbq+UsBD/W57R/c7pqhSxZJ0+l/vY8QOzVMAwgtN+vc3LNIGy90PE1UfXwrBBoMHRO2ARK8hn1i+Aq9nklFBmwkRzKC5J/h774AR4Gw0CRXY7k0Dj8fWX3VEGWpiS3WhULQoIwxhQX8ti8LLlz5PsyO4vswXOXJdLLKjvz5Q0qA8nxBZoox1oLAsYNY4KvZjdbx7OqFISuaa2zm4qtivjuHLHWgIBbD4g/ZAtkOOZ9zYuSuNtLPuNLtCez1mKChNWn921KC28UJiEmPt0e6hHm1s5WAQ3j1dQfeYzH3+lPGQLCMHwkF+dre823vRI00n0tn4lho1lp/KXNXsPT36PcQk39t093dh44m43EXgUKJgEpgUIqzmmFmlrpz2uqeJTSaXR0H5PcejiYk0npvyX3y9mzMjLEs42ubsVZH7BsUpdRGhP5xB8UDpTH5vNF9ioN4DIRz3mQ5s5R+t/aYiTE8i1nURF/VFfbiXWNMrnWYPqof8aGz8Axcs2bWZYlQT07poT2IqN1eU5rZhfajMzWOs881dXxaKPsjwqb0jXG+Lu15m14Yoyw26YXBSmFqLzIKjY8yW5pMXHv1KERvZttTmCCn+GE9wEpY0+k7Ho+XQLmvcD4hOoQaZ3X7cyj/kNnS4VXDG/v3I7P7hxmwuP9VWmLbE1V1IwJFzDWMWK6G520Zd9yYT+WmaOE6G/Z/MQS/uab+S8EKDgl5KF0gu+2Qihc0O/ANjTg8vAYkJ9qR59x43KkGzxxn8pLBySy/rMHYBfsI2ijppSaL5FD464mtsKpjGGY7v8D7+fUt/s5rBCESEAQqvDUYTdwOTzJvAVGsHC+/Y4e/YGH2qur3nIG1SdOUZYq4R+94p2gsalHV7ZXaWree7YIDGRTY33AWjiNcTcZpx19WuZDqLE/vNyUdcia+rT4BLdBluitA5l6UHkEeEXWxH9rYAE3nswHV9X3lMwc48/mH3Thy867xm21IlQFya7UxrglXdstbI5T5fAm7fvbsG8hWWL45N8ZhpOLOyJOnXf8VF6DXVel+f2PE66nGL845DMt4HxRb8p4YQ7jSv5TDCn+YKVtUy2TDPjfJlKlnI+R8w5aRgIbUvCxTekXlgg18OKHadbUZyhc+cq8d4CPepseJy41YlpvtBH9+yv6lnqoaoYBjpGyu90QkZVJJaGQot8dLz93r4ZzqOyS5lw6UHNbgS9y/y0oOedL/1p9XQIN0VVFdWQA76DF8XYYFoi3dfBc/SFTa2EnJIdUwiUDSDzZBt4rMa2UAxRtq8naEmVjjVk9nv095OJx1zByiCpbY9GmFp6W126NuP5avToNw3K9RLxuiMqLnQbrupC6UihsHFICVmIqCGFSJ13GjLvsiXC+DO8UJ4kUTy3lHSJz0irRY7i81UtJmBcBMlTjkxMW9Xw+q+QdFu/vhU0aEgdtV5MSGZhZVIDZiWNvkY0iPXyTRKGKEfWqa9qLs4F9oi4np4ZuCNNAY5rMB5EekFrFKBYYVVr+HMxILpEo2VPWBMb/HOjCaqlKghNg+gPzKO1ZlGE7ejN5DmvXpiz2Lmbe+ziy4Zl4KY1dqoFEPXELX3d9O/TNVIVsW7yZqcHRyA5kNZRgHdrq+w9S3eN8TDafC5mmQX9ydl1XyK0+Cb+J9CQntmlZgQRJWRAFk/Ddp3mt+ddHzK82RUcUC8py4cEi2dvs1QpDhzT8vj3eNFd6+vwqdPe+6rcPb2jQ8lvx1upEUA6AEr12hCmHHcvCTvil45zrkHvMtf3/3XMgYk79EfbPRGQn8EgtZdRoRxKtJ6+nrLr7sfFEI9J1KyACReoLs1KMl1ff1GArfFaKyukw8HCFH3Z91zHauwrDdR+y16ruVhc7XU+FeTPCa2Jcb2qDoV8UR3X8rMNjbD83gFTv+0Khi9gmZP1kcja4tPE00VfpohO4nvED/uyIFrapo0U0IBmgm65DUfrpnhHsDoLwLjFRUhmLOlFr4x82LGnNYorwYyDjjl37VxKu1sG3my5+Fb54Gv02FnCPwpstXLUBhUrsqVC2WpWZ8BBpq8StYqgvbNRhZrpcZkzlpCvSFptNAH4AIpvIOWxNHQqHYmP193hM8VjIZ7XCRgVGaoATG+yq/ehTN1wxjDrnN8guD6A4O10ruC0JLnSqzflCTmyGseuCmnJa7R9+AY2dZURu0wCSpCfpH6BLwYM4qm48vRyyb5SF6NdtPG+LbnhYCHvrBjLfGeS0nVSoiIfoE352WMkWZBiVcyyLkp1X2/PgIsIWqN9WV/wwcjsG96+IpsPp+2AjfYsPV5q6WSoAdiRheA14VQMjrXbkeH5SGjpQNLKzoxt6ucKdg5in03nXjPl1Z7A2kwD9D9MYJUN48gykHIJ3n5u+hyN4ZDOgKlrjf3jF9WZvjT2ngKJJVGEkJGLEMpYwiMYYp/Qh96lELm9XVOI3MXWjGUSOew8ctTbylbtcchAjik0ldZvlduFQAIgH7WT89V9U061gMvtDN290jOf/6ycnTfe86zokl8oAa5iLh6sjzQGX74JsSiZL3Of1VXI6qatEA05OIDWzNxM4PFX9PlSWHeaOEQ0Sb7p2qjKSQ6TKt9MW457I2tXMHvlNU9nQ6PYvtVkA0zJKECiF7se9SU3mgOUD/M9KMNEhro35p5ft1OZ+S/4af5dPk8Y21rq/bxDfLzLkKqKijfX2e4ghk+pgg92YKln2rVRTiPWx0PCGarlrwsEWB/BAr1YA7qFCb3h1Twt3DaW9mmguhtYqNh6wp6sJ82YrAy9fEYYpVYZyTLtHxCRXx2+5P21/q9P/G/gUJgmMmkIDmBKEf+7pRZhSenG4mRriVzCmuaF7aoiruVTmlq6yHTA+pmF2V4GlmahXGpS8rZSMEE20EJ/TqgLD5zJZOAj+KS5Qhn1MSEXm8KHEMVZjRKmYzT3pCVzEM1Aacc+xZYiO0M0Xi4lc8fndTKp6x4QSuPRfdariWHH/PHr4QJLnuI4EQKs1A1dsvmmDjmF+Sg+a/K8R94wG9POpfciZ05xGiml6k4sJLNfXQyipIUjb2lwzI+if/uD/Qdo6bOa9+hi/C9q71nYlx/yxtM2uCIrQZH8BVvOo0LImWEeB12rh7sTGrgN76H9HQiA1dFRpUtQttOKLhrjlMC3/RCtycAWs7ABHAGa0TdZ64isfRS3gNJW0RG6YYj8k4kKBUAVvUjHDtkop2rJWNq52vNlYJikLxwxD79dBKViaIVXTJ+riKWv7V6mfxaV4tIu9vwIHp9MCviHhDUzv3aGOit7oLYMst/yI28z0HWFZXI8rozs3iHx5GYDPntSdJEYFUGc5wq8oxgAYElCHgOmZoCSpHyliRvV77y916J8Y5GJ0CJR6YBfnLlAGA99fibGGyh1oIUZKLEBPDduXULlYbNGBMVEo/9FF98fl32GKahVM3Q9bq9h3yntZ2hwDlpccNIFqR0wt0IjD1oNMaUsmx1kgi1ifNbFGj90TJ6IX5iR3ZYexW2el6xGja2j4NEesgys1HqBJ2trnFseWbN7eLUkWANNRlJH6TOS/hVUmbmRsciyGkqOV04P4Rf5Go6JdLBS+KyapyOhI/KOVUplKd1M4ajVaShKEeQlmqfFXVk4ork6F+/R2FrPlh/g1Uda7QPDlsCis5HSjr3HW2sjBCJ061H9vM1CkPorkInwWZjLywIdU0erGRU5p5CftNojUPhn+lLHZeqIi4rJRxm6ncBSUI93ORtECiKu8CeCGmv55sdBZiz06zGUfiippQKOUujUIXbBNEzXhCPXW9z5v+OL+h2htQHEHXfCWgz/y9GogOwFkxTmTwB4Lf4yUSqGC0r4ZbKVjmec3TrSiophV0vL7YcUvwSmOVDUYDLbGcXRkdDQ80gdV4aWH/4/aTK4WCUmMslgXXnFrSvaDEqjdHz4Q29vWi/lJCP+Mwuiarc7FZMXe9Ypfe2x0aHpkIJhsMehRJo+Aqkc7+oX5OAv4v/BvcXI7c40kBCkFs5wmrpVz1pyLFImDXE3fvZ2PWN3YvjNvm37uSQi6ZY+vK0AYEDgPwD+76bYe2wGJDsT2FOKkFTL0qjxl7KXrCycNPQGSCDyvLvAcHju6O7RZeGpnrSgLgqU0YcJ/+Md+WfG87RRqMQj0ihCwTmhybUcMZTaeYPVL6Q7IgCq6EcMDjOruIrAlFFwn3ZG1BLUCUEbW1Bn0oNBjsbaCGIyLbEwO5WkYl0zAOlwtNadnqPT/Y/FXfgrnp50/KBPRvgKNDlQ/BWj12haFlzBXL3PXlOSxdddaQZlwi8xFMjFQsZ+ehGmoFr3l/wIz+F8OnXzO3VUuodT8itSsJo/oi4mTf20X7HelAbzeDBe/QB6VbUAIXz+E8qpXeUQZtPcKbr6n3ftoEe+XH2gPuTs94/ujBJDWSInVImcI9PjRdZtf+LsUOeByqBw0X4QHmVieRB/jiH9DmzsSt2fEPXW07iOv94rywl/XrIqdfnd0jEl+iRktQKghHFYGsWGFDpZ8muLsj/vrXznWniBSWLnDKu8D9k99v3IyiQvV3S8xYxb358eml24wglEcUJHCWQM/o3mjaW+M/nBY0IKwaoPAlM/8qLKGvJvR1xOIh0RvSGX5qKF+y2PuqnhLQLkPk1k7Ly/KKEqZDR4JWY98KiNzXiPfzsn/ZpKOpq412P0sK0/FoFfvx4G+l07KLg3LnKQKItZsw9pAu3XOOZS4GVTC5OPrswkF7OaxO8mB6xTdtRoshyRU8vzKvYMG5IfdxldkgrwOjnU4htTp4RJWOW4tRU0Opn1vObN+d18rH0YCIvUFE/RIgR2LKnrMT4T+VXaGeaLxBCVjLyCgDJKKF924jGvUoxARxxCJhSIvlf3SLDlfdPAkLCFRC16M6qtm8dHCZHrgCL/JHm0xBxcOQltkKhQL7+kFUI6A2Xm1cuv4TFkz7V/NkDAjNC/ohAMuoUEY4/nZB+Q1V2fONF4iKuTRGXKtfTQNmscrfMA82gZWcK2EnbvBYmigFeihwciRAnOx+NkQsDMJ0hsNsr37B7Bu6wRW/HIgZEECOLuXb3+fUCkkCOvK19woe01KifuyWmRlS51ia3fzlAla7/zhMZk7u0wza0wW9BbgM7ytuWRT7ijgpJiJ9R+GjX9H3moFhA88dX62koS1zhkModECnZVnstzIyQJoKZPKvkIcUjykUeOmm5sSqTisVPG/Me1Jvj7gDZertTP07yGCEkMgfeiGkX9x4/dGu4R6UaOzTDhumdX7HhdxjtjKngplhfBnlO+1Uxb3UQNK79CZ3gdSRR/KXHod2r1KFmis1psts1GzZ+JwNhZIjm5G/zOso7sDbKo5sU1oXLfB0P7QjHLoc95rvYD1KZ+MaLMNfr+AEkakCtZXBjABUx7vZjkfMe+DcbcbnaEC+kI+9f1r1XoHTuXWv7/yeQ5IsAIZST/q9g1hOEePu8hZknjoo82f0RzGJUVINGkDg1IvWJ1ofFK/Wx6G1w//TMcX/MqW80vYvwlsoBJnJekTEDdD4SjM7YvvL2HI+RDzlTRPYdAs9LPNhR+b1PjsjlkOQ+9372LuWhrsq1Zc8tmpWulShngWFlU1ZUDEM4Uo8O2mjehl8ATDBFfftWS9aq7T1taHlyIgSXMdUSwBM3SCIhJf0QIkwIfmEQKEP9Hf3WhR+D/ImvOVigb2SEd0tp8RMUK//4a1nGi4fI5NOT+kotDo/ifNkpKfEJBYKPAfmb8EZyaFgQA9pMWqRU3X/2oJVGHV6pszAfWJGZmLclPPPF+HZ1+/d9/GVfwv2LvPcStEp74mrO3fGr/n5izMSP9CRaXJQ599FFJiO65VIGSW5S45TXJ5sZghY067K73QF8RwRf60mZbIEincVJixRdnGUNEmhdvplYcv3Uj+TDorLAVECFQYEokkntxdJN8KdAItOxEYiER0WP35HW1r09ms+U/6/rEs4mnxv1JkuODsCJqeF+V2lAgS70MaAsLTIghHAv+5k5o/EmsZ0MAFPJoTDeBoDKwxHZ8JMfy4yP0pYReJQZ0Q3EAJePq5+idjtB1DOlqgwl2ZgkkD53EhmLu1NhH05P+aAveuZuIjL5Hl706/QbfkAZ6gpbB8BKMEOdXoOzzDKHUjlS49wM7kZVMsDID07axG1gaxtkkm/aASu8D0kDR5/BeR/HnZ9+5BMpxnvDCmUtmTnyaQv46PJW0D/PO+R/TtXZTbkJ6AArG4LS3U/aK2s8ncWb96i62pv48aBaYCE5O4ydoqr2Lx9yCYRF+E5N0ujW5cxSPBS+kb6csCXu0m9I3LGyjgKLKGWC9/EBTVkWNG26de3+G4t5k52kAaiMT9cv+ozaWSEY8PvdmCWFUNOvwJEbYzxO75YBVvonGNhmzFJj+lJjfgMbaPDvAfqm2VZYU05tJ2cDJJSbIdFaPAw6VkryWuSDL/h6OHgHq/m99YNqFJHAt/Trd/7fRqnQPuCs0vq1EaPuUneZrmxkV56gwaZijcUZZjYl9QC9FZV/wWFN1t83s0EqJ0LYFVrFcYprur6/OxLLaz+pMeYBnu3co6ws7gIOrTt9HfPy+eCe9FjKYMoiL0Q1nn6nKgKeMbjCLUEef7ttY+dIQzUYhqOJ9ctapCDMF7xm0wbQ0/YKt6Qy4CPGaJx5WuGd/pLk/fDb9FidBa6b7VYkh35S3djafWuOAutpDsNxn1iY5oz+Ia576ThDRjdfMj9QpmJAM6AuHVknVpGlysBj8gnPR/yyliAxlF7GFF2oyASzrEPGFQ55+crFfPPdo7zOEOluAcDqJ1bfCxUQYxJolgwcn5a4Oqf4CbvXAt6DqxiMz9nG6rXJFBbV3BN6HxO1CCLVEBdK8Rgs+PoK+0QMnQ6n8TUW4sLUQuguCZbyp00hZvBCe2Rmd579UxJSALH03jdIeWzjbN6YEp8uTGkSTAJ6rOOj6KvKoiYnVERxFAjewiMJ8kphVBvRsA2kcHAS1c/TxzLWPXgkl4UZJk5NrTwpbPVFA/04s98lcZqAs9vV0OJIdwqpdiSwyCtHH7qaFNeV7tH6j5i7XshT/Zx0V64vynU4WUFpShtAplDxHG6klOkeAb77OhLXW/Jmum+EhW/R70Fdku0JEhkFklYpqXKurNY8sVxjy5T/I=" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="EEB051A5" />
+</div>
+        <div class="Filter">
+            <table>
+                <tr>
+                    <th width="7%">关键词：</th>
+                    <td width="26%">
+                        <input name="ctl00$main$txtKey" type="text" id="main_txtKey" class="text" placeholder="请输入关键词(手机、姓名)搜索" data-jbextendid="exinput_main_txtKey_726_311" style="width:299px;" />
+                    </td>
+                    <th width="7%">更新时间：</th>
+                    <td width="26%">
+                        <input name="ctl00$main$txtStartTime" type="text" id="main_txtStartTime" class="text double time" data-jbextendid="exinput_main_txtStartTime_746_311" />
+                        <ins></ins>
+                        <input name="ctl00$main$txtEndTime" type="text" id="main_txtEndTime" class="text double time" data-jbextendid="exinput_main_txtEndTime_605_311" />
+                    </td>
+                    <th width="7%">简历状态：</th>
+                    <td width="26%">
+                        <dl class="SELECT long" data-leave="-1">
+                            <input type="hidden" value="2">
+                            <dt></dt>
+                            <dd class="normal">
+                                <a data-id>不限</a>
+                                <a data-id="1">未开代投</a>
+                                <a data-id="2">从未跟进</a>
+                                <a data-id="3">联系不上</a>
+                                <a data-id="4">不愿转化</a>
+                                <a data-id="5">只转会员</a>
+                                <a data-id="6">已开代投</a>
+                            </dd>
+                        </dl>
+                    </td>
+                </tr>
+                <tr>
+                    <th>期望城市：</th>
+                    <td>
+                        <dl id="main_drpCity" class="SELECT cities ADDRESS long" style="" data-address='GetHotCities' data-unlimit='true'>
+                            <input id="main_drpCity_hidden" type="hidden" autocomplete="off" data-jbextendid="exinput_main_drpCity_156_311" name="ctl00$main$drpCity" value="271000" value='271000'>
+                            <dt></dt>
+                            <dd class="normal">
+                                <a data-id>不限</a>
+                                <a data-id="">北京</a>
+                                <a data-id="">上海</a>
+                                <a data-id="">深圳</a>
+                            </dd>
+                        </dl>
+                    </td>
+                    <th>目前职位：</th>
+                    <td>
+                        <input name="ctl00$main$txtCurPosition" type="text" id="main_txtCurPosition" class="text" data-jbextendid="exinput_main_txtCurPosition_169_311" style="width:299px;" />
+                    </td>
+                    <th>期望职位：</th>
+                    <td>
+                        <input name="ctl00$main$txtPosition" type="text" id="main_txtPosition" class="text" data-jbextendid="exinput_main_txtPosition_291_311" style="width:299px;" />
+                    </td>
+                </tr>
+                <tr>
+                    <th>期望行业：</th>
+                    <td>
+                        <input name="ctl00$main$txtSubject" type="text" id="main_txtSubject" class="text" data-jbextendid="exinput_main_txtSubject_915_311" style="width:299px;" />
+                    </td>
+                    <th>工作经验：</th>
+                    <td>
+                        <dl class="SELECT tiny Experience checkMore" data-leave="-1">
+                            <input id="TagIDs" autocomplete="off" name="TagIDs" value="" type="hidden" />
+                            <dt data-placeholder="选择经验"></dt>
+                            <dd class="">
+                                <table >
+                                    <caption data-choices="">
+                                        <p></p>
+                                        <span>
+                                            <input type="button" class="confirm" value="确定">
+                                        </span>
+                                    </caption>
+                                    <tbody><tr><td>
+                                        <a data-id="">不限</a>
+                                        <a data-id="10">在读学生</a>
+                                        <a data-id="20">应届生</a>
+                                        <a data-id="30">1年以下</a>
+                                        <a data-id="40">1-3年</a>
+                                        <a data-id="50">3-5年</a>
+                                        <a data-id="60">5-10年</a>
+                                        <a data-id="70">10年以上</a>
+                                    </td></tr></tbody>
+                                </table>
+                            </dd>
+                        </dl>
+                        <ins>学历：</ins>
+                        <dl class="SELECT tiny Education checkMore">
+                            <input id="TagIDs2" autocomplete="off" name="TagIDs2" value="" type="hidden" />
+                            <dt data-placeholder="选择学历"></dt>
+                            <dd class="">
+                                <table >
+                                    <caption data-choices="">
+                                        <p></p>
+                                        <span>
+                                            <input type="button" class="confirm" value="确定">
+                                        </span>
+                                    </caption>
+                                    <tbody><tr><td>
+                                        <a data-id="">不限</a>
+                                        <a data-id="1">初中</a>
+                                        <a data-id="2">高中</a>
+                                        <a data-id="3">技校/中专</a>
+                                        <a data-id="4">大专</a>
+                                        <a data-id="8">本科</a>
+                                        <a data-id="16">硕士</a>
+                                        <a data-id="32">博士</a>
+                                        <a data-id="64">其他</a>
+                                    </td></tr></tbody>
+                                </table>
+                            </dd>
+                        </dl>
+                    </td>
+                    <th>性别：</th>
+                    <td>
+                        <dl class="SELECT tiny Sex">
+                            <input name="ctl00$main$txtSex" id="main_txtSex" Type="hidden" data-jbextendid="exinput_main_txtSex_650_311" />
+                            <dt></dt>
+                            <dd class="normal">
+                                <a data-id="">不限</a>
+                                <a data-id="1">男</a>
+                                <a data-id="0">女</a>
+                            </dd>
+                        </dl>
+                        <ins>新增：</ins>
+                        <dl class="SELECT tiny New">
+                            <input name="ctl00$main$txtNew" id="main_txtNew" Type="hidden" data-jbextendid="exinput_main_txtNew_192_311" />
+                            <dt></dt>
+                            <dd class="normal">
+                                <a data-id="">不限</a>
+                                <a data-id="1">是</a>
+                            </dd>
+                        </dl>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="6" class="btns">
+                        <input type="submit" class="submit" value="查询" />
+                        <input type="button" class="reset" value="重置" onclick="CommonIframeSubmitHelper.resetAndSubmit();" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+<script type='text/javascript'>var exinput_main_txtKey_726_311=null; JB.ready(function(){exinput_main_txtKey_726_311= new JBValidator({varId:'exinput_main_txtKey_726_311',exType:['Text'],checkWhere:'ServerAndClient',msgShowType:'Right',msgCloseType:'NotClose',dataTitle:'输入',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:true,inCaseHidden:false,hiddenTestObjID:'main_txtKey',checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0});});</script><script type='text/javascript'>var exinput_main_txtStartTime_746_311=null; JB.ready(function(){exinput_main_txtStartTime_746_311= new JBValidator({varId:'exinput_main_txtStartTime_746_311',exType:['DateTime'],checkWhere:'ServerAndClient',msgShowType:'Right',msgCloseType:'NotClose',dataTitle:'起始更新时间',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:true,inCaseHidden:false,hiddenTestObjID:'main_txtStartTime',checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0});});</script><script type='text/javascript'>var exinput_main_txtEndTime_605_311=null; JB.ready(function(){exinput_main_txtEndTime_605_311= new JBValidator({varId:'exinput_main_txtEndTime_605_311',exType:['DateTime'],checkWhere:'ServerAndClient',msgShowType:'Right',msgCloseType:'NotClose',dataTitle:'结束更新时间',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:true,inCaseHidden:false,hiddenTestObjID:'main_txtEndTime',checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0});});</script><script type='text/javascript'>var exinput_main_drpCity_156_311=null; JB.ready(function(){exinput_main_drpCity_156_311= new JBValidator({varId:'exinput_main_drpCity_156_311',exType:'Text',checkWhere:'ServerAndClient',msgShowType:'Right',msgCloseType:'NotClose',msgPosTo:'main_drpCity',dataTitle:'城市',showSuccess:false,checkOnFocusout:false,checkOnChange:false,canNull:true,inCaseHidden:false,hiddenTestObjID:'main_drpCity',checkAppendOnly:false,msgAlwaysAlert:false});});</script><script type='text/javascript'>var exinput_main_txtCurPosition_169_311=null; JB.ready(function(){exinput_main_txtCurPosition_169_311= new JBValidator({varId:'exinput_main_txtCurPosition_169_311',exType:['Text'],checkWhere:'ServerAndClient',msgShowType:'Right',msgCloseType:'NotClose',dataTitle:'输入',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:true,inCaseHidden:false,hiddenTestObjID:'main_txtCurPosition',checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0});});</script><script type='text/javascript'>var exinput_main_txtPosition_291_311=null; JB.ready(function(){exinput_main_txtPosition_291_311= new JBValidator({varId:'exinput_main_txtPosition_291_311',exType:['Text'],checkWhere:'ServerAndClient',msgShowType:'Right',msgCloseType:'NotClose',dataTitle:'输入',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:true,inCaseHidden:false,hiddenTestObjID:'main_txtPosition',checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0});});</script><script type='text/javascript'>var exinput_main_txtSubject_915_311=null; JB.ready(function(){exinput_main_txtSubject_915_311= new JBValidator({varId:'exinput_main_txtSubject_915_311',exType:['Text'],checkWhere:'ServerAndClient',msgShowType:'Right',msgCloseType:'NotClose',dataTitle:'输入',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:true,inCaseHidden:false,hiddenTestObjID:'main_txtSubject',checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0});});</script><script type='text/javascript'>var exinput_main_txtExperience_749_311=null; JB.ready(function(){exinput_main_txtExperience_749_311= new JBValidator({varId:'exinput_main_txtExperience_749_311',exType:['Text'],checkWhere:'ServerAndClient',msgShowType:'Right',msgCloseType:'NotClose',dataTitle:'工作经验',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:true,inCaseHidden:false,hiddenTestObjID:'main_txtExperience',checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0});});</script><script type='text/javascript'>var exinput_main_txtEducation_659_311=null; JB.ready(function(){exinput_main_txtEducation_659_311= new JBValidator({varId:'exinput_main_txtEducation_659_311',exType:['Text'],checkWhere:'ServerAndClient',msgShowType:'Right',msgCloseType:'NotClose',dataTitle:'学历',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:true,inCaseHidden:false,hiddenTestObjID:'main_txtEducation',checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0});});</script><script type='text/javascript'>var exinput_main_txtSex_650_311=null; JB.ready(function(){exinput_main_txtSex_650_311= new JBValidator({varId:'exinput_main_txtSex_650_311',exType:['Text'],checkWhere:'ServerAndClient',msgShowType:'Right',msgCloseType:'NotClose',dataTitle:'性别',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:true,inCaseHidden:false,hiddenTestObjID:'main_txtSex',checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0});});</script><script type='text/javascript'>var exinput_main_txtNew_192_311=null; JB.ready(function(){exinput_main_txtNew_192_311= new JBValidator({varId:'exinput_main_txtNew_192_311',exType:['Text'],checkWhere:'ServerAndClient',msgShowType:'Right',msgCloseType:'NotClose',dataTitle:'性别',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:true,inCaseHidden:false,hiddenTestObjID:'main_txtNew',checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0});});</script></form>
+    <div class="total">
+       <p> 共统计简历 27822份（今日入库158份，转化会员45名，开通代投35名，联系不上14名，不愿转化1名，无效数据0个）</p>
+    </div>
+    <div class="List resumeList z10">
+        <table border="1" bordercolor="#e2e4f0">
+            <thead>
+                <tr>
+                    <th width="100">简历ID</th>
+                    <th width="100">姓名</th>
+                    <th width="">手机</th>
+                    <th width="100">期望城市</th>
+                    <th width="200">期望职位</th>
+                    <th width="90">学历</th>
+                    <th width="80">经验</th>
+                    <th width="200">更新时间</th>
+                    <th width="130">简历状态</th>
+                    <th width="220">操作</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                        <tr>
+                            <th>
+                                <label>
+                                    <input type="checkbox" value="27822" data-resume="100305">27822</label><i></i>
+                            </th>
+                            <td><img src="../images/v2/icons/user_pic.png" height="16" width="16" class="user_pic">何泽
+                            </td>
+                            <td>15889936047</td>
+                            <td>广州</td>
+                            <td>销售代表</td>
+                            <td>本科</td>
+                            <td>1年</td>
+                            <td>2016-03-26 10:44<a title="智联招聘-2016-09-14 投递广州冠鹏信息技术有限公司" class="icon_zl">智</a></td>
+                            <td><span class="markedTip">联系不上</span><div class="markedTipWin">
+                                <p>2016-05-23  14:14</p>
+                                <p>电话无人接听</p>
+                            </div></td>
+                            <td>
+                                <a class="marked_btn">标记</a>
+                                <a href="/Admin/Resumes/StoreDetail.html?rid=27822" target="_blank">查看</a>
+
+
+                                <a data-id="100305" class="send pushResume_btn">投递职位</a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th>
+                                <label>
+                                    <input type="checkbox" value="27821" data-resume="100299">27821</label><i></i>
+                            </th>
+                            <td><img src="../images/v2/icons/user_pic.png" height="16" width="16" class="user_pic">静静
+                            </td>
+                            <td>13533893441</td>
+                            <td>广州</td>
+                            <td>广告文案策划</td>
+                            <td>本科</td>
+                            <td>1年</td>
+                            <td>2016-03-19 19:41<a title="前程无忧-2016-09-14 投递广州冠鹏信息技术有限公司" class="icon_qc">前</a></td>
+                            <td>
+                                <span class="markedTip">联系不上</span><div class="markedTipWin">
+                                                                <p>2016-05-23  14:14</p>
+                                                                <p>电话无人接听</p>
+                                                                <p>2016-05-23  14:14</p>
+                                                                <p>电话无人接听</p>
+                                                                <p>2016-05-23  14:14</p>
+                                                                <p>电话无人接听</p>
+                                                            </div>
+                            </td>
+                            <td>
+                                <a>标记</a>
+                                <a href="/Admin/Resumes/StoreDetail.html?rid=27821" target="_blank">查看</a>
+
+
+                                <a data-id="100299" class="send pushResume_btn">投递职位</a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th>
+                                <label>
+                                    <input type="checkbox" value="27820" data-resume="">27820</label><i></i>
+                            </th>
+                            <td><img src="../images/v2/icons/user_pic.png" height="16" width="16" class="user_pic">龙芳
+                            </td>
+                            <td>15626142935</td>
+                            <td>广州</td>
+                            <td>销售代表</td>
+                            <td>大专</td>
+                            <td>10年以上</td>
+                            <td>2016-03-19 19:41</td>
+                            <td></td>
+                            <td>
+                                <a>标记</a>
+                                <a href="/Admin/Resumes/StoreDetail.html?rid=27820" target="_blank">查看</a>
+
+                                <a data-id="27820" class="btn2Hgz">开启代投</a>
+
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th>
+                                <label>
+                                    <input type="checkbox" value="27819" data-resume="100301">27819</label><i></i>
+                            </th>
+                            <td><img src="../images/v2/icons/user_pic.png" height="16" width="16" class="user_pic">何泽
+                            </td>
+                            <td>15888884444</td>
+                            <td>广州</td>
+                            <td>Android程序员</td>
+                            <td>本科</td>
+                            <td>1年</td>
+                            <td>2016-03-07 16:22</td>
+                            <td></td>
+                            <td>
+                                <a>标记</a>
+                                <a href="/Admin/Resumes/StoreDetail.html?rid=27819" target="_blank">查看</a>
+
+
+                                <a data-id="100301" class="send pushResume_btn">投递职位</a>
+                            </td>
+                        </tr>
+
+
+
+
+            </tbody>
+            <caption>
+                <input type="button" value="全选" class="checkAll" />
+                <input type="button" value="反选" class="checkNeg" />
+                <input type="button" value="投递职位" class="send batch pushResume_btn" data-need="resume"  />
+                <input type="button" value="导出到Excel" class="export batch" data-need="value"  />
+
+                <input type="button" value="导出全部" class="exportAll" />
+
+                <div class="Pages">
+                    <span class="allpage_num">27822条结果，共1392页</span><a class="page_num" href="javascript:void(0);">首页</a><a class="page_num" href="javascript:void(0);">上一页</a><a class="cur">1</a><a class="page_num" href="/Admin/resumes/Store.html?pid=2">2</a><a class="page_num" href="/Admin/resumes/Store.html?pid=3">3</a><a class="page_num" href="/Admin/resumes/Store.html?pid=4">4</a><a class="page_num" href="/Admin/resumes/Store.html?pid=5">5</a><span class="page_ellipsis">...</span><a class="page_num" href="/Admin/resumes/Store.html?pid=1392">1392</a><a class="page_num" href="/Admin/resumes/Store.html?pid=2">下一页</a><a class="page_num" href="/Admin/resumes/Store.html?pid=1392">尾页</a><script language='javascript'>function GoToPage(url){document.location.href=url;}function jumpPage(obj,url){var i=parseInt(obj.previousSibling.value);if(!i&&i!=0)return false;if(i<=0)i=1;if(i>1392)i=1392;GoToPage(url + i);}</script>
+                </div>
+            </caption>
+        </table>
+    </div>
+    <table class="FullScreenPlugin black5 noFixed">
+        <tr>
+            <td>
+
+<dl class="CENTERDIV CenterLong ShiftAssociator">
+    <dt><b>BOC职位意向</b><q>&times;</q></dt>
+    <dd>
+        <form id="bocTarget">
+            <table class="CenterTableFull">
+                <tr>
+                    <td width="90">职位意向</td>
+                    <td>
+                        <ul>
+                            <li>
+                                <span>求职状态</span>
+                                <dl class="SELECT ">
+                                    <input type="hidden" class="bocState" />
+                                    <dt></dt>
+                                    <dd class="normal">
+                                        <a data-id="1">在职-准备换工作</a><a data-id="2">离职-可快速到岗</a><a data-id="4">暂时不找工作</a><a data-id="8">应届生/在读生找工作</a>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <span>职位类型</span>
+                                <dl class="SELECT">
+                                    <input type="hidden" class="JobType bocType" value="1" />
+                                    <dt></dt>
+                                    <dd class="normal">
+                                        <a data-id="1">全职</a><a data-id="2">兼职</a><a data-id="4">实习</a>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <span>期望城市</span>
+                                <dl class="SELECT double provincesWant ADDRESS" data-child=".citiesWant" data-address="GetProvinces">
+                                    <input type="hidden" class="bocProvince" />
+                                    <dt></dt>
+                                    <dd class="normal"></dd>
+                                </dl>
+                                <dl class="SELECT double citiesWant ADDRESS" data-child=".districtsWant" data-parent=".provincesWant">
+                                    <input type="hidden" class="bocCity" />
+                                    <dt></dt>
+                                    <dd class="normal"></dd>
+                                </dl>
+                                <dl class="SELECT double districtsWant ADDRESS" data-unlimit="true" data-parent=".citiesWant">
+                                    <input type="hidden" class="bocArea" />
+                                    <dt></dt>
+                                    <dd class="normal"></dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <span>期望行业</span>
+                                <dl class="SELECT" data-leave="-1">
+                                    <input type="hidden" class="bocSubject" value="" />
+                                    <dt></dt>
+                                    <dd class="PROFESSIONS">
+                                        <table>
+                                            <caption data-choices="3">
+                                                <p></p>
+                                                <span>
+                                                    <input type="button" class="confirm" value="确定" />
+                                                </span>
+                                            </caption>
+                                            <thead>
+                                                <tr>
+                                                    <th width="200"></th>
+                                                    <td width="1000"></td>
+                                                </tr>
+                                            </thead>
+                                            <tbody></tbody>
+                                        </table>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <span>期望职位</span>
+                                <dl class="SELECT" data-leave="-1">
+                                    <input type="hidden" class="bocPosition">
+                                    <dt></dt>
+                                    <dd class="JOBPOSITIONS">
+                                        <table>
+                                            <caption data-choices="3">
+                                                <p></p>
+                                                <span>
+                                                    <input type="button" class="confirm" value="确定">
+                                                </span>
+                                            </caption>
+                                            <tbody>
+                                                <tr>
+                                                    <th width="220"></th>
+                                                    <td width="980"></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </dd>
+                                </dl>
+                                <dl class="SELECT long" data-leave="-1">
+                                    <input type="hidden" class="bocPositionPartTime" />
+                                    <dt></dt>
+                                    <dd class="JOBSPARTTIME">
+                                        <table>
+                                            <caption data-choices="3">
+                                                <p></p>
+                                                <span>
+                                                    <input type="button" class="confirm" value="确定">
+                                                </span>
+                                            </caption>
+                                            <tbody>
+                                                <tr>
+                                                    <td width="600"></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <span>期望薪资</span>
+                                <dl class="SELECT tiny Salary">
+                                    <input type="hidden" class="bocSalary" />
+                                    <dt></dt>
+                                    <dd class="normal">
+                                        <a data-id="20">2000以下</a><a data-id="30">2000-3000</a><a data-id="40">3000-5000</a><a data-id="50">5000-8000</a><a data-id="60">8000-12000</a><a data-id="70">12000-20000</a><a data-id="80">20000以上</a>
+                                    </dd>
+                                </dl>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>求职标签</td>
+                    <td>
+                        <input type="text" placeholder="用于关键词搜索求职者，标签间用空格隔开" class="w345 bocTags" /></td>
+                </tr>
+                <tr>
+                    <td>需求备注</td>
+                    <td>
+                        <textarea name="" class="w430 bocRemark" placeholder="作为职位意向的补充备注，方便快速了解该求职者"></textarea></td>
+                </tr>
+                <tr>
+                    <td>回访计划</td>
+                    <td>
+                        <input type="text" placeholder="下次跟进该求职者的时间" class="w345 time bocPlan seletetime" /></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <label for="d_push">
+                            <input type="checkbox" checked="checked" class="bocSend" />开通代投递</label>
+                    </td>
+                </tr>
+                <tfoot>
+                    <tr>
+                        <td width="90"></td>
+                        <td>
+                            <input type="submit" value="提交" class="submit" />
+                            <input type="button" value="取消" class="cancel" />
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </form>
+    </dd>
+</dl>
+<script type="text/javascript">
+    //{id:10,type:resume/store}
+    function showBOCDlg(option) {
+        var dlg = $(".ShiftAssociator").data("id", option.id).data("type", option.type);
+        CENTERDIV.open.call($(".ShiftAssociator"));
+        $.ajax({
+            url: "/admin/resumes/ajax.html",
+            data: { cmd: "getboctarget", id: option.id, type: option.type },
+            cache: false,
+            dataType: "JSON",
+            success: function (result) {
+                if (!result.success) {
+                    CENTERDIV.close.call(dlg);
+                    alert(result.msg);
+                    return;
+                }
+
+                var data = result.data;
+                if (data.tags) $(".bocTags", dlg).val(data.tags);
+                if (data.remark) $(".bocRemark", dlg).val(data.remark);
+                if (data.workingState) $(".bocState", dlg).val(data.workingState);
+                SelectInit.call($(".bocState", dlg));
+                if (data.jobType) $(".bocType", dlg).val(data.jobType);
+                SelectInit.call($(".bocType", dlg));
+                if (data.areaID) {
+                    $(".bocProvince", dlg).val(data.areaID.substring(0, 2) + "0000");
+                    $(".bocCity", dlg).val(data.areaID.substring(0, 4) + "00");
+                    if (data.areaID.substring(4) != "00") $(".bocArea", dlg).val(data.areaID);
+                    $(".ADDRESS", dlg).each(AddressInit);
+                }
+                if (data.subjectID) $(".bocSubject", dlg).val(data.subjectID);
+                SelectInit.call($(".bocSubject", dlg));
+                if (data.positionID) $(".bocPosition", dlg).val(data.positionID);
+                SelectInit.call($(".bocPosition", dlg));
+                if (data.postionParttimeID) $(".bocPositionPartTime", dlg).val(data.postionParttimeID);
+                SelectInit.call($(".bocPositionPartTime", dlg));
+                if (data.salary) $(".bocSalary", dlg).val(data.salary);
+                SelectInit.call($(".bocSalary", dlg));
+            },
+            error: function () {
+                alert("加载失败，请稍候再试");
+                CENTERDIV.close.call(dlg);
+            }
+        });
+    }
+
+    $("#bocTarget").submit(function () {
+        var id = $(this).closest(".ShiftAssociator").data("id"),
+            type = $(this).closest(".ShiftAssociator").data("type");
+        if (!id || !type) {
+            alert("找不到简历参数");
+            return false;
+        }
+
+        var state = $(".bocState", this).val(),
+            jobType = $(".bocType", this).val(),
+            areaID = $(".bocArea", this).val(),
+            subjectID = $(".bocSubject", this).val(),
+            positionID = $(".bocPosition", this).val(),
+            positionParttimeID = $(".bocPositionPartTime", this).val(),
+            salary = $(".bocSalary", this).val(),
+            tags = $(".bocTags", this).val(),
+            remark = $(".bocRemark", this).val(),
+            callbackTime = $(".seletetime", this).val(),
+            bocSend = $(".bocSend", this).prop("checked") ? 1 : 0;
+        if (areaID == "") areaID = $(".bocCity", this).val();
+        if (state == "") {
+            alert("请选择工作状态");
+            return false;
+        }
+        if (jobType == "") {
+            alert("请选择职位类型");
+            return false;
+        }
+        if (areaID == "") {
+            alert("请选择期望城市");
+            return false;
+        }
+        if (jobType == "2") {   //兼职
+            if (positionParttimeID == "") {
+                alert("请选择期望职位");
+                return false;
+            }
+        } else {
+            if (positionID == "") {
+                alert("请选择期望职位");
+                return false;
+            }
+        }
+
+        $.ajax({
+            url: "/admin/resumes/ajax.html",
+            data: {
+                cmd: "setboctarget", id: id, type: type, state: state, jobType: jobType, areaID: areaID, subjectID: subjectID, positionID: positionID,
+                positionParttimeID: positionParttimeID, salary: salary, tags: tags, remark: remark, callbackTime: callbackTime, bocSend: bocSend
+            },
+            type: "POST",
+            cache: false,
+            dataType: "JSON",
+            success: function (result) {
+                if (!result.success) {
+                    alert(result.msg);
+                    return;
+                }
+                window.location.reload(true);
+            },
+            error: function () {
+                alert("提交失败，请稍候再试");
+                return;
+            }
+        });
+        return false;
+    });
+</script>
+
+            </td>
+        </tr>
+    </table>
+
+
+<table class="FullScreenPlugin black5 noFixed">
+    <tr>
+        <td>
+            <!-- BOC信息 -->
+            <dl class="CENTERDIV followUp CenterXll" id="bocInfo">
+                <dt><b>求职者详情</b><q>&times;</q></dt>
+                <dd class="clear"></dd>
+            </dl>
+            <!-- 投递简历 -->
+            <dl class="CENTERDIV pushResume CenterXlll">
+                <dt><b>急聘职位</b><q>&times;</q></dt>
+                <dd>
+                    <form>
+                        <div class="Filter">
+                            <table>
+                                <tr>
+                                    <th width="7%">关键词：</th>
+                                    <td width="200px">
+                                        <input type="text" class="text long urgentKey" placeholder=" 请公司、职位名称搜索" autocomplete="off" />
+                                    </td>
+                                    <th width="10%">职位类型：</th>
+                                    <td>
+                                        <dl class="SELECT long">
+                                            <input type="hidden" class="JobType urgentType" autocomplete="off">
+                                            <dt></dt>
+                                            <dd class="normal">
+                                                <a data-id="">不限</a>
+                                                <a data-id="1">全职</a>
+                                                <a data-id="2">兼职</a>
+                                                <a data-id="3">实习</a>
+                                            </dd>
+                                        </dl>
+                                    </td>
+                                    <th width="10%">期望行业：</th>
+                                    <td>
+                                        <dl class="SELECT long">
+                                            <input type="hidden" value="" class="urgentSubject" autocomplete="off" />
+                                            <dt></dt>
+                                            <dd class="PROFESSIONS">
+                                                <table>
+                                                    <caption data-choices="0">
+                                                        <p></p>
+                                                        <span>
+                                                            <input type="button" class="confirm" value="确定">
+                                                        </span>
+                                                    </caption>
+                                                    <thead>
+                                                        <tr>
+                                                            <th width="200"></th>
+                                                            <td width="1000"></td>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody></tbody>
+                                                </table>
+                                            </dd>
+                                        </dl>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th width="7%">地区：</th>
+                                    <td width="300px">
+                                        <dl class="SELECT double cities2 ADDRESS" data-child=".districts2" data-address="GetHotCities">
+                                            <input type="hidden" class="urgentCity" autocomplete="off" />
+                                            <dt></dt>
+                                            <dd class="normal"></dd>
+                                        </dl>
+                                        <ins></ins>
+                                        <dl class="SELECT double districts2 ADDRESS" data-unlimit="true" data-parent=".cities2">
+                                            <input type="hidden" class="urgentArea" autocomplete="off" />
+                                            <dt></dt>
+                                            <dd class="normal"></dd>
+                                        </dl>
+                                    </td>
+
+                                    <th>期望职位：</th>
+                                    <td>
+                                        <dl class="SELECT long" data-leave="-1">
+                                            <input type="hidden" class="urgentPosition" autocomplete="off" />
+                                            <dt></dt>
+                                            <dd class="JOBPOSITIONS">
+                                                <table>
+                                                    <caption data-choices="3">
+                                                        <p></p>
+                                                        <span>
+                                                            <input type="button" class="confirm" value="确定">
+                                                        </span>
+                                                    </caption>
+                                                    <tbody>
+                                                        <tr>
+                                                            <th width="220"></th>
+                                                            <td width="980"></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </dd>
+                                        </dl>
+                                        <dl class="SELECT long" data-leave="-1">
+                                            <input type="hidden" class="urgentPositionParttime" autocomplete="off" />
+                                            <dt></dt>
+                                            <dd class="JOBSPARTTIME">
+                                                <table>
+                                                    <caption data-choices="3">
+                                                        <p></p>
+                                                        <span>
+                                                            <input type="button" class="confirm" value="确定">
+                                                        </span>
+                                                    </caption>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td width="600"></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </dd>
+                                        </dl>
+                                    </td>
+                                    <td class="btns">
+                                        <input type="submit" class="submit" value="搜索" />
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </form>
+                    <div class="List">
+                    </div>
+                </dd>
+            </dl>
+        </td>
+    </tr>
+</table>
+<table class="FullScreenPlugin black5 noFixed">
+    <tr>
+        <td>
+            <!-- 求职意向编辑 -->
+            <dl class="CENTERDIV infoEdit CenterMiddle">
+                <dt><b>编辑职位意向</b><q>&times;</q></dt>
+                <dd>
+                    <form>
+                        <table class="CenterTableFull">
+                            <tbody>
+                                <tr>
+                                    <th width="100">求职状态 </th>
+                                    <td>
+                                        <dl class="SELECT full">
+                                            <input type="hidden" class="bocState" autocomplete="off" />
+                                            <dt></dt>
+                                            <dd class="normal">
+                                                <a data-id="1">在职-准备换工作</a><a data-id="2">离职-可快速到岗</a><a data-id="4">暂时不找工作</a><a data-id="8">应届生/在读生找工作</a>
+                                            </dd>
+                                        </dl>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>职位类型 </th>
+                                    <td>
+                                        <dl class="SELECT full">
+                                            <input type="hidden" class="JobType bocType" value="1" autocomplete="off" />
+                                            <dt></dt>
+                                            <dd class="normal">
+                                                <a data-id="1">全职</a><a data-id="2">兼职</a><a data-id="4">实习</a>
+                                            </dd>
+                                        </dl>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>期望城市 </th>
+                                    <td>
+                                        <dl class="SELECT double provincesWant ADDRESS" data-child=".citiesWant" data-address="GetProvinces">
+                                            <input type="hidden" class="bocProvince" autocomplete="off" />
+                                            <dt></dt>
+                                            <dd class="normal"></dd>
+                                        </dl>
+                                        <dl class="SELECT double citiesWant ADDRESS" data-child=".districtsWant" data-parent=".provincesWant">
+                                            <input type="hidden" class="bocCity" autocomplete="off" />
+                                            <dt></dt>
+                                            <dd class="normal"></dd>
+                                        </dl>
+                                        <dl class="SELECT double districtsWant ADDRESS" data-unlimit="true" data-parent=".citiesWant">
+                                            <input type="hidden" class="bocArea" autocomplete="off" />
+                                            <dt></dt>
+                                            <dd class="normal"></dd>
+                                        </dl>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>期望行业 </th>
+                                    <td>
+                                        <dl class="SELECT full" data-leave="-1">
+                                            <input type="hidden" class="bocSubject" value="" autocomplete="off" />
+                                            <dt></dt>
+                                            <dd class="PROFESSIONS">
+                                                <table>
+                                                    <caption data-choices="3">
+                                                        <p></p>
+                                                        <span>
+                                                            <input type="button" class="confirm" value="确定" />
+                                                        </span>
+                                                    </caption>
+                                                    <thead>
+                                                        <tr>
+                                                            <th width="200"></th>
+                                                            <td width="1000"></td>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody></tbody>
+                                                </table>
+                                            </dd>
+                                        </dl>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>期望职位 </th>
+                                    <td>
+                                        <dl class="SELECT full" data-leave="-1">
+                                            <input type="hidden" class="bocPosition" autocomplete="off" />
+                                            <dt></dt>
+                                            <dd class="JOBPOSITIONS">
+                                                <table>
+                                                    <caption data-choices="3">
+                                                        <p></p>
+                                                        <span>
+                                                            <input type="button" class="confirm" value="确定">
+                                                        </span>
+                                                    </caption>
+                                                    <tbody>
+                                                        <tr>
+                                                            <th width="220"></th>
+                                                            <td width="980"></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </dd>
+                                        </dl>
+                                        <dl class="SELECT full" data-leave="-1">
+                                            <input type="hidden" class="bocPositionPartTime" autocomplete="off" />
+                                            <dt></dt>
+                                            <dd class="JOBSPARTTIME">
+                                                <table>
+                                                    <caption data-choices="3">
+                                                        <p></p>
+                                                        <span>
+                                                            <input type="button" class="confirm" value="确定">
+                                                        </span>
+                                                    </caption>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td width="600"></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </dd>
+                                        </dl>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>期望薪资 </th>
+                                    <td>
+                                        <dl class="SELECT full">
+                                            <input type="hidden" class="bocSalary" autocomplete="off" />
+                                            <dt></dt>
+                                            <dd class="normal">
+                                                <a data-id="20">2000以下</a><a data-id="30">2000-3000</a><a data-id="40">3000-5000</a><a data-id="50">5000-8000</a><a data-id="60">8000-12000</a><a data-id="70">12000-20000</a><a data-id="80">20000以上</a>
+                                            </dd>
+                                        </dl>
+                                    </td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="2">
+                                        <input type="submit" class="submit" value="提交" />
+                                        <input type="button" class="cancel" value="取消" />
+                                    </td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </form>
+                </dd>
+            </dl>
+            <!-- 跟进计划 -->
+            <dl class="CENTERDIV logTime CenterSmall">
+                <dt><b>编辑跟进计划</b><q>&times;</q></dt>
+                <dd>
+                    <form>
+                        <table class="CenterTableFull">
+                            <tbody>
+                                <tr>
+                                    <th width="70" align="left">跟进计划 </th>
+                                    <td>
+                                        <input type="text" class="text full time seletetime" autocomplete="off" />
+                                    </td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <th></th>
+                                    <td>
+                                        <input type="submit" class="submit" value="提交" />
+                                        <input type="button" class="cancel" value="取消" />
+                                    </td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </form>
+                </dd>
+            </dl>
+            <!-- 联系方式 -->
+            <dl class="CENTERDIV Contact CenterSmall">
+                <dt><b>编辑联系方式</b><q>&times;</q></dt>
+                <dd>
+                    <form>
+                        <table class="CenterTableFull">
+                            <tbody>
+                                <tr>
+                                    <th width="70" align="left">手机 </th>
+                                    <td>
+                                        <input type="text" class="text full bocMobile" autocomplete="off" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th width="70" align="left">QQ </th>
+                                    <td>
+                                        <input type="text" class="text full bocQQ" autocomplete="off" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th width="70" align="left">邮箱 </th>
+                                    <td>
+                                        <input type="text" class="text full bocEmail" autocomplete="off" />
+                                    </td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <th></th>
+                                    <td>
+                                        <input type="submit" class="submit" value="提交" />
+                                        <input type="button" class="cancel" value="取消" />
+                                    </td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </form>
+                </dd>
+            </dl>
+            <!-- 需求标签 -->
+            <dl class="CENTERDIV NeedTab CenterMiddle">
+                <dt><b>编辑需求标签</b><q>&times;</q></dt>
+                <dd>
+                    <form>
+                        <table class="CenterTableFull">
+                            <tbody>
+                                <tr>
+                                    <th width="70" align="left">求职标签 </th>
+                                    <td>
+                                        <input type="text" class="text bocTags" autocomplete="off" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th width="70" align="left">需求备注 </th>
+                                    <td>
+
+                                        <textarea class="text bocRemark" autocomplete="off"></textarea>
+                                    </td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <th></th>
+                                    <td>
+                                        <input type="submit" class="submit" value="提交" />
+                                        <input type="button" class="cancel" value="取消" />
+                                    </td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </form>
+                </dd>
+            </dl>
+            <!-- 职位投递 -->
+            <dl class="CENTERDIV resumePushChild CenterMiddle">
+                <dt><b>职位投递</b><q>&times;</q></dt>
+                <dd>
+                    <table class="CenterTableFull">
+                        <tbody>
+                            <tr>
+                                <td width="80">求职者</td>
+                                <td class="num"><strong>共<span class="IdsCounter"></span>人</strong>
+                                    <input type="hidden" class="checkedIds urgentResumes" autocomplate="off" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>投递职位</td>
+                                <td>
+                                    <input type="hidden" class="urgentOffers" autocomplate="off" />
+                                    <div class="list">
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <th></th>
+                                <td>
+                                    <input type="button" class="submit" value="确认投递" />
+                                    <input type="button" class="cancel" value="取消" />
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </dd>
+            </dl>
+            <!-- 标记 -->
+            <dl class="CENTERDIV Marked CenterMiddle" data-active=".marked_btn">
+                <dt><b>标记简历状态</b><q>&times;</q></dt>
+                <dd>
+                    <table class="CenterTableFull">
+                        <tbody>
+                            <tr>
+                                <td width="90">简历状态：</td>
+                                <td>
+                                    <input type="radio" id="reason1" name="reason"/>
+                                    <label for="reason1">联系不上</label>
+                                    <input type="radio" id="reason2" name="reason"/>
+                                    <label for="reason2">不愿转化</label>
+                                    <input type="radio" id="reason3"name="reason"/>
+                                    <label for="reason3">无效数据</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>简历备注：</td>
+                                <td> <textarea name="" id=""></textarea>
+                                <p class="reasonTxt"><span>电话无人接听</span><span>电话空号</span><span>电话关机/来电提醒/停机</span></p></td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td></td>
+                                <td><input type="button" value="提交" class="submit" /><input type="button" value="取消" class="cancel" /></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </dd>
+            </dl>
+        </td>
+    </tr>
+</table>
+<script type="text/javascript">
+    var curDlgID = 0;
+    $(".followUp_btn").click(function () {
+        curDlgID = $(this).data("id");
+        CENTERDIV.open.call($("#bocInfo"));
+        getBOCInfo();
+    });
+
+    $("#bocInfo q").click(function () {
+        window.location.reload(true);
+    });
+
+    function getBOCInfo() {
+        $.ajax({
+            url: "/admin/resumes/bocinfo.html?id=" + curDlgID,
+            cache: false,
+            success: function (result) {
+                $("#bocInfo>dd").html(result);
+                CENTERDIV.fixed.call($("#bocInfo"));
+            }, error: function () {
+                CENTERDIV.close.call($("#bocInfo"));
+                alert("数据加载失败，请稍候再试");
+            }
+        });
+    }
+
+    //求职意向
+    $("#bocInfo>dd").on("click", ".infoEdit_btn", function () {
+        var dlg = $(".infoEdit");
+        CENTERDIV.open.call(dlg);
+        $.ajax({
+            url: "/admin/resumes/ajax.html",
+            data: { cmd: "getboctargetinfo", id: curDlgID },
+            cache: false,
+            dataType: "JSON",
+            success: function (result) {
+                if (!result.success) {
+                    CENTERDIV.close.call(dlg);
+                    alert(result.msg);
+                    return;
+                }
+
+                var data = result.data;
+                $(".bocState", dlg).val(data.workingState || "");
+                SelectInit.call($(".bocState", dlg));
+                $(".bocType", dlg).val(data.jobType || "");
+                SelectInit.call($(".bocType", dlg));
+                if (data.areaID) {
+                    $(".bocProvince", dlg).val(data.areaID.substring(0, 2) + "0000");
+                    $(".bocCity", dlg).val(data.areaID.substring(0, 4) + "00");
+                    if (data.areaID.substring(4) != "00") $(".bocArea", dlg).val(data.areaID);
+                } else {
+                    $(".bocProvince", dlg).val("");
+                    $(".bocCity", dlg).val("");
+                    $(".bocArea", dlg).val("");
+                }
+                $(".ADDRESS", dlg).each(AddressInit);
+                $(".bocSubject", dlg).val(data.subjectID || "");
+                SelectInit.call($(".bocSubject", dlg));
+                $(".bocPosition", dlg).val(data.positionID || "");
+                SelectInit.call($(".bocPosition", dlg));
+                $(".bocPositionPartTime", dlg).val(data.postionParttimeID || "");
+                SelectInit.call($(".bocPositionPartTime", dlg));
+                $(".bocSalary", dlg).val(data.salary || "");
+                SelectInit.call($(".bocSalary", dlg));
+            },
+            error: function () {
+                alert("加载失败，请稍候再试");
+                CENTERDIV.close.call(dlg);
+            }
+        });
+    });
+    $(".infoEdit form").submit(function () {
+        var dlg = $(".infoEdit");
+        var state = $(".bocState").val(),
+            jobType = $(".bocType").val(),
+            areaID = $(".bocArea").val(),
+            subjectID = $(".bocSubject").val(),
+            positionID = $(".bocPosition").val(),
+            positionParttimeID = $(".bocPositionPartTime").val(),
+            salary = $(".bocSalary").val();
+        if (areaID == "") areaID = $(".bocCity").val();
+        if (state == "") {
+            alert("请选择工作状态");
+            return false;
+        }
+        if (jobType == "") {
+            alert("请选择职位类型");
+            return false;
+        }
+        if (areaID == "") {
+            alert("请选择期望城市");
+            return false;
+        }
+        if (jobType == "2") {   //兼职
+            if (positionParttimeID == "") {
+                alert("请选择期望职位");
+                return false;
+            }
+        } else {
+            if (positionID == "") {
+                alert("请选择期望职位");
+                return false;
+            }
+        }
+
+        $.ajax({
+            url: "/admin/resumes/ajax.html",
+            data: {
+                cmd: "setboctargetinfo", id: curDlgID, state: state, jobType: jobType, areaID: areaID, subjectID: subjectID, positionID: positionID,
+                positionParttimeID: positionParttimeID, salary: salary
+            },
+            type: "POST",
+            cache: false,
+            dataType: "JSON",
+            success: function (result) {
+                if (!result.success) {
+                    alert(result.msg);
+                    return;
+                }
+                CENTERDIV.close.call(dlg);
+                getBOCInfo();
+            },
+            error: function () {
+                alert("提交失败，请稍候再试");
+                return;
+            }
+        });
+        return false;
+    });
+
+    //回访计划
+    $("#bocInfo>dd").on("click", ".time_btn", function () {
+        var dlg = $(".logTime");
+        CENTERDIV.open.call(dlg);
+        $.ajax({
+            url: "/admin/resumes/ajax.html",
+            data: { cmd: "getcallbackplantime", id: curDlgID },
+            cache: false,
+            dataType: "JSON",
+            success: function (result) {
+                if (!result.success) {
+                    CENTERDIV.close.call(dlg);
+                    alert(result.msg);
+                    return;
+                }
+
+                if (result.data && result.data.datetime) {
+                    $(".time", dlg).val(result.data.datetime);
+                } else {
+                    $(".time", dlg).val("");
+                }
+            },
+            error: function () {
+                alert("加载失败，请稍候再试");
+                CENTERDIV.close.call(dlg);
+            }
+        });
+    });
+    $(".logTime form").submit(function () {
+        var dlg = $(".logTime");
+        var time = $(".time", dlg).val();
+        if (time == "") {
+            alert("请选择回访时间");
+            return false;
+        }
+
+        $.ajax({
+            url: "/admin/resumes/ajax.html",
+            data: { cmd: "setcallbackplantime", id: curDlgID, datetime: time },
+            type: "POST",
+            cache: false,
+            dataType: "JSON",
+            success: function (result) {
+                if (!result.success) {
+                    alert(result.msg);
+                    return;
+                }
+                CENTERDIV.close.call(dlg);
+                getBOCInfo();
+            },
+            error: function () {
+                alert("提交失败，请稍候再试");
+                return;
+            }
+        });
+
+        return false;
+    });
+
+    //添加跟进记录
+    $("#bocInfo>dd").on("focus", ".log_top textarea", function () {
+        $(this).siblings('div').show();
+    }).on("click", ".addLog", function () {
+        var content = $.trim($(this).closest(".log_top").find("textarea").val());
+        if (content == "") {
+            alert("请填写回访内容");
+            return;
+        }
+
+        $.ajax({
+            url: "/admin/resumes/ajax.html",
+            data: { cmd: "addcallbackrecord", id: curDlgID, content: content },
+            type: "POST",
+            cache: false,
+            dataType: "JSON",
+            success: function (result) {
+                if (!result.success) {
+                    alert(result.msg);
+                    return;
+                }
+                getBOCInfo();
+            },
+            error: function () {
+                alert("提交失败，请稍候再试");
+                return;
+            }
+        });
+    });
+
+    //联系方式
+    $("#bocInfo>dd").on("click", ".contact_btn", function () {
+        var dlg = $(".Contact");
+        CENTERDIV.open.call(dlg);
+        $.ajax({
+            url: "/admin/resumes/ajax.html",
+            data: { cmd: "getboccontact", id: curDlgID },
+            cache: false,
+            dataType: "JSON",
+            success: function (result) {
+                if (!result.success) {
+                    CENTERDIV.close.call(dlg);
+                    alert(result.msg);
+                    return;
+                }
+
+                var data = result.data;
+                $(".bocMobile", dlg).val(data.mobile || "");
+                $(".bocQQ", dlg).val(data.qq || "");
+                $(".bocEmail", dlg).val(data.email || "");
+            },
+            error: function () {
+                alert("加载失败，请稍候再试");
+                CENTERDIV.close.call(dlg);
+            }
+        });
+    });
+    $(".Contact form").submit(function () {
+        var dlg = $(".Contact");
+        var mobile = $(".bocMobile", dlg).val(),
+            email = $(".bocEmail", dlg).val(),
+            qq = $(".bocQQ", dlg).val();
+
+        $.ajax({
+            url: "/admin/resumes/ajax.html",
+            data: { cmd: "setboccontact", id: curDlgID, mobile: mobile, email: email, qq: qq },
+            type: "POST",
+            cache: false,
+            dataType: "JSON",
+            success: function (result) {
+                if (!result.success) {
+                    alert(result.msg);
+                    return;
+                }
+                CENTERDIV.close.call(dlg);
+                getBOCInfo();
+            },
+            error: function () {
+                alert("提交失败，请稍候再试");
+                return;
+            }
+        });
+
+        return false;
+    });
+
+    //需求备注
+    $("#bocInfo>dd").on("click", ".needTab_btn", function () {
+        var dlg = $(".NeedTab");
+        CENTERDIV.open.call(dlg);
+        $.ajax({
+            url: "/admin/resumes/ajax.html",
+            data: { cmd: "getbocrequire", id: curDlgID },
+            cache: false,
+            dataType: "JSON",
+            success: function (result) {
+                if (!result.success) {
+                    CENTERDIV.close.call(dlg);
+                    alert(result.msg);
+                    return;
+                }
+
+                var data = result.data;
+                $(".bocTags", dlg).val(data.tags || "");
+                $(".bocRemark", dlg).val(data.remark || "");
+            },
+            error: function () {
+                alert("加载失败，请稍候再试");
+                CENTERDIV.close.call(dlg);
+            }
+        });
+    });
+    $(".NeedTab form").submit(function () {
+        var dlg = $(".NeedTab");
+        var tags = $(".bocTags", dlg).val(),
+            remark = $(".bocRemark", dlg).val();
+
+        $.ajax({
+            url: "/admin/resumes/ajax.html",
+            data: { cmd: "setbocrequire", id: curDlgID, tags: tags, remark: remark },
+            type: "POST",
+            cache: false,
+            dataType: "JSON",
+            success: function (result) {
+                if (!result.success) {
+                    alert(result.msg);
+                    return;
+                }
+                CENTERDIV.close.call(dlg);
+                getBOCInfo();
+            },
+            error: function () {
+                alert("提交失败，请稍候再试");
+                return;
+            }
+        });
+
+        return false;
+    });
+
+    //投递简历
+    var multiSel = false;
+    $(".pushResume_btn").click(function () {
+        if ($(this).hasClass("batch")) {
+            var id = "";
+            var dataNeed = $(this).data("need");
+            $(".resumeList input[type=checkbox]:checked").each(function () {
+                if (dataNeed) {
+                    if ($(this).data(dataNeed)) {
+                        id += "," + $(this).data(dataNeed);
+                    }
+                } else {
+                    id += "," + $(this).val();
+                }
+            });
+            curDlgID = id.substring(1);
+            multiSel = $(".resumeList input[type=checkbox]:checked").length > 1;
+            getOfferList();
+        } else {
+            curDlgID = $(this).data("id");
+            multiSel = false;
+            $.ajax({
+                url: "/admin/resumes/ajax.html",
+                data: { cmd: "getboctargetinfo", id: curDlgID },
+                cache: false,
+                dataType: "JSON",
+                success: function (result) {
+                    if (!result.success) {
+                        return;
+                    }
+
+                    var data = result.data;
+                    $(".pushResume .urgentType").val(data.jobType || "");
+                    SelectInit.call($(".pushResume .urgentType"));
+                    if (data.areaID) {
+                        $(".pushResume .urgentCity").val(data.areaID.substring(0, 4) + "00");
+                        if (data.areaID.substring(4) != "00") $(".pushResume .urgentArea").val(data.areaID);
+                    } else {
+                        $(".pushResume .urgentCity").val("");
+                        $(".pushResume .urgentArea").val("");
+                    }
+                    $(".pushResume .ADDRESS").each(AddressInit);
+                    $(".pushResume .urgentPosition").val(data.positionID || "");
+                    SelectInit.call($(".pushResume .urgentPosition"));
+                    $(".pushResume .urgentPositionParttime").val(data.postionParttimeID || "");
+                    SelectInit.call($(".pushResume .urgentPositionParttime"));
+                },
+                error: function () {
+                    alert("加载失败，请稍候再试");
+                    CENTERDIV.close.call(dlg);
+                },
+                complete: function () {
+                    getOfferList();
+                }
+            });
+        }
+        CENTERDIV.open.call($(".pushResume"));
+    });
+    $(".pushResume form").submit(function () {
+        getOfferList();
+        return false;
+    });
+    $(".pushResume").on("click", ".checkAll", function () {
+        $(".pushResume .List input[type=checkbox]:not(:disabled)").prop("checked", true);
+    }).on("click", ".checkNeg", function () {
+        $(".pushResume .List input[type=checkbox]:not(:disabled)").each(function () {
+            $(this).prop("checked", !$(this).prop("checked"));
+        });
+    }).on("click", ".pushChild_btn", function () {
+        if ($(this).hasClass("batch")) {
+            var id = "";
+            $(".pushResume .List input[type=checkbox]:checked:not(:disabled)").each(function () {
+                id += "," + $(this).val();
+            });
+            $(".resumePushChild .urgentOffers").val(id.substring(1));
+        } else {
+            $(".resumePushChild .urgentOffers").val($(this).data("id"));
+        }
+        openSendConfirm();
+    });
+    function getOfferList(pageIndex) {
+        var dlg = $(".pushResume");
+        var key = $(".urgentKey", dlg).val(),
+            type = $(".urgentType", dlg).val(),
+            subject = $(".urgentSubject", dlg).val(),
+            position = $(".urgentPosition", dlg).val(),
+            area = $(".urgentArea", dlg).val(),
+            resumeId = multiSel ? 0 : curDlgID;
+        if (type && type == 2) {
+            position = $(".urgentPositionParttime", dlg).val();
+        }
+        if (area == "") {
+            area = $(".urgentCity", dlg).val();
+        }
+
+        var data = { key: key, type: type, area: area, resumeId: resumeId, pid: pageIndex || 1 };
+        if (type > 0) {
+            if (type == 2) {
+                data["position"] = position;
+            } else {
+                data["position"] = position;
+                data["subject"] = subject;
+            }
+        }
+
+        $.ajax({
+            url: "/admin/resumes/bocoffersearch.html",
+            data: data,
+            cache: false,
+            success: function (result) {
+                $(".pushResume .List").html(result);
+                CENTERDIV.fixed.call($(".pushResume"));
+            }, error: function () {
+                alert("加载失败，请稍候再试");
+            }
+        });
+    }
+    // 删除推荐职位
+    $(".resumePushChild .list").on("click", "a", function (event) {
+        var id = $(this).data("id").toString();
+        var hidden = $(this).closest('.list').siblings('[type="hidden"]');
+        var ids = hidden.val().split(',');
+        var index = ids.indexOf(id);
+        ids.splice(index, 1);
+        hidden.val(ids.join(','));
+
+        var a = $(this).closest('.list').find('a');
+        if (a.size() == 1) {
+            $(".resumePushChild .submit").prop("disabled", true);
+        }
+        $(this).remove();
+    });
+    function openSendConfirm() {
+        $(".resumePushChild .urgentResumes").val(curDlgID);
+        if (multiSel) {
+            $(".resumePushChild .IdsCounter").html(curDlgID.split(',').length);
+        } else {
+            $(".resumePushChild .IdsCounter").html("1");
+        }
+        CENTERDIV.open.call($(".resumePushChild"));
+
+        $.ajax({
+            url: "/admin/resumes/ajax.html",
+            data: { cmd: "getoffernames", ids: $(".resumePushChild .urgentOffers").val() },
+            cache: false,
+            dataType: "JSON",
+            success: function (result) {
+                if (!result.success) {
+                    alert(result.msg);
+                    CENTERDIV.close.call($(".resumePushChild"));
+                    return;
+                }
+
+                var data = result.data;
+                $(".resumePushChild .list").html("");
+                for (var i = 0; i < data.length; i++) {
+                    $(".resumePushChild .list").append("<a data-id=\"" + data[i].id + "\">" + data[i].title + "</a>");
+                }
+            },
+            error: function () {
+                alert("加载失败，请稍候再试");
+                CENTERDIV.close.call($(".resumePushChild"));
+            }
+        });
+    }
+
+    $(".resumePushChild .submit").click(function () {
+        var resumeIds = curDlgID;
+        var offerIds = $(".resumePushChild .urgentOffers").val();
+
+        $.ajax({
+            url: "/admin/resumes/ajax.html",
+            data: { cmd: "send", rids: resumeIds, ids: offerIds },
+            type: "POST",
+            cache: false,
+            dataType: "JSON",
+            success: function (result) {
+                if (!result.success) {
+                    alert(result.msg);
+                    return;
+                }
+
+                alert("投递成功");
+                CENTERDIV.close.call($(".resumePushChild"));
+            },
+            error: function () {
+                alert("提交失败，请稍候再试");
+            }
+        });
+    });
+</script>
+
+
+
+    <script src="../js/jbody.js"></script>
+    <script src="../js/jbody-plugin.js"></script>
+    <script src="../js/area.js"></script>
+    <script src="../js/subjects.js"></script>
+    <script src="../js/jobPositions.js"></script>
+    <script src="../js/jobPositionsParttime.js"></script>
+    <script src="../js/v2/admin/all.js"></script>
+    <script type="text/javascript">
+        // pageMainMenuCreater.setActive({ mainText: "简历管理", subText: "简历库" });
+        // CommonIframeSubmitHelper.init({ url: "/Admin/Resumes/store.html" });
+    </script>
+    <script type="text/javascript">
+        $(".btn2Hgz").click(function () {
+            var id = $(this).data("id");
+            showBOCDlg({ id: id, type: "store" });
+        });
+    </script>
+    <script type="text/javascript">
+        $(".export").click(function () {
+            var ids = "";
+            $(".resumeList input[type=checkbox]:checked").each(function () {
+                ids += "," + $(this).val();
+            });
+            if (ids == "") {
+                alert("请选择简历");
+                return false;
+            }
+
+            window.location.href = "storeexport.html?type=1&ids=" + ids.substring(1);
+        });
+        $(".exportAll").click(function () {
+            var key = $("#main_txtKey").val(),
+                startTime = $("#main_txtStartTime").val(),
+                endTime = $("#main_txtEndTime").val(),
+                cityId = $("#main_drpCity_hidden").val(),
+                curPosition = $("#main_txtCurPosition").val(),
+                position = $("#main_txtPosition").val(),
+                subject = $("#main_txtSubject").val(),
+                experience = $("#main_txtExperience").val(),
+                education = $("#main_txtEducation").val(),
+                sex = $("#main_txtSex").val(),
+                isNew = $("#main_txtNew").val();
+            var url = "storeexport.html?type=2"
+                + "&key=" + encodeURIComponent(key)
+                + "&startTime=" + startTime
+                + "&endTime=" + endTime
+                + "&cityId=" + cityId
+                + "&curPosition=" + curPosition
+                + "&position=" + position
+                + "&subject=" + subject
+                + "&experience=" + experience
+                + "&education=" + education
+                + "&sex=" + sex
+                + "&isNew=" + isNew;
+            window.location.href = url;
+        });
+
+        $(".markedTip").mouseenter(function(event) {
+            var target  = $(this).siblings('.markedTipWin'),
+                thisHeight = target.height() + 35;
+            target.css({top: -thisHeight+"px"}).show();
+        }).mouseleave(function(event) {
+            $(this).siblings('.markedTipWin').hide();
+        });
+
+    </script>
+
+</body>
+</html>

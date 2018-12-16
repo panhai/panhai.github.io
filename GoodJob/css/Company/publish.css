@@ -1,0 +1,80 @@
+/* 发布职位页 */
+body{ background-color:#fff;}
+.publish{ clear:both;}
+
+h1{ width:750px; border-bottom:1px solid #CBCBCB; height:50px; line-height:50px; _overflow:hidden; font-size:18px; font-family:"微软雅黑";}
+h1 b{ display:inline-block; padding:0px 10px; border-bottom:1px solid #2677E2; _position:relative;}
+
+.pub-form{ margin-top:45px; float:left; padding-left:35px; width:900px;}
+.pub-form li{ width:100%; float:left; margin-bottom:15px; font-size:14px; color:#353535; line-height:30px; font-family:"微软雅黑";}
+.pub-form var,.pub-form dfn,.pub-form ins{ display:block; float:left; font-style:normal; text-decoration:none;}
+.pub-form var{ width:85px; text-align:right;}
+.pub-form dfn{ width:465px;}
+.pub-form ins{ position:relative; top:5px;}
+.pub-form var b{ color:#f00;}
+
+.text{ border:1px solid #D4D4D4; height:30px; line-height:30px; padding:0px 10px; vertical-align:middle;}
+.t-l{ width:443px;}
+.t-m{ width:331px;}
+.t-h{ width:180px;}
+.t-s{ width:90px;}
+
+/*下拉列表*/
+.select{ position:relative; display:inline-block; float:left; z-index:111;}
+.select dt{ clear:both; height:30px; border:1px solid #d9d9d9; padding:0px 20px 0px 10px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; line-height:30px; position:relative;}
+.select dt i{ display:block; position:absolute; right:5px; top:10px; height:12px; width:12px; background:url(../../images/icons.gif) -12px 0px; overflow:hidden;}
+.select dt span{ color:#999;}
+.select dd{ display:none; position:absolute; left:0px; background:#fff; line-height:25px; border:1px solid #d9d9d9;}
+.select dd.on{ display:block;}
+
+.s-l{ width:465px;}
+.s-s{ width:130px;}
+.s-s .normal{ width:128px;}
+.ADDList{ width:103px; margin-right:22px;}
+.addresses{ width:380px; padding:10px; z-index:111; float:left;}
+.addresses a{ font-size:12px; padding-left:5px; color:#05c; display:block; float:left; width:70px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.addresses a:hover{ text-decoration:underline;}
+
+/*普通的下拉列表*/
+.normal{ max-height:150px; overflow:auto; _height:150px; _overflow-y:auto; _overflow-x:hidden;}
+.normal a{ display:block; line-height:30px; height:30px; color:#333; padding:0px 10px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; _width:90%;}
+.normal a:hover{ background-color:#dbeef4;}
+
+/*标签*/
+.tags{}
+.tags input{ display:none;}
+.tags label{ display:inline-block; border:1px solid #D4D4D4; padding:3px 10px 0px; margin-right:5px; font-size:12px; font-family:"宋体"; line-height:20px; position:relative; cursor:pointer;}
+.tags label.checked{ border-color:#ff5e00;}
+.tags i{ position:absolute; right:0px; top:0px; display:none; width:0px; height:0px; font-size:0px; border:4px solid transparent; border-color:#ff5000 #ff5000 transparent transparent;}
+.tags i{ _border-color:#ff5000 #ff5000 #0ff #0ff; _filter:chroma(color=#00ffff);}
+.tags .checked i{ display:block; overflow:hidden;}
+
+/*附加福利*/
+.addup{}
+.addup a{ display:inline-block; background-color:#FFF1F1; color:#000; border:1px solid #f00; padding:3px 10px 0px; margin-right:5px; font-size:12px; font-family:"宋体"; line-height:20px; float:left;}
+.addup a q{ position:relative; left:5px;}
+.add-text{ border:1px solid #D4D4D4; height:28px; line-height:28px; padding:0px 10px; width:120px; float:left;}
+.add-btn{ border:1px solid #d4d4d4; height:30px; line-height:30px; padding:0px 10px; background-color:#eee; font-size:12px; float:left; border-left:0px; cursor:pointer;}
+
+.editor{ width:543px; height:280px; border:1px solid #ccc; margin-bottom:20px;}
+
+.pub-form code{ display:block; clear:both; width:545px; font-style:normal; text-decoration:none; font-family:"微软雅黑"; margin-bottom:20px; height:30px;}
+code a{ background-color:#2876E2; font-size:12px; font-family:"宋体"; padding:5px 10px; color:#fff; margin-left:10px;}
+code .text{ width:365px; float:right;}
+code.last{ text-align:right;}
+
+.btn{ width:125px; height:30px; text-align:center; color:#fff; background-color:#FF5000; font-size:14px; border:0px; cursor:pointer; font-weight:bold;}
+
+.radios{}
+.radios label{ display:inline-block; width:50px; height:28px; border:1px solid #d4d4d4; text-align:center; font-size:16px; cursor:pointer;}
+.radios input{ display:none;}
+.radios .checked{ background-color:#ff5e00; color:#fff;}
+.settle label{ padding-right:16px;}
+.settle .t-h{ float:left; margin-right:10px;}
+.settle .clear{ height:40px;}
+
+/*地图*/
+.MapTip{ font-size:12px; color:#333; font-family:"宋体"; white-space:nowrap;}
+.MapTip span{ color:#ff5e00;}
+.mapDiv{ clear:both; width:603px; height:345px; border:1px solid #a3a3a3;}
+#address_locate{ width:60px; height:30px; background-color:#019dda; color:#fff; font-size:12px; border:0px;}

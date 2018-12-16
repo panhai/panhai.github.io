@@ -1,0 +1,103 @@
+/* 整站通用样式 */
+*{ margin:0px; padding:0px; font-family:Microsoft YaHei, Arial;}
+ul,ol,li{ list-style:none;}
+q{ quotes:none;}
+a{ text-decoration:none; cursor:pointer;}
+a img{ border:0px;}
+.common{ width:1060px; margin:0 auto;}
+body{}
+input::-ms-clear{ display:none;}
+:-moz-placeholder{ color:#999;}
+::-moz-placeholder{ color:#999;}
+:focus{ outline:none;}
+textarea{ resize:none !important;}
+.clear{ clear:both !important; float:none !important;}
+table{ border-collapse:collapse; table-layout:fixed;}
+/*IE6 用absolute模拟fixed*/
+body{
+	_background-image: url(about:blank);     /*用浏览器空白页面作为背景*/
+	_background-attachment: fixed;     /* prevent screen flash in IE6 确保滚动条滚动时，元素不闪动*/
+}
+/*半透明背景*/
+.black5{ background:rgba(0,0,0,0.5); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4B000000,endColorstr=#4B000000);}
+.fixed{ position:fixed; _position:absolute;}
+.fixed-top{	top:0px; _top:expression(eval(document.documentElement.scrollTop));}
+.fixed-bottom{ bottom:0px; _bottom:auto; _top:expression(eval(document.documentElement.scrollTop + document.documentElement.clientHeight - this.clientHeight - (parseInt(this.currentStyle.marginTop) || 0) - (parseInt(this.currentStyle.marginBottom) || 0)));}
+/*全屏插件，为了方便横竖居中，使用表格*/
+.FullScreenPlugin{ width:100%; height:100%; _height:expression(eval(document.documentElement.clientHeight)); text-align:center; z-index:66666 !important;}
+.FullScreenPlugin td{ vertical-align:middle; text-align:center;}
+
+.common{ width:1000px; clear:both; margin:0 auto;}
+.banner{ width:100%; text-align:center; overflow:hidden; height:648px;}
+.topic{ text-align:center; margin-top:50px;}
+.adv{ clear:both; text-align:center; margin:20px auto;}
+.bg{ background-color:#eef6ff; border:1px solid #eef6ff; border-width:1px 0;}
+
+/*第一块*/
+.summary{ text-align:center; line-height:30px; font-size:14px; color:#666; margin:20px auto;}
+
+/*第二块*/
+.subtopic{ font-size:18px; text-decoration:underline; text-align:center; line-height:70px;}
+.pnw{ clear:both; padding:60px 0;}
+.pnw .pic{ width:42%;}
+.pnw .word{ width:58%; font-size:14px; color:#666; line-height:20px;}
+.pnw .left{ float:left; text-align:left;}
+.pnw .right{ float:right; text-align:right;}
+.word h3{ font-size:36px; font-weight:normal; line-height:70px; color:#000; margin-top:35px;}
+.word h4{ font-size:16px; font-weight:normal; color:#666; line-height:25px; padding:10px 0;}
+
+/*第三块*/
+strong.subject{ display:block; text-align:center; font-size:36px; font-weight:normal;}
+/*3-1*/
+.s1{ margin-top:55px;}
+small.list-head{ display:block; text-align:center; font-size:16px; line-height:50px;}
+.list{ clear:both; margin-top:40px;}
+.list li{ width:227px; float:left;}
+.list h3{ font-size:22px; font-weight:normal; margin:25px 0;}
+.list p{ font-size:14px; color:#666; line-height:25px; margin-bottom:70px;}
+.list1{ margin-right:158px;}
+.list1 h3{ color:#006bcf;}
+.list2 h3{ color:#258300;}
+.list3{ float:right !important;}
+.list3 h3{ color:#ff7700;}
+/*3-2*/
+.s2{ margin:45px 0;}
+.menu{ clear:both; margin-top:5px;}
+.menu li{ background-color:#fff; width:329px; height:272px; float:left; position:relative; margin-bottom:55px;}
+.menu div{ position:absolute; width:130px; height:130px; top:-60px; left:100px;}
+.menu h4{ clear:both; font-size:22px; text-align:center; font-weight:normal; margin:100px auto 15px auto;}
+.menu p{ font-size:14px; color:#666; line-height:25px; margin:0 40px;}
+.menu1{ margin-right:6px;}
+.menu1 h4{ color:#e36e0f;}
+.menu2 h4{ color:#e63c64;}
+.menu3{ float:right !important;}
+.menu3 h4{ color:#00a44d;}
+/*3-3*/
+.narrow{ width:800px !important;}
+.narrow .pnw{ padding-top:30px;}
+.narrow .word{ padding-top:60px;}
+.narrow p{ font-size:16px; line-height:30px;}
+/*3-4*/
+.tail{ font-size:18px; text-align:center; margin:60px 0 20px 0;}
+
+/*浮动条*/
+.float{ position:absolute; right:0; top:0;}
+.float .clear{ font-size:0;}
+/*分享条*/
+#bdshare{ display:none; position:absolute; width:204px; height:65px; background-image:url(images/s-bg.png); overflow:hidden; right:0; bottom:-65px;}
+#bdshare{ _background-image:url(images/s-bg.gif);}
+#bdshare a{ width:38px !important; height:38px !important; margin:17px 5px 0 !important; padding:0 !important; float:left !important; background-position:0 0 !important;}
+/*.bdsharebuttonbox a:hover{ height:38px !important;}*/
+#bdshare a.bds_tsina{ margin-left:10px !important; background-image:url(images/s-weibo.png);}
+#bdshare a.bds_tqq{ background-image:url(images/s-tencent.png);}
+#bdshare a.bds_qzone{ background-image:url(images/s-qzone.png);}
+#bdshare a.bds_douban{ background-image:url(images/s-dowban.png)}
+
+
+/*通用脚部*/
+.FOOTER{ clear:both; background-color:#e8f2ff; text-align:center; padding:10px; font-size:18px; color:#95bdf3;}
+.FOOT-NAV{ line-height:20px; padding:40px 0px;}
+.FOOT-NAV a{ display:inline-block; color:#95bdf3; padding:0px 35px; border-right:1px solid #95bdf3;}
+.FOOT-NAV a.last{ border:0;}
+.FOOT-NAV a:hover{ color:#1562c8; text-decoration:underline;}
+.FOOTER p{ line-height:30px;}

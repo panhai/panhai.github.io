@@ -1,0 +1,167 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>企业中心-首页-简历管理-已邀请面试-被拒绝的邀请</title>
+<link rel="stylesheet" type="text/css" href="../css/v2/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/CCenter/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/CCenter/resumes.css">
+</head>
+
+<body>
+<div class="HEADER"><div class="common">
+	<div class="TOP-LOGO"><a href="#"><img src="../images/v2/logo-s.jpg" width="119" height="62"></a></div>
+    <div class="TOP-TOOLS">
+    	Admin, <a href="#">退出</a>&nbsp;&nbsp;&nbsp;<a href="#">个人中心</a>&nbsp;&nbsp;&nbsp;<a href="#">反馈</a>&nbsp;&nbsp;&nbsp;<a href="#">HR帮助</a>
+    </div>
+    <ul class="TOP-NAV">
+    	<li><a href="new-index.html" class="cur">首页</a></li>
+    	<li><a href="new-publish.html">发布职位</a></li>
+    	<li><a href="new-profile.html">企业资料</a></li>
+    	<li><a href="new-hrfavors.html">HR收藏夹</a></li>
+    	<li><a href="new-settings.html">账号管理</a></li>
+    </ul>
+</div></div>
+
+<div class="Main common">
+	<div class="Left">
+    	<a href="new-publish.html" class="Publish">发布新职位</a>
+        <div class="LeftNav">
+            <h3>简历管理</h3>
+            <p>
+                <a href="new-index-resume-newcome.html"><span>未处理简历</span><i>30</i></a>
+                <a href="new-index-resume-invited.html" class="cur"><span>已邀请面试</span><i>30</i></a>
+                <a href="new-index-resume-confirmed.html"><span>已确认面试</span><i>30</i></a>
+                <a href="new-index-resume-notmatch.html"><span>不合适简历</span><i>30</i></a>
+                <a href="new-index-resume-stores.html"><span>企业人才库</span><i>30</i></a>
+            </p>
+            <h3>职位管理</h3>
+            <p>
+                <a href="new-index-job-published.html"><span>已发布职位</span><i>30</i></a>
+                <a href="new-index-job-checking.html"><span>审核中职位</span><i>30</i></a>
+                <a href="new-index-job-stopped.html"><span>已暂停职位</span><i>30</i></a>
+            </p>
+            <h3>校企合作</h3>
+            <p>
+                <a href="new-index-cooperate.html"><span>学校合作邀请</span><i>30</i></a>
+                <a href="new-index-cooperate-sent.html"><span>发出的邀请</span><i>30</i></a>
+                <a href="new-index-cooperate-received.html"><span>收到的申请</span><i>30</i></a>
+                <a href="new-index-cooperate-schools.html"><span>已达成合作</span><i>30</i></a>
+            </p>
+        </div>
+    </div>
+	<div class="Right">
+        <dl class="Intro">
+            <dt class="margin">
+                <h1>已邀请面试<small>（共6份）</small></h1>
+                <a href="#" class="refresh">刷新</a>
+            </dt>
+        </dl>
+        <div class="Topics">
+        	<h2><a href="new-index-resume-invited.html"><span>已发出的邀请</span></a></h2>
+        	<h2><a href="new-index-resume-invited2.html" class="cur"><span>被拒绝的邀请</span></a></h2>
+            <input type="button" class="submit" value="">
+            <pre class="text-container"><input type="text" class="text" placeholder="请输入关键词" data-init="true"></pre>
+            <label class="calendar" for="calendar"></label><input type="text" id="calendar">
+        </div>
+        <div class="Query"><!--无查询串就不放这块-->
+        	<a href="#">返回全部&gt;</a>
+            这里边放时间、关键字，共搜索到3份简历
+        </div>
+        <div class="Nothing">
+        	<p><img src="../images/v2/nothing.png" width="176" height="148"></p>
+        	<p>暂无记录</p>
+        </div>
+        <table class="Infors infors clear">
+            <tr>
+            	<td width="100"><a href="new-resume.html" target="_blank"><var><img src="../images/v2/nophoto.png"></var></a></td>
+                <td width="240" class="profile"><a href="new-resume.html" target="_blank">
+                	<h4>张宇英<small>女/2年/本科</small></h4>
+                    <p>应聘：SEO外链专员</p>
+                    <p>信用度：<samp>80</samp></p>
+                </a></td>
+                <td width="260" class="contact">
+                    <div><s>13632293773</s>
+                    <u>408645359@qq.com</u></div>
+                </td>
+                <td width="130" class="datetime">对方已拒绝<br>2014-2-4 14:30</td>
+            </tr>
+            <tr>
+            	<td width="100"><a href="new-resume.html" target="_blank"><var><img src="../images/v2/nophoto.png"></var></a></td>
+                <td width="240" class="profile"><a href="new-resume.html" target="_blank">
+                	<h4>张宇英<small>女/2年/本科</small></h4>
+                    <p>应聘：SEO外链专员</p>
+                    <p>信用度：<samp>80</samp></p>
+                </a></td>
+                <td width="260" class="contact">
+                    <div><s>13632293773</s>
+                    <u>408645359@qq.com</u></div>
+                </td>
+                <td width="130" class="datetime">对方已拒绝<br>2014-2-4 14:30</td>
+            </tr>
+            <tr>
+            	<td width="100"><a href="new-resume.html" target="_blank"><var><img src="../images/v2/nophoto.png"></var></a></td>
+                <td width="240" class="profile"><a href="new-resume.html" target="_blank">
+                	<h4>张宇英<small>女/2年/本科</small></h4>
+                    <p>应聘：SEO外链专员</p>
+                    <p>信用度：<samp>80</samp></p>
+                </a></td>
+                <td width="260" class="contact">
+                    <div><s>13632293773</s>
+                    <u>408645359@qq.com</u></div>
+                </td>
+                <td width="130" class="datetime">对方已拒绝<br>2014-2-4 14:30</td>
+            </tr>
+            <tr>
+            	<td width="100"><a href="new-resume.html" target="_blank"><var><img src="../images/v2/nophoto.png"></var></a></td>
+                <td width="240" class="profile"><a href="new-resume.html" target="_blank">
+                	<h4>张宇英<small>女/2年/本科</small></h4>
+                    <p>应聘：SEO外链专员</p>
+                    <p>信用度：<samp>80</samp></p>
+                </a></td>
+                <td width="260" class="contact">
+                    <div><s>13632293773</s>
+                    <u>408645359@qq.com</u></div>
+                </td>
+                <td width="130" class="datetime">对方已拒绝<br>2014-2-4 14:30</td>
+            </tr>
+            <tr>
+            	<td width="100"><a href="new-resume.html" target="_blank"><var><img src="../images/v2/nophoto.png"></var></a></td>
+                <td width="240" class="profile"><a href="new-resume.html" target="_blank">
+                	<h4>张宇英<small>女/2年/本科</small></h4>
+                    <p>应聘：SEO外链专员</p>
+                    <p>信用度：<samp>80</samp></p>
+                </a></td>
+                <td width="260" class="contact">
+                    <div><s>13632293773</s>
+                    <u>408645359@qq.com</u></div>
+                </td>
+                <td width="130" class="datetime">对方已拒绝<br>2014-2-4 14:30</td>
+            </tr>
+        </table>
+        <div class="MixTools"><div class="PAGES">
+        	<a href="#">首页</a>
+        	<a href="#">上一页</a>
+        	<a href="#" class="cur">1</a>
+        	<a href="#">2</a>
+        	<a href="#">3</a>
+        	<a href="#">下一页</a>
+        	<a href="#">尾页</a>
+        </div></div>
+        
+    </div>
+	<div class="clear"></div>
+</div>
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/v2/all.js"></script>
+<script src="../js/effect/correct.js"></script>
+<script src="../js/plugin/raphael.js"></script>
+<script src="../js/jbody.js"></script>
+<script src="../js/jbody-plugin.js"></script>
+<script src="../js/v2/CCenter/resumes.js"></script>
+<script>
+$(function(){
+});
+</script>

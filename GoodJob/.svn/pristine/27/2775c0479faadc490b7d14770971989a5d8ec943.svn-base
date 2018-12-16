@@ -1,0 +1,212 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>企业中心-首页-简历管理-不合适简历</title>
+<link rel="stylesheet" type="text/css" href="../css/v2/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/CCenter/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/CCenter/resumes.css">
+</head>
+
+<body>
+<div class="HEADER"><div class="common">
+	<div class="TOP-LOGO"><a href="#"><img src="../images/v2/logo-s.jpg" width="119" height="62"></a></div>
+    <div class="TOP-TOOLS">
+    	Admin, <a href="#">退出</a>&nbsp;&nbsp;&nbsp;<a href="#">个人中心</a>&nbsp;&nbsp;&nbsp;<a href="#">反馈</a>&nbsp;&nbsp;&nbsp;<a href="#">HR帮助</a>
+    </div>
+    <ul class="TOP-NAV">
+    	<li><a href="new-index.html" class="cur">首页</a></li>
+    	<li><a href="new-publish.html">发布职位</a></li>
+    	<li><a href="new-profile.html">企业资料</a></li>
+    	<li><a href="new-hrfavors.html">HR收藏夹</a></li>
+    	<li><a href="new-settings.html">账号管理</a></li>
+    </ul>
+</div></div>
+
+<div class="Main common">
+	<div class="Left">
+    	<a href="new-publish.html" class="Publish">发布新职位</a>
+        <div class="LeftNav">
+            <h3>简历管理</h3>
+            <p>
+                <a href="new-index-resume-newcome.html"><span>未处理简历</span><i>30</i></a>
+                <a href="new-index-resume-invited.html"><span>已邀请面试</span><i>30</i></a>
+                <a href="new-index-resume-confirmed.html"><span>已确认面试</span><i>30</i></a>
+                <a href="new-index-resume-notmatch.html" class="cur"><span>不合适简历</span><i>30</i></a>
+                <a href="new-index-resume-stores.html"><span>企业人才库</span><i>30</i></a>
+            </p>
+            <h3>职位管理</h3>
+            <p>
+                <a href="new-index-job-published.html"><span>已发布职位</span><i>30</i></a>
+                <a href="new-index-job-checking.html"><span>审核中职位</span><i>30</i></a>
+                <a href="new-index-job-stopped.html"><span>已暂停职位</span><i>30</i></a>
+            </p>
+            <h3>校企合作</h3>
+            <p>
+                <a href="new-index-cooperate.html"><span>学校合作邀请</span><i>30</i></a>
+                <a href="new-index-cooperate-sent.html"><span>发出的邀请</span><i>30</i></a>
+                <a href="new-index-cooperate-received.html"><span>收到的申请</span><i>30</i></a>
+                <a href="new-index-cooperate-schools.html"><span>已达成合作</span><i>30</i></a>
+            </p>
+        </div>
+    </div>
+	<div class="Right">
+        <dl class="Intro">
+            <dt>
+                <h1>不合适简历<small>（共6份）</small></h1>
+                <a href="#" class="refresh">刷新</a>
+            </dt>
+            <dd>
+            	<p>1.  标记为“不合适”的简历会移动到该页面。</p>
+				<p>2.  5个工作日内未及时处理的简历，系统会自动回复“不合适”，并移动到该页面。</p>
+            </dd>
+        </dl>
+        <!--<div class="Warning"><q></q>如您在5个工作日内未对简历经行答复，系统将自动回绝</div>-->
+        <div class="Nothing">
+        	<p><img src="../images/v2/nothing.png" width="176" height="148"></p>
+        	<p>暂无记录</p>
+        </div>
+        <table class="Infors">
+            <tr>
+            	<th width="20">&nbsp;</th>
+            	<th width="100">应聘职位：</th><th width="360" align="left"><b>销售经理</b></th>
+                <th width="270" align="right">已回绝：<b>2015-01-02  14:30&nbsp;&nbsp;</b></th>
+            </tr>
+            <tr>
+            	<td width="20"><input type="checkbox"></td>
+            	<td width="100"><a href="new-resume.html" target="_blank"><var><img src="../images/v2/nophoto.png"></var></a></td>
+                <td width="360" class="profile"><a href="new-resume.html" target="_blank">
+                	<h4>张宇英<small>女/2年/本科</small></h4>
+                    <p>SEO外链专员-广州冠鹏信息技术有限公司广州冠鹏信息技术有限公司</p>
+                    <p>信用度：<samp>80</samp></p>
+                </a></td>
+                <td width="270" class="options">
+                	<a href="#" data-id="" data-name="">删除</a>
+                </td>
+            </tr>
+            <tr>
+            	<th width="20">&nbsp;</th>
+            	<th width="100">应聘职位：</th><th width="360" align="left"><b>销售经理</b></th>
+                <th width="270" align="right">已回绝：<b>2015-01-02  14:30&nbsp;&nbsp;</b></th>
+            </tr>
+            <tr>
+            	<td width="20"><input type="checkbox"></td>
+            	<td width="100"><a href="new-resume.html" target="_blank"><var><img src="../images/v2/nophoto.png"></var></a></td>
+                <td width="360" class="profile"><a href="new-resume.html" target="_blank">
+                	<h4>张宇英<small>女/2年/本科</small></h4>
+                    <p>SEO外链专员-广州冠鹏信息技术有限公司广州冠鹏信息技术有限公司</p>
+                    <p>信用度：<samp>80</samp></p>
+                </a></td>
+                <td width="270" class="options">
+                	<a href="#" data-id="" data-name="">删除</a>
+                </td>
+            </tr>
+            <tr>
+            	<th width="20">&nbsp;</th>
+            	<th width="100">应聘职位：</th><th width="360" align="left"><b>销售经理</b></th>
+                <th width="270" align="right">已回绝：<b>2015-01-02  14:30&nbsp;&nbsp;</b></th>
+            </tr>
+            <tr>
+            	<td width="20"><input type="checkbox"></td>
+            	<td width="100"><a href="new-resume.html" target="_blank"><var><img src="../images/v2/nophoto.png"></var></a></td>
+                <td width="360" class="profile"><a href="new-resume.html" target="_blank">
+                	<h4>张宇英<small>女/2年/本科</small></h4>
+                    <p>SEO外链专员-广州冠鹏信息技术有限公司广州冠鹏信息技术有限公司</p>
+                    <p>信用度：<samp>80</samp></p>
+                </a></td>
+                <td width="270" class="options">
+                	<a href="#" data-id="" data-name="">删除</a>
+                </td>
+            </tr>
+            <tr>
+            	<th width="20">&nbsp;</th>
+            	<th width="100">应聘职位：</th><th width="360" align="left"><b>销售经理</b></th>
+                <th width="270" align="right">已回绝：<b>2015-01-02  14:30&nbsp;&nbsp;</b></th>
+            </tr>
+            <tr>
+            	<td width="20"><input type="checkbox"></td>
+            	<td width="100"><a href="new-resume.html" target="_blank"><var><img src="../images/v2/nophoto.png"></var></a></td>
+                <td width="360" class="profile"><a href="new-resume.html" target="_blank">
+                	<h4>张宇英<small>女/2年/本科</small></h4>
+                    <p>SEO外链专员-广州冠鹏信息技术有限公司广州冠鹏信息技术有限公司</p>
+                    <p>信用度：<samp>80</samp></p>
+                </a></td>
+                <td width="270" class="options">
+                	<a href="#" data-id="" data-name="">删除</a>
+                </td>
+            </tr>
+            <tr>
+            	<th width="20">&nbsp;</th>
+            	<th width="100">应聘职位：</th><th width="360" align="left"><b>销售经理</b></th>
+                <th width="270" align="right">已回绝：<b>2015-01-02  14:30&nbsp;&nbsp;</b></th>
+            </tr>
+            <tr>
+            	<td width="20"><input type="checkbox"></td>
+            	<td width="100"><a href="new-resume.html" target="_blank"><var><img src="../images/v2/nophoto.png"></var></a></td>
+                <td width="360" class="profile"><a href="new-resume.html" target="_blank">
+                	<h4>张宇英<small>女/2年/本科</small></h4>
+                    <p>SEO外链专员-广州冠鹏信息技术有限公司广州冠鹏信息技术有限公司</p>
+                    <p>信用度：<samp>80</samp></p>
+                </a></td>
+                <td width="270" class="options">
+                	<a href="#" data-id="" data-name="">删除</a>
+                </td>
+            </tr>
+        </table>
+        <div class="MixTools">
+        	<div class="TailTools">
+            	<input type="checkbox" id="all"> <label for="all">全选</label>
+                <a href="#" class="DeleteAll">删除</a>
+            </div>
+            <div class="PAGES">
+                <a href="#">首页</a>
+                <a href="#">上一页</a>
+                <a href="#" class="cur">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">下一页</a>
+                <a href="#">尾页</a>
+            </div>
+        </div>
+    </div>
+	<div class="clear"></div>
+</div>
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/v2/all.js"></script>
+<script src="../js/effect/correct.js"></script>
+<script src="../js/plugin/raphael.js"></script>
+<script src="../js/effect/bg.js"></script>
+<script src="../js/plugin/CenterDiv.js"></script>
+<script src="../js/v2/CCenter/resumes.js"></script>
+<script>
+$(function(){
+	//点击警告的叉
+	$(".Warning q").click(function(){$(this).parent().fadeOut();});
+	//全选
+	$("#all").change(function(){
+		$(":checkbox").prop('checked',this.checked);
+	});
+	//点击删除
+	$(".options a:only-child").attr('href','javascript:void(0)').click(function(){
+		var id=$(this).data("id"),name=$(this).data("name");
+		CONFIRM('删除简历','<h6>您确定要删除 # '+ name +' # 的简历吗？</h6>','确定删除',function(){
+			alert('删除过程');
+		});
+	});
+	//点击全部删除
+	$(".DeleteAll").attr('href','javascript:void(0)').click(function(){
+		var boxes=$(":checked");
+		if(!boxes.length)
+		{
+			ALERT('错误提醒',"<h5>未选中任何简历！</h5>");
+			return false;
+		}
+		var ids=boxes.map(function(){return this.value;}).get().join('');
+		CONFIRM('批量删除简历','<h6>您确定要删除这些简历吗？<br>您总共选中了'+ boxes.length +'封简历。</h6>','确定批量删除',function(){
+			alert('批量删除过程');
+		});
+	});
+});
+</script>

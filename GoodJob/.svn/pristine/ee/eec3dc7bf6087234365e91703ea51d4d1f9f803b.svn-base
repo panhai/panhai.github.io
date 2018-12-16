@@ -1,0 +1,82 @@
+/* 主导航兼职 */
+.header{ background:none; border:0px; height:90px; overflow:hidden;}
+.top-logo{ margin-top:-20px;}
+.nav-inner{ margin:0px;}
+/*分类标签*/
+.tags{ clear:both; margin:20px auto 10px;}
+.tags dt{ line-height:30px; height:30px; background-color:#F8F8F8; font-size:14px; border-bottom:1px solid #1361c6;}
+.tags dt strong{ display:inline-block; padding:0px 10px; background-color:#1361C6; color:#fff;}
+.tags dd{ font-size:0px;}
+.tags dd a{ display:inline-block; font-size:14px; font-family:"微软雅黑"; line-height:25px; border:1px solid #D0D0D0; background-color:#FAFAFA; color:#215FDA; padding:0px 20px; margin:10px 10px 0px 0px;}
+.tags a.cur{ background-color:#ff5e00; color:#fff;}
+/*过滤条*/
+.filters{ height:35px; line-height:35px; padding:10px 0px; border:1px solid #F2F2F2; background-color:#FAFAFA; margin-bottom:25px;}
+.filters span{ display:inline-block; float:left; text-indent:1em; font-size:14px; font-family:"微软雅黑";}
+.filter-text{ width:280px; height:28px; line-height:28px; padding:0px 10px; font-family:"微软雅黑"; border:1px solid #A7A7A7;}
+.filter-btn{ width:115px; height:30px; background-color:#FF5408; color:#fff; font-size:14px; font-family:"微软雅黑"; border:0px; cursor:pointer;}
+/*下拉列表*/
+.select{ position:relative; display:inline-block; float:left; z-index:111; font-size:16px; font-family:"微软雅黑"; color:#333; width:120px; margin-right:15px; margin-top:3px;}
+.select dt{ clear:both; border:1px solid #C8C8C8; padding:0px 20px 0px 10px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; position:relative; background-color:#fff; font-size:14px;}
+.select dt i{ display:block; position:absolute; height:12px; width:12px; background:url(../images/icons.gif) 12px 24px; color:#999;}
+.select dt span{ color:#999;}
+.select dt q{ background:url(../images/UCenter/ico-cal.png) center no-repeat;}
+.select dd{ display:none; position:absolute; left:0px; background:#fff; line-height:25px; border:1px solid #d9d9d9;}
+.select dd.on{ display:block; z-index:555;}
+
+.filters .select dt{ height:30px; line-height:30px;}
+.filters .select dt i{ right:5px; top:9px;}
+/*普通的下拉列表*/
+.normal{ width:118px; max-height:150px; overflow:auto; _height:150px; _overflow-y:auto; _overflow-x:hidden; font-size:12px;}
+.normal a{ display:block; line-height:30px; height:30px; color:#333; padding:0px 10px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; _width:90%;}
+.normal a:hover{ background-color:#dbeef4;}
+/*主体*/
+.left{ width:700px; float:left;}
+.right{ width:280px; float:right;}
+/*左侧过滤条*/
+.filter2{ border:1px solid #E0E0E0; background-color:#F7F7F7; height:35px; padding:5px 0px 5px 15px;}
+.filter2 .select dt{ height:27px; line-height:27px;}
+.filter2 .select dt i{ right:5px; top:8px;}
+/*信息列表*/
+.infors{ clear:both; font-family:"微软雅黑"; border-bottom:3px solid #ccc;}
+.infors li{ clear:both; height:60px; padding:10px 0px; border-bottom:1px solid #DFDFDF; line-height:30px;}
+.infors li.on{ position:relative;}
+.infors h3{ font-size:18px; font-weight:normal;}
+.infors h3 a{ color:#0052B8;}
+.infors h3 a:hover{ color:#ff5e00;}
+.infors small{ font-size:14px; color:#ff5e00; font-family:"宋体"; margin-left:10px;}
+.infors h4{ float:left; width:240px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; font-size:14px; color:#666; font-weight:normal;}
+.infors em{ display:block; float:left; width:105px; font-size:14px; color:#333; font-style:normal;}
+.infors i{ display:block; float:left; width:120px; font-size:18px; color:#ff5e00; font-style:normal;}
+.infors tt{ display:block; float:right; width:100px; font-size:14px; color:#333; quotes:none; font-family:"微软雅黑";}
+/*隐藏的信息，此处只能使用JS强制更改父级li的z轴以兼容IE6的定位问题*/
+.search-hide{ display:none; position:absolute; top:5px; border:2px solid #ff5000; width:404px; left:290px; min-height:200px; background:#fff; z-index:2;}
+.infors li.on .search-hide{ display:block;}
+.search-hide q{ position:absolute; left:-13px; top:35px;}
+.search-hide p{ font-size:12px; line-height:15px; white-space:normal;}
+.search-hide dt{ padding:10px 20px; line-height:15px; border-bottom:1px dashed #bfbfbf;}
+.search-hide dt p{ margin-top:15px; color:#646464;}
+.search-hide dt p b{ font-weight:normal; color:#000;}
+.search-hide dd{ padding:10px 20px; color:#232323;}
+.search-hide dd h5{ font-size:14px; line-height:35px;}
+.search-hide dd p{ line-height:25px;}
+
+.pages{ padding-bottom:20px;}
+.footer{ background-color:#fff;}
+/*右侧*/
+.warn{ background:#ECF4FF; padding:10px; margin-bottom:10px;}
+.warn dt{ text-align:center; margin-bottom:5px;}
+.warn dd{ line-height:25px; font-size:14px; color:#414141; width:210px; margin:0 auto;}
+
+/*新增地址列表*/
+.address_tip{ border:0px; width:85px; font-size:12px; color:#333;}
+.AddressStatic{ width:435px;}
+.ADDList h4{ font-size:16px; font-weight:normal; color:#fff; background-color:#1e74e3; clear:both; padding:0px 10px; height:30px; line-height:30px;}
+.ADDTabs{ clear:both; height:30px; background-color:#f8f8f8; font-size:12px; font-family:"宋体"; margin-top:10px; border-bottom:1px solid #d7d7d7; padding:0px 10px; _overflow:hidden;}
+.ADDTabs b{ font-weight:normal; color:#454545; display:block; float:left; padding:0px 10px; margin-top:5px; border:1px solid #f8f8f8; height:23px; line-height:23px; cursor:pointer;}
+.ADDTabs b.cur{ border-color:#d7d7d7; border-bottom-color:#fff; background:#fff; _position:relative; height:24px;}
+.ADDLists{ width:100%; float:left; line-height:25px;}
+.ADDLists div{ width:100%; float:left; border-bottom:1px dashed #cbcbcb; padding:5px 0px;}
+.ADDLists em{ display:block; width:30px; text-align:center; font-size:18px; color:#666; font-style:normal; float:left;}
+.ADDLists p{ width:400px; float:left;}
+.ADDLists p a{ display:block; width:20%; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; font-size:12px; color:#666; font-family:"宋体"; float:left;}
+.hots p{ margin:10px auto; float:none; clear:both;}

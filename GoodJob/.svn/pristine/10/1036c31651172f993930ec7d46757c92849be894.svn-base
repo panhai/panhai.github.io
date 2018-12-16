@@ -1,0 +1,171 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>个人后台-简历中心</title>
+<link rel="stylesheet" type="text/css" href="../css/v2/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/UCenter/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/UCenter/resume.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/plugin/JobAndProf.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/UCenter/new.css" />
+</head>
+
+<body>
+    <div class="HEADER HEADER-GUIDE">
+        <div class="common">
+            <div class="TOP-LOGO">
+                <a href="#"><img src="../images/v2/logo.jpg" width="177" height="91"></a>
+                <span>创建全职简历</span>
+            </div>
+        </div>
+    </div>
+    <div class="guide-main common">
+        <div class="guide-create">
+            <div class="guide-create-title">
+                <h2>填写<span>基本信息</span>，让企业了解你 ！</h2>
+            </div>
+            <div class="guide-resume">
+            <div class="FormLine">
+                <div class="item half left">
+                    <var class="required">姓名：</var>
+                    <dfn><input id="fullname" type="text" class="text name" placeholder="请填写真实姓名，2-4汉字"></dfn>
+                    <!-- <code class="form-tip errorMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code> -->
+                </div>
+                <div class="item half right">
+                    <var class="required">出生年月：</var>
+                    <dfn>
+                        <dl class="SELECT quarter left YEARS new" data-child=".BirthMonth" data-from="1960" data-to="1999">
+                            <input type="hidden" id="birthYear">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal">
+
+                            </dd>
+                        </dl>
+                        <dl class="SELECT quarter right BirthMonth MONTHS" data-autofill="">
+                            <input type="hidden" id="birthMonth">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal"></dd>
+                        </dl>
+                    </dfn>
+                    <!-- <code class="form-tip tipMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code> -->
+                </div>
+            </div>
+
+            <div class="full item">
+                <var class="required">手机号码：</var>
+                <dfn><input type="text" id="mobile" class="text mobile int-bor" placeholder="企业通过该号码联系您，可用于登录"></dfn>
+                <!-- <code class="form-tip tipMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code> -->
+            </div>
+            <div class="FormLine MobileVCode">
+                <div class="item half left">
+                    <var class="required">验证码：</var>
+                    <dfn><input type="text" class="text" placeholder="短信验证码"></dfn>
+                </div>
+                <div class="item half left">
+                    <var>&nbsp;</var>
+                    <dfn><input type="button" class="SendVerify" value="获取短信验证码"></dfn>
+                </div>
+                <!-- <code class="form-tip errorMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code> -->
+            </div>
+            <div class="FormLine">
+                <div class="item full special">
+                    <var>电子邮箱：</var>
+                    <dfn><dl class="SELECT">
+                        <dt class="email-edit"><span><input type="text" id="email" class="text EMAILS" data-list="arrow" placeholder="企业可通过邮箱联系您"></span>   <a href="">修改</a></dt>
+                        <dd class="normal"><div data-list='datas' class="matches"></div></dd>
+                    </dl>    <!-- 用户第一次填写保存邮箱后修改邮箱时出现的链接 -->
+
+                    </dfn>
+                    <!-- <code class="form-tip tipMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code> -->
+                </div>
+            </div>
+            <div class="FormLine">
+                <div class="item half left">
+                    <var class="required">工作经验：</var>
+                    <dfn><dl class="SELECT Experience">
+                        <input type="hidden" id="experience">
+                        <dt><span></span><i></i></dt>
+                        <dd class="normal">
+                            <a data-id="1">在读学生</a>
+                            <a data-id="2">应届生</a>
+                            <a data-id="3">1年以下</a>
+                            <a data-id="4">1-3年</a>
+                            <a data-id="5">3-5年</a>
+                            <a data-id="6">5-10年</a>
+                            <a data-id="7">10年以上</a>
+                        </dd>
+                    </dl></dfn>
+                    <!-- <code class="form-tip errorMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code> -->
+                </div>
+                <div class="item half right">
+                    <var class="required">最高学历：</var>
+                    <dfn><dl class="SELECT Education">
+                        <input type="hidden" id="highestEducation">
+                        <dt><span></span><i></i></dt>
+                        <dd class="normal">
+                            <a data-id="1">初中/高中</a>
+                            <a data-id="2">技校/中专</a>
+                            <a data-id="3">大专</a>
+                            <a data-id="4">本科</a>
+                            <a data-id="5">硕士</a>
+                            <a data-id="6">博士</a>
+                            <a data-id="7">其他</a>
+                        </dd>
+                    </dl></dfn>
+                    <!-- <code class="form-tip tipMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code> -->
+                </div>
+            </div>
+            <div class="FormLine">
+                <input type="submit" class="resume-next" value="下一步"/>
+                <a href="two-job-intention.html" >下一步</a>
+            </div>
+              <div class="clear"></div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+<script src="../js/jquery.js"></script>
+<script>INPUTINIT=false</script>
+<script src="../js/plugin/YearsList-new.js"></script>
+<script src="../js/v2/all.js"></script>
+<script src="../js/effect/fixed.js"></script>
+<script src="../js/area.js"></script>
+<script src="../js/subjects.js"></script>
+<script src="../js/universities.js" type="text/javascript"></script>
+<script src="../js/plugin/CitiesPicker.js"></script>
+<script src="../js/plugin/Addresses.js"></script>
+<script src="../js/plugin/EmailTip.js"></script>
+<script src="../js/plugin/SchoolTip.js"></script>
+<script src="../js/plugin/SendVerify.js"></script>
+<script type="text/javascript">
+$(function(){
+
+    $(".mobile").keyup(function(){
+        var b=true;
+        if(b) $(".MobileVCode").show();
+        else $(".MobileVCode").hide();
+    });
+    //男女选择
+    Boxes(".Sex");
+
+    /*  function move(bool){
+        var o = $(".YEARS-in"),
+                marTop = o.position().top,
+                height = $(".YEARS-in").height(),
+                top = -(Number.parseInt(o.css("top")));
+        console.log(top,height)
+        if(height- top >=90){
+            bool? o.css("top",(-90+marTop)-6+'px'):o.css("top",90+marTop-6+'px');
+        }else if( top>90 && height- top >=90){
+            bool? o.css("top",(-90+marTop)-6+'px'):o.css("top",90+marTop-6+'px');
+        }
+
+    }*/
+
+
+
+})
+</script>
+</html>

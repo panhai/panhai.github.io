@@ -1,0 +1,250 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>好工作运营后台-简历管理-在线简历</title>
+</head>
+<link rel="stylesheet" type="text/css" href="../css/v2/admin/all.css">
+
+<body>
+<header class="clear">
+	<img src="../images/v2/logo-s.png" width="119" height="62">
+    <em>后台管理系统</em>
+    <p>
+    	<a href="#"><i><img src="../images/v2/nophoto.png" width="30" height="30"></i><span>用户名称</span></a>
+        <a href="#">安全退出</a>
+    </p>
+</header>
+<nav>
+	<li><a href="index.html">首页</a></li>
+	<li><a href="companies.html">企业管理</a></li>
+	<li><a href="schools.html">院校管理</a></li>
+	<li><a href="users.html">用户管理</a></li>
+	<li><a href="jobs.html">职位管理</a></li>
+	<li class="cur"><a href="resumes.html">简历管理</a></li>
+	<li><a href="servers.html">客服系统</a></li>
+	<li><a href="moneys.html">财务系统</a></li>
+	<li><a href="system.html">系统管理</a></li>
+</nav>
+
+<menu>
+	<li><a href="resumes.html">在线简历</a></li>
+    <li><a href="resumes-feedbacks.html">简历投递反馈</a></li>
+    <li><a href="Store.html">简历库</a></li>
+	<li><a href="resumes-replacePush.html">代投简历</a></li>
+    <li><a href="resumes-urgent.html">急招企业</a></li>
+    <li class="cur"><a href="resumes-urgent.html">BOC管理</a></li>
+</menu>
+<div class="filterNav"><a href="resumes-boc.html">BOC管理</a><a>根据记录</a><a href="resumes-bocCount.html" class="cur">BOC统计</a></div>
+
+<div class="List"><table border="1" bordercolor="#e2e4f0">
+	<thead><tr>
+    	<th width="90">时间</th>
+    	<th width="120">全部联系</th>
+    	<th width="100">转为会员</th>
+    	<th width="100">开通代投</th>
+    	<th width="120">绑定微信</th>
+    	<th width="120">回访数</th>
+    	<th width="120">植入好学校</th>
+        <th width="120">无意向</th>
+        <th width="120">待确认</th>
+    	<th width="120">有意向</th>
+    </tr></thead>
+    <tbody>
+    	<tr>
+        	<th>2016-06-22</th>
+            <td>45</td>
+            <td>34</td>
+            <td>54</td>
+            <td>5</td>
+            <td>5</td>
+            <td>25</td>
+            <td>7</td>
+            <td>7</td>
+            <td>7</td>
+            
+        </tr>
+    	<tr>
+        	<th>2016-06-22</th>
+            <td>45</td>
+            <td>34</td>
+            <td>54</td>
+            <td>5</td>
+            <td>5</td>
+            <td>25</td>
+            <td>7</td>
+            <td>7</td>
+            <td>7</td>
+        </tr>
+    	<tr>
+        	<th>2016-06-22</th>
+            <td>45</td>
+            <td>34</td>
+            <td>54</td>
+            <td>5</td>
+            <td>5</td>
+            <td>25</td>
+            <td>7</td>
+            <td>7</td>
+            <td>7</td>
+        </tr>
+    	<tr>
+        	<th>2016-06-22</th>
+            <td>45</td>
+            <td>34</td>
+            <td>54</td>
+            <td>5</td>
+            <td>5</td>
+            <td>25</td>
+            <td>7</td>
+            <td>7</td>
+            <td>7</td>
+        </tr>
+    </tbody>
+    <caption>
+        <div class="Pages">
+        	<span>5874条结果，共294页</span>
+            <a href="#">首页</a>
+            <a href="#">上一页</a>
+            <a href="#">1</a>
+            <a href="#" class="cur">2</a>
+            <a href="#">3</a>
+            <a href="#">...</a>
+            <a href="#">294</a>
+            <a href="#">下一页</a>
+            <a href="#">尾页</a>
+        </div>
+    </caption>
+</table></div>
+
+<table class="FullScreenPlugin black5"><tr><td>
+	<dl class="CENTERDIV SendEmail CenterMiddle" data-active=".email" data-datas="id">
+    	<dt><b>发送邮件</b><q>&times;</q></dt>
+        <dd><table class="CenterTableFull">
+        	<tbody>
+            	<tr><th width="100">发送对象：</th><td>
+                	<strong>共<span class="IdsCounter">10</span>人</strong>
+                	<input type="hidden" class="checkedIds" data-datas="id">
+                </td></tr>
+            	<tr><th>职位ID：</th><td class="Combo Combo41">
+                	<input type="text" class="text JobId" placeholder="请粘贴职位信息ID">
+                    <a class="JobIdAdd btn">添加</a>
+                    <input type="hidden" class="JobIds">
+                </td></tr>
+            	<tr><th></th><td><div class="CenterItems"></div></td></tr>
+            	<tr><th>邮件模版：</th><td>
+                	<dl class="SELECT full Templates">
+                    	<input type="hidden">
+                        <dt data-placeholder="请选择邮件模版"></dt>
+                        <dd class="normal"></dd>
+                    </dl>
+                </td></tr>
+            	<tr><th>内容：</th><td><textarea class="TemplateContent"></textarea></td></tr>
+            </tbody>
+            <tfoot><tr><td colspan="2">
+                <input type="button" class="submit" value="发送邮件">
+                <input type="button" class="cancel" value="取消">
+            </td></tr></tfoot>
+        </table></dd>
+    </dl>
+	<dl class="CENTERDIV InvitePost CenterMiddle" data-active=".invite" data-datas="id">
+    	<dt><b>职位邀请</b><q>&times;</q></dt>
+        <dd><table class="CenterTableFull">
+        	<tbody>
+            	<tr><th width="100">发送对象：</th><td>
+                	<strong>共<span class="IdsCounter">10</span>人</strong>
+                	<input type="hidden" class="checkedIds" data-datas="id">
+                </td></tr>
+            	<tr><th>职位ID：</th><td class="Combo Combo41">
+                	<input type="text" class="text JobId" placeholder="请粘贴职位信息ID">
+                    <a class="JobIdAdd btn">添加</a>
+                    <input type="hidden" class="JobIds">
+                </td></tr>
+            	<tr><th></th><td><div class="CenterItems"></div></td></tr>
+            	<tr><th>邀请模版：</th><td>
+                	<dl class="SELECT full Templates">
+                    	<input type="hidden">
+                        <dt data-placeholder="请选择邀请模版"></dt>
+                        <dd class="normal"></dd>
+                    </dl>
+                </td></tr>
+            	<tr><th>内容：</th><td><textarea class="TemplateContent"></textarea></td></tr>
+            </tbody>
+            <tfoot><tr><td colspan="2">
+                <input type="button" class="submit" value="发送邀请">
+                <input type="button" class="cancel" value="取消">
+            </td></tr></tfoot>
+        </table></dd>
+    </dl>
+	<dl class="CENTERDIV ResumePush CenterMiddle" data-active=".push" data-datas="id">
+    	<dt><b>简历推荐</b><q>&times;</q></dt>
+        <dd><table class="CenterTableFull">
+        	<tbody>
+            	<tr><th width="100">简历对象：</th><td>
+                	<strong>共<span class="IdsCounter">10</span>人</strong>
+                	<input type="hidden" class="checkedIds" data-datas="id">
+                </td></tr>
+            	<tr><th>职位ID：</th><td class="Combo Combo41">
+                	<input type="text" class="text JobId" placeholder="请粘贴职位信息ID">
+                    <a class="JobIdAdd btn">添加</a>
+                    <input type="hidden" class="JobIds">
+                </td></tr>
+            	<tr><th></th><td><div class="`"></div></td></tr>
+            	<tr><th>推荐模版：</th><td>
+                	<dl class="SELECT full Templates">
+                    	<input type="hidden">
+                        <dt data-placeholder="请选择推荐模版"></dt>
+                        <dd class="normal"></dd>
+                    </dl>
+                </td></tr>
+            	<tr><th>内容：</th><td><textarea class="TemplateContent"></textarea></td></tr>
+            </tbody>
+            <tfoot><tr><td colspan="2">
+                <input type="button" class="submit" value="推荐简历">
+                <input type="button" class="cancel" value="取消">
+            </td></tr></tfoot>
+        </table></dd>
+    </dl>
+</td></tr></table>
+</body>
+</html>
+<script src="../js/v2/admin/jquery2.js"></script>
+<script src="../js/jbody.js"></script>
+<script src="../js/jbody-plugin.js"></script>
+<script src="../js/area.js"></script>
+<script src="../js/subjects.js"></script>
+<script src="../js/jobPositions.js"></script>
+<script src="../js/jobPositionsParttime.js"></script>
+<script src="../js/universities.js"></script>
+<script src="../js/v2/admin/all.js"></script>
+<script src="../js/v2/admin/transit.js"></script>
+<script>
+var EmailTemplates=[
+	{
+		id:1,
+		title:'邮件模板一',
+		content:'邮件模板一邮件模板一邮件模板一邮件模板一'
+	},
+	{
+		id:3,
+		title:'邮件模板三',
+		content:'SendEmail, English \n Return'
+	}
+],
+InviteTemplates=[
+	{
+		id:10,
+		title:'邀请模板十',
+		content:'邀请模板十\n邀请模板十\n邀请模板十\n邀请模板十邀请模板十\n邀请模板十邀请模板十邀请模板十'
+	}
+],
+PushTemplates=[
+	{
+		id:23,
+		title:'推荐模板23',
+		content:"Let's push the job information ^3^"
+	}
+]
+;
+InitTemplates([EmailTemplates,InviteTemplates,PushTemplates],['SendEmail','InvitePost','ResumePush']);
+</script>

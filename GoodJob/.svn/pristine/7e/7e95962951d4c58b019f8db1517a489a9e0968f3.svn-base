@@ -1,0 +1,198 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>企业中心-首页</title>
+</head>
+<!--[if IE 6]>
+<script src="../js/UCenter/png.js"></script>
+<script type="text/javascript">
+   DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="../css/Company/css.css">
+<link rel="stylesheet" type="text/css" href="../css/Company/resume.css">
+<body>
+<div class="header"><div class="common">
+    <p>
+    	<a href="#">Admin</a> |
+        <a href="#">退出</a> |
+        <a href="#">切换后台</a> |
+        <a href="#">消息</a> |
+        <a href="#">反馈</a> |
+        <a href="#">帮助</a>
+    </p>
+</div></div>
+<div class="nav"><div class="common">
+	<a href="#" class="nav-logo"><img src="../images/CpCenter/logo.jpg" width="104" height="45"></a>
+    <ul>
+    	<li><a href="index.html" class="cur">首页<i></i></a></li>
+    	<li><a href="profile.html">企业资料<i></i></a></li>
+    	<li><a href="favors.html">HR收藏<i></i></a></li>
+    	<li><a href="tools.html">实用工具<i></i></a></li>
+    	<li><a href="manage.html">帐号管理<i></i></a></li>
+    </ul>
+    <div class="tool">
+    	<p><a href="publish.html">发布新职位</a></p>
+    	<p class="tool-pull">
+        	<span>校企合作邀请</span>
+        	<i></i>
+        	<samp>
+            	<a href="invite.html">校企合作邀请</a>
+            	<a href="invite-job.html">校企合作职位申请</a>
+            	<a href="invite-conf.html">宣讲会申请</a>
+            </samp>
+        </p>
+    </div>
+</div></div>
+
+<div class="summary common">应聘职位：网站SEO外链专员&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;投递时间：2014-12-03</div>
+<div class="main common">
+	<div class="block profile">
+    	<var><img src="../images/CpCenter/photo.jpg" width="159" height="159"></var>
+        <h1>郑雨辉 <small>男 | 1911.11.11</small></h1>
+        <p class="first">
+        	联系方式：<img src="../images/UCenter/ico-mob.jpg" width="18" height="18"><b>321321321</b>&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="../images/UCenter/ico-ema.jpg" width="18" height="18"><b>12313123@qq.com</b>
+        </p>
+        <p>
+        	<q>当前状态：<b>在职，想换工作</b></q>
+            <q>学历：<b>专科</b></q>
+        </p>
+        <p>
+        	<q>工作经验：<b>3年</b></q>
+            <q>籍贯：<b>广东广州</b></q>
+        </p>
+        <p>现居地：广州番禺市桥</p>
+        <div class="clear"></div>
+    </div>
+    
+    <div class="block purpose">
+    	<h2>职位意向</h2>
+        <p>
+        	<q>期望城市：<b>广州番禺市桥</b></q>
+        	<q>期望行业：<b>生活服务业</b></q>
+        </p>
+        <p>
+        	<q>期望职位：<b>咖啡师</b></q>
+        	<q>期望工资：<b>8000-12000</b></q>
+        </p>
+    </div>
+    
+    <div class="block intro">
+    	<h3>自我介绍</h3>
+        <p>工作态度较为认真，有一定的组织协调能力，良好的团队合作精神，适应能力强，对工作抱有极大的热忱和责任心。
+相邻工作与学习是分不开的，学习意识明确，有学习和达成目标的欲望。同时，也意识到经验不足时现阶段的软肋，
+所以力</p>
+        <p>主要是负责电商平台里边的工作，2014年初开始转岗做竞价。平时除了本职岗位，也会关注整个网络营销的流程。
+网络的运行时一个整体，各个环节对最终的转化都至关重要，所以在数据分析这块，会把账户结构、单元关键分词、匹配
+量度优化、着陆页优化结合在一起进行连贯的分析。竞价推广是要花合适的钱买到好的流量，核心在于"开源节流"。接
+平均6-7分，展现量和点击率大幅提高，平均点击价格下降，月竞价消费5万能带来300多万的业绩。</p>
+    </div>
+    
+    <div class="block educate">
+    	<h3>教育经历</h3>
+        <p>2009年9月到2012年7月 | 广州涉外经济职业技术学院 | 大专 | 汽车电子</p>
+        <p>2009年9月到2012年7月 | 广州涉外经济职业技术学院 | 大专 | 汽车电子</p>
+    </div>
+    
+    <div class="block exp">
+    	<h3>工作经验</h3>
+        <dl>
+        	<dt>2014.01 - 至今&nbsp;&nbsp;&nbsp;&nbsp;暴走大事件&nbsp;&nbsp;&nbsp;&nbsp;演员&nbsp;&nbsp;&nbsp;&nbsp;￥3001-5000</dt>
+            <dd>为客户制作网页为客户制作网页为客户制作网页为客户制作网页为客户制作网页</dd>
+        </dl>
+        <dl>
+        	<dt>2014.01 - 至今&nbsp;&nbsp;&nbsp;&nbsp;暴走大事件&nbsp;&nbsp;&nbsp;&nbsp;演员&nbsp;&nbsp;&nbsp;&nbsp;￥3001-5000</dt>
+            <dd>为客户制作网页为客户制作网页为客户制作网页为客户制作网页为客户制作网页</dd>
+        </dl>
+    </div>
+    
+    <div class="block exp">
+    	<h3>项目经验</h3>
+        <dl>
+        	<dt>1998.5 - 2000.7&nbsp;&nbsp;&nbsp;&nbsp;广州信息有限公司&nbsp;&nbsp;&nbsp;&nbsp;产品经理</dt>
+            <dd>是一个招聘的平台，为广大用户为广大用户找到不但是好工作，还有好前程</dd>
+        </dl>
+        <dl>
+        	<dt>1998.5 - 2000.7&nbsp;&nbsp;&nbsp;&nbsp;广州信息有限公司&nbsp;&nbsp;&nbsp;&nbsp;产品经理</dt>
+            <dd>是一个招聘的平台，为广大用户为广大用户找到不但是好工作，还有好前程</dd>
+        </dl>
+    </div>
+    
+    <div class="block skills">
+    	<h3>专业技能</h3>
+        <ul>
+            <li>
+                <h5>手扶拖拉机技术</h5>
+                <tt>1年</tt>
+                <tt>熟练</tt>
+                <i title="修改"></i>
+                <q title="删除"></q>
+            </li>
+            <li>
+                <h5>手扶拖拉机技术</h5>
+                <tt>2年</tt>
+                <tt>熟练</tt>
+                <i title="修改"></i>
+                <q title="删除"></q>
+            </li>
+            <li>
+                <h5>手扶拖拉机技术</h5>
+                <tt>3年</tt>
+                <tt>熟练</tt>
+                <i title="修改"></i>
+                <q title="删除"></q>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="block intro noborder">
+    	<h3>附加信息</h3>
+        <p>我叫刘佳涵。中秋佳节的佳，涵养的涵，爸爸妈妈给我取这个名字是希望我成为一个胸襟宽广学识渊博的人。我来自大连XX中学小学部三年级别看我身高只有1米30，我的爱好可是特别广泛呢，喜欢唱歌跳舞弹钢琴，我的舞蹈表演还得过金牌和奖状呢！另外，我还是个体育爱好者，参加过好多学校举办的运动会呢。</p>
+    </div>
+    
+	<div class="clear"></div>
+</div>
+
+<div class="black7 bar bottom-fixed"><!--IE下的半透明滤镜，就算给写overflow:visible !important;也是无法显示内容溢出部分的，所以一定要分开写--></div>
+<div class="bar bottom-fixed"><dl class="common">
+    <dt>
+        <a href="#" class="down"><span>下载简历</span></a>
+        <a href="#" class="fav"><span>HR收藏</span></a>
+        <a href="#" class="plus"><span>加入企业人才库</span></a>
+        <a href="#" class="print"><span>打印简历</span></a>
+    </dt>
+    <dd>
+    	<a href="#">发布面试邀请</a>
+    	<a href="#">待确定</a>
+    	<a href="#">不合适</a>
+    </dd>
+</dl></div>
+
+<!--<div class="footer">
+	<div class="common tail">
+        <samp class="tail-nav">
+            <a href="#" class="first">关于我们</a>
+            <a href="#">法律声明</a>
+            <a href="#">保密承诺</a>
+            <a href="#">Investor Relatiao</a>
+            <a href="#">关于我们</a>
+        </samp>
+    </div>
+    <div class="common copyright">
+    	<p>京ICP备09083200号 京ICP证070419号 人才服务许可证：RC0710280</p>
+    	<p>Copyright&copy;2000-2014 liepin.com All Rights Reserved</p>
+    </div>
+</div>-->
+
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/company/all.js"></script>
+<script>
+$(function(){
+	LeftMenu();
+    ToolPull();
+});
+</script>

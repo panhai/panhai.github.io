@@ -1,0 +1,41 @@
+/* 实用工具 */
+
+/*顶部表单*/
+.form{ clear:both; margin:20px 20px 10px; height:35px; _z-index:11; border-bottom:1px solid #bcbcbc;}
+.form-left,.form-left2{ float:left; padding-top:5px;}
+.form-left a{ line-height:20px; height:20px; font-size:14px; font-family:"微软雅黑"; color:#3d3d3d; padding-left:20px; background:url(../../images/CpCenter/icons.jpg) left top no-repeat;}
+.form-left a.cur{ background-position:left bottom; color:#ff5000;}
+.form-left samp{ display:inline-block; font-size:12px; color:#333; padding-top:20px; line-height:15px;}
+/*不使用方块样式的链接*/
+.form-left2 a{ display:inline-block; font-size:12px; height:25px; line-height:25px; width:95px; text-align:center; border:1px solid #bcbcbc; color:#636363;}
+.form-left2 a:hover,.form-left2 a.cur{ background-color:#2876e2; border-color:#2876e2; color:#fff;}
+/*输入框及下拉列表*/
+.form-right{ float:right;}
+.form-key,.form-select,.form-submit,.form-icon{ float:left;}
+.form-icon{ position:relative; left:-5px; top:-2px;}
+.form-key,.form-submit,.form-select span{ display:block; height:15px; padding:5px; border:1px solid #BCBCBC; font-size:12px; line-height:15px;}
+.form-key{ width:110px; padding-right:25px; border-right:0px;}
+.form-submit{ width:30px; height:27px; padding:5px; background:url(../../images/CpCenter/mag.jpg) center no-repeat; border-left:0px; cursor:pointer;}
+.form-select{ width:95px; height:30px; position:relative; z-index:11; margin-right:10px;}
+.form-select i{ position:absolute; width:12px; height:12px; background:url(../../images/icons.gif) -12px 0px; right:5px; top:8px; _overflow:hidden;}
+.form-select ul{ display:none; position:absolute; width:93px; border:1px solid #bcbcbc; border-top:0px; background:#fff; padding:10px 0px;}
+.form-select li{ font-size:12px; line-height:25px; _height:25px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.form-select li a{ display:block; color:#666; padding:0px 10px;}
+.form-select li a:hover{ color:#fff; background-color:#2677e2;}
+
+/*表格*/
+.list{ clear:both; margin:20px; font-family:"微软雅黑";}
+.list table{ border-collapse:collapse; width:100%; table-layout:fixed;}
+.list th{ background-color:#fafafa; color:#3e3e3e; font-size:14px; text-align:center; font-weight:normal; line-height:35px; border:1px solid #ddd; border-width:1px 0px;}
+.list th.first{ border-left-width:1px; text-align:left; text-indent:10px;}
+.list th.last{ border-right-width:1px;}
+.list tbody td{ border-bottom:1px dashed #ddd; height:60px; font-size:12px; text-align:center;}
+.list tbody td.first{ font-size:16px !important; text-align:left;}
+.list tbody td.last,.list td a{ color:#0060e2; font-family:"宋体";}
+.list td a:hover{ color:#ff5e00;}
+.list tfoot .first{ font-size:12px; height:50px;}
+
+
+/*左侧附加功能*/
+.funcs{ background-color:#f7f7f7; line-height:30px; text-align:center; padding-top:10px;}
+.funcs a{ display:inline-block; width:141px; color:#fff; font-size:14px; background-color:#18b824; font-weight:bold; margin-top:10px;}

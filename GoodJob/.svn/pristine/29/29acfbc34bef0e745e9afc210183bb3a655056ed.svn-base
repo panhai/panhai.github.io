@@ -1,0 +1,524 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>企业中心-发布职位</title>
+</head>
+<link rel="stylesheet" type="text/css" href="../css/Company/css.css">
+<link rel="stylesheet" type="text/css" href="../css/Company/publish.css">
+<link rel="stylesheet" type="text/css" href="../css/plugin/subbie.css">
+<body>
+    <div class="header">
+        <div class="common">
+            <p>
+                <a href="#">Admin</a> |
+                <a href="#">退出</a> |
+                <a href="#">切换后台</a> |
+                <a href="#">消息</a> |
+                <a href="#">反馈</a> |
+                <a href="#">帮助</a>
+            </p>
+        </div>
+    </div>
+    <div class="nav">
+        <div class="common">
+            <a href="#" class="nav-logo"><img src="../images/CpCenter/logo.jpg" width="104" height="45"></a>
+            <ul>
+                <li><a href="index.html" class="cur">首页<i></i></a></li>
+                <li><a href="profile.html">企业资料<i></i></a></li>
+                <li><a href="favors.html">HR收藏<i></i></a></li>
+                <li><a href="tools.html">实用工具<i></i></a></li>
+                <li><a href="manage.html">帐号管理<i></i></a></li>
+            </ul>
+            <div class="tool">
+                <p><a href="publish.html">发布新职位</a></p>
+                <p class="tool-pull">
+                    <span>校企合作邀请</span>
+                    <i></i>
+                    <samp>
+                        <a href="#">校企合作邀请</a>
+                        <a href="invite-job.html">校企合作职位申请</a>
+                        <a href="#">宣讲会申请</a>
+                    </samp>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="main common">
+        <div class="publish">
+            <h1><b>发布新职位</b></h1>
+        </div>
+        <form>
+            <ul class="pub-form">
+                <li>
+                    <var>职位名称：</var>
+                    <dfn><input type="text" class="text t-l" placeholder="职位名称"></dfn>
+                    <ins class="errorMsg">请填写电子邮箱</ins>
+                </li>
+                <li>
+                    <var>职位类型：</var>
+                    <dfn>
+                        &nbsp;&nbsp;
+                        <label><input type="radio" name="jobtype" checked> 全职</label>
+                        <label><input type="radio" name="jobtype"> 兼职</label>
+                        <label><input type="radio" name="jobtype"> 实习</label>
+                    </dfn>
+                    <ins class="successMsg">此邮箱可用于注册</ins>
+                </li>
+                <li>
+                    <var>职位类别：</var>
+                    <dfn>
+                        <dl class="select s-l">
+                            <input type="hidden" value="">
+                            <dt>请选择职位类别<i></i></dt>
+                            <dd>
+                                <div class="subbie">
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <th>生活|服务业</th>
+                                                <td>
+                                                    <blockquote>
+                                                        <var><a href="#">餐饮<i></i></a></var>
+                                                        <p>
+                                                            <a href="#">全部</a><a href="#">服务员</a><a href="#">送餐员</a>
+                                                            <a href="#">厨师/厨师长</a><a href="#">后厨</a><a href="#">传菜员</a>
+                                                            <a href="#">配菜/打荷</a><a href="#">洗碗工</a><a href="#">面点师</a>
+                                                            <a href="#">茶艺师</a><a href="#">迎宾/接待</a><a href="#">大堂经理/领班</a>
+                                                            <a href="#">餐饮管理</a><a href="#">学徒</a><a href="#">杂工</a>
+                                                            <a href="#">咖啡师</a><a href="#">预订员</a>
+                                                        </p>
+                                                    </blockquote>
+                                                    <blockquote>
+                                                        <var><a href="#">家政保洁/安保<i></i></a></var>
+                                                        <p><a href="#">全部</a></p>
+                                                    </blockquote>
+                                                    <blockquote>
+                                                        <var><a href="#">美容/美发<i></i></a></var>
+                                                        <p><a href="#">全部</a></p>
+                                                    </blockquote>
+                                                    <blockquote class="last">
+                                                        <var><a href="#">运动健身<i></i></a></var>
+                                                        <p><a href="#">全部</a></p>
+                                                    </blockquote>
+                                                    <blockquote>
+                                                        <var><a href="#">酒店/旅游<i></i></a></var>
+                                                        <p><a href="#">全部</a></p>
+                                                    </blockquote>
+                                                    <blockquote>
+                                                        <var><a href="#">娱乐/休闲<i></i></a></var>
+                                                        <p><a href="#">全部</a></p>
+                                                    </blockquote>
+                                                    <blockquote>
+                                                        <var><a href="#">保健按摩<i></i></a></var>
+                                                        <p><a href="#">全部</a></p>
+                                                    </blockquote>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>人力|行政|管理</th>
+                                                <td>
+                                                    <blockquote>
+                                                        <var><a href="#">人事/行政/后勤<i></i></a></var>
+                                                        <p><a href="#">全部</a></p>
+                                                    </blockquote>
+                                                    <blockquote>
+                                                        <var><a href="#">司机<i></i></a></var>
+                                                        <p><a href="#">全部</a></p>
+                                                    </blockquote>
+                                                    <blockquote>
+                                                        <var><a href="#">高级管理<i></i></a></var>
+                                                        <p><a href="#">全部</a></p>
+                                                    </blockquote>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>销售|客服|采购|淘宝</th>
+                                                <td>
+                                                    <blockquote>
+                                                        <var><a href="#">销售<i></i></a></var>
+                                                        <p><a href="#">全部</a></p>
+                                                    </blockquote>
+                                                    <blockquote>
+                                                        <var><a href="#">客服<i></i></a></var>
+                                                        <p><a href="#">全部</a></p>
+                                                    </blockquote>
+                                                    <blockquote>
+                                                        <var><a href="#">贸易/采购<i></i></a></var>
+                                                        <p><a href="#">全部</a></p>
+                                                    </blockquote>
+                                                    <blockquote class="last">
+                                                        <var><a href="#">超市/百货/零售<i></i></a></var>
+                                                        <p><a href="#">全部</a></p>
+                                                    </blockquote>
+                                                    <blockquote>
+                                                        <var><a href="#">淘宝职位<i></i></a></var>
+                                                        <p><a href="#">全部</a></p>
+                                                    </blockquote>
+                                                    <blockquote>
+                                                        <var><a href="#">房产中介<i></i></a></var>
+                                                        <p><a href="#">全部</a></p>
+                                                    </blockquote>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>市场|媒介|广告|设计</th>
+                                                <td>
+                                                    <blockquote>
+                                                        <var><a href="#">媒介/公关<i></i></a></var>
+                                                        <p><a href="#">全部</a></p>
+                                                    </blockquote>
+                                                    <blockquote>
+                                                        <var><a href="#">广告/会展/咨询<i></i></a></var>
+                                                        <p><a href="#">全部</a></p>
+                                                    </blockquote>
+                                                    <blockquote>
+                                                        <var><a href="#">美术/设计/创意<i></i></a></var>
+                                                        <p><a href="#">全部</a></p>
+                                                    </blockquote>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>生产|物流|质控|汽车</th>
+                                                <td>
+                                                    <blockquote>
+                                                        <var><a href="#">普工/技工<i></i></a></var>
+                                                        <p><a href="#">全部</a></p>
+                                                    </blockquote>
+                                                    <blockquote>
+                                                        <var><a href="#">生产管理/研发<i></i></a></var>
+                                                        <p><a href="#">全部</a></p>
+                                                    </blockquote>
+                                                    <blockquote>
+                                                        <var><a href="#">物流/仓储<i></i></a></var>
+                                                        <p><a href="#">全部</a></p>
+                                                    </blockquote>
+                                                    <blockquote class="last">
+                                                        <var><a href="#">服装/纺织/食品<i></i></a></var>
+                                                        <p><a href="#">全部</a></p>
+                                                    </blockquote>
+                                                    <blockquote>
+                                                        <var><a href="#">质控/安防<i></i></a></var>
+                                                        <p><a href="#">全部</a></p>
+                                                    </blockquote>
+                                                    <blockquote>
+                                                        <var><a href="#">汽车制造/服务<i></i></a></var>
+                                                        <p><a href="#">全部</a></p>
+                                                    </blockquote>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>网络|通信|电子</th>
+                                                <td>
+                                                    <blockquote>
+                                                        <var><a href="#">计算机/互联网/通信<i></i></a></var>
+                                                        <p><a href="#">全部</a></p>
+                                                    </blockquote>
+                                                    <blockquote>
+                                                        <var><a href="#">电子/电气<i></i></a></var>
+                                                        <p><a href="#">全部</a></p>
+                                                    </blockquote>
+                                                    <blockquote>
+                                                        <var><a href="#">机械/仪器仪表<i></i></a></var>
+                                                        <p><a href="#">全部</a></p>
+                                                    </blockquote>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>法律|教育|翻译|出版</th>
+                                                <td>
+                                                    <blockquote>
+                                                        <var><a href="#">法律<i></i></a></var>
+                                                        <p><a href="#">全部</a></p>
+                                                    </blockquote>
+                                                    <blockquote>
+                                                        <var><a href="#">教育培训<i></i></a></var>
+                                                        <p><a href="#">全部</a></p>
+                                                    </blockquote>
+                                                    <blockquote>
+                                                        <var><a href="#">翻译<i></i></a></var>
+                                                        <p><a href="#">全部</a></p>
+                                                    </blockquote>
+                                                    <blockquote class="last">
+                                                        <var><a href="#">编辑/出版/印刷<i></i></a></var>
+                                                        <p><a href="#">全部</a></p>
+                                                    </blockquote>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>财会|金融|保险</th>
+                                                <td>
+                                                    <blockquote>
+                                                        <var><a href="#">财务/审计/统计<i></i></a></var>
+                                                        <p><a href="#">全部</a></p>
+                                                    </blockquote>
+                                                    <blockquote>
+                                                        <var><a href="#">金融/银行/证券/投资<i></i></a></var>
+                                                        <p><a href="#">全部</a></p>
+                                                    </blockquote>
+                                                    <blockquote>
+                                                        <var><a href="#">保险<i></i></a></var>
+                                                        <p><a href="#">全部</a></p>
+                                                    </blockquote>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>医疗|制药|环保</th>
+                                                <td>
+                                                    <blockquote>
+                                                        <var><a href="#">医院/医疗/护理<i></i></a></var>
+                                                        <p><a href="#">全部</a></p>
+                                                    </blockquote>
+                                                    <blockquote>
+                                                        <var><a href="#">制药/生物工程<i></i></a></var>
+                                                        <p><a href="#">全部</a></p>
+                                                    </blockquote>
+                                                    <blockquote>
+                                                        <var><a href="#">环保<i></i></a></var>
+                                                        <p><a href="#">全部</a></p>
+                                                    </blockquote>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>建筑|物业|其他|招聘会</th>
+                                                <td>
+                                                    <blockquote>
+                                                        <var><a href="#">建筑<i></i></a></var>
+                                                        <p><a href="#">全部</a></p>
+                                                    </blockquote>
+                                                    <blockquote>
+                                                        <var><a href="#">招聘会<i></i></a></var>
+                                                        <p><a href="#">全部</a></p>
+                                                    </blockquote>
+                                                    <blockquote>
+                                                        <var><a href="#">物业管理<i></i></a></var>
+                                                        <p><a href="#">全部</a></p>
+                                                    </blockquote>
+                                                    <blockquote class="last">
+                                                        <var><a href="#">农/林/牧/渔业<i></i></a></var>
+                                                        <p><a href="#">全部</a></p>
+                                                    </blockquote>
+                                                    <blockquote>
+                                                        <var><a href="#">其它招聘信息<i></i></a></var>
+                                                        <p><a href="#">全部</a></p>
+                                                    </blockquote>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </dd>
+                        </dl>
+                    </dfn>
+                    <ins class="tipMsg">请填写你的手机号码，用于登录及找回密码</ins>
+                </li>
+                <li>
+                    <var><b>*</b>招聘人数：</var>
+                    <dfn><input type="text" class="text t-s"> 人</dfn>
+                    <ins></ins>
+                </li>
+                <li>
+                    <var>所属部门：</var>
+                    <dfn><input type="text" class="text t-m"></dfn>
+                    <ins></ins>
+                </li>
+                <li>
+                    <var>每月薪资：</var>
+                    <dfn>
+                        <dl class="select s-s">
+                            <input type="hidden" value="3000-5000">
+                            <dt>3000-5000<i></i></dt>
+                            <dd class="normal">
+                                <a href="#" alt="1">1000以下</a>
+                                <a href="#" alt="2">1000-2000</a>
+                                <a href="#" alt="3">2000-3000</a>
+                                <a href="#" alt="4">3000-5000</a>
+                                <a href="#" alt="5">5000-8000</a>
+                                <a href="#" alt="6">8000-12000</a>
+                                <a href="#" alt="7">12000-20000</a>
+                                <a href="#" alt="8">20000以上</a>
+                            </dd>
+                        </dl>&nbsp; /每月
+                    </dfn>
+                    <ins></ins>
+                </li>
+                <li>
+                    <var>工作年限：</var>
+                    <dfn>
+                        <dl class="select s-s">
+                            <input type="hidden" value="">
+                            <dt><span>请选择</span><i></i></dt>
+                            <dd class="normal">
+                                <a href="#" alt="0">不限</a>
+                                <a href="#" alt="1">无经验</a>
+                                <a href="#" alt="2">应届生</a>
+                                <a href="#" alt="3">1年</a>
+                                <a href="#" alt="4">2年</a>
+                                <a href="#" alt="5">3年</a>
+                                <a href="#" alt="6">4年</a>
+                                <a href="#" alt="7">5年</a>
+                                <a href="#" alt="8">6年</a>
+                                <a href="#" alt="9">7年</a>
+                                <a href="#" alt="10">8年</a>
+                                <a href="#" alt="11">9年</a>
+                                <a href="#" alt="12">10年</a>
+                                <a href="#" alt="13">10年以上</a>
+                            </dd>
+                        </dl>
+                    </dfn>
+                    <ins></ins>
+                </li>
+                <li>
+                    <var>学历要求：</var>
+                    <dfn>
+                        <dl class="select s-s">
+                            <input type="hidden" value="">
+                            <dt><span>请选择</span><i></i></dt>
+                            <dd class="normal">
+                                <a href="#" alt="0">不限</a>
+                                <a href="#" alt="1">高中以下</a>
+                                <a href="#" alt="2">高中</a>
+                                <a href="#" alt="3">技校/中专</a>
+                                <a href="#" alt="4">大专</a>
+                                <a href="#" alt="5">本科</a>
+                                <a href="#" alt="6">硕士</a>
+                                <a href="#" alt="7">博士</a>
+                                <a href="#" alt="8">MBA/EMBA</a>
+                            </dd>
+                        </dl>
+                    </dfn>
+                    <ins></ins>
+                </li>
+                <li>
+                    <var>福利标签：</var>
+                    <dfn class="tags">
+                        <input type="checkbox" checked><label class="checked"> 双休 <i></i></label>
+                        <input type="checkbox" checked><label class="checked"> 年底双薪 <i></i></label>
+                        <input type="checkbox"><label> 股票期权 <i></i></label>
+                        <input type="checkbox"><label> 加班补助 <i></i></label>
+                        <input type="checkbox"><label> 包吃包住 <i></i></label>
+                        <input type="checkbox"><label> 五险一金 <i></i></label>
+                    </dfn>
+                    <ins></ins>
+                </li>
+                <li>
+                    <var><!--活动添加的标签-->&nbsp;</var>
+                    <dfn class="addup">
+                        <!--不用赋值，JS初始化，目前放的是字符串信息-->
+                        <input type="hidden" value="">
+                    </dfn>
+                    <ins></ins>
+                </li>
+                <li>
+                    <var>&nbsp;</var>
+                    <dfn>
+                        <input class="add-text" type="text" placeholder="请最多增加三个福利">
+                        <input class="add-btn" type="button" value="添加福利">
+                        &nbsp;字数限制为10字以内
+                    </dfn>
+                    <ins></ins>
+                </li>
+                <li>
+                    <var>工作地点：</var>
+                    <dfn>
+                        <dl class="select ADDList province">
+                            <input type="hidden" id="ProId" value="270000">
+                            <dt><i></i></dt>
+                            <dd><div class="addresses"></div></dd>
+                        </dl>
+                        <dl class="select ADDList cities">
+                            <input type="hidden" id="CityId" value="271000">
+                            <dt><i></i></dt>
+                            <dd><div class="addresses"></div></dd>
+                        </dl>
+                        <dl class="select ADDList districts">
+                            <input type="hidden" id="DistId" value="">
+                            <dt><i></i></dt>
+                            <dd><div class="addresses"></div></dd>
+                        </dl>
+                    </dfn>
+                    <ins></ins>
+                </li>
+                <li>
+                    <var>&nbsp;</var>
+                    <dfn><input type="text" class="text t-m" placeholder="请输入详细地址">
+                    <input type="button" id="address_locate" value="定位"></dfn>
+                    <ins></ins>
+                </li>
+                <li>
+                	<var>&nbsp;</var>
+                    <dfn>
+                    	<p class="MapTip">如果定位失败或出错，<span>请拖动地图，并在正确位置单击右键，选择“在此添加标注”</span>进行定位</p>
+                        <div class="mapDiv" id="mapContainer"></div>
+						<input type="text" style="display: none" autocomplete="false" class="maplng" id="content_txtLng" value="113.376327514648">
+                        <input type="text" style="display: none" autocomplete="false" class="maplat" id="content_txtLat" value="23.1312160491943">
+                    </dfn>
+                </li>
+                <li>
+                    <var>职位描述：</var>
+                    <dfn>（请勿输入公司邮箱、联系电话及其它外链，否则将自动删除）</dfn>
+                    <ins></ins>                    
+                    <!--<div class="editor">&nbsp;</div>-->
+                    <textarea id="editor"></textarea>
+                </li>
+                <li>
+                    <code>接收简历邮箱：123456978@qq.com <a href="#">修改邮箱号码</a></code>
+                    <code><input type="text" class="text">增加一个简历接收邮箱：</code>
+                    <code class="last">
+                        <input type="button" class="btn" value="预览">
+                        <input type="submit" class="btn" value="发布">
+                    </code>
+                </li>
+            </ul>
+        </form>
+        <div class="clear"></div>
+    </div>
+
+    <div class="footer">
+        <div class="common tail">
+            <samp class="tail-nav">
+                <a href="#" class="first">关于我们</a>
+                <a href="#">法律声明</a>
+                <a href="#">保密承诺</a>
+                <a href="#">Investor Relatiao</a>
+                <a href="#">关于我们</a>
+            </samp>
+        </div>
+        <div class="common copyright">
+            <p>京ICP备09083200号 京ICP证070419号 人才服务许可证：RC0710280</p>
+            <p>Copyright&copy;2000-2014 liepin.com All Rights Reserved</p>
+        </div>
+    </div>
+
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/area.js"></script>
+<script src="../js/company/all.js"></script>
+<script src="../js/company/publish.js"></script>
+<script src="../KEditor4x/kindeditor-min.js"></script>
+<script src="http://api.map.baidu.com/api?v=2.0&ak=OlGzoCwcKN9OvM16T9RnFwOl"></script>
+<script>
+$(function () {
+	ToolPull();
+	AllSelect();
+	AddressInit();
+	Tags();
+	AddUp();
+	MapInit();
+});
+var editor1;
+KindEditor.ready(function (K) {
+	editor1 = K.create('#editor', {
+		width: '678px',
+		height: '400px',
+		cssPath: "/KEditor4x/themes/default/default.css?20140705",
+		allowFileUpload: false,
+		items: ['source', '|', 'undo', 'redo', '|', 'justifyleft', 'justifycenter', 'justifyright',
+				'justifyfull', '|', 'insertorderedlist', 'insertunorderedlist', 'indent', 'outdent',
+				'|', 'bold', 'italic', 'underline', '|', 'hr', 'preview', 'fullscreen']
+	});
+
+});
+</script>

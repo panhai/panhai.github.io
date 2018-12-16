@@ -1,0 +1,76 @@
+/* 学校就业网首页 */
+
+/*幻灯片*/
+.PPT{ width:740px; height:300px; overflow:hidden; margin-top:10px; position:relative; float:left;}
+.PPT ul li{ width:740px; height:300px; float:left; overflow:hidden;}
+.PPT p{ position:absolute; bottom:10px; left:0px; width:100%; text-align:center; font-size:0px; z-index:11;}
+.PPT p span{ width:50px; height:5px; border-radius:3px; background-color:rgba(255,255,255,0.5); background:url(../../images/schools/index/ppt-icon.png) top center\9; display:inline-block; margin-right:10px;}
+.PPT p span.cur{ background-color:rgba(0,0,0,0.5); background-position:bottom center;}
+/*登陆框*/
+.logins{ width:248px; height:298px; border:1px solid #CECECE; float:right; margin-top:10px;}
+.logins dt,.logins dd{ margin:0px 20px;}
+.logins dt{ height:30px; line-height:29px; padding-top:10px; font-size:14px; color:#999; border-bottom:1px solid #C8C8C8;}
+.logins dt b{ display:block; width:50%; float:left; text-align:center; cursor:pointer;}
+.logins dt b.cur{ color:#666; border-bottom:2px solid #969696;}
+.logins div{ padding-top:12px; display:none;}
+.logins p{ clear:both; margin-top:8px; font-size:12px; color:#999; line-height:35px;}
+.logins p *{ vertical-align:middle;}
+.logins .f-r{ float:right; color:#999;}
+.logins .f-r:hover{ color:#2673ec;}
+.logins .text{ border:1px solid #D2D2D2; background-color:#EFEDEE; font-size:14px; font-family:"微软雅黑"; height:34px; padding:0px 10px;}
+.logins .t-l{ width:188px;}
+.logins .t-s{ width:64px;}
+.logins q{ clear:both; line-height:35px; display:block; font-size:12px; color:#999;}
+.logins q label{ float:left;}
+.logins .submit{ width:207px; height:28px; background-color:#2A74E1; border:1px solid #1A57B0; border-radius:2px; cursor:pointer; font-size:14px; color:#fff; font-family:"微软雅黑";}
+.logins .last{ padding-top:5px\9;}
+.logins .last,.logins .last a{ color:#4983D7; font-size:12px; font-family:"微软雅黑";}
+/*所有的more*/
+.more{ display:block; padding-right:12px; float:right; font-size:12px; position:relative; font-family:Arial, Helvetica, sans-serif; top:5px;}
+.more i{ position:absolute; font-size:0px; width:0px; height:0px; border:4px solid #fff; top:16px; right:0px;}
+.gray{ color:#969696;}
+.gray i{ border-left-color:#969696;}
+.blue{ color:#2263C7;}
+.blue i{ border-left-color:#2263C7;}
+.more:hover{ color:#ff5e00;}
+/*大版块样式*/
+.blocks{ border:1px solid #E9E9E9; margin-top:20px; overflow:hidden;}
+.blocks dt{ clear:both; height:40px; line-height:39px; font-family:"微软雅黑"; border-bottom:1px solid #C8C8C8; margin-right:10px;}
+.blocks dt h3{ font-size:18px; font-weight:normal; color:#333; padding:0px 10px; float:left; margin-right:25px; position:relative; cursor:pointer;}
+.blocks dt h3 i{ position:absolute; width:0px; height:0px; font-size:0px; border:5px solid #fff; border-bottom-color:#ff6f3d; bottom:0px; left:49%; display:none;}
+.blocks dt .cur{ color:#2064C7; font-weight:bold; border-bottom:2px solid #FF6F3D;}
+.blocks dt .cur i{ display:block;}
+/*职位信息列表*/
+.Infors{ width:738px; height:528px; float:left; font-family:"微软雅黑"; line-height:30px;}
+.Infors li{ height:90px; padding:15px 0px; width:49.5%; float:left; border-bottom:1px dotted #DADADA;}
+.Infors li.odd .Infors-company{ border-right:1px solid #DADADA;}
+.Infors h4{ font-size:16px; font-weight:normal;}
+.Infors h4 a{ color:#333; text-decoration:underline;}
+.Infors h5{ font-size:14px; font-weight:normal;}
+.Infors h5 a{ color:#333;}
+.Infors p{ font-size:14px; color:#999;}
+.Infors p b{ color:#333; font-weight:normal;}
+.Infors p,.Infors h4,.Infors h5{ white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.Infors a:hover{ color:#ff5e00;}
+.Infors-job{ width:120px; float:left; padding-left:20px;}
+.Infors-company{ width:190px; float:right; padding-right:10px;}
+/*新闻动态*/
+.news dt{ margin:0 10px;}
+.news ul{ clear:both; margin:10px;}
+.news li{ white-space:nowrap; overflow:hidden; text-overflow:ellipsis; font-size:14px; font-family:"微软雅黑"; line-height:30px;}
+.news li a{ color:#333;}
+.news li a:hover{ color:#ff5e00;}
+.news li i{ font-size:12px; color:#2673ec; font-style:normal; padding-right:10px;}
+.News{ width:238px; height:318px; float:right;}
+.News div{ text-align:center; margin:5px 0px}
+/*事务公告*/
+.Notices{ width:238px; height:188px; float:right;}
+/*合作伙伴*/
+.Partners{ width:738px; height:368px; float:left;}
+.Partners ul{ margin-top:5px;}
+.Partners li{ width:123px; height:80px; float:left;}
+.Partners li a{ display:block; width:121px; height:78px; border:1px solid #F5F5F5;}
+/*链接*/
+.Links{ width:240px; float:right; text-align:center; margin-top:20px; font-size:0px; overflow:hidden;}
+.Links li{ margin-bottom:6px;}
+.Adv{ padding:15px 0px 20px;}

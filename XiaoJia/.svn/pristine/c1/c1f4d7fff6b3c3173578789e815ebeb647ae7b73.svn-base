@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>学校相册</title>
+    <meta name=viewport content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="../css/all.css" />
+    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+    <link href="../css/layerskin/default/layer.css" rel="stylesheet" />
+</head>
+<body>
+<div class="head-navgater">
+    <div class="rightCenter">
+        <div class="setting">
+            <a href="javascript:void(0)" >设置</a>
+        </div>
+
+        <div class="feed_back">
+            <a href="javascript:void(0)" >我要反馈</a>
+        </div>
+
+        <div class="information">
+            <span class="icon"></span>
+        </div>
+
+        <div class="news">
+            <span class="icon"></span>
+        </div>
+
+
+        <div class="search">
+            <input type="text" value="" placeholder="搜求职者" class="search_txet">
+            <span class="icon"></span>
+            <div class="history-layer">
+                <a href="javascript:void(0)" >
+                    <i>咨询学员</i>
+                    <span>"啊啊啊啊"</span>
+                </a>
+
+                <a href="javascript:void(0)" >
+                    <i>报名学员</i>
+                    <span>"啊啊啊啊"</span>
+                </a>
+
+                <a href="javascript:void(0)" >
+                    <i>班级</i>
+                    <span>"啊啊啊啊"</span>
+                </a>
+
+                <a href="javascript:void(0)" >
+                    <i>课程</i>
+                    <span>"啊啊啊啊"</span>
+                </a>
+
+                <a href="javascript:void(0)" >
+                    <i>教师</i>
+                    <span>"啊啊啊啊"</span>
+                </a>
+
+                <a href="javascript:void(0)" >
+                    <i>帮助文档</i>
+                    <span>"啊啊啊啊"</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="left-navgater">
+    <div class="logoBox">
+        <a href="javascript:void(0)"  class="changeArrow">
+            <i></i>
+        </a>
+        <span class="logo_msg">管理系统</span>
+    </div>
+
+    <div class="school-infor">
+        <div class="inforBox cur">
+            <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2114797134,526769156&fm=26&gp=0.jpg" alt="">
+        </div>
+        <div class="inforBox">
+            <p>迪丽热巴</p>
+            <p>早上好</p>
+        </div>
+    </div>
+
+    <div class="nav">
+        <a href="javascript:void(0)"  class="">
+            <i class="position1"></i>
+            <span>工作台</span>
+        </a>
+
+        <div class="option cur">
+            <i class="position2"></i>
+            <span>招生宣传</span>
+            <b></b>
+
+            <div class="midLa">
+                <a href="招生宣传-微营销-微官网-1.html" class="coving" >微营销</a>
+                <a href="招生宣传-校+推广-1.html"   class="">校+推广</a>
+                <a href="招生宣传-会员推广-1.html"  class="">会员推广</a>
+                <a href="招生宣传-SEO推广-1.html"  class="">SEO推广</a>
+                <a href="招生宣传-渠道管理.html"  class="">渠道管理</a>
+            </div>
+        </div>
+
+        <a href="咨询管理-全部咨询.html"  class="">
+            <i class="position3"></i>
+            <span>咨询管理</span>
+        </a>
+        <a href="学员管理-全部学员.html"  class="">
+            <i class="position4"></i>
+            <span>学员管理</span>
+        </a>
+        <a href="教务管理-班级管理.html"  class="">
+            <i class="position5"></i>
+            <span>教务管理</span>
+        </a>
+        <a href="财务管理-1.html"  class="">
+            <i class="position6"></i>
+            <span>财务管理</span>
+        </a>
+        <a href="就业中心-1.html"  class="">
+            <i class="position7"></i>
+            <span>就业中心</span>
+        </a>
+        <a href="校+创收-1.html"  class="">
+            <i class="position8"></i>
+            <span>校+联盟</span>
+        </a>
+        <a href="学校设置-账号管理.html"  class="">
+            <i class="position9"></i>
+            <span>学校设置</span>
+        </a>
+    </div>
+</div>
+
+<div class="left-small-navgater">
+    <div class="logoBox">
+        <a href="javascript:void(0)"  class="changeArrow">
+            <i></i>
+        </a>
+    </div>
+
+    <div class="school-infor">
+        <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2114797134,526769156&fm=26&gp=0.jpg" alt="">
+    </div>
+
+    <div class="small-nav">
+        <div class="nav-url">
+            <div class="url-icon position1"></div>
+
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >控制台</a>
+            </div>
+        </div>
+
+        <div class="nav-url">
+            <div class="url-icon position2"></div>
+
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >好学校</a>
+                <a href="javascript:void(0)" >微官网</a>
+                <a href="javascript:void(0)" >微营销</a>
+                <a href="javascript:void(0)" >微活动</a>
+            </div>
+        </div>
+
+        <div class="nav-url">
+            <div class="url-icon position3"></div>
+
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >咨询管理</a>
+                <a href="javascript:void(0)" >今日跟进</a>
+                <a href="javascript:void(0)" >到访记录</a>
+                <a href="javascript:void(0)" >跟进统计</a>
+            </div>
+        </div>
+
+        <div class="nav-url">
+            <div class="url-icon position4"></div>
+
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >全部学员</a>
+                <a href="javascript:void(0)" >在读学员</a>
+                <a href="javascript:void(0)" >毕业学员</a>
+                <a href="javascript:void(0)" >学员统计</a>
+            </div>
+        </div>
+
+        <div class="nav-url">
+            <div class="url-icon position5"></div>
+
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >排课管理</a>
+                <a href="javascript:void(0)" >班级管理</a>
+                <a href="javascript:void(0)" >课程管理</a>
+                <a href="javascript:void(0)" >教师管理</a>
+            </div>
+        </div>
+
+        <div class="nav-url">
+            <div class="url-icon position6"></div>
+
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >排课管理</a>
+                <a href="javascript:void(0)" >班级管理</a>
+                <a href="javascript:void(0)" >课程管理</a>
+                <a href="javascript:void(0)" >教师管理</a>
+            </div>
+        </div>
+
+        <div class="nav-url">
+            <div class="url-icon position7"></div>
+
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >排课管理</a>
+                <a href="javascript:void(0)" >班级管理</a>
+                <a href="javascript:void(0)" >课程管理</a>
+                <a href="javascript:void(0)" >教师管理</a>
+            </div>
+        </div>
+
+        <div class="nav-url">
+            <div class="url-icon position8"></div>
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >排课管理</a>
+                <a href="javascript:void(0)" >班级管理</a>
+                <a href="javascript:void(0)" >课程管理</a>
+                <a href="javascript:void(0)" >教师管理</a>
+            </div>
+
+        </div>
+
+        <div class="nav-url">
+            <div class="url-icon position9"></div>
+
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >排课管理</a>
+                <a href="javascript:void(0)" >班级管理</a>
+                <a href="javascript:void(0)" >课程管理</a>
+                <a href="javascript:void(0)" >教师管理</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="right-content">
+
+    <div class="content-nav">
+        <a href="招生宣传-微营销-微官网-1.html"  class="cur">
+            <span>微官网</span>
+            <i></i>
+        </a>
+
+        <a href="学校设置-校区设置.html"  class="">
+            <span>微传单</span>
+            <i></i>
+        </a>
+        <a href="学校设置-基本信息.html"  class="">
+            <span>微投票</span>
+            <i></i>
+        </a>
+        <a href="学校设置-属性配置.html"  class="">
+            <span>微多多</span>
+            <i></i>
+        </a>
+    </div>
+
+    <div class="content-layer ofh nopadding">
+
+        <div class="attributes-nav other-wid">
+           <div class="attr-small-nav">
+               <p>
+                   <i class="attr-icon4"></i>
+                   <span>官网管理</span>
+               </p>
+               <a href="招生宣传-微营销-微官网-0.html" class="attr-url ">首页</a>
+               <a href="招生宣传-微营销-微官网-1.html" class="attr-url ">课程管理</a>
+               <a href="招生宣传-微营销-微官网-2.html" class="attr-url cur">学校相册</a>
+               <a href="招生宣传-微营销-微官网-3.html" class="attr-url ">师资团队</a>
+               <a href="招生宣传-微营销-微官网-4.html" class="attr-url ">学校概况</a>
+               <a href="招生宣传-微营销-微官网-5.html" class="attr-url ">办学优势</a>
+           </div>
+
+            <div class="attr-small-nav">
+                <p>
+                    <i class="attr-icon5"></i>
+                    <span>动态管理</span>
+                </p>
+                <a href="招生宣传-微营销-微官网-6.html" class="attr-url ">学习资讯</a>
+                <a href="招生宣传-微营销-微官网-7.html" class="attr-url ">学校动态</a>
+                <a href="招生宣传-微营销-微官网-8.html" class="attr-url ">师生问答</a>
+                <a href="招生宣传-微营销-微官网-9.html" class="attr-url ">通知公告</a>
+            </div>
+
+            <div class="attr-small-nav">
+                <p>
+                    <i class="attr-icon6"></i>
+                    <span>系统设置</span>
+                </p>
+                <a href="招生宣传-微营销-微官网-10.html" class="attr-url ">基本设置</a>
+            </div>
+        </div>
+
+        <div class="attributes-menu">
+            <div class="attr-message">
+                <p class="cur nomargin">学校相册
+                    <b><i class="attr-icon7"></i><span>微信扫码预览</span></b>
+                    <span class="qr-layer">
+                        <span class="qr"></span>
+                    </span>
+                </p>
+
+
+
+
+                <div class="macthing-layer  nopadding" id="macthing-layer" style="display: block;">
+                    <div class="macthing-setting">
+                        <div class="macthing-left">
+                            <a href="javascript:void(0)" class="cur">全部图片<i></i></a>
+                            <a href="javascript:void(0)">教学环境<i></i></a>
+                        </div>
+                        <div class="macthing-right inheir-layer">
+                            <a href="javascript:void(0)" class="plus-team">+添加分组<i></i></a>
+                            <a href="javascript:void(0)" class="set-team">管理分组<i></i></a>
+                            <a href="javascript:void(0)" class="set-all">批量管理<i></i></a>
+                            <a href="javascript:void(0)" class="">上传图片<i></i></a>
+                        </div>
+
+                        <div class="macthing-right all-setting-layer">
+                            <a href="javascript:void(0)" class="esc-all">取消批量管理<i></i></a>
+                            <a href="javascript:void(0)" class="btn-team move-to">移到分组<i></i></a>
+                            <a href="javascript:void(0)" class="btn-team new-name">重命名<i></i></a>
+                            <a href="javascript:void(0)" class="btn-team delete">删除<i></i></a>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="photo-wall difference">
+
+                        <div class="photo-box">
+                            <div class="selec-img">
+                                <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2114797134,526769156&fm=26&gp=0.jpg" />
+                                <a href="javascript:void(0)" class="tick-box cur"></a>
+                            </div>
+                            <div class="upload-animate" style="display: block;">
+                                <div class="upload-label"></div>
+                            </div>
+
+                            <a href="javascript:void(0)" class="photo-close"></a>
+                            <a href="javascript:void(0)" class="photo-scale">预览</a>
+                            <p><label>天河校区</label><i></i></p>
+                            <input type="text" class="set-new-name">
+                        </div>
+
+                        <div class="photo-box">
+                            <div class="selec-img">
+                                <img src="../images/girl.png" />
+                                <a href="javascript:void(0)" class="tick-box "></a>
+                            </div>
+
+                            <a href="javascript:void(0)" class="photo-close"></a>
+                            <a href="javascript:void(0)" class="photo-scale">预览</a>
+
+                            <p><label>天河校区</label><i></i></p>
+                            <input type="text" class="set-new-name">
+                        </div>
+
+                        <div class="photo-box">
+                            <div class="selec-img">
+                                <img src="http://p3.wmpic.me/article/2017/10/16/1508137928_pTuYFofx.jpg" />
+                                <a href="javascript:void(0)" class="tick-box "></a>
+                            </div>
+
+
+                            <a href="javascript:void(0)" class="photo-close"></a>
+                            <a href="javascript:void(0)" class="photo-scale">预览</a>
+
+                            <p><label>天河校区</label><i></i></p>
+                            <input type="text" class="set-new-name">
+                        </div>
+
+                    </div>
+
+
+
+
+
+
+
+                    <div class="t_foot nopadding">
+
+                        <div class="page nopadding">
+                            <label>每页</label> <dl class="SELECT" data-placeholder="请选择">
+                            <input type="hidden" value="10" autocomplete="off">
+                            <dt><b title="10">10</b></dt>
+                            <dd class="normal">
+                                <a href="javascript:void(0)" data-id="50" title="50">50</a>
+                                <a href="javascript:void(0)" data-id="20" title="20">20</a>
+                                <a href="javascript:void(0)" data-id="10" class="checked" title="10">10</a>
+                            </dd>
+                        </dl> <a href="javascript:void(0)">上一页</a> <a href="javascript:void(0)" class="cur">1</a> <a href="/company/resume?pid=2">2</a> <a href="/company/resume?pid=3">3</a>  … <a href="/company/resume?pid=1822">1822</a> <a href="/company/resume?pid=2">下一页</a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+    </div>
+</div>
+
+
+
+<!--图片放大-->
+<div class="fixedBg">
+    <div class="close">x</div>
+    <div class="imgBox">
+        <div id="photoLayer">
+            <div class="previous">
+                <img src="../images/jt-2.png" alt="">
+            </div>
+            <img src="../images/girl.png" alt="">
+            <div class="next">
+                <img src="../images/jt-1.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--添加分组-->
+<div class="big-class" id="plus-team" style="display: none;">
+
+
+    <div class="fill-in-box">
+
+        <div class="fill-name">
+            分组名称：
+        </div>
+
+        <div class="fill-data">
+            <input type="text" value="高意向" class="fill-text">
+        </div>
+
+        <span class="field-validation-error" data-valmsg-for="FullName" data-valmsg-replace="true"><span for="FullName" class="">信息不能为空</span></span>
+    </div>
+
+    <div class="submitBtn ml148">
+        <a href="javascript:void(0)" class="cur">确认</a>
+        <a href="javascript:void(0)" class="">取消</a>
+    </div>
+</div>
+
+<!--重命名-->
+<div class="big-class" id="new-name" style="display: none;">
+
+
+    <div class="fill-in-box">
+
+        <div class="fill-name">
+            图片名称：
+        </div>
+
+        <div class="fill-data">
+            <input type="text" value="" class="fill-text">
+        </div>
+
+        <span class="field-validation-error" data-valmsg-for="FullName" data-valmsg-replace="true"><span for="FullName" class="">信息不能为空</span></span>
+    </div>
+
+    <div class="submitBtn ml148">
+        <a href="javascript:void(0)" class="cur">确认</a>
+        <a href="javascript:void(0)" class="">取消</a>
+    </div>
+</div>
+
+<!--移动到分组-->
+<div class="big-class" id="move-to" style="display: none;">
+
+
+    <div class="fill-in-box">
+
+        <div class="fill-name">
+            选择分组：
+        </div>
+
+        <div class="fill-data">
+            <dl class="SELECT comment" data-placeholder="请选择">
+                <input type="hidden" value="" autocomplete="off">
+                <dt><span class="">请选择</span></dt>
+                <dd class="normal maxHeight">
+                    <a href="javascript:void(0)" data-id="0" class="" title="不限">不限</a>
+                    <a href="javascript:void(0)" data-id="0" class="" title="2000人/年">200人0/年</a>
+                </dd>
+            </dl>
+        </div>
+
+        <span class="field-validation-error" data-valmsg-for="FullName" data-valmsg-replace="true"><span for="FullName" class="">信息不能为空</span></span>
+    </div>
+
+    <div class="submitBtn ml148">
+        <a href="javascript:void(0)" class="cur">确认</a>
+        <a href="javascript:void(0)" class="">取消</a>
+    </div>
+</div>
+
+<!--分组管理-->
+<div class="setting-team" id="setting-team" style="display: none;">
+    <a href="javascript:void(0)" class="plus-team plus-new-team">+添加分组</a>
+    <table width="100%">
+        <thead>
+            <tr>
+                <th style="text-align: left;text-indent: 20px;">
+                    分组名称
+                </th>
+                <th style="width: 100px;">
+                    操作
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="text-align: left;text-indent: 20px;">
+                    分组名称
+                </td>
+                <td>
+                    <a href="javascript:void(0)" class="plus-team">编辑</a>
+                    <a href="javascript:void(0)" class="dele">删除</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="text-align: left;text-indent: 20px;">
+                    分组名称
+                </td>
+                <td>
+                    <a href="javascript:void(0)" class="plus-team">编辑</a>
+                    <a href="javascript:void(0)" class="dele">删除</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<script src="../js/jquery.js"></script>
+<script src="../js/layer.js"></script>
+<script src="../js/area.js"></script>
+<script src="../js/all.js"></script>
+<script src="../js/plugin/select.js"></script>
+<script src="../js/My97DatePicker/WdatePicker.js"></script>
+<script src="http://api.map.baidu.com/api?v=2.0&amp;ak=OlGzoCwcKN9OvM16T9RnFwOl"></script>
+
+<script type="text/javascript">
+
+    function difference(){
+        if($(".photo-wall").hasClass("difference")){
+            $(".selec-img").unbind("click");
+            $(".photo-wall .photo-box .tick-box").hide();
+            $(".photo-wall .photo-box img").click().unbind();
+            //相册相关事件
+
+            $(".photo-box img").mouseover(function () {
+                $(".photo-close,.photo-scale").hide();
+                $(this).closest(".photo-box").find(".photo-close,.photo-scale").fadeIn(200);
+            });
+            $(".photo-scale,.photo-close").mouseleave(function () {
+                $(".photo-close,.photo-scale").fadeOut(0);
+            });
+            $(".photo-box").on("mouseleave",function () {
+                $(".photo-close,.photo-scale").fadeOut(0);
+            });
+            $(".photo-close").mouseover(function () {
+                $(this).closest(".photo-box").find(".photo-close,.photo-scale").fadeIn(0);
+            });
+            $(".photo-close").unbind("click").click(function () {
+                $(this).closest(".photo-box").remove();
+            });
+            //相册相关事件
+            $(".photo-box p i").unbind("click").click(function (e) {
+                e.preventDefault();
+                e.stopPropagation()
+                $(this).parent().hide();
+                $(this).closest(".photo-box").find(".set-new-name").show();
+                $(this).closest(".photo-box").find(".set-new-name").change(function () {
+                    var getVal = $(this).val();
+                    $(this).closest(".photo-box").find("label").text(getVal);
+                })
+            });
+            $(".set-new-name").unbind("click").click(function (e) {
+                e.preventDefault();
+                e.stopPropagation()
+            });
+            $(document).unbind("click").click(function () {
+                $(".photo-box p").show();
+                $(".set-new-name").hide();
+            });
+
+            //放大图片点击事件
+            var getLength = $(".photo-box").length;
+            var saveIndex;//获取index用于大图上下一张切换
+            $(".photo-scale").unbind("click").click(function () {
+                saveIndex = $(this).closest(".photo-box").index();
+                var getUrl = $(this).parent().find("img").attr("src");
+                $(".fixedBg").css("display","table");
+                $("#photoLayer>img").attr("src",getUrl);
+            });
+
+            $(".fixedBg .imgBox .previous").unbind("click").click(function () {
+                var saveImg = $(".photo-box:nth-child("+saveIndex+")").find("img").attr("src");
+                saveIndex--;
+                if(saveIndex<=0){
+                    saveIndex=0
+                }
+                $("#photoLayer>img").attr("src",saveImg);
+            });
+
+            $(".fixedBg .imgBox .next").unbind("click").click(function () {
+                var saveImg = $(".photo-box:nth-child("+(saveIndex+2)+")").find("img").attr("src");
+                ++saveIndex;
+                if(saveIndex>=getLength){
+                    saveIndex=getLength-1;
+                }
+                $("#photoLayer>img").attr("src",saveImg);
+            });
+
+            //关闭放大图片层
+            $(".fixedBg .close").unbind("click").click(function () {
+                $(".fixedBg").fadeOut(200)
+            });
+
+        }else {
+            $(".photo-wall .photo-box .tick-box").show();
+            $(".photo-box img").unbind();
+            $(".photo-scale").unbind();
+            $(".photo-close").unbind();
+            $(".selec-img").unbind("click").click(function () {
+                if ($(this).find(".tick-box").hasClass('cur')) {
+                    $(this).find(".tick-box").removeClass("cur")
+                } else {
+                    $(this).find(".tick-box").addClass("cur")
+                }
+            });
+
+
+        }
+    }
+    difference();
+
+    //删除
+    $(".btn-team.delete").click(function () {
+        $(this).publicPrompt({
+            title:"确认删除？",
+            message:"删除将无法恢复，是否确认删除？",
+            btn1:"确认",
+            btn2:"取消",
+            func1:function () {
+
+            },
+            func2:function () {
+
+            }
+        })
+    });
+
+
+    //批量管理
+    $(".set-all").click(function () {
+        $(".photo-wall").removeClass("difference");
+        $(".all-setting-layer").show();
+        $(".inheir-layer").hide();
+        difference();
+    });
+    $(".esc-all").click(function () {
+        $(".all-setting-layer").hide();
+        $(".inheir-layer").show();
+        $(".photo-wall").addClass("difference");
+        difference();
+    });
+    //移动到分组
+    $(".move-to").click(function () {
+        layer.open({
+            title: '移动到分组',
+            type: 1,
+            area: ' 534px',
+            skin: '',
+            content: $('#move-to')
+        });
+    });
+
+    //重命名
+    $(".new-name").click(function () {
+        layer.open({
+            title: '重命名',
+            type: 1,
+            area: ' 534px',
+            skin: '',
+            content: $('#new-name')
+        });
+    });
+
+
+
+    //分组管理删除点击事件
+    $(".dele").click(function () {
+        $(this).publicPrompt({
+            title:"确认删除分组？",
+            message:"删除后，分组下的图片将移动至未分组下",
+            btn1:"确认",
+            btn2:"取消",
+            func1:function () {
+
+            },
+            func2:function () {
+
+            }
+        })
+    });
+
+    //分组管理
+    $(".set-team").click(function () {
+        layer.open({
+            title: '分组管理',
+            type: 1,
+            area: ' 534px',
+            skin: '',
+            content: $('#setting-team')
+        });
+    });
+
+
+
+
+
+    //添加分组
+    $(".plus-team").click(function () {
+        layer.open({
+            title: '添加分组',
+            type: 1,
+            area: ' 602px',
+            skin: '',
+            content: $('#plus-team')
+        });
+
+    });
+
+
+
+
+
+
+    $(".togt").click(function () {
+        if ($(this).find("i").hasClass('cur')) {
+            $(this).find("i").removeClass('cur');
+        } else {
+            $(this).find("i").addClass('cur')
+        }
+    });
+
+
+    //二维码显示隐藏事件
+    $(".attributes-menu .attr-message p b").mouseenter(function () {
+        $(".qr-layer").fadeIn(200);
+    }).mouseleave(function () {
+        $(".qr-layer").fadeOut(0);
+    });
+
+
+
+    VitaeSource();
+    Vitaeclick();
+
+
+    $(".label-selec").click(function () {
+        $(".fill-types").show();
+    });
+    $(".fill-types .right-select a").click(function () {
+        $(".fill-types").hide();
+    });
+    $(".recruit_searchCondition .inputdiv2").mouseleave(function () {
+        $(".fill-types").hide();
+    });
+    //单选
+    $('.right-content .class-table td.sele-one i').click(function () {
+        if ($(this).hasClass('cur')) {
+            $(this).removeClass('cur');
+            $('.right-content .class-table th.sele-all i').removeClass("cur");
+            $('.right-content .t_foot .leftbox .icon').removeClass("cur");
+        } else {
+            $(this).addClass('cur')
+        }
+    });
+
+    //全选
+    $('.right-content .class-table th.sele-all i').click(function () {
+        if ($(this).hasClass('cur')) {
+            $(this).removeClass('cur');
+            $('.right-content .class-table td.sele-one i').removeClass("cur");
+            $('.right-content .t_foot .leftbox .icon').removeClass("cur")
+        } else {
+            $(this).addClass('cur');
+            $('.right-content .class-table td.sele-one i').addClass("cur");
+            $('.right-content .t_foot .leftbox .icon').addClass("cur")
+
+        }
+    });
+
+    //主板也全选事件
+
+    $(".leftbox i").click(function () {
+        if ($(this).hasClass('cur')) {
+            $(this).removeClass('cur');
+            $('.right-content .class-table th.sele-all i').removeClass("cur");
+            $('.right-content .class-table td.sele-one i').removeClass("cur");
+            $('.right-content .t_foot .leftbox .icon').removeClass("cur")
+        } else {
+            $(this).addClass('cur');
+            $('.right-content .class-table th.sele-all i').addClass("cur");
+            $('.right-content .class-table td.sele-one i').addClass("cur");
+            $('.right-content .t_foot .leftbox .icon').addClass("cur")
+
+        }
+    });
+
+
+
+
+
+
+
+
+
+
+
+    //初始化上传相册功能
+    var uploaderAlbum = $.uploader({
+        pick: { id: $('.uploadalbum'), multiple: false },
+        container: $('.uploadalbum'),
+        bussCode: 2020,
+        usertype: 'xj',
+        imgW: 800,
+        imgH: 500,
+        thumbW: 240,
+        thumbH: 240,
+        fileSingleSizeLimit: 10 * 1024 * 1024,
+        uploadAccept: function (obj, json, ctrl) {
+            if (!json.success) {
+                ctrl.skipFile(obj.file);
+                layer.msg('相册上传失败：' + json.message);
+                //$('.schedule', ctrl.container).hide();
+            } else if (json.name) {
+                //上传成功，把上传完成的工作写在此处，是因为多线程上传，合并文件的线程不一定是最后响应并导致上传成功的事件获取不到正确的图片路径
+                upImg(json.url, ctrl.container);
+                //$('.schedule', ctrl.container).hide();
+            }
+        },
+        uploadProgress: function (file, percentage, ctrl) {
+            //if (percentage == Infinity) { return; }
+
+            ////var contPercent = $('.schedule label', ctrl.container);
+            //$(contPercent).parent().show();
+            //$(contPercent).css('width', Math.floor(percentage * 100) + '%');
+            //if (percentage == 1) {
+            //    contPercent.parent().hide();
+            //}
+        }
+    });
+
+
+</script>
+
+</body>
+</html>

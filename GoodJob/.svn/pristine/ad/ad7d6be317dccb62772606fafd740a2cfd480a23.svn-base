@@ -1,0 +1,61 @@
+/* CSS Document */
+/*主体*/
+.main{ padding-top:20px; margin-bottom:30px; _z-index:111; _position:relative;}
+.left{ width:165px; float:left; background-color:#fff; border-top:3px solid #ECECEC;}
+.right{ width:820px; float:right; background-color:#fff; _overflow:hidden;}
+.header,.top{ overflow:hidden;}
+h1{ margin:0px !important;}
+.summary{ background-color:#d0f0ff; height:40px; line-height:40px; font-size:14px; color:#333; font-family:"微软雅黑"; text-indent:1em; margin:0px auto 10px;}
+
+/*页脚*/
+.footer{ clear:both; border-top:1px solid #C8C8C8; padding:25px 0px;}
+/*第一层杂项*/
+.tail{ text-align:center; margin-bottom:20px;}
+.tail *{ display:inline-block; vertical-align:middle; font-size:12px;}
+.tail a,.tail samp{ color:#4a4a4a;}
+.tail a:hover{ color:#ff5000;}
+/*尾导航*/
+.tail-nav{ *margin-left:15px; _margin-left:0px; font-size:0px;}
+.tail-nav a{ display:inline-block; border-left:1px solid #a3a3a3; padding:0px 10px; font-size:12px;}
+.tail-nav a:hover{ color:#ff5000;}
+.tail-nav a.first{ border:0px;}
+/*ie67*/
+.tail{ white-space:nowrap;}
+/*版权*/
+.copyright{ text-align:center; line-height:200%; color:#969696; font-size:12px;}
+
+
+/*表单验证*/
+.inputText{ border:solid 1px #A6B6CE; line-height:15px; vertical-align:middle; padding:3px;background:url(../../images/common/inputBg1.jpg) repeat-x; }
+.errorMsg{ padding:2px; line-height:17px; width:auto; border:solid 1px #fb9f00; background:#FAFBED url(../../images/common/inputMsgBg1.jpg) 5px center no-repeat; color:red; padding-left:35px; padding-right:10px; margin-left:6px; }
+.errorMsg2{ padding:2px; line-height:17px; width:auto; border:solid 1px #FF0000; background:#ffb9b9 url(../../images/common/inputMsgBg1.jpg) 5px center no-repeat; color:red; padding-left:35px; padding-right:10px; margin-left:6px; }
+.tipMsg{ padding:2px; line-height:19px; border:solid 0px #FCEDB2; background:url(../../images/common/inputMsgBg2.jpg) 5px center no-repeat; color:#999999; padding-left:35px; padding-right:10px; margin-left:5px; }
+.successMsg{ padding:2px; line-height:19px; border:solid 0px #FCEDB2; background:url(../../images/common/inputMsgSuss.png) 5px center no-repeat; color:#999999; padding-left:35px; padding-right:10px; margin-left:5px; }
+.loadingMsg{ padding:2px; line-height:17px; border:solid 1px #FCEDB2; background:#FAFBED url(../../images/common/msgLoading.gif) 5px center no-repeat; color:#F58B11; padding-left:35px; padding-right:10px; margin-left:6px; }
+.tipMsg a{ text-decoration:underline; color:#999999; }
+.tipMsg a:hover{ text-decoration:underline; color:blue; }
+#aloading{ position:relative; left:10px; top:8px; *left:-20px;}
+
+
+/*切换后台*/
+.SwitchPlatform{ width:470px; height:210px; overflow:hidden;}
+.SwitchPlatform p{ line-height:25px; margin:10px 20px; color:#999; font-size:14px; font-family:"宋体";}
+.SwitchPlatform a{ color:#2677e2; font-size:16px; font-family:"微软雅黑";}
+.SwitchPlatform a.cur{ color:#ff5000;}
+
+/*审核失败*/
+.checks{ width:430px;}
+.checks .CenterContent{ padding:20px; background-color:#fafafa;}
+.checks h4{ line-height:80px; font-size:24px; text-align:center;}
+.checks h5{ font-size:16px; line-height:80px; text-align:center; font-weight:normal;}
+.checks p{ font-size:16px; color:#666; line-height:30px;}
+.checks p em{ font-style:normal; color:#2673ec;}
+.checks .CenterBtns{ text-align:left; margin-top:110px;}
+.checks .center{ text-align:center !important;}
+.checks .submit{ width:135px; height:40px; line-height:40px; font-size:16px; color:#fff; font-family:"微软雅黑"; float:none;}
+.checks .CenterBtns a{ color:#2673ec; font-size:16px;}
+.checks .CenterBtns a:hover{ color:#ff5e00;}
+
+/*成功提示*/
+.AllOK{ width:330px; background-color:#fff;}
+.AllOK strong{ display:block; text-align:center; line-height:130px; font-size:18px;}

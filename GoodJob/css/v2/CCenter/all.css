@@ -1,0 +1,250 @@
+/* 企业中心通用样式 */
+body{ background-color:#f8f8f8;}
+.hidden{ display:none;}
+/*通用头部*/
+.HEADER{ height:100px; border-bottom:2px solid #1562c8; background-color:#fff; box-shadow:0 5px 5px rgba(117,149,192,0.2); border-top:1px solid #fff;}
+.TOP-LOGO{ margin:25px 50px 0 0; float:left;}
+/*顶工具栏（小字链接）*/
+.TOP-TOOLS{ width:890px; float:right; line-height:60px; font-size:14px; color:#999; text-align:right;}
+.TOP-TOOLS a{ color:#999;}
+.TOP-TOOLS a:hover{ color:#1562c8; text-decoration:underline;}
+/*主导航*/
+.TOP-NAV{ float:left; font-size:18px;}
+.TOP-NAV li{ float:left; line-height:40px;}
+.TOP-NAV li a{ display:block; padding:0px 20px; color:#488ae2;}
+.TOP-NAV li a:hover,.TOP-NAV a.cur{ background-color:#1562c8; color:#fff;}
+
+/*主要布局*/
+.Main{}
+.Left{ width:220px; float:left; margin-top:40px;}
+.Right{ width:790px; float:right; background-color:#fff; margin-top:40px; margin-bottom:100px; min-height:500px; _height:500px;}
+
+/*左导航*/
+.Publish{ display:block; clear:both; background:#77b0fb url(../../../images/v2/icons/publish.jpg) 55px center no-repeat; padding-left:35px; text-align:center; color:#fff; font-size:18px; line-height:40px; height:40px; margin-bottom:5px;}
+.Publish:hover{ background-color:#1562c8;}
+
+.LeftNav{ clear:both; background-color:#fff; padding-bottom:50px;}
+.LeftNav h3,.LeftNav a{ background:url(../../../images/v2/icons/navline.jpg) bottom center no-repeat;}
+.LeftNav h3{ line-height:44px; font-size:20px; padding:0 30px; font-weight:normal;}
+.LeftNav p{ clear:both;}
+.LeftNav a{ display:block; line-height:36px; height:36px; color:#3f3f3f; font-size:16px; padding:0 25px 0 50px;}
+.LeftNav a:hover,.LeftNav a.cur{ background-color:#e8f2ff; color:#1562c8;}
+.LeftNav a span{ float:left;}
+.LeftNav a i{ float:right; width:20px; height:20px; line-height:20px; font-size:14px; color:#fff; background-color:#77b0fb; margin-top:8px; font-style:normal; text-align:center;}
+/*有的是带删除功能的*/
+.Settable del{ float:right; width:16px; height:16px; background-image:url(../../../images/v2/icons/trush.png); _background-image:url(../../../images/v2/icons/trush.gif); margin:10px 2px 0 0; display:none; overflow:hidden; _margin-righ:0px;}
+.Settable a:hover del{ display:block;}
+.Settable a:hover i{ display:none;}
+/*快捷添加*/
+.LeftNav .SELECT{ clear:both;}
+.LeftNav .SELECT dt{ line-height:40px; padding:0 25px 0 50px;}
+.LeftNav .SELECT-on dt{ background-color:#e8f2ff; color:#1562c8;}
+.LeftNav .SELECT dt *{ font-size:16px; color:#3f3f3f;}
+.LeftNav .SELECT dd{ background-color:#e8f2ff; padding:0 10px 10px; width:200px; _left:-50px;}
+.LeftNav .SELECT input{ border:0; height:30px; float:left;}
+.LeftNav .SELECT .text{ width:130px; padding:0 10px; line-height:30px; font-size:14px; color:#525252;}
+.LeftNav .SELECT .submit{ width:50px; font-size:16px; cursor:pointer; color:#fff; background-color:#1562c8;}
+
+/*顶版块说明*/
+.Intro{ clear:both; background-color:#ebf3ff; overflow:hidden; _padding-bottom:1px;}
+.Intro dt{ background:url(../../../images/v2/fold.jpg) right top no-repeat transparent; border-bottom:1px solid #cfe5ff; line-height:50px; height:50px;}
+.Intro dt.margin{ margin-bottom:10px;}
+.Intro dt h1{ font-size:20px; color:#1562c8; padding-left:15px; float:left; font-weight:normal;}
+.Intro dt small{ font-size:14px;}
+.Intro dt a{ display:block; float:right; color:#1562c8; padding-left:20px; background-position:left center; background-repeat:no-repeat;}
+.Intro .refresh{ padding:0 40px 0 20px; background-image:url(../../../images/v2/icons/refresh.png);}
+.Intro .refresh{ _background-image:url(../../../images/v2/icons/refresh.gif);}
+.Intro .edit,.Intro .delete{ height:20px; padding:20px;}
+.Intro .edit{ background-image:url(../../../images/v2/icons/edit-deep.png); _background-image:url(../../../images/v2/icons/edit-deep.gif);}
+.Intro .delete{ margin-right:20px; background-image:url(../../../images/v2/icons/trash-deep.png); _background-image:url(../../../images/v2/icons/trash-deep.gif);}
+.Intro dd{ margin:20px 50px; background:url(../../../images/v2/tip.png) #fff 24px center no-repeat; border:1px dashed #cfe5ff; padding:20px 20px 20px 110px; font-size:14px; color:#606060; line-height:25px; min-height:50px;}
+.Intro dd{ _background-image:url(../../../images/v2/tip.gif);}
+.Intro dd a{ color:#1562c8; text-decoration:underline;}
+.Intro dd a:hover{ color:#252525; text-decoration:none;}
+
+
+/*标题标签*/
+.Topics{ clear:both; height:42px; background-color:#cde4ff; line-height:40px; padding:0 10px;}
+.Topics h2{ font-size:18px; font-weight:normal; float:left; margin-right:10px;}
+.Topics a{ color:#1562c8; border-top:2px solid #cde4ff; display:block; padding:0 20px; white-space:nowrap;}
+.Topics a:hover,.Topics a.cur{ background-color:#fff; border-top-color:#1562c8;}
+.Topics a.new span{ padding-right:10px; background-image:url(../../../images/v2/icons/new.png); background-repeat:no-repeat; background-position:right top;}
+.Topics a.new span{ _background-image:url(../../../images/v2/icons/new.gif);}
+.Topics .text-container{ float:right; width:220px;}
+.Topics .text-container .PLACEHOLDER{ margin-top:6px !important;}
+.Topics input{ float:right; border:0; height:30px; background-color:#fff; margin-top:6px;}
+.Topics .submit{ width:30px; cursor:pointer; background:url(../../../images/v2/icons/magnifier-l.png) #fff center no-repeat;}
+.Topics .submit{ _background-image:url(../../../images/v2/icons/magnifier-l.gif);}
+.Topics .text{ padding:0 10px; font-size:16px; color:#1562c8; width:200px; line-height:30px;}
+/*日期选择*/
+.Topics .calendar{ display:block; float:right; width:26px !important; height:26px !important; cursor:pointer; margin:8px; background-image:url(../../../images/v2/icons/calendar.png); _background-image:url(../../../images/v2/icons/calendar.gif); position:relative; _overflow:visible;}
+#calendar{ visibility:hidden; width:5px;}
+/*职位管理上-如何提高好工作指数*/
+.Topics dfn{ font-size:16px; color:#1562c8; float:right; padding-right:10px; font-style:normal; cursor:pointer;}
+
+/*查询关键字与时间*/
+.Query{ clear:both; padding:20px; font-size:14px; color:#a4a4a4; background-color:#fff;}
+.Query a{ color:#1562c8;}
+
+/*没有信息*/
+.Nothing{ text-align:center; color:#87b7f5; font-size:24px; padding:80px; background-color:#fff;}
+
+/*温馨提示*/
+.WarmTip{ width:606px; height:332px; margin:0 auto; background-image:url(../../../images/v2/warmtip-company.png); _background-image:url(../../../images/v2/warmtip-company.gif); position:relative;}
+.WarmTip q{ display:block; position:absolute; right:0; top:0; width:55px; height:55px; background-image:url(../../../images/v2/icons/times-circle.png); _background-image:url(../../../images/v2/icons/times-circle.gif); cursor:pointer;}
+.WarmTip a{ display:block; position:absolute; left:327px; top:228px; font-size:18px; color:#1562c8; cursor:pointer;}
+
+/*职位邀请提示*/
+.InviteTip{ display:none; width:703px; height:436px; margin:0 auto; background-image:url(../../../images/v2/invitetip.png); position:relative; overflow:hidden; text-align:left; _background-image:url(../../../images/v2/invitetip.gif);}
+.InviteTip q{ display:block; position:absolute; right:0; top:0; width:55px; height:55px; background-image:url(../../../images/v2/icons/times-circle.png); _background-image:url(../../../images/v2/icons/times-circle.gif); cursor:pointer;}
+.InviteTip h5{ font-size:18px; color:#333; margin:0 auto; padding:180px 0 20px; width:520px; line-height:30px; font-weight:normal;}
+.InviteTip p{ font-size:16px; line-height:25px; width:520px; color:#333; margin:0 auto;}
+
+/*新增简历推荐*/
+/*侧链接*/
+.ResumePushIcon{ width:80px; height:117px; background-image:url(../../../images/v2/resumepush.png); background-image:url(../../../images/v2/resumepush.gif); right:0px;}
+.ResumePush{ width:760px; height:484px; border:8px solid #5499f4; background-color:#fff; margin:0 auto; position:relative; text-align:left; overflow:visible !important;}
+.ResumePush q{ position:absolute; width:40px; height:40px; background:#5499f4 url(../../../images/v2/icons/times-l.png) no-repeat center; right:-48px; top:-8px; cursor:pointer;}
+.ResumePush dt{ height:64px; background-color:#e0eeff; font-size:18px; color:#1562c8; line-height:64px; text-align:center;}
+.ResumePush dd{ max-height:420px; overflow:auto;}
+.ResumePushList{ width:100%;}
+.ResumePushList td{ height:140px;}
+.ResumePushList a.profile{ color:#646464; font-size:14px; line-height:26px;}
+.ResumePushList a.profile *{ text-align:left;}
+.ResumePushList h4{ font-weight:normal; color:#1562c8; font-size:20px; line-height:30px;}
+.ResumePushList h4 small{ font-size:14px; color:#525252; padding-left:1em;}
+.ResumePushList p{ font-size:14px; color:#6b6b6b; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; width:98%;}
+.ResumePushList p samp{ display:inline-block; width:125px; height:15px; position:relative; top:4px;}
+.ResumePushList .timetip span{ display:block; text-align:left; text-indent:1em;}
+.ResumePushList .rest{ font-size:16px; color:#525252; margin-bottom:10px;}
+.ResumePushList .time{ font-size:18px; color:#ff4401;}
+.ResumePushList .options a{ display:block; width:120px; height:34px; line-height:34px; font-size:16px; color:#1562c8; text-align:right;}
+.ResumePushList .invite,.ResumePushList .invite:hover{ background-color:#1562c8 !important; color:#fff !important; text-align:center !important;}
+.ResumePushList .notmatch{ text-align:right; color:#1562c8;}
+.ResumePushList .bg td{ background-color:#f7faff;}
+.ResumePushList .profile_color>span{color: #1c72e5; line-height: 42px;}
+/*中间弹出层*/
+.CenterForm em{ display:inline-block; margin-top:5px; font-style:normal; font-size:20px; color:#1562c8;}
+.CenterForm .link{ float:left; margin:5px 0 0 20px; color:#1562c8;}
+.CenterForm .link:hover{ color:#fe6703;}
+.CenterForm dd.normal a{ padding:0 10px;}
+.CenterForm .s-l{ width:350px;}
+.CenterForm .s-l td span,.CenterForm .s-l dt b{ width:310px; line-height: 50px;}
+.CenterForm .s-l td span,.CenterForm .s-l dt b{width:310px; line-height: 30px;}
+.CenterForm .s-l dd{ width:348px;}
+.CenterForm  .author,.tel,.email{
+	position: relative;
+ 	padding-left: 18px;
+	margin-left: 10px; 
+}
+.CenterForm  td span i{
+     position: absolute;
+     left: 0;
+     top: -10px;
+     display: inline-block;
+     height: 18px;
+     margin-top: 14px;
+     padding-right: 20px;
+	 background: url(../../../images/v2/CCenter/pic.png) no-repeat;
+	 }
+.CenterForm .tel i{
+	top: -12px;
+	background: url(../../../images/v2/CCenter/iPhone.png) no-repeat;	
+}
+
+.CenterForm .email i{
+	top: -9px;
+	background: url(../../../images/v2/CCenter/email.png) no-repeat;	
+}
+
+.CenterForm .email{
+	margin-right: 20px;
+}
+
+.CenterForm .revise{
+	line-height: 30px;
+	margin-top: 5px;
+}
+/*发送邀请函*/
+
+/* 
+.Invitation{}
+.Invitation .caption p, .CoopInvitation .caption p{ float:left;}
+.Invitation .caption p del, .CoopInvitation .caption p del{ text-decoration:none; font-size:12px; color:#999;}
+.Invitation .caption a, .CoopInvitation .caption a{ display:block; float:right; background-color:#1562c8; color:#fff; padding:0 20px;}
+.Invitation .td ins, .CoopInvitation .td ins{ float:left; text-decoration:none; margin-top:5px;}
+.Invitation .t-m, .CoopInvitation .t-m{ width:200px;}
+.Invitation .Hour, .CoopInvitation .Hour{ margin-left:14px;}
+.Invitation .s-s, .CoopInvitation .s-s{ width:100px;}
+.Invitation .s-s dt span,.CoopInvitation .s-s dt span{ width:60px;}
+.Invitation .s-s dd, .CoopInvitation .s-s dd{ width:98px;}
+.Invitation .t-s, .CoopInvitation .t-s{ width:120px;}
+.Invitation .t-l, .CoopInvitation .t-l{ width:430px;}
+.Invitation .div, .CoopInvitation .div{ float:left;}
+.Invitation .AuthorDiv,.CoopInvitation .AuthorDiv{ width:182px;}
+.Invitation div .errorMsg2,.CoopInvitation div .tipMsg{ margin-right:20px;}
+.Invitation .TelDiv , .CoopInvitation .TelDiv{ width:298px;}
+.Invitation .TelDiv .errorMsg, .CoopInvitation .TelDiv .errorMsg{ margin-left:50px;}
+.Invitation textarea,.CoopInvitation textarea{ width:430px; height:80px;}
+.Invitation .p.tip,  .CoopInvitation .p.tip{ color:#1562c8; font-size:14px;}
+.Invitation .p.tip b,.CoopInvitation .p.tip b{ color:#f60; font-weight:normal;}
+
+ */
+ .Invitation{}
+.CoopInvitation caption p ,.Invitation caption p{ float:left;}
+.CoopInvitation caption p del ,.Invitation caption p del{ text-decoration:none; font-size:12px; color:#999;}
+.CoopInvitation caption a ,.Invitation caption a, .revise{ display:block; float:right; background-color:#1562c8; color:#fff; padding:0 20px;}
+.CoopInvitation td ins, .Invitation td ins{ float:left; text-decoration:none; margin-top:5px;}
+.CoopInvitation .t-m, .Invitation .t-m{ width:200px;}
+.CoopInvitation .Hour, .Invitation .Hour{ margin-left:14px;}
+.CoopInvitation .s-s, .Invitation .s-s{ width:100px;}
+.CoopInvitation .s-s dt span,.CoopInvitation .s-s dt b, .Invitation .s-s dt span,.Invitation .s-s dt b{ width:60px;}
+.CoopInvitation .s-s dd, .Invitation .s-s dd{ width:98px;}
+.CoopInvitation .t-s ,.Invitation .t-s{ width:120px;}
+.CoopInvitation .t-l ,.Invitation .t-l{ width:430px;}
+.CoopInvitation div ,.Invitation div{ float:left;}
+.CoopInvitation .AuthorDiv, .Invitation .AuthorDiv{ width:182px;}
+.CoopInvitation div .errorMsg,.CoopInvitation div .errorMsg2,.CoopInvitation div .tipMsg,
+.Invitation div .errorMsg,.Invitation div .errorMsg2,.Invitation div .tipMsg{ margin-right:20px;}
+
+.CoopInvitation .TelDiv, .Invitation .TelDiv{ width:298px;}
+.CoopInvitation .TelDiv .errorMsg,.CoopInvitation .TelDiv .errorMsg2,.CoopInvitation .TelDiv .tipMsg,
+.Invitation .TelDiv .errorMsg,.Invitation .TelDiv .errorMsg2,.Invitation .TelDiv .tipMsg{ margin-left:50px;}
+
+
+.CoopInvitation textarea , .Invitation textarea{ width:594px; height:289px;}
+.Invitation_copy textarea{ width:430px; height:100px;}
+.CoopInvitation textarea{width: 572px;}
+.CoopInvitation p.tip, .Invitation p.tip{ color:#1562c8; font-size:14px;}
+.CoopInvitation p.tip b, .Invitation p.tip b{ color:#f60; font-weight:normal;} 
+
+/*不合适*/
+.NotMatch{}
+.NotMatch td,.NotMatch th{ padding:0;}
+.NotMatch textarea{ width:430px; height:130px;}
+
+/*调整时间*/
+.TimeChange{ overflow:visible !important;}
+.TimeChange .Date{ width:135px; margin-right:10px;}
+.TimeChange .SELECT{ width:80px;}
+.TimeChange .SELECT dt span,.TimeChange .SELECT dt b{ width:43px;}
+.TimeChange .Hour dd{ width:100px;}
+.TimeChange .Hour dd a{ padding:0; width:50px; _width:49px; text-align:center; float:left; clear:none;}
+.TimeChange .Hour dd a:hover{ background-color:#5593e6; color:#fff;}
+.TimeChange .Minute dd{ width:78px;}
+.TimeChange ins{ float:left; text-decoration:none; margin-top:5px;}
+.TimeChange th,.TimeChange td{ line-height:34px; padding:0;}
+.TimeChange em{ margin:0;}
+/*职位选择*/
+
+.TimeChange .Type{ width :76px; height: 34px;}
+.TimeChange .Type dt{ height: 34px;background: #e4efff url(../../../images/v2/icons/triangle-down-blue.png) 50px center no-repeat;
+border-right: 0;}
+.TimeChange .Type dd{ width: 74px; padding:0; text-align:center;}
+/*职位选择*/
+
+.TimeChange .Jobs { width: 266px;}
+.TimeChange .Jobs dt { border-left: 0;}
+.TimeChange .Jobs dt b{width: 240px; height: 34px; border:0;}
+.TimeChange .Jobs dd{ width: 340px; padding:0; margin-left: -76px;}
+.TimeChange .Jobs dd a{ display: block;}

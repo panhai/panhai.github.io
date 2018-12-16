@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>企业中心-开通服务</title>
+<link rel="stylesheet" type="text/css" href="../css/v2/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/CCenter/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/CCenter/open-service.css">
+</head>
+
+<body>
+<div class="HEADER"><div class="common">
+	<div class="TOP-LOGO"><a href="#"><img src="../images/v2/logo-s.jpg" width="119" height="62"><img src="../images/v2/openservice.gif" width="170" height="27"></a></div>
+    <div class="TOP-TOOLS">
+    	Admin, <a href="#">退出</a>&nbsp;&nbsp;&nbsp;<a href="#">个人中心</a>&nbsp;&nbsp;&nbsp;<a href="#">反馈</a>&nbsp;&nbsp;&nbsp;<a href="#">HR帮助</a>
+    </div>
+</div></div>
+
+<div class="Main common">
+	<div class="TOPIC">开通招聘服务</div>
+    <div class="Content">
+        <p>尊敬的HR您好，欢迎使用好工作！</p>
+    	<h3>公司未开通招聘服务</h3>
+        <p>请点击<b>"开通招聘服务"</b>，填写公司信息后，我们将会在最短的时间内进行审核</p>
+        <p>审核通过后，您的账号将会与公司进行绑定</p>
+        <a href="new-open.html" class="submit">开通招聘服务</a>
+        <h3>公司已开通招聘服务</h3>
+        <p>如您所在公司已开通招聘服务，您需要让其他HR将您的账号进行绑定，绑定后即可进入公司的"企业后台"</p>
+		<p>绑定流程：<b>账号管理--管理员账号设置--管理员绑定</b></p>
+    </div>
+</div>
+
+<table class="FullScreenPlugin fixed fixed-top black5"><tr><td>
+	<div class="WarmTip"><a>知道了</a><q></q></div>
+</td></tr></table>
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script>
+$(function(){
+	$(".WarmTip").find("a,q").click(function(){
+		$(this).closest(".FullScreenPlugin").fadeOut();
+	});
+});
+</script>

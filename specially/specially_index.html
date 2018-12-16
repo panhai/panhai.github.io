@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			a{
+				text-decoration: none;
+			}
+			.app{
+				width: 1200px;
+				min-height: 800px;
+				margin: 0 auto;
+				padding: 40px 20px 30px 20px;
+				box-sizing: border-box;
+				box-shadow: 0 0 5px #0000CC;
+				font-size: 0px;
+			}
+			.app>a{
+				display: inline-block;
+				padding: 3px 8px;
+				border-radius: 4px;
+				background-color: #003EFF;
+				color: #fff;
+				font-size: 14px;
+				margin: 5px 4px 0px 0px;
+			}
+			h1{
+				height: 200px;
+				width: 1200px;
+				border: 1px solid #0000CC;
+				margin: 0 auto;
+			}
+			.sp{
+				position: relative;
+				left: 0;
+				top: 0;
+				animation:mymove 9s ease infinite;
+			}
+			
+			
+		@keyframes mymove{
+			0%{
+				left: 0px;
+				top: 0;
+				color: red;
+			}
+			25%{
+				left: 1136px;
+				top: 0;
+				color: yellow;
+			}
+			50%{
+				top: 150px;
+				left: 1136px;
+				color: blue;
+			}
+			75%{
+				left: 0px;
+				top: 150px;
+				color: green;
+			}
+			100%{
+				top: 0px;
+				left: 0px;
+				color: #000000;
+			}
+		}
+		
+		@-webkit-keyframes mymove{
+			0%{
+				left: 0px;
+				top: 0;
+				color: red;
+			}
+			25%{
+				left: 1136px;
+				top: 0;
+				color: yellow;
+			}
+			50%{
+				top: 150px;
+				left: 1136px;
+				color: blue;
+			}
+			75%{
+				left: 0px;
+				top: 150px;
+				color: green;
+			}
+			100%{
+				top: 0px;
+				left: 0px;
+				color: #000000;
+			}
+		}
+		</style>
+	</head>
+	<body>
+		<h1><span class="sp">特效</span></h1>
+		<div class="app">
+			<a href="tab.html">tab切换</a>
+			<a href="dibu_guanggao.html">底部广告</a>
+			<a href="full_page.html">页面全屏滚动</a>
+			
+		</div>
+		
+		
+		
+		
+		<script src="jquery-1.12.2.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				
+			})
+		</script>
+	</body>
+</html>

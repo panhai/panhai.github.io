@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>企业中心-开通服务-成功</title>
+<link rel="stylesheet" type="text/css" href="../css/v2/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/CCenter/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/CCenter/open-service.css">
+</head>
+
+<body>
+<div class="HEADER"><div class="common">
+	<div class="TOP-LOGO"><a href="#"><img src="../images/v2/logo-s.jpg" width="119" height="62"><img src="../images/v2/openservice.gif" width="170" height="27"></a></div>
+    <div class="TOP-TOOLS">
+    	Admin, <a href="#">退出</a>&nbsp;&nbsp;&nbsp;<a href="#">个人中心</a>&nbsp;&nbsp;&nbsp;<a href="#">反馈</a>&nbsp;&nbsp;&nbsp;<a href="#">HR帮助</a>
+    </div>
+</div></div>
+
+<div class="Main common">
+	<div class="TOPIC">开通招聘服务</div>
+    <div class="Content">
+    	<p>&nbsp;</p>
+        <h4>感谢您使用好工作：</h4>
+        <p>企业资料保存成功并已提交至审核。审核通过后，将通过邮件通知您。</p>
+        <p>届时，客服人员也将与您联系，请您耐心等待！</p>
+        <a href="../index-new.html" class="submit">返回好工作首页</a>
+    </div>
+</div>
+</body>
+</html>

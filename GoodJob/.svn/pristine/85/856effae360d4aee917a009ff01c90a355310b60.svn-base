@@ -1,0 +1,654 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>企业中心-职位管理-已发布职位-全部职位</title>
+<link rel="stylesheet" type="text/css" href="../css/v2/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/CCenter/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/CCenter/jobs.css">
+</head>
+
+<body>
+<div class="HEADER"><div class="common">
+	<div class="TOP-LOGO"><a href="#"><img src="../images/v2/logo-s.jpg" width="119" height="62"></a></div>
+    <div class="TOP-TOOLS">
+    	Admin, <a href="#">退出</a>&nbsp;&nbsp;&nbsp;<a href="#">个人中心</a>&nbsp;&nbsp;&nbsp;<a href="#">反馈</a>&nbsp;&nbsp;&nbsp;<a href="#">HR帮助</a>
+    </div>
+    <ul class="TOP-NAV">
+    	<li><a href="new-index.html" class="cur">首页</a></li>
+    	<li><a href="new-publish.html">发布职位</a></li>
+    	<li><a href="new-profile.html">企业资料</a></li>
+    	<li><a href="new-hrfavors.html">HR收藏夹</a></li>
+    	<li><a href="new-settings.html">账号管理</a></li>
+    </ul>
+</div></div>
+
+<div class="Main common">
+	<div class="Left">
+    	<a href="new-publish.html" class="Publish">发布新职位</a>
+        <div class="LeftNav">
+            <h3>简历管理</h3>
+            <p>
+                <a href="new-index-resume-newcome.html"><span>未处理简历</span><i>30</i></a>
+                <a href="new-index-resume-invited.html"><span>已邀请面试</span><i>30</i></a>
+                <a href="new-index-resume-confirmed.html"><span>已确认面试</span><i>30</i></a>
+                <a href="new-index-resume-notmatch.html"><span>不合适简历</span><i>30</i></a>
+                <a href="new-index-resume-stores.html"><span>企业人才库</span><i>30</i></a>
+            </p>
+            <h3>职位管理</h3>
+            <p>
+                <a href="new-index-job-published.html" class="cur"><span>已发布职位</span><i>30</i></a>
+                <a href="new-index-job-checking.html"><span>审核中职位</span><i>30</i></a>
+                <a href="new-index-job-stopped.html"><span>已暂停职位</span><i>30</i></a>
+            </p>
+            <h3>校企合作</h3>
+            <p>
+                <a href="new-index-cooperate.html"><span>学校合作邀请</span><i>30</i></a>
+                <a href="new-index-cooperate-sent.html"><span>发出的邀请</span><i>30</i></a>
+                <a href="new-index-cooperate-received.html"><span>收到的申请</span><i>30</i></a>
+                <a href="new-index-cooperate-schools.html"><span>已达成合作</span><i>30</i></a>
+            </p>
+        </div>
+    </div>
+	<div class="Right">
+        <dl class="Intro">
+            <dt class="margin">
+                <h1>已发布职位<small>（共6份）</small></h1>
+                <a href="#" class="refresh">刷新</a>
+            </dt>
+        </dl>
+        <div class="Topics">
+        	<h2><a href="new-index-job-published.html" class="cur"><span>全部职位</span></a></h2>
+        	<h2><a href="#new-index-job-published2.html"><span>校企合作职位</span></a></h2>
+            <dfn>如何提高好工作指数？</dfn>
+        </div>
+        <div class="Filters">
+            <input type="button" class="submit" value="">
+            <pre class="text-container"><input type="text" class="text" placeholder="请输入关键词" data-init="true"></pre>
+            <dl class="SELECT FilterBranches" data-placeholder="全部部门">
+            	<input type="hidden">
+            	<dt><span></span><i></i></dt>
+                <dd class="normal single">
+                	<a data-id="1">一二三四五六一二三四五六</a>
+                	<a data-id="2">一二三四五六一二三四五六</a>
+                	<a data-id="3">一二三四五六一二三四五六</a>
+                	<a data-id="4">一二三四五六一二三四五六</a>
+                	<a data-id="5">一二三四五六一二三四五六</a>
+                </dd>
+            </dl>
+            <dl class="SELECT FilterJobs" data-placeholder="全部职位">
+            	<input type="hidden">
+            	<dt><span></span><i></i></dt>
+                <dd class="normal single">
+                	<a data-id="1">一二三四五六一二三四五六一二三四五六一二三四五六</a>
+                	<a data-id="2">一二三四五六一二三四五六一二三四五六一二三四五六</a>
+                	<a data-id="3">一二三四五六一二三四五六一二三四五六一二三四五六</a>
+                	<a data-id="4">一二三四五六一二三四五六一二三四五六一二三四五六</a>
+                	<a data-id="5">一二三四五六一二三四五六一二三四五六一二三四五六</a>
+                </dd>
+            </dl>
+        </div>
+        <div class="Query"><!--无查询串就不放这块-->
+        	<a href="#">返回全部&gt;</a>
+            这里边放时间、关键字，共搜索到3份简历
+        </div>
+        <div class="Nothing">
+        	<p><img src="../images/v2/nothing.png" width="176" height="148"></p>
+        	<p>暂无记录</p>
+        </div>
+        <ul class="Infors">
+        	<li class="pushed">
+            	<div class="job">
+                	<h4>
+                    	<a href="job-new.html">平面设计师</a><i>100</i>
+                        <ins><cite>
+                        	<del></del>与3个学校建立合作：
+                            <strong>广东省轻工业职业技术学院-机械及其自动化学院</strong>
+                            <strong>北大青鸟</strong>
+                            <strong>广东工业大学-艺术设计学院</strong>
+                        </cite></ins>
+                    </h4>
+                    <p>月薪：<b>5000-7000</b>&nbsp;&nbsp;&nbsp;&nbsp;经验：<b>1-3年</b>&nbsp;&nbsp;&nbsp;&nbsp;学历：<b>大专</b></p>
+                    <p>刷新时间：<b>2015-1-26   09:30</b></p>
+                </div>
+                <div class="options">
+                    <p class="first"><a href="#" class="urgency">设为急聘</a></p>
+                	<p>投递：<b>200</b>&nbsp;&nbsp;已处理：<b>90</b></p>
+                    <p>
+                    	<a href="#" data-id="" class="refresh">刷新</a>
+                        <a href="#" data-id="" class="push">竞价中</a>
+                        <a href="new-publish.html" data-id="">修改</a>
+                        <a href="#" data-id="" class="stop">暂停</a>
+                    </p>
+                </div>
+            </li>
+        	<li>
+            	<div class="job">
+                	<h4>
+                    	<a href="job-new.html">平面设计师</a><i>100</i>
+                        <ins><cite>
+                        	<del></del>与3个学校建立合作：
+                            <strong>广东省轻工业职业技术学院-机械及其自动化学院</strong>
+                            <strong>北大青鸟</strong>
+                            <strong>广东工业大学-艺术设计学院</strong>
+                        </cite></ins><span>急聘</span>
+                    </h4>
+                    <p>月薪：<b>5000-7000</b>&nbsp;&nbsp;&nbsp;&nbsp;经验：<b>1-3年</b>&nbsp;&nbsp;&nbsp;&nbsp;学历：<b>大专</b></p>
+                    <p>刷新时间：<b>2015-1-26   09:30</b></p>
+                </div>
+                <div class="options">
+                    <p class="first"><a href="#" class="urgency">设为急聘</a></p>
+                	<p>投递：<b>200</b>&nbsp;&nbsp;已处理：<b>90</b></p>
+                    <p>
+                    	<span>已刷新</span>
+                        <a href="#" data-id="" class="push">竞价中</a>
+                        <a href="new-publish.html" data-id="">修改</a>
+                        <a href="#" data-id="" class="stop">暂停</a>
+                    </p>
+                </div>
+            </li>
+        	<li>
+            	<div class="job">
+                	<h4><a href="job-new.html">平面设计师</a><i>100</i></h4>
+                    <p>月薪：<b>5000-7000</b>&nbsp;&nbsp;&nbsp;&nbsp;经验：<b>1-3年</b>&nbsp;&nbsp;&nbsp;&nbsp;学历：<b>大专</b></p>
+                    <p>刷新时间：<b>2015-1-26   09:30</b></p>
+                </div>
+                <div class="options">
+                    <p class="first"><a href="#" class="offUrgency">取消急聘</a></p>
+                	<p>投递：<b>200</b>&nbsp;&nbsp;已处理：<b>90</b></p>
+                    <p>
+                    	<a href="#" data-id="" class="refresh">刷新</a>
+                        <a href="#" data-id="" class="push">置顶</a>
+                        <a href="new-publish.html" data-id="">修改</a>
+                        <a href="#" data-id="" class="stop">暂停</a>
+                    </p>
+                </div>
+            </li>
+        	<li>
+            	<div class="job">
+                	<h4><a href="job-new.html">平面设计师</a><i>100</i></h4>
+                    <p>月薪：<b>5000-7000</b>&nbsp;&nbsp;&nbsp;&nbsp;经验：<b>1-3年</b>&nbsp;&nbsp;&nbsp;&nbsp;学历：<b>大专</b></p>
+                    <p>刷新时间：<b>2015-1-26   09:30</b></p>
+                </div>
+                <div class="options">
+                	<p class="first">投递：<b>200</b>&nbsp;&nbsp;已处理：<b>90</b></p>
+                    <p>
+                    	<span>已刷新</span>
+                        <a href="#" data-id="" class="push">置顶</a>
+                        <a href="new-publish.html" data-id="">修改</a>
+                        <a href="#" data-id="" class="stop">暂停</a>
+                    </p>
+                </div>
+            </li>
+        	<li>
+            	<div class="job">
+                	<h4><a href="job-new.html">平面设计师</a><i>100</i></h4>
+                    <p>月薪：<b>5000-7000</b>&nbsp;&nbsp;&nbsp;&nbsp;经验：<b>1-3年</b>&nbsp;&nbsp;&nbsp;&nbsp;学历：<b>大专</b></p>
+                    <p>刷新时间：<b>2015-1-26   09:30</b></p>
+                </div>
+                <div class="options">
+                    <p class="first"><a href="javascript:void(0)" class="errorWin">设为急聘</a></p>
+                	<p>投递：<b>200</b>&nbsp;&nbsp;已处理：<b>90</b></p>
+                    <p>
+                    	<a href="#" data-id="" class="refresh">刷新</a>
+                        <a href="#" data-id="" class="push">置顶</a>
+                        <a href="new-publish.html" data-id="">修改</a>
+                        <a href="#" data-id="" class="stop">暂停</a>
+                    </p>
+                </div>
+            </li>
+        	<li>
+            	<div class="job">
+                	<h4><a href="job-new.html">平面设计师平面设计师平面设计师平面设计师	</a><i>100</i></h4>
+                    <p>月薪：<b>5000-7000</b>&nbsp;&nbsp;&nbsp;&nbsp;经验：<b>1-3年</b>&nbsp;&nbsp;&nbsp;&nbsp;学历：<b>大专</b></p>
+                    <p>刷新时间：<b>2015-1-26   09:30</b></p>
+                </div>
+                <div class="options">
+                    <p class="first"><a href="#">设为急聘</a></p>
+                	<p>投递：<b>200</b>&nbsp;&nbsp;已处理：<b>90</b></p>
+                    <p>
+                    	<span>已刷新</span>
+                        <a href="#" data-id="" class="push">置顶</a>
+                        <a href="new-publish.html" data-id="">修改</a>
+                        <a href="#" data-id="" class="stop">暂停</a>
+                    </p>
+                </div>
+            </li>
+        </ul>
+        <div class="PAGES">
+        	<a href="#">首页</a>
+        	<a href="#">上一页</a>
+        	<a href="#" class="cur">1</a>
+        	<a href="#">2</a>
+        	<a href="#">3</a>
+        	<a href="#">下一页</a>
+        	<a href="#">尾页</a>
+        </div>
+    </div>
+	<div class="clear"></div>
+</div>
+
+<table class="FullScreenPlugin fixed fixed-top CenterDivContainer"><tr><td>
+    <dl class="CENTERDIV CenterHuge JobPush" data-active=".options a.push" data-attrs="id">
+        <dt class="CENTERTOPIC"><b>职位竞价置顶</b><q></q></dt>
+        <dd class="CENTERCONTENT">
+        	<table class="CenterForm">
+            	<caption>
+                	<p>职位：<em class="name">销售经理</em></p>
+                    <a href="../Users/push.html" class="help">置顶帮助</a>
+                </caption>
+                <tbody>
+                    <tr>
+                        <td width="360"><h4>出价</h4></td>
+                        <td width="30" rowspan="6" class="line">&nbsp;</td>
+                        <td width="30" rowspan="6">&nbsp;</td>
+                        <td width="320" rowspan="6">
+                            <p><em>温馨提示：</em></p>
+                            <p>1、置顶功能只能针对有效职位，置顶后请确保职位处于有效状态！</p>
+                            <p>2、置顶生效时间内请勿更改职位类别，否则职位不能保证正常置顶显示！</p>
+                            <p>3、在截止时间之前，您可以继续追加出价，但不能撤销或者降低出价！</p>
+                            <p>4、职位排名生效时间：竞价后次日（0时~24时）</p>
+                            <p>5、如竞价不成功，竞价时扣取的费用将返还回账户</p>
+                        </td>
+                    </tr>
+                    <tr><td>剩余时间：
+                        <dfn>
+                            <em class="hour">2</em>小时
+                            <em class="minute">23</em>分
+                            <em class="second">20</em>秒
+                        </dfn>
+                    </td></tr>
+                    <tr><td>地区：<em class="city">广州</em></td></tr>
+                    <tr><td>职能：<em class="jobpos">产品经理</em></td></tr>
+                    <tr><td class="price">出价：<input type="text" class="text lowprice" placeholder="最低起价20元"> 参考价：<em class="refprice">100元</em></td></tr>
+                    <tr><td class="message"><label><input type="checkbox" name="message" class="message">竞价结果及时短信通知 (免费)</label></td></tr>
+                </tbody>
+                <tfoot>
+                	<tr>
+                    	<td colspan="3">
+                        	<span>帐户余额：</span><strong>2000元</strong>
+                        	<span>赠送余额：</span><strong>2000元</strong>
+                        	<a href="new-other-charge.html" class="charge">充值</a>
+                        </td>
+                        <td class="CENTERBTNS">
+                            <input type="button" class="submit" value="确认">
+                            <input type="button" class="reset" value="取消">
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </dd>
+    </dl>
+    <dl class="CENTERDIV CenterMiddle JobPushing" data-active=".JobPush .submit">
+        <dt class="CENTERTOPIC"><b>职位竞价置顶</b><q></q></dt>
+        <dd class="CENTERCONTENT">
+        	<table class="Pushing">
+            	<tbody>
+                    <tr><th width="200">职能</th><th width="130">地区</th><th width="120">出价金额（元）</th></tr>
+                    <tr><td class="jobpos"></td><td class="city"></td><td class="price"></td></tr>
+                </tbody>
+                <tfoot>
+                	<tr><td colspan="3">系统将暂停时冻结元账户余额，成功竞标后直接扣除，否则自动返还至您的账户。</td></tr>
+                    <tr><td colspan="3" class="CENTERBTNS">
+                        <input type="button" class="submit" value="确认">
+                        <input type="button" class="reset" value="取消">
+                    </td></tr>
+                </tfoot>
+            </table>
+        </dd>
+    </dl>
+    <div class="CENTERDIV How" data-active=".Topics dfn">
+    	<q></q>
+        <div>
+            <p>"好工作指数"是决定职位在被检索时排序的重要因素之一。</p>
+            <p>1、对求职者简历，建议您快速处理，快速反馈。</p>
+            <p>2、必须发布真实有效，有招聘需求的职位。</p>
+            <p>3、不要重复发布相同的职位。</p>
+            <p>4、招聘完成之后，请及时暂停掉职位，需要招聘时，再激活职位！</p>
+            <p><b>如您参照以上几条建议，好工作指数妥妥的！</b></p>
+        </div>
+    </div>
+</td></tr></table>
+
+<table class="FullScreenPlugin fixed fixed-top CenterDivContainer"><tr><td>
+<!-- 设置急聘岗位 -->
+    <dl class="CENTERDIV CenterLarge_copy JobsUrgency" data-active=".options .urgency">
+         <dt class="CENTERTOPIC"><b>设为急聘职位</b><q></q></dt>
+         <dd class="CENTERCONTENT">
+             <table class="CenterForm">
+                 <caption><h3>设为急聘职位，提升职位权重，让职位排名置前！</h3>
+                 <p>同时获得求职者邮件推送及个人中心黄金广告位推荐，快速获得更多简历！</p></caption>
+                 <tbody>
+                 <tr>
+                     <td width="390"></td>
+                     <td width="20" class="line" rowspan="6"></td>
+                     <td width="" rowspan="6"></td>
+                     <td rowspan="6" class="tip">
+                        <!-- <h3>重要提示：</h3>
+                        <h4>新合作伙伴，免费赠送<i>30次</i>价值<i>1500元</i>的急聘职位设置机会。</h4>
+                        <p class="txt">注：超出免费使用次数后，每次设置需付费50元。请务必在真正急聘时使用，以免浪费机会。</p> -->
+                        <h3>账户余额：</h3>
+                        <p class="txt">账户余额：<i>0.00元</i>&nbsp;&nbsp;赠送余额：<i>434.00元</i>&nbsp;&nbsp;</p>
+                        <p><a href="">充值</a></p>
+                     </td>
+                 </tr>
+                 <tr>
+                     <td><p>设置急聘职位：<em>网页设计师</em></p></td>
+                 </tr>
+                 <tr>
+                     <td><p>设置急聘时间：</p><input type="text" class="text Date" /><ins></ins><input type="text" class="text Date" />
+                     <p class="txt">每次最长可设置2天，到期后如还需急聘，可重新设置激活！</p>
+                     <p>本次支付：<i class="red">50元</i></p>
+                     </td>
+                 </tr>
+                 <tr><td class="CENTERBTNS">
+                     <input type="button" value="确认" class="submit" />
+                     <input type="button" value="取消" class="reset" />
+                     <p class="txt">您还有<i>30次</i>免费设置急聘机会，请务必真正急聘时使用！</p>
+                 </td></tr>
+                 </tbody>
+             </table>
+         </dd>
+    </dl>
+</td></tr></table>
+
+<table class="FullScreenPlugin fixed fixed-top black5" style="display:none;"><tr><td>
+	<div class="WarmTip"><a>知道了</a><q></q></div>
+</td></tr></table>
+
+
+<div class="ResumePushIcon fixed fixed-top"></div>
+<table class="FullScreenPlugin fixed fixed-top black5 hidden"><tr><td>
+	<div class="ResumePush">
+    	<q></q>
+        <table class="ResumePushList">
+        	<caption>惊喜来了，好工作为你送来优质简历推荐，赶紧看看吧，过期就没有了！</caption>
+        	<tr class="bg">
+            	<td width="140"><a href="#"><img src="../images/v2/job-logo.jpg" width="106" height="102"></a></td>
+                <td width="260"><a href="#" class="profile">
+                	<h4>张宇英<small>女/2年/本科</small></h4>
+                    <p>SEO外链专员-广州冠鹏信息技术...</p>
+                    <p>信用度：<samp>80</samp></p>
+                </a></td>
+                <td width="190" class="timetip">
+                	<span class="rest">剩余处理时间：</span>
+                    <span class="time">1天2小时20分</span>
+                </td>
+                <td class="options">
+                	<a href="#" class="invite" data-id="" data-name="">发面试邀请</a>
+                    <a href="#" class="notmatch" data-id="" data-name="">不合适</a>
+                </td>
+            </tr>
+        	<tr>
+            	<td width="140"><a href="#"><img src="../images/v2/job-logo.jpg" width="106" height="102"></a></td>
+                <td width="260"><a href="#" class="profile">
+                	<h4>张宇英<small>女/2年/本科</small></h4>
+                    <p>SEO外链专员-广州冠鹏信息技术...</p>
+                    <p>信用度：<samp>80</samp></p>
+                </a></td>
+                <td width="190" class="timetip">
+                	<span class="rest">剩余处理时间：</span>
+                    <span class="time">1天2小时20分</span>
+                </td>
+                <td class="options">
+                	<a href="#" class="invite" data-id="" data-name="">发面试邀请</a>
+                    <a href="#" class="notmatch" data-id="" data-name="">不合适</a>
+                </td>
+            </tr>
+        	<tr class="bg">
+            	<td width="140"><a href="#"><img src="../images/v2/job-logo.jpg" width="106" height="102"></a></td>
+                <td width="260"><a href="#" class="profile">
+                	<h4>张宇英<small>女/2年/本科</small></h4>
+                    <p>SEO外链专员-广州冠鹏信息技术...</p>
+                    <p>信用度：<samp>80</samp></p>
+                </a></td>
+                <td width="190" class="timetip">
+                	<span class="rest">剩余处理时间：</span>
+                    <span class="time">1天2小时20分</span>
+                </td>
+                <td class="options">
+                	<a href="#" class="invite" data-id="" data-name="">发面试邀请</a>
+                    <a href="#" class="notmatch" data-id="" data-name="">不合适</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+</td></tr></table>
+
+<table class="FullScreenPlugin fixed fixed-top CenterDivContainer"><tr><td>
+    <dl class="CENTERDIV CenterLarge Invitation" data-active="" data-attrs="id,name">
+        <dt class="CENTERTOPIC"><b>发面试邀请</b><q></q></dt>
+        <dd class="CENTERCONTENT">
+        	<table class="CenterForm">
+            	<caption>
+                	<p>可用余额：<b>300.00</b>&nbsp;&nbsp;&nbsp;&nbsp;邀请耗费：<b>600.00</b><del>（如已查看联系方式，则不扣费）</del></p>
+                    <a href="new-other-charge.html">充值</a>
+                </caption>
+                <tbody>
+                	<tr><th width="110">收件人：</th><td width="480"><em data-attr="name">张腾</em></td></tr>
+                	<tr><th>面试时间：</th><td>
+                    	<input type="text" class="text t-m Date" value="2016-02-26">
+                    	<dl class="SELECT Hour s-s" data-autofill="8,20,1" data-child=".Minute">
+                            <input type="hidden" value="19">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal"></dd>
+                        </dl>
+                        <ins>：</ins>
+                    	<dl class="SELECT Minute s-s" data-autofill="0,50,10">
+                            <input type="hidden" value="10">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal"></dd>
+                        </dl>
+                        <code class="form-tip successMsg"></code>
+                        <!--<code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>-->
+                    </td></tr>
+                	<tr><th>选择模版：</th><td>
+                    	<dl class="SELECT s-l Templates">
+                        	<input type="hidden">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal">
+                            	<a data-id="1">模版一</a>
+                            	<a data-id="2">模版二</a>
+                            	<a data-id="3">模版三</a>
+                            </dd>
+                        </dl>
+                        <a href="new-settings-templates.html" target="_blank" class="link">模版管理</a>
+                    </td></tr>
+                	<tr><th>联系人：</th><td>
+                    	<div class="AuthorDiv">
+                            <input type="text" class="text t-s Author" value="浩斌">
+                            <!--<code class="form-tip successMsg"></code>-->
+                            <code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>
+                        </div>
+                        <div class="TelDiv">
+                            <ins>电话：</ins>
+                            <input type="text" class="text t-m Tel" value="13632293773">
+                            <!--<code class="form-tip successMsg"></code>-->
+                            <code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>
+                        </div>
+                    </td></tr>
+                	<tr><th>面试地址：</th><td>
+                    	<input type="text" class="text t-l Address" value="广州天河区建业路华翠街68号仙湖名苑202G">
+                        <!--<code class="form-tip successMsg"></code>-->
+                        <code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>
+                    </td></tr>
+                	<tr><th>邀请内容：</th><td>
+                    	<textarea class="Content"></textarea>
+                        <!--<code class="form-tip successMsg"></code>-->
+                        <code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>
+                    </td></tr>
+                    <tr><th></th><td><p class="tip">确定发送后，好工作将同时代发<b>面试邀请邮件</b>至求职者邮箱</p></td></tr>
+                	<tr><th></th><td class="CENTERBTNS">
+                        <input type="button" class="submit" value="发送邀请">
+                        <input type="button" class="reset" value="取消">
+                    </td></tr>
+                </tbody>
+            </table>
+        </dd>
+	</dl>
+    <dl class="CENTERDIV CenterLarge NotMatch" data-attrs="id,name" data-active="">
+    	<dt class="CENTERTOPIC"><b>不合适</b><q></q></dt>
+        <dd class="CENTERCONTENT">
+        	<table class="CenterForm">
+            	<caption><h6 class="single">确认不合适后将求职者发送拒绝通知。</h6></caption>
+                <tbody>
+                	<tr><th width="110">收件人：</th><td width="480"><em data-attr="name">张腾</em></td></tr>
+                	<tr><th>选择模版：</th><td>
+                    	<dl class="SELECT s-l Templates">
+                        	<input type="hidden">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal">
+                            	<a data-id="1">模版一</a>
+                            	<a data-id="2">模版二</a>
+                            	<a data-id="3">模版三</a>
+                            </dd>
+                        </dl>
+                        <a href="new-settings-templates.html" target="_blank" class="link">模版管理</a>
+                    </td></tr>
+                	<tr><th>通知内容：</th><td>
+                    	<textarea class="Content"></textarea>
+                        <code class="form-tip successMsg"></code>
+                        <!--<code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>-->
+                    </td></tr>
+                	<tr><th></th><td class="CENTERBTNS">
+                        <input type="button" class="submit" value="确定不合适">
+                        <input type="button" class="reset" value="取消">
+                    </td></tr>
+                </tbody>
+            </table>
+        </dd>
+    </dl>
+</td></tr></table>
+
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/v2/all.js"></script>
+<script src="../js/v2/CCenter/all.js"></script>
+<script src="../js/jbody.js"></script>
+<script src="../js/plugin/raphael.js"></script>
+<script src="../js/effect/bg.js"></script>
+<script src="../js/plugin/CenterDiv.js"></script>
+<script>
+$(function(){
+	if(isIE6())TextOverflow("h4 a",14);
+	Boxes(".JobPush .message");
+	/*倒计时到最近的下午6点，以客户机为准*/
+	var JobPush=$(".JobPush"),obj;
+	var timenow=new Date(),
+		year=timenow.getFullYear(),
+		month=timenow.getMonth(),
+		day=timenow.getDate(),
+		hour=timenow.getHours(),
+		minute=timenow.getMinutes(),
+		second=timenow.getSeconds(),
+		timegoal=new Date(year,month,(hour>18 ? day+1 : day),18,0,0),
+		millis=timegoal.getTime()-timenow.getTime(),
+		seconds=millis/1e3;
+	hour=Math.floor(seconds/3.6e3);
+	var H=hour*3.6e3;
+	minute=Math.floor((seconds-H)/60);
+	var M=minute*60;
+	second=Math.floor(seconds-H-M);
+	setInterval(function(){
+		JobPush.find(".hour").text(hour);
+		JobPush.find(".minute").text(minute);
+		JobPush.find(".second").text(second);
+		if(second) second--;
+		else
+		{
+			second=59;
+			if(minute) minute--;
+			else
+			{
+				minute=59;
+				if(hour) hour--;
+				else hour=23;
+			}
+		}
+	},1000);
+		
+	//点击置顶，先读数据，放入弹窗中
+	$(".options a.push").click(function(){
+		var id=$(this).data("id");
+		obj={
+			id:id,
+			name:'销售经理',//职位名称
+			city:'广州',//城市
+			jobpos:'产品经理',//职位类别
+			lowprice:20,//最低价
+			refprice:100//参考价
+		};
+		JobPush.find(".name").text(obj.name);
+		JobPush.find(".city").text(obj.city);
+		JobPush.find(".jobpos").text(obj.jobpos);
+		JobPush.find(".lowprice").attr("placeholder",'最低起价'+ obj.lowprice +'元');
+		INPUT.hold.call(JobPush.find(".lowprice").get(0),true);
+		JobPush.find(".refprice").text(obj.refprice+'元');
+	});
+	var JobPushing=$(".JobPushing");
+	//点击置顶里边的确定
+	JobPush.find(".submit").click(function(){
+		obj.price=parseInt(JobPush.find(".lowprice").val()),
+		obj.message=JobPush.find(".message").get(0).checked;
+		JobPushing.find(".jobpos").text(obj.jobpos);
+		JobPushing.find(".city").text(obj.city);
+		JobPushing.find(".price").text(obj.price+'元');
+	});
+	//点击置顶确认里边的确定
+	JobPushing.find(".submit").click(function(){
+		ALERT('置顶成功','<h5>职位置顶成功</h5>',2000);
+	});
+	//点击刷新
+	$(".options a.refresh").attr('href','javascript:void(0)').click(function(){
+		var id=$(this).data("id");
+		alert("刷新过程")
+		ALERT('职位刷新','<h5>刷新成功！</h5>',2000);
+		$(this).replaceWith('<span>已刷新</span>');
+	});
+	//点击暂停
+	$(".options a.stop").attr('href','javascript:void(0)').click(function(){
+		var id=$(this).data("id"),THIS=this;
+		CONFIRM('职位暂停','<h5>您确定要暂停该职位？</h5><p>暂停后再次发布，将按暂停前的好工作指数为初始值重新计算。</p>','确定暂停',function(){
+			alert("暂停过程");
+			ALERT('职位暂停','<h5>暂停成功！</h5>',2000);
+			$(THIS).closest("li").remove();
+		});
+	});
+	//如何提高……点叉
+	$(".How q").click(function(){
+		CENTERDIV.close.call($(".How").get(0),true);
+	});
+	//新增图标效果
+	$(".job h4 ins").hover(function(){
+		$(this).addClass("on");
+	},function(){
+		$(this).removeClass("on");
+	});
+
+    // 确定急聘职位
+    $(".JobsUrgency .submit").click(function(event) {
+        CONFIRM('设为急聘职位','<h5>设置成功！</h5><p>您同时还可设置 2个 急聘职位！</p>','确定',function(){
+            alert("暂停过程");
+            ALERT('设置成功！','<h5>设置成功！</h5>',2000);
+            CENTERDIV.close.call($(".JobsUrgency"),true);
+        });
+    });
+    // 取消急聘
+    $(".offUrgency").attr('href','javascript:void(0)').click(function(event) {
+        CONFIRM('取消急聘职位','<h5>是否确认取消急聘？</h5><p>已消耗次数/资金不会返还，确认要取消吗？</p>','确定',function(){
+            alert("暂停过程");
+            ALERT('设置成功！','<h5>设置成功！</h5>',2000);
+        });
+    });
+
+
+    $(".errorWin").click(function(event) {
+       
+            ALERT('设置成功！','<h5>很抱歉！</h5><p class="mar-t20">当前同时最多可设置3个急聘职位，请待其他急聘时间到期后再设置！</p>');
+        
+    });
+});
+$(window).load(function(){
+});
+</script>

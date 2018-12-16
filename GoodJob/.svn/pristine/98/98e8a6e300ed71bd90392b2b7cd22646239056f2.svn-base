@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>企业中心-增值服务-职位顶置</title>
+<link rel="stylesheet" type="text/css" href="../css/v2/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/CCenter/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/CCenter/other.css">
+</head>
+
+<body>
+<div class="HEADER"><div class="common">
+	<div class="TOP-LOGO"><a href="#"><img src="../images/v2/logo-s.jpg" width="119" height="62"></a></div>
+    <div class="TOP-TOOLS">
+    	Admin, <a href="#">退出</a>&nbsp;&nbsp;&nbsp;<a href="#">个人中心</a>&nbsp;&nbsp;&nbsp;<a href="#">反馈</a>&nbsp;&nbsp;&nbsp;<a href="#">HR帮助</a>
+    </div>
+    <ul class="TOP-NAV">
+    	<li><a href="new-index.html">首页</a></li>
+    	<li><a href="new-publish.html">发布职位</a></li>
+    	<li><a href="new-profile.html">企业资料</a></li>
+    	<li><a href="new-hrfavors.html">HR收藏夹</a></li>
+    	<li><a href="new-settings.html">账号管理</a></li>
+    </ul>
+</div></div>
+
+<div class="Main common">
+	<div class="Left">
+    	<a href="new-publish.html" class="Publish">发布新职位</a>
+        <div class="LeftNav">
+            <h3>资金账户</h3>
+            <p>
+                <a href="new-other-charge.html"><span>充值</span><i>30</i></a>
+                <a href="new-other-detail.html"><span>账户明细</span><i>30</i></a>
+            </p>
+            <h3>增值服务</h3>
+            <p>
+                <a href="new-other-push.html" class="cur"><span>职位置顶</span><i>30</i></a>
+                <a href="new-other-cooperation.html"><span>校企合作</span><i>30</i></a>
+            </p>
+        </div>
+    </div>
+	<div class="Right">
+    	<div class="Adv"><img src="../images/v2/adv.jpg" width="790" height="180"></div>
+        <dl class="Push">
+        	<dt><h1>职位置顶的优势：</h1></dt>
+            <dd>
+            	<h4>关注度高</h4>
+                <p>置顶职位始终靠前，且只提供5个置顶职位</p>
+                <h4>受众明确</h4>
+                <p>匹配只能地区，针对目标群体精准投放</p>
+                <h4>价格灵活</h4>
+                <p>根据每个职位的市场行情选择出价金额，避免所有职位出价一刀切</p>
+                <h4>多途径展示</h4>
+                <p>用户搜索时选择相应职能小类或输入职能小类为关键词时，都可以显示竞价成功的相应职位</p>
+            </dd>
+        </dl>
+        <dl class="Pushes">
+        	<dt><h3>展示位置</h3><h3>竞价行情</h3><h3>购买流程</h3><h3>常见问题</h3></dt>
+            <dd>
+            	<div class="center"><img src="../images/v2/service-pushes.jpg" width="760" height="489"></div>
+                <div class="content">
+                    <p class="margin">通过竞价的方式获得职位置顶的机会，置顶职位按出价由高至低排序，若出价一致，则按时间先后排序。</p>
+                    <p><span>竞价时段：</span>每天9点～18点整</p>
+                    <p><span>排名生效：</span>当天竞价，次日生效（今天竞明天的排名）</p>
+                    <p><span>置顶数量：</span>"地区+职能小类"展示数量5个</p>
+                    <p class="margin"><span>费用情况：</span>最低起拍价为100元</p>
+                    <p>提示：</p>
+                    <p>1、置顶功能只对有效职位，置顶后请确保职位处于有效状态；</p>
+                    <p>2、在竞价和置顶过程中，请勿随意修改职位信息，在竞价成功后，确保职位为有效职位，否则职位将不能正常置顶显示；</p>
+                    <p>3、在截至时间之前，您可以随意追加出价，但不能撤销或者降低出价。</p>
+                </div>
+                <div class="center"><img src="../images/v2/service-buy-process.jpg" width="733" height="49"></div>
+                <div class="intro">
+                    <p><strong>1 竞价时间是怎么安排的？</strong></p>
+                    <p>目前，竞价仅在工作时间内开放（每天9点至18点整）。</p>
+                    <p><strong>2 为什么竞价成功了，我的职位却没有靠前展示？</strong></p>
+                    <p>如果邮件通知您竞价成功，但您在搜索结果首页找不到您的职位，原因会有以下情况：</p>
+                    <p>1.排名还未生效：当日竞的是第二天的排名，第二天的0时起排名才生效。</p>
+                    <p>2.搜索条件不匹配：竞价是根据职位设置的职能小类加职位的工作地点进行的，搜索时选择的职能或搜索的关键词加地区必须和您的竞价职位相一致（其他条件可以不匹配），才能显示竞价成功职位。</p>
+                    <p>3.若搜索条件包含多个职能小类或地区（一个职能大类视作多个职能小类），显示所选职能小类中出价最高的前5个职位。</p>
+                    <p>4.在竞价和置顶过程中，请勿随意更改职位信息，在竞价成功后，确保职位是有效职位，否则竞价成功职位将无法保证正常置顶显示。</p>
+                    <p><strong>3 深圳的职位可以竞广州的职位置顶吗？</strong></p>
+                    <p>不可以，本地职位只能竞价本地的职位置顶。</p>
+                    <p><strong>4 如何知道我的职位是否成功中标？</strong></p>
+                    <p>当日18点整竞价结束后，系统会以邮件的形式告知您的竞价结果（不管是否成功中标），请您注意查看邮件信息.</p>
+                    <p>另外，如果竞价成功，职位将在第二天排在相应搜索首页前列.</p>
+                </div>
+            </dd>
+        </dl>
+	</div>
+	<div class="clear"></div>
+</div>
+<div class="Tail fixed fixed-bottom black5"><a href="#">马上置顶</a></div>
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/v2/all.js"></script>
+<script src="../js/effect/tab.js"></script>
+<script>
+$(function(){
+	CHItab(".Pushes","dt h3","dd > div",{way:'click'});
+});
+$(window).load(function(){
+});
+</script>

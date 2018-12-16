@@ -1,0 +1,495 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>企业中心-账号管理-招聘联系人设置</title>
+<link rel="stylesheet" type="text/css" href="../css/v2/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/CCenter/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/CCenter/settings.css">
+</head>
+
+<body>
+<div class="HEADER"><div class="common">
+	<div class="TOP-LOGO"><a href="#"><img src="../images/v2/logo-s.jpg" width="119" height="62"></a></div>
+    <div class="TOP-TOOLS">
+    	Admin, <a href="#">退出</a>&nbsp;&nbsp;&nbsp;<a href="#">个人中心</a>&nbsp;&nbsp;&nbsp;<a href="#">反馈</a>&nbsp;&nbsp;&nbsp;<a href="#">HR帮助</a>
+    </div>
+    <ul class="TOP-NAV">
+    	<li><a href="new-index.html">首页</a></li>
+    	<li><a href="new-publish.html">发布职位</a></li>
+    	<li><a href="new-profile.html">企业资料</a></li>
+    	<li><a href="new-hrfavors.html">HR收藏夹</a></li>
+    	<li><a href="new-settings.html" class="cur">账号管理</a></li>
+    </ul>
+</div></div>
+
+<div class="Main common">
+	<div class="Left">
+        <div class="LeftNav">
+            <h3>账号管理</h3>
+            <p>
+                <a href="new-settings.html"><span>管理员账号设置</span></a>
+                <a href="new-settings-password.html"><span>修改密码</span></a>
+                <a href="new-settings-email.html"><span>简历邮箱设置</span></a>
+                <a href="new-settings-templates.html"><span>模板设置</span></a>
+                <a href="new-settings-contact.html"><span>招聘联系人设置</span></a>
+                <a href="new-settings-repeat.html"><span>简历去重设置</span></a>
+                <a href="new-settings-release.html" class="cur"><span>一键发布设置</span></a>
+            </p>
+        </div>
+    </div>
+	<div class="Right">
+        <dl class="Intro">
+            <dt><h1>一键发布设置</h1><div class="Switch"></div></dt>
+        </dl>
+        <ul class="resume-origin">
+            <li>
+                <div class="resume-origin-logo col1">
+                    <img src="../images/v2/CCenter/51job.png" alt="" />
+                </div>
+                <div class="resume-origin-txt col1">
+                    <h4>一键发布前程无忧职位</h4>
+                    <p>你可将你的前程无忧职位信息一键发布到好工作！</p>
+                </div>
+                <div class="col1">
+                    <button class="not-login job" data-attr="">立即一键发布</button>
+                </div>
+            </li>
+            <li>
+                <div class="resume-origin-logo col1">
+                    <img src="../images/v2/CCenter/zhaopin.png" alt="" />
+                </div>
+                <div class="resume-origin-txt col1">
+                    <h4>一键发布智联招聘职位</h4>
+                    <p>你可将你的智联招聘职位信息一键发布到好工作！</p>
+                </div>
+                <div class="col1">
+                    <button class="zl">立即一键发布</button>
+                </div>
+            </li>
+            <li>
+                <div class="resume-origin-logo col1">
+                    <img src="../images/v2/CCenter/58.png" alt="" />
+                </div>
+                <div class="resume-origin-txt col1">
+                    <h4>一键发布58同城招聘职位</h4>
+                    <p>你可将你的58同城招聘职位信息一键发布到好工作！</p>
+                </div>
+                <div class="col1">
+                    <button class="tc">立即一键发布</button>
+                </div>
+            </li>
+        </ul>
+
+        <div class="notOrigin">
+            <h4>你已关闭一键发布功能</h4>
+            <p>若你已在智联/前程招聘网站开通招聘服务，强烈建议你开启一键发布功能，可
+一键将您的智联/前程招聘职位发布到好工作！</p>
+            <span class="onOrigin">立即开启</span>
+        </div>
+    </div>
+	<div class="clear"></div>
+</div>
+<table class="FullScreenPlugin fixed fixed-top CenterDivContainer"><tr><td>
+
+    <!-- 导入帐号 -->
+    <dl class="CENTERDIV CenterMiddle2 settings-auth" data-active=".edit">
+        <dt class="CENTERTOPIC"><b>发面试邀请</b><q></q></dt>
+        <dd class="CENTERCONTENT">
+            <div class="in">
+                <p class="input-tip">请设置前程无忧账号，以便一键发布！</p>
+                <p><span class="text-u">帐号：</span><input type="" name="" placeholder="请输入前程无忧账号" class="text"></p>
+                <p><span class="text-u">密码：</span><input type="" name="" placeholder="请输入前程无忧密码" class="text"></p>
+                <p class="btn"><span class="text-u"></span><input type="button" name="" value="确定" class="setting-confirm"><input type="button" name="" value="取消" class="setting-cancel close"></p>
+            </div>
+        </dd>
+    </dl>
+
+    <!-- 登录58同城页面 -->
+    <dl class="CENTERDIV CenterMiddle2 settings-auth" data-active=".tc">
+        <dt class="CENTERTOPIC"><b>一键发布设置</b><q></q></dt>
+        <dd class="CENTERCONTENT">
+            <div class="in">
+                <p class="input-tip">请输入58同城招聘账号，以便一键发布！</p>
+                <p><span class="text-u">会员名：</span><input type="" name="" placeholder="请输入58同城招聘会员名" class="text"></p>
+                <p><span class="text-u">用户名：</span><input type="" name="" placeholder="请输入58同城招聘用户名" class="text"></p>
+                <p><span class="text-u">密码：</span><input type="" name="" placeholder="请输入58同城招聘密码" class="text"></p>
+                <p class="btn"><span class="text-u"></span><input type="button" name="" value="确定" class="setting-confirm"><input type="button" name="" value="取消" class="setting-cancel close"></p>
+            </div>
+        </dd>
+    </dl>
+
+    <!-- 登录前程无忧页面 -->
+    <dl class="CENTERDIV CenterMiddle2 settings-auth" data-active=".job">
+        <dt class="CENTERTOPIC"><b>一键发布设置</b><q></q></dt>
+        <dd class="CENTERCONTENT">
+            <div class="in">
+                <p class="input-tip">请输入前程无忧账号，以便一键发布！</p>
+                <p><span class="text-u">会员名：</span><input type="" name="" placeholder="请输入前程无忧会员名" class="text"></p>
+                <p><span class="text-u">用户名：</span><input type="" name="" placeholder="请输入前程无忧用户名" class="text"></p>
+                <p><span class="text-u">密码：</span><input type="" name="" placeholder="请输入前程无忧密码" class="text"></p>
+                <p class="btn"><span class="text-u"></span><input type="button" name="" value="确定" class="setting-confirm"><input type="button" name="" value="取消" class="setting-cancel close"></p>
+            </div>
+        </dd>
+    </dl>
+
+    <!-- 登录智联招聘页面 -->
+    <dl class="CENTERDIV CenterMiddle2 settings-auth" data-active=".zl">
+        <dt class="CENTERTOPIC"><b>一键发布设置</b><q></q></dt>
+        <dd class="CENTERCONTENT">
+            <div class="in">
+                <p class="input-tip">请输入智联招聘账号，以便一键发布！</p>
+                <p><span class="text-u">用户名：</span><input type="" name="" placeholder="请输入智联招聘用户名" class="text"></p>
+                <p><span class="text-u">密码：</span><input type="" name="" placeholder="请输入智联招聘账号密码" class="text"></p>
+                <p><span class="text-u">验证码：</span><input type="" name="" placeholder="请输入验证码" class="yzmtxt"><img src="../images/company/yanzm.png" class="yzmimg"></p>
+                <p class="btn"><span class="text-u"></span><input type="button" name="" value="确定" class="setting-confirm"><input type="button" name="" value="取消" class="setting-cancel close"></p>
+            </div>
+        </dd>
+    </dl>
+
+    <!-- 发布职位 -->
+    <dl class="CENTERDIV CenterHuge2 jobChoice">
+        <dt class="CENTERTOPIC"><b>请选择需要发布的职位</b><q></q></dt>
+        <dd class="CENTERCONTENT">
+            <div class="tip"><span>以下职位来源：<i>前程无忧</i></span><span>更新频率：每天一次</span><span class="time">上次更新时间：<i>2016-06-14  02:00 </i></span><button class="update-job">更新职位</button></div>
+
+            <div>
+                <p class="table-header clear"><strong class="w485">职位名称</strong><strong class="w130">地区</strong><strong class="w120">职位来源</strong></p>
+                <div class="in">
+                    <ul></ul>
+                 <div class="notUpdate"><p>所有职位已发布，暂无职位可更新</p></div>
+                 <div class="loadingData"><p class="h5">正在获取职位信息中...</p><p>当职位较多时，会花费较长时间，请耐心等待！</p></div>
+
+                 <div class="loadingError">
+                     <p class="h5">职位更新失败！</p>
+                     <p>由于网络或其他原因，暂时无法更新职位，请稍候重试！</p>
+                     <button class="updata-job">更新职位</button>
+                 </div>
+                </div>
+            </div>
+            <div class="count">
+                <label><span class="job-select selectAll"><input type="checkbox" /></span></label>
+                <span>共有<i class="number-sum">0个</i>职位待发布，已选<i class="number-still">0个</i>职位</span><input type="button" name="" value="发布已选职位到好工作" class="put"><input type="button" name="" value="全部发布" class="put-all">
+            </div>
+        </dd>
+    </dl>
+
+    <!-- 同步提示 -->
+    <dl class="CENTERDIV CenterMiddle2 putProcess" data-active=".put" >
+        <dt class="CENTERTOPIC"><b>同步提示</b><q></q></dt>
+        <dd class="CENTERCONTENT">
+            <div class="wrap">
+                <h4>待发布职位<span>12</span>个</h4>
+                <div class="loading-process"><div class="loading"></div></div>
+                <div class="loading-txt">正在同步（<i>7</i>/<i>12</i>）</div>
+                <p>温馨提示：当要发布的职位较多时，会花费时间较长，请耐心等待，不要关闭窗口，以免发布失败</p>
+            </div>
+        </dd>
+    </dl>
+
+</td></tr>
+</table>
+<script src="../js/jquery.js"></script>
+<script src="../js/v2/all.js"></script>
+<script src="../js/v2/CCenter/all.js"></script>
+<script src="../js/effect/bg.js"></script>
+<script src="../js/plugin/CenterDiv.js"></script>
+<script type="text/javascript">
+   $(function () {
+    $('.settings-auth .setting-cancel').click(function (event) {
+        CONFIRM('发布成功', '<h5 style="overflow:visible;" class="releasetip">恭喜你，发布成功！</h5><p>你已成功发布12个职位并提交审核！</p>', '查看发布职位', function () {
+            location.href = 'UCenter/new-RESUME.html';
+        }, '关闭');
+    });
+
+    // $('.settings-auth .setting-confirm').click(function (event) {
+    //     CONFIRM('设置成功', '<h5 style="overflow:visible;" class="releasetip">恭喜你，设置成功！</h5><p>是否导入你的前程无忧招聘职位信息，一键发布到好工作？</p>', '立即一键发布', function () {
+    //         location.href = 'UCenter/new-RESUME.html';
+    //     }, '取消');
+    // });
+
+    $('.promptly-btn').click(function (event) {
+
+    });
+
+    $('.job-select input').click(function () {
+        $(this).closest(".job-select").addClass('selected');
+    });
+
+    var result = {
+        // 共有几个职位
+        total: 124,
+        // 职位列表数据
+        data:[
+            {
+                id: 100010, jobName: '销售代表/业务员/销售经理（高提成+国外游+双休）', address: '广州白云区', jobOrigin: '前程无忧'
+            },
+            {
+                id: 100011, jobName: '销售代表/业务员', address: '广州', jobOrigin: '前程无忧'
+            },
+            {
+                id: 100012, jobName: '销售代表/业务员', address: '广州', jobOrigin: '前程无忧'
+            },
+            {
+                id: 100013, jobName: '销售代表/业务员', address: '广州', jobOrigin: '前程无忧'
+            },
+            {
+                id: 100014, jobName: '销售代表/业务员', address: '广州', jobOrigin: '前程无忧'
+            },
+            {
+                id: 100015, jobName: '销售代表/业务员', address: '广州', jobOrigin: '前程无忧'
+            },
+            {
+                id: 100016, jobName: '销售代表/业务员', address: '广州', jobOrigin: '前程无忧'
+            },
+            {
+                id: 100017, jobName: '销售代表/业务员', address: '广州', jobOrigin: '前程无忧'
+            },
+            {
+                id: 100018, jobName: '销售代表/业务员', address: '广州', jobOrigin: '前程无忧'
+            },
+            {
+                id: 100019, jobName: '销售代表/业务员', address: '广州', jobOrigin: '前程无忧'
+            }
+        ]
+    };
+
+    function PutResume() {
+        this.sum = 0;
+        this.opts = arguments[0] || {};
+        this.init();
+        this.bindEvent();
+        // 全选按钮是否选上
+        this.isAll = false;
+        // 是否正在加载数据，防止多次请求
+        this.isLoadingData = false;
+    }
+
+    PutResume.prototype.count = $('.jobChoice .count');
+
+    PutResume.prototype.init = function () {
+        this.active = this.opts.active.join(',');
+        this.activeWin = $('.jobChoice');
+    };
+
+    /*绑定事件*/
+    PutResume.prototype.bindEvent = function () {
+
+        var self = this;
+        var listDom = $('ul',this.activeWin);
+
+        // 激活弹窗
+        $(this.active).on('click', function (event) {
+
+            // 打开弹窗前更新下界面
+            $('.update-job',this.activeWin).click();
+
+            // 根据激活按钮不同加载不同网站数据
+            if( $(this).hasClass(activeCls[0].slice(1))){
+                console.log('51job');
+            }
+            if( $(this).hasClass(activeCls[1].slice(1))){
+                console.log('智联');
+            }
+            if( $(this).hasClass(activeCls[2].slice(1))){
+                console.log('58同城');
+            }
+
+            self.loadingData( listDom, false, function(data){
+
+                self.hiddenVal = data.selected;
+                // 更新界面数据(如共有几个职位)
+                self.updateView({total:data.total});
+                self.total = data.total;
+            });
+
+            CENTERDIV.open.call(self.activeWin.get(0));
+        });
+
+
+        // 下拉加载
+        dropDownLoading('.jobChoice .in', '.jobChoice ul', function () {
+            self.loadingData( listDom , true );
+
+            if( self.isAll ){
+                $('.in .job-select:not(.selected)', this.activeWin).click();
+                self.allCheck();
+            }
+        });
+
+        // 更新职位按钮
+        this.activeWin.on('click', '.update-job', function(){
+
+            if( self.isLoadingData ){ return false; }
+            var data = result.data;
+
+            showLoading(1);
+            self.loadingData( listDom, false, function(){
+
+                self.updateView({total:160,sum:0});
+            });
+            $('.selectAll').removeClass('selected');
+            self.isAll = false;
+
+        });
+
+        // 复选框
+        this.activeWin.on('click', 'label', function(){
+
+            var ipt = $('.job-select',this);
+
+            ipt.toggleClass('selected');
+
+            if(ipt.hasClass('selected')){
+                ++self.sum;
+            }else{
+                --self.sum;
+            }
+            self.updateView({
+                sum: self.sum
+            });
+
+            return false;
+        });
+
+        // 全选按钮
+        $('.selectAll', this.activeWin).click(function(event){
+            $('.in label', self.activeWin).click();
+
+            // 因为所有label都绑定事件了，所以这里判断下是否选择
+            if( $(this).hasClass('selected') ){
+                // 把是否全选关了
+                self.isAll = false;
+                self.allCheck();
+            }else{
+                self.isAll = true;
+                self.allCheck();
+            }
+        });
+
+        // 发布已选职位
+        $('.put', this.activeWin).click( function(event){
+
+            var ids = [];
+            $('.selected').map(function(){
+                ids.push($('input',this).data('id'));
+            });
+            console.log(ids);
+        } );
+
+    };
+
+    // 全选
+    PutResume.prototype.allCheck = function( ){
+        var self =this;
+        // 通过是否全选来更新界面
+        if( self.isAll ){
+            setTimeout(function(){
+                self.updateView({
+                    sum : self.total
+                });
+            }, 30);
+        }else{
+            setTimeout(function(){
+                self.updateView({
+                    sum : 0
+                });
+            }, 30);
+        }
+
+    };
+    // 更新界面(弹窗下面的已选，待选)
+    PutResume.prototype.updateView = function(opts){
+
+        if( typeof opts.sum != "undefined" ){
+            $('.number-still',this.count).text(opts.sum + '\u4e2a');
+        }
+        if( typeof opts.total != "undefined" ){
+            $('.number-sum',this.count).text(opts.total + '\u4e2a');
+        }
+    };
+    // ajax载入数据，listDom：显示数据的元素，isDrop...: 是否是下拉加载，callback: 加载完数据后的回调函数
+    PutResume.prototype.loadingData = function (listDom,isDropDownLoading, callback){
+
+        if( self.isLoadingData ){ return false;}
+
+        var html = [];
+        /*result为模拟数据*/
+        var data = result.data;
+
+        for (var i = 0; i < data.length; i++) {
+
+            html.push('<li>' +
+                '     <label><span class="job-select"><input type="checkbox" data-id="' + data[i].id + '"/></span>' +
+                '     <span class="job-name">' + data[i].jobName + '</span></label>' +
+                '     <span class="job-address">' + data[i].address + '</span>' +
+                '     <span class="job-origin">' + data[i].jobOrigin + '</span>' +
+                ' </li>');
+        }
+
+        if( isDropDownLoading ){
+
+            listDom.append(html.join(''));
+        }else{
+
+            listDom.html("");
+            // 模拟下ajax请求等待
+            setTimeout(function(){
+
+                showLoading(0);
+                listDom.html(html.join(''));
+            },2000);
+        }
+
+        callback&&callback(result);
+    };
+
+    // 显示关闭正在加载
+    function showLoading(type) {
+
+        var loading = $('.loadingData');
+        if (type) {
+            loading.show();
+        } else {
+            loading.hide();
+        }
+    }
+    // 显示数据加载错误
+    function showError(type) {
+
+        var loading = $('.loadingError');
+        if (type) {
+            loading.show();
+        } else {
+            loading.hide();
+        }
+    }
+
+    //激活弹窗的按钮
+    var activeCls = ['.setting-confirm','.setting-confirm','.setting-confirm'];
+    var job = new PutResume({
+        active: activeCls
+    });
+
+    // 开启关闭一键开通
+    var origin = $('.resume-origin'),
+        notOrigin = $('.notOrigin');
+
+    $('.Right').on('selectstart',function(){return false;});
+
+    switchBtn($(".Switch"), true,{
+        switchOn: function(){
+            origin.show();
+            notOrigin.hide();
+        },
+        switchOff: function(){
+            origin.hide();
+            notOrigin.show();
+        }
+    });
+
+});
+</script>
+
+</body>
+</html>

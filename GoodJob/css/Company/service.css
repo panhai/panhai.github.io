@@ -1,0 +1,30 @@
+/* CSS Document */
+
+/* 整站通用样式 */
+*{ margin:0px; padding:0px;}
+ul,ol,li{ list-style:none;}
+q{ quotes:none;}
+a{ text-decoration:none; cursor:pointer;}
+a img{ border:0px;}
+.common{ width:900px; margin:0 auto;}
+body{ font-family:"微软雅黑";}
+.clear{ clear:both;}
+input:focus{ outline:0px;}
+
+/*页眉*/
+.header{ clear:both; background-color:#f9f9f9; font-size:12px; line-height:38px; height:38px; _overflow:hidden; border-bottom:#e2e2e2 1px solid;}
+.header p{ float:right; color:#797979;}
+.header p a{ color:#797979; margin:0px 5px; font-family:"宋体";}
+.header p a:hover{ color:#ff4f00;}
+
+.main h1{ clear:both; padding:30px 5px; border-bottom:solid #d7d7d7 3px; color:#333; font-size:18px; margin-bottom:30px;}
+.main h1 img{ vertical-align:text-bottom; margin-right:10px;}
+
+.main h2{ font-size:18px; color:#333; font-weight:normal; line-height:50px;}
+
+.main h3{ font-size:20px; color:#2677e2; font-weight:normal; line-height:55px;}
+.main h3 b{ color:#ff5e00; font-weight:normal;}
+
+.main p{ font-size:16px; line-height:30px; color:#333;}
+
+.open-btn{ display:inline-block; margin:15px 0px 35px 0px; background-color:#2677e3; color:#fff; font-size:18px; width:185px; height:40px; line-height:40px; text-align:center;}

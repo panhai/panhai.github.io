@@ -1,0 +1,377 @@
+
+/*过滤器*/
+.Filters{
+    position: relative;
+    width: 744px;
+    margin: 20px 0 24px 0;
+}
+.Filters table{
+    border: 1px solid #d1e5ff;
+}
+.Filters tr{
+    border-bottom: 1px solid #d1e5ff;
+}
+.Filters th {
+    height: 42px;
+    background-color: #edf5ff;
+    font-size: 15px;
+    color: #333333;
+    font-weight: normal;
+}
+.Filters td{
+    height: 42px;
+}
+
+.Filters td a{
+    font-size: 14px;
+    padding: 0 14px;
+    color: #555;
+    /*margin-top: 14px;*/
+  
+}
+.Filters td .addres{
+    width:620px;
+      margin: 0 6px;
+}
+.Filters .addres-area a{
+    margin: 14px 10px 0;
+}
+.Filters .schools{
+    width: 620px;
+    padding: 0 10px;
+    line-height: 30px;
+}
+.Filters .schools a{
+    padding: 0 6px;
+    line-height: 25px;
+    margin: 0 6px;
+    white-space: nowrap;
+}
+
+.Filters .addres-area a{
+    color: #999999;
+}
+.Filters td a.cur{
+    color: #1562c8;
+    font-weight: 600;
+    text-decoration: none;
+}
+.Filters a.clickCur{
+    color: #fff;
+    background-color: #1562c8;
+}
+.Filters td .addres-area{
+    position: relative;
+    width: 606px;
+    height: 40px;
+    overflow: hidden;
+    margin: 10px 0 10px 10px;
+    background-color: #edf5ff;
+}
+
+.Filters td .addres-area p{
+    float: left;
+    width: 560px;
+    word-break: break-all;
+    line-height: 40px;
+
+/*     padding-left: 14px;
+overflow: hidden;
+width: 480px;
+height: 40px; */
+
+}
+.Filters  .Filters-icons{
+
+    bottom: -12px;
+    left: 20px;
+    width: 17px;
+    height: 10px;
+    background: url("../../images/v2/icons/filter-top.png") no-repeat;
+}
+.Filters .addres a.cur .Filters-icons{
+    position: absolute;
+}
+.Filters .Filters-more{
+position: absolute;
+right: 10px;
+top: 12px;
+font-size: 12px;
+color: #1562c8;
+cursor: pointer;
+font-style: normal;
+}
+
+.Filters .Filters-more em{
+display: inline-block;
+width: 10px;
+height: 4px;
+background: url("../../images/v2/icons/filter-more.png") no-repeat;
+}
+.Filters .Filters-addre, .Filters .Filters-schools, .Filters-recruitment{
+    vertical-align: top;
+    height: 87px;
+    padding: 6px 0;
+}
+.Filters .addres a{
+    position: relative;
+}
+.Filters .Filters-m{
+    position: absolute;
+    right: 0;
+    bottom: -29px;
+    width: 150px;
+    height: 28px;
+    border: 1px solid #d1e5ff;
+    border-top-color: #fff;
+    text-align: center;
+}
+.Filters .Filters-m a{
+    color: #555555;
+    font-size: 14px;
+}
+
+/*世间选择*/
+
+.Timer-select{
+    width: 742px;
+    height: 60px;
+    float: left;
+    margin: 20px 0;
+    overflow: hidden;
+    border: 1px solid #e8e8e8;
+    background: #fbfbfb;
+}
+.Timer-select .time{
+    position: relative;
+    float: left;
+    padding-right: 14px;
+    background: url(../../images/v2/icons/Timer-down.png) no-repeat  95% center;
+    _background-image: url(../../images/v2/icons/triangle-down.gif);
+}
+
+.Timer-select .Timer-f{
+    float: left;
+    width: 8px;
+    height: 1px;
+    margin: 15px 4px 0;
+    background-color: #CCCCCC;
+}
+.Timer-select input{
+    width: 74px;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #e8e8e8;
+}
+.Timer-select th{
+    font-size: 14px;
+    color: #555555;
+    font-weight: 600;
+
+}
+.Timer-select td{
+    height: 60px;
+}
+.Timer-select td a{
+    font-size: 12px;
+    color: #1562c8;
+}
+.Timer-select .time{
+    font-size: 12px;
+    color: #8e8e8e;
+    padding-left: 4px;
+}
+.Timer-select.marginCur{
+    margin-top: -10px;
+}
+/*宣讲会搜索*/
+.Preach-search .Preach-search-ipt{
+    width: 200px;
+    height: 28px;
+    padding-left: 10px;
+    border: 0;
+    border: 1px solid #e8e8e8;
+}
+.Preach-search .Preach-search-btn{
+    vertical-align: bottom;
+    width: 32px;
+    height: 30px;
+    border: 0;
+    background: url("../../images/v2/icons/search-btn.png") no-repeat;
+    cursor: pointer;
+}
+
+/*我的宣讲会*/
+.Timer-select .Preach-my{
+    display: block;
+    vertical-align: middle;
+    line-height: 60px;
+    padding-left: 20px;
+    border-left: 1px solid #e8e8e8;
+}
+.Timer-select .Preach-my i{
+    float: left;
+    margin-top: 24px;
+    margin-right: 6px;
+}
+.Timer-select .Preach-my a{
+    float: left;
+    line-height: 60px;
+}
+.Guide{
+    display: none;
+}
+.Guide td{
+    position: relative;
+
+}
+.Guide q{
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left:  200px;
+    cursor: pointer;
+    width: 55px;
+    height: 55px;
+    background-image: url(../../images/v2/icons/times-circle.png);
+    _background-image: url(../../images/v2/icons/times-circle.gif);
+}
+.Timer-select .Preach-my i{
+    display: inline-block;
+    width: 15px;
+    height: 12px;
+    background: url("../../images/v2/icons/Preach-my.png") no-repeat;
+}
+
+/*职位搜索结果*/
+.Hot-job td{
+    padding-left: 10px;
+}
+
+/*招聘会*/
+.Filters p{
+    width: 640px;
+    /*margin-left: 10px;*/
+    word-break: break-all;
+}
+.Filters p.marginCur{
+    width: 620px;
+    margin-left: 14px;
+}
+.Filters p.marginCur a{
+    margin: 0 6px;
+    padding: 0 6px;
+}
+.Filters .Filters-recruitment{
+    height: 75px;
+}
+.Filters .Filters-recruitment p{
+    width: 620px;
+    margin-left: 6px;
+    /*height: 28px;*/
+}
+.Filters .Filters-recruitment a{
+    line-height: 30px;
+    padding: 0 6px;
+    margin: 0 9px;
+    white-space: nowrap;
+}
+.Filters .Filters-recruitment a.marginCur{
+   /*  margin-left: 12px;
+   margin-right: 0; */
+}
+/*宣讲*/
+.CRUMB a.cur{
+    color: #1562c8;
+}
+.CRUMB{
+    height: 54px;
+    line-height: 54px;
+    margin-bottom: 0;
+    border-bottom: 1px dashed #e5e5e5;
+}
+.Conference{
+    margin-bottom: 120px;
+}
+.Conference h1{
+    float: left;
+    max-width: 24em;
+    font-size: 24px;
+    line-height: 60px;
+    color: #1562c8;
+    font-weight: normal;
+}
+.Conference p{
+    font-size: 14px;
+    color: #666666;
+    line-height: 30px;
+}
+.Conference .Intro p{
+    color: #999999;
+    font-size: 16px;
+}
+.Conference .Intro p b{
+    font-size: 14px;
+    color: #666666;
+    font-weight: normal;
+}
+.Conference .Content h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: normal;
+    color: #1562c8;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+/*谷歌特殊处理*/
+@media screen and (-webkit-min-device-pixel-ratio:0){
+    .Special{
+        margin-right: 34px;
+    }
+}
+
+
+/*工具按钮*/
+.tools{ float:right; position:relative;}
+.icons{ display:block; float:right; margin:20px 0 0 10px; width:29px; height:29px;}
+.share{ background-image:url(../../images/v2/icons/share-l.png); _background-image:url(../../images/v2/icons/share.gif);}
+/*分享条*/
+ cite{ left:40px; top:-20px; width: 60px; border: 1px solid #c5dbf9;}
+.share cite span {
+    display: block;
+    clear: both;
+    margin: 10px auto;
+    text-align: center;}
+/*收藏提示*/
+.Conference .favor, .Space-icons  .favor{ background-image:url(../../images/v2/icons/favor-l.png); _background-image:url(../../images/v2/icons/favor.gif);}
+.Conference .favored, .Space-icons .favored{ background-image:url(../../images/v2/icons/favor3.png); _background-image:url(../../images/v2/icons/favor2.gif);}
+.Conference .tip, .Space-icons  .tip{ display:none; position:absolute; top:50px; right:30px; background-color:#d1e3fc; line-height:34px; height:34px; overflow:hidden; color:#525252; font-size:0px; padding:0px 10px; white-space:nowrap; text-decoration:none;}
+.Conference  .tip q,.Conference .tip span, .Space-icons  .tip q,.Conference .tip span{ display:inline-block; vertical-align:middle;}
+.Conference .tip span, .Space-icons  .tip span{ font-size:14px;}
+.Conference  .tip a, .Space-icons  .tip a{ color:#1562c8; text-decoration:underline;}
+.Conference  .tip a:hover, .Space-icons  .tip a:hover{ text-decoration:none;}
+.Conference  .tip q, .Space-icons  .tip q{ font-size:24px; width:14px; height:34px; color:#fff; padding-left:10px; cursor:pointer; background:url(../../images/v2/icons/times.png) center right no-repeat;}
+.Conference  .tip q,.Space-icons  .tip q{ _background-image:url(../../images/v2/icons/times.gif);}
+ /*宣讲会收藏提示*/
+.Space-icons  .tip{ top:28px;}
+.Space-icons cite{
+    left: 25px;
+}
+.Space-icons .icons{ width: 20px; height: 20px; margin: 0;}
+.Space-icons .favor{
+     background: url("../../images/v2/icons/collec.png") no-repeat;
+     cursor: pointer;
+ }
+.Space-icons .favored{
+    background: url("../../images/v2/icons/collec-2.png") no-repeat;
+}
+.Space-icons .share{
+     margin-left: 4px;
+     background: url("../../images/v2/icons/share-small.png") no-repeat;
+ }
+.Space-icons .tools{
+    float: right;
+    margin-right: 20px;
+}

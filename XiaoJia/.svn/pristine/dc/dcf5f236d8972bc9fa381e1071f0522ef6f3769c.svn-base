@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>登录页面</title>
+    <meta name=viewport content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="../css/all.css" />
+    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+    <link href="../css/layerskin/default/layer.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="login-logo">
+
+    </div>
+
+    <div class="login-page">
+        <div class="login-cell">
+            <div class="login-box">
+                <div class="login-text">学员登入系统</div>
+                <input type="text" class="account" placeholder="请输入账号">
+                <div class="error_box">
+                	<span class="field-validation-error field-validation-error_goin" >信息不能为空</span></span>
+                </div>
+                <input type="password" class="password" placeholder="请输入密码">
+                <div class="error_box">
+                	<span class="field-validation-error field-validation-error_goin" >信息不能为空</span></span>
+                </div>
+                <input type="submit" class="subt" value="登录">
+                <a href="学员录入.html">登录</a>
+                <button>登录</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+<script src="../js/jquery.js"></script>
+<script src="../js/layer.js"></script>
+<script src="../js/area.js"></script>
+<script src="../js/all.js"></script>
+<script src="../js/plugin/select.js"></script>
+<script src="../js/My97DatePicker/WdatePicker.js"></script>
+<script src="http://api.map.baidu.com/api?v=2.0&amp;ak=OlGzoCwcKN9OvM16T9RnFwOl"></script>
+
+<script type="text/javascript">
+
+
+    
+
+
+
+
+</script>
+
+</body>
+</html>
+
+

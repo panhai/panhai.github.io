@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>重置密码成功</title>
+    <meta name=viewport content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="../css/all.css" />
+    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+    <link href="../css/layerskin/default/layer.css" rel="stylesheet" />
+</head>
+
+<body>
+
+<div class="parseword_box">
+	<div class="parseword_box_top">
+		<img src="../images/parseword_logo1.png" alt="" class="pasee_img"/>
+		<span class="z_parseword">找回密码</span>
+		<div class="login_copy login_copy2">
+			<i class=""></i>
+			<span>400-600-3310</span>
+		</div>
+		<div class="parseword_main">
+				
+			<div class="phone">
+					<div class="phone_cg">
+						<img src="../images/success2.png" alt="" />
+						<span>您的密码已重置成功！</span>
+					</div>
+					<div>
+						<p>
+							<span>账号:</span>
+							<span>1363293773</span>
+						</p>
+					</div>
+				 	<div class="btn_box">
+				 		<button type="button">登  录</button>
+				 	</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+
+
+<script src="../js/jquery.js"></script>
+<script src="../js/layer.js"></script>
+<script src="../js/all.js"></script>
+
+<script>
+	
+</script>
+</body>
+</html>

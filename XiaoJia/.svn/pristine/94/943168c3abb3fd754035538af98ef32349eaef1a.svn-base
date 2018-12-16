@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>课程管理-10</title>
+    <meta name=viewport content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="../css/all.css" />
+    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+    <link href="../css/layerskin/default/layer.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/scrollbar.css">
+</head>
+<body>
+<div class="head-navgater">
+    <div class="rightCenter">
+        <div class="setting">
+            <a href="javascript:void(0)" >设置</a>
+        </div>
+
+        <div class="feed_back">
+            <a href="javascript:void(0)" >我要反馈</a>
+        </div>
+
+        <div class="information">
+            <span class="icon"></span>
+        </div>
+
+        <div class="news">
+            <span class="icon"></span>
+        </div>
+
+
+        <div class="search">
+            <input type="text" value="" placeholder="搜求职者" class="search_txet">
+            <span class="icon"></span>
+            <div class="history-layer">
+                <a href="javascript:void(0)" >
+                    <i>咨询学员</i>
+                    <span>"啊啊啊啊"</span>
+                </a>
+
+                <a href="javascript:void(0)" >
+                    <i>报名学员</i>
+                    <span>"啊啊啊啊"</span>
+                </a>
+
+                <a href="javascript:void(0)" >
+                    <i>班级</i>
+                    <span>"啊啊啊啊"</span>
+                </a>
+
+                <a href="javascript:void(0)" >
+                    <i>课程</i>
+                    <span>"啊啊啊啊"</span>
+                </a>
+
+                <a href="javascript:void(0)" >
+                    <i>教师</i>
+                    <span>"啊啊啊啊"</span>
+                </a>
+
+                <a href="javascript:void(0)" >
+                    <i>帮助文档</i>
+                    <span>"啊啊啊啊"</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="left-navgater">
+    <div class="logoBox">
+        <a href="javascript:void(0)"  class="changeArrow">
+            <i></i>
+        </a>
+        <span class="logo_msg">管理系统</span>
+    </div>
+
+    <div class="school-infor">
+        <div class="inforBox cur">
+            <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2114797134,526769156&fm=26&gp=0.jpg" alt="">
+        </div>
+        <div class="inforBox">
+            <p>迪丽热巴</p>
+            <p>早上好</p>
+        </div>
+    </div>
+
+    <div class="nav">
+        <a href="javascript:void(0)"  class="">
+            <i class="position1"></i>
+            <span>工作台</span>
+        </a>
+
+        <div class="option cur">
+            <i class="position2"></i>
+            <span>招生宣传</span>
+            <b></b>
+
+            <div class="midLa">
+                <a href="招生宣传-微营销-微官网-1.html" class="coving" >微营销</a>
+                <a href="招生宣传-校+推广-1.html"   class="">校+推广</a>
+                <a href="招生宣传-会员推广-1.html"  class="">会员推广</a>
+                <a href="招生宣传-SEO推广-1.html"  class="">SEO推广</a>
+                <a href="招生宣传-渠道管理.html"  class="">渠道管理</a>
+            </div>
+        </div>
+
+        <a href="咨询管理-全部咨询.html"  class="">
+            <i class="position3"></i>
+            <span>咨询管理</span>
+        </a>
+        <a href="学员管理-全部学员.html"  class="">
+            <i class="position4"></i>
+            <span>学员管理</span>
+        </a>
+        <a href="教务管理-班级管理.html"  class="">
+            <i class="position5"></i>
+            <span>教务管理</span>
+        </a>
+        <a href="财务管理-1.html"  class="">
+            <i class="position6"></i>
+            <span>财务管理</span>
+        </a>
+        <a href="就业中心-1.html"  class="">
+            <i class="position7"></i>
+            <span>就业中心</span>
+        </a>
+        <a href="校+创收-1.html"  class="">
+            <i class="position8"></i>
+            <span>校+联盟</span>
+        </a>
+        <a href="学校设置-账号管理.html"  class="">
+            <i class="position9"></i>
+            <span>学校设置</span>
+        </a>
+    </div>
+</div>
+
+<div class="left-small-navgater">
+    <div class="logoBox">
+        <a href="javascript:void(0)"  class="changeArrow">
+            <i></i>
+        </a>
+    </div>
+
+    <div class="school-infor">
+        <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2114797134,526769156&fm=26&gp=0.jpg" alt="">
+    </div>
+
+    <div class="small-nav">
+        <div class="nav-url">
+            <div class="url-icon position1"></div>
+
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >控制台</a>
+            </div>
+        </div>
+
+        <div class="nav-url">
+            <div class="url-icon position2"></div>
+
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >好学校</a>
+                <a href="javascript:void(0)" >微官网</a>
+                <a href="javascript:void(0)" >微营销</a>
+                <a href="javascript:void(0)" >微活动</a>
+            </div>
+        </div>
+
+        <div class="nav-url">
+            <div class="url-icon position3"></div>
+
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >咨询管理</a>
+                <a href="javascript:void(0)" >今日跟进</a>
+                <a href="javascript:void(0)" >到访记录</a>
+                <a href="javascript:void(0)" >跟进统计</a>
+            </div>
+        </div>
+
+        <div class="nav-url">
+            <div class="url-icon position4"></div>
+
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >全部学员</a>
+                <a href="javascript:void(0)" >在读学员</a>
+                <a href="javascript:void(0)" >毕业学员</a>
+                <a href="javascript:void(0)" >学员统计</a>
+            </div>
+        </div>
+
+        <div class="nav-url">
+            <div class="url-icon position5"></div>
+
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >排课管理</a>
+                <a href="javascript:void(0)" >班级管理</a>
+                <a href="javascript:void(0)" >课程管理</a>
+                <a href="javascript:void(0)" >教师管理</a>
+            </div>
+        </div>
+
+        <div class="nav-url">
+            <div class="url-icon position6"></div>
+
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >排课管理</a>
+                <a href="javascript:void(0)" >班级管理</a>
+                <a href="javascript:void(0)" >课程管理</a>
+                <a href="javascript:void(0)" >教师管理</a>
+            </div>
+        </div>
+
+        <div class="nav-url">
+            <div class="url-icon position7"></div>
+
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >排课管理</a>
+                <a href="javascript:void(0)" >班级管理</a>
+                <a href="javascript:void(0)" >课程管理</a>
+                <a href="javascript:void(0)" >教师管理</a>
+            </div>
+        </div>
+
+        <div class="nav-url">
+            <div class="url-icon position8"></div>
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >排课管理</a>
+                <a href="javascript:void(0)" >班级管理</a>
+                <a href="javascript:void(0)" >课程管理</a>
+                <a href="javascript:void(0)" >教师管理</a>
+            </div>
+
+        </div>
+
+        <div class="nav-url">
+            <div class="url-icon position9"></div>
+
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >排课管理</a>
+                <a href="javascript:void(0)" >班级管理</a>
+                <a href="javascript:void(0)" >课程管理</a>
+                <a href="javascript:void(0)" >教师管理</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="right-content">
+
+    <div class="content-nav">
+        <a href="招生宣传-微营销-微官网-1.html"  class="cur">
+            <span>微官网</span>
+            <i></i>
+        </a>
+
+        <a href="学校设置-校区设置.html"  class="">
+            <span>微传单</span>
+            <i></i>
+        </a>
+        <a href="学校设置-基本信息.html"  class="">
+            <span>微投票</span>
+            <i></i>
+        </a>
+        <a href="学校设置-属性配置.html"  class="">
+            <span>微多多</span>
+            <i></i>
+        </a>
+    </div>
+
+    <div class="content-layer ofh nopadding">
+
+        <div class="attributes-nav other-wid">
+           <div class="attr-small-nav">
+               <p>
+                   <i class="attr-icon4"></i>
+                   <span>官网管理</span>
+               </p>
+               <a href="招生宣传-微营销-微官网-0.html" class="attr-url ">首页</a>
+               <a href="招生宣传-微营销-微官网-1.html" class="attr-url ">课程管理</a>
+               <a href="招生宣传-微营销-微官网-2.html" class="attr-url ">学校相册</a>
+               <a href="招生宣传-微营销-微官网-3.html" class="attr-url ">师资团队</a>
+               <a href="招生宣传-微营销-微官网-4.html" class="attr-url ">学校概况</a>
+               <a href="招生宣传-微营销-微官网-5.html" class="attr-url ">办学优势</a>
+           </div>
+
+            <div class="attr-small-nav">
+                <p>
+                    <i class="attr-icon5"></i>
+                    <span>动态管理</span>
+                </p>
+                <a href="招生宣传-微营销-微官网-6.html" class="attr-url ">学习资讯</a>
+                <a href="招生宣传-微营销-微官网-7.html" class="attr-url ">学校动态</a>
+                <a href="招生宣传-微营销-微官网-8.html" class="attr-url ">师生问答</a>
+                <a href="招生宣传-微营销-微官网-9.html" class="attr-url ">通知公告</a>
+            </div>
+
+            <div class="attr-small-nav">
+                <p>
+                    <i class="attr-icon6"></i>
+                    <span>系统设置</span>
+                </p>
+                <a href="招生宣传-微营销-微官网-10.html" class="attr-url cur">基本设置</a>
+            </div>
+        </div>
+
+        <div class="attributes-menu">
+            <div class="attr-message">
+                <p class="cur nomargin">微官网设置
+         <!--   <b><i class="attr-icon7"></i><span>微信扫码预览</span></b>
+                <a href="发布公告.html" class="plus-new-class">+发布新公告</a>
+                 <span class="qr-layer">
+                     <span class="qr"></span>
+                 </span>
+           -->
+                </p>
+
+
+                <div class="advertising-layer">
+                    <div class="photo-mobel">
+                        <div class="mobel-image">
+                           
+                        </div>
+                        <div class="mobel-float">
+                            <p>微信扫码预览</p>
+                            <div class="qr-code"></div>
+                        </div>
+                    </div>
+
+                    <div class="advertising-floor">
+                        <div class="advertising-box">
+                            <div class="adv-title">主题色</div>
+                            <div class="theme-box">
+                                <a href="javascript:void(0)" class="theme1 cur"><i></i></a>
+                                <a href="javascript:void(0)" class="theme2"><i></i></a>
+                                <a href="javascript:void(0)" class="theme3"><i></i></a>
+                                <a href="javascript:void(0)" class="theme4"><i></i></a>
+                                <a href="javascript:void(0)" class="theme5"><i></i></a>
+                                <a href="javascript:void(0)" class="theme6"><i></i></a>
+                                <a href="javascript:void(0)" class="theme7"><i></i></a>
+                                <a href="javascript:void(0)" class="theme8"><i></i></a>
+                            </div>
+                        </div>
+
+                        
+                        <div class="advertising-box">
+                           <div class="adv-title">首页广告</div>
+                           <div class="adv-middlebox">
+                               <div class="adv-box">
+                                   <img src="http://pic.baike.soso.com/p/20131122/20131122103034-2080434157.jpg" alt="">
+                                   <div class="adv-float">
+                                       <a href="javascript:void(0)" class="set">
+                                           <span>编辑</span>
+                                       </a>
+                                       <a href="javascript:void(0)" class="del"></a>
+                                   </div>
+                               </div>
+
+                               <div class="adv-box">
+                                   <img src="http://pic.baike.soso.com/p/20131122/20131122103034-2080434157.jpg" alt="">
+                                   <div class="adv-float">
+                                       <a href="javascript:void(0)" class="set">
+                                           <span>编辑</span>
+                                       </a>
+                                       <a href="javascript:void(0)" class="del"></a>
+                                   </div>
+                               </div>
+
+                               <div class="adv-box">
+                                   <img src="http://pic.baike.soso.com/p/20131122/20131122103034-2080434157.jpg" alt="">
+                                   <div class="adv-float">
+                                       <a href="javascript:void(0)" class="set">
+                                           <span>编辑</span>
+                                       </a>
+                                       <a href="javascript:void(0)" class="del"></a>
+                                   </div>
+                               </div>
+
+                               <div class="adv-box cur">
+                                  <div class="and-box">
+                                      +
+                                  </div>
+                               </div>
+                           </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+    </div>
+</div>
+
+
+
+
+
+<div class="unload-images" id="unload-images">
+    <div class="fill-in-box nomargin">
+        <div class="fill-name">
+            广告配图：
+        </div>
+
+        <div class="fill-data">
+            <div class="fill-upload other-width">
+                <img src="" alt="">
+                <a href="javascript:void(0)" class="setting-other">
+                    +
+                </a>
+            </div>
+            <!--- 此DIV为上传后显示图片
+            <div class="fill-upload other-width">
+                <img src="" alt="" class="other-width cur">
+                <a href="javascript:void(0)" class="setting-other cur">
+                    +
+                </a>
+            </div>
+            --->
+            <span class="best-long">图片最佳尺寸800*400</span>
+        </div>
+
+        <span class="field-validation-error" data-valmsg-for="FullName" data-valmsg-replace="true"><span for="FullName" class="">信息不能为空</span></span>
+    </div>
+
+    <div class="fill-in-box nomargin">
+        <div class="fill-name">
+            链接地址：
+        </div>
+
+        <div class="fill-data">
+            <input type="text" value="" class="fill-text" placeholder="http://">
+        </div>
+        <span class="field-validation-error" data-valmsg-for="FullName" data-valmsg-replace="true"><span for="FullName" class="">信息不能为空</span></span>
+    </div>
+
+
+    <div class="fill-in-box nomargin">
+        <div class="fill-name">
+            广告排序：
+        </div>
+
+        <div class="fill-data">
+            <input type="text" value="" class="fill-text" placeholder="">
+            <span class="best-long">数字越大，排序越前</span>
+        </div>
+        <span class="field-validation-error" data-valmsg-for="FullName" data-valmsg-replace="true"><span for="FullName" class="">信息不能为空</span></span>
+    </div>
+
+
+    <div class="submitBtn ml86">
+        <a href="javascript:void(0)" class="cur">确定</a>
+        <a href="javascript:void(0)">取消</a>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<script src="../js/jquery.js"></script>
+<script src="../js/layer.js"></script>
+<script src="../js/area.js"></script>
+<script src="../js/all.js"></script>
+<script src="../js/plugin/select.js"></script>
+<script src="../js/My97DatePicker/WdatePicker.js"></script>
+<script src="http://api.map.baidu.com/api?v=2.0&amp;ak=OlGzoCwcKN9OvM16T9RnFwOl"></script>
+<script src='../js/plugin/scrollBar.js'></script>
+<script type="text/javascript">
+
+    $(".adv-float a.set,.and-box").click(function () {
+        layer.open({
+            title: '添加广告',
+            type: 1,
+            area: '620px',
+            skin: '',
+            content: $('#unload-images')
+        });
+    });
+
+
+
+
+    //主题广告hover事件
+    $(".advertising-layer .advertising-floor .adv-box").hover(function () {
+        $(this).find(".adv-float").fadeIn(200)
+    },function () {
+        $(this).find(".adv-float").fadeOut(200)
+    });
+    $(".adv-box .adv-float .del").click(function () {
+        $(this).closest(".adv-box").remove()
+    });
+
+
+
+    //主题点击事件
+    $(".advertising-floor .theme-box a").click(function () {
+        $(".advertising-floor .theme-box a").removeClass("cur");
+        $(this).addClass("cur")
+    });
+
+    //手机图片hover事件
+    $(".advertising-layer .photo-mobel").hover(function () {
+        $(".advertising-layer .mobel-float").fadeIn(200)
+    },function () {
+        $(".advertising-layer .mobel-float").fadeOut(200)
+    })
+
+
+</script>
+
+</body>
+</html>

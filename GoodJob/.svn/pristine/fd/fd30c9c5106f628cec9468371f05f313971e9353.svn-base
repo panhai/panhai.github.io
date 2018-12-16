@@ -1,0 +1,87 @@
+/* 高级搜索页 */
+/*属性过滤表*/
+.search-filters{ clear:both; border:1px solid #eaeaea; border-top-color:#6AABFF; margin-bottom:20px; display:table; *position:relative; *z-index:111;}
+.search-filters dl{ width:970px; float:left; padding:5px 15px; border-bottom:1px dashed #eaeaea; position:relative; height:25px; overflow:hidden;}
+.search-filters dt,.search-filters dd{ float:left; line-height:25px; font-size:12px;}
+.search-filters dt{ width:80px; color:#999;}
+.search-filters dd{ width:850px;}
+.search-filters dl.first{ height:50px;}
+.search-filters .normal a{ color:#616161; display:inline-block; margin-right:50px;}
+.search-filters .normal a:hover{ color:#ff5000;}
+.search-filters .normal a.cur{ background-color:#2577e3; color:#fff; padding:0px 10px;}
+.search-filters dd q{ display:block; position:absolute; right:20px; top:5px; color:#0069CD; line-height:25px; _top:11px; cursor:pointer;}
+.search-filters dd q i{ display:inline-block; width:12px; height:12px; background:#000; background-image:url(../images/icons.gif); vertical-align:text-top;}
+.more i{ background-position:left top;}
+.MORE i{ background-position:right bottom;}
+/*最后一条多个子过滤*/
+.search-filters-sub{ border:0px !important; overflow:visible !important;}
+.search-filters-sub dd{ width:890px; font-size:0px;}
+.search-filters-sub var{ display:inline-block; font-style:normal; margin-right:15px; font-size:12px; vertical-align:top;}
+.search-filters-sub samp{ display:inline-block; border:1px solid #eaeaea; padding:0px 10px; _padding:5px 10px; cursor:pointer; position:relative; z-index:333;}
+.search-filters-sub samp i{ display:inline-block; width:12px; height:12px; _overflow:hidden; background:url(../images/icons.gif) -12px 0px; position:relative; top:2px; *top:0px; _top:-2px;}
+.search-filters-sub .on samp{ border-bottom-color:#fff; background-color:#fff;}
+/*这里只能放类名，双类共设的时候，IE6只认后边的类名*/
+#subbie.on samp{ border-color:#5a5a5a; border-bottom-color:#f7f7f7; background-color:#f7f7f7; height:26px; _height:15px;}
+#subbie.on samp i{ background-position:0px -12px;}
+.search-filters-sub var div{ display:none; position:absolute; top:31px; _top:30px; left:-1px; background-color:#fff; border:1px solid #eaeaea; width:960px; padding:20px; z-index:222;}
+.subbie{ top:32px !important; _top:31px !important; left:95px !important; background-color:#fff; border-color:#5a5a5a !important; padding:0px !important;}
+
+.last p{ left:auto !important; right:0px;}
+
+/*主体*/
+.left{ float:left; width:698px; margin-bottom:20px; *z-index:1; *position:relative;}
+.right{ float:right; width:290px; margin-bottom:20px;}
+
+/*顶搜索标签*/
+.search-tags{ float:left; width:100%; background:#f9f9f9; color:#606060; font-size:12px; border-bottom:2px solid #2577E3; padding-bottom:5px; margin-bottom:10px;}
+.search-tags a,.search-tags samp,.search-tags span{ display:block; height:25px; line-height:25px; margin:5px 0px 0px 5px; white-space:nowrap;}
+.search-tags a{ background:#2577E3; color:#fff; padding:0px 5px 0px 10px; float:left;}
+.search-tags a i{ font-style:normal; font-weight:bold; margin-left:10px;}
+.search-tags samp{ float:right; font-family:"宋体"; padding-right:5px;}
+.search-tags samp b{ color:#FF4E00;}
+.search-tags span{ float:left; margin-left:5px;}
+
+/*搜索结果*/
+.search-results{ clear:both;}
+.search-results a:hover{ color:#ff5000;}
+.search-results li{ height:115px; border-bottom:1px dashed #eaeaea; background:#fff;}/*一定要有背景白，以兼容IE7的BUG*/
+.search-results address{ display:none;}
+/*显示出来的信息*/
+.search-shows{ float:left; padding:15px 0px 0px 10px;}
+.search-job{ width:350px; position:relative; z-index:1;}
+.search-company{ width:320px;}
+.search-job h3{ font-size:16px;}
+.search-job h3 a{ color:#333;}
+.search-job h3 i{ display:inline-block; width:16px; height:18px; position:relative; top:3px; margin-right:5px; background-image:url(../images/search/nums.gif); background-repeat:no-repeat; font-size:0px;}
+.search-job h3 ins{ color:#FF5408; font-size:12px; font-family:"宋体"; text-decoration:none;}
+.search-job h3 img{ margin-left:5px;}
+.search-company h3{ font-size:14px;}
+.search-company h3 a{ color:#585858;}
+.search-shows p,.search-shows h3{ white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.search-shows h3{ line-height:40px; font-family:"微软雅黑"; _padding:10px 0px;}
+.search-shows p{ font-size:12px; color:#787878; line-height:28px; clear:both; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.search-shows p b{ color:#000; font-weight:normal;}
+/*隐藏的信息，此处只能使用JS强制更改父级li的z轴以兼容IE6的定位问题*/
+.search-hide{ display:none; position:absolute; top:5px; border:2px solid #ff5000; width:404px; left:290px; min-height:200px; background:#fff; z-index:2;}
+.search-hide p{ font-size:12px; line-height:15px; white-space:normal;}
+.search-hide q{ position:absolute; left:-13px; top:35px;}
+.search-hide dt{ padding:20px; line-height:15px; border-bottom:1px dashed #bfbfbf;}
+.search-hide dt h4{ font-size:16px; color:#0059cb;}
+.search-hide dt p{ margin-top:15px; color:#646464;}
+.search-hide dt p b{ font-weight:normal; color:#000;}
+.search-hide dt i{ display:inline-block; border:1px solid #e3e3e3; padding:3px 5px; font-style:normal; margin-right:10px;}
+.search-hide dd{ padding:20px; color:#232323;}
+.search-hide dd h5{ font-size:14px; line-height:35px;}
+.search-hide dd p{ line-height:25px;}
+
+/*右侧*/
+.map{ height:350px; margin-bottom:20px;}
+.warn{ background:#ECF4FF; padding:10px;}
+.warn dt{ text-align:center; margin-bottom:5px;}
+.warn dd{ line-height:25px; font-size:14px; color:#414141; width:210px; margin:0 auto;}
+
+/*无记录*/
+.noresult{ clear:both; background-color:#FAFAFA; padding:55px 110px; font-family:"微软雅黑"; height:110px; margin:10px 0px;}
+.noresult img{ float:left; margin-right:10px;}
+.noresult h3{ width:420px; font-size:18px; color:#333; font-weight:normal; padding-top:30px; line-height:40px;}
+.noresult h4{ font-size:14px; color:#333; font-weight:normal;}

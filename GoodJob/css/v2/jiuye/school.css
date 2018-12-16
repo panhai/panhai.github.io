@@ -1,0 +1,76 @@
+/* 点关于我们里边的页面样式 */
+.HEADER{ border-bottom:1px solid #e1dfdf;}
+.MAIN{ margin:10px auto 20px; padding-bottom:20px;}
+
+/*左导航*/
+.Left{ width:190px; float:left; margin:20px 0 0 20px; border:1px solid #eee; box-shadow:0 0 6px rgba(210,210,210,.5); padding:20px 0; border-top:3px solid #965fb3;}
+.Left{ _margin-left:10px;}
+.Left h3{ font-size:18px; color:#333; line-height:40px; font-weight:normal; padding-left:60px;}
+.Left h3 a{ color:#333;}
+.Left .cur a{ color:#965fb3;}
+.Left .cur i{ display:block; width:12px; height:12px; float:left; margin:15px 0 0 -20px; background:url(../../../images/v2/icons/jiuye.png) 96px 0;}
+.Left .cur i{ _margin-left:-10px; _margin-right:5px; _background-image:url(../../../images/v2/icons/jiuye.gif);}
+
+.Right{ width:730px; float:right; margin:20px 20px 0 0; _margin-right:10px;}
+/*面包屑导航*/
+.Crumb{ height:30px; background-image:url(../../../images/v2/jiuye/topicbg.png); line-height:30px; font-size:14px; padding:0 10px; margin-bottom:10px;}
+.Crumb a{ color:#777;}
+.Crumb a:hover{ color:#965fb3; text-decoration:underline;}
+/*大标题*/
+.Topic{ height:35px; line-height:35px; border-bottom:1px solid #e1dfdf;}
+.Topic h1,.Topic h2{ font-size:18px; color:#333; float:left; font-weight:normal; padding:0 10px; border-bottom:2px solid #965fb3; height:34px; overflow:hidden;}
+.Topic .more{ float:right; font-size:12px; color:#965fb3;}
+.Topic .more i{ display:inline-block; width:12px; height:12px; background:url(../../../images/v2/icons/jiuye.png) 12px -2px; vertical-align:middle; vertical-align:text-bottom\9;}
+.Topic .more i{ _background-image:url(../../../images/v2/icons/jiuye.gif); _position:relative; _top:5px;}
+/*企业LOGO列表*/
+.Logos{}
+.Logos li{ width:121px; float:left;}
+.Logos li a{ display:block; width:106px; height:106px; overflow:hidden; border:1px solid #ecf0f4; margin:20px auto 0;}
+/*横隔条*/
+.Right .hr{ clear:both; height:20px;}
+.Right .hr2{ clear:both; height:30px; margin-bottom:20px; border-bottom:1px solid #e1dfdf;}
+/*新闻列表*/
+.News{}
+.News li{ padding:20px 0; border-bottom:1px solid #ecf0f4;}
+.News li h3{ font-weight:normal; font-size:16px; line-height:25px;}
+.News li h3 a{ color:#333;}
+.News li span{ display:block; font-size:14px; color:#965fb3; line-height:25px; margin-bottom:5px;}
+.News li p{ font-size:14px; color:#808080; line-height:25px;}
+.News li p a{ color:#333;}
+.News li a:hover{ color:#965fb3; text-decoration:underline;}
+/*院系列表*/
+.Institutes{ clear:both}
+.Institutes h2{ line-height:50px; font-size:18px; color:#333; margin-top:10px;}
+.Institutes table{ width:100%;}
+.Institutes th{ width:730px; background-color:#f3f3f3; text-indent:1em; font-size:16px; color:#333; text-align:left; line-height:40px;}
+.Institutes td{ width:200px; padding:20px; border:1px solid #f1f1f1; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+/*大篇内容*/
+.Content{ clear:both; padding:20px 0;}
+.Content p{ margin-bottom:20px; font-size:16px; color:#4c4c4c; line-height:30px;}
+.Content h1{ font-size:20px; color:#262626;}
+.Content h2{ font-size:18px; color:#333; line-height:50px;}
+.Content samp{ font-size:14px; color:#808080; display:block; line-height:50px; border-bottom:1px dotted #e3e3e3; margin-bottom:20px;}
+/*上/下一篇*/
+.NextPrev{ clear:both; padding:20px 0; border:1px solid #ecf0f4; border-width:1px 0; line-height:30px; font-weight:bold; color:#323232;}
+.NextPrev a{ color:#4c4c4c; font-weight:normal;}
+.NextPrev a:hover{ color:#965fb3; text-decoration:underline;}
+/*校友风采*/
+.Photos var{ display:block; width:140px; height:115px; overflow:hidden; box-shadow:2px 0 6px rgba(213,213,213,.75); border:1px solid #f9f9f9; float:left; margin-right:20px;}
+.Photos li{ padding:20px 0; border-bottom:1px solid #ecf0f4;}
+.Photos li h3{ font-weight:normal; font-size:16px; line-height:40px;}
+.Photos li h3 a{ color:#333;}
+.Photos li p{ font-size:14px; color:#808080; line-height:22px; height:66px; overflow:hidden;}
+.Photos li p a{ color:#333;}
+.Photos li a:hover{ color:#965fb3; text-decoration:underline;}
+.Photos li span{ display:block; font-size:14px; color:#965fb3; line-height:25px; margin-bottom:5px;}
+/*带图的信息项目*/
+.Photos .photo{}
+.Photos .photo h3,.Photos .photo p{ width:550px; float:left;}
+.Photos .photo h3{width: 562px;}
+.Photos .photo p{ height:45px;}
+/*没有信息*/
+.Nothing{ clear:both; text-align:center; padding:50px;}
+.Nothing h5{ font-size:24px; color:#f0d5fe; line-height:50px;}
+.Nothing h6{ font-size:14px; color:#f0d5fe; font-weight:normal; width:370px; margin:0 auto; text-align:left;}
+.Nothing h6 a{ float:right; color:#7200ac; text-decoration:underline;}
+

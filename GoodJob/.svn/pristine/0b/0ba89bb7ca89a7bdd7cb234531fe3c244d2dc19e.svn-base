@@ -1,0 +1,418 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>企业中心-查看简历</title>
+<link rel="stylesheet" type="text/css" href="../css/v2/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/CCenter/view-new.css">
+</head>
+<body>
+<div class="Resume-top">
+<div class="Resume-page" >
+    <div class="page">
+        <span class="next"><a href="" href="" >&lt;&lt;&nbsp;上一页</a></span>
+        <span><a href="">张英</a><i>×</i></span>
+        <span  class="cur"><a href="">欧阳龙飞</a><i>×</i></span>
+        <span><a href="">欧阳龙飞</a><i>×</i></span>
+        <span><a href="">欧阳龙飞</a><i>×</i></span>
+        <span><a href="">欧阳龙飞</a><i>×</i></span>
+        <span><a href="">欧阳龙飞</a><i>×</i></span>
+        <span><a href="">朱燕</a><i>×</i></span>
+        <span class="next"><a href="" href="" >下一页&nbsp;&gt;&gt;</a></span>
+    </div>
+    <span>第 3 页</span>
+</div>
+</div>
+<div class="Main">
+    <div class="Container" id="AnchorProfile" data-mode="SINGLE">
+        <div id="Photo"><img src="../images/v2/default.png" width="120" height="120"></div>
+        <h2 class="Topic">
+            张英
+        </h2>
+        <div class="Profile ViewMode">
+            <p>女 | 汕头 | 1993.07，大专 | 两年工作经验</p>
+            <p>
+                <i>13411022562</i>&nbsp;&nbsp;&nbsp;&nbsp;
+                <s>575859626@qq.com</s>
+            </p>
+            <p><u>445678199307082428</u></p>
+            <p>在职，想换工作</p>
+            <p><a href="javascript:void(0)" class="GetContact"><i>点击查看联系方式<small>（收取<span>1.0</span>元的费用）</small></i></a></p>
+        </div>
+    </div>
+    <!--------------------------------------------------------->
+    <div class="Container" id="AnchorOpinion" data-mode="SINGLE">
+        <h3 class="Topic"><b>职业意向</b></h3>
+        <div class="ViewMode">
+            <p>期望职位类型：<b>全职</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;期望城市：<b>广州-天河</b></p>
+            <p>期望行业：<b>计算机/互联网/电子，计算机/互联网/电子，计算机/互联网/电子</b></p>
+            <p>期望职位：<b>UI设计师，UI设计师，UI设计师</b></p>
+            <p>期望薪资：<b class="cur">5000-8000元/月</b></p>
+        </div>
+    </div>
+
+    <!--------------------------------------------------------->
+    <div class="Container" id="AnchorEducations" data-mode="LIST">
+        <h3 class="Topic"><b>教育经历</b></h3>
+        <dl class="ViewMode Lists">
+            <dt><span class="time-c">1996.3-2001.8<i class="Authentica"></i></span><br><strong>华南理工大学</strong>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;软件学院&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;本科</dt>
+            <dd class="ViewMode-line"><i></i></dd>
+        </dl>
+        <dl class="ViewMode Lists">
+            <dt><span class="time-c">2012.5-2013.12</span><br><strong>华南理工大学广州汽车学院</strong>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;广州汽车学院&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;大专</dt>
+            <dd class="ViewMode-line"><i></i></dd>
+        </dl>
+
+    </div>
+    <!--------------------------------------------------------->
+    <div class="Container" id="AnchorWorks" data-mode="LIST">
+        <h3 class="Topic"><b>工作经验</b></h3>
+        <dl class="ViewMode Lists">
+            <dt>
+                <p><span class="time-c">2002.3-2005.8</span></p>
+                <p><strong>UI设计</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;广州掌淘网络科技有限公司</p>
+                <p class="marTop">主要负责公司美工设计工作，包括网站设计更新、改版，图片设计、活动专题设计、活动物料等等！
+                </p>
+            </dt>
+            <dd class="ViewMode-line"><i></i></dd>
+        </dl>
+        <dl class="ViewMode Lists">
+            <dt>
+                <p><span class="time-c">2002.3-2005.8</span></p>
+                <p><strong>程序员</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;广州冠鹏信息技术有限公司</p>
+                <p class="marTop">广州冠鹏信息技术有限公司是国内首家推出新一代院校就业整体解决方案提供商，与国内各地著名高等院校、500强等大型企业和海量高价值中小企业深度合作..</p>
+            </dt>
+            <dd class="ViewMode-line"><i></i></dd>
+        </dl>
+    </div>
+
+    <!--------------------------------------------------------->
+    <div class="Container" id="Practice" data-mode="LIST">
+        <h3 class="Topic"><b>在校实践经历</b></h3>
+        <dl class="ViewMode Lists">
+            <dt>
+            <p><span class="time-c">2002.3-2005.8</span></p>
+            <p><strong>到边远山区助教</strong></p>
+            <p class="marTop">主要是暑假活动，组织一起到乡下给小孩子上课，一起体验和孩子们的快乐时光！</p>
+            </dt>
+            <dd class="ViewMode-line"><i></i></dd>
+        </dl>
+    </div>
+    <!--------------------------------------------------------->
+    <div class="Container" id="AnchorProjects" data-mode="LIST">
+        <h3 class="Topic"><b>项目经验</b></h3>
+        <dl class="ViewMode Lists">
+            <dt>
+                <p><span class="time-c">2002.3-2005.8</span></p>
+                <p><strong>广州冠鹏信息技术有限公司</strong></p>
+                <p>广州冠鹏信息技术有限公司&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UI设计师 / 网页美工</p>
+                <p class="marTop">制作一个可供培训资讯分享的信息平台网站.</p>
+            </dt>
+            <dd class="ViewMode-line"><i></i></dd>
+        </dl>
+        <dl class="ViewMode Lists">
+            <dt>
+                <p><span class="time-c">2002.3-2005.8</span></p>
+                <p><strong>广州冠鹏信息技术有限公司</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;好工作官方网站第二版</p>
+                <p class="marTop">在第一版的基础上，制作功能类似的第二版.</p>
+            </dt>
+            <dd class="ViewMode-line"><i></i></dd>
+        </dl>
+    </div>
+
+    <!--------------------------------------------------------->
+    <div class="Container" id="" data-mode="LIST">
+        <h3 class="Topic"><b>培训经历</b></h3>
+        <dl class="ViewMode Lists">
+            <dt>
+            <p class="time-c">2005.1-2006.2<i class="Authentica"></i></p>
+            <p><strong>高级UI设计师证</strong>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<strong>UI设计师</strong></p>
+            <p>北大青鸟（广力校区)</p>
+            <p class="marTop">
+                参加了全国信息技术应用培训教育工程的学习，通过了网页设计师类课程的认证考试，掌握了相应的专业知识和技能，能胜任相关
+                工作，由于本人平时比较喜欢网页，不断的专研，所以也学习了CSS+DIV的布局，对于网页设计很有兴趣
+            </p>
+            </dt>
+            <dd class="ViewMode-line"><i></i></dd>
+        </dl>
+    </div>
+    <!--------------------------------------------------------->
+    <div class="Container" id="AnchorSkills" data-mode="LIST">
+        <h3 class="Topic"><b>专业技能</b></h3>
+        <dl class="ViewMode Lists">
+            <dt><strong>Photoshop</strong>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;熟练&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;3个月</dt>
+            <dd class="ViewMode-line"><i></i></dd>
+        </dl>
+        <dl class="ViewMode Lists">
+            <dt><strong>Dreamweaver</strong>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;专家&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;36个月</dt>
+            <dd class="ViewMode-line"><i></i></dd>
+        </dl>
+        <dl class="ViewMode Lists">
+            <dt><strong>Fireworks</strong>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;精通&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;28个月</dt>
+            <dd class="ViewMode-line"><i></i></dd>
+        </dl>
+    </div>
+    <!--------------------------------------------------------->
+    <div class="Container" id="AnchorSkills" data-mode="LIST">
+        <h3 class="Topic"><b>语言能力</b></h3>
+        <dl class="ViewMode Lists">
+            <dt><strong>英语</strong>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;熟练&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;3个月
+                <p>四级</p>
+            </dt>
+            <dd class="ViewMode-line"><i></i></dd>
+        </dl>
+        <dd class="ViewMode-line"><i></i></dd>
+        </dl>
+    </div>
+    <!--------------------------------------------------------->
+    <div class="Container" id="AnchorProjects" data-mode="LIST">
+        <h3 class="Topic"><b>在校情况</b></h3>
+        <dl class="ViewMode Lists">
+            <dt>
+            <p><span class="time-c">2005.1-2006.2</span></p>
+            <p><strong>校园歌手大赛一等奖</strong></p>
+            <p>校园歌手大赛&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;参赛者</p>
+            <p class="marTop">活动描述：参加了全国信息技术应用培训教育工程的学习，通过了网页设计师类课程的认证考试，掌握了相应的专业知识和技能，能
+                胜任相关工作，由于本人平时比较喜欢网页，不断的专研，所以也学习了CSS+DIV的布局，对于网页设计很有兴趣.</p>
+            </dt>
+            <dd class="ViewMode-line"><i></i></dd>
+        </dl>
+        <dl class="ViewMode Lists">
+            <dt>
+            <p><span class="time-c">2011.5-2013.2</span></p>
+            <p><strong>广州冠鹏信息技术有限公司</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;好工作官方网站第二版</p>
+            <p class="marTop">在第一版的基础上，制作功能类似的第二版.</p>
+            </dt>
+            <dd class="ViewMode-line"><i></i></dd>
+        </dl>
+    </div>
+
+
+
+    <!--------------------------------------------------------->
+    <div class="Container" id="AnchorIntroduction" data-mode="SINGLE">
+        <h3 class="Topic"><b>自我评价</b></h3>
+        <div class="ViewMode Contents">
+            <p> 1、做事细致认真、能吃苦；<br/>
+                2、待人真诚、随和，很容易相处；<br/>
+                3、遵从上级指示，有缺点会认真改过；<br/>
+                4、有实习经历，希望今后学到更多；<br/>
+                5、热爱生活。</p>
+        </div>
+    </div>
+ <!--------------------------------------------------------->
+    <div class="Container" id="AnchorMyWork" data-mode="SINGLE">
+    <h3 class="Topic"><b>我的作品</b></h3>
+      <div class="ViewMode Contents"
+           <p><a href="http://www.93hgz.com">http://www.93hgz.com</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;好工作人才网</p>
+           <p class="work-text">好的工作成为职场热门话题，事实上，要找到好工作，首先要做好简历，简历的重要部分之一是自我介绍，简历自我介绍不宜过长，也不能太短.</p>
+           </div>
+    </div>
+    <!--------------------------------------------------------->
+    <div class="Container" id="AnchorOther" data-mode="SINGLE">
+        <h3 class="Topic"><b>附加信息</b></h3>
+        <div class="ViewMode Contents">
+        
+            <p>有实习经历，希望今后学到更多有实习经历，希望今后学到更多有实习经历，希望今后学到更多有实习经历，希望今后学到更多</p>
+        </div>
+    </div>
+    <div class="view-bg"></div>
+</div>
+<div class="Download  fixed fixed-bottom"><div>
+  <div class="Download-in">
+        <input type="button" value="导出简历" class="Export">
+        <input type="button" value="打印简历" class="Print">
+    </div>
+</div></div>
+<table class="FullScreenPlugin fixed fixed-top CenterDivContainer"><tr><td>
+    <dl class="CENTERDIV CenterLarge Invitation" data-active=".Tools .invite" data-attrs="id">
+        <dt class="CENTERTOPIC"><b>发面试邀请</b><q></q></dt>
+        <dd class="CENTERCONTENT">
+            <table class="CenterForm">
+                <caption>
+                    <p>可用余额：<b>300.00</b>&nbsp;&nbsp;&nbsp;&nbsp;邀请耗费：<b>600.00</b><del>（如已查看联系方式，则不扣费）</del></p>
+                    <a href="new-other-charge.html">充值</a>
+                </caption>
+                <tbody>
+                    <tr><th width="110">收件人：</th><td width="480"><em>张腾</em></td></tr>
+                    <tr><th>面试时间：</th><td>
+                        <input type="text" class="text t-m Date" value="2016-02-26">
+                        <dl class="SELECT Hour s-s" data-autofill="8,20,1" data-child=".Minute">
+                            <input type="hidden" value="19">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal"></dd>
+                        </dl>
+                        <ins>：</ins>
+                        <dl class="SELECT Minute s-s" data-autofill="0,50,10">
+                            <input type="hidden" value="10">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal"></dd>
+                        </dl>
+                        <code class="form-tip successMsg"></code>
+                        <!--<code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>-->
+                    </td></tr>
+                    <tr><th>选择模版：</th><td>
+                        <dl class="SELECT s-l Templates">
+                            <input type="hidden">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal">
+                                <a data-id="1">模版一</a>
+                                <a data-id="2">模版二</a>
+                                <a data-id="3">模版三</a>
+                            </dd>
+                        </dl>
+                        <a href="new-settings-templates.html" target="_blank" class="link">模版管理</a>
+                    </td></tr>
+                    <tr><th>联系人：</th><td>
+                        <div class="AuthorDiv">
+                            <input type="text" class="text t-s Author" value="浩斌">
+                            <!--<code class="form-tip successMsg"></code>-->
+                            <code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>
+                        </div>
+                        <div class="TelDiv">
+                            <ins>电话：</ins>
+                            <input type="text" class="text t-m Tel" value="13632293773">
+                            <!--<code class="form-tip successMsg"></code>-->
+                            <code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>
+                        </div>
+                    </td></tr>
+                    <tr><th>面试地址：</th><td>
+                        <input type="text" class="text t-l Address" value="广州天河区建业路华翠街68号仙湖名苑202G">
+                        <!--<code class="form-tip successMsg"></code>-->
+                        <code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>
+                    </td></tr>
+                    <tr><th>邀请内容：</th><td>
+                        <textarea class="Content"></textarea>
+                        <!--<code class="form-tip successMsg"></code>-->
+                        <code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>
+                    </td></tr>
+                    <tr><th></th><td class="CENTERBTNS">
+                        <input type="button" class="submit" value="发送邀请">
+                        <input type="button" class="reset" value="取消">
+                    </td></tr>
+                </tbody>
+            </table>
+        </dd>
+    </dl>
+    <dl class="CENTERDIV CenterLarge NotMatch" data-attrs="id" data-active=".notmatch">
+        <dt class="CENTERTOPIC"><b>不合适</b><q></q></dt>
+        <dd class="CENTERCONTENT">
+            <table class="CenterForm">
+                <caption><h6 class="single">确认不合适后将求职者发送拒绝通知。</h6></caption>
+                <tbody>
+                    <tr><th width="110">收件人：</th><td width="480"><em>张腾</em></td></tr>
+                    <tr><th>选择模版：</th><td>
+                        <dl class="SELECT s-l Templates">
+                            <input type="hidden">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal">
+                                <a data-id="1">模版一</a>
+                                <a data-id="2">模版二</a>
+                                <a data-id="3">模版三</a>
+                            </dd>
+                        </dl>
+                        <a href="new-settings-templates.html" target="_blank" class="link">模版管理</a>
+                    </td></tr>
+                    <tr><th>通知内容：</th><td>
+                        <textarea class="Content"></textarea>
+                        <code class="form-tip successMsg"></code>
+                        <!--<code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>-->
+                    </td></tr>
+                    <tr><th></th><td class="CENTERBTNS">
+                        <input type="button" class="submit" value="确定不合适">
+                        <input type="button" class="reset" value="取消">
+                    </td></tr>
+                </tbody>
+            </table>
+        </dd>
+    </dl>
+    <dl class="CENTERDIV CenterMiddle Move" data-active=".Tools .plus">
+        <dt class="CENTERTOPIC"><b>收藏简历</b><q></q></dt>
+        <dd class="CENTERCONTENT">
+            <input type="hidden" data-attr="id">
+            <table class="CenterForm">
+                <tbody>
+                    <tr><td>
+                        <p><img src="../images/v2/icons/required.gif" width="6" height="6">为<strong data-attr="name"></strong>选择分组</p>
+                        <p class="groups">
+                            <label><input type="checkbox" name="groups" value="">未分组简历</label>
+                            <label><input type="checkbox" name="groups" value="">销售精英</label>
+                            <label><input type="checkbox" name="groups" value="">金融销售精英简历</label>
+                            <label><input type="checkbox" name="groups" value="">技术经验</label>
+                            <label><input type="checkbox" name="groups" value="">管理牛人</label>
+                            <label><input type="checkbox" name="groups" value="">我的朋友</label>
+                            <label><input type="checkbox" name="groups" value="">企业人才库</label>
+                        </p>
+                    </td></tr>
+                    <tr><td>
+                        <input type="button" class="create" value="+ 创建新分组">
+                        <p class="create-subform">
+                            <input type="text" class="text" placeholder="请输入分组内容名称，最多8个字" data-init="true">
+                            <input type="button" class="btn sub-submit" value="创建">
+                            <input type="button" class="btn sub-reset" value="取消">
+                        </p>
+                    </td></tr>
+                    <tr><td>
+                        <textarea placeholder="为简历写上备注，方便管理，最多40字" data-init="true"></textarea>
+                        <!--<code class="form-tip successMsg"></code>-->
+                        <code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>
+                    </td></tr>
+                    <tr><td class="CENTERBTNS">
+                        <input type="button" class="submit" value="移动简历">
+                        <input type="button" class="reset" value="取消">
+                    </td></tr>
+                </tbody>
+            </table>
+        </dd>
+    </dl>
+    <dl class="CENTERDIV CenterMiddle WarmTip" data-active=".GetContact">
+        <dt class="CENTERTOPIC"><b>温馨提示</b><q></q></dt>
+        <dd class="CENTERCONTENT">
+            <p>　　1、为提高求职者对电话邀请的信任度，联系求职者时请务必告知<em>是从好工作上看到对方的简历</em>。</p>
+            <p>　　2、请通过好工作发送面试邀请内容（面试时间、地点等），系统会通过<em>网站、微信、手机客户端及邮件</em>多渠道通知对方，效率更高，操作更方便。</p>
+            <div class="clear">
+                <label><input type="checkbox">我已了解，不再提示</label>
+                <input type="button" class="submit" value="确认查看联系方式">
+            </div>
+        </dd>
+    </dl>
+</td></tr></table>
+
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/v2/all.js"></script>
+<script src="../js/plugin/raphael.js"></script>
+<script src="../js/effect/bg.js"></script>
+<script src="../js/plugin/CenterDiv.js"></script>
+<script src="../js/jbody.js"></script>
+<script src="../js/jbody-plugin.js"></script>
+<script src="../js/v2/CCenter/resumes.js"></script>
+<script>
+$(function(){
+	//画头像
+	var img=$("#Photo img").remove();
+	var paper=Raphael("Photo",134,134);
+	paper.circle(67,67,67).attr({
+        stroke:'#ffffff',
+		fill:'url('+ img.attr('src') +')',
+        border:1
+	});
+
+    $(document).scroll(function(){
+        var o = $(".Resume-top");
+        if($(this).scrollTop() > 50){
+            o.addClass('fixed');
+        }else{
+            o.removeClass('fixed');
+        }
+      
+    })
+// 删除简历
+    $(".Resume-page").delegate('i', 'click', function(event) {
+        
+        $(this).closest('span').remove();
+    });
+});
+
+</script>

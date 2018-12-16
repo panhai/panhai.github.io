@@ -1,0 +1,102 @@
+/* 简历收藏系列 */
+
+/*顶部表单*/
+.form{ clear:both; margin:20px 20px 10px; height:35px; _z-index:11; border-bottom:1px solid #bcbcbc;}
+.form-left{ float:left; padding-top:5px;}
+.form-left a{ line-height:20px; height:20px; font-size:14px; font-family:"微软雅黑"; color:#3d3d3d; padding-left:20px; background:url(../../images/CpCenter/icons.jpg) left top no-repeat;}
+.form-left a.cur{ background-position:left bottom; color:#ff5000;}
+.form-left samp{ display:inline-block; font-size:12px; color:#333; padding-top:20px; line-height:15px;}
+/*输入框及下拉列表*/
+.form-right{ float:right;}
+.form-key,.form-select,.form-submit,.form-icon{ float:left;}
+.form-icon{ position:relative; left:-5px; top:-2px;}
+.form-key,.form-submit,.form-select span{ display:block; height:15px; padding:5px; border:1px solid #BCBCBC; font-size:12px; line-height:15px;}
+.form-key{ width:110px; padding-right:25px; border-right:0px;}
+.form-submit{ width:30px; height:27px; padding:5px; background:url(../../images/CpCenter/mag.jpg) center no-repeat; border-left:0px; cursor:pointer;}
+.form-select{ width:95px; height:30px; position:relative; z-index:111; margin-right:10px;}
+.form-select i{ position:absolute; width:12px; height:12px; background:url(../../images/icons.gif) -12px 0px; right:5px; top:8px; _overflow:hidden;}
+.form-select ul{ display:none; position:absolute; width:93px; border:1px solid #bcbcbc; border-top:0px; background:#fff; padding:10px 0px; max-height:150px; overflow:auto;}
+.form-select li{ font-size:12px; line-height:25px; _height:25px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.form-select li a{ display:block; color:#666; padding:0px 10px;}
+.form-select li a:hover{ color:#fff; background-color:#2677e2;}
+
+/*仿表格*/
+.table{ clear:both; margin:10px 20px 20px; _z-index:1;}
+.thead{ border:1px solid #DDDDDD; background-color:#FAFAFA; line-height:35px; height:35px; padding:0px 10px;}
+.thead *{ font-family:"微软雅黑"; font-size:16px; text-align:center;}
+.table var,.table kbd,.table ins,.table dfn{ font-style:normal; text-decoration:none; float:left; display:block;}
+.thead var{ text-align:left; margin-left:20px;}
+.tr{ clear:both; height:100px; border-bottom:1px dashed #E9E9E9; padding-top:25px;}
+hr{ border:#C9C9C9 solid 2px; *height:4px; *position:relative; *top:-8px;}
+
+/*简历管理-未处理简历-通用样式*/
+.resumes{}
+.resumes var{ width:365px;}
+.resumes kbd{ width:30px;}
+.resumes dfn{ width:150px;}
+.resumes ins{ width:120px; float:right;}
+/*头像*/
+.resumes i{ display:block; float:left; width:75px; height:75px; border:1px solid #eaeaea; margin-right:10px;}
+.resumes i s{ display:block; width:73px; height:73px; border:1px solid #fff; overflow:hidden;}
+/*名字*/
+.resumes h4{ font-size:16px; font-family:"微软雅黑"; height:30px; color:#3d3d3d;}
+/*名字附加*/
+.resumes small{ font-size:12px; margin-left:10px; font-family:"宋体"; color:#333; font-weight:normal;}
+.resumes p{ font-size:14px; font-family:"微软雅黑"; color:#3e3e3e; line-height:25px; _height:25px;}
+/*信用度*/
+.resumes pre{ font-size:12px; color:#808080; line-height:25px; vertical-align:middle; _padding-top:5px;}
+.resumes samp{ display:inline-block; width:80px; height:10px; vertical-align:text-bottom; border:1px solid #e3e3e3; _vertical-align:middle; _overflow:hidden;}
+.resumes samp b{ display:block; float:left; background:#ff5000; height:10px;}
+/*次要*/
+.resumes .tr kbd,.resumes .tr dfn{ text-align:center; font-size:12px; color:#4c4c4c;}
+/*操作*/
+.resumes .tr ins{ font-size:12px; line-height:30px; padding:10px 0px 0px 30px; width:100px; color:#2677e3;}
+.resumes ins a{ color:#2677e3;}
+.resumes ins a:hover{ color:#ff5000;}
+/*浏览，下载*/
+.resumes cite{ font-size:12px; font-style:normal; display:block; line-height:30px; _padding-top:5px;}
+.resumes cite a{ color:#999;}
+.resumes cite a:hover{ color:#ff5000;}
+
+/*未读简历的表格尺寸*/
+.resumes .tr kbd,.resumes .tr dfn{ line-height:80px;}
+.resumes .tr kbd{ font-weight:bold;}
+.resumes var p{ width:250px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+
+/*添加分类/删除分类*/
+.cover{ padding:15px; left:0px; top:0px; display:none; z-index:66666;}
+.cover dl{ background-color:#fff;}
+.cover dt{ line-height:35px; background-color:#2677E2; color:#fff; font-size:14px; font-weight:bold; padding:0px 10px;}
+.cover .btn{ border:0px; background-color:#2677e3; font-size:14px; color:#fff; cursor:pointer; height:25px; width:55px; text-align:center; margin:25px 0px 20px 0px;}
+
+.add{ width:380px; height:180px;}
+.add form{ padding-top:40px;}
+.add label{ width:150px; display:block; float:left; font-family:"微软雅黑"; color:#666; text-align:right; line-height:25px; font-size:14px;}
+.add .newone{ width:160px; padding:0px 10px; height:25px; line-height:25px; border:1px solid #868686;}
+.add .submit{ margin-left:213px; _margin-left:217px;}
+
+.del{ width:540px;}
+.del label{ display:block; width:180px; _width:179px; float:left; line-height:35px; height:35px; margin-top:10px; border-bottom:1px dashed #E7E7E7; font-family:"微软雅黑"; font-size:16px; color:#666; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.del label input{ margin:0px 0.5em 0px 1em;}
+.del .submit{ margin-left:375px;}
+
+
+/*新增地址列表*/
+.ADDList{ display:none; position:absolute; border:1px solid #bcbcbc; border-top:0px; background:#fff; padding:10px 0px;}
+.address_tip{ border:0px; width:70px; font-size:12px; color:#333;}
+.AddressStatic{ width:435px;}
+.ADDList h4{ font-size:16px; font-weight:normal; color:#fff; background-color:#1e74e3; clear:both; padding:0px 10px; height:30px; line-height:30px;}
+.ADDTabs{ clear:both; height:30px; background-color:#f8f8f8; font-size:12px; font-family:"宋体"; margin-top:10px; border-bottom:1px solid #d7d7d7; padding:0px 10px; _overflow:hidden;}
+.ADDTabs b{ font-weight:normal; color:#454545; display:block; float:left; padding:0px 10px; margin-top:5px; border:1px solid #f8f8f8; height:23px; line-height:23px; cursor:pointer;}
+.ADDTabs b.cur{ border-color:#d7d7d7; border-bottom-color:#fff; background:#fff; _position:relative; height:24px;}
+.ADDLists{ width:100%; float:left; line-height:25px;}
+.ADDLists div{ width:100%; float:left; border-bottom:1px dashed #cbcbcb; padding:5px 0px;}
+.ADDLists em{ display:block; width:30px; text-align:center; font-size:18px; color:#666; font-style:normal; float:left;}
+.ADDLists p{ width:400px; float:left;}
+.ADDLists p a{ display:block; width:20%; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; font-size:12px; color:#666; font-family:"宋体"; float:left;}
+.hots p{ margin:10px auto; float:none; clear:both;}
+
+/*普通的下拉列表*/
+.normal{ width:93px; max-height:150px; overflow:auto; _height:150px; _overflow-y:auto; _overflow-x:hidden; font-size:12px;}
+.normal a{ display:block; line-height:30px; height:30px; color:#333; padding:0px 10px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; _width:90%;}
+.normal a:hover{ background-color:#dbeef4;}

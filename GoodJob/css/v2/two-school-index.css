@@ -1,0 +1,605 @@
+/* 校园招聘首页 */
+/*.NAV-EXTRA,.NAV-EXTRA p{ display:block !important;}*/
+.Banner{ position: relative;height:390px; width:100%; clear:both; overflow:hidden; margin-bottom:20px; text-align:center; background-color:#befceb;}
+.Banner a{
+    display: block;
+    height: 390px;
+    background: url("../../images/v2/ban5.png") no-repeat center center;
+}
+.Banner .dots{
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    bottom: 10px;
+    text-align: center;
+    top: auto;
+}
+/*通用版块样式*/
+.block .title{ clear:both; width: 744px; height:40px; line-height:40px; border-bottom:1px solid #1562c8;}
+.block .title h2{
+    font-size: 20px;
+    line-height: 40px;
+    height: 39px;
+    border-bottom: 1px solid #FFF;
+    color: #95BDF3;
+    font-weight: normal;
+    float: left;
+    padding: 0px 14px;
+    cursor: pointer;
+    margin-right: 10px;
+    }
+.block .title h2.cur{ color:#1562c8; border-bottom-color:#1562c8;}
+.block .title h3{height: 36px; width: 76px; float: left; margin-top :4px;background: url("../../images/v2/start.png") no-repeat center left; _background: url("../../images/v2/start.gif") no-repeat center left;}
+.block .title .more{ display:block; float:right; font-size:14px; color:#1562c8; padding-right:20px; background:url(../../images/v2/icons/chevron-right2.png) right center no-repeat;}
+.block .title .more{ _background-image:url(../../images/v2/icons/chevron-right.gif);}
+.block .title .more:hover{ color:#1562c8;}
+h4, h5{
+    font-weight: normal;}
+h4 a, h5 a{
+    display: inline-block;}
+.left a.cur{
+    color: #1562c8; text-decoration: underline;}
+
+/*热招职位*/
+.Main .left{
+    float: left;
+    width: 774px;
+    margin-bottom: 30px;
+}
+.Main .right{
+    float: right;
+    width: 286px;
+    margin-top: 10px;
+}
+.Main .right dt{
+    height: 40px;
+    overflow: hidden;
+    margin-bottom: 1px;
+    border-bottom:1px solid #1562c8;
+}
+/*右边企业直招广告*/
+.right .jobs-AD{
+    margin-top: 10px;
+}
+.right .jobs-txt{
+    margin-top: 15px;
+}
+/*热招，宣讲会，招聘会*/
+.Hot-job, .Preach, .Job-fair{
+    clear: both;
+    margin-bottom: 30px;
+}
+.Hot-job td ,.Preach td, .Job-fair td{
+    padding: 25px 0;
+    height: 108px;
+    vertical-align: top;
+}
+.left .items{
+    clear: both;
+    height: 108px;
+}
+.Preach .Hot{
+    width: 542px;
+}
+ td.Preach-back{
+    height: 30px;
+    padding: 10px 0;
+    line-height: 30px;
+    font-size: 14px;
+    color: #7f7f7f;
+    font-weight: normal;
+}
+.left .items * {
+    font-style: normal;
+}
+.left .Hot p{
+    clear: both;
+    zoom: 1;
+}
+.left .Hot p *, .left  ul li *{
+    font-style: normal;
+    display: inline-block;
+}
+
+.left .Hot h4 *,.left .Hot h5 *,.left .Jobs h4 *{
+    display: inline-block;
+    vertical-align: middle;
+}
+.Hot-job td .items-pic,.Preach td .items-pic, .Job-fair td .items-pic{
+	display: inline-block;
+	width:108px;
+	height:108px;
+    margin-left: -6px;
+	border: 1px solid #cccccc;
+}
+.Hot-job a img,
+.Preach a img,
+.Job-fair a img{
+    width: 100%;
+}
+.Hot-job .Hot {
+    width: 306px;
+}
+.Hot-job .Hot h4{
+    width: 306px;
+}
+.Hot-job .Hot h5{
+    width: 304px;
+}
+.Hot-job .Hot h4 a{
+    max-width: 9em!important;
+    white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.Preach .Hot h4 a,
+.Job-fair .Hot h4 a,
+.Job-fair .Job h4 a,
+.Job-addres i{
+    max-width: 480px;
+    white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.Hot .Hot-salary,
+.Job-fair .Job-salary,
+.Preach h5 a,
+.Preach h6,
+.Preachs p,
+.Jobs h4 a{
+    max-width: 400px;
+    white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.Hot-job .Hot h5 a{
+    max-width: 270px;
+    color: #555;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.left .Hot h4,.left .Preachs h4{
+
+    height: 38px;
+    float: left;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 37px;
+}
+.left .Hot h5,.left .Preachs h5{
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 35px;
+}
+.left .Hot h4 a,.left .Preachs h4 a{
+    max-width: 21em;
+    white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #525252;
+}
+.left .Hot h4 a em,.left .Preachs h4 a em{
+    color: #999999;
+    vertical-align: baseline;
+}
+.left .Hot h4 a:hover,
+.left .Hot h5 a:hover
+{
+    text-decoration: underline;
+}
+.left .Hot h5 a ,.left .Preachs h5 {
+    color: #444444;
+}
+.left .Hot h5 i,.left .Preachs h5 i{
+    width: 20px;
+    height: 30px;
+    margin-left: 10px;
+    background: url(../../images/v2/icons/check-s.png) left center no-repeat;
+}
+.left .Hot h4 i, .left .Jobs h4 i, .left .Preachs h4 i{
+    background: url(../../images/v2/icons/push-s.png) left 3px no-repeat;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ddac15;
+    font-style: normal;
+    padding-left: 25px;
+    margin-left: 10px;
+    line-height: 40px;
+    font-weight: bold;
+    height: 33px;
+    overflow: hidden;
+}
+.left .items .Hot-salary{
+    line-height: 38px;
+    clear: both;
+}
+
+.left .items p{
+    font-size: 14px;
+    color: #666666;
+    margin: 2px 0 2px 0;
+}
+.left .items p i{
+
+    margin-right: 6px;
+    color: #999999;
+}
+
+.left .items p b{
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: normal;
+    vertical-align: middle;
+    color: #f7831c;
+}
+.left .Hot p em{
+    display: inline-block;
+    padding-left: 22px;
+    margin-left: 20px;
+    background: url("../../images/v2/icons/dingwei.png") no-repeat center left;
+    color: #666666;
+}
+.left .Hot ul{
+    float: left;
+    margin-left: -6px;
+}
+.left .Hot ul li{
+    float: left;
+    height: 23px;
+    margin-right: 10px;
+    font-size: 14px;
+    color: #87b8f8;
+}
+.left .Hot ul li u{
+    float: left;
+    text-decoration: none;
+    padding-left: 11px;
+    line-height: 23px;
+    height: 23px;
+    background: url("../../images/v2/tag.png") no-repeat left top;
+}
+.left .Hot ul li i{
+    height: 23px;
+
+    display: inline-block;
+    padding-left: 11px;
+    background: url("../../images/v2/tag.png") no-repeat right top;
+}
+
+/*宣讲会搜索结果*/
+.left .Preachs h5{
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 35px;
+}
+.left .Preachs h5 a{
+    color: #333333;
+}
+.left .Preachs h6{
+    margin-top: 8px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 35px;
+    color: #999;
+}
+/*招聘会搜索结果*/
+.left .Job-fair h4{
+    font-size: 18px;
+}
+.left .Job-fair h4 a{
+    max-width: 18em;
+    color: #333333;
+}
+.left .Job-fair .Job-addres{
+    line-height: 37px;
+}
+
+.left .Preachs p{
+    line-height: 25px;
+    margin: 0;
+}
+
+/*兼职搜索结果*/
+.Hot-jobs{
+    margin-bottom: 20px;
+}
+.Hot-jobs td{
+    padding: 10px 0;
+}
+.left .Jobs p{
+    font-size: 12px;
+}
+
+.left .Jobs h4{
+    font-size: 18px;
+}
+.left .Jobs h4 a{
+    color: #000000;
+}
+.left .Jobs .Jobs-salary a{
+    color: #444444;
+}
+.left .Jobs .Jobs-salary{
+    margin: 0;
+    font-size: 14px;
+    line-height: 28px;
+}
+.left .Jobs .Jobs-salary i{
+    display: inline-block;
+    width: 15px;
+    height: 17px;
+    margin-left: 6px;
+    vertical-align: middle;
+    background: url("../../images/v2/icons/check-m.png") no-repeat;
+}
+
+.left .Jobs h5{
+    font-size: 12px;
+    color: #666666;
+    text-align: right;
+}
+.left .Jobs .Jobs-Money{
+    color: #ff4800;
+    font-size: 24px;
+    text-align: right;
+    margin-top: 10px;
+}
+.left .Jobs .Jobs-Money i{
+    color: #ff4800;
+    font-size: 18px;
+    margin: 0;
+}
+/*搜索不到*/
+td.not{
+    text-align: center;
+    vertical-align: bottom;
+    width: 500px;
+    height: 400px;
+    background: url("../../images/v2/schools/icon_not.png") no-repeat center center;
+}
+td.not p{
+    color: #666;
+    line-height: 200px;
+}
+/*分享和收藏*/
+.Preach .share-btn, .Job-fair .share-btn{
+    display: block;
+    width: 66px;
+    height: 30px;
+    background-color: #c4daf9;
+    margin: 10px 0;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/*50秒创建简历*/
+.Create-job{
+    width:280px;
+    width: 288px\9;
+    height: 175px;
+    padding-top: 3px;
+    margin-top: 10px;
+    -webkit-box-shadow: 1px 1px 4px 0 #CCCCCC;
+    -moz-box-shadow: 1px 1px 4px 0 #CCCCCC;
+    box-shadow: 1px 1px 4px 0 #CCCCCC;
+    background: url("../../images/v2/schools.png") no-repeat left top\9;
+}
+.Create-job img{
+    display: block;
+    margin: 0 auto;
+}
+.Create-job p{
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    border-top: 1px solid #f2f2f2;
+}
+.Create-job a.cur{
+    color: #1562c8;
+}
+/*分享经验*/
+.Share-exp{
+    width: 280px;
+    height: 140px;
+    width: 288px\9;
+    height: 149px\9;
+    margin-top: 12px;
+    background-color: #fafafa;
+    -webkit-box-shadow: 1px 1px 4px 0 #CCCCCC;
+    -moz-box-shadow: 1px 1px 4px 0 #CCCCCC;
+    box-shadow: 1px 1px 4px 0 #CCCCCC;
+    background: url("../../images/v2/schools.png") no-repeat 0 -184px\9;
+}
+.Share-exp a{
+    line-height: 40px;
+    color: #54b5f9;
+}
+.Share-exp span{
+    display: inline-block;
+    width: 140px;
+    height: 95px;
+    text-align: center;
+}
+.Share-exp span i{
+    display: block;
+    width: 46px;
+    height: 35px;
+    margin:18px auto 0;
+    background: url("../../images/v2/schools.png") no-repeat 0 -470px;
+}
+.Share-exp .text-exp{
+    margin-left: -1px;
+    border-left: 1px solid #e5effd;
+}
+.Share-exp .text-exp i{
+    background-position: 8px -505px;
+}
+.Share-exp p{
+    line-height: 45px;
+    text-align: center;
+    border-top: 1px solid #e5effd;
+}
+
+.Space-icons{
+    position: relative;
+    vertical-align: top;
+}
+.Space-icons  .Space-icons-ll{
+    position: absolute;
+    width: 60px;
+    top: 35px ;
+    left: 0;
+    margin-top: -10px;
+    font-size: 9px;
+    color: #1562c8;
+    font-size: 14px;
+    font-style: normal;
+}
+.Space-icons .tools{
+    margin-top: 0!important;
+}
+.Space-icons p{
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+    margin-left: 60px;
+}
+.Space-icons p i{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("../../images/v2/icons/collec.png") no-repeat;
+    cursor: pointer;
+}
+.Space-icons .Space-icons-space{
+    background: url("../../images/v2/icons/share-small.png") no-repeat;
+}
+.Hot-job .tools{
+}
+.Job-fair .tools,
+.Preach .tools{
+
+    margin-top: 18px;
+    position: relative;
+}
+.Job-fair .tools cite,
+.Preach .tools cite{
+    width: 40px;
+    top: 0;
+    right: -70px;
+    padding: 10px;
+    border: 1px solid rgb(204, 204, 204);
+}
+
+.Job-fair .tip , .Preach  .tip{ display:none; position:absolute; top:74px; right:0; background-color:#d1e3fc; line-height:34px; height:34px; overflow:hidden; color:#525252; font-size:0px; padding:0px 10px; white-space:nowrap; text-decoration:none;}
+.Job-fair .tip q, .Job-fair .tip span, .Preach  .tip q,.Preach .tip span{ display:inline-block; vertical-align:middle;}
+.Job-fair .tip span, .Preach  .tip span{ font-size:14px;}
+.Job-fair .tip a, .Preach  .tip a{ color:#1562c8; text-decoration:underline;}
+.Job-fair .tip a:hover, .Preach  .tip a:hover{ text-decoration:none;}
+.Job-fair .tip q, .Preach  .tip q{ font-size:24px; width:14px; height:34px; color:#fff; padding-left:10px; cursor:pointer; background:url(../../images/v2/icons/times.png) center right no-repeat;}
+.Job-fair .tip q, .Preach  .tip q{ _background-image:url(../../images/v2/icons/times.gif);}
+.share-btn.favored{
+    background: #1562C8;}
+/*热企推荐*/
+.Hot-enter, .Job-enter{
+    margin: 10px 0 ;
+}
+.Job-enter,
+.Job-enter .title,
+.Job-enter dd
+{
+    width: 286px;
+}
+
+.Hot-enter .title, .Schools .title{
+    width: 282px; height: auto; border-bottom:0;
+}
+.Hot-enter dd{
+    width: 280px;
+    height: 88px;
+    width: 286px\9;
+    height: 94px\9;
+    margin-top: 14px;
+    border: 1px solid #f0f0f0;
+    vertical-align: middle;
+    text-align: center;
+}
+.Hot-enter dd img{
+    width: 280px;
+    height: 88px;
+}
+.Schools {
+    margin-top: 10px;
+}
+
+.Schools dd{
+    float: left;
+    width: 140px;
+    height: 78px;
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid #f0f0f0;
+    margin-top: -1px;
+    margin-right: -1px;
+}
+.Schools dd img{
+    display: inline-block;
+    width: 140px;
+    height: 78px;
+}
+/*新增分页*/
+.PAGES{width: 714px; text-align:right; padding:0 0 74px 0;}
+.PAGES a.cur{ color:#fff; text-decoration: none;}
+/*导航条，覆盖web.css*/
+
+.NAV-EXTRA a{
+    font-size: 14px;
+}
+.NAV-EXTRA p{
+    height: 43px;
+    border-bottom: 1px solid #ffffff;
+}
+/*登录框*/
+
+.CenterForm .text{
+
+    width: 280px;
+}
+.CenterForm .addition{
+    padding: 0;
+    font-size: 14px;
+    color: #666;
+}
+.CenterForm .addition a{
+        float: right;
+    color: #666;
+    text-decoration: underline;
+    text-align: left;
+}
+/*新增友情链接*/
+.Links{ border-top:1px solid #95bdf3; padding:10px 0; line-height:35px; font-size:16px; margin-top:20px;}
+.Links a{ display:inline-block; color:#95bdf3; padding:0 10px;}
+.Links a:hover{ text-decoration:underline; color:#1562c8;}
+/*关闭按钮*/
+.CenterAD{
+    position: relative;
+    width: 617px;
+    margin: 0 auto;
+}
+.CenterAD-close{
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 88px;
+    float: right;
+    cursor: pointer;
+}

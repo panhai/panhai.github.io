@@ -1,0 +1,542 @@
+/* 整站通用样式 */
+*{ margin:0px; padding:0px; font-family:Microsoft YaHei, Arial;word-break: break-all;}
+ul,ol,li{ list-style:none;}
+q{ quotes:none;}
+a{ text-decoration:none; cursor:pointer;}
+a img{ border:0px;}
+.common{ width:1000px; margin:0 auto; clear:both;}
+body{}
+input::-ms-clear{ display:none;}
+:-moz-placeholder{ color:#999;}
+::-moz-placeholder{ color:#999;}
+:-ms-input-placeholder{ color:#999 !important;}
+:focus{ outline:none;}
+textarea{ resize:none !important;}
+.clear{ clear:both !important; float:none !important;}
+table{ border-collapse:collapse; table-layout:fixed;}
+/*IE6 用absolute模拟fixed*/
+body{
+    _background-image: url(about:blank);     /*用浏览器空白页面作为背景*/
+    _background-attachment: fixed;     /* prevent screen flash in IE6 确保滚动条滚动时，元素不闪动*/
+}
+
+.cursor{
+    color: #ff6000!important;}
+/*头部*/
+.header{
+    height: 50px;
+    color: #333;
+    font-size: 16px;
+    line-height: 50px;
+}
+.header img{
+    vertical-align: middle;
+}
+.header a,
+.header span{
+    color: #333333;
+}
+.header .cur,.cur{
+    color: #08a887;
+}
+.header .header-left{
+    float: left;
+}
+.header .header-right{
+    float: right;
+}
+.header .header-cb{
+    color: #333;
+    margin-right: 30px;
+}
+.header .header-cb span{
+    color: #49b4d2;
+}
+.header .header-sy{
+    margin-right: 60px;
+}
+
+/*banner*/
+
+.banner{
+    width: 100%;
+    height: 483px;
+    overflow: hidden;
+    background: url("../img/banner.png") no-repeat center top;
+}
+.banner .banner-btn{
+    width: 600px;
+    text-align: center;
+    margin: 295px auto 0 auto;
+}
+.banner .banner-btn span{
+    display: inline-block;
+    width: 186px;
+    height: 50px;
+    background: url("../img/btn_03.png") no-repeat;
+    font-size: 28px;
+    color: #ffffff;
+    line-height: 50px;
+    cursor: pointer;
+}
+.banner .banner-btn .banner-btn-bm{
+    margin-left: 90px;
+}
+.banner .banner-btn .banner-btn-yq{
+    margin-left: 20px;
+    background-image: url("../img/btn_05.png");
+}
+
+/*报名流程*/
+.process,.show-main{
+    position: relative;
+    width: 928px;
+    padding: 0 36px;
+    margin: 0 auto;
+}
+.process .process-item{
+    width: 418px;
+    float: left;
+    margin-top: 30px;
+    padding: 44px 0 0 36px ;
+
+}
+.process .process-item ul{
+    margin-top: 24px;
+    padding-right: 50px;
+}
+.process .process-item ul li{
+    color: #666666;
+    line-height: 36px;
+}
+.process .process-item ul li p{
+    line-height: 30px;
+    padding-left: 20px ;
+}
+.process .process-item1 span{
+    color: red;
+}
+.process .process-item1{
+    height: 170px;
+    background: url("../img/1.png") no-repeat;
+}
+.process .process-item2{
+    height: 170px;
+    margin-left: 20px;
+    background: url("../img/2.png") no-repeat;
+}
+.process .process-item3{
+    height: 328px;
+    background: url("../img/3.png") no-repeat;
+}
+.process .process-item4{
+    height: 328px;
+    margin-left: 20px;
+    background: url("../img/4.png") no-repeat;
+}
+
+/*参赛者展示*/
+.show-search{
+    width: 918px;
+    height: 44px;
+    padding: 0 46px 30px 36px;
+    margin-top: 36px;
+    background: url("../img/search.png") no-repeat center top;
+}
+.show-search .show-search-ipt{
+    width: 410px;
+    height: 28px;
+    float: right;
+    padding-top: 8px;
+}
+.show-search  h2{
+    float: left;
+    margin-left: 66px;
+    font-weight: normal;
+    color: #ffffff;
+    line-height: 44px;
+    font-size: 24px;
+}
+.show-search .show-search-ipt input{
+    float: left;
+    height: 28px;
+    border: 0;
+}
+.show-search .show-search-ipt input[type='text']{
+    width: 325px;
+    padding-left: 15px;
+    background: #fff url("../img/search-left.png") no-repeat left top;
+}
+.show-search .show-search-ipt input[type='button']{
+    width: 70px;
+    background-color: #08a887;
+    font-size: 16px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/*参赛着展示*/
+.show-items{
+    width: 214px;
+    height: 380px;
+    border: 1px solid #f2f2f2;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.show-items h2{
+    line-height: 44px;
+    background-color: #f2f2f2;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+}
+.show-item-ticket{
+    width: 120px;
+    height: 120px;
+    margin: 32px auto 14px;
+    line-height: 85px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+}
+.show-items .show-item-num{
+    width: 64px;
+    height: 21px;
+    margin: 0 auto;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    /*background: #08a887;*/
+    background: url("../img/ticket-bg.png") no-repeat;
+}
+.show-item-info{
+    padding-left: 12px;
+}
+.show-item-info h3{
+    font-size: 24px;
+    color: #333333;
+    font-weight: normal;
+    line-height: 36px;
+    margin-top: 16px;
+    width: 202px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.show-item-info h3 em{
+    margin-left: 8px;
+}
+.show-item-info h3 em ,
+.show-item-info h3 i{
+    font-size: 14px;
+    font-style: normal;
+}
+.show-items .show-item-info p{
+    max-width: 12em;
+    font-size: 14px;
+    color: #666666;
+    line-height: 28px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.show-items .show-item-info p em{
+    color: #999999;
+    font-style: normal;
+}
+
+/*投票拉票*/
+.show-item-vote{
+    margin-top: 6px ;
+    font-size: 16px;
+    color: #ffffff;
+    cursor: pointer;
+}
+ .show-item-vote span{
+    display: inline-block;
+    float: left;
+    width: 50%;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+}
+.show-item-vote .show-item-tp{
+    background-color: #ff6000;
+}
+.show-item-vote .show-item-lp{
+    background-color: #fdad4e;
+}
+
+/*翻页*/
+.page{
+    overflow: hidden;
+
+}
+.page-tools{
+    height: 35px;
+    overflow: hidden;
+    text-align: right;
+    float: right;
+    margin: 34px 33px 124px 0;
+}
+.page span{
+    float: left;
+    margin-right: 8px;
+}
+.page a{
+ /*    width: 33px;
+ height: 33px; */
+    display: inline-block;
+    margin-right: 8px;
+    padding: 0 14px;
+    border: 1px solid #08a887;
+    font-size: 12px;
+    font-family: 宋体;
+    line-height: 32px;
+    color: #666666;
+}
+.page a.cur{
+    color: #fff;
+    background-color: #08a887;
+}
+.page .page-next{
+    width: 72px;
+}
+
+/*脚步*/
+.footer{
+    background-color: #f5f5f5;
+}
+.rule{ position: relative; border-top: 1px solid #efefef; }
+.rule .block01 .text .p a{color: #666;}
+.rule .block01 .text .p{ font-size:16px; color:#666; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; padding-bottom:7px;}
+.rule .block02{ padding:50px 50px 0 50px;}
+.rule .block02 .item{ padding-bottom:40px;}
+.rule .block02 .title{ font-size:20px; padding-bottom:20px; font-weight:bold;}
+.rule .block02 .text{ font-size:14px; color:#999; line-height:24px;}
+.rule .bottom{ height:190px; }
+.rule .bottom .left{ float:left; color:#666; padding-top:40px;}
+.rule .bottom .left .numbar{ font-size:40px; color:#08a887; font-weight:bold;}
+.rule .bottom .right{ float:right; text-align:right; padding:50px 0 0 0;}
+.rule .bottom .right .c-grey01{ color: #999999; font-size: 12px;}
+.rule .bottom .right a{ display:inline-block; color:#666; padding:0 30px; border-right:1px solid #d4d4d4; font-size:14px;}
+
+/*登录框*/
+.CENTERDIV{
+    display: block;
+    border: 0;
+}
+.FullScreenPlugin .CenterTiny,.CenterVote{
+    width: 452px;
+    border: 0;
+}
+.FullScreenPlugin .CENTERTOPIC{
+    background-color: #08a887;
+}
+.CenterTiny .CENTERCONTENT-s{
+    padding: 30px;
+}
+.CenterForm th, .CenterForm td{
+    padding: 0;
+}
+.CENTERDIV  dd{
+    background-color: #fff;
+}
+.CenterForm{
+    margin: 0 auto;
+}
+.CenterForm .text{
+    width: 290px;
+    height: 38px;
+    padding: 0;
+    padding-left: 10px;
+    margin-top: 0;
+}
+.CenterForm .Login-password{
+    margin-top: 10px;
+}
+
+.CENTERDIV .submit, .CENTERDIV .submit:hover{
+    background-color: #08a887;
+    border: 0;
+}
+.addition{
+    font-size: 14px;
+    color: #999999;
+}
+.addition a{
+    color: #999999;
+    float: right;
+}
+.CENTERBTNS a{
+    color: #08a887;
+    margin-left: 20px;
+}
+
+/*完善简历*/
+.CenterForm span{
+    color: #333;
+}
+.Perfect .Perfect-text{
+    font-size: 18px;
+    color: #333333;
+}
+.Perfect a,.CenterVote  input{
+    display: block;
+    width: 132px;
+    height: 38px;
+    background-color: #08a887;
+    font-size: 16px;
+    border:0;
+    color: #ffffff;
+    margin:24px auto;
+    cursor: pointer;
+    text-align: center;
+}
+
+/*邀请*/
+.CenterInvi,
+.Canvassing,
+.CenterEnroll{
+    width: 420px;
+}
+.Invitation dd,
+.Canvassing dd,
+.CenterNot dd,
+.CenterVote dd,
+.CenterEnroll dd
+{
+    padding: 26px 35px 28px 35px;
+}
+
+.Invitation-text, .Canvassing{
+    font-size: 16px;
+}
+.CenterInvi input{
+    width: 340px;
+    height: 38px;
+    padding-left: 10px;
+    margin: 20px 0;
+    color: #08a887;
+    border: 1px solid #08a887;
+}
+
+/*拉票*/
+.Canvassing img,
+.CenterEnroll img{
+    display: block;
+    margin: 0 auto 30px;
+}
+
+.Canvassing-text{
+    line-height: 38px;
+}
+
+/*投票*/
+
+.CenterVote td{
+    text-align: center;
+}
+.CenterVote p{
+    text-align: center;
+    font-size: 16px;
+}
+.CenterVote-text{
+    color: #333;
+    font-size: 24px;
+}
+.CenterVote td img{
+    margin-top: 26px;
+}
+/*报名成功*/
+.CenterEnroll h2{
+    text-align: center;
+    font-weight: normal;
+    color: #ff701a;
+}
+.CenterEnroll img{
+    margin: 20px auto;
+}
+/*已投票*/
+.show-item-vote .not{
+    background-color: #999;
+
+}
+/*报名未成功*/
+.CenterNot{
+    width: 480px;
+    font-size: 18px;
+    text-align: center;
+    color: #333;
+}
+.CenterNot td{
+
+    text-align: center;
+}
+.CenterNot p span{
+    color: #ff701a;
+}
+.CenterNot td .CenterNot-t{
+    font-size: 16px;
+    color: #999999;
+}
+.CenterNot .Perfect-btn{
+    display: block;
+    width: 164px;
+    height: 38px;
+    line-height: 38px;
+    background-color: #08a887;
+    color: #fff;
+    font-size: 16px;
+    border: 0;
+    cursor: pointer;
+    margin: 24px auto 20px;
+}
+/*ad*/
+.CenterAD{
+    position: relative;
+    width: 617px;
+    margin: 0 auto;
+    background: none;
+}
+.CenterAD .CENTERTOPIC{
+    background: none;
+}
+
+.CenterAD-close{
+    display: block;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    top: 40px;
+    right: 88px;
+    float: right;
+    cursor: pointer;
+
+}
+
+
+/*右边广告*/
+
+.rightAD{
+    position: absolute;
+    width: 300px;
+    height: 320px;
+    top: 590px;
+    right: 10px;
+    z-index: 222;
+}
+.rightAD span{
+    position: absolute;
+    right: 42px;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.rightAD.fixed{
+    position: fixed;
+    top: 0;
+    right: 10px;
+}

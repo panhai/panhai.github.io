@@ -1,0 +1,217 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>好工作运营后台-某个学校-院校资料编辑</title>
+</head>
+<link rel="stylesheet" type="text/css" href="../css/v2/admin/all.css">
+
+<body>
+<header class="clear">
+	<img src="../images/v2/logo-s.png" width="119" height="62">
+    <em>后台管理系统</em>
+    <p>
+    	<a href="#"><i><img src="../images/v2/nophoto.png" width="30" height="30"></i><span>用户名称</span></a>
+        <a href="#">安全退出</a>
+    </p>
+</header>
+<nav>
+	<li><a href="index.html">首页</a></li>
+	<li><a href="companies.html">企业管理</a></li>
+	<li class="cur"><a href="schools.html">院校管理</a></li>
+	<li><a href="users.html">用户管理</a></li>
+	<li><a href="jobs.html">职位管理</a></li>
+	<li><a href="resumes.html">简历管理</a></li>
+	<li><a href="servers.html">客服系统</a></li>
+	<li><a href="moneys.html">财务系统</a></li>
+	<li><a href="system.html">系统管理</a></li>
+</nav>
+
+<!--<menu>
+	<li class="cur"><a href="schools.html">全部院校</a></li>
+	<li><a href="schools-on.html">已合作</a></li>
+	<li><a href="schools-off.html">已下架</a></li>
+	<li><a href="school-edit.html">添加院校</a></li>
+</menu>-->
+
+<ol class="SubMenu">
+	<li>院校名称院校名称院校名称</li>
+	<li class="cur"><a href="school-detail.html">学校资料</a></li>
+	<li><a href="school-companies.html">合作企业</a></li>
+	<li><a href="school-admins.html">管理员</a></li>
+	<li><a href="school-totals.html">信息统计</a></li>
+	<li><a href="school-logins.html">登录日志</a></li>
+</ol>
+
+<div class="Filter"><table>
+	<tr>
+    	<th width="7%">学校全称：</th><td width="26%">
+            <input type="text" class="text long">
+        </td>
+    	<th width="7%">办学性质：</th><td width="26%">
+        	<dl class="SELECT long">
+            	<input type="hidden" value="100">
+                <dt></dt>
+                <dd class="normal">
+                    <a data-id="1">公办</a>
+                    <a data-id="2">民办</a>
+                    <a data-id="3">公私合营</a>
+                    <a data-id="4">中外合资</a>
+                    <a data-id="5">外国</a>
+                    <a data-id="6">其它</a>
+                </dd>
+            </dl>
+        </td>
+    	<th width="7%">学校类型：</th><td width="26%">
+        	<dl class="SELECT long">
+            	<input type="hidden" value="100">
+                <dt></dt>
+                <dd class="normal">
+                    <a data-id="1">高等院校</a>
+                    <a data-id="2">中等职业培训</a>
+                    <a data-id="3">教育培训机构</a>
+                    <a data-id="4">其它学校</a>
+                </dd>
+            </dl>
+        </td>
+    </tr>
+    <tr>
+    	<th>办学规模：</th><td>
+        	<dl class="SELECT long">
+            	<input type="hidden" value="100">
+                <dt></dt>
+                <dd class="normal">
+                    <a data-id="1">1000人以下</a>
+                    <a data-id="2">1000-3000人</a>
+                    <a data-id="3">3000-5000人</a>
+                    <a data-id="4">5000-10000人</a>
+                    <a data-id="5">10000-30000人</a>
+                    <a data-id="6">30000人以上</a>
+                </dd>
+            </dl>
+        </td>
+    	<th>主管单位：</th><td colspan="3">
+        	<input type="text" class="text superlong">
+        </td>
+    </tr>
+    <tr>
+        <th>所在城市：</th><td>
+        	<dl class="SELECT double cities ADDRESS" data-child=".districts" data-address="GetHotCities">
+            	<input type="hidden">
+                <dt></dt>
+                <dd class="normal">
+                </dd>
+            </dl>
+            <ins></ins>
+        	<dl class="SELECT double districts ADDRESS" data-parent=".cities">
+            	<input type="hidden">
+                <dt></dt>
+                <dd class="normal">
+                </dd>
+            </dl>
+        </td>
+    	<th>院校地址：</th><td colspan="3">
+        	<input type="text" class="text superlong">
+        </td>
+    </tr>
+    <tr>
+        <th>联系人：</th><td>
+        	<input type="text" class="text long">
+        </td>
+    	<th>联系电话：</th><td>
+        	<input type="text" class="text long">
+        </td>
+    	<th>联系邮箱：</th><td>
+        	<dl class="SELECT long input">
+            	<dt><input type="text" class="EMAILS" placeholder="负责人邮箱"></dt>
+                <dd class="normal"></dd>
+            </dl>
+        </td>
+    </tr>
+    <tr class="valign-top">
+    	<th>学校简介：</th><td colspan="5"><textarea class="editor-samp fulllong">
+            　　公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介
+            　　公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介公司简介
+        </textarea></td>
+    </tr>
+    <tr class="valign-top">
+        <th>LOGO：</th><td colspan="5">
+        	<p>上传企业LOGO，支持jpg png jif格式，图片小于2M</p>
+        	<figure><img src="../images/v2/job-logo.jpg"></figure>
+        </td>
+    </tr>
+    <tr>
+        <th>合同状态：</th><td>
+        	<dl class="SELECT long">
+            	<input type="hidden" value="100">
+                <dt></dt>
+                <dd class="normal">
+                    <a data-id="1">已合作</a>
+                    <a data-id="2">未合作</a>
+                    <a data-id="3">准合作</a>
+                </dd>
+            </dl>
+        </td>
+    	<th>合同有效期：</th><td>
+        	<input type="text" class="text long time">
+        </td>
+    	<th>&nbsp;</th><td>&nbsp;
+        	
+        </td>
+    </tr>
+    <tr>
+        <td colspan="6" class="btns">
+        	<input type="button" class="submit" value="保存">
+        	<input type="button" class="reset" value="重置" onClick="allSelectsReset('.Filter');allInputsReset('.Filter');">
+        </td>
+    </tr>
+</table></div>
+
+
+<table class="FullScreenPlugin black5"><tr><td>
+    <dl class="Upload CENTERDIV" data-active="figure img">
+        <dt><b>图片上传工具</b><q>&times;</q></dt>
+        <dd>
+        	<table>
+            	<caption>
+                	<input type="file" id="LogoUpload">
+                    <label for="LogoUpload">点击上传图片</label>
+                    <div class="LogoProgress"><span style="width:20%">20%</span></div>
+                </caption>
+                <tr>
+                    <td width="340">
+                        <small>支持JPG、PNG、GIF格式的图片，文件小于<b class="filesize">2</b>M</small>
+                        <div class="largeImg view">
+                        	<img src="../images/v2/2dcode.jpg" width="680" height="680">
+                            <div class="LogoClipper"><p class="top"></p><p class="left"></p><p class="right"></p><p class="bottom"></p></div>
+                        </div>
+                        <div id="LogoController"></div>
+                    </td>
+                    <td width="30">&nbsp;</td>
+                    <td width="200">
+                        <div class="thumbImg view"></div>
+                        <small>画像尺寸190*190</small>
+                    </td>
+                </tr>
+                <tr><td class="CENTERBTNS">
+                	<input type="button" class="submit btn" value="确定">
+                	<input type="button" class="cancel btn" value="取消">
+                </td></tr>
+            </table>
+		</dd>
+    </dl>
+</td></tr></table>
+
+</body>
+</html>
+<script src="../js/v2/admin/jquery2.js"></script>
+<script src="../js/jbody.js"></script>
+<script src="../js/jbody-plugin.js"></script>
+<script src="../js/area.js"></script>
+<script src="../js/subjects.js"></script>
+<script src="../js/jobPositions.js"></script>
+<script src="../js/jobPositionsParttime.js"></script>
+<script src="../js/plugin/raphael.js"></script>
+<script src="../js/v2/admin/all.js"></script>
+<script>
+</script>

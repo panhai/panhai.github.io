@@ -1,0 +1,364 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+
+</title>
+    <link href="../css/1024/common.css" rel="stylesheet" type="text/css" />
+    <link href="../css/1024/schoolAdmin.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/MD5.js"></script>
+    <script type="text/javascript" src="../js/jbody.js"></script>
+    <script type="text/javascript" src="../js/jbody-plugin.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+    <script type="text/javascript" src="../js/area.js"></script>
+    <script type="text/javascript" src="../js/subjects.js"></script>
+    <script type="text/javascript" src="../js/jobPositions.js"></script>
+    <script type="text/javascript" src="../js/admin/common.js"></script>
+    <script type="text/javascript" src="../js/selectors.js"></script>
+    <script type="text/javascript" src="../js/admin/schoolAdmin.js"></script>
+    
+</head>
+<body>
+    <iframe id="_postTargetIframe" name="_postTargetIframe" style="display:none;" src="about:blank"></iframe>
+    
+
+    
+<div class="pg-msg-orange">
+    <div class="pg-msg-txt">你必须完善内容</div>
+    <div class="pg-msg-bt">×</div>
+</div>
+<div id="pg-header" class="pg-header">
+    <div class="pg-header-main">
+        <div class="logo">
+            <a href="/sysuxky/"><img alt="好工作网Logo" src="../images/logo.png" class="pngfix" width="232" height="40" /></a>
+        </div>
+        <div class="cname">中山大学信息技术与科学学院</div>
+        <div class="r mginT10">
+    <div class="platform-switch-container">
+    <div class="platform-switch-main msout">
+        <span class="floatR">切换后台</span>
+        <span class="floatR" style="border:solid 1px #ffc183; line-height:12px; margin-right:5px; padding-left:1px; padding-right:1px;">+</span>
+        <div style="clear:both;"></div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        $(".platform-switch-main").click(function () {
+            JBFrameHelper.showPage("/UCenter/PlatformSwitch.phtml", { obj: this, title: "切换到个人中心或其他管理后台", w: 500, pos: { to: "win", parent: "doc", park: "inside", parkInside: "center" } }, true, false);
+        });
+    })
+</script>
+
+</div>
+    </div>
+</div>
+    
+<div id="pg-nav" class="pg-nav">
+    <ul>
+        <li><div class="nav-title"><a href="#">管理首页</a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">用户与设置<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">资讯通告<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">校企合作<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">招聘信息<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">专业 ▪ 导师<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">学籍学生<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">更多<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="/School/sysuxky/">前台</a></div></li>
+    </ul>
+</div>
+<div style="clear:both;"></div>
+<div id="pg-nav-sub"  style="display:none;">
+    <div id="pg-nav-sub-inner">
+        <div id="pg-nav-sub-main">
+        <ul style="display:none;">
+            <li><a href="sum.html">系统概况</a></li>
+            <li><a href="School.html">后台管理功能快捷链接</a></li>
+            <li><a href="#">消息</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Setting.html">系统设置</a></li>
+            <li><a href="Intro.html">院校介绍</a></li>
+            <li><a href="Manager-custmRoles.html">管理员角色</a></li>
+            <li><a href="Manager.html">管理员</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Article-list.html">事务通知</a></li>
+            <li><a href="Article-kx.html">学院快讯</a></li>
+            <li><a href="Article-jyzd.html">就业指导</a></li>
+            <li><a href="Article-sxzn.html">升学指南</a></li>
+            <li><a href="Article-zsxx.html">招生信息</a></li>
+            <li><a href="Article-bnner.html">首页Banner</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Company-Search.html">企业搜索</a></li>
+            <li><a href="Company-Recieved.html">收到的请求</a></li>
+            <li><a href="Company-Sended.html">发出的请求</a></li>
+            <li><a href="Company-Default.html">合作企业列表</a></li>
+            <li><a href="Company-Black.html">黑名单企业</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Offers-all.html">合作企业请求的招聘</a></li>
+            <li><a href="Offers-Fairs.html">招聘会 ▪ 宣讲会</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Majors.html">学科专业</a></li>
+            <li><a href="#">特聘导师</a></li>
+            <li><a href="#">导师申请</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="#">在校学生</a></li>
+            <li><a href="#">往届学生</a></li>
+            <li><a href="#">全部学生</a></li>
+            <li><a href="#">学籍导入</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="FriendLinks.html">友情链接</a></li>
+            <li><a href="Info.html">个人设置</a></li>
+            <li><a href="Password.html">修改密码</a></li>
+        </ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+    </div>
+    </div>
+</div>
+<div style="clear:both;"></div>
+    <div class="pageMainContentContainer">            
+    <form method="post" action="/school/sysuxky/admin/Company/Sended.phtml" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="kVeuinGg3yD9UKt/WcIj2Q1pvOGpMC3bI+5oza4z+HU/mD1X3amT7/g/0wPkml8jyqBU8VvdGK1krpKjiRx3ZTfXhXSl0z80GAL6ExihU+5cTpvamdOWVVtwBwa0jiusU1wG6t3XnuZ2TVo24ac5p9e7l+Lx3SlLc9QJUJ1XJejE4tVv2leoTXJx48tmwcInnJOqSeQxEnvWhb/Jyl1c/pQIS8BaLbMcYghBEG2tFEO1nNMrQVKdOX7tiaIKcjflWNk3kTGapJ02hHuZdI19nDslPwWvpDuiNRPKSDNn9zexWUR03vE37IYWd34D7Dutebn8C1uYhP69Nwsr9I3MrY+J9UMni0cxezpyYuicFOp6TexhVm4DC3ohw1Y6W6/980huqy560NkBaPsTabeTiv4svJYUSQOyWGe8z+Mu2sw9JF4awpHFRhMjDDZUVhNBwsVgG7oOlebJMTWQh6195ygXpW9i+a8B+8AjjbaNChkIE4yyoeSfzQuzSJ9myr/PnnNifYnROQyYgkgEF8MFVmnNzhYsMiEIW3gkeTblaKwFRX8zdJhIjJsDQUeIYHL8ajk7eO5VMKCiEuaOwF9Pi2T3t0EXGCWtqqV0ycIQCClAE4WQZBAKMXisBM0gBW1356IWFaTOKSWQE5OvLg4pcPE4WKD7d+IGAtAQJaxbDWJwSM9MOEE0WIxgbYMgecs1LFmZCsy6j2fJPjc0/ZMwMDgirBSEziOxBgYvJ1SO0sFY9HXpq5Z8BgTChlahW6R6TFKVW8BjoViQUV+VZ3/MyoB7w5Rvg9vYK/kG840A6Yu+thWmGTh5M0/SM6sU6hawFqRP37nInuxo1rbeSiAZZRalCOMPnHHIqEs+tDvkM7nZHVi4O4s28mkEcmweHn0ryW8ZFSDZ8vF3LTWm0uvQAvs9F6oyf8zFVu2E8uEnu+wBNeuS6xI5LZev0VWrj8KYdd/GRtLE9lOn3iFLZxFh84qyqMFaKoLy9mbILiyNkDXKNll9n15MD4Vlw7xOjMvCFANMIrZnr3payitkksb8Zj6A0dSLOut95wEvQRp7TUKbPqNtqBfFwFcaQAoc2oF+ZlgJuWom0WXwl33mqCt7Fe8QZLch21z8X0294YscIQsg9KXTWhY3wqFgRjDXDucaQiSUimK6YiZqXmIhJ+Ih0F84smHTCYekManOiFCPMlY=" />
+</div>
+
+<div class="aspNetHidden">
+
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="0311AE02" />
+</div>
+    
+    <div class="bodyBlock">
+        <div class="searchMain">
+            <div class="condition width060">
+            关键词：</div>
+            <div class="conditionL width120">
+                <input name="ctl00$form$textOrgName" type="text" id="form_textOrgName" class="inputText" data-jbextendid="exinput_form_textOrgName_533_848" data-jbtips="企业简称/全称" style="width:120px;" />
+            </div>
+            <div class="condition width050">
+                城市：</div>
+            <div class="conditionL width120">
+                <input type="hidden" name="ctl00$form$MultiCitys1$HiddenCityIds" id="form_MultiCitys1_HiddenCityIds" />
+<div style="width:120px; height:30px;">
+    <div onclick="MultiCitysSelector.show(this)">
+        <select id="form_MultiCitys1select" style="float:left;; width:120px; height:30px;" disabled="disabled">
+            <option></option>
+        </select>
+        <div style="position:relative; left:0px; top:0px;" id="form_MultiCitys1front">
+            <div style="position:absolute; left:0px; top:0px; width:120px; height:30px; border:solid 0px #000;"></div>
+        </div>
+    </div>    
+    <div style="clear:both;"></div>
+</div>
+<script type="text/javascript">
+    var MultiCitysSelector = null;
+    $(function(){
+        MultiCitysSelector = new MultiCityCreater({
+            objName: "MultiCitysSelector",
+            maxSelect: 3,
+            objHiddenId : document.getElementById("form_MultiCitys1_HiddenCityIds"),
+            selectElement : document.getElementById("form_MultiCitys1select"),
+            textWhenEmpty:"不限",
+            dialogTitle:"请选择城市",
+            onchange: [function (opt) { $("#form_MultiCitys1front").attr("title", opt.tts); },null]
+        });
+    });
+</script>
+            </div>
+            <div class="condition width050">
+                性质：</div>
+            <div class="conditionL width100">
+                <select name="ctl00$form$DropDownListNatureType" id="form_DropDownListNatureType" style="height:30px;width:100px;">
+    <option selected="selected" value="0">不限</option>
+    <option value="2">外商独资</option>
+    <option value="4">外企办事处</option>
+    <option value="8">中外合资合作</option>
+    <option value="16">私营_民营企业</option>
+    <option value="32">国有企业</option>
+    <option value="64">国内上市公司</option>
+    <option value="128">政府机关</option>
+    <option value="256">非营利机构</option>
+    <option value="512">事业单位</option>
+    <option value="1024">其他</option>
+
+</select>
+            </div>
+            <div class="condition width050">
+                行业：</div>
+            <div class="conditionL width0120">
+                <input type="hidden" name="ctl00$form$MultiSubject1$HiddenSubjectIds" id="form_MultiSubject1_HiddenSubjectIds" />
+<div style="">
+    <div onclick="MutiSubjectSelector1.show(this)">
+        <select id="form_MultiSubject1select" style="float:left;; width:120px; height:30px;" disabled="disabled">
+            <option></option>
+        </select>
+        <div style="position:relative;" id="form_MultiSubject1front">
+            <div style="position:absolute; width:120px; height:30px; border:solid 0px #000;"></div>
+        </div>
+    </div>    
+    <div style="clear:both;"></div>
+</div>
+<script type="text/javascript">
+    var MutiSubjectSelector1 = null;
+    $(function(){
+        MutiSubjectSelector1 = new MultiSubjectCreater({
+            objName: "MutiSubjectSelector1",
+            maxSelect: 3,
+            objHiddenId : document.getElementById("form_MultiSubject1_HiddenSubjectIds"),
+            selectElement : document.getElementById("form_MultiSubject1select"),
+            textWhenEmpty:"不限",
+            dialogTitle:"请选择行业",
+            canSelectTopLevel:false,
+            mode : "multi",
+            onchange: [function (opt) { $("#form_MultiSubject1front").attr("title", opt.tts); },null]
+        });
+    });
+</script>
+            </div>   
+            <div class="condition width050">
+                状态：</div>
+            <div class="conditionL width080">
+                <select name="ctl00$form$DropDownListState" id="form_DropDownListState" style="height:30px;width:80px;">
+    <option selected="selected" value="-1">不限</option>
+    <option value="1">合作中</option>
+    <option value="2">等待回应</option>
+    <option value="4">已拒绝</option>
+    <option value="8">已取消</option>
+    <option value="16">已终止</option>
+
+</select>
+            </div>   
+            <div class="conditionL mginL15">
+                <input type="button" class="btn-3d btn-3d-orange" onclick="CommonIframeSubmitHelper.submit()" value="查询" />
+            </div>
+            <div style="clear: both;">
+            </div>
+        </div>
+        <div style="clear:both;"></div>
+    </div>
+    <div class="bodyBlock">
+        <table class="listTable" id="listTableMain">
+            <thead><tr>
+                <td>企业全称</td>
+                <td style="width:90px;">所在城市</td>
+                <td style="width:120px;">企业性质</td>
+                <td>员工规模</td>
+                <td>所在行业</td>
+                <td style="width:80px;">更新时间</td>
+                <td style="width:80px;">状态</td>
+                <td style="width:120px;">操作</td></tr></thead>
+            
+                    <tr class="tr0" onmouseover="$(this).addClass('mOver');" onmouseout="$(this).removeClass('mOver');">
+                        <td>广州冠鹏信息技术有限公司</td>
+                        <td>广东广州</td>
+                        <td>私营_民营企业</td>
+                        <td>50人以下</td>
+                        <td>互联网/电子商务</td>
+                        <td>2014-04-24</td>
+                        <td>合作中</td>
+                        <td><input type="button" class="showWhenOver btn-3d btn-3d-blue btn-3d-mini" onclick="cancelCoop(this,10008,'广州冠鹏信息技术有限公司')" value="取消合作" /></td>
+                    </tr>
+                
+        </table>
+        <div style="width:98%; margin:0px auto;" id="PageNaverContainer">
+            <span class="allpage_num">1条结果，共1页</span><a class="page_num" href="javascript:void(0);">首页</a><a class="page_num" href="javascript:void(0);">上一页</a><span class="page_current">1</span><a class="page_num" href="javascript:void(0);">下一页</a><a class="page_num" href="javascript:void(0);">尾页</a><script language='javascript'>function GoToPage(url){document.location.href=url;}function jumpPage(obj,url){var i=parseInt(obj.previousSibling.value);if(!i&&i!=0)return false;if(i<=0)i=1;if(i>1)i=1;GoToPage(url + i);}</script>
+                    </div>
+    </div>
+    <div style="clear:both;"></div>
+
+    
+
+<script type="text/javascript">
+//<![CDATA[
+pageMainMenuCreater.setActive({mainText:'校企合作',subText: '发出的请求'});//]]>
+</script>
+<script type='text/javascript'>JBInputInnerTips.create({objs:'form_textOrgName'});var exinput_form_textOrgName_533_848=null; JB.ready(function(){exinput_form_textOrgName_533_848= new JBValidator({varId:'exinput_form_textOrgName_533_848',exType:'Text',checkWhere:'ServerAndClient',msgShowType:'Right',msgCloseType:'NotClose',dataTitle:'输入',innerTextTip:'企业简称/全称',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:true,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0});});</script></form>
+    
+    <script type="text/javascript">
+        CommonIframeSubmitHelper.init({ obj: $(".searchMain").get(0), jqSelector: ["#listTableMain", "#PageNaverContainer"] });
+        function sendRequest(obj, id, name) {
+            new JBodyCommonAjax({ obj: obj, jsvcode: 0, url: "Search.phtml", method: "GET", htm: "确定要向 <b>" + name + "</b> 发送合作请求吗？", data: { cmd: "sendrequest", id: id }, winOpt: { title: "发送合作请求", modal: true, pos: [{ to: "obj", park: "outside", parkOutside: "topRight" }] }, refresh: true, debug: false });
+        }
+        function cancelCoop(obj, id, name) {
+            new JBodyCommonAjax({ obj: obj, jsvcode: 2, url: "Search.phtml", method: "GET", htm: "确定要取消与 <b>" + name + "</b> 的合作吗？", data: { cmd: "stop", id: id }, winOpt: { title: "取消合作", modal: true, pos: [{ to: "obj", park: "outside", parkOutside: "topRight" }] }, refresh: true, debug: false });
+        }
+        function cancelRequest(obj, id, name) {
+            new JBodyCommonAjax({ obj: obj, jsvcode: 0, url: "Search.phtml", method: "GET", htm: "确定要取消向 <b>" + name + "</b> 发送的合作请求吗？", data: { cmd: "cancel", id: id }, winOpt: { title: "取消请求", modal: true, pos: [{ to: "obj", park: "outside", parkOutside: "topRight" }] }, refresh: true, debug: false });
+        }
+    </script>
+
+    <div style="clear:both;"></div>
+    </div>
+    
+<div style="clear:both;"></div>
+<div class="footerOuter">
+    <div class="footer">
+        <div>
+            <div class="contact">
+                <span style="margin-top:60px; font-size:14px;">服务热线 (免长话费)</span>
+                <span style="font-size:16px;">400-6838-789</span>
+                <span>工作日 9:00-19:00</span>
+            </div>
+            <div class="footerBlock">
+                <span>网站简介</span>
+                <a>网站简介</a>
+                <a>产品服务</a>
+                <a>创新优势</a>
+                <a>友情链接</a>
+                <a>联系我们</a>
+            </div>
+            <div class="footerBlock">
+                <span>使用帮助</span>
+                <a>网站简介</a>
+                <a>产品服务</a>
+                <a>创新优势</a>
+                <a>友情链接</a>
+                <a>联系我们</a>
+            </div>
+            <div class="footerBlock">
+                <span>合作共赢</span>
+                <a>网站简介</a>
+                <a>产品服务</a>
+                <a>创新优势</a>
+                <a>友情链接</a>
+                <a>联系我们</a>
+            </div>
+            <div class="footerBlock">
+                <span>快捷方式</span>
+                <a>网站简介</a>
+                <a>产品服务</a>
+                <a>创新优势</a>
+                <a>友情链接</a>
+                <a>联系我们</a>
+            </div>
+        </div>
+        <div style="clear:both;"></div>
+        <div style="margin-top:20px; color:#888;">
+        版权所有：好工作网
+        联系电话：88888888&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        联系邮箱：88888@qq.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+        地址：广州市环市中路&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        邮政编码：510000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+<script type="text/javascript">
+           $(function () { adminPageInit({ unresize: "" }); });
+</script>
+<!--[if IE 6]>
+<script type="text/javascript" src="/js/DD_belatedPNG_0.0.8a.js"></script>
+<script type="text/javascript">   
+  DD_belatedPNG.fix('.pngfix'); 
+</script>
+<![endif]-->

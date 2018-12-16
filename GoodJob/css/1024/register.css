@@ -1,0 +1,73 @@
+﻿
+
+
+.passwork{ float:left; margin:0 0 0 1px; text-align:center; width:69px; height:14px; line-height:14px; background:#dddddd; color:#FFFFFF;}
+.passwork_current{float:left;margin:0 0 0 1px;  width:69px; height:14px; line-height:14px; background:#ff6600;text-align:center;color:#FFFFFF;}
+.passwork_top{ margin:0;}
+.pwdStd1
+{
+    background-color:#eeeeee;
+    text-align:center;
+    color:#666666;
+    width:76px;
+    height:14px;
+    line-height:14px;
+    font-size:12px;
+    float:left;
+    margin-left:1px;
+}
+.pwdStd2
+{
+    background-color:#336699;
+    color:White;
+    height:14px;
+    line-height:14px;
+    font-size:12px;
+}
+
+.registerMenu
+{
+    float:left;
+    background-color:#eeeeee;    
+    width:100%;
+}
+.registerMenu .items{   position:relative; left:0px; font-size:14px; font-weight:bold;} 
+.registerMenu .items .item{   margin-top:0px; display:block; height:38px; float:left; text-align:center; line-height:38px;  padding-left:15px; padding-right:15px; text-decoration:none; color:#888; }
+.registerMenu .items .active{   margin-top:0px; display:block; height:35px; float:left; text-align:center; line-height:35px;  padding-left:15px; padding-right:15px; text-decoration:none; background-color:#ffffff; color:#b2110e; border-top:solid 3px #b2110e; }
+.registerMenu .items .tar{  position:absolute;   width:75px;   height:4px; line-height:4px; display:block; background-color:#b2110e; z-index:1; }
+
+.contactTitle
+{
+    width:620px;
+    padding-top:10px;
+    padding-left:30px;
+    font-weight:bold;
+    font-size:14px;
+    margin:15px auto;
+    border-top:solid 1px #dddddd;
+}
+
+.userType a
+{
+    display:block;
+    margin-left:5px;
+    width:66px;
+    padding-left:20px;
+    height:22px;
+    float:left;
+}
+.userType .radio1
+{    
+    color:#333333;
+    background:#ffffff url(/images/search/radio2.jpg) 0px center no-repeat;
+}
+.userType .radio1:hover
+{
+    color:#ffffff;
+    background:#005cd5 url(/images/search/radio1.jpg) 0px center no-repeat;
+}
+.userType .radio2
+{
+    color:#ffffff;
+    background:#005cd5 url(/images/search/radio1.jpg) 0px center no-repeat;
+}

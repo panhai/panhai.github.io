@@ -1,0 +1,272 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>好工作运营后台-系统管理-好工作管理员</title>
+</head>
+<link rel="stylesheet" type="text/css" href="../css/v2/admin/all.css">
+<body>
+<header class="clear">
+	<img src="../images/v2/logo-s.png" width="119" height="62" />
+    <em>后台管理系统</em>
+    <p>
+    	<a href="#"><i><img src="../images/v2/nophoto.png" width="30" height="30"></i><span>用户名称</span></a>
+        <a href="#">安全退出</a>
+    </p>
+</header>
+<nav>
+	<li><a href="index.html">首页</a></li>
+	<li><a href="companies.html">企业管理</a></li>
+	<li><a href="schools.html">院校管理</a></li>
+	<li><a href="users.html">用户管理</a></li>
+	<li><a href="jobs.html">职位管理</a></li>
+	<li><a href="resumes.html">简历管理</a></li>
+	<li><a href="servers.html">客服系统</a></li>
+	<li><a href="moneys.html">财务系统</a></li>
+	<li class="cur"><a href="system.html">系统管理</a></li>
+</nav>
+
+<menu>
+	<li><a href="system.html">好工作管理员</a></li>
+	<li><a href="system-links.html">友情链接</a></li>
+    <li class="cur"><a href="system-app.html">APP首页内容管理</a></li>
+</menu>
+
+<div class="AddModule"><table width="100%">
+	<tr>
+    	<th width="91%" class="AddModule-title">首页内容列表</th>
+        <td width="9%"><a class="AddModule-btn button" >添加新模块</a></td>
+    </tr>
+</table></div>
+
+<div class="List Module-item"><table border="1" bordercolor="#e2e4f0">
+	<thead><tr>
+    	<th width="90">序号</th>
+    	<th width="206">模块名称</th>
+    	<th width="186">显示职位数量</th>
+    	<th width=""></th>
+    	<th width="340">操作</th>
+
+    </tr></thead>
+    <tbody>
+    	<tr>
+        	<th>1</th>
+            <td>关之谷</td>
+            <td>13888888878</td>
+            <td></td>
+            <td class="ModuleModify"><a class="Module-edit" data-wc="abc 111222">编辑</a><a href="">删除</a><a href="">置顶</a><a href="">上移</a><a href="">下移</a></td>
+        </tr>
+    	<tr>
+        	<th>1</th>
+            <td>关之谷</td>
+            <td>13888888878</td>
+            <td></td>
+            <td><a href="">编辑</a><a href="">删除</a><a href="">置顶</a><a href="">上移</a><a href="">下移</a></td>
+        </tr>
+    	<tr>
+        	<th>1</th>
+            <td>关之谷</td>
+            <td>13888888878</td>
+            <td></td>
+            <td><a href="">编辑</a><a href="">删除</a><a href="">置顶</a><a href="">上移</a><a href="">下移</a></td>
+        </tr>
+    	<tr>
+        	<th>1</th>
+            <td>关之谷</td>
+            <td>13888888878</td>
+            <td></td>
+            <td><a href="">编辑</a><a href="">删除</a><a href="">置顶</a><a href="">上移</a><a href="">下移</a></td>
+        </tr>
+    </tbody>
+
+</table></div>
+
+
+<table class="FullScreenPlugin black5"><tr><td>
+    <dl class="CENTERDIV CenterMiddle ModuleAdd" data-active=".Module-edit" data-datas="wc">
+        <dt><b>添加新模块</b><q>&times;</q></dt>
+        <dd>
+            <table class="CenterTableFull">
+                <tbody>
+                <tr><th width="100">模块名称：</th><td><input type="text" class="text full"  placeholder="请输入模块名称"></td></tr>
+                <tr>
+                    <th width="100">职位类别：</th>
+                    <td>
+                        <dl class="SELECT JOB-TYPE" data-matches="6">
+                            <input type="hidden">
+        <dt><input class="KEY-GUIDANCE" data-init="true" type="text" data-list="arrow" ></dt>
+        <dd class="normal single">
+            <div class="tip">找不到【职位】的类别</div>
+            <div class="matches" data-list="datas">
+                <!--<a href="#" data-id="">客服经理</a>-->
+            </div>
+        </dd>
+    </dl>
+    <a class="JobTypeAdd btn">添加</a>
+</td></tr>
+    <tr>
+        <th></th>
+        <td class="Type-item ">
+            <input type="hidden">
+
+        </td>
+    </tr>
+    <tr>
+        <th>职位ID：</th>
+        <td class="Combo Combo41"><input type="text" class="text  JobId" placeholder="请输入职位ID"><a class="JobIdAdd btn">添加</a><input type="hidden" class="JobIds"/></td>
+    </tr>
+    <tr>
+        <th></th>
+        <td>
+            <div class="CenterItems" data-datas="wc">
+                <a data-id="10086">销售实习生</a>
+            </div>
+        </td>
+
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+        <td colspan="2">
+            <input type="button" class="submit" value="确认添加">
+            <input type="button" class="cancel" value="取消">
+        </td>
+    </tr>
+    </tfoot>
+</table>
+        </dd>
+    </dl>
+	<dl class="CENTERDIV CenterML ModuleAdd" data-active=".AddModule-btn">
+    	<dt><b>添加新模块</b><q>&times;</q></dt>
+        <dd>
+            <table class="CenterTableFull">
+            <tbody>
+                <tr><th width="100">模块名称：</th><td width="320">
+                    <input type="text" class="text full"  placeholder="请输入模块名称">
+                    <code class="form-tip successMsg"></code>
+                    <code class="form-tip tipMsg">请写名称，名称不能为空</code>
+                    <code id="validatorAcctoun" class="form-tip errorMsg">请输入正确的名称</code>
+                </td>
+                </tr>
+                <tr>
+                    <th width="100">职位类别：</th>
+                    <td>
+                    <dl class="SELECT JOB-TYPE" data-matches="6">
+                        <input type="hidden">
+                        <dt><input class="KEY-GUIDANCE" data-init="true" type="text" data-list="arrow" ></dt>
+                        <dd class="normal single">
+                            <div class="tip">找不到【职位】的类别</div>
+                            <div class="matches" data-list="datas">
+                                <!--<a href="#" data-id="">客服经理</a>-->
+                            </div>
+                        </dd>
+                    </dl>
+                    <a class="JobTypeAdd btn">添加</a>
+                </td></tr>
+                <tr>
+                    <th></th>
+                    <td class="Type-item ">
+                        <input type="hidden">
+
+                    </td>
+                </tr>
+                <tr>
+                    <th>职位ID：</th>
+                    <td class="Combo Combo41"><input type="text" class="text  JobId" placeholder="请输入职位ID"><a class="JobIdAdd btn">添加</a><input type="hidden" class="JobIds"/></td>
+                </tr>
+                <!--<tr><th></th><td>
+                    <p class="Module-items"><span>10086</span>销售实习生 <i>X</i></p>
+                    <p class="Module-items"><span>10086</span>销售实习生 <i>X</i></p>
+                    <p class="Module-items"><span>10086</span>销售实习生 <i>X</i></p>
+                </td></tr>-->
+                <tr>
+                    <th></th>
+                    <td>
+                        <div class="CenterItems">
+                            <a data-id="10086">销售实习生</a>
+                        </div>
+                    </td>
+
+                </tr>
+            </tbody>
+            <tfoot>
+            <tr>
+                <td colspan="2">
+                <input type="button" class="submit" value="确认添加">
+                <input type="button" class="cancel" value="取消">
+                </td>
+            </tr>
+            </tfoot>
+        </table>
+</dd>
+    </dl>
+</td></tr></table>
+</body>
+</html>
+<script src="../js/v2/admin/jquery2.js"></script>
+<script src="../js/v2/all.js"></script>
+<script src="../js/jobPositions.js"></script>
+<script src="../js/v2/admin/all.js"></script>
+<script src="../js/jbody.js"></script>
+<script src="../js/jbody-plugin.js"></script>
+<script src="../js/area.js"></script>
+<script src="../js/subjects.js"></script>
+<script>
+    /*添加职位类别*/
+$(".JobTypeAdd").click(function(){
+	var parenDl = $(this).siblings(".SELECT");
+    var typeId = parenDl.find("input[type='hidden']");
+    var id =  typeId.val();
+    var name = typeId.attr("title");
+    var item = $(".Type-item");
+    var itemId = $(".Type-item").find("input[type='hidden']");
+    var ids = itemId.val();
+    if(id!="")
+    {
+        var tmp = null;
+        parenDl.find(".matches a").each(function() {
+                ids = itemId.val().split(",");
+                !ids[0] && ids.splice(0,1);
+                if($(this).data("id") == id){
+                    if($.inArray(id,ids)>=0) {
+                        alert("已存在此职位类别")
+                        typeId.val("");
+                        return false;
+                    }
+                    var items = $(this).clone().append("<i></i>");
+                    items.prependTo(item);
+                    ids.push(id);
+                    itemId.val(ids.join(','))
+                    typeId.val("");
+                    parenDl.find(".KEY-GUIDANCE").val("")
+                    return false;
+                }
+
+        })
+
+
+    }else if(parenDl.find(".KEY-GUIDANCE").val() == ""){
+        alert("职位类别不能为空")
+    }else{
+        if(typeId.val() == ""){
+            alert("职位类别不能为空")
+        }
+        alert("请填写正确的职位类别！")
+    }
+});
+
+    //删除职位类别
+$(".Type-item").on("click","i",function(){
+    var id = $(this).closest("a").data("id");
+    var itemId = $(".Type-item").find("input[type='hidden']");
+    ids = itemId.val().split(",");
+
+    if($.inArray((id+""),ids)>=0)
+        ids.splice($.inArray((id+""),ids),1);
+    itemId.val(ids.join(','))
+    $(this).closest('a').remove();
+
+})
+
+</script>
+

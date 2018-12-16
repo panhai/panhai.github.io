@@ -1,0 +1,147 @@
+/* 系统管理 */
+/*主标题*/
+h2{ float:left; line-height:45px; padding-left:20px; color:#454545; font-size:18px; font-family:"微软雅黑"; margin-bottom:20px; font-weight:normal;}
+h2{ _padding-top:10px;}
+h2.bd{ border-bottom:1px solid #e1e1e1; float:none; clear:both; margin:0px 20px 20px; padding:0px;}
+/*顶按钮*/
+.top-btns{ float:right; padding:10px 20px 0px 0px; margin-bottom:20px;}
+.top-btns li{ width:auto; height:30px; line-height:30px; float:left; background-color:#2677e2; color:#fff; font-size:14px; font-weight:bold; padding-right:10px;}
+.top-btns li b{ font-size:24px; display:inline-block; float:left; padding-left:10px; width:16px; margin-right:5px;}
+
+/*表格*/
+.table{ clear:both; margin:10px 20px; width:780px; border-collapse:collapse; table-layout:fixed;}
+.table thead th{ background-color:#fafafa; border-bottom:1px solid #dfdfdf; line-height:45px; height:45px; font-size:14px; color:#888; text-align:center; font-weight:normal;}
+
+/*院系*/
+.prof .odd td{ padding-top:15px; line-height:35px; font-size:14px; font-family:"微软雅黑"; text-align:center; color:#454545;}
+.prof td.first{ text-align:left;}
+.prof .first strong{ padding-left:25px;}
+.prof td.last{ color:#2677e2;}
+.prof .last a{ color:#2677e2;}
+.prof .last a:hover{ color:#ff5e00;}
+.prof .even td{ padding:15px 25px; line-height:20px; border-bottom:1px solid #f2f2f2;}
+/*小标签*/
+.prof .even span{ display:inline-block; font-size:12px; color:#666; padding:3px 10px; border:1px solid #ccc; margin-bottom:10px; background-color:#fff;  white-space:nowrap;}
+.prof span input{ display:none;}
+.prof span q{ display:none; font-size:16px !important; position:relative; top:2px;}
+.prof .even .clear{ background-color:#E3EFFF; padding:10px; position:relative; display:none;}
+.prof .clear q{ display:inline !important; cursor:pointer;}
+.prof .clear i{ position:absolute; font-size:0px; display:block; width:0px; height:0px; border:5px solid transparent; border-bottom-color:#E3EFFF; top:-10px; right:50px;}
+.prof .clear i{ _right:75px; _border:5px solid #ff0000; _border-bottom-color:#E3EFFF; filter:chroma(color=#ff0000); _top:-12px;}
+.prof .btns{ clear:both; text-align:right; font-family:"微软雅黑";}
+.prof .btns a{ display:inline-block; width:75px; height:25px; line-height:25px; font-size:14px; text-align:center;}
+.prof .submit{ color:#fff; background-color:#2677e2;}
+.prof .reset{ color:#333; background-color:#dcdcdc;}
+/*静止层-添加专业*/
+.CNP_manage{ width:440px; height:170px; background-color:#fff; overflow:hidden;}
+.CNP_manage h3{ font-size:14px !important;}
+.CNP_manage .CenterContent{ padding:20px;}
+.CNP_manage label.layout{ display:block; float:left; width:100px; line-height:30px; font-size:16px; text-align:right; color:#666;}
+.CNP_manage .text{ width:275px; height:30px; line-height:30px; border:1px solid #c9c9c9; padding:0px 10px;}
+.CNP_manage .btns1{ margin:20px 3px; float:right;}
+.CNP_manage .btns input{ display:inline-block; width:90px; height:30px; cursor:pointer; font-size:14px; font-family:"微软雅黑"; text-align:center; border:0px; float:left; margin-left:10px;}
+.CNP_manage .submit{ background-color:#2677e2; color:#fff;}
+.CNP_manage .reset{ background-color:#dcdcdc; color:#333;}
+.CenterTip{ font-size:16px; text-align:center; color:#333;}
+.CenterTip b{ color:#2677e3; font-weight:normal;}
+
+/*管理员列表*/
+.admins{}
+.admins td{ height:80px; border-bottom:1px solid #f2f2f2; text-align:center; line-height:25px;}
+.admins td.first{ text-align:left;}
+.admins .first *{ padding-left:25px;}
+.admins .first h3{ color:#ff5e00; font-size:14px; font-family:"微软雅黑";}
+.admins .first p{ color:#999; font-size:12px;}
+.admins strong{ font-size:14px; color:#454545; font-family:"微软雅黑";}
+.admins em,.admins i{ font-size:14px; font-style:normal; font-family:"微软雅黑";}
+.admins em{ color:#0D9042;}
+.admins i{ color:#FE0B0F;}
+.admins td.last{ text-align:right;}
+.admins .last div{ font-size:14px; font-family:"微软雅黑"; padding-right:25px; color:#2677e2;}
+.admins .last a{ color:#2677e2;}
+.admins .last p{ font-size:12px; color:#999;}
+.admins .last b{ color:#666; font-weight:normal; padding-right:25px;}
+
+/*添加管理员*/
+.Admin{ height:auto;}
+.Admin li{ min-height:30px !important; height:auto; line-height:30px !important; margin-bottom:10px !important;}
+.Admin var{ width:120px;}
+.Admin dfn{ width:270px;}
+.Admin label{ font-size:12px; white-space:nowrap;}
+.Admin .btns{ padding-left:110px;}
+.Admin .text{ width:180px;}
+
+
+/*表单*/
+.form{ clear:both; min-height:340px; _height:340px;}
+.form li{ height:35px; padding:10px 0px;}
+.form *{ vertical-align:middle;}
+.form var,.form dfn,.form ins{ display:block; float:left; font-style:normal;}
+.form var{ width:125px; text-align:right; font-size:14px; color:#585858; padding-right:10px; line-height:25px;}
+.form .text{ border:1px solid #dcdcdc; height:25px; line-height:25px; width:170px; padding:0px 5px;}
+.form .half{ width:85px; padding:0px 5px;}
+.form dfn{ width:190px;}
+.form dfn a{ font-size:14px; color:#2354DD;}
+.form .submit{ width:90px; height:30px; text-align:center; border:0px; background-color:#2677e2; cursor:pointer; color:#fff; font-size:14px; font-family:"微软雅黑";}
+.form .a-right{ margin-left:92px;}
+.form strong{ font-family:Arial, Helvetica, sans-serif; color:#ff5e00; display:inline-block; line-height:30px; font-weight:normal; font-size:14px;}
+.form ins{ font-size:12px; text-decoration:none; line-height:25px; height:25px;}
+
+.right h3.topic{ color:#ff5e00; font-size:16px; font-family:"微软雅黑"; float:left; padding-left:20px; line-height:50px; font-weight:normal;}
+.right .topic a{ color:#333; margin-right:50px;}
+.right .topic a.cur,.right .topic a:hover{ color:#ff5e00;}
+.right .hr{ border-bottom:1px solid #dfdfdf; margin:0px 20px;}
+
+/*模板显示*/
+.template{ clear:both; margin:20px; border:1px solid #dcdcdc;}
+.template dt{ line-height:45px; border-bottom:1px dashed #dcdcdc; height:45px; overflow:hidden;}
+.template h4{ float:left; font-size:16px; color:#333; font-family:"微软雅黑"; padding:0px 10px;}
+.template tt{ display:block; float:left; padding-left:25px; background:url(../../images/CpCenter/default.jpg) left center no-repeat; color:#2677e2; font-family:"微软雅黑"; font-size:14px;}
+.template q{ display:block; float:right; font-size:14px; color:#2677e2; padding-right:30px; line-height:55px;}
+.template q a{ color:#2677e2; font-family:"微软雅黑";}
+.template dd{ padding:15px; font-size:14px; font-family:"微软雅黑"; color:#555; line-height:25px;}
+.template .hr{ clear:both; border-bottom:1px solid #c8c8c8; margin:10px 0;}
+
+/*发布表单*/
+.publish{ border:3px solid #2677e3; clear:both; margin:20px; overflow:hidden;}
+.publish li{ clear:both; min-height:35px; margin:20px;}
+.publish var,.publish dfn{ display:block; float:left; font-style:normal;}
+.publish var{ width:80px; padding-right:25px; font-size:14px; font-family:"微软雅黑"; text-align:right; height:35px; line-height:35px;}
+.publish dfn{ width:620px;}
+.publish .text{ border:1px solid #bcbcbc; font-size:12px; padding:0px 10px; float:left; margin-bottom:5px;}
+.publish .t-l{ width:573px !important;}
+.publish .t-s{ width:236px;}
+.publish input.text{ line-height:35px; height:35px;}
+.publish textarea{ line-height:25px; height:150px !important; padding:10px; margin-bottom:20px; margin-bottom:0px\9;}
+.publish .btns{ text-align:right; font-size:14px;}
+.btns input{ width:90px; height:30px; line-height:30px; text-align:center; cursor:pointer; border:0px; font-family:"微软雅黑";}
+.btns .submit{ background-color:#2677e3; color:#fff;}
+.btns .reset{ color:#333; background-color:#dcdcdc; margin-right:35px;}
+textarea.high{ height:200px !important;}
+.publish .SELECT{ float:left; margin-bottom:3px;}
+.publish .formMsg{ margin:5px 0 !important; font-size:12px; clear:both;}
+.publish .successMsg{ float:left; clear:none; padding:0; width:20px;}
+
+/* 自定义下拉列表 */
+.SELECT{}
+.SELECT-on{ position:relative;}
+/*列表头*/
+.SELECT dt{ clear:both; font-size:0px;}
+.SELECT dt *{ display:inline-block; vertical-align:middle; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; font-size:14px;}
+.SELECT dt span{ color:#a9a9a9; font-size:14px;}/*浅字，仿placeholder属性*/
+.SELECT dt b{ color:#1562c8; font-weight:normal;}/*深字，实际的内容*/
+.SELECT dt i{ width:14px; height:14px; background-image:url(../../images/v2/icons/chevron-down.png);}/*箭头*/
+.SELECT dt i{ _overflow:hidden; _background-image:url(../../images/v2/icons/chevron-down.gif);}
+.SELECT-on dt{ position:relative;}
+.SELECT-on dt i{ background-image:url(../../images/v2/icons/chevron-up.png); _background-image:url(../../images/v2/icons/chevron-up.gif);}
+/*列表体*/
+.SELECT dd{ display:none; position:absolute; left:0px; background-color:#fff; border:1px solid #bcbcbc;}
+.SELECT-on dd{ display:block;}
+.SELECT dd a{ color:#333; line-height:30px; height:30px;}
+.SELECT dd .tip{ clear:both; line-height:30px; font-size:14px; color:#999; padding:0px 10px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.SELECT .normal a{ display:block; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.SELECT .normal a:hover,.SELECT .normal a.cur,.SELECT .normal a.checked{ background-color:#5593e6; color:#fff;}
+.SELECT dd.single a{ clear:both; padding:0px 10px;}
+.Email dd{ width:256px;}
+
+.TemplateForm{ display:none;}

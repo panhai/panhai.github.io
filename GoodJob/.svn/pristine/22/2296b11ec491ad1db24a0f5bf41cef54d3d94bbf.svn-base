@@ -1,0 +1,53 @@
+﻿
+
+.oneJobRow{
+    display:block;
+    clear:both;
+    padding-top:10px;
+    width:680px;
+    padding-left:20px;
+    padding-right:20px;
+    height:60px;
+    border-bottom:dashed 1px #ddd;
+    border-left:solid 1px #eee;
+    border-right:solid 1px #eee;
+}
+.oneJobRow:hover{
+    background-color:#f0f0f0;
+}
+.oneJobRow:hover span {
+    text-decoration:underline;
+}
+.oneJobRow span{
+    display:block;
+    float:left;
+    color:#888;
+}
+.oneJobRow span.t{
+    line-height:30px;
+    font-size:18px;
+    font-weight:bold;
+    clear:right;
+    color:#00923d;
+}
+.oneJobRow .cmp{
+    clear:left;
+    margin-right:20px;
+}
+.oneJobRow .subj{
+    margin-right:20px;
+}
+.oneJobRow .pos{
+    margin-right:20px;
+}
+.oneJobRow span.addr{
+    float:right;
+    color:#ff6a00;
+    font-size:14px;
+    font-weight:bold;
+    
+}
+.oneJobRow span.addr span{
+    font-size:12px;
+    font-weight:normal;
+}

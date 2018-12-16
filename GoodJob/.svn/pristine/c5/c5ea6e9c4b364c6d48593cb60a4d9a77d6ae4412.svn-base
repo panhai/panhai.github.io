@@ -1,0 +1,198 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>企业中心-实用工具-一周员工动态-即将生日</title>
+</head>
+<link rel="stylesheet" type="text/css" href="../css/Company/css.css">
+<link rel="stylesheet" type="text/css" href="../css/Company/tools.css">
+<body>
+<div class="header"><div class="common">
+    <p>
+    	<a href="#">Admin</a> |
+        <a href="#">退出</a> |
+        <a href="#">切换后台</a> |
+        <a href="#">消息</a> |
+        <a href="#">反馈</a> |
+        <a href="#">帮助</a>
+    </p>
+</div></div>
+<div class="nav"><div class="common">
+	<a href="#" class="nav-logo"><img src="../images/CpCenter/logo.jpg" width="104" height="45"></a>
+	<ul>
+    	<li><a href="index.html">首页<i></i></a></li>
+    	<li><a href="profile.html">企业资料<i></i></a></li>
+    	<li><a href="favors.html">HR收藏<i></i></a></li>
+    	<li><a href="tools.html" class="cur">实用工具<i></i></a></li>
+    	<li><a href="manage.html">帐号管理<i></i></a></li>    </ul>
+        <div class="tool">
+    	<p><a href="publish.html">发布新职位</a></p>
+    	<p class="tool-pull">
+        	<span>校企合作邀请</span>
+        	<i></i>
+        	<samp>
+            	<a href="invite.html">校企合作邀请</a>
+            	<a href="invite-job.html">校企合作职位申请</a>
+            	<a href="invite-conf.html">宣讲会申请</a>
+            </samp>
+        </p>
+    </div>
+</div></div>
+
+<div class="main common">
+	<div class="left">
+    	<ul class="menus">
+        	<li>
+            	<h4><a href="tools.html">员工管理</a></h4>
+            	<h4><a href="tools-clerk.html" class="cur">一周员工动态</a></h4>
+            </li>
+        </ul>
+        <ol class="funcs">
+        	<li><a href="#">导入员工资料</a></li>
+        	<li><a href="#">导入资料表格下载</a></li>
+        </ol>
+    </div>
+	<div class="right">
+        <form class="form">
+            <p class="form-left2">
+            	<a href="tools-birth.html" class="cur">即将生日</a>
+                <a href="tools-clerk.html">合同即将到期</a>
+            </p>
+        </form>
+        
+        <div class="list"><table>
+        	<thead><tr>
+            	<th class="first">员工名称</th><th width="75">性别</th><th width="105">所属部门</th><th width="195">岗位</th>
+                <th width="155">入职时间</th><th width="135" class="last">生日日期</th>
+            </tr></thead>
+            <tbody>
+            	<tr>
+                	<td class="first"><input type="checkbox"> 张余英</td>
+                	<td>男</td>
+                	<td>客服部</td>
+                	<td>客服经理（非技术不）</td>
+                	<td>2014-06-10</td>
+                	<td>2016-06-10</td>
+               	</tr>
+            	<tr>
+                	<td class="first"><input type="checkbox"> 张余英</td>
+                	<td>男</td>
+                	<td>客服部</td>
+                	<td>客服经理（非技术不）</td>
+                	<td>2014-06-10</td>
+                	<td>2016-06-10</td>
+               	</tr>
+            	<tr>
+                	<td class="first"><input type="checkbox"> 张余英</td>
+                	<td>男</td>
+                	<td>客服部</td>
+                	<td>客服经理（非技术不）</td>
+                	<td>2014-06-10</td>
+                	<td>2016-06-10</td>
+               	</tr>
+            	<tr>
+                	<td class="first"><input type="checkbox"> 张余英</td>
+                	<td>男</td>
+                	<td>客服部</td>
+                	<td>客服经理（非技术不）</td>
+                	<td>2014-06-10</td>
+                	<td>2016-06-10</td>
+               	</tr>
+            	<tr>
+                	<td class="first"><input type="checkbox"> 张余英</td>
+                	<td>男</td>
+                	<td>客服部</td>
+                	<td>客服经理（非技术不）</td>
+                	<td>2014-06-10</td>
+                	<td>2016-06-10</td>
+               	</tr>
+            	<tr>
+                	<td class="first"><input type="checkbox"> 张余英</td>
+                	<td>男</td>
+                	<td>客服部</td>
+                	<td>客服经理（非技术不）</td>
+                	<td>2014-06-10</td>
+                	<td>2016-06-10</td>
+               	</tr>
+            	<tr>
+                	<td class="first"><input type="checkbox"> 张余英</td>
+                	<td>男</td>
+                	<td>客服部</td>
+                	<td>客服经理（非技术不）</td>
+                	<td>2014-06-10</td>
+                	<td>2016-06-10</td>
+               	</tr>
+            	<tr>
+                	<td class="first"><input type="checkbox"> 张余英</td>
+                	<td>男</td>
+                	<td>客服部</td>
+                	<td>客服经理（非技术不）</td>
+                	<td>2014-06-10</td>
+                	<td>2016-06-10</td>
+               	</tr>
+            	<tr>
+                	<td class="first"><input type="checkbox"> 张余英</td>
+                	<td>男</td>
+                	<td>客服部</td>
+                	<td>客服经理（非技术不）</td>
+                	<td>2014-06-10</td>
+                	<td>2016-06-10</td>
+               	</tr>
+            	<tr>
+                	<td class="first"><input type="checkbox"> 张余英</td>
+                	<td>男</td>
+                	<td>客服部</td>
+                	<td>客服经理（非技术不）</td>
+                	<td>2014-06-10</td>
+                	<td>2016-06-10</td>
+               	</tr>
+            </tbody>
+            <tfoot><tr><td class="first">
+            	<label for="check-all"><input type="checkbox" id="check-all"> 全部</label>
+                <a href="#">删除</a>
+            </td><td colspan="5"></td></tr></tfoot>
+      </table></div>
+        <div class="pages2">
+        	<span class="ctrl">首页</span>
+        	<span class="ctrl">上一页</span>
+            <b>1</b>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#" class="ctrl">下一页</a>
+            <a href="#" class="ctrl">尾页</a>
+        </div>
+
+    </div>
+	<div class="clear"></div>
+</div>
+
+<div class="footer">
+	<div class="common tail">
+        <samp class="tail-nav">
+            <a href="#" class="first">关于我们</a>
+            <a href="#">法律声明</a>
+            <a href="#">保密承诺</a>
+            <a href="#">Investor Relatiao</a>
+            <a href="#">关于我们</a>
+        </samp>
+    </div>
+    <div class="common copyright">
+    	<p>京ICP备09083200号 京ICP证070419号 人才服务许可证：RC0710280</p>
+    	<p>Copyright&copy;2000-2014 liepin.com All Rights Reserved</p>
+    </div>
+</div>
+
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/company/all.js"></script>
+<script src="../js/company/favors.js"></script>
+<script>
+$(function(){	LeftMenu();
+    ToolPull();
+Selects();
+	CheckAll();
+});
+</script>

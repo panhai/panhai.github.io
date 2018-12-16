@@ -1,0 +1,395 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>好工作运营后台-用户管理-全部注册用户</title>
+</head>
+<link rel="stylesheet" type="text/css" href="../css/v2/admin/all.css">
+
+<body>
+<header class="clear">
+	<img src="../images/v2/logo-s.png" width="119" height="62">
+    <em>后台管理系统</em>
+    <p>
+    	<a href="#"><i><img src="../images/v2/nophoto.png" width="30" height="30"></i><span>用户名称</span></a>
+        <a href="#">安全退出</a>
+    </p>
+</header>
+<nav>
+	<li><a href="index.html">首页</a></li>
+	<li><a href="companies.html">企业管理</a></li>
+	<li><a href="schools.html">院校管理</a></li>
+	<li class="cur"><a href="users.html">用户管理</a></li>
+	<li><a href="jobs.html">职位管理</a></li>
+	<li><a href="resumes.html">简历管理</a></li>
+	<li><a href="servers.html">客服系统</a></li>
+	<li><a href="moneys.html">财务系统</a></li>
+	<li><a href="system.html">系统管理</a></li>
+</nav>
+
+<menu>
+	<li class="cur"><a href="users.html">全部注册用户</a></li>
+	<li><a href="users-hr.html">HR用户</a></li>
+	<li><a href="users-teachers.html">学校管理员</a></li>
+	<li><a href="users-sales.html">渠道统计</a></li>
+</menu>
+
+<div class="Filter"><table>
+	<tr>
+    	<th width="7%">关键词：</th><td width="26%">
+        	<input type="text" class="text long" placeholder="请输入关键字">
+        </td>
+    	<th width="7%">所在行业：</th><td width="26%">
+        	<dl class="SELECT long" data-leave="-1">
+            	<input type="hidden" value="1112,1013">
+                <dt></dt>
+                <dd class="PROFESSIONS">
+                	<table>
+                    	<caption data-choices="3">
+                        	<p></p>
+                            <span>
+                            	<input type="button" class="confirm" value="确定">
+                            </span>
+                        </caption>
+                        <thead><tr><th width="200"></th><td width="1000"></td></tr></thead>
+                        <tbody></tbody>
+                    </table>
+                </dd>
+            </dl>
+        </td>
+    	<th width="7%">所在地区：</th><td width="26%">
+        	<dl class="SELECT double citiesAt ADDRESS" data-child=".districtsAt" data-address="GetHotAreas">
+            	<input type="hidden">
+                <dt></dt>
+                <dd class="normal">
+                </dd>
+            </dl>
+            <ins></ins>
+        	<dl class="SELECT double districtsAt ADDRESS" data-unlimit="true" data-parent="citiesAt">
+            	<input type="hidden">
+                <dt></dt>
+                <dd class="normal">
+                </dd>
+            </dl>
+        </td>
+    </tr>
+    <tr>
+    	<th>职位类型：</th><td>
+        	<dl class="SELECT long">
+            	<input type="hidden" class="JobType" value="0">
+                <dt></dt>
+                <dd class="normal">
+                	<a data-id="">不限</a>
+                	<a data-id="1">全职</a>
+                	<a data-id="2">兼职</a>
+                	<a data-id="3">实习</a>
+                </dd>
+            </dl>
+        </td>
+    	<th>期望行业：</th><td>
+        	<dl class="SELECT long" data-leave="-1">
+            	<input type="hidden" value="1111,1011">
+                <dt></dt>
+                <dd class="PROFESSIONS">
+                	<table>
+                    	<caption data-choices="3">
+                        	<p></p>
+                            <span>
+                            	<input type="button" class="confirm" value="确定">
+                            </span>
+                        </caption>
+                        <thead><tr><th width="200"></th><td width="1000"></td></tr></thead>
+                        <tbody></tbody>
+                    </table>
+                </dd>
+            </dl>
+        </td>
+    	<th>期望地区：</th><td>
+        	<dl class="SELECT double citiesWant ADDRESS" data-child=".districtsWant" data-address="GetHotCities">
+            	<input type="hidden">
+                <dt></dt>
+                <dd class="normal">
+                </dd>
+            </dl>
+            <ins></ins>
+        	<dl class="SELECT double districtsWant ADDRESS" data-unlimit="true" data-parent="citiesWant">
+            	<input type="hidden">
+                <dt></dt>
+                <dd class="normal">
+                </dd>
+            </dl>
+        </td>
+    </tr>
+    <tr>
+    	<th>期望职位：</th><td>
+        	<dl class="SELECT long" data-leave="-1">
+            	<input type="hidden">
+                <dt></dt>
+                <dd class="JOBPOSITIONS">
+                	<table>
+                    	<caption data-choices="3">
+                        	<p></p>
+                            <span>
+                            	<input type="button" class="confirm" value="确定">
+                            </span>
+                        </caption>
+                        <tbody><tr><th width="220"></th><td width="980"></td></tr></tbody>
+                    </table>
+                </dd>
+            </dl>
+        	<dl class="SELECT long" data-leave="-1">
+            	<input type="hidden">
+                <dt></dt>
+                <dd class="JOBSPARTTIME">
+                	<table>
+                    	<caption data-choices="3">
+                        	<p></p>
+                            <span>
+                            	<input type="button" class="confirm" value="确定">
+                            </span>
+                        </caption>
+                        <tbody><tr><td width="600"></td></tr></tbody>
+                    </table>
+                </dd>
+            </dl>
+        </td>
+    	<th>期望月薪：</th><td>
+        	<dl class="SELECT tiny">
+            	<input type="hidden">
+                <dt></dt>
+                <dd class="normal">
+                    <a data-id="">不限</a>
+                    <a data-id="20">2000以下</a>
+                    <a data-id="30">2000-3000</a>
+                    <a data-id="40">3000-5000</a>
+                    <a data-id="50">5000-8000</a>
+                    <a data-id="60">8000-12000</a>
+                    <a data-id="70">12000-20000</a>
+                    <a data-id="80">20000以上</a>
+                </dd>
+            </dl>
+            <ins>性别：</ins>
+        	<dl class="SELECT tiny">
+            	<input type="hidden">
+                <dt></dt>
+                <dd class="normal">
+                	<a data-id="">不限</a>
+                	<a data-id="1">男</a>
+                	<a data-id="2">女</a>
+                </dd>
+            </dl>
+        </td>
+    	<th>所在学校：</th><td>
+        	<dl class="SELECT long input">
+            	<dt><input class="SCHOOLS"></dt>
+                <dd class="normal"></dd>
+            </dl>
+        	<!--<input type="text" class="text long">-->
+        </td>
+    </tr>
+    <tr>
+    	<th>年龄：</th><td>
+        	<!--<dl class="SELECT double ageFrom" data-child="ageTo">
+            	<input type="hidden">
+                <dt></dt>
+                <dd class="normal" data-autofill="16,70,1,true"></dd>
+            </dl>-->
+            <input type="text" class="text double">
+            <ins></ins>
+            <input type="text" class="text double">
+        	<!--<dl class="SELECT double ageTo">
+            	<input type="hidden">
+                <dt></dt>
+                <dd class="normal" data-autofill="16,70,1,true"></dd>
+            </dl>-->
+        </td>
+    	<th>简历完整度：</th><td>
+        	<dl class="SELECT tiny">
+            	<input type="hidden">
+                <dt></dt>
+                <dd class="normal">
+                    <a data-id="">不限</a>
+                    <a data-id="10">100%</a>
+                    <a data-id="9">90%以上</a>
+                    <a data-id="8">80%以上</a>
+                    <a data-id="7">70%以上</a>
+                    <a data-id="6">60%以上</a>
+                    <a data-id="5">50%以上</a>
+                    <a data-id="4">40%以上</a>
+                    <a data-id="3">30%以上</a>
+                    <a data-id="2">20%以上</a>
+                    <a data-id="1">10%以上</a>
+                </dd>
+            </dl>
+            <ins>信用度：</ins>
+        	<dl class="SELECT tiny">
+            	<input type="hidden">
+                <dt></dt>
+                <dd class="normal">
+                	<a data-id="">不限</a>
+                	<a data-id="1">90%-100%</a>
+                	<a data-id="2">80-89%</a>
+                	<a data-id="3">70%-79%</a>
+                </dd>
+            </dl>
+        </td>
+    	<th>工作经验：</th><td>
+        	<dl class="SELECT tiny">
+            	<input type="hidden">
+                <dt></dt>
+                <dd class="normal">
+                    <a data-id="">不限</a>
+                    <a data-id="10">在读学生</a>
+                    <a data-id="20">应届生</a>
+                    <a data-id="30">1年以下</a>
+                    <a data-id="40">1-3年</a>
+                    <a data-id="50">3-5年</a>
+                    <a data-id="60">5-10年</a>
+                    <a data-id="70">10年以上</a>
+                </dd>
+            </dl>
+            <ins>学历：</ins>
+        	<dl class="SELECT tiny">
+            	<input type="hidden">
+                <dt></dt>
+                <dd class="normal">
+                    <a data-id="">不限</a>
+                    <a data-id="1">初中/高中</a>
+                    <a data-id="2">技校/中专</a>
+                    <a data-id="4">大专</a>
+                    <a data-id="8">本科</a>
+                    <a data-id="16">硕士</a>
+                    <a data-id="32">博士</a>
+                    <a data-id="64">其他</a>
+                </dd>
+            </dl>
+        </td>
+    </tr>
+    <tr>
+    	<th>创建时间：</th><td>
+        	<input type="text" class="text double time">
+            <ins></ins>
+        	<input type="text" class="text double time">
+        </td>
+    	<th>登录时间：</th><td>
+        	<input type="text" class="text double time">
+            <ins></ins>
+        	<input type="text" class="text double time">
+        </td>
+    	<th>特权：</th><td>
+        	<dl class="SELECT tiny">
+            	<input type="hidden">
+                <dt></dt>
+                <dd class="normal">
+                    <a data-id="">V0</a>
+                    <a data-id="1">V1</a>
+                    <a data-id="2">V2</a>
+                    <a data-id="3">V3</a>
+                </dd>
+            </dl>
+            <label class="only"><input type="checkbox"> 仅显示今日投递用户</label>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="6" class="btns">
+            <input type="button" class="submit" value="查询">
+            <input type="button" class="reset" value="重置" onClick="allSelectsReset('.Filter');allInputsReset('.Filter');">
+        </td>
+    </tr>
+</table></div>
+
+<div class="total">共统计简历 12030 份</div>
+
+<div class="List"><table border="1" bordercolor="#e2e4f0">
+	<thead><tr>
+    	<th width="90">ID</th>
+    	<th width="100">姓名</th>
+    	<th width="120">手机</th>
+    	<th width="">邮箱</th>
+    	<th width="90">注册时间</th>
+    	<th width="90">简历完整度</th>
+    	<th width="70">信用度</th>
+    	<th width="90">简历投递</th>
+    	<th width="150">最近登陆</th>
+    	<th width="250">操作</th>
+    </tr></thead>
+    <tbody>
+    	<tr>
+        	<th><label><input type="checkbox">10001</label><i></i></th>
+            <td>关之谷</td>
+            <td>13812345678</td>
+            <td>123465798@qq.com</td>
+            <td>2015-07-08</td>
+            <td>80%</td>
+            <td>70%</td>
+            <td><a href="resume-posts.html">10</a>/100</td>
+            <td>2015-07-08 17:26</td>
+            <td><a href="resume-detail.html">查看</a><a href="#">重置密码</a><a href="#">关闭帐号</a></td>
+        </tr>
+    	<tr>
+        	<th><label><input type="checkbox">10001</label></th>
+            <td>关之谷</td>
+            <td>13812345678</td>
+            <td>123465798@qq.com</td>
+            <td>2015-07-08</td>
+            <td>80%</td>
+            <td>70%</td>
+            <td><a href="resume-posts.html">10</a>/100</td>
+            <td>2015-07-08 17:26</td>
+            <td><a href="resume-detail.html">查看</a><a href="#">重置密码</a><a href="#">关闭帐号</a></td>
+        </tr>
+    	<tr>
+        	<th><label><input type="checkbox">10001</label></th>
+            <td>关之谷</td>
+            <td>13812345678</td>
+            <td>123465798@qq.com</td>
+            <td>2015-07-08</td>
+            <td>80%</td>
+            <td>70%</td>
+            <td><a href="resume-posts.html">10</a>/100</td>
+            <td>2015-07-08 17:26</td>
+            <td><a href="resume-detail.html">查看</a><a href="#">重置密码</a><a href="#">关闭帐号</a></td>
+        </tr>
+    	<tr>
+        	<th><label><input type="checkbox">10001</label></th>
+            <td>关之谷</td>
+            <td>13812345678</td>
+            <td>123465798@qq.com</td>
+            <td>2015-07-08</td>
+            <td>80%</td>
+            <td>70%</td>
+            <td><a href="resume-posts.html">10</a>/100</td>
+            <td>2015-07-08 17:26</td>
+            <td><a href="resume-detail.html">查看</a><a href="#">重置密码</a><a href="#">关闭帐号</a></td>
+        </tr>
+    </tbody>
+    <caption>
+    	<input type="button" value="全选" class="checkAll">
+    	<input type="button" value="反选" class="checkNeg">
+        <div class="Pages">
+        	<span>5874条结果，共294页</span>
+            <a href="#">首页</a>
+            <a href="#">上一页</a>
+            <a href="#">1</a>
+            <a href="#" class="cur">2</a>
+            <a href="#">3</a>
+            <a href="#">...</a>
+            <a href="#">294</a>
+            <a href="#">下一页</a>
+            <a href="#">尾页</a>
+        </div>
+    </caption>
+</table></div>
+</body>
+</html>
+<script src="../js/v2/admin/jquery2.js"></script>
+<script src="../js/jbody.js"></script>
+<script src="../js/jbody-plugin.js"></script>
+<script src="../js/area.js"></script>
+<script src="../js/subjects.js"></script>
+<script src="../js/jobPositions.js"></script>
+<script src="../js/jobPositionsParttime.js"></script>
+<script src="../js/universities.js"></script>
+<script src="../js/v2/admin/all.js"></script>
+<script>
+</script>

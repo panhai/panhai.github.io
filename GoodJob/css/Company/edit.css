@@ -1,0 +1,105 @@
+/* 修改公司资料 */
+body{ background-color:#fff;}
+.common h1,.common h3{ border-bottom:1px solid #cbcbcb; height:40px; line-height:40px; font-size:18px; color:#333; font-family:"微软雅黑"; _overflow:hidden;}
+.common h1 b,.common h3 b{ border-bottom:1px solid #2677e2; display:inline-block; padding:0px 10px; _position:relative;}
+.common h3{ float:left; width:100%; margin-bottom:20px;}
+.common h1{ margin-top:20px;}
+
+.logo{ border:1px solid #d1d1d1; width:190px; height:205px; position:relative; float:left; margin-top:20px; font-family:"微软雅黑";}
+.logo p{ width:100%; height:45px; line-height:45px; color:#fff; text-align:center; font-size:18px; left:0px; bottom:0px; position:absolute;}
+
+.form{ width:770px; float:right; margin-top:20px; _width:775px;}
+.form ul{ float:left;}
+.form li{ width:100%; float:left; margin-bottom:15px; line-height:30px;}
+.form .first{ margin-bottom:0px;}
+.form var,.form dfn{ display:block; float:left; font-style:normal; font-family:"微软雅黑";}
+.form var{ text-align:right; font-size:14px; width:110px;}
+.form dfn{ width:660px;}
+.form pre{ clear:both; font-size:12px; text-align:right; line-height:30px; color:#005DDE;}
+.form pre input{ vertical-align:text-bottom;}
+.form var b{ color:#f00;}
+.v-s{ width:96px !important;}
+.d-l{ width:320px !important;}
+.d-m{ width:230px !important;}
+.d-s{ width:156px !important;}
+
+.text{ border:1px solid #A3A3A3; height:30px; line-height:30px; padding:0px 10px;}
+.t-l{ width:298px;}
+.t-m{ width:208px;}
+.t-s{ width:134px;}
+
+.MapTip { color: #333333; font-family: "宋体"; font-size: 12px; white-space: nowrap; }
+.MapTip span { color: #ff5e00; }
+
+/*图片上传*/
+dfn samp{ color:#999; font-size:12px;}
+dfn img{ vertical-align:middle;}
+.figure{ width:108px; height:80px; float:left; border:1px solid #D5D5D5; background-color:#F0F0F0; margin:10px 20px 10px 0px; position:relative;}
+.figure q{ display:block; position:absolute; right:-8px; top:-12px; cursor:pointer;}
+.figure a{ width:88px; height:66px; overflow:hidden; margin:0 auto; position:relative; top:7px; display:block;}
+.photo{ width:158px; height:118px; float:left; border:1px solid #D5D5D5; background-color:#F0F0F0; margin:10px 20px 10px 0px; position:relative;}
+.photo q{ display:block; position:absolute; right:-8px; top:-12px; cursor:pointer;}
+.photo a{ display:block; width:158px; height:118px;}
+
+/*下拉列表*/
+.select{ position:relative; display:inline-block; float:left; z-index:111; width:156px;}
+.select dt{ clear:both; height:30px; border:1px solid #A3A3A3; padding:0px 20px 0px 10px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; line-height:30px; position:relative; font-size:14px;}
+.select dt i{ display:block; position:absolute; right:5px; top:10px; height:12px; width:12px; background:url(../../images/icons.gif) -12px 0px; overflow:hidden;}
+.select dt span{ color:#999;}
+.select dd{ display:none; position:absolute; left:0px; background:#fff; line-height:25px; border:1px solid #A3A3A3;}
+.select dd.on{ display:block;}
+/*普通的下拉列表*/
+.normal{ width:154px; max-height:150px; overflow:auto; _height:150px; _overflow-y:auto; _overflow-x:hidden; font-size:12px;}
+.normal a{ display:block; line-height:30px; height:30px; color:#333; padding:0px 10px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; _width:90%;}
+.normal a:hover{ background-color:#dbeef4;}
+/*地图*/
+.mapDiv{ clear:both; height:345px; border:1px solid #a3a3a3;}
+.address,#address{ width:500px; float:left; margin-bottom:20px;}
+.locate{ background-color:#2677E2; color:#fff; width:55px; height:32px; border:0px; float:right; cursor:pointer; font-family:"微软雅黑"; margin-left:10px;}
+/*标签*/
+.tags{}
+.tags label{ display:block; float:left; padding:5px 15px; font-size:14px; border:1px solid #C8C8C8; height:20px; line-height:20px; margin:0px 15px 10px 0px; font-family:"宋体";}
+.tags input{ display:none;}
+.tags .checked{ border:2px solid #f38747; padding:4px 13px; background:url(../../images/CpCenter/checked.gif) right bottom no-repeat;}
+
+/*附加福利*/
+.addup{}
+.addup a{ display:inline-block; background-color:#FEF5EE; color:#333; border:2px solid #f38747; padding:3px 10px 0px; margin-right:5px; font-size:14px; font-family:"宋体"; line-height:20px; float:left;}
+.addup a q{ position:relative; left:5px;}
+.add-text{ border:1px solid #D4D4D4; height:28px; line-height:28px; padding:0px 10px; width:120px; float:left; margin-bottom:10px;}
+.add-btn{ border:1px solid #d4d4d4; height:30px; line-height:30px; padding:0px 10px; background-color:#eee; font-size:12px; float:left; border-left:0px; cursor:pointer;}
+
+.textarea{ width:100% !important; border:1px solid #a3a3a3; height:240px !important;}
+
+/*联系方式*/
+.vl{ width:120px !important;}
+.dl{ width:260px !important;}
+.tl{ width:248px;}
+
+.submit{ width:120px; height:30px; background-color:#FF5000; font-size:14px; color:#fff; font-weight:bold; cursor:pointer; border:0px; float:right; margin-bottom:30px;}
+
+/*新增地址列表*/
+.address_tip{ border:0px; width:120px;}
+.AddressStatic{ width:435px;}
+.ADDList h4{ font-size:16px; font-weight:normal; color:#fff; background-color:#1e74e3; clear:both; padding:0px 10px; height:30px; line-height:30px;}
+.ADDTabs{ clear:both; height:30px; background-color:#f8f8f8; font-size:12px; font-family:"宋体"; margin-top:10px; border-bottom:1px solid #d7d7d7; padding:0px 10px; _overflow:hidden;}
+.ADDTabs b{ font-weight:normal; color:#454545; display:block; float:left; padding:0px 10px; margin-top:5px; border:1px solid #f8f8f8; height:23px; line-height:23px; cursor:pointer;}
+.ADDTabs b.cur{ border-color:#d7d7d7; border-bottom-color:#fff; background:#fff; _position:relative; height:24px;}
+.ADDLists{ width:100%; float:left; line-height:25px;}
+.ADDLists div{ width:100%; float:left; border-bottom:1px dashed #cbcbcb; padding:5px 0px;}
+.ADDLists em{ display:block; width:30px; text-align:center; font-size:18px; color:#666; font-style:normal; float:left;}
+.ADDLists p{ width:400px; float:left;}
+.ADDLists p a{ display:block; width:20%; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; font-size:12px; color:#666; font-family:"宋体"; float:left;}
+.hots p{ margin:10px auto; float:none; clear:both;}
+
+.profs{ right:0px; left:auto !important; width:870px;}
+
+.UploadDiv{ width:640px; font-family:"微软雅黑";}
+.UploadDiv dd{ padding:40px 75px;}
+.UploadDiv .btns{ clear:both;}
+.UploadDiv .btn{ padding:0px 20px; font-size:16px; color:#fff; font-family:"微软雅黑"; cursor:pointer; height:30px; background-color:#2673ec; border:0px;}
+.CenterTip{ font-size:12px; line-height:50px;}
+.UploadView{ border:1px solid #d4d4d4; background-color:#f7f7f7; overflow:hidden;}
+.UploadPrimary{ width:275px; height:275px; float:left; margin-bottom:25px;}
+.UploadThumb{ width:175px; height:175px; float:left; margin:50px 0px 0px 35px;}
+.UploadDiv .tip2{ float:left; white-space:nowrap; margin-left:35px;}

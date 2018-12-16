@@ -1,0 +1,96 @@
+/* 整站通用样式 */
+*{ margin:0px; padding:0px; font-family:Microsoft YaHei, Arial;}
+ul,ol,li{ list-style:none;}
+q{ quotes:none;}
+a{ text-decoration:none; cursor:pointer;}
+a img{ border:0px;}
+.common{ width:1060px; margin:0 auto;}
+body{ background-color:#f9f9f9;}
+input::-ms-clear{ display:none;}
+:-moz-placeholder{ color:#999;}
+::-moz-placeholder{ color:#999;}
+:focus{ outline:none;}
+textarea{ resize:none !important;}
+.clear{ clear:both !important; float:none !important; zoom:1\9;}
+.clear:after{ content:''; display:block; clear:both;}
+table{ border-collapse:collapse; table-layout:fixed;}
+/*IE6 用absolute模拟fixed*/
+body{
+	_background-image: url(about:blank);     /*用浏览器空白页面作为背景*/
+	_background-attachment: fixed;     /* prevent screen flash in IE6 确保滚动条滚动时，元素不闪动*/
+}
+/*半透明背景*/
+.black5{ background:rgba(0,0,0,0.5); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4B000000,endColorstr=#4B000000);}
+.fixed{ position:fixed; _position:absolute;}
+.fixed-top{	top:0px; _top:expression(eval(document.documentElement.scrollTop));}
+.fixed-bottom{ bottom:0px; _bottom:auto; _top:expression(eval(document.documentElement.scrollTop + document.documentElement.clientHeight - this.clientHeight - (parseInt(this.currentStyle.marginTop) || 0) - (parseInt(this.currentStyle.marginBottom) || 0)));}
+/*全屏插件，为了方便横竖居中，使用表格*/
+.FullScreenPlugin{ width:100%; height:100%; _height:expression(eval(document.documentElement.clientHeight)); text-align:center; z-index:66666 !important;}
+.FullScreenPlugin td{ vertical-align:middle; text-align:center;}
+
+.Banner{ height:517px; background:url(images/ban.png) center no-repeat #1f72e1; margin-bottom:50px;}
+.Banner a{ display:block !important; float:right !important; position:relative !important; margin:16px 0 0 16px !important; width:48px !important; height:48px !important; padding:0 !important; background-position:0 0 !important;}
+.Banner .bds_tsina{ background-image:url(images/wb.png) !important;}
+.Banner a q{ display:none; position:absolute; left:-80px; top:58px;}
+.Banner a:hover q{ display:block;}
+.Banner div{ position:relative; height:517px;}
+.Banner p{ position:absolute; left:0; bottom:70px; text-align:center; font-size:22px; color:#fff; width:100%;}
+.Banner p span{ display:inline-block; background-color:#fff; color:#ff5959; width:26px; height:26px; line-height:26px; text-align:center; margin:0 2px;}
+
+.Topic{ clear:both; font-size:30px; color:#1f72e1; font-weight:normal; padding-left:36px; background:url(images/ico.png) left center no-repeat; margin-bottom:36px; border-bottom:1px solid #cecece; height:38px; overflow:hidden;}
+.Topic span{ color:#ff5959;}
+.Topic a{ float:right;}
+
+.Companies{ overflow:hidden;}
+.Companies ul{ width:1200px; padding-bottom:53px\9;}
+.Companies li{ width:223px; height:390px; margin:0 53px 53px 0; background-color:#fbf6df; float:left; border:1px solid #f9f9f9;}
+.Companies li:hover,.Companies li.cur{ border-color:#1562c8;}
+.Companies var{ display:block; text-align:center; overflow:hidden; padding-top:20px;}
+.Companies var img{ width:124px; height:124px;}
+.Companies h3{ font-size:14px; line-height:14px; height:14px; font-weight:normal; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; padding:20px 10px 30px;}
+.Companies h3 a{ color:#1f72e1;}
+.Companies div{ padding:0 10px; height:125px;}
+.Companies div a{ display:block; font-size:14px; margin-bottom:14px; color:#684700; height:16px; line-height:14px; _line-height:16px;}
+.Companies div a *{ display:block; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; height:16px; height:14px\9; _height:15px;}
+.Companies a span{ width:120px; float:left;}
+.Companies a samp{ width:80px; float:right; text-align:right;}
+.Companies p{ clear:both; padding:0 10px; font-size:14px;}
+.Companies p a{ color:#232323;}
+.Companies a:hover,.Companies a:hover *{ text-decoration:underline;}
+
+.Jobs{}
+.Jobs dt{ float:left; width:156px;}
+.Jobs dt h3{ height:50px; margin-bottom:15px; text-align:center; line-height:50px; background-color:#fff; color:#004fb8; font-size:20px; font-weight:normal; border:1px solid #ccc;}
+.Jobs dt h3.cur{ background-color:#004fb8; color:#fff;}
+.Jobs dd{ width:874px; overflow:hidden; float:right;}
+.Jobs ul{ display:; width:930px;}
+.Jobs li{ width:254px; height:300px; margin:0 53px 53px 0; float:left; background-color:#fff; border:1px solid #f9f9f9;}
+.Jobs .infor{ height:70px; background-color:#fff3b9; padding:10px; color:#684700;}
+.Jobs .infor *{ font-weight:normal; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.Jobs .infor var{ float:left; width:68px; height:68px; margin-right:10px;}
+.Jobs .infor var img{ width:68px; height:68px;}
+.Jobs .infor h4{ font-size:16px;}
+.Jobs .infor h5{ font-size:20px;}
+.Jobs .infor h6{ font-size:12px;}
+.Jobs .intro{ height:130px; overflow:hidden; font-size:12px; color:#474747; padding:10px 15px; line-height:200%;}
+.Jobs .post{ display:block; margin:0 15px; height:36px; line-height:36px; border:1px solid #ffd133; text-align:center; color:#141414;}
+.Jobs li:hover{ border-color:#1f72e1;}
+.Jobs li:hover .infor{ background-color:#1f72e1; color:#fff;}
+.Jobs li:hover .post{ border-color:#1f72e1; color:#1f72e1;}
+
+.Copyright{ background-color:#f5f5f5; border:1px #d7d7d7 solid; border-width:1px 0; padding:50px 0;}
+.Copyright .left{ float:left; color:#595959; font-size:14px;}
+.Copyright .left em{ font-size:20px; font-style:normal;}
+.Copyright .left strong{ font-size:40px; color:#1f72e1; font-weight:bold;}
+.Copyright .right{ float:right; text-align:right;}
+.Copyright .Nav{ clear:both; font-size:14px; margin-bottom:30px; color:#d4d4d4;}
+.Copyright .Nav a{ padding:0 14px; color:#323232;}
+.Copyright .Nav a:hover{ text-decoration:underline;}
+.Copyright .right p{ font-size:12px; color:#595959; line-height:200%;}
+
+.Links{ clear:both; padding:30px 0; font-size:12px; background-color:#f0f0f0;}
+.Links a{ color:#8b8b8b; margin-right:1em;}
+
+.Float{ position:absolute; right:0; top:517px; width:140px;}
+.Float a{ display:block; position:absolute; width:100%; bottom:0; left:0; height:50px; cursor:pointer; background-color:#fef5e0; text-align:center; line-height:50px; font-size:20px; color:#ba8105;}
+.Float q{ display:block; position:absolute; right:0; top:0; width:30px; height:30px; cursor:pointer;}

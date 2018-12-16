@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>初始化-1</title>
+    <meta name=viewport content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../js/scrollbarplugin/jquery.mCustomScrollbar.css" />
+    <link rel="stylesheet" type="text/css" href="../css/all.css" />
+    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+    <link href="../js/My97DatePicker/skin/WdatePicker.css" rel="stylesheet" type="text/css">
+    <link href="../css/layerskin/default/layer.css" rel="stylesheet" />
+</head>
+
+<body>
+<div class="head-navgater">
+    <div class="rightCenter">
+        <div class="setting">
+            <a href="javascript:void(0)" >设置</a>
+        </div>
+
+        <div class="feed_back">
+            <a href="javascript:void(0)" >我要反馈</a>
+        </div>
+
+        <div class="information">
+            <span class="icon"></span>
+        </div>
+
+        <div class="news">
+            <span class="icon"></span>
+        </div>
+
+
+        <div class="search">
+            <input type="text" value="" placeholder="搜求职者" class="search_txet">
+            <span class="icon"></span>
+            <div class="history-layer">
+                <a href="javascript:void(0)" >
+                    <i>咨询学员</i>
+                    <span>"啊啊啊啊"</span>
+                </a>
+
+                <a href="javascript:void(0)" >
+                    <i>报名学员</i>
+                    <span>"啊啊啊啊"</span>
+                </a>
+
+                <a href="javascript:void(0)" >
+                    <i>班级</i>
+                    <span>"啊啊啊啊"</span>
+                </a>
+
+                <a href="javascript:void(0)" >
+                    <i>课程</i>
+                    <span>"啊啊啊啊"</span>
+                </a>
+
+                <a href="javascript:void(0)" >
+                    <i>教师</i>
+                    <span>"啊啊啊啊"</span>
+                </a>
+
+                <a href="javascript:void(0)" >
+                    <i>帮助文档</i>
+                    <span>"啊啊啊啊"</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="left-navgater">
+    <div class="logoBox">
+        <a href="javascript:void(0)"  class="changeArrow">
+            <i></i>
+        </a>
+        <span class="logo_msg">管理系统</span>
+    </div>
+
+    <div class="school-infor">
+        <div class="inforBox cur">
+            <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2114797134,526769156&fm=26&gp=0.jpg" alt="">
+        </div>
+        <div class="inforBox">
+            <p>迪丽热巴</p>
+            <p>早上好</p>
+        </div>
+    </div>
+
+    <div class="nav">
+        <a href="首页.html"  class="cur">
+            <i class="position1"></i>
+            <span>工作台</span>
+        </a>
+
+        <div class="option ">
+            <i class="position2"></i>
+            <span>招生宣传</span>
+            <b></b>
+
+            <div class="midLa">
+                <a href="招生宣传-微营销-微官网-1.html" class="" >微营销</a>
+                <a href="招生宣传-校+推广-1.html"   class="">校+推广</a>
+                <a href="招生宣传-会员推广-1.html"  class="">会员推广</a>
+                <a href="招生宣传-SEO推广-1.html"  class="">SEO推广</a>
+                <a href="招生宣传-渠道管理.html"  class="">渠道管理</a>
+            </div>
+        </div>
+
+        <a href="咨询管理-全部咨询.html"  class="">
+            <i class="position3"></i>
+            <span>咨询管理</span>
+        </a>
+        <a href="学员管理-全部学员.html"  class="">
+            <i class="position4"></i>
+            <span>学员管理</span>
+        </a>
+        <a href="教务管理-班级管理.html"  class="">
+            <i class="position5"></i>
+            <span>教务管理</span>
+        </a>
+        <a href="财务管理-1.html"  class="">
+            <i class="position6"></i>
+            <span>财务管理</span>
+        </a>
+        <a href="就业中心-1.html"  class="">
+            <i class="position7"></i>
+            <span>就业中心</span>
+        </a>
+        <a href="校+创收-1.html"  class="">
+            <i class="position8"></i>
+            <span>校+联盟</span>
+        </a>
+        <a href="学校设置-账号管理.html"  class="">
+            <i class="position9"></i>
+            <span>学校设置</span>
+        </a>
+    </div>
+</div>
+
+<div class="left-small-navgater">
+    <div class="logoBox">
+        <a href="javascript:void(0)"  class="changeArrow">
+            <i></i>
+        </a>
+    </div>
+
+    <div class="school-infor">
+        <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2114797134,526769156&fm=26&gp=0.jpg" alt="">
+    </div>
+
+    <div class="small-nav">
+        <div class="nav-url">
+            <div class="url-icon position1"></div>
+
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >控制台</a>
+            </div>
+        </div>
+
+        <div class="nav-url">
+            <div class="url-icon position2"></div>
+
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >好学校</a>
+                <a href="javascript:void(0)" >微官网</a>
+                <a href="javascript:void(0)" >微营销</a>
+                <a href="javascript:void(0)" >微活动</a>
+            </div>
+        </div>
+
+        <div class="nav-url">
+            <div class="url-icon position3"></div>
+
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >咨询管理</a>
+                <a href="javascript:void(0)" >今日跟进</a>
+                <a href="javascript:void(0)" >到访记录</a>
+                <a href="javascript:void(0)" >跟进统计</a>
+            </div>
+        </div>
+
+        <div class="nav-url">
+            <div class="url-icon position4"></div>
+
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >全部学员</a>
+                <a href="javascript:void(0)" >在读学员</a>
+                <a href="javascript:void(0)" >毕业学员</a>
+                <a href="javascript:void(0)" >学员统计</a>
+            </div>
+        </div>
+
+        <div class="nav-url">
+            <div class="url-icon position5"></div>
+
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >排课管理</a>
+                <a href="javascript:void(0)" >班级管理</a>
+                <a href="javascript:void(0)" >课程管理</a>
+                <a href="javascript:void(0)" >教师管理</a>
+            </div>
+        </div>
+
+        <div class="nav-url">
+            <div class="url-icon position6"></div>
+
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >排课管理</a>
+                <a href="javascript:void(0)" >班级管理</a>
+                <a href="javascript:void(0)" >课程管理</a>
+                <a href="javascript:void(0)" >教师管理</a>
+            </div>
+        </div>
+
+        <div class="nav-url">
+            <div class="url-icon position7"></div>
+
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >排课管理</a>
+                <a href="javascript:void(0)" >班级管理</a>
+                <a href="javascript:void(0)" >课程管理</a>
+                <a href="javascript:void(0)" >教师管理</a>
+            </div>
+        </div>
+
+        <div class="nav-url">
+            <div class="url-icon position8"></div>
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >排课管理</a>
+                <a href="javascript:void(0)" >班级管理</a>
+                <a href="javascript:void(0)" >课程管理</a>
+                <a href="javascript:void(0)" >教师管理</a>
+            </div>
+
+        </div>
+
+        <div class="nav-url">
+            <div class="url-icon position9"></div>
+
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >排课管理</a>
+                <a href="javascript:void(0)" >班级管理</a>
+                <a href="javascript:void(0)" >课程管理</a>
+                <a href="javascript:void(0)" >教师管理</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="right-content">
+
+
+
+    <div class="content-layer ">
+
+        <div class="initialization-title">
+            简单1步，激活校+
+        </div>
+
+        <div class="initialization-nav">
+            <a href="初始化-1.html" class="cur">
+                <span class="num">1</span>
+                <span class="msg">基本信息</span>
+                <span class="line"></span>
+            </a>
+
+            <a href="初始化-2.html">
+                <span class="num">2</span>
+                <span class="msg">设置招生对象</span>
+                <span class="line"></span>
+            </a>
+
+            <a href="初始化-3.html">
+                <span class="num">3</span>
+                <span class="msg">开课类别</span>
+                <span class="line"></span>
+            </a>
+        </div>
+
+
+
+        <div class="edit_infor-layer">
+            <div class="fill-in-box">
+                <div class="fill-name">
+                    学校名称：
+                </div>
+                <div class="fill-data">
+                    <input type="text" class="fill-text" placeholder="广州天府教育">
+                </div>
+                <span class="field-validation-error" data-valmsg-for="FullName" data-valmsg-replace="true"><span for="FullName" class="">信息不能为空</span></span>
+            </div>
+
+            <div class="fill-in-box">
+                <div class="fill-name">
+                    所在地区：
+                </div>
+
+                <div class="fill-data">
+                    <dl class="SELECT comment" data-placeholder='请选择'>
+                        <input autocomplete="off" data-val="true" data-val-length="地区长度不能大于6" data-val-length-max="6" data-val-required="请选择地区" id="AreaID" name="AreaID" type="hidden" value="" />
+                        <dt><span title=""></span></dt>
+                        <dd class="normal CITY"></dd>
+                    </dl>
+                </div>
+
+                <span class="field-validation-error" data-valmsg-for="FullName" data-valmsg-replace="true"><span for="FullName" class="">信息不能为空</span></span>
+            </div>
+
+            <div class="fill-in-box ">
+                <div class="fill-name">
+                    <i>*</i>    所属类别：
+                </div>
+
+                <div class="fill-data selec-id theme-sele">
+                    <input type="text" value="" class="fill-text label-selec other-bgpc jobs" placeholder="请选择">
+
+
+                    <div class="theme-big-selectbox">
+                        <div class="selected">
+                            <span>已选：</span>
+                            <div class="selected-box">
+                                <a href="javascript:void(0)">啦啦啦</a>
+                            </div>
+                            <div class="subbtn">
+                                <a href="javascript:void(0)" class="cur">确认</a>
+                                <a href="javascript:void(0)">取消</a>
+                            </div>
+                        </div>
+
+
+                        <div class="job-menu">
+                            <div class="job-box">
+                                <div class="job-name">
+                                    电脑/IT/设计
+                                </div>
+                                <div class="job-data">
+                                    <a href="javascript:void(0)">成人英语</a>
+                                    <a href="javascript:void(0)">成人英语成人英语</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <span class="field-validation-error" data-valmsg-for="FullName" data-valmsg-replace="true"><span for="FullName" class="">信息不能为空</span></span>
+            </div>
+
+            <div class="fill-in-box ">
+                <div class="fill-name">
+                    招生规模：
+                </div>
+
+                <div class="fill-data">
+                    <dl class="SELECT comment" data-placeholder="请选择">
+                        <input type="hidden" value="" autocomplete="off">
+                        <dt><span class="">请选择</span></dt>
+                        <dd class="normal maxHeight">
+                            <a href="javascript:void(0)" data-id="0" class="" title="不限">不限</a>
+                            <a href="javascript:void(0)" data-id="0" class="" title="2000人/年">200人0/年</a>
+                        </dd>
+                    </dl>
+                </div>
+                <span class="field-validation-error" data-valmsg-for="FullName" data-valmsg-replace="true"><span for="FullName" class="">信息不能为空</span></span>
+            </div>
+
+            <div class="fill-in-box ">
+                <div class="fill-name">
+                    成立时间：
+                </div>
+
+                <div class="fill-data">
+                    <input type="text" placeholder="请选择时间" class="fill-text Wdate mydate" onclick="WdatePicker()">
+                </div>
+
+                <span class="field-validation-error" data-valmsg-for="FullName" data-valmsg-replace="true"><span for="FullName" class="">信息不能为空</span></span>
+            </div>
+
+            <div class="fill-in-box">
+                <div class="fill-name">
+                    学校官网：
+                </div>
+                <div class="fill-data">
+                    <input type="text" class="fill-text" placeholder="http://www.papaen.com">
+                </div>
+                <span class="field-validation-error" data-valmsg-for="FullName" data-valmsg-replace="true"><span for="FullName" class="">信息不能为空</span></span>
+            </div>
+
+            <div class="fill-in-box">
+                <div class="fill-name">
+                    学校介绍：
+                </div>
+
+                <div class="fill-data">
+
+                    <textarea class="fill-about" style="width: 642px;"></textarea>
+                </div>
+
+                <span class="field-validation-error" data-valmsg-for="FullName" data-valmsg-replace="true"><span for="FullName" class="">信息不能为空</span></span>
+            </div>
+
+            <div class="fill-in-box">
+                <div class="fill-name">
+                    联系地址：
+                </div>
+                <div class="fill-data">
+                    <input type="text" class="fill-text" placeholder="上海市杨浦区黄兴路2218号合生汇1904">
+                </div>
+                <span class="field-validation-error" data-valmsg-for="FullName" data-valmsg-replace="true"><span for="FullName" class="">信息不能为空</span></span>
+            </div>
+
+            <div class="fill-in-box">
+                <div class="fill-name">
+                    联系电话：
+                </div>
+                <div class="fill-data">
+                    <input type="text" class="fill-text" placeholder="021-65263861">
+                </div>
+                <span class="field-validation-error" data-valmsg-for="FullName" data-valmsg-replace="true"><span for="FullName" class="">信息不能为空</span></span>
+            </div>
+
+            <div class="fill-in-box">
+                <div class="fill-name">
+                    学校logo：
+                </div>
+
+                <div class="fill-data">
+
+                    <div class="upload-logo setting-other">
+                        <p>+</p>
+                        <p>上传logo</p>
+                        <p>最佳大小190*190</p>
+                    </div>
+
+                    <div class="upload-width setting-other">
+                        <p>+</p>
+                        <p>上传宣传logo</p>
+                        <p>最佳大小200*100</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <input type="submit" class="edit-submit" value="保存下一步">
+
+        </div>
+
+
+
+
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<div class="UPCompanyLogo" id="UPCompanyLogo" style="display:none;">
+    <div class="uploadlogo">
+        <div class="upMsg">
+            <span class="filebtn">上传图片</span>
+            <span class="schedule_bar"><em style="width:80%">UPLOADING...</em></span>
+            <span class="msg">支持JPG、PNG、GIF格式的图片，文件小于<label>5M</label></span>
+        </div>
+        <div class="imgAnalysis">
+            <div class="logo_box">
+                <div class="top_shadow"></div>
+                <div class="left_shadow"></div>
+                <div class="right_shadow"></div>
+                <div class="bottom_shadow"></div>
+                <div class="white_div">
+                    <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2114797134,526769156&fm=26&gp=0.jpg">
+                </div>
+            </div>
+            <div class="biglogobox">
+                <div class="imgbox">
+                    <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2114797134,526769156&fm=26&gp=0.jpg" />
+                </div>
+                <p class="imgInfo">画像尺寸160*160</p>
+            </div>
+            <div class="slider">
+                <sub><svg height="20" version="1.1" width="22" xmlns="http://www.w3.org/2000/svg" style="overflow: hidden; position: relative;"><desc style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Created with Raphaël 2.1.2</desc><defs style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></defs><path fill="#ffffff" stroke="#808080" d="M13,1A7,7,0,1,1,12.9,1M9,8H17M8,12L1,19" stroke-width="2" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path></svg></sub>
+                <div class="role"><svg height="20" version="1.1" width="240" xmlns="http://www.w3.org/2000/svg" style="overflow: hidden; position: relative;"><desc style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Created with Raphaël 2.1.2</desc><defs style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></defs><rect x="0" y="5" width="240" height="10" r="5" rx="5" ry="5" fill="#ededed" stroke="#e6e6e6" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></rect><rect x="0" y="6" width="5" height="8" r="4" rx="4" ry="4" fill="#498fed" stroke="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></rect></svg><b style="margin-left: 0px;"><svg height="20" version="1.1" width="20" xmlns="http://www.w3.org/2000/svg" style="overflow: hidden; position: relative;"><desc style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Created with Raphaël 2.1.2</desc><defs style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></defs><circle cx="10" cy="10" r="8" fill="#ffffff" stroke="#498fed" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle></svg></b></div>
+                <sub><svg height="20" version="1.1" width="22" xmlns="http://www.w3.org/2000/svg" style="overflow: hidden; position: relative;"><desc style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Created with Raphaël 2.1.2</desc><defs style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></defs><path fill="#ffffff" stroke="#808080" d="M13,1A7,7,0,1,1,12.9,1M9,8H17M13,4V12M8,12L1,19" stroke-width="2" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path></svg></sub>
+            </div>
+        </div>
+
+        <div class="btnbox">
+            <input type="submit" class="submit" value="确定" />
+            <span class="cancel layui-layer-close">取消</span>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<script src="../js/jquery.js"></script>
+<script src="../js/layer.js"></script>
+<script src="../js/area.js"></script>
+<script src="../js/all.js"></script>
+<script src="../js/plugin/select.js"></script>
+<script src="../js/plugin/highcharts/highcharts.js"></script>
+<script src="../js/plugin/highcharts/exporting.js"></script>
+<script src="../js/plugin/highcharts/highcharts-zh_CN.js"></script>
+<script src="../js/My97DatePicker/WdatePicker.js"></script>
+<script src="../js/scrollbarplugin/jquery.mCustomScrollbar.js"></script>
+
+<script type="text/javascript">
+    $(".fill-in-box .fill-data .fill-radio a").click(function () {
+        $(".fill-in-box .fill-data .fill-radio a").removeClass("cur2");
+        $(this).addClass("cur2")
+    });
+
+    $(".setting-other").click(function () {
+        layer.open({
+            title: '上传Logo',
+            type: 1,
+            area: '615px',
+            skin: 'UPCompanyLogo',
+            content: $('#UPCompanyLogo')
+        });
+    })
+
+
+    //类别弹框点击事件
+    $(".jobs").click(function () {
+        $(".theme-big-selectbox").show()
+    });
+    $(".theme-sele").mouseleave(function () {
+        $(".theme-big-selectbox").hide()
+
+    });
+    //职位选择
+    $(".job-data a").click(function () {
+        if ($(this).hasClass('cur')) {
+            $(this).removeClass('cur');
+        } else {
+            $(this).addClass('cur')
+        }
+    })
+
+
+
+</script>
+
+</body>
+</html>

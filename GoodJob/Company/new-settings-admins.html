@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>企业中心-账号管理-管理员账号设置-管理员列表</title>
+<link rel="stylesheet" type="text/css" href="../css/v2/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/CCenter/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/CCenter/settings.css">
+</head>
+
+<body>
+<div class="HEADER"><div class="common">
+	<div class="TOP-LOGO"><a href="#"><img src="../images/v2/logo-s.jpg" width="119" height="62"></a></div>
+    <div class="TOP-TOOLS">
+    	Admin, <a href="#">退出</a>&nbsp;&nbsp;&nbsp;<a href="#">个人中心</a>&nbsp;&nbsp;&nbsp;<a href="#">反馈</a>&nbsp;&nbsp;&nbsp;<a href="#">HR帮助</a>
+    </div>
+    <ul class="TOP-NAV">
+    	<li><a href="new-index.html">首页</a></li>
+    	<li><a href="new-publish.html">发布职位</a></li>
+    	<li><a href="new-profile.html">企业资料</a></li>
+    	<li><a href="new-hrfavors.html">HR收藏夹</a></li>
+    	<li><a href="new-settings.html" class="cur">账号管理</a></li>
+    </ul>
+</div></div>
+
+<div class="Main common">
+	<div class="Left">
+        <div class="LeftNav">
+            <h3>账号管理</h3>
+            <p>
+                <a href="new-settings.html" class="cur"><span>管理员账号设置</span></a>
+                <a href="new-settings-password.html"><span>修改密码</span></a>
+                <a href="new-settings-email.html"><span>简历邮箱设置</span></a>
+                <a href="new-settings-templates.html"><span>模板设置</span></a>
+                <a href="new-settings-contact.html"><span>招聘联系人设置</span></a>
+            </p>
+        </div>
+    </div>
+	<div class="Right">
+        <dl class="Intro">
+            <dt class="margin"><h1>管理员账号设置</h1></dt>
+        </dl>
+        <div class="Topics">
+        	<h2><a href="new-settings.html">管理员绑定</a></h2>
+        	<h2><a href="new-settings-admins.html" class="cur">管理员列表</a></h2>
+        </div>
+        <table class="Admins">
+        	<thead><tr>
+            	<th width="260">管理员帐号</th><td width="155">管理员名称</td>
+                <td width="180">最近登录时间</td><td width="130">操作</td>
+            </tr></thead>
+            <tbody>
+            	<tr><th>408645359@qq.com</th><td>陈建业（大业）</td><td>2014-09-08</td><td><a data-id="1">解除绑定</a></td></tr>
+            	<tr><th>abcdyfj@163.com</th><td>陈建业（大业）</td><td>2014-09-08</td><td><a data-id="2">解除绑定</a></td></tr>
+            	<tr><th>236215476311@.com</th><td>陈建业（大业）</td><td>2014-09-08</td><td><a data-id="3">解除绑定</a></td></tr>
+            </tbody>
+        </table>
+    </div>
+	<div class="clear"></div>
+</div>
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/v2/all.js"></script>
+<script src="../js/effect/bg.js"></script>
+<script src="../js/plugin/CenterDiv.js"></script>
+<script>
+$(function(){
+	$(".Admins a").attr('href','javascript:void(0)').click(function(){
+		var id=$(this).data("id"),
+			name=$(this).closest("tr").find("td:first").text();
+		CONFIRM('解除绑定','<h5>您确定要解除绑定？</h5><samp>解除绑定后，“'+ name +'”将无法进入该企业管理后台！</samp>','确定解绑',function(){
+			alert("解除了"+id+':'+name+'的账号绑定');
+		});
+	});
+});
+</script>

@@ -1,0 +1,792 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>好工作-高级搜索</title>
+<link rel="stylesheet" type="text/css" href="css/v2/all.css">
+<link rel="stylesheet" type="text/css" href="css/v2/web.css">
+<link rel="stylesheet" type="text/css" href="css/v2/search-backup.css">
+<link rel="stylesheet" type="text/css" href="css/v2/plugin/CitiesPicker.css">
+<link rel="stylesheet" type="text/css" href="css/v2/plugin/JobAndProf.css">
+<link rel="stylesheet" type="text/css" href="css/v2/plugin/MapThumb.css">
+</head>
+
+<body>
+<div class="HEADER common">
+	<div class="TOP-LOGO"><a href="index-new.html"><img src="images/v2/logo.jpg" width="177" height="91"></a></div>
+    <div class="TOP-SEARCH">
+    	<div class="TOP-SEARCH-BAR">
+            <dl class="TOP-SEARCH-KEY SELECT" data-matches="10">
+            	<input type="hidden">
+                <dt><input class="TOP-SEARCH-INPUT KEY-GUIDANCE" data-init="true" type="text" data-list="arrow" data-holdway="image"></dt>
+            	<dd class="normal single">
+                	<div class="tip">找不到符合【老板】的职位</div>
+                    <div class="matches" data-list="datas">
+                        <!--<a href="#" data-id="">客服经理</a>-->
+                    </div>
+                </dd>
+            </dl>
+            <dl class="TOP-CitiesPicker CitiesPicker SELECT" data-matches="5">
+            	<input type="hidden">
+                <dt><span><input type="text" value="广州" data-list="arrow"></span><i></i></dt>
+                <dd>
+                    <div class="CitiesHot">
+                        <h5>热门城市（可直接选择城市或输入城市拼音/简拼）</h5>
+                        <div class="cities">
+                            <a data-id="271000">广州</a><a data-id="271200">深圳</a><a data-id="171000">上海</a><a data-id="272600">东莞</a><a data-id="271500">佛山</a><a data-id="101000">北京</a><a data-id="261000">长沙</a><a data-id="251000">武汉</a><a data-id="191000">杭州</a><a data-id="181000">南京</a><a data-id="211000">福州</a><a data-id="272700">中山</a><a data-id="272000">惠州</a><a data-id="271300">珠海</a><a data-id="201000">合肥</a><a data-id="301000">成都</a><a data-id="231000">济南</a><a data-id="271700">湛江</a><a data-id="262200">娄底</a><a data-id="261100">株洲</a><a data-id="261900">郴州</a><a data-id="271100">韶关</a><a data-id="311000">贵阳</a><a data-id="261300">衡阳</a><a data-id="221000">南昌</a><a data-id="301900">乐山</a><a data-id="211400">泉州</a><a data-id="302000">南充</a><a data-id="261200">湘潭</a><a data-id="241000">郑州</a><a data-id="302300">广安</a><a data-id="301500">绵阳</a><a data-id="301400">德阳</a><a data-id="211100">厦门</a><a data-id="271600">江门</a><a data-id="111000">天津</a><a data-id="331000">西安</a><a data-id="272200">汕尾</a><a data-id="272300">河源</a><a data-id="391200">桂林</a><a data-id="181100">无锡</a><a data-id="251300">宜昌</a>
+                        </div>
+                    </div>
+                    <div class="CitiesQuery">
+                        <div class="tip">d，若缩小范围，请输入全拼</div>
+                        <div class="matches" data-list="datas">
+                            <!--<a data-id="" href="#">广东</a>-->
+                        </div>
+                    </div>
+                </dd>
+            </dl>
+            <input class="TOP-SUBMIT" type="submit" value="好工作">
+        </div>
+        <div class="TOP-HOTKEYS">
+            热门搜索：<a href="#">服务员</a>     <a href="#">送餐员</a>     <a href="#">健身教练</a>    <a href="#">保姆</a>    <a href="#">月嫂</a>     <a href="#">高级技工</a>     <a href="#">淘宝美工</a>
+        </div>
+    </div>
+    <div class="TOP-LOGIN">
+    	<a href="#">登录</a> |
+        <a href="#">注册</a>
+    </div>
+</div>
+
+<div class="NAV">
+	<div class="common">
+        <dl class="NAV-HEAD">
+            <dt class="NAV-HEAD-ROOT"><span>职位分类</span><i></i></dt>
+            <dd class="NAV-HEAD-MENU hidden">
+                <a href="#" class="menu"><h3>生活　服务</h3></a>
+                <ul class="NAV-HEAD-SUBMENU">
+                    <li>
+                        <h4><a href="#">餐饮</a></h4>
+                        <p><a href="#">服务员</a> | <a href="#">送餐员</a> | <a href="#">配菜/打荷</a> | <a href="#">厨师/厨师长</a> | <a href="#">后厨传菜员</a> | <a href="#">茶艺师</a> | <a href="#">预订员</a> | <a href="#">迎宾/接待</a> | <a href="#">大堂经理/领班</a> | <a href="#">餐饮管理</a> | <a href="#">洗碗工</a> | <a href="#">咖啡师</a> | <a href="#">面点师</a> | <a href="#">预订员</a> | <a href="#">学徒</a> | <a href="#">杂工</a></p>
+                    </li>
+                    <li>
+                        <h4><a href="#">家政保洁/保安</a></h4>
+                        <p><a href="#">保洁</a> | <a href="#">保姆</a> | <a href="#">月嫂</a> | <a href="#">育婴师/保育师</a> | <a href="#">洗衣工</a> | <a href="#">钟点工</a> | <a href="#">保安</a> | <a href="#">护工</a> | <a href="#">送水工</a></p>
+                    </li>
+                    <li>
+                        <h4><a href="#">美容/美发</a></h4>
+                        <p><a href="#">美容导师</a> | <a href="#">美发助理/学徒</a> | <a href="#">洗头工</a> | <a href="#">发型师</a> | <a href="#">美容师</a> | <a href="#">宠物美容</a> | <a href="#">美容/瘦身顾问</a> | <a href="#">美甲师</a> | <a href="#">化妆师</a> | <a href="#">媒体师</a> | <a href="#">美容店长</a> | <a href="#">彩妆培训师</a></p>
+                    </li>
+                    <li>
+                        <h4><a href="#">酒店/旅游</a></h4>
+                        <p><a href="#">酒店前台</a> | <a href="#">客户服务员</a> | <a href="#">楼面经理</a> | <a href="#">行李员</a> | <a href="#">救生员</a> | <a href="#">旅游顾问</a> | <a href="#">酒店管理</a> | <a href="#">订票员</a> | <a href="#">计调签证专员</a> | <a href="#">导游</a></p>
+                    </li>
+                    <li>
+                        <h4><a href="#">娱乐/休闲</a></h4>
+                        <p><a href="#">影视/后期制作</a> | <a href="#">主持人</a> | <a href="#">调酒师</a> | <a href="#">音效师</a> | <a href="#">酒吧服务员</a> | <a href="#">摄影师/摄像师</a> | <a href="#">灯光师</a> | <a href="#">配音员</a> | <a href="#">放映员</a> | <a href="#">娱乐厅服务员</a> | <a href="#">礼仪/迎宾</a></p>
+                    </li>
+                    <li>
+                        <h4><a href="#">保健/按摩</a></h4>
+                        <p><a href="#">按摩师</a> | <a href="#">足疗师</a> | <a href="#">搓澡工</a> | <a href="#">针灸推拿</a></p>
+                    </li>
+                    <li>
+                        <h4><a href="#">运动/健身</a></h4>
+                        <p><a href="#">健身教练</a> | <a href="#">瑜伽教练</a> | <a href="#">舞蹈老师</a> | <a href="#">游泳教练</a> | <a href="#">台球教练</a> | <a href="#">高尔夫球助理</a></p>
+                    </li>
+                </ul>
+                <a href="#" class="menu"><h3>计算机　互联网　通信</h3></a>
+                <ul class="NAV-HEAD-SUBMENU"></ul>
+                <a href="#" class="menu"><h3>财会　金融　保险</h3></a>
+                <ul class="NAV-HEAD-SUBMENU"></ul>
+                <a href="#" class="menu"><h3>人力　行政　管理</h3></a>
+                <ul class="NAV-HEAD-SUBMENU"></ul>
+                <a href="#" class="menu"><h3>销售　市场　淘宝　客服</h3></a>
+                <ul class="NAV-HEAD-SUBMENU"></ul>
+                <a href="#" class="menu"><h3>生产　制造　汽车　电子</h3></a>
+                <ul class="NAV-HEAD-SUBMENU"></ul>
+                <a href="#" class="menu"><h3>房产　建筑　装修　物业</h3></a>
+                <ul class="NAV-HEAD-SUBMENU"></ul>
+                <a href="#" class="menu"><h3>贸易　采购　物流　仓储</h3></a>
+                <ul class="NAV-HEAD-SUBMENU"></ul>
+                <a href="#" class="menu"><h3>广告　艺术　影视　媒体</h3></a>
+                <ul class="NAV-HEAD-SUBMENU"></ul>
+                <a href="#" class="menu last"><h3>法律　咨询　教育　其它</h3></a>
+                <ul class="NAV-HEAD-SUBMENU"></ul>
+            </dd>
+        </dl>
+        <ul class="NAV-BODY">
+            <li><a href="index-new.html">首页</a></li>
+            <li><a href="search-new.html" class="cur">职位搜索</a></li>
+            <li data-extra="3"><a href="#"><span>校园招聘</span><i></i></a></li>
+            <li><a href="new-parttimes.html">兼职</a></li>
+            <li><a href="companies-new.html">名企</a></li>
+            <li><a href="schools-new.html">院校合作</a></li>
+        </ul>
+        <dl class="NAV-FOOT">
+            <dt class="new"><a href="#"><i></i><span>个人中心</span></a></dt>
+            <dd>
+                <p><a href="#">登录/注册</a></p>
+                <ul>
+                    <li><a href="#">简历中心</a></li>
+                    <!--只有这两项加点的才需要span标签，其它的可以不放，可以放-->
+                    <li class="new"><a href="#"><span>投递反馈</span></a></li>
+                    <li><a href="#"><span>收藏的职位</span></a></li>
+                    <li class="new"><a href="#"><span>职位邀请</span></a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">我要招人</a></li>
+                    <li><a href="#">帐号设置</a></li>
+                    <li><a href="#">退出</a></li>
+                </ul>
+            </dd>
+        </dl>
+    </div>
+    <!--要写在外边，不然IE6下的100%是按照直接父元素的尺寸计算，而不是定位父元素position的尺寸计算-->
+    <ul class="NAV-EXTRA clear">
+    	<p data-extra="3"><a href="schools-index-new.html">校园招聘首页</a><a href="#">全职/实习招聘</a><a href="new-school-conferences.html">校园宣讲会</a></p>
+    </ul>
+</div>
+
+<div class="Filters common">
+	<table>
+    	<thead>
+        	<tr><th width="125">相 似 职 位：</th><td><div class="items"><a href="#" class="checked">技术经理</a> <a href="#">销售经理</a> <a href="#" class="checked">互联网产品经理</a><a href="#" class="checked">技术经理</a> <a href="#">销售经理</a> <a href="#" class="checked">互联网产品经理</a><a href="#" class="checked">技术经理</a> <a href="#">销售经理</a> <a href="#" class="checked">互联网产品经理</a><a href="#" class="checked">技术经理</a> <a href="#">销售经理</a> <a href="#" class="checked">互联网产品经理</a></div><var>更多</var></td></tr>
+        </thead>
+    	<tbody>
+        	<tr><th>区 域：</th><td><div class="items"><a href="#" class="checked">不限</a> <a href="#">越秀</a> <a href="#">荔湾</a> <a href="#">白云</a> <a href="#">天河</a> <a href="#">海珠</a> <a href="#">番禺</a> <a href="#">黄埔</a> <a href="#">萝岗</a> <a href="#">增城</a> <a href="#">从化</a> <a href="#">南沙</a> <a href="#">花都</a></div><var>更多</var></td></tr>
+        	<tr><th>薪 资：</th><td><div class="items"><a href="#">不限</a> <a href="#" class="checked">1000以下</a> <a href="#">1000-3000</a> <a href="#">3000-5000</a> <a href="#">5000-8000</a> <a href="#">8000-12000</a> <a href="#">12000-20000</a> <a href="#">20000以上</a></div></td></tr>
+        	<tr class="last"><th>福 利：</th><td><div class="items"><a href="#">不限</a> <a href="#" class="checked">五险一金</a> <a href="#">年底双薪</a> <a href="#">绩效奖金</a> <a href="#">技能培训</a> <a href="#">年终分红</a> <a href="#">交通补助</a> <a href="#">通讯补助</a> <a href="#">包吃包住</a><a href="#">不限</a> <a href="#">五险一金</a> <a href="#">年底双薪</a> <a href="#">绩效奖金</a> <a href="#">技能培训</a> <a href="#">年终分红</a> <a href="#">交通补助</a> <a href="#">通讯补助</a> <a href="#">包吃包住</a></div><var>更多</var></td></tr>
+        </tbody>
+        <tfoot>
+        	<tr><th class="root">筛 选 条 件：</th><td class="root">
+            <div class="selects">
+            	<dl class="SELECT filter-jobs" data-choices="3" data-leave="egnore" data-placeholder="职位类别">
+                	<input type="hidden" value="101010,101020"><!--只要给这里边值的话，就会自动初始化-->
+                	<dt><span>职位类别</span><i></i></dt>
+                    <dd class="FilterMenu">
+                    <table>
+                    	<caption class="SELECT-COLLECTOR">
+                        	<samp>最多选择三个：</samp>
+                            <!--<a href="#"><span>最多选择三个</span><q></q></a>
+                            <a href="#"><span>最多选择三个</span><q></q></a>
+                            <a href="#"><span>最多选择三个</span><q></q></a>-->
+                            <input type="button" class="close" value="关闭">
+                            <input type="button" class="submit" value="确定">
+                        </caption>
+                    	<th class="menus">
+                            <h3 class="menu">生活　服务</h3>
+                            <h3 class="menu">计算机　互联网　通信</h3>
+                            <h3 class="menu">财会　金融　保险</h3>
+                            <h3 class="menu">人力　行政　管理</h3>
+                            <h3 class="menu">销售　市场　淘宝　客服</h3>
+                            <h3 class="menu">生产　制造　汽车　电子</h3>
+                            <h3 class="menu">房产　建筑　装修　物业</h3>
+                            <h3 class="menu">贸易　采购　物流　仓储</h3>
+                            <h3 class="menu">广告　艺术　影视　媒体</h3>
+                            <h3 class="menu last">法律　咨询　教育　其它</h3>
+                        </th>
+                        <td class="submenus">
+                            <ul class="FilterSubmenu SELECT-CHOICES">
+                                <li>
+                                    <h4>餐饮</h4>
+                                    <p><a href="#" data-id="101010">服务员</a> | <a href="#" data-id="101020">送餐员</a> | <a href="#" data-id="101030">配菜/打荷</a> | <a href="#" data-id="101040">厨师/厨师长</a> | <a href="#" data-id="101050">后厨传菜员</a> | <a href="#">茶艺师</a> | <a href="#">预订员</a> | <a href="#">迎宾/接待</a> | <a href="#">大堂经理/领班</a> | <a href="#">餐饮管理</a> | <a href="#">洗碗工</a> | <a href="#">咖啡师</a> | <a href="#">面点师</a> | <a href="#">预订员</a> | <a href="#">学徒</a> | <a href="#">杂工</a></p>
+                                </li>
+                                <li>
+                                    <h4>家政保洁/保安</h4>
+                                    <p><a href="#">保洁</a> | <a href="#">保姆</a> | <a href="#">月嫂</a> | <a href="#">育婴师/保育师</a> | <a href="#">洗衣工</a> | <a href="#">钟点工</a> | <a href="#">保安</a> | <a href="#">护工</a> | <a href="#">送水工</a></p>
+                                </li>
+                                <li>
+                                    <h4>美容/美发</h4>
+                                    <p><a href="#">美容导师</a> | <a href="#">美发助理/学徒</a> | <a href="#">洗头工</a> | <a href="#">发型师</a> | <a href="#">美容师</a> | <a href="#">宠物美容</a> | <a href="#">美容/瘦身顾问</a> | <a href="#">美甲师</a> | <a href="#">化妆师</a> | <a href="#">媒体师</a> | <a href="#">美容店长</a> | <a href="#">彩妆培训师</a></p>
+                                </li>
+                                <li>
+                                    <h4>酒店/旅游</h4>
+                                    <p><a href="#">酒店前台</a> | <a href="#">客户服务员</a> | <a href="#">楼面经理</a> | <a href="#">行李员</a> | <a href="#">救生员</a> | <a href="#">旅游顾问</a> | <a href="#">酒店管理</a> | <a href="#">订票员</a> | <a href="#">计调签证专员</a> | <a href="#">导游</a></p>
+                                </li>
+                                <li>
+                                    <h4>娱乐/休闲</h4>
+                                    <p><a href="#">影视/后期制作</a> | <a href="#">主持人</a> | <a href="#">调酒师</a> | <a href="#">音效师</a> | <a href="#">酒吧服务员</a> | <a href="#">摄影师/摄像师</a> | <a href="#">灯光师</a> | <a href="#">配音员</a> | <a href="#">放映员</a> | <a href="#">娱乐厅服务员</a> | <a href="#">礼仪/迎宾</a></p>
+                                </li>
+                                <li>
+                                    <h4>保健/按摩</h4>
+                                    <p><a href="#">按摩师</a> | <a href="#">足疗师</a> | <a href="#">搓澡工</a> | <a href="#">针灸推拿</a></p>
+                                </li>
+                                <li>
+                                    <h4>运动/健身</h4>
+                                    <p><a href="#">健身教练</a> | <a href="#">瑜伽教练</a> | <a href="#">舞蹈老师</a> | <a href="#">游泳教练</a> | <a href="#">台球教练</a> | <a href="#">高尔夫球助理</a></p>
+                                </li>
+                            </ul>
+                            <ul class="FilterSubmenu"></ul>
+                            <ul class="FilterSubmenu"></ul>
+                            <ul class="FilterSubmenu"></ul>
+                            <ul class="FilterSubmenu"></ul>
+                            <ul class="FilterSubmenu"></ul>
+                            <ul class="FilterSubmenu"></ul>
+                            <ul class="FilterSubmenu"></ul>
+                            <ul class="FilterSubmenu"></ul>
+                            <ul class="FilterSubmenu"></ul>
+                        </td>
+                    </table>
+                    </dd>
+                </dl>
+            	<dl class="SELECT filter-profs" data-choices="3" data-leave="egnore" data-placeholder="行业类别">
+                	<input type="hidden">
+                	<dt><span>行业类别</span><i></i></dt>
+                    <dd class="FilterProfs">
+                    <table>
+                    	<caption class="SELECT-COLLECTOR">
+                        	<samp>最多选择三个：</samp>
+                            <!--<a href="#"><span>最多选择三个</span><q></q></a>
+                            <a href="#"><span>最多选择三个</span><q></q></a>
+                            <a href="#"><span>最多选择三个</span><q></q></a>-->
+                            <input type="button" class="close" value="关闭">
+                            <input type="button" class="submit" value="确定">
+                        </caption>
+                        <tbody class="SELECT-CHOICES">
+                            <tr><th>生活　服务</th><td><a href="#" data-id="101000">餐饮</a> | <a href="#" data-id="102000">家政保洁/安保家政保</a> | <a href="#" data-id="103000">美容/头发</a> | <a href="#" data-id="104000">运动健身</a> | <a href="#">酒店/旅游</a> | <a href="#">娱乐/休闲</a> | <a href="#">保健按摩</a></td></tr>
+                            <tr><th>计算机　互联网　通信</th><td><a href="#">计算机/互联网/通信</a> | <a href="#">电子/电气</a> | <a href="#">机械/仪器仪表</a><a>计算机/互联网/通信</a> | <a>电子/电气</a> | <a>机械/仪器仪表</a><a>计算机/互联网/通信</a> | <a>电子/电气</a> | <a>机械/仪器仪表</a></td></tr>
+                            <tr><th>财会　金融　保险</th><td><a href="#">财务/审计/统计</a> | <a href="#">金融/银行/证券/投资</a> | <a href="#">保险</a></td></tr>
+                            <tr><th>人力　行政　管理</th><td><a href="#">人事/行政/后勤</a> | <a href="#">司机</a> | <a href="#">高级管理</a></td></tr>
+                            <tr><th>销售　市场　淘宝　客服</th><td><a href="#">销售</a> | <a href="#">客服</a> | <a href="#">贸易/采购</a> | <a href="#">超市/百货/零售</a> | <a href="#">淘宝职位</a> | <a href="#">房产中介</a></td></tr>
+                            <tr><th>生产　制造　汽车　电子</th><td><a href="#">普工/技工</a> | <a href="#">生产管理/研发</a> | <a href="#">物流/仓储</a> | <a href="#">服装/纺织/食品</a> | <a href="#">质控/安防</a> | <a href="#">汽车制造/服务</a></td></tr>
+                            <tr><th>房产　建筑　装修　物业</th><td><a href="#">建筑</a> | <a href="#">招聘会</a> | <a href="#">物业管理</a> | <a href="#">农/林/牧/渔业</a> | <a href="#">其他招聘信息</a></td></tr>
+                            <tr><th>贸易　采购　物流　仓储</th><td><a href="#">医院/医疗/护理</a> | <a href="#">制药/生物工程</a> | <a href="#">环保</a></td></tr>
+                            <tr><th>广告　艺术　影视　媒体</th><td><a href="#">媒介/公关</a> | <a href="#">广告/会展/咨询</a> | <a href="#">美术/设计/创意</a></td></tr>
+                            <tr><th>法律　咨询　教育　其他</th><td><a href="#">法律</a> | <a href="#">教育培训</a> | <a href="#">翻译</a> | <a href="#">编辑/出版/印刷</a></td></tr>
+                        </tbody>
+                    </table>
+                    </dd>
+                </dl>
+            	<dl class="SELECT" data-placeholder="职位类型" data-anchor="save">
+                	<input type="hidden">
+                	<dt><b>职位类型</b><i></i></dt>
+                    <dd class="normal">
+                        <a href="#">不限</a>
+                        <a href="#">全职</a>
+                        <a href="#">实习</a>
+                    </dd>
+                </dl>
+            	<dl class="SELECT" data-placeholder="学历要求" data-anchor="save">
+                	<input type="hidden">
+                	<dt><b>学历要求</b><i></i></dt>
+                    <dd class="normal">
+                    	<a href="#">不限</a>
+                    	<a href="#">初中/高中</a>
+                    	<a href="#">技校/中专</a>
+                    	<a href="#">大专</a>
+                    	<a href="#">本科</a>
+                    	<a href="#">硕士</a>
+                    	<a href="#">博士</a>
+                    	<a href="#">其他</a>
+                    </dd>
+                </dl>
+            	<dl class="SELECT" data-placeholder="工作经验" data-anchor="save">
+                	<input type="hidden">
+                	<dt><b>工作经验</b><i></i></dt>
+                    <dd class="normal">
+                    	<a href="#">不限</a>
+                    	<a href="#">在读学生</a>
+                    	<a href="#">应届生</a>
+                    	<a href="#">1年以下</a>
+                    	<a href="#">1-3年</a>
+                    	<a href="#">3-5年</a>
+                    	<a href="#">5-10年</a>
+                    	<a href="#">10年以上</a>
+                    </dd>
+                </dl>
+            	<dl class="SELECT" data-placeholder="公司规模" data-anchor="save">
+                	<input type="hidden">
+                	<dt><b>公司规模</b><i></i></dt>
+                    <dd class="normal">
+                        <a href="#">不限</a>
+                        <a href="#">少于50人</a>
+                        <a href="#">50-100人</a>
+                        <a href="#">100-500人</a>
+                        <a href="#">500-1000人</a>
+                        <a href="#">1000以上</a>
+                    </dd>
+                </dl>
+            	<dl class="SELECT" data-placeholder="公司性质" data-anchor="save">
+                	<input type="hidden">
+                	<dt><b>公司性质</b><i></i></dt>
+                    <dd class="normal">
+                        <a href="#">不限</a>
+                        <a href="#">私营</a>
+                        <a href="#">国有</a>
+                        <a href="#">股份制</a>
+                        <a href="#">外资</a>
+                        <a href="#">合资</a>
+                        <a href="#">事业单位</a>
+                        <a href="#">政府机关</a>
+                        <a href="#">非盈利机构</a>
+                        <a href="#">其它</a>
+                    </dd>
+                </dl>
+            	<dl class="SELECT Railway" data-placeholder="地铁路线" data-choices="3" data-leave="egnore">
+                	<input type="hidden">
+                	<dt><b>地铁路线</b><i></i></dt>
+                    <dd><table>
+                        <caption class="SELECT-COLLECTOR">
+                            <samp>最多选择三个：</samp>
+                            <!--<a href="#"><span>最多选择三个</span><q></q></a>
+                            <a href="#"><span>最多选择三个</span><q></q></a>
+                            <a href="#"><span>最多选择三个</span><q></q></a>-->
+                            <input type="button" class="close" value="关闭">
+                            <input type="button" class="submit" value="确定">
+                        </caption>
+                        <tr class="SELECT-CHOICES"><td>
+                            <a data-id="1">1号线</a><a data-id="2">2号线</a><a data-id="3">3号线</a>
+                            <a data-id="4">3号线机场线</a><a data-id="5">4号线</a><a data-id="6">5号线</a>
+                            <a data-id="7">6号线</a><a data-id="8">8号线</a><a data-id="9">APM线广佛线</a>
+                        </td></tr>
+                    </table></dd>
+                </dl>
+            	<dl class="SELECT" data-placeholder="热门地标" data-anchor="save">
+                	<input type="hidden">
+                	<dt><b>热门地标</b><i></i></dt>
+                    <dd class="normal">
+                    </dd>
+                </dl>
+            	<dl class="SELECT" data-placeholder="默认排序" data-anchor="save">
+                	<input type="hidden">
+                	<dt><b>默认排序</b><i></i></dt>
+                    <dd class="normal">
+                    	<a href="#">默认排序</a>
+                    	<a href="#">按发布时间排序</a>
+                    </dd>
+                </dl>
+            </div><var>更多</var>
+            </td></tr>
+        </tfoot>
+    </table>
+</div>
+
+<div class="FilterTags common">
+	<div>
+        <span>已 选 择 ：</span>
+        <a href="#">区域：天河<q>&times;</q></a>
+        <a href="#">1000-3000<q>&times;</q></a>
+        <a href="#">五险一金<q>&times;</q></a>
+        <a href="#">交通补助<q>&times;</q></a>
+        <a href="#">互联网产品经理<q>&times;</q></a>
+        <a href="#">区域：天河<q>&times;</q></a>
+        <a href="#">1000-3000<q>&times;</q></a>
+        <a href="#">五险一金<q>&times;</q></a>
+        <a href="#">交通补助<q>&times;</q></a>
+        <a href="#">互联网产品经理<q>&times;</q></a>
+        <a href="#">区域：天河<q>&times;</q></a>
+        <a href="#">1000-3000<q>&times;</q></a>
+        <a href="#">五险一金<q>&times;</q></a>
+        <a href="#">交通补助<q>&times;</q></a>
+        <!--<a href="#">互联网产品经理<q>&times;</q></a>
+        <a href="#">区域：天河<q>&times;</q></a>
+        <a href="#">1000-3000<q>&times;</q></a>
+        <a href="#">五险一金<q>&times;</q></a>
+        <a href="#">交通补助<q>&times;</q></a>
+        <a href="#">互联网产品经理<q>&times;</q></a>-->
+        <samp><b>1630</b>个职位</samp>
+    </div>
+</div>
+
+<div class="Main common">
+	<div class="Left">
+        <ul class="Jobs"><!--一共15个，奇数个带class="bg"-->
+            <li class="bg" data-pos="113.30764967515,23.120049102076">
+                <div class="job">
+                    <h4><a href="job-new.html">平面设计师</a><i>100</i></h4>
+                    <p>月薪：<b>5000-7000</b>&nbsp;&nbsp;&nbsp;&nbsp;经验：<b>1-3年</b>&nbsp;&nbsp;&nbsp;&nbsp;学历：<b>大专</b></p>
+                    <p>投递量：<b>200</b>&nbsp;&nbsp;&nbsp;&nbsp;HR查看率：<b>90%</b>&nbsp;&nbsp;&nbsp;&nbsp;<b class="map">天河</b></p>
+                </div>
+                <div class="company">
+                    <h5><a href="#">广州星辰广告传媒有限公司</a><i></i></h5>
+                    <code>2015-12-11</code>
+                    <p>领域：<b>电子技术/半导体/集成电路</b>&nbsp;&nbsp;&nbsp;&nbsp;规模：<b>15-30人</b></p>
+                    <div class="WELFARE">
+                        <span><u>五险一金</u><s></s></span>
+                        <span><u>交通补助</u><s></s></span>
+                        <span><u>年度旅游</u><s></s></span>
+                        <span><u>绩效奖金</u><s></s></span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="job">
+                    <h4><a href="job-new.html">平面设计师平面设计师平面设计师</a><i>100</i></h4>
+                    <p>月薪：<b>5000-7000</b>&nbsp;&nbsp;&nbsp;&nbsp;经验：<b>1-3年</b>&nbsp;&nbsp;&nbsp;&nbsp;学历：<b>大专</b></p>
+                    <p>投递量：<b>200</b>&nbsp;&nbsp;&nbsp;&nbsp;HR查看率：<b>90%</b>&nbsp;&nbsp;&nbsp;&nbsp;<b class="map">天河</b></p>
+                </div>
+                <div class="company">
+                    <h5><a href="#">广州星辰广告传媒有限公司</a><i></i></h5>
+                    <code>今天09:30</code>
+                    <p>领域：<b>电子技术/半导体/集成电路</b>&nbsp;&nbsp;&nbsp;&nbsp;规模：<b>15-30人</b></p>
+                    <div class="WELFARE">
+                        <span><u>五险一金</u><s></s></span>
+                        <span><u>交通补助</u><s></s></span>
+                        <span><u>年度旅游</u><s></s></span>
+                        <span><u>绩效奖金</u><s></s></span>
+                    </div>
+                </div>
+            </li>
+            <li class="bg" data-pos="113.37779,23.128823">
+                <div class="job">
+                    <h4><a href="job-new.html">平面设计师</a><i>100</i></h4>
+                    <p>月薪：<b>5000-7000</b>&nbsp;&nbsp;&nbsp;&nbsp;经验：<b>1-3年</b>&nbsp;&nbsp;&nbsp;&nbsp;学历：<b>大专</b></p>
+                    <p>投递量：<b>200</b>&nbsp;&nbsp;&nbsp;&nbsp;HR查看率：<b>90%</b>&nbsp;&nbsp;&nbsp;&nbsp;<b class="map">天河</b></p>
+                </div>
+                <div class="company">
+                    <h5><a href="#">广州星辰广告传媒有限公司广州星辰广告传媒有限公司</a><i></i></h5>
+                    <code>2015-12-11</code>
+                    <p>领域：<b>电子技术/半导体/集成电路</b>&nbsp;&nbsp;&nbsp;&nbsp;规模：<b>15-30人</b></p>
+                    <div class="WELFARE">
+                        <span><u>五险一金</u><s></s></span>
+                        <span><u>交通补助</u><s></s></span>
+                        <span><u>年度旅游</u><s></s></span>
+                        <span><u>绩效奖金</u><s></s></span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="job">
+                    <h4><a href="job-new.html">平面设计师平面设计师平面设计师</a><i>100</i></h4>
+                    <p>月薪：<b>5000-7000</b>&nbsp;&nbsp;&nbsp;&nbsp;经验：<b>1-3年</b>&nbsp;&nbsp;&nbsp;&nbsp;学历：<b>大专</b></p>
+                    <p>投递量：<b>200</b>&nbsp;&nbsp;&nbsp;&nbsp;HR查看率：<b>90%</b>&nbsp;&nbsp;&nbsp;&nbsp;<b class="map">天河</b></p>
+                </div>
+                <div class="company">
+                    <h5><a href="#">广州星辰广告传媒有限公司</a><i></i></h5>
+                    <code>今天09:30</code>
+                    <p>领域：<b>电子技术/半导体/集成电路</b>&nbsp;&nbsp;&nbsp;&nbsp;规模：<b>15-30人</b></p>
+                    <div class="WELFARE">
+                        <span><u>五险一金</u><s></s></span>
+                        <span><u>交通补助</u><s></s></span>
+                        <span><u>年度旅游</u><s></s></span>
+                        <span><u>绩效奖金</u><s></s></span>
+                    </div>
+                </div>
+            </li>
+            <li class="bg">
+                <div class="job">
+                    <h4><a href="job-new.html">平面设计师</a><i>100</i></h4>
+                    <p>月薪：<b>5000-7000</b>&nbsp;&nbsp;&nbsp;&nbsp;经验：<b>1-3年</b>&nbsp;&nbsp;&nbsp;&nbsp;学历：<b>大专</b></p>
+                    <p>投递量：<b>200</b>&nbsp;&nbsp;&nbsp;&nbsp;HR查看率：<b>90%</b>&nbsp;&nbsp;&nbsp;&nbsp;<b class="map">天河</b></p>
+                </div>
+                <div class="company">
+                    <h5><a href="#">广州星辰广告传媒有限公司</a><i></i></h5>
+                    <code>2015-12-11</code>
+                    <p>领域：<b>电子技术/半导体/集成电路</b>&nbsp;&nbsp;&nbsp;&nbsp;规模：<b>15-30人</b></p>
+                    <div class="WELFARE">
+                        <span><u>五险一金</u><s></s></span>
+                        <span><u>交通补助</u><s></s></span>
+                        <span><u>年度旅游</u><s></s></span>
+                        <span><u>绩效奖金</u><s></s></span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="job">
+                    <h4><a href="job-new.html">平面设计师平面设计师平面设计师</a><i>100</i></h4>
+                    <p>月薪：<b>5000-7000</b>&nbsp;&nbsp;&nbsp;&nbsp;经验：<b>1-3年</b>&nbsp;&nbsp;&nbsp;&nbsp;学历：<b>大专</b></p>
+                    <p>投递量：<b>200</b>&nbsp;&nbsp;&nbsp;&nbsp;HR查看率：<b>90%</b>&nbsp;&nbsp;&nbsp;&nbsp;<b class="map">天河</b></p>
+                </div>
+                <div class="company">
+                    <h5><a href="#">广州星辰广告传媒有限公司</a><i></i></h5>
+                    <code>今天09:30</code>
+                    <p>领域：<b>电子技术/半导体/集成电路</b>&nbsp;&nbsp;&nbsp;&nbsp;规模：<b>15-30人</b></p>
+                    <div class="WELFARE">
+                        <span><u>五险一金</u><s></s></span>
+                        <span><u>交通补助</u><s></s></span>
+                        <span><u>年度旅游</u><s></s></span>
+                        <span><u>绩效奖金</u><s></s></span>
+                    </div>
+                </div>
+            </li>
+            <li class="bg">
+                <div class="job">
+                    <h4><a href="job-new.html">平面设计师</a><i>100</i></h4>
+                    <p>月薪：<b>5000-7000</b>&nbsp;&nbsp;&nbsp;&nbsp;经验：<b>1-3年</b>&nbsp;&nbsp;&nbsp;&nbsp;学历：<b>大专</b></p>
+                    <p>投递量：<b>200</b>&nbsp;&nbsp;&nbsp;&nbsp;HR查看率：<b>90%</b>&nbsp;&nbsp;&nbsp;&nbsp;<b class="map">天河</b></p>
+                </div>
+                <div class="company">
+                    <h5><a href="#">广州星辰广告传媒有限公司</a><i></i></h5>
+                    <code>2015-12-11</code>
+                    <p>领域：<b>电子技术/半导体/集成电路</b>&nbsp;&nbsp;&nbsp;&nbsp;规模：<b>15-30人</b></p>
+                    <div class="WELFARE">
+                        <span><u>五险一金</u><s></s></span>
+                        <span><u>交通补助</u><s></s></span>
+                        <span><u>年度旅游</u><s></s></span>
+                        <span><u>绩效奖金</u><s></s></span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="job">
+                    <h4><a href="job-new.html">平面设计师平面设计师平面设计师</a><i>100</i></h4>
+                    <p>月薪：<b>5000-7000</b>&nbsp;&nbsp;&nbsp;&nbsp;经验：<b>1-3年</b>&nbsp;&nbsp;&nbsp;&nbsp;学历：<b>大专</b></p>
+                    <p>投递量：<b>200</b>&nbsp;&nbsp;&nbsp;&nbsp;HR查看率：<b>90%</b>&nbsp;&nbsp;&nbsp;&nbsp;<b class="map">天河</b></p>
+                </div>
+                <div class="company">
+                    <h5><a href="#">广州星辰广告传媒有限公司</a><i></i></h5>
+                    <code>今天09:30</code>
+                    <p>领域：<b>电子技术/半导体/集成电路</b>&nbsp;&nbsp;&nbsp;&nbsp;规模：<b>15-30人</b></p>
+                    <div class="WELFARE">
+                        <span><u>五险一金</u><s></s></span>
+                        <span><u>交通补助</u><s></s></span>
+                        <span><u>年度旅游</u><s></s></span>
+                        <span><u>绩效奖金</u><s></s></span>
+                    </div>
+                </div>
+            </li>
+            <li class="bg">
+                <div class="job">
+                    <h4><a href="job-new.html">平面设计师</a><i>100</i></h4>
+                    <p>月薪：<b>5000-7000</b>&nbsp;&nbsp;&nbsp;&nbsp;经验：<b>1-3年</b>&nbsp;&nbsp;&nbsp;&nbsp;学历：<b>大专</b></p>
+                    <p>投递量：<b>200</b>&nbsp;&nbsp;&nbsp;&nbsp;HR查看率：<b>90%</b>&nbsp;&nbsp;&nbsp;&nbsp;<b class="map">天河</b></p>
+                </div>
+                <div class="company">
+                    <h5><a href="#">广州星辰广告传媒有限公司</a><i></i></h5>
+                    <code>2015-12-11</code>
+                    <p>领域：<b>电子技术/半导体/集成电路</b>&nbsp;&nbsp;&nbsp;&nbsp;规模：<b>15-30人</b></p>
+                    <div class="WELFARE">
+                        <span><u>五险一金</u><s></s></span>
+                        <span><u>交通补助</u><s></s></span>
+                        <span><u>年度旅游</u><s></s></span>
+                        <span><u>绩效奖金</u><s></s></span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="job">
+                    <h4><a href="job-new.html">平面设计师平面设计师平面设计师</a><i>100</i></h4>
+                    <p>月薪：<b>5000-7000</b>&nbsp;&nbsp;&nbsp;&nbsp;经验：<b>1-3年</b>&nbsp;&nbsp;&nbsp;&nbsp;学历：<b>大专</b></p>
+                    <p>投递量：<b>200</b>&nbsp;&nbsp;&nbsp;&nbsp;HR查看率：<b>90%</b>&nbsp;&nbsp;&nbsp;&nbsp;<b class="map">天河</b></p>
+                </div>
+                <div class="company">
+                    <h5><a href="#">广州星辰广告传媒有限公司</a><i></i></h5>
+                    <code>今天09:30</code>
+                    <p>领域：<b>电子技术/半导体/集成电路</b>&nbsp;&nbsp;&nbsp;&nbsp;规模：<b>15-30人</b></p>
+                    <div class="WELFARE">
+                        <span><u>五险一金</u><s></s></span>
+                        <span><u>交通补助</u><s></s></span>
+                        <span><u>年度旅游</u><s></s></span>
+                        <span><u>绩效奖金</u><s></s></span>
+                    </div>
+                </div>
+            </li>
+            <li class="bg">
+                <div class="job">
+                    <h4><a href="job-new.html">平面设计师</a><i>100</i></h4>
+                    <p>月薪：<b>5000-7000</b>&nbsp;&nbsp;&nbsp;&nbsp;经验：<b>1-3年</b>&nbsp;&nbsp;&nbsp;&nbsp;学历：<b>大专</b></p>
+                    <p>投递量：<b>200</b>&nbsp;&nbsp;&nbsp;&nbsp;HR查看率：<b>90%</b>&nbsp;&nbsp;&nbsp;&nbsp;<b class="map">天河</b></p>
+                </div>
+                <div class="company">
+                    <h5><a href="#">广州星辰广告传媒有限公司</a><i></i></h5>
+                    <code>2015-12-11</code>
+                    <p>领域：<b>电子技术/半导体/集成电路</b>&nbsp;&nbsp;&nbsp;&nbsp;规模：<b>15-30人</b></p>
+                    <div class="WELFARE">
+                        <span><u>五险一金</u><s></s></span>
+                        <span><u>交通补助</u><s></s></span>
+                        <span><u>年度旅游</u><s></s></span>
+                        <span><u>绩效奖金</u><s></s></span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="job">
+                    <h4><a href="job-new.html">平面设计师平面设计师平面设计师</a><i>100</i></h4>
+                    <p>月薪：<b>5000-7000</b>&nbsp;&nbsp;&nbsp;&nbsp;经验：<b>1-3年</b>&nbsp;&nbsp;&nbsp;&nbsp;学历：<b>大专</b></p>
+                    <p>投递量：<b>200</b>&nbsp;&nbsp;&nbsp;&nbsp;HR查看率：<b>90%</b>&nbsp;&nbsp;&nbsp;&nbsp;<b class="map">天河</b></p>
+                </div>
+                <div class="company">
+                    <h5><a href="#">广州星辰广告传媒有限公司</a><i></i></h5>
+                    <code>今天09:30</code>
+                    <p>领域：<b>电子技术/半导体/集成电路</b>&nbsp;&nbsp;&nbsp;&nbsp;规模：<b>15-30人</b></p>
+                    <div class="WELFARE">
+                        <span><u>五险一金</u><s></s></span>
+                        <span><u>交通补助</u><s></s></span>
+                        <span><u>年度旅游</u><s></s></span>
+                        <span><u>绩效奖金</u><s></s></span>
+                    </div>
+                </div>
+            </li>
+            <li class="bg">
+                <div class="job">
+                    <h4><a href="job-new.html">平面设计师</a><i>100</i></h4>
+                    <p>月薪：<b>5000-7000</b>&nbsp;&nbsp;&nbsp;&nbsp;经验：<b>1-3年</b>&nbsp;&nbsp;&nbsp;&nbsp;学历：<b>大专</b></p>
+                    <p>投递量：<b>200</b>&nbsp;&nbsp;&nbsp;&nbsp;HR查看率：<b>90%</b>&nbsp;&nbsp;&nbsp;&nbsp;<b class="map">天河</b></p>
+                </div>
+                <div class="company">
+                    <h5><a href="#">广州星辰广告传媒有限公司</a><i></i></h5>
+                    <code>2015-12-11</code>
+                    <p>领域：<b>电子技术/半导体/集成电路</b>&nbsp;&nbsp;&nbsp;&nbsp;规模：<b>15-30人</b></p>
+                    <div class="WELFARE">
+                        <span><u>五险一金</u><s></s></span>
+                        <span><u>交通补助</u><s></s></span>
+                        <span><u>年度旅游</u><s></s></span>
+                        <span><u>绩效奖金</u><s></s></span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="job">
+                    <h4><a href="job-new.html">平面设计师平面设计师平面设计师</a><i>100</i></h4>
+                    <p>月薪：<b>5000-7000</b>&nbsp;&nbsp;&nbsp;&nbsp;经验：<b>1-3年</b>&nbsp;&nbsp;&nbsp;&nbsp;学历：<b>大专</b></p>
+                    <p>投递量：<b>200</b>&nbsp;&nbsp;&nbsp;&nbsp;HR查看率：<b>90%</b>&nbsp;&nbsp;&nbsp;&nbsp;<b class="map">天河</b></p>
+                </div>
+                <div class="company">
+                    <h5><a href="#">广州星辰广告传媒有限公司</a><i></i></h5>
+                    <code>今天09:30</code>
+                    <p>领域：<b>电子技术/半导体/集成电路</b>&nbsp;&nbsp;&nbsp;&nbsp;规模：<b>15-30人</b></p>
+                    <div class="WELFARE">
+                        <span><u>五险一金</u><s></s></span>
+                        <span><u>交通补助</u><s></s></span>
+                        <span><u>年度旅游</u><s></s></span>
+                        <span><u>绩效奖金</u><s></s></span>
+                    </div>
+                </div>
+            </li>
+            <li class="bg">
+                <div class="job">
+                    <h4><a href="job-new.html">平面设计师</a><i>100</i></h4>
+                    <p>月薪：<b>5000-7000</b>&nbsp;&nbsp;&nbsp;&nbsp;经验：<b>1-3年</b>&nbsp;&nbsp;&nbsp;&nbsp;学历：<b>大专</b></p>
+                    <p>投递量：<b>200</b>&nbsp;&nbsp;&nbsp;&nbsp;HR查看率：<b>90%</b>&nbsp;&nbsp;&nbsp;&nbsp;<b class="map">天河</b></p>
+                </div>
+                <div class="company">
+                    <h5><a href="#">广州星辰广告传媒有限公司</a><i></i></h5>
+                    <code>2015-12-11</code>
+                    <p>领域：<b>电子技术/半导体/集成电路</b>&nbsp;&nbsp;&nbsp;&nbsp;规模：<b>15-30人</b></p>
+                    <div class="WELFARE">
+                        <span><u>五险一金</u><s></s></span>
+                        <span><u>交通补助</u><s></s></span>
+                        <span><u>年度旅游</u><s></s></span>
+                        <span><u>绩效奖金</u><s></s></span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="PAGES">
+        	<a href="#">首页</a>
+        	<a href="#">上一页</a>
+        	<a href="#">1</a>
+        	<a href="#">2</a>
+        	<a href="#">3</a>
+        	<a href="#">下一页</a>
+        	<a href="#">尾页</a>
+        </div>
+    </div>
+    <div class="Right">
+    	<dl class="MAPTHUMB">
+        	<dt>
+                <span>看大地图</span>
+                <samp class="on">收起地图</samp>
+            </dt>
+            <dd><div id="MAPCONTAINER"></div></dd>
+        </dl>
+        <div class="Protect">
+        	<h5>求职保障中心</h5>
+            <p>凡应聘带有“验”字样图标的职位如被企业骗取押金，好工作管赔！</p>
+        </div>
+    </div>
+	<div class="clear"></div>
+</div>
+
+
+<div class="FOOTER">
+	<div class="FOOT-NAV">
+    	<a href="new-about.html">关于我们</a><a href="new-help.html">帮助中心</a>
+        <a href="new-law.html">法律声明</a><a href="index-navigation-new.html" class="last">网站导航</a>
+    </div>
+    <p>服务热线：020-28977426&nbsp;&nbsp;&nbsp;&nbsp;服务QQ：3178883944&nbsp;&nbsp;&nbsp;&nbsp;服务时间：周一至周六9:00-18:40</p>
+    <p>粤ICP备09027680号-25</p>
+</div>
+</body>
+</html>
+<script src="js/jquery.js"></script>
+<script src="js/v2/all.js"></script>
+<script src="js/v2/web.js"></script>
+<script src="js/area.js"></script>
+<script src="js/jobPositions.js"></script>
+<script src="js/plugin/CitiesPicker.js"></script>
+<script src="js/effect/tab.js"></script>
+<script src="js/effect/fixed.js"></script>
+<script src="http://api.map.baidu.com/api?v=2.0&ak=OlGzoCwcKN9OvM16T9RnFwOl"></script>
+<script src="js/plugin/MapThumb.js"></script>
+<script>
+$(function(){
+	if(isIE6()) TextOverflow(".Jobs :header a",12);
+	CHItab(".filter-jobs .FilterMenu",".menu",".FilterSubmenu");
+	//过滤器上的更多行为
+	$(".Filters var").click(function(){
+		var div=$(this).prev("div"),maxHeight=div.data("height"),minHeight=div.css("lineHeight");
+		div.animate({
+			height:(div.height()==maxHeight?minHeight : maxHeight)
+		},function(){
+			RightReset();
+		});
+	}).prev(".items").map(function(){
+		$(this).data("height",$(this).height())
+			.height(parseInt($(this).css("lineHeight")));
+		RightReset();
+	});
+	//最后一项的行为比较麻烦
+	$(".Filters .selects").map(function(){
+		$(this).data("height",$(this).height())
+			.children(":gt(6)").hide()
+			.end()
+			.css("height",$(this).css("lineHeight"));
+		RightReset();
+	});
+	$(".Filters .selects").next("var").click(function(){
+		//点击更多时，先强制关闭前边的所有下拉列表
+		$(this).prev().find(".SELECT").map(function(){SELECT.close.call(this,true);});
+		var div=$(".Filters .selects").css("overflow","hidden"),selects=div.find("dl");
+		if(selects.filter(":hidden").size())
+		{
+			selects.show();
+			div.animate({height:div.data("height")},function(){
+				div.css("overflow","visible");
+				RightReset();
+			});
+		}
+		else
+		{
+			div.animate({height:div.css("lineHeight")},function(){
+				selects.filter(":gt(6)").hide();
+				div.css("overflow","visible");
+				RightReset();
+			});
+		}
+	});
+	var oDOMjobs=$(".Jobs").get(0);
+	oDOMjobs.timer=0;
+	$(".Jobs li").mouseenter(function(){
+		if(!MapNeed)return;
+		var pos=$(this).data("pos"),fun;
+		if(!pos) fun=function(){
+			$("#MAPCONTAINER").slideUp();
+			$(".MAPTHUMB samp").removeClass("on");
+		}
+		else
+		{
+			pos=pos.split(',');
+			fun=function(){
+				//要先显示出来，然后再定位，不然会出错
+				$("#MAPCONTAINER").slideDown(function(){
+					map.moveMarker(pos[0],pos[1]);
+				});
+				$(".MAPTHUMB samp").addClass("on");
+			}
+		}
+		clearTimeout(oDOMjobs.timer);
+		oDOMjobs.timer=0;
+		oDOMjobs.timer=setTimeout(fun,1000);
+	});
+	CHIfixed(".Right",'top');
+	//过滤器中，多选点击确定
+	$(".Filters .selects .SELECT[data-choices] :submit").click(function(){
+		var ids=$(this).closest(".SELECT").find("input[type=hidden]").val();
+	});
+});
+//点击各个更多的时候，会改变右层的文档位置，所以要重置，以保证右侧静止化的正确效果
+function RightReset()
+{
+	var oR=$(".Right");
+	oR.data("topLimit",oR.offset().top - parseInt(oR.css("marginTop")));
+}
+</script>

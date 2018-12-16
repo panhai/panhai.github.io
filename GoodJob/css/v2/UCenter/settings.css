@@ -1,0 +1,89 @@
+/* 个人设置样式 */
+.TOPIC{ font-size:20px; font-weight:bold;}
+
+.Left,.Right{ background-color:#fff; margin:20px 0;}
+.Left{ width:840px; float:left; padding-bottom:100px; margin-bottom:100px;}
+.Right{ width:190px; float:right;}
+.Right li{ float:left; height:70px; line-height:70px; font-size:18px; text-align:center; width:100%;}
+.Right li a{ display:block; height:70px; color:#525252; background-repeat:no-repeat; background-position:30px center; padding-left:15px;}
+.Right .i1{ background-image:url(../../../images/v2/icons/mysets/1.png); _background-image:url(../../../images/v2/icons/mysets/1.gif);}
+.Right .i2{ background-image:url(../../../images/v2/icons/mysets/2.png); _background-image:url(../../../images/v2/icons/mysets/2.gif);}
+.Right .i3{ background-image:url(../../../images/v2/icons/mysets/3.png); _background-image:url(../../../images/v2/icons/mysets/3.gif);}
+.Right .i4{background-image: url(../../../images/v2/icons/mysets/4.png);_background-image:url(../../../images/v2/icons/mysets/4.gif);}
+.Right li.cur a,.Right li a:hover{ color:#1562c8; background-color:#e8f2ff;}
+.Right .cur .i1,.Right .i1:hover{ background-image:url(../../../images/v2/icons/mysets/1b.png); _background-image:url(../../../images/v2/icons/mysets/1b.gif);}
+.Right .cur .i2,.Right .i2:hover{ background-image:url(../../../images/v2/icons/mysets/2b.png); _background-image:url(../../../images/v2/icons/mysets/2b.gif);}
+.Right .cur .i3,.Right .i3:hover{ background-image:url(../../../images/v2/icons/mysets/3b.png); _background-image:url(../../../images/v2/icons/mysets/3b.gif);}
+.Right .cur .i4,.Right .i4:hover{ background-image:url(../../../images/v2/icons/mysets/4b.png); _background-image:url(../../../images/v2/icons/mysets/4b.gif);}
+
+/*帐号绑定说明*/
+.Intro{ width:800px; height:80px; line-height:80px; text-indent:60px; font-size:20px; color:#525252; background-color:#ecf3fd; margin:30px auto 10px;}
+.Items{ width:800px; margin:10px auto; line-height:75px; font-size:18px; color:#a4a4a4;}
+.Items li{ border-bottom:1px solid #eee; padding-left:125px; background-position:60px center; background-repeat:no-repeat;}
+.Items .mobile{ background-image:url(../../../images/v2/icons/mobile-l.png); _background-image:url(../../../images/v2/icons/mobile-l.gif);}
+.Items .email{ background-image:url(../../../images/v2/icons/email-l.png); _background-image:url(../../../images/v2/icons/email-l.gif);}
+.Items .wx{ background-image:url(../../../images/v2/icons/wx-l.png); _background-image:url(../../../images/v2/icons/wx-l.gif);}
+.Items a{ color:#525252;}
+.Items a:hover{ color:#1562c8; text-decoration:underline;}
+
+
+/*单独一个表单*/
+.Single{ margin:60px auto;}
+.FormTable{ width:430px;}
+.FormTable th,.FormTable td{ vertical-align:top; padding-bottom:20px;}
+.FormTable th{ text-align:right; font-weight:normal; font-size:16px; color:#525252; line-height:40px;}
+.FormTable .text{ padding:0 10px; height:40px; float:left; line-height:40px; border:1px solid #e8f2ff; font-size:16px; color:#525252;}
+.FormTable .t-l{ width:280px;}
+.FormTable .t-h{ width:130px;}
+.FormTable .t-s{ width:110px;}
+.FormTable .btn{ float:left; background-color:#549af4; color:#fff; cursor:pointer; border:0; width:140px; font-size:16px; height:40px; margin-left:10px;}
+.FormTable .disabled{ background-color:#ccc; cursor:wait;}
+.FormTable .ok{ height:40px; width:15px; background-position:center;}
+.FormTable img.vcode{ float:left; margin:2px 0 0 10px;}
+.FormTable a.refresh{ font-size:14px; color:#206acb; display:block; float:left; line-height:40px; padding-left:10px;}
+.FormTable a.refresh:hover{ color:#fe6703; text-decoration:underline;}
+.FormTable .submit{ float:right; margin-right:28px; background-color:#3478d2; color:#fff; padding:0px 20px; font-size:16px; border:0px; height:36px; cursor:pointer;}
+
+/*成功信息*/
+.Success{ width:340px; height:60px; line-height:30px; margin:100px auto 200px; background:url(../../../images/v2/icons/success.png) left center no-repeat; _background-image:url(../../../images/v2/icons/success.gif);}
+.Success p{ padding-left:75px; color:#525252; font-size:20px;}
+.Success b{ color:#f9763d;}
+.Success span{ font-size:16px; color:#666;}
+.Success a{ color:#1562c8; font-size:16px;}
+.Success a:hover{ color:#f9763d; text-decoration:underline;}
+
+/*绑定邮箱步骤*/
+.Steps{ width:550px; margin:40px auto;}
+.Steps p{ clear:both; height:50px; line-height:50px; color:#8f8f8f; font-size:16px;}
+.Steps p *{ float:left; display:block;}
+.Steps b{ color:#f16702; font-weight:normal;}
+.Steps .s1{ width:270px; text-indent:10px;}
+.Steps .s2{ width:230px;}
+.Steps .s3{ width:50px; text-align:center;}
+
+.Emails{ margin-left:130px;}
+/*邮箱验证指引*/
+.Guidance{ width:550px; margin:40px auto; color:#525252; font-size:16px; line-height:35px;}
+.Guidance b,.Guidance a:hover{ color:#f16702; font-weight:normal;}
+.Guidance a{ color:#1562c8;}
+
+/*隐私设置*/
+.Privacy{position: relative; width: 720px;  margin-left: 54px; margin-top: 33px; background:url("../../../images/v2/Privacy_bg.jpg") no-repeat left top;overflow:hidden;}
+.Privacy .switch{ position:relative; width: 50px; height: 22px; padding-left: 44px;background: url("../../../images/v2/icons/switch_off.png") no-repeat; cursor: pointer;}
+.Privacy .switch i{ position: absolute; left:0; display: inline-block; width: 20px; height: 20px; background: url("../../../images/v2/icons/switch_i.png") no-repeat; margin-top:1px;}
+.Privacy #privacy{ display: none;}
+.Privacy .switch.on{ background-image: url("../../../images/v2/icons/switch_on.png");}
+.Privacy .in{ position: absolute; right:200px; top: 58px; color:#999999;font-size: 14px; line-height: 23px;}
+.Privacy .txt{margin: 150px 0 14px; padding-bottom:14px; border-bottom: 1px dashed #bfcee1;}
+.Privacy .txt p{ font-size: 14px;color:#666666; line-height: 24px;}
+.Privacy .txt h3{ color: #0a5cc9;font-size: 18px; padding:20px 0 4px 0;}
+.Privacy .aggre .btn{width:190px;height:40px;background: #1463c8;border:0;color:#fff;font-size: 16px;cursor:pointer;}
+.Privacy .aggre p{font-size: 14px;color:#6c6c6c;margin-top: 12px;}
+.Privacy .Check{vertical-align: sub;}
+.hunterTxt{ font-size: 15px;}
+.hunterTxt span{color:#ff5a00;}
+.tipCode{text-align: left;padding:20px;overflow:hidden;}
+.tipCode h6{line-height: 70px;}
+.tipCode img{ width:120px;height:120px;float:left;margin-right: 10px;}
+.tipCode .h3{padding:24px 0 2px;color:#000;font-size: 22px;}
+.tipCode p{font-size: 15px;color:#535353;}

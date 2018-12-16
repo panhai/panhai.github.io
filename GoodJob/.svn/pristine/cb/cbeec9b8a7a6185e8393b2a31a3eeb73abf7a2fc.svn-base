@@ -1,0 +1,40 @@
+/* 企业合作 */
+
+
+/*顶部表单*/
+.form{ clear:both; margin:20px 20px 10px; height:35px; _z-index:11; border-bottom:1px solid #bcbcbc;}
+.form-left,.form-left2{ float:left; padding-top:5px;}
+.form-left a{ line-height:20px; height:20px; font-size:14px; font-family:"微软雅黑"; color:#3d3d3d; padding-left:20px; background:url(../../images/CpCenter/icons.jpg) left top no-repeat;}
+.form-left a.cur{ background-position:left bottom; color:#ff5000;}
+.form-left samp{ display:inline-block; font-size:12px; color:#333; padding-top:20px; line-height:15px;}
+/*输入框及下拉列表*/
+.form-right{ float:right;}
+.form-key,.form-select,.form-submit{ float:left;}
+.form-key,.form-submit,.form-select span{ display:block; height:15px; padding:5px; border:1px solid #BCBCBC; font-size:12px; line-height:15px;}
+.form-key{ width:110px; padding-right:25px; border-right:0px; margin-left:10px;}
+.form-submit{ width:30px; height:27px; padding:5px; background:url(../../images/CpCenter/mag.jpg) center no-repeat; border-left:0px; cursor:pointer;}
+.form-select{ width:95px; height:30px; position:relative; z-index:11; margin-left:10px;}
+.form-select i{ position:absolute; width:12px; height:12px; background:url(../../images/icons.gif) -12px 0px; right:5px; top:8px; _overflow:hidden;}
+.form-select ul{ display:none; position:absolute; width:93px; border:1px solid #bcbcbc; border-top:0px; background:#fff; padding:10px 0px;}
+.form-select li{ font-size:12px; line-height:25px; _height:25px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.form-select li a{ display:block; color:#666; padding:0px 10px;}
+.form-select li a:hover{ color:#fff; background-color:#2677e2;}
+
+/*表格*/
+.table{ width:780px; float:left; margin:10px 20px 20px; margin-bottom:10px\9; border-bottom:3px solid #C9C9C9; _margin-left:10px; border-collapse:collapse; table-layout:fixed;}
+.table th{ background-color:#FAFAFA; font-size:15px; line-height:35px; height:35px; text-align:center; border:1px solid #DDDDDD; border-width:1px 0px; font-family:"微软雅黑"; color:#252525; font-weight:normal;}
+.table .first{ border-left-width:1px;}
+.table .last{ border-right-width:1px;}
+.table td{ font-size:12px; height:55px; padding:10px 0px 20px; border-bottom:1px dashed #dadada; text-align:center; line-height:20px; vertical-align:bottom; color:#666;}
+.table strong{ font-size:14px; color:#2677e3; font-family:"微软雅黑"; display:block; text-align:left; font-weight:normal;}
+.table a{ color:#005FDA;}
+.table td.last{ color:#005FDA;}
+.table em{ font-size:16px; font-weight:bold; font-style:normal;}
+
+/*取消操作的询问*/
+.CancelAsk{ width:430px; padding:10px; border:0px !important;}
+.CancelAsk .CenterContent{ line-height:30px; padding:20px 20px;}
+.CancelAsk h4{ font-weight:normal; color:#333; font-size:20px;}
+.CancelAsk h5{ font-weight:normal; color:#2673ec; font-size:16px;}
+.CancelAsk .CenterBtns{ border-top:1px dashed #ccc; margin-top:10px; padding-top:10px;}
+.CancelAsk p{ font-size:14px; color:#666;}

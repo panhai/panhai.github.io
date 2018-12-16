@@ -1,0 +1,162 @@
+﻿body
+{
+    background-color:White;
+}
+.loginMain
+{
+    width:960px;
+    height:150px;
+    margin:0px auto;
+}
+.loginMain .l
+{
+    float:left;
+    width:639px;
+    height:150px;
+}
+.loginMain .l .block
+{
+    width:176px;
+    height:100px;
+    margin-left:40px;
+    margin-top:40px;
+    float:left;
+}
+.loginMain .l .block p
+{
+   /* text-indent: 2em;*/
+    margin-top:30px;
+}
+.loginMain .l .block p a
+{
+    color:#999999;
+}
+.loginMain .l .block .h
+{
+    font-size:14px;
+    font-weight:bold;
+}
+.loginMain .l .block .h img
+{
+    vertical-align:middle;
+}
+.loginMain .l .block .h a
+{
+    color:#555555;
+}
+
+
+
+
+.loginMain .r
+{
+    float:left;
+    width:320px;
+    float:left;
+}
+.loginBoxOuter
+{
+    position:relative;
+    float:left;
+    left:0px;
+    z-index:130;
+}
+.loginBox
+{
+    position:absolute;
+    width:318px;
+    height:320px;
+    top:-180px;
+    z-index:131;
+    background:url(/images/login/login_bg.png) no-repeat;
+}
+.loginBox .h
+{
+    height:16px;
+    line-height:16px;
+    margin-top:20px;
+    margin-left:25px;
+    font-size:14px;
+    font-weight:bold;
+}
+.loginBox .inp
+{
+    margin-top:20px;
+    margin-left:25px;
+}
+.loginBox input
+{
+    height:30px;
+    line-height:30px;
+    padding-left:5px;
+    border:solid 1px #cccccc;
+    vertical-align:middle;
+}
+.loginBox .submitbutton
+{
+    border:none;
+    height:31px;
+    width:80px;
+    padding:0px;
+    font-size:14px;
+    line-height:31px;
+    color:White;
+    cursor:pointer;
+    margin-left:48px;
+    vertical-align:text-bottom;
+    background:url(/images/common/btsBg.png) -60px -130px no-repeat;
+}
+.errorMsg
+{
+    width:163px;
+    color:Red;
+}
+
+.loginBottom
+{
+    width:960px;
+    height:200px;
+    margin:0px auto;
+}
+.loginBottom .l
+{
+    width:610px;
+    height:200px;
+    float:left;
+}
+.loginBottom .l .h,.loginBottom .r .h
+{
+    width:100%;
+    height:30px;
+    line-height:30px;
+    font-size:14px;
+    font-weight:bold;
+    border-bottom:solid 1px #dddddd;
+}
+.loginBottom .r
+{
+    width:320px;
+    height:200px;
+    float:left;
+    margin-left:30px;
+}
+.loginBottom .r .txt
+{
+    width:218px;
+    float:left;
+    height:20px;
+    line-height:20px;
+    margin-top:6px;
+    padding-left:12px;
+    background:url(/images/common/titleIcos.png) 2px -51px no-repeat;
+    border:solid 0px #eeeeee;
+}
+.loginBottom .r .time
+{
+    width:80px;
+    float:right;
+    height:20px;
+    line-height:20px;
+    margin-top:6px;
+    color:#bbbbbb;
+}

@@ -1,0 +1,32 @@
+/* 学校中心首页 */
+body{ font-family:"微软雅黑";}
+/*彩色链接*/
+.colorful{ clear:both; margin:20px; height:200px;}
+.colorful a{ color:#fff; font-size:16px; font-weight:bold; text-align:center; overflow:hidden;}
+.colorful a b{ display:block; clear:both; font-size:36px; position:relative;}
+.blue,.orange,.green,.purple{ width:280px; height:95px; margin:0px 10px 10px 0px; line-height:50px;}
+.blue,.orange{ float:left;}
+.red,.green,.purple{ float:right;}
+.red{ width:200px; height:200px; background-color:#FB5201; line-height:140px;}
+.red b{ top:-100px;}
+.orange{ background-color:#F99932;}
+.green{ background-color:#72C048;}
+.blue{ background-color:#47AAED;}
+.purple{ background-color:#9493E3;}
+.blue b,.orange b,.green b,.purple b{ top:-15px;}
+
+/*统计信息*/
+.total{ clear:both; margin:20px;}
+.total dt{ height:35px; line-height:35px; font-size:16px; color:#333; border-bottom:2px solid #C6CFD4; _overflow:hidden;}
+.total h3{ height:35px; border-bottom:2px solid #ff5e00; float:left; padding:0px 10px; _position:relative;}
+.total dd{ margin:35px;}
+.total p{ width:235px; float:left; line-height:25px; margin-bottom:30px; font-size:16px; color:#333;}
+.total p b{ color:#7BCDFD;}
+.total img{ vertical-align:text-bottom;}
+.total a{ color:#333;}
+.total a:hover{ color:#7BCDFD;}
+
+.total i{ display:inline-block; background-color:#f30; font-size:12px; border:1px solid #fff; border-radius:30px; line-height:15px; height:15px; min-width:15px; text-align:center; font-style:normal; margin-left:3px; color:#fff; padding:3px;}
+.total i{ background-color:transparent\9; border:0px\9;  height:16px\9; padding:0px\9; *position:static; *margin-left:3px; *vertical-align:text-top; *top:0px; *left:0px;}
+.total i.i1{ background-image:url(../../images/UCenter/dot1.png) \9; width:16px\9; height:16px\9;}
+.total i.i2{ background-image:url(../../images/UCenter/dot2.png) \9; width:20px\9; height:20px\9; line-height:20px\9;}

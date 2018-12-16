@@ -1,0 +1,230 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>好工作运营后台-某个企业-简历管理</title>
+</head>
+<link rel="stylesheet" type="text/css" href="../css/v2/admin/all.css">
+
+<body>
+<header class="clear">
+	<img src="../images/v2/logo-s.png" width="119" height="62">
+    <em>后台管理系统</em>
+    <p>
+    	<a href="#"><i><img src="../images/v2/nophoto.png" width="30" height="30"></i><span>用户名称</span></a>
+        <a href="#">安全退出</a>
+    </p>
+</header>
+<nav>
+	<li><a href="index.html">首页</a></li>
+	<li class="cur"><a href="companies.html">企业管理</a></li>
+	<li><a href="schools.html">院校管理</a></li>
+	<li><a href="users.html">用户管理</a></li>
+	<li><a href="jobs.html">职位管理</a></li>
+	<li><a href="resumes.html">简历管理</a></li>
+	<li><a href="servers.html">客服系统</a></li>
+	<li><a href="moneys.html">财务系统</a></li>
+	<li><a href="system.html">系统管理</a></li>
+</nav>
+
+<!--<menu>
+	<li class="cur"><a href="companies.html">全部企业</a></li>
+	<li><a href="companies-rpo.html">RPO企业</a></li>
+	<li><a href="companies-done.html">已合作</a></li>
+	<li><a href="companies-check.html">待审核</a></li>
+	<li><a href="companies-down.html">被下架</a></li>
+	<li><a href="company-edit.html">添加企业/RPO</a></li>
+</menu>-->
+
+<ol class="SubMenu">
+	<li>企业名称企业名称企业名称</li>
+	<li><a href="company-detail.html">企业资料</a></li>
+	<li><a href="company-jobs.html">招聘管理</a></li>
+	<li class="cur"><a href="company-resumes.html">简历管理</a></li>
+	<li><a href="company-schools.html">合作院校</a></li>
+	<li><a href="company-admins.html">管理员</a></li>
+	<!--<li><a href="company-logins.html">登陆日志</a></li>
+	<li><a href="company-moneys.html">财务日志</a></li>-->
+</ol>
+
+<div class="Filter"><table>
+	<tr>
+    	<th width="7%">关键字：</th><td width="26%">
+        	<input type="text" class="text long" placeholder="请输入关键字">
+        </td>
+    	<th width="7%">地区：</th><td width="26%">
+        	<dl class="SELECT double cities ADDRESS" data-child=".districts" data-address="GetHotCities">
+            	<input type="hidden">
+                <dt></dt>
+                <dd class="normal">
+                </dd>
+            </dl>
+            <ins></ins>
+        	<dl class="SELECT double districts ADDRESS" data-unlimit="true" data-parent=".cities">
+            	<input type="hidden">
+                <dt></dt>
+                <dd class="normal">
+                </dd>
+            </dl>
+        </td>
+    	<th width="7%">投递状态：</th><td width="26%">
+        	<dl class="SELECT long">
+            	<input type="hidden">
+                <dt></dt>
+                <dd class="normal">
+                	<a data-id="">不限</a>
+                	<a data-id="1">未查看</a>
+                	<a data-id="2">待处理</a>
+                	<a data-id="3">已发面试邀请</a>
+                	<a data-id="4">已确认面试</a>
+                	<a data-id="5">不合适</a>
+                	<a data-id="6">拒绝面试</a>
+                </dd>
+            </dl>
+            <!--<label class="only"><input type="checkbox"> 校企合作职位</label>-->
+        </td>
+    </tr>
+    <tr>
+    	<th>职位状态：</th><td>
+        	<dl class="SELECT long">
+            	<input type="hidden">
+                <dt></dt>
+                <dd class="normal">
+                	<a data-id="">不限</a>
+                	<a data-id="1">招聘中</a>
+                	<a data-id="2">待审核</a>
+                	<a data-id="3">已暂停</a>
+                	<a data-id="4">被下架</a>
+                </dd>
+            </dl>
+        </td>
+        <td colspan="2" class="btns">
+        	<input type="button" class="submit" value="查询">
+        	<input type="button" class="reset" value="重置" onClick="allSelectsReset('.Filter');allInputsReset('.Filter');">
+        </td>
+    	<th>&nbsp;</th><td>&nbsp;</td>
+    </tr>
+</table></div>
+
+<div class="total">共有职位 12 个，投递简历 55 份</div>
+
+<div class="List"><table border="1" bordercolor="#e2e4f0">
+	<thead><tr>
+    	<th width="90">ID</th>
+        <th width="120">姓名</th>
+    	<th width="220">职位名称</th>
+    	<th width="">企业名称</th>
+        <th class="txtL">投递方式</th>
+    	<th width="80">职位类型</th>
+    	<th width="80">城市</th>
+    	<th width="150">投递时间</th>
+    	<th width="120">状态</th>
+        <th>反馈时长</th>
+        <th width="200">操作</th>
+    </tr></thead>
+    <tbody>
+    	<tr>
+        	<th><label><input type="checkbox">10001</label></th>
+            <td><a href="resume-detail.html" target="_blank">关之谷</a></td>
+            <td><a href="#" class="black">职位名称职位名称职位名称职位名称</a></td>
+            <td><a href="#" class="black">企业名称企业名称企业名称</a></td>
+            <td class="txtL">BOC代投</td>
+            <td>广州</td>
+            <td>全职</td>
+            <td>2015-06-27 15:00</td>
+            <td>待审核</td>
+            <td>17时12分</td>
+            <td><a href="resume-detail.html">查看简历</a><a href="resume-trace.html">跟踪</a><a data-id="1" data-name="关之谷" class="delete">删除</a></td>
+        </tr>
+    	<tr>
+        	<th><label><input type="checkbox">10001</label></th>
+            <td><a href="resume-detail.html" target="_blank">关之谷</a></td>
+            <td>职位名称职位名称</td>
+            <td>企业名称企业名称企业名称</td>
+            <td class="txtL">BOC代投</td>
+            <td>广州</td>
+            <td>全职</td>
+            <td>2015-06-27 15:00</td>
+            <td>待审核</td>
+            <td>12时1分</td>
+            <td><a href="resume-detail.html">查看简历</a><a href="resume-trace.html">跟踪</a><a data-id="1" data-name="关之谷" class="delete">删除</a></td>
+        </tr>
+    	<tr>
+        	<th><label><input type="checkbox">10001</label></th>
+            <td><a href="resume-detail.html" target="_blank">关之谷</a></td>
+            <td>职位名称职位名称</td>
+            <td>企业名称企业名称企业名称</td>
+            <td class="txtL">BOC代投</td>
+            <td>广州</td>
+            <td>全职</td>
+            <td>2015-06-27 15:00</td>
+            <td>待审核</td>
+            <td>12时1分</td>
+            <td><a href="resume-detail.html">查看简历</a><a href="resume-trace.html">跟踪</a><a data-id="1" data-name="关之谷" class="delete">删除</a></td>
+        </tr>
+    	<tr>
+        	<th><label><input type="checkbox">10001</label></th>
+            <td><a href="resume-detail.html" target="_blank">关之谷</a></td>
+            <td>职位名称职位名称</td>
+            <td>企业名称企业名称企业名称</td>
+            <td class="txtL">BOC代投</td>
+            <td>广州</td>
+            <td>全职</td>
+            <td>2015-06-27 15:00</td>
+            <td>待审核</td>
+            <td>12时1分</td>
+            <td><a href="resume-detail.html">查看简历</a><a href="resume-trace.html">跟踪</a><a data-id="1" data-name="关之谷" class="delete">删除</a></td>
+        </tr>
+    </tbody>
+    <caption>
+    	<input type="button" value="全选" class="checkAll">
+    	<input type="button" value="反选" class="checkNeg">
+    	<input type="button" value="删除" class="batch delete">
+        <div class="Pages">
+        	<span>5874条结果，共294页</span>
+            <a href="#">首页</a>
+            <a href="#">上一页</a>
+            <a href="#">1</a>
+            <a href="#" class="cur">2</a>
+            <a href="#">3</a>
+            <a href="#">...</a>
+            <a href="#">294</a>
+            <a href="#">下一页</a>
+            <a href="#">尾页</a>
+        </div>
+    </caption>
+</table></div>
+
+<table class="FullScreenPlugin black5"><tr><td>
+	<dl class="CENTERDIV AddResume CenterSmall" data-active=".total .add">
+    	<dt><b>添加简历</b><q>&times;</q></dt>
+        <dd><table class="CenterTableFull">
+        	<tbody>
+            	<tr><th width="80">简历ID：</th><td class="Combo Combo41">
+                	<input type="text" class="text ResumeId" placeholder="请粘贴简历ID">
+                    <a class="ResumeIdAdd btn">添加</a>
+                    <input type="hidden" class="ResumeIds">
+                </td></tr>
+            	<tr><th></th><td><div class="CenterItems"></div></td></tr>
+            </tbody>
+            <tfoot><tr><td colspan="2">
+                <input type="button" class="submit" value="确认添加">
+                <input type="button" class="cancel" value="取消">
+            </td></tr></tfoot>
+        </table></dd>
+    </dl>
+</td></tr></table>
+
+
+</body>
+</html>
+<script src="../js/v2/admin/jquery2.js"></script>
+<script src="../js/jbody.js"></script>
+<script src="../js/jbody-plugin.js"></script>
+<script src="../js/area.js"></script>
+<script src="../js/subjects.js"></script>
+<script src="../js/v2/admin/all.js"></script>
+<script src="../js/v2/admin/transit.js"></script>
+<script>
+
+</script>

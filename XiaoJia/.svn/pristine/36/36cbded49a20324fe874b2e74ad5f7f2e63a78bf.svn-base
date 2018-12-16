@@ -1,0 +1,244 @@
+﻿/* 首页 */
+
+.topic{ background-color:#e0e1ef; height:50px; padding:0 20px;}
+.topic h1{ float:left; line-height:50px; color:#686593; font-weight:normal; font-size:20px;}
+.topic ul{ float:right; padding-top:10px;}
+.topic li{ float:left; padding-top:12px; font-size:16px; color:#969696; line-height:16px;}
+.topic a{ color:#969696; display:block; height:16px;  padding:0 10px; border-right:1px solid #969696;}
+.topic .cur a{ color:#222; font-weight:bold;}
+.topic span{ display:block; height:16px; padding:0 10px; float:left;}
+.topic input{ width:0; height:0; visibility:hidden;}
+.topic i{ display:block; float:left; width:16px; height:16px; background-image:url(../../images/gp/icons/cal.png);}
+
+/*各数据*/
+.totals{ margin:20px; border:1px solid #bfbdd6;}
+.totals h2{ background-color:#f5f5fb; font-size:16px; color:#283d84; height:40px; line-height:40px; text-indent:10px; border-bottom:1px solid #e2e4f0;}
+.totals dl{ height:188px;}
+.totals dl,.totals dt,.totals dd{ width:50%; box-sizing:border-box; float:left;}
+.totals dl.bd{ border-right:1px solid #e2e4f0;}
+.totals dl.bd2{ border-bottom:1px solid #e2e4f0;}
+.totals dt,.totals dd{ padding:0 20px; margin:36px 0 20px;}
+.totals dt.bd{ position:relative;}
+.totals dt.bd:before{ display:block; height:86px; content:''; position:absolute; left:0; top:0; border-left:1px solid #e2e4f0;}
+.totals dd{ border-left:1px solid #e2e4f0;}
+.totals h3{ font-size:16px; color:#525252; font-weight:normal;}
+.totals em{ display:block; font-size:32px; margin-top:24px;}
+.totals .green{ color:#51cdb4;}
+.totals p{ font-size:16px; color:#969696; margin-top:24px;}
+.totals .red{ color:#fb5454;}
+
+
+/*复制弹出框样式*/
+.AddSuccess{background:#fff;width:428px;border-radius:3px;}
+.AddSuccess .mianbox{padding:30px 0 55px 0;text-align:center;}
+.AddSuccess .mianbox .h2{font-size:22px;color:#536373;line-height:32px;height:32px;}
+.AddSuccess .mianbox .h2 i{display:inline-block;background:url(../../images/icon.png) no-repeat;background-position:0px -666px;width:32px;height:32px;vertical-align:top;margin-right:10px;}
+.AddSuccess .mianbox .txt{font-size:14px;color:#a7aeb4;margin:17px 0 25px 0;line-height:14px;}
+.AddSuccess .mianbox .user_info{line-height:23px;background:#f5fbff;text-align:center;color:#848c91;font-size:16px;margin:0 auto;padding:10px 0px 10px 10px;width:360px;}
+.AddSuccess .mianbox .user_info span{text-overflow:ellipsis;white-space:nowrap;}
+.AddSuccess .mianbox .user_info label{color:#ff6464;padding-right:10px;}
+.AddSuccess .mianbox .copybtn{display:block;margin:0 auto;margin-top:35px;width:192px;line-height:41px;color:#fff;background:#0068cd;border-radius:3px;cursor:pointer;font-size:14px;}
+
+
+/*列表站点类型样式*/
+.gp_company_accotype {padding:2px; font-size: 12px;border-radius: 2px;}
+.gp_company_accotype_2 {background:rgba(255, 204, 0, 1);color: #194E77;}
+.gp_company_accotype_3 {background:rgba(1, 131, 226, 1);color: #FFCC00;}
+.gp_company_accotype_4 {background:rgba(255, 153, 0, 1);color: #FFF;}
+
+/*文本域样式*/
+ .changeremarks{
+    width: 445px;
+    border: 1px solid #d8d8d8;
+    border-radius: 3px;
+    height: 92px;
+    color: #333;
+    font-size: 14px;
+    line-height: 24px;
+    display: inline-block;
+    vertical-align: text-top;
+    font-family: "微软雅黑";
+    margin-left: 0px;
+    padding-left: 5px;
+ }
+
+/*运营统计*/
+.statistical_type{height:50px;background:#e0e1ef;color:#686593}
+.statistical_type a{color:#61699b;display: block;width:113px;height:46px;float:left;border-radius: 5px 5px 0 0;line-height:46px;margin-top:4px;text-align: center}
+
+.methods{  width: 96%;  height: 80px;  background: #f5f5fb;  color: #5d6383;  border:1px solid #eaeaf3;  margin:29px auto;}
+.methods .statistical_methods{line-height:34px;margin-top:22px;width:23%;margin-left:1%;float: left;  font-size:13px;}
+.methods .statistical_methods ul{width:74%;float:right;border:1px solid #d0d0e7;overflow: hidden;border-radius: 4px}
+.methods .statistical_methods ul li{width:33%;float: right;text-align: center;color:#222443;cursor: pointer;background:#fff}
+.methods .statistical_methods ul li:hover,.methods .statistical_methods ul li.cur{color:#fff;background: #222443}
+.methods .statistical_time{line-height:36px;margin-top:22px;width:297px;margin-left:1%;float: left;  font-size:13px;height:36px}
+.methods .statistical_time span{text-align: center;display: block;float: left}
+.methods .statistical_time .style_change{width:75%;height:34px;position:relative;margin-top:0;float:right;border:1px solid #d0d0e7;background:#fff}
+.methods .statistical_time .style_change span{float: left}
+.methods .statistical_time .style_change dt{line-height:32px;width:100%;border:none; background:url(../../images/gp/icon.png) no-repeat; background-position: 100% -1806px;margin-top:1px;padding:0;font-size: 14px;text-indent:10px;}
+.methods .statistical_time .style_change dt span{line-height:32px;font-size: 14px;color:#797b82}
+.methods .statistical_time .style_change dd{width:100%;padding-right:1px;left:-1px;top:34px;    border: 1px solid #d0d0e7;}
+
+.methods .enterprise_search{line-height:34px;margin-top:22px;width:20%;margin-left:13px;float: left;  font-size:14px;}
+.methods .enterprise_search span{width:20%;text-align: center;display: block;float: left}
+.methods .enterprise_search input{height:34px;border:1px solid #d0d0e7;border-radius: 4px;float:right;padding-left:3px;font-size: 14px;;width:75%}
+.methods .statistics_custom{width:420px;font-size: 14px;float:left;color: #bdbdd6;line-height: 34px;margin:22px 1% 0;}
+.methods .statistics_custom input{width:190px;cursor:pointer;height:34px;border:1px solid #d0d0e7;line-height: 34px;border-radius: 3px;padding:0 5px;background:url(../../images/gp/icon.png) no-repeat #fff;background-position: 100% -1902px;}
+
+.methods .func{line-height:36px;margin-top:22px;float: left;  font-size:13px;height:36px;}
+.methods .func .default{height:36px;float:left;color:#343b66;margin-left:15px}
+.methods .func .query_func{width:85px;height:36px;background:#ff6600;color:#fff;display:block;text-align: center;border-radius: 3px;float: left}
+
+.overview_data{width: 96%; color: #5d6383; overflow: hidden; margin:29px auto;}
+.overview_data .data_box{width:22%;float: left;  background: #f5f5fb;overflow: hidden;margin-right:4%;  -webkit-box-shadow: 0 0 0 1px #d8d8e8 inset;  -moz-box-shadow: 0 0 0 1px #d8d8e8 inset;  box-shadow: 0 0 0 1px #d8d8e8 inset;}
+.overview_data .data_box p{width:88%;float: left;white-space:nowrap;  overflow:hidden;  text-overflow:ellipsis;margin-left:6%;padding-top:3%;font-size: 14px;color: #5d6383}
+.overview_data .data_box h1{color:#ff6868;float: left;padding:1% 0 1% 20px}
+.overview_data .data_box p span{color:#ff6868;margin-left:17px}
+
+#linear_statistical_table{height:310px;margin:29px auto 0;padding-top:15px;border-top:none}
+#statistics{height:42px;background:#f5f5fb;position: relative;top: 0;}
+#statistics_pic{height:42px;background:#f5f5fb;position: relative;top: 0;}
+#statistics .statistics_p1,#statistics_pic .statistics_p1{float: left;margin-left:14px;font-weight: 550;text-align: center; }
+#statistics .statistics_p2{float: right;margin-right:17px;text-align: left; width:50px;cursor:pointer;background:url(../images/icon.png) no-repeat;background-position: 28px -1801px }
+#statistics .statistics_p1,#statistics .statistics_p2,#statistics_pic .statistics_p1{  line-height: 42px;  color:#343b66;font-size: 14px}
+#statistics .statistics_other,#statistics_pic .statistics_other{text-align: center;line-height:42px}
+#statistics .statistics_other a,#statistics_pic .statistics_other a{font-size: 14px;margin: 0 5px;  padding: 0 5px;color:#343b66}
+#statistics .statistics_other a.cur,#statistics_pic .statistics_other a.cur{color:#fff;background:#222443}
+#statistics .statistics_other a:hover,#statistics_pic .statistics_other a:hover{color:#fff;background:#222443}
+#statistics .statistics_other a:first-child:hover,#statistics_pic .statistics_other a:first-child:hover{color:#343b66;background:transparent;cursor: default}
+#statistics .statistics_custom,#statistics_pic .statistics_custom{font-size: 14px;float:right;color: #bdbdd6;line-height: 42px;margin-right:1%}
+#statistics .statistics_custom input,#statistics_pic .statistics_custom input{height:24px;border:1px solid #e8e8f1;border-radius: 2px;padding:0 5px}
+#statistics .statistics_custom span,#statistics_pic .statistics_custom span{color:#333}
+#statistics .statistics_custom .btn { background-color: #222443; color: #fff; width: 60px; height: 30px; border-radius: 5px; border: 0 none; }
+
+#pie_chartOne,#pie_chartTwo{width:50%;height:400px;padding:4% 0;float: left}
+
+.table_data table{  width: 96%; margin:29px auto;}
+.table_data .table_data_head{height:40px;background:#f5f5fb;color:#6e76a9;font-size:14px;border-bottom-color:#f5f5fb}
+.table_data .table_data_head th.orderType{cursor:pointer;}
+.table_data .table_data_head th.cur{font-weight:bold;}
+.table_data .table_data_body.title th {font-weight:bold;}
+.table_data table th:first-child{width:160px;text-align: left;padding-left:15px;}
+.table_data table th.company{width:90px;text-align: left;padding:0 15px;}
+.table_data .table_data_body{color:#343b66;font-size: 14px;height:35px}
+.table_data .table_data_body th{white-space:nowrap;  overflow:hidden;  text-overflow:ellipsis;padding:0 5px}
+
+.backstage_foot{float: right;text-align: center;overflow: hidden;margin-right:2%;padding-bottom:100px}
+.backstage_foot ul li{float:left;padding:5px 10px;border:1px solid #969696;color:#525252;margin-left: 4px;cursor: pointer;border-radius: 5px;font-size:14px}
+.backstage_foot ul li:hover{background:#343b66;color:#fff}
+.backstage_foot .ellipsis{border:none;padding:0;margin-top:10px}
+
+.backstage_foot{float: right;text-align: center;overflow: hidden;margin-right:2%;padding-bottom:100px}
+.backstage_foot a{float:left;padding:5px 10px;border:1px solid #969696;color:#525252;margin-left: 4px;cursor: pointer;border-radius: 5px;font-size:14px}
+.backstage_foot a:hover,.backstage_foot a.cur{background:#343b66;color:#fff}
+
+#Collection_of_talent,#Evaluation_of_talent ,#Favorites_box ,#Data_perfection{display: none}
+#Favorites_box .add_buddy{text-align: center;padding:3%;background:#f7f9fb;border-bottom:1px solid #e5e5e5;margin-bottom:25px;}
+#Favorites_box .add_buddy p{font-size: 14px;color:#666;padding:2% 0}
+#Favorites_box .add_buddy p:first-child{font-weight: bold;font-size: 22px;color:#222}
+#Favorites_box .character_information{width:90%;height:168px;position:relative;left:5%;background:#fafafa;border:1px solid #f4f7f8;}
+#Favorites_box .character_information .feature_selection{height:40px;line-height: 40px;}
+#Favorites_box .feature_selection{width:130px;float: left;margin-left:10px}
+#Favorites_box .feature_selection ul li{float:left;font-size: 12px}
+#Favorites_box .feature_selection ul li:nth-child(2){padding:0 10px;}
+#Favorites_box .feature_selection ul li i{cursor:pointer;width:14px;height:14px;float:right; background:url("../images/icon.png" ) no-repeat;background-position:0px -986px;margin:13px 0 0 5px}
+#Favorites_box .choose_type{width:330px;float: right}
+#Favorites_box .choose_type ul li a{float: left ;font-size: 12px;border:1px solid #f4f7f8;padding:8px;border-radius: 3px;color:#414e5b;margin-top:5px;margin-left:8px}
+#Favorites_box .choose_type ul li a:hover{background:#ff6363;color:#fff}
+#Favorites_box .information_box{background:#fdffff;width:100%;border-top:1px solid #f4f7f8;float: left;padding-top:12px}
+#Favorites_box .to_add{color:#fff;background:#ff6464;display: inline-block;padding:15px 45px;border-radius: 3px;margin:20px 0 30px;margin-left:231px;cursor: pointer}
+#Favorites_box .to_add a{color:#fff}
+#Evaluation_of_talent .evaluation_title{text-align: center;background:#f7f9fb;border-bottom:1px solid #e5e5e5;padding:6% 0; font-weight: bold;font-size: 22px;color:#222}
+#Evaluation_of_talent .evaluation_menu{width:90%;position: relative;left: 5%;    float: left;border-bottom:1px solid #e5e5e5;height:90px}
+#Evaluation_of_talent .evaluation_menu .evaluation_left_menu{width:200px;float: left;margin:24px 0 15px}
+#Evaluation_of_talent .evaluation_menu .evaluation_left_menu p{float: left;font-size: 14px;color:#666;margin:10px 0;padding-left:30px}
+#Evaluation_of_talent .evaluation_menu .evaluation_left_menu p:first-child{font-size: 18px;color:#222;font-weight: bold;margin:0 0 0px 0;padding:0}
+#Evaluation_of_talent .evaluation_menu .evaluation_right_menu{ cursor: pointer; width: 80px;  font-size:14px;height: 32px;  line-height: 32px;  margin-top:30px;text-align: center;border-radius: 3px;  float: right;  background: #ff6464;color:#fff}
+
+#Data_perfection .data_perfection_title{text-align: center;padding:3%;background:#f7f9fb;border-bottom:1px solid #e5e5e5;}
+#Data_perfection .data_perfection_title p{font-size: 14px;color:#999;padding:2% 0}
+#Data_perfection .data_perfection_title p:first-child{font-weight: bold;font-size: 22px;color:#222}
+#Data_perfection .data_integrity{width:90%;position: relative;left: 5%;  float: left;border-bottom:1px solid #e5e5e5;height:90px}
+#Data_perfection .data_integrity .data_integrity_left{margin-top: 20px}
+#Data_perfection .data_integrity .data_integrity_left p{font-size: 14px;color:#999;margin:15px 0;}
+#Data_perfection .data_integrity .data_integrity_left p:last-child{width:50%;border-radius:11px;height:18px;background:#f4f4f4;position: relative}
+#Data_perfection .data_integrity .data_integrity_left p span{float: left;width:50%;height:18px;border-radius: 11px;background: #ff6464;}
+#Data_perfection .data_integrity_right{ cursor: pointer;font-size: 14px; width: 80px;  height: 32px;  line-height: 32px;  margin-top:30px;text-align: center;border-radius: 3px;  float: right;  background: #ff6464;color:#fff}
+#Data_perfection .data_integrity_right a,#Data_perfection .data_integrity_right span{color:#fff}
+
+
+#Collection_of_talent{height:390px}
+#Collection_of_talent .collection_title{text-align: center;padding:3% 0;background:#f7f9fb;border-bottom:1px solid #e5e5e5;}
+#Collection_of_talent .collection_title p{font-size: 14px;color:#666;padding:2% 0}
+#Collection_of_talent .collection_title p:first-child{font-weight: bold;font-size: 22px;color:#222}
+#Collection_of_talent .privacy_information{width:90%;position:relative;margin-top:20px;left: 5%;background: #f3f7fa;height:34px}
+#Collection_of_talent .privacy_information ul li{width:90px;font-size:14px;color:#646e78;float: left;text-align: center;height:30px;line-height: 30px;cursor: pointer}
+#Collection_of_talent .privacy_information p{width:90px;height:3px;background:#fe6a6a;position:absolute;bottom:0;left:0;}
+#Collection_of_talent .personal_privacy_information{width:90%;position:relative;left: 5%;height:130px;float: left;margin-top:30px;}
+#Collection_of_talent .ok{color:#fff;background:#ff6464;display: inline-block;padding:15px 45px;border-radius: 3px;margin:30px 0 25px;margin-left:231px;cursor: pointer}
+
+
+.SendInterview {
+   background: #fff;
+   width: 650px;
+}
+.SendInterview .mianbox {
+   padding: 30px 0 60px 40px;
+   text-align: left;
+}
+.SendInterview .mianbox .line_box {
+   margin-bottom: 12px;
+}
+.SendInterview .mianbox .line_box .leftBlock {
+   width: 80px;
+   color: #666;
+   font-size: 14px;
+   display: inline-block;
+   text-align: right;
+}
+.SendInterview .mianbox .line_box .changeremarks {
+   width: 446px;
+   border: 1px solid #d8d8d8;
+   border-radius: 3px;
+   height: 92px;
+   color: #333;
+   font-size: 14px;
+   line-height: 24px;
+   display: inline-block;
+   vertical-align: text-top;
+   font-family: "微软雅黑";
+   margin-left: 0px;
+   padding-left: 5px;
+}
+.SendInterview .mianbox .line_box .leftBlock {
+   width: 80px;
+   color: #666;
+   font-size: 14px;
+   display: inline-block;
+   text-align: right;
+}
+.SendInterview .mianbox .line_box .add {
+   display: inline-block;
+   margin-top: 15px;
+   margin-right: 8px;
+   width: 100px;
+   line-height: 40px;
+   color: #fff;
+   font-size: 14px;
+   text-align: center;
+   border-radius: 3px;
+   background: #0068cd;
+   cursor: pointer;
+   border: 0;
+}
+.SendInterview .mianbox .line_box .cancel {
+   display: inline-block;
+   width: 50px;
+   margin-top: 15px;
+   line-height: 38px;
+   color: #2a2a2a;
+   font-size: 14px;
+   text-align: center;
+   border-radius: 3px;
+   cursor: pointer;
+}

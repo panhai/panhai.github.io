@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>用户注册-手机号注册-注册成功</title>
+<link rel="stylesheet" type="text/css" href="css/css.css">
+<link rel="stylesheet" type="text/css" href="css/regist.css">
+</head>
+
+<body>
+<div class="top"><div class="common">
+	<a href="index.html" class="top-logo2"><img src="images/logo.jpg" width="234" height="118"></a>
+    <strong class="top-topic">用户注册</strong>
+    <p class="top-tail"><a href="#">返回首页</a> | <a href="#">帮助</a></p>
+</div></div>
+<div class="common main">
+	<ul class="reg-tabs">
+    	<li class="first"><a href="regist-user-wx.html"><img src="images/regist/wx.jpg" width="35" height="35"> 微信注册</a></li>
+    	<li class="cur"><a href="regist-user-mob.html"><img src="images/regist/mob.jpg" width="35" height="35"> 手机号注册</a></li>
+    	<li><a href="regist-user-ema.html"><img src="images/regist/ema.jpg" width="35" height="35"> 邮箱注册</a></li>
+    </ul>
+    <dl class="ok">
+    	<dt><img src="images/regist/ok.jpg" width="70" height="70"> 恭喜您，使用18344049238手机号注册成功！</dt>
+        <dd><b>5</b>秒内自动登录</dd>
+    </dl>
+</div>
+<div class="footer">
+	<div class="common tail">
+        <samp class="tail-hotline">
+            服务热线<br>
+            <strong>400-660-5319</strong>
+        </samp>
+        <samp class="tail-time">
+            服务时间<br>
+            周一至周六9:00-18:40
+        </samp>
+        <samp class="tail-nav">
+            <a href="#" class="first">关于我们</a>
+            <a href="new-help.html">帮助中心</a>
+            <a href="#">保密承诺</a>
+            <a href="#">Investor Relatiao</a>
+            <a href="new-about.html">关于我们</a>
+        </samp>
+        <a href="#" class="icon"><img src="images/foot-wb.jpg" width="41" height="35"></a>
+        <a href="#" class="icon"><img src="images/foot-tc.jpg" width="41" height="35"></a>
+    </div>
+    <div class="common copyright">
+    	<p>京ICP备09083200号 京ICP证070419号 人才服务许可证：RC0710280</p>
+    	<p>Copyright&copy;2000-2014 liepin.com All Rights Reserved</p>
+    </div>
+</div>
+</body>
+</html>
+<script src="js/jquery.js"></script>

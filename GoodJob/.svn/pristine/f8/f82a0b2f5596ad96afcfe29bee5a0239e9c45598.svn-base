@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>邮件验证</title>
+</head>
+
+<body>
+<dl style="width:780px; margin:20px auto; border:1px solid #eee;">
+	<dt style="background-color:#add0ff; padding:10px 40px;"><img src="images/v2/logo.png" width="177" height="91"></dt>
+    <dd style="background-color:#fff; font-family:Microsoft YaHei, Arial; padding:0 40px 30px; margin:0; word-break:break-all;">
+        <p>&nbsp;</p>
+    	<p><span style="font-size:24px; color:#525252;">您好！</span></p>
+        <p>感谢您使用好工作，您的注册邮箱：846255125@qq.com</p>
+        <p>请点击下方链接进行验证您的邮箱地址：</p>
+        <p><a href="#" style="color:#1562c8;">http://www.jobtong.com/emailValidate?hash=N09IUnBYUmJsQktKTVlXYlRPWGxzU0tXc2h3UmZGT3RKM1ltU2FWRUNmd1lUbE1VaXlkdUd3PT0=</a></p>
+        <p>&nbsp;</p>
+        <p>验证后即可登陆好工作！（如无法打开此链接，请复制粘贴到浏览器打开）</p>
+        <p>&nbsp;</p>
+        <p>祝您找工作顺利！</p>
+        <p>好工作客户服务中心     2014.11.07</p>
+        <p><span style="color:#818181;">验证邮箱由系统发出，请勿直接回复邮件！如不是你本人注册好工作账号，请忽略该邮件，谢谢！</span></p>
+    </dd>
+</dl>
+</body>
+</html>

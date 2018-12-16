@@ -1,0 +1,31 @@
+﻿/* 分享特权页面样式 */
+
+body{ background:url(../images/sharebg.jpg) center top no-repeat #fac92f;}
+.Card{ text-align:center; padding-top:70px;}
+.CardIntro{ color:#cd1135; text-align:center; line-height:25px; font-size:16px; margin-bottom:70px;}
+.CardBtn{ display:block; margin:0 auto; width:250px; height:34px; line-height:34px; background-color:#ed304e; font-size:16px; color:#fff; border-radius:3px; text-align:center;}
+.CardPhoto{ width:75px; height:75px; margin:25px auto 0; border-radius:50%; border:2px solid rgba(255,255,255,.5); overflow:hidden;}
+.CardPhoto img{ width:100%; height:auto;}
+.Card2{ padding-top:10px;}
+.CardIntro2{ margin-bottom:0 !important;}
+.CardRight{ display:block; font-size:12px; color:#f65670; width:6em; margin:-10px auto 5px; text-decoration:underline;}
+.CardMobile{ text-align:center;}
+.CardMobile input{ height:34px; line-height:34px; font-size:16px; width:250px; padding:0 10px; box-sizing:border-box; border:0; border-radius:3px; background-color:#fff; margin:75px 0 10px;}
+.CardMemory{ text-align:center; font-size:12px; color:#fff; line-height:25px;}
+/*特权说明*/
+.CardContent{ width:230px; background-color:#fff; padding:20px; border-radius:5px; border:2px dashed #ed304e; margin:0 auto; font-size:14px; color:#fd657d; position:relative;}
+.CardContent q{ position:absolute; width:22px; height:22px; background-color:#ed304e; border-radius:50%; color:#fff; font-size:24px; line-height:18px; right:-10px; top:-10px; cursor:pointer;}
+.CardContent h1{ color:#ed304e; font-size:16px; line-height:40px; font-weight:normal; text-align:center;}
+.CardContent p{ text-align:left;}
+.CardContent2{ margin-bottom:85px;}
+/*收到卡*/
+.CardCelebrate{ color:#cc0c31; margin:45px auto 60px; text-align:center; line-height:25px;}
+.CardCelebrate *{ font-weight:normal; font-style:normal;}
+.CardCelebrate em,.CardCelebrate a{ color:#1562c8;}
+.CardCelebrate a{ text-decoration:underline;}
+.CardCelebrate h2{ font-size:18px;}
+.CardCelebrate h3{ font-size:14px;}
+/*手机验证码*/
+.t-s{ width:150px; height:34px;line-height:34px; font-size:16px;padding:0 10px; box-sizing:border-box; border:0; border-radius:3px; background-color:#fff; margin:10px 0 10px; }
+.SendVerify{ background-color:#549af4; color:#fff; cursor:pointer; border:0; font-size:12px;height:34px;line-height:34px;width:95px;box-sizing:border-box;padding:0 10px;margin:10px 0 10px;border-radius:3px;}
+.CodeV{text-align:center;}

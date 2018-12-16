@@ -1,0 +1,575 @@
+﻿sub{
+    -webkit-background-clip: border-box;
+    -webkit-background-origin: padding-box;
+    -webkit-background-size: auto;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: none;
+    background-origin: padding-box;
+    background-size: auto;
+    border-bottom-color: transparent;
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    border-left-color: transparent;
+    border-left-style: solid;
+    border-left-width: 4px;
+    border-right-color: transparent;
+    border-right-style: solid;
+    border-right-width: 4px;
+    border-top-color: white;
+    border-top-style: solid;
+    border-top-width: 4px;
+    color: white;
+    cursor: auto;
+    display: inline-block;
+    float: none;
+    font-family: Tahoma, 宋体, Arial, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    height: 0px;
+    left: 4px;
+    line-height: 0px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin-right: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    top: 2px;
+    vertical-align: middle;
+    width: 0px;
+}
+
+
+
+.pg-top{
+    width:100%;
+    height:32px;
+    border-bottom:solid 1px #ddd;
+    background: #f0f0f0;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#f0f0f0));
+    background-image: -webkit-linear-gradient(#fafafa, #f0f0f0);
+    background-image: -moz-linear-gradient(#fafafa, #f0f0f0);
+    background-image: -ms-linear-gradient(#fafafa, #f0f0f0);
+    background-image: -o-linear-gradient(#fafafa, #f0f0f0);
+    background-image: linear-gradient(#fafafa, #f0f0f0);
+}
+.pg-top-main{
+    width:960px;
+    height:32px;
+    margin:0px auto;
+    vertical-align:middle;
+}
+.pg-top-main .left{
+    float:left;
+}
+.pg-top-main .left .logo{
+    float:left;
+}
+.pg-top-main .left img{
+    height:30px;
+}
+.pg-top-main .right{
+    float:right;
+}
+
+
+#pg-header{
+    width:100%;
+    height:60px;
+    background-color:#fff;
+}
+#pg-header .pg-header-main{
+    width:960px;
+    height:60px;
+    margin:0px auto;
+    vertical-align:middle;
+    background-color:#fff;
+}
+#pg-header .logo{
+    float:left;
+    width:250px;
+    height:40px;
+    margin-top:5px;
+}
+#pg-header .cname{
+    float:left;
+    height:45px;
+    line-height:45px;
+    margin-top:10px;
+    font-size:25px;
+    font-family:"华文行楷";
+    color:#000;
+    filter:glow(color=#999,strength=3);
+    -moz-text-shadow: 1px 1px 5px #999; /*firefox*/
+    -webkit-text-shadow: 1px 1px 5px #999; /*safari或chrome*/
+    text-shadow:1px 1px 5px #999; /*opera或ie9*/
+}
+
+#pg-header .pg-header-main .n2
+{
+    float:left;
+    height:35px;
+    line-height:35px;
+    margin-top:17px;
+    margin-left:15px;
+    font-size:18px;
+    font-family:"黑体";
+    color:#333;
+    filter:glow(color=#999,strength=3);
+    -moz-text-shadow: 1px 1px 5px #999; /*firefox*/
+    -webkit-text-shadow: 1px 1px 5px #999; /*safari或chrome*/
+    text-shadow:1px 1px 5px #999; /*opera或ie9*/
+}
+#pg-header .pg-header-main .r{
+    float:right;
+}
+
+#pg-nav {
+    width: 100%;
+    background-color: #fff;
+    border-bottom: solid 3px #005cd5;
+}
+#pg-nav ul {
+    width: 960px;
+    height:38px;
+    margin: 0px auto;
+}
+#pg-nav ul li {
+    float: left;
+    height: 38px;
+    line-height: 38px;
+    vertical-align:middle;
+    position:relative;
+    color:#333;
+}
+#pg-nav ul .mhover {
+    background-color:#4193ff;
+    height: 37px;
+    line-height: 37px;
+}
+#pg-nav ul .active{
+    height: 38px;
+    line-height: 38px;
+    background-color:#005cd5;
+    font-weight:bold;
+    border-bottom:solid 3px #e0edff; 
+}
+#pg-nav ul .active a{
+    color:white;
+}
+
+#pg-nav .nav-title a {
+    text-decoration:none;
+    color:#333;    
+    font-size: 14px;
+    float: left;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 20px;
+    padding-right: 20px;
+    vertical-align:middle;
+}
+#pg-nav .nav-title a:hover{
+    background-color:#eee;
+}
+#pg-nav .nav-title a sub{
+    _top: -14px;
+    _margin-top: 32px;
+    _border-color: tomato;
+    _filter: chroma(color=tomato);
+    top:0px;
+}
+#pg-nav .active .nav-title a{    
+    background-color:#005cd5;
+}
+#pg-nav .active .nav-title a sub{
+    color:black;
+    border-top-color: black;
+}
+#pg-nav-sub{    
+    width:100%; 
+    min-width:960px; 
+    padding-bottom:5px; 
+    background-color:#f8f8f8;
+}
+#pg-nav-sub-inner{
+    width: 100%;
+    -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+}
+#pg-nav-sub-main{
+    width: 960px;
+    height:40px;
+    margin: 0px auto;
+}
+#pg-nav-sub-main ul{
+    float:left;
+    margin-left:5px;
+}
+#pg-nav-sub-main ul li{
+    float:left;
+    margin-top:10px;
+    border:solid 1px #e0e0e0;
+    border-bottom:none;
+    height:29px;
+    line-height:29px;
+    background-color:#eeeeee;
+}
+#pg-nav-sub-main ul li a{
+    display:block;
+    color:#8e8e8e;
+    height:29px;
+    line-height:29px;
+    padding-left:15px;
+    padding-right:15px;
+}
+#pg-nav-sub-main ul li.mhover a{
+    color:#555;
+}
+#pg-nav-sub-main ul li.mhover{
+    float:left;
+    margin-top:8px;
+    border:solid 1px #91c5e9;
+    border-bottom:none;
+    height:31px;
+    line-height:31px;
+    background-color:#c8e1f3;
+}
+#pg-nav-sub-main ul .active{
+    float:left;
+    height:35px;
+    line-height:35px;
+    margin-top:5px;
+    background-color:#f5f5f5;
+    border:solid 1px #aaaaaa;
+    border-bottom:none;
+    -webkit-box-shadow: 0 2px 4px white;
+    -moz-box-shadow: 0 2px 4px white;
+    box-shadow: 0 2px 4px white;
+}
+#pg-nav-sub-main ul .active a{
+    display:block;
+    color:#eb4100;
+    font-weight:bold;
+    padding-left:20px;
+    padding-right:20px;
+    height:35px;
+    line-height:35px;
+}
+
+
+.footerOuter{    border-top:solid 1px #e0e0e0;}
+.footer{    border-top:solid 0px #e0e0e0;}
+.footer .contact{    width:200px;    float:left;    text-align:center;    padding-bottom:10px;    background:url(/images/footer-contact-icon.png) center top no-repeat;}
+.footer .contact span{ display:block; color:#999; }
+.footer .footerBlock{    width:180px;    float:left;    padding-bottom:10px;    border-left:dotted 1px #ccc;}
+.footer .footerBlock span{ display:block; font-size:14px; font-weight:bold; color:#888; }
+.footer .footerBlock a{ display:block; color:#999; }
+
+
+
+.pageMainContentContainer
+{
+    width:100%;
+    min-width:960px;
+    background-color:#fff;
+    padding-bottom:20px;
+}
+.bodyBlockOuter{
+    width:100%;
+    min-width:960px;
+    background-color:#fff;
+}
+.bodyBlock{
+    width:960px;
+    min-width:960px;
+    margin:0px auto;
+    padding-top:10px;
+}
+.bodyBlockLeft{
+    width:715px;
+    float:left;
+    border:solid 0px #999;
+}
+.bodyBlockRight{
+    width:230px;
+    float:right;
+    border:solid 0px #999;
+}
+
+
+
+.blockTabTitles{
+    clear:both;
+}
+.blockTabTitles .item{
+    height:38px;
+    line-height:38px;
+    font-size:18px;
+    font-weight:bold;
+    background-color:#f5f5f5;
+    float:left;
+    border-right:solid 1px #e0e0e0;
+    border-top:solid 1px #e0e0e0;
+    text-align:center;
+}
+.blockTabTitles .item.active{
+    background-color:#2f79dc;
+    border-right:solid 1px #2f79dc;
+    border-top:solid 1px #2f79dc;
+    color:white;
+}
+.blockTitle{
+    width:100%;
+    height:40px;
+    line-height:40px;
+    font-size:18px;
+    font-weight:bold;
+    text-indent:30px;
+    background:#ecf5fc url(/images/school/schoolIndexTitle.png) no-repeat;
+    background-position-x:8px; 
+    background-position-y:3px; 
+}
+.blockTitle.blockTitle2{
+    border-top:solid 4px #2f79dc;
+    margin-top:5px;
+}
+
+/* ListTitleBanner start */
+.bodyBlockLeft .listTitleBanner1{ background:url(/images/school/banner/schlbn1.png) no-repeat; }
+.bodyBlockLeft .listTitleBanner2{ background:url(/images/school/banner/schlbn2.png) no-repeat; }
+.bodyBlockLeft .listTitleBanner3{ background:url(/images/school/banner/schlbn3.png) no-repeat; }
+.bodyBlockLeft .listTitleBanner4{ background:url(/images/school/banner/schlbn4.png) no-repeat; }
+.bodyBlockLeft .listTitleBanner5{ background:url(/images/school/banner/schlbn5.png) no-repeat; }
+.bodyBlockLeft .listTitleBanner6{ background:url(/images/school/banner/schlbn6.png) no-repeat; }
+.bodyBlockLeft .listTitleBanner7{ background:url(/images/school/banner/schlbn7.png) no-repeat; }
+.bodyBlockLeft .listTitleBanner8{ background:url(/images/school/banner/schlbn8.png) no-repeat; }
+.bodyBlockLeft .listTitleBanner9{ background:url(/images/school/banner/schlbn9.png) no-repeat; }
+.bodyBlockLeft .listTitleBanner10{ background:url(/images/school/banner/schlbn10.png) no-repeat; }
+.bodyBlockLeft .listTitleBanner11{ background:url(/images/school/banner/schlbn11.png) no-repeat; }
+.bodyBlockLeft .listTitleBanner12{ background:url(/images/school/banner/schlbn12.png) no-repeat; }
+.bodyBlockLeft .listTitleBannerA {
+    height:5px;
+    background-position: top left;
+}
+.bodyBlockLeft .listTitleBannerB{
+    background-position: -1px -9px;
+}
+.bodyBlockLeft .listTitleBannerB .blockTitle{
+    background:rgba(236,245,252,0.9) url(http://localhost:2547/images/school/schoolIndexTitle.png) no-repeat;
+}
+/* ListTitleBanner end */
+
+
+/* 列表页 */
+.leftList .leftListItem{
+    display:block;
+    padding-top:15px;
+    padding-bottom:15px;
+    margin-left:5px;
+    margin-right:5px;
+    border-bottom:dashed 1px #ccc;
+}
+.leftList .leftListItem:hover{
+    background-color:#f8f8f8;
+}
+.leftList .leftListItem span{
+    display:block;
+}
+.leftList .leftListItem .title{
+    line-height:20px;
+    font-size:16px;
+    font-weight:bold;
+    margin-left:10px;
+    color:#0b52b1;
+    background:url(/images/school/ulListStyle.png) 0px 8px no-repeat;
+    text-indent:12px;
+}
+.leftList .leftListItem:hover .title{
+    text-decoration:underline;
+}
+.leftList .leftListItem .resu{
+    width:95%;
+    padding-top:5px;
+    padding-left:22px;
+    color:#888;
+    line-height:20px;
+}
+.leftList .leftListItem:hover .resu {
+    text-decoration: underline;
+}
+.leftList .leftListItem .sourceType{
+    color:#9abae5;
+}
+.leftList .leftListItem .dt{
+    color:#999;
+}
+
+.bgWhite,.bgWihte{
+    background-color:white;
+}
+
+
+/*------ jobList start ---------*/
+.jobList{
+    width:690px;
+    margin-left:8px;
+    margin-top:8px;
+}
+.jobList a.onejob{
+    width:100%;
+    height:66px;
+    display:block;
+    border-bottom:dashed 1px #ccc;
+    color:#333;
+}
+.jobList a.onejob:hover{
+    background-color:#f5f5f5;
+}
+.jobList a.onejob span{
+    display:block;
+    float:left;
+}
+.jobList a.onejob span.t{
+    margin-left:10px;
+    font-size:14px;
+    font-weight:bold;
+    color:#058100;
+    margin-top:5px;
+    height:30px;
+    line-height:30px;
+}
+.jobList a.onejob:hover span.t{ text-decoration:underline; color:#f25302;}
+.jobList a.onejob span tt{ color:#aaa; padding-right:3px; font-weight:normal;}
+.jobList a.onejob span.cmp{ width:330px; margin-left:10px;}
+.jobList a.onejob span.addr{ width:180px;}
+.jobList a.onejob span.dt{ color:#ff9900; font-weight:bold;}
+/*-- jobList end ----*/
+
+
+.bodyBlockRight .rightBlock{
+    background-color:#fcfcfc;
+    border:solid 1px #f0f0f0;
+    padding-bottom:10px;
+    clear:both;
+}
+.bodyBlockRight .rightBlock .title{
+    height:42px;
+    line-height:42px;
+    border-bottom:solid 1px #f0f0f0;
+    float:left;
+    width:100%;
+    background-color:#f5f5f5;
+    text-indent:10px;
+    font-size:16px;
+    font-weight:bold;
+}
+.rightBlock .linklist{
+    margin-top:5px;
+}
+.rightBlock .linklist a{
+    display:block;
+    height:26px;
+    width:100%;
+    line-height:26px;
+    color:#333;
+}
+.rightBlock .linklist a:hover span{
+    color:#f35202;
+    text-decoration:underline;
+}
+.rightBlock .linklist a tt{
+    display:block;
+    float:left;
+    height:12px;
+    line-height:12px;
+    font-size:12px;
+    padding:5px;
+    padding-top:2px;
+    padding-bottom:2px;
+    margin-top:5px;
+    margin-left:15px;
+    color:white;
+}
+.rightBlock .linklist.linklistblue a tt{
+    background-color:#2577e3;
+}
+.rightBlock .linklist.linklistorange a tt{
+    background-color:#f35202;
+}
+.rightBlock .linklist a span{
+    display:block;
+    margin-left:5px;
+    float:left;
+    width:185px;
+    height:32px;
+    overflow:hidden;
+}
+.rightBlock .title{
+    color:#333;
+}
+.rightBlock a.title:hover{
+    color:#f35202;
+}
+
+
+.detailPageTitle{
+    padding:30px;
+    font-size:24px;
+    font-weight:bold;
+    text-align:center;
+}
+.detailPageContent{
+    padding:30px;
+    line-height:32px;
+    font-size:16px;
+    text-indent:28px;
+}
+.detailPageContent p{
+    margin-top:20px;
+}
+.detailPageInfos{
+    background-color:#eee;
+    width:95%;
+    margin:0 auto;
+    text-align:center;
+}
+.detailPageInfos span{
+    padding:5px;
+}
+
+
+/**/
+.crumbsLinks{
+    border:solid 1px #f3f3f3;
+    height:40px;
+    line-height:40px;
+    background-color:#f9f9f9;
+}
+.crumbsLinks a{
+    margin-left:5px;
+    color:#1a5ad5;
+}
+.crumbsLinks a:hover{
+    color:#1a5ad5;
+    text-decoration:underline;
+}
+.crumbsLinks span{
+    margin-left:5px;
+}
+
+/* PageNaver start */
+.allpage_num{ float:left; height: 18px; line-height:18px; margin-top:10px; padding:2px 0;}
+.page_num{ color:#333333; border: 1px solid #CCCCCC; -moz-border-radius:2px; -webkit-border-radius:2px; -khtml-border-radius:2px; -moz-border-radius:2px; border-radius:2px; display: inline; float: left; height: 18px; line-height:18px; margin-left: 4px; padding: 2px 8px; text-align: center; text-decoration:none;margin-top:10px;}
+.page_num:hover{ color:#ffffff; background-color:#0e66c8; border:solid 1px #0e66c8; }
+.page_current,.page_ellipsis{ color:#ffffff; border: 1px solid #0e66c8;background-color:#0e66c8; -moz-border-radius:2px; -webkit-border-radius:2px; -khtml-border-radius:2px; -moz-border-radius:2px; border-radius:2px; display: inline; float: left; height: 18px; line-height:18px; margin-left: 4px; padding: 2px 8px; text-align: center; text-decoration:none;margin-top:10px;}
+/* PageNaver end */

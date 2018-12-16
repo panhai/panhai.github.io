@@ -1,0 +1,208 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>个人后台-简历中心</title>
+<link rel="stylesheet" type="text/css" href="../css/v2/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/UCenter/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/UCenter/resume.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/plugin/JobAndProf.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/UCenter/new.css" />
+</head>
+
+<body>
+    <div class="HEADER HEADER-GUIDE">
+        <div class="common">
+            <div class="TOP-LOGO">
+                <a href="#"><img src="../images/v2/logo.jpg" width="177" height="91"></a>
+                <span>创建简历</span>
+            </div>
+        </div>
+    </div>
+    <div class="guide-main common">
+        <div class="guide-job">
+            <div class="guide-job-title">
+                <h2>填写<span>求职意向</span>，以便我们给你推荐最适合的职位！</h2>
+            </div>
+            <div class="guide-resume">
+              
+                <div class="clear"></div>
+                <div class="FormLine">
+                    <div class="item half left type1 type2 type3">
+                        <var class="required">期望职位类型：</var>
+                        <dfn><dl class="SELECT Jobtype">
+                            <input type="hidden" id="wantJobtype">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal">
+                                <a data-id="1">全职</a>
+                                <a data-id="2">兼职</a>
+                                <a data-id="3">实习</a>
+                            </dd>
+                        </dl></dfn>
+                        <code class="form-tip tipMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>
+                    </div>
+
+                </div>
+                <div class="clear item type1 type2 type3">
+                    <var class="required">期望城市</var>
+                    <dfn>
+                        <dl class="SELECT ProvincesWant ADDRESS third left" data-child=".CitiesWant" data-placeholder="省份" data-hot="true">
+                            <input type="hidden" id="wantProvince" value="270000">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal"></dd>
+                        </dl>
+                        <dl class="SELECT CitiesWant ADDRESS third third2 left" data-child=".DistrictsWant" data-parent=".ProvincesWant" data-placeholder="城市" data-hot="true">
+                            <input type="hidden" id="wantCity" value="271000">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal"></dd>
+                        </dl>
+                        <dl class="SELECT DistrictsWant ADDRESS third right" data-parent=".CitiesWant" data-placeholder="区域" data-unlimited="true" data-hot="true">
+                            <input type="hidden" id="wantDistrict" value="000000">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal"></dd>
+                        </dl>
+                    </dfn>
+                    <code class="form-tip tipMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>
+
+                </div>
+
+                <div class="clear item full type1 type3">
+                    <var class="required">期望职位</var>
+                    <dfn><dl class="SELECT filter-jobs" data-choices="3" data-leave="egnore">
+                        <input type="hidden" id="wantPositions">
+                        <dt class="blue"><span></span><i></i></dt>
+                        <dd class="FilterMenu blue">
+                        <table>
+                            <caption class="SELECT-COLLECTOR">
+                                <samp>最多选择三个：</samp>
+                                <input type="button" class="close" value="关闭">
+                                <input type="button" class="submit" value="确定">
+                            </caption>
+                            <th class="menus"><!--由JS生成--></th>
+                            <td class="submenus SELECT-CHOICES"><!--由JS生成--></td>
+                        </table>
+                        </dd>
+                    </dl></dfn>
+                    <code class="form-tip tipMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>
+                </div>
+                <div class="clear item full type2" style="display: none;">
+                    <var class="required">期望职位</var>
+                    <dfn><dl class="SELECT filter-parttime" data-choices="3" data-leave="egnore">
+                        <input type="hidden" id="wantPositionsParttime">
+                        <dt class="blue"><span></span><i></i></dt>
+                        <dd class="blue">
+                        <table>
+                            <caption class="SELECT-COLLECTOR">
+                                <samp>最多选择三个：</samp>
+                                <input type="button" class="close" value="关闭">
+                                <input type="button" class="submit" value="确定">
+                            </caption>
+                            <td class="SELECT-CHOICES"><!--由JS生成--></td>
+                        </table>
+                        </dd>
+                    </dl></dfn>
+                    <code class="form-tip errorMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>
+                </div>
+              <div class="guide-next">
+                <input type="submit" class="guide-next-exper" value="继续填写教育经历">
+                <a href="two-create-rsume.html">返回上一步</a>
+                <a href="two-Perfect-RESUME-back.html" class="save-search">保存去搜索</a>
+                  <a href="two-job-anchor.html">继续填教育经历</a>
+            </div>
+                </div>
+       <!--          <div class="Buttons">
+           <input type="button" class="submit" value="保存">
+           <input type="button" class="reset" value="取消">
+       </div> -->
+            </div>
+           
+        </div>
+
+    </div>
+</body>
+
+<script src="../js/jquery.js"></script>
+<script>INPUTINIT=false</script>
+<script src="../js/plugin/YearsList-new.js"></script>
+<script src="../js/v2/all.js"></script>
+<script src="../js/area.js"></script>
+<script src="../js/jobPositions.js"></script>
+<script src="../js/subjects.js"></script>
+<script src="../js/universities.js" type="text/javascript"></script>
+<script src="../js/jobPositionsParttime.js"></script>
+<script src="../js/plugin/CitiesPicker.js"></script>
+<script src="../js/plugin/Addresses.js"></script>
+<script src="../js/plugin/EmailTip.js"></script>
+<script src="../js/plugin/SchoolTip.js"></script>
+<script src="../js/plugin/SendVerify.js"></script>
+<script src="../js/effect/tab.js"></script>
+<script type="text/javascript">
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////填充行业大列表
+    var str=[];
+    array=subjectArray;strTH=null;strTD=null;
+    level1Reset=true;level2Reset=true;
+    for(var n=0;n<array.length;n++)
+    {
+        var id=array[n][2],name=array[n][0];
+        if(id.indexOf('00')>=0)
+        {//一级名称，加入表头，并重起一行
+            if(!level1Reset) str.push('</td></tr>');
+            str.push('<tr><th>'+ name.replace(/[\|\/]/g,'　') +'</th><td>');
+            level1Reset=false;
+        }
+        else
+        {//二级名称，直接加入链接
+            str.push('<a data-id="'+ id +'">'+ name +'</a> ');
+        }
+    }
+    $(".filter-profs tbody").html(str.join(''));
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////填充职位大列表
+    var strTH=[],strTD=[],array=positionArray,
+        level1Reset=true,level2Reset=true;
+    for(var n=0;n<array.length;n++)
+    {
+        var id=array[n][2],name=array[n][0];
+        if(id.indexOf('0000')>=0)
+        {//一级名称，加入表头
+            if(!level1Reset) strTD.push('</ul>');
+            strTH.push('<h3 class="menu">'+ name.replace(/[\|\/]/g,'　') +'</h3>');
+            strTD.push('<ul class="FilterSubmenu">');
+            level1Reset=false;
+            level2Reset=true;
+        }
+        else if(id.indexOf('00')>=0)
+        {//二级名称，加入列表项（需要先结束上个列表项）
+            if(!level2Reset) strTD.push('</p></li>');
+            strTD.push('<li><h4file:///E:/SVN/Goodjob/UCenter/two-new-RESUME.html#AnchorProjectsname +</h4><p>');
+            level2Reset=false;
+        }
+        else
+        {//三级名称，直接加入链接
+            strTD.push('<a data-id="'+ id +'">'+ name +'</a> ');
+        }
+    }
+    strTD.push('</p></li></ul>');
+    $(".filter-jobs table").find("th").html(strTH.join(''))
+        .end().find('td').html(strTD.join(''));
+    //职位选择
+    CHItab(".filter-jobs .FilterMenu",".menu",".FilterSubmenu");
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////填充兼职职位大列表
+    str=[]; array=positionParttimeArray;
+    for(var n=0;n<positionParttimeArray.length;n++)
+    {
+        var id=array[n][1],name=array[n][0];
+        str.push('<a data-id="'+ id +'">'+ name +'</a> ');
+    }
+    $(".filter-parttime td").html(str.join(''));
+    //////////////////////////////////////////////////////////////////////////////////////////////////////职位类型改变，表单改变
+    $(".Jobtype input[type=hidden]").change(function(){
+        var oJQitems=$(this).closest(".guide-resume").find(".item");
+        var id=$(this).val();
+        var oItemShow=oJQitems.filter(".type"+id).show();
+        oJQitems.not(oItemShow).hide();
+    }).each(function(){
+        //默认显示全职
+        if(!$(this).val()) $(this).closest(".SELECT").find("dd").children().eq(0).click();
+    });
+</script>
+</html>

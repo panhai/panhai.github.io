@@ -1,0 +1,97 @@
+/* 修改企业资料 */
+.Form{ width:840px; margin:50px auto; background-color:#fff; border-top:1px solid #fff;}
+.Form h1{ font-size:20px; font-weight:normal; color:#525252; margin:20px 60px;}
+.FormTable{ margin:20px auto; position:relative; z-index:2;}
+.FormTable th,.FormTable td{ line-height:40px; vertical-align:top; padding:5px 0;}
+.FormTable th{ font-size:16px; color:#1562c8; font-weight:normal; text-align:right; padding-right:10px;}
+.FormTable td{}
+.Form .text{ height:36px; line-height:36px; padding:0 10px; font-size:18px; float:left; border:2px solid #cae2ff; color:#1562c8;}
+.Form .t-l{ width:586px;}
+.Form .t-m{ width:500px; border-right:0;}
+.Form .btn{ border:0; background-color:#1562c8; font-size:18px; color:#fff; cursor:pointer; height:40px;}
+.Form .btn-addup{ float:left; width:88px;}
+
+/*上传部分的logo*/
+.logo,.licence{ width:190px; height:190px; border:2px solid #e8f2ff; margin:0 auto; position:relative; overflow:hidden; cursor:pointer;}
+.logo p,.licence p{ position:absolute; width:170px; left:0; bottom:0; font-size:14px; color:#fff; line-height:20px; padding:10px;}
+/*上传标识*/
+.upload{ width:400px; height:90px; background:url(../../../images/v2/icons/upload.png) 40px center no-repeat #71a4e7; border:10px solid #e8f2ff; color:#fff; margin:10px auto; line-height:30px; cursor:pointer;}
+.upload{ _background-image:url(../../../images/v2/icons/upload.gif);}
+.upload strong{ display:block; font-size:24px; text-indent:120px; font-weight:normal; padding-top:15px; color:#fff !important;}
+.upload span{ display:block; font-size:14px; text-indent:120px;}
+.loading{ display:block; width:190px; margin:10px auto; height:20px; background-color:#cae2ff; line-height:22px; color:#fff; font-size:12px; overflow:hidden;}
+.loading samp{ float:left; background-color:#69a8fc; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; display:block; text-indent:5px;}
+/*下拉菜单*/
+.Form .SELECT{ float:left;}
+.Form .SELECT dt{ border:2px solid #cae2ff; height:34px; line-height:34px;}
+.Form .SELECT dt span,.Form .SELECT dt b{ font-size:18px;}
+.Form dt input{ border:0; color:#1562c8;}
+.Form .CitiesPicker dt input{ height:34px; line-height:34px; float:left;}
+/*三种宽度，全/半条/半半条*/
+.Form .s-m{ width:220px;}
+.s-m dt span,.s-m dt b,.s-m input{ width:180px; font-size:18px;}
+.s-m dd{ width:216px; border:2px solid #cae2ff;}
+.Form .s-h{ width:105px;}
+.s-h dt span,.s-h dt b,.s-h input{ width:65px;}
+/*城市区域选择，改成两半*/
+.Form .CitiesPicker{ margin-right:10px;}
+.Form .Districts dd.triple{ width:300px; border:2px solid #cae2ff;}
+.Form .triple a{ width:100px; float:left; clear:none; text-indent:10px;}
+.filter-profs dd{ left:-270px; top:36px;}
+/*福利*/
+.Welfares{ float:left;}
+.Welfares,.WelfaresAddup{ width:610px;}
+.Welfares label{ display:inline-block; margin-right:5px; font-size:16px; color:#a4a4a4; border:2px solid #cae2ff; padding:0 10px; line-height:30px;}
+.Welfares label.checked{ background:url(../../../images/v2/icons/checked.png) right top no-repeat; border-color:#67a8fc; color:#1562c8;}
+.Welfares label.checked{ _background-image:url(../../../images/v2/icons/checked.gif);}
+.Welfares input{ display:none;}
+.WelfaresAddup a{ display:inline-block; margin:5px 10px 0 0; padding:0 10px; background-color:#cae2ff; color:#1562c8;}
+.WelfaresAddup a q{ display:inline-block; width:16px; background:url(../../../images/v2/icons/times.png) center no-repeat; margin-left:5px;}
+.WelfaresAddup a q{ _background-image:url(../../../images/v2/icons/times.gif);}
+/*灰字提示*/
+.Form small{ color:#828282; font-size:16px;}
+.Form h2 small{ padding-left:20px;}
+
+/*地图*/
+#MapContainer{ width:700px; height:300px;}
+#MapContainer td,#MapContainer th{ padding:0; line-height:16px; height:auto;}
+
+/*下半部分标题*/
+.OtherTable{ width:730px; margin-left:70px;}
+.OtherTable td{ line-height:40px; padding:5px 0;}
+.Form h2{ height:20px; font-size:20px; color:#1562c8; font-weight:normal; padding-left:5px; border-left:3px solid #1562c8; line-height:20px; margin:15px 0 5px;}
+.Form textarea{ width:676px; padding:10px; font-size:16px; line-height:25px; border:2px solid #cae2ff; float:left; resize:none; height:200px;}
+
+/*企业相册*/
+.figure, .figure_not{ width:160px; height:120px; float:left; margin:0 20px 20px 0; position:relative; cursor:pointer;}
+.figure p ,.figure_not p { background:url(../../../images/v2/icons/album-add.png) center no-repeat; background-color: rgba(186,216,255,0.5); position:absolute; left:0; top:0; width:160px; height:120px;}
+.figure p{ background-color:#bad8ff\9; _background-image:url(../../../images/v2/icons/album-add.gif); filter:alpha(opacity=60);}
+.figure a{ display:block; width:161px; height:120px; overflow:hidden;}
+.figure q{ width:22px; height:22px; position:absolute; right:-8px; top:-8px; background:url(../../../images/v2/icons/times-circle-o.png) center no-repeat; text-align:center; line-height:20px; cursor:pointer; z-index:9999;}
+.figure q{ _background-image:url(../../../images/v2/icons/times-circle-o.gif);}
+.figure span , .figure_not span{ width:100%; height:20px; overflow:hidden; position:absolute; left:0; bottom:0; background-color:#cae2ff; line-height:22px; color:#fff; font-size:12px;}
+.figure samp, .figure_not samp{ background-color:#69a8fc; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; display:block; text-indent:5px;}
+/*最尾巴*/
+.tail{ margin-top:0;}
+.Form .submit{ width:220px; height:40px; border:0; background-color:#1562c8; font-size:18px; color:#fff; cursor:pointer; margin:50px auto; display:block;}
+
+/*修改资料-警告*/
+.warning{ background:url(../../../images/v2/tip.png) 30px center no-repeat #ebf3ff; font-size:18px; color:#1562c8; padding:20px 0 20px 120px; margin:20px 30px; line-height:30px; _background-image:url(../../../images/v2/tip.gif);}
+.Form strong{ font-size:24px; font-weight:normal; color:#525252;}
+
+/*编辑器下边的提示*/
+.editorTip{ display:block; text-align:center; padding:0 50px 0 20px; font-size:14px; color:#a4a4a4;}
+
+
+/*公司地址有改动*/
+.AddressDetail{ width:522px;}
+.AddressDetail dt{ height:36px !important;}
+.AddressDetail dt span,.AddressDetail dt input{ width:100%;}
+.AddressDetail dd{ width:518px; border:2px solid #cae2ff; top:36px !important;}
+.AddressDetail dd a{ text-indent:10px;}
+
+/* 查看原图 */
+.see{
+	display: inline-block;
+	margin-top: 88px;
+}

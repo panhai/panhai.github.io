@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>学校中心-统计分析-招聘信息统计-职位排行统计</title>
+</head>
+<link rel="stylesheet" type="text/css" href="../css/School/css.css">
+<link rel="stylesheet" type="text/css" href="../css/School/total.css">
+<body>
+<div class="header"><div class="common">
+	<h1><img src="../images/SCenter/headlogo.jpg" width="59" height="63">肇庆科技职业技术学院<small>就业网管理系统</small></h1>
+    <p>
+    	<a href="#">Admin</a> |
+        <a href="#">退出</a> |
+        <a href="#" class="cur">好工作首页</a> |
+        <a href="#" class="cur">切换后台</a> |
+        <a href="#">消息</a> |
+        <a href="#">反馈</a> |
+        <a href="#">帮助</a>
+    </p>
+</div></div>
+<div class="nav"><div class="common">
+	<ul>
+    	<li class="first"><a href="index.html">首页<i></i></a></li>
+    	<li><a href="contents.html">网站内容管理<i></i></a></li>
+    	<li><a href="manage.html">系统管理<i></i></a></li>
+    	<li class="last cur"><a href="total.html">统计分析<i></i></a></li>
+    </ul>
+    <p>
+    	<span class="top-select">
+        	校企合作<i></i>
+        	<samp>
+            	<a href="invite-coop.html">校企合作邀请</a>
+            	<a href="invite-conf.html">宣讲会合作邀请</a>
+            </samp>
+        </span>
+    	<span><a href="conference.html">发布宣讲会</a></span>
+    </p>
+</div></div>
+
+<div class="main common">
+	<div class="left">
+    	<ul class="menus">
+        	<li>
+            	<h3>统计分析<i></i></h3>
+                <p>
+                	<a href="total.html">学生数据统计</a>
+                	<a href="total-jobs.html" class="cur">招聘信息统计</a>
+                </p>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="right">
+    	<h2>招聘信息统计</h2>
+        <form class="form">
+        	<p class="form-left">
+            	<a href="total-jobs.html">招聘行业排行</a>
+            	<a href="total-jobs2.html" class="cur">招聘职位排行</a>
+            </p>
+            <div class="form-right">
+                <input type="text" class="form-key from" value="2014-12-12">
+                <span>-</span>
+                <input type="text" class="form-key to" value="2014-12-12">
+                <input type="submit" class="form-submit" value="">
+            </div>
+        </form>
+        <table class="table schools rank">
+        	<thead><tr>
+            	<th width="80">排名</th><th width="150">职位</th>
+                <th width="135">&nbsp;</th><th width="135" class="a-right">详</th><th width="135" class="a-left">情</th><th width="135">&nbsp;</th>
+            </tr></thead>
+            <tbody>
+            	<tr>
+                	<td><em class="n1">1</em></td><td><h3>销售经理</h3></td>
+                    <td>招聘企业：<b>21200</b></td><td>招聘全职：<b>21200</b></td><td>招聘兼职：<b>21200</b></td><td>投递量：<b>21200</b></td>
+                </tr>
+            	<tr>
+                	<td><em class="n2">2</em></td><td><h3>销售经理</h3></td>
+                    <td>招聘企业：<b>21200</b></td><td>招聘全职：<b>21200</b></td><td>招聘兼职：<b>21200</b></td><td>投递量：<b>21200</b></td>
+                </tr>
+            	<tr>
+                	<td><em class="n3">3</em></td><td><h3>销售经理</h3></td>
+                    <td>招聘企业：<b>21200</b></td><td>招聘全职：<b>21200</b></td><td>招聘兼职：<b>21200</b></td><td>投递量：<b>21200</b></td>
+                </tr>
+            	<tr>
+                	<td><em>4</em></td><td><h3>销售经理</h3></td>
+                    <td>招聘企业：<b>21200</b></td><td>招聘全职：<b>21200</b></td><td>招聘兼职：<b>21200</b></td><td>投递量：<b>21200</b></td>
+                </tr>
+            	<tr>
+                	<td><em>5</em></td><td><h3>销售经理</h3></td>
+                    <td>招聘企业：<b>21200</b></td><td>招聘全职：<b>21200</b></td><td>招聘兼职：<b>21200</b></td><td>投递量：<b>21200</b></td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div class="pages2">
+        	<span class="ctrl">首页</span>
+        	<span class="ctrl">上一页</span>
+            <b>1</b>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#" class="ctrl">下一页</a>
+            <a href="#" class="ctrl">尾页</a>
+        </div>
+    </div>
+    
+	<div class="clear"></div>
+</div>
+
+<div class="footer">
+	<div class="common tail">
+        <samp class="tail-nav">
+            <a href="#" class="first">关于我们</a>
+            <a href="#">法律声明</a>
+            <a href="#">保密承诺</a>
+            <a href="#">Investor Relatiao</a>
+            <a href="#">关于我们</a>
+        </samp>
+    </div>
+    <div class="common copyright">
+    	<p>京ICP备09083200号 京ICP证070419号 人才服务许可证：RC0710280</p>
+    	<p>Copyright&copy;2000-2014 liepin.com All Rights Reserved</p>
+    </div>
+</div>
+
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/web/all.js"></script>
+<script src="../js/school/all.js"></script>
+<script src="../js/jbody.js"></script>
+<script src="../js/jbody-plugin.js"></script>
+<script>
+$(function(){
+	LeftMenu();
+	TopSelect();
+	$(".form-key").click(function(){
+		JBCalendar.show(this)
+	});
+});
+</script>

@@ -1,0 +1,199 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>企业中心-企业资料</title>
+<link rel="stylesheet" type="text/css" href="../css/v2/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/CCenter/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/CCenter/profile.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/plugin/MapThumb.css">
+</head>
+
+<body>
+<div class="HEADER"><div class="common">
+	<div class="TOP-LOGO"><a href="#"><img src="../images/v2/logo-s.jpg" width="119" height="62"></a></div>
+    <div class="TOP-TOOLS">
+    	Admin, <a href="#">退出</a>&nbsp;&nbsp;&nbsp;<a href="#">个人中心</a>&nbsp;&nbsp;&nbsp;<a href="#">反馈</a>&nbsp;&nbsp;&nbsp;<a href="#">HR帮助</a>
+    </div>
+    <ul class="TOP-NAV">
+    	<li><a href="new-index.html">首页</a></li>
+    	<li><a href="new-publish.html">发布职位</a></li>
+    	<li><a href="new-profile.html" class="cur">企业资料</a></li>
+    	<li><a href="new-hrfavors.html">HR收藏夹</a></li>
+    	<li><a href="new-settings.html">账号管理</a></li>
+    </ul>
+</div></div>
+
+<div class="Main common">
+	<div class="Left">
+        <dl class="Attribs">
+            <dt><img src="../images/v2/job-logo.jpg"></dt>
+            <dd>
+                <h1>世强<i></i></h1>
+                <h2>深圳市世强先进科技有限公司</h2>
+                <p class="WELFARE">
+                    <span><u>五险一金</u><s></s></span>
+                    <span><u>交通补助</u><s></s></span>
+                    <span><u>年度旅游</u><s></s></span>
+                    <span><u>绩效奖金绩效奖金</u><s></s></span>
+                    <span><u>五险一金</u><s></s></span>
+                    <span><u>交通补助</u><s></s></span>
+                    <span><u>年度旅游</u><s></s></span>
+                    <span><u>绩效奖金绩效奖金</u><s></s></span>
+                    <span><u>五险一金</u><s></s></span>
+                    <span><u>交通补助</u><s></s></span>
+                    <span><u>年度旅游</u><s></s></span>
+                    <span><u>绩效奖金绩效奖金</u><s></s></span>
+                </p>
+                <a href="new-edit.html" class="edit">修改企业资料</a>
+            </dd>
+            <div class="clear"></div>
+        </dl>
+        
+        <dl class="Intros" id="Intro">
+            <dt><h3>公司介绍</h3></dt>
+            <dd>
+            	<div class="Introduction">
+                    <p>来就是创始人，最靠谱的O2O创业机会！ </p>
+                    <p>【土豪】—— 最优秀的元器件分销商，创业不差钱！ </p>
+                    <p>【最靠谱的创业机会】—— 雄厚的创业资金 + 行业领先地位 + 互联网精鹰造，核心团队股权计划！ </p>
+                    <p>【美cry的办公环境】——深圳狂拽酷炫的国贸CBD，高大上的工作区，低奢内身房，超现代的茶水间，想想也是醉了~ </p>
+                    <p>【各种活动各种趴】—— 玩咖，豪华部门团建，趣味俱乐部，玩的就是任性! </p>
+                    <p>【高逼格的工作】—— 领导接地气，同事无下限，不用长发及腰，即刻跟我们一起飞~ </p>
+                    <p>O2O乃天下大势，是机会风起云涌的创业热点；芯片更是中国智造的核心，2万亿的大市场，但全球各流派的芯片、元器件纷繁芜杂，到处是坑，坑坑坑住精英工程"狮"，世强希望凭借数十年的知识积累，千人专业服务团队，数万名资深芯片、元器件用户专家，打造全方位的O2O网络服务平台！ </p>
+                    <p>行动派，动起来吧，抓住下一个创造互联网奇迹的机会！ </p>
+                    <p>公司福利： </p>
+                </div>
+			</dd>
+        </dl>
+        <dl class="Intros" id="Album">
+            <dt><h3>企业相册</h3></dt>
+            <dd>
+                <ul class="Pics">
+                	<li><img src="../images/v2/pics/1.jpg" data-url="../images/v2/pics/1.jpg" width="158" height="118" title="点击查看大图" alt="演讲室"></li>
+                	<li><img src="../images/v2/pics/2.jpg" data-url="../images/v2/pics/2.jpg" width="158" height="118" title="点击查看大图" alt="公司前台"></li>
+                	<li><img src="../images/v2/pics/3.jpg" data-url="../images/v2/pics/3.jpg" width="158" height="118" title="点击查看大图" alt="办公区"></li>
+                	<li><img src="../images/v2/pics/4.jpg" data-url="../images/v2/pics/4.jpg" width="158" height="118" title="点击查看大图" alt="资料查阅室"></li>
+                	<li><img src="../images/v2/pics/5.jpg" data-url="../images/v2/pics/5.jpg" width="158" height="118" title="点击查看大图" alt="艺术走廊"></li>
+                	<li><img src="../images/v2/pics/6.jpg" data-url="../images/v2/pics/6.jpg" width="158" height="118" title="点击查看大图" alt="聊天室"></li>
+                	<li><img src="../images/v2/pics/7.jpg" data-url="../images/v2/pics/7.jpg" width="158" height="118" title="点击查看大图" alt="技术研发部"></li>
+                	<li><img src="../images/v2/pics/8.jpg" data-url="../images/v2/pics/8.jpg" width="158" height="118" title="点击查看大图" alt="公司大厅"></li>
+                </ul>
+                <div class="clear"></div>
+            </dd>
+        </dl>
+        
+    </div>
+    <div class="Right">
+        <div class="Props">
+        	<p>规模：500-2000人</p>
+        	<p>领域：电子商务,生活服务</p>
+        	<p>性质：私营</p>
+        	<p>阶段：初创型</p>
+            <p>邮箱：408645359@qq.com</p>
+        	<p>网址：<a data-url="http://www.yaochufa.com" onClick="this.href=$(this).data('url')" target="_blank">http://www.yaochufa.comhttp://www.yaochufa.com</a></p>
+            <p>工作地点：广州科韵路天河软件园D座1109</p>
+        </div>
+    	<dl class="MAPTHUMB">
+        	<dt>
+                <span>看大地图</span>
+                <samp class="on">收起地图</samp>
+            </dt>
+            <dd><div id="MAPCONTAINER"></div></dd>
+        </dl>
+        
+    </div>
+	<div class="clear"></div>
+</div>
+
+
+<table class="PhotoViewer FullScreenPlugin fixed fixed-top"><tr><td>
+	<q><img src="../images/v2/icons/times-huge.gif" width="32" height="32"></q>
+    <h5>广州星辰广告传媒有限公司</h5>
+	<div class="PPT">
+    	<ul></ul>
+        <ol></ol>
+        <sub></sub>
+        <sup></sup>
+    </div>
+    <h6>广州星辰广告传媒有限公司</h6>
+</td></tr></table>
+
+<table class="MapViewer FullScreenPlugin fixed fixed-top"><tr><td>
+	<div class="MapViewer black5">
+		<h5 class="map cur">地图</h5><h5 class="view">街景</h5><q>&times;</q>
+        <div class="MapContainer container">
+        	<div id="ViewerMap"></div>
+            <tt class="MapExpand"></tt>
+            <div class="TrafficLines">
+            	<h6><img src="../images/v2/icons/bus.jpg" width="17" height="17"><img src="../images/v2/icons/stops.jpg" width="76" height="23"></h6>
+                <div></div>
+            </div>
+        </div>
+        <div class="ViewContainer container">
+        	<div id="Panorama"></div>
+        </div>
+    </div>
+</td></tr></table>
+
+
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/v2/all.js"></script>
+<script src="../js/effect/bg.js"></script>
+<script src="../js/effect/ppt.js"></script>
+<script src="http://api.map.baidu.com/api?v=2.0&ak=OlGzoCwcKN9OvM16T9RnFwOl"></script>
+<script src="../js/plugin/BaiduMap.js"></script>
+<script src="../js/plugin/MapThumb.js"></script>
+<script src="../js/effect/correct.js"></script>
+<script src="../js/effect/tab.js"></script>
+<script>
+var PPT;
+$(function(){
+	defaultLng=116.316169,defaultLat=40.005567;
+	//直接把坐标写上去
+	map.refresh();
+	//生成地图查看器的效果
+	BIGMAP.refresh();
+	panorama.setPosition(new BMap.Point(defaultLng,defaultLat));
+	//点击公司图片的查看效果
+	$(".Pics li img").each(function(){
+		$("<img>").attr({
+			src:$(this).data("url"),
+			title:this.alt
+		}).appendTo($("<li>").appendTo($(".PPT ul")));
+		$("<img>").attr({
+			src:this.src,
+			title:this.alt
+		}).appendTo($("<li>").appendTo($(".PPT ol")));
+	});
+	if(isLow()) TextOverflow('h1',12);
+});
+$(window).load(function(){
+	CHIpros(".PPT,.Pics,.Attribs dt");
+	////////////////////////////////////////////////////////////////////////////////////////生成图片查看器的效果
+	setTimeout(function(){
+		PPT=CHIppt(
+			".PPT","ul li",
+			{indices:".PPT ol",prev:".PPT sub",next:".PPT sup"},
+			{auto:false},
+			{
+				show:function(oJQli){
+					$(".PhotoViewer h6").html(oJQli.find("img").attr("title"));
+				}
+			}
+		);
+		$(".PhotoViewer").hide().css('visibility','visible');
+		$(".Pics li").click(function(){
+			CHIbg.open(function(){
+				$(".PhotoViewer").fadeIn();
+			});
+			PPT.show($(this).index());
+		});
+		$(".PhotoViewer q").click(function(){
+			$(".PhotoViewer").fadeOut(function(){CHIbg.close()});
+		});
+	},1000);
+});
+</script>

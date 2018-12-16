@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/> 
+<meta content="yes" name="apple-mobile-web-app-capable" /> 
+<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+<meta content="telephone=no" name="format-detection" />
+<title>分享特权</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/all.css">
+<link rel="stylesheet" type="text/css" href="css/share.css">
+<body>
+<div class="Card"><img src="images/card.png" width="194" height="152"></div>
+<div class="CardIntro">分享求职特权<br>让身边的人也有一份好工作！</div>
+<div class="CardTip"><img src="images/tip.jpg" width="274" height="41"></div>
+</body>
+</html>

@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<title>合作信息-合作信息</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" type="text/css" href="../css/all.css" />
+	<link rel="stylesheet" type="text/css" href="../css/index.css" />
+	<link href="../css/layerskin/default/layer.css" rel="stylesheet" />
+	<link rel="stylesheet" href="../css/scrollbar.css" />
+</head>
+
+<body>
+	<div class="scholl_box_box">
+		<div class="scholl_box">
+			<!-- 头部 -->
+			<div class="head_navgater">
+				<div class="rightCenter">
+					<div class="fl">
+						<img src="../images/log_03.png" alt="" />
+						<span>运营后台</span>
+					</div>
+					<div class="search">
+						<div>
+							<a href="javascript:;">退出</a>
+						</div>
+						<div>
+							<a href="javascript:;">个人设置</a>
+						</div>
+						<div class="num">
+							<b>5</b>
+							<span class="icon"></span>
+						</div>
+						<div class="from">
+							<i></i>
+							<input type="text" name="" placeholder="搜索咨询，学员，帮助文档" />
+							<div class="history-layer" style="display: none;">
+								<a href="javascript:void(0)">
+									<i>咨询学员</i>
+									<span>"啊啊啊啊"</span>
+								</a>
+
+								<a href="javascript:void(0)">
+									<i>报名学员</i>
+									<span>"啊啊啊啊"</span>
+								</a>
+
+								<a href="javascript:void(0)">
+									<i>班级</i>
+									<span>"啊啊啊啊"</span>
+								</a>
+
+								<a href="javascript:void(0)">
+									<i>课程</i>
+									<span>"啊啊啊啊"</span>
+								</a>
+
+								<a href="javascript:void(0)">
+									<i>教师</i>
+									<span>"啊啊啊啊"</span>
+								</a>
+
+								<a href="javascript:void(0)">
+									<i>帮助文档</i>
+									<span>"啊啊啊啊"</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 内容 -->
+		<div class="main_bxo">
+			<div class="left">
+				<div class="img_box">
+					<img src="../images/boy.png" alt="">
+				</div>
+			</div>
+			<!-- 学校信息头 -->
+			<div class="right">
+				<div class="btn_box">
+					<a href="编辑机构.html" class="bian">编辑</a>
+					<a href="javscript:;" class="biao select_box_box">
+						标记<img src="../images/xiala_07 (2).png" style="margin-left:9px;" alt="">
+						<div class="select_box">
+							<p>培训进度</p>
+							<p>机构等级</p>
+							<p>机构状态</p>
+							<p>机构标签</p>
+							<p>对接方式</p>
+							<p>上线等级</p>
+						</div>
+					</a>
+				</div>
+				<div class="msg_top">
+					<div>
+						<div class="name">
+							<span>天琥教育</span>
+							<a href="javscript" class="zc">正常</a>
+							<a href="javscript" class="good">配合良好</a>
+							<b>一天前登录</b>
+						</div>
+						<div class="ke_time">
+							<p>广州天河区 | 成人英语 | 每年招生1000~2000人 | 成立时间2015-04-03 >></p>
+						</div>
+						<div class="num_all">
+							<a href="#">
+								<div>
+									<p>150</p>
+									<span>全部咨询</span>
+								</div>
+							</a>
+							<div>
+								<p>50</p>
+								<span>意向学员</span>
+							</div>
+							<div>
+								<p>15</p>
+								<span>报名学员</span>
+							</div>
+							<span class="line"></span>
+							<div>
+								<p>15%</p>
+								<span>报名率</span>
+							</div>
+							<div>
+								<p>90%</p>
+								<span>到账率</span>
+							</div>
+							<div>
+								<p>0.1%</p>
+								<span>异议率</span>
+							</div>
+							<span class="line"></span>
+							<div>
+								<p>2</p>
+								<span>校区数</span>
+							</div>
+							<div>
+								<p>50</p>
+								<span>课程数</span>
+							</div>
+							<div>
+								<p>15</p>
+								<span>咨询数</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 主体 -->
+		<div class="main_content hezuo_cooperation">
+			<div class="nav">
+				<div class="top">
+					<img src="../images/jia_07.png" alt="">
+					<a href="javascript:;">首页</a>
+				</div>
+				<div class="list_box">
+					<div class="titl">
+						<span class="jian">-</span>
+						<span>学校概况</span>
+					</div>
+					<div class="lists">
+						<a href="javscript:;">学校介绍</a>
+					</div>
+					<div class="lists cur">
+						<a href="javscript:;">合作信息</a>
+					</div>
+					<div class="lists">
+						<a href="javscript:;">招生状态</a>
+					</div>
+				</div>
+				<div class="list_box">
+					<div class="titl">
+						<span class="jian">-</span>
+						<span>内容管理</span>
+					</div>
+					<div class="lists">
+						<a href="javscript:;">课程管理</a>
+					</div>
+					<div class="lists">
+						<a href="javscript:;">咨询管理</a>
+					</div>
+					<div class="lists">
+						<a href="javscript:;">校区管理</a>
+					</div>
+				</div>
+				<div class="list_box">
+					<div class="titl">
+						<span class="jian">+</span>
+						<span>学员管理</span>
+					</div>
+					<div class="lists">
+						<a href="javscript:;">咨询学员</a>
+					</div>
+					<div class="lists">
+						<a href="javscript:;">佣金核对</a>
+					</div>
+				</div>
+				<div class="list_box">
+					<div class="titl">
+						<span class="jian">-</span>
+						<span>系统设置</span>
+					</div>
+					<div class="lists">
+						<a href="javscript:;">账号充值</a>
+					</div>
+					<div class="lists">
+						<a href="javscript:;">短信充值</a>
+					</div>
+					<div class="lists">
+						<a href="javscript:;">账号管理</a>
+					</div>
+				</div>
+			</div>
+			<div class="right_content">
+				<div class="banner_nav">
+					<a href="合作信息.html" class="cur">合作信息</a>
+					<a href="合作信息2.html">佣金公式</a>
+					<a href="合作信息3.html">合同管理</a>
+				</div>
+				<div class="cooperation">
+					<div class="left">
+						<!-- 合作信息 -->
+						<div class="cooperation_box">
+							<h2 class="title">
+								<span>合作信息</span>
+								<a href="编辑机构.html">
+									<img src="../images/bainjia_07.png" alt="">
+								</a>
+							</h2>
+							<div class="cooperation_table">
+								<table>
+									<tbody>
+										<tr>
+											<th>入库时间</th>
+											<td>2018年09月25日</td>
+											<th>签约时间</th>
+											<td>2018年09月25日</td>
+										</tr>
+										<tr>
+											<th>合作状态</th>
+											<td>合作</td>
+											<th>到期时间</th>
+											<td>2018年09月25日</td>
+										</tr>
+										<tr>
+											<th>平台收费</th>
+											<td>2380.00元</td>
+											<th>校+功能</th>
+											<td>未开通</td>
+										</tr>
+										<tr>
+											<th>对接方式</th>
+											<td>校+系统</td>
+											<th>机构星级</th>
+											<td>7</td>
+										</tr>
+										<tr>
+											<th>禁止下单</th>
+											<td>否</td>
+											<th>推荐权重</th>
+											<td>2018年09月25日</td>
+										</tr>
+										<tr>
+											<th>合作城市</th>
+											<td colspan="3">厦门,南昌,青岛,长沙,广州,深圳,海口,重庆,成都,泸州,绵阳,贵阳</td>
+										</tr>
+										<tr>
+											<th>合作校区</th>
+											<td colspan="3">全部校区</td>
+										</tr>
+										<tr>
+											<th>合作项目</th>
+											<td colspan="3">少儿英语</td>
+										</tr>
+										<tr>
+											<th>提成点数</th>
+											<td colspan="3">全部城市合作，当月1-20人报读，广深返1500元，其他城市返1200元</td>
+										</tr>
+										<tr>
+											<th>结款周期</th>
+											<td colspan="3">每月30号周经理工行</td>
+										</tr>
+										<tr class="xm">
+											<th>合作项目</th>
+											<td colspan="3">
+												<p>天琥学员要录他们系统;</p>
+												<p class="gree">http://www.i3v.cc/zsdlw/ 账号xfjy 密码 thxfjy13</p>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						<!-- 对接信息 -->
+						<div class="cooperation_box2">
+							<div class="cooperation_box">
+								<h2 class="title">
+									<span>对接信息</span>
+									<a href="编辑机构.html">
+										<img src="../images/bainjia_07.png" alt="">
+									</a>
+								</h2>
+								<div class="cooperation_table">
+									<table>
+										<tbody>
+											<tr>
+												<th rowspan="2">合作对接</th>
+												<td class="name">李建</td>
+												<td>手机：15865421241</td>
+												<td>微信：15865421241</td>
+												<td> QQ：865421241</td>
+											</tr>
+											<tr>
+												<td colspan="3"> 邮箱：3692484411@qq.com"</td>
+											</tr>
+											<tr>
+												<th rowspan="2">运营对接</th>
+												<td class="name">李建</td>
+												<td>手机：15865421241</td>
+												<td>微信：15865421241</td>
+												<td> QQ：865421241</td>
+											</tr>
+											<tr>
+												<td colspan="3"> 邮箱：3692484411@qq.com"</td>
+											</tr>
+											<tr>
+												<th rowspan="2">客服对接</th>
+												<td class="name">李建</td>
+												<td>手机：15865421241</td>
+												<td>微信：15865421241</td>
+												<td> QQ：865421241</td>
+											</tr>
+											<tr>
+												<td colspan="3"> 邮箱：3692484411@qq.com"</td>
+											</tr>
+											<tr>
+												<th rowspan="2">财务对接</th>
+												<td class="name">李建</td>
+												<td>手机：15865421241</td>
+												<td>微信：15865421241</td>
+												<td> QQ：865421241</td>
+											</tr>
+											<tr>
+												<td colspan="3"> 邮箱：3692484411@qq.com"</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="right">
+						<h2>操作记录</h2>
+						<div class="msg_box">
+							<div class="item1">
+								<div class="top">
+									<div class="t1 cur">2018-02-23 &nbsp;&nbsp; 合作部-李世杰</div>
+									<div class="look_msg">
+										<p class="top_top">
+											<span>修改了合作信息</span>
+											<span class="look_btn">-</span>
+										</p>
+										<div class="show_msg show">
+											<div class="old_box">
+												<div class="old">旧值：</div>
+												<div>
+													<p>
+														<span>合作城市 : </span>
+														<span>成都</span>
+													</p>
+													<p>
+														<span>合作校区 : </span>
+														<span>附全国校区地址</span>
+													</p>
+													<p>
+														<span>合作项目 : </span>
+														<span>少儿英语</span>
+													</p>
+													<p class="shiba">
+														<span>提成点数 : </span>
+														<span>全部城市合作，当月1
+															-20人报读，广深返1500元，其他
+															城市返1200元
+															全部城市合作，当月第21人报读，
+															广深返1800元，其他城市返1500元
+															结款周期：每月30号周经理工行</span>
+													</p>
+												</div>
+											</div>
+											<div class="old_box new_box">
+												<div class="old">修改为 : </div>
+												<div>
+													<p>
+														<span>合作城市 : </span>
+														<span>成都</span>
+													</p>
+													<p>
+														<span>合作校区 : </span>
+														<span>附全国校区地址</span>
+													</p>
+													<p>
+														<span>合作项目 : </span>
+														<span>少儿英语</span>
+													</p>
+													<p class="shiba">
+														<span>提成点数 : </span>
+														<span>全部城市合作，当月1
+															-20人报读，广深返1500元，其他
+															城市返1200元
+															全部城市合作，当月第21人报读，
+															广深返1800元，其他城市返1500元
+															结款周期：每月30号周经理工行</span>
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item1">
+								<div class="top">
+									<div class="t1">2018-02-23 &nbsp;&nbsp; 合作部-李世杰</div>
+									<div class="look_msg">
+										<p class="top_top">
+											<span>修改了合作信息</span>
+											<span class="look_btn">-</span>
+										</p>
+										<div class="show_msg">
+											<div class="old_box">
+												<div class="old">旧值：</div>
+												<div>
+													<p>
+														<span>合作城市 : </span>
+														<span>成都</span>
+													</p>
+													<p>
+														<span>合作校区 : </span>
+														<span>附全国校区地址</span>
+													</p>
+													<p>
+														<span>合作项目 : </span>
+														<span>少儿英语</span>
+													</p>
+													<p class="shiba">
+														<span>提成点数 : </span>
+														<span>全部城市合作，当月1
+															-20人报读，广深返1500元，其他
+															城市返1200元
+															全部城市合作，当月第21人报读，
+															广深返1800元，其他城市返1500元
+															结款周期：每月30号周经理工行</span>
+													</p>
+												</div>
+											</div>
+											<div class="old_box new_box">
+												<div class="old">修改为 : </div>
+												<div>
+													<p>
+														<span>合作城市 : </span>
+														<span>成都</span>
+													</p>
+													<p>
+														<span>合作校区 : </span>
+														<span>附全国校区地址</span>
+													</p>
+													<p>
+														<span>合作项目 : </span>
+														<span>少儿英语</span>
+													</p>
+													<p class="shiba">
+														<span>提成点数 : </span>
+														<span>全部城市合作，当月1
+															-20人报读，广深返1500元，其他
+															城市返1200元
+															全部城市合作，当月第21人报读，
+															广深返1800元，其他城市返1500元
+															结款周期：每月30号周经理工行</span>
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item1">
+								<div class="top">
+									<div class="t1">2018-02-23 &nbsp;&nbsp; 合作部-李世杰</div>
+									<div class="look_msg">
+										<p class="top_top">
+											<span>修改了合作信息</span>
+											<span class="look_btn">-</span>
+										</p>
+										<div class="show_msg">
+											<div class="old_box">
+												<div class="old">旧值：</div>
+												<div>
+													<p>
+														<span>合作城市 : </span>
+														<span>成都</span>
+													</p>
+													<p>
+														<span>合作校区 : </span>
+														<span>附全国校区地址</span>
+													</p>
+													<p>
+														<span>合作项目 : </span>
+														<span>少儿英语</span>
+													</p>
+													<p class="shiba">
+														<span>提成点数 : </span>
+														<span>全部城市合作，当月1
+															-20人报读，广深返1500元，其他
+															城市返1200元
+															全部城市合作，当月第21人报读，
+															广深返1800元，其他城市返1500元
+															结款周期：每月30号周经理工行</span>
+													</p>
+												</div>
+											</div>
+											<div class="old_box new_box">
+												<div class="old">修改为 : </div>
+												<div>
+													<p>
+														<span>合作城市 : </span>
+														<span>成都</span>
+													</p>
+													<p>
+														<span>合作校区 : </span>
+														<span>附全国校区地址</span>
+													</p>
+													<p>
+														<span>合作项目 : </span>
+														<span>少儿英语</span>
+													</p>
+													<p class="shiba">
+														<span>提成点数 : </span>
+														<span>全部城市合作，当月1
+															-20人报读，广深返1500元，其他
+															城市返1200元
+															全部城市合作，当月第21人报读，
+															广深返1800元，其他城市返1500元
+															结款周期：每月30号周经理工行</span>
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<script src="../js/jquery.js"></script>
+	<script src="../js/layer.js"></script>
+	<script src="../js/area.js"></script>
+	<script src="../js/all.js"></script>
+	<script src="../js/all2.js"></script>
+	<script src="../js/plugin/select.js"></script>
+	<script src="../js/My97DatePicker/WdatePicker.js"></script>
+	<script src="../js/plugin/scrollBar.js"></script>
+	<script>
+		$(".label-selec").click(function () {
+			$(".fill-types").show();
+		});
+		$(".fill-types .right-select a").click(function () {
+			$(".fill-types").hide();
+		});
+		$(".recruit_searchCondition .inputdiv2").mouseleave(function () {
+			$(".fill-types").hide();
+		});
+		VitaeSource();
+		Vitaeclick();
+		//收起筛选条件
+		$(".recruit_searchCondition .tollger").click(function () {
+			if ($(this).hasClass("cur")) {
+				$(this).removeClass("cur");
+				$(this)
+					.parent()
+					.css("borderBottom", "1px dashed #e4e4e4");
+				$(this)
+					.children("span")
+					.text("收起筛选")
+					.removeClass("cur");
+				$(this)
+					.children("i")
+					.removeClass("cui");
+				$(".tollger-box").show();
+			} else {
+				$(this).addClass("cur");
+				$(this)
+					.parent()
+					.css("borderBottom", "none");
+				$(this)
+					.children("span")
+					.text("展开筛选")
+					.addClass("cur");
+				$(this)
+					.children("i")
+					.addClass("cui");
+				$(".tollger-box").hide();
+			}
+		});
+
+		$(".recruit_searchCondition .s_condition a").click(function () {
+			$(this)
+				.siblings()
+				.removeClass("cur");
+			$(this).addClass("cur");
+		});
+
+		$(".recruit_searchCondition .line .openbtn").click(function () {
+			if ($(this).hasClass("cur")) {
+				$(this).removeClass("cur");
+				$(this).html("更多岗位<i></i>");
+				$(this)
+					.siblings(".alist")
+					.css("height", "33px");
+			} else {
+				$(this).addClass("cur");
+				$(this).html("收起<i></i>");
+				$(this)
+					.siblings(".alist")
+					.css("height", "auto");
+			}
+		});
+
+		//单选
+		$(".right-content .class-table td.sele-one i").click(function () {
+			if ($(this).hasClass("cur")) {
+				$(this).removeClass("cur");
+				$(".right-content .class-table th.sele-all i").removeClass("cur");
+				$(".right-content .t_foot .leftbox .icon").removeClass("cur");
+			} else {
+				$(this).addClass("cur");
+			}
+		});
+
+		//全选
+		$(".right-content .class-table th.sele-all i").click(function () {
+			if ($(this).hasClass("cur")) {
+				$(this).removeClass("cur");
+				$(".right-content .class-table td.sele-one i").removeClass("cur");
+				$(".right-content .t_foot .leftbox .icon").removeClass("cur");
+			} else {
+				$(this).addClass("cur");
+				$(".right-content .class-table td.sele-one i").addClass("cur");
+				$(".right-content .t_foot .leftbox .icon").addClass("cur");
+			}
+		});
+
+
+		// 修改合作信息的展示和隐藏
+		$('span.look_btn').click(function () {
+			if ($(this).parent().siblings('.show_msg').hasClass('show')) {
+				$(this).parent().siblings('.show_msg').removeClass('show')
+				$(this).text("+")
+			} else {
+				$(this).parent().siblings('.show_msg').addClass('show')
+				$(this).text("-")
+			}
+		})
+
+
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>错误页面</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/v2/all.css">
+<link rel="stylesheet" type="text/css" href="css/v2/error.css">
+<body>
+<table class="FullScreenPlugin"><tr><td class="ErrorPage">
+	<p><img src="images/v2/error.png" width="196" height="164"></p>
+    <h1>很抱歉，您已经登录了其它帐号！</h1>
+    <dl class="reasons">
+    	<dt>可能原因：</dt>
+        <dd>
+            <p>1.帐号在异地登录</p>
+            <p>2.您已在其它页面注销了帐号</p>
+            <p>3.您已登录绑定其它企业的帐号</p>
+        </dd>
+    </dl>
+    <p><img src="images/v2/error-hr.png" width="1046" height="3"></p>
+</td></tr></table>
+</body>
+</html>

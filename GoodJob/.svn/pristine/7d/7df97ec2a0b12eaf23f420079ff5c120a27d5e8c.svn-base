@@ -1,0 +1,149 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>学校中心-统计分析-学生数据统计</title>
+</head>
+<link rel="stylesheet" type="text/css" href="../css/School/css.css">
+<link rel="stylesheet" type="text/css" href="../css/School/total.css">
+<body>
+ <div class="header">
+        <div class="header-in">
+            <div class="logo">
+                <a href="">
+                    <img src="../images/v2/school/logo.jpg" alt="">
+                </a>
+                <span>就业网管理系统</span>
+            </div>
+            <div class="header-top">
+                 <a href="" class="cur">Admin, </a> <a href="" class="cur">退出</a> <a href="">好工作首页</a><a href="">学校招聘</a><a href="">平台管理后台</a>
+            </div>
+        </div>
+        <div class="header-nav">
+            <p><a href="index.html" class="index">首页</a> <a href="contents.html">网站内容管理</a> <a href="manage-admin.html">系统管理</a> <a href="total.html">统计分析</a> <a href="Class-manage.html" class="cur">学生管理</a>
+            <a href="conference.html" class="last">发布宣讲会</a>
+            <a href="invite-coop.html" class="last">校企合作邀请</a>
+            </p>
+        </div>
+    </div>
+
+<div class="main common">
+	<div class="left">
+    	<ul class="menus">
+        	<li>
+            	<h3>统计分析<i></i></h3>
+                <p>
+                	<a href="total.html" class="cur">学生数据统计</a>
+                	<a href="total-jobs.html">招聘信息统计</a>
+                </p>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="right">
+        <div class="Nothing">
+        	<img src="../images/v2/smile.png" width="176" height="148">
+            <h5>即将上线，敬请期待！</h5>
+        </div>
+    	<h2>学生数据统计</h2>
+        <form class="form">
+        	<p class="form-left">
+            	<a href="#" class="cur">全部</a>
+            	<a href="#">应届生</a>
+            	<a href="#">在校生（非应届）</a>
+            	<a href="#">往届生</a>
+            </p>
+            <div class="form-right">
+                <input type="text" class="form-key from" value="2014-12-12">
+                <span>-</span>
+                <input type="text" class="form-key to" value="2014-12-12">
+                <input type="submit" class="form-submit" value="">
+            </div>
+        </form>
+        <table class="table schools">
+        	<thead><tr>
+            	<th width="145">学院专业</th><th width="125">&nbsp;</th><th width="125" class="a-right">详</th>
+                <th width="125" class="a-left">情</th><th width="125">&nbsp;</th><th width="130">操作</th>
+            </tr></thead>
+            <tbody>
+            	<tr>
+                	<td><h3>艺术设计学院艺术设计学院</h3></td>
+                    <td>注册学生：<b>21200</b></td><td>投递数：<b>21200</b></td>
+                    <td>浏览量：<b>21200</b></td><td>面试数：<b>21200</b></td>
+                	<td class="last"><a href="total-prof.html">查看专业</a></td>
+                </tr>
+            	<tr>
+                	<td><h3>艺术设计学院艺术设计学院</h3></td>
+                    <td>注册学生：<b>21200</b></td><td>投递数：<b>21200</b></td>
+                    <td>浏览量：<b>21200</b></td><td>面试数：<b>21200</b></td>
+                	<td class="last"><a href="total-prof.html">查看专业</a></td>
+                </tr>
+            	<tr>
+                	<td><h3>艺术设计学院艺术设计学院</h3></td>
+                    <td>注册学生：<b>21200</b></td><td>投递数：<b>21200</b></td>
+                    <td>浏览量：<b>21200</b></td><td>面试数：<b>21200</b></td>
+                	<td class="last"><a href="total-prof.html">查看专业</a></td>
+                </tr>
+            	<tr>
+                	<td><h3>艺术设计学院艺术设计学院</h3></td>
+                    <td>注册学生：<b>21200</b></td><td>投递数：<b>21200</b></td>
+                    <td>浏览量：<b>21200</b></td><td>面试数：<b>21200</b></td>
+                	<td class="last"><a href="total-prof.html">查看专业</a></td>
+                </tr>
+            	<tr>
+                	<td><h3>艺术设计学院艺术设计学院</h3></td>
+                    <td>注册学生：<b>21200</b></td><td>投递数：<b>21200</b></td>
+                    <td>浏览量：<b>21200</b></td><td>面试数：<b>21200</b></td>
+                	<td class="last"><a href="total-prof.html">查看专业</a></td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div class="pages2">
+        	<span class="ctrl">首页</span>
+        	<span class="ctrl">上一页</span>
+            <b>1</b>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#" class="ctrl">下一页</a>
+            <a href="#" class="ctrl">尾页</a>
+        </div>
+    </div>
+    
+	<div class="clear"></div>
+</div>
+
+<div class="footer">
+	<div class="common tail">
+        <samp class="tail-nav">
+            <a href="#" class="first">关于我们</a>
+            <a href="#">法律声明</a>
+            <a href="#">保密承诺</a>
+            <a href="#">Investor Relatiao</a>
+            <a href="#">关于我们</a>
+        </samp>
+    </div>
+    <div class="common copyright">
+    	<p>京ICP备09083200号 京ICP证070419号 人才服务许可证：RC0710280</p>
+    	<p>Copyright&copy;2000-2014 liepin.com All Rights Reserved</p>
+    </div>
+</div>
+
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/web/all.js"></script>
+<script src="../js/school/all.js"></script>
+<script src="../js/jbody.js"></script>
+<script src="../js/jbody-plugin.js"></script>
+<script>
+$(function(){
+	LeftMenu();
+	TopSelect();
+	$(".form-key").click(function(){
+		JBCalendar.show(this)
+	});
+});
+</script>

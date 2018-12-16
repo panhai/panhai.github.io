@@ -1,0 +1,132 @@
+/* 注册及登陆页的样式 */
+/*顶部*/
+.top{ overflow:hidden;}
+.top-logo2{ width:120px; overflow:hidden; display:block; float:left;}
+.top-topic{ float:left; font-size:16px; color:#4D4D4D; font-family:"微软雅黑"; padding-top:65px; display:inline-block; text-indent:1em;}
+.top-tail{ float:right; font-size:12px; padding-top:65px; color:#666;}
+.top-tail a{ color:#4D4D4D;}
+.top-tail a:hover{ color:#ff5e00;}
+/*主体*/
+.main{ overflow:hidden;}
+.reg-tabs{ clear:both; height:60px; line-height:60px; margin:65px 0px 40px; border-bottom:2px solid #DFDFDF; _overflow:hidden;}
+.reg-tabs li{ float:left; width:160px; font-size:14px; vertical-align:middle; margin-left:115px; text-align:center; _position:relative; _padding-top:15px; _height:45px;}
+.reg-tabs a{ color:#999999; font-weight:bold; display:block;}
+.reg-tabs img{ vertical-align:middle;}
+.reg-tabs .first{ margin-left:140px; _margin-left:70px;}
+.reg-tabs .cur{ border-bottom:2px solid #ff5f00;}
+.reg-tabs .cur a{ color:#333;}
+/*微信注册*/
+.wx{ clear:both; margin-left:300px;}
+.wx dt{ width:140px; float:left; margin-right:50px;}
+.wx b,.wx var,.wx q{ display:block; clear:both; text-align:center;}
+.wx b{ font-size:14px; color:#333; font-style:normal; line-height:35px;}
+.wx q{ font-size:12px; color:#999; line-height:25px;}
+.wx i{ color:#ff5f00; font-style:normal;}
+.wx dd{ float:left; text-align:left;}
+.wx p{ font-size:12px; line-height:25px; color:#717171;}
+.wx strong{ color:#045BCE; font-size:14px; margin-bottom:10px; display:inline-block;}
+/*立即登录*/
+div.login-now{ clear:both; text-align:right; font-size:12px; padding-right:180px; line-height:80px; margin-bottom:40px; *margin-top:-35px;}
+.login-now{ color:#333 !important;}
+.login-now a{ color:#2477DF; font-weight:bold;}
+
+/*手机注册表单*/
+.reg-form{ clear:both; margin-bottom:80px; font-size:14px;}
+.reg-form li{ clear:both; height:50px;}
+.reg-form var,.reg-form dfn,.reg-form ins{ display:block; float:left; font-style:normal; line-height:30px;}
+.reg-form var{ width:180px; text-align:right; padding-right:20px; color:#2f2f2f;}
+.reg-form var.s{ width:120px;}
+.reg-form dfn{ width:270px;}
+.reg-form dfn.l{ width:400px;}
+.reg-form ins{ padding-left:30px; text-decoration:none; font-size:12px; color:#999;}
+.reg-form ins img{ vertical-align:text-bottom;}
+.reg-form .text{ border:1px solid #b6b6b6; width:100%; height:30px; line-height:30px; float:left;}
+.reg-form .half{ width:135px;}
+.reg-form .btn{ background-color:#005ED8; color:#fff; font-size:12px; border:0px; width:115px; height:20px; float:right; margin-top:5px; cursor:pointer;}
+.reg-form .agree{ font-size:12px; color:#3333;}
+.reg-form .agree a{ color:#025CCE;}
+.reg-form .submit{ width:255px; height:40px; background-color:#FF5001; font-size:16px; color:#fff; border:0px; font-weight:bold; cursor:pointer;}
+
+/*成功信息-大*/
+.ok{ clear:both; margin:100px 200px;}
+.ok dt{ font-size:24px; color:#383838; line-height:70px; font-family:"微软雅黑";}
+.ok img{ vertical-align:middle; margin-right:10px;}
+.ok dd{ padding-left:90px; font-size:12px; color:#005DD9; font-weight:bold; line-height:100px;}
+.ok dd b{ font-size:24px; color:#ff5f00; margin-right:5px;}
+.ok2{ margin:15px 200px 120px;}
+/*邮箱验证-2*/
+.ok3{ clear:both; margin:0px 150px 120px; font-family:"微软雅黑";}
+.ok3 dt{ line-height:60px; font-size:24px; color:#76b300; font-weight:bold;}
+.ok3 dd{ line-height:80px; font-size:14px; color:#444;}
+
+/*邮箱验证信息*/
+.message{ width:320px; margin:45px auto;}
+.message h1{ color:#454545; font-size:24px; font-family:"微软雅黑"; text-align:center;}
+.message p{ font-size:12px; color:#4f4f4f; line-height:25px;}
+.message b{ color:#3da005;}
+.message a{ color:#025CCE;}
+.goto-email{ display:block; margin:20px auto; font-size:14px; color:#fff !important; background-color:#ff4700; width:145px; height:35px; text-align:center; line-height:35px;}
+.vcode{ font-size:12px; color:#3566cd; display:inline-block; vertical-align:middle; margin-left:10px;}
+
+/*找回步骤*/
+.steps{ clear:both; width:660px; margin-left:140px; height:50px; padding:30px 0px;}
+.steps li{ width:165px; float:left; height:40px; background:url(../images/regist/step.jpg) bottom left no-repeat; position:relative;}
+.steps li.cur{ background-position:top left;}
+.steps b{ position:absolute; left:9px; top:11px; color:#fff; font-family:Arial, Helvetica, sans-serif;}
+.steps q{ display:block; position:absolute; width:110px; text-align:center; font-size:14px; font-family:"微软雅黑"; left:32px; top:-5px; line-height:20px; height:20px;}
+.steps .cur q{ color:#ff5f00;}
+
+/*杂项*/
+.l span{ display:block; float:left; padding-right:1em;}
+.gray{ font-size:12px; color:#404040; margin:15px auto;}
+.ms{ font-family:"微软雅黑"; font-size:14px; color:#404040; height:40px !important;}
+.ms var,.ms kbd{ height:40px !important; line-height:40px !important;}
+.reg-form samp{ font-size:12px; color:#999;}
+.reg-form samp img{ vertical-align:text-bottom;}
+.btn2{ background-color:#005ED8; color:#fff; font-size:12px; border:0px; padding:0px 10px; height:20px; margin-top:5px; cursor:pointer;}
+
+/*登陆页*/
+.login{ width:950px; height:375px; margin:50px auto 30px;}
+.pics{ width:600px; height:375px; float:left;}
+.logins{ width:341px; height:371px; border:2px solid #D2D2D2; border-top-color:#ff5e00; float:right; overflow:hidden;}
+/*大标签*/
+.tabs{ clear:both; height:60px; border-bottom:1px dashed #D4D4D4; margin:0 25px;}
+.tabs h3{ width:50%; float:left; text-align:center; font-size:18px; color:#555; font-family:"微软雅黑"; height:30px; line-height:30px; margin-top:15px;}
+.tabs h3{ width:49%\9;}
+.tabs .cur { background-color:#ff5e00; color:#fff;}
+/*小标签*/
+.labs{ clear:both; margin:20px 25px; height:20px;}
+.labs h4{ width:80px; height:20px; line-height:20px; font-size:12px; position:relative; text-align:center; color:#005FDD; float:left; margin-right:20px; font-weight:normal; cursor:pointer;}
+.labs h4.cur{ background-color:#005FDD; color:#fff;}
+.labs h4 i{ display:none; position:absolute; width:0px; height:0px; font-size:0px; border:5px solid #fff; border-top-color:#005FDD; left:35px; top:20px;}
+.labs .cur i{ display:block; overflow:hidden;}
+/*内容*/
+.cons{ clear:both; margin:20px 25px;}
+.login-form{}
+.login-form li{ clear:both;}
+.login-form li.text{ margin-bottom:20px; *margin-bottom:15px; border:1px solid #AEAEAE; height:35px; line-height:35px;}
+.login-form input.text{ border:0px; width:210px; padding:0px 10px; float:left; height:35px; line-height:35px;}
+.login-form li.text i{ display:block; float:right; margin:5px 5px 0px 0px;}
+.warn{ margin-top:30px; height:35px; line-height:35px;}
+.warn label{ float:left; font-size:12px; color:#353535; cursor:pointer;}
+.warn input{ vertical-align:text-bottom; *vertical-align:middle;}
+.warn a{ float:right; color:#0063DB; font-size:12px;}
+.login-form .submit{ width:100%; height:40px; line-height:40px; font-size:16px; color:#fff; background-color:#ff5000; border:0px; cursor:pointer;}
+/*快速注册*/
+.cons .last{ margin-top:20px; text-align:right; font-size:12px;}
+.cons .last a{ color:#0063DB;}
+.cons .last img{ vertical-align:text-bottom;}
+
+/*微信登录*/
+.code{ text-align:center;}
+.code b,.code q{ display:block; clear:both;}
+.code b{ color:#333; font-family:"微软雅黑"; font-size:14px; line-height:20px; margin-bottom:15px;}
+.code p{ font-size:12px; line-height:32px; color:#888; font-weight:bold; line-height:37px\9;}
+
+/*邮箱的提示*/
+.email:focus{ outline:none;}
+.SELECT-on{ position:relative;}
+.SELECT dd{ display:none; position:absolute; top:30px; left:0px; border:1px solid #ccc; background-color:#fff; width:100%;}
+.SELECT-on dd{ display:block;}
+.SELECT dd a{ display:block; line-height:25px; height:25px; padding:0px 10px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; color:#666;}
+.SELECT dd a:hover,.SELECT dd a.cur{ background-color:#2673ec; color:#fff;}

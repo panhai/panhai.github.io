@@ -1,0 +1,57 @@
+/* 合作院校 */
+.nav-inner{ margin:0px;}
+/*幻灯片*/
+.ban{ text-align:center; position:relative; background-color:#FED219;}
+.ban ul{ position:relative; height:332px; width:100%; max-width:1353px; margin:0 auto;}
+.ban li{ position:absolute; left:0px; top:0px; height:332px;}
+.ban div{ position:absolute; bottom:0px; left:0px; z-index:1111; text-align:right;}
+.ban span{ width:18px; height:18px; display:inline-block; background:url(../images/companies/li.jpg); margin-left:12px;}
+.ban .cur{ background:url(../images/companies/li_cur.jpg);}
+/*多重过滤*/
+.filters{ height:60px; clear:both; background:#fff; box-shadow:1px 2px 2px #ccc; position:relative; font-family:"微软雅黑";}
+.filters .common{ padding-top:10px;}
+.filters h1{ height:25px; line-height:25px; float:left; color:#414141; font-size:20px; border-left:4px solid #ff5e00; padding-left:8px; font-weight:normal; margin:8px 20px 0px 0px;}
+.filters strong{ display:inline-block; width:85px; height:22px; line-height:22px; float:left; margin:12px 0px 0px 5px; font-weight:normal; font-size:14px; text-align:center;}
+.filters strong a{ color:#333;}
+.filters strong.cur{ background-color:#2673ec;}
+.filters .cur a{ color:#fff;}
+/*下拉列表*/
+.select{ position:relative; display:inline-block; float:left; z-index:111; font-size:12px; color:#333; width:130px; margin-right:5px;}
+.select dt{ clear:both; height:30px; border:1px solid #A7A7A7; padding:0px 20px 0px 10px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; line-height:30px; position:relative;}
+.select dt i{ display:block; position:absolute; right:5px; top:10px; height:12px; width:12px; background:url(../images/icons.gif) 12px 24px; color:#999;}
+.select dt span{ color:#999;}
+.select dt q{ background:url(../images/UCenter/ico-cal.png) center no-repeat;}
+.select dd{ display:none; position:absolute; left:0px; background:#fff; line-height:25px; border:1px solid #d9d9d9;}
+.select dd.on{ display:block; z-index:555;}
+/*普通的下拉列表*/
+.normal{ width:154px; max-height:150px; overflow:auto; _height:150px; _overflow-y:auto; _overflow-x:hidden; font-size:12px;}
+.normal a{ display:block; line-height:30px; height:30px; color:#333; padding:0px 10px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; _width:90%;}
+.normal a:hover{ background-color:#dbeef4;}
+
+/*新增地址列表*/
+.address_tip{ border:0px; width:100px; font-size:12px; color:#333;}
+.AddressStatic{ width:435px;}
+.ADDList h4{ font-size:16px; font-weight:normal; color:#fff; background-color:#1e74e3; clear:both; padding:0px 10px; height:30px; line-height:30px;}
+.ADDTabs{ clear:both; height:30px; background-color:#f8f8f8; font-size:12px; font-family:"宋体"; margin-top:10px; border-bottom:1px solid #d7d7d7; padding:0px 10px; _overflow:hidden;}
+.ADDTabs b{ font-weight:normal; color:#454545; display:block; float:left; padding:0px 10px; margin-top:5px; border:1px solid #f8f8f8; height:23px; line-height:23px; cursor:pointer;}
+.ADDTabs b.cur{ border-color:#d7d7d7; border-bottom-color:#fff; background:#fff; _position:relative; height:24px;}
+.ADDLists{ width:100%; float:left; line-height:25px;}
+.ADDLists div{ width:100%; float:left; border-bottom:1px dashed #cbcbcb; padding:5px 0px;}
+.ADDLists em{ display:block; width:30px; text-align:center; font-size:18px; color:#666; font-style:normal; float:left;}
+.ADDLists p{ width:400px; float:left;}
+.ADDLists p a{ display:block; width:20%; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; font-size:12px; color:#666; font-family:"宋体"; float:left;}
+.hots p{ margin:10px auto; float:none; clear:both;}
+
+/*最后的输入框跟按钮*/
+.filter-form{ float:right; padding-top:5px;}
+.filter-text{ float:left; width:195px; height:30px; line-height:30px; font-size:12px; border:1px solid #A7A7A7; padding:0px 10px; border-right:0px;}
+.filter-btn{ float:left; width:65px; height:32px; font-size:14px; color:#fff; background-color:#ff5e00; border:0px; cursor:pointer; font-weight:bold;}
+
+/*主体*/
+.main{ background-color:#F2F2F2; padding-top:20px;}
+.main ul{ width:1040px;}
+.main li{ width:184px; height:207px; float:left; margin:0px 20px 31px 0px; background-color:#fff; border-bottom:1px dashed #CDCDCD;}
+.main li div{ clear:both; width:140px; margin:0 auto; height:140px; overflow:hidden;}
+.main li a{ color:#333;}
+.main li b{ text-align:center; font-size:18px; font-family:"微软雅黑"; display:block; width:140px; margin:0 auto; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; line-height:50px;}
+.pages4{ padding:40px 0px;}

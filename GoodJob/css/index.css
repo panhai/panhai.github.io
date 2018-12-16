@@ -1,0 +1,92 @@
+/* 首页样式 */
+/*幻灯片*/
+.banner{ clear:both; width:100%; min-width:1000px; height:370px; overflow:hidden; position:relative;}
+.banner ul{ position:absolute; width:100%; height:100%; overflow:hidden; left:0px; top:0px;}
+.banner ul li{ position:absolute; width:100%; height:100%; overflow:hidden; left:0px; top:0px;}
+.banner .common{ height:10px; position:relative;}
+.banner ol{ position:absolute; width:183px; right:0px; z-index:2;}
+.banner .bg{ position:absolute; width:183px; height:370px; background:rgba(255,255,255,0.5); right:0px; z-index:1;}
+.banner { filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7fffffff,endColorstr=#7fffffff);}
+/*.banner .bg{ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7fffffff,endColorstr=#7fffffff);}*/
+.banner ol li{ clear:both; position:relative; height:75px; color:#fff; margin-bottom:13px;}
+.banner ol .jpg{ float:left; margin:13px 0px 0px 18px;}
+.banner ol .gif{ position:absolute; left:-12px; top:25px; display:none;}
+.banner ol .active .gif{ display:block;}
+.banner ol p{ float:left; margin:18px 0px 0px 18px; font-family:"微软雅黑"}
+.banner .first{ background-color:#23BA13; margin-top:65px;}
+.banner .second{ background-color:#3164BF;}
+.banner .third{ background-color:#FE6833;}
+
+/**/
+.block{ margin-top:25px; clear:both; display:table;}
+.block dt{ height:25px; line-height:25px; clear:both;}
+.block dt h3{ font-size:16px; display:inline-block; float:left;}
+.more{ padding-right:12px; background:url(../images/more.jpg) right center no-repeat;}
+/*右上角的区域列表*/
+.dt-area-list{ float:right;}
+.dt-area-list li{ float:left; font-size:12px;}
+.dt-area-list li a{ border-left:1px solid #e8e8e8; color:#838383; padding-left:10px; margin-left:10px;}
+.dt-area-list li:first-child a{ border:0px;}
+.dt-area-list li a:hover{ color:#ff5000;}
+
+/*热门职位*/
+.hots{}
+.hots dt{ border-bottom:2px solid #FE7F3C;}
+.hot-1{ width:187px; height:59px; float:left; border-left:1px solid #e7e7e7;}
+/*彩色关键字*/
+.hot-2{ width:810px; height:59px; float:left; border:1px solid #e7e7e7; border-width:0px 1px; text-align:center; overflow:hidden;}
+.hot-2 a{ display:inline-block; height:26px; overflow:hidden; line-height:28px; padding:0px 12px; color:#fff; margin:17px 0px 0px 15px; background:#999; font-size:14px; font-weight:bold;}
+.hot-2 a:first-child{ margin-left:0px;}
+.hot-2 .orange{ background-color:#FF7E3A;}
+.hot-2 .blue{ background-color:#2E7FEA;}
+.hot-2 .green{ background-color:#85BF08;}
+.hot-2 .purple{ background-color:#CD49C0;}
+.hot-3{ width:187px; height:161px; float:left; border:1px solid #e7e7e7; border-width:0px 0px 1px 1px;}
+/*三重列表*/
+.hot-4{ width:810px; height:161px; float:left; border:1px solid #e7e7e7;}
+.hot-4 p{ width:249px; height:146px; padding:15px 0px 0px 20px; border-left:1px dashed #dcdcdc; float:left; text-align:center;}
+.hot-4 p.first{ border:0px;}
+.hot-4 p a{ display:block; float:left; width:80px; color:#464646; font-size:12px; line-height:22px; text-align:left;}
+.hot-4 p a:hover{ color:#ff5000;}
+
+/*名企招聘*/
+.famous{}
+.famous dt{ border-bottom:2px solid #0F9A00;}
+.famous dt a{ display:block; float:right; color:#333; font-size:12px;}
+.famous dt a:hover{ color:#ff5000;}
+.famous dt input{ width:60px; height:18px; border:0px; background:url(../images/index/famous-btn.jpg); cursor:pointer; float:right; margin:2px 10px 0px 0px;}
+.famous dd{ border-left:1px solid #ececec; display:table; width:100%; float:left;}
+.famous dd li{ width:165px; height:80px; float:left; border:1px solid #ececec; border-width:0px 1px 1px 0px; position:relative; overflow:hidden;}
+.famous dd .first{ width:168px;}
+.famous dd li div{ display:none; position:absolute; left:0px; top:0px; width:100%; height:100%; background:rgba(249,92,21,0.8); line-height:20px;}
+.famous dd li div{ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ccf95c15,endColorstr=#ccf95c15);}
+.famous dd li var,.famous dd li dfn{ font-style:normal; font-size:12px; display:inline-block; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; color:#fff;}
+.famous dd li var{ width:120px; text-align:left;}
+.famous dd li dfn{ width:30px; text-align:right; font-weight:bold;}
+.famous dd li table{ width:100%; height:100%;}
+.famous dd li td{ vertical-align:middle; text-align:center; font-size:0px; height:100%}
+.famous dd a{ display:block; height:20px;}
+
+/*职位列表*/
+.jobs{}
+.jobs dt{ background:url(../images/index/jobs-dt.jpg) bottom repeat-x;}
+.jobs dt b{ display:block; float:left; margin-left:20px; _margin-left:10px; font-size:14px; color:#505050; width:88px; text-align:center; cursor:pointer;}
+.jobs dt b.active{ background:url(../images/index/jobs-dt-active.jpg) bottom center no-repeat; color:#ff5000;}
+.jobs dd{ border:1px solid #eaeaea; border-top:0px; width:998px; float:left;}
+.jobs dd ul{ clear:both;}
+.jobs dd li{ float:left; height:103px; border-bottom:1px solid #eaeaea; overflow:hidden;}
+.jobs .odd{ width:485px; border-right:1px solid #eaeaea;}
+.jobs .even{ width:512px;}
+.jobs dd p{ font-size:12px; color:#777; line-height:22px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.jobs dd b{ color:#0c0c0c; font-weight:normal;}
+.jobs dd h3{ line-height:33px; height:33px; font-family:"微软雅黑"; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; _width:100%;}
+.jobs dd h3 a{ color:#383838;}
+.jobs dd h3 a:hover{ color:#ff5000;}
+.jobs-job{ width:140px; padding:10px; float:left;}
+.jobs-job h3{ font-size:16px;}
+.jobs-company{ width:200px; padding:10px; float:left; margin-left:50px;}
+.jobs-company h3{ font-size:14px;}
+.even .jobs-job{ margin-left:80px; _margin-left:40px;}
+.jobs-more{ text-align:right; font-size:12px; line-height:47px;}
+.jobs-more a{ color:#363636;}
+.jobs-more a:hover{ color:#ff5000;}

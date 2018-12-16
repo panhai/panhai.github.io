@@ -1,0 +1,403 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+
+</title>
+    <link href="../css/1024/common.css" rel="stylesheet" type="text/css" />
+    <link href="../css/1024/schoolAdmin.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/MD5.js"></script>
+    <script type="text/javascript" src="../js/jbody.js"></script>
+    <script type="text/javascript" src="../js/jbody-plugin.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+    <script type="text/javascript" src="../js/area.js"></script>
+    <script type="text/javascript" src="../js/subjects.js"></script>
+    <script type="text/javascript" src="../js/jobPositions.js"></script>
+    <script type="text/javascript" src="../js/admin/common.js"></script>
+    <script type="text/javascript" src="../js/selectors.js"></script>
+    <script type="text/javascript" src="../js/admin/schoolAdmin.js"></script>
+    
+    <link rel="stylesheet" href="../KEditor4x/themes/default/default.css" />
+    <link rel="stylesheet" href="../KEditor4x/plugins/code/prettify.css" />
+    <script type="text/javascript" charset="utf-8" src="../KEditor4x/kindeditor-all.js"></script>
+    <script type="text/javascript" charset="utf-8" src="../KEditor4x/lang/zh_CN.js"></script>
+    <script type="text/javascript" charset="utf-8" src="../KEditor4x/plugins/code/prettify.js"></script>
+    <script type="text/javascript" src="../UploadFile/UploadFile.js"></script>
+    <script type="text/javascript">
+        var editor1;
+        KindEditor.ready(function (K) {
+            editor1 = K.create('#form_txtContent', {
+                width: '708px',
+                height: '400px',
+                resizeType: 1,
+                cssPath: "/KEditor4x/themes/default/default.css",
+                allowFileUpload: true,
+                allowFlashUpload: false,
+                fileManagerJson: { tp: "org", orgId:10000 },
+                uploadJson: '/UploadFile/SaveFile.ashx?tp=org&orgId=10000&bussCode=1000&imgWatermark=true',
+                afterChange: function(){  
+                    if(editor1 && JBValidaterEditorContent) JBValidaterEditorContent.check();
+                },
+                afterUpload: function (data) {
+
+                },
+                items: ['source', '|', 'undo', 'redo', '|', 'template', 'cut', 'copy', 'paste',
+                        'plainpaste', 'wordpaste', '|', 'justifyleft', 'justifycenter', 'justifyright',
+                        'justifyfull', 'insertorderedlist', 'insertunorderedlist', 'indent', 'outdent', 'subscript',
+                        'superscript', 'clearhtml', 'quickformat', 'selectall', '|', 'fullscreen', '/',
+                        'formatblock', 'fontname', 'fontsize', '|', 'forecolor', 'hilitecolor', 'bold',
+                        'italic', 'underline', 'strikethrough', 'lineheight', 'removeformat', '|', 'image', 'flash',
+                        'table', 'hr',
+                        'link', 'unlink', 'pagebreak', 'preview'],
+                allowFileManager: true
+            });
+            prettyPrint();
+        });
+        function CheckEditorContent(jbv){
+            var v = editor1.html().length>20 || editor1.text().length> 10;
+            if (!v) jbv.msg = "请填写详细内容(至少包含10个字母或文字)";
+            return v;
+        }
+    </script>
+</head>
+<body>
+    <iframe id="_postTargetIframe" name="_postTargetIframe" style="display:none;" src="about:blank"></iframe>
+    
+
+    
+<div class="pg-msg-orange">
+    <div class="pg-msg-txt">你必须完善内容</div>
+    <div class="pg-msg-bt">×</div>
+</div>
+<div id="pg-header" class="pg-header">
+    <div class="pg-header-main">
+        <div class="logo">
+            <a href="/sysuxky/"><img alt="好工作网Logo" src="../images/logo.png" class="pngfix" width="232" height="40" /></a>
+        </div>
+        <div class="cname">中山大学信息技术与科学学院</div>
+        <div class="r mginT10">
+    <div class="platform-switch-container">
+    <div class="platform-switch-main msout">
+        <span class="floatR">切换后台</span>
+        <span class="floatR" style="border:solid 1px #ffc183; line-height:12px; margin-right:5px; padding-left:1px; padding-right:1px;">+</span>
+        <div style="clear:both;"></div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        $(".platform-switch-main").click(function () {
+            JBFrameHelper.showPage("/UCenter/PlatformSwitch.phtml", { obj: this, title: "切换到个人中心或其他管理后台", w: 500, pos: { to: "win", parent: "doc", park: "inside", parkInside: "center" } }, true, false);
+        });
+    })
+</script>
+
+</div>
+    </div>
+</div>
+    
+<div id="pg-nav" class="pg-nav">
+    <ul>
+        <li><div class="nav-title"><a href="#">管理首页</a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">用户与设置<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">资讯通告<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">校企合作<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">招聘信息<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">专业 ▪ 导师<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">学籍学生<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">更多<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="/School/sysuxky/">前台</a></div></li>
+    </ul>
+</div>
+<div style="clear:both;"></div>
+<div id="pg-nav-sub"  style="display:none;">
+    <div id="pg-nav-sub-inner">
+        <div id="pg-nav-sub-main">
+        <ul style="display:none;">
+            <li><a href="sum.html">系统概况</a></li>
+            <li><a href="School.html">后台管理功能快捷链接</a></li>
+            <li><a href="#">消息</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Setting.html">系统设置</a></li>
+            <li><a href="Intro.html">院校介绍</a></li>
+            <li><a href="Manager-custmRoles.html">管理员角色</a></li>
+            <li><a href="Manager.html">管理员</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Article-list.html">事务通知</a></li>
+            <li><a href="Article-kx.html">学院快讯</a></li>
+            <li><a href="Article-jyzd.html">就业指导</a></li>
+            <li><a href="Article-sxzn.html">升学指南</a></li>
+            <li><a href="Article-zsxx.html">招生信息</a></li>
+            <li><a href="Article-bnner.html">首页Banner</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Company-Search.html">企业搜索</a></li>
+            <li><a href="Company-Recieved.html">收到的请求</a></li>
+            <li><a href="Company-Sended.html">发出的请求</a></li>
+            <li><a href="Company-Default.html">合作企业列表</a></li>
+            <li><a href="Company-Black.html">黑名单企业</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Offers-all.html">合作企业请求的招聘</a></li>
+            <li><a href="Offers-Fairs.html">招聘会 ▪ 宣讲会</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Majors.html">学科专业</a></li>
+            <li><a href="#">特聘导师</a></li>
+            <li><a href="#">导师申请</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="#">在校学生</a></li>
+            <li><a href="#">往届学生</a></li>
+            <li><a href="#">全部学生</a></li>
+            <li><a href="#">学籍导入</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="FriendLinks.html">友情链接</a></li>
+            <li><a href="Info.html">个人设置</a></li>
+            <li><a href="Password.html">修改密码</a></li>
+        </ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+    </div>
+    </div>
+</div>
+<div style="clear:both;"></div>
+    <div class="pageMainContentContainer">            
+    <form method="post" action="/school/sysuxky/admin/Article/Add.phtml?addType=15" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="e0YQvU84EReGHCU71THxCMOzce+U6se8Ddfq2/+kDdpEmXyzpBPV2j0L06z2szW/3EiCE56DTWxyBI1Urzg96D31WqP/Wqy/znd2FkQ0SEGTXi1Fci0COkjrjk6+7rKQzQ1PnOk6eBhxfcO/zKYrMA74TRTcpbrFuobseFsyFutUGodp0uYdcbgtyQho9rTo79ulx+1hcRRkoB3qKcumUiiuksKqvPMOAnr6rymPIBltkRfIhqyVIuvetr/e5Nh4" />
+</div>
+
+<div class="aspNetHidden">
+
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="5E96BCB9" />
+</div>
+    
+    <div class="bodyBlock">
+         <div class="editBlock editable editBlockBorder" style="padding-bottom:50px;">
+            <div class="detailBlockTitle"><div class="leftIco"></div><div class="left">添加升学指南</div></div>
+            <div class="blockMain">
+                <table class="blockMainTable mginT20" style="width:950px;">          
+                    <tr>
+                        <th><span class="reqValidate">*</span>标题：</th><td>
+                            <input name="ctl00$form$TextBoxTitle" type="text" maxlength="30" id="form_TextBoxTitle" class="inputText floatL" AutoComplete="false" data-jbextendid="exinput_form_TextBoxTitle_125_805" data-jbtips="标题" style="width:300px;" />
+                            </td>
+                    </tr>
+                    <tr>
+                        <th>内容提要：</th><td>
+                            <textarea name="ctl00$form$txtResume" rows="2" cols="20" id="form_txtResume" class="inputText" data-jbextendid="exinput_form_txtResume_471_805" data-jbtips="内容提要（最多200字，可留空，留空将读取详细内容前200个字作为提要）" style="height:98px;width:530px;">
+</textarea>
+                            </td>
+                    </tr>
+                    <tr>
+                        <th><span class="reqValidate">*</span>详细内容：
+                            <div style="float:right;"><a href="/adminhelp/wordImgUp.htm" target="_blank" title="内容已在Word文档中编辑好了，该如何处理？请点击此处指引">Word文件？</a></div>
+                        </th><td>
+                            <table><tr><td id="editorContentContainer" style="padding:0px;">
+                                <textarea name="ctl00$form$txtContent" id="form_txtContent" cols="50" rows="8" style="width:670px; height: 400px; visibility: hidden;"></textarea>
+                                <div style="clear:both;"></div>
+                            </td></tr></table>
+                            </td>
+                    </tr>              
+                    <tr><th>&nbsp;</th><td style="padding-top:30px;">
+                        <input type="button" class="btn-3d btn-3d-large btn-3d-blue floatL" id="btnSubmit2" value="提交" onclick="uploadRemoteImg()" />
+                        <input type="button" class="btn-3d btn-3d-large btn-3d-gray floatL mginL20" id="btnSaveDraft2" value="保存草稿" onclick="uploadRemoteImg(true)" />
+                        <input type="submit" name="ctl00$form$btnSubmit" value="提交" id="form_btnSubmit" style="display:none;" />
+                        <input type="submit" name="ctl00$form$btnSaveDraft" value="保存草稿" id="form_btnSaveDraft" style="display:none;" />
+                    </td></tr>
+                </table>
+                <div style="clear:both;"></div>
+            </div>
+         </div>
+    </div>
+    
+    
+<script type="text/javascript">
+    function GetRemoteFileEmptyFun() { return; }
+</script>
+<script type="text/javascript">
+    function starUploadImage(url,successFun,errorFun,debug){
+        JB.ajax.postData("/UploadFile/GetRemoteFile.ashx",
+        function(xmlObj){
+            if (xmlObj) {
+                try {
+                    if(debug)alert(xmlObj.responseText);
+                    var ajson = eval("(" + xmlObj.responseText + ")");
+                    if (ajson.error > 0){ if(JB.isFunction(errorFun))errorFun(url,ajson); }
+                    else if(JB.isFunction(successFun))successFun(url,ajson);
+                } catch (e) {
+                    if(debug)alert(e);
+                    if(JB.isFunction(errorFun))errorFun(url,{error:1,message:e.description});
+                }
+            } else {
+                if(JB.isFunction(errorFun))errorFun(url,{error:1,message:"上传失败"});
+            }
+        },
+        {
+            fileUrl: url,
+            tp: "org",
+            rid1: "0",
+            rid2: "0",
+            rky1: "",
+            rky2: "",
+            bussCode: "2022",
+            remark: "远程图片",
+            orgId: "10000",
+            folderId: "0",
+            saveName: "",
+            imgW: "0",
+            imgH: "0",
+            strictWH: 0,
+            exts: "jpg,jpeg,gif,bmp,png",   //自定义限制上传文件类型
+            maxLenKB: 300,   //自定义限制上传文件大小
+            bmpTransJpg:true,
+            isTempFile:true,
+            canCancel: true,
+            errorConfirm: true,
+            addDatabaseRecord: true
+        },
+        false);
+    }
+</script>
+    <div style="display:none;" id="containerForGetImage"></div>
+    <script type="text/javascript">
+        $(function(){
+            JBodyValidatorPopoTipExtend.add({obj:"form_TextBoxTitle",park:"right"}).add({obj:"editorContentContainer",park:"bottomLeft",cssClass:"JBodyValidatorErrorExtendFlash3",cssClass2:"JBodyValidatorErrorExtendFlash4"});
+
+        })
+        function chooseButtonClick(saveDraft){
+            if (saveDraft) document.getElementById("form_btnSaveDraft").click();
+            else document.getElementById("form_btnSubmit").click();
+        }
+        function uploadRemoteImg(saveDraft) {  //上传远程图片（采用此方式以降低服务端一次获取多个图片造成的超时可能），
+            //特别说明:JBValidatorContainer.afterSuccess 的方式行不通，回调的时候顺序极为怪异由于时间关系未能找到原因
+            if(!false){
+                chooseButtonClick(saveDraft);
+                return;
+            }
+            var hostStr = "aofei-pc/";
+            var hostStr2 = "http://aofei-pc/";
+            var hostStr3 = "aofei-pc:";
+            var hostStr4 = "http://aofei-pc:";
+            try {
+                $("#containerForGetImage").html(editor1.html());
+                var imgs = document.getElementById("containerForGetImage").getElementsByTagName("IMG");
+                var remoteImage = new Array();
+                var len = remoteImage.length;
+                for (var i = 0; i < imgs.length; i++) {
+                    var src = imgs[i].src.toLowerCase();
+                    var lcl = (src.substr(0, 1) == "/"
+                    || src.substr(0, hostStr.length) == hostStr.toLowerCase()
+                    || src.substr(0, hostStr2.length) == hostStr2.toLowerCase()
+                    || src.substr(0, hostStr3.length) == hostStr3.toLowerCase()
+                    || src.substr(0, hostStr4.length) == hostStr4.toLowerCase());
+                    if (!lcl) remoteImage.push(imgs[i]);
+                }
+                if(remoteImage.length==0) chooseButtonClick(saveDraft);
+                for (var i = 0; i < remoteImage.length; i++) {
+                    var img = remoteImage[i];
+                    var src = img.src.toLowerCase();
+                    JBDialog.show(document.getElementById("btnSubmit2"), src, { title: "正在上传远程图片", showCloseButton: false, modal: true, pos: { to: "obj", park: "outside", parkOutside: "topLeft"} });
+                    starUploadImage(img.src,
+                    function(url, ajson) {
+                        img.src = ajson.url;
+                        editor1.html($("#containerForGetImage").html());
+                        JBDialog.close();
+                        len--;
+                        if (len <= 0) chooseButtonClick(saveDraft);
+                    },
+                    function(url, ajson) {
+                        alert("error:" + ajson.message);
+                        len--;
+                        if (len <= 0)  chooseButtonClick(saveDraft);
+                    }
+                    , false);
+                }
+            } catch (e) {
+                alert(e.description);
+                chooseButtonClick(saveDraft);
+            }
+        }
+    </script>
+
+    
+
+<script type="text/javascript">
+//<![CDATA[
+pageMainMenuCreater.setActive({mainText:'资讯通告',subText: '添加升学指南'});function iframeSubmitRegister(){$("#form1").get(0).target = "_postTargetIframe";if(JBValidatorContainer.containAutoFireObj($("#form1").get(0))){   JBValidatorContainer.afterSuccess.push(function(){     if(this==$("#form1").get(0)){ new JBodyDialog().show(window, "<img alt='' src='/images/common/loading/5.gif' />", {w:200,h:90,modal:true,title:"正在提交，请稍候...", pos:[{to:'win',park:'inside',parkInside:'center'}]}); }    return true; });}else{  $("#form1").submit(function() {  new JBodyDialog().show(window, "<img alt='' src='/images/common/loading/5.gif' />", {w:200,h:90,modal:true,title:"正在提交，请稍候...。", pos:[{to:'win',park:'inside',parkInside:'center'}]});  return true;  });}}$(function(){ setTimeout("iframeSubmitRegister()",1000); });//]]>
+</script>
+<script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxTitle'});var exinput_form_TextBoxTitle_125_805=null; JB.ready(function(){exinput_form_TextBoxTitle_125_805= new JBValidator({varId:'exinput_form_TextBoxTitle_125_805',exType:'Text',checkWhere:'ServerAndClient',msgShowType:'None',msgCloseType:'NotClose',dataTitle:'标题',innerTextTip:'标题',showSuccess:false,checkOnFocusout:false,checkOnChange:true,ignoreCase:true,canNull:false,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0,maxLen:30});});</script><script type='text/javascript'>JBInputInnerTips.create({objs:'form_txtResume'});var exinput_form_txtResume_471_805=null; JB.ready(function(){exinput_form_txtResume_471_805= new JBValidator({varId:'exinput_form_txtResume_471_805',exType:'Text',checkWhere:'ServerAndClient',msgShowType:'None',msgCloseType:'NotClose',dataTitle:'内容提要',innerTextTip:'内容提要（最多200字，可留空，留空将读取详细内容前200个字作为提要）',showSuccess:false,checkOnFocusout:true,checkOnChange:true,ignoreCase:true,canNull:true,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0,maxLen:200});});</script><script type='text/javascript'>var JBValidaterEditorContent=null; JB.ready(function(){JBValidaterEditorContent= new JBValidator({obj:'editorContentContainer',exType:'Text',checkWhere:'ClientAuto',msgShowType:'None',msgCloseType:'NotClose',dataTitle:'输入',appendChecks:[CheckEditorContent],showSuccess:false,inCaseHidden:false,checkAppendOnly:true,msgAlwaysAlert:false});});</script></form>
+    
+
+    <div style="clear:both;"></div>
+    </div>
+    
+<div style="clear:both;"></div>
+<div class="footerOuter">
+    <div class="footer">
+        <div>
+            <div class="contact">
+                <span style="margin-top:60px; font-size:14px;">服务热线 (免长话费)</span>
+                <span style="font-size:16px;">400-6838-789</span>
+                <span>工作日 9:00-19:00</span>
+            </div>
+            <div class="footerBlock">
+                <span>网站简介</span>
+                <a>网站简介</a>
+                <a>产品服务</a>
+                <a>创新优势</a>
+                <a>友情链接</a>
+                <a>联系我们</a>
+            </div>
+            <div class="footerBlock">
+                <span>使用帮助</span>
+                <a>网站简介</a>
+                <a>产品服务</a>
+                <a>创新优势</a>
+                <a>友情链接</a>
+                <a>联系我们</a>
+            </div>
+            <div class="footerBlock">
+                <span>合作共赢</span>
+                <a>网站简介</a>
+                <a>产品服务</a>
+                <a>创新优势</a>
+                <a>友情链接</a>
+                <a>联系我们</a>
+            </div>
+            <div class="footerBlock">
+                <span>快捷方式</span>
+                <a>网站简介</a>
+                <a>产品服务</a>
+                <a>创新优势</a>
+                <a>友情链接</a>
+                <a>联系我们</a>
+            </div>
+        </div>
+        <div style="clear:both;"></div>
+        <div style="margin-top:20px; color:#888;">
+        版权所有：好工作网
+        联系电话：88888888&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        联系邮箱：88888@qq.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+        地址：广州市环市中路&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        邮政编码：510000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+<script type="text/javascript">
+           $(function () { adminPageInit({ unresize: "" }); });
+</script>
+<!--[if IE 6]>
+<script type="text/javascript" src="/js/DD_belatedPNG_0.0.8a.js"></script>
+<script type="text/javascript">   
+  DD_belatedPNG.fix('.pngfix'); 
+</script>
+<![endif]-->

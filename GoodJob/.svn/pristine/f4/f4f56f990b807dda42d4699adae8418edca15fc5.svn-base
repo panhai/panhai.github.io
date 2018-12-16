@@ -1,0 +1,811 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+
+</title>
+    <link href="../css/1024/common.css" rel="stylesheet" type="text/css" />
+    <link href="../css/1024/companyAdmin.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/MD5.js"></script>
+    <script type="text/javascript" src="../js/jbody.js"></script>
+    <script type="text/javascript" src="../js/jbody-plugin.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+    <script type="text/javascript" src="../js/area.js"></script>
+    <script type="text/javascript" src="../js/subjects.js"></script>
+    <script type="text/javascript" src="../js/admin/common.js"></script>
+    <script type="text/javascript" src="../js/selectors.js"></script>
+    <script type="text/javascript" src="../js/menuControl.js"></script>
+    <script type="text/javascript" src="../js/jobPositions.js"></script>
+    <script type="text/javascript" src="../js/admin/companyAdmin.js"></script>
+        
+    <script type="text/javascript" src="../js/jobPositions.js"></script>
+    <script type="text/ecmascript">
+        function SubjectChanged() {
+            JBValidaterSubject.check();
+        }
+    </script>
+</head>
+<body>
+    <iframe id="_postTargetIframe" name="_postTargetIframe" style="display:none;" src="about:blank;"></iframe>
+    
+
+    
+<div id="pg-header" class="pg-header">
+    <div class="pg-header-main">
+        <div class="logo">
+            <a href="/"><img alt="好工作网Logo" src="../images/logo.png" class="pngfix" width="232" height="40" /></a>
+        </div>
+        <div class="cname">天津市温药复有限公司</div>
+        <div class="r mginT10">
+    <div class="platform-switch-container">
+    <div class="platform-switch-main msout">
+        <span class="floatR">切换后台</span>
+        <span class="floatR" style="border:solid 1px #ffc183; line-height:12px; margin-right:5px; padding-left:1px; padding-right:1px;">+</span>
+        <div style="clear:both;"></div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        $(".platform-switch-main").click(function () {
+            JBFrameHelper.showPage("/UCenter/PlatformSwitch.phtml", { obj: this, title: "切换到个人中心或其他管理后台", w: 500, pos: { to: "win", parent: "doc", park: "inside", parkInside: "center" } }, true, false);
+        });
+    })
+</script>
+
+</div>
+    </div>
+</div>
+    
+<div id="pg-nav" class="pg-nav">
+    <ul>
+        <li><div class="nav-title"><a href="#">管理首页</a></div></li>
+        <li><div class="nav-title"><a href="/Company/drjrz/admin/Offer/Add.phtml">发布职位</a></div></li>
+        <li><div class="nav-title"><a href="#">找简历</a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">职位<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">简历<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">资讯 ▪ 介绍<sub></sub></a></div></li>        
+        <li><div class="nav-title"><a href="javascript:void(0);">合作院校<sub></sub></a></div></li>        
+        <li><div class="nav-title"><a href="#">用户与设置<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="/Company/drjrz/" target="_blank">企业主页</a></div></li>
+    </ul>
+</div>
+<div style="clear:both;"></div>
+<div id="pg-nav-sub" style="display:none;">
+    <div id="pg-nav-sub-inner">
+    <div id="pg-nav-sub-main">
+        <ul style="display:none;">
+            <li><a href="Sum.html">系统概况</a></li>
+            <li><a href="Company.html">后台管理功能快捷链接</a></li>
+            <li><a href="#">站内消息</a></li>
+        </ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;">
+            <li><a href="Offer-Add.html">发布新职位</a></li>
+            <li><a href="Offer-ing.html">正在招聘</a></li>
+            <li><a href="Offer-Review.html">审核中</a></li>
+            <li><a href="Secur.html">保密职位</a></li>
+            <li><a href="Cooperation.html">院校招聘职位</a></li>
+            <li><a href="Offer-stop.html">已暂停或取消</a></li>
+            <li><a href="Offer-Timeout.html">已过期</a></li>
+            <li><a href="Offer-all.html">全部职位</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="/Company/drjrz/admin/resumes/">搜简历</a></li>
+            <li><a href="/Company/drjrz/admin/resumes/received.phtml">收到简历</a></li>
+            <li><a href="/Company/drjrz/admin/resumes/favor.phtml">简历收藏</a></li>
+            <li><a href="/Company/drjrz/admin/resumes/history.phtml">最近查看</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="/Company/drjrz/admin/About/Intro.phtml">企业介绍</a></li>
+            <li><a href="/Company/drjrz/admin/Articles/?tp=2">企业公告</a></li>
+            <li><a href="/Company/drjrz/admin/Articles/?tp=3">企业快讯</a></li>
+            <li><a href="/Company/drjrz/admin/Articles/?tp=4">行业新闻</a></li>
+            <li><a href="/Company/drjrz/admin/Articles/?tp=5">产品服务</a></li>
+            <li><a href="/Company/drjrz/admin/Articles/?tp=6">收费标准</a></li>
+            <li><a href="/Company/drjrz/admin/Articles/?tp=7">员工风采</a></li>
+            <li><a href="/Company/drjrz/admin/Articles/?tp=9">工作环境</a></li>
+        </ul>        
+        <ul style="display:none;">
+            <li><a href="/Company/drjrz/admin/Schools/Search.phtml">院校搜索</a></li>
+            <li><a href="/Company/drjrz/admin/Schools/Request/Recieved.phtml">收到的请求</a></li>
+            <li><a href="/Company/drjrz/admin/Schools/Request/Sended.phtml">发出的请求</a></li>
+            <li><a href="/Company/drjrz/admin/Schools/Default.phtml">合作院校列表</a></li>
+            <li><a href="/Company/drjrz/admin/Schools/Black.phtml">黑名单院校</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Setting.html">系统设置</a></li>
+            <li><a href="CustmRoles.html">管理员角色</a></li>
+            <li><a href="Manager.html">管理员</a></li>
+            <li><a href="Info.html">个人设置</a></li>
+            <li><a href="Password.html">修改密码</a></li>
+        </ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+    </div>
+    </div>
+</div>
+<div style="clear:both;"></div>
+    <div class="pageMainContentContainer">         
+    <form method="post" action="/Company/drjrz/admin/Offer/Add.phtml" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="Wrr4nrzuEzmpPGZCLMf0V4pdniHEuulmZsoTZ6umm9EepTytwDrW7eKAJ2Q7b0ITHrHx3BhEIa+uYCAt/ChxsU2dgU5A9nFGUQoWOPPhvoFuYMo6/BQrGgJTXzYiTAI5WltyOeFtzcV5AMfP1wG2KpBXdS4/MdMBCmiWdhrbjOLKDfJTtsyb+P0VBV/+CAWrgA3dtCieui71QzZGQ/CQyg9Uo9/UDo2Cbmobqm+qyF0rQXS+zTg805cU6vVOjbUvWF4EPR5x+aE+trfdfCD9Ra4TSfwligOxRfhbW0rakoNkAazTQpwIGkLM9iLVUutGWuEy3pOkMR0pYQ+bCB+l6nvSRcUnIrwIQzth8bkRunw7LhZj1STiSiDlFX1wM7MuHOgGmiNjcUqDsP9CNRIcPL48rmLK219wspicJiXiQBdCq1oYT+10YbTlDlmagclROCGCrKcD2My1T8eSUw2N9/lOktO9hna650IFeHvjfI/mm/go0MFsR78vditShZ/0HhCE59W2oJci+OvODfkrQvh+/aoaOkjFU3+zcmnmQFmQLNake3DMLkiuTu54Sxci5rqi7KDS5UuxCsDdW3l4sqWRJHuBD6atXSk+H6fVhZZaOd34PLN+Un681VrJW8TtF7pKSoYnS/Nig85aQJCn+4g61ZfTQbwteq7DrcLswYukySvEua7BGv6DDzLOy9nTU47fylrEXtlWgMHt5Hb67tCXoUlNkuq44NLAFM/ZB4jgAD7sMKzd6OzvghvnYeWHqJ5+UtJf/gtQN1m+IUhl+ih0bd+c5BmOM/1MiybuSRgBUV3IoBtQEPVSgehP1gNa9aHjgSymrnMHRd1yeHHOmDX4nOYwTSUNfyqffbQtl1N8mWHo4ytqTMBhtJnkJ7zLcbSM/1N2VMrrbJWeYT1o3/0ejLvkpYQ0Gcg2tIKsIguiIo4o5BjqxIrbM+v0eGCvvpmEhKfXbj0NiYAvDRsU6rsuo6CHC362DZkQ4NpfdLWjnwzQpvVTU0N0TcPw5oxAWV2nogGQ+7MW2JSPmVGWQnoEnoBXlWn+DOygwaWddv29VkO3tBGhREIKds6sj3I1jq3TW/jGKM75sB7g6wuYbH+PKS3ohdCfAd/iF8N/bxKyirWntJw3JFZ6KoQS3NkCihYt4QsMKoHoWdEd46U4T1t2+8YNJjdr8aHLmYpaIx9LDO6GeicPZGV1zoQ0GKh6SXjPKnJNL7LBpumROjN3zDiQzg9aGJHjJzoqh10OFNA/7c3tZuURHH/4daSAS2pkFHPavGHe6do+JAPomUynJbfZqwhWbdmJ1+tBl5X8VLpIJdv9XF8ynQcg+3yHUhDuqYpVLz26xG43M8+Z4Eu+QGSOFwyA59X8mxgWxgudu69VOtMaBKUguXI534t/LiroPtdoeENOhvesBtS1Sk8S/UOfnjFDxQQjkC5sKeKt0doSVsU59kTfrCGRwWcDIalZ9y45VGG5XNbn2UlPsbxDVgbx7ScgikKRlpLmzYL6taHqCv/E3/K0MbktrC+fv6YOX46xw4ne/obUzktdw8Dfir7Jw2qtG5r1MXISCHm7wkmiP99cYSc8/pP1LzZnO1o2eLbTvI9eP7oQ+9ZAQ9bsTCi4bsWjTtDEkLgRkRDRe8WUXhf/W6wlQ0RSjxLVfyih7xm4xP6q8276jnrz0pm2pZPM/xFZwGxR4z2mmVbq6/0NnOZN5jfjDGHrCvKf/EPOEBweFrxYnS0ktUP8HlctQAW6/xq1zy4mmdSrhJcm/K/R+h0rY8+JBlvu7pKdp4bpsx73iuXW5TGjxMNAmePNpAAOjH/leoMNqQK/TVTJ5fDFAfhXtqIwyxqg4OMocf3YShmQpAyykx4VcfCfbvo+cjieAz90q5sxp4qJPxQUaatSMMXgnLghkgPICKv5MgP26BRm/80MODyRjCsl/CEVPxgzFUv6oV2J9uVIzqJ+yJoWSx5I+nLBVBzOr2wo/QFrDtOJSEThkiQjflJthDvbStCoO9MykzvToTCHptlK+RY=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div class="aspNetHidden">
+
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D476DD3D" />
+</div>
+    
+    <div class="bodyBlock">
+         <div class="editBlock editable editBlockBorder" style="padding-bottom:50px;">
+            <div class="detailBlockTitle"><div class="leftIco"></div><div class="left">发布新职位</div></div>
+            <div class="blockMain">
+                <div id="stepTabContainer" style="margin-left:50px;"></div>
+                
+                <table class="blockMainTable mginT20" style="width:950px;" id="addStep1Container">          
+                    <tr>
+                        <th><span class="reqValidate">*</span>职位名称：</th><td>
+                            <input name="ctl00$form$TextBoxName" type="text" maxlength="30" id="form_TextBoxName" class="inputText" AutoComplete="false" data-jbextendid="exinput_form_TextBoxName_973_609" data-jbtips="职位名称" style="width:360px;" />
+                            <span id="nameMsg" class="floatL"></span>
+                            </td>
+                    </tr>
+                    <tr>
+                        <th><span class="reqValidate">*</span>招聘范围：</th><td id="tdRadioButtonListOfferType">      
+                            <span id="form_RadioButtonListOfferType" class="radioOrCheckBoxList floatL"><input id="form_RadioButtonListOfferType_0" type="radio" name="ctl00$form$RadioButtonListOfferType" value="1" /><label for="form_RadioButtonListOfferType_0">社会招聘</label><span class="aspNetDisabled"><input id="form_RadioButtonListOfferType_1" type="radio" name="ctl00$form$RadioButtonListOfferType" value="2" disabled="disabled" /><label for="form_RadioButtonListOfferType_1">院校合作</label></span></span>
+                            <span style="color:orangered;float:left; display:none;">(招聘范围在发布后将不能修改)</span><a class="mginL10 floatL" href="javascript:void(0);" onclick="showWhatIsCoopSchool()">什么是院校合作招聘？</a>    
+                            
+                            <span id="offerTypeMsg" class="floatL"></span>                      
+                            <script type="text/javascript">
+                                function CheckOfferType(jbv) {
+                                    var v = ($("#tdRadioButtonListOfferType").find("input:checked").length > 0);
+                                    if (!v) jbv.msg = "请选择招聘范围";
+                                    return v;
+                                }
+                                $("#tdRadioButtonListOfferType").find("input:radio").click(function () {
+                                    JBValidaterOfferType.check();
+                                    $("#CooperationSchoolsContainer").get(0).style.display = (this.value == "2" ? "" : "none");
+                                });
+                            </script>
+                        </td>
+                    </tr>          
+                    <tr>
+                        <th style="width:140px;"><span class="reqValidate">*</span>职位类型：</th><td id="tdRadioButtonListWorkType"> 
+                            <span id="form_RadioButtonListWorkType" class="radioOrCheckBoxList floatL"><input id="form_RadioButtonListWorkType_0" type="radio" name="ctl00$form$RadioButtonListWorkType" value="1" /><label for="form_RadioButtonListWorkType_0">全职</label><input id="form_RadioButtonListWorkType_1" type="radio" name="ctl00$form$RadioButtonListWorkType" value="2" /><label for="form_RadioButtonListWorkType_1">兼职</label><input id="form_RadioButtonListWorkType_2" type="radio" name="ctl00$form$RadioButtonListWorkType" value="4" /><label for="form_RadioButtonListWorkType_2">实习</label></span>
+                            
+                            <span id="workTypeMsg" style="float:left"></span>                      
+                            <script type="text/javascript">
+                                function CheckWorkType(jbv) {
+                                    var v = ($("#tdRadioButtonListWorkType").find("input:checked").length > 0);
+                                    if (!v) jbv.msg = "请选择职位类型";
+                                    return v;
+                                }
+                                $("#tdRadioButtonListWorkType").find("input:radio").click(function () { JBValidaterWorkType.check(); });
+                            </script>    
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><span class="reqValidate">*</span>招聘人数：</th><td>
+                            <input name="ctl00$form$TextBoxCount" type="text" id="form_TextBoxCount" class="inputText" AutoComplete="false" data-jbextendid="exinput_form_TextBoxCount_748_462" data-jbtips="非负整数" style="width:80px;" /> 人
+                            <span id="offerCountMsg" style="margin-left:15px;"></span>
+                            </td>
+                    </tr>
+                    <tr>
+                        <th><span class="reqValidate">*</span>职位类别：</th><td id="tdMultiPositionsSelector">                              
+                            <input type="hidden" name="ctl00$form$MultiPositions1$HiddenPositionIds" id="form_MultiPositions1_HiddenPositionIds" />
+<div style="float:left; height:32px; width:376px;">
+    <div onclick="MultiPositionsSelector.show(this)">
+        <select id="form_MultiPositions1select" style="float:left;; width:376px; height:32px;" disabled="disabled">
+            <option></option>
+        </select>
+        <div style="position:relative;" id="form_MultiPositions1front">
+            <div style="position:absolute; width:376px; height:32px; border:solid 0px #000;"></div>
+        </div>
+    </div>
+    <div style="clear:both;"></div>
+</div>
+<script type="text/javascript">
+    var MultiPositionsSelector = null;
+    $(function(){
+        MultiPositionsSelector = new MutiPositionCreater({
+            objName: "MultiPositionsSelector",
+            maxSelect: 2,
+            objHiddenId : document.getElementById("form_MultiPositions1_HiddenPositionIds"),
+            selectElement : document.getElementById("form_MultiPositions1select"),
+            textWhenEmpty:"请选择职位类别",
+            dialogTitle:"请选择职位类别",
+            onchange: [function (opt) { $("#form_MultiPositions1front").attr("title", opt.tts); },MultiPositionsChange]
+        });
+    });
+</script>
+                            
+                            <span id="multiPositionsMsg" style="margin-top:3px; margin-left:10px; float:left; line-height:20px;"></span>                      
+                            <script type="text/javascript">
+                                function CheckMultiPositions(jbv) {
+                                    var v = MultiPositionsSelector.hasValue();
+                                    if (!v) jbv.msg = "请选择职位类别";
+                                    return v;
+                                }
+                                function MultiPositionsChange() {
+                                    JBValidaterMultiPositions.check();
+                                }
+                            </script>  
+                        </td>
+                    </tr> 
+                    <tr>
+                        <th><span class="reqValidate">*</span>所属部门：</th><td>
+                            <input name="ctl00$form$TextBoxDepartment" type="text" maxlength="20" id="form_TextBoxDepartment" class="inputText" AutoComplete="false" data-jbextendid="exinput_form_TextBoxDepartment_967_462" data-jbtips="所属部门" style="width:230px;" />
+                            <span id="departmentMsg"></span>
+                            </td>
+                    </tr>
+                    <tr>
+                        <th>汇报对象：</th><td>
+                            <input name="ctl00$form$TextBoxReportLeader" type="text" maxlength="10" id="form_TextBoxReportLeader" class="inputText" AutoComplete="false" data-jbextendid="exinput_form_TextBoxReportLeader_569_462" data-jbtips="汇报对象，可留空" style="width:230px;" />
+                            <span id="reportLeaderMsg"></span>
+                            </td>
+                    </tr>
+                    <tr>
+                        <th>下属人数：</th><td>
+                            <input name="ctl00$form$TextBoxSubordinateCount" type="text" id="form_TextBoxSubordinateCount" class="inputText" AutoComplete="false" data-jbextendid="exinput_form_TextBoxSubordinateCount_979_462" data-jbtips="下属人数" style="width:80px;" /> 人
+                            <span id="subordinateCountMsg" style="margin-left:15px;"></span>
+                            </td>
+                    </tr>
+                    <tr>
+                        <th><span class="reqValidate">*</span>工作城市：</th><td>
+                            <input type="hidden" name="ctl00$form$HiddenFieldCity" id="form_HiddenFieldCity" />
+                            <select id="selProvince" style="width:80px;"></select><select id="selCity" style="width:80px; margin-left:5px;"></select><select id="selCityArea" style="width:80px; margin-left:5px;"></select>
+                            
+                            <span id="cityMsg"></span>
+                                     </td>
+                    </tr>  
+                    <tr>
+                        <th><span class="reqValidate">*</span>过期日期：</th><td>
+                            <div class="date" style="width:245px;">
+                                <input name="ctl00$form$textTimeoutDate" type="text" id="form_textTimeoutDate" data-jbextendid="exinput_form_textTimeoutDate_946_462" data-jbtips="此职位的过期日期" style="width:218px;" />
+                                <div class="setdate" title="设置日期"></div><div class="deldate" title="清除"></div>
+                            </div>
+                            <span id="timeoutMsg"></span></td>
+                    </tr>                  
+                    <tr><th>&nbsp;</th><td style="padding-top:30px;">
+                        <input type="button" onclick="checkAndGotoNextStep(1)" class="btn-3d btn-3d-large btn-3d-blue floatL" value="下一步" />
+                    </td></tr>
+                </table>
+                <table class="blockMainTable mginT20" style="width:950px;" id="addStep2Container"> 
+                    <tr>
+                        <th style="width:140px;">岗位职责：</th><td>
+                            <textarea name="ctl00$form$TextBoxPositionDuty" rows="2" cols="20" id="form_TextBoxPositionDuty" class="inputText" AutoComplete="false" data-jbextendid="exinput_form_TextBoxPositionDuty_730_462" data-jbtips="岗位职责" style="height:150px;width:580px;">
+</textarea>
+                            <div style="clear:both; margin-top:8px;"></div>
+                            <span id="positionDutyMsg" style="margin-left:0px;"></span>
+                                                           </td>
+                    </tr>
+                    <tr>
+                        <th>岗位要求：</th><td style="padding-top:0px;">
+                            <table>
+                                <tr>
+                                    <th style="width:50px;">性别：</th><td>
+                                        <select name="ctl00$form$DropDownListGender" id="form_DropDownListGender" style="width:100px;">
+    <option value="2">不限</option>
+    <option value="1">仅接受男性</option>
+    <option value="0">仅接受女性</option>
+
+</select>
+                                      </td><th style="width:70px;">年龄：</th><td>
+                                          <select name="ctl00$form$DropDownListAge" id="form_DropDownListAge">
+    <option value="0">不限</option>
+    <option value="1">指定范围</option>
+
+</select>
+                                          <span id="spanAgeMinMax">
+                                              <input name="ctl00$form$TextBoxAgeMin" type="text" id="form_TextBoxAgeMin" class="inputText" AutoComplete="false" data-jbextendid="exinput_form_TextBoxAgeMin_477_462" data-jbtips="最小年龄" style="width:60px;" />
+                                              至
+                                              <input name="ctl00$form$TextBoxAgeMax" type="text" id="form_TextBoxAgeMax" class="inputText" AutoComplete="false" data-jbextendid="exinput_form_TextBoxAgeMax_589_462" data-jbtips="最大年龄" style="width:60px;" /> 岁
+                                              <span id="reqAgeMsg"></span>
+                                          </span>
+                                        <script type="text/javascript">
+                                            $("#form_DropDownListAge").change(function () {
+                                                if (this.value == "1") $("#spanAgeMinMax").show();
+                                                else $("#spanAgeMinMax").hide();
+                                            });
+                                            $("#form_DropDownListAge").change();
+                                            function checkMaxAges(jbv) {
+                                                if (!JBValidatorContainer.check(document.getElementById("form_TextBoxAgeMin"))) {
+                                                    jbv.msg = "最小年龄格式错误";
+                                                    return false;
+                                                }
+                                                var mi = parseInt(JBInputInnerTips.val(document.getElementById("form_TextBoxAgeMin")));
+                                                var ma = parseInt(JBInputInnerTips.val(document.getElementById("form_TextBoxAgeMax")));
+                                                if (!(ma >= mi)) {
+                                                    jbv.msg = "最大年龄应大于等于最小年龄";
+                                                    return false;
+                                                }
+                                                return true;
+                                            }
+                                        </script>  
+                                      </td>
+                                </tr>
+                                <tr>
+                                    <th style="width:50px;">学历：</th><td>
+                                        <select name="ctl00$form$DropDownListEducation" id="form_DropDownListEducation" style="width:100px;">
+    <option value="0">不限</option>
+    <option value="1">小学</option>
+    <option value="2">初中</option>
+    <option value="4">高中</option>
+    <option value="8">职中</option>
+    <option value="16">大专</option>
+    <option value="32">本科</option>
+    <option value="64">硕士</option>
+    <option value="128">博士</option>
+    <option value="256">博士后</option>
+
+</select>
+                                                                    </td>
+                                    <th style="width:70px;">专业：</th><td>
+                                        <input name="ctl00$form$TextBoxEduSubject" type="text" maxlength="20" id="form_TextBoxEduSubject" class="inputText" AutoComplete="false" data-jbextendid="exinput_form_TextBoxEduSubject_326_462" data-jbtips="不限专业" style="width:200px;" />
+                                        <span id="eduSebjectMsg"></span>
+                                   </td>
+                                </tr>
+                                <tr>
+                                    <th style="width:50px;">经验：</th><td>
+                                        <select name="ctl00$form$DropDownListRequirementExperience" id="form_DropDownListRequirementExperience" style="width:100px;">
+    <option value="0">不限</option>
+    <option value="1">1年以上</option>
+    <option value="2">2年以上</option>
+    <option value="3">3年以上</option>
+    <option value="5">5年以上</option>
+    <option value="8">8年以上</option>
+    <option value="10">10年以上</option>
+    <option value="15">15年以上</option>
+    <option value="20">20年以上</option>
+
+</select>
+                                                                    </td>
+                                    <th style="width:70px;">语言：</th><td>
+                                        <span class="radioOrCheckBoxList">
+                                            <input id="form_CheckBoxLanguageEn" type="checkbox" name="ctl00$form$CheckBoxLanguageEn" /><label>英语</label>
+                                            <input id="form_CheckBoxLanguageFr" type="checkbox" name="ctl00$form$CheckBoxLanguageFr" /><label>法语</label>
+                                            <input id="form_CheckBoxLanguageCanTon" type="checkbox" name="ctl00$form$CheckBoxLanguageCanTon" /><label>粤语</label>
+                                            <input id="form_CheckBoxLanguageJapan" type="checkbox" name="ctl00$form$CheckBoxLanguageJapan" /><label>日语</label>
+                                            <input name="ctl00$form$TextBoxLanguageSpecial" type="text" maxlength="20" id="form_TextBoxLanguageSpecial" class="inputText" AutoComplete="false" data-jbextendid="exinput_form_TextBoxLanguageSpecial_151_462" data-jbtips="其他语言" style="width:60px;" />
+                                        </span>
+                                         <span id="languageMsg"></span>
+                                        </td>
+                                </tr>
+                            </table>
+                                      </td>
+                    </tr>
+                    <tr>
+                        <th>任职资格：</th><td>
+                            <textarea name="ctl00$form$TextBoxQualification" rows="2" cols="20" id="form_TextBoxQualification" class="inputText" AutoComplete="false" data-jbextendid="exinput_form_TextBoxQualification_146_462" data-jbtips="任职资格" style="height:150px;width:580px;">
+</textarea>
+                            <div style="clear:both; margin-top:8px;"></div>
+                            <span id="qualificationMsg" style="margin-left:0px;"></span>
+                                                           </td>
+                    </tr>
+                    <tr><th>&nbsp;</th><td style="padding-top:30px;">
+                        <input type="button" onclick="checkAndGotoPrevStep(2)" class="btn-3d btn-3d-large btn-3d-blue2 floatL" value="上一步" />
+                        <input type="button" onclick="checkAndGotoNextStep(2)" class="btn-3d btn-3d-large btn-3d-blue floatL mginL20" value="下一步" />
+                    </td></tr>
+                </table> 
+                <table class="blockMainTable mginT20" style="width:950px;" id="addStep3Container">
+                    <tr>
+                        <th style="width:140px;">招聘企业：</th><td>
+                            <input name="ctl00$form$TextBoxCompanyName" type="text" value="天津市温药复有限公司" maxlength="30" id="form_TextBoxCompanyName" class="inputText" AutoComplete="false" data-jbextendid="exinput_form_TextBoxCompanyName_758_462" data-jbtips="企业名称或描述" style="width:300px;" />
+                            <span id="companyNameMsg" ></span>
+                            </td>
+                    </tr>
+                    <tr>
+                        <th>所属行业：</th><td id="subjectContainer">
+                            <input type="hidden" name="ctl00$form$MutiSubjectSelector1$HiddenSubjectIds" id="form_MutiSubjectSelector1_HiddenSubjectIds" value=",1811," />
+<div style="float:left; width:315px; height:32px;">
+    <div onclick="MutiSubjectSelector.show(this)">
+        <select id="form_MutiSubjectSelector1select" style="float:left;; width:315px; height:32px;" disabled="disabled">
+            <option></option>
+        </select>
+        <div style="position:relative;" id="form_MutiSubjectSelector1front">
+            <div style="position:absolute; width:315px; height:32px; border:solid 0px #000;"></div>
+        </div>
+    </div>    
+    <div style="clear:both;"></div>
+</div>
+<script type="text/javascript">
+    var MutiSubjectSelector = null;
+    $(function(){
+        MutiSubjectSelector = new MultiSubjectCreater({
+            objName: "MutiSubjectSelector",
+            maxSelect: 1,
+            objHiddenId : document.getElementById("form_MutiSubjectSelector1_HiddenSubjectIds"),
+            selectElement : document.getElementById("form_MutiSubjectSelector1select"),
+            textWhenEmpty:"请选择行业",
+            dialogTitle:"请选择行业",
+            canSelectTopLevel:true,
+            mode : "single",
+            onchange: [function (opt) { $("#form_MutiSubjectSelector1front").attr("title", opt.tts); },SubjectChanged]
+        });
+    });
+</script>
+                            
+                            <span id="subjectMsg" style="float:left; margin-left:10px; line-height:20px; margin-top:3px;"></span>                              
+                            </td>
+                    </tr>
+                    <tr>
+                        <th>企业性质：</th><td id="tdDropDownListCompanyType">
+                            <select name="ctl00$form$DropDownListCompanyType" id="form_DropDownListCompanyType" style="width:250px;">
+    <option value="-1">请选择企业性质</option>
+    <option value="2">外商独资</option>
+    <option value="4">外企办事处</option>
+    <option value="8">中外合资合作</option>
+    <option value="16">私营_民营企业</option>
+    <option value="32">国有企业</option>
+    <option value="64">国内上市公司</option>
+    <option value="128">政府机关</option>
+    <option value="256">非营利机构</option>
+    <option value="512">事业单位</option>
+    <option value="1024">其他</option>
+
+</select>
+                            
+                            <span id="companyTypeMsg" class="floatL"></span>                      
+                            <script type="text/javascript">
+                                function CheckCompanyType(jbv) {
+                                    var v = ($("#form_DropDownListCompanyType").val() != "-1");
+                                    if (!v) jbv.msg = "请选择企业性质";
+                                    return v;
+                                }
+                                $("#form_DropDownListCompanyType").change(function () { JBValidaterCompanyType.check(); });
+                            </script>     
+                        </td>
+                    </tr>                     
+                    <tr>
+                        <th>员工规模：</th><td id="tdDropDownListCompanyEmployeesMax">
+                            <select name="ctl00$form$DropDownListCompanyEmployeesMax" id="form_DropDownListCompanyEmployeesMax" style="width:250px;">
+    <option value="-1">请选择企业员工规模</option>
+    <option value="50">50人以下</option>
+    <option value="150">50至150人</option>
+    <option value="500">150至500人</option>
+    <option value="1000">500至1000人</option>
+    <option value="3000">1000至3000人</option>
+    <option value="1000000">3000人以上</option>
+
+</select>
+                            
+                            <span id="companyEmployeesMaxMsg" class="floatL"></span>                      
+                            <script type="text/javascript">
+                                function CheckCompanyEmployeesMax(jbv) {
+                                    var v = ($("#form_DropDownListCompanyEmployeesMax").val() != "-1");
+                                    if (!v) jbv.msg = "请选择企业员工规模";
+                                    return v;
+                                }
+                                $("#form_DropDownListCompanyEmployeesMax").change(function () { JBValidaterCompanyEmployeesMax.check(); });
+                            </script> 
+                            </td>
+                    </tr> 
+                    <tr>
+                        <th>企业简介：</th><td>
+                            <textarea name="ctl00$form$TextBoxCompanyDesc" rows="2" cols="20" id="form_TextBoxCompanyDesc" class="inputText" AutoComplete="false" data-jbextendid="exinput_form_TextBoxCompanyDesc_909_462" data-jbtips="企业简介" style="height:90px;width:560px;">
+之洲集由合棋词血局每为原终投左毛胡图十采家词查陈卫告古空沉至编底始顾楼修城们洗练等道助得十那紶浪闻</textarea>
+                            <div style="clear:both; margin-top:8px;"></div>
+                            <span id="companyDescMsg" style="margin-left:0px;"></span>
+
+                           </td>
+                    </tr>
+                    <tr>
+                        <th>&nbsp;</th><td>
+                            <input id="form_CheckBoxSecurity" type="checkbox" name="ctl00$form$CheckBoxSecurity" />&nbsp;&nbsp;保密职位，此招聘职位不要连接到企业主页，也不要在企业前台展示<br />
+                            <span style="color:orangered">（注：如果要保密招聘企业，您还应该用模糊描述处理企业名称和简介）</span>
+                                       </td>
+                    </tr> 
+                    <tr><th>&nbsp;</th><td style="padding-top:30px;">
+                      <input type="button" onclick="checkAndGotoPrevStep(3)" class="btn-3d btn-3d-large btn-3d-blue2 floatL" value="上一步" />
+                        <input type="button" onclick="checkAndGotoNextStep(3)" class="btn-3d btn-3d-large btn-3d-blue floatL mginL20" value="下一步" />
+                     </td></tr>
+                </table>
+                <table class="blockMainTable mginT20" style="width:950px;" id="addStep4Container"> 
+                    <tr>
+                        <th style="width:140px;">年薪：</th><td id="tdDropDownListPaymentType">
+                            <select name="ctl00$form$DropDownListPaymentType" id="form_DropDownListPaymentType" style="width:80px;">
+    <option value="0">面议</option>
+    <option value="2">范围</option>
+    <option value="1">明确值</option>
+
+</select>
+                            <span>
+                                <input name="ctl00$form$TextBoxPaymentValue" type="text" id="form_TextBoxPaymentValue" class="inputText" AutoComplete="false" data-jbextendid="exinput_form_TextBoxPaymentValue_293_462" data-jbtips="整数" style="width:50px;" />万元
+                            </span>
+                            <span>
+                                <input name="ctl00$form$TextBoxPaymentValueMin" type="text" id="form_TextBoxPaymentValueMin" class="inputText" AutoComplete="false" data-jbextendid="exinput_form_TextBoxPaymentValueMin_492_462" data-jbtips="整数" style="width:50px;" />至
+                                <input name="ctl00$form$TextBoxPaymentValueMax" type="text" id="form_TextBoxPaymentValueMax" class="inputText" AutoComplete="false" data-jbextendid="exinput_form_TextBoxPaymentValueMax_708_462" data-jbtips="整数" style="width:50px;" />万元
+                            </span>
+                            <span id="paymentTypeMsg" style="margin-left:0px;"></span>
+                            <span id="paymentTypeMsg2"></span>
+                            <span id="paymentTypeMsg3"></span>
+                            <script type="text/javascript">
+                                $("#form_DropDownListPaymentType").change(function () {
+                                    $("#tdDropDownListPaymentType").find("span").hide();
+                                    if (this.value == "1") {
+                                        $("#tdDropDownListPaymentType").find("span").eq(0).show();
+                                        $("#tdDropDownListPaymentType").find("span").eq(2).show();
+                                    }
+                                    if (this.value == "2") {
+                                        $("#tdDropDownListPaymentType").find("span").eq(1).show();
+                                        $("#tdDropDownListPaymentType").find("span").eq(3).show();
+                                        $("#tdDropDownListPaymentType").find("span").eq(4).show();
+                                    }
+                                });
+                                $("#form_DropDownListPaymentType").change();
+                            </script>
+                            </td>
+                    </tr>
+                    <tr>
+                        <th style="width:140px;">年薪构成：</th><td>
+                            <span class="radioOrCheckBoxList">
+                                <span class="aspNetDisabled"><input id="form_CheckBoxPaymentConstitute0" type="checkbox" name="ctl00$form$CheckBoxPaymentConstitute0" checked="checked" disabled="disabled" /></span><label style="padding-right:5px;">基本薪资</label><label style="padding-right:5px;">+</label>
+                                <input id="form_CheckBoxPaymentConstitute1" type="checkbox" name="ctl00$form$CheckBoxPaymentConstitute1" /><label style="padding-right:5px;">绩效奖金</label><label style="padding-right:5px;">+</label>
+                                <input id="form_CheckBoxPaymentConstitute2" type="checkbox" name="ctl00$form$CheckBoxPaymentConstitute2" /><label>提成</label>                        
+                            </span>
+                            <a class="mginL10" href="javascript:void(0);">年薪构成如何理解？</a> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <th style="width:140px;">年假：</th><td>
+                            <input name="ctl00$form$TextBoxYearHoliday" type="text" maxlength="30" id="form_TextBoxYearHoliday" class="inputText" AutoComplete="false" data-jbextendid="exinput_form_TextBoxYearHoliday_770_462" data-jbtips="国家标准" style="width:350px;" />
+                            <div style="clear:both; margin-top:8px;"></div>
+                            <span id="yearHolidayMsg" style="margin-left:0px;"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th style="width:140px;">社保：</th><td>
+                            <input name="ctl00$form$TextBoxSocialSecurity" type="text" maxlength="30" id="form_TextBoxSocialSecurity" class="inputText" AutoComplete="false" data-jbextendid="exinput_form_TextBoxSocialSecurity_729_462" data-jbtips="国家标准" style="width:350px;" />
+                            <div style="clear:both; margin-top:8px;"></div>
+                            <span id="socialSecurityMsg" style="margin-left:0px;"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th style="width:140px;">医保：</th><td>
+                            <input name="ctl00$form$TextBoxMedicalInsurance" type="text" maxlength="30" id="form_TextBoxMedicalInsurance" class="inputText" AutoComplete="false" data-jbextendid="exinput_form_TextBoxMedicalInsurance_762_462" data-jbtips="国家标准" style="width:350px;" />
+                            <div style="clear:both; margin-top:8px;"></div>
+                            <span id="medicalInsuranceMsg" style="margin-left:0px;"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th style="width:140px;">住房公积金：</th><td>
+                            <input name="ctl00$form$TextBoxHousingFund" type="text" maxlength="30" id="form_TextBoxHousingFund" class="inputText" AutoComplete="false" data-jbextendid="exinput_form_TextBoxHousingFund_526_462" data-jbtips="国家标准" style="width:350px;" />
+                            <div style="clear:both; margin-top:8px;"></div>
+                            <span id="housingFundMsg" style="margin-left:0px;"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th style="width:140px;">通讯及交通补贴：</th><td>
+                            <input name="ctl00$form$TextBoxCommunicationTraffic" type="text" maxlength="30" id="form_TextBoxCommunicationTraffic" class="inputText" AutoComplete="false" data-jbextendid="exinput_form_TextBoxCommunicationTraffic_793_462" data-jbtips="不确定" style="width:350px;" />
+                            <div style="clear:both; margin-top:8px;"></div>
+                            <span id="communicationTrafficMsg" style="margin-left:0px;"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th style="width:140px;">午餐补贴：</th><td>
+                            <input name="ctl00$form$TextBoxLunchSubsidies" type="text" maxlength="30" id="form_TextBoxLunchSubsidies" class="inputText" AutoComplete="false" data-jbextendid="exinput_form_TextBoxLunchSubsidies_448_462" data-jbtips="不确定" style="width:350px;" />
+                            <div style="clear:both; margin-top:8px;"></div>
+                            <span id="lunchSubsidiesMsg" style="margin-left:0px;"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th style="width:140px;">其他福利：</th><td>
+                            <input name="ctl00$form$TextBoxWelfareOther" type="text" maxlength="30" id="form_TextBoxWelfareOther" class="inputText" AutoComplete="false" data-jbextendid="exinput_form_TextBoxWelfareOther_323_462" data-jbtips="不确定" style="width:350px;" />
+                            <div style="clear:both; margin-top:8px;"></div>
+                            <span id="welfareOtherMsg" style="margin-left:0px;"></span>
+                        </td>
+                    </tr>
+                    <tr><th>&nbsp;</th><td style="padding-top:30px;">
+                      <input type="button" onclick="checkAndGotoPrevStep(4)" class="btn-3d btn-3d-large btn-3d-blue2 floatL" value="上一步" />
+                        <input type="button" onclick="checkAndGotoNextStep(4)" class="btn-3d btn-3d-large btn-3d-blue floatL mginL20" value="下一步" />
+                     </td></tr>
+                </table>    
+                <table class="blockMainTable mginT20" style="width:950px;" id="addStep5Container"> 
+                    <tr>
+                        <th style="width:140px;">补充说明：</th><td>
+                            <textarea name="ctl00$form$TextBoxRemark" rows="2" cols="20" id="form_TextBoxRemark" class="inputText" AutoComplete="false" data-jbextendid="exinput_form_TextBoxRemark_290_462" data-jbtips="补充说明，可留空" style="height:100px;width:560px;">
+</textarea>
+                            <div style="clear:both; margin-top:8px;"></div>
+                            <span id="remarkMsg" style="margin-left:0px;"></span>
+                        </td>
+                    </tr>
+                    <tr id="CooperationSchoolsContainer" style="display:none;">
+                        <th style="width:140px;">合作院校：</th><td>
+                            <div style="width:600px; padding-bottom:10px;">
+                            <input type="hidden" name="ctl00$form$HiddenFieldSchoolIDs" id="form_HiddenFieldSchoolIDs" />
+                            
+                                <div style="clear:both;"></div>
+                            </div>
+                            
+                            <div style="clear:both;"></div>
+                            <span id="coopSchoolMsg" style="margin-left:0px; margin-top:10px;"></span>
+                            <script type="text/javascript">
+                                function CheckCoopSchool(jbv) {
+                                    var v = JB.trim($("#form_HiddenFieldSchoolIDs").val().replace(",", ""));
+                                    if (v == "") jbv.msg = "请选择此职位要发送到的直达院校";
+                                    return v != "";
+                                }
+                                function CoopSchoolChange() {
+                                    var v = "";
+                                    $("#CooperationSchoolsContainer input:checked").each(function () { v += "," + this.value; });
+                                    $("#CooperationSchoolsContainer input:hidden").first().val(v);
+                                    if (JBValidaterCoopSchool) JBValidaterCoopSchool.check();
+                                }
+                                $(CoopSchoolChange);
+                            </script>
+                        </td>
+                    </tr>
+                    <tr><th>&nbsp;</th><td style="padding-top:30px;">
+                      <input type="button" onclick="checkAndGotoPrevStep(5)" class="btn-3d btn-3d-large btn-3d-blue2 floatL" value="上一步" />
+                      <input name="ctl00$form$ButtonSubmit" type="submit" id="form_ButtonSubmit" class="btn-3d btn-3d-large btn-3d-orange floatL mginL20" value="发布职位" />
+                    </td></tr>
+                </table>               
+                <table class="blockMainTable mginT20" style="width:950px;" id="addStep6Container"> 
+                    <tr>
+                        <th style="width:180px;">&nbsp;</th><td style="font-size:18px; padding-top:30px;">职位发布成功！</td>
+                    </tr>
+                    <tr>
+                        <th>&nbsp;</th><td style="padding-bottom:80px;">
+                            <div style="clear:both;"></div>
+                            <a class="btn-3d btn-3d-blue btn-3d-large" href="/Company/drjrz/Admin/Offer/Add.phtml">继续发布新职位</a>
+                            <a class="btn-3d btn-3d-blue btn-3d-large mginL20" href="/Company/drjrz/Admin/Offer/">返回职位列表</a>
+                        </td>
+                    </tr>
+                </table>
+                <div style="display:none;">
+                    <div id="whatIsCooperationSchool" style="text-align:left; font-size:14px; line-height:28px; padding:10px;">
+                        院校合作招聘的职位<br />
+                        在通过审核后将直接发往各院校的主页，<br />
+                        并将直接发往合作院校内部网站的相关版面，<br />
+                        合作院校审核后将优先组织学生应聘，<br />
+                        使招聘方和院校提高效率和达到双赢<br />
+                        
+                            <div style="color:orangered; font-size:14px;">您们目前没有合作院校 <br /><a href="/Company/drjrz/Admin/Schools/Search.phtml">点击这里申请合作</a>(点击将关闭发布职位页面)</div>
+                        
+                    </div>
+                </div>    
+                <div style="clear:both;"></div>
+            </div>
+        </div>
+     </div>
+
+    
+
+<script type="text/javascript">
+//<![CDATA[
+function iframeSubmitRegister(){$("#form1").get(0).target = "_postTargetIframe";if(JBValidatorContainer.containAutoFireObj($("#form1").get(0))){   JBValidatorContainer.afterSuccess.push(function(){     if(this==$("#form1").get(0)){ new JBodyDialog().show(window, "<img alt='' src='/images/common/loading/5.gif' />", {w:200,h:90,modal:true,title:"提交中，请稍候...", pos:[{to:'win',park:'inside',parkInside:'center'}]}); }    return true; });}else{  $("#form1").submit(function() {  new JBodyDialog().show(window, "<img alt='' src='/images/common/loading/5.gif' />", {w:200,h:90,modal:true,title:"提交中，请稍候...。", pos:[{to:'win',park:'inside',parkInside:'center'}]});  return true;  });}}$(function(){ setTimeout("iframeSubmitRegister()",1000); });pageMainMenuCreater.setActive({mainText:'职位',subText: '发布新职位'});//]]>
+</script>
+<script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxName'});var exinput_form_TextBoxName_973_609=null; JB.ready(function(){exinput_form_TextBoxName_973_609= new JBValidator({varId:'exinput_form_TextBoxName_973_609',exType:'Text',checkWhere:'ServerAndClient',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'nameMsg',dataTitle:'职位名称',inputTip:'职位名称',tipShow:'Onfoucs',tipPos:'InnerText',innerTextTip:'职位名称',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:false,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0,maxLen:30});});</script><script type='text/javascript'>var JBValidaterOfferType=null; JB.ready(function(){JBValidaterOfferType= new JBValidator({obj:'tdRadioButtonListOfferType',exType:'Text',checkWhere:'ClientAuto',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'offerTypeMsg',dataTitle:'输入',appendChecks:[CheckOfferType],showSuccess:false,inCaseHidden:false,checkAppendOnly:true,msgAlwaysAlert:false});});</script><script type='text/javascript'>var JBValidaterWorkType=null; JB.ready(function(){JBValidaterWorkType= new JBValidator({obj:'tdRadioButtonListWorkType',exType:'Text',checkWhere:'ClientAuto',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'workTypeMsg',dataTitle:'输入',appendChecks:[CheckWorkType],showSuccess:false,inCaseHidden:false,checkAppendOnly:true,msgAlwaysAlert:false});});</script><script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxCount'});var exinput_form_TextBoxCount_748_462=null; JB.ready(function(){exinput_form_TextBoxCount_748_462= new JBValidator({varId:'exinput_form_TextBoxCount_748_462',exType:'UInt',checkWhere:'ServerAndClient',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'offerCountMsg',dataTitle:'招聘人数',inputTip:'招聘人数，0表示若干人',tipShow:'Onfoucs',tipPos:'InnerText',innerTextTip:'非负整数',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:false,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0,maxLen:4});});</script><script type='text/javascript'>var JBValidaterMultiPositions=null; JB.ready(function(){JBValidaterMultiPositions= new JBValidator({obj:'tdMultiPositionsSelector',exType:'Text',checkWhere:'ClientAuto',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'multiPositionsMsg',dataTitle:'输入',appendChecks:[CheckMultiPositions],showSuccess:false,inCaseHidden:false,checkAppendOnly:true,msgAlwaysAlert:false});});</script><script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxDepartment'});var exinput_form_TextBoxDepartment_967_462=null; JB.ready(function(){exinput_form_TextBoxDepartment_967_462= new JBValidator({varId:'exinput_form_TextBoxDepartment_967_462',exType:'Text',checkWhere:'ServerAndClient',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'departmentMsg',dataTitle:'所属部门',inputTip:'所属部门',tipShow:'Onfoucs',tipPos:'InnerText',innerTextTip:'所属部门',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:false,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0,maxLen:20});});</script><script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxReportLeader'});var exinput_form_TextBoxReportLeader_569_462=null; JB.ready(function(){exinput_form_TextBoxReportLeader_569_462= new JBValidator({varId:'exinput_form_TextBoxReportLeader_569_462',exType:'Text',checkWhere:'ServerAndClient',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'reportLeaderMsg',dataTitle:'汇报对象',inputTip:'汇报对象，可留空',tipShow:'Onfoucs',tipPos:'InnerText',innerTextTip:'汇报对象，可留空',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:true,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0,maxLen:10});});</script><script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxSubordinateCount'});var exinput_form_TextBoxSubordinateCount_979_462=null; JB.ready(function(){exinput_form_TextBoxSubordinateCount_979_462= new JBValidator({varId:'exinput_form_TextBoxSubordinateCount_979_462',exType:'UInt',checkWhere:'ServerAndClient',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'subordinateCountMsg',dataTitle:'下属人数',inputTip:'下属人数，可留空',tipShow:'Onfoucs',tipPos:'InnerText',innerTextTip:'下属人数',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:true,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0,maxLen:4});});</script><script type='text/javascript'>var JBValidaterCity=null; JB.ready(function(){JBValidaterCity= new JBValidator({obj:'selProvince',exType:'Text',checkWhere:'ClientAuto',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'cityMsg',dataTitle:'输入',appendChecks:[CheckCitySelect],showSuccess:false,inCaseHidden:false,checkAppendOnly:true,msgAlwaysAlert:false});});</script><script type='text/javascript'>JBInputInnerTips.create({objs:'form_textTimeoutDate'});var exinput_form_textTimeoutDate_946_462=null; JB.ready(function(){exinput_form_textTimeoutDate_946_462= new JBValidator({varId:'exinput_form_textTimeoutDate_946_462',exType:'Date',checkWhere:'ServerAndClient',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'timeoutMsg',dataTitle:'过期日期',inputTip:'此职位的过期日期',tipShow:'Onfoucs',tipPos:'InnerText',innerTextTip:'此职位的过期日期',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:false,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0});});</script><script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxPositionDuty'});var exinput_form_TextBoxPositionDuty_730_462=null; JB.ready(function(){exinput_form_TextBoxPositionDuty_730_462= new JBValidator({varId:'exinput_form_TextBoxPositionDuty_730_462',exType:'Text',checkWhere:'ServerAndClient',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'positionDutyMsg',dataTitle:'岗位职责',inputTip:'岗位职责',tipShow:'Onfoucs',tipPos:'InnerText',innerTextTip:'岗位职责',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:false,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0});});</script><script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxAgeMin'});var exinput_form_TextBoxAgeMin_477_462=null; JB.ready(function(){exinput_form_TextBoxAgeMin_477_462= new JBValidator({varId:'exinput_form_TextBoxAgeMin_477_462',exType:'UInt',checkWhere:'ServerAndClient',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'reqAgeMsg',dataTitle:'最小年龄',innerTextTip:'最小年龄',showSuccess:false,checkOnFocusout:true,checkOnChange:false,ignoreCase:true,canNull:false,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0});});</script><script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxAgeMax'});var exinput_form_TextBoxAgeMax_589_462=null; JB.ready(function(){exinput_form_TextBoxAgeMax_589_462= new JBValidator({varId:'exinput_form_TextBoxAgeMax_589_462',exType:'UInt',checkWhere:'ServerAndClient',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'reqAgeMsg',dataTitle:'最大年龄',innerTextTip:'最大年龄',appendChecks:[checkMaxAges],showSuccess:false,checkOnFocusout:true,checkOnChange:false,ignoreCase:true,canNull:false,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0});});</script><script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxEduSubject'});var exinput_form_TextBoxEduSubject_326_462=null; JB.ready(function(){exinput_form_TextBoxEduSubject_326_462= new JBValidator({varId:'exinput_form_TextBoxEduSubject_326_462',exType:'Chinease',checkWhere:'ServerAndClient',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'eduSebjectMsg',dataTitle:'专业',inputTip:'专业',tipShow:'Onfoucs',tipPos:'InnerText',innerTextTip:'不限专业',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:true,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0,maxLen:20});});</script><script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxLanguageSpecial'});var exinput_form_TextBoxLanguageSpecial_151_462=null; JB.ready(function(){exinput_form_TextBoxLanguageSpecial_151_462= new JBValidator({varId:'exinput_form_TextBoxLanguageSpecial_151_462',exType:'Chinease',checkWhere:'ServerAndClient',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'languageMsg',dataTitle:'其他语言',inputTip:'其他语言',tipShow:'Onfoucs',tipPos:'InnerText',innerTextTip:'其他语言',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:true,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0,maxLen:20});});</script><script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxQualification'});var exinput_form_TextBoxQualification_146_462=null; JB.ready(function(){exinput_form_TextBoxQualification_146_462= new JBValidator({varId:'exinput_form_TextBoxQualification_146_462',exType:'Text',checkWhere:'ServerAndClient',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'qualificationMsg',dataTitle:'任职资格',inputTip:'任职资格',tipShow:'Onfoucs',tipPos:'InnerText',innerTextTip:'任职资格',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:false,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0});});</script><script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxCompanyName'});var exinput_form_TextBoxCompanyName_758_462=null; JB.ready(function(){exinput_form_TextBoxCompanyName_758_462= new JBValidator({varId:'exinput_form_TextBoxCompanyName_758_462',exType:'Chinease',checkWhere:'ServerAndClient',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'companyNameMsg',dataTitle:'企业名称或描述',inputTip:'企业名称或描述',tipShow:'Onfoucs',tipPos:'InnerText',innerTextTip:'企业名称或描述',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:false,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0,maxLen:30});});</script><script type='text/javascript'>var JBValidaterSubject=null; JB.ready(function(){JBValidaterSubject= new JBValidator({obj:'subjectContainer',exType:'Text',checkWhere:'ClientAuto',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'subjectMsg',dataTitle:'输入',appendChecks:[CheckSebjectSelect],showSuccess:false,inCaseHidden:false,checkAppendOnly:true,msgAlwaysAlert:false});});</script><script type='text/javascript'>var JBValidaterCompanyType=null; JB.ready(function(){JBValidaterCompanyType= new JBValidator({obj:'tdDropDownListCompanyType',exType:'Text',checkWhere:'ClientAuto',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'companyTypeMsg',dataTitle:'输入',appendChecks:[CheckCompanyType],showSuccess:false,inCaseHidden:false,checkAppendOnly:true,msgAlwaysAlert:false});});</script><script type='text/javascript'>var JBValidaterCompanyEmployeesMax=null; JB.ready(function(){JBValidaterCompanyEmployeesMax= new JBValidator({obj:'tdDropDownListCompanyEmployeesMax',exType:'Text',checkWhere:'ClientAuto',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'companyEmployeesMaxMsg',dataTitle:'输入',appendChecks:[CheckCompanyEmployeesMax],showSuccess:false,inCaseHidden:false,checkAppendOnly:true,msgAlwaysAlert:false});});</script><script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxCompanyDesc'});var exinput_form_TextBoxCompanyDesc_909_462=null; JB.ready(function(){exinput_form_TextBoxCompanyDesc_909_462= new JBValidator({varId:'exinput_form_TextBoxCompanyDesc_909_462',exType:'Chinease',checkWhere:'ServerAndClient',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'companyDescMsg',dataTitle:'企业简介',inputTip:'企业简介',tipShow:'Onfoucs',tipPos:'InnerText',innerTextTip:'企业简介',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:false,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0});});</script><script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxPaymentValue'});var exinput_form_TextBoxPaymentValue_293_462=null; JB.ready(function(){exinput_form_TextBoxPaymentValue_293_462= new JBValidator({varId:'exinput_form_TextBoxPaymentValue_293_462',exType:'UInt',checkWhere:'ServerAndClient',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'paymentTypeMsg',dataTitle:'年薪',innerTextTip:'整数',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:false,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0});});</script><script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxPaymentValueMin'});var exinput_form_TextBoxPaymentValueMin_492_462=null; JB.ready(function(){exinput_form_TextBoxPaymentValueMin_492_462= new JBValidator({varId:'exinput_form_TextBoxPaymentValueMin_492_462',exType:'UInt',checkWhere:'ServerAndClient',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'paymentTypeMsg2',dataTitle:'年薪最小值',innerTextTip:'整数',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:false,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0});});</script><script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxPaymentValueMax'});var exinput_form_TextBoxPaymentValueMax_708_462=null; JB.ready(function(){exinput_form_TextBoxPaymentValueMax_708_462= new JBValidator({varId:'exinput_form_TextBoxPaymentValueMax_708_462',exType:'UInt',checkWhere:'ServerAndClient',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'paymentTypeMsg3',dataTitle:'年薪最大值',innerTextTip:'整数',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:false,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0});});</script><script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxYearHoliday'});var exinput_form_TextBoxYearHoliday_770_462=null; JB.ready(function(){exinput_form_TextBoxYearHoliday_770_462= new JBValidator({varId:'exinput_form_TextBoxYearHoliday_770_462',exType:'Text',checkWhere:'ServerAndClient',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'yearHolidayMsg',dataTitle:'年假',inputTip:'年假',tipShow:'Onfoucs',tipPos:'InnerText',innerTextTip:'国家标准',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:true,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0,maxLen:30});});</script><script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxSocialSecurity'});var exinput_form_TextBoxSocialSecurity_729_462=null; JB.ready(function(){exinput_form_TextBoxSocialSecurity_729_462= new JBValidator({varId:'exinput_form_TextBoxSocialSecurity_729_462',exType:'Text',checkWhere:'ServerAndClient',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'socialSecurityMsg',dataTitle:'社保',inputTip:'社保',tipShow:'Onfoucs',tipPos:'InnerText',innerTextTip:'国家标准',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:true,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0,maxLen:30});});</script><script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxMedicalInsurance'});var exinput_form_TextBoxMedicalInsurance_762_462=null; JB.ready(function(){exinput_form_TextBoxMedicalInsurance_762_462= new JBValidator({varId:'exinput_form_TextBoxMedicalInsurance_762_462',exType:'Text',checkWhere:'ServerAndClient',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'medicalInsuranceMsg',dataTitle:'医保',inputTip:'医保',tipShow:'Onfoucs',tipPos:'InnerText',innerTextTip:'国家标准',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:true,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0,maxLen:30});});</script><script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxHousingFund'});var exinput_form_TextBoxHousingFund_526_462=null; JB.ready(function(){exinput_form_TextBoxHousingFund_526_462= new JBValidator({varId:'exinput_form_TextBoxHousingFund_526_462',exType:'Text',checkWhere:'ServerAndClient',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'housingFundMsg',dataTitle:'住房公积金',inputTip:'住房公积金',tipShow:'Onfoucs',tipPos:'InnerText',innerTextTip:'国家标准',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:true,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0,maxLen:30});});</script><script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxCommunicationTraffic'});var exinput_form_TextBoxCommunicationTraffic_793_462=null; JB.ready(function(){exinput_form_TextBoxCommunicationTraffic_793_462= new JBValidator({varId:'exinput_form_TextBoxCommunicationTraffic_793_462',exType:'Text',checkWhere:'ServerAndClient',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'communicationTrafficMsg',dataTitle:'通讯及交通补贴',inputTip:'通讯及交通补贴',tipShow:'Onfoucs',tipPos:'InnerText',innerTextTip:'不确定',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:true,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0,maxLen:30});});</script><script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxLunchSubsidies'});var exinput_form_TextBoxLunchSubsidies_448_462=null; JB.ready(function(){exinput_form_TextBoxLunchSubsidies_448_462= new JBValidator({varId:'exinput_form_TextBoxLunchSubsidies_448_462',exType:'Text',checkWhere:'ServerAndClient',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'lunchSubsidiesMsg',dataTitle:'午餐补贴',inputTip:'午餐补贴',tipShow:'Onfoucs',tipPos:'InnerText',innerTextTip:'不确定',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:true,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0,maxLen:30});});</script><script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxWelfareOther'});var exinput_form_TextBoxWelfareOther_323_462=null; JB.ready(function(){exinput_form_TextBoxWelfareOther_323_462= new JBValidator({varId:'exinput_form_TextBoxWelfareOther_323_462',exType:'Text',checkWhere:'ServerAndClient',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'welfareOtherMsg',dataTitle:'其他福利',inputTip:'其他福利',tipShow:'Onfoucs',tipPos:'InnerText',innerTextTip:'不确定',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:true,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0,maxLen:30});});</script><script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxRemark'});var exinput_form_TextBoxRemark_290_462=null; JB.ready(function(){exinput_form_TextBoxRemark_290_462= new JBValidator({varId:'exinput_form_TextBoxRemark_290_462',exType:'Text',checkWhere:'ServerAndClient',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'remarkMsg',dataTitle:'补充说明',innerTextTip:'补充说明，可留空',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:true,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0});});</script><script type='text/javascript'>var JBValidaterCoopSchool=null; JB.ready(function(){JBValidaterCoopSchool= new JBValidator({obj:'CooperationSchoolsContainer',exType:'Text',checkWhere:'ClientAuto',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'coopSchoolMsg',dataTitle:'输入',appendChecks:[CheckCoopSchool],showSuccess:false,inCaseHidden:false,checkAppendOnly:true,msgAlwaysAlert:false});});</script></form>
+    
+    <script type="text/javascript">
+        function checkAndGotoNextStep(currentStep) {
+            if (JBValidatorContainer.checkAllChildren(document.getElementById("addStep" + currentStep + "Container"))) {
+                $("#addStep" + currentStep + "Container").hide();
+                $("#addStep" + (currentStep + 1) + "Container").show();
+                setCurentStep(currentStep + 1);
+            }
+        }
+        function checkAndGotoPrevStep(currentStep) {
+            $("#addStep" + currentStep + "Container").hide();
+            $("#addStep" + (currentStep - 1) + "Container").show();
+            setCurentStep(currentStep - 1);
+        }
+        function setCurentStep(st) {
+            var aray = ["1、职位信息", "2、职责及要求", "3、企业信息", "4、薪酬福利", "5、其他补充", "6、完成"];
+            stepTabMenus("stepTabContainer", aray, st);
+        }
+        function addFinished() {
+            $("#addStep5Container").hide();
+            $("#addStep6Container").show();
+            setCurentStep(6);
+        }
+        function CheckSebjectSelect(jbv) {
+            var v = MutiSubjectSelector.getValue();
+            if (v == "") jbv.msg = "请选择行业";
+            return v != "";
+        }
+        setCurentStep(1);
+
+        $(function () {
+            CreateAreaSelector({ slProv: "selProvince", slCity: "selCity", slArea: "selCityArea", titleProv: "选择省份", titleArea: "选择区域", value: $("#form_HiddenFieldCity").val(), afterchange: function (v) { $("#form_HiddenFieldCity").val(v); if (v != "" && JBValidaterCity != null) JBValidaterCity.check(); } });
+            $("#addStep2Container,#addStep3Container,#addStep4Container,#addStep5Container,#addStep6Container").hide();
+        });
+        function CheckCitySelect(jbv) {
+            var v = $("#form_HiddenFieldCity").val();
+            if (v == "") jbv.msg = "请选择城市";
+            return v != "";
+        }
+
+        function showWhatIsCoopSchool() {
+            JBDialog.show(null, document.getElementById("whatIsCooperationSchool"), { w: 500, h: 400, title:"什么是院校合作招聘？", outerClickClose: true, pos: [{ to: "win", parkInside: "center" }] });
+        }
+    </script>
+
+    <div style="clear:both;"></div>
+    </div> 
+    
+<div style="clear:both;"></div>
+<div class="footerOuter">
+    <div class="footer">
+        <div>
+            <div class="contact">
+                <span style="margin-top:60px; font-size:14px;">服务热线 (免长话费)</span>
+                <span style="font-size:16px;">400-6838-789</span>
+                <span>工作日 9:00-19:00</span>
+            </div>
+            <div class="footerBlock">
+                <span>网站简介</span>
+                <a>网站简介</a>
+                <a>产品服务</a>
+                <a>创新优势</a>
+                <a>友情链接</a>
+                <a>联系我们</a>
+            </div>
+            <div class="footerBlock">
+                <span>使用帮助</span>
+                <a>网站简介</a>
+                <a>产品服务</a>
+                <a>创新优势</a>
+                <a>友情链接</a>
+                <a>联系我们</a>
+            </div>
+            <div class="footerBlock">
+                <span>合作共赢</span>
+                <a>网站简介</a>
+                <a>产品服务</a>
+                <a>创新优势</a>
+                <a>友情链接</a>
+                <a>联系我们</a>
+            </div>
+            <div class="footerBlock">
+                <span>快捷方式</span>
+                <a>网站简介</a>
+                <a>产品服务</a>
+                <a>创新优势</a>
+                <a>友情链接</a>
+                <a>联系我们</a>
+            </div>
+        </div>
+        <div style="clear:both;"></div>
+        <div style="margin-top:20px; color:#888;">
+        版权所有：好工作网
+        联系电话：88888888&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        联系邮箱：88888@qq.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+        地址：广州市环市中路&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        邮政编码：510000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script type="text/javascript">
+    $(function () {   adminPageInit({ unresize: "" });    });
+</script>
+<!--[if IE 6]>
+<script type="text/javascript" src="/js/DD_belatedPNG_0.0.8a.js"></script>
+<script type="text/javascript">   
+  DD_belatedPNG.fix('.pngfix'); 
+</script>
+<![endif]-->

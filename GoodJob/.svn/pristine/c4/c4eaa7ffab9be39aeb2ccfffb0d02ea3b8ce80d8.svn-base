@@ -1,0 +1,119 @@
+/* 网站内容管理 */
+.right2{ width:800px; float:right;}
+/*主标题*/
+h2{ float:left; line-height:45px; padding-left:20px; color:#454545; font-size:18px; font-family:"微软雅黑"; margin-bottom:20px; font-weight:normal;}
+h2{ _padding-top:10px;}
+h2.bd{ border-bottom:1px solid #e1e1e1; float:none; clear:both; margin:0px 20px 20px; padding:0px;}
+h2.blue{ color:#2677e2;}
+/*另一种主标题*/
+.h22{ clear:both; border-bottom:1px solid #C8C8C8; font-size:14px; color:#333; line-height:30px; height:30px; font-family:"微软雅黑";}
+.h22 b{ display:inline-block; padding:0px 5px; border-bottom:2px solid #ff5e00; line-height:28px; height:28px;}
+/*顶按钮*/
+.top-btns{ float:right; padding:10px 20px 0px 0px; margin-bottom:20px;}
+.top-btns li{ height:30px; line-height:30px; float:left; background-color:#2677e2; color:#fff; font-size:14px; font-weight:bold; padding-right:10px; margin-left:10px;}
+.top-btns li b{ font-size:24px; display:inline-block; float:left; padding-left:10px; width:16px; margin-right:5px;}
+.top-btns li a{ color:#fff;}
+.top-btns li.gray{ background-color:#999;}
+
+/*表格*/
+.table{ clear:both; margin:10px 20px; width:780px; border-collapse:collapse; table-layout:fixed;}
+.table thead th{ background-color:#fafafa; border-bottom:1px solid #dfdfdf; line-height:45px; height:45px; font-size:14px; color:#888; text-align:center; font-weight:normal;}
+/*另一种表格*/
+.table2{ clear:both; font-family:"微软雅黑"; width:800px; border-collapse:collapse; table-layout:fixed; border:1px solid #E6E4E5; margin-top:10px;}
+.table2 th{ background-color:#E6E4E5; font-size:16px; text-align:left; text-indent:1em; color:#333; line-height:40px; font-weight:normal;}
+.table2 caption{ text-align:right; margin-bottom:5px;}
+.table2 caption input{ cursor:pointer; background-color:#2673ec; color:#fff; font-size:16px; width:125px; height:40px; font-family:"微软雅黑"; border:0px;}
+
+.news td{ height:60px; text-align:center; font-family:"微软雅黑"; font-size:14px; color:#333; border-bottom:1px solid #f3f3f3;}
+.news td.first{ text-align:left;}
+.news h3{ white-space:nowrap; overflow:hidden; text-overflow:ellipsis; font-size:14px;}
+.news h3 a{ color:#363636;}
+.news td.last,.news td.last a{ color:#2677e2;}
+.news a:hover{ color:#ff5e00 !important;}
+
+/*静止层*/
+.manage{ width:440px; background-color:#fff; overflow:hidden;}
+.manage h3{ font-size:14px !important;}
+.manage .CenterContent{ padding:20px;}
+.manage label.layout{ display:block; float:left; width:100px; line-height:30px; font-size:16px; text-align:right; color:#666;}
+.manage .text{ width:275px; height:30px; line-height:30px; border:1px solid #c9c9c9; padding:0px 10px;}
+.manage .btns1{ margin:20px 3px; float:right;}
+.manage .btns2{ float:right;}
+.manage var{ width:103px;}
+.manage .btns input{ display:inline-block; width:90px; height:30px; cursor:pointer; font-size:14px; font-family:"微软雅黑"; text-align:center; border:0px; float:left; margin-left:10px;}
+.manage .submit{ background-color:#2677e2; color:#fff;}
+.manage .reset{ background-color:#dcdcdc; color:#333;}
+
+/*栏目列表*/
+.NewsMenus{ clear:both;}
+.NewsMenus label{ display:block; width:25%; float:left; font-size:12px; line-height:40px; font-family:"宋体"; color:#333;}
+.NewsMenus label input{ position:relative; margin-right:5px; top:2px;}
+
+
+/*表单*/
+.form{ clear:both; min-height:340px; _height:340px;}
+.form li{ min-height:35px; padding:10px 0px; width:95%; float:left;}
+.form *{ vertical-align:middle;}
+.form var,.form dfn,.form ins{ display:block; float:left; font-style:normal;}
+.form var{ width:125px; text-align:right; font-size:14px; color:#585858; padding-right:10px; line-height:25px; font-family:"微软雅黑";}
+.form .text{ border:1px solid #dcdcdc; height:25px; line-height:25px; padding:0px 5px;}
+.t-l{ width:380px;}
+.form .half{ width:85px; padding:0px 5px;}
+.form dfn{ width:590px;}
+.form dfn a{ font-size:14px; color:#2354DD;}
+.form .btn{ width:90px; height:30px; text-align:center; border:0px; font-size:14px; font-family:"微软雅黑"; cursor:pointer;}
+.form .submit{ background-color:#2677e2; color:#fff;}
+.form .reset{ background-color:#dcdcdc; color:#333;}
+.form strong{ font-family:Arial, Helvetica, sans-serif; color:#ff5e00; display:inline-block; line-height:30px; font-weight:normal; font-size:14px;}
+.form ins{ font-size:12px; text-decoration:none; line-height:25px; height:25px;}
+.form .a-right{ margin-left:325px;}
+.form .a-right2{ margin-left:475px;}
+
+.upload-tip{ font-size:12px; color:#5b5b5b;}
+.upload-tip b{ color:#f00; font-weight:normal;}
+.upload-view{ width:300px; font-size:0; position:relative;}
+.upload-view img{ width:100%; height:auto;}
+.upload-view code{ position:absolute; left:0; bottom:0; display:block; height:20px; width:100%;}
+.upload-view samp{ display:block; height:20px; background-color:#82b738; color:#fff; line-height:20px; font-size:14px; text-indent:20px;}
+.editor{ width:580px !important; height:430px !important;}
+.editorTip{ width:580px; display:block; text-align:center; font-size:12px; color:#a4a4a4; line-height:40px;}
+
+.button{ background:transparent; border:0px; font-size:12px; color:#999; cursor:pointer;}
+/*幻灯片管理*/
+.ppt td{ white-space:normal; word-break:break-all; padding:20px 1em; border-bottom:1px solid #F7F4F4; font-size:14px;}
+.ppt td a{ color:#2673ec; font-family:"宋体";}
+.ppt td a.url{ color:#333; font-family:Arial, Helvetica, sans-serif;}
+.ppt td a:hover{ color:#ff5e00;}
+.ppt td img{ cursor:pointer;}
+.summary{ font-size:14px; line-height:30px; color:#999; font-family:"微软雅黑"; padding-top:20px;}
+caption .summary{ float:left;}
+
+/*导航栏目管理*/
+.h33{ line-height:50px; color:#ff5e00; font-size:14px; font-family:"微软雅黑";}
+.menu-demo{ line-height:35px; height:35px; background-color:#2064C8; font-size:14px; color:#fff; text-align:center; font-family:"微软雅黑";}
+.menu-demo li{ width:100px; float:left;}
+.menu-demo .active{ color: #FF9000;}
+.menu-manage{}
+.menu-manage th,.menu-manage td{ text-align:center;}
+.menu-manage td{ height:70px; border-bottom:1px solid #F7F4F4; font-size:16px;}
+.menu-manage img{ width:12px; height:12px; cursor:pointer;}
+.menu-manage a{ color:#2673ec;}
+
+/*调整栏目*/
+.CenterTip{ font-size:12px; color:#a4a4a4; font-family:"宋体";}
+.CenterBtns{ margin-top:10px; padding-top:20px; border-top:1px dashed #ccc; clear:both; height:40px;}
+
+/*上传幻灯片*/
+.UploadPPT{ width:430px;}
+.UploadPPT dd{ padding:20px;}
+.CenterUpload{ width:110px; height:35px; border:0px; background-color:#64a4f9; cursor:pointer; color:#fff; font-size:16px; font-family:"微软雅黑"; text-align:center; line-height:35px; display:inline-block; vertical-align:middle;}
+.CenterThumb{ margin:20px 0px; overflow:hidden; position:relative; font-size:0;}
+.CenterThumb code{ position:absolute; left:0; bottom:0; height:20px; display:block; line-height:20px; width:100%;}
+.CenterThumb samp{ background-color:#82b738; color:#fff; text-indent:20px; display:block; font-size:14px;}
+.CenterThumb img{ width:100%;}
+.CenterURL{ padding:10px 0px;}
+.CenterUrl{ width:320px; padding:0 10px; height:35px; border:1px solid #eee; vertical-align:middle;}
+.CenterButtons{ border-top:1px solid #eee; padding:30px 0 10px; text-align:center; margin-top:20px;}
+.CenterButtons input{ width:160px; height:40px; border:1px solid #eee; font-size:16px; cursor:pointer;}
+.CenterButtons .submit{ background-color:#1562c8; color:#fff;}
+.CenterButtons .reset{ background-color:#fff; color:#525252;}

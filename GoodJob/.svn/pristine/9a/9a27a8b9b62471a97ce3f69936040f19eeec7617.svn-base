@@ -1,0 +1,16 @@
+/*2016春节主题*/
+body{
+    background: url(../../images/idx_bg.jpg) no-repeat center top;
+}
+.Banner{
+    width: 1060px!important;
+    margin: 0 auto;
+}
+.HEADER {
+    margin-top: 100px;
+}
+.NAV-EXTRA{
+    width: 1060px;
+    left: 50%;
+    margin-left: -530px;
+}

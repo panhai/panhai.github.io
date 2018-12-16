@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>会员中心-个人设置-账号绑定</title>
+</head>
+<link rel="stylesheet" type="text/css" href="../css/UCenter/css.css">
+<link rel="stylesheet" type="text/css" href="../css/UCenter/setting.css">
+<body>
+<div class="header"><div class="common">
+	<em><a href="#">好工作首页</a></em>
+    <p>
+    	张英，欢迎来到好工作。&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#">安全退出</a>
+        <a href="#">消息</a>
+        <a href="#">帮助</a>
+    </p>
+</div></div>
+<div class="nav"><div class="common">
+	<ul>
+    	<li><a href="#">我的好工作</a></li>
+    	<li><a href="#">简历中心</a></li>
+    	<li><a href="#">投递与反馈<i>2</i></a></li>
+    	<li><a href="#">个人设置</a></li>
+    </ul>
+    <form>
+    	<input type="text" placeholder="搜索职位、公司及更多内容" class="search-text">
+        <input type="submit" value="好工作" class="search-btn">
+    </form>
+</div></div>
+
+<div class="common main">
+    <div class="left">
+    	<ul>
+        	<li>
+            	<strong><img src="../images/UCenter/ico-resume.jpg" width="22" height="16">简历中心</strong>
+                <a href="resume.html">我的简历</a>
+            </li>
+        	<li>
+            	<strong><img src="../images/UCenter/ico-fresh.jpg" width="18" height="24">投递与反馈</strong>
+                <a href="feedback.html">全部投递</a>
+                <a href="feedback-checked.html">简历被查看</a>
+                <a href="feedback-interview.html">通知面试</a>
+                <a href="feedback-sure.html">确认应聘</a>
+                <a href="feedback-notmatch.html">不符合</a>
+            </li>
+        	<li>
+            	<strong><img src="../images/UCenter/ico-cog.jpg" width="21" height="21">个人设置</strong>
+                <a href="setting-bind.html" class="cur">账号绑定</a>
+                <a href="setting-code.html">修改密码</a>
+                <a href="setting-locate.html">我的位置</a>
+            </li>
+        </ul>
+    </div>
+    <div class="right">
+    	<h1>账号绑定</h1>
+        <dl class="set-bind">
+        	<dt>您可以用绑定过的任何一种方式直接登录或找回密码！</dt>
+            <dd><ul>
+            	<li class="ok"><var>手机号已绑定</var><dfn>13545576545</dfn><kbd><a href="setting-bind-mob.html">修改</a></kbd></li>
+            	<li><var>邮箱未绑定</var><dfn>暂无</dfn><kbd><a href="setting-bind-ema.html">绑定</a></kbd></li>
+            	<li><var>微信未绑定</var><dfn>暂无</dfn><kbd><a href="setting-bind-wx.html">绑定</a></kbd></li>
+            </ul></dd>
+        </dl>
+    </div>
+    
+    <div class="clear"></div>
+    
+</div>
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/web/all.js"></script>
+<script>
+$(function(){
+});
+</script>

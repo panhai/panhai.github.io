@@ -1,0 +1,294 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>企业中心-校企合作-已达成合作-已合作职位</title>
+<link rel="stylesheet" type="text/css" href="../css/v2/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/CCenter/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/CCenter/cooperate.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/plugin/CitiesPicker.css">
+</head>
+
+<body>
+<div class="HEADER"><div class="common">
+	<div class="TOP-LOGO"><a href="#"><img src="../images/v2/logo-s.jpg" width="119" height="62"></a></div>
+    <div class="TOP-TOOLS">
+    	Admin, <a href="#">退出</a>&nbsp;&nbsp;&nbsp;<a href="#">个人中心</a>&nbsp;&nbsp;&nbsp;<a href="#">反馈</a>&nbsp;&nbsp;&nbsp;<a href="#">HR帮助</a>
+    </div>
+    <ul class="TOP-NAV">
+    	<li><a href="new-index.html" class="cur">首页</a></li>
+    	<li><a href="new-publish.html">发布职位</a></li>
+    	<li><a href="new-profile.html">企业资料</a></li>
+    	<li><a href="new-hrfavors.html">HR收藏夹</a></li>
+    	<li><a href="new-settings.html">账号管理</a></li>
+    </ul>
+</div></div>
+
+<div class="Main common">
+	<div class="Left">
+    	<a href="new-publish.html" class="Publish">发布新职位</a>
+        <div class="LeftNav">
+            <h3>简历管理</h3>
+            <p>
+                <a href="new-index-resume-newcome.html"><span>未处理简历</span><i>30</i></a>
+                <a href="new-index-resume-invited.html"><span>已邀请面试</span><i>30</i></a>
+                <a href="new-index-resume-confirmed.html"><span>已确认面试</span><i>30</i></a>
+                <a href="new-index-resume-notmatch.html"><span>不合适简历</span><i>30</i></a>
+                <a href="new-index-resume-stores.html"><span>企业人才库</span><i>30</i></a>
+            </p>
+            <h3>职位管理</h3>
+            <p>
+                <a href="new-index-job-published.html"><span>已发布职位</span><i>30</i></a>
+                <a href="new-index-job-checking.html"><span>审核中职位</span><i>30</i></a>
+                <a href="new-index-job-stopped.html"><span>已暂停职位</span><i>30</i></a>
+            </p>
+            <h3>校企合作</h3>
+            <p>
+                <a href="new-index-cooperate.html"><span>学校合作邀请</span><i>30</i></a>
+                <a href="new-index-cooperate-sent.html"><span>发出的邀请</span><i>30</i></a>
+                <a href="new-index-cooperate-received.html"><span>收到的申请</span><i>30</i></a>
+                <a href="new-index-cooperate-schools.html" class="cur"><span>已达成合作</span><i>30</i></a>
+            </p>
+        </div>
+    </div>
+	<div class="Right">
+        <dl class="Intro">
+            <dt class="margin">
+                <h1>已达成合作<small>（共6份）</small></h1>
+                <a href="#" class="refresh">刷新</a>
+            </dt>
+        </dl>
+        <div class="Topics">
+        	<h2><a href="new-index-cooperate-schools.html">已合作学校</a></h2>
+        	<h2><a href="new-index-cooperate-jobs.html" class="cur">已合作职位</a></h2>
+        </div>
+        <div class="Filters">
+            <input type="button" class="submit" value="">
+            <pre class="text-container"><input type="text" class="text" placeholder="请输入关键词" data-init="true"></pre>
+            <dl class="SELECT Types">
+                <input type="hidden" value="0">
+                <dt><span></span><i></i></dt>
+                <dd class="normal single">
+                	<a data-id="0">所有部门</a>
+                	<a data-id="1">研发部</a>
+                	<a data-id="2">产品部</a>
+                	<a data-id="3">营销部</a>
+                </dd>
+            </dl>
+            <dl class="SELECT Types">
+                <input type="hidden" value="0">
+                <dt><span></span><i></i></dt>
+                <dd class="normal single">
+                	<a data-id="0">全部类型</a>
+                	<a data-id="1">全职</a>
+                	<a data-id="2">兼职</a>
+                	<a data-id="3">实习</a>
+                </dd>
+            </dl>
+        </div>
+        
+        <div class="Query"><!--无查询串就不放这块-->
+        	<a href="#">返回全部&gt;</a>
+            这里边放时间、关键字，共搜索到3份简历
+        </div>
+        <div class="Nothing">
+        	<p><img src="../images/v2/nothing.png" width="176" height="148"></p>
+        	<p>暂无记录</p>
+        </div>
+        <ul class="Infors">
+        	<li>
+            	<div class="job">
+                	<h4><a href="job-new.html">平面设计师</a><i>100</i></h4>
+                    <p>月薪：<b>5000-7000</b>&nbsp;&nbsp;&nbsp;&nbsp;经验：<b>1-3年</b>&nbsp;&nbsp;&nbsp;&nbsp;学历：<b>大专</b></p>
+                    <p>刷新时间：<b>2015-1-26   09:30</b></p>
+                </div>
+                <div class="options"><a href="javascript:void(0)" data-id="1">3所合作学校<i></i></a></div>
+            </li>
+        	<li>
+            	<div class="job">
+                	<h4><a href="job-new.html">平面设计师</a><i>100</i></h4>
+                    <p>月薪：<b>5000-7000</b>&nbsp;&nbsp;&nbsp;&nbsp;经验：<b>1-3年</b>&nbsp;&nbsp;&nbsp;&nbsp;学历：<b>大专</b></p>
+                    <p>刷新时间：<b>2015-1-26   09:30</b></p>
+                </div>
+                <div class="options"><a href="javascript:void(0)" data-id="2">3所合作学校<i></i></a></div>
+            </li>
+        	<li>
+            	<div class="job">
+                	<h4><a href="job-new.html">平面设计师</a><i>100</i></h4>
+                    <p>月薪：<b>5000-7000</b>&nbsp;&nbsp;&nbsp;&nbsp;经验：<b>1-3年</b>&nbsp;&nbsp;&nbsp;&nbsp;学历：<b>大专</b></p>
+                    <p>刷新时间：<b>2015-1-26   09:30</b></p>
+                </div>
+                <div class="options"><a href="javascript:void(0)" data-id="3">3所合作学校<i></i></a></div>
+            </li>
+        </ul>
+        <div class="PAGES">
+        	<a href="#">首页</a>
+        	<a href="#">上一页</a>
+        	<a href="#" class="cur">1</a>
+        	<a href="#">2</a>
+        	<a href="#">3</a>
+        	<a href="#">下一页</a>
+        	<a href="#">尾页</a>
+        </div>
+	</div>
+	<div class="clear"></div>
+</div>
+
+<table class="FullScreenPlugin fixed fixed-top CenterDivContainer"><tr><td>
+	<dl class="CENTERDIV CenterLarge SchoolsLists" data-active=".options a" data-attrs="id">
+    	<dt class="CENTERTOPIC">
+        	<b>正在合作中</b>
+        	<b>已取消合作</b>
+            <q></q>
+        </dt>
+        <dd class="CENTERCONTENT">
+        	<input type="hidden" data-attr="id"><!--这里放的是职位的ID-->
+        	<div class="SchoolsList">
+            	<div class="list"><!--<label>
+                	<input type="checkbox" name="" value="">
+                    <span>一个正在合作中的学校</span>
+                    <samp>合作时间：2015-04-25</samp>
+                </label>--></div>
+                <div class="option">
+                	<label><input type="checkbox">全选</label>
+                    <samp>共10个</samp>
+                    <input type="button" class="close" value="关闭">
+                    <input type="button" class="confirm" value="取消合作">
+                </div>
+            </div>
+        	<div class="SchoolsList">
+            	<div class="list"><!--<label>
+                	<input type="checkbox" name="" value="">
+                    <span>一个正在合作中的学校</span>
+                    <samp>合作时间：2015-04-25</samp>
+                </label>--></div>
+                <div class="option">
+                	<label><input type="checkbox">全选</label>
+                    <samp>共10个</samp>
+                    <input type="button" class="close" value="关闭">
+                    <input type="button" class="confirm" value="删除">
+                </div>
+            </div>
+            </div>
+        </dd>
+    </dl>
+</td></tr></table>
+
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/v2/all.js"></script>
+<script src="../js/area.js"></script>
+<script src="../js/plugin/CitiesPicker.js"></script>
+<script src="../js/effect/bg.js"></script>
+<script src="../js/plugin/CenterDiv.js"></script>
+<script src="../js/effect/tab.js"></script>
+<script>
+$(function(){
+	//新增图标效果
+	$(".Schools2 h3").find("ins,kbd").hover(function(){
+		$(this).addClass("on");
+	},function(){
+		$(this).removeClass("on");
+	});
+
+	CHItab(".SchoolsLists","dt b","dd .SchoolsList",{way:'click'});
+	//点击学校列表链接，打开弹窗，初始化第一标签，点击第二标签再初始化第二标签
+	var LastSchoolId;
+	var schools=[
+		{
+			id:123,
+			name:'某个学校1',
+			time:'2015-04-25'
+		},
+		{
+			id:234,
+			name:'某个学校2',
+			time:'2015-04-24'
+		},
+		{
+			id:345,
+			name:'某个学校3',
+			time:'2015-04-23'
+		}
+	];
+	//向列表容器填充学校列表，index为容器索引，0是正在合作的，1是取消合作的
+	function fill(index){
+		var key=(index?'取消时间':'合作时间') + '：',
+			container=$(".SchoolsList").eq(index),
+			str='共'+ schools.length +'个';
+		container.find(".list")
+			.empty()
+			.html(function(){
+				var str=[]
+				for(var n=0; n<schools.length; n++)
+					str.push('<label>',
+						'<input type="checkbox" name="schools_cooperating" value="', schools[n].id ,'">',
+						'<span>',schools[n].name,'</span>',
+						'<samp>', key, schools[n].time ,'</samp>',
+					'</label>');
+				return str.join('');
+			});
+		//写入个数统计，取消全选框
+		container.find(".option samp").html(str)
+			.end().find("label.checked").removeClass("checked").find("input").prop('checked',false);
+	}
+	function loadCancels()
+	{
+		//异步调用已取消合作的学校列表
+		var id=LastSchoolId;
+		fill(1);//对应的success方法内容
+	}
+	$(".options a").click(function(){
+		var id=$(this).data("id");
+		//如果与上次学校ID一致则不更新
+		if(LastSchoolId==id) return;
+		LastSchoolId=id;
+		//先调出正在合作中的学校列表
+		fill(0);//异步调用正在合作学校列表的success方法内容
+		$(".SchoolsLists .CENTERTOPIC b:eq(0)").click();
+		//点击“已取消合作”时，解绑之前的事件行为，重新绑定一次性点击事件，来更新学校列表
+		$(".SchoolsLists .CENTERTOPIC b:eq(1)").off('click',loadCancels).one('click',loadCancels);
+	});
+	Boxes(".SchoolsLists");
+	$(".SchoolsLists .option").find("label").click(function(){
+		var THIS=this;
+		setTimeout(function(){
+			var bool=$(THIS).hasClass("checked"),
+				act=bool ? 'addClass':'removeClass';
+			$(THIS).closest(".SchoolsList").find(".list label").each(function(index, element) {
+                $(this)[act]("checked").find("input").prop("checked",bool);
+            });
+		},10);
+	}).end()
+	.find(".confirm").click(function(){
+		var tip=this.value,
+			THIS=this;
+		var ids=$(this).closest(".SchoolsList").find(".list :checked").map(function(index, element) {
+            return this.value;
+        }).get();
+		var len=ids.length;
+		ids=ids.join(',');
+		if(!ids) ALERT('错误提示','<h5>没有选中任何学校</h5>');
+		else
+		{
+			var content=tip=='删除' ? '真的要删除这些信息吗？':'真的要与这些学校取消合作吗？';
+			//删除信息的过程 
+			function inforDelete(){
+				alert("删除"+ids+"信息");
+			}
+			//取消合作的过程
+			function disOperate(){
+				alert("与"+ids+"解约");
+			}
+			var onsubmit=tip=='删除' ? inforDelete : disOperate;
+			CONFIRM(tip,'<h5>'+ content +'</h5><p>一共选择了<strong>'+ len +'</strong>所学校</p>',tip,onsubmit,'再考虑一下');
+		}
+	}).end()
+	.find(".close").click(function(){
+		$(this).closest(".CENTERDIV").find(".CENTERTOPIC q").click();
+	});
+});
+$(window).load(function(){
+});
+</script>

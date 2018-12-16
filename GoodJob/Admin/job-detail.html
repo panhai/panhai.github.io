@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>好工作运营后台-某个职位-职位信息</title>
+</head>
+<link rel="stylesheet" type="text/css" href="../css/v2/admin/all.css">
+
+<body>
+<header class="clear">
+	<img src="../images/v2/logo-s.png" width="119" height="62">
+    <em>后台管理系统</em>
+    <p>
+    	<a href="#"><i><img src="../images/v2/nophoto.png" width="30" height="30"></i><span>用户名称</span></a>
+        <a href="#">安全退出</a>
+    </p>
+</header>
+<nav>
+	<li><a href="index.html">首页</a></li>
+	<li><a href="companies.html">企业管理</a></li>
+	<li><a href="schools.html">院校管理</a></li>
+	<li><a href="users.html">用户管理</a></li>
+	<li class="cur"><a href="jobs.html">职位管理</a></li>
+	<li><a href="resumes.html">简历管理</a></li>
+	<li><a href="servers.html">客服系统</a></li>
+	<li><a href="moneys.html">财务系统</a></li>
+	<li><a href="system.html">系统管理</a></li>
+</nav>
+
+<!--<menu>
+	<li class="cur"><a href="companies.html">全部企业</a></li>
+	<li><a href="companies-rpo.html">RPO企业</a></li>
+	<li><a href="companies-done.html">已合作</a></li>
+	<li><a href="companies-check.html">待审核</a></li>
+	<li><a href="companies-down.html">被下架</a></li>
+	<li><a href="company-edit.html">添加企业/RPO</a></li>
+</menu>-->
+
+<ol class="SubMenu">
+	<li class="user">职位名称职位名称职位名称</li>
+	<li class="cur"><a href="job-detail.html">职位信息</a></li>
+	<li><a href="job-posts.html">简历投递统计</a></li>
+</ol>
+
+<div class="Filter"><table>
+	<tr>
+    	<th width="7%">职位名称：</th><td width="26%">
+        	职位名称
+        </td>
+    	<th width="7%">职位类型：</th><td width="26%">
+        	全职
+        </td>
+    	<th width="7%">职位类别：</th><td width="26%">
+        	IT技术
+        </td>
+    </tr>
+    <tr>
+    	<th>招聘人数：</th><td>
+        	10人
+        </td>
+    	<th>每月薪资：</th><td>
+        	6000-8000
+        </td>
+    	<th>学历要求：</th><td>
+        	本科
+        </td>
+    </tr>
+    <tr>
+    	<th>工作年限：</th><td>
+        	3年
+        </td>
+    	<th>所属部门：</th><td>
+        	研发部
+        </td>
+    	<th>工作地点：</th><td>
+        	广东-广州-天河
+        </td>
+    </tr>
+    <tr>
+    	<th>详细地址：</th><td>
+        	详细地址详细地址详细地址详细地址
+        </td>
+    	<th>福利标签：</th><td colspan="3">
+        	五险一金 带薪年假 股票行 五险一金 带薪年假 股票行权权
+        </td>
+    </tr>
+    <tr class="intro valign-top">
+        <th>详细描述：</th><td colspan="5">
+            <p>　　详细描述详细描述详细描述详细描述详细描述详细描述详细描述详细描述详细描述详细描述详细描述详细描述详细描述详细描述详细描述详细描述详细描述详细描述详细描述详细描述详细描述</p>
+            <p>　　详细描述详细描述详细描述详细描述详细描述详细描述详细描述详细描述详细描述详细描述详细描述详细描述详细描述详细描述详细描述详细描述详细描述详细描述详细描述详细描述详细描述详细描述详细描述详细描述详细描述详细描述</p>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="6" class="btns">
+        	<a href="job-edit.html" class="submit">编辑</a>
+            <input type="button" class="submit" value="通过审核">
+            <input type="button" class="reset" value="审核不通过">
+        </td>
+    </tr>
+</table></div>
+
+
+
+</body>
+</html>
+<script src="../js/v2/admin/jquery2.js"></script>
+<script src="../js/jbody.js"></script>
+<script src="../js/jbody-plugin.js"></script>
+<script src="../js/area.js"></script>
+<script src="../js/subjects.js"></script>
+<script src="../js/v2/admin/all.js"></script>
+<script>
+$(".btns .reset").click(function(){
+	CONFIRM(this,{
+		topic:'审核不通过',
+		content:'<textarea class="ConfirmTextarea" placeholder="填写审核不通过原因"></textarea>',
+		onconfirm:function(){}
+	});
+});
+</script>

@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>账号管理-1</title>
+    <meta name=viewport content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="../css/all.css" />
+    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+    <link href="../css/layerskin/default/layer.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="head-navgater">
+        <div class="rightCenter">
+            <div class="setting">
+                <a href="javascript:void(0)" >设置</a>
+            </div>
+
+            <div class="feed_back">
+                <a href="javascript:void(0)" >我要反馈</a>
+            </div>
+
+            <div class="information">
+                <span class="icon"></span>
+            </div>
+
+            <div class="news">
+                <span class="icon"></span>
+            </div>
+
+
+            <div class="search">
+                <input type="text" value="" placeholder="搜求职者" class="search_txet">
+                <span class="icon"></span>
+                <div class="history-layer">
+                    <a href="javascript:void(0)" >
+                        <i>咨询学员</i>
+                        <span>"啊啊啊啊"</span>
+                    </a>
+
+                    <a href="javascript:void(0)" >
+                        <i>报名学员</i>
+                        <span>"啊啊啊啊"</span>
+                    </a>
+
+                    <a href="javascript:void(0)" >
+                        <i>班级</i>
+                        <span>"啊啊啊啊"</span>
+                    </a>
+
+                    <a href="javascript:void(0)" >
+                        <i>课程</i>
+                        <span>"啊啊啊啊"</span>
+                    </a>
+
+                    <a href="javascript:void(0)" >
+                        <i>教师</i>
+                        <span>"啊啊啊啊"</span>
+                    </a>
+
+                    <a href="javascript:void(0)" >
+                        <i>帮助文档</i>
+                        <span>"啊啊啊啊"</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="left-navgater">
+        <div class="logoBox">
+            <a href="javascript:void(0)"  class="changeArrow">
+                <i></i>
+            </a>
+            <span class="logo_msg">管理系统</span>
+        </div>
+
+        <div class="school-infor">
+            <div class="inforBox cur">
+                <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2114797134,526769156&fm=26&gp=0.jpg" alt="">
+            </div>
+            <div class="inforBox">
+                <p>迪丽热巴</p>
+                <p>早上好</p>
+            </div>
+        </div>
+
+        <div class="nav">
+            <a href="javascript:void(0)"  class="">
+                <i class="position1"></i>
+                <span>工作台</span>
+            </a>
+
+            <div class="option ">
+                <i class="position2"></i>
+                <span>招生宣传</span>
+                <b></b>
+
+                <div class="midLa">
+                    <a href="招生宣传-微营销-微官网-1.html" class="" >微营销</a>
+                    <a href="招生宣传-校+推广-1.html"   class="">校+推广</a>
+                    <a href="招生宣传-会员推广-1.html"  class="">会员推广</a>
+                    <a href="招生宣传-SEO推广-1.html"  class="">SEO推广</a>
+                    <a href="招生宣传-渠道管理.html"  class="">渠道管理</a>
+                </div>
+            </div>
+
+            <a href="咨询管理-全部咨询.html"  class="">
+                <i class="position3"></i>
+                <span>咨询管理</span>
+            </a>
+            <a href="学员管理-全部学员.html"  class="">
+                <i class="position4"></i>
+                <span>学员管理</span>
+            </a>
+            <a href="教务管理-班级管理.html"  class="">
+                <i class="position5"></i>
+                <span>教务管理</span>
+            </a>
+            <a href="财务管理-1.html"  class="">
+                <i class="position6"></i>
+                <span>财务管理</span>
+            </a>
+            <a href="就业中心-1.html"  class="">
+                <i class="position7"></i>
+                <span>就业中心</span>
+            </a>
+            <a href="校+创收-1.html"  class="">
+                <i class="position8"></i>
+                <span>校+联盟</span>
+            </a>
+            <a href="学校设置-账号管理.html"  class="cur">
+                <i class="position9"></i>
+                <span>学校设置</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="left-small-navgater">
+        <div class="logoBox">
+            <a href="javascript:void(0)"  class="changeArrow">
+                <i></i>
+            </a>
+        </div>
+
+        <div class="school-infor">
+            <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2114797134,526769156&fm=26&gp=0.jpg" alt="">
+        </div>
+
+        <div class="small-nav">
+            <div class="nav-url">
+                <div class="url-icon position1"></div>
+
+                <div class="moveLayer">
+                    <i></i>
+                    <a href="javascript:void(0)" >控制台</a>
+                </div>
+            </div>
+
+            <div class="nav-url">
+                <div class="url-icon position2"></div>
+
+                <div class="moveLayer">
+                    <i></i>
+                    <a href="javascript:void(0)" >好学校</a>
+                    <a href="javascript:void(0)" >微官网</a>
+                    <a href="javascript:void(0)" >微营销</a>
+                    <a href="javascript:void(0)" >微活动</a>
+                </div>
+            </div>
+
+            <div class="nav-url">
+                <div class="url-icon position3"></div>
+
+                <div class="moveLayer">
+                    <i></i>
+                    <a href="javascript:void(0)" >咨询管理</a>
+                    <a href="javascript:void(0)" >今日跟进</a>
+                    <a href="javascript:void(0)" >到访记录</a>
+                    <a href="javascript:void(0)" >跟进统计</a>
+                </div>
+            </div>
+
+            <div class="nav-url">
+                <div class="url-icon position4"></div>
+
+                <div class="moveLayer">
+                    <i></i>
+                    <a href="javascript:void(0)" >全部学员</a>
+                    <a href="javascript:void(0)" >在读学员</a>
+                    <a href="javascript:void(0)" >毕业学员</a>
+                    <a href="javascript:void(0)" >学员统计</a>
+                </div>
+            </div>
+
+            <div class="nav-url">
+                <div class="url-icon position5"></div>
+
+                <div class="moveLayer">
+                    <i></i>
+                    <a href="javascript:void(0)" >排课管理</a>
+                    <a href="javascript:void(0)" >班级管理</a>
+                    <a href="javascript:void(0)" >课程管理</a>
+                    <a href="javascript:void(0)" >教师管理</a>
+                </div>
+            </div>
+
+            <div class="nav-url">
+                <div class="url-icon position6"></div>
+
+                <div class="moveLayer">
+                    <i></i>
+                    <a href="javascript:void(0)" >排课管理</a>
+                    <a href="javascript:void(0)" >班级管理</a>
+                    <a href="javascript:void(0)" >课程管理</a>
+                    <a href="javascript:void(0)" >教师管理</a>
+                </div>
+            </div>
+
+            <div class="nav-url">
+                <div class="url-icon position7"></div>
+
+                <div class="moveLayer">
+                    <i></i>
+                    <a href="javascript:void(0)" >排课管理</a>
+                    <a href="javascript:void(0)" >班级管理</a>
+                    <a href="javascript:void(0)" >课程管理</a>
+                    <a href="javascript:void(0)" >教师管理</a>
+                </div>
+            </div>
+
+            <div class="nav-url">
+                <div class="url-icon position8"></div>
+                <div class="moveLayer">
+                    <i></i>
+                    <a href="javascript:void(0)" >排课管理</a>
+                    <a href="javascript:void(0)" >班级管理</a>
+                    <a href="javascript:void(0)" >课程管理</a>
+                    <a href="javascript:void(0)" >教师管理</a>
+                </div>
+
+            </div>
+
+            <div class="nav-url">
+                <div class="url-icon position9"></div>
+
+                <div class="moveLayer">
+                    <i></i>
+                    <a href="javascript:void(0)" >排课管理</a>
+                    <a href="javascript:void(0)" >班级管理</a>
+                    <a href="javascript:void(0)" >课程管理</a>
+                    <a href="javascript:void(0)" >教师管理</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="right-content">
+
+        <div class="content-nav">
+            <a href="javascript:void(0)"  class="cur">
+                <span>账号管理</span>
+                <i></i>
+            </a>
+
+            <a href="学校设置-校区设置.html"  class="">
+                <span>校区设置</span>
+                <i></i>
+            </a>
+            <a href="学校设置-基本信息.html"  class="">
+                <span>基本信息</span>
+                <i></i>
+            </a>
+            <a href="学校设置-属性配置.html"  class="">
+                <span>属性配置</span>
+                <i></i>
+            </a>
+            <a href="学校设置-短信充值.html"  class="">
+                <span>短信充值</span>
+                <i></i>
+            </a>
+            <a href="学校设置-操作日志.html"  class="">
+                <span>操作日志</span>
+                <i></i>
+            </a>
+        </div>
+
+        <div class="content-layer">
+            <div class="general-layer">
+                <div class="general-top">
+                    <div class="num-data">共<span>2</span>个账号</div>
+
+                    <div class="select-and-plus">
+                        <a href="javascript:void(0)"  class="plus plus-number-select">+新增账号</a>
+                        <input type="submit" value="查询" class="sub"/>
+                        <input type="text" placeholder="输入姓名、手机、邮箱查询" class="selecttt"/>
+                    </div>
+                </div>
+
+               <div class="account-table">
+                   <table>
+                       <thead>
+                            <tr>
+                                <th style="min-width: 330px">姓名</th>
+                                <th style="min-width: 100px">所属校区</th>
+                                <th style="min-width: 160px;max-width: 200px">角色权限</th>
+                                <th style="min-width: 140px">最近登录</th>
+                                <th style="min-width: 150px">操作</th>
+                            </tr>
+                       </thead>
+                       
+                       <tbody>
+                            <tr>
+                                <td style="max-width: 450px">
+                                    <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2114797134,526769156&fm=26&gp=0.jpg" alt="">
+
+                                    <a href="javascript:void(0)"  class="yes"></a>
+
+                                    <div class="middle-menu">
+                                            <a href="javascript:void(0)" >李娉婷-（HR）</a>
+                                            <p>
+                                                <span>手机：15896522152 </span>
+                                                <span>手机：15896522152 </span>
+                                            </p>
+                                        </div>
+                                </td>
+                                <td>
+                                    <span>全部校区</span>
+                                </td>
+                                <td style="max-width: 200px">
+                                    <span>招生宣传</span>
+                                </td>
+                                <td>
+                                    <span>2018-08-12 12:12</span>
+                                </td>
+                                <td>
+                                    <a href="javascript:void(0)"  class="permission">权限</a>
+                                    <a href="javascript:void(0)"  class="reset">重置密码</a>
+                                    <a href="javascript:void(0)"  class="delete">删除</a>
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td style="max-width: 450px">
+                                    <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2114797134,526769156&fm=26&gp=0.jpg" alt="">
+
+                                    <a href="javascript:void(0)"  class="no"></a>
+
+                                    <div class="middle-menu">
+                                        <a href="javascript:void(0)" >李娉婷-（HR）</a>
+                                        <p>
+                                            <span>手机：15896522152 </span>
+                                            <span>手机：15896522152 </span>
+                                            <span>手机：15896522152 </span>
+                                            <span>手机：15896522152 </span>
+                                            <span>手机：15896522152 </span>
+                                        </p>
+
+                                    </div>
+                                </td>
+                                <td>
+                                    <span>全部校区</span>
+                                </td>
+                                <td style="max-width: 200px">
+                                    <span>招生宣传、咨询管理、教务管理、
+财务管理、就业中心</span>
+                                </td>
+                                <td>
+                                    <span>2018-08-12 12:12</span>
+                                </td>
+                                <td>
+                                    <a href="javascript:void(0)"  class="permission">权限</a>
+                                    <a href="javascript:void(0)"  class="reset">重置密码</a>
+                                    <a href="javascript:void(0)"  class="delete">删除</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="max-width: 450px">
+                                    <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2114797134,526769156&fm=26&gp=0.jpg" alt="">
+
+                                    <a href="javascript:void(0)"  class="no"></a>
+
+                                    <div class="middle-menu">
+                                        <a href="javascript:void(0)" >李娉婷-（HR）</a>
+                                        <p>
+                                            <span>手机：15896522152 </span>
+                                            <span>手机：15896522152 </span>
+                                            <span>手机：15896522152 </span>
+                                            <span>手机：15896522152 </span>
+                                            <span>手机：15896522152 </span>
+                                        </p>
+
+                                    </div>
+                                </td>
+                                <td>
+                                    <span>全部校区</span>
+                                </td>
+                                <td style="max-width: 200px">
+                                    <span>招生宣传、咨询管理、教务管理、
+财务管理、就业中心</span>
+                                </td>
+                                <td>
+                                    <span>2018-08-12 12:12</span>
+                                </td>
+                                <td>
+                                    <a href="javascript:void(0)"  class="permission">权限</a>
+                                    <a href="javascript:void(0)"  class="reset">重置密码</a>
+                                    <a href="javascript:void(0)"  class="delete">删除</a>
+                                </td>
+                            </tr>
+                       </tbody>
+                   </table>
+               </div>
+            </div>
+        </div>
+    </div>
+
+    <!--添加账号-->
+    <div class="plus-number" id="plus-number">
+
+        <div class="fill-in-box ml34">
+            <div class="fill-name tar">
+                姓名：
+            </div>
+
+            <div class="fill-data">
+                <input type="text"  class="fill-text name-for">
+            </div>
+
+            <span class="field-validation-error" data-valmsg-for="FullName" data-valmsg-replace="true"><span for="FullName" class="">信息不能为空</span></span>
+        </div>
+
+        <div class="fill-in-box ml34">
+            <div class="fill-name tar">
+                手机：
+            </div>
+
+            <div class="fill-data">
+                <input type="text"  class="fill-text">
+            </div>
+
+            <span class="field-validation-error" data-valmsg-for="FullName" data-valmsg-replace="true"><span for="FullName" class="">信息不能为空</span></span>
+        </div>
+
+
+        <div class="fill-in-box ml34">
+            <div class="fill-name tar">
+                校区：
+            </div>
+
+            <div class="fill-data">
+                <dl class="SELECT MultiSEL comment" data-placeholder="请选择">
+                    <input type="hidden" value="" autocomplete="off">
+                    <dt><span title="">请选择</span><i></i></dt>
+                    <dd class="normal maxHeight">
+                        <div class="Multiselect">
+                            <p class="multilist ">
+                                <a href="javascript:void(0)" data-id="0" class="unlimited ">全部校区</a>
+                            </p>
+                            <p class="multilist state">
+                                <a href="javascript:void(0)" data-id="1" class="cur">天河校区</a>
+                                <a href="javascript:void(0)" data-id="2" class="cur">天河校区</a>
+                                <a href="javascript:void(0)" data-id="3" class="cur">天河校区</a>
+                                <a href="javascript:void(0)" data-id="4" class="cur">天河校区</a>
+                            </p>
+                            <p class="option_btn">
+                                <input type="submit" value="确认" class="c_confirm">
+                                <span class="c_cancel">取消</span>
+                            </p>
+                        </div>
+                    </dd>
+                </dl>
+            </div>
+            <span class="field-validation-error" data-valmsg-for="FullName" data-valmsg-replace="true"><span for="FullName" class="">信息不能为空</span></span>
+        </div>
+
+        <div class="fill-in-box ml34">
+            <div class="fill-name tar">
+                角色：
+            </div>
+
+            <div class="fill-data">
+                <div class="fill-product">
+                    <a href="javascript:void(0)" >招生宣传</a>
+                    <a href="javascript:void(0)" >招生宣传</a>
+                    <a href="javascript:void(0)" >招生宣传</a>
+                    <a href="javascript:void(0)" >招生宣传</a>
+                    <a href="javascript:void(0)" >招生宣传</a>
+                    <a href="javascript:void(0)" >招生宣传</a>
+                    <a href="javascript:void(0)" >招生宣传</a>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="submitBtn ml112 mt0">
+            <a href="javascript:void(0)" class="cur ">确认</a>
+            <a href="javascript:void(0)" class="">取消</a>
+        </div>
+    </div>
+
+    <!--重置密码-->
+    <div class="plus-number" id="set-pw">
+
+        <div class="fill-in-box ml34">
+            <div class="fill-name tar">
+                新密码：
+            </div>
+
+            <div class="fill-data">
+                <input type="text"  class="fill-text ">
+            </div>
+        </div>
+
+        <div class="fill-in-box ml34">
+            <div class="fill-name tar">
+                新密码：
+            </div>
+
+            <div class="fill-data">
+                <input type="text"  class="fill-text">
+            </div>
+        </div>
+
+
+
+
+        <div class="submitBtn ml112">
+            <a href="javascript:void(0)" class="cur">确认</a>
+            <a href="javascript:void(0)" class="">取消</a>
+        </div>
+    </div>
+
+    <!--绑定微信-->
+    <div class="bind-vx" id="bind-vx">
+        <img src="" alt="">
+        <p>请用微信扫码，进行账号绑定</p>
+    </div>
+
+
+    <script src="../js/jquery.js"></script>
+<script src="../js/layer.js"></script>
+<script src="../js/plugin/select.js"></script>
+<script src="../js/all.js"></script>
+<script src="../js/My97DatePicker/WdatePicker.js"></script>
+<script>
+    VitaeSource();
+    Vitaeclick();
+
+    $(".account-table tbody td:first-child>a").click(function () {
+        layer.open({
+            title: '绑定微信',
+            type: 1,
+            area: '478px',
+            skin: '',
+            content: $('#bind-vx')
+        });
+    })
+
+    $(".plus-number-select").click(function () {
+        layer.open({
+            title: '添加账号',
+            type: 1,
+            area: '668px',
+            skin: '',
+            content: $('#plus-number')
+        });
+    });
+
+    $(".reset").click(function () {
+        layer.open({
+            title: '重置密码',
+            type: 1,
+            area: '488px',
+            skin: '',
+            content: $('#set-pw')
+        });
+    });
+
+
+    $(".fill-product a").click(function () {
+        if($(this).hasClass("cur")){
+            $(this).removeClass("cur");
+        }else {
+            $(this).addClass("cur");
+        }
+    })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>

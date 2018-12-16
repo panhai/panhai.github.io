@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>企业中心-开通服务-失败</title>
+<link rel="stylesheet" type="text/css" href="../css/v2/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/CCenter/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/CCenter/open-service.css">
+</head>
+
+<body>
+<div class="HEADER"><div class="common">
+	<div class="TOP-LOGO"><a href="#"><img src="../images/v2/logo-s.jpg" width="119" height="62"><img src="../images/v2/openservice.gif" width="170" height="27"></a></div>
+    <div class="TOP-TOOLS">
+    	Admin, <a href="#">退出</a>&nbsp;&nbsp;&nbsp;<a href="#">个人中心</a>&nbsp;&nbsp;&nbsp;<a href="#">反馈</a>&nbsp;&nbsp;&nbsp;<a href="#">HR帮助</a>
+    </div>
+</div></div>
+
+<div class="Main common">
+	<div class="TOPIC">开通招聘服务</div>
+    <div class="Content">
+    	<p>&nbsp;</p>
+        <h4>感谢您使用好工作：</h4>
+        <p>您提交的<em>广州冠鹏信息技术有限公司</em>等资料审核不通过。</p>
+        <p>原因是：<b>请您重新上传加盖公司红色公章的营业执照，部分信息填写不完整。</b></p>
+        <p>请修改后再次提交审核，如有疑问，请致电客户热线：020-28977426</p>
+        <a href="new-edit.html" class="submit">修改企业资料</a>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.box{
+				width: 300px;
+				height: 0px;
+				border: 1px solid deeppink;
+				position: fixed;
+				right: -300px;
+				bottom: 8px;
+				text-align: center;
+				line-height: 500px;
+				/*display: none;*/
+			}
+			.close{
+				position: absolute;
+				right: 8px;
+				top: 8px;
+				display: inline-block;
+				width: 40px;
+				height: 30px;
+				line-height: 30px;
+				text-align: center;
+				background-color: green;
+				color: #fff;
+				font-size: 18px;
+				font-weight: bold;
+				cursor: pointer;
+			}
+			.sp{
+				font-size: 30px;
+				font-weight: bold;
+				color: #C09853;
+			}
+			.show{
+				position: absolute;
+				left: -83px;
+				bottom: 5px;
+				display: inline-block;
+				background-color: pink;
+				width: 80px;
+				height: 30px;
+				line-height: 30px;
+				display: none;
+				cursor: pointer;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<div class="box">
+			<span class="close">X</span>
+			<span class="sp">广告信息</span>
+			<span class="show">显示广告</span>
+		</div>
+		
+		
+		
+		<script src='jquery 1.9.1.js'></script>
+		<script type="text/javascript">
+			$(function(){
+				$('.box').animate({right:4},500)
+				$('.box').animate({height:500},500)
+				
+				//关闭
+				$('.close').click(function(){
+					$('.box').animate({height:0},500)
+					$('.box').animate({right:-300},500,function(){
+						$('.show').show()
+					})
+				})
+				//显示
+				$('.show').click(function(){
+					$('.box').animate({right:4},500)
+					$('.box').animate({height:500},500,function(){
+						$('.show').hide()
+					})
+				})
+				
+			})
+		</script>
+	</body>
+</html>

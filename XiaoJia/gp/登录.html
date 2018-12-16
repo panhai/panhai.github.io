@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>登录</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/validate.css">
+    <style>
+        body{
+            background-color: #f9fbfd;
+        }
+        .golin{
+
+        }
+        .golin_top{
+            height: 52px;
+            line-height: 52px;
+            background-color: #fcfcfc;
+            box-shadow: 0px 2px 6px 0px #e8f0f8;
+            clear: both;
+        }
+        .golin_top>img{
+            margin-left: 19px;
+        }
+        .golin_top img,.golin_top span{
+            vertical-align: middle;
+        }
+        .golin_top>span{
+            font-size: 16px;
+            color: #666666;
+            position: relative;
+            top: 6px;
+            left: 9px;
+        }
+        .phone{
+            float: right;
+            text-align: left;
+            line-height: 52px;
+            height: 52px;
+            margin-right: 35px;
+        }
+        .phone img,.phone span{
+            vertical-align: middle;
+            margin-right: 9px;
+        }
+        .golin_top_box{
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            width: 353px;
+            height: 404px;
+            background-color: #ffffff;
+            box-shadow: 0px 1px 6px 0px 
+                rgba(224, 224, 224, 0.75);
+            border-radius: 4px;
+            padding: 50px 42px 60px 42px;
+            box-sizing: border-box;
+        }
+        .golin_top_box .title{
+            color: #066cbd;
+            font-weight: 900;
+            font-size: 18px;
+            margin-bottom: 17px;
+        }
+        .in_e .field-validation-error{
+            display: block;
+            width: 380px;
+            padding-left: 25px;
+            text-align: left;
+            margin: 0;
+            background: url(../images/warning-1.png) no-repeat 0px 50%;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            color: #fb6f12 !important;
+        }
+        .field-validation-error span{
+            color: #fb6f12 !important;
+        }
+        .inp{
+            width: 272px;
+            height: 44px;
+            border-radius: 2px;
+            border: solid 1px #edf0f3;
+            margin-bottom: 14px;
+            position: relative;
+            padding-left: 55px;
+            overflow: hidden;
+            box-sizing: border-box;
+        }
+        .inp input{
+            border: none;
+            height: 44px;
+            display: inline-block;
+            width: 198px;
+            padding-right: 5px;
+            padding-left: 1px;
+            box-sizing: border-box;
+        }
+        .submit{
+            display: block;
+            border:none;
+            width: 272px;
+            height: 48px;
+            background-color: #066cbd;
+            border-radius: 2px; 
+            color: #fff;
+            font-size: 14px;
+            cursor: pointer;
+            letter-spacing: 2px;
+            margin-top: 20px;
+        }
+        .wan i{
+            display: inline-block;
+            width: 16px;
+            height: 15px;
+            vertical-align: middle;
+            background: url(../images/icon.png) no-repeat;
+            background-position: 0 -1726px;
+            cursor: pointer;
+            vertical-align: middle;
+        }
+        .wan i.cur{
+            background-position: 0 -1741px;
+        }
+        .wan{
+            margin-top: 15px;
+        }
+        .wan span{
+            font-size: 12px;
+            color: #666666;
+        }
+        .wan a{
+            float: right;
+            font-size: 12px;
+            color: #066cbd;
+
+        }
+        .golin_top_box .cur{
+            border-color: #066cbd;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="golin">
+            <div class="golin_top">
+                <img src="../images/parseword_logo1.png" alt="">
+                <span>校+运营后台</span>
+                <div class="phone">
+                    <span>400-600-3310</span>
+                </div>
+            </div>
+            <div class="golin_top_box">
+                <div class="title">
+                    <h2>登录校+系统</h2>
+                </div>
+                <div class="inp">
+                    <img src="../images/user.png" style="position: absolute;top: 9px;left: 13px;">
+                    <input type="text" name=""  placeholder="请输入账号">
+                </div>
+                <div class="in_e" style="width: 251px;margin: 0 auto;margin-bottom: 3px;display: none;">
+					<span class="field-validation-error field-validation-error_goin" data-valmsg-for="FullName" data-valmsg-replace="true"><span for="FullName" class="">信息不能为空</span></span>
+				</div>
+                <div class="inp">
+                    <img src="../images/password.png" style="width: 20px;position: absolute;top: 9px;left: 21px;">
+                    <input type="password" name="" placeholder="请输入密码">
+                </div>
+                <div class="in_e" style="width: 251px;margin: 0 auto;margin-bottom: 3px;display: block;">
+                    <span class="field-validation-error" data-valmsg-for="FullName" data-valmsg-replace="true"><span for="FullName" class="">信息不能为空</span></span>
+                </div>
+                <div>
+                    <button type="submit" class="submit">登录</button>
+                </div>
+                <div class="wan">
+                    <i class="cur"></i>
+                    <span>记住账号</span>
+                    <a href="找回密码.html">忘记密码？</a>
+                </div>
+            </div>
+    </div>
+
+
+
+
+
+<script src="../js/jquery.js"></script>
+
+<script>
+	
+    $(function(){
+        $('.wan i').click(function(){
+            if($(this).hasClass('cur')){
+                $(this).removeClass('cur')
+            }else{
+                $(this).addClass('cur')
+            }
+            
+        })
+        $('.inp input').focus(function(){
+           $(this).parent().addClass('cur');
+        })
+        $('.inp input').blur(function(){
+           $(this).parent().removeClass('cur');
+        })
+        
+        
+        
+    })
+	
+</script>
+</body>
+</html>
+

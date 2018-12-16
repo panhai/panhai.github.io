@@ -1,0 +1,29 @@
+/* 城市选择器，带输入项 */
+.CitiesPicker{}
+.CitiesPicker dt{ font-size:0px;}
+.CitiesPicker dt span{}
+.CitiesPicker dt span input{ width:100%; background:none; border:0px; height:38px; line-height:38px; font-size:18px; color:#1562c8; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.CitiesPicker dd{ border:1px solid #f4f4f4; background-color:#fff; width:auto !important}
+.CitiesPicker h5{ clear:both; background-color:#dfedfb; font-size:14px; color:#1562c8; padding:0px 10px; line-height:40px; font-weight:normal;}
+.CitiesPicker a{ color:#333; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.CitiesPicker a:hover,.CitiesPicker a.cur,.CitiesPicker a.checked{ background-color:#5593e6; color:#fff;}
+.CitiesPicker .cities{ line-height:30px; font-size:12px;}
+.CitiesPicker .cities a{ display:inline-block; width:50px; text-indent:10px; font-size:12px; float:left;}
+
+/*顶用单一热门城市*/
+.CitiesHot{ width:400px; float:left; background-color:#fff;}
+
+/*输入拼音后的城市提示*/
+.CitiesQuery{ white-space:nowrap; overflow:hidden; text-overflow:ellipsis; background-color:#fff;}
+.CitiesQuery .tip{ border-bottom:1px dashed #ccc;}
+.CitiesQuery .matches{ line-height:30px;}
+.CitiesQuery .matches a{ display:block; padding:0px 10px; font-size:14px;}
+
+/*带标签的城市列表*/
+.CitiesStatic{ width:440px; background-color:#fff;}
+.CitiesStatic .tabs{ background-color:#f7f7f7; font-size:14px; height:26px; line-height:25px; padding:5px 0 0 5px; border-bottom:1px solid #ccc;}
+.CitiesStatic .tabs b{ display:inline-block; height:25px; font-size:12px; float:left; font-weight:normal; color:#999; padding:0px 5px; border:1px solid #f7f7f7; border-bottom:0; cursor:pointer;}
+.CitiesStatic .tabs b.cur{ background-color:#fff; font-size:14px; border-color:#ccc; border-bottom:1px solid #fff; color:#333;}
+.CitiesStatic .first a{ width:55px;}
+.CitiesStatic em{ display:block; font-size:18px; color:#666; text-align:center; width:40px; float:left;}
+.CitiesStatic p{ width:400px; float:left;}

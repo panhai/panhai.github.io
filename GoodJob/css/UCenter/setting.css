@@ -1,0 +1,83 @@
+/* 个人设置 */
+.left{ width:206px; float:left; background-color:#fff; border-top:3px solid #E6E6E6;}
+.left ul{ padding:13px;}
+.left li{ clear:both; border-bottom:1px dashed #ccc; padding:10px 0px;}
+.left li *{ vertical-align:middle; line-height:30px; font-size:16px; font-family:"微软雅黑";}
+.left strong{ display:block; clear:both; color:#555; padding:0px 10px; margin-bottom:5px;}
+.left li img{ margin-right:5px;}
+.left li a{ display:block; clear:both; padding-left:35px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; color:#666; margin-bottom:5px;}
+.left li a:hover,.left .cur{ color:#fff; background-color:#2677E2;}
+
+.right{ width:777px; float:right; background-color:#fff;}
+.right h1{ color:#333; font-size:18px; font-family:"微软雅黑"; font-weight:normal; line-height:45px; height:45px; padding:0px 25px;}
+
+/*修改密码
+.set-form{ clear:both; min-height:440px; _height:420px; padding-top:30px;}
+.set-form li{ height:35px; padding:10px 0px;}
+.set-form *{ font-family:"微软雅黑"; vertical-align:middle;}
+.set-form var,.set-form dfn,.set-form ins{ display:block; float:left; font-style:normal;}
+.set-form var{ width:140px; text-align:right; font-size:16px; color:#333; padding-right:10px; line-height:30px;}
+.set-form .text{ border:1px solid #666; height:30px; line-height:30px; width:200px;}
+.set-form .half{ width:120px;}
+.set-form dfn a{ font-size:12px; color:#09F;}
+.set-form .submit{ background-color:#f50000; font-size:16px; color:#fff; text-align:center; border:0px; width:130px; height:35px; line-height:35px; cursor:pointer; margin-left:45px; border-radius:3px;}
+.set-form ins{ font-size:12px; height:30px; line-height:30px;}*/
+
+/*绑定表单*/
+.bind-form,.bind-ok,.bind-check,.bind-code{ clear:both; min-height:360px; _height:340px; padding-top:30px;}
+.bind-form li{ height:35px; padding:10px 0px;}
+.bind-form *{ vertical-align:middle;}
+.bind-form var,.bind-form dfn,.bind-form ins{ display:block; float:left; font-style:normal;}
+.bind-form var{ width:125px; text-align:right; font-size:14px; color:#585858; padding-right:10px; line-height:30px;}
+.bind-form .text{ border:1px solid #c8c8c8; height:30px; line-height:30px; width:160px; padding:0px 5px;}
+.bind-form .half{ width:85px; padding:0px 5px;}
+.bind-form dfn{ width:180px;}
+.bind-form dfn a{ font-size:14px; color:#2354DD;}
+.bind-form .submit{ width:114px; height:32px; text-align:center; border:0px; background-image:url(../../images/UCenter/bind-btn.jpg); cursor:pointer; color:#fff; font-size:14px; font-weight:bold;}
+.bind-form strong{ color:rgb(254,152,92); line-height:30px; font-size:14px;}
+.bind-form .long{ width:auto;}
+.bind-form ins{ font-size:12px; text-decoration:none; height:25px; line-height:25px;}
+/*绑定成功*/
+.bind-ok,.bind-check,.bind-code{ text-align:center; width:555px; margin-left:50px;}
+.bind-ok{ line-height:40px; font-size:24px; font-family:"微软雅黑"; color:#029801; font-weight:bold;}
+.bind-ok img{ margin-right:10px;}
+/*邮箱认证*/
+.bind-check{ color:#666; line-height:45px; font-size:14px;}
+.bind-check strong{ font-size:16px; color:rgb(34,85,221); font-family:Arial, Helvetica, sans-serif; padding:0px 5px;}
+.bind-check b{ font-size:16px; color:#000;}
+/*扫描二维码*/
+.bind-code small{ font-size:12px; font-family:"微软雅黑";}
+.bind-code img{ padding:1px; border:1px solid #000;}
+
+/*帐号绑定*/
+.set-bind{ clear:both; margin:15px 25px;}
+.set-bind dt{ background-color:#f5fafe; line-height:60px; color:#2483b3; font-size:16px; padding:0px 10px; font-family:"微软雅黑"; border-bottom:15px #fafafa solid;}
+.set-bind dd{ border-top:1px solid #ebebeb; line-height:50px; font-size:14px; color:#666;}
+.set-bind li{ border-bottom:1px dashed #ebebeb; height:50px;}
+.set-bind var,.set-bind dfn,.set-bind kbd{ display:block; float:left; font-style:normal;}
+.set-bind var{ width:160px; padding:0px 10px; text-indent:20px; background:url(../../images/UCenter/bind.jpg) no-repeat 5px bottom;}
+.set-bind dfn{ width:170px;}
+.set-bind a{ color:#25d;}
+.set-bind .ok var{ color:#090; font-weight:bold; background-position:5px top;}
+
+/*我的位置*/
+.warn{ background-color:#f5fafe; color:#2483b3; font-size:14px; line-height:25px; padding:10px; font-family:"微软雅黑"; margin:15px 25px;}
+.address{ margin:15px 25px; padding:10px; font-size:16px; color:#333;}
+.address *{ font-family:"微软雅黑";}
+.address .text{ width:355px; height:30px; line-height:30px; border:1px solid #797979;}
+.address .button{ width:50px; height:32px; font-size:14px; color:#666; border-radius:2px; border:1px solid #d8d8d8; background-color:#fff; box-shadow:0px 1px 1px #ccc; cursor:pointer;}
+.address .red{ background-color:#f50000; border-color:#f50000; color:#fff;}
+.mapDiv{ margin:15px 25px; width:560px; height:310px; border:1px solid #9aa2ab;}
+
+/*绑定步骤*/
+.steps{ clear:both; width:555px; height:60px; background:url(../../images/UCenter/bind-bg.jpg) center repeat-x; margin:10px 50px;}
+.steps li{ width:185px; float:left; text-align:center; font-size:12px;}
+.steps li i{ display:block; width:20px; height:30px; margin:2px auto; background-image:url(../../images/UCenter/bind-steps.jpg);}
+.steps .a{ background-position:left bottom;}
+.steps .cur .a{ background-position:left top;}
+.steps .b{ background-position:center bottom;}
+.steps .cur .b{ background-position:center top;}
+.steps .c{ background-position:right bottom;}
+.steps .cur .c{ background-position:right top;}
+.steps li b{ display:block; line-height:25px; font-weight:normal;}
+.steps .cur b{ font-weight:bold;}

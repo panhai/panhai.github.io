@@ -1,0 +1,35 @@
+/* 增值服务中心 */
+.right{ width:800px; background-color:#fff; margin-bottom:20px;}
+.center{ text-align:center; clear:both; padding:10px;}
+h1,h2{ background-color:#F3F3F3; font-family:"微软雅黑"; padding:0px 10px;}
+h1{ line-height:50px; font-size:18px; color:#ff5e00;}
+h2{ line-height:40px; font-size:14px; color:#333;}
+
+/*顶置优势*/
+.PushIntro{ clear:both; font-family:"微软雅黑"; line-height:30px; padding:0px 20px;}
+.PushIntro h4{ background:url(../../images/job/icon-star.jpg) left center no-repeat; padding-left:20px; font-size:14px; color:#333;}
+.PushIntro p{ font-size:13px; color:#666;}
+
+/*顶置的四项说明*/
+.Pushes{ clear:both;}
+.Pushes dt{ background-color:#F3F3F3; line-height:38px; height:40px;}
+.Pushes h3{ font-family:"微软雅黑"; padding:0px 15px; font-size:14px; color:#333; float:left; border-top:2px solid #F3F3F3; cursor:pointer;}
+.Pushes h3.cur{ background-color:#fff; border-top:2px solid #ff5e00;}
+
+/*马上顶置*/
+.Push{ background-color:#fff; padding:25px 0px; text-align:center; width:100%;}
+.Push a{ display:inline-block; width:200px; height:45px; border-radius:3px; font-size:18px; line-height:45px; color:#fff; background-color:#2673ec; font-family:"微软雅黑"; margin-right:20px;}
+.Push a:hover{ background-color:#ff6e00;}
+
+.content{ clear:both; font-family:"微软雅黑"; padding:10px;}
+.content p{ line-height:30px; font-size:14px; color:#666; margin:0px 10px;}
+.content b{ color:#333; font-weight:normal;}
+.content strong{ color:#333; margin-right:10px;}
+
+/*合作介绍*/
+.CoopIntro p{ text-indent:2em;}
+/*合作优势*/
+.CoopAdv,.CoopIntro{ clear:both; font-family:"微软雅黑"; font-size:14px; padding:20px 15px; color:#666; line-height:30px;}
+.CoopAdv a,.CoopIntro a,.content a{ color:#2673ec;}
+.CoopAdv a:hover,.CoopIntro a:hover,.content a:hover{ color:#ff5e00;}
+.CoopAdv p{ padding-left:20px; background:url(../../images/job/icon-star.jpg) left center no-repeat;}

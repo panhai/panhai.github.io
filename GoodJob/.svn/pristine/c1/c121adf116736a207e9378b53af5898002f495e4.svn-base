@@ -1,0 +1,70 @@
+/* CSS Document */
+.Main{ width:1060px; margin:20px auto; background-color:#fff; overflow:hidden;}
+.Topic{ height:100px; clear:both; background:#d8e8fe url(../../../images/v2/vipintro.jpg) 520px center no-repeat; padding:0 20px; overflow:hidden;}
+#Photo{ width:70px; height:70px; float:left; margin-top:15px; overflow:hidden;}
+.Hello{ float:left; padding:25px 0 0 25px;}
+tt{ display:inline-block; width:19px; height:16px; background-image:url(../../../images/v2/vips.jpg); vertical-align:middle; margin:0 5px; _overflow:hidden;}
+tt.vip0{ background-position:0 0;}
+tt.vip1{ background-position:-19px 0;}
+tt.vip2{ background-position:-38px 0;}
+tt.vip3{ background-position:-57px 0;}
+tt.vip4{ background-position:-76px 0;}
+.Hello h5{ font-weight:normal; font-size:18px; color:#646464; line-height:30px;}
+.Hello h6{ font-weight:normal; font-size:16px; color:#f85a0d;}
+.Hello h6 span{ color:#1562c8; font-size:14px;}
+
+/*等级表格*/
+.Levels{ margin:30px auto;}
+.Levels caption{ height:40px; border-bottom:2px solid #1562c8; text-align:left;}
+h1,h2{ font-size:22px; font-weight:normal; color:#1562c8;}
+.Levels thead th{ text-align:center; background-color:#ecf4ff; font-size:18px; color:#333; line-height:50px; font-weight:normal;}
+.Levels tbody{ line-height:50px;}
+.Levels tbody th{ text-align:left; font-weight:normal; color:#646464; background-color:#f9f9f9;}
+.Levels tbody th i{ display:inline-block; margin:0 5px 0 15px; width:30px; height:30px; _overflow:hidden; background-image:url(../../../images/v2/icons/vipintro.jpg); vertical-align:middle;}
+th i.i1{ background-position:0 0;}
+th i.i2{ background-position:0 -30px;}
+th i.i3{ background-position:0 -60px;}
+th i.i4{ background-position:0 -90px;}
+th i.i5{ background-position:0 -120px;}
+th i.i6{ background-position:0 -150px;}
+th i.i7{ background-position:0 -180px;}
+.Levels tbody td{ font-size:18px; color:#1562c8; text-align:center;}
+
+/*权限说明*/
+.Rates{ width:1000px; margin:30px auto; zoom:1\9; padding-bottom:60px;}
+.Rates:after{ content:''; clear:both; display:block;}
+.Rates li{ width:250px; float:left; padding-top:60px; text-align:center;}
+.Rates li div{ width:113px; height:113px; background-image:url(../../../images/v2/vipintrobg.jpg); margin:0 auto; clear:both; overflow:hidden;}
+.Rates li div i{ width:60px; height:60px; overflow:hidden; background-image:url(../../../images/v2/icons/vipintro.png); display:block; margin:30px auto;}
+.Rates i.i1{ background-position:0 0;}
+.Rates i.i2{ background-position:-60px 0;}
+.Rates i.i3{ background-position:-120px 0;}
+.Rates i.i4{ background-position:-180px 0;}
+.Rates i.i5{ background-position:-240px 0;}
+.Rates i.i6{ background-position:-300px 0;}
+.Rates i.i7{ background-position:-360px 0;}
+.Rates h3{ font-size:18px; color:#525252; font-weight:normal; line-height:50px; margin-top:10px;}
+.Rates p{ width:175px; margin:0 auto; font-size:14px; color:#808080; line-height:20px;}
+
+/*免费获得权限*/
+h2{ width:1000px; margin:0 auto; padding:30px 0;}
+
+.Steps{ font-size:0; width:1000px; margin:0 auto 60px; padding-bottom:6px; background:url(../../../images/v2/icons/viptaildot.jpg) 32px bottom no-repeat;}
+.Steps li{ clear:both; margin-left:35px; border-left:2px solid #60a3fc; padding:0 0 80px 100px; zoom:1\9; margin-top:-2px\9;}
+.Steps li:after{ display:block; content:''; clear:both;}
+.Steps var{ display:block; width:96px; height:26px; background-image:url(../../../images/v2/viplevel.jpg); margin-left:-120px; float:left; _position:relative; _margin-left:-60px;}
+var.l1{ background-position:0 0;}
+var.l2{ background-position:0 center;}
+var.l3{ background-position:0 bottom;}
+.Steps h4{ font-size:18px; color:#525252; line-height:30px; font-weight:normal; margin-bottom:5px;}
+.Steps p{ font-size:14px; color:#808080; line-height:25px;}
+.Steps .complete{ padding-left:125px; overflow:hidden;}
+.Steps .complete h5{ margin:35px 0 25px; font-weight:normal; color:#1562c8; font-size:16px;}
+.Steps .complete a{ display:block; width:190px; height:40px; text-align:center; line-height:40px; background-color:#83b4f5; color:#fff; font-size:18px;}
+
+/*二维码*/
+.Figure{ width:120px; float:left; padding-top:20px; text-align:center; font-size:16px; color:#646464; line-height:30px;}
+.Figure .img{ width:100px; height:100px; overflow:hidden; border:5px solid #f6f6f6;}
+.f1{ padding-left:165px;}
+.f2{ padding-left:85px;}
+.f3{ padding-left:40px;}

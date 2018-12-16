@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>用户注册-邮箱注册</title>
+<link rel="stylesheet" type="text/css" href="css/css.css">
+<link rel="stylesheet" type="text/css" href="css/regist.css">
+</head>
+
+<body>
+<div class="top"><div class="common">
+	<a href="index.html" class="top-logo2"><img src="images/logo.jpg" width="234" height="118"></a>
+    <strong class="top-topic">用户注册</strong>
+    <p class="top-tail"><a href="#">返回首页</a> | <a href="#">帮助</a></p>
+</div></div>
+<div class="common main">
+	<ul class="reg-tabs">
+    	<li class="first"><a href="regist-user-wx.html"><img src="images/regist/wx.jpg" width="35" height="35"> 微信注册</a></li>
+    	<li><a href="regist-user-mob.html"><img src="images/regist/mob.jpg" width="35" height="35"> 手机号注册</a></li>
+    	<li class="cur"><a href="regist-user-ema.html"><img src="images/regist/ema.jpg" width="35" height="35"> 邮箱注册</a></li>
+    </ul>
+    <form action="regist-user-ema-ok.html"><ul class="reg-form">
+    	<li>
+        	<var>邮箱</var>
+            <dfn><dl class="SELECT">
+                <dt><input class="text email" type="text" placeholder="用户名/手机号/邮箱" data-list="arrow"></dt>
+                <dd data-list="datas" class="matches"></dd>
+            </dl></dfn>
+            <ins><img src="images/regist/i.jpg" width="17" height="17">
+            请填写你的手机号码，用于登录及找回密码</ins>
+        </li>
+        <li>
+        	<var>密码</var>
+            <dfn><input type="password" class="text"></dfn>
+            <ins><img src="images/regist/i.jpg" width="17" height="17">
+            6-16位英文数字组合</ins>
+        </li>
+        <li>
+        	<var>确认密码</var>
+            <dfn><input type="password" class="text"></dfn>
+            <ins></ins>
+        </li>
+        <li>
+        	<var>&nbsp;</var>
+            <dfn class="agree">
+            	<input type="checkbox">
+                我已阅读并同意
+                <a href="#" target="_blank">《好工作使用协议》</a>
+            </dfn>
+            <ins></ins>
+        </li>
+        <li>
+        	<var>&nbsp;</var>
+            <dfn><input type="submit" class="submit" value="立即注册"></dfn>
+            <ins class="login-now">已有帐号，<a href="#">立即登录</a></ins>
+        </li>
+    </ul></form>
+</div>
+<div class="footer">
+	<div class="common tail">
+        <samp class="tail-hotline">
+            服务热线<br>
+            <strong>400-660-5319</strong>
+        </samp>
+        <samp class="tail-time">
+            服务时间<br>
+            周一至周六9:00-18:40
+        </samp>
+        <samp class="tail-nav">
+            <a href="#" class="first">关于我们</a>
+            <a href="new-help.html">帮助中心</a>
+            <a href="#">保密承诺</a>
+            <a href="#">Investor Relatiao</a>
+            <a href="new-about.html">关于我们</a>
+        </samp>
+        <a href="#" class="icon"><img src="images/foot-wb.jpg" width="41" height="35"></a>
+        <a href="#" class="icon"><img src="images/foot-tc.jpg" width="41" height="35"></a>
+    </div>
+    <div class="common copyright">
+    	<p>京ICP备09083200号 京ICP证070419号 人才服务许可证：RC0710280</p>
+    	<p>Copyright&copy;2000-2014 liepin.com All Rights Reserved</p>
+    </div>
+</div>
+</body>
+</html>
+<script src="js/jquery.js"></script>
+<script src="js/v2/all.js"></script>
+<script>
+$(function(){
+	
+	var emails='163.com,sina.com,yeah.net,sohu.com,21cn.com,139.com,tom.com,126.com,qq.com'.split(',');
+	$(".email").on('keyup focus click',function(event){
+		var key=event.which;
+		if($.inArray(key,[40,38,13])>=0 && event.type=='keyup')return true;
+		key=this.value;
+		var dl=$(this).closest('dl'),
+			result=dl.find('.matches')
+		//无关键字则收回提示及匹配
+		if(!key)return true;
+		var results,passport;
+		//如果输入了@则会过滤掉一些邮箱后缀
+		if(key.indexOf('@')>0)
+		{
+			results=[]
+			var arr=key.split('@'),suffix=arr[1];
+			passport=arr[0];
+			for(var n=0; n<emails.length;n++)
+			{
+				if(emails[n].indexOf(suffix)>=0) results.push(emails[n]);
+			}
+		}
+		else
+		{
+			results=emails;
+			passport=key;
+		}
+		var str=[];
+		for(var n=0;n<results.length;n++)
+		str.push('<a href="javascript:void(0)">', passport , '@' , results[n] ,'</a>');
+		result.html(str.join(''));
+	});
+})
+</script>

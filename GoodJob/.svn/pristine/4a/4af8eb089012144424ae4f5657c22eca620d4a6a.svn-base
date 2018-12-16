@@ -1,0 +1,64 @@
+/* 就业网通用样式 */
+body{ background-color:#eeeff3;}
+.TOPHR{ background:url(../../../images/v2/jiuye/hr.png) center; height:4px; width:100%; overflow:hidden;}
+.common{ width:1000px !important;}
+.HEADER{ background-color:#fff; height:92px !important; position:relative\9; z-index:33333\9;}
+.LOGO{ float:left; height:92px !important; overflow:hidden; padding-top:0 !important;}
+.WEBNAME{ float:left; font-size:20px; height:46px; margin-top:22px; line-height:46px; padding-left:10px; color:#8b8b8b;}
+.line{ border-left:1px solid #ddd; float:left; height:46px; margin:22px 10px 0;}
+/*后台链接*/
+.ENTRANCE{ font-size:12px; width:500px; float:right; padding:10px; text-align:right;}
+.ENTRANCE a{ color:#b0b0b0;}
+.ENTRANCE a:hover{ color:#ff8e15; text-decoration:underline;}
+/*顶导航*/
+.NAV{ width:440px; float:right; padding-top:17px;}
+/*彩色部分*/
+.NAV ul{ width:234px; height:38px; float:left;}
+.NAV ul li{ width:78px; float:left; line-height:38px; height:38px; font-size:18px; text-align:center;}
+.NAV ul li{ _height:30px; _padding-top:8px;}
+.NAV li.on{ position:relative;}
+.NAV li i{ display:inline-block; width:12px; height:12px; overflow:hidden; background:url(../../../images/v2/icons/jiuye.png) 36px 0; margin-left:3px; vertical-align:middle\9;}
+.NAV li i{ _background-image:url(../../../images/v2/icons/jiuye.gif);}
+.NAV .green,.NAV .green div{ background-color:#14d087;}
+.NAV .yellow,.NAV .yellow div{ background-color:#eac30f;}
+.NAV .orange,.NAV .orange div{ background-color:#ff8e15;}
+.NAV li a{ color:#fff;}
+.NAV li div{ display:none; position:absolute; left:0; top:38px; width:134px; line-height:42px; border:0 !important; z-index:10;}
+.NAV li.on div{ display:block;}
+.NAV div a{ display:block; clear:both; padding:0 35px; font-size:16px; color:#fff; border-bottom:1px solid;}
+.NAV div a:last-child{ border:0 !important;}
+.NAV div a:hover{ background-color:#fff;}
+.NAV .green div{ border:1px solid #14d087;}
+.NAV .green div a{ border-bottom-color:#43d99f;}
+.NAV .green div a:hover{ color:#14d087;}
+.NAV .yellow div{ border:1px solid #eac30f;}
+.NAV .yellow div a{ border-bottom-color:#f3dc90;}
+.NAV .yellow div a:hover{ color:#eac30f;}
+.NAV .orange div{ border:1px solid #ff8e15;}
+.NAV .orange div a{ border-bottom-color:#ffc091;}
+.NAV .orange div a:hover{ color:#ff8e15;}
+/*单独的链接*/
+.NAV .about{ display:block; float:left; width:120px; line-height:38px; font-size:18px; color:#999; text-align:center;}
+.NAV .about:hover{ color:#ff8e15;}
+
+.MAIN{ background-color:#fff; margin-bottom:30px; padding-top:10px;}
+.FOOT{ font-size:12px; color:#646464; line-height:25px; padding:30px; background-color:#fff; text-align:center;}
+.FOOT a{ color:#646464;}
+.FOOT a:hover{ color:#14d087; text-decoration:underline;}
+
+/*通用分页*/
+.Pages{ clear:both; font-size:14px; line-height:30px; text-align:right; padding:20px 0;}
+.Pages a{ display:inline-block; color:#c8c8c8; border:#c8c8c8 1px solid; padding:0px 10px;}
+.Pages a:hover{ background-color:#d3aae8; color:#fff;}
+.Pages a.cur{ background-color:#965fb3; border-color:#965fb3; color:#fff;}
+
+/*新增登陆提示*/
+.LoginTip{ width:440px; height:220px; margin:0 auto; background-color:#fff; text-align:center;}
+.LoginTip div{ height:10px; clear:both;}
+.LoginTip div *{ display:block; float:left; height:10px;}
+.LoginTip var{ width:50%; background-color:#14d087;}
+.LoginTip kbd{ width:25%; background-color:#eac30f;}
+.LoginTip dfn{ width:25%; background-color:#ff8e15;}
+.LoginTip b{ display:block; font-size:20px; color:#525252; margin:55px auto; font-weight:normal;}
+.LoginTip a{ color:#ff8e15; text-decoration:underline;}
+.LoginTip input{ margin:0 auto; display:block; width:100px; height:40px; background-color:#965fb3; cursor:pointer; border:0; font-size:18px; color:#fff;}

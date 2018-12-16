@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>好工作运营后台-首页</title>
+</head>
+<link rel="stylesheet" type="text/css" href="../css/v2/admin/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/admin/index.css">
+<body>
+<header class="clear">
+	<img src="../images/v2/logo-s.png" width="119" height="62">
+    <em>后台管理系统</em>
+    <p>
+    	<a href="#"><i><img src="../images/v2/nophoto.png" width="30" height="30"></i><span>用户名称</span></a>
+        <a href="#">安全退出</a>
+    </p>
+</header>
+<nav>
+	<li class="cur"><a href="index.html">首页</a></li>
+	<li><a href="companies.html">企业管理</a></li>
+	<li><a href="schools.html">院校管理</a></li>
+	<li><a href="users.html">用户管理</a></li>
+	<li><a href="jobs.html">职位管理</a></li>
+	<li><a href="resumes.html">简历管理</a></li>
+	<li><a href="servers.html">客服系统</a></li>
+	<li><a href="moneys.html">财务系统</a></li>
+	<li><a href="system.html">系统管理</a></li>
+</nav>
+
+<div class="topic">
+    <h1>运营数据汇总</h1>
+    <ul>
+    	<li class="cur"><a href="#">今日</a></li>
+    	<li><a href="#">昨日</a></li>
+    	<li><a href="#">前日</a></li>
+        <li class="calendar"><span>选择日期</span><i><input type="text"></i></li>
+    </ul>
+</div>
+
+<div class="totals clear">
+	<h2>企业和用户数据（今日）</h2>
+    <dl class="bd">
+    	<dt>
+        	<h3>新注册用户</h3>
+            <em class="green">210，000</em>
+            <p>（比前一天 ） <span class="green">+2.3%</span></p>
+        </dt>
+        <dd>
+        	<h3>用户总数</h3>
+            <em class="red">210，000，000</em>
+        </dd>
+    </dl>
+    <dl>
+    	<dt>
+        	<h3>新合作企业</h3>
+            <em class="green">210，000</em>
+            <p>（比前一天 ） <span class="red">-2.3%</span></p>
+        </dt>
+        <dd>
+        	<h3>合作企业总数</h3>
+            <em class="red">210，000，000</em>
+        </dd>
+    </dl>
+</div>
+
+<div class="totals clear">
+	<h2>院校合作数据（今日）</h2>
+    <dl class="bd">
+    	<dt>
+        	<h3>新合作院校</h3>
+            <em class="green">210，000</em>
+            <p>（比前一天 ） <span class="green">+2.3%</span></p>
+        </dt>
+        <dd>
+        	<h3>合作院校总数</h3>
+            <em class="red">210，000，000</em>
+        </dd>
+    </dl>
+    <dl>
+    	<dt>
+        	<h3>新增校企合作</h3>
+            <em class="green">210，000</em>
+            <p>（比前一天 ） <span class="red">-2.3%</span></p>
+        </dt>
+        <dd>
+        	<h3>校企合作总数</h3>
+            <em class="red">210，000，000</em>
+        </dd>
+    </dl>
+</div>
+
+<div class="totals clear">
+	<h2>简历相关数据（今日）</h2>
+    <dl class="bd2">
+    	<dt>
+        	<h3>新简历数</h3>
+            <em class="green">210，000</em>
+            <p>（比前一天 ） <span class="green">+2.3%</span></p>
+        </dt>
+        <dd>
+        	<h3>简历总数</h3>
+            <em>210，000</em>
+        </dd>
+    </dl>
+    <dl>
+    	<dt class="bd">
+        	<h3>简历投递数</h3>
+            <em>210，000</em>
+            <p>（比前一天 ） <span class="red">-2.3%</span></p>
+        </dt>
+        <dt class="bd">
+        	<h3>简历查看数</h3>
+            <em>210，000</em>
+            <p>（比前一天 ） <span class="green">+2.3%</span></p>
+        </dt>
+    </dl>
+    <dl>
+    	<dt class="bd">
+        	<h3>面试邀请数</h3>
+            <em>210，000</em>
+            <p>（比前一天 ） <span class="red">-2.3%</span></p>
+        </dt>
+        <dt class="bd">
+        	<h3>确认面试数</h3>
+            <em>210，000</em>
+            <p>（比前一天 ） <span class="green">+2.3%</span></p>
+        </dt>
+    </dl>
+</div>
+
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/jbody.js"></script>
+<script src="../js/jbody-plugin.js"></script>
+<script>
+//点击日历后选择日期直接刷新页面
+$(".calendar").click(function(){
+	var dom=$(this).find('input').get(0);
+	JBCalendar.show(dom,{},function(){
+		location.href='#'+$(dom).val();
+	})
+});
+</script>

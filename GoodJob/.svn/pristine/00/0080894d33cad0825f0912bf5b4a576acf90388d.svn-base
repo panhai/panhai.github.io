@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>班级签到情况</title>
+    <link rel="stylesheet" type="text/css" href="../css/v2/School/all.css" />
+</head>
+<!--[if IE 6]>
+<script src="../js/UCenter/png.js"></script>
+<script type="text/javascript">
+    DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+<body>
+    <div class="header">
+        <div class="header-in">
+            <div class="logo">
+                <a href="">
+                    <img src="../images/v2/school/logo.jpg" alt="">
+                </a>
+                <span>就业网管理系统</span>
+            </div>
+            <div class="header-top">
+               <a href="" class="cur">Admin, </a> <a href="" class="cur">退出</a> <a href="">好工作首页</a><a href="">学校招聘</a><a href="">平台管理后台</a>
+            </div>
+        </div>
+        <div class="header-nav">
+            <p><a href="index.html">首页</a> <a href="contents.html">网站内容管理</a> <a href="manage-admin.html">系统管理</a> <a href="total.html">统计分析</a> <a href="" class="cur">学生管理</a></p>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="main-l">
+            <div class="main-in">
+                <h2>班级管理<i></i></h2>
+                <ul>
+                    <li><a href="Class-manage.html">班级信息管理</a> <i></i></li>
+                </ul>
+            </div>
+            <div class="main-in">
+                <h2>签到管理<i></i></h2>
+                <ul>
+                    <li class="cur"><a href="Student-Sign-Situation.html">班级签到情况</a><i></i></li>
+                    <li><a href="Student-Mat-Set.html">学生位置地图</a><i></i> </li>
+                </ul>
+            </div>
+        </div>
+        <div class="main-r">
+            <div class="main-r-t">
+                <p><a href="Class-manage.html">班级管理&nbsp;&nbsp;&nbsp;></a><a href="Student-Sign-Situation.html">班级签到情况</a></p>
+            </div>
+            <div class="bj-info">
+                <div class="bj-info-t">
+                    <div class="bj-info-l">
+                        <div class="date-ipt">
+                            <input type="text" value="2015-12-9" class="date" />
+                            <i class="data-icon"></i>
+                        </div>
+                    </div>
+                    <div class="bj-info-r">
+                        <div class="info-search">
+                            <input type="text" placeholder="输入班级名称搜索" class="search">
+                            <input type="button" value="搜索" class="search-btn">
+                        </div>
+                    </div>
+                </div>
+                <div class="bj-info-m">
+                    <table class="bj-table">
+                        <thead>
+                        <tr>
+                            <td width="222" class="bj-name">班级名称</td>
+                            <td width="70">班级人数</td>
+                            <td width="100">通过签到</td>
+                            <td width="60">未通过</td>
+                            <td width="60">未签到</td>
+                            <td width="196">操作</td>
+                        </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td class='txtL'>2015届机械制造（1）班 </td>
+                                <td>40</td>
+                                <td class="cur">30</td>
+                                <td class="not">5</td>
+                                <td class="not">5</td>
+                                <td><a href="Student-Sign-details.html">签到详情</a>&nbsp;&nbsp;
+                                    <a href="Student-Sign-set.html">签到设置</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class='txtL'>2015届机械制造（1）班 </td>
+                                <td>40</td>
+                                <td class="cur">30</td>
+                                <td class="not">5</td>
+                                <td class="not">5</td>
+                            <td><a href="Student-Sign-details.html">签到详情</a>&nbsp;&nbsp;                                     
+                                <a href="Student-Sign-details.html">签到设置</a>
+                            </td>
+                            </tr>
+                            <tr>
+                                <td class='txtL'>2015届机械制造（1）班 </td>
+                                <td>40</td>
+                                <td class="cur">30</td>
+                                <td class="not">5</td>
+                                <td class="not">5</td>
+                            <td><a href="Student-Sign-details.html">签到详情</a>&nbsp;&nbsp;
+                                <a href="Student-Sign-details.html">签到设置</a>
+                            </td>
+                            </tr>
+                            <tr>
+                                <td class='txtL'>2015届机械制造（1）班 </td>
+                                <td>40</td>
+                                <td class="cur">30</td>
+                                <td class="not">5</td>
+                                <td class="not">5</td>
+                            <td><a href="Student-Sign-details.html">签到详情</a>&nbsp;&nbsp;
+                                <a href="Student-Sign-details.html">签到设置</a>
+                            </td>
+                            </tr>
+                            <tr>
+                                <td class='txtL'>2015届机械制造（1）班 </td>
+                                <td>40</td>
+                                <td class="cur">30</td>
+                                <td class="not">5</td>
+                                <td class="not">5</td>
+                            <td><a href="Student-Sign-details.html">签到详情</a>&nbsp;&nbsp;
+                                <a href="Student-Sign-details.html">签到设置</a>
+                            </td>
+                            </tr>
+                            <tr>
+                                <td class='txtL'>2015届机械制造（1）班 </td>
+                                <td>40</td>
+                                <td class="cur">30</td>
+                                <td class="not">5</td>
+                                <td class="not">5</td>
+                            <td><a href="Student-Sign-details.html">签到详情</a>&nbsp;&nbsp;
+                                <a href="Student-Sign-details.html">签到设置</a>
+                                </td></tr>
+                            <tr>
+                                <td class='txtL'>2015届机械制造（1）班 </td>
+                                <td>40</td>
+                                <td class="cur">30</td>
+                                <td class="not">5</td>
+                                <td class="not">5</td>
+                            <td><a href="Student-Sign-details.html">签到详情</a>&nbsp;&nbsp;
+                                <a href="Student-Sign-details.html">签到设置</a>
+                            </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                <div class="bj-page">
+                    <a href="" class="bj-page-l"></a>
+                    <a href="">1</a>
+                    <a href="" class="cur">2</a>
+                    <a href="">3</a>
+                    <a href="">…</a>
+                    <a href="">9</a>
+                    <a href="">12</a>
+                    <a href="" class="bj-page-r"></a>
+                </div>
+            </div>
+        </div>
+    </div></div>
+</body>
+
+<table class="FullScreenPlugin CenterDivContainer fixed fixed-top" style="display: none;"><tr><td>
+
+    <dl class="CENTERDIV CenterTiny StudentInfo" data-active=".add-Student">
+        <dt class="CENTERTOPIC"><b>添加学生信息</b><q></q></dt>
+        <dd class="CENTERCONTENT">
+            <input type="text" class="info-txt" placeholder="请输入学生姓名">
+            <input type="text" class="info-txt" placeholder="请输入学生身份证">
+            <div class="info-btn">
+                <input type="button" value="确认添加">
+            </div>
+            <p>提示：如需添加较多学生，请选择下载模板进行导入</p>
+        </dd>
+    </dl>
+    <dl class="CENTERDIV CenterTiny StudentInfo" data-active=".search-s">
+        <dt class="CENTERTOPIC"><b>筛选学生</b><q></q></dt>
+        <dd class="CENTERCONTENT">
+            <ul class="filter-s">
+                <li>
+                    <span>注册情况</span>
+                    <dl class="SELECT Regist">
+                        <input type="hidden" />
+                        <dt><span>请选择</span><i></i></dt>
+                        <dd>
+                            <a data-id="1">已注册</a>
+                            <a data-id="2">未注册</a>
+                        </dd>
+                    </dl>
+                </li>
+                <li>
+                    <span>简历情况</span>
+                    <dl class="SELECT Regist">
+                        <input type="hidden" />
+                        <dt><span>请选择</span><i></i></dt>
+                        <dd>
+                            <a data-id="1">已创建</a>
+                            <a data-id="2">完整度低</a>
+                            <a data-id="3">未创建</a>
+                        </dd>
+                    </dl>
+                </li>
+                <li>
+                    <span>求职权限</span>
+                    <dl class="SELECT Regist">
+                        <input type="hidden" />
+                        <dt><span>请选择</span><i></i></dt>
+                        <dd>
+                            <a data-id="1">有权限</a>
+                            <a data-id="2">无权限</a>
+                        </dd>
+                    </dl>
+                </li>
+                <li>
+                    <span>需要签到</span>
+                    <dl class="SELECT Regist">
+                        <input type="hidden" />
+                        <dt><span>请选择</span><i></i></dt>
+                        <dd>
+                            <a data-id="1">需要</a>
+                            <a data-id="2">不需要</a>
+                        </dd>
+                    </dl>
+                </li>
+            </ul>
+            <div class="info-btn">
+                <input type="button" value="确认添加">
+            </div>
+        </dd>
+
+        </dl>
+</td></tr></table>
+<script src="../js/jquery.js"></script>
+<script src="../js/v2/all.js"></script>
+<script src="../js/effect/bg.js"></script>
+<script src="../js/plugin/CenterDiv.js"></script>
+<script src="../js/jbody.js"></script>
+<script src="../js/school/sign.js"></script>
+</html>

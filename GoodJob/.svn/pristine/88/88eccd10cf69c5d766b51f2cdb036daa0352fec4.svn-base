@@ -1,0 +1,31 @@
+/* CSS Document */
+
+/*职位类别*/
+.filter-jobs{}
+.filter-jobs dd{ width:1056px;}
+.FilterMenu table{ width:100%;}
+.FilterMenu table,.FilterMenu th,.FilterMenu td{ border:0 !important; vertical-align:top;}
+.FilterMenu th.menus{ background-color:#dfedfb; width:240px; text-indent:0px; text-align:left; line-height:50px; padding:0px;}
+.FilterMenu .submenus{ width:810px; padding:10px 0px;}
+.FilterMenu .menu{ padding:0px 20px; font-size:16px; font-weight:normal; color:#1562c8; white-space:nowrap;}
+.FilterMenu .cur{ background-color:#fff; color:#1562c8;}
+.FilterSubmenu{ line-height:30px; color:#d9e8fc;}
+.FilterSubmenu li{ width:100%; float:left;}
+.FilterSubmenu h4{ width:14%; float:left; text-align:right; font-size:16px; font-weight:normal; color:#1562c8;}
+.FilterSubmenu h4{ _width:13.5%; _font-size:15px;}
+.FilterSubmenu p{ width:80%; float:left; font-size:14px; padding:0px 0px 10px 5%; color:#ccc;}
+.FilterSubmenu p a{ padding:0px 10px; white-space:nowrap; color:#666;
+    border-left: 1px solid #CCCCCC;_zoom:1;display:inline-block; height: 14px;
+    line-height: 14px;}
+.FilterSubmenu p a:hover,.FilterSubmenu p a.checked{ text-decoration:underline; color:#1562c8;}
+
+/*行业类别*/
+.filter-profs dd{ width:1056px;}
+.FilterProfs table{ border:0; width:100%;}
+.FilterProfs caption{ border:0;}
+.FilterProfs th,.FilterProfs td{ border:1px solid #f4f4f4 !important; padding:0; text-align:left !important;}
+.FilterProfs th{ background-color:#dfedfb !important; width:240px !important; border-right:1px solid #f4f4f4 !important; font-weight:normal !important; font-size:16px !important; padding-left:20px !important; text-indent:0px !important; border-left:0px !important; color:#1562c8 !important; line-height:49px !important;}
+.FilterProfs td{ color:#ccc; padding:10px 0 10px 20px; font-size:14px; line-height:29px;}
+.FilterProfs td a{ padding:0px 10px; white-space:nowrap; color:#666;border-left: 1px solid #CCCCCC;_zoom:1;display:inline-block; height: 14px;
+    line-height: 14px;}
+.FilterProfs td a:hover,.FilterProfs td a.checked{ text-decoration:underline; color:#1562c8;}

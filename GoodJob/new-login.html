@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="css/v2/all.css">
+<link rel="stylesheet" type="text/css" href="css/v2/login.css">
+<title>好工作-登陆页</title>
+</head>
+
+<body>
+<div class="HEADER"><div class="common">
+	<div class="LOGO"><a href="index-new.html"><img src="images/v2/logo.jpg" width="177" height="91"></a></div>
+    <div class="SLOGAN"><img src="images/v2/top-key.gif" width="401" height="38"></div>
+    <div class="LINKS"><a href="new-login.html">登陆</a>|<a href="new-regist-email.html">注册</a></div>
+</div></div>
+
+<div class="Main">
+	<h1 class="TOPIC">登陆 [好工作] 账号</h1>
+    <div class="Left Login">
+        <div class="clear">
+        	<p class="failed">用户名密码不匹配！</p>
+            <div class="FormLine">
+                <input type="text" class="text" placeholder="手机号码/邮箱" value="123123123" data-init="true">
+                <code class="form-tip errorMsg">请填写你的手机号码/邮箱</code>
+            </div>
+            <div class="FormLine">
+                <input type="password" class="text" placeholder="密码" data-init="true">
+                <code class="form-tip successMsg"></code>
+                <code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>
+            </div>
+            <!--输入密码错误，三次之后显示验证码-->
+            <div class="FormLine">
+                <input type="text" class="text t-s" placeholder="图片中的字" data-init="true">
+                <img src="images/v2/vcode.jpg" width="110" height="38" class="vcode">
+                <a href="#" class="refresh">换一张</a>
+                <code class="form-tip successMsg"></code>
+                <code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>
+            </div>
+            <p class="forget">
+            	<label for="remember"><input type="checkbox" id="remember"> 记住密码</label>
+            	<a href="new-forget.html">忘记密码？</a>
+            </p>
+            <input type="submit" value="登录" class="submit">
+        </div>
+    </div>
+    <div class="Right">
+    	<p>面试通知，一个不漏<br>扫描下载<em>安卓版APP</em></p>
+        <div><b><img src="images/v2/2dcode.jpg" width="860" height="860"></b></div>
+    </div>
+    <div class="clear"></div>
+</div>
+</body>
+</html>
+<script src="js/jquery.js"></script>
+<script src="js/v2/all.js"></script>

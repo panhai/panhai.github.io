@@ -1,0 +1,1708 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>个人后台-简历中心</title>
+<link rel="stylesheet" type="text/css" href="../css/v2/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/UCenter/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/plugin/CitiesPicker.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/plugin/JobAndProf.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/plugin/UploadThumb.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/UCenter/new.css" />
+</head>
+
+<body>
+<div class="HEADER"><div class="common">
+	<div class="TOP-LOGO"><a href="#"><img src="../images/v2/logo-s.jpg" width="119" height="62"></a></div>
+    <div class="TOP-TOOLS">
+    	张英，欢迎来到好工作！   <a href="#">安全退出</a> | <a href="#">我要招人</a> | <a href="#">消息</a> | <a href="#">帮助</a>
+    </div>
+    <ul class="TOP-NAV">
+    	<li><a href="new-myjob-jobpush.html">我的好工作</a></li>
+    	<li><a href="new-RESUME.html" class="cur">简历中心</a></li>
+    	<li><a href="new-settings.html">个人设置</a></li>
+    </ul>
+    <div class="TOP-SEARCH">
+    	<input type="text" class="text" placeholder="请输入职位名称">
+        <input type="submit" class="submit" value="">
+    </div>
+</div></div>
+
+<div class="Main common">
+	<div class="Options">
+    	<a href="#" class="import">导入简历</a>
+        <strong>我的简历</strong>
+    	<input type="text" class="text" value="我的简历">
+        <input type="button" class="submit" value="确定">
+        <input type="button" class="reset" value="取消">
+        <a href="#" class="rename">重命名</a> | <a href="new-resume-preview.html" target="_blank">预览</a> | <a href="#">刷新</a>
+    </div>
+    <div class="Left">
+        <div class="Container" id="AnchorProfile" data-mode="SINGLE">
+            <div class="Photo"><div id="Photo"><img src="../images/v2/nophoto.png" width="120" height="120"></div></div>
+            <h2 class="Topic">
+                <!--<q class="minus">取消</q><q class="edit">编辑</q>--><q class="plus">添加</q>
+                张英
+            </h2>
+            <div class="Nothing"><i></i><span>请添加个人信息</span></div>
+            <div class="Profile ViewMode">
+                <p>女 | 1993.07 | 汕头，大专 | 两年工作经验</p>
+                <p>
+                    <i>13411022562</i>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <s>575859626@qq.com</s>
+                </p>
+                <p><u>445678199307082428</u></p>
+                <p>在职，想换工作</p>
+            </div>
+            <div class="EditMode">
+                <div class="clear"></div>
+                <div class="FormLine">
+                    <div class="item half left">
+                        <var class="required">姓名：</var>
+                        <dfn><input id="fullname" type="text" class="text" placeholder="请填写真实姓名，2-4汉字"></dfn>
+                        <code class="form-tip errorMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>
+                    </div>
+                    <div class="item half right">
+                        <var class="required">性别：</var>
+                        <dfn class="Sex">
+                            <label class="checked left"><input type="radio" id="male" name="sex" value="男" checked>男</label>
+                            <label class="right"><input type="radio" id="female" name="sex" value="女">女</label>
+                        </dfn>
+                        <code class="form-tip tipMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>
+                    </div>
+                </div>
+                <div class="FormLine">
+                    <div class="item half left">
+                        <var class="required">籍贯：</var>
+                        <dfn>
+                            <dl class="SELECT ProvinceHometown Hometown ADDRESS quarter left" data-child=".CitiesHometown" data-placeholder="省份">
+                                <input type="hidden" id="hometownProvince">
+                                <dt><span></span><i></i></dt>
+                                <dd class="normal"></dd>
+                            </dl>
+                            <dl class="SELECT CitiesHometown Hometown ADDRESS quarter right" data-parent=".ProvinceHometown" data-placeholder="城市">
+                                <input type="hidden" id="hometownCity">
+                                <dt><span></span><i></i></dt>
+                                <dd class="normal"></dd>
+                            </dl>
+                        </dfn>
+                        <code class="form-tip errorMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>
+                    </div>
+                    <div class="item half right">
+                        <var class="required">出生年月：</var>
+                        <dfn>
+                            <dl class="SELECT quarter left YEARS new" data-child=".BirthMonth" data-from="1960" data-to="now">
+                                <input type="hidden" id="birthYear">
+                                <dt><span></span><i></i></dt>
+                                <dd class="normal">
+                                </dd>
+                            </dl>
+                            <dl class="SELECT quarter right BirthMonth MONTHS">
+                                <input type="hidden" id="birthMonth">
+                                <dt><span></span><i></i></dt>
+                                <dd class="normal"></dd>
+                            </dl>
+                        </dfn>
+                        <code class="form-tip tipMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>
+                    </div>
+                </div>
+                <div class="full item">
+                    <var>身份证：</var>
+                    <dfn><input type="text" id="idcard" class="text" placeholder="身份证号码用于教育经历认证"></dfn>
+                    <code class="form-tip errorMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>
+                </div>
+                <div class="full item">
+                    <var class="required">手机号码：</var>
+                    <dfn><input type="text" id="mobile" class="text mobile" placeholder="企业通过该号码联系您，可用于登录"></dfn>
+                    <code class="form-tip tipMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>
+                </div>
+                <div class="FormLine MobileVCode">
+                    <div class="item half left">
+                        <var class="required">验证码：</var>
+                        <dfn><input type="text" class="text" placeholder="短信验证码"></dfn>
+                    </div>
+                    <div class="item half left">
+                        <var>&nbsp;</var>
+                        <dfn><input type="button" class="SendVerify" value="获取短信验证码"></dfn>
+                    </div>
+                    <code class="form-tip errorMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>
+                </div>
+                <div class="FormLine">
+                    <div class="item half left special">
+                        <var>电子邮箱：</var>
+                        <dfn><dl class="SELECT">
+                            <dt><span><input type="text" id="email" class="text EMAILS" data-list="arrow" placeholder="企业可通过邮箱联系您"></span></dt>
+                            <dd class="normal"><div data-list='datas' class="matches"></div></dd>
+                        </dl>
+                            <!--<a href="">修改</a></dfn>-->
+                            <!-- 用户第一次填写保存邮箱后修改邮箱时出现的链接 -->
+                        <code class="form-tip tipMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code></dfn>
+                    </div>
+                    <div class="item half right">
+                        <var class="required">工作经验：</var>
+                        <dfn><dl class="SELECT Experience">
+                            <input type="hidden" id="experience">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal">
+                                <a data-id="1">在读学生</a>
+                                <a data-id="2">应届生</a>
+                                <a data-id="3">1年以下</a>
+                                <a data-id="4">1-3年</a>
+                                <a data-id="5">3-5年</a>
+                                <a data-id="6">5-10年</a>
+                                <a data-id="7">10年以上</a>
+                            </dd>
+                        </dl></dfn>
+                        <code class="form-tip errorMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>
+                    </div>
+                </div>
+                <div class="FormLine">
+                    <div class="item half left">
+                        <var class="required">最高学历：</var>
+                        <dfn><dl class="SELECT Education">
+                            <input type="hidden" id="highestEducation">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal">
+                                <a data-id="1">初中/高中</a>
+                                <a data-id="2">技校/中专</a>
+                                <a data-id="3">大专</a>
+                                <a data-id="4">本科</a>
+                                <a data-id="5">硕士</a>
+                                <a data-id="6">博士</a>
+                                <a data-id="7">其他</a>
+                            </dd>
+                        </dl></dfn>
+                        <code class="form-tip tipMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>
+                    </div>
+                    <div class="item half right">
+                        <var>当前状态：</var>
+                        <dfn><dl class="SELECT State">
+                            <input type="hidden" id="state">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal">
+                                <a data-id="1">离职，可快速到岗</a>
+                                <a data-id="2">在职，想换工作</a>
+                                <a data-id="3">应届毕业生</a>
+                                <a data-id="4">暂时不找工作</a>
+                            </dd>
+                        </dl></dfn>
+                        <code class="form-tip errorMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>
+                    </div>
+                </div>
+                <div class="Buttons">
+                    <input type="button" class="submit" value="保存">
+                    <input type="button" class="reset" value="取消">
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <!--------------------------------------------------------->
+        <div class="Container" id="AnchorOpinion" data-mode="SINGLE">
+            <h3 class="Topic"><b>职业意向</b><q class="edit">编辑</q><q class="minus">取消</q><!--<q class="plus">添加</q>--></h3>
+            <!--<div class="Nothing"><i></i><span>请添加求职意向</span></div>-->
+            <div class="ViewMode">
+                <p>期望职位类型：<b>全职</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;期望城市：<b>广州-天河</b></p>
+                <p>期望行业：<b>计算机/互联网/电子，计算机/互联网/电子，计算机/互联网/电子</b></p>
+                <p>期望职位：<b>UI设计师，UI设计师，UI设计师</b></p>
+                <p>期望薪资：<b class="cur">5000-8000元/月</b></p>
+            </div>
+            <div class="EditMode">
+                <div class="clear"></div>
+                <div class="FormLine">
+                    <div class="item half left type1 type2 type3">
+                        <var class="required">期望职位类型：</var>
+                        <dfn><dl class="SELECT Jobtype">
+                            <input type="hidden" id="wantJobtype">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal">
+                                <a data-id="1">全职</a>
+                                <a data-id="2">兼职</a>
+                                <a data-id="3">实习</a>
+                            </dd>
+                        </dl></dfn>
+                        <code class="form-tip tipMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>
+                    </div>
+                    <div class="item half right type1 type3">
+                        <var class="required">期望工资（元/月）：</var>
+                        <dfn><dl class="SELECT Salary">
+                            <input type="hidden" id="wantSalary">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal">
+                                <a data-id="">不限</a>
+                                <a data-id="1">1000以下</a>
+                                <a data-id="2">1000-2000</a>
+                                <a data-id="3">2000-3000</a>
+                                <a data-id="4">3000-5000</a>
+                                <a data-id="5">5000-8000</a>
+                                <a data-id="6">8000-12000</a>
+                                <a data-id="7">12000-20000</a>
+                                <a data-id="8">20000以上</a>
+                            </dd>
+                        </dl></dfn>
+                        <code class="form-tip errorMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>
+                    </div>
+                </div>
+                <div class="clear item type1 type2 type3">
+                    <var class="required">期望城市</var>
+                    <dfn>
+                        <dl class="SELECT ProvincesWant ADDRESS third left" data-child=".CitiesWant" data-placeholder="省份" data-hot="true">
+                            <input type="hidden" id="wantProvince">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal"></dd>
+                        </dl>
+                        <dl class="SELECT CitiesWant ADDRESS third third2 left" data-child=".DistrictsWant" data-parent=".ProvincesWant" data-placeholder="城市" data-hot="true">
+                            <input type="hidden" id="wantCity">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal"></dd>
+                        </dl>
+                        <dl class="SELECT DistrictsWant ADDRESS third right" data-parent=".CitiesWant" data-placeholder="区域" data-unlimited="true" data-hot="true">
+                            <input type="hidden" id="wantDistrict">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal"></dd>
+                        </dl>
+                    </dfn>
+                    <code class="form-tip tipMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>
+                </div>
+                <div class="clear item full type1 type3">
+                    <var>期望行业</var>
+                    <dfn><dl class="SELECT filter-profs" data-choices="3" data-leave="egnore">
+                        <input type="hidden" id="wantSubjects">
+                        <dt class="blue"><span></span><i></i></dt>
+                        <dd class="FilterProfs blue">
+                        <table>
+                            <caption class="SELECT-COLLECTOR">
+                                <samp>最多选择三个：</samp>
+                                <input type="button" class="close" value="关闭">
+                                <input type="button" class="submit" value="确定">
+                            </caption>
+                            <tbody class="SELECT-CHOICES"><!--由JS生成--></tbody>
+                        </table>
+                        </dd>
+                    </dl></dfn>
+                    <code class="form-tip errorMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>
+                </div>
+                <div class="clear item full type1 type3">
+                    <var class="required">期望职位</var>
+                    <dfn><dl class="SELECT filter-jobs" data-choices="3" data-leave="egnore">
+                        <input type="hidden" id="wantPositions">
+                        <dt class="blue"><span></span><i></i></dt>
+                        <dd class="FilterMenu blue">
+                        <table>
+                            <caption class="SELECT-COLLECTOR">
+                                <samp>最多选择三个：</samp>
+                                <input type="button" class="close" value="关闭">
+                                <input type="button" class="submit" value="确定">
+                            </caption>
+                            <th class="menus"><!--由JS生成--></th>
+                            <td class="submenus SELECT-CHOICES"><!--由JS生成--></td>
+                        </table>
+                        </dd>
+                    </dl></dfn>
+                    <code class="form-tip tipMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>
+                </div>
+                <div class="clear item full type2">
+                    <var class="required">期望职位</var>
+                    <dfn><dl class="SELECT filter-parttime" data-choices="3" data-leave="egnore">
+                        <input type="hidden" id="wantPositionsParttime">
+                        <dt class="blue"><span></span><i></i></dt>
+                        <dd class="blue">
+                        <table>
+                            <caption class="SELECT-COLLECTOR">
+                                <samp>最多选择三个：</samp>
+                                <input type="button" class="close" value="关闭">
+                                <input type="button" class="submit" value="确定">
+                            </caption>
+                            <td class="SELECT-CHOICES"><!--由JS生成--></td>
+                        </table>
+                        </dd>
+                    </dl></dfn>
+                    <code class="form-tip errorMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>
+                </div>
+                <div class="Buttons">
+                    <input type="button" class="submit" value="保存">
+                    <input type="button" class="reset" value="取消">
+                </div>
+            </div>
+        </div>
+      
+        <!--------------------------------------------------------->
+        <div class="Container" id="AnchorEducations" data-mode="LIST">
+            <h3 class="Topic"><b>教育经历</b><q class="minus">取消</q><q class="plus">添加</q></h3>
+            <!--<div class="Nothing"><i></i><span>请添加教育经历</span></div>-->
+            <dl class="ViewMode Lists">
+                <dt><span  class="time-c">1996.3-2001.8 <i class='Authentica'></i></span><br><strong>华南理工大学</strong>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;软件学院&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;本科</dt>
+                <dd><a href="#" data-id="1">编辑</a> | <a href="#" data-id="1">删除</a></dd>
+                <dd class="ViewMode-line"><i></i></dd>
+            </dl>
+            <dl class="ViewMode Lists">
+                <dt><span  class="time-c">2012.5-2013.12</span><br><strong>华南理工大学广州汽车学院</strong>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;广州汽车学院&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;大专</dt>
+                <dd><a href="#" data-id="2">编辑</a> | <a href="#" data-id="2">删除</a></dd>
+                <dd class="ViewMode-line"><i></i></dd>
+            </dl>
+            <div class="EditMode Educations">
+                <div class="item half left">
+                    <var class="required">学历：</var>
+                    <dfn><dl class="SELECT Education">
+                        <input type="hidden" id="education">
+                        <dt><span></span><i></i></dt>
+                        <dd class="normal">
+                            <a data-id="1">初中/高中</a>
+                            <a data-id="2">技校/中专</a>
+                            <a data-id="3">大专</a>
+                            <a data-id="4">本科</a>
+                            <a data-id="5">硕士</a>
+                            <a data-id="6">博士</a>
+                            <a data-id="7">其他</a>
+                        </dd>
+                    </dl></dfn>
+                    <code class="form-tip errorMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>
+                </div>
+                <div class="item full">
+                    <var class="required">学校：</var>
+                    <dfn><dl class="SELECT" data-placeholder="学校全称">
+                        <dt><span><input type="text" id="school" class="text SCHOOLS" data-list="arrow"></span></dt>
+                        <dd class="normal">
+                            <div class="tip">请输入关键字</div>
+                            <div class="matches" data-list="datas"></div>
+                        </dd>
+                    </dl></dfn>
+                    <code class="form-tip tipMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>
+                </div>
+                <div class="full item">
+                    <var>院系：</var>
+                    <dfn><input type="text" id="institute" class="text" placeholder="学院或系的全称"></dfn>
+                    <code class="form-tip errorMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>
+                </div>
+             <!--    <div class="item full">
+                 <var class="required">专业：</var>
+                 <dfn><input type="text" id="major" class="text" placeholder="专业全称"></dfn>
+                 <code class="form-tip tipMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>
+             </div> -->
+                <div class="clear item">
+                    <var class="required">就读时间：</var>
+                    <dfn>
+                        <dl class="SELECT quarter left YearFrom YEARS new" data-from="1966" data-to="now" data-child=".EducateMonthFrom">
+                            <input type="hidden" id="educateYearFrom">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal"></dd>
+                        </dl>
+                        <dl class="SELECT quarter left MonthFrom EducateMonthFrom MONTHS" data-child=".EducateYearTo">
+                            <input type="hidden" id="educateMonthFrom">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal"></dd>
+                        </dl>
+                        <ins>至</ins>
+                        <dl class="SELECT quarter left YearTo YEARS EducateYearTo new" data-from="1966" data-to="now" data-child=".EducateMonthTo">
+                            <input type="hidden" id="educateYearTo">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal"></dd>
+                        </dl>
+                        <dl class="SELECT quarter right MonthTo EducateMonthTo MONTHS">
+                            <input type="hidden" id="educateMonthTo">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal"></dd>
+                        </dl>
+                    </dfn>
+                    <code class="form-tip errorMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>
+                </div>
+                <div class="Buttons">
+                    <input type="button" class="submit" value="保存">
+                    <input type="button" class="reset" value="取消">
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <!--------------------------------------------------------->
+        <div class="Container" id="AnchorWorks" data-mode="LIST">
+            <h3 class="Topic"><b>工作经验</b><q class="minus">取消</q><q class="plus">添加</q></h3>
+            <!--<div class="Nothing"><i></i><span>请添加工作经验</span></div>-->
+            <dl class="ViewMode Lists">
+                <dt>
+                <p class="time-c">2002.3-2005.8</p>
+                <p><strong>产品销售</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;某个公司</p>
+                <p class="marTop">
+                        简历的重要部分之一是自我介绍，简历自我介绍不宜过长.<br>
+                        1、也不能太短，如何写好简历中的自我介绍<br>
+                        2、以下举例三篇个人简历自我介绍范文，可供参考.
+                    </p>
+                </dt>
+                <dd><a href="#" data-id="1">编辑</a> | <a href="#" data-id="1">删除</a></dd>
+                <dd class="ViewMode-line"><i></i></dd>
+            </dl>
+            <dl class="ViewMode Lists">
+                <dt>
+                    <p class="time-c">2012.6-2014.4</p>
+                <p><strong>程序员</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;广州冠鹏信息技术有限公司</p>
+                <p class="marTop">广州冠鹏信息技术有限公司是国内首家推出新一代院校就业整体解决方案提供商，与国内各地著名高等院校、500强等大型企业和海量高价值中小企业深度合作..</p>
+                </dt>
+                <dd><a href="#" data-id="2">编辑</a> | <a href="#" data-id="2">删除</a></dd>
+                <dd class="ViewMode-line"><i></i></dd>
+            </dl>
+            <div class="EditMode Works">
+                <div class="full item">
+                    <var class="required">公司名称：</var>
+                    <dfn><input type="text" id="workCompany" class="text" placeholder="公司全称"></dfn>
+                    <code class="form-tip tipMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>
+                </div>
+                <div class="full item">
+                    <var class="required">担任职务：</var>
+                    <dfn><input type="text" id="workPosition" class="text" placeholder="职务全称"></dfn>
+                    <code class="form-tip errorMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>
+                </div>
+                <div class="clear item alone Zindex2">
+                    <var class="required">任职时间：</var>
+                    <dfn>
+                        <dl class="SELECT quarter left YearFrom YEARS new" data-from="1976" data-to="now" data-child=".WorkMonthFrom">
+                            <input type="hidden" id="workYearFrom">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal"></dd>
+                        </dl>
+                        <dl class="SELECT quarter left MonthFrom WorkMonthFrom MONTHS">
+                            <input type="hidden" id="workMonthFrom">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal"></dd>
+                        </dl>
+                        <ins>至</ins>
+                        <dl class="SELECT quarter left YearTo YEARS" data-from="1976" data-to="now" data-child=".WorkMonthTo">
+                            <input type="hidden" id="workYearTo">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal"></dd>
+                        </dl>
+                        <dl class="SELECT quarter right MonthTo WorkMonthTo MONTHS">
+                            <input type="hidden" id="workMonthTo">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal"></dd>
+                        </dl>
+                    </dfn>
+                    <kbd><label><input type="checkbox"> 至今</label></kbd>
+                    <!--<code class="form-tip tipMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>-->
+                </div>
+                <div class="item clear full alone Zindex1">
+                    <var class="required">工作描述：<span class="example">范例参考</span></var>
+                    <dfn><textarea class="text" id="workDescription" placeholder="请用一段话描述您的这份工作，500字之内"></textarea></dfn>
+                    <code class="form-tip errorMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>
+                    <div class="example-demo">
+                    <i></i>
+                    
+                    <ul>
+                        <li><p> 工作内容：</p></li>
+                        <li>1.负责公司大客户的售前售后支持；</li>
+                        <li>2.制定产品的技术支持方案；</li>
+                        <li>3.负责部门日常管理，协调部门内部工作，完成公司制定的目标；</li>
+                        <li>4.负责销售人员和技术支持工程师等人员的技术培训.</li>
+                    </ul>
+                        <br />
+                        
+                        <ul>
+                        <li><p>工作业绩：</p></li>
+                        <li>主持开发了以下系统工程的技术支持方案：</li>
+                        <li>1.大型购物中心系统查询网络工作；</li>
+                        <li>2.广州大剧院网络系统工程；</li>
+                        <li>3.中国银行网络改造工程.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="Buttons">
+                    <input type="button" class="submit" value="保存">
+                    <input type="button" class="reset" value="取消">
+                </div>
+            </div>
+        </div>
+        <!--------------------------------------------------------->
+        <div class="Container " id="AnchorProjects" data-mode="LIST">
+            <h3 class="Topic"><b>项目经验</b><q class="minus">取消</q><q class="plus">添加</q></h3>
+            <!--<div class="Nothing"><i></i><span>请添加项目经验</span></div>-->
+             <dl class="ViewMode Lists">
+               <dt>
+                 <p class="time-c">2005.1-2006.2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>好学校</strong></p>
+                 <p class="marTop">广州冠鹏信息技术有限公司&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;好学校官方网站</p>
+                 <p>制作一个可供培训资讯分享的信息平台网站.</p>
+                 </dt>
+                 <dd><a href="#" data-id="1">编辑</a> | <a href="#" data-id="1">删除</a></dd>
+                 <dd class="ViewMode-line"><i></i></dd>
+             </dl>
+           <dl class="ViewMode Lists">
+               <dt>
+                   <p class="time-c">2011.5-2013.2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>好工作</strong></p>
+               <p class="marTop">广州冠鹏信息技术有限公司&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;好工作官方网站第二版</p>
+               <p>在第一版的基础上，制作功能类似的第二版.</p>
+               </dt>
+               <dd><a href="#" data-id="2">编辑</a> | <a href="#" data-id="2">删除</a></dd>
+               <dd class="ViewMode-line"><i></i></dd>
+           </dl>
+            <div class="EditMode Anchor">
+                <div class="full item">
+                    <var class="required">项目名称：</var>
+                    <dfn><input type="text" id="projectName" class="text" placeholder="项目全称"></dfn>
+                    <code class="form-tip tipMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>
+                </div>
+                <div class="full item">
+                    <var class="required">所在公司：</var>
+                    <dfn><input type="text" id="projectCompany" class="text" placeholder="公司全称"></dfn>
+                    <code class="form-tip errorMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>
+                </div>
+                <div class="full item">
+                    <var class="required">担任职务：</var>
+                    <dfn><input type="text" id="projectPosition" class="text" placeholder="职务全称"></dfn>
+                    <code class="form-tip tipMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>
+                </div>
+                <div class="clear item alone Zindex2">
+                    <var class="required">任职时间：</var>
+                    <dfn>
+                        <dl class="SELECT quarter left YearFrom YEARS new" data-from="1976" data-to="now" data-child=".ProjectMonthFrom">
+                            <input type="hidden" id="projectYearFrom">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal"></dd>
+                        </dl>
+                        <dl class="SELECT quarter left MonthFrom ProjectMonthFrom MONTHS">
+                            <input type="hidden" id="projectMonthFrom">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal"></dd>
+                        </dl>
+                        <ins>至</ins>
+                        <dl class="SELECT quarter left YearTo YEARS" data-from="1976" data-to="now" data-child=".ProjectMonthTo">
+                            <input type="hidden" id="projectYearTo">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal"></dd>
+                        </dl>
+                        <dl class="SELECT quarter right MonthTo ProjectMonthTo MONTHS">
+                            <input type="hidden" id="projectMonthTo">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal"></dd>
+                        </dl>
+                    </dfn>
+                    <kbd><label><input type="checkbox"> 至今</label></kbd>
+                    <!--<code class="form-tip errorMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>-->
+                </div>
+                <div class="item clear full alone Zindex1">
+                    <var class="required">项目描述：<span class="example">范例参考</span></var>
+                    <dfn><textarea class="text" id="projectDescription" placeholder="请用一段话描述此项目，比如项目的具体内容，项目职责，完成业绩等，500字之内"></textarea></dfn>
+                    <code class="form-tip tipMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>
+                     <div class="example-demo">
+                    <i></i>
+                    
+                    <ul>
+                        <li> 项目描述：</li>
+                        <li>系统平台主要实现了用户,角色,模块的快速切换及使用，用户指定角色后，可以给角色指定相应的模块，并进行相关权限的设置.</li>
+                        <br />
+                        <li>职责描述：</li>
+                        <li>
+                        本人主要完成了用户相关权限控制模块的流程设计,独立开发了管理员管理模块和权限管理模块，实现了对权限管理子模块的增，删，查，改；管理员的的增，删，查，改以及权限设置。完成了权限模块的设计参与了系统的部分设计. </li>
+                        
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="Buttons">
+                    <input type="button" class="submit" value="保存">
+                    <input type="button" class="reset" value="取消">
+                </div>
+            </div>
+        </div>
+        <!--------------------------------------------------------->
+        <div class="Container " id="AnchorExperience" data-mode="LIST">
+            <h3 class="Topic"><b>培训经历</b><q class="minus">取消</q><q class="plus">添加</q></h3>
+           <div class="Nothing"><i></i><span>请添加项目经验</span></div>
+             <dl class="ViewMode Lists">
+                <dt>
+                    <p class="time-c">2005.1-2006.2<i class='Authentica'></i></p>
+                    <p><strong>高级UI设计师证</strong>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<strong>UI设计师</strong></p>
+                    <p>北大青鸟（广力校区)</p>
+                    <p class="marTop">
+                       简历的重要部分之一是自我介绍，简历自我介绍不宜过长.<br>
+                       1、也不能太短，如何写好简历中的自我介绍<br>
+                       2、以下举例三篇个人简历自我介绍范文，可供参考.
+                    </p>
+                </dt>
+                <dd><a href="#" data-id="1">编辑</a> | <a href="#" data-id="1">删除</a></dd>
+                 <dd class="ViewMode-line"><i></i></dd>
+            </dl>
+           
+            <div class="EditMode Train">
+                <div class="clear item alone Zindex2">
+                    <var class="required">培训时间：</var>
+                    <dfn>
+                        <dl class="SELECT quarter left YearFrom YEARS" data-from="1976" data-to="now" data-child=".ProjectMonthFrom">
+                            <input type="hidden" id="trainYearFrom">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal"></dd>
+                        </dl>
+                        <dl class="SELECT quarter left MonthFrom ProjectMonthFrom MONTHS">
+                            <input type="hidden" id="trainMonthFrom">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal"></dd>
+                        </dl>
+                        <ins>至</ins>
+                        <dl class="SELECT quarter left YearTo YEARS" data-from="1976" data-to="now" data-child=".ProjectMonthTo">
+                            <input type="hidden" id="trainYearTo">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal"></dd>
+                        </dl>
+                        <dl class="SELECT quarter right MonthTo ProjectMonthTo MONTHS">
+                            <input type="hidden" id="trainMonthTo">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal"></dd>
+                        </dl>
+                    </dfn>
+                 
+                    <!--<code class="form-tip errorMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>-->
+                </div>
+                <div class="full item">
+                    <var class="required">培训机构：</var>
+                    <dfn><input type="text" id="trainMechanism" class="text" placeholder="请输入培训机构名称"></dfn>
+                    <!-- <code class="form-tip errorMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code> -->
+                </div>
+       
+                 <div class="full item">
+                    <var class="required">培训技能：</var>
+                    <dfn><input type="text" id="trainSkill" class="text" placeholder="请输入培训的技能名称"></dfn>
+                  <!--   <code class="form-tip tipMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code> -->
+                </div>
+                <div class="item clear full alone Zindex1">
+                    <var class="required">培训内容：<span class="example">范例参考</span></var>
+                    <dfn><textarea class="text" id="trainContent" placeholder="请用一段话描述此项目，比如项目的具体内容，项目职责，完
+成业绩等，500字之内"></textarea></dfn>
+               <div class="example-demo">
+              <i></i>
+              
+              <ul>
+                  <li> 培训内容：</li>
+                  <li>此次参加培训的主要内容：</li>
+                 <li>1.计算机基本原理，包括DOS命令、计算机组装配置、办公软件的操作、演示文档的制作、邮件服务器的配置及应用原理、数据结构和算法等；</li>
+                 <li>2.程序逻辑训练，包括Java语言发展简史，Java开发环境的搭建体验Java程序的开发，环境变量path和classpath的设置</li>
+                 <li>3.SQL2008数据库技术，熟练掌握数据库的基本原理及数据结构能够分析各种关系，能够进行面向对象的分析和设计等</li>
+                 <li>4.体验Java程序的开发，环境变量path和classpath的设置</li>
+                 <li>5.工作严谨踏实，认真负责，做事情始终坚持有始有终。拥有积极向上的生活态度和广泛的兴趣爱好,具备优秀的心理素质和吃苦耐劳精神，对事有自己的见解，并有较强的共事协作能力。我有着年轻人特有的朝气和魄力,富有开创事业的头脑和激-情,有较好的文字功底,口头表达能力以及交际能力，注重团队合作</li>
+                 
+              </ul>
+              </div>
+                </div>
+                 <div class="full item">
+                    <var>荣誉/证书：</var>
+                    <dfn><input type="text" id="trainCertificate" class="text" placeholder="请输入在培训中获得的荣誉或证书"></dfn>
+                  <!--   <code class="form-tip tipMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code> -->
+                </div>
+                <div class="Buttons">
+                    <input type="button" class="submit" value="保存">
+                    <input type="button" class="reset" value="取消">
+                </div>
+            </div>
+        </div>
+        <!--------------------------------------------------------->
+        <div class="Container " id="AnchorSkills" data-mode="LIST">
+            <h3 class="Topic"><b>技能专长</b><q class="minus">取消</q><q class="plus">添加</q></h3>
+            <!--<div class="Nothing"><i></i><span>请添加专业技能</span></div>-->
+            <dl class="ViewMode Lists">
+                <dt><strong>Photoshop</strong>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;熟练&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3个月</dt>
+                <dd><a href="#" data-id="1">编辑</a> | <a href="#" data-id="1">删除</a></dd>
+                <dd class="ViewMode-line"><i></i></dd>
+            </dl>
+            <dl class="ViewMode Lists">
+                <dt><strong>Dreamweaver</strong>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;专家&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;36个月</dt>
+                <dd><a href="#" data-id="2">编辑</a> | <a href="#" data-id="2">删除</a></dd>
+                <dd class="ViewMode-line"><i></i></dd>
+            </dl>
+            <dl class="ViewMode Lists">
+                <dt><strong>Fireworks</strong>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;精通&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;28个月</dt>
+                <dd><a href="#" data-id="3">编辑</a> | <a href="#" data-id="3">删除</a></dd>
+                <dd class="ViewMode-line"><i></i></dd>
+            </dl>
+            <div class="EditMode Skills">
+                <div class="full item">
+                    <var class="required">专业技能：</var>
+                    <dfn>
+                        <!--<input type="text" id="skillName" class="text" placeholder="技能名称">-->
+                        <dl class="SELECT Search TOPINPUT" data-placeholder=" ">
+                            <input type="hidden">
+                            <dt>
+                                <input type="text" id="skillName" class="text KEY-GUIDANCE" data-list="arrow" data-init="true" placeholder="技能名称">
+                            </dt>
+                            <dd>
+                                <div class="tip">请输入</div>
+                                <div class="matches" data-list="datas"></div>
+                            </dd>
+                        </dl>
+                    </dfn>
+                    <code class="form-tip errorMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>
+                </div>
+                <div class="FormLine">
+                    <div class="item half left">
+                        <var class="required">掌握程度：</var>
+                        <dfn><dl class="SELECT Level">
+                            <input type="hidden" id="skillDegree">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal">
+                                <a data-id="1">一般</a>
+                                <a data-id="2">掌握</a>
+                                <a data-id="3">熟练</a>
+                                <a data-id="4">专家</a>
+                            </dd>
+                        </dl></dfn>
+                        <code class="form-tip tipMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>
+                    </div>
+                    <div class="item half right">
+                        <var class="required">掌握时间：</var>
+                        <dfn>
+                            <input type="text" id="skillMonths" class="text-extra" placeholder="整数">
+                            <ins>个月</ins>
+                        </dfn>
+                        <code class="form-tip errorMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>
+                    </div>
+                </div>
+                <div class="Buttons">
+                    <input type="button" class="submit" value="保存">
+                    <input type="button" class="reset" value="取消">
+                </div>
+            </div>
+        </div>
+
+        <!--------------------------------------------------------->
+        <div class="Container hd" id="AnchorMyWork" data-mode="SINGLE">
+            <h3 class="Topic"><b>我的作品</b><q class="edit">编辑</q><q class="minus">取消</q><!--<q class="plus">添加</q>--></h3>
+            <!--<div class="Nothing"><i></i><span>请添加自我介绍</span></div>-->
+            <div class="ViewMode Contents">
+               <p><a href="http://www.93hgz.com">http://www.93hgz.com</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;好工作人才网</p>
+               <p class="work-text">好的工作成为职场热门话题，事实上，要找到好工作，首先要做好简历，简历的重要部分之一是自我介绍，简历自我介绍不宜过长，也不能太短.</p>
+            </div>
+            <div class="EditMode Work">
+                                <div class="full item">
+                                    <var class="required">作品链接：</var>
+                                    <dfn><input type="text" id="workLink" class="text" placeholder="输入你作品所在的链接地址"></dfn>
+                                    <!-- <code class="form-tip errorMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code> -->
+                                </div>
+                       
+                                 <div class="full item">
+                                    <var class="required">名称：</var>
+                                    <dfn><input type="text" id="workName" class="text" placeholder="输入作品名称"></dfn>
+                                  <!--   <code class="form-tip tipMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code> -->
+                                </div>
+                                <div class="item clear full alone Zindex1">
+                                    <var class="required">描述：<span class="example">范例参考</span></var>
+                                    <dfn><textarea class="text" id="workContent" placeholder="用一段话描述作品的信息，如作品内容，设计理念等..."></textarea></dfn>
+                               <div class="example-demo">
+                              <i></i>
+                              
+                              <ul>
+                              <li>作品内容：</li>
+                              <li>千禧学府苑私宅、滨东花园私宅、汾河景观私宅、城市花园私宅丽华苑私人别 墅、龙观天下私人别墅、金融花园私人别墅.</li>
+                                <br />
+                              <li>设计理念：</li>
+                              <li>室内设计最终的成果是一品心灵的“盛宴”，我的理解是在视觉
+                              和触觉上给人的一种“语言”.</li>
+                                 
+                              </ul>
+                              </div>
+                                </div>
+                <div class="Buttons">
+                    <input type="button" class="submit" value="保存">
+                    <input type="button" class="reset" value="取消">
+                </div>
+            </div>
+        </div>
+        <!--------------------------------------------------------->
+        <div class="Container hd" id="AnchorIntroduction" data-mode="SINGLE">
+            <h3 class="Topic"><b>自我描述</b><q class="edit">编辑</q><q class="minus">取消</q><!--<q class="plus">添加</q>--></h3>
+            <!--<div class="Nothing"><i></i><span>请添加自我描述</span></div>-->
+            <div class="ViewMode Contents">
+                <p>如何找到好的工作成为职场热门话题，事实上，要找到好工作，首先要做好简历，简历的重要部分之一是自我介绍，简历自我介绍不宜过长，也不能太短，如何写好简历中的自我介绍，以下举例三篇个人简历自我介绍范文，可供参考.</p>
+            </div>
+            <div class="EditMode Introduction">
+                <div class="item clear full alone">
+                    <var class="required">自我介绍：<span class="example">范例参考</span></var>
+                    <dfn><textarea class="text" id="introduction" placeholder="请用一段话介绍自己，比如您的优势，特点，兴趣爱好等，500字之内"></textarea></dfn>
+                     <div class="example-demo">
+                    <i></i>
+                    
+                    <p> 本人诚实守信，工作严谨踏实，认真负责，做事情始终坚持有始有终。拥有积极向上的生活态度和广泛的兴趣爱好,具备优秀的心理素质和吃苦耐劳精神，对事有自己的见解，并有较强的共事协作能力。我有着年轻人特有的朝气和魄力,富有开创事业的头脑和激-情,有较好的文字功底,口头表达能力以及交际能力，注重团队合作</li>
+                    </p>
+                    </div>
+                    <code class="form-tip tipMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>
+                </div>
+                <div class="Buttons">
+                    <input type="button" class="submit" value="保存">
+                    <input type="button" class="reset" value="取消">
+                </div>
+            </div>
+        </div>
+        <!--------------------------------------------------------->
+
+        <div class="Container" id="AnchorOther" data-mode="SINGLE">
+            <h3 class="Topic"><b class="moreInof"><i></i><span>附加信息</span></b><q class="edit">编辑</q><q class="minus">取消</q><!--<q class="plus">添加</q>--></h3>
+            <!--<div class="Nothing"><i></i><span>请添加自我描述</span></div>-->
+            <div class="ViewMode Contents">
+                <p>如何找到好的工作成为职场热门话题，事实上，要找到好工作，首先要做好简历，简历的重要部分之一是自我介绍，简历自我介绍不宜过长，也不能太短，如何写好简历中的自我介绍，以下举例三篇个人简历自我介绍范文，可供参考.</p>
+            </div>
+            <div class="EditMode Other">
+                <div class="full item">
+                    <var class="required">附加信息标题：</var>
+                    <dfn><input type="text" id="additional" class="text" placeholder="请自定义内容的标题,8个字以内 " autocomplete="off"></dfn>
+                    <!-- <code class="form-tip errorMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code> -->
+                </div>
+                <div class="item clear full alone">
+                    <var class="required">内容：</var>
+                    <dfn><textarea class="text" id="others" placeholder="您可以描述您想补充的内容，比如您的获奖，得到的表彰等，500字之内"></textarea></dfn>
+                    <code class="form-tip tipMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>
+                </div>
+                <div class="Buttons">
+                    <input type="button" class="submit" value="保存">
+                    <input type="button" class="reset" value="取消">
+                </div>
+            </div>
+        </div>
+        <!--------------------------------------------------------->
+
+    </div>
+    <div class="Right">
+        <div class="complete">
+    	<h3>简历完善度</h3>
+        <div id="Complete">0</div>
+        </div>
+        <div class="RightNav"><ol>
+            <li class="selse"><a href="#AnchorProfile" class="i1 finish cur"><i></i>个人信息</a></li>
+            <li class="selse"><a href="#AnchorOpinion" class="i2 finish "><i></i>职业意向</a></li>
+            <li class="selse"><a href="#AnchorEducations" class="i3 finish "><i></i>教育经历</a></li>
+            <li class="selse"><a href="#AnchorWorks" class="i4 finish "><i></i>工作经验</a></li>
+
+         
+            <li class="m_hide hide_mr"><a href="#AnchorProjects" class="i5 finish "><i></i>项目经验<b></b></a></li> 
+            <li class="m_hide hide_mr"><a href="#AnchorExperience" class="i6 finish "><i></i>培训经历<b></b></a></li>
+            <li class="m_hide hide_mr"><a href="#AnchorSkills" class="i7 finish "><i></i>技能专长<b></b></a></li>
+            <li class="m_hide hide_mr"><a href="#AnchorMyWork" class="i8 finish "><i></i>我的作品<b></b></a></li>
+            <li class="m_hide hide_mr"><a href="#AnchorIntroduction" class="i10 finish "><i></i>自我描述<b></b></a></li>
+            <li class="m_hide hide_mr"><a href="#AnchorOther" class="i11 finish"><i></i><span>附加信息</span><b></b></a></li>
+
+            <li><a href="#AnchorOther" class="i9"><i></i>添加模块</a></li>
+            <ul class="m_f">
+                <li class="hd hide_mr"><a href="#AnchorProjects" data-id="" class="i5 "><i></i>项目经验<b></b></a></li>
+                <li class="hd hide_mr"><a href="#AnchorExperience" data-id="" class="i6 "><i></i>培训经历<b></b></a></li>
+                <li class="hd hide_mr"><a href="#AnchorSkills" data-id="" class="i7 "><i></i>技能专长<b></b></a></li>
+                <li class="hd hide_mr"><a href="#AnchorMyWork" data-id="" class="i8 "><i></i>我的作品<b></b></a></li>
+                <li class="hd hide_mr"><a href="#AnchorIntroduction" data-id="" class="i10 "><i></i>自我描述<b></b></a></li>
+                <li class="hd hide_mr"><a href="#AnchorOther" class="i11 "><i></i>附加信息<b></b></a></li>
+            </ul>
+        </ol></div>
+    </div>
+    <div class="clear"></div>
+</div>
+
+<div class="FOOTER">
+	<div class="FOOT-NAV">
+    	<a href="#">关于我们</a><a href="#">法律声明</a>
+        <a href="#">联系我们</a><a href="#" class="last">Investor Relatiao</a>
+    </div>
+    <p>服务热线：400-660-5319&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;服务时间：周一至周六9:00-18:40</p>
+    <p>京ICP备09083200号&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;京ICP证070419号&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人才服务许可证：RC0710280</p>
+    <p>Copyright©2000-2014 liepin.com All Rights Reserved</p>
+</div>
+
+<table class="FullScreenPlugin fixed fixed-top CenterDivContainer"><tr><td>
+    <dl class="CENTERDIV CenterLarge Upload" data-active="#Photo">
+        <dt class="CENTERTOPIC"><b>用户头像上传</b><q></q></dt>
+        <dd class="CENTERCONTENT">
+        	<table class="ThumbClipping">
+            	<caption>
+                	<input type="file" id="LogoUpload">
+                    <label for="LogoUpload"></label>
+                    <div class="LogoProgress"><span style="width:20%">20%</span></div>
+                </caption>
+                <tr>
+                    <td width="340">
+                    	<input type="hidden" class="clipAttrs" value="width:275,height:275,ratio:0.44,x:118,y:60">
+                        <small>支持JPG、PNG、GIF格式的图片，文件小于<b class="filesize">2</b>M</small>
+                        <div class="primary">
+                            <div class="top cover"></div>
+                            <div class="left cover"></div>
+                            <div class="view"><img src="../images/v2/fruits.png"></div>
+                            <div class="right cover"></div>
+                            <div class="bottom cover"></div>
+                        </div>
+                        <div class="slider">
+                            <sub></sub>
+                            <div class="role"><b></b></div>
+                            <sup></sup>
+                        </div>
+                    </td>
+                    <td width="80">&nbsp;</td>
+                    <td width="150">
+                        <div class="thumbs">
+                            <div class="thumb large" data-ratio="1"></div>
+                            <!--<div class="thumb middle" data-ratio="0.5"></div>
+                            <div class="thumb small" data-ratio="0.25"></div>-->
+                        </div>
+                        <small>画像尺寸120*120</small>
+                    </td>
+                </tr>
+                <tr><td class="CENTERBTNS">
+                	<input type="button" class="submit" value="确定">
+                	<input type="button" class="reset" value="取消">
+                </td></tr>
+            </table>
+		</dd>
+    </dl>
+	<!--<dl class="CENTERDIV CenterMiddle ImportStep1" data-active=".import">
+    	<dt class="CENTERTOPIC"><b>导入简历</b><q></q></dt>
+        <dd class="CENTERCONTENT">
+        	<table class="CenterForm">
+            	<tr><th width="100">简历来源：</th><td width="330">
+                	<dl class="SELECT" data-type="string">
+                    	<input type="hidden">
+                    	<dt><span></span><i></i></dt>
+                        <dd class="normal">
+                        	<a>前程无忧</a>
+                        	<a>拉勾网</a>
+                        	<a>58同城</a>
+                        </dd>
+                    </dl>
+                    <code class="form-tip successMsg"></code>
+                    <code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>
+                </td></tr>
+            	<tr><th>用户名：</th><td>
+                	<input type="text" class="text t-l" placeholder="请输入来源网站的用户名">
+                    <code class="form-tip successMsg"></code>
+                    <code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>
+                </td></tr>
+            	<tr><th>密码：</th><td>
+                	<input type="text" class="text t-l" placeholder="请输入来源网站的密码">
+                    <code class="form-tip successMsg"></code>
+                    <code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>
+                </td></tr>
+            	<tr><th>验证码：</th><td>
+                	<input type="text" class="text t-l" placeholder="请输入验证码">
+                    <code class="form-tip successMsg"></code>
+                    <code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>
+                </td></tr>
+                <tr><th></th><td>
+                    <img src="../images/v2/vcode.jpg" width="110" height="38" class="vcode">
+                    <a href="#" class="refresh">看不清，换一张</a>
+                </td></tr>
+            	<tr><th></th><td class="CENTERBTNS"><input type="button" class="submit" value="确定导入"></td></tr>
+            </table>
+            <div class="ImportIntro">
+            	<p><strong>说明：</strong></p>
+                <p>1.使用该功能我们默认您授权好工作使用您输入的账户名、密码获取简历来源网站的简历信息（好工作不会获取您的其他信息）</p>
+                <p>2.好工作承诺绝对不会泄露或保存以上输入的用户名和密码信息</p>
+            </div>
+        </dd>
+    </dl>-->
+	<dl class="CENTERDIV CenterSmall ImportStep2" data-active=".ImportStep1 .submit">
+    	<dt class="CENTERTOPIC"><b>导入简历</b><q></q></dt>
+        <dd class="CENTERCONTENT">
+        	<p><strong>选择您要导入的简历</strong></p>
+        	<table class="CenterForm">
+            	<tr><th width="80">简历名称：</th><td width="260">
+                	<dl class="SELECT" data-type="string">
+                    	<input type="hidden">
+                    	<dt><span></span><i></i></dt>
+                        <dd class="normal">
+                        	<a>我的简历</a>
+                        	<a>你的简历</a>
+                        	<a>他的简历</a>
+                        </dd>
+                    </dl>
+                    <code class="form-tip successMsg"></code>
+                    <code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>
+                </td></tr>
+                <tr><td colspan="2"><code class="form-tip tipMsg">提示：导入简历后，您原先的简历会被覆盖！</code></td></tr>
+                <tr><td colspan="2" class="CENTERBTNS"><input type="button" class="submit" value="确定导入"></td></tr>
+            </table>
+        </dd>
+    </dl>
+    
+</td></tr></table>
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script>INPUTINIT=false</script>
+<script src="../js/plugin/YearsList-new.js"></script>
+<script src="../js/v2/schools/jobPositions.js"></script>
+<script src="../js/v2/all.js"></script>
+<script src="../js/area.js"> </script>
+<script src="../js/plugin/raphael.js"></script>
+<script src="../js/effect/fixed.js"></script>
+<script src="../js/area.js"></script>
+<script src="../js/jobPositions.js"></script>
+<script src="../js/subjects.js"></script>
+<script src="../js/universities.js" type="text/javascript"></script>
+<script src="../js/jobPositionsParttime.js"></script>
+<script src="../js/plugin/CitiesPicker.js"></script>
+<script src="../js/plugin/Addresses.js"></script>
+<script src="../js/plugin/EmailTip.js"></script>
+<script src="../js/plugin/SchoolTip.js"></script>
+<script src="../js/plugin/SendVerify.js"></script>
+<script src="../js/effect/bg.js"></script>
+<script src="../js/plugin/CenterDiv.js"></script>
+<script src="../js/effect/tab.js"></script>
+<script src="../js/plugin/upload_thumb.js"></script>
+
+<script>
+var PHOTOIMAGE;
+function ChangePhoto(src){
+	PHOTOIMAGE.attr({
+		fill:'url('+ src +')'
+	});
+}
+setTimeout(function(){
+	ChangePhoto('../images/v2/adv.jpg');
+},3000);
+
+var ANCHORS = 0;
+function anchors(){
+ANCHORS=$(".RightNav li").filter(".selse").find('a').not('.i9').map(function(){
+//    console.log($(".RightNav li").filter(".selse"))
+    var href=this.href;
+    return href.substr(href.indexOf('#')+1);
+}).get();
+ANCHORS.timer=0;
+}
+
+$(function(){
+	////////////////////////////////////////////////////////////////////////////////////////////////////////////////点击重命名
+	$(".Options .rename").click(function(){
+		$(this).hide()
+			.parent().find("input").show()
+			.end().find("strong").hide();
+	}).parent()
+	.find(".submit").click(function(){
+		var newname=$(this).prev(".text").val();
+		$(this).parent().find("strong").text(newname)
+	})
+	.next(".reset").addBack().click(function(){
+		$(this).parent().find("input").hide()
+		.end().find(".rename").show()
+		.end().find("strong").show();
+	});
+	//画头像
+	var img=$("#Photo img").remove();
+	var paper=Raphael("Photo",128,128);
+	PHOTOIMAGE=paper.circle(64,64,60).attr({
+		stroke:'#d3e6ff',
+		'stroke-width':2,
+		fill:'url('+ img.attr('src') +')'
+	});
+	   
+	/////////////////////////////////////////////////////////////////////////////////////////////////////////右侧卡住，及滚动监听
+	//CHIfixed(".RightNav","top",{backgroundColor:'#fff',border:'1px solid #fff'});
+	var ANCHOR_ACTIVE=function(){
+		$(this).addClass("cur")
+			.closest(".RightNav").find("a").not(this).removeClass("cur");
+	}
+	$(".RightNav ol a").click(function(){ANCHOR_ACTIVE.call(this)});
+    
+    
+    anchors();
+  
+	function NAV_LISTEN()
+	{
+		var scrollTop=$(window).scrollTop();
+      //  console.log(ANCHORS)
+		for(var n=0;n<ANCHORS.length;n++)
+		{//要激活的位置，需要在可视区之上或相等，其下位要在可视区之下或之内
+         //  console.log(ANCHORS[n],n)
+            var topicOffset=$("#"+ANCHORS[n]).offset().top;
+            if(scrollTop<topicOffset) break;
+		}
+        var seleA = $(".RightNav ol li").filter(".selse").find('a').not('.i9');
+      
+		ANCHOR_ACTIVE.call(seleA.get(n? n-1 : 0));
+	}
+	$(window).on('load scroll',function(){
+		if(isLow())
+		{
+			clearTimeout(ANCHORS.timer);
+			ANCHORS.timer=0;
+			ANCHORS.timer=setTimeout(NAV_LISTEN,100);
+		}
+		else {
+
+            NAV_LISTEN();
+           
+
+        }
+	});
+
+
+  
+	///////////////////////////////////////////////////////////////////////////////////////////////////////////画简历完整度的效果
+	var completeValue=parseFloat($("#Complete").text()),
+		Percentage=$("<div>").append(completeValue+'%').css({
+			position:'absolute',
+			width:'100%',
+			height:'100%',
+			textAlign:'center',
+			lineHeight:'120px',
+			top:0,left:0,
+			fontSize:18,
+			color:'#6ba0e7',
+			fontWeight:'bold'
+		});
+	$("#Complete").empty().css('position','relative').append(Percentage);
+	var paper=Raphael("Complete",116,116);
+	paper.circle(55,55,55,55).attr({
+		transform:isLow() ? 't1,1' : 't3,3',
+		stroke:'#d1e5ff',
+		'stroke-width':5
+	});
+	paper.ca.angle=function(percent){
+		if(!percent) var path='M55,0z';
+		else
+		var large=percent>=50 ? 1:0,
+			per1=2*Math.PI/100,
+			x=55*(1+Math.sin(per1*percent)),
+			y=55*(1-Math.cos(per1*percent)),
+			path='M55,0A55,55,0,'+ large +',1,'+ (percent>=100 ? 54.99 : (percent==0 ? 55 : x)) +','+y;
+		return {path:path};
+	}
+	paper.path("M55,0").attr({
+		angle:0,
+		transform:isLow() ? 't1,1' : 't3,3',
+		stroke:'#6ba0e7',
+		'stroke-width':5
+	}).animate({
+		angle:completeValue
+	},1000);
+	
+	//男女选择
+	Boxes(".Sex");
+	//////////////////////////////////////////////////////////////////////////////////////////////////////////////填充职位大列表
+	var strTH=[],strTD=[],array=positionArray,
+		level1Reset=true,level2Reset=true;
+	for(var n=0;n<array.length;n++)
+	{
+		var id=array[n][2],name=array[n][0];
+		if(id.indexOf('0000')>=0)
+		{//一级名称，加入表头
+			if(!level1Reset) strTD.push('</ul>');
+			strTH.push('<h3 class="menu">'+ name.replace(/[\|\/]/g,'　') +'</h3>');
+			strTD.push('<ul class="FilterSubmenu">');
+			level1Reset=false;
+			level2Reset=true;
+		}
+		else if(id.indexOf('00')>=0)
+		{//二级名称，加入列表项（需要先结束上个列表项）
+			if(!level2Reset) strTD.push('</p></li>');
+			strTD.push('<li><h4>'+ name +'</h4><p>');
+			level2Reset=false;
+		}
+		else
+		{//三级名称，直接加入链接
+			strTD.push('<a data-id="'+ id +'">'+ name +'</a> ');
+		}
+	}
+	strTD.push('</p></li></ul>');
+	$(".filter-jobs table").find("th").html(strTH.join(''))
+		.end().find('td').html(strTD.join(''));
+	//职位选择
+	CHItab(".filter-jobs .FilterMenu",".menu",".FilterSubmenu");
+	///////////////////////////////////////////////////////////////////////////////////////////////////////////填充行业大列表
+	var str=[];
+	array=subjectArray;strTH=null;strTD=null;
+	level1Reset=true;level2Reset=true;
+	for(var n=0;n<array.length;n++)
+	{
+		var id=array[n][2],name=array[n][0];
+		if(id.indexOf('00')>=0)
+		{//一级名称，加入表头，并重起一行
+			if(!level1Reset) str.push('</td></tr>');
+			str.push('<tr><th>'+ name.replace(/[\|\/]/g,'　') +'</th><td>');
+			level1Reset=false;
+		}
+		else
+		{//二级名称，直接加入链接
+			str.push('<a data-id="'+ id +'">'+ name +'</a> ');
+		}
+	}
+	$(".filter-profs tbody").html(str.join(''));
+	///////////////////////////////////////////////////////////////////////////////////////////////////////填充兼职职位大列表
+	str=[]; array=positionParttimeArray;
+	for(var n=0;n<positionParttimeArray.length;n++)
+	{
+		var id=array[n][1],name=array[n][0];
+		str.push('<a data-id="'+ id +'">'+ name +'</a> ');
+	}
+	$(".filter-parttime td").html(str.join(''));
+	//////////////////////////////////////////////////////////////////////////////////////////////////////职位类型改变，表单改变
+	$(".Jobtype input[type=hidden]").change(function(){
+		var oJQitems=$(this).closest(".EditMode").find(".item");
+		var id=$(this).val();
+		var oItemShow=oJQitems.filter(".type"+id).show();
+		oJQitems.not(oItemShow).hide();
+	}).each(function(){
+		//默认显示全职
+		if(!$(this).val()) $(this).closest(".SELECT").find("dd").children().eq(0).click();
+	});
+	////////////////////////当输入了正确的手机号码时，才显示验证码
+	$(".mobile").keyup(function(){
+		var b=true;
+		if(b) $(".MobileVCode").show();
+		else $(".MobileVCode").hide();
+	});
+	//点击导入简历第二步的确定
+	$(".ImportStep2 .submit").click(function(){
+		//导入过程
+		if(true)
+		{
+			ALERT('导入简历','<h6>导入简历成功，您可以继续<var>编辑</var>或<var>完善</var>！</h6>',2000);
+		}
+		else
+		{
+		}
+	});
+	
+	
+	$(".import").click(function(){
+		ALERT('完善简历','<p style=" font-size:20px;">请先创建完整简历，</p><p style=" font-size:20px;">完善度要超过<em style=" color:#f90; font-style:normal;">55%</em>哦！</p>');
+	});
+});
+</script>
+
+<script>
+//表单的行为处理
+$(function(){
+	//点击Nothing里边的添加
+	$(".Nothing").click(function(){
+		$(this).hide()
+			.closest(".Container")
+				.find(".EditMode").show()//显示编辑区
+				.end()
+				.find(".Topic .plus").hide()//显示所属标题上的"取消"，隐藏"添加"
+				.siblings(".minus").show()
+		;
+	});
+	//点击标题上的添加
+	$(".Topic .plus").click(function(){
+		var container=$(this).closest(".Container"),
+			viewmodes=container.find(".ViewMode");
+		FormReset(container.attr("id"));
+		$(this).hide()
+			.siblings(".minus").show()//显示“取消”
+		container
+			.find(".EditMode").show()//显示最近的一个编辑区
+			.insertBefore(viewmodes.eq(0));//插入到第一个内容预览之前
+		viewmodes.show();//显示列表被隐藏项
+		container.find(".Nothing").hide()//隐藏Nothing
+		;
+	});
+	//点击标题上的取消及编辑区的取消
+	$(".Topic .minus,.EditMode .reset").click(function(){
+		var THIS=this;
+		CONFIRM('放弃编辑','<h6>真的要放弃本次的编辑？取消后内容无法恢复！</h6>','确认放弃',function(){
+			CENTERDIV.close.call(CONFIRM.JQ.get(0),true);
+			var bool=false,//如果有内容则为true，显示内容预览区，否则显示Nothing
+				container=$(THIS).closest(".Container"),
+				mode=container.data("mode"),//数据类型，SINGLE则显示编辑，LIST则显示添加
+				topic=container.find(".Topic")
+			;
+			topic.find(".minus").hide();
+			container.find(".EditMode").hide();
+			if(bool)
+			{
+				if(mode=='SINGLE') topic.find(".edit").show();
+				else topic.find(".plus").show();
+				container.find(".ViewMode").show();
+			}
+			else
+			{
+				topic.find(".plus").show();
+				container.find(".Nothing").show();
+			}
+		});
+	});
+	//点击标题上的编辑，只有单项内容才有，且有编辑时无Nothing
+	$(".Topic .edit,h2.Profile .edit").click(function(){
+		//使用已有数据，初始化表单的过程
+		var container=$(this).closest(".Container");
+		FormInit(container.attr('id'));
+		$(this).hide().siblings(".minus").show();//显示标题上的取消
+		container.find(".ViewMode").hide()//隐藏内容预览区（只有有内容时才显示“编辑”）
+			.end()
+			.find(".EditMode").show()//显示编辑区
+		;
+	});
+	//点击编辑区的确定
+	$(".EditMode .submit").click(function(){
+		//将所填充的内容收集成数据对象
+		$(this).closest(".EditMode").hide();
+		var container=$(this).closest(".Container"),
+			mode=container.data("mode"),//数据类型，如果为LIST则需要判断添加新的还是修改旧的内容预览区项目
+			viewmode=container.find(".ViewMode"),
+			topic=container.find(".Topic"),
+			bool=true//如果是新的数据则为true，否则为false
+		;
+		topic.find(".minus").hide();
+		if(mode=='SINGLE') topic.find(".edit").show();
+		else topic.find(".plus").show();
+		viewmode.show();
+		if(bool)//如果是新的内容且是列表内容，则要添加一个新的列表项
+		{
+			var html='';//生成新列表项的HTML字符串
+            //附加信息标题自定义
+            topic.find("span").text($("#additional").val());
+            $(".RightNav").find(".i11 span").text($("#additional").val())
+			viewmode.prepend(html);
+		}
+		//如有需要，就在每个submit上单独绑定额外的事件
+	//	ALERT('提示','操作成功',3000);
+	});
+	//点击列表项目上的编辑，只有列表项内容才有，且有编辑时无Nothing
+	$(".Container").delegate(".Lists dd a:first-child",'click',function(){
+	//$(".Lists dd a:first-child").attr('href','javascript:void(0)').click(function(){
+		this.href='javascript:void(0)';
+		var subid=$(this).data("id"),
+			container=$(this).closest(".Container"),
+			editmode=container.find(".EditMode");
+		//点了一个编辑之后，再点另一个编辑，要先将当前的编辑项目取消
+		editmode.find(".reset").click();
+		//将要编辑的内容的数据填充到表单中
+		FormInit(container.attr('id'),subid);
+		$(this).closest(".Lists").before(editmode).hide();
+		editmode.show();
+	});
+	//点击列表项目上的删除，只有列表项内容才有
+	$(".Container").delegate(".Lists dd a:last-child",'click',function(){
+	//$(".Lists dd a:last-child").attr('href','javascript:void(0)').click(function(){
+		this.href='javascript:void(0)';
+		var id=$(this).data("id");
+		if(confirm('真的要删除本条记录吗？删除之后不可恢复！'))
+		{
+			//删除数据的过程
+			var Anchor=$(this).closest(".Container").attr("id");
+			$(this).closest(".Lists").remove();
+			delete(Datas[Anchor][id]);
+		}
+	});
+});
+
+/*
+一级键名是“表单”容器的ID
+单项数据二级键名是各组件的ID
+列表数据二级键名是各记录的ID，三级键名才是各组件的ID
+
+文本框/域为自身，有值则赋值，如果不写则会使用占位符
+按钮（单多选）为自身，选中则为true，否则为false
+下拉列表有隐藏的是隐藏域的ID，一般为整数值
+无隐藏域的为输入框的ID，一般为字符串
+*/
+var Datas={
+    AnchorProfile:{
+		fullname:'张英',
+		female:true,
+		hometownCity:'271400',
+		birthYear:1993,
+		birthMonth:7,
+		highestEducation:3,//大专
+		experience:4,//1-3年
+		mobile:'13411022562',
+		email:'575859626@qq.com',
+		idcard:'445678199307082428',
+		state:2//在职，想换工作
+	},
+    AnchorOpinion:{
+		wantJobtype:1,//全职
+		wantProvince:'270000',
+		wantCity:'271000',
+		wantDistrict:'000000',
+		wantSubjects:'1010,1012,1014',//互联网/电子商务 ,计算机软件 ,IT/计算机服务 
+		wantPositions:'111012,111013,111018',//Html5,web前端,其他前端开发
+		wantSalary:5//5000-8000
+	},
+    AnchorIntroduction:{
+		introduction:'如何找到好的工作成为职场热门话题，事实上，要找到好工作，首先要做好简历，简历的重要部分之一是自我介绍，简历自我介绍不宜过长，也不能太短，如何写好简历中的自我介绍，以下举例三篇个人简历自我介绍范文，可供参考.'
+	},
+    AnchorEducations:{
+		1:{
+			education:4,//本科
+			school:'华南理工大学',
+			institute:'软件学院',
+			major:'软件工程',
+			educateYearFrom:1996,
+			educateMonthFrom:3,
+			educateYearTo:2001,
+			educateMonthTo:8
+		},
+		2:{
+			education:3,//大专
+			school:'华南理工大学广州汽车学院',
+			institute:'广州汽车学院',
+			major:'汽车修理',
+			educateYearFrom:2012,
+			educateMonthFrom:5,
+			educateYearTo:2013,
+			educateMonthTo:12
+		}
+	},
+    AnchorWorks:{
+		1:{
+			workCompany:'某个公司',
+			workPosition:'产品销售',
+			workYearFrom:2002,
+			workMonthFrom:3,
+			workYearTo:2005,
+			workMonthTo:8,
+			workDescription:'简历的重要部分之一是自我介绍，简历自我介绍不宜过长.\n1、也不能太短，如何写好简历中的自我介绍\n2、以下举例三篇个人简历自我介绍范文，可供参考.'
+		},
+		2:{
+			workCompany:'广州冠鹏信息技术有限公司',
+			workPosition:'程序员',
+			workYearFrom:2012,
+			workMonthFrom:6,
+			workYearTo:2014,
+			workMonthTo:4,
+			workDescription:'广州冠鹏信息技术有限公司是国内首家推出新一代院校就业整体解决方案提供商，与国内各地著名高等院校、500强等大型企业和海量高价值中小企业深度合作.'
+		}
+	},
+    AnchorProjects:{
+		1:{
+			projectCompany:'广州冠鹏信息技术有限公司',
+			projectName:'好学校官方网站',
+			projectPosition:'前端开发',
+			projectYearFrom:2005,
+			projectMonthFrom:1,
+			projectYearTo:2006,
+			projectMonthTo:2,
+			projectDescription:'制作一个可供培训资讯分享的信息平台网站.'
+		},
+		2:{
+			projectCompany:'广州冠鹏信息技术有限公司',
+			projectName:'好工作官方网站第二版',
+			projectPosition:'动画制作',
+			projectYearFrom:2011,
+			projectMonthFrom:5,
+			projectYearTo:2013,
+			projectMonthTo:2,
+			projectDescription:'在第一版的基础上，制作功能类似的第二版.'
+		}
+	},
+    AnchorSkills:{
+		1:{
+			skillName:'Photoshop',
+			skillDegree:2,
+			skillMonths:3
+		},
+		2:{
+			skillName:'Dreamweaver',
+			skillDegree:4,
+			skillMonths:36
+		},
+		3:{
+			skillName:'Fireworks',
+			skillDegree:3,
+			skillMonths:28
+		}
+	},
+    AnchorOther:{
+		others:'2014.1，获得优秀好学生奖\n2014.12，获得优秀员工奖\n好的工作成为职场热门话题，事实上，要找到好工作，首先要做好简历，简历的重要部分之一是自我介绍，简历自我介绍不宜过长，也不能太短.',
+        additional:"什么标题"
+	},
+    MyWork:{
+        workLink: "http://www.93hgz.com/",
+        workName: "好工作人才网",
+        workContent: "好的工作成为职场热门话题，事实上，要找到好工作，首先要做好简历，简历的重要部分之一是自我介绍，简历自我介绍不宜过长，也不能太短." 
+    },
+    TrainingExperience: {
+        1:{
+            trainMechanism: "北大青鸟（广力校区）",
+            trainSkill: "UI设计师",
+            trainContent: "简历的重要部分之一是自我介绍，简历自我介绍不宜过长.1、也不能太短，如何写好简历中的自我介绍 2、以下举例三篇个人简历自我介绍范文，可供参考.",
+            trainCertificate: "高级UI设计师证",
+            trainYearFrom:2001,
+            trainMonthFrom:1,
+            trainYearTo:2002,
+            trainMonthTo:2
+        }
+    }
+};
+
+function FormRebuild(id,datas)
+{
+	//以布局顺序为优先，以保证初始化正常
+	$("#"+id).find(".item dfn").children().each(function(){
+		var tag=this.tagName.toLowerCase();
+		switch(tag)
+		{
+			case 'input':
+			case 'textarea':
+				if(this.type=='text' || tag=='textarea')
+				{
+					if(!datas) this.value='';
+					else
+					{
+						var id=this.id;
+						if(!id) break;
+						var value=id in datas ? datas[id]:'';
+						this.value=value;
+					}
+					INPUT.init.call(this);
+				}
+				break;
+			case 'dl':
+				if($(this).hasClass("SELECT"))
+				{
+					var input=$(this).find("input[type=hidden]");
+					if(!input.size()) input=$(this).find("input[type=text]");
+					var id=input.attr('id');
+					if(!id) break;
+					if(!datas) input.val('');
+					else
+					{
+						var value=id in datas ? datas[id]: '';
+						if(value!=='')
+						{
+							input.val(value);
+						}
+					}
+					SELECT.init.call(this);
+					if($(this).hasClass("ADDRESS"))
+					{
+						ADDRESS.init.call(this);
+					}
+				}
+				break;
+			case 'label':
+				if(datas)
+				{
+					var input=$(this).find("input"),
+						id=input.attr('id');
+					if(!id) break;
+					var bool=id in datas ? Boolean(datas[id]) : false;
+					if(bool) $(this).click();
+				}
+				break;
+			default:
+		}
+	});
+}
+//初始化数据，id为“表单”容器的ID，subid为列表中某条记录的id，如果是单项数据则可忽略
+function FormInit(id,subid)
+{
+	if(!(id in Datas)) return false;
+	var datas=Datas[id];
+	if(subid && (subid in datas)) datas=datas[subid];
+	FormRebuild(id,datas);
+}
+//完全清空一个表单，用于列表数据的追加
+function FormReset(id){FormRebuild(id,'');}
+
+$(window).on("scroll load resize",function(){
+	var RIGHT=$(".Right"),
+		LEFT=$(".Left"),
+		TARGET=RIGHT.find(".RightNav"),
+		scrollTop=$(this).scrollTop(),
+		leftTop=LEFT.offset().top,
+		startTop=leftTop + RIGHT.find("h3").outerHeight(true) + $("#Complete").outerHeight(true),
+		//这里要用固定高度（反正静止内容尺寸不会变），不然从无到有时的卡位会不正常
+		maxTop=leftTop+LEFT.outerHeight()-TARGET.outerHeight();
+	RIGHT.height(LEFT.height());
+
+	if(scrollTop<=startTop)
+		TARGET.removeClass("fixed fixed-top bottom0");
+	else if(scrollTop<maxTop)
+		TARGET.addClass("fixed fixed-top").removeClass("bottom0");
+	else
+	{
+		TARGET.removeClass("fixed fixed-top").addClass("bottom0");
+		//document.title=scrollTop+','+maxTop;
+	}
+});
+/*-----------------------*/
+
+
+$(".i9").mouseover(function(event) {
+    $(this).closest('li').addClass('m_hide');
+    $(".m_f .hide_mr").removeClass('hd'),
+    $(".m_f .hide_mr").mouseover(function(event) {
+        $(".i9").closest('li').addClass('m_hide')
+        $(".m_f .hide_mr").removeClass("hd")
+    });
+}),
+$(".m_f .hide_mr").mouseout(function(event) {
+    $(".m_f .hide_mr").addClass('hd');
+    $(".m_f .hide_mr").each(function(a) {
+            $(this).hasClass("hd") && a++
+    }),
+    10 == $(".selse").length ? $(".i9").closest('li').addClass('m_hide'): $(".i9").closest('li').removeClass('m_hide')
+});
+
+
+
+
+/*添加简历选项*/
+$(".m_f li").click(function(event) {
+    $('ol .hide_mr').eq($(this).index()).removeClass('m_hide').addClass('selse');
+    $(this).removeClass('hide_mr').addClass('hd')
+    var Show_id = $(this).find('a').attr('href').substring(1);
+    $("#"+Show_id).removeClass('hd');
+
+    if($("#"+Show_id+" .Topic q").hasClass("plus")){
+        $("#"+Show_id).find(".plus").click();
+    }else{
+        $("#"+Show_id).find(".edit").click();
+    }
+    anchors();
+});
+/*删除简历选项*/
+$(".RightNav ol>li").find('b').on('click', function(event) {
+ //   event.stopPropagation();
+    $(this).closest('li').addClass('m_hide').removeClass('selse')
+    $(".m_f li").eq($(this).closest('li').index()-4).addClass('hide_mr').addClass('hd');
+     var Show_id = $(this).parent('a').attr('href').substring(1);
+    $("#"+Show_id).addClass('hd');
+    if($('.m_f .hide_mr').length ==1 ) $(".i9").closest('li').removeClass('m_hide');
+    if ($(this).closest('.i11')) {
+         $(".RightNav").find(".i11 span").text("附加信息")
+    };
+});
+
+/*参考范例*/
+var fl = [".Works",".Anchor",".Train",".Work",".Introduction"]
+for(var i = fl.length ,j=0; j< i; j++ ){
+    $(fl[j]).find('.example').mouseover(function() {
+    $(this).closest(".item").find('.example-demo').stop().fadeToggle('300');
+}).mouseout(function() {
+    $(this).closest(".item").find('.example-demo').stop().fadeToggle('300');
+});
+}
+//
+$(".KEY-GUIDANCE").on('keyup focus click',function(event){
+    var key=event.which;
+    if($.inArray(key,[40,38,13])>=0 && event.type=='keyup')return true;
+    key=this.value;
+    var dl=$(this).closest('dl'),
+            dd=dl.find('dd'),
+            tip=dd.find('.tip'),
+            result=dd.find('.matches'),
+            oDOMselect=$(this).closest(".SELECT").get(0);
+    SELECT.open.call(oDOMselect);
+    if(!key)
+    {//无关键字则收回提示及匹配
+        tip.html('↑请输入相关技能').show();
+        result.hide();
+        return true;
+    }
+    if(typeof GetPositionsByKeywords =='undefined')
+    {
+        alert('缺少包含文件jobPositions.js');
+        return false;
+    }
+    var jobs=GetPositionsByKeywords(key),count=jobs.length;
+    if(count)
+    {//最大选项数，如果不设置则显示全部
+        var matches=dl.data("matches"),str=[];
+        if(!matches) matches=count;
+        var over=Math.min(matches,count);
+        for(var n=0;n<over;n++)
+        {
+            var job=jobs[n][0],id=jobs[n][2];
+            str.push('<a href="javascript:void(0)" title="', job ,'" data-id="', id ,'">', job ,'</a>');
+        }
+        result.html(str.join('')).show();
+        tip.hide();
+    }
+    else
+    {//修改提示
+        //tip.html('对不起，找不到符合'+ key +'的技能').show();
+        result.hide();
+        SELECT.close.call(oDOMselect,true);
+    }
+});
+
+</script>

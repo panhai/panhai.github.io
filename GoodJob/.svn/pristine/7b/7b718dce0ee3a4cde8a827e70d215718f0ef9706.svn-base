@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="css/v2/all.css">
+<link rel="stylesheet" type="text/css" href="css/v2/web.css">
+<link rel="stylesheet" type="text/css" href="css/v2/help.css">
+<link rel="stylesheet" type="text/css" href="css/v2/plugin/CitiesPicker.css">
+<title>好工作-HR帮助中心-问题与建议</title>
+</head>
+
+<body>
+<div class="HEADER"><div class="common">
+	<div class="LOGO"><a href="index-new.html"><img src="images/v2/logo.jpg" width="177" height="91"></a></div>
+    <div class="SLOGAN"><img src="images/v2/hrhelp.gif" width="144" height="29"></div>
+    <a href="Company/new-index.html" class="hrlink">返回企业中心</a>
+</div></div>
+
+<div class="Main common">
+    <div class="Left">
+        <dl>
+        	<dt><a href="new-hrhelp.html" class="t1">常见问题</a></dt>
+        </dl>
+        <dl class="cur">
+        	<dt><a href="new-hrhelp-feedback.html" class="t3">问题与建议</a></dt>
+        </dl>
+        <dl>
+        	<dt><a href="new-hrhelp-server.html" class="t4">联系客服</a></dt>
+        </dl>
+    </div>
+    <div class="Right">
+        <h1 class="TOPIC">问题与建议</h1>
+        <div class="Content">
+        	<table class="Suggest">
+            	<tr><th width="120">意见内容：</th><td width="600">
+                	<textarea placeholder="产品建议、产品bug反馈、求助或吐槽..."></textarea>
+                    <code class="form-tip successMsg"></code>
+                    <code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>
+                </td></tr>
+            	<tr><th>如何与您联系：</th><td>
+                	<input type="text" class="text" placeholder="请输入邮箱或手机号码">
+                    <code class="form-tip successMsg"></code>
+                    <code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>
+                </td></tr>
+            	<tr><th></th><td><input type="button" class="submit" value="提交建议"></td></tr>
+            </table>
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>咨询详情</title>
+    <meta name=viewport content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="../css/all.css" />
+    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+    <link href="../css/layerskin/default/layer.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="head">
+        <div class="left-head">
+            <img src="../images/parseword_logo1.png" alt="">
+            <div class="menu">
+                <span class="name">李凌云</span>
+                <span class="job">商务英语基础</span>
+                <span class="bg1">约了到访</span>
+                <span class="bg2">高意向</span>
+            </div>
+        </div>
+
+        <div class="right-head">
+           <span>跟进人： 石老师 2018-08-08 12:30</span><i class="set-write"></i>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="left-content">
+            <div class="content-floor">
+                <div class="information-details">
+                    <div class="information-cell">
+                        <div class="infor-name">
+                            <p>李凌云( 和朋友）</p><span>男<em></em>广州天河</span>
+                            <a href="编辑咨询.html" class="infor-set"><i></i>编辑</a>
+                        </div>
+
+                        <div class="infor-label">
+                            <a href="javascript:void(0)" class="color1">重点客户</a>
+                            <a href="javascript:void(0)" class="color2">报读</a>
+                            <a href="javascript:void(0)" class="color3 open-key">+添加标签</a>
+                            <div class="label-layer" style="display: none;">
+                                <div class="label-title">
+                                    <span>选择标签</span>
+                                    <a href="javascript:void(0)">+标签管理</a>
+                                </div>
+                                <div class="label-name">
+                                    <a href="javascript:void(0)" class="cur">重点客户</a>
+                                    <a href="javascript:void(0)">重客户</a>
+                                    <a href="javascript:void(0)">重点客户</a>
+                                    <a href="javascript:void(0)">重点客户</a>
+                                    <a href="javascript:void(0)">重点客户</a>
+                                </div>
+
+                                <div class="label-btm">
+                                    <a href="javascript:void(0)" class="cur">确认</a>
+                                    <a href="javascript:void(0)" class="esc">取消</a>
+                                </div>
+                            </div>
+
+                            <div class="infor-msg">
+                                手机：15889936047<em></em>微信：047<em></em>QQ：254687456221<em></em>邮箱：254687456221@qq.com
+                            </div>
+                            <div class="infor-msg1">
+                                <span>商务英语基础</span>
+                                <em></em>
+                                <b>天河校区</b>
+                            </div>
+                            <div class="infor-msg">
+                                做定制家具。没用过cad所以想零基础学习 全天学习 这个月可以
+                            </div>
+
+                            <div class="infor-img">
+                                <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2114797134,526769156&fm=26&gp=0.jpg" alt="">
+                                <i class="infor-hot"></i>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="inormation-schedule sce3"><!-- sce1~6  --->
+                    <div class="schedule-demo">
+                        <div class="round-icon"></div>
+                        <div class="schedule-text">新咨询</div>
+                    </div>
+
+                    <div class="schedule-demo">
+                        <div class="round-icon"></div>
+                        <div class="schedule-text">初步沟通</div>
+                    </div>
+
+                    <div class="schedule-demo">
+                        <div class="round-icon"></div>
+                        <div class="schedule-text">跟进中</div>
+                    </div>
+
+                    <div class="schedule-demo">
+                        <div class="round-icon"></div>
+                        <div class="schedule-text">约了到访</div>
+                    </div>
+
+                    <div class="schedule-demo">
+                        <div class="round-icon"></div>
+                        <div class="schedule-text">已到访</div>
+                    </div>
+
+                    <div class="schedule-demo">
+                        <div class="round-icon"></div>
+                        <div class="schedule-text">已报名</div>
+                    </div>
+
+                    <div class="all-line ">
+                        <div class="schedule-line"></div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="infor-nav">
+                <a href="咨询详情.html" class="cur">跟进记录 <i></i></a>
+                <a href="咨询详情-1.html">学员资料 <i></i></a>
+                <a href="咨询详情-2.html">咨询记录 <i></i></a>
+            </div>
+
+
+            <div class="ionfor-comment-area">
+                <div class="comment-write schedule-layer">输入添加跟进记录</div>
+
+                <a href="javascript:void(0)" class="see-myself">
+                    <i class=""></i><span>只看自己</span>
+                </a>
+
+                <div class="comment-layer">
+                    <div class="comment-cell">
+                        <div class="name-and-time">李老师  12月3日  12:36</div>
+                        <div class="comment-msg">
+                              <p>              12月下旬学习，一起学，问有没有到访，说没有，加微信，发资料给他对比了解 pjy1102 12月下旬学习，跟同事两个
+                              </p>
+                            <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2114797134,526769156&amp;fm=26&amp;gp=0.jpg" alt="">
+
+                           <p> 解 pjy1102 12月下旬学习，跟同事两</p>
+                        </div>
+                        <div class="comment-label">
+                            <span>初步沟通</span>
+                            <span>中等意向</span>
+                        </div>
+                    </div>
+                    <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2114797134,526769156&amp;fm=26&amp;gp=0.jpg" alt="">
+                </div>
+
+
+                <div class="comment-layer">
+                    <div class="comment-cell">
+                        <div class="name-and-time">李老师  12月3日  12:36</div>
+                        <div class="comment-msg">
+                            12月下旬学习，跟同事两个人一起学，问有没有到访，说没有，加微信，发资料给他对比了解 pjy1102 12月下旬学习，跟同事两个人一起学，问有没有到访，说没有，加微信，发资料给他对比了解 pjy1102 12月下旬学习，跟同事两个人一起学，问有没有到访，说没有，加微信，发资料给他对比了解 pjy1102 12月下旬学习，跟同事两个人一起学，问有没有到访，说没有，加微信，发资料给他对比了解 pjy1102 12月下旬学习，跟同事两个人一起学，问有没有到访，说没有，加微信，发资料给他对比了解 pjy1102 12月下旬学习，跟同事两个人一起学，问有没有到访，说没有，加微信，发资料给他对比了解 pjy1102
+                        </div>
+                        <div class="comment-label">
+                            <span>初步沟通</span>
+                            <span>中等意向</span>
+                        </div>
+                    </div>
+                    <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2114797134,526769156&amp;fm=26&amp;gp=0.jpg" alt="">
+                </div>
+
+                <div class="comment-layer">
+                    <div class="comment-cell">
+                        <div class="name-and-time">李老师  12月3日  12:36</div>
+                        <div class="comment-msg">
+                            12月下旬学习，跟同事两个人一起学，问有没有到访，说没有，加微信，发资料给他对比了解 pjy1102 12月下旬学习，跟同事两个人一起学，问有没有到访，说没有，加微信，发资料给他对比了解 pjy1102 12月下旬学习，跟同事两个人一起学，问有没有到访，说没有，加微信，发资料给他对比了解 pjy1102 12月下旬学习，跟同事两个人一起学，问有没有到访，说没有，加微信，发资料给他对比了解 pjy1102 12月下旬学习，跟同事两个人一起学，问有没有到访，说没有，加微信，发资料给他对比了解 pjy1102 12月下旬学习，跟同事两个人一起学，问有没有到访，说没有，加微信，发资料给他对比了解 pjy1102
+                        </div>
+                        <div class="comment-label">
+                            <span>初步沟通</span>
+                            <span>中等意向</span>
+                        </div>
+                    </div>
+                    <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2114797134,526769156&amp;fm=26&amp;gp=0.jpg" alt="">
+                </div>
+
+                <div class="comment-layer">
+                    <div class="comment-cell">
+                        <div class="name-and-time">李老师  12月3日  12:36</div>
+                        <div class="comment-msg">
+                            12月下旬学习，跟同事两个人一起学，问有没有到访，说没有，加微信，发资料给他对比了解 pjy1102 12月下旬学习，跟同事两个人一起学，问有没有到访，说没有，加微信，发资料给他对比了解 pjy1102 12月下旬学习，跟同事两个人一起学，问有没有到访，说没有，加微信，发资料给他对比了解 pjy1102 12月下旬学习，跟同事两个人一起学，问有没有到访，说没有，加微信，发资料给他对比了解 pjy1102 12月下旬学习，跟同事两个人一起学，问有没有到访，说没有，加微信，发资料给他对比了解 pjy1102 12月下旬学习，跟同事两个人一起学，问有没有到访，说没有，加微信，发资料给他对比了解 pjy1102
+                        </div>
+                        <div class="comment-label">
+                            <span>初步沟通</span>
+                            <span>中等意向</span>
+                        </div>
+                    </div>
+                    <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2114797134,526769156&amp;fm=26&amp;gp=0.jpg" alt="">
+                </div>
+
+                <div class="comment-layer">
+                    <div class="comment-cell">
+                        <div class="name-and-time">李老师  12月3日  12:36</div>
+                        <div class="comment-msg">
+                            12月下旬学习，跟同事两个人一起学，问有没有到访，说没有，加微信，发资料给他对比了解 pjy1102 12月下旬学习，跟同事两个人一起学，问有没有到访，说没有，加微信，发资料给他对比了解 pjy1102 12月下旬学习，跟同事两个人一起学，问有没有到访，说没有，加微信，发资料给他对比了解 pjy1102 12月下旬学习，跟同事两个人一起学，问有没有到访，说没有，加微信，发资料给他对比了解 pjy1102 12月下旬学习，跟同事两个人一起学，问有没有到访，说没有，加微信，发资料给他对比了解 pjy1102 12月下旬学习，跟同事两个人一起学，问有没有到访，说没有，加微信，发资料给他对比了解 pjy1102
+                        </div>
+                        <div class="comment-label">
+                            <span>初步沟通</span>
+                            <span>中等意向</span>
+                        </div>
+                    </div>
+                    <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2114797134,526769156&amp;fm=26&amp;gp=0.jpg" alt="">
+                </div>
+
+                <div class="comment-layer">
+                    <div class="comment-cell">
+                        <div class="name-and-time">李老师  12月3日  12:36</div>
+                        <div class="comment-msg">
+                            12月下旬学习，跟同事两个人一起学，问有没有到访，说没有，加微信，发资料给他对比了解 pjy1102 12月下旬学习，跟同事两个人一起学，问有没有到访，说没有，加微信，发资料给他对比了解 pjy1102 12月下旬学习，跟同事两个人一起学，问有没有到访，说没有，加微信，发资料给他对比了解 pjy1102 12月下旬学习，跟同事两个人一起学，问有没有到访，说没有，加微信，发资料给他对比了解 pjy1102 12月下旬学习，跟同事两个人一起学，问有没有到访，说没有，加微信，发资料给他对比了解 pjy1102 12月下旬学习，跟同事两个人一起学，问有没有到访，说没有，加微信，发资料给他对比了解 pjy1102
+                        </div>
+                        <div class="comment-label">
+                            <span>初步沟通</span>
+                            <span>中等意向</span>
+                        </div>
+                    </div>
+                    <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2114797134,526769156&amp;fm=26&amp;gp=0.jpg" alt="">
+                </div>
+
+                <div class="comment-layer">
+                    <div class="comment-cell">
+                        <div class="name-and-time">李老师  12月3日  12:36</div>
+                        <div class="comment-msg">
+                            12月下旬学习，跟同事两个人一起学，问有没有到访，说没有，加微信，发资料给他对比了解 pjy1102 12月下旬学习，跟同事两个人一起学，问有没有到访，说没有，加微信，发资料给他对比了解 pjy1102 12月下旬学习，跟同事两个人一起学，问有没有到访，说没有，加微信，发资料给他对比了解 pjy1102 12月下旬学习，跟同事两个人一起学，问有没有到访，说没有，加微信，发资料给他对比了解 pjy1102 12月下旬学习，跟同事两个人一起学，问有没有到访，说没有，加微信，发资料给他对比了解 pjy1102 12月下旬学习，跟同事两个人一起学，问有没有到访，说没有，加微信，发资料给他对比了解 pjy1102
+                        </div>
+                        <div class="comment-label">
+                            <span>初步沟通</span>
+                            <span>中等意向</span>
+                        </div>
+                    </div>
+                    <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2114797134,526769156&amp;fm=26&amp;gp=0.jpg" alt="">
+                </div>
+
+
+                <div class="t_foot other-s">
+                    <!--
+                    <p class="leftbox" style="margin-left: 10px;">
+                        <i class="icon"></i>
+                        <label>全选</label>
+                        <span class="btn other-css  ">上架</span>
+                        <span class="btn other-css">下架</span>
+                    </p>
+                    -->
+
+
+                    <div class="page nopadding">
+                        <label>每页</label> <dl class="SELECT" data-placeholder="请选择">
+                        <input type="hidden" value="10" autocomplete="off">
+                        <dt><b title="10">10</b></dt>
+                        <dd class="normal">
+                            <a href="javascript:void(0)" data-id="50" title="50">50</a>
+                            <a href="javascript:void(0)" data-id="20" title="20">20</a>
+                            <a href="javascript:void(0)" data-id="10" class="checked cur" title="10">10</a>
+                        </dd>
+                    </dl> <a href="javascript:void(0)">上一页</a> <a href="javascript:void(0)" class="cur">1</a> <a href="/company/resume?pid=2">2</a> <a href="/company/resume?pid=3">3</a>  … <a href="/company/resume?pid=1822">1822</a> <a href="/company/resume?pid=2">下一页</a>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+        <div class="right-for-content">
+            <a href="javascript:void(0)" class="cur">提交报名</a>
+            <a href="javascript:void(0)" class=" schedule-layer">约了到访</a>
+            <a href="javascript:void(0)" class=" schedule-layer">下次回访</a>
+
+            <a href="javascript:void(0)" class="other-cur schedule-layer">标记已到访</a>
+            <a href="javascript:void(0)" class="other-cur1 schedule-layer"><i></i>不想学</a>
+            <a href="javascript:void(0)" class="other-cur2"><i></i>发通知</a>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!--发通知-->
+    <div class="send-msg" id="send-msg">
+
+        <div class="fill-in-box">
+            <div class="fill-name">
+                通知对象：
+            </div>
+
+            <div class="fill-data">
+                <dl class="SELECT comment" data-placeholder="请选择">
+                    <input type="hidden" value="" autocomplete="off">
+                    <dt><span class="">请选择</span></dt>
+                    <dd class="normal maxHeight">
+                        <a href="javascript:void(0)" data-id="0" class="" title="不限">不限</a>
+                        <a href="javascript:void(0)" data-id="0" class="" title="2000人/年">200人0/年</a>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+
+        <div class="fill-in-box">
+            <div class="fill-name">
+                通知标题：
+            </div>
+
+            <div class="fill-data">
+                <input type="text" class="fill-text" placeholder="请输入">
+            </div>
+
+            <span class="field-validation-error" data-valmsg-for="FullName" data-valmsg-replace="true"><span for="FullName" class="">信息不能为空</span></span>
+        </div>
+
+
+        <div class="fill-in-box">
+            <div class="fill-name">
+                通知附件：
+            </div>
+
+            <div class="fill-data">
+                <a href="javascript:void(0)" class="plus-word">+添加附件</a>
+                <div class="over-text auto-width">asldjlsajd.doc</div>
+            </div>
+        </div>
+
+        <div class="fill-in-box">
+            <div class="fill-name">
+                通知内容：
+            </div>
+
+            <div class="fill-data">
+                <textarea class="fill-about" style="width: 480px;height: 84px;"></textarea>
+
+                <div class="promotion-layer nomargin">
+                    <a href="javascript:void(0)" class="pro-url "><i class=""></i>微信通知</a>
+
+                    <a href="javascript:void(0)" class="pro-url pro-settings"><i class=""></i>邮件通知[<span class="toSee">预览</span>]</a>
+
+                </div>
+            </div>
+
+            <span class="field-validation-error" data-valmsg-for="FullName" data-valmsg-replace="true"><span for="FullName" class="">信息不能为空</span></span>
+        </div>
+        <div class="submitBtn ml148">
+            <a href="javascript:void(0)" class="cur    ">确认</a>
+            <a href="javascript:void(0)" class="">取消</a>
+        </div>
+    </div>
+
+
+
+    <!--下次回访-->
+    <div class="comment-window" id="comment-window">
+        <div class="fill-in-box mal-one">
+            <div class="fill-name">
+                学员状态：
+            </div>
+
+            <div class="fill-data">
+                <div class="fill-radio">
+                    <a href="javascript:void(0)" class="cur">沟通中</a>
+                    <a href="javascript:void(0)">约了到访</a>
+                    <a href="javascript:void(0)">已到访</a>
+                    <a href="javascript:void(0)">已报名</a>
+                    <a href="javascript:void(0)">不想学</a>
+                    <a href="javascript:void(0)">报了其他</a>
+                    <a href="javascript:void(0)">无效咨询</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="fill-in-box mal-one">
+            <div class="fill-name">
+                到访计划：
+            </div>
+
+            <div class="fill-data">
+                <input type="text" class="fill-text" placeholder="请再输入新密码">
+            </div>
+        </div>
+
+
+
+        <div class="fill-in-box mal-one">
+            <div class="fill-name">
+                到访备注：
+            </div>
+
+            <div class="fill-data">
+                <textarea class="fill-about shortcut-selec" placeholder="请输入学员情况" style="width: 590px;height: 180px;"></textarea>
+                <div class="fill-window">
+                    <div class="fill-head">
+                        <span>快捷输入</span>
+                        <a href="学校设置-属性配置-4.html"><i></i>管理快捷语</a>
+                    </div>
+                    <div class="shortcut-demo">
+                        <a href="javascript:void(0)">电话无人接听</a>
+                        <a href="javascript:void(0)">电话关机</a>
+                        <a href="javascript:void(0)">已经约了时间到访</a>
+                        <a href="javascript:void(0)">距离太远，不想学了</a>
+                        <a href="javascript:void(0)">近期暂无计划报读</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="fill-in-box mal-one">
+            <div class="fill-name">
+                通知内容：
+            </div>
+
+            <div class="fill-data">
+                <!--
+                <div class="promotion-layer nomargin">
+                    <a href="javascript:void(0)" class="pro-url "><i class=""></i>准备报名</a>
+
+                    <a href="javascript:void(0)" class="pro-url pro-settings"><i class=""></i>高意向</a>
+                    <a href="javascript:void(0)" class="pro-url pro-settings"><i class=""></i>中等意向</a>
+                    <a href="javascript:void(0)" class="pro-url pro-settings"><i class=""></i>低意向</a>
+
+                </div>
+                -->
+
+                <div class="midlleBoxs">
+                    <input type="radio" name="notice" id="together"><label for="together" class="style-for-this">准备报名</label>
+                    <input type="radio" name="notice" id="high"><label for="high" class="style-for-this">高意向</label>
+                    <input type="radio" name="notice" id="middle"><label for="middle" class="style-for-this">中等意向</label>
+                    <input type="radio" name="notice" id="low"><label for="low" class="style-for-this">低意向</label>
+                </div>
+            </div>
+
+            <span class="field-validation-error" data-valmsg-for="FullName" data-valmsg-replace="true"><span for="FullName" class="">信息不能为空</span></span>
+        </div>
+
+        <div class="fill-in-box mal-one">
+            <div class="fill-name">
+                到访计划：
+            </div>
+
+            <div class="fill-data">
+                <input type="text" class="fill-text Wdate mydate" onclick="WdatePicker()" placeholder="请输入">
+            </div>
+
+            <span class="field-validation-error" data-valmsg-for="FullName" data-valmsg-replace="true"><span for="FullName" class="">信息不能为空</span></span>
+        </div>
+
+
+        <div class="submitBtn ml125">
+            <a href="javascript:void(0)" class="cur">确认推广</a>
+            <a href="javascript:void(0)" class="">取消</a>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="send-msg" id="set-write">
+
+        <div class="fill-in-box">
+            <div class="fill-name">
+                跟进人：
+            </div>
+
+            <div class="fill-data">
+                <dl class="SELECT comment" data-placeholder="请选择">
+                    <input type="hidden" value="" autocomplete="off">
+                    <dt><span class="">请选择</span></dt>
+                    <dd class="normal maxHeight">
+                        <a href="javascript:void(0)" data-id="0" class="" title="不限">不限</a>
+                        <a href="javascript:void(0)" data-id="0" class="" title="2000人/年">200人0/年</a>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+
+        <div class="fill-in-box">
+            <div class="fill-name">
+                回访计划：
+            </div>
+
+            <div class="fill-data">
+                <input type="text" class="fill-text Wdate mydate" onclick="WdatePicker()" placeholder="请输入">
+            </div>
+
+            <span class="field-validation-error" data-valmsg-for="FullName" data-valmsg-replace="true"><span for="FullName" class="">信息不能为空</span></span>
+        </div>
+
+
+
+        <div class="fill-in-box">
+            <div class="fill-name">
+                备注：
+            </div>
+
+            <div class="fill-data">
+                <textarea class="fill-about" style="width: 480px;height: 84px;"></textarea>
+
+            </div>
+
+            <span class="field-validation-error" data-valmsg-for="FullName" data-valmsg-replace="true"><span for="FullName" class="">信息不能为空</span></span>
+        </div>
+        <div class="submitBtn ml148">
+            <a href="javascript:void(0)" class="cur    ">确认</a>
+            <a href="javascript:void(0)" class="">取消</a>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="../js/jquery.js"></script>
+<script src="../js/layer.js"></script>
+<script src="../js/area.js"></script>
+<script src="../js/all.js"></script>
+<script src="../js/plugin/select.js"></script>
+<script src="../js/My97DatePicker/WdatePicker.js"></script>
+<script src="http://api.map.baidu.com/api?v=2.0&amp;ak=OlGzoCwcKN9OvM16T9RnFwOl"></script>
+
+<script type="text/javascript">
+
+
+    $(".set-write").click(function () {
+        layer.open({
+            title: '修改回访计划',
+            type: 1,
+            area: '744px',
+            skin: '',
+            content: $('#set-write')
+        });
+    });
+
+
+
+
+
+
+    //跟进记录学员状态点击事件
+    $(".fill-in-box .fill-radio a").click(function () {
+        $(".fill-in-box .fill-radio a").removeClass("cur");
+        $(this).addClass("cur")
+    });
+    var getLeft = $(".right-for-content").offset().left;
+    //head  右侧模板
+    $(".head .right-head").css("left",getLeft+"px");
+
+    //导航条滚动计算
+    $(window).scroll(function (e) {
+        e.stopPropagation();
+        var getScrollTop = $(window).scrollTop();
+        var getScrollLeft = $(window).scrollLeft();
+        if( getScrollTop>=70) {
+            $(".right-for-content").css("position","fixed").css("left",getLeft - getScrollLeft+"px").css("top","0")
+        }else {
+            $(".right-for-content").css("position","static")
+        }
+
+    });
+
+
+
+    //发通知
+    $(".other-cur2").click(function () {
+        layer.open({
+            title: '发通知',
+            type: 1,
+            area: '744px',
+            skin: '',
+            content: $('#send-msg')
+        });
+    });
+
+
+    //下次回访
+    $(".shortcut-selec").click(function () {
+        $(".fill-window").show();
+    });
+    $(".schedule-layer").click(function () {
+        layer.open({
+            title: '添加跟进记录',
+            type: 1,
+            area: '790px',
+            skin: '',
+            content: $('#comment-window')
+        });
+    });
+
+    //勾选事件
+    $(".fill-in-box .promotion-layer .pro-url").click(function () {
+        if($(this).find("i").hasClass("cur")){
+            $(".fill-in-box .promotion-layer .pro-url").find("i").removeClass("cur");
+            $(this).find("i").removeClass("cur");
+        }else {
+            $(".fill-in-box .promotion-layer .pro-url").find("i").removeClass("cur");
+            $(this).find("i").addClass("cur");
+        }
+    });
+
+
+
+
+
+
+
+
+    //+标签事件
+    $(".open-key").click(function () {
+        var getLeft = $(this).position().left;
+
+        $(".label-layer").show().css("left",getLeft+"px").css("top","75px");
+    });
+    $(".esc").click(function () {
+        $(".label-layer").hide();
+    });
+    $(".label-layer").mouseleave(function () {
+        $(".label-layer").hide();
+    });
+    $(" .label-name a").click(function () {
+        if ($(this).hasClass('cur')) {
+            $(this).removeClass('cur');
+        } else {
+            $(this).addClass('cur');
+
+        }
+    });
+
+    //只看自己
+    $(".see-myself").click(function () {
+        if ($(this).find("i").hasClass('cur')) {
+            $(this).find("i").removeClass('cur');
+        } else {
+            $(this).find("i").addClass('cur');
+
+        }
+    });
+
+
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>邮件验证</title>
+</head>
+
+<body>
+<dl style="width:780px; margin:20px auto; border:1px solid #eee;">
+	<dt style="background-color:#add0ff; padding:10px 40px;"><img src="images/v2/logo.png" width="177" height="91"></dt>
+    <dd style="background-color:#fff; font-family:Microsoft YaHei, Arial;  margin:0; word-break:break-all;">
+        <div style="padding:0 32px 40px;background:url(images/v2/email-bg.jpg) repeat-x left bottom;">
+    	<p><span style="font-size:20px; color:#313131;font-weight:bold">张先生</span></p>
+        <p style="font-size:16px;color:#484848;">您好！您已成为好工作会员！你的账号为15889936047，初始密码为241551。登录<br>
+        好工作修改密码吧！</p>
+        <p><a href="http://www.93hgz.com/login/" target="_blank" style="width:206px;height:41px;display:block;background:#1562c8;text-align:center;line-height:41px;color:#fff;text-decoration:none;">立即登录</a></p>
+        <div style="margin:30px 0 0;padding-left:280px;height:200px;background:url(images/v2/email-code.jpg);overflow:hidden;">
+            <h3 style="margin:50px 0 0px;font-size:26px;color:#1562c8;">微信扫一扫，手机登录！</h3>
+            <p style="margin-top:10px;font-size:16px;color:#414141;">随时随地，查看投递反馈，不漏掉任何一个面试通知！</p>
+        </div>
+        </div>
+        <div style="padding:10px 32px 45px;background:#ddecff;">
+            <h2 style="font-size:32px;color:#1562c8;margin-bottom:6px;">好工作——找工作最快！工资更高！</h2>
+            <p style="font-size:16px;color:#444444;margin:0;">453万求职者使用好工作，99.85%满意好评！</p>
+            <p style="font-size:16px;color:#6a6a6a;margin-top:30px;line-height:30px;">你还在投递僵尸职位吗？<b style="font-size:16px;color:#2a2a2a;">海量投递，却石沉大海！</b><br>
+            你还在将就不满意的职位吗？<b style="font-size:16px;color:#2a2a2a;">选择少，就得委屈自己？</b><br>
+           <b style="font-size:16px;color:#2a2a2a;">好工作——新一代互联网求职平台，找工作最快！工资更高！</b></p>
+           <a href="http://www.93hgz.com/" target="_blank" style="width:206px;height:41px;display:block;background:#1562c8;text-align:center;line-height:41px;color:#fff;text-decoration:none;">立即体验</a>
+           <div style="margin-top:60px;padding-left:280px;height:200px;background:url(images/v2/email-code.jpg);overflow:hidden;">
+               <h3 style="margin:50px 0 0px;font-size:26px;color:#1562c8;">微信扫一扫，开始求职！</h3>            
+               <p style="margin-top:10px;font-size:16px;color:#414141;">立即扫一下，找一份更好的工作！</p>
+           </div>
+        </div>
+        
+    </dd>
+</dl>
+</body>
+</html>

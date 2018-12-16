@@ -1,0 +1,317 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><title>
+    管理后台
+</title><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta http-equiv="pragma" content="no-cache" /><meta http-equiv="Cache-Control" content="no-cache, must-revalidate" /><meta http-equiv="expires" content="0" />
+    <link href="../css/1024/common.css" rel="stylesheet" type="text/css" />
+    <link href="../css/1024/admin.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/MD5.js"></script>
+    <script type="text/javascript" src="../js/jbody.js"></script>
+    <script type="text/javascript" src="../js/jbody-plugin.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+    <script type="text/javascript" src="../js/area.js"></script>
+    <script type="text/javascript" src="../js/subjects.js"></script>
+    <script type="text/javascript" src="../js/jobPositions.js"></script>
+    <script type="text/javascript" src="../js/oldadmin/gpAdmin.js"></script>
+    <script type="text/javascript" src="../js/menuControl.js"></script>
+    <script type="text/javascript" src="../js/oldadmin/common.js"></script>
+    <script type="text/javascript" src="../js/selectors.js"></script>
+    
+    <script type="text/javascript" src="../UploadFile/UploadFile.js"></script>
+    <script type="text/javascript" src="../UploadFile/ManageCtrl.js"></script>
+    
+</head>
+<body>
+    
+
+    
+<div id="pg-header" class="pg-header">
+    <div class="pg-header-main">
+        <div class="logo">
+            <a href="/"><img alt="好工作网Logo" src="../images/logo.png" class="pngfix" width="232" height="40" /></a>
+        </div>
+        <div class="cname">平台管理后台</div>
+        <div class="r mginT10">
+    <div class="platform-switch-container">
+    <div class="platform-switch-main msout">
+        <span class="floatR">切换后台</span>
+        <span class="floatR" style="border:solid 1px #ffc183; line-height:12px; margin-right:5px; padding-left:1px; padding-right:1px;">+</span>
+        <div style="clear:both;"></div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        $(".platform-switch-main").click(function () {
+            JBFrameHelper.showPage("/UCenter/PlatformSwitch.phtml", { obj: this, title: "切换到个人中心或其他管理后台", w: 500, pos: { to: "win", parent: "doc", park: "inside", parkInside: "center" } }, true, false);
+        });
+    })
+</script>
+
+</div>
+    </div>
+</div>
+    
+<div id="pg-nav" class="pg-nav">
+    <ul>
+        <li><div class="nav-title"><a href="#">管理首页</a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">院校<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">企业<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">资讯公告<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">招聘<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">简历<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">用户<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">广告<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">更多<sub></sub></a></div></li>
+    </ul>
+</div>
+<div style="clear:both;"></div>
+<div id="pg-nav-sub" style="display:none;">
+    <div id="pg-nav-sub-inner">
+    <div id="pg-nav-sub-main">
+        <ul style="display:none;">
+            <li><a href="Sum.html">系统概况</a></li>
+            <li><a href="Admin.html">系统功能链接汇总</a></li>
+            <li><a href="#">消息</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="School-cooperation.html">合作院校</a></li>
+            <li><a href="School-hasexpired.html">已到期</a></li>
+            <li><a href="School-expire.html">即将到期</a></li>
+            <li><a href="School-application.html">申请中</a></li>
+            <li><a href="School-mobilization.html">动员中</a></li>
+            <li><a href="School-all.html">全部院校</a></li>
+            <li><a href="School-add.html">添加院校</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Company-application.html">合作企业</a></li>
+            <li><a href="Company-hasexpired.html">已到期</a></li>
+            <li><a href="Company-expire.html">即将到期</a></li>
+            <li><a href="Company-application.html">申请中</a></li>
+            <li><a href="Company-mobilization.html">动员中</a></li>
+            <li><a href="Company-all.html">全部企业</a></li>
+            <li><a href="Company-add.html">添加企业</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Articles.html">管理平台资讯</a></li>
+            <li><a href="Articles.html">管理企业发布的资讯</a></li>
+            <li><a href="Articles.html">管理院校发布的资讯</a></li>
+            <li><a href="Articles.html">添加资讯</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Offers-wait.html">待审核</a></li>
+            <li><a href="Offers-ing.html">正在招聘</a></li>
+            <li><a href="Offers-fulltime.html">全职岗位</a></li>
+            <li><a href="Offers-parktime.html">兼职岗位</a></li>
+            <li><a href="Offers-internship.html">实习岗位</a></li>
+            <li><a href="Offers-school.html">校园招聘</a></li>
+            <li><a href="Offers-public.html">社会招聘</a></li>
+            <li><a href="Offers-all.html">全部</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Resumes.html">企业下载</a></li>
+            <li><a href="Resumes.html">正在求职</a></li>
+            <li><a href="Resumes.html">等待推荐</a></li>
+            <li><a href="Resumes.html">已推荐</a></li>
+            <li><a href="Resumes.html">已面试</a></li>
+            <li><a href="Resumes.html">全部</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="CustmRoles.html">平台管理员角色</a></li>
+            <li><a href="Admin-admin.html">平台管理员</a></li>
+            <li><a href="Admin-school.html">院校方管理员</a></li>
+            <li style="display:none;"><a href="/admin/users/school/">院校方导师</a></li>
+            <li><a href="Admin-company.html">企业方管理员</a></li>
+            <li><a href="Admin-user.html">全部注册用户</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="#">正在投放</a></li>
+            <li><a href="#">已过期</a></li>
+            <li><a href="#">全部</a></li>
+            <li><a href="#">添加广告</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Setting.html">系统设置</a></li>
+            <li><a href="Info.html">个人设置</a></li>
+            <li><a href="Password.html">修改密码</a></li>
+        </ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+    </div>
+    </div>
+</div>
+<div style="clear:both;"></div>
+    <div class="pageMainContentContainer">         
+    <div id="titleAndTabMenuContainer" class="titleAndTabMenuContainer" style="display:none; clear:both;"></div>
+    <div id="titleAndTabMenuContainer2" class="titleAndTabMenuContainer" style="display:none; clear:both;"></div>
+    <iframe id="_postTargetIframe" name="_postTargetIframe" style="display:none;" src="about:blank"></iframe>
+    <form method="post" action="/admin/users/admin/" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="23lceYat3+F/xb/yFkBtYDk/LUjhtNPUdz+uJqkU76qXdCRb/gLJYnQRTwn09/rzHR12GqljO8fJWY7UFRwlnF63Dq4eaXW8i3PUmP0zgFqT0onpsjBvPZlsxnaT4CNwhSjOtFFHB+l3sd4EAgvlCLYqkYAGCcyPbr5ik2kF76PZRZpxSBpizPrCupghBNW1fDi+tnjNwnd553GNsp/YO31GjG8ku8EgPEBznyBtHW9zJUT6htTPyiSSj/AV3WfVNDmqywDjdthxVjwmiNsSNlMu8GotkYuIRvr+l5Q1kXZVgYE/JH13REtEM6GSGhahHOr+7+HRIUXqNFxsmFcozX+70QgZou/VKZO5ChQnIMvVQASOLnijNy8+M8w6ZdxIrPnT6witr+5TjK5zCzqXk1HHcgILQckfzlkzqCHqY4BOcW1VvQRM8cDu34xnCoWIZWogfHcObiMk/6PmDUkxofyW7QO2bvqw5+UHmsOmjABnt7343tVCC4eTt/Dx8QJSOCdJHH3mhMhB266p57EeiwpwxGXSpuCNW6Tlh9AJOgLz9M/KpFjET12vyf3v5NzkBloH34MTDfD1h4yaeZdPRiPK8L3vVZ3WlAZy2qdUNpe8BYbl8smM/L4uTQAFs/59bSm/CX03aFne8IoTuZk0slvzCkD4K1ciPEc65zL2skxYZ1EAt7MEqKkHqG4f6L/EYtpsh64awLAWc5XPhY7NU9AHV5YJy+6UZxGEJ65/cjtm4c/Q/JX25vCqO+2sQ8xwyjWDeeJRITfSl2jmXeklSh4QeAzJdP7mKl1LkEARiaiYF4W/3QdIfnnqZ5Mgqi8jMeaCE7KRYjvZTkxfEneAeMxZ9rm8esBtCxewupKsIpzPtIFIj4cigtYyqLuJtp+ipX5pkS06wpiB5f733erIJnNfmV8g0J9AVgj2i+sZGD8L8iTkmcNK2E6wQN08rP8uTVZgRJyFb0wTtaAFxC2KAADQVQXestfkzDHnSNE/bzrQFoaTgIk2Vx+Rzvr030hnSngABsi0v8Ej4XLhs3eZ5uxUWbrjOaAqMgeQRnOKCBBEaLu23B2rI00QJRpv8pk4TEe3qsYD3owJy27ChwhrY7r3y2sK5yEQ0TdP4+xDnzphjdGsUlolz6rMBAOKBefMoCmwkQwEVbHgR9rYlU31SNz3QE6mBeCH8cDqFCrTYoyA7Xbg0q+L4kwm+fYoNnbGFLYwY44SItHgfdlhO86uWcxmWn/EzmcAuldYP+RpfMiEPz/AydLs5fyN5PSJFSOVA13KpoDGIpmNG5lbcFJkZaflbHQGug1UWsL5uP5y8iBam3we9rBpf5xR79cgnPh84ns22zpqO+L2TO0aZUpbp9h8lBsoc02uD8GdTy7uOB8=" />
+</div>
+
+<div class="aspNetHidden">
+
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="6431BCEB" />
+</div>
+    
+    <div class="bodyBlock">
+        <div class="detailBlockTitle" style="padding-left:20px;"><div class="leftIco"></div><div class="left">管理员列表</div><a class="btn-3d btn-3d-green btn-3d-mini floatL mginL20" href="UsersAdd.phtml?id=0">添加管理员</a></div>
+        <div class="blockMain">
+        <table class="listTable">
+            <thead><tr>
+                <td style="width:80px;">ID</td>
+                <td style="width:80px;">姓名</td>
+                <td style="width:200px;">Email</td>
+                <td style="width:120px;">手机</td>
+                <td>角色</td>
+                <td style="width:60px;">状态</td>
+                <td style="width:80px;">最近登录</td>
+                <td style="width:180px;">操作</td></tr></thead>
+            
+                    <tr class="tr0">
+                        <td>100001</td>
+                        <td>戴海明</td>
+                        <td>95864132@qq.com</td>
+                        <td>15815880668</td>
+                        <td>超管,网编</td>
+                        <td>正常</td>
+                        <td>2014-10-13</td>
+                        <td><a href="javascript:void(0);" onclick="resetRoles(0,100001)">角色管理</a>
+                             | <a href="javascript:void(0);" onclick="resetPaswrd(0,100001)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100001">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100005</td>
+                        <td>林总</td>
+                        <td>78678418@qq.com</td>
+                        <td></td>
+                        <td>网编</td>
+                        <td>未激活</td>
+                        <td></td>
+                        <td><a href="javascript:void(0);" onclick="resetRoles(0,100005)">角色管理</a>
+                             | <a href="javascript:void(0);" onclick="resetPaswrd(0,100005)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100005">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100106</td>
+                        <td>周源</td>
+                        <td>zy13272@qq.com</td>
+                        <td></td>
+                        <td>网编,学校客户经理,企业客户经理</td>
+                        <td>未激活</td>
+                        <td></td>
+                        <td><a href="javascript:void(0);" onclick="resetRoles(0,100106)">角色管理</a>
+                             | <a href="javascript:void(0);" onclick="resetPaswrd(0,100106)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100106">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100107</td>
+                        <td>蔡壮茂</td>
+                        <td>70785748@qq.com</td>
+                        <td></td>
+                        <td>网编,学校客户经理,企业客户经理</td>
+                        <td>正常</td>
+                        <td>2014-10-13</td>
+                        <td><a href="javascript:void(0);" onclick="resetRoles(0,100107)">角色管理</a>
+                             | <a href="javascript:void(0);" onclick="resetPaswrd(0,100107)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100107">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100108</td>
+                        <td>李冬</td>
+                        <td>2593420779@qq.com</td>
+                        <td></td>
+                        <td>网编,学校客户经理,企业客户经理</td>
+                        <td>正常</td>
+                        <td>2014-10-07</td>
+                        <td><a href="javascript:void(0);" onclick="resetRoles(0,100108)">角色管理</a>
+                             | <a href="javascript:void(0);" onclick="resetPaswrd(0,100108)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100108">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100110</td>
+                        <td>李冬</td>
+                        <td></td>
+                        <td>13697167084</td>
+                        <td>企业客户经理</td>
+                        <td>正常</td>
+                        <td>2014-09-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetRoles(0,100110)">角色管理</a>
+                             | <a href="javascript:void(0);" onclick="resetPaswrd(0,100110)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100110">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100111</td>
+                        <td>徐伟</td>
+                        <td>375373017@qq.com</td>
+                        <td></td>
+                        <td>网编,学校客户经理,企业客户经理</td>
+                        <td>正常</td>
+                        <td>2014-10-13</td>
+                        <td><a href="javascript:void(0);" onclick="resetRoles(0,100111)">角色管理</a>
+                             | <a href="javascript:void(0);" onclick="resetPaswrd(0,100111)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100111">明细</a>
+                        </td>
+                    </tr>
+                
+        </table>
+        </div>
+        <div style="width:98%; margin:0px auto;">
+                        <span class="allpage_num">0条结果，共1页</span><a class="page_num" href="javascript:void(0);">首页</a><a class="page_num" href="javascript:void(0);">上一页</a><span class="page_current">1</span><a class="page_num" href="javascript:void(0);">下一页</a><a class="page_num" href="javascript:void(0);">尾页</a><script language='javascript'>function GoToPage(url){document.location.href=url;}function jumpPage(obj,url){var i=parseInt(obj.previousSibling.value);if(!i&&i!=0)return false;if(i<=0)i=1;if(i>1)i=1;GoToPage(url + i);}</script>
+                    </div>
+    </div>
+    <div style="clear:both;"></div>
+
+    
+
+<script type="text/javascript">
+//<![CDATA[
+pageMainMenuCreater.setActive({mainText:'用户',subText: '平台管理员'});//]]>
+</script>
+</form>
+    
+    <script type="text/javascript">
+        function resetPaswrd(orgId, uid) {
+            JBFrameHelper.showPage("/admin/users/ResetAdminPassword.phtml?orgid=" + orgId + "&uid=" + uid, { title: "重设管理员密码", w: 500, h: 400, scroll: "no" }, false, false);
+        }
+        function resetRoles(orgId, uid) {
+            JBFrameHelper.showPage("/admin/users/ResetRoles.phtml?orgid=" + orgId + "&uid=" + uid, { title: "重设管理员角色", w: 600, h: 400, scroll: "no" }, false, false);
+        }
+    </script>
+   
+    <div style="clear:both;"></div>
+    </div> 
+    
+<div style="clear:both;"></div>
+<div class="footerOuter">
+    <div class="footer">
+        版权所有：好工作网
+        联系电话：88888888&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        联系邮箱：88888@qq.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+        地址：广州市环市中路&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        邮政编码：510000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+    </div>
+</div>
+
+</body>
+</html>
+<script type="text/javascript">
+    $(function () { adminPageInit({ unresize: "" }); });
+</script>

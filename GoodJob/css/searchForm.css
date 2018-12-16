@@ -1,0 +1,126 @@
+/* 职位搜索表单 */
+/*大块*/
+.block{ clear:both; margin-top:10px;}
+.block dt{ height:30px; border-bottom:1px solid #CBCBCB; _overflow:hidden;}
+.block dt h3{ font-size:14px; display:inline-block; line-height:30px; padding:0px 10px; border-bottom:1px solid #2677E2;}
+.block dt h3{ *float:left; _position:relative;}
+
+/*表单基本样式*/
+.search-form{ padding:10px 0px;}
+.search-form kbd,.search-form dfn{ display:inline-block; vertical-align:top; height:30px; font-size:12px; padding:7px 0px;}
+.search-form kbd{ width:85px; text-align:right; line-height:30px;}
+.search-form dfn{ margin-right:15px; position:relative; z-index:111;}
+.search-form dfn.on{ z-index:222;}
+.search-form dfn i{ position:absolute; display:block; width:12px; height:12px; top:17px; right:5px; background:url(../images/icons.gif) 12px 24px;}
+dfn.l{ width:520px;}
+dfn.m{ width:180px;}
+dfn.s{ width:125px;}
+dfn samp{ background-color:#fff;}
+dfn.g samp{ background-color:#f9f9f9;}
+dfn.g i{ background-position:-36px 12px;}
+/*文本框*/
+.search-text{ display:inline-block; width:96%; padding:0px 2%; height:30px; line-height:30px; background:#fff; border:1px solid #D4D4D4;}
+.search-item{ display:inline-block; width:85%; border:1px solid #D4D4D4; height:30px; line-height:30px; padding:0px 10% 0px 5%; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+
+.subform{ display:none; *position:relative;}
+
+/*操作项*/
+.actions{ clear:both; font-size:12px; line-height:30px; height:30px; padding:10px 0px;}
+.actions var{ font-style:normal; display:inline-block; z-index:11;}
+.actions var.on{ z-index:22; position:relative;}
+.actions var div{ display:none; position:absolute; left:0px; top:31px; border:1px solid #d5d5d5; padding:10px; background:#fff; z-index:22;}
+.actions a{ display:inline-block; white-space:nowrap;}
+.actions span{ display:inline-block; height:30px; vertical-align:middle;}
+.actions i{ display:inline-block; height:12px; vertical-align:middle;}
+
+.switch-subform{ padding:0px 20px 0px 90px; display:inline-block;}
+.switch-subform i{ background-position:0px -36px;}
+.switch-subform i.on{ background-position:right -12px;}
+
+.action{ padding:0px 20px 0px 10px !important;}
+.action i{ background-position:12px 24px;}
+.action{ display:inline-block; margin-right:10px; padding-right:20px; color:#1b1b1b; background:#fff; z-index:11; border:1px solid #fff;}
+.action:hover{ color:#ff5000;}
+.action i,.switch-subform i{ width:12px; height:12px; background-image:url(../images/icons.gif);}
+.on .action{ border:1px solid #d5d5d5; border-bottom-color:#fff; z-index:33;}
+
+/*按钮*/
+.btns{ background:rgba(255,255,255,0.9); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#e5ffffff,endColorstr=#e5ffffff);}
+.onpage .submit{ width:118px; height:37px; margin-left:90px; background:url(../images/search/submit.jpg); border:0px; cursor:pointer; vertical-align:top;}
+.onpage .reset{ width:80px; height:37px; font-size:12px; border:0px; background:none; cursor:pointer; vertical-align:top;}
+.HR{ clear:both; height:50px;}
+
+/*子层通用样式*/
+dfn div.sub{ display:none; position:absolute; top:38px; left:0px; z-index:222; border:1px solid #d4d4d4; background-color:#fff;}
+dfn *{ font-style:normal;}
+
+/*职位类别*/
+.subbie{ border:1px solid #5a5a5a;}
+
+/*除了职位类别其它层的样式*/
+.sub{ line-height:30px; padding:10px; overflow:hidden;}
+.sub a{ color:#2677e3; display:block; float:left; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+
+/*行业类别*/
+.pro{ width:620px;}
+.pro a{ width:155px;}
+
+/*城市*/
+.city{ width:394px; padding:0px; border-color:#adadad !important;}
+.city h4{ background:#f9f9f9; height:34px; line-height:34px; color:#2977e3; font-size:14px; padding:0px 6px; font-weight:bold;}
+.city b{ display:block; border-bottom:1px solid #c4c4c4; font-size:14px; color:#333; line-height:38px; height:38px; padding:0px 10px;}
+.city div{ padding:10px; *margin-bottom:10px; display:table;}
+.city div a{ width:46px;}
+
+/*区域*/
+.distr{ width:330px;}
+.distr a{ width:65px;}
+
+/*工作经验*/
+.exp{ width:160px;}
+.exp a{ float:none;}
+
+/*学历*/
+.edu{ width:160px;}
+.edu a{ float:none;}
+
+/*薪资*/
+.sala{ width:200px;}
+.sala a{ width:50%;}
+
+/*福利*/
+.bene{ width:530px;}
+.bene a{ width:16.6%;}
+
+/*公司性质*/
+.char{ width:160px;}
+.char a{ width:50%;}
+
+/*规模*/
+.scale{ width:160px;}
+.scale a{ float:none;}
+
+/*阶段*/
+.per{ width:160px;}
+.per a{ float:none;}
+
+/*地铁*/
+.rail{ width:530px;}
+.rail a{ width:16.6%;}
+/*.rail .long{ width:66%;}*/
+
+/*地标*/
+.signs{ width:530px;}
+.signs a{ width:16.6%;}
+
+.cloned{ position:fixed; width:100%; bottom:0px; background:rgba(255,255,255,0.8); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ccffffff,endColorstr=#ccffffff); border-top:1px solid #ccc\9;}
+
+/*保存搜索器*/
+.save{ width:310px;}
+.save-name{ width:200px; height:30px; border:1px solid #d5d5d5; line-height:30px; padding:0px 5px; vertical-align:top;}
+.save-submit{ width:80px; height:32px; font-size:16px; color:#fff; background:#2676e3; border:0px; vertical-align:top; margin-left:10px;}
+
+/*选择搜索器*/
+.store{ width:360px;}
+.store a{ width:50%; float:left; display:block; padding:0px; margin:0px; color:#1b1b1b;}
+.store a:hover{ color:#ff5e00;}

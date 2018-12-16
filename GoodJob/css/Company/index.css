@@ -1,0 +1,54 @@
+/* 企业中心首页 */
+.right{ margin-bottom:15px;}
+.company{ padding:35px 0px 25px;}
+.company var{ display:block; width:160px; height:160px; border:1px solid #2677E2; margin:0px 15px 0px 30px; float:left; _margin:0px 15px 0px 15px;}
+.company h1{ width:600px; float:left; font-size:18px; color:#3E3E3E; font-family:"微软雅黑"; height:40px; border-bottom:1px dashed #d3d3d3; position:relative;}
+.company h1 samp{ font-size:12px; margin-left:30px; font-weight:normal;}
+.company h1 a{ color:#E6402A;}
+.company h1 img{ vertical-align:middle;}
+.company h1 i{ display:block; float:right; margin-top:10px;}
+.company ul{ width:600px; float:left; line-height:30px; font-size:14px; font-family:"微软雅黑"; color:#999; padding:10px 0px;}
+.company li{ width:300px; float:left; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.company li b{ color:#333; font-weight:normal;}
+.company code{ display:block; float:left; margin-right:20px; line-height:35px; padding:0px 10px; height:35px;}
+
+.balance{ background-color:#E4F0FE; border:1px solid #D8E8FF; color:#545559; font-size:12px; padding:0px 5px !important;}
+.balance b{ font-size:18px; color:#f00; font-family:Arial, Helvetica, sans-serif; font-weight:normal;}
+.buy,.recharge{ font-size:18px; font-family:"微软雅黑"; text-align:center;}
+.buy{ width:85px; background-color:#FFE4D1; border:1px solid #EFCAB7;}
+.buy a{ color:#E4511D;}
+.recharge{ width:80px; background-color:#FF4401; border:1px solid #FF4401;}
+.recharge a{ color:#fff;}
+
+
+.right dt{ padding:0px 35px; font-size:16px; line-height:45px; height:45px; border-bottom:1px solid #DCDCDC; font-family:"微软雅黑"; color:#3e3e3e;}
+.right dd{ text-align:center; margin:25px 0px;}
+/*第一条统计*/
+.recept{}
+.recept dl{ width:50%; float:left;}
+.recept .first dt,.recept .first dd{ border-right:1px solid #dcdcdc;}
+.recept dd{ margin:0px; padding:25px 0px;}
+.recept dd b,.recept dd q{ display:inline-block; width:140px; font-size:12px; font-weight:normal; color:#5D5D5D;}
+.recept dd b{ border-right:1px solid #E3E3E3;}
+.recept strong{ display:block; font-size:40px; color:#2778E4; font-family:"微软雅黑";}
+
+/*基本信息*/
+.basic{ font-family:"微软雅黑"; *padding-bottom:25px;}
+.basic dd{ width:225px; float:left; color:#888; font-size:14px; border-left:1px solid #E5E5E5;}
+.basic .first{ border:0px;}
+.basic dd a{ display:block; width:110px; height:25px; text-align:center; color:#fff; text-align:center; background-color:#3CB100; height:22px; line-height:22px; margin:25px auto 0px; font-family:"宋体"; font-size:12px;}
+.basic dd b{ color:#FF4300; font-size:18px;}
+
+/*一周动态*/
+.week{ font-family:"微软雅黑";}
+.week dd{ text-align:left;}
+.week dd q{ display:inline-block; padding:0px 30px; font-size:16px; color:#3e3e3e;}
+.week q b{ color:#3DB300; font-size:24px;}
+
+/*更多服务*/
+.more{ font-family:"微软雅黑";}
+.more dd{ text-align:center;}
+.more dd a{ display:inline-block; width:210px; line-height:35px; font-size:14px; font-weight:bold; border-left:1px solid #E5E5E5; color:#494949;}
+.more a img{ display:block; clear:both; margin:0 auto;}
+.more b{ color:#2578E2;}
+.more .first{ border:0px;}

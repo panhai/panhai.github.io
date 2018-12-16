@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>个人后台-个人设置-账号绑定</title>
+<link rel="stylesheet" type="text/css" href="../css/v2/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/UCenter/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/UCenter/settings.css">
+</head>
+
+<body>
+<div class="HEADER"><div class="common">
+	<div class="TOP-LOGO"><a href="#"><img src="../images/v2/logo-s.jpg" width="119" height="62"></a></div>
+    <div class="TOP-TOOLS">
+    	张英，欢迎来到好工作！   <a href="#">安全退出</a> | <a href="#">我要招人</a> | <a href="#">消息</a> | <a href="#">帮助</a>
+    </div>
+    <ul class="TOP-NAV">
+    	<li><a href="new-myjob-jobpush.html" class="cur">我的好工作</a></li>
+    	<li><a href="new-RESUME.html">简历中心</a></li>
+    	<li><a href="new-settings.html">个人设置</a></li>
+    </ul>
+    <div class="TOP-SEARCH">
+    	<input type="text" class="text" placeholder="请输入职位名称">
+        <input type="submit" class="submit" value="">
+    </div>
+</div></div>
+
+<div class="Main common">
+	<div class="Left">
+    	<div class="TOPIC">小猎头服务</div>
+        <div class="Privacy">
+            <label for="privacy" class="in"><div class="switch"><i></i><span>已关闭</span></div><input type="checkbox" id="privacy" /></label>
+        <div class="txt">
+            <p>为了给用户更好的求职体验，好工作为每一位求职者配备专属的求职顾问（小猎头），开通小猎头服务，即可获得<br>
+好工作小猎头免费一对一服务，尊享以下3大好处：</p>
+            <h3>找工作更快：</h3>
+            <p>好工作小猎头清楚知道每一个企业的用人需求，会根据你的求职意向，层层筛选，将高度契合您的高薪优质企业推
+荐给你，省去了您漫长的搜索过程，让你超快找到工作。</p>
+            <h3>工资更高：</h3>
+            <p>越急迫招聘的企业越愿意付出更好工资，面试成功率更高，你可授权好工作小猎头为你投递急聘企业，让你有更多
+企业录用，你可以选择工资更高的上班。</p>
+            <h3>100%包就业：</h3>
+            <p>好工作小猎头全程为你服务，为您提供专业一对一的求职辅导，实时跟踪每次求职进度，完整简历直接推荐面试，
+让你极速入职，包你100%就业！</p>
+        </div>
+        <div class="aggre">
+            <input type="button" value="立即开通" class="btn" />
+            
+            <p><label for="" class="Check checked"><input type="checkbox" /></label>同意《好工作小猎头服务授权协议》，并委托好工作小猎头投递高薪优质职位</p>
+        </div></div>
+    </div>
+	<ul class="Right">
+    	<li><a href="new-settings.html" class="i1">帐号绑定</a></li>
+    	<li><a href="new-settings-password.html" class="i2">修改密码</a></li>
+        <li><a href="new-settings-location.html" class="i3">我的位置</a></li>
+    	<li class="cur"><a href="new-settings-location.html" class="i4">隐私设置</a></li>
+    </ul>
+	<div class="clear"></div>
+</div>
+
+<div class="FOOTER">
+	<div class="FOOT-NAV">
+    	<a href="#">关于我们</a><a href="#">法律声明</a>
+        <a href="#">联系我们</a><a href="#" class="last">Investor Relatiao</a>
+    </div>
+    <p>服务热线：400-660-5319&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;服务时间：周一至周六9:00-18:40</p>
+    <p>京ICP备09083200号&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;京ICP证070419号&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人才服务许可证：RC0710280</p>
+    <p>Copyright©2000-2014 liepin.com All Rights Reserved</p>
+</div>
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/v2/all.js"></script>
+<script src="../js/effect/bg.js"></script>
+<script src="../js/plugin/CenterDiv.js"></script>
+<script src="../js/plugin/SendVerify.js"></script>
+<script>
+$(function(){
+
+    var bol,txt,btnTxt,animateLefte;
+
+    function toggleState(){
+        $(this).toggleClass('on').find('i').animate({"left": animateLeft}, 200)
+        .end()
+        .find('span').text(txt);
+        $(".Privacy .btn").val(btnTxt);
+    }
+
+    $(".switch").click(function(event) {
+
+           var _self = this;
+
+            bol = $(this).hasClass('on');
+            txt = bol ? "已关闭" : "已开启",
+            btnTxt = bol ? "立即开通" : "我要关闭";
+            animateLeft = bol ? 0 : "20px";
+        if(!bol){
+             CONFIRM('小猎头服务','<h5>是否确认开通？</h5><p class="hunterTxt">重要提示：如<span>暂时不找工作，请勿开通</span>，以免好工作小猎头电话联系或企业邀约，造成生活干扰！</p>','确定开通',function(){
+
+                toggleState.call(_self);
+                ALERT('小猎头服务','<div class="tipCode"><h6>微信扫一扫，关注好工作</h6><img src="../images/v2/weixinqr.jpg" alt=""><p class="h3">微信扫一扫，关注好工作</p><p>投递反馈，随时获知！面试通知，一个不漏！</p></div>',NaN,"CenterMiddle");
+            });
+        }else{
+             CONFIRM('小猎头服务','<h5>是否确认关闭？</h5><p>如仍未找到工作， 建议你不用关闭，关闭将错过更多高薪职位哦！</p>','确认关闭',function(){
+                toggleState.call(_self);
+            });
+        }
+    });
+
+    $(".Privacy .Check").click(function(event){
+        event.preventDefault();
+        var bol = !$(this).hasClass('checked');
+        $(this).toggleClass('checked').find('input').prop("checked", bol);
+        if(bol){
+            $(".Privacy .btn").removeAttr('disabled')
+        }else{
+            $(".Privacy .btn").attr('disabled', 'disabled');
+        }
+
+    });
+
+    $(".Privacy .btn").click(function(event) {
+        $(".switch").click();
+    });
+});
+</script>

@@ -1,0 +1,1152 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>好工作运营后台-简历管理-在线简历</title>
+</head>
+<link rel="stylesheet" type="text/css" href="../css/v2/admin/all.css">
+
+<body>
+<header class="clear">
+	<img src="../images/v2/logo-s.png" width="119" height="62">
+    <em>后台管理系统</em>
+    <p>
+    	<a href="#"><i><img src="../images/v2/nophoto.png" width="30" height="30"></i><span>用户名称</span></a>
+        <a href="#">安全退出</a>
+    </p>
+</header>
+<nav>
+	<li><a href="index.html">首页</a></li>
+	<li><a href="companies.html">企业管理</a></li>
+	<li><a href="schools.html">院校管理</a></li>
+	<li><a href="users.html">用户管理</a></li>
+	<li><a href="jobs.html">职位管理</a></li>
+	<li class="cur"><a href="resumes.html">简历管理</a></li>
+	<li><a href="servers.html">客服系统</a></li>
+	<li><a href="moneys.html">财务系统</a></li>
+	<li><a href="system.html">系统管理</a></li>
+</nav>
+
+<menu>
+	<li><a href="resumes.html">在线简历</a></li>
+    <li><a href="resumes-feedbacks.html">简历投递反馈</a></li>
+    <li class="cur"><a href="resumes-replacePush.html">代投简历</a></li>
+    <li><a href="resumes-urgent.html">急招企业</a></li>
+</menu>
+<div class="filterNav">
+    <a href="">全部</a>
+    <a href="">今天回访（12）</a>
+    <a href="">明天回访（45）</a>
+    <a href="resumes-replacePush.html" class="cur">后天回访（45）</a>
+    <a href="">已过期（45）</a>
+    <a href="ReturnVisit.html">回访记录（22）</a>
+    <a href="">标签未知（45）</a>
+</div>
+<div class="Filter">
+<table>
+	<tr>
+    	<th width="7%">关键词：</th><td width="26%">
+        	<input type="text" class="text long" placeholder=" 请输入手机、邮箱、QQ、姓名等搜索">
+        </td>
+    	<th width="7%">求职标签：</th><td width="26%" class="jobsTab">
+            <dl class="SELECT" data-leave="-1">
+                <input id="TagIDs" autocomplete="off" name="TagIDs" value="" type="hidden" />
+                <dt data-placeholder="用于关键词搜索求职者，标签间用空格隔开"></dt>
+                <dd class="">
+                    <table >
+                        <caption data-choices="">
+                            <p></p>
+                            <span>
+                                <input type="button" class="confirm" value="确定">
+                            </span>
+                        </caption>
+                        <tbody><tr><td><a>哈哈哈哈</a><a>哈哈哈哈哈哈</a><a>哈哈</a><a>哈哈</a><a>哈哈</a><a>哈哈</a><a>哈哈哈哈哈哈</a><<a>哈哈哈哈哈哈</a><a>哈哈哈哈哈哈</a><a>哈哈哈哈哈哈</a><a>哈哈哈哈哈哈</a><a>哈哈哈哈哈哈</a><<a>哈哈哈哈哈哈</a><a>哈哈哈哈哈哈</a><a>哈哈哈哈哈哈</a><a>哈哈哈哈哈哈</a><a>哈哈哈哈哈哈</a><<a>哈哈哈哈哈哈</a><a>哈哈哈哈哈哈</a><a>哈哈哈哈哈哈</a><a>哈哈哈哈哈哈</a><a>哈哈哈哈哈哈</a><<a>哈哈哈哈哈哈</a><a>哈哈哈哈哈哈</a><a>哈哈哈哈哈哈</a><a>哈哈哈哈哈哈</a><a>哈哈哈哈哈哈</a><<a>哈哈哈哈哈哈</a><a>哈哈哈哈哈哈</a><a>哈哈哈哈哈哈</a><a>哈哈哈哈哈哈</a></td></tr></tbody>
+                    </table>
+                </dd>
+            </dl>
+        </td>
+    	<th width="7%">求职状态：</th><td width="26%">
+            <dl class="SELECT long" data-leave="-1">
+                <input type="hidden" value="2">
+                <dt></dt>
+                <dd class="normal">
+                    <a data-id="1">离职，可快速到岗</a>
+                    <a data-id="2">在职，想换工作</a>
+                    <a data-id="3">应届毕业生</a>
+                    <a data-id="4">暂时不找工作</a>
+                    <a data-id="5">找工作中</a>
+                </dd>
+            </dl>
+        </td>
+    </tr>
+    <tr>
+
+    	<th>职位类型：</th><td>
+        	<dl class="SELECT long">
+            	<input type="hidden" class="JobType" value="0">
+                <dt></dt>
+                <dd class="normal">
+                	<a data-id="">不限</a>
+                	<a data-id="1">全职</a>
+                	<a data-id="2">兼职</a>
+                	<a data-id="3">实习</a>
+                </dd>
+            </dl>
+        </td>
+    	<th>期望行业：</th><td>
+        	<dl class="SELECT long" data-leave="-1">
+            	<input type="hidden" value="1111,1011">
+                <dt></dt>
+                <dd class="PROFESSIONS">
+                	<table>
+                    	<caption data-choices="0">
+                        	<p></p>
+                            <span>
+                            	<input type="button" class="confirm" value="确定">
+                            </span>
+                        </caption>
+                        <thead><tr><th width="200"></th><td width="1000"></td></tr></thead>
+                        <tbody></tbody>
+                    </table>
+                </dd>
+            </dl>
+        </td>
+    	<th width="7%">地区：</th><td width="26%">
+            <dl class="SELECT double cities ADDRESS" data-child=".districts" data-address="GetHotCities">
+                <input type="hidden">
+                <dt></dt>
+                <dd class="normal">
+                </dd>
+            </dl>
+            <ins></ins>
+            <dl class="SELECT double districts ADDRESS" data-unlimit="true" data-parent=".cities">
+                <input type="hidden">
+                <dt></dt>
+                <dd class="normal">
+                </dd>
+            </dl>
+        </td>
+    </tr>
+    <tr>
+    	<th>期望职位：</th><td>
+        	<dl class="SELECT long" data-leave="-1">
+            	<input type="hidden">
+                <dt></dt>
+                <dd class="JOBPOSITIONS">
+                	<table>
+                    	<caption data-choices="3">
+                        	<p></p>
+                            <span>
+                            	<input type="button" class="confirm" value="确定">
+                            </span>
+                        </caption>
+                        <tbody><tr><th width="200"></th><td width="700"></td></tr></tbody>
+                    </table>
+                </dd>
+            </dl>
+        	<dl class="SELECT long" data-leave="-1">
+            	<input type="hidden">
+                <dt></dt>
+                <dd class="JOBSPARTTIME">
+                	<table>
+                    	<caption data-choices="3">
+                        	<p></p>
+                            <span>
+                            	<input type="button" class="confirm" value="确定">
+                            </span>
+                        </caption>
+                        <tbody><tr><td width="600"></td></tr></tbody>
+                    </table>
+                </dd>
+            </dl>
+        </td>
+
+    	<th>相关经历：</th><td>
+            <input type="text" class="long text" placeholder="请输入关键词搜索"/>
+
+        </td>
+        <th>最近登录：</th><td>
+            <input type="text" class="text double time">
+            <ins></ins>
+            <input type="text" class="text double time">
+        </td>
+    </tr>
+    <tr>
+
+    	<th>工作经验：</th><td>
+        	<dl class="SELECT tiny">
+            	<input type="hidden">
+                <dt></dt>
+                <dd class="normal">
+                    <a data-id="">不限</a>
+                    <a data-id="10">在读学生</a>
+                    <a data-id="20">应届生</a>
+                    <a data-id="30">1年以下</a>
+                    <a data-id="40">1-3年</a>
+                    <a data-id="50">3-5年</a>
+                    <a data-id="60">5-10年</a>
+                    <a data-id="70">10年以上</a>
+                </dd>
+            </dl>
+            <ins>学历：</ins>
+        	<dl class="SELECT tiny">
+            	<input type="hidden">
+                <dt></dt>
+                <dd class="normal">
+                    <a data-id="">不限</a>
+                    <a data-id="1">初中/高中</a>
+                    <a data-id="2">技校/中专</a>
+                    <a data-id="4">大专</a>
+                    <a data-id="8">本科</a>
+                    <a data-id="16">硕士</a>
+                    <a data-id="32">博士</a>
+                    <a data-id="64">其他</a>
+                </dd>
+            </dl>
+        </td>
+        <th>微信绑定：</th>
+        <td>
+            <dl class="SELECT tiny">
+                <input type="hidden">
+                <dt></dt>
+                <dd class="normal">
+                    <a data-id="">不限</a>
+                    <a data-id="1">已绑定</a>
+                    <a data-id="2">未绑定</a>
+                </dd>
+            </dl>
+            <ins>性别：</ins>
+            <dl class="SELECT tiny">
+                <input type="hidden">
+                <dt></dt>
+                <dd class="normal">
+                    <a data-id="">不限</a>
+                    <a data-id="1">男</a>
+                    <a data-id="2">女</a>
+                </dd>
+            </dl>
+        </td>
+        <th>开通代投：</th><td>
+            <input type="text" class="text double time">
+            <ins></ins>
+            <input type="text" class="text double time">
+        </td>
+    </tr>
+    <tr>
+        <th>回访时间：</th><td>
+            <input type="text" class="text double time">
+            <ins></ins>
+            <input type="text" class="text double time">
+        </td>
+        <th>最近主动投递：</th><td>
+            <input type="text" class="text double time">
+            <ins></ins>
+            <input type="text" class="text double time">
+        </td>
+    </tr>
+    <tr>
+
+    	<td colspan="6" class="btns">
+        	<input type="button" class="submit" value="查询">
+        	<input type="button" class="reset" value="重置" onClick="allSelectsReset('.Filter');allInputsReset('.Filter');">
+    	</td>
+    </tr>
+</table></div>
+
+<div class="total">共12030名求职者</div>
+
+<div class="List resumeList z10"><table border="1" bordercolor="#e2e4f0">
+	<thead><tr>
+    	<th width="90">ID</th>
+    	<th width="100" class="txtL">姓名</th>
+    	<th width="120">期望地区</th>
+    	<th width="" class="txtL">期望职位</th>
+    	<th width="150" class="txtL">求职状态</th>
+    	<th width="90">近7天投递</th>
+        <th width="80"><small>近3天<br>面试邀请</small></th>
+        <th width="85">开通代投</th>
+        <th width="100">最近登录</th>
+    	<th width="130">回访计划</th>
+    	<th width="200">操作</th>
+    </tr></thead>
+    <tbody>
+    	<tr>
+        	<th><label><input type="checkbox" value="1" data-id='1101'>10001</label></th>
+            <td class="txtL"><a href="">关之谷</a><img src="../images/v2/icons/user_wechat.png" height="16" width="16" alt="" class="user_wechat" /></td>
+            <td>广州天河</td>
+            <td class="txtL"><span class="markedTip">销售代表、客服</span><div class="markedTipWin">
+                <p>【行业】互联网/电子商务、金融/银行、计算机软件（不考虑信托/担保/拍卖/典当、快速消费品、电子技术/半导体/集成电路）</p>
+                <p>【地区】广州-越秀（其他不考虑）</p>
+                <p>【薪资】5000-8000元/月</p>
+                <p>【备注】近期想培训Photoshop，想转型做UI设计方面。</p>
+            </div></td>
+            <td class="txtL"><span class="icon_state" title="近期想培训Photoshop，想转型做UI设计方面">在职-找工作中</span></td>
+            <td><a href="resume-posts.html" title="今日投递/主动投递/总投递">0/1/4</a></td>
+            <td><a href="resumes-feedbacks.html" title="未确认面试/已确认面试/全部">1/2/4</a></td>
+            <td>昨天 15:11</td>
+            <td>昨天 15:11</td>
+            <td><a href="#">2016-01-12  14:14</a></td>
+            <td>
+                <a href="resume-posts.html" target="_blank">查看投递</a>
+                <a class="followUp_btn">跟进</a>
+            	<a data-id="1" class="invite">职位邀请</a>
+                <a data-id="10001" class="pushResume_btn">投递</a>
+            </td>
+        </tr>
+    	<tr>
+        	<th><label><input type="checkbox" value="2" data-id='1105'>10002</label></th>
+            <td class="txtL"><a href="">关之谷</a></td>
+            <td>广州天河</td>
+            <td class="txtL">销售代表、客服</td>
+            <td class="txtL">在职-找工作中</td>
+            <td><a href="resume-posts.html" title="今日投递/主动投递/总投递">0/1/4</a></td>
+            <td><a href="resumes-feedbacks.html"  title="未确认面试/已确认面试/全部">1/2/4</a></td>
+            <td>2天前</td>
+            <td>昨天 15:11</td>
+            <td><a href="#">2016-01-12  14:14</a></td>
+            <td><a href="resume-posts.html" target="_blank">查看投递</a><a class="followUp_btn">跟进</a>
+            	<a data-id="1" class="invite">职位邀请</a>
+                <a data-id="1" class="pushResume_btn">投递</a>
+            </td>
+        </tr>
+    	<tr>
+        	<th><label><input type="checkbox" value="3" data-id='1104'>10003</label></th>
+            <td class="txtL"><a href="">关之谷</a></td>
+            <td>广州天河</td>
+            <td class="txtL">销售代表、客服</td>
+            <td class="txtL">在职-找工作中</td>
+            <td><a href="resume-posts.html">0/1/4</a></td>
+            <td><a href="resumes-feedbacks.html">1/2/4</a></td>
+            <td></td>
+            <td></td>
+            <td><a href="#">2016-01-12  14:14</a></td>
+            <td><a href="resume-posts.html" target="_blank">查看投递</a><a class="followUp_btn">跟进</a>
+                <a data-id="1" class="invite">职位邀请</a>
+                <a data-id="1" class="pushResume_btn">投递</a>
+            </td>
+        </tr>
+    	<tr>
+        	<th><label><input type="checkbox" value="4" data-id='1102'>10004</label></th>
+            <td class="txtL"><a href="">关之谷</a></td>
+            <td>广州天河</td>
+            <td class="txtL">销售代表、客服</td>
+            <td class="txtL">在职-找工作中</td>
+            <td><a href="resume-posts.html">0/1/4</a></td>
+            <td><a href="">1/2/4</a></td>
+            <td></td>
+            <td></td>
+            <td><a href="#">2016-01-12  14:14</a></td>
+            <td><a href="resume-posts.html" target="_blank">查看投递</a><a class="followUp_btn">跟进</a>
+                <a data-id="1" class="invite">职位邀请</a>
+                <a data-id="1" class="pushResume_btn">投递</a>
+            </td>
+        </tr>
+    </tbody>
+    <caption>
+    	<input type="button" value="全选" class="checkAll">
+    	<input type="button" value="反选" class="checkNeg">
+        <input type="button" value="职位邀请" class="invite batch" data-need="id">
+        <input type="button" value="投递简历" class="pushResume_btn batch" data-need="id">
+        <div class="Pages">
+        	<span>5874条结果，共294页</span>
+            <a href="#">首页</a>
+            <a href="#">上一页</a>
+            <a href="#">1</a>
+            <a href="#" class="cur">2</a>
+            <a href="#">3</a>
+            <a href="#">...</a>
+            <a href="#">294</a>
+            <a href="#">下一页</a>
+            <a href="#">尾页</a>
+        </div>
+    </caption>
+</table></div>
+
+<table class="FullScreenPlugin black5"><tr><td>
+
+	<dl class="CENTERDIV InvitePost CenterMiddle" data-active=".invite" data-datas="id">
+    	<dt><b>职位邀请</b><q>&times;</q></dt>
+        <dd><table class="CenterTableFull">
+        	<tbody>
+            	<tr><th width="100">发送对象：</th><td>
+                	<strong>共<span class="IdsCounter">10</span>人</strong>
+                	<input type="hidden" class="checkedIds" data-datas="id">
+                </td></tr>
+            	<tr><th>职位ID：</th><td class="Combo Combo41">
+                	<input type="text" class="text JobId" placeholder="请粘贴职位信息ID">
+                    <a class="JobIdAdd btn">添加</a>
+                    <input type="hidden" class="JobIds">
+                </td></tr>
+            	<tr><th></th><td><div class="CenterItems"></div></td></tr>
+            	<tr><th>邀请模版：</th><td>
+                	<dl class="SELECT full Templates">
+                    	<input type="hidden">
+                        <dt data-placeholder="请选择邀请模版"></dt>
+                        <dd class="normal"></dd>
+                    </dl>
+                </td></tr>
+            	<tr><th>内容：</th><td><textarea class="TemplateContent"></textarea></td></tr>
+            </tbody>
+            <tfoot><tr><td colspan="2">
+                <input type="button" class="submit" value="发送邀请">
+                <input type="button" class="cancel" value="取消">
+            </td></tr></tfoot>
+        </table></dd>
+    </dl>
+	<dl class="CENTERDIV ResumePush CenterMiddle" data-active=".push" data-datas="id">
+    	<dt><b>简历推荐</b><q>&times;</q></dt>
+        <dd><table class="CenterTableFull">
+        	<tbody>
+            	<tr><th width="100">简历对象：</th><td>
+                	<strong>共<span class="IdsCounter">10</span>人</strong>
+                	<input type="hidden" class="checkedIds" data-datas="id">
+                </td></tr>
+            	<tr><th>职位ID：</th><td class="Combo Combo41">
+                	<input type="text" class="text JobId" placeholder="请粘贴职位信息ID">
+                    <a class="JobIdAdd btn">添加</a>
+                    <input type="hidden" class="JobIds">
+                </td></tr>
+            	<tr><th></th><td><div class="`"></div></td></tr>
+            	<tr><th>推荐模版：</th><td>
+                	<dl class="SELECT full Templates">
+                    	<input type="hidden">
+                        <dt data-placeholder="请选择推荐模版"></dt>
+                        <dd class="normal"></dd>
+                    </dl>
+                </td></tr>
+            	<tr><th>内容：</th><td><textarea class="TemplateContent"></textarea></td></tr>
+            </tbody>
+            <tfoot><tr><td colspan="2">
+                <input type="button" class="submit" value="推荐简历">
+                <input type="button" class="cancel" value="取消">
+            </td></tr></tfoot>
+        </table></dd>
+    </dl>
+
+</td></tr></table>
+<table class="FullScreenPlugin black5 noFixed "><tr><td>
+    <!-- 跟进 -->
+    <dl class="CENTERDIV followUp CenterXll" data-active=".followUp_btn" data-datas="id">
+        <dt><b>求职者详情</b><q>&times;</q></dt>
+        <dd class="clear">
+            <div class="user_l">
+                <div class="user_info">
+                    <div class="user_in">
+                        <img src="../images/v2/default.png" alt="" />
+                        <div class="user_in_r">
+                            <h2>何泽
+                            <img src="../images/v2/icons/user_wechat.png" height="17" width="19" alt="" />
+                            <span>在职-准备换工作</span>
+                            <span class="edit infoEdit_btn"></span>
+                            </h2>
+                            <p>男&nbsp;&nbsp;&nbsp;&nbsp;1993年5月&nbsp;&nbsp;&nbsp;&nbsp;本科&nbsp;&nbsp;&nbsp;&nbsp;1年工作经验</p>
+                            <p class="pur"><img src="../images/v2/icons/admin/jobs.png" height="" width="" alt="" />产品经理 </p>
+                            <p class="pur">
+                                <span><img src="../images/v2/icons/admin/addre.png" height="" width="" alt="" />广东广州越秀（<em>其他的不考虑</em>）</span>
+                                <span><img src="../images/v2/icons/admin/type.png" alt="" />全职</span>
+                                <span><img src="../images/v2/icons/admin/money.png" alt="" />5000-8000元/月</span>
+                            </p>
+                            <p class="pur"><img src="../images/v2/icons/admin/jobshy.png" height="20" width="20" alt="" />互联网/电子商务、金融/银行、计算机软件（<em>不考虑信托/担保/拍卖/典当、快速消费品、电子技术/半导体/集成电路</em>）</p>
+                        </div>
+                    </div>
+                    <div class="user_td">
+                        <div class="user_td_in">
+                            <div><p>12</p>近期投递</div>
+                            <div><p>12</p>主动投</div>
+                            <div><p>12</p>面试邀请</div>
+                            <div><p>12</p>确认面试</div>
+                            <div><p>12</p>近3天登录</div>
+                            <div title="在智联招聘投递东软国际有限公司"><p>2016-09-12</p>最近主动投递</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="log">
+                    <div class="log_top">
+                        <h2 class="time">
+                            跟进记录
+                            <span class="time_r">跟进计划：2016-12-25 12:14</span>
+                            <span class="edit time_btn"></span>
+                        </h2>
+                        <textarea name="" id="" placeholder="输入内容添加跟进记录…"></textarea>
+                        <div> <input type="button" value="添加" class="btn addLog" /></div>
+                    </div>
+                    <ul>
+                        <li>
+                            <p class="grn">1天前-求职者    确认面试</p>
+                            <p>求职者确认于2016-03-15 14:00参加<a href="">冠鹏信息</a> 的【<a>产品经理</a>】面试。</p>
+                        </li>
+                        <li>
+                            <p class="org">1天前-冠鹏信息  邀请面试</p>
+                            <p> <a href="">冠鹏信息</a> 邀请 何泽 于2016-03-15 14:00 参加【<a>产品经理</a>】面试。</p>
+                        </li>
+                        <li>
+                            <p class="pur">3天前-潘家柱    回访求职者</p>
+                            <p>在找工作，面试了 冠鹏信息，但不合适，被拒绝了</p>
+                        </li>
+                        <li>
+                            <p class="grn">3天前-求职者    修改意向</p>
+                            <p>求职者修改了职位意向：期望职位由”产品经理“改为”产品策划“</p>
+                        </li>
+                        <li>
+                            <p class="org">2016-12-47-潘家柱    回访求职者</p>
+                            <p>在找工作，面试了 冠鹏信息，但不合适，被拒绝了</p>
+                        </li>
+                        <li>
+                            <p class="pur">2016-12-47-潘家柱    回访求职者</p>
+                            <p>在找工作，面试了 冠鹏信息，但不合适，被拒绝了</p>
+                        </li>
+                        <li>
+                            <p class="pur">2016-12-47-潘家柱    回访求职者</p>
+                            <p>在找工作，面试了 冠鹏信息，但不合适，被拒绝了</p>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="user_r">
+                <div class="user_r_t">
+                    <h2>联系方式<span class="edit contact_btn"></span></h2>
+                    <p>手机：15888884444</p>
+                    <p>邮箱：15888884444@qq.com</p>
+                    <p>QQ：3695481442</p>
+                    <div class="icon">
+                        <span><img src="../images/v2/icons/icon_phone.png" height="20" width="20" alt="" />电话联系</span>
+                        <span><img src="../images/v2/icons/icon_qq.png" height="20" width="20" alt="" />QQ交谈</span>
+                    </div>
+                </div>
+                <div class="user_r_b">
+                    <h2>需求备注<span class="edit needTab_btn"></span></h2>
+                    <p>近期想培训Photoshop，想转型做UI设计方面</p>
+                    <div class="tabs">
+                        <span>销售</span>
+                        <span>销售</span>
+                        <span>销售</span>
+                        <span>课程顾问</span>
+                    </div>
+                </div>
+                <div class="user_r_b">
+                    <h2>好学校意向<span class="edit intent_btn"></span></h2>
+                    <div class="intent_txt">
+                        <ul>
+                           <li><p>求学意向：<span>高意向</span></p></li>
+                           <li><p>咨询内容：<span>专升本</span></p></li>
+                           <li><p>求学城市：<span>广州</span></p></li>
+                           <li><p>需求备注：<span>希望周末学习，天河附近</span></p></li>
+                        </ul>
+                        <input type="button" value="提交好学校" class="submit" />
+                        <p class="time org">提交好学校：<span>2016-06-04  12:14</span></p>
+
+                    </div>
+                </div>
+            </div>
+        </dd>
+    </dl>
+    <!-- 投递简历 -->
+    <dl class="CENTERDIV pushResume CenterXlll" data-active=".pushResume_btn" data-datas="id">
+        <dt><b>急聘职位</b><q>&times;</q></dt>
+            <dd>
+            <div class="Filter">
+            <table>
+                <tr>
+                    <th width="10%">关键词：</th><td width="200px">
+                        <input type="text" class="text long" placeholder=" 请输入手机、邮箱、QQ、姓名等搜索">
+                    </td>
+                    <th width="10%">求职标签：</th><td class="jobsTab">
+                       <dl class="SELECT" data-leave="-1">
+                            <input type="hidden" />
+                           <dt data-placeholder="用于关键词搜索求职者，标签间用空格隔开"></dt>
+                           <dd class="">
+                               <table >
+                                   <caption data-choices="">
+                                       <p></p>
+                                       <span>
+                                           <input type="button" class="confirm" value="确定">
+                                       </span>
+                                   </caption>
+                                   <tbody><tr><td></td></tr></tbody>
+                               </table>
+                           </dd>
+                       </dl>
+                    </td>
+
+                    <th width="10%">职位类型：</th><td>
+                        <dl class="SELECT long">
+                            <input type="hidden" class="JobType" value="0">
+                            <dt></dt>
+                            <dd class="normal">
+                                <a data-id="">不限</a>
+                                <a data-id="1">全职</a>
+                                <a data-id="2">兼职</a>
+                                <a data-id="3">实习</a>
+                            </dd>
+                        </dl>
+                    </td>
+                </tr>
+                <tr>
+                    <th width="12%">期望行业：</th><td>
+                        <dl class="SELECT long" data-leave="-1">
+                            <input type="hidden" value="1111,1011">
+                            <dt></dt>
+                            <dd class="PROFESSIONS">
+                                <table>
+                                    <caption data-choices="0">
+                                        <p></p>
+                                        <span>
+                                            <input type="button" class="confirm" value="确定">
+                                        </span>
+                                    </caption>
+                                    <thead><tr><th width="200"></th><td width="720"></td></tr></thead>
+                                    <tbody></tbody>
+                                </table>
+                            </dd>
+                        </dl>
+                    </td>
+                    <th width="7%">地区：</th><td width="300px">
+                        <dl class="SELECT double cities2 ADDRESS" data-child=".districts2" data-address="GetHotCities">
+                            <input type="hidden" value="271000">
+                            <dt></dt>
+                            <dd class="normal">
+                            </dd>
+                        </dl>
+                        <ins></ins>
+                        <dl class="SELECT double districts2 ADDRESS" data-unlimit="true" data-multiple="true" data-parent=".cities2">
+                            <input type="hidden" value="271013">
+                            <dt></dt>
+                            <dd class="">
+                            </dd>
+                        </dl></td>
+
+                    <th>期望职位：</th><td>
+                        <dl class="SELECT long" data-leave="-1">
+                            <input type="hidden">
+                            <dt></dt>
+                            <dd class="JOBPOSITIONS">
+                                <table>
+                                    <caption data-choices="3">
+                                        <p></p>
+                                        <span>
+                                            <input type="button" class="confirm" value="确定">
+                                        </span>
+                                    </caption>
+                                    <tbody><tr><th width="200"></th><td width="700"></td></tr></tbody>
+                                </table>
+                            </dd>
+                        </dl>
+                        <dl class="SELECT long" data-leave="-1">
+                            <input type="hidden">
+                            <dt></dt>
+                            <dd class="JOBSPARTTIME">
+                                <table>
+                                    <caption data-choices="3">
+                                        <p></p>
+                                        <span>
+                                            <input type="button" class="confirm" value="确定">
+                                        </span>
+                                    </caption>
+                                    <tbody><tr><td width="600"></td></tr></tbody>
+                                </table>
+                            </dd>
+                        </dl>
+                    </td>
+                </tr>
+            </table></div>
+            <div class="List"><table border="1" bordercolor="#e2e4f0">
+                <thead><tr>
+                    <th width="100">ID</th>
+                    <th width="200" class="txtL">职位名称</th>
+                    <th width="120">企业简介</th>
+                    <th width="100" >城市地区</th>
+                    <th width="">职位要求</th>
+                    <th width="80"><small>今日投递<br/>主动/代投</small></th>
+                    <th width="80">操作</th>
+                </tr></thead>
+                <tbody>
+                    <tr>
+                        <th><label><input type="checkbox" value="1" data-id='1101' data-name="IOS开发工程师1">10001</label></th>
+                        <td class="txtL"><a href="">IOS开发工程师1</a><a title="急" class="icon_urgent">急</a></td>
+                        <td>冠鹏信息</td>
+                        <td class="txtL">广州天河</td>
+                        <td>女性， 20-28岁，住天河</td>
+                        <td>0/14</td>
+                        <td><a class="pushChild_btn">投递</a></td>
+                    </tr>
+                    <tr>
+                         <th><label><input type="checkbox" value="2" data-id='1102' data-name="IOS开发工程师2">10001</label></th>
+                        <td class="txtL"><a href="">IOS开发工程师2</a><span class="icon_urgent"></span></td>
+                        <td>冠鹏信息</td>
+                        <td class="txtL">广州天河</td>
+                        <td>女性， 20-28岁，住天河</td>
+                        <td>0/14</td>
+                        <td><a class="pushChild_btn" data-name="IOS开发工程师">投递</a></td>
+                    </tr>
+                    <tr>
+                         <th><label><input type="checkbox" value="3" data-id='1103' data-name="IOS开发工程师3">10001</label></th>
+                        <td class="txtL"><a href="">IOS开发工程师3</a><span class="icon_urgent"></span></td>
+                        <td>冠鹏信息</td>
+                        <td class="txtL">广州天河</td>
+                        <td>女性， 20-28岁，住天河</td>
+                        <td>0/14</td>
+                        <td><a class="pushChild_btn">投递</a></td>
+                    </tr>
+                    <tr>
+                         <th><label><input type="checkbox" value="4" data-id='1104'  data-name="IOS开发工程师4">10001</label></th>
+                        <td class="txtL"><a href="">IOS开发工程师4</a><span class="icon_urgent"></span></td>
+                        <td>冠鹏信息</td>
+                        <td class="txtL">广州天河</td>
+                        <td>女性， 20-28岁，住天河</td>
+                        <td>0/14</td>
+                        <td><a class="pushChild_btn">投递</a></td>
+                    </tr>
+                </tbody>
+                <caption>
+                    <input type="hidden" data-datas="id"/>
+                    <input type="button" value="全选" class="checkAll">
+                    <input type="button" value="反选" class="checkNeg">
+                    <input type="button" value="投递简历" class="pushChild_btn batch" data-need="id">
+                    <div class="Pages">
+                        <span>5874条结果，共294页</span>
+                        <a href="#">首页</a>
+                        <a href="#">上一页</a>
+                        <a href="#">1</a>
+                        <a href="#" class="cur">2</a>
+                        <a href="#">3</a>
+                        <a href="#">...</a>
+                        <a href="#">294</a>
+                        <a href="#">下一页</a>
+                        <a href="#">尾页</a>
+                    </div>
+                </caption>
+            </table></div>
+
+
+            </dd>
+    </dl></td></tr>
+</table>
+<table  class="FullScreenPlugin black5 noFixed"><tr><td>
+    <!-- 个人信息编辑 -->
+    <dl class="CENTERDIV infoEdit CenterLong" data-active=".infoEdit_btn" data-child="true" data-datas="param">
+        <dt><b>编辑职位意向</b><q>&times;</q></dt>
+        <dd>
+            <table class="CenterTableFull">
+            <tbody>
+                <tr><th width="100">求职状态 </th><td>
+                    <dl class="SELECT half">
+                        <input type="hidden" value="2">
+                        <dt></dt>
+                        <dd class="normal">
+                            <a data-id="1">离职，可快速到岗</a>
+                            <a data-id="2">在职，想换工作</a>
+                            <a data-id="3">应届毕业生</a>
+                            <a data-id="4">暂时不找工作</a>
+                            <a data-id="5">找工作中</a>
+                        </dd>
+                    </dl>
+                </td></tr>
+                <tr><th>职位类型 </th><td>
+                    <dl class="SELECT half">
+                        <input type="hidden" class="JobType" value="1">
+                        <dt></dt>
+                        <dd class="normal">
+                            <a data-id="">不限</a>
+                            <a data-id="1">全职</a>
+                            <a data-id="2">兼职</a>
+                            <a data-id="3">实习</a>
+                        </dd>
+                    </dl>
+                </td></tr>
+                <tr><th>期望城市 </th><td>
+                    <dl class="SELECT double provincesWant ADDRESS" data-child=".citiesWant" data-address="GetProvinces">
+                        <input type="hidden" value="120000">
+                        <dt></dt>
+                        <dd class="normal">
+                        </dd>
+                    </dl>
+                    <dl class="SELECT double citiesWant ADDRESS" data-child=".districtsWant" data-parent=".provincesWant">
+                        <input type="hidden" value="121000">
+                        <dt></dt>
+                        <dd class="normal">
+                        </dd>
+                    </dl>
+                    <dl class="SELECT double districtsWant ADDRESS" data-unlimit="true" data-multiple="true" data-parent=".citiesWant">
+                        <input type="hidden" value="121010,121011">
+                        <dt></dt>
+                        <dd class="">
+                        </dd>
+                    </dl>
+                    <label><input type="checkbox" autocomplete="off">其他的不考虑</label>
+                </td></tr>
+                <tr><th>期望行业 </th><td>
+                    <dl class="SELECT half" data-leave="-1">
+                        <input type="hidden" value="1111,1011">
+                        <dt></dt>
+                        <dd class="PROFESSIONS">
+                            <table>
+                                <caption data-choices="3">
+                                    <p></p>
+                                    <span>
+                                        <input type="button" class="confirm" value="确定">
+                                    </span>
+                                </caption>
+                                <thead><tr><th width="200"></th><td width="1000"></td></tr></thead>
+                                <tbody></tbody>
+                            </table>
+                        </dd>
+                    </dl><label><input type="checkbox" class="exclude" autocomplete="off">其他的不考虑</label>
+                </td></tr>
+                <tr><th>排斥行业 </th><td>
+                    <dl class="SELECT half" data-leave="-1">
+                        <input type="hidden" value="1111,1011">
+                        <dt></dt>
+                        <dd class="PROFESSIONS">
+                            <table>
+                                <caption data-choices="3">
+                                    <p></p>
+                                    <span>
+                                        <input type="button" class="confirm" value="确定">
+                                    </span>
+                                </caption>
+                                <thead><tr><th width="200"></th><td width="1000"></td></tr></thead>
+                                <tbody></tbody>
+                            </table>
+                        </dd>
+                    </dl>
+                </td></tr>
+                <tr><th>期望职位 </th><td>
+                    <dl class="SELECT half" data-leave="-1">
+                        <input type="hidden">
+                        <dt></dt>
+                        <dd class="JOBPOSITIONS">
+                            <table>
+                                <caption data-choices="3">
+                                    <p></p>
+                                    <span>
+                                        <input type="button" class="confirm" value="确定">
+                                    </span>
+                                </caption>
+                                <tbody><tr><th width="200"></th><td width="700"></td></tr></tbody>
+                            </table>
+                        </dd>
+                    </dl>
+                        <dl class="SELECT long" data-leave="-1">
+                            <input type="hidden">
+                            <dt></dt>
+                            <dd class="JOBSPARTTIME">
+                                <table>
+                                    <caption data-choices="3">
+                                        <p></p>
+                                        <span>
+                                            <input type="button" class="confirm" value="确定">
+                                        </span>
+                                    </caption>
+                                    <tbody><tr><td width="600"></td></tr></tbody>
+                                </table>
+                            </dd>
+                        </dl>
+                </td></tr>
+                <tr><th>期望薪资 </th><td>
+                    <dl class="SELECT half">
+                        <input type="hidden">
+                        <dt></dt>
+                        <dd class="normal">
+                            <a data-id="">不限</a>
+                            <a data-id="20">2000以下</a>
+                            <a data-id="30">2000-3000</a>
+                            <a data-id="40">3000-5000</a>
+                            <a data-id="50">5000-8000</a>
+                            <a data-id="60">8000-12000</a>
+                            <a data-id="70">12000-20000</a>
+                            <a data-id="80">20000以上</a>
+                        </dd>
+                    </dl>
+                </td></tr>
+            </tbody>
+            <tfoot><tr><td colspan="2">
+                <input type="button" class="submit" value="提交">
+                <input type="button" class="cancel" value="取消">
+            </td></tr></tfoot>
+        </table>
+        </dd>
+    </dl>
+
+    <!-- 跟进计划 -->
+    <dl class="CENTERDIV logTime CenterSmall" data-active=".time_btn">
+        <dt><b>编辑跟进计划</b><q>&times;</q></dt>
+        <dd>
+            <table class="CenterTableFull">
+            <tbody>
+                <tr><th width="70" align="left">跟进计划 </th><td>
+                <input type="text" class="text full time" />
+            </td></tr>
+            </tbody>
+            <tfoot><tr><th></th><td>
+                <input type="button" class="submit" value="提交">
+                <input type="button" class="cancel" value="取消">
+            </td></tr></tfoot>
+            </table>
+        </dd>
+    </dl>
+    <!-- 联系方式 -->
+    <dl class="CENTERDIV Contact CenterSmall" data-active=".contact_btn">
+        <dt><b>编辑联系方式</b><q>&times;</q></dt>
+        <dd>
+            <table class="CenterTableFull">
+            <tbody>
+                <tr><th width="70" align="left">手机 </th><td>
+                <input type="text" class="text full" />
+            </td></tr>
+                <tr><th width="70" align="left">QQ </th><td>
+                <input type="text" class="text full" />
+            </td></tr>
+                <tr><th width="70" align="left">邮箱 </th><td>
+                <input type="text" class="text full" />
+            </td></tr>
+            </tbody>
+            <tfoot><tr><th></th><td>
+                <input type="button" class="submit" value="提交">
+                <input type="button" class="cancel" value="取消">
+            </td></tr></tfoot>
+            </table>
+        </dd>
+    </dl>
+    <!-- 需求标签 -->
+    <dl class="CENTERDIV NeedTab CenterMiddle" data-active="">
+        <dt><b>编辑需求标签</b><q>&times;</q></dt>
+        <dd>
+            <table class="CenterTableFull">
+            <tbody>
+                <tr><th width="70" align="left">求职标签 </th><td class="jobsTab">
+                        <dl class="SELECT" data-leave="-1">
+                            <input type="hidden" value="1,2" />
+                            <dt data-placeholder="用于关键词搜索求职者，标签间用空格隔开"></dt>
+                            <dd class="">
+                                <table >
+                                    <caption data-choices="">
+                                        <p></p>
+                                        <span>
+                                            <input type="button" class="confirm" value="确定">
+                                        </span>
+                                    </caption>
+                                    <tbody><tr><td></td></tr></tbody>
+                                </table>
+                            </dd>
+                        </dl>
+                    </td></tr>
+                <tr><th width="70" align="left">需求备注 </th><td>
+
+                <textarea name="" id="" class="text"></textarea>
+            </td></tr>
+            </tbody>
+            <tfoot><tr><th></th><td>
+                <input type="button" class="submit" value="提交">
+                <input type="button" class="cancel" value="取消">
+            </td></tr></tfoot>
+            </table>
+        </dd>
+    </dl>
+    <!-- 职位投递 -->
+    <dl class="CENTERDIV resumePushChild CenterMiddle" data-active=".pushChild_btn" data-datas="id num name">
+        <dt><b>职位投递</b><q>&times;</q></dt>
+        <dd>
+            <table class="CenterTableFull">
+                <tbody>
+                    <tr>
+                        <td width="80" >求职者</td>
+                        <td class="num"><strong>共<span class="IdsCounter">10</span>人</strong>
+                        <input type="hidden" class="checkedIds" data-datas="num"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>投递职位</td>
+                        <td>
+                            <input type="hidden" data-datas="id"/>
+                            <div class="list">
+
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot><tr><th></th><td>
+                <input type="button" class="submit" value="确认投递">
+                <input type="button" class="cancel" value="取消">
+            </td></tr></tfoot>
+            </table>
+        </dd>
+    </dl>
+    <!-- 好学校意见 -->
+    <dl class="CENTERDIV SchIntent CenterMiddle">
+        <dt><b>编辑好学校意向</b><q>&times;</q></dt>
+        <dd>
+            <table class="CenterTableFull">
+                <tr><th width="80">求学意向</th><td>
+                    <dl class="SELECT full">
+                        <input type="hidden">
+                        <dt></dt>
+                        <dd class="normal">
+                            <a data-id="1">中等意向</a>
+                            <a data-id="2">无意向</a>
+                            <a data-id="3">高意向</a>
+                            <a data-id="3">低意向</a>
+                        </dd>
+                    </dl>
+                </td></tr>
+                <tr><th width="80">咨询内容</th><td>
+                    <input type="text" class="text full" />
+                <tr><th width="80">求学地区</th><td>
+                    <dl class="SELECT double SchIntentCities ADDRESS" data-child=".SchIntentDistricts" data-address="GetHotCities">
+                        <input type="hidden">
+                        <dt></dt>
+                        <dd class="normal">
+                        </dd>
+                    </dl>
+                    <ins></ins>
+                    <dl class="SELECT double SchIntentDistricts ADDRESS" data-unlimit="true" data-parent=".SchIntentCities">
+                        <input type="hidden">
+                        <dt></dt>
+                        <dd class="normal">
+                        </dd>
+                    </dl>
+                </td></tr>
+                <tr><th width="80">需求备注</th><td>
+                    <textarea class=" full"></textarea>
+                </td></tr>
+                </td></tr>
+                <tfoot>
+                    <tr><th></th><td><input type="button" class="save" value="保存" /><input type="button" class="submit" value="保存并提交好学校" /><input type="button" class="cancel" value="取消" /></td></tr>
+                </tfoot>
+            </table>
+        </dd>
+    </dl>
+</tr></td>
+</table>
+
+</body>
+</html>
+<script src="../js/v2/admin/jquery2.js"></script>
+<script src="../js/jbody.js"></script>
+<script src="../js/jbody-plugin.js"></script>
+<script src="../js/area.js"></script>
+<script src="../js/subjects.js"></script>
+<script src="../js/jobPositions.js"></script>
+<script src="../js/jobPositionsParttime.js"></script>
+<script src="../js/universities.js"></script>
+<script src="../js/v2/admin/all.js"></script>
+<script src="../js/v2/admin/transit.js"></script>
+<script>
+var EmailTemplates=[
+	{
+		id:1,
+		title:'邮件模板一',
+		content:'邮件模板一邮件模板一邮件模板一邮件模板一'
+	},
+	{
+		id:3,
+		title:'邮件模板三',
+		content:'SendEmail, English \n Return'
+	}
+],
+InviteTemplates=[
+	{
+		id:10,
+		title:'邀请模板十',
+		content:'邀请模板十\n邀请模板十\n邀请模板十\n邀请模板十邀请模板十\n邀请模板十邀请模板十邀请模板十'
+	}
+],
+PushTemplates=[
+	{
+		id:23,
+		title:'推荐模板23',
+		content:"Let's push the job information ^3^"
+	}
+]
+;
+InitTemplates([EmailTemplates,InviteTemplates,PushTemplates],['SendEmail','InvitePost','ResumePush']);
+
+// 全选后投递简历，给投递按钮添加data-num，为要投递简历的人数
+$(".pushResume_btn").click(function(event) {
+    $(".pushChild_btn:last").attr("data-num",$(".pushChild_btn").siblings('[type="hidden"]').val());
+});
+// 推荐职位
+$(".pushChild_btn").click(function(event) {
+    var boxs = $(this).closest('.List').find(":checked");
+    var jobNames= [];
+    if($(this).hasClass('batch')){
+        boxs.each(function(index, el) {
+            jobNames.push('<a data-id="'+$(el).data("id")+'">'+
+                $(el).data("name")+'</a>');
+        });
+    }else{
+        var job = $(this).closest('tr').find("[type='checkbox']");
+        jobNames.push('<a data-id="'+job.data("id")+'">' + job.data("name")+'</a>');
+    }
+
+    $(".resumePushChild .list").html(jobNames.join(""));
+});
+// 删除推荐职位
+$(".resumePushChild .list").on("click","a",function(event){
+
+    var id = $(this).data("id").toString();
+    var hidden = $(this).closest('.list').siblings('[type="hidden"]');
+    var ids = hidden.val().split(',');
+    var index = ids.indexOf(id);
+    ids.splice(index,1);
+    hidden.val(ids.join(','));
+
+    var a = $(this).closest('.list').find('a');
+    if(a.size() == 1){
+        $(".resumePushChild .submit").prop("disabled",true);
+    }
+
+    $(this).remove();
+
+});
+
+// 添加跟进记录
+$(".log_top textarea").focus(function(){
+    $(this).siblings('div').show();
+});
+
+
+
+$(".infoEdit .submit").click(function(){
+     $(".provincesWant").find("input[type='hidden']").val(140000);
+    $(".citiesWant").find("input[type='hidden']").val(141100);
+     $(".districtsWant").find("input[type='hidden']").val(141111);
+
+/*    $(".infoEdit .ADDRESS").each(function(index,el){
+         AddressInit.call(el);
+    });*/
+    $(".infoEdit .ADDRESS").each(function(idx,el){
+    	 AddressInit.call(el);
+    });
+});
+
+$(".exclude").click(function(event) {
+    $(this).closest('tr').next('tr').toggleClass('hide');
+});
+
+$(".intent_btn").click(function(event) {
+     CENTERDIV.open.call($(".SchIntent").get(0));
+});
+
+$(".needTab_btn").click(function(event) {
+     var jobsTab = ["销售", "客服", "运营", "策划", "推广", "督导", "美导", "老师", "其他"];
+
+       var tmp = [];
+
+       for (var i = 0, len = jobsTab.length; i < len; i++) {
+           tmp.push("<a data-id=" + (i + 1) + ">" + jobsTab[i] + "</a>");
+       }
+       $(".jobsTab").find('dd tbody td').html(tmp.join(""));
+       CENTERDIV.open.call($(".NeedTab").get(0));
+       $(".NeedTab").find('[type="hidden"]').val("1,2");
+       SelectInit.call($(".NeedTab").find('[type="hidden"]').get(0));
+});
+
+$('.markedTip').mouseenter(function (event) {
+        var target = $(this).siblings('.markedTipWin'),
+            thisHeight = target.height() + 35;
+        target.css({ top: -thisHeight + 'px' }).show();
+    }).mouseleave(function (event) {
+        $(this).siblings('.markedTipWin').hide();
+    });
+</script>

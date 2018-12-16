@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>学生位置地图</title>
+    <link rel="stylesheet" type="text/css" href="../css/v2/School/all.css" />
+</head>
+<!--[if IE 6]>
+<script src="../js/UCenter/png.js"></script>
+<script type="text/javascript">
+    DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+<body>
+    <div class="header">
+        <div class="header-in">
+            <div class="logo">
+                <a href="">
+                    <img src="../images/v2/school/logo.jpg" alt="">
+                </a>
+                <span>就业网管理系统</span>
+            </div>
+            <div class="header-top">
+                <a href="" class="cur">Admin, </a> <a href="" class="cur">退出</a> <a href="">好工作首页</a><a href="">学校招聘</a><a href="">平台管理后台</a>
+            </div>
+        </div>
+        <div class="header-nav">
+          <p><a href="index.html">首页</a> <a href="contents.html">网站内容管理</a> <a href="manage-admin.html">系统管理</a> <a href="total.html">统计分析</a> <a href="" class="cur">学生管理</a></p>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="main-l">
+           <div class="main-in">
+                <h2>班级管理<i></i></h2>
+                <ul>
+                    <li><a href="Class-manage.html">班级信息管理</a> <i></i></li>
+                </ul>
+            </div>
+            <div class="main-in">
+                <h2>签到管理<i></i></h2>
+                <ul>
+                    <li><a href="Student-Sign-Situation.html">班级签到情况</a><i></i></li>
+                    <li  class="cur"><a href="Student-Mat-Set.html">学生位置地图</a><i></i> </li>
+                </ul>
+            </div>
+        </div>
+        <div class="main-r">
+            <div class="main-r-t">
+                <p><a >班级管理 &nbsp;&nbsp;&nbsp;></a><a href="Student-Mat-Set.html">学生位置地图</a></p>
+            </div>
+            <div class="bj-info">
+                <div class="bj-info-t">
+                    <div class="bj-info-l">
+                         <div class="date-ipt">
+                            <input type="text" value="2015-12-9" class="date2" />
+                            <i class="data-icon2"></i>
+                        </div>
+                        <dl class="SELECT std-City">
+                            <input type="hidden" value="0">
+                            <dt><span>请选择</span><i></i></dt>
+                            <dd>
+                                <a data-id="0">城市不限</a>
+                                <a data-id="1">无权限</a>
+                            </dd>
+                        </dl>
+                        <dl class="SELECT std-Area">
+                            <input type="hidden"  value="0">
+                            <dt><span>请选择</span><i></i></dt>
+                            <dd>
+                                <a data-id="0">地区不限</a>
+                                <a data-id="1">无权限</a>
+                            </dd>
+                        </dl>
+                        <dl class="SELECT std-Class">
+                            <input type="hidden"  value="0">
+                            <dt><span>请选择</span><i></i></dt>
+                            <dd>
+                                <a data-id="0">所有班级</a>
+                                <a data-id="1">无权限</a>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="bj-info-r">
+                        <div class="info-search">
+                            <input type="text" placeholder="输入学生姓名" class="search w138">
+                            <input type="button" value="搜索" class="search-btn">
+                        </div>
+                    </div>
+                </div>
+                <div class="bj-info-m">
+                     <p>统计学生  <span class="cur">263</span> 人</p>
+
+                     <div id="MapContainer3">
+                         
+                     </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+
+
+<script src="../js/jquery.js"></script>
+<script src="../js/v2/all.js"></script>
+<script src="../js/jbody.js"></script>
+<script src="http://api.map.baidu.com/api?v=2.0&ak=OlGzoCwcKN9OvM16T9RnFwOl"></script>
+<script src="../js/plugin/BaiduMap.js"></script>
+<script src="../js/school/sign.js"></script>
+<script>
+    $(function(){
+          var Map=BaiduMap("MapContainer3",{editable:true,label:true,multiple:true});
+        $(".location").click(function(){
+        
+            Map.search($(".addressVal").val());
+           
+        })
+  
+    var bounds = Map.getBounds();
+    var sw = bounds.getSouthWest();
+    var ne = bounds.getNorthEast();
+    var lngSpan = Math.abs(sw.lng - ne.lng);
+    var latSpan = Math.abs(ne.lat - sw.lat);
+    var array = [];
+    for (var i = 0; i < 3; i ++) {
+        array.push(new Array(sw.lng + lngSpan * (Math.random() * 0.7),ne.lat - latSpan * (Math.random() * 0.7)))
+    }
+
+
+
+    var data_info = [
+    [116.417854,39.921988,"地址：北京市东城区王府井大街88号乐天银泰百货八层"],
+                         [116.406605,39.921585,"地址：北京市东城区东华门大街"],
+                         [116.412222,39.912345,"地址：北京市东城区正义路甲5号"]
+                        ];
+        var info = [
+            {
+                width : 250,     // 信息窗口宽度
+                height: 30,     // 信息窗口高度
+                title : "王勃 10-12 16:30 最后一次获取" , // 信息窗口标题
+                enableMessage:true//设置允许信息窗发送短息
+            },
+            {
+                width : 250,     // 信息窗口宽度
+                height: 30,     // 信息窗口高度
+                title : "王勃 10-12 16:30 最后一次获取" , // 信息窗口标题
+                enableMessage:true//设置允许信息窗发送短息
+            },
+            {
+                width : 250,     // 信息窗口宽度
+                height: 30,     // 信息窗口高度
+                title : "王勃 10-12 16:30 最后一次获取" , // 信息窗口标题
+                enableMessage:true//设置允许信息窗发送短息
+            }
+        ];
+//对学生位置在地图上进行标注
+    $(array).each(function(index, el) {
+        console.log(info[index])
+        Map.addMarker(this[0],this[1],data_info[index][2],info[index])
+    });
+
+    $(".date2").click(function(){
+        JBCalendar.show(this);
+    });
+});
+</script>
+</html>

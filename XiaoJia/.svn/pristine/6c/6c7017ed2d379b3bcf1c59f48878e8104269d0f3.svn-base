@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>学校详情</title>
+    <meta name=viewport content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="../css/all.css" />
+    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+    <link href="../css/layerskin/default/layer.css" rel="stylesheet" />
+</head>
+<body>
+
+<div class="head-navgater">
+    <div class="logo">
+    	<img src="../images/parseword_logo1.png" alt="" style="width: 43px;height: 24px;margin: 8px 0 0 19px;"/>
+    </div>
+    <div class="rightCenter">
+        <div class="setting">
+            <a href="javascript:void(0)">设置</a>
+        </div>
+
+        <div class="feed_back">
+            <a href="javascript:void(0)">我要反馈</a>
+        </div>
+
+        <div class="information">
+            <span class="icon"></span>
+        </div>
+
+        <div class="news">
+            <span class="icon"></span>
+        </div>
+
+
+        <div class="search">
+            <input type="text" value="" placeholder="搜求职者" class="search_txet">
+            <span class="icon"></span>
+            <div class="history-layer" style="display: none;">
+                <a href="javascript:void(0)">
+                    <i>咨询学员</i>
+                    <span>"啊啊啊啊"</span>
+                </a>
+
+                <a href="javascript:void(0)">
+                    <i>报名学员</i>
+                    <span>"啊啊啊啊"</span>
+                </a>
+
+                <a href="javascript:void(0)">
+                    <i>班级</i>
+                    <span>"啊啊啊啊"</span>
+                </a>
+
+                <a href="javascript:void(0)">
+                    <i>课程</i>
+                    <span>"啊啊啊啊"</span>
+                </a>
+
+                <a href="javascript:void(0)">
+                    <i>教师</i>
+                    <span>"啊啊啊啊"</span>
+                </a>
+
+                <a href="javascript:void(0)">
+                    <i>帮助文档</i>
+                    <span>"啊啊啊啊"</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="content">
+
+    <div class="section-layer">
+        <div class="section-position">
+            <a href="新建推广方案.html" class="section-demo cur">+推广课程</a>
+            <a href="javascript:void(0)" class="section-demo section-news unbind">解除合作</a>
+        </div>
+
+
+        <div class="section-floor">
+            <div class="section-child">
+                <i></i>
+                <a href="javascript:void(0)">广州明师教育</a>
+            </div>
+            <div class="section-child">
+                地区：<span>广州</span>     类别：<span>K12</span>
+
+            </div>
+            <div class="section-child">
+                招生规模：2000人/年  <em></em>   成立时间： 2018-08-14
+            </div>
+        </div>
+    </div>
+
+    <div class="infor-nav">
+        <a href="#point1" class="cur nomargin">学校介绍<i></i></a>
+        <a href="#point2">招生对象<i></i></a>
+        <a href="#point3">招生课程<i></i></a>
+        <a href="#point4">校区地图<i></i></a>
+    </div>
+
+
+    <div class="school-about">
+        <div class="title" id="point1">
+            学校介绍
+        </div>
+        <div class="message">
+            <p>【学校简介】</p>
+            <p>
+                明师教育——具有十五年深厚教学底蕴的K12课外培训机构品牌，创立于2002年，目前拥有专职教师及员工超过
+                1600人，近百所直营分校分布在以广州市为中心的广东省多个城市。2016年就读常规学期班的学生超过28万科
+                次，是国内具有较高知名度和美誉度的中小学课外辅导品牌。
+
+            </p>
+
+            <p>
+                成立十五年来，明师教育一直专注于小初高三大考课外培训业务，并创造出优异的成绩。培优业务累计已培养出
+                200多名广州市中考单科及全科状元，帮助超过一万多名考生以超越700分的优异成绩顺利被全市前六名的国家级
+                重点高中录取。全日制复读学校更连续两年培养出广州中考复读生总分状元，誉满业界。
+            </p>
+            <p>
+                【授课情境】
+            </p>
+            <p>
+                教学风采
+            </p>
+            <p>
+                【学校特色】
+            </p>
+            <p>
+                对于课外培训行业来说，其核心竞争力主要集中于教研产品、师资培训、教学服务流程配套这三个领域。明师深
+                耕教育十五年，在以上领域上都拥有较深的积累，通过资深教师团队的努力，逐渐把以上核心元素形成标准化体
+                系，并于2017年起通过投资并购、深度合作等不同方式，向全国多个二三四线城市当地机构对核心产品进行输出，
+                帮助当地机构在最短时间里获取更多的生源。
+            </p>
+            <p>
+                明师教育于2013年、2016年两次荣获“德勤亚洲高科技高成长”奖项，在国内上榜教育机构中名列首位。通过十
+                多年努力并高度重视经营管理规范，是南中国区首家通过ISO9001:2008质量管理体系认证的中小学课外辅导机构。
+            </p>
+
+        </div>
+
+
+
+
+
+
+
+        <div class="title" id="point2">
+            招生对象
+        </div>
+        <div class="message">
+            <p><b>招生地区：</b><span>广州</span></p>
+            <p><b>招生年龄：</b><span>3~12岁</span></p>
+            <p><b>目标群体：</b><span>中小学生</span></p>
+            <p><b>用户标签：</b><span></span></p>
+
+        </div>
+
+
+
+        <div class="title" id="point3">
+            招生课程
+        </div>
+        <div class="message">
+            <p><span>雅思6分基础班</span></p>
+            <p><span>雅思6分基础班</span></p>
+            <p><span>雅思6分基础班</span></p>
+            <p><span>雅思6分基础班</span></p>
+        </div>
+
+
+
+
+
+        <div class="title"  id="point4">
+            开课校区
+        </div>
+        <div class="message">
+            <div class="map" id="school-map"></div>
+
+            <div class="address-data">
+                <dl class="SELECT " data-placeholder="请选择">
+                    <input type="hidden" value="" autocomplete="off">
+                    <dt><span class="">请选择</span></dt>
+                    <dd class="normal maxHeight">
+                        <a href="javascript:void(0)" data-id="0" class="" title="不限">不限</a>
+                        <a href="javascript:void(0)" data-id="0" class="" title="2000人/年">200人0/年</a>
+                    </dd>
+                </dl>
+
+                <div class="address-coordinate">
+                    <a href="javascript:void(0)" class="name cur">白云山校区</a>
+                    <p>广东省广州市天河区天河北路华翠街669号</p>
+                </div>
+
+                <div class="address-coordinate">
+                    <a href="javascript:void(0)" class="name">白云山校区</a>
+                    <p>广东省广州市天河区天河北路华翠街669号</p>
+                </div>
+
+                <div class="address-coordinate">
+                    <a href="javascript:void(0)" class="name">白云山校区</a>
+                    <p>广东省广州市天河区天河北路华翠街669号</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+<div class="why" id="why">
+    <div class="fill-in-box mal-one">
+        <div class="fill-name">
+            解除原因：
+        </div>
+
+        <div class="fill-data">
+
+            <textarea class="fill-about" placeholder="请输入" style="height: 100px;width: 407px;"></textarea>
+        </div>
+    </div>
+
+    <div class="submitBtn ml125">
+        <a href="javascript:void(0)" class="cur">确认</a>
+        <a href="javascript:void(0)" class="">取消</a>
+    </div>
+</div>
+
+
+<script src="../js/jquery.js"></script>
+<script src="../js/layer.js"></script>
+<script src="../js/area.js"></script>
+<script src="../js/all.js"></script>
+<script src="../js/plugin/select.js"></script>
+<script src="../js/My97DatePicker/WdatePicker.js"></script>
+<script src="http://api.map.baidu.com/api?v=2.0&amp;ak=OlGzoCwcKN9OvM16T9RnFwOl"></script>
+<script type="text/javascript">
+
+    //解除原因
+    $(".unbind").click(function () {
+        layer.open({
+            title:'解除原因',
+            area: '600px',
+            type:1,
+            skin: '',
+            content: $("#why"),
+        });
+    });
+
+
+
+
+
+    // 百度地图API功能
+    var map = new BMap.Map("school-map");    // 创建Map实例
+    var point = new BMap.Point(113.374722,23.131981);
+    map.centerAndZoom(new BMap.Point(113.374722,23.131981), 15);  // 初始化地图,设置中心点坐标和地图级别
+    //添加地图类型控件
+    map.addControl(new BMap.MapTypeControl({
+        mapTypes:[
+            BMAP_NORMAL_MAP,
+            BMAP_HYBRID_MAP
+        ]}));
+    map.setCurrentCity("广州");          // 设置地图显示的城市 此项是必须设置的
+    map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+
+    var marker = new BMap.Marker(point);        // 创建标注
+    map.addOverlay(marker);
+
+    var opts = {
+        // 信息窗口宽度
+        title : "广州市天河区棠下街道建业路华翠街66号202G" // 信息窗口标题
+    }
+    var infoWindow = new BMap.InfoWindow("", opts);  // 创建信息窗口对象
+    map.openInfoWindow(infoWindow, map.getCenter());
+    marker.addEventListener("click", function(){
+        map.openInfoWindow(infoWindow,point); //开启信息窗口
+    });
+
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,99 @@
+/* 新增邀请合作 */
+.right2{ width:800px; float:right; background-color:#fff;}
+h2{ float:left; font-size:18px; font-family:"微软雅黑"; color:#333; line-height:50px; margin:0px 25px 20px 0px; font-weight:normal;}
+h2{ _padding-top:10px;}
+h2 i{ position:relative; left:5px; top:-5px; cursor:pointer;}
+
+.h2-tip{ width:515px; float:left; font-size:14px; line-height:20px; color:#fff; font-family:"微软雅黑"; margin-bottom:20px; margin-left:-20px;}
+.h2-tip-left{ float:left; width:12px; height:12px; background:url(../../images/SCenter/h1bg.gif) left top;}
+.h2-tip-right{ float:left; width:500px; background-color:#00b7ee; padding:10px 0;}
+.h2-tip q{ float:right; margin-right:5px; top:0px; font-size:20px; cursor:pointer;}
+.h2-tip p{ margin-left:25px; width:450px;}
+
+
+/*顶部表单*/
+.form{ clear:both; margin:20px 0px 10px; height:35px; _z-index:11; border-bottom:0px solid #bcbcbc;}
+.form{ margin-top:5px\9; _margin-top:20px;}
+.form-left{ float:left;}
+.form-right{ float:right;}
+.form-key,.form-select,.form-submit{ float:left;}
+.form-key,.form-submit,.form-select span{ display:block; height:15px; padding:5px; border:1px solid #BCBCBC; font-size:12px; line-height:15px;}
+.form-key{ width:110px; padding-right:25px; border-right:0px; margin-left:10px;}
+.form-submit{ width:30px; height:27px; padding:5px; background:url(../../images/SCenter/search-btn.gif) center no-repeat; border:0px; cursor:pointer;}
+
+/*下拉列表*/
+.select{ position:relative; display:inline-block; float:left; z-index:111; font-size:16px; font-family:"微软雅黑"; color:#333; margin-right:10px;}
+.select dt{ clear:both; height:30px; border:1px solid #C8C8C8; padding:0px 40px 0px 10px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; line-height:30px; position:relative; font-size:12px;}
+.select dt i{ display:block; position:absolute; right:0px; top:0px; height:30px; width:30px; background:url(../../images/SCenter/select.png) center; color:#999; border-left:1px solid #c8c8c8;}
+.select dt span{ color:#999;}
+.select dd{ display:none; position:absolute; left:0px; background:#fff; line-height:25px; border:1px solid #d9d9d9;}
+.select dd.on{ display:block; z-index:555;}
+/*普通的下拉列表*/
+.normal{ max-height:150px; overflow:auto; _height:150px; _overflow-y:auto; _overflow-x:hidden; font-size:12px;}
+.normal a{ display:block; line-height:30px; height:30px; color:#333; padding:0px 10px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; _width:90%;}
+.normal a:hover{ background-color:#dbeef4;}
+
+.profs{ width:190px;}
+.scales{ width:130px;}
+.scales dd{ width:128px;}
+.attrs{ width:130px;}
+.attrs dd{ width:128px;}
+.others{ width:200px;}
+.others dd{ width:198px;}
+.ADDList{ width:100px;}
+.ADDList .normal{ width:98px;}
+
+/*新增地址列表*/
+.address_tip{ border:0px; width:120px; font-size:12px; color:#333; font-family:"微软雅黑";}
+.AddressStatic{ width:435px;}
+.ADDList h4{ font-size:16px; font-weight:normal; color:#fff; background-color:#1e74e3; clear:both; padding:0px 10px; height:30px; line-height:30px;}
+.ADDTabs{ clear:both; height:30px; background-color:#f8f8f8; font-size:12px; font-family:"宋体"; margin-top:10px; border-bottom:1px solid #d7d7d7; padding:0px 10px; _overflow:hidden;}
+.ADDTabs b{ font-weight:normal; color:#454545; display:block; float:left; padding:0px 10px; margin-top:5px; border:1px solid #f8f8f8; height:23px; line-height:23px; cursor:pointer;}
+.ADDTabs b.cur{ border-color:#d7d7d7; border-bottom-color:#fff; background:#fff; _position:relative; height:24px;}
+.ADDLists{ width:100%; float:left; line-height:25px;}
+.ADDLists div{ width:100%; float:left; border-bottom:1px dashed #cbcbcb; padding:5px 0px;}
+.ADDLists em{ display:block; width:30px; text-align:center; font-size:18px; color:#666; font-style:normal; float:left;}
+.ADDLists p{ width:400px; float:left;}
+.ADDLists p a{ display:block; width:20%; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; font-size:12px; color:#666; font-family:"宋体"; float:left;}
+.hots p{ margin:10px auto; float:none; clear:both;}
+
+/*表格*/
+.table{ width:100%; border-collapse:collapse; table-layout:fixed; font-family:"微软雅黑";}
+.table caption{ text-align:left; font-size:16px; font-weight:bold; line-height:45px; margin:20px 0px; border-bottom:1px solid #ff5e00; color:#333;}
+.table caption b{ color:#ff5e00; font-size:18px;}
+.table thead th{ line-height:35px; font-size:14px; font-weight:normal; background-color:#ECEBEB; border-right:1px solid #fff;}
+.table tbody td{ line-height:70px; font-size:14px; border:1px solid #F7F4F4; text-align:center; color:#333;}
+.table .first{ text-align:left; text-indent:1em; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.table .first a{ color:#333; text-decoration:underline;}
+.table .last a{ color:#2673ec; text-decoration:underline;}
+.table a:hover{ color:#ff5e00;}
+
+.Batch{ float:left; margin:25px 0px 0px 20px; background-color:#ff5e00; padding:0px 20px; height:35px; font-size:14px; color:#fff; border:0px; border-radius:3px; font-family:"微软雅黑"; cursor:pointer;}
+.pages2{ float:right; clear:none; margin-top:25px;}
+
+.InviteLetter{ width:800px;}
+.InviteLetter .CenterContent{ padding:20px 30px;}
+.InviteLetter .CenterSelect{ width:200px; float:left; margin-right:10px;}
+.InviteLetter .CenterSelect b{ width:170px;}
+.InviteLetter .CenterSelect dd{ width:198px;}
+.CenterLink{ color:#2673ec;}
+.CenterLink:hover{ color:#ff5e00;}
+.InviteLetter .text{ width:90px;}
+.innerDfn{ margin-right:20px;}
+.InviteLetter textarea{ width:350px !important; height:155px !important; padding:10px; border:1px solid #b8b8b8;}
+.InviteLetter .submit,.InviteLetter .reset{ width:auto !important; padding:0px 40px;}
+
+.Invitation{ width:800px; height:620px;}
+.Invitation .CenterContent{ padding:20px 30px;}
+.Invitation .text{ height:30px; line-height:30px;}
+.Invitation var{ width:110px;}
+.Invitation dfn{ width:630px;}
+.Invitation dfn.d-s{ width:260px;}
+.Invitation .t-l{ width:610px;}
+.Invitation .t-s{ width:240px;}
+.Invitation dfn cite{ float:right;}
+.Invitation cite a{ color:#1562c8;}
+.Invitation .CenterSelect{ width:550px; float:left;}
+.Invitation .CenterSelect b{ width:520px;}
+.Invitation .CenterSelect dd{ width:548px;}
+.Invitation .CenterLink{ float:right;}

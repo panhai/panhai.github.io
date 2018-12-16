@@ -1,0 +1,455 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>企业中心-首页-简历管理-企业人才库</title>
+<link rel="stylesheet" type="text/css" href="../css/v2/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/CCenter/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/CCenter/resumes.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/plugin/JobAndProf.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/plugin/CitiesPicker.css">
+</head>
+
+<body>
+<div class="HEADER"><div class="common">
+	<div class="TOP-LOGO"><a href="#"><img src="../images/v2/logo-s.jpg" width="119" height="62"></a></div>
+    <div class="TOP-TOOLS">
+    	Admin, <a href="#">退出</a>&nbsp;&nbsp;&nbsp;<a href="#">个人中心</a>&nbsp;&nbsp;&nbsp;<a href="#">反馈</a>&nbsp;&nbsp;&nbsp;<a href="#">HR帮助</a>
+    </div>
+    <ul class="TOP-NAV">
+    	<li><a href="new-index.html" class="cur">首页</a></li>
+    	<li><a href="new-publish.html">发布职位</a></li>
+    	<li><a href="new-profile.html">企业资料</a></li>
+    	<li><a href="new-hrfavors.html">HR收藏夹</a></li>
+    	<li><a href="new-settings.html">账号管理</a></li>
+    </ul>
+</div></div>
+
+<div class="Main common">
+	<div class="Left">
+    	<a href="new-publish.html" class="Publish">发布新职位</a>
+        <div class="LeftNav">
+            <h3>简历管理</h3>
+            <p>
+                <a href="new-index-resume-newcome.html"><span>未处理简历</span><i>30</i></a>
+                <a href="new-index-resume-invited.html"><span>已邀请面试</span><i>30</i></a>
+                <a href="new-index-resume-confirmed.html"><span>已确认面试</span><i>30</i></a>
+                <a href="new-index-resume-notmatch.html"><span>不合适简历</span><i>30</i></a>
+                <a href="new-index-resume-stores.html" class="cur"><span>企业人才库</span><i>30</i></a>
+            </p>
+            <h3>职位管理</h3>
+            <p>
+                <a href="new-index-job-published.html"><span>已发布职位</span><i>30</i></a>
+                <a href="new-index-job-checking.html"><span>审核中职位</span><i>30</i></a>
+                <a href="new-index-job-stopped.html"><span>已暂停职位</span><i>30</i></a>
+            </p>
+            <h3>校企合作</h3>
+            <p>
+                <a href="new-index-cooperate.html"><span>学校合作邀请</span><i>30</i></a>
+                <a href="new-index-cooperate-sent.html"><span>发出的邀请</span><i>30</i></a>
+                <a href="new-index-cooperate-received.html"><span>收到的申请</span><i>30</i></a>
+                <a href="new-index-cooperate-schools.html"><span>已达成合作</span><i>30</i></a>
+            </p>
+        </div>
+    </div>
+	<div class="Right">
+        <dl class="Intro">
+            <dt class="margin">
+                <h1>企业人才库<small>（共6份）</small></h1>
+                <a href="#" class="refresh">刷新</a>
+            </dt>
+        </dl>
+        <div class="Topics">
+        	<h2><a href="new-index-resume-stores.html" class="cur"><span>全部</span></a></h2>
+        	<h2><a href="new-index-resume-stores2.html"><span>正在求职</span></a></h2>
+            <input type="button" class="submit" value="">
+            <pre class="text-container"><input type="text" class="text" placeholder="请输入关键词" data-init="true"></pre>
+            <label class="calendar" for="calendar"></label><input type="text" id="calendar">
+        </div>
+        <div class="Selects">
+        	<dl class="SELECT filter-jobs blue" data-choices="3" data-leave="egnore">
+                <input type="hidden" value=""><!--只要给这里边值的话，就会自动初始化-->
+                <dt class="blue"><span></span><i></i></dt>
+                <dd class="FilterMenu blue">
+                <table>
+                    <caption class="SELECT-COLLECTOR">
+                        <samp>最多选择三个：</samp>
+                        <!--<a href="#"><span>最多选择三个</span><q></q></a>
+                        <a href="#"><span>最多选择三个</span><q></q></a>
+                        <a href="#"><span>最多选择三个</span><q></q></a>-->
+                        <input type="button" class="close" value="关闭">
+                        <input type="button" class="submit" value="确定">
+                    </caption>
+                    <th class="menus"></th>
+                    <td class="submenus"></td>
+                </table>
+                </dd>
+            </dl>
+            <dl class="SELECT filter-profs blue" data-choices="3" data-leave="egnore">
+                <input type="hidden">
+                <dt class="blue"><span></span><i></i></dt>
+                <dd class="FilterProfs blue">
+                <table>
+                    <caption class="SELECT-COLLECTOR">
+                        <samp>最多选择三个：</samp>
+                        <!--<a href="#"><span>最多选择三个</span><q></q></a>
+                        <a href="#"><span>最多选择三个</span><q></q></a>
+                        <a href="#"><span>最多选择三个</span><q></q></a>-->
+                        <input type="button" class="close" value="关闭">
+                        <input type="button" class="submit" value="确定">
+                    </caption>
+                    <tbody class="SELECT-CHOICES">
+                        <tr><th>生活　服务</th><td><a data-id="101000">餐饮</a> | <a data-id="102000">家政保洁/安保家政保</a> | <a data-id="103000">美容/头发</a> | <a data-id="104000">运动健身</a> | <a>酒店/旅游</a> | <a>娱乐/休闲</a> | <a>保健按摩</a></td></tr>
+                        <tr><th>计算机　互联网　通信</th><td><a>计算机/互联网/通信</a> | <a>电子/电气</a> | <a>机械/仪器仪表</a><a>计算机/互联网/通信</a> | <a>电子/电气</a> | <a>机械/仪器仪表</a><a>计算机/互联网/通信</a> | <a>电子/电气</a> | <a>机械/仪器仪表</a></td></tr>
+                        <tr><th>财会　金融　保险</th><td><a>财务/审计/统计</a> | <a>金融/银行/证券/投资</a> | <a>保险</a></td></tr>
+                        <tr><th>人力　行政　管理</th><td><a>人事/行政/后勤</a> | <a>司机</a> | <a>高级管理</a></td></tr>
+                        <tr><th>销售　市场　淘宝　客服</th><td><a>销售</a> | <a>客服</a> | <a>贸易/采购</a> | <a>超市/百货/零售</a> | <a>淘宝职位</a> | <a>房产中介</a></td></tr>
+                        <tr><th>生产　制造　汽车　电子</th><td><a>普工/技工</a> | <a>生产管理/研发</a> | <a>物流/仓储</a> | <a>服装/纺织/食品</a> | <a>质控/安防</a> | <a>汽车制造/服务</a></td></tr>
+                        <tr><th>房产　建筑　装修　物业</th><td><a>建筑</a> | <a>招聘会</a> | <a>物业管理</a> | <a>农/林/牧/渔业</a> | <a>其他招聘信息</a></td></tr>
+                        <tr><th>贸易　采购　物流　仓储</th><td><a>医院/医疗/护理</a> | <a>制药/生物工程</a> | <a>环保</a></td></tr>
+                        <tr><th>广告　艺术　影视　媒体</th><td><a>媒介/公关</a> | <a>广告/会展/咨询</a> | <a>美术/设计/创意</a></td></tr>
+                        <tr><th>法律　咨询　教育　其他</th><td><a>法律</a> | <a>教育培训</a> | <a>翻译</a> | <a>编辑/出版/印刷</a></td></tr>
+                    </tbody>
+                </table>
+                </dd>
+            </dl>
+            <dl class="CitiesPicker SELECT CitiesInForm ADDRESS" data-matches="5" data-child=".Districts" data-init='egnore'>
+                <input type="hidden">
+                <dt><span><input type="text" value="" data-list="arrow"></span><i></i></dt>
+                <dd>
+                    <div class="CitiesHot">
+                        <h5>热门城市（可直接选择城市或输入城市拼音/简拼）</h5>
+                        <div class="cities">
+                            <a data-id=''>不限</a><a data-id="271000">广州</a><a data-id="271200">深圳</a><a data-id="171000">上海</a><a data-id="272600">东莞</a><a data-id="271500">佛山</a><a data-id="101000">北京</a><a data-id="261000">长沙</a><a data-id="251000">武汉</a><a data-id="191000">杭州</a><a data-id="181000">南京</a><a data-id="211000">福州</a><a data-id="272700">中山</a><a data-id="272000">惠州</a><a data-id="271300">珠海</a><a data-id="201000">合肥</a><a data-id="301000">成都</a><a data-id="231000">济南</a><a data-id="271700">湛江</a><a data-id="262200">娄底</a><a data-id="261100">株洲</a><a data-id="261900">郴州</a><a data-id="271100">韶关</a><a data-id="311000">贵阳</a><a data-id="261300">衡阳</a><a data-id="221000">南昌</a><a data-id="301900">乐山</a><a data-id="211400">泉州</a><a data-id="302000">南充</a><a data-id="261200">湘潭</a><a data-id="241000">郑州</a><a data-id="302300">广安</a><a data-id="301500">绵阳</a><a data-id="301400">德阳</a><a data-id="211100">厦门</a><a data-id="271600">江门</a><a data-id="111000">天津</a><a data-id="331000">西安</a><a data-id="272200">汕尾</a><a data-id="272300">河源</a><a data-id="391200">桂林</a><a data-id="181100">无锡</a><a data-id="251300">宜昌</a>
+                        </div>
+                    </div>
+                    <div class="CitiesQuery">
+                        <div class="tip">d，若缩小范围，请输入全拼</div>
+                        <div class="matches" data-list="datas">
+                            <!--<a data-id="">广东</a>-->
+                        </div>
+                    </div>
+                </dd>
+            </dl>
+            <dl class="SELECT Experience">
+                <input type="hidden">
+                <dt><span></span><i></i></dt>
+                <dd class="single normal">
+                    <a data-id="">不限</a>
+                    <a data-id="1">在读学生</a>
+                    <a data-id="2">应届生</a>
+                    <a data-id="3">1年以下</a>
+                    <a data-id="4">1-3年</a>
+                    <a data-id="5">3-5年</a>
+                    <a data-id="6">5-10年</a>
+                    <a data-id="7">10年以上</a>
+                </dd>
+            </dl>
+            <dl class="SELECT Education">
+                <input type="hidden">
+                <dt><span></span><i></i></dt>
+                <dd class="single normal">
+                    <a data-id="">不限</a>
+                    <a data-id="1">初中/高中</a>
+                    <a data-id="2">技校/中专</a>
+                    <a data-id="3">大专</a>
+                    <a data-id="4">本科</a>
+                    <a data-id="5">硕士</a>
+                    <a data-id="6">博士</a>
+                    <a data-id="7">其他</a>
+                </dd>
+            </dl>
+        </div>
+        <div class="Query"><!--无查询串就不放这块-->
+        	<a href="#">返回全部&gt;</a>
+            这里边放时间、关键字，共搜索到3份简历
+        </div>
+        <div class="Nothing">
+        	<p><img src="../images/v2/nothing.png" width="176" height="148"></p>
+        	<p>暂无记录</p>
+        </div>
+        <table class="Infors bb">
+            <tr>
+            	<td width="20"><input type="checkbox"></td>
+            	<td width="100"><a href="new-resume.html" target="_blank"><var><img src="../images/v2/nophoto.png"></var></a></td>
+                <td width="360" class="profile"><a href="new-resume.html" target="_blank">
+                	<h4>张宇英<small>女/2年/本科</small></h4>
+                    <p>SEO外链专员-广州冠鹏信息技术有限公司广州冠鹏信息技术有限公司</p>
+                    <p>信用度：<samp>80</samp></p>
+                </a></td>
+                <td width="270" class="options">
+                	<div>
+                        <dl class="SELECT">
+                        	<dt><i></i></dt>
+                            <dd class="normal">
+                            	<p><a href="#" data-id="" data-name="">添加到HR收藏</a></p>
+                            	<p><a href="#" data-id="" data-name="">删除</a></p>
+                            </dd>
+                        </dl>
+                    	<a href="#" class="outer" data-id="" data-name="">发邀请信</a>
+                    </div>
+                    <p>收藏时间：<b>2015-1-26</b></p>
+                </td>
+            </tr>
+            <tr>
+            	<td width="20"><input type="checkbox"></td>
+            	<td width="100"><a href="new-resume.html" target="_blank"><var><img src="../images/v2/nophoto.png"></var></a></td>
+                <td width="360" class="profile"><a href="new-resume.html" target="_blank">
+                	<h4>张宇英<small>女/2年/本科</small></h4>
+                    <p>SEO外链专员-广州冠鹏信息技术有限公司广州冠鹏信息技术有限公司</p>
+                    <p>信用度：<samp>80</samp></p>
+                </a></td>
+                <td width="270" class="options">
+                	<div>
+                        <dl class="SELECT">
+                        	<dt><i></i></dt>
+                            <dd class="normal">
+                            	<p><a href="#" data-id="" data-name="">添加到HR收藏</a></p>
+                            	<p><a href="#" data-id="" data-name="">删除</a></p>
+                            </dd>
+                        </dl>
+                    	<a href="#" class="outer" data-id="" data-name="">发邀请信</a>
+                    </div>
+                    <p>收藏时间：<b>2015-1-26</b></p>
+                </td>
+            </tr>
+            <tr>
+            	<td width="20"><input type="checkbox"></td>
+            	<td width="100"><a href="new-resume.html" target="_blank"><var><img src="../images/v2/nophoto.png"></var></a></td>
+                <td width="360" class="profile"><a href="new-resume.html" target="_blank">
+                	<h4>张宇英<small>女/2年/本科</small></h4>
+                    <p>SEO外链专员-广州冠鹏信息技术有限公司广州冠鹏信息技术有限公司</p>
+                    <p>信用度：<samp>80</samp></p>
+                </a></td>
+                <td width="270" class="options">
+                	<div>
+                        <dl class="SELECT">
+                        	<dt><i></i></dt>
+                            <dd class="normal">
+                            	<p><a href="#" data-id="" data-name="">添加到HR收藏</a></p>
+                            	<p><a href="#" data-id="" data-name="">删除</a></p>
+                            </dd>
+                        </dl>
+                    	<a href="#" class="outer" data-id="" data-name="">发邀请信</a>
+                    </div>
+                    <p>收藏时间：<b>2015-1-26</b></p>
+                </td>
+            </tr>
+            <tr>
+            	<td width="20"><input type="checkbox"></td>
+            	<td width="100"><a href="new-resume.html" target="_blank"><var><img src="../images/v2/nophoto.png"></var></a></td>
+                <td width="360" class="profile"><a href="new-resume.html" target="_blank">
+                	<h4>张宇英<small>女/2年/本科</small></h4>
+                    <p>SEO外链专员-广州冠鹏信息技术有限公司广州冠鹏信息技术有限公司</p>
+                    <p>信用度：<samp>80</samp></p>
+                </a></td>
+                <td width="270" class="options">
+                	<div>
+                        <dl class="SELECT">
+                        	<dt><i></i></dt>
+                            <dd class="normal">
+                            	<p><a href="#" data-id="" data-name="">添加到HR收藏</a></p>
+                            	<p><a href="#" data-id="" data-name="">删除</a></p>
+                            </dd>
+                        </dl>
+                    	<a href="#" class="outer" data-id="" data-name="">发邀请信</a>
+                    </div>
+                    <p>收藏时间：<b>2015-1-26</b></p>
+                </td>
+            </tr>
+            <tr>
+            	<td width="20"><input type="checkbox"></td>
+            	<td width="100"><a href="new-resume.html" target="_blank"><var><img src="../images/v2/nophoto.png"></var></a></td>
+                <td width="360" class="profile"><a href="new-resume.html" target="_blank">
+                	<h4>张宇英<small>女/2年/本科</small></h4>
+                    <p>SEO外链专员-广州冠鹏信息技术有限公司广州冠鹏信息技术有限公司</p>
+                    <p>信用度：<samp>80</samp></p>
+                </a></td>
+                <td width="270" class="options">
+                	<div>
+                        <dl class="SELECT">
+                        	<dt><i></i></dt>
+                            <dd class="normal">
+                            	<p><a href="#" data-id="" data-name="">添加到HR收藏</a></p>
+                            	<p><a href="#" data-id="" data-name="">删除</a></p>
+                            </dd>
+                        </dl>
+                    	<a href="#" class="outer" data-id="" data-name="">发邀请信</a>
+                    </div>
+                    <p>收藏时间：<b>2015-1-26</b></p>
+                </td>
+            </tr>
+        </table>
+        <div class="MixTools">
+        	<div class="TailTools">
+            	<input type="checkbox" id="all"> <label for="all">全选</label>
+                <a href="#" class="DeleteAll">删除</a>
+            </div>
+            <div class="PAGES">
+                <a href="#">首页</a>
+                <a href="#">上一页</a>
+                <a href="#" class="cur">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">下一页</a>
+                <a href="#">尾页</a>
+            </div>
+        </div>
+    </div>
+	<div class="clear"></div>
+</div>
+<table class="FullScreenPlugin fixed fixed-top CenterDivContainer"><tr><td>
+    <dl class="CENTERDIV CenterMiddle Request" data-active=".options a.outer" data-attrs="id,name">
+        <dt class="CENTERTOPIC"><b>发邀请信</b><q></q></dt>
+        <dd class="CENTERCONTENT">
+        	<table class="CenterForm">
+            	<caption>
+                	<p>可用余额：<b>300.00</b>&nbsp;&nbsp;&nbsp;&nbsp;邀请耗费：<b>600.00</b></p>
+                    <a href="new-other-charge.html">充值</a>
+                </caption>
+                <tbody>
+                	<tr><th width="110">收件人：</th><td width="350"><em data-attr="name">张腾</em></td></tr>
+                    <tr><th>邀请职位：</th><td>
+                    	<dl class="SELECT s-l">
+                        	<input type="hidden">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal">
+                            	<a data-id="1">职位一</a>
+                            	<a data-id="2">职位二</a>
+                            	<a data-id="3">职位三</a>
+                            	<a data-id="4">职位四</a>
+                            </dd>
+                        </dl>
+                        <code class="form-tip successMsg"></code>
+                        <!--<code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>-->
+                    </td></tr>
+                	<tr><th>选择模版：</th><td>
+                    	<dl class="SELECT s-m Templates">
+                        	<input type="hidden">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal">
+                            	<a data-id="1">模版一</a>
+                            	<a data-id="2">模版二</a>
+                            	<a data-id="3">模版三</a>
+                            </dd>
+                        </dl>
+                        <a href="new-settings-templates.html" target="_blank" class="link">模版管理</a>
+                        <code class="form-tip successMsg"></code>
+                        <!--<code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>-->
+                    </td></tr>
+                	<tr><th>内容：</th><td>
+                    	<textarea class="Content"></textarea>
+                        <code class="form-tip successMsg"></code>
+                        <!--<code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>-->
+                    </td></tr>
+                	<tr><th></th><td class="CENTERBTNS">
+                        <input type="button" class="submit" value="发送邀请">
+                        <input type="button" class="reset" value="取消">
+                    </td></tr>
+                </tbody>
+            </table>
+        </dd>
+	</dl>
+</td></tr></table>
+
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/v2/all.js"></script>
+<script src="../js/effect/correct.js"></script>
+<script src="../js/plugin/raphael.js"></script>
+<script src="../js/effect/bg.js"></script>
+<script src="../js/plugin/CenterDiv.js"></script>
+<script src="../js/jbody.js"></script>
+<script src="../js/jbody-plugin.js"></script>
+<script src="../js/area.js"></script>
+<script src="../js/jobPositions.js"></script>
+<script src="../js/subjects.js"></script>
+<script src="../js/plugin/CitiesPicker.js"></script>
+<script src="../js/effect/tab.js"></script>
+<script src="../js/v2/CCenter/resumes.js"></script>
+<script>
+$(function(){
+	CHItab(".filter-jobs .FilterMenu",".menu",".FilterSubmenu");
+	//全选
+	$("#all").change(function(){
+		$(":checkbox").prop('checked',this.checked);
+	});
+	//点击删除
+	$(".options a").attr('href','javascript:void(0)');
+	$(".options p:last-child a").click(function(){
+		var id=$(this).data("id"),name=$(this).data("name");
+		CONFIRM('删除简历','<h6>您确定要删除 # '+ name +' # 的简历吗？</h6>','确定删除',function(){
+			alert('删除过程');
+		});
+	});
+	//点击全部删除
+	$(".DeleteAll").attr('href','javascript:void(0)').click(function(){
+		var boxes=$(":checked");
+		if(!boxes.length)
+		{
+			ALERT('错误提醒',"<h5>未选中任何简历！</h5>");
+			return false;
+		}
+		var ids=boxes.map(function(){return this.value;}).get().join('');
+		CONFIRM('批量删除简历','<h6>您确定要删除这些简历吗？<br>您总共选中了'+ boxes.length +'封简历。</h6>','确定批量删除',function(){
+			alert('批量删除过程');
+		});
+	});
+	//点击收藏
+	$(".options p:first-child a").click(function(){
+		var id=$(this).data("id"),name=$(this).data("name");
+		//添加过程
+		ALERT('添加到HR收藏','<h6>成功将 # '+ name +' # 加入到收藏夹</h6>',2000);
+	});
+	//////////////////////////////////////////////////////////////////////////////////////////////////////////////填充职位大列表
+	var strTH=[],strTD=[],array=positionArray,
+		level1Reset=true,level2Reset=true;
+	for(var n=0;n<array.length;n++)
+	{
+		var id=array[n][2],name=array[n][0];
+		if(id.indexOf('0000')>=0)
+		{//一级名称，加入表头
+			if(!level1Reset) strTD.push('</ul>');
+			strTH.push('<h3 class="menu">'+ name.replace(/[\|\/]/g,'　') +'</h3>');
+			strTD.push('<ul class="FilterSubmenu">');
+			level1Reset=false;
+			level2Reset=true;
+		}
+		else if(id.indexOf('00')>=0)
+		{//二级名称，加入列表项（需要先结束上个列表项）
+			if(!level2Reset) strTD.push('</p></li>');
+			strTD.push('<li><h4>'+ name +'</h4><p>');
+			level2Reset=false;
+		}
+		else
+		{//三级名称，直接加入链接
+			strTD.push('<a data-id="'+ id +'">'+ name +'</a> ');
+		}
+	}
+	strTD.push('</p></li></ul>');
+	$(".filter-jobs table").find("th").html(strTH.join(''))
+		.end().find('td').html(strTD.join(''));
+	//职位选择
+	CHItab(".filter-jobs .FilterMenu",".menu",".FilterSubmenu");
+	///////////////////////////////////////////////////////////////////////////////////////////////////////////填充行业大列表
+	var str=[];
+	array=subjectArray;strTH=null;strTD=null;
+	level1Reset=true;level2Reset=true;
+	for(var n=0;n<array.length;n++)
+	{
+		var id=array[n][2],name=array[n][0];
+		if(id.indexOf('00')>=0)
+		{//一级名称，加入表头，并重起一行
+			if(!level1Reset) str.push('</td></tr>');
+			str.push('<tr><th>'+ name.replace(/[\|\/]/g,'　') +'</th><td>');
+			level1Reset=false;
+		}
+		else
+		{//二级名称，直接加入链接
+			str.push('<a data-id="'+ id +'">'+ name +'</a> ');
+		}
+	}
+	$(".filter-profs tbody").html(str.join(''));
+});
+</script>

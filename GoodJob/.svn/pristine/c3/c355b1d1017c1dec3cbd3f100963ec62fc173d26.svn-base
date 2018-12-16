@@ -1,0 +1,250 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>个人后台-简历中心</title>
+<link rel="stylesheet" type="text/css" href="../css/v2/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/UCenter/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/UCenter/resume.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/plugin/JobAndProf.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/UCenter/new.css" />
+</head>
+
+<body>
+    <div class="HEADER HEADER-GUIDE">
+        <div class="common">
+            <div class="TOP-LOGO">
+                <a href="#"><img src="../images/v2/logo.jpg" width="177" height="91"></a>
+                <span>创建简历</span>
+            </div>
+        </div>
+    </div>
+    <div class="guide-main common">
+        <div class="guide-job tabResume">
+            <div class="guide-exper-title">
+                <h2>有<span>工作经验</span>的简历，求职成功率会显著提高，务必认真填写！</h2>
+            </div>
+            <div class="guide-resume ">
+                <div class="EditMode Works" style="display:block;">
+                    <div class="full item">
+                        <var class="required">公司名称：</var>
+                        <dfn><input type="text" id="workCompany" class="text int-bor" placeholder="公司全称"></dfn>
+                        <code class="form-tip tipMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>
+                    </div>
+                    <div class="full item">
+                        <var class="required">担任职务：</var>
+                        <dfn><input type="text" id="workPosition" class="text int-bor" placeholder="职务全称"></dfn>
+                        <code class="form-tip errorMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>
+                    </div>
+                    <div class="clear item alone Zindex2">
+                        <var class="required">任职时间：</var>
+                        <dfn>
+                            <dl class="SELECT quarter left YearFrom YEARS new" data-from="1976" data-to="now" data-child=".WorkMonthFrom">
+                                <input type="hidden" id="workYearFrom">
+                                <dt><span></span><i></i></dt>
+                                <dd class="normal"></dd>
+                            </dl>
+                            <dl class="SELECT quarter left MonthFrom WorkMonthFrom MONTHS">
+                                <input type="hidden" id="workMonthFrom">
+                                <dt><span></span><i></i></dt>
+                                <dd class="normal"></dd>
+                            </dl>
+                            <ins>至</ins>
+                            <dl class="SELECT quarter left YearTo YEARS new" data-from="1976" data-to="now" data-child=".WorkMonthTo">
+                                <input type="hidden" id="workYearTo">
+                                <dt><span></span><i></i></dt>
+                                <dd class="normal"></dd>
+                            </dl>
+                            <dl class="SELECT quarter right MonthTo WorkMonthTo MONTHS">
+                                <input type="hidden" id="workMonthTo">
+                                <dt><span></span><i></i></dt>
+                                <dd class="normal"></dd>
+                            </dl>
+                        </dfn>
+                        <kbd><label><input type="checkbox"> 至今</label></kbd>
+                        <a href="" class="add-exper">继续添加工作经验</a>
+                        <!--<code class="form-tip tipMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>-->
+                    </div>
+
+             
+                </div>
+            </div>
+            <div class="guide-resume hide">
+                <div class="EditMode Works" style="display:block;">
+                    <div class="full item">
+                        <var class="required">公司名称：</var>
+                        <dfn><input type="text" id="workCompany" class="text int-bor" placeholder="公司全称"></dfn>
+                        <code class="form-tip tipMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>
+                    </div>
+                    <div class="full item">
+                        <var class="required">担任职务：</var>
+                        <dfn><input type="text" id="workPosition" class="text int-bor" placeholder="职务全称"></dfn>
+                        <code class="form-tip errorMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>
+                    </div>
+                    <div class="clear item alone Zindex2">
+                        <var class="required">任职时间：</var>
+                        <dfn>
+                            <dl class="SELECT quarter left YearFrom YEARS" data-from="1991" data-to="now" data-child=".WorkMonthFrom">
+                                <input type="hidden" id="workYearFrom">
+                                <dt><span></span><i></i></dt>
+                                <dd class="normal"></dd>
+                            </dl>
+                            <dl class="SELECT quarter left MonthFrom WorkMonthFrom MONTHS">
+                                <input type="hidden" id="workMonthFrom">
+                                <dt><span></span><i></i></dt>
+                                <dd class="normal"></dd>
+                            </dl>
+                            <ins>至</ins>
+                            <dl class="SELECT quarter left YearTo YEARS" data-from="1991" data-to="now" data-child=".WorkMonthTo">
+                                <input type="hidden" id="workYearTo">
+                                <dt><span></span><i></i></dt>
+                                <dd class="normal"></dd>
+                            </dl>
+                            <dl class="SELECT quarter right MonthTo WorkMonthTo MONTHS">
+                                <input type="hidden" id="workMonthTo">
+                                <dt><span></span><i></i></dt>
+                                <dd class="normal"></dd>
+                            </dl>
+                        </dfn>
+                        <kbd><label><input type="checkbox"> 至今</label></kbd>
+                        <a href="" class="add-exper">继续添加工作经验</a>
+                        <!--<code class="form-tip tipMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>-->
+                    </div>
+
+                </div>
+            </div>
+            <div class="guide-resume hide">
+                <div class="EditMode Works" style="display:block;">
+                    <div class="full item">
+                        <var class="required">公司名称：</var>
+                        <dfn><input type="text" id="workCompany" class="text int-bor" placeholder="公司全称"></dfn>
+                        <code class="form-tip tipMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>
+                    </div>
+                    <div class="full item">
+                        <var class="required">担任职务：</var>
+                        <dfn><input type="text" id="workPosition" class="text int-bor" placeholder="职务全称"></dfn>
+                        <code class="form-tip errorMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>
+                    </div>
+                    <div class="clear item alone Zindex2">
+                        <var class="required">任职时间：</var>
+                        <dfn>
+                            <dl class="SELECT quarter left YearFrom YEARS" data-from="1991" data-to="now" data-child=".WorkMonthFrom">
+                                <input type="hidden" id="workYearFrom">
+                                <dt><span></span><i></i></dt>
+                                <dd class="normal"></dd>
+                            </dl>
+                            <dl class="SELECT quarter left MonthFrom WorkMonthFrom MONTHS">
+                                <input type="hidden" id="workMonthFrom">
+                                <dt><span></span><i></i></dt>
+                                <dd class="normal"></dd>
+                            </dl>
+                            <ins>至</ins>
+                            <dl class="SELECT quarter left YearTo YEARS" data-from="1991" data-to="now" data-child=".WorkMonthTo">
+                                <input type="hidden" id="workYearTo">
+                                <dt><span></span><i></i></dt>
+                                <dd class="normal"></dd>
+                            </dl>
+                            <dl class="SELECT quarter right MonthTo WorkMonthTo MONTHS">
+                                <input type="hidden" id="workMonthTo">
+                                <dt><span></span><i></i></dt>
+                                <dd class="normal"></dd>
+                            </dl>
+                        </dfn>
+                        <kbd><label><input type="checkbox"> 至今</label></kbd>
+                        <a href="" class="add-exper">继续添加工作经验</a>
+                        <!--<code class="form-tip tipMsg">请填写真实姓名，2-4汉字请填写真实姓名，2-4汉字</code>-->
+                    </div>
+
+              
+                </div>
+            </div>
+           <div class="exper-next">
+                <input type="submit" class="exper-next-in" value="保存简历"/>
+                <a href="" class="not-exper" >无经验不填写</a>
+                <a href="two-job-anchor.html" class="exper-next-out" >返回上一步</a>
+                <a href="two-new-myjob-jobpush.html">保存简历</a>
+                <div class="clear"></div>
+            </div>
+             <div class="guide-contrl">
+                <span class="exp1 Cur">经验一</span>
+                <span class="expNext hide"><i title="删除经验"></i>经验二</span>
+                <span class="expNext hide"><i title="删除经验"></i>经验三</span> 
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+<script src="../js/jquery.js"></script>
+<script>INPUTINIT=false</script>
+<script src="../js/plugin/YearsList-new.js"></script>
+<script src="../js/v2/all.js"></script>
+<script src="../js/universities.js" type="text/javascript"></script>
+<script src="../js/plugin/CitiesPicker.js"></script>
+<script src="../js/effect/tab.js"></script>
+<script type="text/javascript">
+
+$(function() {
+    var num = 0;
+    var CtrSpan = $(".guide-contrl span");
+    var guideResume =  $(".tabResume .guide-resume");
+/*添加经验*/
+    $(".add-exper").click(function(event) {
+        event.preventDefault();
+
+        num <=1 ? num++ : num;
+            if(num == 1)
+            {
+               CtrSpan.eq(1).removeClass('hide').addClass('Cur')
+                                        .end()
+                                        .eq(0).removeClass('Cur');
+                
+               guideResume.eq(1).removeClass("hide").siblings(".guide-resume").addClass('hide');               
+            }
+            if(num == 2){
+                 CtrSpan.eq(2).removeClass('hide');
+                 CtrSpan.removeClass('Cur').eq(2).addClass('Cur')
+                 guideResume.eq(2).removeClass("hide").siblings(".guide-resume").addClass('hide');                   
+            }   
+    });
+/*切换经验*/       
+    CtrSpan.click(function(event) {
+        $(this).addClass('Cur').siblings().removeClass('Cur')
+            guideResume.eq($(this).index()).removeClass('hide').siblings(".guide-resume").addClass('hide');
+        });
+/*范例参考*/
+    $(".example").mouseover(function() {
+        $(".example-demo").stop().fadeToggle('300');
+    }).mouseout(function() {
+        $(".example-demo").stop().fadeToggle('300');
+    });
+
+/*删除经验*/
+    $(".expNext i").click(function(event) {
+        event.stopPropagation();
+
+        var spanSize = $(".guide-contrl span:not('.hide')").size(),//有三个经验的时候不能直接删除第二个经验
+        oSpan =  $(this).closest('span');
+        if( spanSize == 3){
+            if(1 == $(this).closest('span').index())return;
+        }
+     
+        if( oSpan.hasClass('Cur')){
+            oSpan.removeClass("Cur").addClass('hide').prev().addClass("Cur");
+           guideResume.addClass('hide').eq(oSpan.index()-1).removeClass('hide');
+        }else{
+           oSpan.addClass('hide').siblings(":not('.Cur')").removeClass('Cur')
+        }
+        num--;
+    });
+});
+
+    SELECT.next = function(){
+        var nextSelect=$(this).data("child");
+        if(nextSelect) $(this).siblings(nextSelect).find("dt").click();
+    
+    }
+    
+</script>
+</html>

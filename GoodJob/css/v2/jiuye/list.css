@@ -1,0 +1,100 @@
+/* 宣讲会及招聘列表样式 */
+.HEADER{ border-bottom:1px solid #e1dfdf;}
+.MAIN{ margin:10px auto 20px; padding-bottom:20px;}
+/*左导航*/
+.Left{ width:190px; float:left; margin:20px 0 0 20px; border:1px solid #eee; box-shadow:0 0 6px rgba(210,210,210,.5); padding-bottom:10px;}
+.Left{ _margin-left:10px;}
+.Left h3{ font-size:16px; color:#333; padding:15px 20px;}
+.Left h4{ font-size:16px; padding:0 40px; line-height:30px; font-weight:normal;}
+.Left h4 a{ color:#333;}
+.Left a:hover{ color:#965fb3; text-decoration:underline;}
+.Left .hr{ clear:both; height:0px; border-bottom:1px solid #eceaea; overflow:hidden; margin-top:10px;}
+.Left .cur a{ color:#965fb3;}
+.Left .cur i{ display:block; float:left; margin:10px 0 0 -20px; width:12px; height:12px; background:url(../../../images/v2/icons/jiuye.png) 96px 0;}
+.Left .cur i{ _margin-left:-10px; _margin-right:5px; _background-image:url(../../../images/v2/icons/jiuye.gif);}
+
+.Right{ width:730px; float:right; margin:20px 20px 0 0; _margin-right:10px;}
+/*面包屑导航*/
+.Crumb{ height:30px; background-image:url(../../../images/v2/jiuye/topicbg.png); line-height:30px; font-size:14px; padding:0 10px; margin-bottom:10px;}
+.Crumb a{ color:#777;}
+.Crumb a:hover{ color:#965fb3; text-decoration:underline;}
+/*大标题*/
+.Topic{ height:35px; line-height:35px; border-bottom:1px solid #e1dfdf;}
+.Topic h1{ font-size:18px; color:#333; float:left; font-weight:normal; padding:0 10px; border-bottom:2px solid #965fb3; height:34px; overflow:hidden;}
+.Topic .search{ float:right; width:60px; height:32px; background:#965fb3 url(../../../images/v2/icons/magnifier.png) center no-repeat; cursor:pointer; border:0;}
+.Topic .search{ _background-image:url(../../../images/v2/icons/magnifier.gif);}
+.Topic p{ float:right;}
+.Topic p input{ width:180px; padding:0 10px; height:30px; line-height:30px; border:1px solid #d6d6d6; vertical-align:top;}
+/*下拉菜单*/
+.Topic .SELECT{ float:right; width:130px;}
+.Topic .SELECT dt{ line-height:30px; border:1px solid #d6d6d6; margin-right:5px;}
+.Topic .SELECT dt b,.Topic .SELECT dt span{ width:88px; font-size:16px; color:#333;}
+.Topic .SELECT dt i{ background-image:url(../../../images/v2/icons/chevron-down-gray.png); _background-image:url(../../../images/v2/icons/chevron-down-gray.gif);}
+.Topic .SELECT .normal{ width:123px; border:1px solid #d6d6d6;}
+.Topic .SELECT a:hover,.Topic .SELECT a.checked{ background-color:#965fb3;}
+
+/*宣讲会列表*/
+.Conferences{}
+.Conferences li{ height:110px; border-bottom:1px solid #ecf0f4;}
+.Conferences div{ padding-top:25px; float:left;}
+.Conferences p{ white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.Conferences .company{ width:400px; padding-left:5px;}
+.Conferences h4{ margin-bottom:10px; font-size:20px; line-height:30px; font-weight:normal; width:99%; overflow:hidden; white-space:nowrap;}
+.Conferences h4 a{ color:#333; display:inline-block; max-width:16em; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.Conferences h4 a:hover{ color:#965fb3; text-decoration:underline;}
+.Conferences i{ display:inline-block; vertical-align:top; vertical-align:middle\9;}
+.Conferences h4 i{ background:url(../../../images/v2/icons/push-s.png) left 3px no-repeat; font-size:12px; font-family:Arial, Helvetica, sans-serif; color:#ddac15; font-style:normal; padding-left:25px; line-height:40px; font-weight:bold; height:30px; overflow:hidden; margin-left:5px;}
+.Conferences h4 i{ _background-image:url(../../../images/v2/icons/push-s.gif);}
+.Conferences .company p{ font-size:16px; color:#777;}
+.Conferences i.map{ width:25px; height:25px; background:url(../../../images/v2/icons/jiuye.png) -175px 0;}
+.Conferences .options{ font-size:16px; color:#777; line-height:34px; width:310px;}
+.Conferences .options a{ color:#965fb3; text-decoration:underline; display:inline-block; margin-right:1em;}
+.Conferences i.time{ width:25px; height:25px; background:url(../../../images/v2/icons/jiuye.png) -150px 0; margin-top:4px; margin-top:2px\9;}
+.Conferences i.map,.Conferences i.time{ _background-image:url(../../../images/v2/icons/jiuye.gif);}
+.Conferences .options code{ display:block; clear:both;}
+
+/*招聘列表*/
+.Jobs{}
+.Jobs li{ height:120px; border-bottom:1px solid #ecf0f4; clear:both;}
+.Jobs div{ padding-top:20px; float:left;}
+.Jobs p{ white-space:nowrap; overflow:hidden; text-overflow:ellipsis; font-size:14px; color:#969696; line-height:30px;}
+.Jobs b{ font-weight:normal; color:#333;}
+.Jobs i{ display:inline-block;}
+.Jobs h4,.Jobs h5{ overflow:hidden; width:99%;}
+.Jobs h4 a,.Jobs h5 a{ display:inline-block; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; vertical-align:middle\9;}
+.Jobs h4 a:hover,.Jobs h5 a:hover{ color:#965fb3; text-decoration:underline;}
+.Jobs p i{ vertical-align:text-bottom;}
+.Jobs i.map{ width:25px; height:22px; background:url(../../../images/v2/icons/jiuye.png) -175px 0;}
+.Jobs i.time{ width:25px; height:22px; background:url(../../../images/v2/icons/jiuye.png) -150px 0;}
+.Jobs i.map,.Jobs i.time{ _background-image:url(../../../images/v2/icons/jiuye.gif);}
+.Jobs h4{ font-size:18px; line-height:30px; font-weight:normal; height:30px;}
+.Jobs h4 a{ color:#333; max-width:14em;}
+.Jobs h4 i{ background:url(../../../images/v2/icons/push-s.png) left 3px no-repeat; font-size:12px; font-family:Arial, Helvetica, sans-serif; color:#ddac15; font-style:normal; padding-left:25px; line-height:40px; font-weight:bold; height:30px; overflow:hidden; margin-left:5px;}
+.Jobs h4 i{ _background-image:url(../../../images/v2/icons/push-s.gif); vertical-align:middle\9;}
+.Jobs .job{ width:350px;}
+.Jobs .company{ width:380px;}
+.Jobs h5{ margin:0; font-size:16px; line-height:30px; font-weight:normal; height:30px;}
+.Jobs h5 a{ color:#777; max-width:20em;}
+.Jobs h5 i{ width:20px; background:url(../../../images/v2/icons/check-s.png) left center no-repeat; height:30px; margin-left:5px;}
+.Jobs h5 i{ _background-image:url(../../../images/v2/icons/check-s.gif); vertical-align:middle\9;}
+
+/*新加的分享跟收藏效果*/
+.BAIDUSHARE{}
+.BAIDUSHARE cite{ left:0; top:30px;}
+/*分享条*/
+.share cite{ border:1px solid #fba254; white-space:nowrap; padding:5px; font-size:0; height:44px; left:-20px; top:35px;}
+.share cite i{ width:14px; height:10px; top:-15px; left:30px; top:-8px\9;}
+.share cite span{ width:36px; height:36px; display:inline-block; padding:5px;}
+
+/*新增列表底部-更多*/
+.MORE{ text-align:right; padding:20px;}
+.MORE a{ display:inline-block; color:#fff; font-size:18px; line-height:40px; padding:0 40px 0 20px; background:url(../../../images/v2/icons/chevrons-right-white.png) 140px center no-repeat #daacf2;}
+.MORE a{ _background-image:url(../../../images/v2/icons/chevrons-right-white.gif);}
+
+
+/*没有信息*/
+.Nothing{ clear:both; text-align:center; padding:50px;}
+.Nothing h5{ font-size:24px; color:#f0d5fe; line-height:50px;}
+.Nothing h6{ font-size:14px; color:#f0d5fe; font-weight:normal; width:370px; margin:0 auto; text-align:left;}
+.Nothing h6 a{ float:right; color:#7200ac; text-decoration:underline;}
+

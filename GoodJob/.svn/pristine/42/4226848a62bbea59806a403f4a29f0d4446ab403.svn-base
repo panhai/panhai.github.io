@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>企业中心-校企合作-学校详情</title>
+<link rel="stylesheet" type="text/css" href="../css/v2/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/CCenter/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/CCenter/cooperate.css">
+</head>
+
+<body>
+<div class="HEADER"><div class="common">
+	<div class="TOP-LOGO"><a href="#"><img src="../images/v2/logo-s.jpg" width="119" height="62"></a></div>
+    <div class="TOP-TOOLS">
+    	Admin, <a href="#">退出</a>&nbsp;&nbsp;&nbsp;<a href="#">个人中心</a>&nbsp;&nbsp;&nbsp;<a href="#">反馈</a>&nbsp;&nbsp;&nbsp;<a href="#">HR帮助</a>
+    </div>
+    <ul class="TOP-NAV">
+    	<li><a href="new-index.html" class="cur">首页</a></li>
+    	<li><a href="new-publish.html">发布职位</a></li>
+    	<li><a href="new-profile.html">企业资料</a></li>
+    	<li><a href="new-hrfavors.html">HR收藏夹</a></li>
+    	<li><a href="new-settings.html">账号管理</a></li>
+    </ul>
+</div></div>
+
+<div class="Main common">
+    <div class="School">
+        <h1 class="TOPIC">
+        	<b></b>
+            <strong>华南理工大学华南理工大学华南理工大学</strong>
+            <q></q>
+        </h1>
+        <!--这里边的图片，只要是保证正方形就能达到最佳尺寸-->
+        <dl class="Albums">
+            <dt></dt>
+            <dd><ul>
+                <li><img src="../images/v2/pics/1.jpg"></li>
+                <li><img src="../images/v2/pics/2.jpg"></li>
+                <li><img src="../images/v2/pics/3.jpg"></li>
+                <li><img src="../images/v2/pics/4.jpg"></li>
+                <li><img src="../images/v2/pics/5.jpg"></li>
+                <li><img src="../images/v2/pics/6.jpg"></li>
+            </ul></dd>
+        </dl>
+        <h2>学校简介</h2>
+        <div class="Content">
+            <p>广东省财经职业技术学校是一所全日制公办国家级重 点中等职业学校，前身为1908年成立的岭东中 实训中心、商务英语实训中心、计算机中心、电子商务实训中心、营销物流实训中心、物业管理实训中心、装璜设计实训中心、旅游服务与管理实训中心、茶文化艺术实训中心等适应各专业开展教学、实训、培训、鉴定的实训室50多个，建有"国家职业技能鉴定所"、"全国计算机信息高新技术考试站"、"全国外贸跟单员认证培训中心"等多个国家级职业技能鉴定所（站），以及会计、统计、电子商务、营销师、物流师、秘书、物业管理、酒店服务员、农产品经纪人、茶艺师等近20个工种培训鉴定工作站，与广东金融学院联合开展成人高等教育，是一所集中职学历教育、成人高等教育、短期职业技能培训鉴定为一体的综合性财经类职业技术学校。</p>
+            <p>学校大力开展和创新校企合作、工学结合办学模式，先后与中国建设银行、中国移动、中海物流、恒大地产、广东华联通国际物流公司、深圳花园格兰云天大酒店、鹤山雅图仕印务有限公司等知名企业实行"强强联合"，建立了长期固定的、紧密型的校企合作关系和实训实习基地，为学生实习、就业创造了良好的条件。</p>
+            <p>学校构建"中专毕业证+职业资格证+大专毕业证"的成才模式，全方位架构起"专业与职业链接，择业与创业并重"的"立交式"现代职教平台。实行"准军事化"的学生管理，建立了涵盖广州、深圳、佛山、东莞等珠三洲地区近500家企业的庞大就业网络，毕业生一次性就业率连年达98%以上，深受用人单位的欢迎和好评。中央电视台、广东电视台、南方日报等各大新闻媒体对我校的办学特色和办学优势多次作专题报道。</p>
+        </div>
+    </div>
+	<div class="clear"></div>
+</div>
+
+<div class="fixed fixed-bottom black5 Tail"><!--<a href="new-invite.html">发合作邀请</a>--><span>已合作</span></div>
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/v2/all.js"></script>
+<script src="../js/area.js"></script>
+<script src="../js/plugin/CitiesPicker.js"></script>
+<script src="../js/effect/correct.js"></script>
+<script>
+$(function(){
+});
+$(window).load(function(){
+	CHIpros(".Albums",'','',true);
+	$(".Albums li img").click(function(){
+		$(".Albums dt").empty()
+			.append($("<img>").attr('src',this.src));
+		CHIpros(".Albums dt",'','',true);
+	}).first().click();
+});
+</script>

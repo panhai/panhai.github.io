@@ -1,0 +1,386 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+
+</title>
+    <link href="../css/1024/common.css" rel="stylesheet" type="text/css" />
+    <link href="../css/1024/companyAdmin.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/MD5.js"></script>
+    <script type="text/javascript" src="../js/jbody.js"></script>
+    <script type="text/javascript" src="../js/jbody-plugin.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+    <script type="text/javascript" src="../js/area.js"></script>
+    <script type="text/javascript" src="../js/subjects.js"></script>
+    <script type="text/javascript" src="../js/admin/common.js"></script>
+    <script type="text/javascript" src="../js/selectors.js"></script>
+    <script type="text/javascript" src="../js/menuControl.js"></script>
+    <script type="text/javascript" src="../js/jobPositions.js"></script>
+    <script type="text/javascript" src="../js/admin/companyAdmin.js"></script>
+    
+    <link rel="stylesheet" href="/KEditor4x/themes/default/default.css" />
+    <link rel="stylesheet" href="/KEditor4x/plugins/code/prettify.css" />
+    <script type="text/javascript" charset="utf-8" src="/KEditor4x/kindeditor-all.js"></script>
+    <script type="text/javascript" charset="utf-8" src="/KEditor4x/lang/zh_CN.js"></script>
+    <script type="text/javascript" charset="utf-8" src="/KEditor4x/plugins/code/prettify.js"></script>
+    <script type="text/javascript" src="/UploadFile/UploadFile.js"></script>
+    <script type="text/javascript">
+        var editor1;
+        KindEditor.ready(function (K) {
+            editor1 = K.create('#form_txtContent', {
+                width: '708px',
+                height: '400px',
+                resizeType: 1,
+                cssPath: "/KEditor4x/themes/default/default.css",
+                allowFileUpload: true,
+                allowFlashUpload: false,
+                fileManagerJson: { tp: "org", orgId:10017 },
+                uploadJson: '/UploadFile/SaveFile.ashx?tp=org&orgId=10017&bussCode=1000&imgWatermark=true',
+                afterChange: function(){  
+                    if(editor1 && JBValidaterEditorContent) JBValidaterEditorContent.check();
+                },
+                afterUpload: function (data) {
+
+                },
+                items: ['source', '|', 'undo', 'redo', '|', 'template', 'cut', 'copy', 'paste',
+                        'plainpaste', 'wordpaste', '|', 'justifyleft', 'justifycenter', 'justifyright',
+                        'justifyfull', 'insertorderedlist', 'insertunorderedlist', 'indent', 'outdent', 'subscript',
+                        'superscript', 'clearhtml', 'quickformat', 'selectall', '|', 'fullscreen', '/',
+                        'formatblock', 'fontname', 'fontsize', '|', 'forecolor', 'hilitecolor', 'bold',
+                        'italic', 'underline', 'strikethrough', 'lineheight', 'removeformat', '|', 'image', 'flash',
+                        'table', 'hr',
+                        'link', 'unlink', 'pagebreak', 'preview'],
+                allowFileManager: true
+            });
+            prettyPrint();
+        });
+        function CheckEditorContent(jbv){
+            var v = editor1.html().length>20 || editor1.text().length> 10;
+            if (!v) jbv.msg = "请填写详细内容(至少包含10个字母或文字)";
+            return v;
+        }
+    </script>
+</head>
+<body>
+    <iframe id="_postTargetIframe" name="_postTargetIframe" style="display:none;" src="about:blank;"></iframe>
+    
+
+    
+<div id="pg-header" class="pg-header">
+    <div class="pg-header-main">
+        <div class="logo">
+            <a href="/"><img alt="好工作网Logo" src="../images/logo.png" class="pngfix" width="232" height="40" /></a>
+        </div>
+        <div class="cname">天津市温药复有限公司</div>
+        <div class="r mginT10">
+    <div class="platform-switch-container">
+    <div class="platform-switch-main msout">
+        <span class="floatR">切换后台</span>
+        <span class="floatR" style="border:solid 1px #ffc183; line-height:12px; margin-right:5px; padding-left:1px; padding-right:1px;">+</span>
+        <div style="clear:both;"></div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        $(".platform-switch-main").click(function () {
+            JBFrameHelper.showPage("/UCenter/PlatformSwitch.phtml", { obj: this, title: "切换到个人中心或其他管理后台", w: 500, pos: { to: "win", parent: "doc", park: "inside", parkInside: "center" } }, true, false);
+        });
+    })
+</script>
+
+</div>
+    </div>
+</div>
+    
+<div id="pg-nav" class="pg-nav">
+    <ul>
+        <li><div class="nav-title"><a href="#">管理首页</a></div></li>
+        <li><div class="nav-title"><a href="/Company/drjrz/admin/Offer/Add.phtml">发布职位</a></div></li>
+        <li><div class="nav-title"><a href="#">找简历</a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">职位<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">简历<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">资讯 ▪ 介绍<sub></sub></a></div></li>        
+        <li><div class="nav-title"><a href="javascript:void(0);">合作院校<sub></sub></a></div></li>        
+        <li><div class="nav-title"><a href="#">用户与设置<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="/Company/drjrz/" target="_blank">企业主页</a></div></li>
+    </ul>
+</div>
+<div style="clear:both;"></div>
+<div id="pg-nav-sub" style="display:none;">
+    <div id="pg-nav-sub-inner">
+    <div id="pg-nav-sub-main">
+        <ul style="display:none;">
+            <li><a href="Sum.html">系统概况</a></li>
+            <li><a href="Company.html">后台管理功能快捷链接</a></li>
+            <li><a href="#">站内消息</a></li>
+        </ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;">
+            <li><a href="Offer-Add.html">发布新职位</a></li>
+            <li><a href="Offer-ing.html">正在招聘</a></li>
+            <li><a href="Offer-Review.html">审核中</a></li>
+            <li><a href="Secur.html">保密职位</a></li>
+            <li><a href="Cooperation.html">院校招聘职位</a></li>
+            <li><a href="Offer-stop.html">已暂停或取消</a></li>
+            <li><a href="Offer-Timeout.html">已过期</a></li>
+            <li><a href="Offer-all.html">全部职位</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="/Company/drjrz/admin/resumes/">搜简历</a></li>
+            <li><a href="/Company/drjrz/admin/resumes/received.phtml">收到简历</a></li>
+            <li><a href="/Company/drjrz/admin/resumes/favor.phtml">简历收藏</a></li>
+            <li><a href="/Company/drjrz/admin/resumes/history.phtml">最近查看</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="/Company/drjrz/admin/About/Intro.phtml">企业介绍</a></li>
+            <li><a href="/Company/drjrz/admin/Articles/?tp=2">企业公告</a></li>
+            <li><a href="/Company/drjrz/admin/Articles/?tp=3">企业快讯</a></li>
+            <li><a href="/Company/drjrz/admin/Articles/?tp=4">行业新闻</a></li>
+            <li><a href="/Company/drjrz/admin/Articles/?tp=5">产品服务</a></li>
+            <li><a href="/Company/drjrz/admin/Articles/?tp=6">收费标准</a></li>
+            <li><a href="/Company/drjrz/admin/Articles/?tp=7">员工风采</a></li>
+            <li><a href="/Company/drjrz/admin/Articles/?tp=9">工作环境</a></li>
+        </ul>        
+        <ul style="display:none;">
+            <li><a href="/Company/drjrz/admin/Schools/Search.phtml">院校搜索</a></li>
+            <li><a href="/Company/drjrz/admin/Schools/Request/Recieved.phtml">收到的请求</a></li>
+            <li><a href="/Company/drjrz/admin/Schools/Request/Sended.phtml">发出的请求</a></li>
+            <li><a href="/Company/drjrz/admin/Schools/Default.phtml">合作院校列表</a></li>
+            <li><a href="/Company/drjrz/admin/Schools/Black.phtml">黑名单院校</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Setting.html">系统设置</a></li>
+            <li><a href="CustmRoles.html">管理员角色</a></li>
+            <li><a href="Manager.html">管理员</a></li>
+            <li><a href="Info.html">个人设置</a></li>
+            <li><a href="Password.html">修改密码</a></li>
+        </ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+    </div>
+    </div>
+</div>
+<div style="clear:both;"></div>
+    <div class="pageMainContentContainer">         
+    <form method="post" action="/Company/drjrz/admin/about/intro.phtml" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="rrsx9LxPtAKc9EHtYqIe7yJ0wiJMcYee2tpzBUwvuIVyO4uyu8HsMqfBr1OjJUdGos3O7fLf53iLLsFFKYK3lAlaGCDboQxk2+ayQaLgUfUrvT0XJksrUIQvGC539nZ5wJ6lcTBHB7lQ31jqYPzFKQ8XcuZLBbGzdRYBQ2IvVRj+UnlSK8XpKK3R7SjqcmmlCTyChgyR30Xr0viGjydFbrs8XztPHBFIL0gqhshd/J0eBee5NanXY+XfUymRxbDYZBXVOO/2/LaKuV5RBZI5NZnP1CHdd9LHSRuTst40MTieMcjcoS8tqouF9424gSIUBZ2KbGE5uua5f6v8tVtcbkoWdAPTN94wQMDuOb262v+fhQNcxzanEGmsN9dpJ2cmyUSHQ5/AaD8kHeKIwnAncPVoqlVKBevZAYAZsdSsy8Y=" />
+</div>
+
+<div class="aspNetHidden">
+
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="1FB7CA18" />
+</div>
+    
+    <div class="bodyBlock">
+         <div class="editBlock editable editBlockBorder" style="padding-bottom:50px;">
+            <div class="detailBlockTitle"><div class="leftIco"></div><div class="left">企业介绍</div></div>
+            <div class="blockMain">
+                <table class="blockMainTable mginT20" style="width:950px;">          
+                    <tr>
+                        <th><span class="reqValidate">*</span>详细介绍：
+                            <div style="float:right;"><a href="/adminhelp/wordImgUp.htm" target="_blank" title="内容已在Word文档中编辑好了，该如何处理？请点击此处指引">Word文件？</a></div>
+                        </th><td>
+                            <table><tr><td id="editorContentContainer" style="padding:0px;">
+                                <textarea name="ctl00$form$txtContent" id="form_txtContent" cols="50" rows="8" style="width:670px; height: 400px; visibility: hidden;">休何银始利技吧理纳某一易眼志听验起预于渐护目沙牌内脚艺属康刻除靠山该境后肉居排微睛份求</textarea>
+                                <div style="clear:both;"></div>
+                            </td></tr></table>
+                            </td>
+                    </tr>              
+                    <tr><th>&nbsp;</th><td style="padding-top:30px;">
+                        <input type="button" class="btn-3d btn-3d-large btn-3d-blue floatL" id="btnSubmit2" value="提交" onclick="uploadRemoteImg()" />
+                        <input type="submit" name="ctl00$form$btnSubmit" value="提交" id="form_btnSubmit" style="display:none;" />
+                    </td></tr>
+                </table>
+                <div style="clear:both;"></div>
+            </div>
+         </div>
+    </div>
+    
+    
+<script type="text/javascript">
+    function GetRemoteFileEmptyFun() { return; }
+</script>
+<script type="text/javascript">
+    function starUploadImage(url,successFun,errorFun,debug){
+        JB.ajax.postData("/UploadFile/GetRemoteFile.ashx",
+        function(xmlObj){
+            if (xmlObj) {
+                try {
+                    if(debug)alert(xmlObj.responseText);
+                    var ajson = eval("(" + xmlObj.responseText + ")");
+                    if (ajson.error > 0){ if(JB.isFunction(errorFun))errorFun(url,ajson); }
+                    else if(JB.isFunction(successFun))successFun(url,ajson);
+                } catch (e) {
+                    if(debug)alert(e);
+                    if(JB.isFunction(errorFun))errorFun(url,{error:1,message:e.description});
+                }
+            } else {
+                if(JB.isFunction(errorFun))errorFun(url,{error:1,message:"上传失败"});
+            }
+        },
+        {
+            fileUrl: url,
+            tp: "org",
+            rid1: "0",
+            rid2: "0",
+            rky1: "",
+            rky2: "",
+            bussCode: "2022",
+            remark: "远程图片",
+            orgId: "10017",
+            folderId: "0",
+            saveName: "",
+            imgW: "0",
+            imgH: "0",
+            strictWH: 0,
+            exts: "jpg,jpeg,gif,bmp,png",   //自定义限制上传文件类型
+            maxLenKB: 300,   //自定义限制上传文件大小
+            bmpTransJpg:true,
+            isTempFile:true,
+            canCancel: true,
+            errorConfirm: true,
+            addDatabaseRecord: true
+        },
+        false);
+    }
+</script>
+    <div style="display:none;" id="containerForGetImage"></div>
+    <script type="text/javascript">
+        $(function(){
+            JBodyValidatorPopoTipExtend.add({obj:"editorContentContainer",park:"bottomLeft",cssClass:"JBodyValidatorErrorExtendFlash3",cssClass2:"JBodyValidatorErrorExtendFlash4"});
+
+        })
+        function chooseButtonClick(saveDraft){
+            document.getElementById("form_btnSubmit").click();
+        }
+        function uploadRemoteImg(saveDraft) {  //上传远程图片（采用此方式以降低服务端一次获取多个图片造成的超时可能），
+            //特别说明:JBValidatorContainer.afterSuccess 的方式行不通，回调的时候顺序极为怪异由于时间关系未能找到原因
+            if(!false){
+                chooseButtonClick(saveDraft);
+            return;
+        }
+        var hostStr = "aofei-pc/";
+        var hostStr2 = "http://aofei-pc/";
+        var hostStr3 = "aofei-pc:";
+        var hostStr4 = "http://aofei-pc:";
+        try {
+            $("#containerForGetImage").html(editor1.html());
+            var imgs = document.getElementById("containerForGetImage").getElementsByTagName("IMG");
+            var remoteImage = new Array();
+            var len = remoteImage.length;
+            for (var i = 0; i < imgs.length; i++) {
+                var src = imgs[i].src.toLowerCase();
+                var lcl = (src.substr(0, 1) == "/"
+                || src.substr(0, hostStr.length) == hostStr.toLowerCase()
+                || src.substr(0, hostStr2.length) == hostStr2.toLowerCase()
+                || src.substr(0, hostStr3.length) == hostStr3.toLowerCase()
+                || src.substr(0, hostStr4.length) == hostStr4.toLowerCase());
+                if (!lcl) remoteImage.push(imgs[i]);
+            }
+            if(remoteImage.length==0) chooseButtonClick(saveDraft);
+            for (var i = 0; i < remoteImage.length; i++) {
+                var img = remoteImage[i];
+                var src = img.src.toLowerCase();
+                JBDialog.show(document.getElementById("btnSubmit2"), src, { title: "正在上传远程图片", showCloseButton: false, modal: true, pos: { to: "obj", park: "outside", parkOutside: "topLeft"} });
+                starUploadImage(img.src,
+                function(url, ajson) {
+                    img.src = ajson.url;
+                    editor1.html($("#containerForGetImage").html());
+                    JBDialog.close();
+                    len--;
+                    if (len <= 0) chooseButtonClick(saveDraft);
+                },
+                function(url, ajson) {
+                    alert("error:" + ajson.message);
+                    len--;
+                    if (len <= 0)  chooseButtonClick(saveDraft);
+                }
+                , false);
+            }
+        } catch (e) {
+            alert(e.description);
+            chooseButtonClick(saveDraft);
+        }
+        }
+    </script>
+
+    
+
+<script type="text/javascript">
+//<![CDATA[
+pageMainMenuCreater.setActive({mainText:'资讯 ▪ 介绍',subText: '企业介绍'});function iframeSubmitRegister(){$("#form1").get(0).target = "_postTargetIframe";if(JBValidatorContainer.containAutoFireObj($("#form1").get(0))){   JBValidatorContainer.afterSuccess.push(function(){     if(this==$("#form1").get(0)){ new JBodyDialog().show(window, "<img alt='' src='/images/common/loading/5.gif' />", {w:200,h:90,modal:true,title:"正在提交，请稍候...", pos:[{to:'win',park:'inside',parkInside:'center'}]}); }    return true; });}else{  $("#form1").submit(function() {  new JBodyDialog().show(window, "<img alt='' src='/images/common/loading/5.gif' />", {w:200,h:90,modal:true,title:"正在提交，请稍候...。", pos:[{to:'win',park:'inside',parkInside:'center'}]});  return true;  });}}$(function(){ setTimeout("iframeSubmitRegister()",1000); });//]]>
+</script>
+<script type='text/javascript'>var JBValidaterEditorContent=null; JB.ready(function(){JBValidaterEditorContent= new JBValidator({obj:'editorContentContainer',exType:'Text',checkWhere:'ClientAuto',msgShowType:'None',msgCloseType:'NotClose',dataTitle:'输入',appendChecks:[CheckEditorContent],showSuccess:false,inCaseHidden:false,checkAppendOnly:true,msgAlwaysAlert:false});});</script></form>
+    
+
+    <div style="clear:both;"></div>
+    </div> 
+    
+<div style="clear:both;"></div>
+<div class="footerOuter">
+    <div class="footer">
+        <div>
+            <div class="contact">
+                <span style="margin-top:60px; font-size:14px;">服务热线 (免长话费)</span>
+                <span style="font-size:16px;">400-6838-789</span>
+                <span>工作日 9:00-19:00</span>
+            </div>
+            <div class="footerBlock">
+                <span>网站简介</span>
+                <a>网站简介</a>
+                <a>产品服务</a>
+                <a>创新优势</a>
+                <a>友情链接</a>
+                <a>联系我们</a>
+            </div>
+            <div class="footerBlock">
+                <span>使用帮助</span>
+                <a>网站简介</a>
+                <a>产品服务</a>
+                <a>创新优势</a>
+                <a>友情链接</a>
+                <a>联系我们</a>
+            </div>
+            <div class="footerBlock">
+                <span>合作共赢</span>
+                <a>网站简介</a>
+                <a>产品服务</a>
+                <a>创新优势</a>
+                <a>友情链接</a>
+                <a>联系我们</a>
+            </div>
+            <div class="footerBlock">
+                <span>快捷方式</span>
+                <a>网站简介</a>
+                <a>产品服务</a>
+                <a>创新优势</a>
+                <a>友情链接</a>
+                <a>联系我们</a>
+            </div>
+        </div>
+        <div style="clear:both;"></div>
+        <div style="margin-top:20px; color:#888;">
+        版权所有：好工作网
+        联系电话：88888888&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        联系邮箱：88888@qq.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+        地址：广州市环市中路&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        邮政编码：510000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script type="text/javascript">
+    $(function () {   adminPageInit({ unresize: "" });    });
+</script>
+<!--[if IE 6]>
+<script type="text/javascript" src="/js/DD_belatedPNG_0.0.8a.js"></script>
+<script type="text/javascript">   
+  DD_belatedPNG.fix('.pngfix'); 
+</script>
+<![endif]-->

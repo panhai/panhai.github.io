@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>班级管理</title>
+    <meta name=viewport content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="../css/all.css" />
+    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+    <link href="../css/layerskin/default/layer.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/scrollbar.css">
+</head>
+<body>
+<div class="head-navgater">
+    <div class="rightCenter">
+        <div class="setting">
+            <a href="javascript:void(0)" >设置</a>
+        </div>
+
+        <div class="feed_back">
+            <a href="javascript:void(0)" >我要反馈</a>
+        </div>
+
+        <div class="information">
+            <span class="icon"></span>
+        </div>
+
+        <div class="news">
+            <span class="icon"></span>
+        </div>
+
+
+        <div class="search">
+            <input type="text" value="" placeholder="搜求职者" class="search_txet">
+            <span class="icon"></span>
+            <div class="history-layer">
+                <a href="javascript:void(0)" >
+                    <i>咨询学员</i>
+                    <span>"啊啊啊啊"</span>
+                </a>
+
+                <a href="javascript:void(0)" >
+                    <i>报名学员</i>
+                    <span>"啊啊啊啊"</span>
+                </a>
+
+                <a href="javascript:void(0)" >
+                    <i>班级</i>
+                    <span>"啊啊啊啊"</span>
+                </a>
+
+                <a href="javascript:void(0)" >
+                    <i>课程</i>
+                    <span>"啊啊啊啊"</span>
+                </a>
+
+                <a href="javascript:void(0)" >
+                    <i>教师</i>
+                    <span>"啊啊啊啊"</span>
+                </a>
+
+                <a href="javascript:void(0)" >
+                    <i>帮助文档</i>
+                    <span>"啊啊啊啊"</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="left-navgater">
+    <div class="logoBox">
+        <a href="javascript:void(0)"  class="changeArrow">
+            <i></i>
+        </a>
+        <span class="logo_msg">管理系统</span>
+    </div>
+
+    <div class="school-infor">
+        <div class="inforBox cur">
+            <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2114797134,526769156&fm=26&gp=0.jpg" alt="">
+        </div>
+        <div class="inforBox">
+            <p>迪丽热巴</p>
+            <p>早上好</p>
+        </div>
+    </div>
+
+    <div class="nav">
+        <a href="javascript:void(0)"  class="">
+            <i class="position1"></i>
+            <span>工作台</span>
+        </a>
+
+        <div class="option ">
+            <i class="position2"></i>
+            <span>招生宣传</span>
+            <b></b>
+
+            <div class="midLa">
+                <a href="招生宣传-微营销-微官网-1.html" class="" >微营销</a>
+                <a href="招生宣传-校+推广-1.html"   class="">校+推广</a>
+                <a href="招生宣传-会员推广-1.html"  class="">会员推广</a>
+                <a href="招生宣传-SEO推广-1.html"  class="">SEO推广</a>
+                <a href="招生宣传-渠道管理.html"  class="">渠道管理</a>
+            </div>
+        </div>
+
+        <a href="咨询管理-全部咨询.html"  class="">
+            <i class="position3"></i>
+            <span>咨询管理</span>
+        </a>
+        <a href="学员管理-全部学员.html"  class="">
+            <i class="position4"></i>
+            <span>学员管理</span>
+        </a>
+        <a href="教务管理-班级管理.html"  class="cur">
+            <i class="position5"></i>
+            <span>教务管理</span>
+        </a>
+        <a href="财务管理-1.html"  class="">
+            <i class="position6"></i>
+            <span>财务管理</span>
+        </a>
+        <a href="就业中心-1.html"  class="">
+            <i class="position7"></i>
+            <span>就业中心</span>
+        </a>
+        <a href="校+创收-1.html"  class="">
+            <i class="position8"></i>
+            <span>校+联盟</span>
+        </a>
+        <a href="学校设置-账号管理.html"  class="">
+            <i class="position9"></i>
+            <span>学校设置</span>
+        </a>
+    </div>
+</div>
+
+<div class="left-small-navgater">
+    <div class="logoBox">
+        <a href="javascript:void(0)"  class="changeArrow">
+            <i></i>
+        </a>
+    </div>
+
+    <div class="school-infor">
+        <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2114797134,526769156&fm=26&gp=0.jpg" alt="">
+    </div>
+
+    <div class="small-nav">
+        <div class="nav-url">
+            <div class="url-icon position1"></div>
+
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >控制台</a>
+            </div>
+        </div>
+
+        <div class="nav-url">
+            <div class="url-icon position2"></div>
+
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >好学校</a>
+                <a href="javascript:void(0)" >微官网</a>
+                <a href="javascript:void(0)" >微营销</a>
+                <a href="javascript:void(0)" >微活动</a>
+            </div>
+        </div>
+
+        <div class="nav-url">
+            <div class="url-icon position3"></div>
+
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >咨询管理</a>
+                <a href="javascript:void(0)" >今日跟进</a>
+                <a href="javascript:void(0)" >到访记录</a>
+                <a href="javascript:void(0)" >跟进统计</a>
+            </div>
+        </div>
+
+        <div class="nav-url">
+            <div class="url-icon position4"></div>
+
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >全部学员</a>
+                <a href="javascript:void(0)" >在读学员</a>
+                <a href="javascript:void(0)" >毕业学员</a>
+                <a href="javascript:void(0)" >学员统计</a>
+            </div>
+        </div>
+
+        <div class="nav-url">
+            <div class="url-icon position5"></div>
+
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >排课管理</a>
+                <a href="javascript:void(0)" >班级管理</a>
+                <a href="javascript:void(0)" >课程管理</a>
+                <a href="javascript:void(0)" >教师管理</a>
+            </div>
+        </div>
+
+        <div class="nav-url">
+            <div class="url-icon position6"></div>
+
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >排课管理</a>
+                <a href="javascript:void(0)" >班级管理</a>
+                <a href="javascript:void(0)" >课程管理</a>
+                <a href="javascript:void(0)" >教师管理</a>
+            </div>
+        </div>
+
+        <div class="nav-url">
+            <div class="url-icon position7"></div>
+
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >排课管理</a>
+                <a href="javascript:void(0)" >班级管理</a>
+                <a href="javascript:void(0)" >课程管理</a>
+                <a href="javascript:void(0)" >教师管理</a>
+            </div>
+        </div>
+
+        <div class="nav-url">
+            <div class="url-icon position8"></div>
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >排课管理</a>
+                <a href="javascript:void(0)" >班级管理</a>
+                <a href="javascript:void(0)" >课程管理</a>
+                <a href="javascript:void(0)" >教师管理</a>
+            </div>
+
+        </div>
+
+        <div class="nav-url">
+            <div class="url-icon position9"></div>
+
+            <div class="moveLayer">
+                <i></i>
+                <a href="javascript:void(0)" >排课管理</a>
+                <a href="javascript:void(0)" >班级管理</a>
+                <a href="javascript:void(0)" >课程管理</a>
+                <a href="javascript:void(0)" >教师管理</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="right-content">
+
+    <div class="content-nav">
+        <a href="javascript:void(0)"  class="">
+            <span>排课管理</span>
+            <i></i>
+        </a>
+
+        <a href="教务管理-班级管理.html"  class="cur">
+            <span>班级管理</span>
+            <i></i>
+        </a>
+        <a href="教务管理-课程管理.html"  class="">
+            <span>课程管理</span>
+            <i></i>
+        </a>
+        <a href="教务管理-教师管理.html"  class="">
+            <span>教师管理</span>
+            <i></i>
+        </a>
+        <a href="教务管理-课室管理.html"  class="">
+            <span>课室管理</span>
+            <i></i>
+        </a>
+        <a href="教务管理-通知公告.html"  class="">
+            <span>通知公告</span>
+            <i></i>
+        </a>
+    </div>
+
+    <div class="content-layer border">
+
+        <div class="recruit_searchCondition">
+            <div class="line">
+                <div class="inputdiv"><label class="prompt_txt">班级</label><input type="text" placeholder="请输入关键词搜索" class="input1"></div>
+                <div class="inputdiv inputdiv2">
+                    <label class="prompt_txt">课程</label>
+                    <input type="text" class="input1 label-selec" style="width: 152px;" placeholder="请选择">
+                    <img src="../images/deleate.png" class="reset_img" alt="">
+                    
+                    <div class="fill-types">
+                        <div class="box-types">
+                            <div class="left-types">
+                                <a href="javascript:void(0)" title="商务英语商务英语商务英语商务英语商务英语">商务英语商务英语商务英语商务英语商务英语</a>
+                            </div>
+
+                            <div class="right-select">
+                                <a href="javascript:void(0)" title="国标英语国标英语国标英语国标英语国标英语国标英语">国标英语国标英语国标英语国标英语国标英语国标英语</a>
+                                <a href="javascript:void(0)" title="国标英语国标英语国标英语国标英语国标英语国标英语">国标英语国标英语国标英语国标英语国标英语国标英语</a>
+                                <a href="javascript:void(0)" title="国标英语国标英语国标英语国标英语国标英语国标英语">国标英语国标英语国标英语国标英语国标英语国标英语</a>
+                                <a href="javascript:void(0)" title="国标英语国标英语国标英语国标英语国标英语国标英语">国标英语国标英语国标英语国标英语国标英语国标英语</a>
+
+                            </div>
+                        </div>
+                        <div class="box-types">
+                            <div class="left-types">
+                                <a href="javascript:void(0)" title="">商务英语</a>
+                            </div>
+
+                            <div class="right-select">
+                                <a href="javascript:void(0)">国标英语</a>
+                                <a href="javascript:void(0)">国标英语</a>
+                                <a href="javascript:void(0)">国标英语</a>
+                                <a href="javascript:void(0)">国标英语</a>
+                                <a href="javascript:void(0)">国标英语</a>
+                                <a href="javascript:void(0)">国标英语</a>
+                                <a href="javascript:void(0)">国标英语</a>
+
+                            </div>
+                        </div>
+                        <div class="box-types">
+                            <div class="left-types">
+                                <a href="javascript:void(0)" title="">商务英语</a>
+                            </div>
+
+                            <div class="right-select">
+                                <a href="javascript:void(0)">国标英语</a>
+                            </div>
+                        </div>
+                        <div class="box-types">
+                            <div class="left-types">
+                                <a href="javascript:void(0)" title="">商务英语</a>
+                            </div>
+
+                            <div class="right-select">
+                                <a href="javascript:void(0)">国标英语</a>
+                            </div>
+                        </div>
+                        <div class="box-types">
+                            <div class="left-types">
+                                <a href="javascript:void(0)" title="">商务英语</a>
+                            </div>
+
+                            <div class="right-select">
+                                <a href="javascript:void(0)">国标英语</a>
+                            </div>
+                        </div>
+                        <div class="box-types">
+                            <div class="left-types">
+                                <a href="javascript:void(0)" title="">商务英语</a>
+                            </div>
+
+                            <div class="right-select">
+                                <a href="javascript:void(0)">国标英语</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+               
+
+                <div class="inputdiv inputdiv3">
+                    <span class="sendTime">投递时间</span>
+                    <input type="text" placeholder="请选择时间" class="Wdate mydate" onclick="WdatePicker()"><label class="symbol">~</label>
+                    <input type="text" placeholder="请选择时间" class="Wdate" onclick="WdatePicker()">
+                </div>
+                <input type="submit" class="searchbtn" value="查询">
+                <a href="javascript:void(0)" class="tollger"><span>收起筛选</span> <i></i></a>
+            </div>
+
+            <div class="tollger-box">
+                <div class="line s_condition">
+                    <label class="line_txt">班级状态：</label>
+                    <p class="alist" style="height: 33px;">
+                        <a href="javascript:void(0)" data-id="0" class="cur">不限</a>
+                        <a href="javascript:void(0)" data-id="0" class="">未开课<em>239</em></a>
+                        <a href="javascript:void(0)" data-id="0" class="">已开课<em>6</em></a>
+                        <a href="javascript:void(0)" data-id="0" class="">已结课<em>6</em></a>
+
+                    </p>
+                </div>
+                <div class="line s_condition">
+                    <label class="line_txt">授课老师：</label>
+                    <a href="javascript:void(0)" data-id="0" class="cur">不限</a>
+                    <a href="javascript:void(0)" data-id="0" class="">刘德华<em>20</em></a>
+                    <a href="javascript:void(0)" data-id="0" class="">刘德华<em>16</em></a>
+                    <a href="javascript:void(0)" data-id="0" class="">刘德华<em>12</em></a>
+                    <a href="javascript:void(0)" data-id="0" class="">刘德华</a>
+                </div>
+                <div class="line s_condition">
+                    <label class="line_txt">授课科室：</label>
+                    <p class="alist" style="height: 33px;">
+                        <a href="javascript:void(0)" data-id="0" class="cur">不限</a>
+                        <a href="javascript:void(0)" data-id="0" class="">A1教室 <em>8</em></a>
+                        <a href="javascript:void(0)" data-id="0" class="">A2教室 <em>11</em></a>
+                        <a href="javascript:void(0)" data-id="0" class="">A3教室 <em>5</em></a>
+
+                    </p>
+                    <div class="openbtn">更多岗位<i></i></div>
+
+                </div>
+                <div class="dropdown">
+                    <label class="line_txt">其他筛选：</label>
+                    <dl class="SELECT" data-placeholder="选择校区">
+                        <input type="hidden" value="" autocomplete="off">
+                        <dt><span title="">选择校区</span><i></i></dt>
+                        <dd class="normal">
+                            <a href="javascript:void(0)" data-id="0" class="" title="不限">不限</a>
+                            <a href="javascript:void(0)" data-id="1" class="" title="初中">初中</a>
+                            <a href="javascript:void(0)" data-id="2" class="" title="高中">高中</a>
+                            <a href="javascript:void(0)" data-id="2" class="" title="大专">大专</a>
+                            <a href="javascript:void(0)" data-id="2" class="" title="本科">本科</a>
+                            <a href="javascript:void(0)" data-id="2" class="" title="硕士">硕士</a>
+                            <a href="javascript:void(0)" data-id="2" class="" title="博士">博士</a>
+                        </dd>
+                    </dl>
+                    <dl class="SELECT" data-placeholder="选择招生状态">
+                        <input type="hidden" value="" autocomplete="off">
+                        <dt><span title="">选择招生状态</span><i></i></dt>
+                        <dd class="normal">
+                            <a href="javascript:void(0)" data-id="0" class="" title="不限">不限</a>
+                            <a href="javascript:void(0)" data-id="1" class="" title="初中">初中</a>
+                            <a href="javascript:void(0)" data-id="2" class="" title="高中">高中</a>
+                            <a href="javascript:void(0)" data-id="2" class="" title="大专">大专</a>
+                            <a href="javascript:void(0)" data-id="2" class="" title="本科">本科</a>
+                            <a href="javascript:void(0)" data-id="2" class="" title="硕士">硕士</a>
+                            <a href="javascript:void(0)" data-id="2" class="" title="博士">博士</a>
+                        </dd>
+                    </dl>
+
+
+                    <dl class="SELECT" data-placeholder="选择排课状态">
+                        <input type="hidden" value="" autocomplete="off">
+                        <dt><span title="">选择排课状态</span><i></i></dt>
+                        <dd class="normal">
+                            <a href="javascript:void(0)" data-id="0" class="" title="不限">不限</a>
+                            <a href="javascript:void(0)" data-id="1" class="" title="初中">初中</a>
+                            <a href="javascript:void(0)" data-id="2" class="" title="高中">高中</a>
+                            <a href="javascript:void(0)" data-id="2" class="" title="大专">大专</a>
+                            <a href="javascript:void(0)" data-id="2" class="" title="本科">本科</a>
+                            <a href="javascript:void(0)" data-id="2" class="" title="硕士">硕士</a>
+                            <a href="javascript:void(0)" data-id="2" class="" title="博士">博士</a>
+                        </dd>
+                    </dl>
+
+
+                    <dl class="SELECT" data-placeholder="选择人数">
+                        <input type="hidden" value="" autocomplete="off">
+                        <dt><span title="">选择人数</span><i></i></dt>
+                        <dd class="normal">
+                            <a href="javascript:void(0)" data-id="0" class="" title="不限">不限</a>
+                            <a href="javascript:void(0)" data-id="1" class="" title="初中">初中</a>
+                            <a href="javascript:void(0)" data-id="2" class="" title="高中">高中</a>
+                            <a href="javascript:void(0)" data-id="2" class="" title="大专">大专</a>
+                            <a href="javascript:void(0)" data-id="2" class="" title="本科">本科</a>
+                            <a href="javascript:void(0)" data-id="2" class="" title="硕士">硕士</a>
+                            <a href="javascript:void(0)" data-id="2" class="" title="博士">博士</a>
+                        </dd>
+                    </dl>
+
+
+
+                    <dl class="SELECT" data-placeholder="选择助理教师">
+                        <input type="hidden" value="" autocomplete="off">
+                        <dt><span title="">选择助理教师</span><i></i></dt>
+                        <dd class="normal">
+                            <a href="javascript:void(0)" data-id="0" class="" title="不限">不限</a>
+                            <a href="javascript:void(0)" data-id="1" class="" title="初中">初中</a>
+                            <a href="javascript:void(0)" data-id="2" class="" title="高中">高中</a>
+                            <a href="javascript:void(0)" data-id="2" class="" title="大专">大专</a>
+                            <a href="javascript:void(0)" data-id="2" class="" title="本科">本科</a>
+                            <a href="javascript:void(0)" data-id="2" class="" title="硕士">硕士</a>
+                            <a href="javascript:void(0)" data-id="2" class="" title="博士">博士</a>
+                        </dd>
+                    </dl>
+
+
+
+
+
+                    <dl class="SELECT" data-placeholder="选择班主任">
+                        <input type="hidden" value="" autocomplete="off">
+                        <dt><span title="">选择班主任</span><i></i></dt>
+                        <dd class="normal">
+                            <a href="javascript:void(0)" data-id="0" class="" title="不限">不限</a>
+                            <a href="javascript:void(0)" data-id="1" class="" title="初中">初中</a>
+                            <a href="javascript:void(0)" data-id="2" class="" title="高中">高中</a>
+                            <a href="javascript:void(0)" data-id="2" class="" title="大专">大专</a>
+                            <a href="javascript:void(0)" data-id="2" class="" title="本科">本科</a>
+                            <a href="javascript:void(0)" data-id="2" class="" title="硕士">硕士</a>
+                            <a href="javascript:void(0)" data-id="2" class="" title="博士">博士</a>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+        <div class="general-layer nomargin">
+            <div class="general-top the-style">
+                <div class="num-data">共<span>12</span>个班级</div>
+
+                <div class="select-and-plus">
+                    <a href="新增班级.html"  class="plus plus-number-classroom">+新增班级</a>
+                </div>
+            </div>
+
+            <div class="class-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="sele-all">
+                                <i></i>
+                                <span>班级名称  </span>
+                            </th>
+                            <th>
+                                <span>招生状态</span>
+                            </th>
+                            <th>
+                                <span>授课老师</span>
+                            </th>
+                            <th>
+                                <span>人数</span>
+                            </th>
+                            <th>
+                                <span>班级进度</span>
+                            </th>
+                            <th style="min-width: 100px">
+                                <span>上课时段</span>
+                            </th>
+                            <th style="width: 140px;text-align: center;">
+                                <span>操作</span>
+                            </th>
+                        </tr>
+
+                    </thead>
+
+
+                    <tbody>
+                        <tr>
+                            <td class="sele-one sele_w">
+                                <i class="cur"></i>
+                                <a href="教务管理-班级管理-班级详情.html" class="name-for-class">商务英语基础1807班</a>
+                                <a href="javascript:void(0)" class="condition">[未排课]</a>
+                            </td>
+                            <td>
+                                <span class="diffrent-co">开放招生</span>
+                            </td>
+                            <td>
+                                <span class="diffrent-co">李雯</span>
+                            </td>
+                            <td>
+                                <span>2/6</span>
+                            </td>
+                            <td>
+                                <span>2/6</span>
+                            </td>
+                            <td>
+                                <span>2018-09-01~2018-10-30</span>
+                            </td>
+                            <td>
+                                <dl class="SELECT set-for" data-placeholder="操作">
+                                    <input type="hidden" value="" autocomplete="off">
+                                    <dt><span title="">操作</span><i></i></dt>
+                                    <dd class="normal">
+                                        <a href="javascript:void(0)" data-id="0" class="" title="不限">不限</a>
+                                        <a href="javascript:void(0)" data-id="1" class="" title="初中">初中</a>
+                                        <a href="javascript:void(0)" data-id="2" class="" title="高中">高中</a>
+                                        <a href="javascript:void(0)" data-id="2" class="" title="大专">大专</a>
+                                        <a href="javascript:void(0)" data-id="2" class="" title="本科">本科</a>
+                                        <a href="javascript:void(0)" data-id="2" class="" title="硕士">硕士</a>
+                                        <a href="javascript:void(0)" data-id="2" class="" title="博士">博士</a>
+                                    </dd>
+                                </dl>
+                            </td>
+                        </tr>
+
+                        
+                    </tbody>
+                </table>
+
+                <div class="t_foot">
+                    <!--
+                    <p class="leftbox">
+                        <i class="icon"></i>
+                        <label>全选</label>
+                        <label>已选<em>80</em>个</label>
+                        <span class="btn cur">修改状态</span>
+                        <span class="btn">关联岗位</span>
+                        <span class="btn">分配跟进人</span>
+                    </p>
+                    -->
+
+
+                    <div class="page">
+                        <label>每页</label> <dl class="SELECT" data-placeholder="请选择">
+                        <input type="hidden" value="10" autocomplete="off">
+                        <dt><b title="10">10</b></dt>
+                        <dd class="normal">
+                            <a href="javascript:void(0)" data-id="50" title="50">50</a>
+                            <a href="javascript:void(0)" data-id="20" title="20">20</a>
+                            <a href="javascript:void(0)" data-id="10" class="checked" title="10">10</a>
+                        </dd>
+                    </dl> <a href="javascript:void(0)">上一页</a> <a href="javascript:void(0)" class="cur">1</a> <a href="/company/resume?pid=2">2</a> <a href="/company/resume?pid=3">3</a>  … <a href="/company/resume?pid=1822">1822</a> <a href="/company/resume?pid=2">下一页</a>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+<script src="../js/jquery.js"></script>
+<script src="../js/layer.js"></script>
+<script src="../js/area.js"></script>
+<script src="../js/all.js"></script>
+<script src="../js/plugin/select.js"></script>
+<script src="../js/My97DatePicker/WdatePicker.js"></script>
+<script src="../js/plugin/scrollBar.js"></script>
+<script>
+    VitaeSource();
+    Vitaeclick();
+    
+    $(".label-selec").click(function () {
+        $(".fill-types").show();
+    });
+    $(".fill-types .right-select a").click(function () {
+        $(".fill-types").hide();
+    });
+    $(".recruit_searchCondition .inputdiv2").mouseleave(function () {
+        $(".fill-types").hide();
+    });
+//收起筛选条件
+    $(".recruit_searchCondition .tollger").click(function () {
+        if ($(this).hasClass('cur')) {
+            $(this).removeClass('cur');
+            $(this).parent().css("borderBottom","1px dashed #e4e4e4");
+            $(this).children("span").text('收起筛选').removeClass('cur');
+            $(this).children("i").removeClass('cui');
+            $(".tollger-box").show();
+        } else {
+            $(this).addClass('cur');
+            $(this).parent().css("borderBottom","none");
+            $(this).children("span").text('展开筛选').addClass('cur');
+            $(this).children("i").addClass('cui');
+            $(".tollger-box").hide();
+        }
+    })
+
+
+
+    $('.recruit_searchCondition .s_condition a').click(function () {
+        $(this).siblings().removeClass('cur');
+        $(this).addClass('cur');
+    });
+
+
+    $('.recruit_searchCondition .line .openbtn').click(function () {
+        if ($(this).hasClass('cur')) {
+            $(this).removeClass('cur');
+            $(this).html('更多岗位<i></i>')
+            $(this).siblings('.alist').css('height', '33px');
+        } else {
+            $(this).addClass('cur');
+            $(this).html('收起<i></i>')
+            $(this).siblings('.alist').css('height', 'auto');
+        }
+    });
+
+//单选
+    $('.right-content .class-table td.sele-one i').click(function () {
+        if ($(this).hasClass('cur')) {
+            $(this).removeClass('cur');
+            $('.right-content .class-table th.sele-all i').removeClass("cur");
+            $('.right-content .t_foot .leftbox .icon').removeClass("cur");
+        } else {
+            $(this).addClass('cur')
+        }
+    });
+
+//全选
+    $('.right-content .class-table th.sele-all i').click(function () {
+        if ($(this).hasClass('cur')) {
+            $(this).removeClass('cur');
+            $('.right-content .class-table td.sele-one i').removeClass("cur");
+            $('.right-content .t_foot .leftbox .icon').removeClass("cur")
+        } else {
+            $(this).addClass('cur');
+            $('.right-content .class-table td.sele-one i').addClass("cur");
+            $('.right-content .t_foot .leftbox .icon').addClass("cur")
+
+        }
+    });
+
+
+
+
+</script>
+</body>
+</html>

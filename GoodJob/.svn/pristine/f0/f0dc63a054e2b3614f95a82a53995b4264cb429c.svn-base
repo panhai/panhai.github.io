@@ -1,0 +1,50 @@
+/* 统计信息 */
+/*主标题*/
+h2{ float:left; line-height:45px; padding-left:20px; color:#454545; font-size:18px; font-family:"微软雅黑"; margin-bottom:20px; font-weight:normal;}
+h2{ _padding-top:10px;}
+h2.bd{ border-bottom:1px solid #e1e1e1; float:none; clear:both; margin:0px 20px 20px; padding:0px;}
+
+/*顶部表单*/
+.form{ clear:both; margin:20px 20px 10px; height:35px; _z-index:11;}
+.form-left{ float:left; padding-top:5px;}
+.form-left a{ line-height:20px; height:20px; font-size:12px; color:#3d3d3d; padding-left:20px; background:url(../../images/CpCenter/icons.jpg) left top no-repeat; display:inline-block; position:relative; margin-right:10px;}
+.form-left a.cur{ background-position:left bottom; color:#ff5000; font-weight:bold;}
+.form-left samp{ display:inline-block; font-size:12px; color:#333; padding-top:20px; line-height:15px;}
+/*.form-left a.has_i{ padding-right:15px;}
+.form-left a i{ font-style:normal; background:#f30; font-size:12px; text-align:center; margin-left:3px; color:#fff; display:block; height:15px; position:absolute; line-height:15px; right:0px; top:-5px; min-width:15px; border-radius:10px; _width:15px;}
+.form-left a i{ background-color:transparent\9;}
+.form-left a i.i1{ background-image:url(../../images/UCenter/dot1.png) \9; width:16px\9; height:16px\9; top:11px\9; _top:-5px;}
+.form-left a i.i2{ background-image:url(../../images/UCenter/dot2.png) \9; width:20px\9; height:20px\9; line-height:20px\9; top:-10px\9;}*/
+/*输入框及下拉列表*/
+.form-right{ float:right;}
+.form-right span{ display:block; float:left; font-size:24px; color:#999; font-weight:bold;}
+.form-key,.form-submit{ display:block; float:left; height:15px; padding:5px; border:1px solid #BCBCBC; font-size:12px; line-height:15px;}
+.form-key{ width:80px; padding:5px 25px 5px 30px; margin-left:5px; background:url(../../images/CpCenter/ico-cal.jpg) 5px center no-repeat;}
+.form-right .from{ margin-right:5px;}
+.form-right .to{ border-right:0px;}
+.form-submit{ width:30px; height:27px; padding:5px; background:url(../../images/SCenter/search-btn.gif) center no-repeat; border:0px; cursor:pointer;}
+
+
+/*表格*/
+.table{ clear:both; margin:10px 20px; width:780px; border-collapse:collapse; table-layout:fixed;}
+.table thead th{ background-color:#fafafa; border-bottom:1px solid #dfdfdf; line-height:45px; height:45px; font-size:14px; color:#888; text-align:center; font-weight:normal;}
+
+/*学生-学院统计*/
+.schools .a-left{ text-align:left;}
+.schools .a-right{ text-align:right;}
+.schools td{ text-align:center; height:75px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; border-bottom:1px solid #dfdfdf; font-size:12px; color:#666;}
+.schools b{ font-size:14px; color:#ff5000; font-family:Arial, Helvetica, sans-serif; font-weight:normal;}
+.schools h3{ font-size:16px; color:#2677e3; font-family:"微软雅黑"; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.schools .last a{ font-size:14px; display:inline-block; width:80px; height:25px; background-color:#6dd373; line-height:25px; color:#fff; font-family:"微软雅黑";}
+/*排名*/
+.rank em{ display:inline-block; width:26px; height:26px; text-align:center; line-height:26px; font-size:20px; font-family:Arial, Helvetica, sans-serif; font-weight:bold; font-style:normal;}
+.rank .n1{ background-color:#f00; color:#fff;}
+.rank .n2{ background-color:#fd4e00; color:#fff;}
+.rank .n3{ background-color:#f80; color:#fff;}
+
+
+/*没有信息*/
+.Nothing{ clear:both; text-align:center; padding:50px; font-family:"微软雅黑";}
+.Nothing h5{ font-size:24px; color:#d1e5ff; line-height:50px;}
+.Nothing h6{ font-size:14px; color:#d1e5ff; font-weight:normal; width:370px; margin:0 auto; text-align:left;}
+.Nothing h6 a{ float:right; color:#1562c8; text-decoration:underline;}

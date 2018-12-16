@@ -1,0 +1,276 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+
+</title>
+    <link href="../css/1024/common.css" rel="stylesheet" type="text/css" />
+    <link href="../css/1024/companyAdmin.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/MD5.js"></script>
+    <script type="text/javascript" src="../js/jbody.js"></script>
+    <script type="text/javascript" src="../js/jbody-plugin.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+    <script type="text/javascript" src="../js/area.js"></script>
+    <script type="text/javascript" src="../js/subjects.js"></script>
+    <script type="text/javascript" src="../js/admin/common.js"></script>
+    <script type="text/javascript" src="../js/selectors.js"></script>
+    <script type="text/javascript" src="../js/menuControl.js"></script>
+    <script type="text/javascript" src="../js/jobPositions.js"></script>
+    <script type="text/javascript" src="../js/admin/companyAdmin.js"></script>
+    
+    <style type="text/css">
+        .bodyBlock .editBlockBorder a{ margin-right:15px; color:#0094ff; }
+        .bodyBlock .editBlockBorder a:hover{ text-decoration:underline; }
+    </style>
+</head>
+<body>
+    <iframe id="_postTargetIframe" name="_postTargetIframe" style="display:none;" src="about:blank;"></iframe>
+    
+    
+<div id="pg-header" class="pg-header">
+    <div class="pg-header-main">
+        <div class="logo">
+            <a href="/"><img alt="好工作网Logo" src="../images/logo.png" class="pngfix" width="232" height="40" /></a>
+        </div>
+        <div class="cname">天津市温药复有限公司</div>
+        <div class="r mginT10">
+    <div class="platform-switch-container">
+    <div class="platform-switch-main msout">
+        <span class="floatR">切换后台</span>
+        <span class="floatR" style="border:solid 1px #ffc183; line-height:12px; margin-right:5px; padding-left:1px; padding-right:1px;">+</span>
+        <div style="clear:both;"></div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        $(".platform-switch-main").click(function () {
+            JBFrameHelper.showPage("/UCenter/PlatformSwitch.phtml", { obj: this, title: "切换到个人中心或其他管理后台", w: 500, pos: { to: "win", parent: "doc", park: "inside", parkInside: "center" } }, true, false);
+        });
+    })
+</script>
+
+</div>
+    </div>
+</div>
+    
+<div id="pg-nav" class="pg-nav">
+    <ul>
+        <li><div class="nav-title"><a href="#">管理首页</a></div></li>
+        <li><div class="nav-title"><a href="/Company/drjrz/admin/Offer/Add.phtml">发布职位</a></div></li>
+        <li><div class="nav-title"><a href="#">找简历</a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">职位<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">简历<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">资讯 ▪ 介绍<sub></sub></a></div></li>        
+        <li><div class="nav-title"><a href="javascript:void(0);">合作院校<sub></sub></a></div></li>        
+        <li><div class="nav-title"><a href="#">用户与设置<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="/Company/drjrz/" target="_blank">企业主页</a></div></li>
+    </ul>
+</div>
+<div style="clear:both;"></div>
+<div id="pg-nav-sub" style="display:none;">
+    <div id="pg-nav-sub-inner">
+    <div id="pg-nav-sub-main">
+        <ul style="display:none;">
+            <li><a href="Sum.html">系统概况</a></li>
+            <li><a href="Company.html">后台管理功能快捷链接</a></li>
+            <li><a href="#">站内消息</a></li>
+        </ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;">
+            <li><a href="Offer-Add.html">发布新职位</a></li>
+            <li><a href="Offer-ing.html">正在招聘</a></li>
+            <li><a href="Offer-Review.html">审核中</a></li>
+            <li><a href="Secur.html">保密职位</a></li>
+            <li><a href="Cooperation.html">院校招聘职位</a></li>
+            <li><a href="Offer-stop.html">已暂停或取消</a></li>
+            <li><a href="Offer-Timeout.html">已过期</a></li>
+            <li><a href="Offer-all.html">全部职位</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="/Company/drjrz/admin/resumes/">搜简历</a></li>
+            <li><a href="/Company/drjrz/admin/resumes/received.phtml">收到简历</a></li>
+            <li><a href="/Company/drjrz/admin/resumes/favor.phtml">简历收藏</a></li>
+            <li><a href="/Company/drjrz/admin/resumes/history.phtml">最近查看</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="/Company/drjrz/admin/About/Intro.phtml">企业介绍</a></li>
+            <li><a href="/Company/drjrz/admin/Articles/?tp=2">企业公告</a></li>
+            <li><a href="/Company/drjrz/admin/Articles/?tp=3">企业快讯</a></li>
+            <li><a href="/Company/drjrz/admin/Articles/?tp=4">行业新闻</a></li>
+            <li><a href="/Company/drjrz/admin/Articles/?tp=5">产品服务</a></li>
+            <li><a href="/Company/drjrz/admin/Articles/?tp=6">收费标准</a></li>
+            <li><a href="/Company/drjrz/admin/Articles/?tp=7">员工风采</a></li>
+            <li><a href="/Company/drjrz/admin/Articles/?tp=9">工作环境</a></li>
+        </ul>        
+        <ul style="display:none;">
+            <li><a href="/Company/drjrz/admin/Schools/Search.phtml">院校搜索</a></li>
+            <li><a href="/Company/drjrz/admin/Schools/Request/Recieved.phtml">收到的请求</a></li>
+            <li><a href="/Company/drjrz/admin/Schools/Request/Sended.phtml">发出的请求</a></li>
+            <li><a href="/Company/drjrz/admin/Schools/Default.phtml">合作院校列表</a></li>
+            <li><a href="/Company/drjrz/admin/Schools/Black.phtml">黑名单院校</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Setting.html">系统设置</a></li>
+            <li><a href="CustmRoles.html">管理员角色</a></li>
+            <li><a href="Manager.html">管理员</a></li>
+            <li><a href="Info.html">个人设置</a></li>
+            <li><a href="Password.html">修改密码</a></li>
+        </ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+    </div>
+    </div>
+</div>
+<div style="clear:both;"></div>
+    <div class="pageMainContentContainer">         
+    <form method="post" action="/company/drjrz/admin/" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="ZF+XkJGxKosiSTJmVcLoUG4pRKKyCv9Gqp+XjPXMbReNNz218z1xfRFFY6M3Il3GqBJ/pbkPOqpMFh4I4Cso6hjfWfLhdytZocROZt1CdAIH/laQwxayZWdLFkCTYzNZUdPKaZOmujD0xgfJQ/aac1a79PN9Ftuac224r+774Nlr76Hf8kyd6uvknH+R8orV" />
+</div>
+
+<div class="aspNetHidden">
+
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="96A42DF8" />
+</div>
+    
+    <div class="bodyBlock">
+        <div class="detailBlockTitle" style="padding-left:20px;"><div class="leftIco"></div><div class="left">好工作 - 企业后台 - 管理功能快捷链接</div></div>
+        <div class="editBlockBorder">   
+            <div class="mgin30 font14">
+                <div class="font16 bold">信息汇总</div>
+                <a href="Sum.html">系统概况</a>
+                <a href="Company.html">全部功能列表</a>
+            </div>    
+            <div class="mgin30 font14">
+                <div class="font16 bold">应聘管理</div>
+                <a href="Received.html">收到的应聘简历</a>
+                <a href="Favor.html">收藏的简历</a>
+                <a href="History.html">简历浏览历史</a>
+                <a href="Resumes.html">简历搜索</a>
+            </div>
+            <div class="mgin30 font14">
+                <div class="font16 bold">招聘管理</div>
+                <a href="Offer-Add.html">发布新职位</a>
+                <a href="Offer-Review.html">等待审核职位</a>
+                <a href="Offer-ing.html">正在招聘职位</a>
+                <a href="Offer-all.html">全部职位</a>
+            </div>
+            <div class="mgin30 font14">
+                <div class="font16 bold">新闻 / 资讯 / 文章管理</div>
+                <a href="/Company/drjrz/admin/Article/?listType=12">事务通知管理</a>
+                <a href="/Company/drjrz/admin/Article/Add.phtml?addType=12">添加事务通知</a>
+                <a href="/Company/drjrz/admin/Article/?listType=13">院校快讯管理</a>
+                <a href="/Company/drjrz/admin/Article/Add.phtml?addType=13">添加院校快讯</a>
+                <a href="/Company/drjrz/admin/Article/?listType=14">就业指导管理</a>
+                <a href="/Company/drjrz/admin/Article/Add.phtml?addType=14">添加就业指导</a><br />
+                <a href="/Company/drjrz/admin/Article/?listType=15">升学指南管理</a>
+                <a href="/Company/drjrz/admin/Article/Add.phtml?addType=15">添加升学指南</a>
+                <a href="/Company/drjrz/admin/Article/?listType=16">招生信息管理</a>
+                <a href="/Company/drjrz/admin/Article/Add.phtml?addType=16">添加招生信息</a>
+            </div>
+            <div class="mgin30 font14">
+                <div class="font16 bold">就业招聘合作院校</div>
+                <a href="/Company/drjrz/admin/School/Search.phtml">搜索院校</a>
+                <a href="/Company/drjrz/admin/School/Default.phtml">合作院校管理</a>
+                <a href="/Company/drjrz/admin/School/Request/Recieved.phtml">收到的合作请求</a>
+                <a href="/Company/drjrz/admin/School/Request/Sended.phtml">发出的合作请求</a>
+                <a href="/Company/drjrz/admin/School/Black.phtml">黑名单院校</a>
+            </div>
+            <div class="mgin30 font14">
+                <div class="font16 bold">管理员角色及成员管理</div>
+                <a href="Manager.html">管理员管理</a>
+                <a href="Manager-add.html">添加管理员</a>
+                <a href="CustmRoles.html">角色管理</a>
+            </div>
+            <div class="mgin30 font14">
+                <div class="font16 bold">系统设置</div>
+                <a href="Setting.html">系统设置</a>
+                <a href="Intro.html">院校介绍管理</a>
+            </div>
+            <div class="mgin30 font14">
+                <div class="font16 bold">个人设置</div>
+                <a href="Info.html">个人信息设置</a>
+                <a href="Password.html">修改我的密码</a>
+            </div>
+        </div>        
+    </div>
+
+    
+
+<script type="text/javascript">
+//<![CDATA[
+pageMainMenuCreater.setActive({mainText:'管理首页',subText: '后台管理功能快捷链接'});//]]>
+</script>
+</form>
+    
+
+    <div style="clear:both;"></div>
+    </div> 
+    
+<div style="clear:both;"></div>
+<div class="footerOuter">
+    <div class="footer">
+        <div>
+            <div class="contact">
+                <span style="margin-top:60px; font-size:14px;">服务热线 (免长话费)</span>
+                <span style="font-size:16px;">400-6838-789</span>
+                <span>工作日 9:00-19:00</span>
+            </div>
+            <div class="footerBlock">
+                <span>网站简介</span>
+                <a>网站简介</a>
+                <a>产品服务</a>
+                <a>创新优势</a>
+                <a>友情链接</a>
+                <a>联系我们</a>
+            </div>
+            <div class="footerBlock">
+                <span>使用帮助</span>
+                <a>网站简介</a>
+                <a>产品服务</a>
+                <a>创新优势</a>
+                <a>友情链接</a>
+                <a>联系我们</a>
+            </div>
+            <div class="footerBlock">
+                <span>合作共赢</span>
+                <a>网站简介</a>
+                <a>产品服务</a>
+                <a>创新优势</a>
+                <a>友情链接</a>
+                <a>联系我们</a>
+            </div>
+            <div class="footerBlock">
+                <span>快捷方式</span>
+                <a>网站简介</a>
+                <a>产品服务</a>
+                <a>创新优势</a>
+                <a>友情链接</a>
+                <a>联系我们</a>
+            </div>
+        </div>
+        <div style="clear:both;"></div>
+        <div style="margin-top:20px; color:#888;">
+        版权所有：好工作网
+        联系电话：88888888&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        联系邮箱：88888@qq.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+        地址：广州市环市中路&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        邮政编码：510000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script type="text/javascript">
+    $(function () {   adminPageInit({ unresize: "" });    });
+</script>
+<!--[if IE 6]>
+<script type="text/javascript" src="/js/DD_belatedPNG_0.0.8a.js"></script>
+<script type="text/javascript">   
+  DD_belatedPNG.fix('.pngfix'); 
+</script>
+<![endif]-->

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/Special.css" />
+    </head>
+    <body>
+    <div class="head common">
+        <div class="head-r">
+            <a href='../../index-new.html' class='head-t'>好工作首页</a><a href="">登录 /</a>  <a href="">注册</a>
+        </div>
+    </div>
+
+    <div class="banner"></div>
+
+    <div class="main common">
+        <div class="issume-title"></div>
+        <ul class="issume">
+            <li class="issuem1">
+                <div></div>
+                <h4>只宣不招</h4>
+                <p>前程、智联等招聘网站采用<b class="cur1">广告招聘模式</b>， 多数企业招满人或不招聘也发布招聘信息， 目的是宣传企业，<b class="cur1">并非真实招聘</b>。造成传统
+                招聘网站看似内容丰富，实则有效信息少。</p>
+            </li>
+            <li class="issuem2">
+                <div></div>
+                <h4>僵尸职位</h4>
+                <p>前程、智联等传统招聘网站为企业提供<b class="cur2">自动刷新服务</b>。招聘信息在企业招聘满员甚至倒闭之后仍会自动刷新，导致<b class="cur2">大量僵尸职位</b>, 投递此类职位必然得不到反馈，石投大海是必然！</p>
+            </li>
+            <li class="issuem3">
+                <div ></div>
+                <h4>龟速招聘</h4>
+                <p>传统招聘网站缺乏有效服务体系，卖完广告
+                就万事大吉,让企业与求职者自行“连连看“。
+                求职者与企业<b class="cur3">无法实现高效对接</b>，求职反馈&nbsp;&nbsp;&nbsp;&nbsp;
+                时间久、战线长，求职<b class="cur3">效率低</b>。</p>
+            </li>
+        </ul>
+
+        <div class="advantage common">
+           <div class="advantage-title"></div>
+           <div class="advantage-item1">
+               <div class="advantage-t"><strong>快</strong><div class="advantage-r"><span>最快24小时入职</span></div></div>
+               <div class="advantage-item">
+                   <img src="img/Fast1.png" height="175" width="293" alt="" />
+                   <h3>急迫招聘</h3>
+                   <p>好工作通过大数据算法将急需招聘企业排在前列，确保信息<b>真实有效</b>，急聘职位一目了然。</p>
+               </div>
+               <div class="advantage-item mar">
+                    <img src="img/Fast3.png" height="175" width="293" alt="" />
+                    <h3>有投必应</h3>
+                    <p>企业用人需求紧缺，珍惜每一份简历，求职者可在<b>最短时间内得到反馈</b>，避免简历石沉大海。</p>
+               </div>
+               <div class="advantage-item">
+                    <img src="img/Fast2.png" height="175" width="293" alt="" />
+                    <h3>极速入职</h3>
+                    <p>急聘顾问及时跟进，双向（企业和用户）协调沟通，优化求职流程，助你<b>极速入职。</b></p>
+               </div>
+           </div>
+           <div class="advantage-item2">
+               <div class="advantage-t"><strong>高</strong><div class="advantage-r"><span>工资高出30%</span></div></div>
+               <div class="advantage-item">
+                   <img src="img/Height1.png" height="175" width="293" alt="" />
+                   <h3>名企云集</h3>
+                   <p>汇聚500强等大型企业和众多高价值中小企业。轻松入职名企，赢在起点。</p>
+               </div>
+               <div class="advantage-item mar">
+                    <img src="img/Height2.png" height="175" width="293" alt="" />
+                    <h3>高薪聘请</h3>
+                    <p>优推急聘职位，企业求贤若渴，竞相高薪聘用。海量优质职位，虚席以待。</p>
+               </div>
+               <div class="advantage-item">
+                    <img src="img/Height3.png" height="175" width="293" alt="" />
+                    <h3>择优入职</h3>
+                    <p>更高录取率，更多0ffer，更多选择。</p>
+               </div>
+           </div>
+           <div class="advantage-item3">
+               <div class="advantage-t"><strong>稳</strong><div class="advantage-r"><span>100%包就业</span></div></div>
+               <div class="advantage-item">
+                   <img src="img/staid.png" height="175" width="293" alt="" />
+                   <ul>
+                       <li>● 免费BOC服务，包你100%就业</li>
+                       <li>● 专业一对一的求职辅导</li>
+                       <li>● 实时跟踪每次求职进度</li>
+                       <li>● 完整简历直接推荐面试</li>
+                   </ul>
+                    <p>我们不仅是包就业，我们是帮你找到好工作！</p>
+               </div>
+              
+           </div>
+        </div>
+        <div class="banner-bottom common">
+            <a href="../../search-new.html"><img src="img/banner-b.png" alt="" /></a>
+        </div>
+    </div>
+    <div class="footer">
+    <div class="common rule">
+        <div class="bottom">
+        <div class="left">
+            <p class="f20">服务热线</p>
+            <p class="numbar">400-6600-952</p>
+            <p class="f16">服务时间：周一至周六9:00-18:40</p>
+        </div>
+        <div class="right">                                              
+            <p class="right-p"><a href="#">关于我们</a><a href="#">帮助中心</a><a href="#">法律申明</a><a href="#" class="right-last">网站导航</a></p>
+            <p class="c-grey01">粤ICP备09027680号-25sitemap 站长统计</p>
+            <p class="c-grey01">Copyright©2000-2014.93hgz.comcom All Rights Reserved</p>
+        </div>
+        </div>
+    </div>
+</div>
+    </body>
+</html>

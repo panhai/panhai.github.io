@@ -1,0 +1,40 @@
+/* CSS Document */
+
+/*超大表格过滤项目*/
+.on .subbie{ display:block;}
+.subbie{ display:none; width:870px !important; clear:both;}
+.subbie *{ font-style:normal;}
+.subbie table{ border-collapse:collapse; table-layout:fixed; width:100%;}
+.subbie th,.subbie td{ border-bottom:1px solid #e7e7e7; font-size:12px; line-height:30px; padding:3px 10px; vertical-align:top; table-layout:fixed;}
+.subbie th{ background-color:#f7f7f7; width:150px; border-left:0px; text-align:right; white-space:nowrap;}
+.subbie td{ width:680px; background:url(../../images/search/filterbg.gif) left center;}
+.subbie blockquote{ color:#363636; position:relative; z-index:111; width:169px; float:left; height:32px;}
+.subbie blockquote.on{ z-index:222;}
+.subbie blockquote var{ text-align:left;}
+.subbie blockquote.on var a,.subbie blockquote.on var span{ border:1px solid #e7e7e7; position:relative; z-index:444; border-bottom:0px; color:#ff5000;}
+.subbie a,.subbie var span{ display:inline-block; border:1px solid #fff; line-height:30px; color:#363636; padding:0px 20px 0px 10px; _padding:8px 20px 8px 10px; background:#fff; white-space:nowrap; max-width:119px; overflow:hidden; text-overflow:ellipsis; position:relative;}
+.subbie a i,.subbie var span i{ display:inline-block; width:12px; height:12px; background:url(../../images/icons.gif) -12px 12px; margin-left:5px; position:absolute; top:8px; right:5px;}
+/*再出来的层*/
+.subbie blockquote p{ display:none; width:330px !important; padding:10px; border:1px solid #e7e7e7; position:absolute; left:0px; top:30px; background:#fff; z-index:333;}
+.subbie p a{ width:110px; padding:0px; border:0px; float:left; height:30px;}
+.subbie a:hover,.subbie .has,.subbie .has *{ color:#ff5000;}
+.subbie code{ display:block; width:169px; float:left; height:32px;}
+
+.subbie .last p{ right:0px; left:auto;}
+.subbie input{ vertical-align:text-bottom; vertical-align:middle\9; float:left; margin:8px 5px 0px 0px; margin:3px 0px 0px 0px\9;}
+.subbie label{ display:block; _width:80px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+
+.subbie-tags{ float:left; display:block; width:100%;}
+.subbie-tags a{ display:block; background-color:#FFF1F1; color:#000; border:1px solid #f00; padding:3px 10px 0px; margin:0px 5px 10px 0px; font-size:12px; font-family:"宋体"; line-height:20px; float:left; white-space:nowrap;}
+.subbie-tags a q{ position:relative; left:5px;}
+
+/*多选采集*/
+.multiple{ padding:0px;}
+.multiple p{ padding:10px;}
+.picker{ width:96%; background-color:#fafafa; border-bottom:1px solid #ccc; padding:2%; float:left; line-height:30px;}
+.picker-tip{ font-size:14px; color:#7a7a7a; display:block; float:left;}
+.picker-list{ float:left;}
+.subbie .picker-list{ width:540px;}
+.picker-list li{ display:inline-block; float:left; white-space:nowrap; font-size:12px; color:#fff; background-color:#2673ec; padding:0px 10px; margin-right:10px;}
+.picker-list q{ cursor:pointer; font-size:16px; position:relative; top:2px; left:3px;}
+.picker-confirm,.picker-unlimit{ display:block; width:80px; height:30px; color:#fff; background-color:#2673ec; font-size:14px; text-align:center; float:right; cursor:pointer; border-radius:2px; margin-left:10px;}

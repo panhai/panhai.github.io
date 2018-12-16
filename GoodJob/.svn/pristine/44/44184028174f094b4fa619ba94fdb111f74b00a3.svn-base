@@ -1,0 +1,258 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>学校中心-系统管理-院系及专业设置</title>
+</head>
+<link rel="stylesheet" type="text/css" href="../css/School/css.css">
+<link rel="stylesheet" type="text/css" href="../css/School/manage.css">
+<link rel="stylesheet" type="text/css" href="../css/plugin/center.css">
+<body>
+<div class="header"><div class="common">
+	<h1><img src="../images/SCenter/headlogo.jpg" width="59" height="63">肇庆科技职业技术学院<small>就业网管理系统</small></h1>
+    <p>
+    	<a href="#">Admin</a> |
+        <a href="#">退出</a> |
+        <a href="#" class="cur">好工作首页</a> |
+        <a href="#" class="cur">切换后台</a> |
+        <a href="#">消息</a> |
+        <a href="#">反馈</a> |
+        <a href="#">帮助</a>
+    </p>
+</div></div>
+<div class="nav"><div class="common">
+	<ul>
+    	<li class="first"><a href="index.html">首页<i></i></a></li>
+    	<li><a href="contents.html">网站内容管理<i></i></a></li>
+    	<li class="cur"><a href="manage.html">系统管理<i></i></a></li>
+    	<li class="last"><a href="total.html">统计分析<i></i></a></li>
+    </ul>
+    <p>
+    	<span class="top-select">
+        	校企合作<i></i>
+        	<samp>
+            	<a href="invite-coop.html">校企合作邀请</a>
+            	<a href="invite-conf.html">宣讲会合作邀请</a>
+            </samp>
+        </span>
+    	<span><a href="conference.html">发布宣讲会</a></span>
+    </p>
+</div></div>
+
+<div class="main common">
+	<div class="left">
+    	<ul class="menus">
+        	<li>
+            	<h3>首页栏目管理<i></i></h3>
+                <p>
+                	<a href="contents-ppt.html">首页幻灯片</a>
+                	<a href="contents.html">新闻动态</a>
+                	<a href="#">事务公告</a>
+                	<a href="#">就业政策</a>
+                	<a href="#">就业指导</a>
+                	<a href="#">职业规划</a>
+                	<a href="#">求职技巧</a>
+                    <a href="#">校企合作</a>
+                	<!--<a href="contents-adv.html">首页底部Banner</a>-->
+                    <a href="#">校友风采</a>
+                	<a href="contents-links.html">友情链接</a>
+                </p>
+            </li>
+        	<!--<li>
+            	<h3>导航栏目管理<i></i></h3>
+                <p>
+                	<a href="contents-menus.html">导航栏设置</a>
+                	<a href="contents-intro.html">公司简介</a>
+                	<a href="#" class="lock">事务公告</a>
+                	<a href="#" class="lock">就业指导</a>
+                    <em>添加/删除导航栏目</em>
+                </p>
+            </li>-->
+            <li>
+            	<h3>学校信息设置</h3>
+                <p>
+                	<a href="manage-profile.html">学校基本信息</a>
+                	<a href="manage.html" class="cur">院校及专业设置</a>
+                </p>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="right">
+    	<div class="crumb pl20"><a href="#">学校中心</a> > <a href="#">首页</a></div>
+    	<h2>院系/专业设置 <!--<img src="../images/SCenter/edit.jpg" width="14" height="14">--></h2>
+        <ol class="top-btns">
+        	<li class="Btn-AddColl"><b>+</b>添加院系</li>
+        </ol>
+        <table class="table prof">
+        	<thead><tr>
+            	<th class="first" width="245">院系/专业</th><th width="335">更新时间</th><th class="last" width="190">操作</th>
+            </tr></thead>
+            <tbody>
+            	<tr class="odd">
+                	<td class="first"><strong>艺术设计学院</strong> <img src="../images/SCenter/edit2.jpg" width="9" height="9"></td>
+                	<td>2014-12-10</td>
+                	<td class="last">
+                    	<a href="#" data-id="1">添加专业</a> | <a href="#" data-id="1">编辑</a> | <a href="#" data-id="1">删除</a>
+                    </td>
+                </tr>
+                <tr class="even">
+                	<td colspan="3"><!--此段的行为，ieTester->6下会渲染错误，但兼容模式不会，暂且忽略-->
+                        <div class="tags">
+                            <span data-id="1">1工业设计工业设计<q>&times;</q></span>
+                            <span data-id="2">2工业设计工业设计<q>&times;</q></span>
+                            <span data-id="3">3工业设计工业设计<q>&times;</q></span>
+                            <span data-id="4">4工业设计工业设计<q>&times;</q></span>
+                        </div>
+                        <div class="clear">
+                        	<input type="hidden">
+                            <i></i>
+                            <div class="btns">
+                                <a href="#" class="submit">确定</a>
+                                <a href="#" class="reset">取消</a>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            	<tr class="odd">
+                	<td class="first"><strong>艺术设计学院</strong> <img src="../images/SCenter/edit2.jpg" width="9" height="9"></td>
+                	<td>2014-12-10</td>
+                	<td class="last">
+                    	<a href="#" data-id="2">添加专业</a> | <a href="#" data-id="2">编辑</a> | <a href="#" data-id="2">删除</a>
+                    </td>
+                </tr>
+                <tr class="even">
+                	<td colspan="3"><!--此段的行为，ieTester->6下会渲染错误，但兼容模式不会，暂且忽略-->
+                        <div class="tags">
+                            <span data-id="1">1工业设计工业设计<q>&times;</q></span>
+                            <span data-id="2">2工业设计工业设计<q>&times;</q></span>
+                            <span data-id="3">3工业设计工业设计<q>&times;</q></span>
+                            <span data-id="4">4工业设计工业设计<q>&times;</q></span>
+                        </div>
+                        <div class="clear">
+                        	<input type="hidden">
+                            <i></i>
+                            <div class="btns">
+                                <a href="#" class="submit">确定</a>
+                                <a href="#" class="reset">取消</a>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            	<tr class="odd">
+                	<td class="first"><strong>艺术设计学院</strong> <img src="../images/SCenter/edit2.jpg" width="9" height="9"></td>
+                	<td>2014-12-10</td>
+                	<td class="last">
+                    	<a href="#" data-id="3">添加专业</a> | <a href="#" data-id="3">编辑</a> | <a href="#" data-id="3">删除</a>
+                    </td>
+                </tr>
+                <tr class="even">
+                	<td colspan="3"><!--此段的行为，ieTester->6下会渲染错误，但兼容模式不会，暂且忽略-->
+                        <div class="tags">
+                            <span data-id="1">1工业设计工业设计<q>&times;</q></span>
+                            <span data-id="2">2工业设计工业设计<q>&times;</q></span>
+                            <span data-id="3">3工业设计工业设计<q>&times;</q></span>
+                            <span data-id="4">4工业设计工业设计<q>&times;</q></span>
+                        </div>
+                        <div class="clear">
+                        	<input type="hidden">
+                            <i></i>
+                            <div class="btns">
+                                <a href="#" class="submit">确定</a>
+                                <a href="#" class="reset">取消</a>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+	<div class="clear"></div>
+</div>
+
+<div class="footer">
+	<div class="common tail">
+        <samp class="tail-nav">
+            <a href="#" class="first">关于我们</a>
+            <a href="#">法律声明</a>
+            <a href="#">保密承诺</a>
+            <a href="#">Investor Relatiao</a>
+            <a href="#">关于我们</a>
+        </samp>
+    </div>
+    <div class="common copyright">
+    	<p>京ICP备09083200号 京ICP证070419号 人才服务许可证：RC0710280</p>
+    	<p>Copyright&copy;2000-2014 liepin.com All Rights Reserved</p>
+    </div>
+</div>
+
+
+<dl class="CenterDiv AddProf top-fixed CNP_manage">
+	<dt class="CenterTopic"><h3>添加专业</h3><q>&times;</q></dt>
+    <dd class="CenterContent">
+    	<label for="newProfession" class="layout">添加专业：</label>
+        <input type="text" class="text">
+        <div class="btns btns1">
+        	<input type="submit" class="submit" value="确认添加">
+            <input type="reset" class="reset" value="取消">
+        </div>
+    </dd>
+</dl>
+
+
+<dl class="CenterDiv AddColl top-fixed CNP_manage">
+	<dt class="CenterTopic"><h3>添加院校</h3><q>&times;</q></dt>
+    <dd class="CenterContent">
+    	<label for="newCollege" class="layout">添加院校：</label>
+        <input type="text" class="text">
+        <div class="btns btns1">
+        	<input type="submit" class="submit" value="确认添加">
+            <input type="reset" class="reset" value="取消">
+        </div>
+    </dd>
+</dl>
+
+
+<dl class="CenterDiv EditColl top-fixed CNP_manage">
+	<dt class="CenterTopic"><h3>修改名称</h3><q>&times;</q></dt>
+    <dd class="CenterContent">
+    	<label for="collegeName" class="layout">院校名称：</label>
+        <input type="text" class="text">
+        <div class="btns btns1">
+        	<input type="submit" class="submit" value="确认修改">
+            <input type="reset" class="reset" value="取消">
+        </div>
+    </dd>
+</dl>
+
+
+<dl class="CenterDiv DelColl top-fixed CNP_manage">
+	<dt class="CenterTopic"><h3>删除院系</h3><q>&times;</q></dt>
+    <dd class="CenterContent">
+    	<p class="CenterTip">您确定删除“<b>院校名称</b>”</p>
+        <div class="btns btns1">
+        	<input type="submit" class="submit" value="确认">
+            <input type="reset" class="reset" value="取消">
+        </div>
+    </dd>
+</dl>
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/web/all.js"></script>
+<script src="../js/school/all.js"></script>
+<script src="../js/school/manage.js"></script>
+<script src="../js/web/center.js"></script>
+<script>
+$(function(){
+	LeftMenu();
+	TopSelect();
+	Profession();
+	CenterDiv();
+	AddProf();
+	AddCollege();
+	EditCollege();
+	DeleteCollege();
+});
+</script>

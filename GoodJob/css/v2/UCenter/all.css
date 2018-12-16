@@ -1,0 +1,88 @@
+/* 用户中心通用样式 */
+body{ background-color:#f8f8f8;}
+/*通用头部*/
+.HEADER{ height:100px; border-bottom:2px solid #1562c8; background-color:#fff; box-shadow:0 5px 5px rgba(117,149,192,0.2); border-top:1px solid #fff;}
+.TOP-LOGO{ margin:25px 50px 0 0; float:left;}
+/*顶工具栏（小字链接）*/
+.TOP-TOOLS{ width:890px; float:right; line-height:60px; font-size:14px; color:#87b7f5; text-align:right;}
+.TOP-TOOLS a{ color:#87b7f5;}
+.TOP-TOOLS a:hover{ color:#1562c8; text-decoration:underline;}
+/*主导航*/
+.TOP-NAV{ width:530px; float:left; font-size:18px;}
+.TOP-NAV li{ float:left; margin-right:25px; line-height:37px;}
+.TOP-NAV li a{ display:block; padding:0px 5px; color:#488ae2;}
+.TOP-NAV li a:hover,.TOP-NAV a.cur{ color:#1562c8;}
+.TOP-NAV a.cur{ border-bottom:3px solid #1562c8;}
+/*顶搜索*/
+.TOP-SEARCH{ width:340px; float:right;}
+.TOP-SEARCH .text{ height:34px; line-height:34px; background-color:#e8f2ff; font-size:12px; border:0; width:290px; padding:0px 10px; color:#1562c8; float:left;}
+.TOP-SEARCH .submit{ width:30px; float:left; height:34px; cursor:pointer; background:url(../../../images/v2/icons/magnifier-l.png) #e8f2ff left center no-repeat; border:0;}
+.TOP-SEARCH .submit{ _background-image:url(../../../images/v2/icons/magnifier-l.gif);}
+
+/*带背景图片的大标题*/
+.TOPIC{ width:184px; height:52px; position:relative; left:-8px; background-image:url(../../../images/v2/topicbg.png); margin-top:30px; line-height:44px; text-indent:28px; color:#fff; font-weight:normal;}
+.TOPIC{ _background-image:url(../../../images/v2/topicbg.gif);}
+
+.VIP{ display:none; position:relative; margin:0 auto; overflow:hidden; text-align:left;}
+.VIP q{ position:absolute; right:10px; top:10px; cursor:pointer; width:24px; height:24px;}
+
+/*新增VIP引导*/
+.VIP-Guide{ width:584px; height:460px; padding:45px; background-image:url(../../../images/v2/vip-guide-bg.jpg); color:#1562c8; font-size:18px;}
+.VIP-Guide q{ background-image:url(../../../images/v2/icons/times-l-blue.png);}
+.VIP-Guide q{ _background-image:url(../../../images/v2/icons/times-l-blue.gif);}
+.VIP-Guide .VIP-topic{ font-size:32px; margin-bottom:30px;}
+.VIP-Guide .VIP-topic span{ display:inline-block; width:180px; height:48px; font-size:24px; color:#fff; background-image:url(../../../images/v2/icons/vip-guide-lvl.png); vertical-align:middle; margin-left:10px; text-align:center; line-height:40px;}
+.VIP-Guide .VIP-topic span{ _background-image:url(../../../images/v2/icons/vip-guide-lvl.gif);}
+.VIP-Guide ul{ margin-top:20px;}
+.VIP-Guide li{ clear:both; margin-bottom:55px;}
+.VIP-Guide li i{ width:44px; height:44px; float:left; background-image:url(../../../images/v2/icons/vip-guide-circle.png); text-align:center; line-height:44px; color:#fff; font-size:36px; font-style:normal; margin-right:20px;}
+.VIP-Guide li i{ _background-image:url(../../../images/v2/icons/vip-guide-circle.gif);}
+.VIP-Guide li p{ font-size:16px; color:#3f86e5; width:500px\9; float:left\9; _white-space:nowrap;}
+.VIP-Guide li h6{ font-weight:normal; font-size:20px; width:500px\9; float:left\9;}
+.VIP-Guide .VIP-go{ display:block; margin:0 auto; width:188px; height:46px; font-size:20px; color:#fff; text-align:center; line-height:46px; background-image:url(../../../images/v2/icons/vip-guide-go.png);}
+.VIP-Guide .VIP-go{ _background-image:url(../../../images/v2/icons/vip-guide-go.gif);}
+
+/*新增VIP获取*/
+.VIP-Reach{ width:764px; background-color:#fff;}
+.VIP-Reach q{ background-image:url(../../../images/v2/icons/times-l-gray.png);}
+.VIP-Reach q{ _background-image:url(../../../images/v2/icons/times-l-gray.gif);}
+.VIP-Reach .VIP-parts{ padding:45px 45px 25px;}
+.VIP-Reach .VIP-topic{ font-size:32px; margin-bottom:30px; color:#1562c8;}
+.VIP-Reach .VIP-topic span{ display:inline-block; width:180px; height:48px; font-size:24px; color:#fff; background-image:url(../../../images/v2/icons/vip-guide-lvl.png); vertical-align:middle; margin-left:10px; text-align:center; line-height:40px;}
+.VIP-Reach .VIP-topic span{ _background-image:url(../../../images/v2/icons/vip-guide-lvl.gif);}
+.VIP-Reach .VIP-hr{ margin-bottom:40px; font-size:18px; color:#525252; text-align:center; border-bottom:1px solid #9d9d9d; height:12px;}
+.VIP-Reach .VIP-hr span{ background-color:#fff; padding:0 20px;}
+.VIP-Reach .VIP-rates{ font-size:16px; color:#646464; line-height:20px;}
+.VIP-Reach .VIP-rates span{ display:inline-block; margin-right:30px;}
+.VIP-Reach .VIP-rates i{ display:inline-block; font-size:12px; color:#fff; background-color:#fc0; width:20px; text-align:center; font-style:normal; margin-right:5px;}
+.VIP-Reach .VIP-rates a{ float:right; color:#1562c8; text-decoration:underline;}
+.VIP-Reach .VIP-parts2{ padding:35px 45px 45px; background-color:#bfdaff; font-size:18px; color:#3d85e3;}
+.VIP-Reach ul{ margin-top:20px;}
+.VIP-Reach li{ clear:both; margin:35px 0;}
+.VIP-Reach li i{ width:44px; height:44px; float:left; background-image:url(../../../images/v2/icons/vip-guide-circle.png); text-align:center; line-height:44px; color:#fff; font-size:36px; font-style:normal; margin-right:20px;}
+.VIP-Reach li i{ _background-image:url(../../../images/v2/icons/vip-guide-circle.gif);}
+.VIP-Reach li p{ font-size:14px; color:#3f86e5; width:500px\9; float:left\9;}
+.VIP-Reach li h6{ font-weight:normal; font-size:18px; color:#1562c8; width:500px\9; float:left\9;}
+.VIP-Reach .VIP-code{ position:absolute; width:100px; text-align:center; font-size:14px; color:#525252; right:60px; bottom:120px;}
+.VIP-Reach li u{ color:#f60;}
+
+/*VIP2/3级的图片*/
+.VIP2{ width:674px; height:325px; background-image:url(../../../images/v2/vip2.jpg);}
+.VIP2 q{ background-image:url(../../../images/v2/icons/times-l.png);}
+.VIP2 q{ _background-image:url(../../../images/v2/icons/times-l.gif);}
+.VIP3{ width:674px; height:304px; background-image:url(../../../images/v2/vip3.jpg);}
+.VIP3 q{ background-image:url(../../../images/v2/icons/times-l.png);}
+.VIP3 q{ _background-image:url(../../../images/v2/icons/times-l.gif);}
+.VIP3 a{ display:block; width:84px; height:22px; position:absolute; left:513px; top:258px;}
+
+/*新增顶广告*/
+.Advertise{ margin-bottom:10px; height:80px; background-image:url(../../../images/v2/adv-ucenter.png);}
+.Advertise a{ display:block; height:80px; overflow:hidden; font-size:24px; color:#2188f6;}
+.Advertise q{ display:block; width:30px; height:30px; float:right;}
+.Advertise span{ display:block; margin:24px 0 0 270px;}
+.Advertise b{ font-weight:normal; color:#ff9c00;}
+
+/*复选框*/
+.Check { display:inline-block; width:16px;height:15px;background-image: url(../../../images/v2/icons/box2-empty.jpg);margin-right: 4px;}
+.Check.checked{background-image: url(../../../images/v2/icons/box2-checked.jpg);}
+.Check input{display:none;}

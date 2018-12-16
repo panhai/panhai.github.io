@@ -1,0 +1,298 @@
+﻿/* 整站通用样式 */
+* { margin: 0px; padding: 0px; font-family: Microsoft YaHei, Arial; word-break: break-all; }
+ul, ol, li { list-style: none; }
+q { quotes: none; }
+a { text-decoration: none; cursor: pointer; }
+a img { border: 0px; }
+.common { width: 1000px; margin: 0 auto; clear: both; }
+body { }
+input::-ms-clear { display: none; }
+:-moz-placeholder { color: #999; }
+::-moz-placeholder { color: #999; }
+:-ms-input-placeholder { color: #999 !important; }
+:focus { outline: none; }
+textarea { resize: none !important; }
+.clear { clear: both !important; float: none !important; }
+table { border-collapse: collapse; table-layout: fixed; }
+
+/*IE6 用absolute模拟fixed*/
+body { _background-image: url(about:blank);     /*用浏览器空白页面作为背景*/ _background-attachment: fixed;     /* prevent screen flash in IE6 确保滚动条滚动时，元素不闪动*/ }
+body { background-color: #f2f2f2; }
+.cur { color: #348ddf !important; }
+.not { color: #ff8600 !important; }
+
+/*头部*/
+.header { height: 133px; background-color: #fff; box-shadow: #eee 0 0 10px; }
+.header .header-in, .main { width: 1000px; margin: 0 auto; }
+.header .header-in { height: 92px; }
+.header .header-in .logo { width: 635px; height: 92px; float: left; }
+.header-in .logo a { display: inline-block; height: 92px; float: left; }
+.header-in .logo span { display: inline-block; padding-left: 10px; height: 46px; font-size: 20px; line-height: 46px; margin: 24px 0 0 10px; border-left: 1px solid #d0e1f5; color: #9ca4bb; }
+.header-in .header-top { width: 365px; float: right; margin-top: 18px; font-size: 14px; text-align: right; }
+.header-in .header-top a { padding: 0 4px; color: #999999; }
+.header-in .header-top a.cur { color: #ffff !important; }
+
+/*头部导航*/
+.header .header-nav { background-color: #187dd6; font-size: 16px; height: 41px; line-height: 41px; }
+.header .header-nav p { width: 1000px; margin: 0 auto; }
+.header .header-nav a { display: inline-block; color: #ffffff; padding: 0 22px; }
+.header .header-nav a.index { padding-left: 0; }
+.header .header-nav a.last { float: right; width: 126px; height: 30px; padding: 0; margin-right: 10px; margin-top: 6px; background-color: #ff7e00; line-height: 30px; text-align: center; border-radius: 5px; font-size: 14px; }
+.header .header-nav a.cur { color: #fff !important; background-color: #0f70c6; }
+.set-sign { float: left; width: 95px; height: 30px; line-height: 30px; text-align: center; padding: 2px 4px; margin-right: 6px; background-color: #e7f3fe; border: 1px solid #b8d7f4; color: #348ddf; }
+
+/*左右结构*/
+.main { margin-top: 20px; padding-bottom: 140px; overflow: hidden; }
+.main-l, .main-r { background-color: #ffffff; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; }
+.main-l { float: left; width: 200px; border: 1px solid #ececec; }
+.main-l h2, .main-l li { height: 51px; line-height: 51px; font-weight: normal; border-bottom: 1px solid #f2f2f2; }
+.main-l h2 { padding-left: 22px; background-color: #fafafa; font-size: 16px; cursor: pointer; }
+.main-l h2 i { display: inline-block; width: 10px; height: 7px; margin-left: 10px; background: url("../../../images/v2/icons/triangle-down-m.jpg") no-repeat center center; }
+.main-l li { width: 160px; margin: 0 auto; font-size: 14px; color: #555555; }
+.main-l li.cur a { color: #348ddf; }
+.main-l li.cur i { background: url("../../../images/v2/icons/School/main-l-bg-c.jpg") no-repeat center center; }
+.main-l li a { display: inline-block; width: 80%; color: #555555; }
+.main-l li i { display: inline-block; float: right; width: 6px; height: 51px; background: url("../../../images/v2/icons/School/main-l-bg.jpg") no-repeat center center; }
+.main-r { float: right; width: 732px; padding: 20px 24px 36px; font-size: 14px; color: #555555; border: 1px solid #ececec; }
+.main-r .main-r-t { margin-bottom: 20px; }
+.main-r .main-r-t a { color: #555555; margin-right: 12px; }
+
+/*班级信息*/
+.bj-info-l { float: left; }
+.bj-info-l .bj-info-btn { display: inline-block; width: 140px; height: 34px; line-height: 34px; text-align: center; background-color: #148cf1; cursor: pointer; color: #fff; }
+.bj-info-l .info-import { margin-left: 10px; }
+.bj-info .bj-info-t { height: 50px; width: 734px; border-bottom: 1px solid #f2f2f2; margin-bottom: 12px; }
+.bj-info .bj-info-t .bj-info-r { float: right; }
+.bj-info .bj-size { height: 30px; }
+.bj-info .bj-size a { width: 95px; height: 22px; margin-left: 16px; padding: 2px 4px; background-color: #e7f3fe; border: 1px solid #b8d7f4; color: #348ddf; }
+.bj-info-r .info-search input { display: inline-block; height: 34px; line-height: 34px; float: left; border: 1px solid #e7f3fe; border-right: none; }
+.bj-info-r .info-search .search { width: 222px; padding-left: 14px; }
+.bj-info-r .info-search .search-btn { width: 96px; height: 36px; background-color: #148cf1; color: #fff; }
+.bj-info-r .info-search .search-s { float: left; width: 74px; height: 34px; padding: 0 14px 0 12px; margin-right: 4px; line-height: 34px; border: 1px solid #e7f3fe; cursor: pointer; }
+.info-search .search-s i { display: inline-block; width: 6px; height: 34px; float: right; background: url("../../../images/v2/icons/School/main-l-bg-c.jpg") no-repeat center center; }
+.bj-info-m table thead { line-height: 50px; border-top: 1px solid #F2F2F2; border-bottom: 1px solid #F2F2F2; background-color: #fafafa; font-weight: bold; }
+.bj-info-m table thead td { text-align: center; }
+.bj-info tbody tr { border-bottom: 1px solid #F2F2F2; }
+.bj-info-m table td { line-height: 50px; text-align: center; }
+.bj-info-m table td.first { text-align: left; }
+.bj-info-m .bj-table td { padding-left: 24px; }
+.bj-info-m thead .bj-name { text-align: left; }
+.bj-info-m tbody td a { color: #148cf1; }
+
+/*学生管理*/
+.info-check { display: inline-block; margin-right: 4px; width: 16px; height: 16px; border: 1px solid #cacaca; border-radius: 1px; -ms-border-radius: 1px; vertical-align: sub; }
+.info-check input { display: none; }
+dl.Jurisdic { border: 0; }
+.Jurisdic dd { width: 88px; height: 64px; margin: -10px 0 0 10px; border: 1px solid #aad6ff; line-height: 33px; }
+.Jurisdic dd a { display: block; width: 100%; height: 33px; margin: 0 !important; color: #666666 !important; }
+.Jurisdic dt { border: 1px solid transparent; }
+.Jurisdic dt i { margin-right: -2px; background: url("../../../images/v2/icons/triangle-down-m.jpg") no-repeat center center; }
+.SELECT-on dt i { background: url("../../../images/v2/icons/triangle-top-m.jpg") no-repeat center center; }
+
+/*分页*/
+.bj-page { float: right; margin-top: 20px; margin-right: 50px; text-align: right; }
+.bj-page a { display: inline-block; width: 20px; height: 20px; float: left; text-align: center; color: #555555; }
+.bj-page .bj-page-l { margin-right: 12px; background: url('../../../images/v2/school/page-l.jpg') no-repeat; }
+.bj-page .bj-page-r { margin-left: 12px; background: url('../../../images/v2/school/page-r.jpg') no-repeat; }
+
+/*弹窗遮罩层样式*/
+.fixed { position: fixed; }
+.fixed-top { top: 0; left: 0; }
+
+/*下拉列表*/
+
+/* 自定义下拉列表 */
+.SELECT { border: 1px solid #cfcece; }
+.SELECT-on { position: relative; }
+
+/*列表头*/
+.SELECT dt { clear: both; padding: 0px 10px; font-size: 0px; }
+.SELECT dt * { display: inline-block; vertical-align: middle; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 14px; }
+.SELECT dt span { color: #a9a9a9; font-size: 14px; }
+
+/*浅字，仿placeholder属性*/
+.SELECT dt b { font-weight: normal; }
+
+/*深字，实际的内容*/
+.SELECT dt i { width: 10px; height: 7px; background: url(../../../images/v2/icons/triangle-down-m.jpg) no-repeat center center; }
+
+/*箭头*/
+.SELECT dt i { _overflow: hidden; _background-image: url(../../../images/v2/icons/chevron-down.gif); }
+.SELECT-on dt { position: relative; }
+.SELECT-on dt i { background-image: url(../../../images/v2/icons/triangle-top-m.jpg); _background-image: url(../../../images/v2/icons/chevron-up.gif); }
+
+/*列表体*/
+.SELECT dd { display: none; position: absolute; left: 0px; background-color: #fff; z-index: 2; border: 1px solid #f2f2f2; }
+.SELECT-on dd { display: block; width: 100%; }
+.SELECT dd a { color: #333; line-height: 30px; height: 30px; }
+.SELECT dd .tip { clear: both; line-height: 30px; font-size: 14px; color: #999; padding: 0px 10px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.SELECT  a { display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.SELECT  a:hover, .SELECT  a.cur, .SELECT  a.checked { background-color: #aad6ff; color: #148cf1 !important; }
+.SELECT dd.single a { clear: both; padding: 0px 10px; }
+.SELECT dd.empty, .SELECT-on dd.empty { display: none; }
+.SELECT dd a.checked { color: #148cf1 !important; background-color: #aad6ff; }
+
+/*弹窗主体样式*/
+.FullScreenPlugin { width: 100%; height: 100%; text-align: center; z-index: 66666; }
+.CENTERDIV { margin: 0 auto; background-color: #ffffff; }
+.CENTERTOPIC { height: 60px; padding: 20px 20px 0; line-height: 60px; font-size: 18px; color: #333333; cursor: pointer; }
+.CENTERTOPIC q { display: inline-block; float: right; width: 25px; height: 25px; background: url("../../../images/v2/icons/School/close.jpg") no-repeat; }
+.CENTERCONTENT { clear: both; text-align: left; padding: 0 42px 36px 42px; font-size: 14px; }
+
+/*各种尺寸*/
+.CenterTiny { width: 410px; }
+.CenterMiddle { width: 580px; }
+.CenterLong { width: 654px; }
+
+/*各个窗体样式*/
+
+/*导入模版*/
+.whyImport dd { color: #555555; line-height: 30px; }
+.whyImport dd input { display: none; }
+.whyImport .import-btn, .deleteBJ .delete-btn { width: 100%; height: 42px; margin-top: 20px; }
+.whyImport .import-excel, .whyImport .down-excel, .delete-btn input { display: inline-block; width: 153px; height: 42px; background-color: #52abf0; font-size: 16px; color: #ffffff; text-align: center; line-height: 42px; cursor: pointer; border: 0; }
+.whyImport .import-excel { margin-left: 10px; }
+
+/*输入学生信息*/
+.StudentInfo .info-txt { width: 310px; height: 42px; padding-left: 12px; border: 1px solid #cfcece; margin-bottom: 12px; }
+.StudentInfo .info-btn { width: 154px; margin: 10px auto 0; }
+.StudentInfo p { font-size: 14px; color: #ff8600; text-align: center; line-height: 1em; margin-top: 14px; }
+.StudentInfo .info-btn input { width: 153px; height: 42px; background-color: #52abf0; color: #ffffff; border: 0; cursor: pointer; }
+
+/*筛选学生*/
+.filter-s, .Sign-Set-in { position: relative; z-index: 2; color: #555; line-height: 40px; }
+.item li { clear: both; margin-bottom: 5px; }
+.item li .errorMsg { width: 250px; margin-left: 92px; clear: both; line-height: 20px; padding-left: 16px; background: url(../../../images/school/icons/tip-no.png) no-repeat left center; _background-iamges: url(../../../images/school/icons/tip-no.gif); font-size: 12px; color: #ff8600; }
+.item li>span { float: left; width: 80px; font-size: 16px; line-height: 30px; }
+.Sign-Set-in li>span { text-align: right; }
+.item li dl { float: left; }
+.filter-s li dl dt { width: 222px; }
+.item li dl dt { line-height: 30px; height: 30px; }
+.item li dl dt b { line-height: 30px; color: #555555; }
+.item li dl dd { box-sizing: border-box; border: 1px solid #cfcece; margin-top: -1px; }
+.item li dl dt i { float: right; line-height: 30px; height: 30px; }
+.item a { display: block; line-height: 33px; padding-left: 10px; }
+
+/*学生签到情况*/
+.date-ipt { float: left; position: relative; }
+.date-ipt .date, .date-ipt .date2 { width: 124px; height: 34px; line-height: 34px; padding-left: 16px; color: #555555; font-size: 14px; border: 1px solid #e7f3fe; }
+.date-ipt .date2 { width: 100px; padding-left: 10px; color: #999; border-color: #f2f2f2; }
+.date-ipt .data-icon { background: url("../../../images/v2/icons/triangle-down-blue.gif") no-repeat; }
+.date-ipt i { position: absolute; right: 10px; top: 12px; width: 12px; height: 10px; background: url(../../../images/v2/icons/triangle-down-m.jpg) no-repeat; }
+
+/*签到详情*/
+.Sign-m { margin-bottom: 12px; }
+.Sign-in td { border: 1px solid #f2f2f2; }
+.Sign-item-l { background-color: #fafafa; text-align: center; }
+.Sign-item-l .info-check { margin: 0; margin-right: 4px; }
+.Sign-item-c ul { margin-bottom: -1px; }
+.Sign-item-c ul li { padding-left: 10px; line-height: 30px; height: 30px; border-bottom: 1px solid #f2f2f2; font-size: 12px; }
+.Sign-item-c .not-sign { height: 46px; line-height: 46px; text-align: center; color: #bcbcbc; }
+.Sign-item-c .not-sign .Add-Sign { cursor: pointer; }
+.Sign-date { float: left; }
+.Sign-date { width: 360px; height: 30px; }
+.Sign-date p { display: inline-block; max-width: 13em; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.Sign-date span { display: inline-block; overflow: hidden; }
+.Sign-cz { width: 137px; color: #6bb8f8; text-align: center; float: right; }
+.Sign-cz span { clear: both; margin-right: 8px; cursor: pointer; }
+.Sign-date .tip-cg, .Sign-date .tip-sb, .Sign-date .tip-wt { overflow: hidden; display: inline-block; width: 20px; height: 19px; vertical-align: super; }
+.Sign-date .tip-cg { background: url("../../../images/v2/icons/School/u76.jpg") no-repeat; }
+.Sign-date .tip-sb { background: url("../../../images/v2/icons/School/u88.jpg") no-repeat; }
+.Sign-date .tip-wt { background: url("../../../images/v2/icons/School/u104.jpg") no-repeat; }
+
+/*全选*/
+.full-sign .info-check { margin-left: 0; }
+.full-sign .full-add { cursor: pointer; }
+.bj-info-m .full-sign { margin-top: 16px; }
+.bj-info-m .full-yes, .bj-info-m .full-on { cursor: pointer; }
+.check { background: url("../../../images/v2/CCenter/dg.jpg") no-repeat center center; }
+
+/*添加签到弹窗*/
+.Sign-Set .CENTERTOPIC { position: relative; padding: 0; }
+.Sign-Set .CENTERTOPIC q { position: absolute; top: 16px; right: 16px; }
+.Sign-Set .CENTERCONTENT { padding-bottom: 10px; }
+.Sign-Set #MapContainer { height: 217px; }
+.Sign-full { width: 400px; }
+.Sign-middle { width: 350px; }
+.Sign-xl { width: 186px; height: 30px; float: left; }
+.Sign-Set-in li>span { margin-right: 12px; min-height: 30px; }
+.Sign-Set .splice { display: inline-block; float: left; font-weight: normal; color: #cfcece; line-height: 30px; margin: 0 5px; }
+.Sign-Set .Sign-date-l { width: 176px; height: 30px; float: left; padding-left: 10px; margin-right: 0; border: 1px solid #cfcece; }
+.Sign-Set .Sign-date-in { position: relative; width: 176px; }
+.Sign-Set .Sign-date-in i { position: absolute; right: 0; display: inline-block; line-height: 42px; height: 42px; width: 10px; background: url(../../../images/v2/icons/triangle-down-m.jpg) no-repeat center center; }
+.Sign-Set .location { color: #348ddf; font-size: 14px; font-style: normal; display: inline-block; width: 50px; text-align: center; cursor: pointer; }
+.Sign-Set .text { width: 380px; height: 30px; display: inline-block; vertical-align: initial; border: 0; }
+.Sign-Set .SELECT {  /*  border: 0;*/ }
+.Sign-Set .SELECT dt {  /*  padding:0;*/ }
+.Sign-Set .Sign-time dd { max-height: 150px; overflow-y: auto; }
+.Sign-Set .addressVal { width: 335px; height: 30px; padding-left: 10px; border: 1px solid #cfcece; }
+.address { line-height: 33px; }
+.Sign-btn { margin: 10px auto 0; width: 324px; }
+.Sign-btn .confirm-btn, .Sign-btn .cancel-btn { width: 153px; height: 42px; background-color: #52abf0; color: #fff; border: 0; font-size: 16px; }
+.Sign-btn .cancel-btn { margin-left: 12px; }
+.bj-Sign .Sign-add { text-align: center; }
+.bj-Sign .Sign-add img { vertical-align: sub; margin-right: 5px; }
+.bj-Sign .Sign-add span { cursor: pointer; }
+
+/*查看签到*/
+.cursor { color: #3ec294; }
+.Sign-CK dt { text-align: left; font-size: 14px; height: 30px; }
+.Sign-CK dd { padding: 0 25px 25px; overflow: hidden; }
+.Sign-CK .See-info-l { float: left; width: 420px; }
+.Sign-CK .See-info-r { float: left; height: 44px; line-height: 44px; }
+.Sign-CK .stu-addres { display: inline-block; max-width: 10em; height: 40px; font-size: 18px; font-weight: bold; color: #333; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.Sign-CK .stu-name { padding-left: 24px; margin-left: 4px; background: url("../../../images/v2/icons/School/u314.jpg") no-repeat center left; }
+.See-info-l.err .stu-name { color: #ff0900; background-image: url("../../../images/v2/icons/School/u315.jpg"); }
+.See-info-l.err .cursor { color: #ff0900; }
+.Sign-CK .See-info-l span { height: 44px; line-height: 47px; float: left; }
+.Sign-CK span em { color: #ff8600; font-style: normal; }
+.Sign-CK .See-info-r { position: relative; z-index: 2; }
+.Sign-CK .See-info-r span { color: #348ddf; cursor: pointer; }
+.Sign-CK .See-info-r span i { display: inline-block; width: 10px; height: 10px; background: url(../../../images/v2/icons/triangle-down-blue.png) no-repeat; }
+.Sign-CK .See-info-r .See-ly { margin-left: 10px; }
+.Sign-CK .Message { position: absolute; top: 42px; left: -420px; width: 600px; height: 42px; background-color: #52abf0; filter: alpha(opacity=85); opacity: 0.85; zoom: 1; color: #fff; font-size: 14px; }
+.Sign-CK .Message p { padding-left: 12px; }
+.Sign-CK .Message  i { position: absolute; top: 12px; right: 12px; width: 13px; height: 13px; background: url('../../../images/v2/icons/School/close.png') no-repeat; cursor: pointer; }
+
+/*学生筛选*/
+.Search .Sign-btn { width: 166px; text-align: left; margin-top: 6px; }
+
+/*签到设置表格*/
+.Sign-Manage .Sign-name { text-align: left; padding-left: 24px; }
+.Sign-Manage tbody td { text-align: center; max-width: 135px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.txtL { padding-left: 24px; text-align: left !important; }
+.ADDRESS { width: 115px; }
+.ADDRESS dd { width: 200px; max-height: 350px; overflow: auto; }
+.ADDRESS dd a { width: 80px; float: left; }
+
+/*学生位置地图*/
+.std-City, .std-Area, .std-Class { float: left; width: 92px; height: 34px; line-height: 34px; position: relative; border: 1px solid #f2f2f2; }
+.std-Class { width: 112px; margin-left: 10px; }
+.std-City a, .std-Area a, .std-Class a { padding-left: 10px; }
+.std-City dt i, .std-Area dt i, .std-Class dt i { position: absolute; top: 15px; right: 10px; }
+.std-City { margin-left: 10px; }
+.date-ipt .data-icon2 { top: 15px; }
+.w138 { width: 178px !important; border-right: 1px solid #e7f3fe !important; }
+.BMapLabel { width: 100px; }
+
+/*进度条*/
+.loading p, .analysis p { padding-bottom: 30px; text-align: center; font-size: 14px; color: #333333; }
+.loading .loading-bg, .analysis .loading-bg { width: 226px; height: 21px; padding: 0 12px; margin: 14px auto 22px; background: url(../../../images/school/loading-bg.jpg) no-repeat; position: relative; }
+.loading .loading-in, .analysis .loading-in { position: relative; width: 0; height: 21px; background-color: #ff9900; }
+.analysis .loading-in { background-color: #66cc33; }
+.loading .loading-bg i, .analysis .loading-bg i { position: absolute; left: -12px; width: 12px; height: 21px; background: url(../../../images/school/loading-orange.png) no-repeat left top; _background-image: url(../../../images/school/loading-orange.gif); }
+.analysis .loading-bg i { background-image: url(../../../images/school/loading-green.png); _background-image: url(../../../images/school/loading-green.gif); }
+.loading-in em, .analysis em { position: absolute; right: -12px; width: 12px; height: 21px; background: url(../../../images/school/loading-orange.png) no-repeat right top; _background-image: url(../../../images/school/loading-orange.gif); }
+.analysis em { background-image: url(../../../images/school/loading-green.png); _background-image: url(../../../images/school/loading-green.gif); }
+.import-ok p { color: #333; font-size: 18px; text-align: center; }
+.import-ok .btn { margin: 44px 0 16px 0; text-align: center; }
+.import-ok .btn input { display: inline-block; width: 153px; height: 42px; background-color: #52abf0; font-size: 16px; color: #ffffff; text-align: center; line-height: 42px; cursor: pointer; border: 0; }
+.not, .brak { color: #999999; border-bottom: 0 !important; }
+.not p { color: #999999; }
+.brak a { display: inline-block; width: 128px; height: 34px; line-height: 34px; background-color: #fafafa; border: 1px solid #e8e8e8; font-size: 14px; color: #555555 !important; }
+
+/*Map*/
+#MapContainer { width: 510px; height: 274px; }
+#MapContainer2 { width: 600px; height: 320px; }
+#MapContainer3 { width: 730px; height: 375px; margin-top: 14px; border: 1px solid #e8e8e8; }
+.BMap_bubble_title { color: #348ddf; }

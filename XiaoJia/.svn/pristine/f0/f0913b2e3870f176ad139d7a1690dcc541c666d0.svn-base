@@ -1,0 +1,8 @@
+﻿/* styles for validation helpers */
+.field-validation-error { color: #b94a48 !important; font-size:12px; margin-top:5px; }
+.field-validation-error span { color: #b94a48 !important; }
+.field-validation-valid { display: none; }
+input.input-validation-error { border: 1px solid #b94a48 !important; }
+input[type="checkbox"].input-validation-error { border: 0 none; }
+.validation-summary-errors { color: #b94a48 !important; }
+.validation-summary-valid { display: none; }

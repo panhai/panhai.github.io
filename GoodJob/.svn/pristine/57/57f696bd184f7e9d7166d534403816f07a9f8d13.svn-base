@@ -1,0 +1,328 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>企业中心-开通招聘服务-填写</title>
+<link rel="stylesheet" type="text/css" href="../css/v2/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/CCenter/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/CCenter/open-service.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/CCenter/edit.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/plugin/JobAndProf.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/plugin/CitiesPicker.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/plugin/UploadThumb.css">
+<style>
+.logo,.licence{ display:none;}
+</style>
+</head>
+
+<body>
+<div class="HEADER"><div class="common">
+	<div class="TOP-LOGO"><a href="#"><img src="../images/v2/logo-s.jpg" width="119" height="62"><img src="../images/v2/openservice.gif" width="170" height="27"></a></div>
+    <div class="TOP-TOOLS">
+    	Admin, <a href="#">退出</a>&nbsp;&nbsp;&nbsp;<a href="#">个人中心</a>&nbsp;&nbsp;&nbsp;<a href="#">反馈</a>&nbsp;&nbsp;&nbsp;<a href="#">HR帮助</a>
+    </div>
+</div></div>
+
+<div class="Form">
+	<div class="TOPIC">填写企业资料</div>
+    <h1>请务必真实完整填写以下内容，提交后我们将在最短时间内进行审核!</h1>
+    <table class="FormTable">
+    	<thead><tr><th width="120"></th><td width="260"></td><th width="120"></th><td width="260"></td></tr></thead>
+        <tbody>
+        	<tr><td colspan="4">
+            	<div class="logo">
+                	<img src="../images/v2/job-logo.jpg">
+                    <p class="black5">点击更换公司logo<br>190px*190px&nbsp;&nbsp;小于2M</p>
+                </div>
+            	<div class="upload" data-url="logo">
+                	<strong>上传企业LOGO</strong>
+                    <span>支持jpg png jif格式，图片小于2M</span>
+                </div>
+                <span class="loading"><samp style="width:50%">UPLOADING...</samp></span>
+            </td></tr>
+        	<tr><th>公司全称：</th><td colspan="3">
+            	<input type="text" class="text t-l" placeholder="请输入公司全称,必须与营业执照中企业名称一致">
+                <code class="form-tip successMsg"></code>
+                <code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>
+            </td></tr>
+        	<tr><th>公司简称：</th><td colspan="3">
+            	<input type="text" class="text t-l" placeholder="请输入公司简称,在职位信息中显示">
+                <code class="form-tip successMsg"></code>
+                <code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>
+            </td></tr>
+        	<tr><td colspan="4">
+            	<div class="licence">
+                	<img src="../images/v2/job-logo.jpg">
+                    <p class="black5">点击更换营业执照<br>190px*190px&nbsp;&nbsp;小于10M</p>
+                </div>
+            	<div class="upload" data-url="licence">
+                	<strong>上传营业执照</strong>
+                    <span>支持jpg png jif格式，图片小于10M</span>
+                </div>
+                <span class="loading"><samp style="width:50%">UPLOADING...</samp></span>
+            </td></tr>
+        	<tr><th>公司网址：</th><td colspan="3">
+            	<input type="text" class="text t-l" placeholder="请输入公司网址">
+                <code class="form-tip successMsg"></code>
+                <code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>
+            </td></tr>
+            <tr>
+            	<th width="120">所在城市：</th>
+                <td width="260">
+                    <dl class="CitiesPicker SELECT s-h Cities ADDRESS" data-matches="5" data-init='egnore' data-child=".Districts">
+                        <input type="hidden">
+                        <dt><span><input type="text" value="" data-list="arrow"></span><i></i></dt>
+                        <dd>
+                            <div class="CitiesHot">
+                                <h5>热门城市（可直接选择城市或输入城市拼音/简拼）</h5>
+                                <div class="cities">
+                                    <a data-id=''>不限</a><a data-id="271000">广州</a><a data-id="271200">深圳</a><a data-id="171000">上海</a><a data-id="272600">东莞</a><a data-id="271500">佛山</a><a data-id="101000">北京</a><a data-id="261000">长沙</a><a data-id="251000">武汉</a><a data-id="191000">杭州</a><a data-id="181000">南京</a><a data-id="211000">福州</a><a data-id="272700">中山</a><a data-id="272000">惠州</a><a data-id="271300">珠海</a><a data-id="201000">合肥</a><a data-id="301000">成都</a><a data-id="231000">济南</a><a data-id="271700">湛江</a><a data-id="262200">娄底</a><a data-id="261100">株洲</a><a data-id="261900">郴州</a><a data-id="271100">韶关</a><a data-id="311000">贵阳</a><a data-id="261300">衡阳</a><a data-id="221000">南昌</a><a data-id="301900">乐山</a><a data-id="211400">泉州</a><a data-id="302000">南充</a><a data-id="261200">湘潭</a><a data-id="241000">郑州</a><a data-id="302300">广安</a><a data-id="301500">绵阳</a><a data-id="301400">德阳</a><a data-id="211100">厦门</a><a data-id="271600">江门</a><a data-id="111000">天津</a><a data-id="331000">西安</a><a data-id="272200">汕尾</a><a data-id="272300">河源</a><a data-id="391200">桂林</a><a data-id="181100">无锡</a><a data-id="251300">宜昌</a>
+                                </div>
+                            </div>
+                            <div class="CitiesQuery">
+                                <div class="tip">d，若缩小范围，请输入全拼</div>
+                                <div class="matches" data-list="datas">
+                                    <!--<a data-id="">广东</a>-->
+                                </div>
+                            </div>
+                        </dd>
+                    </dl>
+                    <dl class="SELECT Districts s-h ADDRESS" data-parent=".Cities" data-init="true" data-unlimited="true">
+                        <input type="hidden">
+                        <dt><span></span><i></i></dt>
+                        <dd class="triple normal">
+                        </dd>
+                    </dl>
+                    <code class="form-tip successMsg"></code>
+                    <code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>
+                </td>
+                <th width="120">公司规模：</th>
+                <td width="260">
+                    <dl class="SELECT s-m">
+                        <input type="hidden">
+                        <dt><span></span><i></i></dt>
+                        <dd class="single normal">
+                            <a data-id="">不限</a>
+                            <a data-id="1">少于50人</a>
+                            <a data-id="2">50-100人</a>
+                            <a data-id="3">100-500人</a>
+                            <a data-id="4">500-1000人</a>
+                            <a data-id="5">1000以上</a>
+                        </dd>
+                    </dl>
+                    <code class="form-tip successMsg"></code>
+                    <code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>
+                </td>
+            </tr>
+            <tr>
+            	<th width="120">公司行业：</th>
+                <td width="260">
+                    <dl class="SELECT filter-profs s-m" data-delay="1000">
+                        <input type="hidden" id="wantSubjects">
+                        <dt class="blue"><span></span><i></i></dt>
+                        <dd class="FilterProfs blue">
+                        <table>
+                            <tbody class="SELECT-CHOICES"><!--由JS生成--></tbody>
+                        </table>
+                        </dd>
+                    </dl>
+                    <code class="form-tip successMsg"></code>
+                    <code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>
+                </td>
+                <th width="120">公司性质：</th>
+                <td width="260">
+                    <dl class="SELECT s-m">
+                        <input type="hidden">
+                        <dt><span></span><i></i></dt>
+                        <dd class="single normal">
+                            <a data-id="">不限</a>
+                            <a data-id="1">私营</a>
+                            <a data-id="2">国有</a>
+                            <a data-id="3">股份制</a>
+                            <a data-id="4">外资</a>
+                            <a data-id="5">合资</a>
+                            <a data-id="6">事业单位</a>
+                            <a data-id="7">政府机关</a>
+                            <a data-id="8">非盈利机构</a>
+                            <a data-id="9">其它</a>
+                        </dd>
+                    </dl>
+                    <code class="form-tip successMsg"></code>
+                    <code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>
+                </td>
+            </tr>
+            <tr>
+            	<th width="120">发展阶段：</th>
+                <td width="260">
+                    <dl class="SELECT s-m">
+                        <input type="hidden">
+                        <dt><span></span><i></i></dt>
+                        <dd class="single normal">
+                            <a data-id="1">上市公司</a>
+                            <a data-id="2">初创期</a>
+                            <a data-id="3">发展期</a>
+                            <a data-id="4">成熟期</a>
+                        </dd>
+                    </dl>
+                    <code class="form-tip successMsg"></code>
+                    <code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>
+                </td>
+                <th width="120">公司邮箱：</th>
+                <td width="260">
+                	<dl class="SELECT s-m">
+                        <dt>
+                            <span><input type="text" id="email" class="EMAILS" data-list="arrow" placeholder="请输入公司邮箱"></span>
+                        </dt>
+                        <dd class="single normal"><div data-list='datas' class="matches"></div></dd>
+                    </dl>
+                    <code class="form-tip successMsg"></code>
+                    <code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>
+                </td>
+            </tr>
+            <tr><th>公司地址：</th><td colspan="3">
+                <dl class="SELECT AddressDetail" data-placeholder="请输入详细地址">
+                    <dt><span><input type="text" id="company_address" class="COMPANYADDRESS" data-list="arrow"></span></dt>
+                    <dd class="normal">
+                        <div class="matches" data-list="datas"></div>
+                    </dd>
+                </dl>
+            	<!--<input type="text" class="text t-m AddressDetail" placeholder="请输入详细地址">-->
+                <input type="button" class="btn btn-addup Locate" value="定位">
+                <code class="form-tip successMsg"></code>
+                <code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>
+            </td></tr>
+        </tbody>
+    </table>
+    <table class="OtherTable">
+		<tr><td width="720"><small>如果定位失败或者出错，请拖动地图，并在正确位置单机右键，选择"在此添加标注"进行定位!</small></td></tr>
+		<tr><td><div id="MapContainer"></div></td></tr>
+    </table>
+    <table class="FormTable">
+        <tr><th width="110">福利标签：</th><td>
+            <div class="Welfares">
+                <label class="checked"><input type="checkbox" name="welfares" checked>五险一金</label>
+                <label><input type="checkbox" name="welfares">年底双薪</label>
+                <label><input type="checkbox" name="welfares">绩效奖金</label>
+                <label><input type="checkbox" name="welfares">绩效奖级</label>
+                <label><input type="checkbox" name="welfares">高温补贴</label>
+                <label><input type="checkbox" name="welfares">技能培训</label>
+                <label><input type="checkbox" name="welfares">年底分红</label>
+            </div>
+            <code class="form-tip successMsg"></code>
+            <code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>
+            <input type="hidden" class="WelfaresAddition">
+            <div class="WelfaresAddup"></div>
+        </td></tr>
+        <tr><th>&nbsp;</th><td>
+            <input type="text" class="text t-m WelfareInput" placeholder="请最多增加三个福利,字数限制为10字以内">
+            <input type="button" class="btn btn-addup WelfareSubmit" value="添加福利">
+        </td></tr>
+    </table>
+    <table class="OtherTable">
+        <tr><td><h2>公司介绍<small>（可简单介绍公司的主要业务、现状等内容，以提高招聘效率）</small></h2></td></tr>
+        <tr><td>
+        	<textarea placeholder="（请简单介绍公司的基本信息，如主要业务、经营范围、公司现状等内容，以提高效率。）"></textarea>
+            <code class="form-tip successMsg"></code>
+            <code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>
+            <span class="editorTip">鼠标放在上边位置↑可调节编辑器高度</span>
+        </td></tr>
+        <tr><td><h2>企业相册<small>（可上传公司的办公环境、活动照片、团队照片等内容，每张需小于10M）</small></h2></td></tr>
+        <tr><td width="720"><!--一直都有八个-->
+        	<div class="figure"><img src="../images/v2/pics/1.jpg" width="158" height="118"><p></p><q></q></div>
+        	<div class="figure"><p></p><span><samp style="width:50%">UPLOADING...</samp></span></div>
+        	<div class="figure"><img src="../images/v2/pics/3.jpg" width="158" height="118"><p></p><q></q></div>
+        	<div class="figure"><p></p><span><samp style="width:30%">UPLOADING...</samp></span></div>
+        	<div class="figure"><p></p><span><samp style="width:20%">UPLOADING...</samp></span></div>
+        	<div class="figure"><img src="../images/v2/pics/6.jpg" width="158" height="118"><p></p><q></q></div>
+        	<div class="figure"><p></p><span><samp style="width:60%">UPLOADING...</samp></span></div>
+        	<div class="figure"><p></p><span><samp style="width:80%">UPLOADING...</samp></span></div>
+        </td></tr>
+        <tr><td><h2>联系方式</h2></td></tr>
+    </table>
+    <table class="FormTable tail"><tbody>
+        <tr>
+            <th width="120">联系人：</th><td width="260">
+                <input type="text" class="text t-s" placeholder="请输入企业联系人姓名">
+                <code class="form-tip successMsg"></code>
+                <code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>
+            </td>
+            <th width="120">联系电话：</th><td width="260">
+                <input type="text" class="text t-s" placeholder="请输入企业联系人电话">
+                <code class="form-tip successMsg"></code>
+                <code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>
+            </td>
+        </tr>
+        <tr><td colspan="4"><input type="button" class="submit" value="保存"></td></tr>
+    </tbody></table>
+</div>
+
+<table class="FullScreenPlugin fixed fixed-top CenterDivContainer "><tr><td>
+    <dl class="CENTERDIV CenterLarge Upload " data-active=".logo,.upload,.licence,.figure p">
+        <dt class="CENTERTOPIC"><b></b><q></q></dt>
+        <dd class="CENTERCONTENT">
+        	<table class="ThumbClipping">
+            	<caption>
+                	<input type="file" id="LogoUpload">
+                    <label for="LogoUpload"></label>
+                    <div class="LogoProgress"><span style="width:20%">20%</span></div>
+                </caption>
+                <tr>
+                    <td width="340">
+                    	<input type="hidden" class="clipAttrs" value="width:273,height:273,ratio:0.70,x:268,y:267">
+                        <small>支持JPG、PNG、GIF格式的图片，文件小于<b class="filesize">2</b>M</small>
+                        <div class="primary">
+                            <div class="top cover"></div>
+                            <div class="left cover"></div>
+                            <div class="view"><img src="../images/v2/fruits.png"></div>
+                            <div class="right cover"></div>
+                            <div class="bottom cover"></div>
+                        </div>
+                        <div class="slider">
+                            <sub></sub>
+                            <div class="role"><b></b></div>
+                            <sup></sup>
+                        </div>
+                    </td>
+                    <td width="30">&nbsp;</td>
+                    <td width="200">
+                        <div class="thumbs">
+                            <div class="thumb large" data-ratio="1"></div>
+                            <!--<div class="thumb middle" data-ratio="0.5"></div>
+                            <div class="thumb small" data-ratio="0.25"></div>-->
+                        </div>
+                        <small>画像尺寸190*190</small>
+                    </td>
+                </tr>
+                <tr><td class="CENTERBTNS">
+                	<input type="button" class="submit" value="确定">
+                	<input type="button" class="reset" value="取消">
+                </td></tr>
+            </table>
+		</dd>
+    </dl>
+</td></tr></table>
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/v2/all.js"></script>
+<script src="../js/plugin/raphael.js"></script>
+<script src="../js/area.js"></script>
+<script src="../js/effect/correct.js"></script>
+<script src="../js/plugin/CitiesPicker.js"></script>
+<script src="../js/plugin/Addresses.js"></script>
+<script src="../js/subjects.js"></script>
+<script src="../js/plugin/EmailTip.js"></script>
+<script src="http://api.map.baidu.com/api?v=2.0&ak=OlGzoCwcKN9OvM16T9RnFwOl"></script>
+<script src="../js/plugin/BaiduMap.js"></script>
+<script src="../js/v2/CCenter/welfares.js"></script>
+<script src="../js/effect/bg.js"></script>
+<script src="../js/v2/CCenter/edit.js"></script>
+<script src="../js/plugin/CenterDiv.js"></script>
+<script src="../js/plugin/upload_thumb.js"></script>
+<script src="../js/plugin/AddressTip.js"></script>
+<script type="text/javascript">
+    var districts = $(".CitiesPicker").next(".SELECT").hide();
+    $(".CitiesPicker dt input").change(function(event) {
+        this.value !== 0 ? districts.show() : districts.hide();
+    });
+</script>

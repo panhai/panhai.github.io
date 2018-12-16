@@ -1,0 +1,926 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>好工作-职位详情</title>
+<link rel="stylesheet" type="text/css" href="css/v2/all.css">
+<link rel="stylesheet" type="text/css" href="css/v2/web.css">
+<link rel="stylesheet" type="text/css" href="css/v2/job.css">
+<link rel="stylesheet" type="text/css" href="css/v2/plugin/CitiesPicker.css">
+<link rel="stylesheet" type="text/css" href="css/v2/plugin/MapThumb.css">
+</head>
+
+<body>
+<div class="HEAD">
+<div class="HEADER common">
+	<div class="TOP-LOGO"><a href="index-new.html"><img src="images/v2/logo.jpg" width="177" height="91"></a></div>
+    <div class="TOP-SEARCH">
+    	<div class="TOP-SEARCH-BAR">
+            <dl class="TOP-SEARCH-KEY SELECT" data-matches="10">
+            	<input type="hidden">
+                <dt><input class="TOP-SEARCH-INPUT KEY-GUIDANCE" data-init="true" type="text" data-list="arrow" data-holdway="image"></dt>
+            	<dd class="normal single">
+                	<div class="tip">找不到符合【老板】的职位</div>
+                    <div class="matches" data-list="datas">
+                        <!--<a href="#" data-id="">客服经理</a>-->
+                    </div>
+                </dd>
+            </dl>
+            <dl class="TOP-CitiesPicker CitiesPicker SELECT" data-matches="5">
+            	<input type="hidden">
+                <dt><span><input type="text" value="广州" data-list="arrow"></span><i></i></dt>
+                <dd>
+                    <div class="CitiesHot">
+                        <h5>热门城市（可直接选择城市或输入城市拼音/简拼）</h5>
+                        <div class="cities">
+                            <a data-id="271000">广州</a><a data-id="271200">深圳</a><a data-id="171000">上海</a><a data-id="272600">东莞</a><a data-id="271500">佛山</a><a data-id="101000">北京</a><a data-id="261000">长沙</a><a data-id="251000">武汉</a><a data-id="191000">杭州</a><a data-id="181000">南京</a><a data-id="211000">福州</a><a data-id="272700">中山</a><a data-id="272000">惠州</a><a data-id="271300">珠海</a><a data-id="201000">合肥</a><a data-id="301000">成都</a><a data-id="231000">济南</a><a data-id="271700">湛江</a><a data-id="262200">娄底</a><a data-id="261100">株洲</a><a data-id="261900">郴州</a><a data-id="271100">韶关</a><a data-id="311000">贵阳</a><a data-id="261300">衡阳</a><a data-id="221000">南昌</a><a data-id="301900">乐山</a><a data-id="211400">泉州</a><a data-id="302000">南充</a><a data-id="261200">湘潭</a><a data-id="241000">郑州</a><a data-id="302300">广安</a><a data-id="301500">绵阳</a><a data-id="301400">德阳</a><a data-id="211100">厦门</a><a data-id="271600">江门</a><a data-id="111000">天津</a><a data-id="331000">西安</a><a data-id="272200">汕尾</a><a data-id="272300">河源</a><a data-id="391200">桂林</a><a data-id="181100">无锡</a><a data-id="251300">宜昌</a>
+                        </div>
+                    </div>
+                    <div class="CitiesQuery">
+                        <div class="tip">d，若缩小范围，请输入全拼</div>
+                        <div class="matches" data-list="datas">
+                            <!--<a data-id="" href="#">广东</a>-->
+                        </div>
+                    </div>
+                </dd>
+            </dl>
+            <input class="TOP-SUBMIT" type="submit" value="好工作">
+        </div>
+        <div class="TOP-HOTKEYS">
+            热门搜索：<a href="#">服务员</a>     <a href="#">送餐员</a>     <a href="#">健身教练</a>    <a href="#">保姆</a>    <a href="#">月嫂</a>     <a href="#">高级技工</a>     <a href="#">淘宝美工</a>
+        </div>
+    </div>
+    <div class="TOP-LOGIN">
+    	<a href="#">登录</a> |
+        <a href="#">注册</a>
+    </div>
+</div>
+
+<div class="NAV">
+	<div class="common">
+        <dl class="NAV-HEAD">
+            <dt class="NAV-HEAD-ROOT"><span>职位分类</span><i></i></dt>
+            <dd class="NAV-HEAD-MENU hidden">
+                <a href="#" class="menu"><h3>生活　服务</h3></a>
+                <ul class="NAV-HEAD-SUBMENU">
+                    <li>
+                        <h4><a href="#">餐饮</a></h4>
+                        <p><a href="#">服务员</a> | <a href="#">送餐员</a> | <a href="#">配菜/打荷</a> | <a href="#">厨师/厨师长</a> | <a href="#">后厨传菜员</a> | <a href="#">茶艺师</a> | <a href="#">预订员</a> | <a href="#">迎宾/接待</a> | <a href="#">大堂经理/领班</a> | <a href="#">餐饮管理</a> | <a href="#">洗碗工</a> | <a href="#">咖啡师</a> | <a href="#">面点师</a> | <a href="#">预订员</a> | <a href="#">学徒</a> | <a href="#">杂工</a></p>
+                    </li>
+                    <li>
+                        <h4><a href="#">家政保洁/保安</a></h4>
+                        <p><a href="#">保洁</a> | <a href="#">保姆</a> | <a href="#">月嫂</a> | <a href="#">育婴师/保育师</a> | <a href="#">洗衣工</a> | <a href="#">钟点工</a> | <a href="#">保安</a> | <a href="#">护工</a> | <a href="#">送水工</a></p>
+                    </li>
+                    <li>
+                        <h4><a href="#">美容/美发</a></h4>
+                        <p><a href="#">美容导师</a> | <a href="#">美发助理/学徒</a> | <a href="#">洗头工</a> | <a href="#">发型师</a> | <a href="#">美容师</a> | <a href="#">宠物美容</a> | <a href="#">美容/瘦身顾问</a> | <a href="#">美甲师</a> | <a href="#">化妆师</a> | <a href="#">媒体师</a> | <a href="#">美容店长</a> | <a href="#">彩妆培训师</a></p>
+                    </li>
+                    <li>
+                        <h4><a href="#">酒店/旅游</a></h4>
+                        <p><a href="#">酒店前台</a> | <a href="#">客户服务员</a> | <a href="#">楼面经理</a> | <a href="#">行李员</a> | <a href="#">救生员</a> | <a href="#">旅游顾问</a> | <a href="#">酒店管理</a> | <a href="#">订票员</a> | <a href="#">计调签证专员</a> | <a href="#">导游</a></p>
+                    </li>
+                    <li>
+                        <h4><a href="#">娱乐/休闲</a></h4>
+                        <p><a href="#">影视/后期制作</a> | <a href="#">主持人</a> | <a href="#">调酒师</a> | <a href="#">音效师</a> | <a href="#">酒吧服务员</a> | <a href="#">摄影师/摄像师</a> | <a href="#">灯光师</a> | <a href="#">配音员</a> | <a href="#">放映员</a> | <a href="#">娱乐厅服务员</a> | <a href="#">礼仪/迎宾</a></p>
+                    </li>
+                    <li>
+                        <h4><a href="#">保健/按摩</a></h4>
+                        <p><a href="#">按摩师</a> | <a href="#">足疗师</a> | <a href="#">搓澡工</a> | <a href="#">针灸推拿</a></p>
+                    </li>
+                    <li>
+                        <h4><a href="#">运动/健身</a></h4>
+                        <p><a href="#">健身教练</a> | <a href="#">瑜伽教练</a> | <a href="#">舞蹈老师</a> | <a href="#">游泳教练</a> | <a href="#">台球教练</a> | <a href="#">高尔夫球助理</a></p>
+                    </li>
+                </ul>
+                <a href="#" class="menu"><h3>计算机　互联网　通信</h3></a>
+                <ul class="NAV-HEAD-SUBMENU"></ul>
+                <a href="#" class="menu"><h3>财会　金融　保险</h3></a>
+                <ul class="NAV-HEAD-SUBMENU"></ul>
+                <a href="#" class="menu"><h3>人力　行政　管理</h3></a>
+                <ul class="NAV-HEAD-SUBMENU"></ul>
+                <a href="#" class="menu"><h3>销售　市场　淘宝　客服</h3></a>
+                <ul class="NAV-HEAD-SUBMENU"></ul>
+                <a href="#" class="menu"><h3>生产　制造　汽车　电子</h3></a>
+                <ul class="NAV-HEAD-SUBMENU"></ul>
+                <a href="#" class="menu"><h3>房产　建筑　装修　物业</h3></a>
+                <ul class="NAV-HEAD-SUBMENU"></ul>
+                <a href="#" class="menu"><h3>贸易　采购　物流　仓储</h3></a>
+                <ul class="NAV-HEAD-SUBMENU"></ul>
+                <a href="#" class="menu"><h3>广告　艺术　影视　媒体</h3></a>
+                <ul class="NAV-HEAD-SUBMENU"></ul>
+                <a href="#" class="menu last"><h3>法律　咨询　教育　其它</h3></a>
+                <ul class="NAV-HEAD-SUBMENU"></ul>
+            </dd>
+        </dl>
+        <ul class="NAV-BODY">
+            <li><a href="index-new.html">首页</a></li>
+            <li><a href="search-new.html" class="cur">职位搜索</a></li>
+            <li data-extra="3"><a href="#"><span>校园招聘</span><i></i></a></li>
+            <li><a href="new-parttimes.html">兼职</a></li>
+            <li><a href="companies-new.html">名企</a></li>
+            <li><a href="schools-new.html">院校合作</a></li>
+        </ul>
+        <dl class="NAV-FOOT">
+            <dt class="new"><a href="#"><i></i><span>个人中心</span></a></dt>
+            <dd>
+                <p><a href="#">登录/注册</a></p>
+                <ul>
+                    <li><a href="#">简历中心</a></li>
+                    <!--只有这两项加点的才需要span标签，其它的可以不放，可以放-->
+                    <li class="new"><a href="#"><span>投递反馈</span></a></li>
+                    <li><a href="#"><span>收藏的职位</span></a></li>
+                    <li class="new"><a href="#"><span>职位邀请</span></a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">我要招人</a></li>
+                    <li><a href="#">帐号设置</a></li>
+                    <li><a href="#">退出</a></li>
+                </ul>
+            </dd>
+        </dl>
+    </div>
+    <!--要写在外边，不然IE6下的100%是按照直接父元素的尺寸计算，而不是定位父元素position的尺寸计算-->
+    <ul class="NAV-EXTRA clear">
+    	<p data-extra="3"><a href="schools-index-new.html">校园招聘首页</a><a href="#">全职/实习招聘</a><a href="new-school-conferences.html">校园宣讲会</a></p>
+    </ul>
+</div>
+
+</div>
+
+
+
+<div class="Main common">
+	<div class="Left">
+        <dl class="Attribs bdb">
+            <dt>
+                <div class="topic"><h1>平面设计师平面设计师平面设计师平面设计师平面设计师平面设计师平面设计师平面设计师</h1><small>100</small></div>
+            <a href="#" class="icons favor"></a>
+                <a href="javascript:void(0)" class="icons share BAIDUSHARE">
+                    <cite class="bdsharebuttonbox" data-tag="share_1">
+                        <i></i>
+                        <span class="bds_sqq" data-cmd="sqq"><em></em>QQ 好友</span>
+                        <span class="bds_qzone" data-cmd="qzone"><em></em>QQ空间</span>
+                        <span class="bds_tsina" data-cmd="tsina"><em></em>新浪微博</span>
+                        <span class="bds_tqq" data-cmd="tqq"><em></em>腾讯微博</span>
+                    </cite>
+                </a>
+                <div class="clear"></div>
+                <!--<kbd>浏览量:112&nbsp;&nbsp;&nbsp;&nbsp;投递量:100&nbsp;&nbsp;&nbsp;&nbsp;HR查看率:100</kbd>-->
+                <ins class="tip"><span>已经收藏该职位，<a href="#">查看全部收藏</a></span><q></q></ins>
+                <del class="tip"><span>已取消该收藏</span><q></q></del>
+            </dt>
+            <dd>
+            	<p><var>6000-8000元/月</var>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                <p class="INFO">广州天河 / 经验5-10年 / 本科 / 1人 / 2015-12-8发布</p>
+                <p class="WELFARE">
+                		<span>五险一金</span>
+                        <span>交通补助</span>
+                        <span>年度旅游</span>
+                        <span>绩效奖金</span>
+                        <span>绩效奖金</span>
+                        <span>绩效奖金</span>
+                        <span>绩效奖金</span>
+                </p>
+                <span class="WELFARE-MORE">更多福利</span>
+            </dd>
+        </dl>
+
+        <dl class="Intros bdt">
+            <hr />
+        	<dt><h3>职位描述</h3></dt>
+            <dd class="bdb">
+                <h4>岗位职责：</h4>
+                <p>1、参与创意策略的研讨和制定，负责产品平面设计；</p>
+                <p>2、完成平面宣传品的创意设计；效果图后期处理，版面美化；</p>
+                <p>3、充分理解创意意图并准确体现于创意设计中；完成对照片、图片的后期处理；</p>
+                <p>4、其他相关美术设计方面的工作；</p>
+                <p>&nbsp;</p>
+                <h4>任职资格：</h4>
+                <p>1、本科以上学历，有一年以上工作经验，美术设计相关专业优先；</p>
+                <p>2、熟悉操作Photoshop等设计软件；</p>
+                <p>3、创意、独特的设计理念以及专业全面的执行能力，具有良好的手绘能力和色彩感，具备完稿能力；</p>
+                <p>4、热爱设计，能够独立完成海报、单页等的设计；</p>
+                <p>5、有责任心、工作认真，有很强的团队意识，能承受工作压力；</p>
+                <p>6、有良好的沟通表达能力。</p>
+                <div class="Advs">
+                	<div class="Protect">
+                    	<!--<del>已投递</del><-->
+                    	<a href="javascript:void(0)" class="post">投个简历</a><s></s>
+                        <p>
+                        	<img src="images/v2/job-protect.gif">
+                            如果职位存在虚假信息或存在乱收费等违法行为，<a href="javascript:void(0)">请立即举报！</a>
+                        </p>
+                    </div>
+                    <div class="Code">
+                    	<i>
+                        	<img src="images/v2/2dcode.jpg" width="70" height="70"><br>
+                            <q>好工作</q>公众号
+                        </i>
+                        <a href="#">扫一扫</a>
+                        <p>求职进展实时掌握面试通知即时知道</p>
+                    </div>
+                </div>
+            </dd>
+            <dt class="bdt" id="Introduction"><h3>公司介绍</h3></dt>
+            <dd class="bdb">
+            	<div class="Introduction"><div class="content">
+                    <p>广州星辰广告设计有限公司是李开复博士创办的创新工场在华南地区投资的首家互联网企业，是一家专业的旅游资源整合商和在线销售商。 </p>
+                    <p>其旗下运营的要出发旅行网(http://yaochufa.com)是国内唯一一家细分市场，以大都市白领为核心目标用户、专业提供中高端酒店最超值折扣限时特卖的在线酒店预定网站,是都市自驾游领域的领航者，致力于为都市白领一族提供轻松休闲的旅游方式，通过精选城市周边景点，提供"景点+酒店"套餐特卖，让周末出游变得如此简单。 </p>
+                    <p>广州星辰广告设计有限公司是李开复博士创办的创新工场在华南地区投资的首家互联网企业，是一家专业的旅游资源整合商和在线销售商。 </p>
+                    <p>其旗下运营的要出发旅行网(http://yaochufa.com)是国内唯一一家细分市场，以大都市白领为核心目标用户、专业提供中高端酒店最超值折扣限时特卖的在线酒店预定网站,是都市自驾游领域的领航者，致力于为都市白领一族提供轻松休闲的旅游方式，通过精选城市周边景点，提供"景点+酒店"套餐特卖，让周末出游变得如此简单。 </p>
+                </div></div>
+                <div class="Expand">查看更多</div>
+            </dd>
+            <dt class="bdt"><h3>公司图片</h3></dt>
+            <dd class="Pics">
+                <li><img src="images/v2/pics/1.jpg" data-url="images/v2/pics/1.jpg" width="158" height="118" title="点击查看大图" alt="演讲室"></li>
+                <li><img src="images/v2/pics/2.jpg" data-url="images/v2/pics/2.jpg" width="158" height="118" title="点击查看大图" alt="公司前台"></li>
+                <li><img src="images/v2/pics/3.jpg" data-url="images/v2/pics/3.jpg" width="158" height="118" title="点击查看大图" alt="办公区"></li>
+                <li><img src="images/v2/pics/4.jpg" data-url="images/v2/pics/4.jpg" width="158" height="118" title="点击查看大图" alt="资料查阅室"></li>
+                <li><img src="images/v2/pics/5.jpg" data-url="images/v2/pics/5.jpg" width="158" height="118" title="点击查看大图" alt="艺术走廊"></li>
+                <li><img src="images/v2/pics/6.jpg" data-url="images/v2/pics/6.jpg" width="158" height="118" title="点击查看大图" alt="聊天室"></li>
+                <li><img src="images/v2/pics/7.jpg" data-url="images/v2/pics/7.jpg" width="158" height="118" title="点击查看大图" alt="技术研发部"></li>
+                <li><img src="images/v2/pics/8.jpg" data-url="images/v2/pics/8.jpg" width="158" height="118" title="点击查看大图" alt="公司大厅"></li>
+            </dd>
+            <div class="clear"></div>
+            <dt class="bdt"><h3>公司其它职位</h3></dt>
+            <dd>
+            	<!--<table class="Jobs">
+                	<thead><tr>
+                    	<th width="147">职位名</th><th width="134">月薪</th><th width="80">经验</th>
+                    	<th width="90">学历</th><th width="60">浏览</th><th width="60">投递</th>
+                    </tr></thead>
+                    <tbody>
+                    	<tr class="bg">
+                        	<td>市场/客户总监</td><th>10000-20000</th><td>10年以上</td>
+                        	<td>中专/技校</td><td>120人</td><td>90人</td>
+                        </tr>
+                    	<tr>
+                        	<td>市场/客户总监</td><th>6000-7000</th><td>2年</td>
+                        	<td>本科</td><td>120人</td><td>90人</td>
+                        </tr>
+                    	<tr class="bg">
+                        	<td>市场/客户总监</td><th>6000-7000</th><td>2年</td>
+                        	<td>本科</td><td>120人</td><td>90人</td>
+                        </tr>
+                    </tbody>
+                </table>-->
+                <ul class="Jobs">
+                	<li>
+                    	<div class="Jobs-l">
+                            <h4><a href="#">平面设计师平面设计师平面设计师平面设计师平面设计师平面设计师</a><span>广东-广州-天河</span></h4>
+                            <p><span>面议</span> /  大专 / 1年以下 / 招聘1人 / 2015-12-08</p>
+                        </div>
+                        <a class="Jobs-qt">查看职位</a>
+                    </li>
+                    <li>
+                        <div class="Jobs-l">
+                            <h4><a href="#">平面设计师平面设计师平面设计师平面设计师平面设计师平面设计师</a><span>广东-广州-天河</span></h4>
+                            <p><span>面议</span> /  大专 / 1年以下 / 招聘1人 / 2015-12-08</p>
+                        </div>
+                        <a class="Jobs-qt">查看职位</a>
+                    </li>
+                    <li>
+                        <div class="Jobs-l">
+                            <h4><a href="#">平面设计师平面设计师平面设计师平面设计师平面设计师平面设计师</a><span>广东-广州-天河</span></h4>
+                            <p><span>面议</span> /  大专 / 1年以下 / 招聘1人 / 2015-12-08</p>
+                        </div>
+                        <a class="Jobs-qt">查看职位</a>
+                    </li>
+                    <li>
+                        <div class="Jobs-l">
+                            <h4><a href="#">平面设计师平面设计师平面设计师平面设计师平面设计师平面设计师</a><span>广东-广州-天河</span></h4>
+                            <p><span>面议</span> /  大专 / 1年以下 / 招聘1人 / 2015-12-08</p>
+                        </div>
+                        <a class="Jobs-qt">查看职位</a>
+                    </li>
+                </ul>
+                <div class="more"><a href="#">查看更多职位</a></div>
+            </dd>
+        </dl>
+    </div>
+    <div class="Right">
+    	<dl class="Company">
+        	<dt><a href="company-new.html" target="_blank"><img src="images/v2/job-logo.jpg" width="106" height="102"></a></dt>
+        </dl>
+        <div class="Props">
+            <p><a class='Props-a' href="company-new.html" target="_blank">广州星辰广告有限公司</a><i></i></p>
+        	<p><span>行业：</span>电子商务,生活服务</p>
+        	<p><span>规模：</span>500-2000人</p>
+        	<p><span>性质：</span>私营</p>
+        	<p><span>阶段：</span>初创型</p>
+        	<p><span>网址：</span><a data-url="http://www.yaochufa.com" onClick="this.href=$(this).data('url')" target="_blank">http://www.yaochufa.com</a></p>
+        </div>
+        <div class="Address">
+            <h2>工作地点</h2>
+            <p>广东广州天河天河区珠江新城珠江东路30号广州银行大厦11楼全层11</p>
+            <dl class="MAPTHUMB">
+                <dt>
+                    <span>看大地图</span>
+                    <samp class="on">收起地图</samp>
+                </dt>
+                <dd><div id="MAPCONTAINER"></div></dd>
+            </dl>
+        </div>
+    </div>
+	<div class="clear"></div>
+    <div class="subDown">
+        <a href="javascript:void(0)">投递简历</a>
+    </div>
+</div>
+
+
+<div class="FOOTER">
+	<div class="FOOT-NAV">
+    	<a href="new-about.html">关于我们</a><a href="new-help.html">帮助中心</a>
+        <a href="new-law.html">法律声明</a><a href="index-navigation-new.html" class="last">网站导航</a>
+    </div>
+    <p>服务热线：020-28977426&nbsp;&nbsp;&nbsp;&nbsp;服务QQ：3178883944&nbsp;&nbsp;&nbsp;&nbsp;服务时间：周一至周六9:00-18:40</p>
+    <p>粤ICP备09027680号-25</p>
+</div>
+
+<table class="PhotoViewer FullScreenPlugin fixed fixed-top"><tr><td>
+	<q><img src="images/v2/icons/times-huge.gif" width="32" height="32"></q>
+    <h5>广州星辰广告传媒有限公司</h5>
+	<div class="PPT">
+    	<ul></ul>
+        <ol></ol>
+        <sub></sub>
+        <sup></sup>
+    </div>
+    <h6>广州星辰广告传媒有限公司</h6>
+</td></tr></table>
+
+<table class="MapViewer FullScreenPlugin fixed fixed-top"><tr><td>
+	<div class="MapViewer black5">
+		<h5 class="map cur">地图</h5><h5 class="view">街景</h5><q>&times;</q>
+        <div class="MapContainer container">
+        	<div id="ViewerMap"></div>
+            <tt class="MapExpand"></tt>
+            <div class="TrafficLines">
+            	<h6><img src="images/v2/icons/bus.jpg" width="17" height="17"><img src="images/v2/icons/stops.jpg" width="76" height="23"></h6>
+                <div></div>
+            </div>
+        </div>
+        <div class="ViewContainer container">
+        	<div id="Panorama"></div>
+        </div>
+    </div>
+</td></tr></table>
+
+<table class="FullScreenPlugin fixed fixed-top CenterDivContainer"><tr><td>
+    <dl class="CENTERDIV CenterLarge Accuse" data-active=".Protect p a">
+        <dt class="CENTERTOPIC"><b>举报该职位</b><q></q></dt>
+        <dd class="CENTERCONTENT">
+            <table class="CenterForm">
+            	<tr><th width="90">举报原因：</th><td width="535">
+                	<dl class="SELECT">
+                    	<input type="hidden">
+                    	<dt><span>请选择</span><i></i></dt>
+                        <dd class="normal">
+                        	<a data-id="1">虚假信息（工作内容不符，公司信息不真实，公司信息不真实...）</a>
+                            <a data-id="2">违规收费（骗取会员费，体检费等）</a>
+                            <a data-id="3">其它</a>
+                        </dd>
+                    </dl>
+                    <code class="form-tip successMsg"></code>
+                </td></tr>
+            	<tr><th>举报内容：</th><td>
+                	<textarea placeholder="请尽量准确地描述您要举报的内容，字数在100字之内"></textarea>
+                    <code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>
+                </td></tr>
+            	<tr><th>图片：</th><td>
+                	<dl class="FORMUPLOAD">
+                    	<dt><span></span><samp>最多上传3张图片</samp></dt>
+                        <dd><div><q></q></div><div><q></q></div><div><q></q></div></dd>
+                    </dl>
+                </td></tr>
+            	<tr><th>联系方式：</th><td>
+                	<input type="text" class="text t-l">
+                    <code class="form-tip successMsg"></code>
+                </td></tr>
+            	<tr><th>验证码：</th><td>
+                	<input type="text" class="text t-s">
+                    <img src="images/v2/vcode.jpg" class="vcode" width="110" height="34">
+                    <a href="#" class="refresh">换一张</a>
+                    <code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>
+                </td></tr>
+            	<tr><th></th><td class="CENTERBTNS">
+                    <input type="button" class="submit" value="确定">
+                    <input type="button" class="reset" value="取消">
+                </td></tr>
+            </table>
+        </dd>
+    </dl>
+    <dl class="CENTERDIV CenterMiddle Regist" data-active=".Login .CENTERBTNS a">
+        <dt class="CENTERTOPIC"><b>为了方便企业联系，请填写以下信息！</b><q></q></dt>
+        <dd class="CENTERCONTENT">
+        	<table class="CenterForm">
+            	<tr><th width="120">手机号码：</th><td width="330">
+                	<input type="text" class="text t-m">
+                    <code class="form-tip successMsg"></code>
+                </td></tr>
+                <tr><th>手机验证码：</th><td>
+                	<input type="text" class="text t-h">
+                    <input type="button" class="btn SendVerify" value="获取短信验证码">
+                    <code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>
+                </td></tr>
+                <tr><th>设置密码：</th><td>
+                	<input type="password" class="text t-m">
+                    <code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>
+                </td></tr>
+                <tr><th>&nbsp;</th><td class="CENTERBTNS" colspan="">
+                	<input type="button" class="submit" value="下一步">
+                	如已有账号，请<a href="javascript:void(0)">登陆</a>
+                </td></tr>
+            </table>
+        </dd>
+    </dl>
+    <dl class="CENTERDIV CenterTiny Login" data-active=".Regist .CENTERBTNS a">
+        <dt class="CENTERTOPIC"><b>账号登陆</b><q></q></dt>
+        <dd class="CENTERCONTENT">
+        	<table class="CenterForm" width="302">
+            	<tr><td>
+                	<span class="text-container"><input type="text" class="text t-m" placeholder="请输入手机号码或邮箱"></span>
+                    <code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>
+                </td></tr>
+            	<tr><td>
+                	<span class="text-container"><input type="password" class="text t-m" placeholder="请输入密码"></span>
+                    <code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>
+                </td></tr>
+                <tr><td class="addition">
+                	<label><input type="checkbox"> 2周内自动登陆</label>
+                    <a href="new-forget.html">忘记密码？</a>
+                </td></tr>
+                <tr><td class="CENTERBTNS">
+                	<input type="button" class="submit" value="下一步">
+                	<a href="javascript:void(0)">快速注册</a>
+                </td></tr>
+            </table>
+        </dd>
+    </dl>
+    <dl class="CENTERDIV CenterLarge Resume" data-active=".Regist .submit,.Login .submit">
+        <dt class="CENTERTOPIC"><b>投递简历</b><q></q></dt>
+        <dd class="CENTERCONTENT">
+        	<table class="CenterForm">
+            	<caption>&nbsp;您申请的职位：<b>服务员</b></caption>
+            	<tr>
+                    <th width="110">姓名：</th><td width="180">
+                    	<input type="text" class="text t-s">
+                        <!--<code class="form-tip successMsg"></code>-->
+                        <code class="form-tip errorMsg left-half">请填写你的手机号码，用于登录及找回密码</code>
+                    </td>
+                    <th width="90">性别：</th><td width="240" class="Sex">
+                        <label class="checked"><input type="radio" id="male" name="sex" value="男" checked>男</label>
+                        <label class="female"><input type="radio" id="female" name="sex" value="女">女</label>
+                        <code class="form-tip successMsg"></code>
+                    </td>
+                </tr>
+                <tr>
+                    <th>工作经验：</th><td>
+                    	<dl class="SELECT Experience S-m" data-options="8">
+                            <input type="hidden" id="experience">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal">
+                                <a data-id="1">在读学生</a>
+                                <a data-id="2">应届生</a>
+                                <a data-id="3">1年以下</a>
+                                <a data-id="4">4年</a>
+                                <a data-id="5">5年</a>
+                                <a data-id="6">6年</a>
+                                <a data-id="7">7年</a>
+                                <a data-id="8">8年</a>
+                                <a data-id="9">9年</a>
+                                <a data-id="10">10年</a>
+                                
+                                
+                            </dd>
+                        </dl>
+                        <code class="form-tip errorMsg left-half">请填写你的手机号码，用于登录及找回密码</code>
+                        <!--<code class="form-tip successMsg"></code>-->
+                    </td>
+                    <th>出生年月：</th><td>
+                        <div class="clear">
+                            <dl class="SELECT YEARS left S-t" data-from="1950" data-to="2000" data-child=".BirthMonth">
+                                <input type="hidden" id="birthYear">
+                                <dt><span></span><i></i></dt>
+                                <dd class="normal"></dd>
+                            </dl>
+                            <dl class="SELECT BirthMonth right S-t MONTHS">
+                                <input type="hidden" id="birthMonth">
+                                <dt><span></span><i></i></dt>
+                                <dd class="normal"></dd>
+                            </dl>
+                        </div>
+                        <code class="form-tip tipMsg right-half">请填写你的手机号码，请填写你的手机号码</code>
+                        <!--<code class="form-tip successMsg"></code>-->
+                    </td>
+                </tr>
+                <tr><th>想在哪工作：</th><td colspan="3">
+                    <dl class="SELECT ProvincesWant ADDRESS left S-m" data-child=".CitiesWant" data-placeholder="省份">
+                        <input type="hidden" id="wantProvince">
+                        <dt><span></span><i></i></dt>
+                        <dd class="normal"></dd>
+                    </dl>
+                    <dl class="SELECT CitiesWant ADDRESS left S-m" data-child=".DistrictsWant" data-parent=".ProvincesWant" data-placeholder="城市">
+                        <input type="hidden" id="wantCity">
+                        <dt><span></span><i></i></dt>
+                        <dd class="normal"></dd>
+                    </dl>
+                    <dl class="SELECT DistrictsWant ADDRESS right S-m" data-parent=".CitiesWant" data-placeholder="区域" data-unlimited="true">
+                        <input type="hidden" id="wantDistrict">
+                        <dt><span></span><i></i></dt>
+                        <dd class="normal"></dd>
+                    </dl>
+                    <code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>
+                    <!--<code class="form-tip successMsg"></code>-->
+                </td></tr>
+                <tr><th>自我介绍：</th><td colspan="3">
+                	<textarea></textarea>
+                    <!--<code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>-->
+                    <code class="form-tip successMsg"></code>
+                </td></tr>
+                <tr><th>&nbsp;</th><td colspan="3" class="CENTERBTNS">
+                	<input type="button" class="submit" value="保存并投递简历">
+                    <a href="UCenter/new-RESUME.html" class="btn">想填写更多信息？</a>
+                </td></tr>
+            </table>
+        </dd>
+    </dl>
+    <dl class="CENTERDIV JobPushes">
+    	<dt class="CENTERTOPIC">投递成功<q></q></dt>
+        <dd class="CENTERCONTENT">
+            <div class="JobPushes-ok">
+                <p>q投递成功 !</p>
+                <div class="JobPushesMore">
+                    今日还可投递 <span>9个</span> 职位，建议投递本周 <span>入职成功率最高</span> 的职位！
+                </div>
+            </div>
+            <ul><!--偶数加class="bg"-->
+                <li class="first">
+                    <div class="img">
+
+                    </div>
+                    <div class="job">
+                        <h4><a href="job-new.html">销售总监 </a><span>广东-广州-天河</span></h4>
+                        <p><span>面议</span> /  大专 / 1年以下 / 招聘1人 / 500-100人</p>
+                    </div>
+                    <div class="post">
+                        <!--<del>已投递</del>-->
+                        <a href="#">急速投递</a>
+                    </div>
+                </li>
+                <li class="first">
+                    <div class="img">
+
+                    </div>
+                    <div class="job">
+                        <h4><a href="job-new.html">销售总监 </a><span>广东-广州-天河</span></h4>
+                        <p><span>面议</span> /  大专 / 1年以下 / 招聘1人 / 500-100人</p>
+                    </div>
+                    <div class="post">
+                        <!--<del>已投递</del>-->
+                        <a href="#">急速投递</a>
+                    </div>
+                </li>
+                <li class="first">
+                    <div class="img">
+
+                    </div>
+                    <div class="job">
+                        <h4><a href="job-new.html">销售总监 </a><span>广东-广州-天河</span></h4>
+                        <p><span>面议</span> /  大专 / 1年以下 / 招聘1人 / 500-100人</p>
+                    </div>
+                    <div class="post">
+                        <!--<del>已投递</del>-->
+                        <a href="#">急速投递</a>
+                    </div>
+                </li>
+                <li class="first last">
+                    <div class="img">
+
+                    </div>
+                    <div class="job">
+                        <h4><a href="job-new.html">销售总监 </a><span>广东-广州-天河</span></h4>
+                        <p><span>面议</span> /  大专 / 1年以下 / 招聘1人 / 500-100人</p>
+                    </div>
+                    <div class="post">
+                        <!--<del>已投递</del>-->
+                        <a href="#">急速投递</a>
+                    </div>
+                </li>
+            </ul>
+        </dd>
+    </dl>
+    <dl class="CENTERDIV CenterLarge Perfect" data-active="">
+        <dt class="CENTERTOPIC"><h2>完善个人信息，让企业了解你</h2><q></q></dt>
+        <dd  class="CENTERCONTENT">
+            <table>
+                <tbody>
+                <tr>
+                    <td width="116" class="Perfect-tx">姓名：</td>
+                    <td width="189"><input type="text" class="Perfect-ipt" placeholder="请输入真实姓名"></td>
+                    <td width="116"  class="Perfect-tx">性别：</td>
+                    <td class="Perfect-sex">
+                        <label class="checked left"><input type="radio" id="male" name="sex" value="男" checked="" autocomplete="off">男</label>
+                        <label class="right"><input type="radio" id="female" name="sex" value="女" autocomplete="off">女</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="Perfect-tx">出生日期：</td>
+                    <td><input type="text" class="Perfect-ipt Perfect-year" placeholder="请选择"></td>
+                    <td class="Perfect-tx">身高：</td>
+                    <td><input type="text" class="Pertect-sg" placeholder="输入整数">cm</td>
+                </tr>
+                <tr>
+                    <td class="Perfect-tx">邮箱：</td>
+                    <td>
+                        <dl class="SELECT">
+                            <dt>
+                                <input type="text" data-list="arrow" data-init="true" class="Perfect-ipt EMAILS" placeholder="请输入你的邮箱"></dt>
+                            <dd>
+                                <div class="matches" data-list="datas" style=""></div>
+                            </dd>
+                        </dl>
+                    </td>
+                    <td class="Perfect-tx">QQ：</td>
+                    <td><input type="text" class="Pertect-qq" placeholder="请输入你的QQ"></td>
+                </tr>
+                <tr>
+                    <td class="Perfect-tx">手机：</td>
+                    <td><input type="text" class="Perfect-ipt" placeholder="输入手机，方便企业联系你"></td>
+                    <td class="Perfect-tx">验证码：</td>
+                    <td><input type="text" class="Pertect-yzm" placeholder="请输入验证码"><input type="button" class="Perfect-hq SendVerify" value="获取验证码"></td>
+                </tr>
+                <tr>
+                    <td class="Perfect-tx">自我评价：</td>
+                    <td colspan="3" >
+                        <textarea name="" id="" placeholder="用一段话简单介绍你自己"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td width="200" colspan="3"><input type="button" class="Perfect-save" value="保存并投递简历"><a href="" class="Perfect-more">填写更多信息信息 >></a></td>
+                </tr>
+                </tbody>
+            </table>
+        </dd>
+    </dl>
+</td></tr></table>
+<table class="FullScreenPlugin fixed fixed-top CenterDivContainer"><tr><td>
+	<dl class="CENTERDIV CenterLarge Feedback" data-active=".TOOL .feed">
+    	<dt class="CENTERTOPIC"><b>意见反馈</b><q></q></dt>
+        <dd class="CENTERCONTENT">
+        	<table class="CenterForm">
+            	<caption><h6 class="single">感谢您使用好工作，您的反馈是对我们莫大的支持和鼓励！</h6></caption>
+                <tr>
+                	<th width="120">反馈内容：</th><td width="480">
+                    	<textarea placeholder="使用帮助，产品bug，功能建议，问题反馈，吐槽等（500字以内）"></textarea>
+                        <code class="form-tip successMsg"></code>
+                        <code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>
+                    </td>
+                </tr>
+                <tr>
+                    <th>联系方式：</th><td>
+                    	<input type="text" class="text" placeholder="手机、QQ或邮箱">
+                        <code class="form-tip successMsg"></code>
+                        <code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>
+                    </td>
+                </tr>
+                <tr>
+                    <th></th><td class="CENTERBTNS">
+                    	<input type="button" class="submit" value="确定">
+                    	<input type="button" class="reset" value="取消">
+                    </td>
+                </tr>
+            </table>
+        </dd>
+    </dl>
+   
+</td></tr></table>
+<div class="TOOL">
+	<a href="#" class="top"></a>
+    <a href="#" class="feed"></a>
+</div>
+
+</body>
+</html>
+<script src="js/jquery.js"></script>
+<script src="js/plugin/YearsList-new.js"></script>
+<script src="js/v2/all.js"></script>
+<script src="js/v2/web.js"></script>
+<script src="js/area.js"></script>
+<script src="js/jobPositions.js"></script>
+<script src="js/plugin/CitiesPicker.js"></script>
+<script src="js/effect/tab.js"></script>
+<script src="js/effect/fixed.js"></script>
+<script src="http://api.map.baidu.com/api?v=2.0&ak=OlGzoCwcKN9OvM16T9RnFwOl"></script>
+<script src="js/plugin/BaiduMap.js"></script>
+<script src="js/plugin/MapThumb.js"></script>
+<script src="js/plugin/BaiduShare.js"></script>
+<script src="js/plugin/UploadPics.js"></script>
+<script src="js/effect/bg.js"></script>
+<script src="js/effect/ppt.js"></script>
+<script src="js/effect/correct.js"></script>
+<script src="js/plugin/CenterDiv.js"></script>
+<script src="js/plugin/SendVerify.js"></script>
+<script src="js/plugin/Addresses.js"></script>
+<script src="js/effect/float.js"></script>
+<script src="js/jbody.js"></script>
+<script src="js/jbody-plugin.js"></script>
+<script src="js/plugin/EmailTip_New.js"></script>
+<script>
+var PPT;
+$(function(){
+	defaultLng=116.316169,defaultLat=40.005567;
+	//defaultLng = parseFloat('113.305999755859'), defaultLat = parseFloat('23.1408882141113');
+
+	if(defaultLng && defaultLat)
+	{
+		$(".MAPTHUMB dt,#MAPCONTAINER").slideDown(function(){
+			//直接把坐标写上去
+			map.refresh();
+			//生成地图查看器的效果
+			BIGMAP.refresh();
+			panorama.setPosition(new BMap.Point(defaultLng,defaultLat));
+		});
+	}
+	else
+	{
+		$(".MAPTHUMB").hide();
+	}
+	//收藏提示
+	$(".Attribs .tip q").click(function(){
+		$(this).parent().hide();
+	});
+	$(".icons.favor").click(function(){
+		if($(this).hasClass("favored"))
+		{//已经收藏了的
+			$(this).removeClass("favored").addClass("favor")
+				.closest("dt").find("del.tip").show()
+				.end().find("ins.tip").hide();
+		}
+		else
+		{
+			$(this).removeClass("favor").addClass("favored")
+				.closest("dt").find("ins.tip").show()
+				.end().find("del.tip").hide();
+		}
+	});
+	//详细信息，按六行(32*6=192)计算，如果改变默认高度，要同时设置CSS中的Introduction的高及行高
+	var intro=$(".Introduction"),introMinH=intro.height(),introMaxH=intro.children(".content").outerHeight();
+	if(introMinH >= introMaxH)
+	{
+		intro.css('height','auto');
+		$(".Expand").hide();
+	}
+	else $(".Expand").click(function(){
+		var goalH=intro.height()==introMinH ? introMaxH : introMinH;
+		$(this).toggleClass("on");
+		intro.animate({
+			height: goalH
+		},'fast');
+		if(goalH==introMinH) location.href='#Introduction';
+	});
+    $(".WELFARE-MORE").click(function(){
+        if(!$(this).hasClass('on')){
+            var len = Math.ceil($(".WELFARE").find('span').length / 5);
+            if(len >= 1){
+                console.log(len)
+                $(".WELFARE").height(50 * len);
+            }
+            $(this).addClass('on')
+
+            }else{
+                $(".WELFARE").height('50px')
+            $(this).removeClass('on')
+            }
+    });
+	//点击公司图片的查看效果
+	$(".Pics li img").each(function(){
+		$("<img>").attr({
+			src:$(this).data("url"),
+			title:this.alt
+		}).appendTo($("<li>").appendTo($(".PPT ul")));
+		$("<img>").attr({
+			src:this.src,
+			title:this.alt
+		}).appendTo($("<li>").appendTo($(".PPT ol")));
+	});
+	if(isIE6())
+	{//IE6不支持h1:hover，只能强制添加类
+		TextOverflow('h1',16);
+		$('.Attribs .topic').hover(function(){
+			$(this).addClass("hover");
+		},function(){
+			$(this).removeClass("hover");
+		});
+	}
+	if(isLow())
+	{//低端下，16个字无法达到480宽，只能强制设置
+		var text=$('.Attribs h1').text();
+		if(text.length>16) $('.Attribs h1').width(480);
+	}
+});
+$(window).load(function(){
+	CHIpros(".PPT,.Pics");
+	////////////////////////////////////////////////////////////////////////////////////////生成图片查看器的效果
+	setTimeout(function(){
+		PPT=CHIppt(
+			".PPT","ul li",
+			{indices:".PPT ol",prev:".PPT sub",next:".PPT sup"},
+			{auto:false},
+			{
+				show:function(oJQli){
+					$(".PhotoViewer h6").html(oJQli.find("img").attr("title"));
+				}
+			}
+		);
+		$(".PhotoViewer").hide().css('visibility','visible');
+		$(".Pics li").click(function(){
+			CHIbg.open(function(){
+				$(".PhotoViewer").fadeIn();
+			});
+			PPT.show($(this).index());
+		});
+		$(".PhotoViewer q").click(function(){
+			$(".PhotoViewer").fadeOut(function(){CHIbg.close()});
+		});
+	},1000);
+});
+</script>
+<script>
+$(function(){
+	//男女选择
+	Boxes(".Sex");
+	//如果是第一次投递，参数放true
+	function PostOK(boolFirst){
+		$(".Resume").hide();
+		!boolFirst && ALERT('投递成功','<h5>简历投递成功！</h5><p><samp>今天您还可以投递 <b>8</b> 个职位</samp></p>',5000);
+		boolFirst && $(".JobPushes").fadeIn();
+	}
+	//填写简历，点击保存并投递
+	$(".Resume .submit").click(function(){
+		PostOK(true);
+	});
+	//点击“投递简历”
+	$(".Protect .post").click(function(){
+		var sJQcenter,sResult='';
+		//请根据以下情况选择对应的选择器
+		switch(sResult)
+		{
+			case "notmatch"://简历不匹配
+				CONFIRM('简历不匹配','<h6 style="overflow:visible;" class="cur">简历中<span>期望城市</span>、<span>期望职位</span>、<span>工作经验</span>、<span>学历</span>与职位要求不匹配，是否继续投递？</h6>','修改简历',function(){
+					location.href='UCenter/new-RESUME.html';
+				},'继续投递',function(){
+					//确定投递的过程
+					alert('继续投递的过程');
+				});
+				break;
+			case "success"://投递成功
+				PostOK(true);
+				break;
+			case "complete"://简历不完善
+				CONFIRM('简历不完善','<h6 class="cur CenterNot">您的简历信息不够完整，请完善后再进行投递！</h6>','完善简历',{
+					href:'UCenter/new-RESUME.html',
+					target:'_blank',
+					callback:function(){
+						alert(123123);
+					}
+				});
+				break;
+			case "zero"://投递数不足时
+				ALERT('投递失败','<p style="font-size:20px; color:#525252;">今日剩余投递简历数为<b>0</b></p><p><a href="#" style="color:#1562c8; text-decoration:underline;">免费获取</a>更多职位投递数量</p>');
+			default://下边要打开比较复杂的弹窗
+				//sJQcenter=".Regist";//需要（快速手机）注册
+				//sJQcenter=".Login";//需要登录
+				sJQcenter=".Login";//填写简历
+				CENTERDIV.open.call($(sJQcenter).get(0));
+		}
+	});
+	//投诉点击确定
+	$(".Accuse .submit").click(function(){
+		ALERT('投诉成功','<h5>投诉成功</h5><p><samp>您的投诉我们已经受理！</samp></p>',2000);
+	});
+
+    //底端 placeholder
+    
+    Boxes(".Perfect-sex")
+    $(".Perfect-year").click(function(){
+        JBCalendar.show(this);
+    })
+
+    $(".Perfect input:not(:radio)").not(".EMAILS").each(function(index, el) {
+        INPUT.init.call(this)
+    });
+    $(document).scroll(function(){
+        if($(this).scrollTop() >$("#Introduction")[0].offsetTop){
+            $(".subDown").addClass('fixed fixed-top').show();
+        }else{
+            $(".subDown").removeClass('fixed fixed-top').hide();
+        }
+    })
+
+
+})
+</script>

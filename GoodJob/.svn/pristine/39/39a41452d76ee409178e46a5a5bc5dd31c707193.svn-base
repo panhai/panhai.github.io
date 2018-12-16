@@ -1,0 +1,56 @@
+/* 学校就业网通用样式 */
+
+*{ margin:0px; padding:0px;}
+ul,ol,li{ list-style:none;}
+q{ quotes:none;}
+a{ text-decoration:none; cursor:pointer;}
+a img{ border:0px;}
+.common{ width:1000px; margin:0 auto;}
+body{ font-family:"宋体";}
+input::-ms-clear{ display:none;}
+input:focus{ outline:0px;}
+.clear{ clear:both;}
+/*IE6 用absolute模拟fixed*/
+body{
+	_background-image: url(about:blank);     /*用浏览器空白页面作为背景*/
+	_background-attachment: fixed;     /* prevent screen flash in IE6 确保滚动条滚动时，元素不闪动*/
+}
+/*半透明背景*/
+#GlobalBG{ display:none; position:fixed; left:0px; top:0px; width:100%; z-index:55555;}
+.black5{ background:rgba(0,0,0,0.5); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4B000000,endColorstr=#4B000000);}
+.top-fixed{
+	position:fixed;
+	top:0px;
+	_position: absolute;
+    _top:expression(eval(document.documentElement.scrollTop));
+}
+.bottom-fixed{
+	position:fixed;
+	bottom:0px;
+	_position: absolute;
+	_top:expression(eval(document.documentElement.scrollTop + document.documentElement.clientHeight - this.clientHeight));
+}
+
+
+/*头部*/
+.header{ padding:15px 0px; height:70px;}
+.logo{ float:left;}
+.logo small{ font-size:14px; color:#666; font-family:"微软雅黑"; padding-left:5px;}
+.logo-all{ float:right; padding-top:20px;}
+/*顶导航*/
+.nav{ background-color:#2064C9; height:40px; line-height:40px; font-size:15px; color:#fff; text-align:center; font-family:"微软雅黑";}
+.nav li{ padding:0px 20px; float:left;}
+.nav li.cur{ background-color:#01367A;}
+.nav li a{ color:#fff;}
+.nav ul{ float:left;}
+.nav ol{ float:right;}
+
+/*脚部*/
+.footer{ border-top:2px solid #646464; text-align:center; padding-top:10px; line-height:30px; font-size:12px; color:#666;}
+.footer a{ color:#666;}
+.footer a:hover{ color:#ff5000;}
+
+/*面包屑*/
+.crumbs{ line-height:40px; height:30px; overflow:hidden; clear:both; font-size:12px; color:#999;}
+.crumbs a{ color:#999;}
+.crumbs a:hover{ color:#ff5e00;}

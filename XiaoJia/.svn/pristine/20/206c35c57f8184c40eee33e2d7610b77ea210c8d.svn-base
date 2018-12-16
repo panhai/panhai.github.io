@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>机构管理</title>
+    <meta name=viewport content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="../css/all.css" />
+   <link rel="stylesheet" type="text/css" href="../css/gp/index.css" />
+    <link href="../css/layerskin/default/layer.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/scrollbar.css">
+</head>
+
+<body>
+    <div class="head_navgater">
+        <div class="rightCenter">
+            <div class="search">
+                <div>
+                    <a href="javascript:;">退出</a>
+                </div>
+                <div>
+                    <a href="javascript:;">个人设置</a>
+                </div>
+                <div class="num">
+                    <b>5</b>
+                    <span class="icon"></span>
+                </div>
+                <div class="from">
+                    <i></i>
+                    <input type="text" name="" placeholder="搜索咨询，学员，帮助文档">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="left_navgater" style="display:block">
+        <div class="logo">
+            <span>运营后台</span>
+            <a href="javascript:void(0)" class="changeArrow">
+                <i></i>
+            </a>
+        </div>
+        <div class="info">
+            <div class="person">
+                <img src="../images/boy.png" alt="">
+            </div>
+            <div class="user">
+                <p class="tearch">李老师</p>
+                <p class="kf">客服部</p>
+            </div>
+        </div>
+        <div class="nav">
+            <a href="#">
+                <i class="position1"></i>
+                <span>工作台</span>
+            </a>
+            <a href="#" class="cur">
+                <i class="position2"></i>
+                <span>合作机构</span>
+            </a>
+
+            <a href="#">
+                <i class="position3"></i>
+                <span>学员管理</span>
+            </a>
+            <a href="#">
+                <i class="position4"></i>
+                <span>内容管理</span>
+            </a>
+            <a href="#">
+                <i class="position5"></i>
+                <span>财务管理</span>
+            </a>
+            <a href="#">
+                <i class="position9"></i>
+                <span>会员管理</span>
+            </a>
+            <a href="#">
+                <i class="position6"></i>
+                <span>就业管理</span>
+            </a>
+            <a href="#">
+                <i class="position7"></i>
+                <span>校+联盟</span>
+            </a>
+            <a href="#">
+                <i class="position8"></i>
+                <span>系统设置</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="left_small_navgater" style="display:none">
+        <div class="logoBox">
+            <a href="javascript:void(0)" class="changeArrow">
+                <i></i>
+            </a>
+        </div>
+        <div class="school_infor">
+            <img src="../images/boy.png" alt="">
+        </div>
+        <div class="small_nav">
+            <div class="nav_url">
+                <div class="url_icon position1"></div>
+                <div class="moveLayer">
+                    <i></i>
+                    <a href="/school">工作台</a>
+                </div>
+            </div>
+            <div class="nav_url">
+                <div class="url_icon position2"></div>
+                <div class="moveLayer">
+                    <i></i>
+                    <a href="/school">好学校</a>
+                    <a href="/school">微营销</a>
+                    <a href="/school">微官网</a>
+                    <a href="/school">微活动</a>
+                </div>
+            </div>
+            <div class="nav_url">
+                <div class="url_icon position3"></div>
+                <div class="moveLayer">
+                    <i></i>
+                    <a href="/school">咨询管理</a>
+                    <a href="/school">今日跟进</a>
+                    <a href="/school">到访登记</a>
+                    <a href="/school">跟进统计</a>
+                </div>
+            </div>
+            <div class="nav_url">
+                <div class="url_icon position4"></div>
+                <div class="moveLayer">
+                    <i></i>
+                    <a href="/school">全部学员</a>
+                    <a href="/school">在读学员</a>
+                    <a href="/school">毕业学员</a>
+                    <a href="/school">学员统计</a>
+                </div>
+            </div>
+            <div class="nav_url">
+                <div class="url_icon position5"></div>
+                <div class="moveLayer">
+                    <i></i>
+                    <a href="/school">开课管理</a>
+                    <a href="/school">班级管理</a>
+                    <a href="/school">课程管理</a>
+                    <a href="/school">教师管理</a>
+                </div>
+            </div>
+            <div class="nav_url">
+                <div class="url_icon position6"></div>
+                <div class="moveLayer">
+                    <i></i>
+                    <a href="/school">全部明细</a>
+                    <a href="/school">收入</a>
+                    <a href="/school">支出</a>
+                    <a href="/school">财务报表</a>
+                </div>
+            </div>
+            <div class="nav_url">
+                <div class="url_icon position7"></div>
+                <div class="moveLayer">
+                    <i></i>
+                    <a href="/school">合作企业</a>
+                    <a href="/school">合作职位</a>
+                    <a href="/school">就业学员</a>
+                    <a href="/school">合作申请</a>
+                </div>
+            </div>
+            <div class="nav_url">
+                <div class="url_icon position8"></div>
+                <div class="moveLayer">
+                    <i></i>
+                    <a href="/school">合作学校</a>
+                    <a href="/school">合作课程</a>
+                    <a href="/school">学员佣金</a>
+                    <a href="/school">申请合作</a>
+                </div>
+            </div>
+            <div class="nav_url">
+                <div class="url_icon position9"></div>
+                <div class="moveLayer">
+                    <i></i>
+                    <a href="/school">校区设置</a>
+                    <a href="/school">账号设置</a>
+                    <a href="/school">权限设置</a>
+                    <a href="/school">基本设置</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="right_content">
+        <div class="right_nav">
+            <a href="#" class="cur">全部机构</a>
+            <a href="">
+                未对接
+                <span>12</span>
+            </a>
+            <a href="javascript:;">
+                培训中
+                <span>1</span>
+            </a>
+            <a href="javascript:;">
+                已培训
+                <span>123</span>
+            </a>
+            <a href="javascript:;">
+                待跟进
+                <span>12</span>
+            </a>
+            <a href="javascript:;">
+                机构统计
+                <span></span>
+            </a>
+            <div class="addjigou">
+                <a href="新增机构.html">+新增机构</a>
+            </div>
+
+        </div>
+        <div class="right_content_box">
+            <div class="search_box">
+                <div class="inp">
+                    <i class="reset"></i>
+                    <span>机构</span>
+                    <input type="text" name="" placeholder="请输入机构名，ID查询">
+                </div>
+                <div class="inp inp2">
+                    <span>类别</span>
+                    <input type="text" name="" placeholder="请输入机构名，ID查询">
+                </div>
+                <div class="inp3">
+                    <div class="select">
+                        <i></i>
+                        <span>加盟时间</span>
+                        <div class="select_box">
+                            <p>加盟时间</p>
+                            <p>到期时间</p>
+                            <p>入库时间</p>
+                            <p>最近登录</p>
+                            <p>下架时间</p>
+                        </div>
+                    </div>
+                    <input type="text" name="" class="oneinp Wdate mydate" data-val="true" placeholder="请选择时间" onclick="WdatePicker()">
+                    <span>~</span>
+                    <input type="text" class="Wdate mydate" name="" data-val="true" placeholder="请选择时间" onclick="WdatePicker()">
+                </div>
+                <div class="searbtn">
+                    <button type="button">查询</button>
+                </div>
+                <div class="reset_bao">
+                    <button type="reset" class="ret">重置</button>
+                    <span>|</span>
+                    <button type="button">保存</button>
+                </div>
+                <div class="my_select">
+                    <div class="select2">
+                        <i></i>
+                        <span>我的筛选</span>
+                        <div class="select_box2">
+                            <p>我的筛选</p>
+                            <p>由我跟进</p>
+                            <p>广州雅思</p>
+                            <p>正常合作</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sahde_line"></div>
+            <div class="screen_box">
+                <!-- 合作状态 -->
+                <div class="Cooperative_statee">
+                    <span>合作状态：</span>
+                    <a href="javascript:;" class="cur">
+                        不限
+                    </a>
+                    <a href="javascript:;" class="">
+                        洽谈中
+                        <b>(1)</b>
+                    </a>
+                    <a href="javascript:;" class="">
+                        正常
+                        <b>(1)</b>
+                    </a>
+                    <a href="javascript:;" class="">
+                        续约
+                        <b>(1)</b>
+                    </a>
+                    <a href="javascript:;" class="">
+                        已暂停
+                        <b>(1)</b>
+                    </a>
+                    <a href="javascript:;" class="">
+                        已关闭
+                        <b>(6)</b>
+                    </a>
+
+                </div>
+                <div class="sahde_line"></div>
+                <!-- 加盟时间 -->
+                <div class="Cooperative_statee Join_time">
+                    <span>加盟时间：</span>
+                    <a href="javascript:;" class="cur">
+                        不限
+                    </a>
+                    <a href="javascript:;" class="">
+                        本月
+                        <b>(1)</b>
+                    </a>
+                    <a href="javascript:;" class="">
+                        8月
+                        <b>(1)</b>
+                    </a>
+                    <a href="javascript:;" class="">
+                        7月
+                        <b>(41)</b>
+                    </a>
+                    <a href="javascript:;" class="">
+                        6月
+                        <b>(1)</b>
+                    </a>
+                    <a href="javascript:;" class="">
+                        5月
+                        <b>(16)</b>
+                    </a>
+                    <a href="javascript:;" class="">
+                        4月
+                        <b>(6)</b>
+                    </a>
+                    <a href="javascript:;" class="">
+                        更早前
+                        <b></b>
+                    </a>
+                </div>
+                <div class="sahde_line"></div>
+                <!-- 到期时间 -->
+                <div class="Cooperative_statee Expiry_time">
+                    <span>到期时间：</span>
+                    <a href="javascript:;" class="cur">
+                        不限
+                    </a>
+                    <a href="javascript:;" class="">
+                        已到期
+                        <b>(1)</b>
+                    </a>
+                    <a href="javascript:;" class="">
+                        近七天
+                        <b>(1)</b>
+                    </a>
+                    <a href="javascript:;" class="">
+                        近15天
+                        <b>(41)</b>
+                    </a>
+                    <a href="javascript:;" class="">
+                        近一个月
+                        <b>(1)</b>
+                    </a>
+                    <a href="javascript:;" class="">
+                        近三个月
+                        <b>(16)</b>
+                    </a>
+                </div>
+                <div class="sahde_line"></div>
+                <!-- 其他筛选 -->
+                <div class="Cooperative_statee Other_screening">
+                    <span class="span">其他筛选 :</span>
+                    <div class="inp_s">
+                        <i></i>
+                        <input type="text" name="" placeholder="培训进度">
+                    </div>
+                    <div class="inp_s">
+                        <dl class="SELECT comment" data-placeholder="招生规模">
+                            <input type="hidden" value="" autocomplete="off">
+                            <dt><span class="">招生规模</span></dt>
+                            <dd class="normal maxHeight">
+                                <a href="javascript:void(0)" data-id="0" class="checked" title="投递时间">不限</a>
+                                <a href="javascript:void(0)" data-id="1" class="" title="更新时间">年招生100以下</a>
+                                <a href="javascript:void(0)" data-id="2" class="" title="入库时间">年招生100-500</a>
+                                <a href="javascript:void(0)" data-id="2" class="" title="入库时间">年招生500-1000</a>
+                                <a href="javascript:void(0)" data-id="2" class="" title="入库时间">年招生1000-5000</a>
+                                <a href="javascript:void(0)" data-id="2" class="" title="入库时间">年招生5000-1万</a>
+                                <a href="javascript:void(0)" data-id="2" class="" title="入库时间">年招生1万以上</a>
+
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="inp_s">
+                        <dl class="SELECT comment" data-placeholder="销售跟进">
+                            <input type="hidden" value="" autocomplete="off">
+                            <dt><span class="">销售跟进</span></dt>
+                            <dd class="normal maxHeight">
+                                <a href="javascript:void(0)" data-id="0" class="checked" title="投递时间">不限</a>
+                                <a href="javascript:void(0)" data-id="1" class="" title="更新时间">啸天</a>
+                                <a href="javascript:void(0)" data-id="2" class="" title="入库时间">莫思源</a>
+                                <a href="javascript:void(0)" data-id="2" class="" title="入库时间">龙江</a>
+                                <a href="javascript:void(0)" data-id="2" class="" title="入库时间">罗龙华</a>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="inp_s">
+                        <i></i>
+                        <input type="text" name="" placeholder="所在地区">
+                    </div>
+                    <div class="inp_s">
+                        <i></i>
+                        <input type="text" name="" placeholder="开课地区">
+                    </div>
+                    <div class="inp_s">
+                        <!-- <i></i>
+                        <input type="text" name="" placeholder="机构登机"> -->
+                        <dl class="SELECT comment" data-placeholder="上架状态">
+                            <input type="hidden" value="" autocomplete="off">
+                            <dt><span class="">上架状态</span></dt>
+                            <dd class="normal maxHeight">
+                                <a href="javascript:void(0)" data-id="0" class="checked" title="投递时间">不限</a>
+                                <a href="javascript:void(0)" data-id="1" class="" title="更新时间">正常</a>
+                                <a href="javascript:void(0)" data-id="2" class="" title="入库时间">禁止下单</a>
+                                <a href="javascript:void(0)" data-id="2" class="" title="入库时间">下架</a>
+                                <a href="javascript:void(0)" data-id="2" class="" title="入库时间">下架404</a>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="inp_s">
+                        <!-- <i></i>
+                        <input type="text" name="" placeholder="培训进度"> -->
+
+                        <dl class="SELECT comment" data-placeholder="机构等级">
+                            <input type="hidden" value="" autocomplete="off">
+                            <dt><span class="">机构等级</span></dt>
+                            <dd class="normal maxHeight">
+                                <a href="javascript:void(0)" data-id="0" class="checked" title="投递时间">不限</a>
+                                <a href="javascript:void(0)" data-id="1" class="" title="更新时间">VIP机构</a>
+                                <a href="javascript:void(0)" data-id="2" class="" title="入库时间">优质机构</a>
+                                <a href="javascript:void(0)" data-id="2" class="" title="入库时间">普通机构</a>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div style="clear:both"></div>
+                </div>
+                <div style="clear:both"></div>
+            </div>
+            <!-- 机构表 -->
+            <div class="Mechanism_table">
+                <div class="title_table">
+                    <span class="number_box">
+                        共
+                        <b class="number">1234</b>
+                        个机构
+                    </span>
+                    <a href="javascript:;" class="sort">排序</a>
+                    <a href="javascript:;" class="show">设置显示列</a>
+                </div>
+                <div class="table_box">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="left">ID</th>
+                                <th class="left">机构名称</th>
+                                <th>合作状态 </th>
+                                <th>培训进度 </th>
+                                <th>课程数</th>
+                                <th>资讯数 </th>
+                                <th>咨询学员 </th>
+                                <th>到账率 </th>
+                                <th class="left"> 最近登录</th>
+                                <th>操作</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="td_one left">
+                                    <i></i>
+                                    <span>100124</span>
+                                </td>
+                                <td class="left">
+                                    <a href="javascript:;" class="mechanism">广州雀丝JASC化妆造型培妆造型培…</a>
+                                    <a href="javascript:;" class="Prohibition">禁止下单</a>
+                                    <a href="javascript:;" class="vip">VIP机构</a>
+                                    <a href="javascript:;" class="shun">...</a>
+                                </td>
+                                <td>
+                                    洽谈中
+                                </td>
+                                <td class="colorg3">
+                                    1/10
+                                </td>
+                                <td class="colorg3">
+                                    12
+                                </td>
+                                <td class="colorg3">
+                                    13
+                                </td>
+                                <td class="colorg3">
+                                    2/12
+                                </td>
+                                <td>
+                                    90%
+                                </td>
+                                <td class="left">
+                                    2018-08-12 12:20
+                                </td>
+                                <td>
+                                    <div class="badge">
+                                        <span class="colorg3">标记</span>
+                                        <i></i>
+                                        <div class="badge_list">
+                                            <a href="javascript:;">培训进度</a>
+                                            <a href="javascript:;">售后跟进</a>
+                                            <a href="javascript:;">上架状态</a>
+                                            <a href="javascript:;">机构等级</a>
+                                            <a href="javascript:;">机构标签</a>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_one left">
+                                    <i></i>
+                                    <span>100124</span>
+                                </td>
+                                <td class="left">
+                                    <a href="javascript:;" class="mechanism">广州雀丝JASC化妆造型培妆造型培…</a>
+                                    <a href="javascript:;" class="Prohibition">禁止下单</a>
+                                    <a href="javascript:;" class="vip">VIP机构</a>
+                                    <a href="javascript:;" class="shun">...</a>
+                                </td>
+                                <td>
+                                    洽谈中
+                                </td>
+                                <td class="colorg3">
+                                    1/10
+                                </td>
+                                <td class="colorg3">
+                                    12
+                                </td>
+                                <td class="colorg3">
+                                    13
+                                </td>
+                                <td class="colorg3">
+                                    2/12
+                                </td>
+                                <td>
+                                    90%
+                                </td>
+                                <td class="left">
+                                    2018-08-12 12:20
+                                </td>
+                                <td>
+                                    <div class="badge">
+                                        <span class="colorg3">标记</span>
+                                        <i></i>
+                                        <div class="badge_list">
+                                            <a href="javascript:;">培训进度</a>
+                                            <a href="javascript:;">售后跟进</a>
+                                            <a href="javascript:;">上架状态</a>
+                                            <a href="javascript:;">机构等级</a>
+                                            <a href="javascript:;">机构标签</a>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_one left">
+                                    <i></i>
+                                    <span>100124</span>
+                                </td>
+                                <td class="left td_two">
+                                    <a href="javascript:;" class="mechanism">广州雀丝JASC化妆造型培妆造型培…</a>
+                                    <a href="javascript:;" class="Prohibition">禁止下单</a>
+                                    <a href="javascript:;" class="vip">VIP机构</a>
+                                    <a href="javascript:;" class="shun">...</a>
+                                </td>
+                                <td>
+                                    洽谈中
+                                </td>
+                                <td class="colorg3">
+                                    1/10
+                                </td>
+                                <td class="colorg3">
+                                    12
+                                </td>
+                                <td class="colorg3">
+                                    13
+                                </td>
+                                <td class="colorg3">
+                                    2/12
+                                </td>
+                                <td>
+                                    90%
+                                </td>
+                                <td class="left ta_time">
+                                    2018-08-12 12:20
+                                </td>
+                                <td>
+                                    <div class="badge">
+                                        <span class="colorg3">标记</span>
+                                        <i></i>
+                                        <div class="badge_list">
+                                            <a href="javascript:;">培训进度</a>
+                                            <a href="javascript:;">售后跟进</a>
+                                            <a href="javascript:;">上架状态</a>
+                                            <a href="javascript:;">机构等级</a>
+                                            <a href="javascript:;">机构标签</a>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_one left">
+                                    <i></i>
+                                    <span>100124</span>
+                                </td>
+                                <td class="left td_two">
+                                    <a href="javascript:;" class="mechanism">广州雀丝JASC化妆造型培妆造型培…</a>
+                                    <a href="javascript:;" class="Prohibition">禁止下单</a>
+                                    <a href="javascript:;" class="vip">VIP机构</a>
+                                    <a href="javascript:;" class="shun">...</a>
+                                </td>
+                                <td>
+                                    洽谈中
+                                </td>
+                                <td class="colorg3">
+                                    1/10
+                                </td>
+                                <td class="colorg3">
+                                    12
+                                </td>
+                                <td class="colorg3">
+                                    13
+                                </td>
+                                <td class="colorg3">
+                                    2/12
+                                </td>
+                                <td>
+                                    90%
+                                </td>
+                                <td class="left ta_time">
+                                    2018-08-12 12:20
+                                </td>
+                                <td>
+                                    <div class="badge">
+                                        <span class="colorg3">标记</span>
+                                        <i></i>
+                                        <div class="badge_list">
+                                            <a href="javascript:;">培训进度</a>
+                                            <a href="javascript:;">售后跟进</a>
+                                            <a href="javascript:;">上架状态</a>
+                                            <a href="javascript:;">机构等级</a>
+                                            <a href="javascript:;">机构标签</a>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_one left">
+                                    <i></i>
+                                    <span>100124</span>
+                                </td>
+                                <td class="left td_two">
+                                    <a href="javascript:;" class="mechanism">广州雀丝JASC化妆造型培妆造型培…</a>
+                                    <a href="javascript:;" class="Prohibition">禁止下单</a>
+                                    <a href="javascript:;" class="vip">VIP机构</a>
+                                    <a href="javascript:;" class="shun">...</a>
+                                </td>
+                                <td>
+                                    洽谈中
+                                </td>
+                                <td class="colorg3">
+                                    1/10
+                                </td>
+                                <td class="colorg3">
+                                    12
+                                </td>
+                                <td class="colorg3">
+                                    13
+                                </td>
+                                <td class="colorg3">
+                                    2/12
+                                </td>
+                                <td>
+                                    90%
+                                </td>
+                                <td class="left ta_time">
+                                    2018-08-12 12:20
+                                </td>
+                                <td>
+                                    <div class="badge">
+                                        <span class="colorg3">标记</span>
+                                        <i></i>
+                                        <div class="badge_list">
+                                            <a href="javascript:;">培训进度</a>
+                                            <a href="javascript:;">售后跟进</a>
+                                            <a href="javascript:;">上架状态</a>
+                                            <a href="javascript:;">机构等级</a>
+                                            <a href="javascript:;">机构标签</a>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_one left">
+                                    <i></i>
+                                    <span>100124</span>
+                                </td>
+                                <td class="left td_two">
+                                    <a href="javascript:;" class="mechanism">广州雀丝JASC化妆造型培妆造型培…</a>
+                                    <a href="javascript:;" class="Prohibition">禁止下单</a>
+                                    <a href="javascript:;" class="vip">VIP机构</a>
+                                    <a href="javascript:;" class="shun">...</a>
+                                </td>
+                                <td>
+                                    洽谈中
+                                </td>
+                                <td class="colorg3">
+                                    1/10
+                                </td>
+                                <td class="colorg3">
+                                    12
+                                </td>
+                                <td class="colorg3">
+                                    13
+                                </td>
+                                <td class="colorg3">
+                                    2/12
+                                </td>
+                                <td>
+                                    90%
+                                </td>
+                                <td class="left ta_time">
+                                    2018-08-12 12:20
+                                </td>
+                                <td>
+                                    <div class="badge">
+                                        <span class="colorg3">标记</span>
+                                        <i></i>
+                                        <div class="badge_list">
+                                            <a href="javascript:;">培训进度</a>
+                                            <a href="javascript:;">售后跟进</a>
+                                            <a href="javascript:;">上架状态</a>
+                                            <a href="javascript:;">机构等级</a>
+                                            <a href="javascript:;">机构标签</a>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_one left">
+                                    <i></i>
+                                    <span>100124</span>
+                                </td>
+                                <td class="left td_two">
+                                    <a href="javascript:;" class="mechanism">广州雀丝JASC化妆造型培妆造型培…</a>
+                                    <a href="javascript:;" class="Prohibition">禁止下单</a>
+                                    <a href="javascript:;" class="vip">VIP机构</a>
+                                    <a href="javascript:;" class="shun">...</a>
+                                </td>
+                                <td>
+                                    洽谈中
+                                </td>
+                                <td class="colorg3">
+                                    1/10
+                                </td>
+                                <td class="colorg3">
+                                    12
+                                </td>
+                                <td class="colorg3">
+                                    13
+                                </td>
+                                <td class="colorg3">
+                                    2/12
+                                </td>
+                                <td>
+                                    90%
+                                </td>
+                                <td class="left ta_time">
+                                    2018-08-12 12:20
+                                </td>
+                                <td>
+                                    <div class="badge">
+                                        <span class="colorg3">标记</span>
+                                        <i></i>
+                                        <div class="badge_list">
+                                            <a href="javascript:;">培训进度</a>
+                                            <a href="javascript:;">售后跟进</a>
+                                            <a href="javascript:;">上架状态</a>
+                                            <a href="javascript:;">机构等级</a>
+                                            <a href="javascript:;">机构标签</a>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td_one left">
+                                    <i class="cur"></i>
+                                    <span>100124</span>
+                                </td>
+                                <td class="left td_two">
+                                    <a href="javascript:;" class="mechanism">广州雀丝JASC化妆造型培妆造型培…</a>
+                                    <a href="javascript:;" class="Prohibition">禁止下单</a>
+                                    <a href="javascript:;" class="vip">VIP机构</a>
+                                    <a href="javascript:;" class="shun">...</a>
+                                </td>
+                                <td>
+                                    洽谈中
+                                </td>
+                                <td class="colorg3">
+                                    1/10
+                                </td>
+                                <td class="colorg3">
+                                    12
+                                </td>
+                                <td class="colorg3">
+                                    13
+                                </td>
+                                <td class="colorg3">
+                                    2/12
+                                </td>
+                                <td>
+                                    90%
+                                </td>
+                                <td class="left ta_time">
+                                    2018-08-12 12:20
+                                </td>
+                                <td>
+                                    <div class="badge">
+                                        <span class="colorg3">标记</span>
+                                        <i></i>
+                                        <div class="badge_list">
+                                            <a href="javascript:;">培训进度</a>
+                                            <a href="javascript:;">售后跟进</a>
+                                            <a href="javascript:;">上架状态</a>
+                                            <a href="javascript:;">机构等级</a>
+                                            <a href="javascript:;">机构标签</a>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- 分页 -->
+                    <div class="page_tabe">
+                        <div class="table_cao">
+                            <button class="all">
+                                <i></i>
+                                <span>全选</span>
+                            </button>
+                            <button class="biaoji">
+                                <span>标记</span>
+                                <div class="bj">
+                                    <p>校+使用</p>
+                                    <p>跟进状态</p>
+                                    <p>机构等级</p>
+                                    <p>跟进人</p>
+                                    <p>配合情况</p>
+                                </div>
+                            </button>
+                        </div>
+                        <div class="page">
+                            <button class="ok">确定</button>
+                            <span class="m">页</span>
+                            <input type="text" name="">
+                            <span class="t">跳到</span>
+                            <button class="next">下一页</button>
+                            <a href="JavaScript:;">99</a>
+                            <span class="sl">...</span>
+                            <a href="JavaScript:;">3</a>
+                            <a href="JavaScript:;">2</a>
+                            <a href="JavaScript:;" class="cur">1</a>
+                            <button class="prev">上一页</button>
+                            <button class="page_select">
+                                <span class="num">10</span>
+                                <i></i>
+                                <div class="select_num">
+                                    <p>10</p>
+                                    <p>20</p>
+                                    <p>50</p>
+                                </div>
+                            </button>
+                            <span class="mei">每页</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../js/jquery.js"></script>
+    <script src="../js/layer.js"></script>
+    <script src="../js/area.js"></script>
+    <script src="../js/all.js"></script>
+     <script src="../js/gp/all.js"></script>
+    <script src="../js/plugin/select.js"></script>
+    <script src="../js/My97DatePicker/WdatePicker.js"></script>
+    <script src="../js/plugin/scrollBar.js"></script>
+    <script>
+
+        $(".label-selec").click(function () {
+            $(".fill-types").show();
+        });
+        $(".fill-types .right-select a").click(function () {
+            $(".fill-types").hide();
+        });
+        $(".recruit_searchCondition .inputdiv2").mouseleave(function () {
+            $(".fill-types").hide();
+        });
+        VitaeSource();
+        Vitaeclick();
+        //收起筛选条件
+        $(".recruit_searchCondition .tollger").click(function () {
+            if ($(this).hasClass('cur')) {
+                $(this).removeClass('cur');
+                $(this).parent().css("borderBottom", "1px dashed #e4e4e4");
+                $(this).children("span").text('收起筛选').removeClass('cur');
+                $(this).children("i").removeClass('cui');
+                $(".tollger-box").show();
+            } else {
+                $(this).addClass('cur');
+                $(this).parent().css("borderBottom", "none");
+                $(this).children("span").text('展开筛选').addClass('cur');
+                $(this).children("i").addClass('cui');
+                $(".tollger-box").hide();
+            }
+        })
+
+
+
+        $('.recruit_searchCondition .s_condition a').click(function () {
+            $(this).siblings().removeClass('cur');
+            $(this).addClass('cur');
+        });
+
+
+        $('.recruit_searchCondition .line .openbtn').click(function () {
+            if ($(this).hasClass('cur')) {
+                $(this).removeClass('cur');
+                $(this).html('更多岗位<i></i>')
+                $(this).siblings('.alist').css('height', '33px');
+            } else {
+                $(this).addClass('cur');
+                $(this).html('收起<i></i>')
+                $(this).siblings('.alist').css('height', 'auto');
+            }
+        });
+
+        //单选
+        $('.right-content .class-table td.sele-one i').click(function () {
+            if ($(this).hasClass('cur')) {
+                $(this).removeClass('cur');
+                $('.right-content .class-table th.sele-all i').removeClass("cur");
+                $('.right-content .t_foot .leftbox .icon').removeClass("cur");
+            } else {
+                $(this).addClass('cur')
+            }
+        });
+
+        //全选
+        $('.right-content .class-table th.sele-all i').click(function () {
+            if ($(this).hasClass('cur')) {
+                $(this).removeClass('cur');
+                $('.right-content .class-table td.sele-one i').removeClass("cur");
+                $('.right-content .t_foot .leftbox .icon').removeClass("cur")
+            } else {
+                $(this).addClass('cur');
+                $('.right-content .class-table td.sele-one i').addClass("cur");
+                $('.right-content .t_foot .leftbox .icon').addClass("cur")
+
+            }
+        });
+
+
+
+
+    </script>
+</body>
+
+</html>

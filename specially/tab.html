@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			
+			.tab{
+				padding: 20px;
+			}
+			.tab .tab_box a{
+				display: inline-block;
+				text-decoration: none;
+				padding: 4px 10px;
+				background-color: #CCCC77;
+				margin: 3px 5px;
+				color: #fff;
+			}
+			.tab .tab_box a.active{
+				background-color: green;
+			}
+			.box_list{
+				height: 400px;
+				text-align: center;
+				line-height: 400px;
+				font-size: 40px;
+				font-weight: 800;
+			}
+			.box_list>div{
+				width: 100%;
+				height: 100%;
+				border: 1px solid #CCCC77;
+				display: none;
+			}
+			.box_list>div.active{
+				display: block;
+			}
+			.box_list>div:nth-child(1){
+				color: red;
+			}
+			.box_list>div:nth-child(2){
+				color: yellow;
+			}
+			.box_list>div:nth-child(3){
+				color: blue;
+			}
+			.box_list>div:nth-child(4){
+				color: deeppink;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<div class="tab">
+			<div class="tab_box">
+				<a href="javascript:;" class="active">内容1</a>
+				<a href="javascript:;">内容2</a>
+				<a href="javascript:;">内容3</a>
+				<a href="javascript:;">内容4</a>
+			</div>
+			<div class="box_list">
+				<div class="active">111111111111111111111111111111111</div>
+				<div>222222222222222222222222222222222</div>
+				<div>333333333333333333333333333333333333</div>
+				<div>4444444444444444444444444444444444444</div>
+			</div>
+		</div>
+		
+		
+		
+		<script src="jquery 1.9.1.js"></script>
+		<script type="text/javascript">
+			
+			$(function(){
+				tab('.tab_box>a','.box_list>div','active')
+			})
+			
+			function tab(tab_click,tab_show,active_class){
+				$(tab_click).click(function(){
+					var index = $(this).index()
+					$(this).addClass(active_class).siblings().removeClass(active_class);
+					$(tab_show).eq(index).addClass(active_class).siblings().removeClass(active_class)
+				})
+			}
+			
+		</script>
+	</body>
+</html>

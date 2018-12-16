@@ -1,0 +1,42 @@
+/*右侧小地图*/
+.MAPTHUMB{ clear:both;}
+.MAPTHUMB dt{ clear:both; height:52px; background-color:#e8f2ff; font-size:14px; line-height:52px;}
+.MAPTHUMB dt *{ display:inline-block; color:#1562c8; cursor:pointer;}
+.MAPTHUMB dt span{ float:left; background:url(../../../images/v2/icons/mapmark2-s.png) left center no-repeat; margin-left:15px; padding-left:15px;}
+.MAPTHUMB dt span{ _background-image:url(../../../images/v2/icons/mapmark2-s.gif);}
+.MAPTHUMB dt samp{ float:right; background:url(../../../images/v2/icons/chevron-down.png) right center no-repeat; margin-right:15px; padding-right:20px;}
+.MAPTHUMB dt samp{ _background-image:url(../../../images/v2/icons/chevron-down.gif);}
+.MAPTHUMB samp.on{ background-image:url(../../../images/v2/icons/chevron-up.png);}
+.MAPTHUMB samp.on{ _background-image:url(../../../images/v2/icons/chevron-up.gif);}
+.MAPTHUMB dd{ clear:both; padding-bottom:25px;}
+#MAPCONTAINER{ height:330px; background-color:#ccc;}
+
+
+/*地图查看器*/
+table.MapViewer{ display:none;}
+div.MapViewer{ width:980px; height:575px; margin:0 auto; overflow:hidden; position:relative;}
+.MapViewer h5{ float:left; width:75px; height:24px; line-height:24px; border:1px solid #3a3a3a; background-color:#3a3a3a; font-size:14px; color:#b0b0b0; font-weight:normal; text-indent:20px; background-position:10px center; background-repeat:no-repeat; margin:5px 0; cursor:pointer;}
+.MapViewer h5.map{ margin-left:10px; _margin-left:5px; background-image:url(../../../images/v2/icons/mapViewer-map.png); _background-image:url(../../../images/v2/icons/mapViewer-map.gif); border-radius:3px 0 0 3px;}
+.MapViewer h5.view{ background-image:url(../../../images/v2/icons/mapViewer-view.png); _background-image:url(../../../images/v2/icons/mapViewer-view.gif); border-radius:0 3px 3px 0;}
+.MapViewer q{ display:block; float:right; font-size:16px; color:#fff; font-family:SimSun; cursor:pointer; margin:5px 10px 0 0; _margin-right:5px;}
+.MapViewer h5.cur{ background-color:#fff; color:#1562c8; border-color:#85afdf;}
+.MapViewer h5.cur.map{ background-image:url(../../../images/v2/icons/mapViewer-mapA.png); _background-image:url(../../../images/v2/icons/mapViewer-mapA.gif);}
+.MapViewer h5.cur.view{ background-image:url(../../../images/v2/icons/mapViewer-viewA.png); _background-image:url(../../../images/v2/icons/mapViewer-viewA.gif);}
+.MapViewer .container{ clear:both; font-size:16px; position:absolute; top:35px; left:0; z-index:1;}
+/*查看器里边的地图*/
+#ViewerMap{ width:680px; height:530px; float:left; margin-left:10px; _margin-left:5px; background-color:#f00;}
+.MapExpand{ position:absolute; width:20px; height:45px; border:1px solid #ccc; border-right:0px; top:230px; left:670px; cursor:pointer; background:url(../../../images/v2/icons/chevrons-right-gray.png) center no-repeat #fff;}
+.MapExpand{ _background-image:url(../../../images/v2/icons/chevrons-right-gray.gif);}
+.MapExpand.off{ background-image:url(../../../images/v2/icons/chevrons-left-gray.png); _background-image:url(../../../images/v2/icons/chevrons-left-gray.gif);}
+/*交通线路*/
+.TrafficLines{ width:280px; height:530px; float:right; margin-right:9px; _margin-right:4px; background-color:#fbfbfb; border-left:1px solid #ccc; text-align:left; overflow-y:auto; overflow-x:hidden;}
+.TrafficLines h6{ clear:both; padding:10px; width:260px;}
+.TrafficLines h6 img{ vertical-align:middle; margin-right:10px;}
+.TrafficLines div{ width:260px;}
+.TrafficLines p{ padding:5px 10px; color:#3e82e5; font-size:16px; line-height:25px;}
+.TrafficLines strong{ color:#525252; display:block;}
+/*街景*/
+#Panorama{ width:960px; height:530px; margin:0 10px; background:url(../../../images/v2/noscene.jpg) center #fff no-repeat;}
+
+/*最先隐藏地图*/
+.MAPTHUMB dt,#MAPCONTAINER{ display:none;}

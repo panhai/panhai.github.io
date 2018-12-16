@@ -1,0 +1,220 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>好工作运营后台-企业管理-已合作</title>
+</head>
+<link rel="stylesheet" type="text/css" href="../css/v2/admin/all.css">
+
+<body>
+<header class="clear">
+	<img src="../images/v2/logo-s.png" width="119" height="62">
+    <em>后台管理系统</em>
+    <p>
+    	<a href="#"><i><img src="../images/v2/nophoto.png" width="30" height="30"></i><span>用户名称</span></a>
+        <a href="#">安全退出</a>
+    </p>
+</header>
+<nav>
+	<li><a href="index.html">首页</a></li>
+	<li class="cur"><a href="companies.html">企业管理</a></li>
+	<li><a href="schools.html">院校管理</a></li>
+	<li><a href="users.html">用户管理</a></li>
+	<li><a href="jobs.html">职位管理</a></li>
+	<li><a href="resumes.html">简历管理</a></li>
+	<li><a href="servers.html">客服系统</a></li>
+	<li><a href="moneys.html">财务系统</a></li>
+	<li><a href="system.html">系统管理</a></li>
+</nav>
+
+<menu>
+	<li><a href="companies.html">全部企业</a></li>
+	<li><a href="companies-rpo.html">RPO企业</a></li>
+	<li class="cur"><a href="companies-done.html">已合作</a></li>
+	<li><a href="companies-check.html">待审核</a></li>
+	<li><a href="companies-down.html">被下架</a></li>
+	<li><a href="company-edit.html">添加企业/RPO</a></li>
+</menu>
+
+<div class="Filter"><table>
+	<tr>
+    	<th width="7%">关键词：</th><td width="26%">
+        	<input type="text" class="text long" placeholder="请输入关键字">
+        </td>
+    	<th width="7%">地区：</th><td width="26%">
+        	<dl class="SELECT double cities ADDRESS" data-child=".districts" data-address="GetHotCities">
+            	<input type="hidden">
+                <dt></dt>
+                <dd class="normal">
+                </dd>
+            </dl>
+            <ins></ins>
+        	<dl class="SELECT double districts ADDRESS" data-unlimit="true" data-parent=".cities">
+            	<input type="hidden">
+                <dt></dt>
+                <dd class="normal">
+                </dd>
+            </dl>
+        </td>
+    	<th width="7%">费用：</th><td width="26%">
+        	<input type="text" class="text double">
+            以上
+        </td>
+    </tr>
+    <tr>
+    	<th>性质：</th><td>
+        	<dl class="SELECT tiny">
+            	<input type="hidden">
+                <dt></dt>
+                <dd class="normal">
+                    <a data-id="">不限</a>
+                    <a data-id="2">私营</a>
+                    <a data-id="4">国有</a>
+                    <a data-id="8">股份制</a>
+                    <a data-id="16">外资</a>
+                    <a data-id="32">合资</a>
+                    <a data-id="64">事业单位</a>
+                    <a data-id="128">政府机关</a>
+                    <a data-id="256">非营利机构</a>
+                    <a data-id="512">其他</a>
+                </dd>
+            </dl>
+        	<ins>规模：</ins>
+        	<dl class="SELECT tiny">
+            	<input type="hidden" value="100">
+                <dt></dt>
+                <dd class="normal">
+                    <a data-id="">不限</a>
+                    <a data-id="50">少于50人</a>
+                    <a data-id="100">50-100人</a>
+                    <a data-id="500">100-500人</a>
+                    <a data-id="1000">500-1000人</a>
+                    <a data-id="1000000">1000人以上</a>
+                </dd>
+            </dl>
+        </td>
+    	<th>行业：</th><td>
+        	<dl class="SELECT long" data-leave="-1">
+            	<input type="hidden" value="1112,1013">
+                <dt></dt>
+                <dd class="PROFESSIONS">
+                	<table>
+                    	<caption data-choices="3">
+                        	<p></p>
+                            <span>
+                            	<input type="button" class="confirm" value="确定">
+                            </span>
+                        </caption>
+                        <thead><tr><th width="200"></th><td width="1000"></td></tr></thead>
+                        <tbody></tbody>
+                    </table>
+                </dd>
+            </dl>
+        </td>
+    	<th>合作学校：</th><td>
+        	<input type="text" class="text double">
+            以上
+        </td>
+    </tr>
+    <tr>
+    	<th>近期登陆：</th><td>
+        	<input type="text" class="text double time">
+            <ins></ins>
+        	<input type="text" class="text double time">
+        </td>
+    	<th>合同有效期：</th><td>
+        	<input type="text" class="text double time">
+            <ins></ins>
+        	<input type="text" class="text double time">
+        </td>
+    	<th>&nbsp;</th><td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td colspan="6" class="btns">
+        	<input type="button" class="submit" value="查询">
+        	<input type="button" class="reset" value="重置" onClick="allSelectsReset('.Filter');allInputsReset('.Filter');">
+        </td>
+    </tr>
+</table></div>
+
+<div class="total">共有企业 12658 家</div>
+<div class="List"><table border="1" bordercolor="#e2e4f0">
+	<thead><tr>
+    	<th width="90">ID</th>
+    	<th width="">企业全称</th>
+    	<th width="135">合作开始时间</th>
+    	<th width="160">合同有效期</th>
+    	<th width="120">最近登陆时间</th>
+    	<th width="85">招聘职位</th>
+    	<th width="100">费用统计</th>
+    	<th width="285">操作</th>
+    </tr></thead>
+    <tbody>
+    	<tr>
+        	<th><label><input type="checkbox">10001</label></th>
+            <td>广州冠鹏信息技术有限公司</td>
+            <td>2015-06-24</td>
+            <td>2015-06-24</td>
+            <td>2015-06-24</td>
+            <td><a href="#">20</a></td>
+            <td><a href="#">2000</a></td>
+            <td><a href="company-detail.html">查看</a><a href="company-edit.html">编辑</a><a data-id="" data-name="" class="offline">下架</a></td>
+        </tr>
+    	<tr>
+        	<th><label><input type="checkbox">10001</label></th>
+            <td>广州冠鹏信息技术有限公司</td>
+            <td>2015-06-24</td>
+            <td>2015-06-24(已过期)</td>
+            <td>2015-06-24</td>
+            <td><a href="#">20</a></td>
+            <td><a href="#">2000</a></td>
+            <td><a href="company-detail.html">查看</a><a href="company-edit.html">编辑</a><a data-id="" data-name="" class="offline">下架</a></td>
+        </tr>
+    	<tr>
+        	<th><label><input type="checkbox">10001</label></th>
+            <td>广州冠鹏信息技术有限公司</td>
+            <td>2015-06-24</td>
+            <td>2015-06-24</td>
+            <td>2015-06-24</td>
+            <td><a href="#">20</a></td>
+            <td><a href="#">2000</a></td>
+            <td><a href="company-detail.html">查看</a><a href="company-edit.html">编辑</a><a data-id="" data-name="" class="offline">下架</a></td>
+        </tr>
+    	<tr>
+        	<th><label><input type="checkbox">10001</label></th>
+            <td>广州冠鹏信息技术有限公司</td>
+            <td>2015-06-24</td>
+            <td>2015-06-24(已过期)</td>
+            <td>2015-06-24</td>
+            <td><a href="#">20</a></td>
+            <td><a href="#">2000</a></td>
+            <td><a href="company-detail.html">查看</a><a href="company-edit.html">编辑</a><a data-id="" data-name="" class="offline">下架</a></td>
+        </tr>
+    </tbody>
+    <caption>
+    	<input type="button" value="全选" class="checkAll">
+    	<input type="button" value="反选" class="checkNeg">
+        <div class="Pages">
+        	<span>5874条结果，共294页</span>
+            <a href="#">首页</a>
+            <a href="#">上一页</a>
+            <a href="#">1</a>
+            <a href="#" class="cur">2</a>
+            <a href="#">3</a>
+            <a href="#">...</a>
+            <a href="#">294</a>
+            <a href="#">下一页</a>
+            <a href="#">尾页</a>
+        </div>
+    </caption>
+</table></div>
+</body>
+</html>
+<script src="../js/v2/admin/jquery2.js"></script>
+<script src="../js/jbody.js"></script>
+<script src="../js/jbody-plugin.js"></script>
+<script src="../js/area.js"></script>
+<script src="../js/subjects.js"></script>
+<script src="../js/v2/admin/all.js"></script>
+<script>
+</script>

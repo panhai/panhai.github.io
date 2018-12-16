@@ -1,0 +1,342 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+
+</title>
+    <link href="../css/1024/common.css" rel="stylesheet" type="text/css" />
+    <link href="../css/1024/schoolAdmin.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/MD5.js"></script>
+    <script type="text/javascript" src="../js/jbody.js"></script>
+    <script type="text/javascript" src="../js/jbody-plugin.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+    <script type="text/javascript" src="../js/area.js"></script>
+    <script type="text/javascript" src="../js/subjects.js"></script>
+    <script type="text/javascript" src="../js/jobPositions.js"></script>
+    <script type="text/javascript" src="../js/admin/common.js"></script>
+    <script type="text/javascript" src="../js/selectors.js"></script>
+    <script type="text/javascript" src="../js/admin/schoolAdmin.js"></script>
+        
+    <script type="text/javascript" src="/js/password.js"></script>
+</head>
+<body>
+    <iframe id="_postTargetIframe" name="_postTargetIframe" style="display:none;" src="about:blank"></iframe>
+    
+
+    
+<div class="pg-msg-orange">
+    <div class="pg-msg-txt">你必须完善内容</div>
+    <div class="pg-msg-bt">×</div>
+</div>
+<div id="pg-header" class="pg-header">
+    <div class="pg-header-main">
+        <div class="logo">
+            <a href="/sysuxky/"><img alt="好工作网Logo" src="../images/logo.png" class="pngfix" width="232" height="40" /></a>
+        </div>
+        <div class="cname">中山大学信息技术与科学学院</div>
+        <div class="r mginT10">
+    <div class="platform-switch-container">
+    <div class="platform-switch-main msout">
+        <span class="floatR">切换后台</span>
+        <span class="floatR" style="border:solid 1px #ffc183; line-height:12px; margin-right:5px; padding-left:1px; padding-right:1px;">+</span>
+        <div style="clear:both;"></div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        $(".platform-switch-main").click(function () {
+            JBFrameHelper.showPage("/UCenter/PlatformSwitch.phtml", { obj: this, title: "切换到个人中心或其他管理后台", w: 500, pos: { to: "win", parent: "doc", park: "inside", parkInside: "center" } }, true, false);
+        });
+    })
+</script>
+
+</div>
+    </div>
+</div>
+    
+<div id="pg-nav" class="pg-nav">
+    <ul>
+        <li><div class="nav-title"><a href="#">管理首页</a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">用户与设置<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">资讯通告<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">校企合作<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">招聘信息<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">专业 ▪ 导师<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">学籍学生<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">更多<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="/School/sysuxky/">前台</a></div></li>
+    </ul>
+</div>
+<div style="clear:both;"></div>
+<div id="pg-nav-sub"  style="display:none;">
+    <div id="pg-nav-sub-inner">
+        <div id="pg-nav-sub-main">
+        <ul style="display:none;">
+            <li><a href="sum.html">系统概况</a></li>
+            <li><a href="School.html">后台管理功能快捷链接</a></li>
+            <li><a href="#">消息</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Setting.html">系统设置</a></li>
+            <li><a href="Intro.html">院校介绍</a></li>
+            <li><a href="Manager-custmRoles.html">管理员角色</a></li>
+            <li><a href="Manager.html">管理员</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Article-list.html">事务通知</a></li>
+            <li><a href="Article-kx.html">学院快讯</a></li>
+            <li><a href="Article-jyzd.html">就业指导</a></li>
+            <li><a href="Article-sxzn.html">升学指南</a></li>
+            <li><a href="Article-zsxx.html">招生信息</a></li>
+            <li><a href="Article-bnner.html">首页Banner</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Company-Search.html">企业搜索</a></li>
+            <li><a href="Company-Recieved.html">收到的请求</a></li>
+            <li><a href="Company-Sended.html">发出的请求</a></li>
+            <li><a href="Company-Default.html">合作企业列表</a></li>
+            <li><a href="Company-Black.html">黑名单企业</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Offers-all.html">合作企业请求的招聘</a></li>
+            <li><a href="Offers-Fairs.html">招聘会 ▪ 宣讲会</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Majors.html">学科专业</a></li>
+            <li><a href="#">特聘导师</a></li>
+            <li><a href="#">导师申请</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="#">在校学生</a></li>
+            <li><a href="#">往届学生</a></li>
+            <li><a href="#">全部学生</a></li>
+            <li><a href="#">学籍导入</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="FriendLinks.html">友情链接</a></li>
+            <li><a href="Info.html">个人设置</a></li>
+            <li><a href="Password.html">修改密码</a></li>
+        </ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+    </div>
+    </div>
+</div>
+<div style="clear:both;"></div>
+    <div class="pageMainContentContainer">            
+    <form method="post" action="/school/sysuxky/admin/users/managerAdd.phtml" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="vYHG37/cvxj95kNDTNoMT+wZNFtvXUjLbspH2UtOZDjlkhkTLjhrtud7fltwkqCvd9+0Z8PmUpMq0BQcAL02NYddRnE62Iyqt8DxVEKPI6OPG8ZUFJkT7Ld+4ht5j6nqmU5tUah9P3kF3gE5CG9xVB9JDZqgX+HfQR4OdPg5MPYwS2bWvbxmBFRsBT0GFD5u9SmjwBkBvPUywH3WM9Dw+5isuXYoQkMMJHEi8s8bEE35ghk3K96OOjfocmYBgDdU+9CTDiL61HNidYP4179wydZA+REovNtD7QQfpdsqtNDFQLZ3gD8kLdpMEtXo6uxGjIqnZs+gQQ9nrQI/7pLTa2Dh9QL/gY9I/K6qJtE0ndo7dto9Gf29C0ND1Xoq3NMqHaSJGE3e7FVBAmwFVGOdEw==" />
+</div>
+
+<div class="aspNetHidden">
+
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="6065C486" />
+</div>
+    
+    <div class="bodyBlock">
+         <div class="editBlock editable editBlockBorder">
+            <div class="detailBlockTitle"><div class="leftIco"></div><div class="left">添加新管理员</div><a class="btn-3d btn-3d-blue btn-3d-mini floatL mginL20" href="Manager.phtml">返回管理员列表</a></div>
+            <div class="blockMain">
+                <div id="stepTabContainer" style="margin-left:180px;"></div>
+                <table class="blockMainTable mginL20 mginT20" style="width:930px;" id="addStep1Container">
+                    <tr>
+                        <th style="width:150px;"><span class="reqValidate">*</span>姓名：</th><td style="width:180px;">
+                            <input name="ctl00$form$TextBoxName" type="text" id="form_TextBoxName" class="inputText" AutoComplete="false" data-jbextendid="exinput_form_TextBoxName_973_857" data-jbtips="姓名" style="width:160px;" />
+                            <div style="clear:both; margin-top:8px;"></div>
+                            <span id="nameMsg" style="margin-left:0px;"></span>
+                            </td>
+                            <th style="width:70px;"><span class="reqValidate">*</span>性别：</th><td>
+                                <select name="ctl00$form$DropDownListGender" id="form_DropDownListGender" style="width:60px;">
+    <option value="2">保密</option>
+    <option value="1">男</option>
+    <option value="0">女</option>
+
+</select>
+                            <div style="clear:both; margin-top:8px;"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th style="width:150px;"><span class="reqValidate">*</span>手机号码或邮箱：</th><td colspan="3">
+                            <input name="ctl00$form$TextBoxEmail" type="text" id="form_TextBoxEmail" class="inputText" AutoComplete="false" data-jbextendid="exinput_form_TextBoxEmail_224_857" data-jbtips="手机号码或邮箱，可用于登录" style="width:300px;" />
+                            <div style="clear:both; margin-top:8px;"></div>
+                            <span id="emailMsg" style="margin-left:0px;"></span>
+                            </td>
+                    </tr>
+                    <tr>
+                        <th style="width:100px;"><span class="reqValidate">*</span>初始密码：</th><td colspan="3">  
+                            <input name="ctl00$form$TextBoxPassword" type="password" maxlength="16" id="form_TextBoxPassword" class="inputText" onkeyup="SetStrong(CheckPswdStrong(this.value))" data-jbextendid="exinput_form_TextBoxPassword_695_857" style="width:195px;float: left;" />
+                            <div style="clear:both;"></div>
+                            <div id="divStrong" style="display:block; height:12px;">
+                                <div class="password_top password_current">弱</div>
+                                <div class="password">中</div>
+                                <div class="password">强</div>
+                            </div>
+                            <div style="clear:both; margin-top:8px;"></div>
+                            <span id="txtPasswordMsg" style="margin-left:0px;"></span>
+                            </td>
+                    </tr>
+                    <tr>
+                        <th style="width:100px;"><span class="reqValidate">*</span>所在城市：</th><td colspan="3">  
+                            <input type="hidden" name="ctl00$form$HiddenFieldCity" id="form_HiddenFieldCity" />
+                            <select id="selProvince" style="width:95px;"></select><select id="selCity" style="width:110px; margin-left:5px;"></select>
+                            
+                            <div style="clear:both; margin-top:8px;"></div>
+                            <span id="cityMsg" style="margin-left:0px;"></span>  
+                            </td>
+                    </tr>
+                    <tr>
+                        <th>用户角色：</th><td colspan="3">
+                            <input type="hidden" name="ctl00$form$HiddenFieldRoleIds" id="form_HiddenFieldRoleIds" />
+                            <input type="hidden" name="ctl00$form$HiddenFieldRolePower" id="form_HiddenFieldRolePower" value="0" />
+                            <input type="hidden" name="ctl00$form$HiddenFieldRolePowerExA" id="form_HiddenFieldRolePowerExA" value="0" />
+                            <input type="hidden" name="ctl00$form$HiddenFieldRolePowerExB" id="form_HiddenFieldRolePowerExB" value="0" />
+                            <input type="hidden" name="ctl00$form$HiddenFieldRolePowerExC" id="form_HiddenFieldRolePowerExC" value="0" />
+                            
+                                    <div style="float:left; margin-right:20px;"><input onclick="rolesclick(this,100001)" type="checkbox" value="24"  data-va="0"  data-vb="0"  data-vc="0" />企业管理员</div>
+                                
+                                    <div style="float:left; margin-right:20px;"><input onclick="rolesclick(this,100002)" type="checkbox" value="6"  data-va="0"  data-vb="0"  data-vc="0" />学生管理员</div>
+                                    
+                        </td>
+                    </tr> 
+                    <tr><th>&nbsp;</th><td colspan="5" style="padding-top:30px;">
+                        <input type="submit" name="ctl00$form$Button1" value="确认添加" id="form_Button1" class="btn-3d btn-3d-large btn-3d-orange floatL" />
+                    </td></tr>
+                </table>
+                <div style="clear:both;"></div>
+            </div>
+        </div>
+     </div>
+    <script type="text/javascript">
+        $(function () {
+            CreateAreaSelector({ slProv: "selProvince", slCity: "selCity", titleProv: "选择省份", value: $("#form_HiddenFieldCity").val(), afterchange: function (v) { $("#form_HiddenFieldCity").val(v); if(v!="") JBValidaterCity.check(); } });
+        });
+        function checkIdentInputs(jbv) {
+            var v = JB.trim(JBInputInnerTips.getValue(document.getElementById("form_TextBoxEmail")));
+            if(v==""){
+                jbv.msg = "请填写手机号码或邮箱";
+                return false;
+            }else if(!JBValidatorContainer.test(v,"Email") && !JBValidatorContainer.test(v,"Mobile")){
+                jbv.msg = "手机或邮箱格式错误";
+                return false;
+            }
+            return true;
+        }
+    </script>
+    <script type="text/javascript">
+        function SetStrong(s) {
+            $("#divStrong div").removeClass("password_current");
+            $("#divStrong div:lt(" + s + ")").addClass("password_current");
+        }
+        function CheckPasswordStrong(jbv) {
+            var v = CheckPswdStrong(document.getElementById("form_TextBoxPassword").value);
+            if (v == 1) jbv.msg = "密码强度过低";
+            return v > 1;
+        }
+        function CheckCitySelect(jbv) {
+            var v = $("#form_HiddenFieldCity").val();
+            if (v == "") jbv.msg = "请选择城市";
+            return v!="";
+        }
+        function rolesclick(elm,id) {
+            var v = 0;
+            var va = 0;
+            var vb = 0;
+            var vc = 0;
+            $(elm).parent().parent().find("input:checkbox").each(function () {
+                if (this.checked){ 
+                    v = (v | parseInt(this.value));
+                    va = (va | parseInt($(this).data("va")));
+                    vb = (vb | parseInt($(this).data("vb")));
+                    vc = (vc | parseInt($(this).data("vc")));
+                }
+            })
+            $("#form_HiddenFieldRolePower").val(v);
+            $("#form_HiddenFieldRolePowerExA").val(va);
+            $("#form_HiddenFieldRolePowerExB").val(vb);
+            $("#form_HiddenFieldRolePowerExC").val(vc);
+
+            if (elm.checked) $("#form_HiddenFieldRoleIds").val($("#form_HiddenFieldRoleIds").val() + "," + id + ",");
+            else $("#form_HiddenFieldRoleIds").val($("#form_HiddenFieldRoleIds").val().replace("," + id + ",", ""));            
+        }
+    </script>
+
+    
+
+<script type="text/javascript">
+//<![CDATA[
+function iframeSubmitRegister(){$("#form1").get(0).target = "_postTargetIframe";if(JBValidatorContainer.containAutoFireObj($("#form1").get(0))){   JBValidatorContainer.afterSuccess.push(function(){     if(this==$("#form1").get(0)){ new JBodyDialog().show(window, "<img alt='' src='/images/common/loading/5.gif' />", {w:200,h:90,modal:true,title:"提交中，请稍候...", pos:[{to:'win',park:'inside',parkInside:'center'}]}); }    return true; });}else{  $("#form1").submit(function() {  new JBodyDialog().show(window, "<img alt='' src='/images/common/loading/5.gif' />", {w:200,h:90,modal:true,title:"提交中，请稍候...。", pos:[{to:'win',park:'inside',parkInside:'center'}]});  return true;  });}}$(function(){ setTimeout("iframeSubmitRegister()",1000); });pageMainMenuCreater.setActive({mainText:'用户与设置',subText: '管理员'});//]]>
+</script>
+<script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxName'});var exinput_form_TextBoxName_973_857=null; JB.ready(function(){exinput_form_TextBoxName_973_857= new JBValidator({varId:'exinput_form_TextBoxName_973_857',exType:'Chinease',checkWhere:'ServerAndClient',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'nameMsg',dataTitle:'姓名',inputTip:'姓名',tipShow:'Onfoucs',tipPos:'InnerText',innerTextTip:'姓名',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:false,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0});});</script><script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxEmail'});var exinput_form_TextBoxEmail_224_857=null; JB.ready(function(){exinput_form_TextBoxEmail_224_857= new JBValidator({varId:'exinput_form_TextBoxEmail_224_857',exType:'Text',checkWhere:'ServerAndClient',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'emailMsg',dataTitle:'手机号码或邮箱',inputTip:'手机号码或邮箱，可用于登录',tipShow:'Onfoucs',tipPos:'InnerText',innerTextTip:'手机号码或邮箱，可用于登录',appendChecks:[checkIdentInputs],showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:false,inCaseHidden:false,checkAppendOnly:true,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0});});</script><script type='text/javascript'>var exinput_form_TextBoxPassword_695_857=null; JB.ready(function(){exinput_form_TextBoxPassword_695_857= new JBValidator({varId:'exinput_form_TextBoxPassword_695_857',exType:'Password',checkWhere:'ServerAndClient',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'txtPasswordMsg',dataTitle:'密码',inputTip:'6-16位英文数字组合',tipShow:'Onfoucs',tipPos:'InnerText',appendChecks:[CheckPasswordStrong],showSuccess:false,checkOnFocusout:true,checkOnChange:false,ignoreCase:true,canNull:false,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:6,maxLen:16});});</script><script type='text/javascript'>var JBValidaterCity=null; JB.ready(function(){JBValidaterCity= new JBValidator({obj:'selProvince',exType:'Text',checkWhere:'ClientAuto',msgShowType:'InnerText',msgCloseType:'NotClose',msgPosTo:'cityMsg',dataTitle:'输入',appendChecks:[CheckCitySelect],showSuccess:false,inCaseHidden:false,checkAppendOnly:true,msgAlwaysAlert:false});});</script></form>
+    
+
+    <div style="clear:both;"></div>
+    </div>
+    
+<div style="clear:both;"></div>
+<div class="footerOuter">
+    <div class="footer">
+        <div>
+            <div class="contact">
+                <span style="margin-top:60px; font-size:14px;">服务热线 (免长话费)</span>
+                <span style="font-size:16px;">400-6838-789</span>
+                <span>工作日 9:00-19:00</span>
+            </div>
+            <div class="footerBlock">
+                <span>网站简介</span>
+                <a>网站简介</a>
+                <a>产品服务</a>
+                <a>创新优势</a>
+                <a>友情链接</a>
+                <a>联系我们</a>
+            </div>
+            <div class="footerBlock">
+                <span>使用帮助</span>
+                <a>网站简介</a>
+                <a>产品服务</a>
+                <a>创新优势</a>
+                <a>友情链接</a>
+                <a>联系我们</a>
+            </div>
+            <div class="footerBlock">
+                <span>合作共赢</span>
+                <a>网站简介</a>
+                <a>产品服务</a>
+                <a>创新优势</a>
+                <a>友情链接</a>
+                <a>联系我们</a>
+            </div>
+            <div class="footerBlock">
+                <span>快捷方式</span>
+                <a>网站简介</a>
+                <a>产品服务</a>
+                <a>创新优势</a>
+                <a>友情链接</a>
+                <a>联系我们</a>
+            </div>
+        </div>
+        <div style="clear:both;"></div>
+        <div style="margin-top:20px; color:#888;">
+        版权所有：好工作网
+        联系电话：88888888&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        联系邮箱：88888@qq.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+        地址：广州市环市中路&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        邮政编码：510000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+<script type="text/javascript">
+           $(function () { adminPageInit({ unresize: "" }); });
+</script>
+<!--[if IE 6]>
+<script type="text/javascript" src="/js/DD_belatedPNG_0.0.8a.js"></script>
+<script type="text/javascript">   
+  DD_belatedPNG.fix('.pngfix'); 
+</script>
+<![endif]-->

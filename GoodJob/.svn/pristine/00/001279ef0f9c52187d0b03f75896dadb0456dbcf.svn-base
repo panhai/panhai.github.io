@@ -1,0 +1,29 @@
+﻿/* 名企首页 */
+/*幻灯片*/
+.Banner{ clear:both; width:100%; height:390px; overflow:hidden;}
+.Banner a{ display:block; width:100%; height:100%; background-position:center; background-repeat:no-repeat;}
+/*过滤搜索条*/
+.Filters{ height:35px; padding:10px; box-shadow:0 5px 5px rgba(117,149,192,0.2); background-color:#fff; position:relative; z-index:2;}
+.Filters .SELECT{ width:200px; float:left; margin-right:10px;}
+.Filters .SELECT dt{ height:35px; line-height:35px; background-color:#f2f8ff;}
+.Filters .SELECT dt span,.Filters .SELECT dt b{ width:160px; font-size:16px;}
+.Filters .CitiesPicker dt input{ font-size:16px; height:34px; line-height:34px; float:left;}
+.Filters .submit{ width:65px; background-color:#1562c8; font-size:16px; color:#fff; border:0; cursor:pointer; float:right; height:35px;}
+.Filters .text{ width:320px; font-size:16px; color:#1562c8; background-color:#f2f8ff; float:right; height:35px; line-height:35px; border:0; padding:0 10px;}
+
+/*主体*/
+.Main{ background-color:#f2f2f2; padding:30px 0;}
+.Main li{ float:left; width:265px; float:left; text-align:center; font-size:14px; line-height:30px;}
+.Main li a{ display:block; width:200px; background-color:#fff; margin:0 auto; height:178px; padding:20px; margin-bottom:20px;}
+.Main li var{ display:block; width:150px; height:150px; margin:0 auto;}
+.Main li h4{ font-weight:normal; color:#525252; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; margin-top:10px;}
+.Main li p{ color:#a4a4a4;}
+.Main li b{ font-weight:normal; font-size:16px; color:#ff4f00; padding:0 20px 0 5px; background:url(../../images/v2/icons/chevrons-right-blue.png) right center no-repeat;}
+.Main li b{ _background-image:url(../../images/v2/icons/chevrons-right-blue.gif);}
+
+.PAGES{ padding-right:26px; text-align:right;}
+
+/*更多*/
+div.more{ text-align:right; margin-top:15px;}
+div.more a{ display:inline-block; height:40px; line-height:40px; color:#fff; padding:0 30px 0 15px; background:url(../../images/v2/icons/chevrons-right.png) 120px center no-repeat #87b8f8; margin-right:22px;}
+div.more a{ _background-image:url(../../images/v2/icons/chevrons-right.gif)}

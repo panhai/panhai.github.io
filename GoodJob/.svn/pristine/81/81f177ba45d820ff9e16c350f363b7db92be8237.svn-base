@@ -1,0 +1,262 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+
+</title>
+    <link href="../css/1024/common.css" rel="stylesheet" type="text/css" />
+    <link href="../css/1024/schoolAdmin.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/MD5.js"></script>
+    <script type="text/javascript" src="../js/jbody.js"></script>
+    <script type="text/javascript" src="../js/jbody-plugin.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+    <script type="text/javascript" src="../js/area.js"></script>
+    <script type="text/javascript" src="../js/subjects.js"></script>
+    <script type="text/javascript" src="../js/jobPositions.js"></script>
+    <script type="text/javascript" src="../js/admin/common.js"></script>
+    <script type="text/javascript" src="../js/selectors.js"></script>
+    <script type="text/javascript" src="../js/admin/schoolAdmin.js"></script>
+    
+</head>
+<body>
+    <iframe id="_postTargetIframe" name="_postTargetIframe" style="display:none;" src="about:blank"></iframe>
+    
+
+    
+<div class="pg-msg-orange">
+    <div class="pg-msg-txt">你必须完善内容</div>
+    <div class="pg-msg-bt">×</div>
+</div>
+<div id="pg-header" class="pg-header">
+    <div class="pg-header-main">
+        <div class="logo">
+            <a href="/sysuxky/"><img alt="好工作网Logo" src="../images/logo.png" class="pngfix" width="232" height="40" /></a>
+        </div>
+        <div class="cname">中山大学信息技术与科学学院</div>
+        <div class="r mginT10">
+    <div class="platform-switch-container">
+    <div class="platform-switch-main msout">
+        <span class="floatR">切换后台</span>
+        <span class="floatR" style="border:solid 1px #ffc183; line-height:12px; margin-right:5px; padding-left:1px; padding-right:1px;">+</span>
+        <div style="clear:both;"></div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        $(".platform-switch-main").click(function () {
+            JBFrameHelper.showPage("/UCenter/PlatformSwitch.phtml", { obj: this, title: "切换到个人中心或其他管理后台", w: 500, pos: { to: "win", parent: "doc", park: "inside", parkInside: "center" } }, true, false);
+        });
+    })
+</script>
+
+</div>
+    </div>
+</div>
+    
+<div id="pg-nav" class="pg-nav">
+    <ul>
+        <li><div class="nav-title"><a href="#">管理首页</a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">用户与设置<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">资讯通告<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">校企合作<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">招聘信息<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">专业 ▪ 导师<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">学籍学生<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">更多<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="/School/sysuxky/">前台</a></div></li>
+    </ul>
+</div>
+<div style="clear:both;"></div>
+<div id="pg-nav-sub"  style="display:none;">
+    <div id="pg-nav-sub-inner">
+        <div id="pg-nav-sub-main">
+        <ul style="display:none;">
+            <li><a href="sum.html">系统概况</a></li>
+            <li><a href="School.html">后台管理功能快捷链接</a></li>
+            <li><a href="#">消息</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Setting.html">系统设置</a></li>
+            <li><a href="Intro.html">院校介绍</a></li>
+            <li><a href="Manager-custmRoles.html">管理员角色</a></li>
+            <li><a href="Manager.html">管理员</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Article-list.html">事务通知</a></li>
+            <li><a href="Article-kx.html">学院快讯</a></li>
+            <li><a href="Article-jyzd.html">就业指导</a></li>
+            <li><a href="Article-sxzn.html">升学指南</a></li>
+            <li><a href="Article-zsxx.html">招生信息</a></li>
+            <li><a href="Article-bnner.html">首页Banner</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Company-Search.html">企业搜索</a></li>
+            <li><a href="Company-Recieved.html">收到的请求</a></li>
+            <li><a href="Company-Sended.html">发出的请求</a></li>
+            <li><a href="Company-Default.html">合作企业列表</a></li>
+            <li><a href="Company-Black.html">黑名单企业</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Offers-all.html">合作企业请求的招聘</a></li>
+            <li><a href="Offers-Fairs.html">招聘会 ▪ 宣讲会</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Majors.html">学科专业</a></li>
+            <li><a href="#">特聘导师</a></li>
+            <li><a href="#">导师申请</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="#">在校学生</a></li>
+            <li><a href="#">往届学生</a></li>
+            <li><a href="#">全部学生</a></li>
+            <li><a href="#">学籍导入</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="FriendLinks.html">友情链接</a></li>
+            <li><a href="Info.html">个人设置</a></li>
+            <li><a href="Password.html">修改密码</a></li>
+        </ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+    </div>
+    </div>
+</div>
+<div style="clear:both;"></div>
+    <div class="pageMainContentContainer">            
+    <form method="post" action="/school/sysuxky/admin/Article/?listType=13" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="JWK0pkCMwM3EOOmvJ9Oe2UuW4aSkN7NGu7cmpMORbUF4iNKhS8oIIphyJlcRZGhX62RKU611Laqx35nPMaPd5uHrHYRVMhEmz241lrtMJu2SU1HabAMDCIOkfparVJV2i0pw/xcHPX0oUTzT8cX1Uln2BIenxyr6wC2M6imH+eUufmAJNimq2MXxKXzk+6JiBF3BAhLxAFVLhSGeuBgOwi7QDCH/KpLnM+F/Bfpuk6kOn97bsay492WsH7lW9kGuWO02373LBlu6J6L1Bxl15Q4+vHXMD4UjNLtWbj55cBNGLzr1rO19UAni6GrB7zuvvpK7StzVf35k94ak5B9BnnHFQpjH2dliA0FKtNHiKxmA2l3V+DOaumnv7aLxaB4rsj/9TwBkkIgEHbzRSv9G/QmqozppEno79wBahJ7j4qPU8MUywejP9sUQ47MjfL653AIsKZ2eNywfh6HbJGQHjSIhfqZMOMLeLlbFE4eCxzZwstdqBuzr+xVMcdgpDvcXpRYzlhEFuFK8yBMe57pwEzed1f4fSDHDIDBda6t1chayAIi1L48JH1b9QnMGXNZRolMzdzYlIcj/qjYTbsZnpTu2WkF23UHvOCyQt5DZbYc=" />
+</div>
+
+<div class="aspNetHidden">
+
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D3F496E7" />
+</div>
+    
+    <div class="bodyBlock">
+        <div class="detailBlockTitle" style="padding-left:20px;"><div class="leftIco"></div><div class="left">学院快讯列表</div><a class="btn-3d btn-3d-blue btn-3d-mini floatL mginL20" href="Add.phtml?addType=13">添加学院快讯</a></div>
+        <table class="listTable" id="listTableMain">
+            <tr class="theader">
+                <td style="width:30px;"><input type="checkbox" onclick="multiCheckboxOp(this)" /></td>
+                <td>标题</td>
+                <td style="width:100px;">添加时间</td>
+                <td style="width:150px;">状态</td>
+                <td style="width:120px;">操作</td></tr>
+            
+                    <tr class="tr0" onmouseover="$(this).addClass('mOver');" onmouseout="$(this).removeClass('mOver');">
+                        <td><input type="checkbox" class="checkboxMultiOp" value="10002" /></td>
+                        <td>市值不足12亿美元的人人，能卖给谁？</td>
+                        <td>2014-07-14</td>
+                        <td>待审核</td>
+                        <td><a href="/School/sysuxky/Admin/Article/Detail.phtml?id=10002">预览</a>
+                            |
+                            <a href="/School/sysuxky/Admin/Article/Edit.phtml?id=10002">修改</a>
+                            |
+                            <a href="/School/sysuxky/Admin/Article/Detail.phtml?id=10002">删除</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1" onmouseover="$(this).addClass('mOver');" onmouseout="$(this).removeClass('mOver');">
+                        <td><input type="checkbox" class="checkboxMultiOp" value="10003" /></td>
+                        <td>嘀嘀打车更名为“滴滴打车”后</td>
+                        <td>2014-07-14</td>
+                        <td>待审核</td>
+                        <td><a href="/School/sysuxky/Admin/Article/Detail.phtml?id=10003">预览</a>
+                            |
+                            <a href="/School/sysuxky/Admin/Article/Edit.phtml?id=10003">修改</a>
+                            |
+                            <a href="/School/sysuxky/Admin/Article/Detail.phtml?id=10003">删除</a>
+                        </td>
+                    </tr>
+                
+        </table>
+        <div style="width:98%; margin:0px auto;" id="PageNaverContainer">
+            <span class="allpage_num">2条结果，共1页</span><a class="page_num" href="javascript:void(0);">首页</a><a class="page_num" href="javascript:void(0);">上一页</a><span class="page_current">1</span><a class="page_num" href="javascript:void(0);">下一页</a><a class="page_num" href="javascript:void(0);">尾页</a><script language='javascript'>function GoToPage(url){document.location.href=url;}function jumpPage(obj,url){var i=parseInt(obj.previousSibling.value);if(!i&&i!=0)return false;if(i<=0)i=1;if(i>1)i=1;GoToPage(url + i);}</script>
+        </div>
+    </div>
+
+    
+
+<script type="text/javascript">
+//<![CDATA[
+pageMainMenuCreater.setActive({mainText:'资讯通告',subText: '学院快讯'});//]]>
+</script>
+</form>
+    
+    <script type="text/javascript">
+        function multiCheckboxOp(elm) {
+            $(elm).parentsUntil(".listTable").find(".checkboxMultiOp").each(function () { this.checked = elm.checked; });
+        }
+        CommonIframeSubmitHelper.init({ obj: $("#PageNaverContainer").get(0), jqSelector: ["#listTableMain", "#PageNaverContainer"] });
+    </script>
+
+    <div style="clear:both;"></div>
+    </div>
+    
+<div style="clear:both;"></div>
+<div class="footerOuter">
+    <div class="footer">
+        <div>
+            <div class="contact">
+                <span style="margin-top:60px; font-size:14px;">服务热线 (免长话费)</span>
+                <span style="font-size:16px;">400-6838-789</span>
+                <span>工作日 9:00-19:00</span>
+            </div>
+            <div class="footerBlock">
+                <span>网站简介</span>
+                <a>网站简介</a>
+                <a>产品服务</a>
+                <a>创新优势</a>
+                <a>友情链接</a>
+                <a>联系我们</a>
+            </div>
+            <div class="footerBlock">
+                <span>使用帮助</span>
+                <a>网站简介</a>
+                <a>产品服务</a>
+                <a>创新优势</a>
+                <a>友情链接</a>
+                <a>联系我们</a>
+            </div>
+            <div class="footerBlock">
+                <span>合作共赢</span>
+                <a>网站简介</a>
+                <a>产品服务</a>
+                <a>创新优势</a>
+                <a>友情链接</a>
+                <a>联系我们</a>
+            </div>
+            <div class="footerBlock">
+                <span>快捷方式</span>
+                <a>网站简介</a>
+                <a>产品服务</a>
+                <a>创新优势</a>
+                <a>友情链接</a>
+                <a>联系我们</a>
+            </div>
+        </div>
+        <div style="clear:both;"></div>
+        <div style="margin-top:20px; color:#888;">
+        版权所有：好工作网
+        联系电话：88888888&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        联系邮箱：88888@qq.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+        地址：广州市环市中路&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        邮政编码：510000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+<script type="text/javascript">
+           $(function () { adminPageInit({ unresize: "" }); });
+</script>
+<!--[if IE 6]>
+<script type="text/javascript" src="/js/DD_belatedPNG_0.0.8a.js"></script>
+<script type="text/javascript">   
+  DD_belatedPNG.fix('.pngfix'); 
+</script>
+<![endif]-->

@@ -1,0 +1,178 @@
+/* 会员中心首页 */
+.topic{ height:17px; line-height:17px; margin:13px; border-left:5px solid #e54028; padding-left:10px; font-size:16px; color:#333; font-family:"微软雅黑";}
+.profile{ width:660px; height:260px; float:left; background-color:#fff; position:relative;}
+.profile dd{ overflow:hidden;}
+/*修改*/
+.pro-edit{ position:absolute; right:10px; top:10px;}
+/*头像*/
+.pro-pic{ display:block; width:159px; height:159px; border:1px solid #e6e6e6; margin:15px 20px 0px 23px; float:left; _margin:15px 20px 0px 11px;}
+.profile h1{ font-size:36px; font-family:"微软雅黑"; font-weight:normal; line-height:45px; height:45px; margin:15px 0px; _padding-top:15px;}
+.profile h1 em{ font-style:normal; vertical-align:text-bottom; display:inline-block; max-width:4em; overflow:hidden; white-space:nowrap; _width:4em;}
+.profile h1 small{ font-size:14px; padding-left:26px; color:#333;}
+.profile h1 samp{ height:16px; background:#eee; width:130px; display:inline-block; vertical-align:text-bottom; *vertical-align:middle;}
+.profile h1 b{ background-color:#fd6900; height:16px; display:block;}
+.profile p{ font-family:"微软雅黑"; line-height:30px; _height:30px;}
+.profile p,.profile p img{ vertical-align:text-bottom;}
+.profile .p1{ font-size:16px;}
+.profile .p2{ font-size:14px; _height:25px; _padding-top:5px;}
+.profile .p3{ font-size:12px;}
+.profile .p3 a{ color:#E64028;}
+.profile .p4{ font-size:14px;}
+.profile .p4 a{ color:#2673ec;}
+.profile .none{ width:450px; float:right; line-height:160px; font-size:14px; text-align:center; font-family:"微软雅黑";}
+.profile .none a{ color:#2673ec;}
+
+/*简历信息*/
+.resumes{ float:right; width:330px; height:260px; background:#fff;}
+.resumes div{ height:102px;}
+/*三个色块*/
+.counts{ height:115px; background-color:#FFFDDE; padding-left:3%;}
+.counts li{ width:31%; float:left; margin-left:2%; text-align:center;}
+.counts p{ clear:both; color:#fff; height:64px;}
+.counts i{ display:block; line-height:20px; padding-top:5px; font-size:12px; font-style:normal;}
+.counts b{ display:block; font-size:26px; font-family:"微软雅黑";}
+.counts span{ display:block; clear:both; line-height:25px; padding-top:8px; font-size:12px;}
+.counts .l1{ margin:0px;}
+.counts .l1 a{ color:#FF3C3A;}
+.counts .l1 p{ background-color:#FF4401;}
+.counts .l2 a{ color:#74B300;}
+.counts .l2 p{ background-color:#6CCF36;}
+.counts .l3 a{ color:#2EA9D3;}
+.counts .l3 p{ background-color:#32B9E8;}
+
+/*画布*/
+.percent{ float:left; margin:0px 40px 0px 32px; _margin:0px 40px 0px 16px; width:90px; height:90px; position:relative;}
+.percent b{ display:block; position:absolute; width:90px; height:90px; line-height:90px; font-size:20px; color:#ff9000; text-align:center; left:0px; top:0px; font-family:Arial, Helvetica, sans-serif;}
+#Percentage{ position:absolute;}
+
+/*提示*/
+.res-tip{ width:135px; text-align:center; font-size:12px; color:#808080; float:left;}
+.res-tip span{ display:block; line-height:30px;}
+.res-tip a{ display:block; width:123px; height:29px; color:#fff; background-color:#FF9501; margin:0 auto; line-height:29px;}
+
+
+/*列表*/
+.lists{ clear:both; background-color:#fff; padding:5px; margin-top:20px;}
+.list{ display:none; clear:both;}
+/*标签*/
+.labels{ border-bottom:2px solid #F2F2F2; height:45px; padding:0px 10px; _overflow:hidden;}
+.labels li{ float:left; height:45px; line-height:45px; padding:0px 10px; font-size:16px; font-family:"微软雅黑"; margin-right:30px; cursor:pointer; _position:relative;}
+.labels .cur{ border-bottom:3px solid #FF4E00; color:#FF4E00; height:44px; line-height:44px;}
+.left{ float:left;}
+.right{ float:right;}
+
+
+.push .left{ width:690px;}
+.push .right,.right.float{ width:290px; margin:15px 0px;}
+/*搜索结果*/
+.search-results{ width:690px; float:left;}
+.search-results a:hover{ color:#ff5000;}
+.search-results li{ height:115px; border-bottom:1px dashed #eaeaea; background:#fff;}/*一定要有背景白，以兼容IE7的BUG*/
+.search-results address{ display:none;}
+/*显示出来的信息*/
+.search-shows{ float:left; padding:15px 0px 0px 10px;}
+.search-job{ width:350px; position:relative; z-index:1;}
+.search-company{ width:320px;}
+.search-job h3{ font-size:16px;}
+.search-job h3 a{ color:#333;}
+.search-job h3 i{ display:inline-block; width:16px; height:18px; position:relative; top:3px; margin-right:5px; background-image:url(../../images/search/nums.gif); background-repeat:no-repeat; font-size:0px;}
+.search-job h3 ins{ color:#FF5408; font-size:12px; font-family:"宋体"; text-decoration:none;}
+.search-job h3 img{ margin-left:5px;}
+.search-company h3{ font-size:14px;}
+.search-company h3 a{ color:#585858;}
+.search-shows p,.search-shows h3{ white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.search-shows h3{ line-height:40px; font-family:"微软雅黑"; _padding:10px 0px;}
+.search-shows p{ font-size:12px; color:#787878; line-height:28px; clear:both; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.search-shows p b{ color:#000; font-weight:normal;}
+/*隐藏的信息，此处只能使用JS强制更改父级li的z轴以兼容IE6的定位问题*/
+.search-hide{ display:none; position:absolute; top:5px; border:2px solid #ff5000; width:404px; left:290px; min-height:200px; background:#fff; z-index:2;}
+.search-hide p{ font-size:12px; line-height:15px; white-space:normal;}
+.search-hide q{ position:absolute; left:-13px; top:35px;}
+.search-hide dt{ padding:20px; line-height:15px; border-bottom:1px dashed #bfbfbf;}
+.search-hide dt h4{ font-size:16px; color:#0059cb;}
+.search-hide dt p{ margin-top:15px; color:#646464;}
+.search-hide dt p b{ font-weight:normal; color:#000;}
+.search-hide dt i{ display:inline-block; border:1px solid #e3e3e3; padding:3px 5px; font-style:normal; margin-right:10px;}
+.search-hide dd{ padding:20px; color:#232323;}
+.search-hide dd h5{ font-size:14px; line-height:35px;}
+.search-hide dd p{ line-height:25px;}
+
+/*右侧*/
+.map{ height:350px; margin-bottom:20px;}
+.warn{ background:#ECF4FF; padding:10px;}
+.warn dt{ text-align:center; margin-bottom:5px;}
+.warn dd{ line-height:25px; font-size:14px; color:#414141; width:210px; margin:0 auto;}
+
+/*最后的撑高条*/
+.hr{ clear:both; height:80px;}
+
+/*第二块的子标签条*/
+.sub-labels{ clear:both; margin:20px 0px 10px; background-color:#f6fbff; height:30px;}
+.sub-labels li{ float:left; padding:0px 10px; font-size:13px; _font-size:12px; font-family:"微软雅黑"; color:#666; position:relative; cursor:pointer;}
+.sub-labels .cur{ color:#fff;}
+.sub-labels b{ display:block; padding:0px 5px; line-height:22px;}
+.sub-labels .cur b{ background-color:#ff5900;}
+.sub-labels i{ display:none; position:absolute; left:45%; font-size:0px; width:0px; height:0px; border:5px solid transparent; border-top-color:#ff5900;}
+.sub-labels .cur i{ display:block;}
+.sub-list{ clear:both;}
+
+/*手后边那数字*/
+.lists ins{ color:#ff5900; font-size:12px; text-decoration:none; font-weight:normal; font-family:"宋体";}
+/*收藏职位*/
+.job-list{ clear:both;}
+.job-list li{ clear:both; height:95px; border-bottom:1px dashed #f2f2f2; line-height:25px; color:#848484; font-size:12px; padding-top:15px;}
+.job-list var{ display:block; float:left; width:80px; height:80px; overflow:hidden; border:1px solid #ACACAC; margin-left:15px;}
+.job-list h3{ display:block; clear:both; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; font-family:"微软雅黑"; line-height:30px;}
+.job-list h3{ _height:20px; _padding:5px 0px;}
+.jobs .left{ width:690px;}
+.jobs .right{ width:280px;}
+.job-infor{ width:330px; float:left; padding:0px 10px;}
+.job-infor h3{ font-size:16px;}
+.job-infor h3 a{ color:#333;}
+.job-infor h3 a:hover{ color:#ff5900;}
+.job-infor b{ color:#000; font-weight:normal;}
+.job-company{ width:210px; float:right; text-align:right; font-family:"微软雅黑";}
+.job-company h3{ color:#585858;}
+.job-company *{ font-size:14px;}
+.job-company a{ color:#333;}
+.job-company a:hover{ color:#6BCF36;}
+
+/*收藏宣讲会*/
+.conferences .left{ width:620px;}
+.conferences .right{ width:280px;}
+.col-conf{ clear:both;}
+.col-conf li{ clear:both; height:108px; border-bottom:1px dashed #f2f2f2; line-height:30px; color:#848484; font-size:12px;}
+.col-conf h3{ display:block; clear:both; font-size:14px; font-family:"微软雅黑"; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; line-height:40px; color:#333;}
+.col-conf h3 a{ color:#333;}
+.col-conf h3 a:hover{ color:#ff5900;}
+.col-conf b{ color:#000; font-weight:normal;}
+.col-conf img{ vertical-align:text-bottom;}
+.conf-company,.conf-school{ float:left; padding:0px 10px;}
+.conf-company{ width:320px;}
+.conf-company h3{ _height:20px; _padding:10px 0px;}
+.conf-school{ width:260px;}
+.conf-school a{ color:#848484;}
+.conf-school a:hover{ color:#ff5900;}
+
+/*右侧的表单及二维码*/
+.right-key,.right-warn,.right-code{ font-family:"微软雅黑";}
+.right-search{ clear:both; width:278px; height:41px; background-image:url(../../images/UCenter/keyword.jpg);}
+.right-key{ display:block; width:200px; float:left; padding:0px 20px; font-size:12px;  height:40px; line-height:40px; border:0px; background:transparent; font-size:16px;}
+.right-btn{ width:36px; height:41px; float:left; border:0px; background:transparent; cursor:pointer;}
+
+.right-warn{ clear:both; color:#666; font-size:14px; line-height:25px; margin:5px 0px; padding:0px 10px;}
+.right-warn.blue{ background-color:#F5F9FD;}
+.right-warn.yellow{ background-color:#FFF7E9;}
+
+/*二维码*/
+.right-code{ text-align:center; padding:10px; font-size:14px; line-height:30px; color:#333;}
+.right-code .green{ color:#2f8b02; font-weight:bold;}
+
+/*表格*/
+.table{ margin:0px 40px; border-collapse:collapse; table-layout:fixed; font-family:"微软雅黑"; color:#333; text-align:center;}
+.table th{ font-size:16px;}
+.table th,.table td{ border-bottom:1px dashed #dfdfdf; table-layout:fixed; line-height:75px;}
+.table td{ font-size:14px;}
+.table .first{ text-align:left;}
+.table .last,.table a{ color:#6ec8ed;}
+.after{ margin-right:40px;}

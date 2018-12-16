@@ -1,0 +1,397 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><title>
+    管理后台
+</title><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta http-equiv="pragma" content="no-cache" /><meta http-equiv="Cache-Control" content="no-cache, must-revalidate" /><meta http-equiv="expires" content="0" />
+    <link href="../css/1024/common.css" rel="stylesheet" type="text/css" />
+    <link href="../css/1024/admin.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/MD5.js"></script>
+    <script type="text/javascript" src="../js/jbody.js"></script>
+    <script type="text/javascript" src="../js/jbody-plugin.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+    <script type="text/javascript" src="../js/area.js"></script>
+    <script type="text/javascript" src="../js/subjects.js"></script>
+    <script type="text/javascript" src="../js/jobPositions.js"></script>
+    <script type="text/javascript" src="../js/oldadmin/gpAdmin.js"></script>
+    <script type="text/javascript" src="../js/menuControl.js"></script>
+    <script type="text/javascript" src="../js/oldadmin/common.js"></script>
+    <script type="text/javascript" src="../js/selectors.js"></script>
+    
+    <script type="text/javascript" src="../UploadFile/UploadFile.js"></script>
+    <script type="text/javascript" src="../UploadFile/ManageCtrl.js"></script>
+    
+</head>
+<body>
+    
+
+    
+<div id="pg-header" class="pg-header">
+    <div class="pg-header-main">
+        <div class="logo">
+            <a href="/"><img alt="好工作网Logo" src="../images/logo.png" class="pngfix" width="232" height="40" /></a>
+        </div>
+        <div class="cname">平台管理后台</div>
+        <div class="r mginT10">
+    <div class="platform-switch-container">
+    <div class="platform-switch-main msout">
+        <span class="floatR">切换后台</span>
+        <span class="floatR" style="border:solid 1px #ffc183; line-height:12px; margin-right:5px; padding-left:1px; padding-right:1px;">+</span>
+        <div style="clear:both;"></div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        $(".platform-switch-main").click(function () {
+            JBFrameHelper.showPage("/UCenter/PlatformSwitch.phtml", { obj: this, title: "切换到个人中心或其他管理后台", w: 500, pos: { to: "win", parent: "doc", park: "inside", parkInside: "center" } }, true, false);
+        });
+    })
+</script>
+
+</div>
+    </div>
+</div>
+    
+<div id="pg-nav" class="pg-nav">
+    <ul>
+        <li><div class="nav-title"><a href="#">管理首页</a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">院校<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">企业<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">资讯公告<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">招聘<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">简历<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">用户<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">广告<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">更多<sub></sub></a></div></li>
+    </ul>
+</div>
+<div style="clear:both;"></div>
+<div id="pg-nav-sub" style="display:none;">
+    <div id="pg-nav-sub-inner">
+    <div id="pg-nav-sub-main">
+        <ul style="display:none;">
+            <li><a href="Sum.html">系统概况</a></li>
+            <li><a href="Admin.html">系统功能链接汇总</a></li>
+            <li><a href="#">消息</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="School-cooperation.html">合作院校</a></li>
+            <li><a href="School-hasexpired.html">已到期</a></li>
+            <li><a href="School-expire.html">即将到期</a></li>
+            <li><a href="School-application.html">申请中</a></li>
+            <li><a href="School-mobilization.html">动员中</a></li>
+            <li><a href="School-all.html">全部院校</a></li>
+            <li><a href="School-add.html">添加院校</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Company-application.html">合作企业</a></li>
+            <li><a href="Company-hasexpired.html">已到期</a></li>
+            <li><a href="Company-expire.html">即将到期</a></li>
+            <li><a href="Company-application.html">申请中</a></li>
+            <li><a href="Company-mobilization.html">动员中</a></li>
+            <li><a href="Company-all.html">全部企业</a></li>
+            <li><a href="Company-add.html">添加企业</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Articles.html">管理平台资讯</a></li>
+            <li><a href="Articles.html">管理企业发布的资讯</a></li>
+            <li><a href="Articles.html">管理院校发布的资讯</a></li>
+            <li><a href="Articles.html">添加资讯</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Offers-wait.html">待审核</a></li>
+            <li><a href="Offers-ing.html">正在招聘</a></li>
+            <li><a href="Offers-fulltime.html">全职岗位</a></li>
+            <li><a href="Offers-parktime.html">兼职岗位</a></li>
+            <li><a href="Offers-internship.html">实习岗位</a></li>
+            <li><a href="Offers-school.html">校园招聘</a></li>
+            <li><a href="Offers-public.html">社会招聘</a></li>
+            <li><a href="Offers-all.html">全部</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Resumes.html">企业下载</a></li>
+            <li><a href="Resumes.html">正在求职</a></li>
+            <li><a href="Resumes.html">等待推荐</a></li>
+            <li><a href="Resumes.html">已推荐</a></li>
+            <li><a href="Resumes.html">已面试</a></li>
+            <li><a href="Resumes.html">全部</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="CustmRoles.html">平台管理员角色</a></li>
+            <li><a href="Admin-admin.html">平台管理员</a></li>
+            <li><a href="Admin-school.html">院校方管理员</a></li>
+            <li style="display:none;"><a href="/admin/users/school/">院校方导师</a></li>
+            <li><a href="Admin-company.html">企业方管理员</a></li>
+            <li><a href="Admin-user.html">全部注册用户</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="#">正在投放</a></li>
+            <li><a href="#">已过期</a></li>
+            <li><a href="#">全部</a></li>
+            <li><a href="#">添加广告</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Setting.html">系统设置</a></li>
+            <li><a href="Info.html">个人设置</a></li>
+            <li><a href="Password.html">修改密码</a></li>
+        </ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+    </div>
+    </div>
+</div>
+<div style="clear:both;"></div>
+    <div class="pageMainContentContainer">         
+    <div id="titleAndTabMenuContainer" class="titleAndTabMenuContainer" style="display:none; clear:both;"></div>
+    <div id="titleAndTabMenuContainer2" class="titleAndTabMenuContainer" style="display:none; clear:both;"></div>
+    <iframe id="_postTargetIframe" name="_postTargetIframe" style="display:none;" src="about:blank"></iframe>
+    <form method="post" action="/admin/School/?listType=application" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="fnxluJED6luY7IVKKGEYOvEWNDaqW65hBA14Xg27gEckVCjjVlF27rg36Hu+qcVXH1RTE8Ixv+p+QK3F+uLm/SI0VI4FYM6Cfq4lNmcDkc6yM0NQkLJrx5G3r4iSry4o1ZW/w5M21Tlv8zYrsyZ4bkjIwni/vf5DpB13WjUS8ajHOZWAMTWD8XAqHuXsXyZxEGM7p/RMhC/WoXI6jTRUMjjn14QSxoyaf3oQVGnQ74m9UtUbOFqK0pdo2MVruk2An5WfiIt1Z5yiKTEZfuk60l8nm1FCEjMPgS/uLiDAS7BNP1CNg7NIBs3edJ3d2jgNBpE9gH57RlvlNpVg67qn/VF9sfKnx+/jyoUE9sfpvqlqmnFtWcFsUADnFTGGECbrKAhYYWogJxEXpAJlKmkW6aHBbkuVtatO+11laluMya1TvBEfIddY1H030M+cOPD9MvvBYg/A6x8a/0lcUgQqoHDqwTnDyhkK3b0RnSCIxqMyKtWhQeqkdCkPyt76Nx0nutv1b+ePD5tYem11afJbgsDCkHeC0kVhJPrx1y3jIFs4LIDwHrFd+2lUrOBVxFt671X433OWtpCOtCTnimfLkhmTnP3CXXnnFps3ruvnXp66DGfBTUGeSdSoHG4HPTuPsYmOBS7T3hZTdo78rCYl0JhRpj77KChB21ILKSVGE5muL9gflsol0qN1G9o3D/kezlfW+tnIfdaF/j99I5aFXL5hyFLHnV55YmPBbtJRlTPSRmjCNZLjRo4hLLncofDiwELB4Knc3biUjjUHwS8igTFgrC6/vpaBJRHuiT6S4YA/ooj+oGI09AH9jyriICkHGYPzegiTfJZNxheWTgnkWY1Xh4Fq3OYgVQ7dF1MMb4C5bf9X9QH8eNucyejuNqbXZfTbzhwuyooeRLywZNG7bxi46nGiN0Vs5Yak5xd+GfR1/Dr9Qso8jExs/hddlgGqKc9ELj+w9TFjcbmQe7p0EPQZAOtY1+kzLTkMTDrBCtYt9yynr/1G2VqUWIq6xcDmIS2hKarI0VUomTDzeA1CWhWUcMiNbQbNqsLRmbsCOZ8dzyx08N22G3zFAYIkVCliOMxi0RJ5PUNMdkRDohP9vxcVj2VasWZyXd2XVf0/EvBTvfZK0Tgp//EwotOd4CKmlDNoTnZjp6BScDijo35eNGaeIwHr9Yr6tvGRa2+H9EnB+FJW5M5kyyC58+kntKwIA/M8vbMoTCKNWEy/Rub0Np6BKDeYQyKyI8WV32RikrKxThnUa0aH+e2r3mUi23J+xzpRa44waMD1YnFdx12ZiaYDnIc6/BwkW1+SzkhG7+MQPMIFB+IvoUEPCe5tV40g//TUbyEgo2pUlCgBkAzB+d88XaFkMC6v93vUBWhP16Y5Sbwn/cQ/Sk+NBXW0wYYql64qpvq3Lmda+nrxgOFdQsY9vB1hXMLPjc8gM6fDC/vZp77SUt7y0cTiINgss1pm382FftZKExTw7WmQnsVj8xdrpqt39h0pFRz8a+2/pCkrYXZd8m0AVw2PEDueSdg3lIqhfGYyA53LZHHRAWwowg==" />
+</div>
+
+<div class="aspNetHidden">
+
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="8C005374" />
+</div>
+    
+    <div class="bodyBlock">
+        <div class="detailBlockTitle">
+            <div class="leftIco"></div>
+            <div class="left">全部院校列表</div>
+        </div>
+        <div class="searchMain">
+            <div class="condition width060">
+                名称：
+            </div>
+            <div class="conditionL width160">
+                <input name="ctl00$form$txtOrgName" type="text" id="form_txtOrgName" class="inputText" data-jbextendid="exinput_form_txtOrgName_364_831" data-jbtips="简称/全称" style="width:147px;" />
+            </div>
+            <div class="condition width080">
+                办学类型：
+            </div>
+            <div class="conditionL width080">
+                <select name="ctl00$form$DropDownListCreateType" id="form_DropDownListCreateType" style="height:28px;width:80px;">
+    <option selected="selected" value="0">不限</option>
+    <option value="1">公办</option>
+    <option value="2">民办</option>
+    <option value="4">公私合营</option>
+    <option value="8">中外合资</option>
+    <option value="16">外国</option>
+    <option value="32">其他</option>
+
+</select>
+            </div>
+            <div class="condition width070">
+                办学层次：
+            </div>
+            <div class="conditionL width080">
+                <select name="ctl00$form$DropDownListTeachType" id="form_DropDownListTeachType" style="height:28px;width:80px;">
+    <option selected="selected" value="0">不限</option>
+    <option value="1">博士</option>
+    <option value="2">研究生</option>
+    <option value="4">本科</option>
+    <option value="8">大专</option>
+    <option value="16">大学</option>
+    <option value="32">中专</option>
+    <option value="64">技校</option>
+    <option value="128">职中</option>
+    <option value="256">中学</option>
+    <option value="1024">培训机构</option>
+    <option value="2048">社会机构</option>
+    <option value="4096">其他</option>
+
+</select>
+            </div>
+            <div class="condition width080">
+                办学规模：
+            </div>
+            <div class="conditionL width110">
+                <select name="ctl00$form$DropDownListStudentMax" id="form_DropDownListStudentMax" style="height:28px;width:100px;">
+    <option selected="selected" value="0">不限</option>
+    <option value="1000">1千人以下</option>
+    <option value="3000">1千至3千人</option>
+    <option value="5000">3千至5千人</option>
+    <option value="10000">5千至1万人</option>
+    <option value="30000">1万至3万人</option>
+    <option value="1000000">3万人以上</option>
+
+</select>
+            </div>
+            <div class="conditionL width150">
+                <input id="form_CheckBox211University" type="checkbox" name="ctl00$form$CheckBox211University" />211高校&nbsp;&nbsp;&nbsp;<input id="form_CheckBox985University" type="checkbox" name="ctl00$form$CheckBox985University" />985高校
+            </div>
+            <div style="clear: both;">
+            </div>
+            <div class="condition width060">
+                城市：
+            </div>
+            <div class="conditionL width160">
+                <input type="hidden" name="ctl00$form$MultiCitys1$HiddenCityIds" id="form_MultiCitys1_HiddenCityIds" />
+<div style="width:155px; height:30px;">
+    <div onclick="MultiCitysSelector.show(this)">
+        <select id="form_MultiCitys1select" style="float:left;; width:155px; height:30px;" disabled="disabled">
+            <option></option>
+        </select>
+        <div style="position:relative; left:0px; top:0px;" id="form_MultiCitys1front">
+            <div style="position:absolute; left:0px; top:0px; width:155px; height:30px; border:solid 0px #000;"></div>
+        </div>
+    </div>    
+    <div style="clear:both;"></div>
+</div>
+<script type="text/javascript">
+    var MultiCitysSelector = null;
+    $(function(){
+        MultiCitysSelector = new MultiCityCreater({
+            objName: "MultiCitysSelector",
+            maxSelect: 3,
+            objHiddenId : document.getElementById("form_MultiCitys1_HiddenCityIds"),
+            selectElement : document.getElementById("form_MultiCitys1select"),
+            textWhenEmpty:"不限",
+            dialogTitle:"请选择城市",
+            onchange: [function (opt) { $("#form_MultiCitys1front").attr("title", opt.tts); },null]
+        });
+    });
+</script>
+            </div>
+            <div class="condition width080">
+                更新日期：
+            </div>
+            <div class="conditionL width230">
+                <div class="date">
+                    <input name="ctl00$form$txtStartDate" type="text" id="form_txtStartDate" data-jbextendid="exinput_form_txtStartDate_905_831" style="width:85px;" />
+                    <div class="setdate" title="设置日期"></div>
+                    <div class="deldate" title="清除"></div>
+                </div>
+                <div style="float: left;">
+                    至
+                </div>
+                <div class="date">
+                    <input name="ctl00$form$txtEndDate" type="text" id="form_txtEndDate" data-jbextendid="exinput_form_txtEndDate_618_831" style="width:85px;" />
+                    <div class="setdate" title="设置日期"></div>
+                    <div class="deldate" title="清除"></div>
+                </div>
+            </div>
+            <div id="form_IsAll" style="display: none;">
+                <div class="condition width080">
+                    合同状态：
+                </div>
+                <div class="conditionL width100">
+                    <select name="ctl00$form$DropDownListContractState" id="form_DropDownListContractState" style="height:28px;width:100px;">
+    <option selected="selected" value="-1">不限</option>
+    <option value="1">合作</option>
+    <option value="2">准合作</option>
+    <option value="4">试用</option>
+    <option value="8">申请待审核</option>
+    <option value="16">动员中</option>
+    <option value="32">院校已拒绝</option>
+    <option value="64">我方已拒绝</option>
+    <option value="96">双方已拒绝</option>
+
+</select>
+                </div>
+                <div class="condition width060">
+                    过期日：
+                </div>
+                <div class="conditionL width080">
+                    <select name="ctl00$form$DropDownListTimeout" id="form_DropDownListTimeout" style="height:28px;width:80px;">
+    <option selected="selected" value="-1">不限</option>
+    <option value="0">已过期</option>
+    <option value="3">3天内</option>
+    <option value="7">1周内</option>
+    <option value="15">半个月内</option>
+    <option value="90">三个月内</option>
+
+</select>
+                </div>
+            </div>
+            <div class="conditionL mginL15">
+                <input type="submit" name="ctl00$form$btnSearch" value="查询" id="form_btnSearch" class="btn-3d btn-3d-orange" />
+                <input type="reset" class="btn-3d btn-3d-gray" value="重置" />
+            </div>
+            <div style="clear: both;">
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+    <div class="bodyBlock">
+        <table class="listTable" id="listTableMain">
+            <thead>
+                <tr>
+                    <td style="width: 60px;">ID</td>
+                    <td style="width: 80px;">Url Key</td>
+                    <td>院校简称</td>
+                    <td>院校全称</td>
+                    <td style="width: 60px;">城市</td>
+                    <td style="width: 60px;">办学类型</td>
+                    <td style="width: 80px;">办学层次</td>
+                    <td style="width: 80px;">办学规模</td>
+                    <td style="width: 80px;">更新日期</td>
+                    <td style="width: 80px;">录入方式</td>
+                    <td style="width: 100px;">合同状态</td>
+                    <td style="width: 100px;">审核状态</td>
+                    <td style="width: 150px;">操作</td>
+                </tr>
+            </thead>
+            
+                    <tr class="tr0" onmouseover="$(this).addClass('mOver');" onmouseout="$(this).removeClass('mOver');">
+                        <td>10052</td>
+                        <td>zsdx</td>
+                        <td>中山大学</td>
+                        <td>中山大学</td>
+                        <td>广州</td>
+                        <td>民办</td>
+                        <td>研究生</td>
+                        <td>1000000</td>
+                        <td>2014-09-29</td>
+                        <td>运营后台</td>
+                        <td>申请待审核</td>
+                        <td>新增待审</td>
+                        <td><a href="Detail/?id=10052">查看</a>
+                            | <a href="Detail/users.phtml?id=10052">管理员</a>
+                            | <a href="/School/zsdx/" target="_blank">院校首页</a>
+                        </td>
+                    </tr>
+                
+        </table>
+        <div style="width: 98%; margin: 0px auto;" id="PageNaverContainer">
+            <span class="allpage_num">1条结果，共1页</span><a class="page_num" href="javascript:void(0);">首页</a><a class="page_num" href="javascript:void(0);">上一页</a><span class="page_current">1</span><a class="page_num" href="javascript:void(0);">下一页</a><a class="page_num" href="javascript:void(0);">尾页</a><script language='javascript'>function GoToPage(url){document.location.href=url;}function jumpPage(obj,url){var i=parseInt(obj.previousSibling.value);if(!i&&i!=0)return false;if(i<=0)i=1;if(i>1)i=1;GoToPage(url + i);}</script>
+        </div>
+    </div>
+    <div style="clear: both;"></div>
+
+    
+
+<script type="text/javascript">
+//<![CDATA[
+pageMainMenuCreater.setActive({mainText:'院校',subText: '申请中'});//]]>
+</script>
+<script type='text/javascript'>JBInputInnerTips.create({objs:'form_txtOrgName'});var exinput_form_txtOrgName_364_831=null; JB.ready(function(){exinput_form_txtOrgName_364_831= new JBValidator({varId:'exinput_form_txtOrgName_364_831',exType:'Text',checkWhere:'ServerAndClient',msgShowType:'Right',msgCloseType:'NotClose',dataTitle:'输入',innerTextTip:'简称/全称',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:true,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0});});</script><script type='text/javascript'>var exinput_form_txtStartDate_905_831=null; JB.ready(function(){exinput_form_txtStartDate_905_831= new JBValidator({varId:'exinput_form_txtStartDate_905_831',exType:'Date',checkWhere:'ServerAndClient',msgShowType:'None',msgCloseType:'NotClose',dataTitle:'发布时间起点',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:true,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0});});</script><script type='text/javascript'>var exinput_form_txtEndDate_618_831=null; JB.ready(function(){exinput_form_txtEndDate_618_831= new JBValidator({varId:'exinput_form_txtEndDate_618_831',exType:'Date',checkWhere:'ServerAndClient',msgShowType:'None',msgCloseType:'NotClose',dataTitle:'发布时间止点',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:true,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0});});</script></form>
+    
+    <script type="text/javascript">
+        CommonIframeSubmitHelper.init({ obj: $(".searchMain").get(0), jqSelector: ["#listTableMain", "#PageNaverContainer"] });
+    </script>
+   
+    <div style="clear:both;"></div>
+    </div> 
+    
+<div style="clear:both;"></div>
+<div class="footerOuter">
+    <div class="footer">
+        版权所有：好工作网
+        联系电话：88888888&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        联系邮箱：88888@qq.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+        地址：广州市环市中路&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        邮政编码：510000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+    </div>
+</div>
+
+</body>
+</html>
+<script type="text/javascript">
+    $(function () { adminPageInit({ unresize: "" }); });
+</script>

@@ -1,0 +1,55 @@
+/* 企业合作 */
+
+/*顶部表单*/
+.form{ clear:both; margin:20px 20px 10px; height:35px; _z-index:11; border-bottom:1px solid #bcbcbc;}
+.form-left{ float:left; padding-top:5px;}
+.form-left a{ line-height:20px; height:20px; font-size:14px; font-family:"微软雅黑"; color:#3d3d3d; padding-left:20px; background:url(../../images/CpCenter/icons.jpg) left top no-repeat; display:inline-block; position:relative; margin-right:10px;}
+.form-left a.cur{ background-position:left bottom; color:#ff5000;}
+.form-left samp{ display:inline-block; font-size:12px; color:#333; padding-top:20px; line-height:15px;}
+.form-left a.has_i{ padding-right:15px;}
+.form-left a i{ font-style:normal; background:#f30; font-size:12px; text-align:center; margin-left:3px; color:#fff; display:block; height:15px; position:absolute; line-height:15px; right:0px; top:-5px; min-width:15px; border-radius:10px; _width:15px;}
+.form-left a i{ background-color:transparent\9;}
+.form-left a i.i1{ background-image:url(../../images/UCenter/dot1.png) \9; width:16px\9; height:16px\9; top:11px\9; _top:-5px;}
+.form-left a i.i2{ background-image:url(../../images/UCenter/dot2.png) \9; width:20px\9; height:20px\9; line-height:20px\9; top:-10px\9;}
+/*输入框及下拉列表*/
+.form-right{ float:right;}
+.form-key,.form-select,.form-submit{ float:left;}
+.form-key,.form-submit,.form-select span{ display:block; height:15px; padding:5px; border:1px solid #BCBCBC; font-size:12px; line-height:15px;}
+.form-key{ width:110px; padding-right:25px; border-right:0px; margin-left:10px;}
+.form-submit{ width:30px; height:27px; padding:5px; background:url(../../images/CpCenter/mag.jpg) center no-repeat; border-left:0px; cursor:pointer;}
+.form-select{ width:95px; height:30px; position:relative; z-index:11; margin-left:10px;}
+.form-select i{ position:absolute; width:12px; height:12px; background:url(../../images/icons.gif) -12px 0px; right:5px; top:8px; _overflow:hidden;}
+.form-select ul{ display:none; position:absolute; width:93px; border:1px solid #bcbcbc; border-top:0px; background:#fff; padding:10px 0px;}
+.form-select li{ font-size:12px; line-height:25px; _height:25px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.form-select li a{ display:block; color:#666; padding:0px 10px;}
+.form-select li a:hover{ color:#fff; background-color:#2677e2;}
+
+/*列表通用样式*/
+/*表格*/
+.list{ clear:both; margin:20px; color:#3e3e3e;}
+.list table{ border-collapse:collapse; width:100%; table-layout:fixed;}
+.list thead th{ background-color:#fafafa; color:#3e3e3e; font-size:14px; text-align:center; font-weight:normal; line-height:35px; border:1px solid #ddd; border-width:1px 0px; font-family:"微软雅黑";}
+.list thead th.first{ border-left-width:1px; text-align:left; text-indent:10px;}
+.list thead th.last{ border-right-width:1px;}
+.list tbody td,.list tbody th{ border-bottom:1px dashed #ddd; height:50px; font-size:12px; text-align:center; padding:25px 0px 20px;}
+.list tbody .first{ font-size:16px !important; text-align:left; padding-left:10px;}
+.list tbody td.last,.list td a{ color:#0060e2; font-family:"宋体";}
+.list td a:hover{ color:#ff5e00;}
+.list tfoot .first{ font-size:12px; height:50px;}
+
+.checking *{ vertical-align:top;}
+.checking .first a{ color:#0060e2; font-weight:normal; font-family:"微软雅黑";}
+.checking .second { font-weight:bold; font-size:14px; font-family:"微软雅黑";}
+.checking td p{ width:128px; margin:0 auto; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; text-align:left; line-height:20px;}
+.checking td.last{ text-align:right;}
+
+.invited thead .last{ text-indent:3em;}
+.passed td p{ float:right;}
+.time code{ display:block; width:140px; height:50px; padding-top:5px; line-height:22px; text-align:right; margin:0 auto; background-color:#EDF7FF; color:#3B3F42; position:relative; top:-5px;}
+.time code b{ display:block; clear:both; font-size:16px; font-family:Arial, Helvetica, sans-serif; color:#ff5e00; padding-right:5px;}
+
+th.em15{ text-indent:1.5em !important;}
+th.em2{ text-indent:2em !important;}
+th.em25{ text-indent:2.5em !important;}
+
+.time td.last{ color:#999 !important; text-align:center; text-indent:0em;}

@@ -1,0 +1,15 @@
+/* 职位管理 额外样式*/
+/*学生筛选*/
+.times{ width:350px; margin:10px 0px;}
+.times p{ padding:5px 10px;}
+.times .time{ width:100px; padding:0px 5px; height:30px; line-height:30px; border:1px solid #ddd; background:url(../../images/date_icon_set.png) 85px center no-repeat;}
+.times .btns{ text-align:right;}
+.times .btn{ width:55px; height:30px; color:#fff; background-color:#2673ec; cursor:pointer; font-size:14px; font-family:"微软雅黑"; border:0px; border-radius:3px; margin-right:10px;}
+.times q{ color:#ff5e00; font-size:14px; line-height:30px; display:inline-block; font-family:"微软雅黑"; cursor:pointer;}
+.times i{ width:12px; height:12px; display:block; float:right; background:url(../../images/icons.gif) 24px 24px; margin:8px 0px 0px 3px;}
+
+.radios{}
+.radios label{ display:inline-block; padding:0px 10px; font-size:14px; color:#333;}
+.radios label input{ display:none;}
+.radios label.checked{ background-color:#ff7e00; color:#fff;}
+.radios span{ display:inline-block; width:4em;}

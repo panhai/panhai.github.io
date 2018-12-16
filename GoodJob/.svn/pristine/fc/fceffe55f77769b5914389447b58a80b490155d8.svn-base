@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>企业中心-账号管理-招聘联系人设置</title>
+<link rel="stylesheet" type="text/css" href="../css/v2/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/CCenter/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/CCenter/settings.css">
+</head>
+
+<body>
+<div class="HEADER"><div class="common">
+	<div class="TOP-LOGO"><a href="#"><img src="../images/v2/logo-s.jpg" width="119" height="62"></a></div>
+    <div class="TOP-TOOLS">
+    	Admin, <a href="#">退出</a>&nbsp;&nbsp;&nbsp;<a href="#">个人中心</a>&nbsp;&nbsp;&nbsp;<a href="#">反馈</a>&nbsp;&nbsp;&nbsp;<a href="#">HR帮助</a>
+    </div>
+    <ul class="TOP-NAV">
+    	<li><a href="new-index.html">首页</a></li>
+    	<li><a href="new-publish.html">发布职位</a></li>
+    	<li><a href="new-profile.html">企业资料</a></li>
+    	<li><a href="new-hrfavors.html">HR收藏夹</a></li>
+    	<li><a href="new-settings.html" class="cur">账号管理</a></li>
+    </ul>
+</div></div>
+
+<div class="Main common">
+	<div class="Left">
+        <div class="LeftNav">
+            <h3>账号管理</h3>
+            <p>
+                <a href="new-settings.html"><span>管理员账号设置</span></a>
+                <a href="new-settings-password.html"><span>修改密码</span></a>
+                <a href="new-settings-email.html"><span>简历邮箱设置</span></a>
+                <a href="new-settings-templates.html"><span>模板设置</span></a>
+                <a href="new-settings-contact.html" class="cur"><span>招聘联系人设置</span></a>
+            </p>
+        </div>
+    </div>
+	<div class="Right">
+        <dl class="Intro">
+            <dt><h1>招聘联系人设置</h1></dt>
+        </dl>
+        <table class="Passport Forms">
+        	<tbody>
+            	<tr><th>联系人：</th><td>
+                    <input type="text" class="text t-l">
+                    <code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>
+                    <!--<code class="form-tip successMsg"></code>-->
+                </td></tr>
+            	<tr><th>电话：</th><td>
+                	<input type="text" class="text t-l">
+                    <code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>
+                    <!--<code class="form-tip successMsg"></code>-->
+                </td></tr>
+            	<tr><th>邮箱：</th><td>
+                	<input type="text" class="text t-l">
+                    <code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>
+                    <!--<code class="form-tip successMsg"></code>-->
+                </td></tr>
+            	<tr><th></th><td><input type="button" class="submit" value="保存"></td></tr>
+            </tbody>
+        </table>
+    </div>
+	<div class="clear"></div>
+</div>
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/v2/all.js"></script>

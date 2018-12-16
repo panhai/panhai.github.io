@@ -1,0 +1,66 @@
+/* 帮助中心 */
+.crumbs{ border:0px;}
+.top-search,.top-keywords{ float:right;}
+
+.left{ font-family:"微软雅黑"; width:200px; float:left;}
+.left h3{ background-color:#2673ec; font-size:16px; text-indent:15px; color:#fff; line-height:35px; font-weight:normal;}
+.left ul{ border:1px solid #DCDCDC;}
+.left li{ border-bottom:1px solid #DCDCDC; text-indent:25px;}
+.left li a{ display:block; color:#666; font-size:14px; line-height:45px; background:url(../images/help-menu-bg.png) no-repeat 160px center;}
+.left li a:hover,.left li a.cur{ background-color:#eee;}
+
+.right{ width:745px; float:right;}
+.right h2{ font-size:18px; color:#333; line-height:35px; border-bottom:2px solid #ff5e00; font-family:"微软雅黑"; height:35px; font-weight:normal;}
+.right h3{ font-size:16px; line-height:65px; color:#2673ec; font-family:"微软雅黑"; font-weight:normal;}
+
+.links{ clear:both; height:80px; margin-top:20px;}
+.links li{ width:173px; height:78px; float:left; line-height:78px; font-size:24px; font-family:"微软雅黑"; text-align:center; margin-right:17px;}
+.links li a{ display:block;}
+.links .li1 a{ background-color:#FFDAC8; color:#FF5000;}
+.links .li2 a{ background-color:#BAD7FF; color:#2679E3;}
+.links .li3 a{ background-color:#9CEFAB; color:#1FB53A;}
+.links .li4{ margin:0px;}
+.links .li4 a{ background-color:#FFDAC8; color:#FF5000;}
+
+.asks{ clear:both; margin:20px 0px; font-family:"微软雅黑"; line-height:45px;}
+.asks li{ border-bottom:1px dashed #ccc;}
+.asks li h3{ font-size:16px; color:#333; font-weight:normal; cursor:pointer;}
+.asks h3.cur{ background:#eef9ff url(../images/help-infor-bg.jpg) 660px center no-repeat;}
+.asks li b{ color:#ff5e00; font-size:18px; font-weight:normal; margin-right:5px;}
+.asks li div{ font-size:14px; line-height:20px; padding:10px; display:none;}
+.asks h3.hot{ color:#ff5e00;}
+.asks .hot ins{ background-color:#ff5e00; color:#fff; font-size:14px; text-decoration:none; padding:0px 5px;}
+
+.content{ font-size:14px; line-height:20px; clear:both; font-family:"微软雅黑"; padding:10px 0px 50px;}
+.content p{ padding:10px 0px;}
+
+/*联系我们*/
+.contact{ font-size:16px; line-height:20px; clear:both; font-family:"微软雅黑"; padding:10px 0px 50px;}
+.contact p{ padding:10px 0px;}
+.contact strong{ font-size:24px; color:#2673ec; font-weight:normal;}
+.contact em{ font-style:normal; color:#ff5e00;}
+
+.contact2{ font-size:19px; line-height:20px; clear:both; font-family:"微软雅黑"; padding:10px 0px 50px;}
+.contact2 p{ padding:10px 0px;}
+.contact2 a{ color:#2673ec;}
+.contact2 .tel{ width:340px; height:84px; background-image:url(../images/help-tel.jpg); font-size:24px; line-height:35px; padding-top:40px;}
+.contact2 .tel strong{ display:block; color:#2673ec; font-weight:normal; text-indent:150px;}
+
+.radios{ clear:both; height:65px; margin-bottom:40px; font-family:"微软雅黑";}
+.radios label{ display:block; float:left; width:167px; height:63px; border:2px solid #ccc; margin-right:20px; font-size:20px; color:#333; line-height:63px; text-align:center; border-radius:2px;}
+.radios .last{ margin:0px;}
+.radios label input{ display:none;}
+.radios label.checked{ background:url(../images/help-radio.jpg) right top no-repeat; border-color:#2673ec;}
+
+.form{ width:100%; border-collapse:collapse; table-layout:fixed; font-family:"微软雅黑"; font-size:16px; color:#333; line-height:50px; margin-bottom:30px;}
+.form th{ vertical-align:top; font-weight:normal; text-align:right;}
+.form img{ vertical-align:middle;}
+.form .area{ width:640px !important; height:310px !important; border:1px solid #ccc;}
+.form .email{ width:250px; padding:0px 10px; border:1px solid #ccc; height:30px; line-height:30px; margin-left:20px;}
+
+.figure{ width:108px; height:80px; float:left; border:1px solid #D5D5D5; background-color:#F0F0F0; margin:10px 20px 10px 0px; position:relative;}
+.figure q{ display:block; position:absolute; right:-8px; top:-24px; top:-12px\9; cursor:pointer; overflow:hidden;}
+.figure a{ width:88px; height:66px; overflow:hidden; margin:0 auto; position:relative; top:7px; display:block;}
+
+.form .hr{ height:0; font-size:0; clear:both; width:60%; border-bottom:1px dashed #ccc; margin:20px 0px;}
+.form .submit{ background-color:#ff5e00; color:#fff; cursor:pointer; border:0px; width:150px; height:40px; font-size:18px; font-family:"微软雅黑";}

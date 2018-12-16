@@ -1,0 +1,449 @@
+/* 登陆及注册页 */
+body{ background:url(../../images/v2/loginbg.jpg) center top;}
+.HEADER{ height:120px; border-bottom:#1562c8 solid 2px; box-shadow:0 6px 8px rgba(8,50,106,0.12); background-color:#fff;}
+.LOGO,.SLOGAN{ float:left;}
+.LOGO{ padding-top:15px;}
+.SLOGAN{ padding-top:70px;}
+.LINKS{ float:right; color:#95bdf3; font-size:18px; padding-top:70px;}
+.LINKS a{ color:#95bdf3; font-size:24px; margin:0 15px;}
+.LINKS a:hover{ color:#1562c8;}
+/* .LINKS a{color:#1562c8;} */
+.Main{ margin:65px auto; background-color:#fff; width:700px; border-top:1px solid #fff; box-shadow:0 0 8px rgba(21,98,200,0.15); padding-bottom:35px;}
+.Main-new{
+	margin:65px auto; background-color:#fff; width:960px; border-top:1px solid #fff; box-shadow:0 0 8px rgba(21,98,200,0.15); padding-bottom:35px;
+}
+.Main-login{
+	margin-bottom: 180px;
+}
+.Left{ float:left; margin-left:40px; _margin-left:20px; padding-right:40px; width:355px; border-right:1px solid #e8f2ff;}
+.Right{ float:left; width:195px; height:260px; border-left:1px solid #e8f2ff; padding-left:35px; margin:20px 0 0 -1px;}
+.Right table{ height:100%;}
+.Right h4{ width:170px; height:50px; border:1px solid #dbdcdc; margin-bottom:20px; font-size:22px; color:#a4a4a4; text-align:center; line-height:50px; font-weight:normal;}
+.Right h4 i{ display:inline-block; width:38px; height:28px; vertical-align:text-bottom; border-right:1px solid #dcdcdc; margin-right:10px; background:left center no-repeat;}
+.Right h4 a{ color:#a4a4a4; background-color:#fff;}
+.Right .email{ background-image:url(../../images/v2/icons/email-m-gray.png); _background-image:url(../../images/v2/icons/email-m-gray.gif);}
+.Right .mobile{ background-image:url(../../images/v2/icons/mobile-m-gray.png); _background-image:url(../../images/v2/icons/mobile-m-gray.gif);}
+.Right .cur,.Right .cur i{ border-color:#639ce6;}
+.Right .cur{ position:relative;}
+.Right .cur q{ display:block; position:absolute; width:10px; height:17px; background-image:url(../../images/v2/icons/regist-angle.jpg); left:-10px; top:15px;}
+.Right .cur a{ color:#1562c8;}
+.Right .cur .email{ background-image:url(../../images/v2/icons/email-m.png); _background-image:url(../../images/v2/icons/email-m.gif);}
+.Right .cur .mobile{ background-image:url(../../images/v2/icons/mobile-m.png); _background-image:url(../../images/v2/icons/mobile-m.gif);}
+.Regist{ margin: 68px 0 40px 0;}
+.Login{margin-top: 25px;}
+.Login-new{ margin: 106px 0 102px 0;} 
+.Login-email{
+	 margin:34px 0 10px 0;
+}
+.Regist .cur, .Login .cur ,.LINKS .cur, .cur,.phone .cur{
+	color: #1562c8;
+}
+.Login-email-cur{
+	position: absolute;
+	bottom: -50px;
+	left: -264px;
+	width: 960px;
+	height: 1px;
+	background-color: #e4e4e4;
+}
+.cur-d{
+	font-size: 16px;
+	color: #1c7eff;
+	text-decoration: underline;
+}
+/*带背景图片的大标题*/
+.TOPIC{ width:292px; height:58px; position:relative; left:-10px; background-image:url(../../images/v2/topicLong.png); margin:25px 0 0px; line-height:46px; text-indent:28px; color:#fff; font-weight:normal; font-size:24px;}
+.TOPIC-new{ width:282px; height:58px; position:relative; padding-left: 10px; left:-10px; background-image:url(../../images/v2/topicLong.png); margin:40px 0 0px; line-height:46px; text-indent:28px; color:#fff; font-weight:normal; font-size:24px;}
+.TOPIC{ _background-image:url(../../images/v2/topicLong.gif);}
+.TOPIC-W{width:189px;  background-image:url(../../images/v2/topicLong-two.png);background-repeat: no-repeat }
+input{}
+.FormLine{ width:108%; float:left; margin-bottom:15px;}
+.successMsg{ float:left;}
+.text{ width:331px; height:40px; line-height:40px; border:2px solid #e8f2ff; padding:0 10px; font-size:16px; color:#1562c8; float:left;}
+.regist-input{
+ height:42px; line-height:40px; border:1px solid #c7defc; padding:0 10px; font-size:16px; color:#1562c8; float:left;
+}
+.regist-ipt{width: 333px;}
+.regist-phone{
+	width:356px;
+}
+.SELECT dt input{ font-size:16px;}
+.SELECT-on{ z-index:5;}
+/*忘记密码*/
+.forget{ font-size:14px; margin-bottom:15px; clear:both; height:20px;}
+.forget a{ color:#71a4e7; float:right;}
+.forget a:hover{ color:#1562c8;}
+.forget label{ float:left; color:#1562c8;}
+/*大提交*/
+.submit{ width:355px; height:54px; font-size:24px; color:#fff; cursor:pointer; border:0; background-color:#1562c8;}
+
+/*右侧的东西*/
+.Right p{ font-size:18px; color:#525252; line-height:25px;}
+.Right em{ color:#1562c8; font-style:normal;}
+.Right div{ width:162px; height:162px; border:2px solid #e8f2ff; margin-top:10px; overflow:hidden;}
+.Right div b{ display:block; width:154px; height:154px; background-color:#e8f2ff; overflow:hidden; margin:4px;}
+.Right div img{ width:100%; height:auto;}
+
+/*注册的标签*/
+.Tabs{ border-bottom:1px solid #1562c8; height:35px; line-height:32px; font-size:18px; margin-bottom:20px;}
+.Tabs li{ float:left; height:32px; margin-right:20px;}
+.Tabs li.cur{ border-bottom:4px solid #1562c8;}
+.Tabs a{ color:#95bdf3;}
+.Tabs a:hover,.Tabs .cur a{ color:#1562c8;}
+
+/*同意*/
+.agree{ display:block; clear:both; font-size:14px; color:#5893e3; margin-bottom:15px;}
+.agree input{ vertical-align:middle;}
+.agree a{ color:#1562c8;}
+
+/*我要求职/招人*/
+.Radios{ clear:both; height:65px; margin-top:10px;}
+.Radios label{ display:block; width:164px; height:46px; border:2px solid #cee1f9; background-color:#e8f2ff; color:#7aa5dd; font-size:24px; line-height:46px; text-align:center; cursor:pointer;}
+.Radios .left{ float:left;}
+.Radios .right{ float:right;}
+.Radios input{ display:none;}
+.Radios .checked{ color:#1562c8; border-color:#1562c8; background:#e8f2ff url(../../images/v2/icons/checked-l.png) right top no-repeat;}
+.Radios .checked{ _background-image:url(../../images/v2/icons/checked-l.gif);}
+
+/*邮箱提示*/
+/* .Left .SELECT dt{ padding:0;}
+.Left .SELECT dd{ width:355px; top:40px; left:0; _left:-355px;}
+.Left .SELECT .matches{ border:2px solid #e8f2ff;}
+.Left .SELECT dd a{ padding:0px 10px; font-size:14px;} */
+
+.SELECT dt{ padding:0;}
+.SELECT dd{ width:355px; top:40px; left:0; _left:-355px;}
+.SELECT .matches{ border:2px solid #e8f2ff;}
+.SELECT dd a{ padding:0px 10px; font-size:14px;}
+
+/*手机验证码*/
+.t-s{ width:190px; float:left;}
+.btn{ float:left; width:129px; height:42px; background-color:#1562c8; color:#fff; font-size:14px; cursor:pointer; border:0; margin-left:12px;}
+.disabled{ background-color:#ccc; color:#525252; cursor:wait;}
+
+/*注册结果*/
+.Result{ width:435px; padding-left:210px; clear:both; margin:0 auto;}
+.Up{ background:url(../../images/v2/icons/checked-huge.png) no-repeat 120px 55px; padding-top:45px; border-bottom:1px solid #e8f2ff;}
+.Up{ _background-image:url(../../images/v2/icons/checked-huge.gif);}
+.Up h1,.Up h2,.Up h3,.Up h4{ font-weight:normal;}
+.Up h1{ font-size:24px; color:#1562c8; margin-bottom:15px; line-height:35px;}
+.Up h2,.Up h3,.Up h4{ font-size:18px; line-height:30px;}
+.Up h2,.Up h4{ color:#6d9fe1;}
+.Up h3{ color:#f59417;}
+.Up a.button{ display:inline-block; text-align:center; line-height:44px; width:226px; height:44px; font-size:24px; color:#e8f2ff; background-color:#1562c8; cursor:pointer; border:0; margin:15px 0 25px;}
+.Down{ color:#646464; line-height:25px; font-size:14px; padding:15px 0 15px 210px;}
+.Down h5{ font-size:16px; font-weight:normal;}
+.Down a{ color:#1e6de2;}
+.Down a:hover{ color:#f59417; text-decoration:underline;}
+
+/*验证成功*/
+.Final{ width:500px; margin:120px auto; padding-left:80px; background:url(../../images/v2/icons/checked-huge.png) left center no-repeat; line-height:30px;}
+.Final{ _background-image:url(../../images/v2/icons/checked-huge.gif);}
+.Final h4{ font-size:20px; font-weight:normal; color:#525252;}
+.Final p{ font-size:16px; color:#525252;}
+.Final b{ color:#f9763d; font-size:20px; font-weight:normal;}
+.Final a{ color:#1562c8; text-decoration:underline;}
+
+/*登陆页新增*/
+ .Login .t-s{ width:130px;}
+ 
+.Login .vcode{ float:left; margin:3px 0 0 10px;}
+.Login .refresh{ display:block; float:left; color:#1562c8; line-height:40px; margin-left:20px; width:61px;}
+ /**/
+
+/* 2015-9-18新改  注册入口*/
+.Login ul.Regist-enter { width: 306px; margin: -20px auto 120px; }
+.Login ul.Regist-enter li { width: 306px; height: 80px; margin-bottom: 26px; font-size: 32px; font-weight: 500; line-height: 80px; text-align: center; }
+li.job-wanted a, li.hire a { color: #1562c8; display: block; border: 2px solid #98c3fc; }
+li.job-wanted a:hover, li.hire a:hover { background: #1562c8; color: #fff; border: 2px solid #1562c8; }
+ul.Regist-enter li.got { font-size: 16px; color: #525252; height: 63px; }
+
+/*
+
+
+}
+
+ul.Regist-enter li.got a{
+	color: #1278fe;
+} */
+
+/* 注册页面 */
+
+ul.Regist-regist { width: 380px; margin: 0 auto; }
+ul.Regist-regist li {	/*height: 55px;*/
+width: 420px; float: left; margin-bottom: 11px; }
+li.entrance { width: 378px; }
+ul.Regist-regist .hide { display: none; }
+ul.Regist-regist p { font-size: 14px; color: #555555; }
+ul.Regist-regist p a { text-decoration: underline; }
+.Regist-regist .regist-code { width: 200px; margin-right: 10px; }
+.regist-phone-code { width: 146px; height: 44px; }
+input.SendVerify.disabled { background-color: #d8e9ff; border: 0; font-size: 16px; color: #525252; }
+.Regist .check, .check { height: 50px; margin-top: 9px; font-size: 14px; }
+.Regist-regist .check-two { height: 50px; margin-top: 10px; margin-bottom: 0; }
+.entrance label i { top: 10px; left: 20px; width: 24px; height: 24px; background: url(../../images/v2/icons/login/entrance_l.png) no-repeat; _background: url(../../images/v2/icons/login/entrance_l.gif) no-repeat; }
+.Regist-regist label.checker i { position: absolute; }
+
+/* 忘记密码 */
+a.password { float: right; margin-right: 40px; }
+.Regist .check input, .Regist-regist .check input { width: 14px; height: 14px; border: 1px solid #c7defc; vertical-align: middle; }
+
+/* 注册/登录按钮 样式 橙色 */
+.Regist .regist-btn { width: 380px; height: 50px; line-height: 50px; margin-left: 0; background-color: #F80; }
+.public-btn { display: block; width: 380px; height: 50px; line-height: 50px; background-color: #ff8800; border: none; font-size: 22px; color: #fff; text-align: center; cursor: pointer; }
+
+/* 其他登录方式 */
+.Regist .regist_other { margin-top: 20px; margin-bottom: 7px; font-size: 14px; line-height: 40px; color: #555555; }
+.regist-other-in { position: relative; width: 250px; height: 55px; margin-left: 10px; float: left; }
+.regist-other-in a { position: absolute; display: inline-block; width: 41px; height: 40px; }
+.regist_other span { float: left; }
+.regist_other .regist-qq { background: url(../../images/v2/icons/QQ.png) no-repeat top left; }
+.regist_other .regist-webcat { left: 50px; background: url(../../images/v2/icons/webcat.png) no-repeat top left; }
+.regist_other .regist-weibo { left: 100px; background: url(../../images/v2/icons/weibo.png) no-repeat top left; }
+
+/*新增顶错误提示*/
+.failed { width: 330px; clear: both; line-height: 30px; font-size: 14px; color: #fe6703; padding-left: 25px; margin-bottom: 10px; background: url(../../images/v2/icons/tip-error.png) 5px 10px no-repeat #feeded; }
+.failed { _background-image: url(../../images/v2/icons/tip-error.gif); }
+
+/* 手机注册 */
+.Main .phone { width: 384px; height: 210px; margin: 114px auto 210px; }
+.phone span { color: #FF8800; }
+.phone-in { margin-top: 32px; }
+.phone .user-phone { width: 212px; height: 42px; padding-left: 8px; border: 1px solid #c7defc; margin-right: 2px; }
+.phone .user-code { width: 150px; height: 44px; border: 0; font-size: 16px; color: #fff; }
+input.user-achieve { width: 378px; height: 50px; background-color: #ff8800; margin-top: 30px; font-size: 22px; color: #fff; border: 0; cursor: pointer; }
+
+/*获取验证码框*/
+.point { width: 376px; height: 182px; margin: 0 auto; padding-top: 52px; padding-left: 36px; background: #fff; text-align: left; }
+.point img { margin-left: 10px; }
+.point input { position: relative; top: -16px; width: 212px; height: 42px; padding-left: 8px; border: 1px solid #c7defc; }
+.point .apply { width: 340px; height: 50px; margin-top: 30px; border: 0; background-color: #ff8800; cursor: pointer; font-size: 22px; color: #fff; }
+
+/* 注册成功 */
+.regist-ok { margin-top: -10px; margin-bottom: 198px; text-align: center; color: #f9763d; }
+.regist-ok h2, .regist-email h2, .relation-email h2 { position: relative; margin-bottom: 10px; font-size: 24px; font-weight: normal; line-height: 60px; color: #f9763d; }
+.regist-ok h2 { margin-bottom: 12px; }
+.regist-ok h2 i, .regist-email h2 i, .relation-email h2 i { display: inline-block; margin-right: 8px; width: 43px; height: 43px; background: url(../../images/v2/icons/ok.png) no-repeat; vertical-align: middle; }
+.regist-ok .relation-i { left: 194px; }
+.regist-ok p { color: #555; }
+.regist-ok p i { color: #f9763d; font-size: 20px; font-style: normal; margin-right: 4px; }
+.regist-ok p a { text-decoration: underline; }
+
+/* 邮箱注册成功 */
+.regist-email { position: relative; margin: 0 auto 0 265px; padding-bottom: 20px; }
+.regist-email-relation { position: relative; width: 600px; margin: 0 auto 0 265px; }
+
+/*.regist-email h2{
+	margin-bottom: 10px;
+}*/
+.regist-email p, .relation-email p { color: #525252; }
+.regist-email h2 i, .relation-email h2 i { left: -60px; }
+.regist-email-login, .regist-email-login2 { display: inline-block; width: 312px; height: 50px; margin-top: 30px; }
+.regist-email-login2 { margin-top: 68px; margin-right: 24px; }
+.regist-text { margin-left: 290px; font-size: 14px; line-height: 24px; color: #919191; }
+.regist-h3 { margin: 96px 0 6px 290px; font-size: 18px; font-weight: normal; }
+.regist-email span, .relation-email span { color: #ff8800; }
+
+/* 登录 2015-9-19*/
+.Login-l { width: 740px; height: 410px; margin: 0 auto 66px; }
+.Login-left { position: relative; width: 466px; height: auto; padding-top: 38px; float: left; }
+.regist-other-cur { position: absolute; right: 0; top: 14px; width: 1px; height: 432px; background-color: #dbebff; }
+.Login-left .forget { width: 360px; height: 36px; margin-bottom: 0; color: #71a4e7; }
+.forget input { width: 14px; height: 14px; vertical-align: middle; margin-right: 4px; }
+.Login-left .login-btn { width: 355px; height: 50px; }
+.Login-left ul li { float: left; margin-bottom: 20px; }
+.Login-right { width: 174px; height: 306px; padding: 60px 0 0 96px; float: left; }
+.Login-right p { margin-top: 20px; margin-left: 3px; font-size: 18px; color: #555555; }
+.Login-bottom { width: 400px; height: auto; margin-top: 34px; line-height: 40px; font-size: 16px; color: #555; }
+.Login-bottom> p { line-height: 60px; }
+
+/* 关联 */
+.Relation-out { background-color: #BDBDBD; }
+.Relation-in { background-color: #1562C8; }
+
+/* 关联帐号-QQ */
+.Relation-top { position: relative; zoom: 1; width: 93px; height: 100px; margin: -38px auto 0; background: url(../../images/v2/icons/login/QQ.png) no-repeat top center; }
+.Relation-main { width: 835px; height: auto; border: 2px solid #1562c8; border-radius: 8px; margin: 40px auto 0; }
+.Relation-main-prev { width: 835px; height: auto; border: 2px solid #1562c8; border-radius: 8px; margin: 40px auto 0; }
+.Relation-main {	/*margin-bottom: 74px;*/
+margin-bottom: 80px; }
+.Relation-title, .Relation-next { position: relative; zoom: 1; width: 735px; height: 64px; margin: -32px auto 28px; border-radius: 32px; cursor: pointer; }
+.Relation-cur { margin-bottom: 16px; border-color: #BDBDBD; }
+.Relation-main-next { border-color: #bdbdbd; margin-top: 50px; }
+.Relation-next { }
+.Relation-title h2, .Relation-main-next h2, .Relation-main-prev h2 { font-size: 18px; font-weight: normal; text-align: center; line-height: 64px; color: #fff; }
+.Relation-title h2 span, .Relation-main-next h2 span, .Relation-main-prev h2 span { font-size: 12px; }
+.Relation-create { width: 420px; height: auto; margin: 50px 0 45px 230px; overflow: hidden; }
+.relation-icon { position: absolute; left: 30px; top: 15px; width: 33px; height: 33px; background: url(../../images/v2/icons/create.png) no-repeat; _background: url(../../images/v2/icons/create.gif) no-repeat; }
+
+/* 关联邮箱 */
+.relation-email { position: relative; margin: 0 auto 0 225px; padding-bottom: 20px; }
+.Regist-regist label { position: relative; display: block; width: 182px; height: 42px; float: left; border: 1px solid #c6ddfc; font-size: 18px; color: #1862cb; line-height: 42px; text-align: center; cursor: pointer; }
+.Regist-regist label.checker { color: #ff8800; border-color: #ff8800; }
+label.right { margin-left: 10px; }
+.Regist-regist label input { display: none; }
+.invite { margin-left: 58px; cursor: pointer; }
+.regist-invite { width: 356px; display: none; }
+
+.resume_upload{
+	margin-left: 170px;
+	margin-top: 44px;
+	margin-bottom: 70px;
+	overflow: hidden;
+}
+.resume_upload .color1,
+.resume_upload_ok .color1{
+	color: #71a4e7;
+	font-size: 16px;
+}
+.resume_upload .color2{
+	margin-top: 18px;
+	color: #c6c6c6;
+	font-size: 14px;
+}
+.resume_upload .w244{
+	width: 244px;
+	border-right: 0;
+}
+.resume_upload .public-btn{
+	width: 370px;
+}
+.resume_upload .regist-ipt{
+	width: 348px;
+}
+.resume_upload .login-btn{
+	margin-top: 8px;
+}
+.resume_upload ul{
+	margin-top: 20px;
+}
+.resume_upload ul li{
+	clear: both;
+	float: left;
+    margin-bottom: 20px;
+}
+.resume_upload .resume_upload_ipt{
+	display: block;
+	float: left;
+	width: 105px;
+	height: 44px;
+	background-color: #71a4e7;
+	text-align: center;
+	line-height: 44px;
+	color: #fff;
+	cursor: pointer;
+}
+.resume_upload .resume_upload_ipt input{
+	display: none;
+}
+.resume_upload .not{
+	margin-left: 20px;
+	line-height: 40px;
+	color: #71a4e7;
+	font-size: 14px;
+	text-decoration: underline;
+}
+/*上传成功*/
+.resume_upload_ok{
+	position: relative;
+	margin: 37px 0 0 144px;
+}
+.resume_upload_ok .title,
+.update .title{
+	position: relative;
+	padding-left: 58px;
+}
+.resume_upload_ok .title h2,
+.update .title h2{
+	font-size: 20px;
+	color: #ff8800;
+	line-height: 22px;
+}
+.resume_upload_ok .title p,
+.update .title p{
+	color: #aaaaaa;
+	font-size: 14px;
+	margin-top: 12px;
+}
+.update .title p{
+	width: 510px;
+}
+.resume_upload_ok .title i,
+.update .title i{
+	position: absolute;
+	left:0;
+	margin-right: 8px;
+	width: 43px;
+	height: 43px;
+	background: url(../../images/v2/icons/ok.png) no-repeat;
+	vertical-align: middle;
+}
+.resume_upload_ok .Regist{
+	margin-left: 57px;
+	margin-top: 36px;
+}
+.resume_upload_ok .Regist-regist{
+	margin: initial;
+}
+.resume_upload_ok .regist-phone-code{
+	width: 116px;
+	background-color: #71a4e7;
+}
+.resume_upload_ok .Regist-regist .regist-code{
+	width: 226px;
+	padding-right: 0;
+	margin-right: 0;
+	border-right: 0;
+}
+.resume_upload_ok .Regist-regist  .SendVerify{
+	margin:0;
+}
+.resume_upload_ok .color1{
+	margin-bottom: 18px;
+}
+.resume_upload_ok .upvip{
+	position: absolute;
+	right: 112px;
+	bottom: 34px;
+	color: #71a4e7;
+	text-decoration: underline;
+}
+.resume_upload_ok li{
+	margin-bottom: 20px!important;
+}
+
+/*开通会员*/
+.update{
+	position: relative;
+	margin: 37px 0 20px 185px;
+}
+.update .update-ipt{
+	display: block;
+	margin-top: 26px;
+	margin-bottom: 64px;
+	width: 287px;
+	height: 50px;
+	background-color: #ff8800;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 50px;
+	text-align: center;
+	color: #fff;
+}
+.update .mar58{ margin-left: 58px;}
+.update ul {
+	overflow: hidden;
+}
+.update ul li{
+	float: left;
+}
+.update .blue{ margin-bottom: 16px; color: #71a4e7;}
+.update a~p{
+	color: #aaaaaa;
+	font-size: 12px;
+}
+/* 脚部 */
+.footer { width: 100%; height: 112px; background-color: #e8f2ff; border-top: 1px solid #c9ddf7; font-size: 14px; color: #555555; }
+.footer-about span { margin-left: 174px; }
+.footer-about { width: 960px; line-height: 112px; margin: 0 auto; }
+.footer-about a { color: #555555; margin: 0 32px; }

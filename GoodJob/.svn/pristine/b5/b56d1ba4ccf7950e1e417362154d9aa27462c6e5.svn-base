@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>好工作运营后台-某个企业-登陆日志</title>
+</head>
+<link rel="stylesheet" type="text/css" href="../css/v2/admin/all.css">
+
+<body>
+<header class="clear">
+	<img src="../images/v2/logo-s.png" width="119" height="62">
+    <em>后台管理系统</em>
+    <p>
+    	<a href="#"><i><img src="../images/v2/nophoto.png" width="30" height="30"></i><span>用户名称</span></a>
+        <a href="#">安全退出</a>
+    </p>
+</header>
+<nav>
+	<li><a href="index.html">首页</a></li>
+	<li class="cur"><a href="companies.html">企业管理</a></li>
+	<li><a href="schools.html">院校管理</a></li>
+	<li><a href="users.html">用户管理</a></li>
+	<li><a href="jobs.html">职位管理</a></li>
+	<li><a href="resumes.html">简历管理</a></li>
+	<li><a href="servers.html">客服系统</a></li>
+	<li><a href="moneys.html">财务系统</a></li>
+	<li><a href="system.html">系统管理</a></li>
+</nav>
+
+<!--<menu>
+	<li class="cur"><a href="companies.html">全部企业</a></li>
+	<li><a href="companies-rpo.html">RPO企业</a></li>
+	<li><a href="companies-done.html">已合作</a></li>
+	<li><a href="companies-check.html">待审核</a></li>
+	<li><a href="companies-down.html">被下架</a></li>
+	<li><a href="company-edit.html">添加企业/RPO</a></li>
+</menu>-->
+
+<ol class="SubMenu">
+	<li>企业名称企业名称企业名称</li>
+	<li><a href="company-detail.html">企业资料</a></li>
+	<li><a href="company-jobs.html">招聘管理</a></li>
+	<li><a href="company-resumes.html">简历管理</a></li>
+	<li><a href="company-schools.html">合作院校</a></li>
+	<li><a href="company-admins.html">管理员</a></li>
+	<!--<li class="cur"><a href="company-logins.html">登陆日志</a></li>
+	<li><a href="company-moneys.html">财务日志</a></li>-->
+</ol>
+
+<div class="Filter"><table>
+	<tr>
+    	<th width="7%">登陆时间：</th><td width="26%">
+        	<input type="text" class="text double time">
+            <ins></ins>
+        	<input type="text" class="text double time">
+        </td>
+    	<th width="7%" class="btns"><input type="button" class="submit" value="查询"></th>
+        <td width="26%"></td>
+    	<th width="7%"></th>
+        <td width="26%"></td>
+    </tr>
+</table></div>
+<div class="List"><table border="1" bordercolor="#e2e4f0">
+	<thead><tr>
+    	<th width="80">ID</th>
+    	<th width="30%">登陆时间</th>
+    	<th width="30%">持续登陆时长</th>
+    	<th width="">管理员</th>
+    </tr></thead>
+    <tbody>
+    	<tr>
+        	<th><label><input type="checkbox">10001</label></th>
+        	<td>2015-7-11 11:51</td>
+            <td>2H30min</td>
+            <td>管理员的帐号</td>
+        </tr>
+    	<tr>
+        	<th><label><input type="checkbox">10001</label></th>
+        	<td>2015-7-11 11:51</td>
+            <td>2H30min</td>
+            <td>管理员的帐号</td>
+        </tr>
+    	<tr>
+        	<th><label><input type="checkbox">10001</label></th>
+        	<td>2015-7-11 11:51</td>
+            <td>2H30min</td>
+            <td>管理员的帐号</td>
+        </tr>
+    	<tr>
+        	<th><label><input type="checkbox">10001</label></th>
+        	<td>2015-7-11 11:51</td>
+            <td>2H30min</td>
+            <td>管理员的帐号</td>
+        </tr>
+    </tbody>
+    <caption>
+    	<input type="button" value="全选" class="checkAll">
+    	<input type="button" value="反选" class="checkNeg">
+        <div class="Pages">
+        	<span>5874条结果，共294页</span>
+            <a href="#">首页</a>
+            <a href="#">上一页</a>
+            <a href="#">1</a>
+            <a href="#" class="cur">2</a>
+            <a href="#">3</a>
+            <a href="#">...</a>
+            <a href="#">294</a>
+            <a href="#">下一页</a>
+            <a href="#">尾页</a>
+        </div>
+    </caption>
+</table></div>
+
+
+
+</body>
+</html>
+<script src="../js/v2/admin/jquery2.js"></script>
+<script src="../js/jbody.js"></script>
+<script src="../js/jbody-plugin.js"></script>
+<script src="../js/area.js"></script>
+<script src="../js/subjects.js"></script>
+<script src="../js/v2/admin/all.js"></script>
+<script>
+</script>

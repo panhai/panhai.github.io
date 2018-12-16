@@ -1,0 +1,1523 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><title>
+    管理后台
+</title><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta http-equiv="pragma" content="no-cache" /><meta http-equiv="Cache-Control" content="no-cache, must-revalidate" /><meta http-equiv="expires" content="0" />
+    <link href="../css/1024/common.css" rel="stylesheet" type="text/css" />
+    <link href="../css/1024/admin.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/MD5.js"></script>
+    <script type="text/javascript" src="../js/jbody.js"></script>
+    <script type="text/javascript" src="../js/jbody-plugin.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+    <script type="text/javascript" src="../js/area.js"></script>
+    <script type="text/javascript" src="../js/subjects.js"></script>
+    <script type="text/javascript" src="../js/jobPositions.js"></script>
+    <script type="text/javascript" src="../js/oldadmin/gpAdmin.js"></script>
+    <script type="text/javascript" src="../js/menuControl.js"></script>
+    <script type="text/javascript" src="../js/oldadmin/common.js"></script>
+    <script type="text/javascript" src="../js/selectors.js"></script>
+    
+    <script type="text/javascript" src="../UploadFile/UploadFile.js"></script>
+    <script type="text/javascript" src="../UploadFile/ManageCtrl.js"></script>
+    
+</head>
+<body>
+    
+
+    
+<div id="pg-header" class="pg-header">
+    <div class="pg-header-main">
+        <div class="logo">
+            <a href="/"><img alt="好工作网Logo" src="../images/logo.png" class="pngfix" width="232" height="40" /></a>
+        </div>
+        <div class="cname">平台管理后台</div>
+        <div class="r mginT10">
+    <div class="platform-switch-container">
+    <div class="platform-switch-main msout">
+        <span class="floatR">切换后台</span>
+        <span class="floatR" style="border:solid 1px #ffc183; line-height:12px; margin-right:5px; padding-left:1px; padding-right:1px;">+</span>
+        <div style="clear:both;"></div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        $(".platform-switch-main").click(function () {
+            JBFrameHelper.showPage("/UCenter/PlatformSwitch.phtml", { obj: this, title: "切换到个人中心或其他管理后台", w: 500, pos: { to: "win", parent: "doc", park: "inside", parkInside: "center" } }, true, false);
+        });
+    })
+</script>
+
+</div>
+    </div>
+</div>
+    
+<div id="pg-nav" class="pg-nav">
+    <ul>
+        <li><div class="nav-title"><a href="#">管理首页</a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">院校<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">企业<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">资讯公告<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">招聘<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">简历<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">用户<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">广告<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">更多<sub></sub></a></div></li>
+    </ul>
+</div>
+<div style="clear:both;"></div>
+<div id="pg-nav-sub" style="display:none;">
+    <div id="pg-nav-sub-inner">
+    <div id="pg-nav-sub-main">
+        <ul style="display:none;">
+            <li><a href="Sum.html">系统概况</a></li>
+            <li><a href="Admin.html">系统功能链接汇总</a></li>
+            <li><a href="#">消息</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="School-cooperation.html">合作院校</a></li>
+            <li><a href="School-hasexpired.html">已到期</a></li>
+            <li><a href="School-expire.html">即将到期</a></li>
+            <li><a href="School-application.html">申请中</a></li>
+            <li><a href="School-mobilization.html">动员中</a></li>
+            <li><a href="School-all.html">全部院校</a></li>
+            <li><a href="School-add.html">添加院校</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Company-application.html">合作企业</a></li>
+            <li><a href="Company-hasexpired.html">已到期</a></li>
+            <li><a href="Company-expire.html">即将到期</a></li>
+            <li><a href="Company-application.html">申请中</a></li>
+            <li><a href="Company-mobilization.html">动员中</a></li>
+            <li><a href="Company-all.html">全部企业</a></li>
+            <li><a href="Company-add.html">添加企业</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Articles.html">管理平台资讯</a></li>
+            <li><a href="Articles.html">管理企业发布的资讯</a></li>
+            <li><a href="Articles.html">管理院校发布的资讯</a></li>
+            <li><a href="Articles.html">添加资讯</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Offers-wait.html">待审核</a></li>
+            <li><a href="Offers-ing.html">正在招聘</a></li>
+            <li><a href="Offers-fulltime.html">全职岗位</a></li>
+            <li><a href="Offers-parktime.html">兼职岗位</a></li>
+            <li><a href="Offers-internship.html">实习岗位</a></li>
+            <li><a href="Offers-school.html">校园招聘</a></li>
+            <li><a href="Offers-public.html">社会招聘</a></li>
+            <li><a href="Offers-all.html">全部</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Resumes.html">企业下载</a></li>
+            <li><a href="Resumes.html">正在求职</a></li>
+            <li><a href="Resumes.html">等待推荐</a></li>
+            <li><a href="Resumes.html">已推荐</a></li>
+            <li><a href="Resumes.html">已面试</a></li>
+            <li><a href="Resumes.html">全部</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="CustmRoles.html">平台管理员角色</a></li>
+            <li><a href="Admin-admin.html">平台管理员</a></li>
+            <li><a href="Admin-school.html">院校方管理员</a></li>
+            <li style="display:none;"><a href="/admin/users/school/">院校方导师</a></li>
+            <li><a href="Admin-company.html">企业方管理员</a></li>
+            <li><a href="Admin-user.html">全部注册用户</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="#">正在投放</a></li>
+            <li><a href="#">已过期</a></li>
+            <li><a href="#">全部</a></li>
+            <li><a href="#">添加广告</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Setting.html">系统设置</a></li>
+            <li><a href="Info.html">个人设置</a></li>
+            <li><a href="Password.html">修改密码</a></li>
+        </ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+    </div>
+    </div>
+</div>
+<div style="clear:both;"></div>
+    <div class="pageMainContentContainer">         
+    <div id="titleAndTabMenuContainer" class="titleAndTabMenuContainer" style="display:none; clear:both;"></div>
+    <div id="titleAndTabMenuContainer2" class="titleAndTabMenuContainer" style="display:none; clear:both;"></div>
+    <iframe id="_postTargetIframe" name="_postTargetIframe" style="display:none;" src="about:blank"></iframe>
+    <form method="post" action="/admin/users/" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<div class="aspNetHidden">
+
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="7B99D338" />
+</div>
+    
+    <div class="bodyBlock">
+        <div class="detailBlockTitle" style="padding-left:20px;"><div class="leftIco"></div><div class="left">全部注册用户列表</div></div>
+        <div class="blockMain">
+        <table class="listTable">
+            <thead><tr>
+                <td style="width:80px;">ID</td>
+                <td style="width:80px;">姓名</td>
+                <td style="width:200px;">Email</td>
+                <td style="width:120px;">手机</td>
+                <td style="width:60px;">状态</td>
+                <td style="width:80px;">最近登录</td>
+                <td style="width:180px;">操作</td></tr></thead>
+            
+                    <tr class="tr0">
+                        <td>100000</td>
+                        <td></td>
+                        <td>95864133@qq.com</td>
+                        <td></td>
+                        <td>正常</td>
+                        <td>2014-03-24</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100000)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100000">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100001</td>
+                        <td>戴海明</td>
+                        <td>95864132@qq.com</td>
+                        <td>15815880668</td>
+                        <td>正常</td>
+                        <td>2014-10-13</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100001)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100001">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100005</td>
+                        <td>林总</td>
+                        <td>78678418@qq.com</td>
+                        <td></td>
+                        <td>未激活</td>
+                        <td></td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100005)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100005">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100006</td>
+                        <td>章逸汉</td>
+                        <td>qzmqjybqabckd@bmrytfaz.com</td>
+                        <td>13804944293</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100006)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100006">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100007</td>
+                        <td>郭春玫</td>
+                        <td>fhfkpey@sntnxzr.com</td>
+                        <td>13882415061</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100007)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100007">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100008</td>
+                        <td>贝丹坚</td>
+                        <td>jksmjdqhybwuz@fagytc.com</td>
+                        <td>13834656271</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100008)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100008">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100009</td>
+                        <td>酆楠庭</td>
+                        <td>mdanpkrsdqvcvg@kyghxdyt.com</td>
+                        <td>13862938063</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100009)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100009">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100010</td>
+                        <td>郑涓</td>
+                        <td>cxaxgxxghtbxazk@nvgqmzzd.com</td>
+                        <td>13862536731</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100010)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100010">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100011</td>
+                        <td>郎钰彤</td>
+                        <td>xrnhczw@djckm.com</td>
+                        <td>13809820938</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100011)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100011">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100012</td>
+                        <td>纪汉</td>
+                        <td>muftabpd@nyncrzp.com</td>
+                        <td>13873695996</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100012)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100012">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100013</td>
+                        <td>任佳苓</td>
+                        <td>buzymeb@ajswgcv.com</td>
+                        <td>13820300155</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100013)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100013">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100014</td>
+                        <td>张彦绮</td>
+                        <td>kzrxcfqmsmy@xhzmthp.com</td>
+                        <td>13890960524</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100014)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100014">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100015</td>
+                        <td>韩凰</td>
+                        <td>awummxtgwfavhrs@drdwxdf.com</td>
+                        <td>13891081859</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100015)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100015">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100016</td>
+                        <td>席彦森</td>
+                        <td>uvwtfry@ukxkqv.com</td>
+                        <td>13871467638</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100016)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100016">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100017</td>
+                        <td>刁海子</td>
+                        <td>ppjezknhynvam@qceke.com</td>
+                        <td>13842696635</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100017)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100017">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100018</td>
+                        <td>霍泰芬</td>
+                        <td>bratcpfwpga@mqycyjzm.com</td>
+                        <td>13897916150</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100018)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100018">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100019</td>
+                        <td>章春琪</td>
+                        <td>avfbabq@bwuhtpgd.com</td>
+                        <td>13887426222</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100019)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100019">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100020</td>
+                        <td>卜莉</td>
+                        <td>nqnafxhpjaacfr@fmduu.com</td>
+                        <td>13804721355</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100020)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100020">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100021</td>
+                        <td>任思</td>
+                        <td>bpjyvz@uthwu.com</td>
+                        <td>13830870663</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100021)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100021">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100022</td>
+                        <td>宋卿瑾</td>
+                        <td>htsrjukjx@ebydjb.com</td>
+                        <td>13831125349</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100022)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100022">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100023</td>
+                        <td>史良易</td>
+                        <td>trbrcazvtt@qyxbfmps.com</td>
+                        <td>13840182496</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100023)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100023">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100024</td>
+                        <td>凌旭莉</td>
+                        <td>mgbdunhuzgucv@darzpfc.com</td>
+                        <td>13884962925</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100024)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100024">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100025</td>
+                        <td>虞媛渝</td>
+                        <td>kjapnuxz@uxergaen.com</td>
+                        <td>13875544659</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100025)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100025">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100026</td>
+                        <td>孔昊龄</td>
+                        <td>vjhtzqkfbqvm@wfjhy.com</td>
+                        <td>13863840364</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100026)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100026">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100027</td>
+                        <td>席汉义</td>
+                        <td>cuvpvsn@vxdcc.com</td>
+                        <td>13872284780</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100027)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100027">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100028</td>
+                        <td>汤晋江</td>
+                        <td>ntxgvkkdzgh@qmxfktns.com</td>
+                        <td>13833681218</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100028)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100028">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100029</td>
+                        <td>伍榕佑</td>
+                        <td>mhfmqfsghejye@wrdutjd.com</td>
+                        <td>13847491867</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100029)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100029">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100030</td>
+                        <td>鲍吉</td>
+                        <td>bntufre@byducy.com</td>
+                        <td>13805163608</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100030)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100030">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100031</td>
+                        <td>童仑芬</td>
+                        <td>mexzyuz@mmtrzc.com</td>
+                        <td>13898197604</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100031)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100031">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100032</td>
+                        <td>纪书彦</td>
+                        <td>tdasrdaexkxasf@fgbzarz.com</td>
+                        <td>13873275557</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100032)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100032">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100033</td>
+                        <td>李源文</td>
+                        <td>vncgsupwujwuj@fcxtpq.com</td>
+                        <td>13876457000</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100033)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100033">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100034</td>
+                        <td>强沂恒勋</td>
+                        <td>gndgdm@enrjqhw.com</td>
+                        <td>13863440902</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100034)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100034">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100035</td>
+                        <td>卢和村</td>
+                        <td>qxvwfrsy@ctcatt.com</td>
+                        <td>13872370537</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100035)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100035">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100036</td>
+                        <td>常琳和</td>
+                        <td>waxntrvgfnz@qrvhjj.com</td>
+                        <td>13826102098</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100036)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100036">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100037</td>
+                        <td>朱榕茹</td>
+                        <td>vpqwytv@aghhvma.com</td>
+                        <td>13811733113</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100037)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100037">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100038</td>
+                        <td>米宁圣</td>
+                        <td>zbtewaxrmqqgjd@yducvwee.com</td>
+                        <td>13821402656</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100038)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100038">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100039</td>
+                        <td>雷钰裕</td>
+                        <td>kwrbhdvyndfef@cqdeym.com</td>
+                        <td>13838247501</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100039)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100039">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100040</td>
+                        <td>姜桦泉</td>
+                        <td>pucuqxeg@tubrr.com</td>
+                        <td>13888852063</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100040)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100040">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100041</td>
+                        <td>凌安</td>
+                        <td>ekwpcrrvfxhu@mmfmqehn.com</td>
+                        <td>13808771174</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100041)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100041">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100042</td>
+                        <td>伍茹</td>
+                        <td>brawpppweysbmw@fysdg.com</td>
+                        <td>13834225655</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100042)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100042">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100043</td>
+                        <td>季汉琦</td>
+                        <td>ehsrznpjpj@xsabft.com</td>
+                        <td>13840823882</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100043)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100043">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100044</td>
+                        <td>彭宜伊</td>
+                        <td>ztztpmw@beesdzu.com</td>
+                        <td>13859501830</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100044)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100044">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100045</td>
+                        <td>尤凰茜</td>
+                        <td>pxkyzdqzwghqrhv@sywhtrms.com</td>
+                        <td>13846571527</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100045)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100045">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100046</td>
+                        <td>唐昱萱</td>
+                        <td>unxvnazhcswg@phamsrd.com</td>
+                        <td>13819046995</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100046)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100046">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100047</td>
+                        <td>贺楠先</td>
+                        <td>fmfkfybzmx@kdfkathq.com</td>
+                        <td>13800562213</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100047)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100047">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100048</td>
+                        <td>和俊</td>
+                        <td>wtnntmbhhrcry@rnrbj.com</td>
+                        <td>13839865759</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100048)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100048">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100049</td>
+                        <td>伍晋信</td>
+                        <td>xxxntzz@azrcz.com</td>
+                        <td>13834523958</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100049)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100049">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100050</td>
+                        <td>潘博轩</td>
+                        <td>hqgyascegjm@ynfjrrq.com</td>
+                        <td>13848609877</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100050)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100050">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100051</td>
+                        <td>尹耘坚</td>
+                        <td>khcqvjukc@ynxvvgws.com</td>
+                        <td>13847911700</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100051)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100051">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100052</td>
+                        <td>齐茵乐</td>
+                        <td>cbjqfxjdjad@hctkdbx.com</td>
+                        <td>13837308692</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100052)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100052">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100053</td>
+                        <td>魏勋之</td>
+                        <td>wwcsnqn@vbdsxvyh.com</td>
+                        <td>13869800013</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100053)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100053">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100054</td>
+                        <td>路棠佳</td>
+                        <td>mzvwazzrajmjgvq@nzsdkm.com</td>
+                        <td>13874789965</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100054)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100054">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100055</td>
+                        <td>强菱</td>
+                        <td>azeksnxwpsng@xqhdbmcq.com</td>
+                        <td>13850058585</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100055)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100055">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100056</td>
+                        <td>奚村淳</td>
+                        <td>vjrscrrjkeb@uswdfpg.com</td>
+                        <td>13806779070</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100056)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100056">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100057</td>
+                        <td>魏信筠</td>
+                        <td>jfgavqs@wfknxawn.com</td>
+                        <td>13859794550</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100057)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100057">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100058</td>
+                        <td>赵心</td>
+                        <td>ehekpzgczy@uhwtn.com</td>
+                        <td>13825855933</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100058)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100058">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100059</td>
+                        <td>时俊元</td>
+                        <td>kcqmyqxps@erpst.com</td>
+                        <td>13857012573</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100059)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100059">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100060</td>
+                        <td>孙佳钧</td>
+                        <td>psncyutbv@mkymm.com</td>
+                        <td>13895193202</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100060)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100060">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100061</td>
+                        <td>唐逸丹</td>
+                        <td>dfpdcw@qmqadtr.com</td>
+                        <td>13879769674</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100061)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100061">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100062</td>
+                        <td>蔡益渝</td>
+                        <td>kpqcxawmbwprfzc@kxuafc.com</td>
+                        <td>13868403333</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100062)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100062">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100063</td>
+                        <td>贺洲文</td>
+                        <td>jtutkvzuhtdyzv@mnzzn.com</td>
+                        <td>13890759003</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100063)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100063">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100064</td>
+                        <td>贺彦筠和</td>
+                        <td>raqrmfxqphy@wndps.com</td>
+                        <td>13879544665</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100064)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100064">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100065</td>
+                        <td>凤基</td>
+                        <td>gewqpvctpbsaphm@vwhvdcy.com</td>
+                        <td>13828109421</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100065)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100065">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100066</td>
+                        <td>彭易羽</td>
+                        <td>tddzzgddz@qjuftxy.com</td>
+                        <td>13819414003</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100066)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100066">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100067</td>
+                        <td>支容蔚</td>
+                        <td>cqstnftdbfy@aydrbu.com</td>
+                        <td>13808897861</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100067)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100067">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100068</td>
+                        <td>郝勋</td>
+                        <td>jcdnan@khjsy.com</td>
+                        <td>13869646508</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100068)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100068">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100069</td>
+                        <td>阮元强元</td>
+                        <td>sgayehs@nhqumak.com</td>
+                        <td>13880184397</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100069)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100069">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100070</td>
+                        <td>杜榕苓</td>
+                        <td>yymktevpukvn@bkrjfv.com</td>
+                        <td>13855352733</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100070)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100070">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100071</td>
+                        <td>邹棠</td>
+                        <td>jgtsegnwvwztyd@saqjsgc.com</td>
+                        <td>13826550038</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100071)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100071">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100072</td>
+                        <td>娄滢国</td>
+                        <td>hmbgxbve@rutzbt.com</td>
+                        <td>13853321051</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100072)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100072">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100073</td>
+                        <td>康智森</td>
+                        <td>wpjsrh@xvtyumqn.com</td>
+                        <td>13810182672</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100073)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100073">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100074</td>
+                        <td>于渝思</td>
+                        <td>fztxfduzk@fqmggj.com</td>
+                        <td>13847589774</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100074)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100074">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100075</td>
+                        <td>狄恩</td>
+                        <td>zgwxsqzqrmpcpcs@cwwnjg.com</td>
+                        <td>13819283834</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100075)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100075">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100076</td>
+                        <td>常凰喆</td>
+                        <td>prnqspnsnajqng@btwdmy.com</td>
+                        <td>13863888741</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100076)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100076">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100077</td>
+                        <td>姜岚丹</td>
+                        <td>yehtukqbfehbqy@hayssdw.com</td>
+                        <td>13872446867</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100077)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100077">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100078</td>
+                        <td>刁真健</td>
+                        <td>gnnxtpw@ygqktpf.com</td>
+                        <td>13876204168</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100078)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100078">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100079</td>
+                        <td>许博蓓</td>
+                        <td>mdawsrbkpkd@cedgd.com</td>
+                        <td>13829684832</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100079)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100079">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100080</td>
+                        <td>和妤淑</td>
+                        <td>pgwmbmujaryw@ckevvrgt.com</td>
+                        <td>13829438269</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100080)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100080">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100081</td>
+                        <td>昝良劭</td>
+                        <td>ppgmercg@xwhyws.com</td>
+                        <td>13822357555</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100081)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100081">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100082</td>
+                        <td>邵晴</td>
+                        <td>dabmbgbwcu@rfxynse.com</td>
+                        <td>13836294182</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100082)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100082">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100083</td>
+                        <td>支莉沂</td>
+                        <td>uakhywvrvk@tppdu.com</td>
+                        <td>13893986103</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100083)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100083">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100084</td>
+                        <td>傅莉一</td>
+                        <td>zqauhpumbdhm@hnmgfzck.com</td>
+                        <td>13842050020</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100084)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100084">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100085</td>
+                        <td>杜溢</td>
+                        <td>suzcydsdrujbcxr@zapsnsg.com</td>
+                        <td>13846920548</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100085)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100085">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100086</td>
+                        <td>胡棋义</td>
+                        <td>pjnjvjeqhbq@zpmwt.com</td>
+                        <td>13894290822</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100086)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100086">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100087</td>
+                        <td>廉含</td>
+                        <td>qcfmybguwfyusy@pbrjwvyx.com</td>
+                        <td>13809754954</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100087)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100087">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100088</td>
+                        <td>卜晨劭</td>
+                        <td>ekammcbkqfk@datzbnh.com</td>
+                        <td>13858888605</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100088)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100088">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100089</td>
+                        <td>陶书奇</td>
+                        <td>czyntwyqrdvx@quzbkptk.com</td>
+                        <td>13852409650</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100089)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100089">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100090</td>
+                        <td>麻之霞</td>
+                        <td>hgvmrfpb@vtremte.com</td>
+                        <td>13885790279</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100090)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100090">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100091</td>
+                        <td>施伊茵</td>
+                        <td>zqqyshsmv@jzrkjvb.com</td>
+                        <td>13824195718</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100091)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100091">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100092</td>
+                        <td>雷宁昊</td>
+                        <td>ttbprkdsfgtkbx@gkqsp.com</td>
+                        <td>13828520065</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100092)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100092">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100093</td>
+                        <td>谈虹文</td>
+                        <td>zhjvyp@bzjbnrpz.com</td>
+                        <td>13810070597</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100093)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100093">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100094</td>
+                        <td>毕阳</td>
+                        <td>wpztfsuyf@szeqdsb.com</td>
+                        <td>13858149249</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100094)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100094">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100095</td>
+                        <td>鲍东维</td>
+                        <td>xvubphtfc@rrhntyg.com</td>
+                        <td>13894991539</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100095)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100095">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100096</td>
+                        <td>葛勋榕</td>
+                        <td>gjwsmuc@fbsng.com</td>
+                        <td>13845029719</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100096)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100096">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100097</td>
+                        <td>许悦文</td>
+                        <td>eygytkhadkpnv@rpctdnw.com</td>
+                        <td>13892172677</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100097)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100097">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100098</td>
+                        <td>麻吉宜</td>
+                        <td>vzvsyyjapu@ymwppaq.com</td>
+                        <td>13815503976</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100098)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100098">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100099</td>
+                        <td>伏亦岚渊</td>
+                        <td>wuadrsaegrm@rxzfbw.com</td>
+                        <td>13887290100</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100099)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100099">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100100</td>
+                        <td>祝凰晨</td>
+                        <td>ycukfwqju@yqant.com</td>
+                        <td>13800901052</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100100)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100100">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100101</td>
+                        <td>尤真茜</td>
+                        <td>ewamabeg@ggtph.com</td>
+                        <td>13816181958</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100101)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100101">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100102</td>
+                        <td>周芸</td>
+                        <td>rahjjn@htprzuzk.com</td>
+                        <td>13846608233</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100102)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100102">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100103</td>
+                        <td>赵冰乔</td>
+                        <td>xpfajqw@hwggsqy.com</td>
+                        <td>13877278704</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100103)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100103">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100104</td>
+                        <td>昝洲沅</td>
+                        <td>tqpevdvmdnf@rtymqm.com</td>
+                        <td>13801682343</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100104)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100104">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100105</td>
+                        <td>严洁旭</td>
+                        <td>jhdjjdx@kprjjs.com</td>
+                        <td>13848781017</td>
+                        <td>正常</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100105)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100105">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100106</td>
+                        <td>周源</td>
+                        <td>zy13272@qq.com</td>
+                        <td></td>
+                        <td>未激活</td>
+                        <td></td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100106)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100106">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100107</td>
+                        <td>蔡壮茂</td>
+                        <td>70785748@qq.com</td>
+                        <td></td>
+                        <td>正常</td>
+                        <td>2014-10-13</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100107)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100107">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100108</td>
+                        <td>李冬</td>
+                        <td>2593420779@qq.com</td>
+                        <td></td>
+                        <td>正常</td>
+                        <td>2014-10-07</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100108)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100108">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100109</td>
+                        <td>李冬</td>
+                        <td>1090501470@qq.com</td>
+                        <td></td>
+                        <td>正常</td>
+                        <td>2014-10-07</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100109)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100109">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100110</td>
+                        <td>李冬</td>
+                        <td></td>
+                        <td>13697167084</td>
+                        <td>正常</td>
+                        <td>2014-09-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100110)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100110">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100111</td>
+                        <td>徐伟</td>
+                        <td>375373017@qq.com</td>
+                        <td></td>
+                        <td>正常</td>
+                        <td>2014-10-13</td>
+                        <td><a href="javascript:void(0);" onclick="resetPaswrd(100111)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100111">明细</a>
+                        </td>
+                    </tr>
+                
+        </table>
+        </div>
+        <div style="width:98%; margin:0px auto;">
+                        <span class="allpage_num">0条结果，共1页</span><a class="page_num" href="javascript:void(0);">首页</a><a class="page_num" href="javascript:void(0);">上一页</a><span class="page_current">1</span><a class="page_num" href="javascript:void(0);">下一页</a><a class="page_num" href="javascript:void(0);">尾页</a><script language='javascript'>function GoToPage(url){document.location.href=url;}function jumpPage(obj,url){var i=parseInt(obj.previousSibling.value);if(!i&&i!=0)return false;if(i<=0)i=1;if(i>1)i=1;GoToPage(url + i);}</script>
+                    </div>
+    </div>
+    <div style="clear:both;"></div>
+
+    
+
+<script type="text/javascript">
+//<![CDATA[
+pageMainMenuCreater.setActive({mainText:'用户',subText: '全部注册用户'});//]]>
+</script>
+</form>
+    
+    <script type="text/javascript">
+        function resetPaswrd(uid) {
+            JBFrameHelper.showPage("/admin/users/ResetPassword.phtml?uid=" + uid, { title: "重设用户密码", w: 500, h: 400, scroll: "no" }, false, false);
+        }
+    </script>
+   
+    <div style="clear:both;"></div>
+    </div> 
+    
+<div style="clear:both;"></div>
+<div class="footerOuter">
+    <div class="footer">
+        版权所有：好工作网
+        联系电话：88888888&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        联系邮箱：88888@qq.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+        地址：广州市环市中路&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        邮政编码：510000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+    </div>
+</div>
+
+</body>
+</html>
+<script type="text/javascript">
+    $(function () { adminPageInit({ unresize: "" }); });
+</script>

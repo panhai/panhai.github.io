@@ -1,0 +1,775 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><title>
+    管理后台
+</title><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta http-equiv="pragma" content="no-cache" /><meta http-equiv="Cache-Control" content="no-cache, must-revalidate" /><meta http-equiv="expires" content="0" />
+    <link href="../css/1024/common.css" rel="stylesheet" type="text/css" />
+    <link href="../css/1024/admin.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/MD5.js"></script>
+    <script type="text/javascript" src="../js/jbody.js"></script>
+    <script type="text/javascript" src="../js/jbody-plugin.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+    <script type="text/javascript" src="../js/area.js"></script>
+    <script type="text/javascript" src="../js/subjects.js"></script>
+    <script type="text/javascript" src="../js/jobPositions.js"></script>
+    <script type="text/javascript" src="../js/oldadmin/gpAdmin.js"></script>
+    <script type="text/javascript" src="../js/menuControl.js"></script>
+    <script type="text/javascript" src="../js/oldadmin/common.js"></script>
+    <script type="text/javascript" src="../js/selectors.js"></script>
+    
+    <script type="text/javascript" src="../UploadFile/UploadFile.js"></script>
+    <script type="text/javascript" src="../UploadFile/ManageCtrl.js"></script>
+    
+</head>
+<body>
+    
+
+    
+<div id="pg-header" class="pg-header">
+    <div class="pg-header-main">
+        <div class="logo">
+            <a href="/"><img alt="好工作网Logo" src="../images/logo.png" class="pngfix" width="232" height="40" /></a>
+        </div>
+        <div class="cname">平台管理后台</div>
+        <div class="r mginT10">
+    <div class="platform-switch-container">
+    <div class="platform-switch-main msout">
+        <span class="floatR">切换后台</span>
+        <span class="floatR" style="border:solid 1px #ffc183; line-height:12px; margin-right:5px; padding-left:1px; padding-right:1px;">+</span>
+        <div style="clear:both;"></div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        $(".platform-switch-main").click(function () {
+            JBFrameHelper.showPage("/UCenter/PlatformSwitch.phtml", { obj: this, title: "切换到个人中心或其他管理后台", w: 500, pos: { to: "win", parent: "doc", park: "inside", parkInside: "center" } }, true, false);
+        });
+    })
+</script>
+
+</div>
+    </div>
+</div>
+    
+<div id="pg-nav" class="pg-nav">
+    <ul>
+        <li><div class="nav-title"><a href="#">管理首页</a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">院校<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">企业<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">资讯公告<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">招聘<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">简历<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">用户<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">广告<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">更多<sub></sub></a></div></li>
+    </ul>
+</div>
+<div style="clear:both;"></div>
+<div id="pg-nav-sub" style="display:none;">
+    <div id="pg-nav-sub-inner">
+    <div id="pg-nav-sub-main">
+        <ul style="display:none;">
+            <li><a href="Sum.html">系统概况</a></li>
+            <li><a href="Admin.html">系统功能链接汇总</a></li>
+            <li><a href="#">消息</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="School-cooperation.html">合作院校</a></li>
+            <li><a href="School-hasexpired.html">已到期</a></li>
+            <li><a href="School-expire.html">即将到期</a></li>
+            <li><a href="School-application.html">申请中</a></li>
+            <li><a href="School-mobilization.html">动员中</a></li>
+            <li><a href="School-all.html">全部院校</a></li>
+            <li><a href="School-add.html">添加院校</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Company-application.html">合作企业</a></li>
+            <li><a href="Company-hasexpired.html">已到期</a></li>
+            <li><a href="Company-expire.html">即将到期</a></li>
+            <li><a href="Company-application.html">申请中</a></li>
+            <li><a href="Company-mobilization.html">动员中</a></li>
+            <li><a href="Company-all.html">全部企业</a></li>
+            <li><a href="Company-add.html">添加企业</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Articles.html">管理平台资讯</a></li>
+            <li><a href="Articles.html">管理企业发布的资讯</a></li>
+            <li><a href="Articles.html">管理院校发布的资讯</a></li>
+            <li><a href="Articles.html">添加资讯</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Offers-wait.html">待审核</a></li>
+            <li><a href="Offers-ing.html">正在招聘</a></li>
+            <li><a href="Offers-fulltime.html">全职岗位</a></li>
+            <li><a href="Offers-parktime.html">兼职岗位</a></li>
+            <li><a href="Offers-internship.html">实习岗位</a></li>
+            <li><a href="Offers-school.html">校园招聘</a></li>
+            <li><a href="Offers-public.html">社会招聘</a></li>
+            <li><a href="Offers-all.html">全部</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Resumes.html">企业下载</a></li>
+            <li><a href="Resumes.html">正在求职</a></li>
+            <li><a href="Resumes.html">等待推荐</a></li>
+            <li><a href="Resumes.html">已推荐</a></li>
+            <li><a href="Resumes.html">已面试</a></li>
+            <li><a href="Resumes.html">全部</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="CustmRoles.html">平台管理员角色</a></li>
+            <li><a href="Admin-admin.html">平台管理员</a></li>
+            <li><a href="Admin-school.html">院校方管理员</a></li>
+            <li style="display:none;"><a href="/admin/users/school/">院校方导师</a></li>
+            <li><a href="Admin-company.html">企业方管理员</a></li>
+            <li><a href="Admin-user.html">全部注册用户</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="#">正在投放</a></li>
+            <li><a href="#">已过期</a></li>
+            <li><a href="#">全部</a></li>
+            <li><a href="#">添加广告</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Setting.html">系统设置</a></li>
+            <li><a href="Info.html">个人设置</a></li>
+            <li><a href="Password.html">修改密码</a></li>
+        </ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+    </div>
+    </div>
+</div>
+<div style="clear:both;"></div>
+    <div class="pageMainContentContainer">         
+    <div id="titleAndTabMenuContainer" class="titleAndTabMenuContainer" style="display:none; clear:both;"></div>
+    <div id="titleAndTabMenuContainer2" class="titleAndTabMenuContainer" style="display:none; clear:both;"></div>
+    <iframe id="_postTargetIframe" name="_postTargetIframe" style="display:none;" src="about:blank"></iframe>
+    <form method="post" action="/admin/users/company/" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<div class="aspNetHidden">
+
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="E084ACED" />
+</div>
+    
+    <div class="bodyBlock">
+        <div class="detailBlockTitle" style="padding-left:20px;"><div class="leftIco"></div><div class="left">企业方管理员列表</div></div>
+        <div class="blockMain">
+        <table class="listTable">
+            <thead><tr>
+                <td style="width:80px;">ID</td>
+                <td style="width:80px;">姓名</td>
+                <td style="width:200px;">Email</td>
+                <td style="width:120px;">手机</td>
+                <td style="width:150px;">企业</td>
+                <td>角色</td>
+                <td style="width:60px;">状态</td>
+                <td style="width:80px;">最近登录</td>
+                <td style="width:180px;">操作</td></tr></thead>
+            
+                    <tr class="tr0">
+                        <td>100001</td>
+                        <td>戴海明</td>
+                        <td>95864132@qq.com</td>
+                        <td>15815880668</td>
+                        <td>广州冠鹏信息</td>
+                        <td>超管</td>
+                        <td>正常</td>
+                        <td>2014-10-13</td>
+                        <td><a href="javascript:void(0);" onclick="resetRoles(10008,100001)">角色管理</a>
+                             | <a href="javascript:void(0);" onclick="resetPaswrd(10008,100001)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100001">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100001</td>
+                        <td>戴海明</td>
+                        <td>95864132@qq.com</td>
+                        <td>15815880668</td>
+                        <td>腾讯</td>
+                        <td>超管</td>
+                        <td>正常</td>
+                        <td>2014-10-13</td>
+                        <td><a href="javascript:void(0);" onclick="resetRoles(10009,100001)">角色管理</a>
+                             | <a href="javascript:void(0);" onclick="resetPaswrd(10009,100001)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100001">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100001</td>
+                        <td>戴小明</td>
+                        <td>95864132@qq.com</td>
+                        <td>15815880668</td>
+                        <td>帮列愿</td>
+                        <td>超管</td>
+                        <td>正常</td>
+                        <td>2014-10-13</td>
+                        <td><a href="javascript:void(0);" onclick="resetRoles(10010,100001)">角色管理</a>
+                             | <a href="javascript:void(0);" onclick="resetPaswrd(10010,100001)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100001">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100022</td>
+                        <td>宋卿瑾</td>
+                        <td>htsrjukjx@ebydjb.com</td>
+                        <td>13831125349</td>
+                        <td>帮列愿</td>
+                        <td>超管</td>
+                        <td>未激活</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetRoles(10010,100022)">角色管理</a>
+                             | <a href="javascript:void(0);" onclick="resetPaswrd(10010,100022)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100022">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100001</td>
+                        <td>戴小明</td>
+                        <td>95864132@qq.com</td>
+                        <td>15815880668</td>
+                        <td>灯晚消</td>
+                        <td></td>
+                        <td>正常</td>
+                        <td>2014-10-13</td>
+                        <td><a href="javascript:void(0);" onclick="resetRoles(10011,100001)">角色管理</a>
+                             | <a href="javascript:void(0);" onclick="resetPaswrd(10011,100001)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100001">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100100</td>
+                        <td>祝凰晨</td>
+                        <td>ycukfwqju@yqant.com</td>
+                        <td>13800901052</td>
+                        <td>灯晚消</td>
+                        <td></td>
+                        <td>未激活</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetRoles(10011,100100)">角色管理</a>
+                             | <a href="javascript:void(0);" onclick="resetPaswrd(10011,100100)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100100">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100058</td>
+                        <td>赵心</td>
+                        <td>ehekpzgczy@uhwtn.com</td>
+                        <td>13825855933</td>
+                        <td>个七换节们</td>
+                        <td></td>
+                        <td>未激活</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetRoles(10012,100058)">角色管理</a>
+                             | <a href="javascript:void(0);" onclick="resetPaswrd(10012,100058)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100058">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100064</td>
+                        <td>贺彦筠和</td>
+                        <td>raqrmfxqphy@wndps.com</td>
+                        <td>13879544665</td>
+                        <td>反响明千皮</td>
+                        <td></td>
+                        <td>未激活</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetRoles(10013,100064)">角色管理</a>
+                             | <a href="javascript:void(0);" onclick="resetPaswrd(10013,100064)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100064">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100085</td>
+                        <td>杜溢</td>
+                        <td>suzcydsdrujbcxr@zapsnsg.com</td>
+                        <td>13846920548</td>
+                        <td>杂忙顿争属</td>
+                        <td></td>
+                        <td>未激活</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetRoles(10014,100085)">角色管理</a>
+                             | <a href="javascript:void(0);" onclick="resetPaswrd(10014,100085)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100085">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100108</td>
+                        <td>李冬</td>
+                        <td>2593420779@qq.com</td>
+                        <td></td>
+                        <td>杂忙顿争属</td>
+                        <td>超管</td>
+                        <td>正常</td>
+                        <td>2014-10-07</td>
+                        <td><a href="javascript:void(0);" onclick="resetRoles(10014,100108)">角色管理</a>
+                             | <a href="javascript:void(0);" onclick="resetPaswrd(10014,100108)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100108">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100084</td>
+                        <td>傅莉一</td>
+                        <td>zqauhpumbdhm@hnmgfzck.com</td>
+                        <td>13842050020</td>
+                        <td>续吸你</td>
+                        <td></td>
+                        <td>未激活</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetRoles(10015,100084)">角色管理</a>
+                             | <a href="javascript:void(0);" onclick="resetPaswrd(10015,100084)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100084">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100024</td>
+                        <td>凌旭莉</td>
+                        <td>mgbdunhuzgucv@darzpfc.com</td>
+                        <td>13884962925</td>
+                        <td>声安即弟乐</td>
+                        <td></td>
+                        <td>未激活</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetRoles(10016,100024)">角色管理</a>
+                             | <a href="javascript:void(0);" onclick="resetPaswrd(10016,100024)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100024">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100102</td>
+                        <td>周芸</td>
+                        <td>rahjjn@htprzuzk.com</td>
+                        <td>13846608233</td>
+                        <td>较应他</td>
+                        <td></td>
+                        <td>未激活</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetRoles(10017,100102)">角色管理</a>
+                             | <a href="javascript:void(0);" onclick="resetPaswrd(10017,100102)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100102">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100107</td>
+                        <td>蔡壮茂</td>
+                        <td>70785748@qq.com</td>
+                        <td></td>
+                        <td>较应他</td>
+                        <td>超管</td>
+                        <td>正常</td>
+                        <td>2014-10-13</td>
+                        <td><a href="javascript:void(0);" onclick="resetRoles(10017,100107)">角色管理</a>
+                             | <a href="javascript:void(0);" onclick="resetPaswrd(10017,100107)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100107">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100072</td>
+                        <td>娄滢国</td>
+                        <td>hmbgxbve@rutzbt.com</td>
+                        <td>13853321051</td>
+                        <td>重床永</td>
+                        <td></td>
+                        <td>未激活</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetRoles(10018,100072)">角色管理</a>
+                             | <a href="javascript:void(0);" onclick="resetPaswrd(10018,100072)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100072">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100062</td>
+                        <td>蔡益渝</td>
+                        <td>kpqcxawmbwprfzc@kxuafc.com</td>
+                        <td>13868403333</td>
+                        <td>优除遍</td>
+                        <td></td>
+                        <td>未激活</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetRoles(10019,100062)">角色管理</a>
+                             | <a href="javascript:void(0);" onclick="resetPaswrd(10019,100062)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100062">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100084</td>
+                        <td>傅莉一</td>
+                        <td>zqauhpumbdhm@hnmgfzck.com</td>
+                        <td>13842050020</td>
+                        <td>该着状金投</td>
+                        <td></td>
+                        <td>未激活</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetRoles(10020,100084)">角色管理</a>
+                             | <a href="javascript:void(0);" onclick="resetPaswrd(10020,100084)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100084">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100074</td>
+                        <td>于渝思</td>
+                        <td>fztxfduzk@fqmggj.com</td>
+                        <td>13847589774</td>
+                        <td>置终排国</td>
+                        <td></td>
+                        <td>未激活</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetRoles(10021,100074)">角色管理</a>
+                             | <a href="javascript:void(0);" onclick="resetPaswrd(10021,100074)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100074">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100035</td>
+                        <td>卢和村</td>
+                        <td>qxvwfrsy@ctcatt.com</td>
+                        <td>13872370537</td>
+                        <td>周花功</td>
+                        <td></td>
+                        <td>未激活</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetRoles(10022,100035)">角色管理</a>
+                             | <a href="javascript:void(0);" onclick="resetPaswrd(10022,100035)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100035">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100025</td>
+                        <td>虞媛渝</td>
+                        <td>kjapnuxz@uxergaen.com</td>
+                        <td>13875544659</td>
+                        <td>职门皮伯推</td>
+                        <td></td>
+                        <td>未激活</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetRoles(10023,100025)">角色管理</a>
+                             | <a href="javascript:void(0);" onclick="resetPaswrd(10023,100025)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100025">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100111</td>
+                        <td>徐伟</td>
+                        <td>375373017@qq.com</td>
+                        <td></td>
+                        <td>职门皮伯推</td>
+                        <td>超管</td>
+                        <td>正常</td>
+                        <td>2014-10-13</td>
+                        <td><a href="javascript:void(0);" onclick="resetRoles(10023,100111)">角色管理</a>
+                             | <a href="javascript:void(0);" onclick="resetPaswrd(10023,100111)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100111">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100090</td>
+                        <td>麻之霞</td>
+                        <td>hgvmrfpb@vtremte.com</td>
+                        <td>13885790279</td>
+                        <td>太既凡副</td>
+                        <td></td>
+                        <td>未激活</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetRoles(10024,100090)">角色管理</a>
+                             | <a href="javascript:void(0);" onclick="resetPaswrd(10024,100090)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100090">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100061</td>
+                        <td>唐逸丹</td>
+                        <td>dfpdcw@qmqadtr.com</td>
+                        <td>13879769674</td>
+                        <td>把规便解轻</td>
+                        <td></td>
+                        <td>未激活</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetRoles(10025,100061)">角色管理</a>
+                             | <a href="javascript:void(0);" onclick="resetPaswrd(10025,100061)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100061">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100056</td>
+                        <td>奚村淳</td>
+                        <td>vjrscrrjkeb@uswdfpg.com</td>
+                        <td>13806779070</td>
+                        <td>视望佛</td>
+                        <td></td>
+                        <td>未激活</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetRoles(10026,100056)">角色管理</a>
+                             | <a href="javascript:void(0);" onclick="resetPaswrd(10026,100056)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100056">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100094</td>
+                        <td>毕阳</td>
+                        <td>wpztfsuyf@szeqdsb.com</td>
+                        <td>13858149249</td>
+                        <td>差飞令</td>
+                        <td></td>
+                        <td>未激活</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetRoles(10027,100094)">角色管理</a>
+                             | <a href="javascript:void(0);" onclick="resetPaswrd(10027,100094)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100094">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100040</td>
+                        <td>姜桦泉</td>
+                        <td>pucuqxeg@tubrr.com</td>
+                        <td>13888852063</td>
+                        <td>采气个盛</td>
+                        <td></td>
+                        <td>未激活</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetRoles(10028,100040)">角色管理</a>
+                             | <a href="javascript:void(0);" onclick="resetPaswrd(10028,100040)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100040">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100031</td>
+                        <td>童仑芬</td>
+                        <td>mexzyuz@mmtrzc.com</td>
+                        <td>13898197604</td>
+                        <td>商家贵风</td>
+                        <td></td>
+                        <td>未激活</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetRoles(10029,100031)">角色管理</a>
+                             | <a href="javascript:void(0);" onclick="resetPaswrd(10029,100031)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100031">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100081</td>
+                        <td>昝良劭</td>
+                        <td>ppgmercg@xwhyws.com</td>
+                        <td>13822357555</td>
+                        <td>宣细馆忘浪</td>
+                        <td></td>
+                        <td>未激活</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetRoles(10030,100081)">角色管理</a>
+                             | <a href="javascript:void(0);" onclick="resetPaswrd(10030,100081)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100081">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100008</td>
+                        <td>贝丹坚</td>
+                        <td>jksmjdqhybwuz@fagytc.com</td>
+                        <td>13834656271</td>
+                        <td>万字礼笔</td>
+                        <td></td>
+                        <td>未激活</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetRoles(10031,100008)">角色管理</a>
+                             | <a href="javascript:void(0);" onclick="resetPaswrd(10031,100008)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100008">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100021</td>
+                        <td>任思</td>
+                        <td>bpjyvz@uthwu.com</td>
+                        <td>13830870663</td>
+                        <td>着增住武</td>
+                        <td></td>
+                        <td>未激活</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetRoles(10032,100021)">角色管理</a>
+                             | <a href="javascript:void(0);" onclick="resetPaswrd(10032,100021)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100021">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100012</td>
+                        <td>纪汉</td>
+                        <td>muftabpd@nyncrzp.com</td>
+                        <td>13873695996</td>
+                        <td>首牛让</td>
+                        <td></td>
+                        <td>未激活</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetRoles(10033,100012)">角色管理</a>
+                             | <a href="javascript:void(0);" onclick="resetPaswrd(10033,100012)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100012">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100091</td>
+                        <td>施伊茵</td>
+                        <td>zqqyshsmv@jzrkjvb.com</td>
+                        <td>13824195718</td>
+                        <td>警够坐</td>
+                        <td></td>
+                        <td>未激活</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetRoles(10034,100091)">角色管理</a>
+                             | <a href="javascript:void(0);" onclick="resetPaswrd(10034,100091)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100091">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100044</td>
+                        <td>彭宜伊</td>
+                        <td>ztztpmw@beesdzu.com</td>
+                        <td>13859501830</td>
+                        <td>论公古</td>
+                        <td></td>
+                        <td>未激活</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetRoles(10035,100044)">角色管理</a>
+                             | <a href="javascript:void(0);" onclick="resetPaswrd(10035,100044)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100044">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100049</td>
+                        <td>伍晋信</td>
+                        <td>xxxntzz@azrcz.com</td>
+                        <td>13834523958</td>
+                        <td>授归嘴流助</td>
+                        <td></td>
+                        <td>未激活</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetRoles(10036,100049)">角色管理</a>
+                             | <a href="javascript:void(0);" onclick="resetPaswrd(10036,100049)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100049">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100014</td>
+                        <td>张彦绮</td>
+                        <td>kzrxcfqmsmy@xhzmthp.com</td>
+                        <td>13890960524</td>
+                        <td>巨顶冲命</td>
+                        <td></td>
+                        <td>未激活</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetRoles(10037,100014)">角色管理</a>
+                             | <a href="javascript:void(0);" onclick="resetPaswrd(10037,100014)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100014">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>100096</td>
+                        <td>葛勋榕</td>
+                        <td>gjwsmuc@fbsng.com</td>
+                        <td>13845029719</td>
+                        <td>住一条</td>
+                        <td></td>
+                        <td>未激活</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetRoles(10038,100096)">角色管理</a>
+                             | <a href="javascript:void(0);" onclick="resetPaswrd(10038,100096)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100096">明细</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>100036</td>
+                        <td>常琳和</td>
+                        <td>waxntrvgfnz@qrvhjj.com</td>
+                        <td>13826102098</td>
+                        <td>差草窢</td>
+                        <td></td>
+                        <td>未激活</td>
+                        <td>2014-06-27</td>
+                        <td><a href="javascript:void(0);" onclick="resetRoles(10039,100036)">角色管理</a>
+                             | <a href="javascript:void(0);" onclick="resetPaswrd(10039,100036)">重置密码</a>
+                             | <a href="/admin/users/Detail.phtml?id=100036">明细</a>
+                        </td>
+                    </tr>
+                
+        </table>
+        </div>
+        <div style="width:98%; margin:0px auto;">
+                        <span class="allpage_num">0条结果，共1页</span><a class="page_num" href="javascript:void(0);">首页</a><a class="page_num" href="javascript:void(0);">上一页</a><span class="page_current">1</span><a class="page_num" href="javascript:void(0);">下一页</a><a class="page_num" href="javascript:void(0);">尾页</a><script language='javascript'>function GoToPage(url){document.location.href=url;}function jumpPage(obj,url){var i=parseInt(obj.previousSibling.value);if(!i&&i!=0)return false;if(i<=0)i=1;if(i>1)i=1;GoToPage(url + i);}</script>
+                    </div>
+    </div>
+    <div style="clear:both;"></div>
+
+    
+
+<script type="text/javascript">
+//<![CDATA[
+pageMainMenuCreater.setActive({mainText:'用户',subText: '企业方管理员'});//]]>
+</script>
+</form>
+    
+    <script type="text/javascript">
+        function resetPaswrd(orgId, uid) {
+            JBFrameHelper.showPage("/admin/users/ResetAdminPassword.phtml?orgid=" + orgId + "&uid=" + uid, { title: "重设管理员密码", w: 500, h: 400, scroll: "no" }, false, false);
+        }
+        function resetRoles(orgId, uid) {
+            JBFrameHelper.showPage("/admin/users/ResetRoles.phtml?orgid=" + orgId + "&uid=" + uid, { title: "重设管理员角色", w: 600, h: 400, scroll: "no" }, false, false);
+        }
+    </script>
+   
+    <div style="clear:both;"></div>
+    </div> 
+    
+<div style="clear:both;"></div>
+<div class="footerOuter">
+    <div class="footer">
+        版权所有：好工作网
+        联系电话：88888888&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        联系邮箱：88888@qq.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+        地址：广州市环市中路&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        邮政编码：510000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+    </div>
+</div>
+
+</body>
+</html>
+<script type="text/javascript">
+    $(function () { adminPageInit({ unresize: "" }); });
+</script>

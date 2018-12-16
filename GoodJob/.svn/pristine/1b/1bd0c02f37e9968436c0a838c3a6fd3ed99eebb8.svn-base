@@ -1,0 +1,17 @@
+/* 开通服务 */
+body{ background-image:url(../../../images/v2/loginbg.jpg);}
+.TOP-LOGO img{ vertical-align:bottom; margin-right:10px;}
+.TOP-TOOLS{ width:auto;}
+.Main{ background-color:#fff; margin-top:20px; border-top:1px solid #fff;}
+/*带背景图片的大标题*/
+.TOPIC{ width:184px; height:52px; position:relative; left:-10px; background-image:url(../../../images/v2/topicbg.png); margin:25px 0 0px; line-height:44px; text-indent:28px; color:#fff; font-weight:normal; font-size:20px;}
+.TOPIC{ _background-image:url(../../../images/v2/topicbg.gif);}
+/*内容*/
+.Content{ font-size:16px; color:#525252; line-height:35px; width:770px; margin:0 auto; padding:35px 0 100px;}
+.Content h3{ font-size:18px; font-weight:normal; color:#1562c8; margin-top:10px;}
+.Content h4{ font-size:18px; font-weight:normal; color:#333;}
+.Content b{ font-weight:normal; color:#f4812c; font-size:18px;}
+.Content .submit{ display:block; width:150px; height:40px; line-height:40px; color:#fff; font-size:18px; text-align:center; background-color:#549af4; margin:20px 0 30px;}
+.Content .submit:hover{ background-color:#1562c8;}
+.Content em{ font-style:normal; color:#1562c8;}
+

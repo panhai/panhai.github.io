@@ -1,0 +1,71 @@
+/* 帮助中心 */
+body{ background-color:#f8f8f8;}
+.HEADER{ box-shadow:0 5px 5px rgba(117,149,192,0.2); background-color:#fff;}
+.LOGO{ float:left; padding-top:20px;}
+.SLOGAN{ float:left; padding-top:80px;}
+.TOP-SEARCH{ float:right;}
+.TOP-SEARCH-BAR{ margin-top:50px;}
+.hrlink{ display:block; width:131px; height:36px; float:right; margin-top:20px; font-size:16px; text-align:center; line-height:36px; color:#1562c8; background-image:url(../../images/v2/hrhelp-link.jpg);}
+
+/*带背景图片的大标题*/
+.TOPIC{ width:292px; height:58px; position:relative; left:-10px; background-image:url(../../images/v2/topicLong.png); margin:25px 0 0px; line-height:46px; text-indent:28px; color:#fff; font-weight:normal; font-size:24px;}
+.TOPIC{ _background-image:url(../../images/v2/topicLong.gif);}
+
+.Main{ margin-top:50px;
+    margin-bottom: 30px;}
+.Left{ width:250px; float:left; background-color:#fff; padding-bottom:10px; min-height:433px;}
+.Left dl,.Left dt,.Left dd{ clear:both;}
+.Left dl{ margin:0 10px; border-bottom:1px solid #e3e3e3;}
+.Left dt{ font-size:20px; line-height:70px; margin:0 10px; background:url(../../images/v2/icons/chevron-right-gray.png) right center no-repeat;}
+.Left dt{ _background-image:url(../../images/v2/icons/chevron-right-gray.gif);}
+.Left .list dt{ background-image:url(../../images/v2/icons/chevron-down-gray.png); _background-image:url(../../images/v2/icons/chevron-down-gray.gif);}
+.Left .cur dt{ background-image:url(../../images/v2/icons/chevron-right-blue.png);}
+.Left .cur.list dt{ background-image:url(../../images/v2/icons/chevron-down.png); _background-image:url(../../images/v2/icons/chevron-down.gif);}
+.Left dt a{ color:#737373; display:block; background:left center no-repeat; padding-left:55px;}
+.Left .cur dt a{ color:#1562c8;}
+.Left .t1{ background-image:url(../../images/v2/icons/helps/1.jpg);}
+.Left .t2{ background-image:url(../../images/v2/icons/helps/2.jpg);}
+.Left .t3{ background-image:url(../../images/v2/icons/helps/3.jpg);}
+.Left .t4{ background-image:url(../../images/v2/icons/helps/4.jpg);}
+.Left .t5{ background-image:url(../../images/v2/icons/helps/5.jpg);}
+.Left .t6{ background-image:url(../../images/v2/icons/helps/6.jpg);}
+.Left .cur .t1{ background-image:url(../../images/v2/icons/helps/11.jpg);}
+.Left .cur .t2{ background-image:url(../../images/v2/icons/helps/22.jpg);}
+.Left .cur .t3{ background-image:url(../../images/v2/icons/helps/33.jpg);}
+.Left .cur .t4{ background-image:url(../../images/v2/icons/helps/44.jpg);}
+.Left .cur .t5{ background-image:url(../../images/v2/icons/helps/55.jpg);}
+.Left .cur .t6{ background-image:url(../../images/v2/icons/helps/66.jpg);}
+.Left dd{ display:none; margin:0px 10px 10px 65px; line-height:40px;}
+.Left .cur dd{ display:block;}
+.Left dd a{ display:block; font-size:16px; color:#929292;}
+.Left dd a.cur{ color:#1562c8;}
+
+.Right{ width:780px; float:right; background-color:#fff;}
+/*常见问题*/
+.Questions{ padding:20px 10px 20px;}
+.Questions li{ border-bottom:1px dashed #c6dfff; padding:15px 20px;}
+.Questions h3{ line-height:40px; font-size:20px; color:#1562c8; font-weight:normal; background:url(../../images/v2/icons/help-q.jpg) left center no-repeat; padding-left:40px; cursor:pointer;}
+.Questions h3 i{ display:inline-block; width:18px; height:18px; background-image:url(../../images/v2/icons/chevron-circle-up.png); _background-image:url(../../images/v2/icons/chevron-circle-up.gif); _overflow:hidden;}
+.Questions div{ display:none; padding-left:40px; background:url(../../images/v2/icons/help-a.jpg) left top no-repeat; line-height:30px; margin-top:10px; color:#525252;}
+.Questions .cur h3 i{ background-image:url(../../images/v2/icons/chevron-circle-down.png); _background-image:url(../../images/v2/icons/chevron-circle-down.gif);}
+.Questions .cur div{ display:block;}
+
+/*大篇内容*/
+.Content{ padding:20px; font-size:16px; color:#525252; line-height:30px; min-height:320px; _height:320px;}
+.Content h2{ font-size:26px; color:#1562c8; font-weight:normal; margin:20px 0;}
+.Content h3{ font-size:18px; color:#1562c8; font-weight:normal; margin:10px 0;}
+.Content strong{ color:#1562c8; font-weight:normal;}
+.Content .tel{ clear:both; width:339px; height:79px; padding-top:40px; background-image:url(../../images/v2/telbg.jpg); margin:10px 0;}
+.Content .tel strong{ font-size:26px; margin-left:125px;}
+.Content a{ color:#1562c8; text-decoration:underline;}
+.Content a:hover{ color:#ff2e12; text-decoration:none;}
+.Content h4{ font-size:18px; color:#333; margin-top:20px;}
+.Content h5{ font-size:18px; color:#333; margin-top:10px; font-weight:normal;}
+
+/*表单*/
+.Suggest{ margin:0 auto; line-height:42px;}
+.Suggest th{ text-align:right; font-weight:normal; color:#1562c8; font-size:16px; vertical-align:top;}
+.Suggest th,.Suggest td{ padding:5px 0;}
+.Suggest .text,.Suggest textarea{ width:540px; float:left; padding:0 10px; border:2px solid #cae2ff; line-height:40px; font-size:18px;}
+.Suggest textarea{ resize:none; height:300px;}
+.Suggest .submit{ width:150px; height:40px; border:0; cursor:pointer; background-color:#1562c8; font-size:18px; color:#fff;}

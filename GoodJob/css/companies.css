@@ -1,0 +1,58 @@
+/* 知名企业 */
+.nav-inner{ margin:0px;}
+/*幻灯片*/
+.ban{ text-align:center; position:relative; background-color:#409DD8;}
+.ban ul{ position:relative; height:351px; width:100%; max-width:1353px; margin:0 auto;}
+.ban li{ position:absolute; left:0px; top:0px; height:351px;}
+.ban div{ position:absolute; bottom:0px; left:0px; z-index:1111; text-align:right;}
+.ban span{ width:18px; height:18px; display:inline-block; background:url(../images/companies/li.jpg); margin-left:12px;}
+.ban .cur{ background:url(../images/companies/li_cur.jpg);}
+/*多重过滤*/
+.filters{ height:60px; clear:both; background:#fff; box-shadow:1px 2px 2px #ccc; position:relative;}
+.filters .common{ padding-top:10px;}
+/*下拉列表*/
+.select{ position:relative; display:inline-block; float:left; z-index:111; font-size:16px; font-family:"微软雅黑"; color:#333; width:164px; margin-right:15px;}
+.select dt{ clear:both; height:35px; border:1px solid #A7A7A7; padding:0px 20px 0px 10px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; line-height:35px; position:relative;}
+.select dt i{ display:block; position:absolute; right:5px; top:12px; height:12px; width:12px; background:url(../images/icons.gif) 12px 24px; color:#999;}
+.select dt span{ color:#999;}
+.select dt q{ background:url(../images/UCenter/ico-cal.png) center no-repeat;}
+.select dd{ display:none; position:absolute; left:0px; background:#fff; line-height:25px; border:1px solid #d9d9d9;}
+.select dd.on{ display:block; z-index:555;}
+/*普通的下拉列表*/
+.normal{ width:154px; max-height:150px; overflow:auto; _height:150px; _overflow-y:auto; _overflow-x:hidden; font-size:12px;}
+.normal a{ display:block; line-height:30px; height:30px; color:#333; padding:0px 10px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; _width:90%;}
+.normal a:hover{ background-color:#dbeef4;}
+
+/*新增地址列表*/
+.address_tip{ border:0px; width:120px; font-size:16px; color:#333; font-family:"微软雅黑";}
+.AddressStatic{ width:435px;}
+.ADDList h4{ font-size:16px; font-weight:normal; color:#fff; background-color:#1e74e3; clear:both; padding:0px 10px; height:30px; line-height:30px;}
+.ADDTabs{ clear:both; height:30px; background-color:#f8f8f8; font-size:12px; font-family:"宋体"; margin-top:10px; border-bottom:1px solid #d7d7d7; padding:0px 10px; _overflow:hidden;}
+.ADDTabs b{ font-weight:normal; color:#454545; display:block; float:left; padding:0px 10px; margin-top:5px; border:1px solid #f8f8f8; height:23px; line-height:23px; cursor:pointer;}
+.ADDTabs b.cur{ border-color:#d7d7d7; border-bottom-color:#fff; background:#fff; _position:relative; height:24px;}
+.ADDLists{ width:100%; float:left; line-height:25px;}
+.ADDLists div{ width:100%; float:left; border-bottom:1px dashed #cbcbcb; padding:5px 0px;}
+.ADDLists em{ display:block; width:30px; text-align:center; font-size:18px; color:#666; font-style:normal; float:left;}
+.ADDLists p{ width:400px; float:left;}
+.ADDLists p a{ display:block; width:20%; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; font-size:12px; color:#666; font-family:"宋体"; float:left;}
+.hots p{ margin:10px auto; float:none; clear:both;}
+
+/*最后的输入框跟按钮*/
+.filter-form{ float:right;}
+.filter-form *{ font-family:"微软雅黑";}
+.filter-text{ float:left; width:195px; height:35px; line-height:35px; font-size:14px; border:1px solid #A7A7A7; padding:0px 10px; border-right:0px;}
+.filter-btn{ float:left; width:65px; height:37px; font-size:16px; color:#fff; background-color:#ff5e00; border:0px; cursor:pointer;}
+
+/*主体*/
+.main{ background-color:#F2F2F2; padding-top:20px;}
+.main ul{ width:1040px;}
+.main li{ width:222px; height:277px; float:left; margin:0px 37px 40px 0px; background-color:#fff;}
+.main li div{ clear:both; height:140px; overflow:hidden;}
+.main li b{ display:block; font-family:"微软雅黑"; font-size:14px; color:#333; text-align:center; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; line-height:50px;}
+.main li p{ text-align:center; font-size:12px; color:#5E5E5E;}
+.main p span{ display:inline-block; border:1px solid #DBDBDB; background-color:#F7F7F7; padding:2px 5px; margin-left:5px;}
+.main .total{ line-height:20px; text-align:center; display:block; font-family:"微软雅黑"; font-size:14px; color:#333; margin-top:20px;}
+.total var{ font-style:normal; font-size:16px; color:#ff5e00; font-weight:bold;}
+.total:hover{ background-color:#2673ec; color:#fff;}
+.total:hover var{ color:#fff;}
+.pages4{ padding-bottom:40px;}

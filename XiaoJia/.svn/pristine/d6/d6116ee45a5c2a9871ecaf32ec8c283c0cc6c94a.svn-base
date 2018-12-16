@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>登录</title>
+    <meta name=viewport content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="../css/all.css" />
+    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+    <link href="../css/layerskin/default/layer.css" rel="stylesheet" />
+</head>
+
+<body>
+
+
+<div class="login_box">
+	<div class="login_left">
+		<img src="../images/login2.png" alt=""/>
+	</div>
+	<div class="login_right">
+		<img src="../images/login.png" alt=""/>
+	</div>
+	<div class="login_logo_2">
+		<img src="../images/login_logo.png" alt="" />
+		<span>校+后台系统</span>
+	</div>
+	<div class="login_copy">
+		<i class=""></i>
+		<span>400-600-3310</span>
+	</div>
+	<div class="login">
+		<h2>欢迎登录校+</h2>
+		<div class="inp">
+			<input type="text" placeholder="请输入账号"/>
+			<span class="login_error">
+				<img src="../images/warning-1.png"/>
+				<spana>请输入账号！</spana>
+			</span>
+		</div>
+		<div class="inp inp_2">
+			<input type="password" placeholder="请输入密码"/>
+			<span class="login_error">
+				<img src="../images/warning-1.png"/>
+				<spana>请输入密码！</spana>
+			</span>
+		</div>
+		<div class="inp_b">
+			<button>登  录</button>
+		</div>
+		<div class="inp_c clear">
+			<i class="cur"></i>
+			<span>忘记密码</span>
+			<a href="忘记密码.html" class="inp_w">忘记密码？</a>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+<script src="../js/jquery.js"></script>
+<script src="../js/layer.js"></script>
+<script src="../js/all.js"></script>
+
+<script>
+	$('.inp_c i').click(function () {
+        if ($(this).hasClass('cur')) {
+            $(this).removeClass('cur');
+
+        } else {
+            $(this).addClass('cur')
+        }
+    });
+	
+	
+	
+</script>
+</body>
+</html>

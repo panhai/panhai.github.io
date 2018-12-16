@@ -1,0 +1,78 @@
+/* 校园招聘宣讲会 */
+.main{ padding:20px 0px; margin-top:20px;}
+.left{ width:230px; float:left;}
+/*统计数*/
+.totals{ clear:both; height:120px; font-family:"微软雅黑"; background:url(../../images/schools/confs/leftbg.jpg); overflow:hidden; border-top:1px solid #5996E6; margin-bottom:20px;}
+.totals dt{ height:80px; clear:both; overflow:hidden;}
+.totals dt p{ margin:20px 0px 0px 100px;}
+.totals dt b{ display:block; margin-left:100px; font-size:18px;}
+.totals dd{ height:40px; line-height:40px; font-size:14px; text-align:center; color:#666; border-top:1px dashed #ccc;}
+.totals b{ color:#1669DF;}
+.totals dd b{ padding:0px 3px; font-weight:normal;}
+/*校名列表*/
+.schools{ clear:both; border-top:1px solid #5996E6; font-size:0px; float:left\9; width:100%\9;}
+.schools li{ height:45px; line-height:45px; font-size:14px; background-color:#F6F7F9; border-bottom:1px solid #E6E7E9; font-family:"微软雅黑"; overflow:hidden; float:left\9; width:100%\9;}
+.schools li a{ display:block; color:#333; padding-left:35px; border-left:4px solid #F6F7F9;}
+.schools li a:hover,.schools a.cur{ border-left-color:#2677E2; background-color:#fff;}
+.schools .first{ background:url(../../images/schools/confs/schools.jpg) 15px center no-repeat #F6F7F9;}
+.schools .first h2{ padding-left:60px; font-size:18px; font-weight:normal;}
+
+.right{ width:745px; float:right;}
+/*顶搜索栏*/
+.search2{ clear:both;}
+.search2 strong{ display:block; float:left; line-height:40px; font-size:22px; color:#333; font-family:"微软雅黑"; font-weight:normal;}
+.search2 strong img{ vertical-align:text-bottom;}
+.search2 samp{ display:block; float:right; line-height:30px; padding-top:10px;}
+.search2 samp a{ color:#F88601; font-size:14px;}
+.search2 samp img{ vertical-align:middle;}
+.search-form2{ clear:both; border:2px solid #1C71DB; height:38px; position:relative;}
+.search2 .tags{ clear:both; line-height:40px; font-size:14px; font-family:"微软雅黑";}
+.search2 .tags a{ color:#333; padding-right:10px;}
+.search2 .tags a:hover{ color:#ff5000;}
+/*搜索框*/
+.top-search2{ float:left; width:586px; height:38px; border:#1C71DB 2px solid; margin-top:35px; _background-color:#1C71DB; position:relative; z-index:11111;}
+.top-search-i2{ display:block; float:left;}
+.top-search-text2{ width:408px; height:38px; border:0px; background-color:#fff; padding:0px 10px; _padding:0px 8px; line-height:38px;}
+.top-search-item{ width:115px; height:38px; background:url(../../images/search-item.jpg) center right no-repeat; line-height:38px; text-indent:12px; font-size:12px; cursor:pointer; border:0px; border-right:2px solid #1C71DB; padding-right:33px;}
+.top-search-submit2{ width:163px; height:38px; background-color:#1C71DB; border:0px; cursor:pointer; font-size:20px; color:#fff; font-family:"微软雅黑";}
+/*地名列表*/
+.top-search-list{ position:absolute; width:394px; background:#fff; border:1px solid #2578E2; top:38px; left:-2px; z-index:111; display:none;}
+.top-search-list dt{ background:#2578e2; height:34px; line-height:34px; color:#fff; font-size:14px; padding:0px 6px; font-weight:bold;}
+.top-search-address b{ display:block; border-bottom:1px solid #c4c4c4; font-size:14px; color:#333; line-height:38px; height:38px; padding:0px 10px;}
+.top-search-address div{ padding:10px; *margin-bottom:10px;}
+.top-search-address div a{ display:block; width:46px; float:left; font-size:12px; color:#565656; height:15px; margin-bottom:10px; *margin-bottom:0px;}
+.top-search-address a:hover{ color:#ff5000;}
+/*输入后过滤的地名列表*/
+.top-filter-list{ display:none; position:absolute; background:#fff; top:38px; left:-2px; z-index:111; width:225px; border:1px solid #2677E2; padding-bottom:10px;}
+.top-filter-list dt{ clear:both; line-height:25px; height:25px; margin-top:5px; font-size:12px; color:#999; border-bottom:1px dashed #BEBEBE; padding:3px 15px; margin-bottom:10px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.top-filter-list a{ display:block; clear:both; line-height:25px; height:25px; margin-top:5px; color:#323232; font-size:12px; padding:0px 10px;}
+.top-filter-list a:hover{ color:#fff !important; background-color:#2577E3 !important;}
+/*关键字*/
+.top-keywords{ float:left; width:586px; font-size:12px; line-height:34px;}
+.top-keywords,.top-keywords a{ padding:0px 3px; color:#4f4f4f;}
+.top-keywords a:hover{ color:#ff5000;}
+
+/*日期标签*/
+.tabs{ clear:both; height:38px; line-height:37px; border:1px solid #CACACA; margin-top:20px; background-color:#F8F8F8;}
+.tabs li{ float:left; font-size:12px; min-width:70px; text-align:center; border-right:1px dashed #cacaca;}
+.tabs li img{ vertical-align:text-bottom; vertical-align:middle\9;}
+.tabs li a{ color:#333; display:block; padding:0px 20px;}
+.tabs li a:hover{ color:#ff5000;}
+.tabs li a.cur{ border-bottom:1px solid #ff5000; color:#ff5000;}
+
+/*信息列表*/
+.infors{ width:100%; float:left; font-family:"微软雅黑";}
+.infors *{ white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.infors li{ width:96%; float:left;}
+.infors li.even{ background-color:#F8F8F8; padding:10px 2%;}
+.infors li.odd{ padding:15px 2%;}
+.infors li div{ width:50%; float:left; height:95px; line-height:30px;}
+.infors h3,.infors h4{ font-size:18px; font-weight:normal;}
+.infors h3 a,.infors h4 a{ color:#333;}
+.infors p{ font-size:14px; color:#666;}
+.infors b{ color:#333; font-weight:normal;}
+.infors q{ font-size:14px; font-family:"宋体"; color:#333;}
+.infors q a{ padding:4px 10px; font-size:14px; color:#fff; background-color:#f80;}
+
+.bdsharebuttonbox a,.bds_more{ background-image:none !important;}
+.bds_more{ font-size:14px !important; color:#fff !important; padding-left:10px !important;}

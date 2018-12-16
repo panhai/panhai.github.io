@@ -1,0 +1,730 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>好工作职位展示</title>
+<link rel="stylesheet" type="text/css" href="css/css.css">
+<link rel="stylesheet" type="text/css" href="css/job.css">
+<link rel="stylesheet" type="text/css" href="css/plugin/center3.css">
+</head>
+
+<body>
+<div class="header"><div class="common">
+	<a href="#" class="orange">我的好工作</a>&nbsp;&nbsp;
+    <a href="#">登陆</a>&nbsp;|&nbsp;<a href="#">注册</a>&nbsp;&nbsp;
+    <a href="#">企业入口</a>&nbsp;&nbsp;
+    <a href="#">帮助</a>
+</div></div>
+<div class="common top top-inner">
+	<a href="#" class="top-logo"><img src="images/logo.jpg" width="234" height="118"></a>
+    <div class="top-search">
+    	<input type="text" class="top-search-i top-search-text" placeholder="请输入职位名称、公司名等关键名">
+        <input class="top-search-i top-search-item" value="广州">
+        <input type="submit" class="top-search-i top-search-submit" value="">
+        <dl class="top-search-list">
+        	<dt>热门城市（可直接选择城市或输入城市拼音/简拼）</dt>
+            <dd class="top-search-address">
+            	<b>热门城市</b>
+                <div>
+                	<a>广东</a><a>北京</a><a>广西</a><a>甘肃</a><a>贵州</a><a>湖南</a><a>湖北</a><a>河南</a>
+                    <a>河北</a><a>黑龙江</a><a>海南</a><a>JLNQ</a><a>吉林</a><a>江苏</a><a>江西</a><a>辽宁</a>
+                	<a>内蒙古</a><a>宁夏</a><a>青海</a><a>上海</a><a>山东</a><a>山西</a><a>陕西</a><a>四川</a>
+                	<a>TXYZ</a><a>天津</a><a>西藏</a><a>新疆</a><a>云南</a><a>浙江</a><a>香港</a>
+                </div>
+            </dd>
+        </dl>
+    </div>
+</div>
+<div class="nav nav-inner"><div class="common">
+	<div class="nav-head">
+    	<samp><i></i>全部职位分类</samp>
+        <ul class="nav-menu nav-menu-inner">
+            <li>
+            	<p>生活 服务业</p>
+                <div class="sub-menu">
+                	<div class="sub-menu-left">
+                    	<dl>
+                            <dt>餐饮</dt>
+                            <dd>
+                                <a href="#">服务员</a>
+                                <a href="#">送餐员</a>
+                                <a href="#">配菜/打荷</a>
+                                <a href="#">厨师/厨师长</a>
+                                <a href="#">后厨传菜员</a>
+                                <a href="#">茶艺师</a>
+                                <a href="#">预订员</a>
+                                <a href="#">迎宾/接待</a>
+                                <a href="#">大堂经理/领班</a>
+                                <a href="#">餐饮管理</a>
+                                <a href="#">洗碗工</a>
+                                <a href="#">咖啡师</a>
+                                <a href="#">面点师</a>
+                                <a href="#">预订员</a>
+                                <a href="#">学徒</a>
+                                <a href="#">杂工</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                        	<dt>家政保洁/安保</dt>
+                            <dd>
+                            	<a href="#">保洁</a>
+                            	<a href="#">保姆</a>
+                            	<a href="#">月嫂</a>
+                            	<a href="#">育婴师/保育师</a>
+                            	<a href="#">洗衣工</a>
+                            	<a href="#">钟点工</a>
+                            	<a href="#">保安</a>
+                            	<a href="#">护工</a>
+                            	<a href="#">送水工</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                        	<dt>美容/美发</dt>
+                            <dd>
+                            	<a href="#">美容导师</a>
+                            	<a href="#">美发助理/学徒</a>
+                            	<a href="#">洗头工</a>
+                            	<a href="#">发型师</a>
+                            	<a href="#">美容师</a>
+                            	<a href="#">宠物美容</a>
+                            	<a href="#">美容/瘦身顾问</a>
+                            	<a href="#">美甲师</a>
+                            	<a href="#">化妆师</a>
+                            	<a href="#">媒体师</a>
+                            	<a href="#">美容店长</a>
+                            	<a href="#">彩妆培训师</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                        	<dt>酒店/旅游</dt>
+                            <dd>
+                            	<a href="#">酒店前台</a>
+                            	<a href="#">客户服务员</a>
+                            	<a href="#">楼面经理</a>
+                            	<a href="#">行李员</a>
+                            	<a href="#">救生员</a>
+                            	<a href="#">旅游顾问</a>
+                            	<a href="#">酒店管理</a>
+                            	<a href="#">计调签证专员</a>
+                            	<a href="#">订票员</a>
+                            	<a href="#">导游</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                        	<dt>保健按摩</dt>
+                            <dd>
+                            	<a href="#">按摩师</a>
+                            	<a href="#">足疗师</a>
+                            	<a href="#">搓澡工</a>
+                            	<a href="#">针灸推拿</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                        	<dt>娱乐/休闲</dt>
+                            <dd>
+                            	<a href="#">影视/后期制作</a>
+                            	<a href="#">主持人</a>
+                            	<a href="#">调酒师</a>
+                            	<a href="#">音效师</a>
+                            	<a href="#">酒吧服务员</a>
+                            	<a href="#">摄影师/摄像师</a>
+                            	<a href="#">灯光师</a>
+                            	<a href="#">配音员</a>
+                            	<a href="#">放映员</a>
+                            	<a href="#">娱乐厅服务员</a>
+                            	<a href="#">礼仪/迎宾</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                        	<dt>运动健身</dt>
+                            <dd>
+                            	<a href="#">健身教练</a>
+                            	<a href="#">瑜伽教练</a>
+                            	<a href="#">舞蹈老师</a>
+                            	<a href="#">游泳教练</a>
+                            	<a href="#">台球教练</a>
+                            	<a href="#">高尔夫球助理</a>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="sub-menu-right">
+                    	<q>&times;</q>
+                    	<b>推荐品牌</b>
+                        <a href="#" class="odd first"><img src="images/sub-menu-right1.jpg" width="88" height="38"></a>
+                        <a href="#" class="even first"><img src="images/sub-menu-right2.jpg" width="88" height="38"></a>
+                        <a href="#" class="odd"><img src="images/sub-menu-right3.jpg" width="88" height="38"></a>
+                        <a href="#" class="even"><img src="images/sub-menu-right4.jpg" width="88" height="38"></a>
+                        <a href="#" class="odd"><img src="images/sub-menu-right5.jpg" width="88" height="38"></a>
+                        <a href="#" class="even"><img src="images/sub-menu-right6.jpg" width="88" height="38"></a>
+                        <a href="#" class="alone"><img src="images/sub-menu-right0.jpg" width="185" height="340"></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+            	<p>生产 物流 质控 汽车</p>
+                <div class="sub-menu"></div>
+            </li>
+            <li>
+            	<p>销售 客服 采购 市场</p>
+                <div class="sub-menu"></div>
+            </li>
+            <li>
+            	<p>媒体 广告 设计 淘宝</p>
+                <div class="sub-menu"></div>
+            </li>
+            <li>
+            	<p>网络 通信 电子</p>
+                <div class="sub-menu"></div>
+            </li>
+            <li>
+            	<p>法律 财会 金融 保险</p>
+                <div class="sub-menu"></div>
+            </li>
+            <li>
+            	<p>教育 翻译 出版</p>
+                <div class="sub-menu"></div>
+            </li>
+            <li>
+            	<p>医疗 制药 环保</p>
+                <div class="sub-menu"></div>
+            </li>
+            <li>
+            	<p>建筑 装修 物业 其它</p>
+                <div class="sub-menu"></div>
+            </li>
+            <li class="last">
+            	<p>人力 行政 管理</p>
+                <div class="sub-menu"></div>
+            </li>
+        </ul>
+    </div>
+    <ul class="nav-body">
+    	<li class="first"><a href="index.html">首页</a></li>
+    	<li><a href="search.html" class="cur">职位搜索</a></li>
+    	<li><a href="schools-jobs.html" data-nav="schools">校园招聘<i></i></a></li>
+    	<li><a href="parttimes.html">兼职</a></li>
+    	<li><a href="companies.html">知名企业</a></li>
+    	<li><a href="schools.html">合作院校</a></li>
+    </ul>
+    <div class="nav-foot">
+    	<ul>
+        	<li><a href="#">我的简历</a></li>
+        	<li><a href="#">投递反馈</a></li>
+        	<li><a href="#">个人设置</a></li>
+        </ul>
+    </div>
+</div></div>
+<div class="nav-sub nav-sub-inner" data-nav="schools"><p><a href="schools-jobs.html">校园招聘首页</a><a href="#">全职/实习招聘</a><a href="schools-confs.html">校园宣讲会</a></p></div>
+
+<div class="crumbs common">
+	<a href="#">广州招聘</a> &gt;
+	<a href="#">广州销售招聘</a> &gt;
+	<a href="#">越秀销售招聘</a> &gt;
+	<a href="#">五羊新城销售招聘</a>
+</div>
+<div class="common">
+	<div class="left">
+    	<dl class="detail">
+        	<dt>
+                <h1>销售经理/主管<sup><img src="images/search/thumb.jpg" width="16" height="16"> 100</sup></h1>
+                <p>
+                	<img src="images/job/icon-eye.jpg" width="20" height="20"> 浏览120
+                    <img src="images/job/icon-post.jpg" width="20" height="20"> 投递120
+                    <img src="images/job/icon-man.jpg" width="20" height="20"> 企业查看录20%
+                </p>
+                <q>
+                	<a href="#" data-id="1" class="link"><img src="images/job/icon-star.jpg" width="20" height="20"> 收藏</a>
+                    <div class="bdsharebuttonbox"><a href="#" class="link bds_more" data-cmd="more"><img src="images/job/icon-share.jpg" width="20" height="20"> 分享</a></div>
+                </q>
+                <code class="cancel">已取消该收藏<s>&times;</s></code>
+                <code class="collect">已经收藏该职位，<a href="#">查看全部收藏</a><s>&times;</s></code>
+            </dt>
+            <dd>
+            	<p>月薪 <strong>6000-9000</strong></p>
+                <p>工作经验：<b>2</b>年&nbsp;&nbsp;学历要求：<b>本科</b>&nbsp;&nbsp;招聘人数：<b>6</b>人&nbsp;&nbsp;工作地点：<b>广州天河</b></p>
+                <p>福利待遇：<em>双休</em> <em>五险一金</em> <em>年底双薪</em> <em>加班补助</em></p>
+                <q>发布时间：<b>2014-10-17</b></q>
+            </dd>
+        </dl>
+        <ul class="job-nav">
+        	<li class="first cur" title="description">职位描述</li>
+        	<li title="introduction">公司介绍</li>
+        	<li title="otherjobs">公司其它职位</li>
+            <li class="last"><a href="#">投递简历</a></li>
+        </ul>
+        <!--job-words类的层上千万不要使用title属性，它被JS使用到-->
+        <div class="job-words description">
+        	<p><strong>岗位职责</strong></p>
+            <p>1、收集二手望京原楼盘、客户资源</p>
+            <p>2、调配主客双方需求，洽谈并促成交易</p>
+            <p>3、熟悉二手房租售流程，为客户提供完善的今后服务。</p>
+            
+            <p><strong>任岗位职责：</strong></p>
+            <p>1、接受客户咨询，为客户提供专业的楼市资讯服务</p>
+            <p>2、根据客户需求为客户提供合适的房源信息，陪同客户看房，促成业主与客户之间买卖或租赁交易的达成</p>
+            <p>3、进行买卖或租赁交易过程的跃进及房屋过户手续输等服务工作</p>
+            
+            <p><strong>任职要求</strong></p>
+            <p>1、愿意挑战自我，挑战高薪（我们公司有月入8万的90后男生女生，只要敢想敢做，你就可以实现你的梦想）</p>
+            <p>2、有较强的自我展现欲望</p>
+            <p>3、能够吃苦耐劳和随工作压力</p>
+            <p>4、无须行业经验，但有销售经验者优先</p>
+        </div>
+        <div class="adv">
+        	<dl class="adv1">
+            	<dt><a href="#">投递简历</a></dt>
+                <dd>
+                	<h3>求职有保障，放心找工作</h3>
+                    <p>如果职位信息虚假或存在收费等违法行为，<a href="javascript:void(0)" onClick="Accuse();" target="_blank">请立即举报！</a></p>
+                </dd>
+            </dl>
+            <dl class="adv2">
+            	<dt><img src="images/job/code.jpg" width="109" height="108"></dt>
+                <dd>
+                	<h3>在等通知？</h3>
+                	<p>微信扫一扫</p><p>有消息马上知道！</p>
+                </dd>
+            </dl>
+        </div>
+        <dl class="job-words introduction">
+        	<dt><h3>公司介绍</h3></dt>
+            <dd>
+                <p>广东诚伯信息有限公司（诚伯公司）成立于1997年，是国内最早、广州最大提供专业外包式呼叫中心服务（客户服务中心）的企业，并多次获得政府部门颁发"守合同重信用""和谐企业"等奖项。诚伯公司业务范围遍及海内外，覆盖通讯、汽车、金融、保险、饮食、传媒、消费品等行业，诚伯公司规范完善的培养机制将助您快步走向成功。</p>
+                <p>1、福利：五险一金+重大疾病险，年终奖，带薪年假。</p>
+                <p>2、工作时间：每周40小时。</p>
+                <p>3、培训及发展：优越的薪酬，提供完善岗前培训、在职培训，具有规范的晋升制度。</p>
+			</dd>
+            <dd>
+            	<p>公司图片</p>
+                <!--<ul class="job-pics">原来的内容，最好别删，
+                	<li class="first">共有36张</li>
+                	<li class="l"><img src="images/job/p/1.jpg" lowsrc="images/job/p/1.jpg"></li>
+                	<li class="m"><img src="images/job/p/2.jpg" lowsrc="images/job/p/2.jpg"></li>
+                	<li class="s"><img src="images/job/p/3.jpg" lowsrc="images/job/p/3.jpg"></li>
+                	<li class="s"><img src="images/job/p/4.jpg" lowsrc="images/job/p/4.jpg"></li>
+                	<li class="s"><img src="images/job/p/5.jpg" lowsrc="images/job/p/5.jpg"></li>
+                	<li class="s"><img src="images/job/p/6.jpg" lowsrc="images/job/p/6.jpg"></li>
+                	<li class="m"><img src="images/job/p/7.jpg" lowsrc="images/job/p/7.jpg"></li>
+                	<li class="s"><img src="images/job/p/8.jpg" lowsrc="images/job/p/8.jpg"></li>
+                	<li class="s"><img src="images/job/p/9.jpg" lowsrc="images/job/p/9.jpg"></li>
+                </ul>-->
+                <div class="job-pics"><!--src是小图170*130，lowsrc是大图-->
+                    <sub><a href="javascript:void(0)">&lt;</a></sub>
+                	<ul>
+                        <li><img src="images/job/p2/1.jpg" lowsrc="images/job/p2/1.jpg"></li>
+                        <li><img src="images/job/p2/2.jpg" lowsrc="images/job/p2/2.jpg"></li>
+                        <li><img src="images/job/p2/1.jpg" lowsrc="images/job/p2/1.jpg"></li>
+                        <li><img src="images/job/p2/2.jpg" lowsrc="images/job/p2/2.jpg"></li>
+                	</ul>
+                    <sup><a href="javascript:void(0)">&gt;</a></sup>
+                </div>
+            </dd>
+        </dl>
+        <dl class="job-words otherjobs">
+        	<dt><h3>公司其它职位</h3></dt>
+            <dd>
+            	<div class="job-other-lists"><table cellpadding="5" cellspacing="0">
+                	<thead><tr>
+                    	<th width="190">职位名</th><th width="105">月薪</th><th width="70">经验</th><th width="145">学历</th><th width="70">浏览</th><th width="90">投递</th>
+                    </tr></thead>
+                    <tbody>
+                    	<tr>
+                        	<td><a href="#">销售经理/主管</a></td>
+                        	<td>6000-7000</td>
+                        	<td>2年</td>
+                        	<td>本科</td>
+                        	<td>120人</td>
+                        	<td>90人</td>
+                        </tr>
+                    	<tr>
+                        	<td><a href="#">销售经理/主管</a></td>
+                        	<td>6000-7000</td>
+                        	<td>2年</td>
+                        	<td>本科</td>
+                        	<td>120人</td>
+                        	<td>90人</td>
+                        </tr>
+                    	<tr>
+                        	<td><a href="#">销售经理/主管</a></td>
+                        	<td>6000-7000</td>
+                        	<td>2年</td>
+                        	<td>本科</td>
+                        	<td>120人</td>
+                        	<td>90人</td>
+                        </tr>
+                    	<tr>
+                        	<td><a href="#">销售经理/主管</a></td>
+                        	<td>6000-7000</td>
+                        	<td>2年</td>
+                        	<td>本科</td>
+                        	<td>120人</td>
+                        	<td>90人</td>
+                        </tr>
+                    	<tr>
+                        	<td><a href="#">销售经理/主管</a></td>
+                        	<td>6000-7000</td>
+                        	<td>2年</td>
+                        	<td>本科</td>
+                        	<td>120人</td>
+                        	<td>90人</td>
+                        </tr>
+                    	<tr>
+                        	<td><a href="#">销售经理/主管</a></td>
+                        	<td>6000-7000</td>
+                        	<td>2年</td>
+                        	<td>本科</td>
+                        	<td>120人</td>
+                        	<td>90人</td>
+                        </tr>
+                    	<tr>
+                        	<td><a href="#">销售经理/主管</a></td>
+                        	<td>6000-7000</td>
+                        	<td>2年</td>
+                        	<td>本科</td>
+                        	<td>120人</td>
+                        	<td>90人</td>
+                        </tr>
+                    	<tr>
+                        	<td><a href="#">销售经理/主管</a></td>
+                        	<td>6000-7000</td>
+                        	<td>2年</td>
+                        	<td>本科</td>
+                        	<td>120人</td>
+                        	<td>90人</td>
+                        </tr>
+                    	<tr>
+                        	<td><a href="#">销售经理/主管</a></td>
+                        	<td>6000-7000</td>
+                        	<td>2年</td>
+                        	<td>本科</td>
+                        	<td>120人</td>
+                        	<td>90人</td>
+                        </tr>
+                    	<tr>
+                        	<td><a href="#">销售经理/主管</a></td>
+                        	<td>6000-7000</td>
+                        	<td>2年</td>
+                        	<td>本科</td>
+                        	<td>120人</td>
+                        	<td>90人</td>
+                        </tr>
+                    	<tr>
+                        	<td><a href="#">销售经理/主管</a></td>
+                        	<td>6000-7000</td>
+                        	<td>2年</td>
+                        	<td>本科</td>
+                        	<td>120人</td>
+                        	<td>90人</td>
+                        </tr>
+                    	<tr>
+                        	<td><a href="#">销售经理/主管</a></td>
+                        	<td>6000-7000</td>
+                        	<td>2年</td>
+                        	<td>本科</td>
+                        	<td>120人</td>
+                        	<td>90人</td>
+                        </tr>
+                    	<tr>
+                        	<td><a href="#">销售经理/主管</a></td>
+                        	<td>6000-7000</td>
+                        	<td>2年</td>
+                        	<td>本科</td>
+                        	<td>120人</td>
+                        	<td>90人</td>
+                        </tr>
+                    	<tr>
+                        	<td><a href="#">销售经理/主管</a></td>
+                        	<td>6000-7000</td>
+                        	<td>2年</td>
+                        	<td>本科</td>
+                        	<td>120人</td>
+                        	<td>90人</td>
+                        </tr>
+                    	<tr>
+                        	<td><a href="#">销售经理/主管</a></td>
+                        	<td>6000-7000</td>
+                        	<td>2年</td>
+                        	<td>本科</td>
+                        	<td>120人</td>
+                        	<td>90人</td>
+                        </tr>
+                    	<tr>
+                        	<td><a href="#">销售经理/主管</a></td>
+                        	<td>6000-7000</td>
+                        	<td>2年</td>
+                        	<td>本科</td>
+                        	<td>120人</td>
+                        	<td>90人</td>
+                        </tr>
+                    	<tr>
+                        	<td><a href="#">销售经理/主管</a></td>
+                        	<td>6000-7000</td>
+                        	<td>2年</td>
+                        	<td>本科</td>
+                        	<td>120人</td>
+                        	<td>90人</td>
+                        </tr>
+                    	<tr>
+                        	<td><a href="#">销售经理/主管</a></td>
+                        	<td>6000-7000</td>
+                        	<td>2年</td>
+                        	<td>本科</td>
+                        	<td>120人</td>
+                        	<td>90人</td>
+                        </tr>
+                    	<tr>
+                        	<td><a href="#">销售经理/主管</a></td>
+                        	<td>6000-7000</td>
+                        	<td>2年</td>
+                        	<td>本科</td>
+                        	<td>120人</td>
+                        	<td>90人</td>
+                        </tr>
+                    	<tr>
+                        	<td><a href="#">销售经理/主管</a></td>
+                        	<td>6000-7000</td>
+                        	<td>2年</td>
+                        	<td>本科</td>
+                        	<td>120人</td>
+                        	<td>90人</td>
+                        </tr>
+                    </tbody>
+                </table></div>
+                <p><a class="job-other-switch">查看公司全部职位（共21个）<i>&nbsp;</i></a></p>
+			</dd>
+        </dl>
+    </div>
+    <div class="right">
+    	<div class="company">
+            <div class="logo"><img src="images/job/logo.jpg"></div>
+            <h2>广州冠鹏信息技术有限公司</h2>
+        	<p><img src="images/job/icon-licence.jpg" width="22" height="22"> <a href="#">营业执照已认证</a></p>
+            <p>所在城市：<b>广州</b></p>
+            <p>公司规模：<b>100人</b></p>
+            <p>公司领域：<b>金属</b></p>
+            <p>公司性质：<b>私营</b></p>
+            <p>发展阶段：<b>初创型</b></p>
+            <p>公司网址：<a href="#" target="_blank">http://www.91goodschool.com/</a></p>
+            <p>公司地址：<b>广州科韵路天河软件园</b></p>
+        </div>
+        
+        <dl class="album">
+        	<dt>企业相册</dt>
+            <dd>
+            	<a href="#" class="odd"><img src="images/job/1.jpg"></a>
+            	<a href="#"><img src="images/job/2.jpg"></a>
+            	<a href="#" class="odd"><img src="images/job/3.jpg"></a>
+            	<a href="#"><img src="images/job/4.jpg"></a>
+            </dd>
+        </dl>
+        
+        <dl class="address">
+        	<dt>工作地点</dt>
+            <dd>
+            	<p>广州科韵路天河软件园202G</p>
+            </dd>
+        </dl>
+        
+        <dl class="map">
+        	<dt>查看地图</dt>
+            <dd><img src="images/job/map.jpg"></dd>
+        </dl>
+    </div>
+    
+    <div class="clear">
+    	<input type="button" value="投简历时要求手机注册" onClick="$('.Mobiles').get(0).open();">
+    	<input type="button" value="投简历时要求登陆" onClick="$('.Logins').get(0).open();">
+    	<input type="button" value="投简历时简历不完整" onClick="$('.PostFail').get(0).open();">
+    </div>
+</div>
+
+<div class="footer footer-inner">
+	<div class="common tail">
+        <samp class="tail-nav">
+            <a href="#" class="first">关于我们</a>
+            <a href="new-help.html">帮助中心</a>
+            <a href="#">保密承诺</a>
+            <a href="#">Investor Relatiao</a>
+            <a href="new-about.html">关于我们</a>
+        </samp>
+    </div>
+    <div class="common copyright">
+    	<p>京ICP备09083200号 京ICP证070419号 人才服务许可证：RC0710280</p>
+    	<p>Copyright&copy;2000-2014 liepin.com All Rights Reserved</p>
+    </div>
+</div>
+<div class="float bottom-fixed">
+	<a href="#" class="float-code"><img src="images/search/code.jpg" width="49" height="49"></a>
+	<a class="float-link SuggestionStart">提出建议</a>
+    <a href="#" class="float-top"> </a>
+</div>
+
+<div class="map-large black5">
+	<dl>
+    	<dt>公司地址<q>&times;</q></dt>
+        <dd><img src="images/job/map-l.jpg" width="835" height="408"></dd>
+    </dl>
+</div>
+
+
+<dl class="CenterDiv top-fixed Accuse">
+	<dt class="CenterTopic"><h4>举报该职位</h4><q>&times;</q></dt>
+    <dd class="CenterContent">
+    	<ul class="CenterForm">
+        	<li>
+	        	<var>举报原因：</var>
+                <dfn><dl class="CenterSelect">
+                	<input type="hidden">
+                	<dt><b>虚假信息（工作内容不符，公司信息不真实等）</b><i></i></dt>
+                    <dd>
+                    	<a href="#" alt="1">索要押金</a>
+                    	<a href="#" alt="2">职位已停招</a>
+                    	<a href="#" alt="3">多次发布相同职位</a>
+                    </dd>
+                </dl></dfn>
+            </li>
+        	<li>
+	        	<var>举报内容：</var>
+                <dfn><textarea placeholder="请尽量准确地描述你要举报的内容，字数在100字之内"></textarea></dfn>
+            </li>
+            <li>
+            	<var>图片：</var>
+                <dfn>
+                	<div class="clear"><img src="images/SCenter/upload.jpg" width="125" height="32" align="absmiddle"> 最多上传 3 张图片</div>
+                    <div class="clear">
+                        <div class="figure"><img><q>&times;</q></div>
+                        <div class="figure"><img><q>&times;</q></div>
+                        <div class="figure"><img><q>&times;</q></div>
+                    </div>
+                </dfn>
+            </li>
+        	<li>
+	        	<var>联系方式：</var>
+                <dfn><input type="text" class="text"></dfn>
+            </li>
+        	<li>
+	        	<var>验证码：</var>
+                <dfn>
+                	<input type="text" class="text half">
+	                <img src="images/UCenter/vcode.png" width="60" height="28" align="absmiddle">
+                    <a href="#" class="vcode-fresh">看不清，换一个</a>
+                </dfn>
+            </li>
+            <li class="btns">
+            	<input type="submit" class="submit btn" value="确定">
+            	<input type="reset" class="reset btn" value="取消">
+            </li>
+        </ul>
+    </dd>
+</dl>
+
+
+<dl class="CenterDiv top-fixed Suggestion">
+	<dt class="CenterTopic"><h4>意见反馈</h4><q>&times;</q></dt>
+    <dd class="CenterContent">
+    	<p class="tip"><img src="images/regist/i.jpg" width="17" height="17">感谢您使用好工作，您的反馈是对我们莫大的支持和鼓励！</p>
+        <div class="SuggestForm">
+            <var>反馈内容：</var>
+            <dfn><textarea placeholder="使用帮助，产品bug，功能建议，问题反馈，吐槽等（500字以内）"></textarea></dfn>
+            <var>如何与您联系：</var>
+            <dfn>
+                <p><input type="checkbox"> <input type="text" class="text" placeholder="请输入邮箱"></p>
+                <p><input type="checkbox" id="systemInformation"> <label for="systemInformation">系统信息</label></p>
+            </dfn>
+            <div class="btns">
+                <input type="submit" class="submit btn" value="确定">
+                <input type="reset" class="reset btn" value="取消">
+            </div>
+        </div>
+        <div class="SuggestResult">
+            <p class="ResultOK"><img src="images/UCenter/ok.jpg" width="42" height="42"> 感谢您的反馈！</p>
+            <p>我们一定认真阅读和处理并尽快通过邮箱与您取得联系！</p>
+            <p><input type="submit" class="close btn" value="关闭"></p>
+        </div>
+    </dd>
+</dl>
+
+
+<dl class="CenterDiv top-fixed Mobiles">
+	<dt class="CenterTopic"><h3>为方便企业与您联系，请填写以下信息！</h3><q>&times;</q></dt>
+    <dd class="CenterContent">
+    	<table class="MobileForm">
+        <tbody>
+        	<tr><th width="120">手机号码</th><td><input type="text" class="text t-l"></td></tr>
+        	<tr><th>手机验证码</th><td><input type="text" class="text t-s"> <input type="button" value="获取手机验证码" class="btn"></td></tr>
+        	<tr><th>设置密码</th><td><input type="text" class="text t-l"></td></tr>
+            <!--还有一种是没有设置密码这一项的-->
+        </tbody>
+        <tfoot><tr><td colspan="2">
+        	<input type="submit" class="submit" value="下一步">
+            如已有帐号，请点击“<a href="#">登陆</a>”
+        </td></tr></tfoot>
+        </table>
+    </dd>
+</dl>
+
+
+<dl class="CenterDiv top-fixed Logins">
+	<dt class="CenterTopic"><h3>帐号登录</h3><q>&times;</q></dt>
+    <dd class="CenterContent">
+    	<table class="LoginForm">
+        <tbody>
+        	<tr><td><input type="text" class="text" placeholder="请填入登录帐号"></td></tr>
+        	<tr><td><input type="password" class="text" placeholder="请填入密码"></td></tr>
+            <tr><td><label><input type="checkbox"> 2周内自动登陆（公共电脑慎用）</label> <a href="#">忘记密码</a></td></tr>
+        </tbody>
+        <tfoot>
+        	<tr><td>
+        	<input type="submit" class="submit" value="登陆">
+            <a href="#">快速注册<img src="images/job/regist.jpg" width="18" height="18"></a>
+            </td></tr>
+        </tfoot>
+        </table>
+    </dd>
+</dl>
+
+<dl class="CenterDiv top-fixed PostFail">
+	<dt class="CenterTopic"><h3>投递简历</h3><q>&times;</q></dt>
+    <dd class="CenterContent">
+    	 <p>您的简历信息不够完整，请完善后再进行投递！</p>
+         <div class="center"><input type="submit" class="submit" value="完善简历"></div>
+    </dd>
+</dl>
+
+
+</body>
+</html>
+<script src="js/jquery.js"></script>
+<script src="js/web/all.js"></script>
+<script src="js/web/job.js"></script>
+<script src="js/web/page.js"></script>
+<script src="js/web/correct.js"></script>
+<script src="js/web/center.js"></script>
+
+<script>
+$(function(){
+	NavFoot();
+	NavHead();
+	NavSubMenu();
+	Favor();
+	SearchList();
+	JobLists();
+	JobNav(".job-nav");
+	LayerFixed(".job-nav");
+	Map();
+	CHIpage(".job-pics");
+	CenterDiv();
+	FigureRemove();
+	SuggestionReady();
+	NavPull();
+});
+window.onload=function(){
+	//Float();
+	Pics(".job-pics img");
+	CHIpros(".job-pics,.album");
+}
+</script>
+<!--<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+-->
+
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdPic":"","bdStyle":"0","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>

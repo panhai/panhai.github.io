@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="css/v2/all.css">
+<link rel="stylesheet" type="text/css" href="css/v2/login.css">
+<link rel="stylesheet" type="text/css" href="css/v2/job.css" />
+<title>好工作-登陆页</title>
+</head>
+
+<body>
+<div class="HEADER"><div class="common">
+	<div class="LOGO"><a href="index-new.html"><img src="images/v2/logo.jpg" width="177" height="91"></a></div>
+    <div class="SLOGAN"><img src="images/v2/top-key.gif" width="401" height="38"></div>
+    <div class="LINKS"><a href="two-new-login.html" class="cur">登陆</a>|<a href="two-new-regist.html" >注册</a></div>
+</div></div>
+
+<div class="Main-new  Main-login">
+	<h1 class="TOPIC-new">猎头服务专享接口</h1>
+  <div class="resume_upload_ok">
+    <div class="title">
+      <i></i>
+      <h2>恭喜上传成功！您将享受由好工作提供的全程猎头服务！</h2>
+      <p>3~10个工作日内，好工作猎头将根据您的简历为推荐合适企业，请到时留意接听电话。</p>
+    </div>
+    
+    
+    <div class="Regist">
+      <p class="color1">如需免费享受学历认证，双倍投递及职位推荐等高级VIP服务！请开通会员服务：</p>
+        <div class="clear">
+            <ul class="Regist-regist">
+               <li>
+                   <dl class="SELECT">
+                       <dt>
+                           <input type="text" class="regist-input regist-phone EMAILS" placeholder="请输入手机号码，用于开通会员服务" data-list="arrow" data-init="true" autocomplete="off">
+                       </dt>
+                       <dd class="normal"><div class="matches" data-list="datas" style="display: none;"></div></dd>
+                   </dl>
+                    <code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>
+               </li>
+               <li>
+                     <input type="text" class="regist-input regist-code" autocomplete="off" placeholder="请输入短信验证码">
+                      <input class="regist-phone-code SendVerify" type="submit" value="获取验证码" autocomplete="off">
+                </li>
+               <li>
+                    <input type="password" class="regist-input regist-phone" placeholder="请设置登录密码" autocomplete="off">
+                    <code class="form-tip successMsg"></code>
+                    <code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>
+                    </li>
+
+                
+               <li>
+                   <a href="new-update-associator-ok.html" class="public-btn">立即开通会员服务</a>
+                   <!-- <input type="submit" class="public-btn regist-btn" value="立即开通会员服务" autocomplete="off"> --><a class="upvip">已是好工作会员，免费升级高级VIP</a>
+               </li>
+            
+            </ul>
+        </div>
+        <div class="clear"></div>
+    </div>
+  </div>
+    
+    <div class="clear"></div>
+</div>
+
+<div class="footer">
+    <div class="footer-about">
+    @2015好工作-京ICP证070419号
+    <span>
+      <a href="#">关于我们  </a>       |
+      <a href="#">法律声明  </a>       |
+      <a href="#">联系我们  </a>    |
+      <a href="#">Investor Relatiao </a>
+    </span>
+    </div>
+</div>
+</body>
+
+<table class="FullScreenPlugin fixed fixed-top CenterDivContainer"><tr><td>
+<dl class="CENTERDIV CenterTiny Login" data-active=".upvip">
+        <dt class="CENTERTOPIC"><b>账号登陆</b><q></q></dt>
+        <dd class="CENTERCONTENT">
+          <table class="CenterForm" width="302">
+              <tr><td>
+                  <span class="text-container"><input type="text" class="text t-m" placeholder="请输入手机号码或邮箱"></span>
+                    <code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>
+                </td></tr>
+              <tr><td>
+                  <span class="text-container"><input type="password" class="text t-m" placeholder="请输入密码"></span>
+                    <code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>
+                </td></tr>
+                <tr><td class="addition">
+                  <label><input type="checkbox"> 2周内自动登陆</label>
+                    <a href="new-forget.html">忘记密码？</a>
+                </td></tr>
+                <tr><td class="CENTERBTNS">
+                  <input type="button" class="submit" value="下一步">
+                  <a href="javascript:void(0)">快速注册</a>
+                </td></tr>
+            </table>
+        </dd>
+    </dl>
+    </td>
+  </tr>
+</table>
+</html>
+<script src="js/jquery.js"></script>
+<script src="js/v2/all.js"></script>
+<script src="js/effect/bg.js"></script>
+<script src="js/plugin/CenterDiv.js"></script>
+

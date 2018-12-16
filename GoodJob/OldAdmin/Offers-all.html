@@ -1,0 +1,630 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><title>
+    管理后台
+</title><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta http-equiv="pragma" content="no-cache" /><meta http-equiv="Cache-Control" content="no-cache, must-revalidate" /><meta http-equiv="expires" content="0" />
+    <link href="../css/1024/common.css" rel="stylesheet" type="text/css" />
+    <link href="../css/1024/admin.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/MD5.js"></script>
+    <script type="text/javascript" src="../js/jbody.js"></script>
+    <script type="text/javascript" src="../js/jbody-plugin.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+    <script type="text/javascript" src="../js/area.js"></script>
+    <script type="text/javascript" src="../js/subjects.js"></script>
+    <script type="text/javascript" src="../js/jobPositions.js"></script>
+    <script type="text/javascript" src="../js/oldadmin/gpAdmin.js"></script>
+    <script type="text/javascript" src="../js/menuControl.js"></script>
+    <script type="text/javascript" src="../js/oldadmin/common.js"></script>
+    <script type="text/javascript" src="../js/selectors.js"></script>
+    
+    <script type="text/javascript" src="../UploadFile/UploadFile.js"></script>
+    <script type="text/javascript" src="../UploadFile/ManageCtrl.js"></script>
+    
+</head>
+<body>
+    
+
+    
+<div id="pg-header" class="pg-header">
+    <div class="pg-header-main">
+        <div class="logo">
+            <a href="/"><img alt="好工作网Logo" src="../images/logo.png" class="pngfix" width="232" height="40" /></a>
+        </div>
+        <div class="cname">平台管理后台</div>
+        <div class="r mginT10">
+    <div class="platform-switch-container">
+    <div class="platform-switch-main msout">
+        <span class="floatR">切换后台</span>
+        <span class="floatR" style="border:solid 1px #ffc183; line-height:12px; margin-right:5px; padding-left:1px; padding-right:1px;">+</span>
+        <div style="clear:both;"></div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        $(".platform-switch-main").click(function () {
+            JBFrameHelper.showPage("/UCenter/PlatformSwitch.phtml", { obj: this, title: "切换到个人中心或其他管理后台", w: 500, pos: { to: "win", parent: "doc", park: "inside", parkInside: "center" } }, true, false);
+        });
+    })
+</script>
+
+</div>
+    </div>
+</div>
+    
+<div id="pg-nav" class="pg-nav">
+    <ul>
+        <li><div class="nav-title"><a href="#">管理首页</a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">院校<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">企业<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">资讯公告<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">招聘<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">简历<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">用户<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">广告<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">更多<sub></sub></a></div></li>
+    </ul>
+</div>
+<div style="clear:both;"></div>
+<div id="pg-nav-sub" style="display:none;">
+    <div id="pg-nav-sub-inner">
+    <div id="pg-nav-sub-main">
+        <ul style="display:none;">
+            <li><a href="Sum.html">系统概况</a></li>
+            <li><a href="Admin.html">系统功能链接汇总</a></li>
+            <li><a href="#">消息</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="School-cooperation.html">合作院校</a></li>
+            <li><a href="School-hasexpired.html">已到期</a></li>
+            <li><a href="School-expire.html">即将到期</a></li>
+            <li><a href="School-application.html">申请中</a></li>
+            <li><a href="School-mobilization.html">动员中</a></li>
+            <li><a href="School-all.html">全部院校</a></li>
+            <li><a href="School-add.html">添加院校</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Company-application.html">合作企业</a></li>
+            <li><a href="Company-hasexpired.html">已到期</a></li>
+            <li><a href="Company-expire.html">即将到期</a></li>
+            <li><a href="Company-application.html">申请中</a></li>
+            <li><a href="Company-mobilization.html">动员中</a></li>
+            <li><a href="Company-all.html">全部企业</a></li>
+            <li><a href="Company-add.html">添加企业</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Articles.html">管理平台资讯</a></li>
+            <li><a href="Articles.html">管理企业发布的资讯</a></li>
+            <li><a href="Articles.html">管理院校发布的资讯</a></li>
+            <li><a href="Articles.html">添加资讯</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Offers-wait.html">待审核</a></li>
+            <li><a href="Offers-ing.html">正在招聘</a></li>
+            <li><a href="Offers-fulltime.html">全职岗位</a></li>
+            <li><a href="Offers-parktime.html">兼职岗位</a></li>
+            <li><a href="Offers-internship.html">实习岗位</a></li>
+            <li><a href="Offers-school.html">校园招聘</a></li>
+            <li><a href="Offers-public.html">社会招聘</a></li>
+            <li><a href="Offers-all.html">全部</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Resumes.html">企业下载</a></li>
+            <li><a href="Resumes.html">正在求职</a></li>
+            <li><a href="Resumes.html">等待推荐</a></li>
+            <li><a href="Resumes.html">已推荐</a></li>
+            <li><a href="Resumes.html">已面试</a></li>
+            <li><a href="Resumes.html">全部</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="CustmRoles.html">平台管理员角色</a></li>
+            <li><a href="Admin-admin.html">平台管理员</a></li>
+            <li><a href="Admin-school.html">院校方管理员</a></li>
+            <li style="display:none;"><a href="/admin/users/school/">院校方导师</a></li>
+            <li><a href="Admin-company.html">企业方管理员</a></li>
+            <li><a href="Admin-user.html">全部注册用户</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="#">正在投放</a></li>
+            <li><a href="#">已过期</a></li>
+            <li><a href="#">全部</a></li>
+            <li><a href="#">添加广告</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Setting.html">系统设置</a></li>
+            <li><a href="Info.html">个人设置</a></li>
+            <li><a href="Password.html">修改密码</a></li>
+        </ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+    </div>
+    </div>
+</div>
+<div style="clear:both;"></div>
+    <div class="pageMainContentContainer">         
+    <div id="titleAndTabMenuContainer" class="titleAndTabMenuContainer" style="display:none; clear:both;"></div>
+    <div id="titleAndTabMenuContainer2" class="titleAndTabMenuContainer" style="display:none; clear:both;"></div>
+    <iframe id="_postTargetIframe" name="_postTargetIframe" style="display:none;" src="about:blank"></iframe>
+    <form method="post" action="/admin/offers/" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<div class="aspNetHidden">
+
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="567A1694" />
+</div>
+    
+    <div class="bodyBlock">
+        <div class="searchMain">        
+            <div class="condition width060">行业：</div>
+            <div class="conditionL">
+                <input type="hidden" name="ctl00$form$MutiSubjectSelectorTarget$HiddenSubjectIds" id="form_MutiSubjectSelectorTarget_HiddenSubjectIds" />
+<div style="">
+    <div onclick="ResumeTargetSubjsSelector.show(this)">
+        <select id="form_MutiSubjectSelectorTargetselect" style="float:left;; width:350px; height:32px;" disabled="disabled">
+            <option></option>
+        </select>
+        <div style="position:relative;" id="form_MutiSubjectSelectorTargetfront">
+            <div style="position:absolute; width:350px; height:32px; border:solid 0px #000;"></div>
+        </div>
+    </div>    
+    <div style="clear:both;"></div>
+</div>
+<script type="text/javascript">
+    var ResumeTargetSubjsSelector = null;
+    $(function(){
+        ResumeTargetSubjsSelector = new MultiSubjectCreater({
+            objName: "ResumeTargetSubjsSelector",
+            maxSelect: 3,
+            objHiddenId : document.getElementById("form_MutiSubjectSelectorTarget_HiddenSubjectIds"),
+            selectElement : document.getElementById("form_MutiSubjectSelectorTargetselect"),
+            textWhenEmpty:"不限",
+            dialogTitle:"请选择行业",
+            canSelectTopLevel:true,
+            mode : "multi",
+            onchange: [function (opt) { $("#form_MutiSubjectSelectorTargetfront").attr("title", opt.tts); },null]
+        });
+    });
+</script>
+            </div>  
+            <div class="condition width060">职能：</div>
+            <div class="conditionL">
+                <input type="hidden" name="ctl00$form$MultiPositionsTarget$HiddenPositionIds" id="form_MultiPositionsTarget_HiddenPositionIds" />
+<div style="">
+    <div onclick="ResumeTargetPositionSelector.show(this)">
+        <select id="form_MultiPositionsTargetselect" style="float:left;; width:430px; height:32px;" disabled="disabled">
+            <option></option>
+        </select>
+        <div style="position:relative;" id="form_MultiPositionsTargetfront">
+            <div style="position:absolute; width:430px; height:32px; border:solid 0px #000;"></div>
+        </div>
+    </div>
+    <div style="clear:both;"></div>
+</div>
+<script type="text/javascript">
+    var ResumeTargetPositionSelector = null;
+    $(function(){
+        ResumeTargetPositionSelector = new MutiPositionCreater({
+            objName: "ResumeTargetPositionSelector",
+            maxSelect: 3,
+            objHiddenId : document.getElementById("form_MultiPositionsTarget_HiddenPositionIds"),
+            selectElement : document.getElementById("form_MultiPositionsTargetselect"),
+            textWhenEmpty:"不限",
+            dialogTitle:"请选择职位类别",
+            onchange: [function (opt) { $("#form_MultiPositionsTargetfront").attr("title", opt.tts); },null]
+        });
+    });
+</script>
+            </div> 
+            <div style="clear: both;">
+            <div class="condition width060">工作城市：</div>
+            <div class="conditionL">
+                <input type="hidden" name="ctl00$form$MultiCitys1$HiddenCityIds" id="form_MultiCitys1_HiddenCityIds" />
+<div style="width:160px; height:30px;">
+    <div onclick="MultiCitysSelector.show(this)">
+        <select id="form_MultiCitys1select" style="float:left;; width:160px; height:30px;" disabled="disabled">
+            <option></option>
+        </select>
+        <div style="position:relative; left:0px; top:0px;" id="form_MultiCitys1front">
+            <div style="position:absolute; left:0px; top:0px; width:160px; height:30px; border:solid 0px #000;"></div>
+        </div>
+    </div>    
+    <div style="clear:both;"></div>
+</div>
+<script type="text/javascript">
+    var MultiCitysSelector = null;
+    $(function(){
+        MultiCitysSelector = new MultiCityCreater({
+            objName: "MultiCitysSelector",
+            maxSelect: 3,
+            objHiddenId : document.getElementById("form_MultiCitys1_HiddenCityIds"),
+            selectElement : document.getElementById("form_MultiCitys1select"),
+            textWhenEmpty:"不限",
+            dialogTitle:"请选择城市",
+            onchange: [function (opt) { $("#form_MultiCitys1front").attr("title", opt.tts); },null]
+        });
+    });
+</script>
+            </div>
+            <div class="condition width070">发布时间：</div>
+            <div class="conditionL">
+                <select name="ctl00$form$DropDownListPublicTime" id="form_DropDownListPublicTime" style="height:32px;width:112px;">
+    <option selected="selected" value="0">不限</option>
+    <option value="1">一周内</option>
+    <option value="2">一个月内</option>
+    <option value="3">三个月内</option>
+
+</select>                
+            </div>
+            <div class="condition width110">
+                <select name="ctl00$form$DropDownListKeywordType" id="form_DropDownListKeywordType" style="height:32px;width:90px;">
+    <option selected="selected" value="0">职位关键词</option>
+    <option value="1">企业关键词</option>
+
+</select>  
+            </div>
+            <div class="conditionL" id="keywordinputs">
+                <input name="ctl00$form$TextBoxOfferName" type="text" id="form_TextBoxOfferName" class="inputText" data-jbextendid="exinput_form_TextBoxOfferName_176_796" data-jbtips="职位名称" style="width:290px;" />
+                <input name="ctl00$form$TextBoxCompanyName" type="text" id="form_TextBoxCompanyName" class="inputText" data-jbextendid="exinput_form_TextBoxCompanyName_758_796" data-jbtips="企业名称" style="width:290px;" />
+            </div>
+            <div class="conditionL mginL15">
+                <input type="hidden" name="listType" value="" />
+                <input type="button" class="btn-3d btn-3d-orange" onclick="CommonIframeSubmitHelper.submit()" value="查询" />
+            </div>
+            <div style="clear: both;">
+            </div>
+        </div>
+        </div>
+        <div style="clear:both;"></div>
+    </div>
+    <div>
+        <div style="float:right; margin-right:10px;" id="PageNaverContainer">
+            <span class="allpage_num">100条结果，共5页</span><a class="page_num" href="javascript:void(0);">首页</a><a class="page_num" href="javascript:void(0);">上一页</a><span class="page_current">1</span><a class="page_num" href="javascript:void(0)" onclick="javascript:CommonIframeSubmitHelper.resetAndSubmit({data:{pid:2}})">2</a><a class="page_num" href="javascript:void(0)" onclick="javascript:CommonIframeSubmitHelper.resetAndSubmit({data:{pid:3}})">3</a><a class="page_num" href="javascript:void(0)" onclick="javascript:CommonIframeSubmitHelper.resetAndSubmit({data:{pid:4}})">4</a><a class="page_num" href="javascript:void(0)" onclick="javascript:CommonIframeSubmitHelper.resetAndSubmit({data:{pid:5}})">5</a><a class="page_num" href="javascript:void(0)" onclick="javascript:CommonIframeSubmitHelper.resetAndSubmit({data:{pid:2}})">下一页</a><a class="page_num" href="javascript:void(0)" onclick="javascript:CommonIframeSubmitHelper.resetAndSubmit({data:{pid:5}})">尾页</a><script language='javascript'>function GoToPage(url){document.location.href=url;}function jumpPage(obj,url){var i=parseInt(obj.previousSibling.value);if(!i&&i!=0)return false;if(i<=0)i=1;if(i>5)i=5;GoToPage(url + i);}</script>
+        </div>
+    </div>
+    <div style="clear:both;"></div>
+    <div class="bodyBlock">
+        <table class="listTable" id="listTableMain">
+            <tr class="theader">
+                <td style="width:30px;"><input type="checkbox" value="" onclick="multiCheckboxOp(this)" /></td>
+                <td>职位名称</td>
+                <td>行业</td>
+                <td>职能</td>
+                <td>公司</td>
+                <td style="width:80px;">招聘方式</td>
+                <td style="width:80px;">工作城市</td>
+                <td style="width:80px;">职位类型</td>
+                <td style="width:80px;">人数</td>
+                <td style="width:80px;">状态</td>
+                <td style="width:145px;">操作</td></tr>
+            
+                    <tr class="tr0" onmouseover="$(this).addClass('mOver');" onmouseout="$(this).removeClass('mOver');">
+                        <td><input type="checkbox" class="checkboxMultiOp" value="100000" /></td>
+                        <td>储备干部</td>
+                        <td>互联网/电子商务</td>
+                        <td>实习生; 储备干部</td>
+                        <td>广州冠鹏信息技术有限公司</td>
+                        <td>院校合作</td>
+                        <td>广州</td>
+                        <td>实习</td>
+                        <td>若干</td>
+                        <td>待审核</td>
+                        <td><a href="/Admin/Offers/Detail/default.phtml?id=100000">查看</a></td>
+                    </tr>
+                
+                    <tr class="tr1" onmouseover="$(this).addClass('mOver');" onmouseout="$(this).removeClass('mOver');">
+                        <td><input type="checkbox" class="checkboxMultiOp" value="100001" /></td>
+                        <td>软件工程师</td>
+                        <td>互联网/电子商务</td>
+                        <td>高级软件工程师</td>
+                        <td>广州冠鹏信息技术有限公司</td>
+                        <td>社会招聘</td>
+                        <td>广州</td>
+                        <td>全职</td>
+                        <td>1</td>
+                        <td>待审核</td>
+                        <td><a href="/Admin/Offers/Detail/default.phtml?id=100001">查看</a></td>
+                    </tr>
+                
+                    <tr class="tr0" onmouseover="$(this).addClass('mOver');" onmouseout="$(this).removeClass('mOver');">
+                        <td><input type="checkbox" class="checkboxMultiOp" value="100002" /></td>
+                        <td>高级程序员</td>
+                        <td>互联网/电子商务</td>
+                        <td>软件工程师</td>
+                        <td>广州冠鹏信息技术有限公司</td>
+                        <td>社会招聘</td>
+                        <td>广州</td>
+                        <td>实习</td>
+                        <td>1</td>
+                        <td>待审核</td>
+                        <td><a href="/Admin/Offers/Detail/default.phtml?id=100002">查看</a></td>
+                    </tr>
+                
+                    <tr class="tr1" onmouseover="$(this).addClass('mOver');" onmouseout="$(this).removeClass('mOver');">
+                        <td><input type="checkbox" class="checkboxMultiOp" value="100003" /></td>
+                        <td>医院/医疗/护理</td>
+                        <td>金融/投资/证券</td>
+                        <td>医院/医疗/护理; 酒店/旅游</td>
+                        <td>帮列愿</td>
+                        <td>社会招聘</td>
+                        <td>广州</td>
+                        <td>全职</td>
+                        <td>4</td>
+                        <td>招聘中</td>
+                        <td><a href="/Admin/Offers/Detail/default.phtml?id=100003">查看</a></td>
+                    </tr>
+                
+                    <tr class="tr0" onmouseover="$(this).addClass('mOver');" onmouseout="$(this).removeClass('mOver');">
+                        <td><input type="checkbox" class="checkboxMultiOp" value="100004" /></td>
+                        <td>翻译</td>
+                        <td>金融/投资/证券</td>
+                        <td>翻译; 其他</td>
+                        <td>帮列愿</td>
+                        <td>社会招聘</td>
+                        <td>广州</td>
+                        <td>实习</td>
+                        <td>4</td>
+                        <td>招聘中</td>
+                        <td><a href="/Admin/Offers/Detail/default.phtml?id=100004">查看</a></td>
+                    </tr>
+                
+                    <tr class="tr1" onmouseover="$(this).addClass('mOver');" onmouseout="$(this).removeClass('mOver');">
+                        <td><input type="checkbox" class="checkboxMultiOp" value="100005" /></td>
+                        <td>财务/审计/税务</td>
+                        <td>金融/投资/证券</td>
+                        <td>财务/审计/税务; 项目管理</td>
+                        <td>帮列愿</td>
+                        <td>社会招聘</td>
+                        <td>广州</td>
+                        <td>全职</td>
+                        <td>2</td>
+                        <td>招聘中</td>
+                        <td><a href="/Admin/Offers/Detail/default.phtml?id=100005">查看</a></td>
+                    </tr>
+                
+                    <tr class="tr0" onmouseover="$(this).addClass('mOver');" onmouseout="$(this).removeClass('mOver');">
+                        <td><input type="checkbox" class="checkboxMultiOp" value="100006" /></td>
+                        <td>工程/机械</td>
+                        <td>金融/投资/证券</td>
+                        <td>工程/机械; 保险</td>
+                        <td>帮列愿</td>
+                        <td>社会招聘</td>
+                        <td>广州</td>
+                        <td>全职</td>
+                        <td>2</td>
+                        <td>招聘中</td>
+                        <td><a href="/Admin/Offers/Detail/default.phtml?id=100006">查看</a></td>
+                    </tr>
+                
+                    <tr class="tr1" onmouseover="$(this).addClass('mOver');" onmouseout="$(this).removeClass('mOver');">
+                        <td><input type="checkbox" class="checkboxMultiOp" value="100007" /></td>
+                        <td>广告/会展</td>
+                        <td>金融/投资/证券</td>
+                        <td>广告/会展; 酒店/旅游</td>
+                        <td>帮列愿</td>
+                        <td>社会招聘</td>
+                        <td>广州</td>
+                        <td>实习</td>
+                        <td>4</td>
+                        <td>已过期</td>
+                        <td><a href="/Admin/Offers/Detail/default.phtml?id=100007">查看</a></td>
+                    </tr>
+                
+                    <tr class="tr0" onmouseover="$(this).addClass('mOver');" onmouseout="$(this).removeClass('mOver');">
+                        <td><input type="checkbox" class="checkboxMultiOp" value="100008" /></td>
+                        <td>财务/审计/税务</td>
+                        <td>金融/投资/证券</td>
+                        <td>财务/审计/税务; 计算机硬件</td>
+                        <td>帮列愿</td>
+                        <td>社会招聘</td>
+                        <td>广州</td>
+                        <td>全职</td>
+                        <td>2</td>
+                        <td>招聘中</td>
+                        <td><a href="/Admin/Offers/Detail/default.phtml?id=100008">查看</a></td>
+                    </tr>
+                
+                    <tr class="tr1" onmouseover="$(this).addClass('mOver');" onmouseout="$(this).removeClass('mOver');">
+                        <td><input type="checkbox" class="checkboxMultiOp" value="100009" /></td>
+                        <td>医院/医疗/护理</td>
+                        <td>多元化业务集团公司</td>
+                        <td>医院/医疗/护理; 行政/后勤/文秘</td>
+                        <td>灯晚消</td>
+                        <td>社会招聘</td>
+                        <td>西安</td>
+                        <td>全职</td>
+                        <td>3</td>
+                        <td>招聘中</td>
+                        <td><a href="/Admin/Offers/Detail/default.phtml?id=100009">查看</a></td>
+                    </tr>
+                
+                    <tr class="tr0" onmouseover="$(this).addClass('mOver');" onmouseout="$(this).removeClass('mOver');">
+                        <td><input type="checkbox" class="checkboxMultiOp" value="100010" /></td>
+                        <td>生产/营运</td>
+                        <td>多元化业务集团公司</td>
+                        <td>生产/营运; 汽车/摩托车制造</td>
+                        <td>灯晚消</td>
+                        <td>社会招聘</td>
+                        <td>西安</td>
+                        <td>全职</td>
+                        <td>4</td>
+                        <td>招聘中</td>
+                        <td><a href="/Admin/Offers/Detail/default.phtml?id=100010">查看</a></td>
+                    </tr>
+                
+                    <tr class="tr1" onmouseover="$(this).addClass('mOver');" onmouseout="$(this).removeClass('mOver');">
+                        <td><input type="checkbox" class="checkboxMultiOp" value="100011" /></td>
+                        <td>生物/制药/医疗器械</td>
+                        <td>多元化业务集团公司</td>
+                        <td>生物/制药/医疗器械; 生产/营运</td>
+                        <td>灯晚消</td>
+                        <td>社会招聘</td>
+                        <td>西安</td>
+                        <td>全职</td>
+                        <td>3</td>
+                        <td>已过期</td>
+                        <td><a href="/Admin/Offers/Detail/default.phtml?id=100011">查看</a></td>
+                    </tr>
+                
+                    <tr class="tr0" onmouseover="$(this).addClass('mOver');" onmouseout="$(this).removeClass('mOver');">
+                        <td><input type="checkbox" class="checkboxMultiOp" value="100012" /></td>
+                        <td>汽车销售与服务</td>
+                        <td>多元化业务集团公司</td>
+                        <td>汽车销售与服务; 汽车/摩托车制造</td>
+                        <td>灯晚消</td>
+                        <td>社会招聘</td>
+                        <td>西安</td>
+                        <td>全职</td>
+                        <td>4</td>
+                        <td>已过期</td>
+                        <td><a href="/Admin/Offers/Detail/default.phtml?id=100012">查看</a></td>
+                    </tr>
+                
+                    <tr class="tr1" onmouseover="$(this).addClass('mOver');" onmouseout="$(this).removeClass('mOver');">
+                        <td><input type="checkbox" class="checkboxMultiOp" value="100013" /></td>
+                        <td>销售行政/商务</td>
+                        <td>多元化业务集团公司</td>
+                        <td>销售行政/商务; 医院/医疗/护理</td>
+                        <td>灯晚消</td>
+                        <td>社会招聘</td>
+                        <td>西安</td>
+                        <td>兼职</td>
+                        <td>2</td>
+                        <td>招聘中</td>
+                        <td><a href="/Admin/Offers/Detail/default.phtml?id=100013">查看</a></td>
+                    </tr>
+                
+                    <tr class="tr0" onmouseover="$(this).addClass('mOver');" onmouseout="$(this).removeClass('mOver');">
+                        <td><input type="checkbox" class="checkboxMultiOp" value="100014" /></td>
+                        <td>电子/电器/半导体/仪器/仪表</td>
+                        <td>多元化业务集团公司</td>
+                        <td>电子/电器/半导体/仪器/仪表; 计算机软件/系统集成</td>
+                        <td>灯晚消</td>
+                        <td>社会招聘</td>
+                        <td>西安</td>
+                        <td>全职</td>
+                        <td>4</td>
+                        <td>已过期</td>
+                        <td><a href="/Admin/Offers/Detail/default.phtml?id=100014">查看</a></td>
+                    </tr>
+                
+                    <tr class="tr1" onmouseover="$(this).addClass('mOver');" onmouseout="$(this).removeClass('mOver');">
+                        <td><input type="checkbox" class="checkboxMultiOp" value="100015" /></td>
+                        <td>汽车销售与服务</td>
+                        <td>多元化业务集团公司</td>
+                        <td>汽车销售与服务; 公务员/事业单位/科研</td>
+                        <td>灯晚消</td>
+                        <td>社会招聘</td>
+                        <td>西安</td>
+                        <td>全职</td>
+                        <td>4</td>
+                        <td>已过期</td>
+                        <td><a href="/Admin/Offers/Detail/default.phtml?id=100015">查看</a></td>
+                    </tr>
+                
+                    <tr class="tr0" onmouseover="$(this).addClass('mOver');" onmouseout="$(this).removeClass('mOver');">
+                        <td><input type="checkbox" class="checkboxMultiOp" value="100016" /></td>
+                        <td>销售管理</td>
+                        <td>多元化业务集团公司</td>
+                        <td>销售管理; 销售行政/商务</td>
+                        <td>灯晚消</td>
+                        <td>社会招聘</td>
+                        <td>西安</td>
+                        <td>全职</td>
+                        <td>3</td>
+                        <td>招聘中</td>
+                        <td><a href="/Admin/Offers/Detail/default.phtml?id=100016">查看</a></td>
+                    </tr>
+                
+                    <tr class="tr1" onmouseover="$(this).addClass('mOver');" onmouseout="$(this).removeClass('mOver');">
+                        <td><input type="checkbox" class="checkboxMultiOp" value="100017" /></td>
+                        <td>餐饮/娱乐</td>
+                        <td>建筑/建材/工程</td>
+                        <td>餐饮/娱乐; 财务/审计/税务</td>
+                        <td>个七换节们</td>
+                        <td>社会招聘</td>
+                        <td>成都</td>
+                        <td>全职</td>
+                        <td>1</td>
+                        <td>招聘中</td>
+                        <td><a href="/Admin/Offers/Detail/default.phtml?id=100017">查看</a></td>
+                    </tr>
+                
+                    <tr class="tr0" onmouseover="$(this).addClass('mOver');" onmouseout="$(this).removeClass('mOver');">
+                        <td><input type="checkbox" class="checkboxMultiOp" value="100018" /></td>
+                        <td>电子/电器/半导体/仪器/仪表</td>
+                        <td>建筑/建材/工程</td>
+                        <td>电子/电器/半导体/仪器/仪表; 汽车销售与服务</td>
+                        <td>个七换节们</td>
+                        <td>社会招聘</td>
+                        <td>成都</td>
+                        <td>全职</td>
+                        <td>1</td>
+                        <td>招聘中</td>
+                        <td><a href="/Admin/Offers/Detail/default.phtml?id=100018">查看</a></td>
+                    </tr>
+                
+                    <tr class="tr1" onmouseover="$(this).addClass('mOver');" onmouseout="$(this).removeClass('mOver');">
+                        <td><input type="checkbox" class="checkboxMultiOp" value="100019" /></td>
+                        <td>房地产</td>
+                        <td>建筑/建材/工程</td>
+                        <td>房地产; 艺术/设计/创意</td>
+                        <td>个七换节们</td>
+                        <td>社会招聘</td>
+                        <td>成都</td>
+                        <td>全职</td>
+                        <td>3</td>
+                        <td>招聘中</td>
+                        <td><a href="/Admin/Offers/Detail/default.phtml?id=100019">查看</a></td>
+                    </tr>
+                
+        </table>
+        <div style="float:right; margin-right:10px;" id="PageNaverContainer2">
+            <span class="allpage_num">100条结果，共5页</span><a class="page_num" href="javascript:void(0);">首页</a><a class="page_num" href="javascript:void(0);">上一页</a><span class="page_current">1</span><a class="page_num" href="javascript:void(0)" onclick="javascript:CommonIframeSubmitHelper.resetAndSubmit({data:{pid:2}})">2</a><a class="page_num" href="javascript:void(0)" onclick="javascript:CommonIframeSubmitHelper.resetAndSubmit({data:{pid:3}})">3</a><a class="page_num" href="javascript:void(0)" onclick="javascript:CommonIframeSubmitHelper.resetAndSubmit({data:{pid:4}})">4</a><a class="page_num" href="javascript:void(0)" onclick="javascript:CommonIframeSubmitHelper.resetAndSubmit({data:{pid:5}})">5</a><a class="page_num" href="javascript:void(0)" onclick="javascript:CommonIframeSubmitHelper.resetAndSubmit({data:{pid:2}})">下一页</a><a class="page_num" href="javascript:void(0)" onclick="javascript:CommonIframeSubmitHelper.resetAndSubmit({data:{pid:5}})">尾页</a>
+        </div>
+    </div>
+
+    
+
+<script type="text/javascript">
+//<![CDATA[
+pageMainMenuCreater.setActive({mainText:'招聘',subText: '全部'});//]]>
+</script>
+<script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxOfferName'});var exinput_form_TextBoxOfferName_176_796=null; JB.ready(function(){exinput_form_TextBoxOfferName_176_796= new JBValidator({varId:'exinput_form_TextBoxOfferName_176_796',exType:'Text',checkWhere:'ServerAndClient',msgShowType:'Right',msgCloseType:'NotClose',dataTitle:'输入',innerTextTip:'职位名称',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:true,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0});});</script><script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxCompanyName'});var exinput_form_TextBoxCompanyName_758_796=null; JB.ready(function(){exinput_form_TextBoxCompanyName_758_796= new JBValidator({varId:'exinput_form_TextBoxCompanyName_758_796',exType:'Text',checkWhere:'ServerAndClient',msgShowType:'Right',msgCloseType:'NotClose',dataTitle:'输入',innerTextTip:'企业名称',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:true,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0});});</script></form>
+    
+    <script type="text/javascript">
+        function multiCheckboxOp(elm) {
+            $(elm).parentsUntil(".listTable").find(".checkboxMultiOp").each(function () { this.checked = elm.checked; });
+        }
+        CommonIframeSubmitHelper.init({ obj: $(".searchMain").get(0), jqSelector: ["#listTableMain", "#PageNaverContainer", "#PageNaverContainer2"] });
+        $("#form_DropDownListKeywordType").change(function () {
+            $("#keywordinputs input").hide();
+            $("#keywordinputs input").eq(this.selectedIndex).show();
+        });
+        $("#form_DropDownListKeywordType").change();
+    </script>
+   
+    <div style="clear:both;"></div>
+    </div> 
+    
+<div style="clear:both;"></div>
+<div class="footerOuter">
+    <div class="footer">
+        版权所有：好工作网
+        联系电话：88888888&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        联系邮箱：88888@qq.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+        地址：广州市环市中路&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        邮政编码：510000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+    </div>
+</div>
+
+</body>
+</html>
+<script type="text/javascript">
+    $(function () { adminPageInit({ unresize: "" }); });
+</script>

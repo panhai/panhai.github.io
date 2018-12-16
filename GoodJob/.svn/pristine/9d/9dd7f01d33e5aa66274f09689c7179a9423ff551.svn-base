@@ -1,0 +1,478 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>好工作-校园招聘-招聘会</title>
+    <link rel="stylesheet" type="text/css" href="css/v2/all.css">
+    <link rel="stylesheet" type="text/css" href="css/v2/web.css">
+    <link rel="stylesheet" type="text/css" href="css/v2/plugin/CitiesPicker.css">
+    <link rel="stylesheet" type="text/css" href="css/v2/two-school-index.css">
+    <link rel="stylesheet" type="text/css" href="css/v2/two-search.css">
+</head>
+
+<body>
+<div class="HEADER common">
+    <div class="TOP-LOGO"><a href="index-new.html"><img src="images/v2/logo.jpg" width="177" height="91"></a></div>
+    <div class="TOP-SEARCH">
+        <div class="TOP-SEARCH-BAR">
+            <dl class="TOP-SEARCH-KEY SELECT" data-matches="10">
+                <input type="hidden">
+                <dt><input class="TOP-SEARCH-INPUT KEY-GUIDANCE" data-init="true" type="text" data-list="arrow" data-holdway="image"></dt>
+                <dd class="normal single">
+                    <div class="tip">找不到符合【老板】的职位</div>
+                    <div class="matches" data-list="datas">
+                        <!--<a href="#" data-id="">客服经理</a>-->
+                    </div>
+                </dd>
+            </dl>
+            <dl class="TOP-CitiesPicker CitiesPicker SELECT" data-matches="5">
+                <input type="hidden">
+                <dt><span><input type="text" value="广州" data-list="arrow"></span><i></i></dt>
+                <dd>
+                    <div class="CitiesHot">
+                        <h5>热门城市（可直接选择城市或输入城市拼音/简拼）</h5>
+                        <div class="cities">
+                            <a data-id="271000">广州</a><a data-id="271200">深圳</a><a data-id="171000">上海</a><a data-id="272600">东莞</a><a data-id="271500">佛山</a><a data-id="101000">北京</a><a data-id="261000">长沙</a><a data-id="251000">武汉</a><a data-id="191000">杭州</a><a data-id="181000">南京</a><a data-id="211000">福州</a><a data-id="272700">中山</a><a data-id="272000">惠州</a><a data-id="271300">珠海</a><a data-id="201000">合肥</a><a data-id="301000">成都</a><a data-id="231000">济南</a><a data-id="271700">湛江</a><a data-id="262200">娄底</a><a data-id="261100">株洲</a><a data-id="261900">郴州</a><a data-id="271100">韶关</a><a data-id="311000">贵阳</a><a data-id="261300">衡阳</a><a data-id="221000">南昌</a><a data-id="301900">乐山</a><a data-id="211400">泉州</a><a data-id="302000">南充</a><a data-id="261200">湘潭</a><a data-id="241000">郑州</a><a data-id="302300">广安</a><a data-id="301500">绵阳</a><a data-id="301400">德阳</a><a data-id="211100">厦门</a><a data-id="271600">江门</a><a data-id="111000">天津</a><a data-id="331000">西安</a><a data-id="272200">汕尾</a><a data-id="272300">河源</a><a data-id="391200">桂林</a><a data-id="181100">无锡</a><a data-id="251300">宜昌</a>
+                        </div>
+                    </div>
+                    <div class="CitiesQuery">
+                        <div class="tip">d，若缩小范围，请输入全拼</div>
+                        <div class="matches" data-list="datas">
+                            <!--<a data-id="" href="#">广东</a>-->
+                        </div>
+                    </div>
+                </dd>
+            </dl>
+            <input class="TOP-SUBMIT" type="submit" value="好工作">
+        </div>
+        <div class="TOP-HOTKEYS">
+            热门搜索：<a href="#">服务员</a>     <a href="#">送餐员</a>     <a href="#">健身教练</a>    <a href="#">保姆</a>    <a href="#">月嫂</a>     <a href="#">高级技工</a>     <a href="#">淘宝美工</a>
+        </div>
+    </div>
+    <div class="TOP-LOGIN">
+        <div class="codes">
+	        <span class="wx">关注我们
+            	<p style="display: none;">
+                    <q></q><u></u>
+                    <img src="images/v2/code-wx.jpg" height="100" width="100"><br>
+                    <b>关注好工作微信</b>
+                </p>
+            </span>
+    	    <span class="mobile">手机版下载
+            	<p>
+                    <q></q><u></u>
+                    <img src="images/v2/code-app.jpg" height="100" width="100"><br>
+                    <b><i>安卓版</i>APP下载</b>
+                </p>
+            </span>
+        </div>
+        <div class="rnl">
+            <a href="#">登录</a>
+            <a href="#">注册</a>
+        </div>
+    </div>
+</div>
+
+<div class="NAV">
+    <div class="common">
+        <dl class="NAV-HEAD">
+            <dt class="NAV-HEAD-ROOT"><span>职位分类</span><i></i></dt>
+            <dd class="NAV-HEAD-MENU hidden">
+                <a href="#" class="menu"><h3>生活　服务</h3></a>
+                <ul class="NAV-HEAD-SUBMENU">
+                    <li>
+                        <h4><a href="#">餐饮</a></h4>
+                        <p><a href="#">服务员</a> | <a href="#">送餐员</a> | <a href="#">配菜/打荷</a> | <a href="#">厨师/厨师长</a> | <a href="#">后厨传菜员</a> | <a href="#">茶艺师</a> | <a href="#">预订员</a> | <a href="#">迎宾/接待</a> | <a href="#">大堂经理/领班</a> | <a href="#">餐饮管理</a> | <a href="#">洗碗工</a> | <a href="#">咖啡师</a> | <a href="#">面点师</a> | <a href="#">预订员</a> | <a href="#">学徒</a> | <a href="#">杂工</a></p>
+                    </li>
+                    <li>
+                        <h4><a href="#">家政保洁/保安</a></h4>
+                        <p><a href="#">保洁</a> | <a href="#">保姆</a> | <a href="#">月嫂</a> | <a href="#">育婴师/保育师</a> | <a href="#">洗衣工</a> | <a href="#">钟点工</a> | <a href="#">保安</a> | <a href="#">护工</a> | <a href="#">送水工</a></p>
+                    </li>
+                    <li>
+                        <h4><a href="#">美容/美发</a></h4>
+                        <p><a href="#">美容导师</a> | <a href="#">美发助理/学徒</a> | <a href="#">洗头工</a> | <a href="#">发型师</a> | <a href="#">美容师</a> | <a href="#">宠物美容</a> | <a href="#">美容/瘦身顾问</a> | <a href="#">美甲师</a> | <a href="#">化妆师</a> | <a href="#">媒体师</a> | <a href="#">美容店长</a> | <a href="#">彩妆培训师</a></p>
+                    </li>
+                    <li>
+                        <h4><a href="#">酒店/旅游</a></h4>
+                        <p><a href="#">酒店前台</a> | <a href="#">客户服务员</a> | <a href="#">楼面经理</a> | <a href="#">行李员</a> | <a href="#">救生员</a> | <a href="#">旅游顾问</a> | <a href="#">酒店管理</a> | <a href="#">订票员</a> | <a href="#">计调签证专员</a> | <a href="#">导游</a></p>
+                    </li>
+                    <li>
+                        <h4><a href="#">娱乐/休闲</a></h4>
+                        <p><a href="#">影视/后期制作</a> | <a href="#">主持人</a> | <a href="#">调酒师</a> | <a href="#">音效师</a> | <a href="#">酒吧服务员</a> | <a href="#">摄影师/摄像师</a> | <a href="#">灯光师</a> | <a href="#">配音员</a> | <a href="#">放映员</a> | <a href="#">娱乐厅服务员</a> | <a href="#">礼仪/迎宾</a></p>
+                    </li>
+                    <li>
+                        <h4><a href="#">保健/按摩</a></h4>
+                        <p><a href="#">按摩师</a> | <a href="#">足疗师</a> | <a href="#">搓澡工</a> | <a href="#">针灸推拿</a></p>
+                    </li>
+                    <li>
+                        <h4><a href="#">运动/健身</a></h4>
+                        <p><a href="#">健身教练</a> | <a href="#">瑜伽教练</a> | <a href="#">舞蹈老师</a> | <a href="#">游泳教练</a> | <a href="#">台球教练</a> | <a href="#">高尔夫球助理</a></p>
+                    </li>
+                </ul>
+                <a href="#" class="menu"><h3>计算机　互联网　通信</h3></a>
+                <ul class="NAV-HEAD-SUBMENU"></ul>
+                <a href="#" class="menu"><h3>财会　金融　保险</h3></a>
+                <ul class="NAV-HEAD-SUBMENU"></ul>
+                <a href="#" class="menu"><h3>人力　行政　管理</h3></a>
+                <ul class="NAV-HEAD-SUBMENU"></ul>
+                <a href="#" class="menu"><h3>销售　市场　淘宝　客服</h3></a>
+                <ul class="NAV-HEAD-SUBMENU"></ul>
+                <a href="#" class="menu"><h3>生产　制造　汽车　电子</h3></a>
+                <ul class="NAV-HEAD-SUBMENU"></ul>
+                <a href="#" class="menu"><h3>房产　建筑　装修　物业</h3></a>
+                <ul class="NAV-HEAD-SUBMENU"></ul>
+                <a href="#" class="menu"><h3>贸易　采购　物流　仓储</h3></a>
+                <ul class="NAV-HEAD-SUBMENU"></ul>
+                <a href="#" class="menu"><h3>广告　艺术　影视　媒体</h3></a>
+                <ul class="NAV-HEAD-SUBMENU"></ul>
+                <a href="#" class="menu last"><h3>法律　咨询　教育　其它</h3></a>
+                <ul class="NAV-HEAD-SUBMENU"></ul>
+            </dd>
+        </dl>
+        <ul class="NAV-BODY">
+            <li><a href="index-new.html">首页</a></li>
+            <li><a href="search-new.html">职位搜索</a></li>
+            <li data-extra="3"><a href="#" class="cur"><span>校园招聘</span></a></li>
+            <li><a href="two-parttimes.html">兼职</a></li>
+            <li><a href="companies-new.html">名企</a></li>
+            <li><a href="schools-new.html">院校合作</a></li>
+        </ul>
+        <dl class="NAV-FOOT">
+            <dt class="new"><a href="#"><i></i><span>个人中心</span></a></dt>
+            <dd>
+                <p><a href="#">登录/注册</a></p>
+                <ul>
+                    <li><a href="#">简历中心</a></li>
+                    <!--只有这两项加点的才需要span标签，其它的可以不放，可以放-->
+                    <li class="new"><a href="#"><span>投递反馈</span></a></li>
+                    <li><a href="#"><span>收藏的职位</span></a></li>
+                    <li class="new"><a href="#"><span>职位邀请</span></a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">我要招人</a></li>
+                    <li><a href="#">帐号设置</a></li>
+                    <li><a href="#">退出</a></li>
+                </ul>
+            </dd>
+        </dl>
+    </div>
+    <!--要写在外边，不然IE6下的100%是按照直接父元素的尺寸计算，而不是定位父元素position的尺寸计算-->
+    <ul class="NAV-EXTRA clear">
+        <p data-extra="3"><a href="two-schools-index-new.html">校园招聘首页</a><a href="two-schools-fresh.html">应届生职位</a><a href="two-schools-Preach.html">宣讲会</a>
+            <a href="two-Recruitment.html" class="cur">招聘会</a></p>
+    </ul>
+</div>
+
+                                 
+                            
+         
+<div class="common Main block">
+
+    <div class="left">
+        <div class="Filters">
+            <table>
+                <tbody>
+                <tr>
+                    <th width="104" class="Filters-recruitment">举办地点：</th>
+                    <td width="640" class="Filters-recruitment">
+                        <p class="market"> <a href=""  class="clickCur">全部招聘会</a>
+                                 <a href="">广州南方人才市场</a>
+                                 <a href="">广州市人力资源市场服务中心</a>
+                                 <a href="">广州百业人才市场</a>
+                                 <a href="" class="marginCur">广州大学城北亭广场</a>
+                                 <a href="" class="marginCur">广东省高校毕业生就业指导中心</a>
+                                 <a href="" class="marginCur">广州市番禺人才市场</a>
+                                 <a href="" class="marginCur">达信大厦</a>
+                                 <a href="" class="marginCur">南粤人才市场</a>
+
+                        </p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th width="104">排序方式：</th>
+                    <td width="620">
+                        <p class="marginCur">
+                            <a href="" class="clickCur">按时间排序</a><a href="">按安关注度排序</a>
+                        </p>
+                    </td>
+                </tr>
+                </tbody>
+
+            </table>
+
+        </div>
+        <div class="Timer-select marginCur">
+            <table>
+                <tbody>
+                <th width="74">时间选择</th>
+                <td width="212">
+                    <input autocomplete="off" class= "time" type="text" value="不限">
+                    <i class="Timer-f"></i>
+                    <input autocomplete="off" class= "time" type="text" value="不限">
+                </td>
+                <td width="307">
+                    <div class="Preach-search">
+                        <input type="text" placeholder="输入宣讲会/企业名称" class="Preach-search-ipt">
+                        <input type="button" class="Preach-search-btn">
+                    </div>
+                </td>
+                <td width="128" valign="middle" class="Preach-my">
+                    <i></i>
+                    <a href="">我关注的宣讲会</a>
+                </td>
+                </tbody>
+            </table>
+        </div>
+        <div class="Job-fair">
+            <table>
+                <caption class="title">
+                    <h2 class="cur">招聘会</h2>
+                </caption>
+                <tbody>
+                <tr><td colspan="3" class="Preach-back">共搜索到1个结果，返回全部</td ></tr>
+
+                <tr>
+                    <td class="not" width="480" colspan="3">
+                        <p>搜索不到相关内容</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="136" align="center" ><span class="items-pic"><img src="images/v2/conference.png" alt=""></span></td>
+                    <td width="500">
+                        <div class="Hot items">
+                            <h4><a href="two-Recruitment-detail.html">汽车、物流、电子、机械、生成制造专场招聘会</a></h4>
+                            <p class="Hot-salary"> <i>举办地点：</i>  广州大学城北亭广场 </p>
+                            <p><i>举办时间：</i>  2015-10-17(周六)</p>
+                        </div>
+                    </td>
+
+                    <td width="108" class="Space-icons">
+                        <div class="tools">
+                            <a href="javascript:void(0)" class="icons share BAIDUSHARE">
+                                <cite class="bdsharebuttonbox" data-tag="share_1">
+                                    <i></i>
+                                    <span class="bds_tsina" data-cmd="tsina"><img data-cmd="tsina" src="images/v2/share/sina.png" width="36" height="36"></span>
+                                    <span class="bds_tqq" data-cmd="tqq"><img data-cmd="tqq" src="images/v2/share/tencent.png" width="36" height="36"></span>
+                                    <span class="bds_qzone" data-cmd="qzone"><img data-cmd="qzone" src="images/v2/share/qzone.png" width="36" height="36"></span>
+                                    <span class="bds_sqq" data-cmd="sqq"><img data-cmd="sqq" src="images/v2/share/qq.png" width="36" height="36"></span>
+                                </cite>
+                            </a>
+                            <a class="icons favor"></a>
+                            <ins class="tip"><span>已经收藏该职位，<a href="#">查看全部收藏</a></span><q></q></ins>
+                            <del class="tip"><span>已取消该收藏</span><q></q></del>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="136" align="center" ><span class="items-pic"><img src="images/v2/conference.png" alt=""></span></td>
+                    <td width="500">
+                        <div class="Hot items">
+                            <h4><a href="two-Recruitment-detail.html">汽车、物流、电子、机械、生成制造专场招聘会</a></h4>
+                            <p class="Hot-salary"> <i>举办地点：</i>  广州大学城北亭广场 </p>
+                            <p><i>举办时间：</i>  2015-10-17(周六)</p>
+                        </div>
+                    </td>
+                    <td width="108" class="Space-icons">
+                        <div class="tools">
+                            <a href="javascript:void(0)" class="icons share BAIDUSHARE">
+                                <cite class="bdsharebuttonbox" data-tag="share_1">
+                                    <i></i>
+                                    <span class="bds_tsina" data-cmd="tsina"><img data-cmd="tsina" src="images/v2/share/sina.png" width="36" height="36"></span>
+                                    <span class="bds_tqq" data-cmd="tqq"><img data-cmd="tqq" src="images/v2/share/tencent.png" width="36" height="36"></span>
+                                    <span class="bds_qzone" data-cmd="qzone"><img data-cmd="qzone" src="images/v2/share/qzone.png" width="36" height="36"></span>
+                                    <span class="bds_sqq" data-cmd="sqq"><img data-cmd="sqq" src="images/v2/share/qq.png" width="36" height="36"></span>
+                                </cite>
+                            </a>
+                            <a class="icons favor"></a>
+                            <ins class="tip"><span>已经收藏该职位，<a href="#">查看全部收藏</a></span><q></q></ins>
+                            <del class="tip"><span>已取消该收藏</span><q></q></del>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="136" align="center" ><span class="items-pic"><img src="images/v2/conference.png" alt=""></span></td>
+                    <td width="500">
+                        <div class="Hot items">
+                            <h4><a href="two-Recruitment-detail.html">汽车、物流、电子、机械、生成制造专场招聘会</a></h4>
+                            <p class="Hot-salary"> <i>举办地点：</i>  广州大学城北亭广场 </p>
+                            <p><i>举办时间：</i>  2015-10-17(周六)</p>
+                        </div>
+                    </td>
+                    <td width="108" class="Space-icons">
+                        <div class="tools">
+                            <a href="javascript:void(0)" class="icons share BAIDUSHARE">
+                                <cite class="bdsharebuttonbox" data-tag="share_1">
+                                    <i></i>
+                                    <span class="bds_tsina" data-cmd="tsina"><img data-cmd="tsina" src="images/v2/share/sina.png" width="36" height="36"></span>
+                                    <span class="bds_tqq" data-cmd="tqq"><img data-cmd="tqq" src="images/v2/share/tencent.png" width="36" height="36"></span>
+                                    <span class="bds_qzone" data-cmd="qzone"><img data-cmd="qzone" src="images/v2/share/qzone.png" width="36" height="36"></span>
+                                    <span class="bds_sqq" data-cmd="sqq"><img data-cmd="sqq" src="images/v2/share/qq.png" width="36" height="36"></span>
+                                </cite>
+                            </a>
+                            <a class="icons favor"></a>
+                            <ins class="tip"><span>已经收藏该职位，<a href="#">查看全部收藏</a></span><q></q></ins>
+                            <del class="tip"><span>已取消该收藏</span><q></q></del>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="136" align="center" ><span class="items-pic"><img src="images/v2/conference.png" alt=""></span></td>
+                    <td width="500">
+                        <div class="Hot items">
+                            <h4><a href="two-Recruitment-detail.html">汽车、物流、电子、机械、生成制造专场招聘会</a></h4>
+                            <p class="Hot-salary"> <i>举办地点：</i>  广州大学城北亭广场 </p>
+                            <p><i>举办时间：</i>  2015-10-17(周六)</p>
+                        </div>
+                    </td>
+                    <td width="108" class="Space-icons">
+                        <div class="tools">
+                            <a href="javascript:void(0)" class="icons share BAIDUSHARE">
+                                <cite class="bdsharebuttonbox" data-tag="share_1">
+                                    <i></i>
+                                    <span class="bds_tsina" data-cmd="tsina"><img data-cmd="tsina" src="images/v2/share/sina.png" width="36" height="36"></span>
+                                    <span class="bds_tqq" data-cmd="tqq"><img data-cmd="tqq" src="images/v2/share/tencent.png" width="36" height="36"></span>
+                                    <span class="bds_qzone" data-cmd="qzone"><img data-cmd="qzone" src="images/v2/share/qzone.png" width="36" height="36"></span>
+                                    <span class="bds_sqq" data-cmd="sqq"><img data-cmd="sqq" src="images/v2/share/qq.png" width="36" height="36"></span>
+                                </cite>
+                            </a>
+                            <a class="icons favor"></a>
+                            <ins class="tip"><span>已经收藏该职位，<a href="#">查看全部收藏</a></span><q></q></ins>
+                            <del class="tip"><span>已取消该收藏</span><q></q></del>
+                        </div>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="PAGES common">
+            <a href="#">上一页</a>
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">6</a>
+            <a href="#">7</a>
+            <a href="#">8</a>
+            <a href="#">9</a>
+            <a href="#">下一页</a>
+        </div>
+    </div>
+    <div class="right">
+        <div class="Create-job">
+            <a href="" class="cur">  <img src="images/v2/createjob.png" alt="">
+                <p>50秒创建简历，求职顾问免费帮忙>></p></a>
+        </div>
+ <!--       <div class="Share-exp">
+            <a href=""><span><i></i>面试经验</span></a><a href=""><span class="text-exp"><i></i>笔试笔经</span></a>
+            <p><a href="">求职答疑、点评、技巧</a></p>
+        </div>-->
+        <div class="Schools">
+            <dl class="title">
+                <dt><h2 class="cur">合作高校</h2></dt>
+                <dd><a href=""><img src="images/v2/schools-1.jpg" alt=""></a></dd>
+                <dd><a href=""><img src="images/v2/schools-1.jpg" alt=""></a></dd>
+                <dd><a href=""><img src="images/v2/schools-1.jpg" alt=""></a></dd>
+                <dd><a href=""><img src="images/v2/schools-1.jpg" alt=""></a></dd>
+                <dd><a href=""><img src="images/v2/schools-1.jpg" alt=""></a></dd>
+                <dd><a href=""><img src="images/v2/schools-1.jpg" alt=""></a></dd>
+                <dd><a href=""><img src="images/v2/schools-1.jpg" alt=""></a></dd>
+                <dd><a href=""><img src="images/v2/schools-1.jpg" alt=""></a></dd>
+
+            </dl>
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+
+
+<div class="FOOTER">
+    <div class="FOOT-NAV">
+        <a href="new-about.html">关于我们</a><a href="new-help.html">帮助中心</a>
+        <a href="new-law.html">法律声明</a><a href="index-navigation-new.html" class="last">网站导航</a>
+    </div>
+    <p>服务热线：020-28977426&nbsp;&nbsp;&nbsp;&nbsp;服务QQ：3178883944&nbsp;&nbsp;&nbsp;&nbsp;服务时间：周一至周六9:00-18:40</p>
+    <p>粤ICP备09027680号-25</p>
+</div>
+
+<table class="FullScreenPlugin fixed fixed-top CenterDivContainer"><tr><td>
+    <dl class="CENTERDIV CenterLarge Feedback" data-active=".TOOL .feed">
+        <dt class="CENTERTOPIC"><b>意见反馈</b><q></q></dt>
+        <dd class="CENTERCONTENT">
+            <table class="CenterForm">
+                <caption><h6 class="single">感谢您使用好工作，您的反馈是对我们莫大的支持和鼓励！</h6></caption>
+                <tr>
+                    <th width="120">反馈内容：</th><td width="480">
+                    <textarea placeholder="使用帮助，产品bug，功能建议，问题反馈，吐槽等（500字以内）"></textarea>
+                    <code class="form-tip successMsg"></code>
+                    <code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>
+                </td>
+                </tr>
+                <tr>
+                    <th>联系方式：</th><td>
+                    <input type="text" class="text" placeholder="手机、QQ或邮箱">
+                    <code class="form-tip successMsg"></code>
+                    <code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>
+                </td>
+                </tr>
+                <tr>
+                    <th></th><td class="CENTERBTNS">
+                    <input type="button" class="submit" value="确定">
+                    <input type="button" class="reset" value="取消">
+                </td>
+                </tr>
+            </table>
+        </dd>
+    </dl>
+</td></tr></table>
+<div class="TOOL">
+    <a href="#" class="top"></a>
+    <a href="#" class="feed"></a>
+</div>
+
+</body>
+</html>
+<script src="js/jquery.js"></script>
+<script src="js/v2/all.js"></script>
+<script src="js/v2/web.js"></script>
+<script src="js/area.js"></script>
+<script src="js/jobPositions.js"></script>
+<script src="js/plugin/CitiesPicker.js"></script>
+<script src="js/effect/ppt.js"></script>
+<script src="js/effect/correct.js"></script>
+<script src="js/effect/tab.js"></script>
+<script src="js/plugin/BaiduShare.js"></script>
+<script src="js/effect/bg.js"></script>
+<script src="js/effect/float.js"></script>
+<script src="js/plugin/CenterDiv.js"></script>
+<script src="js/jbody.js"></script>
+<script src="js/jbody-plugin.js"></script>
+<script>
+    $(function(){
+        if(isIE6()) TextOverflow(".Jobs :header a",12);
+        //收藏提示
+        $(".tools .tip q").click(function(){
+            $(this).parent().hide();
+        });
+        $(".icons.favor").click(function(){
+            if($(this).hasClass("favored"))
+            {//已经收藏了的
+                $(this).removeClass("favored").addClass("favor")
+                        .closest(".tools").find("del.tip").show()
+                        .end().find("ins.tip").hide();
+            }
+            else
+            {
+                $(this).removeClass("favor").addClass("favored")
+                        .closest(".tools").find("ins.tip").show()
+                        .end().find("del.tip").hide();
+            }
+        });
+
+    });
+    $(".Job-fair").find("tr:odd").css("background","#f8fbff");
+    $("input.time").click(function(){
+        JBCalendar.show(this);
+    })
+</script>

@@ -1,0 +1,28 @@
+/* 首页 */
+
+.topic{ background-color:#e0e1ef; height:50px; padding:0 20px;}
+.topic h1{ float:left; line-height:50px; color:#686593; font-weight:normal; font-size:20px;}
+.topic ul{ float:right; padding-top:10px;}
+.topic li{ float:left; padding-top:12px; font-size:16px; color:#969696; line-height:16px;}
+.topic a{ color:#969696; display:block; height:16px;  padding:0 10px; border-right:1px solid #969696;}
+.topic .cur a{ color:#222; font-weight:bold;}
+.topic span{ display:block; height:16px; padding:0 10px; float:left;}
+.topic input{ width:0; height:0; visibility:hidden;}
+.topic i{ display:block; float:left; width:16px; height:16px; background-image:url(../../../images/v2/icons/cal.png);}
+
+/*各数据*/
+.totals{ margin:20px; border:1px solid #bfbdd6;}
+.totals h2{ background-color:#f5f5fb; font-size:16px; color:#283d84; height:40px; line-height:40px; text-indent:10px; border-bottom:1px solid #e2e4f0;}
+.totals dl{ height:188px;}
+.totals dl,.totals dt,.totals dd{ width:50%; box-sizing:border-box; float:left;}
+.totals dl.bd{ border-right:1px solid #e2e4f0;}
+.totals dl.bd2{ border-bottom:1px solid #e2e4f0;}
+.totals dt,.totals dd{ padding:0 20px; margin:36px 0 20px;}
+.totals dt.bd{ position:relative;}
+.totals dt.bd:before{ display:block; height:86px; content:''; position:absolute; left:0; top:0; border-left:1px solid #e2e4f0;}
+.totals dd{ border-left:1px solid #e2e4f0;}
+.totals h3{ font-size:16px; color:#525252; font-weight:normal;}
+.totals em{ display:block; font-size:32px; margin-top:24px;}
+.totals .green{ color:#51cdb4;}
+.totals p{ font-size:16px; color:#969696; margin-top:24px;}
+.totals .red{ color:#fb5454;}

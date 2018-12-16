@@ -1,0 +1,194 @@
+﻿/* 企业中心-简历管理样式 */
+
+/*信息列表*/
+.Infors{ width:750px; margin:20px auto;}
+.Infors caption{ padding:0 0 15px 0; height:40px; line-height:40px;}
+/*模拟复选框*/
+.Boxes{ float:left; font-size:16px;}
+.Boxes a{ display:block; float:left; padding:0 20px; font-style:normal; background:url(../../../images/v2/icons/box-empty.jpg) left center no-repeat; cursor:pointer; color:#525252;}
+.Boxes a:hover{ color:#1562c8; text-decoration:underline;}
+.Boxes a.cur{ background-image:url(../../../images/v2/icons/box-checked.jpg);}
+/* 简历去重 */
+.ImportResume{margin-top:20px;}
+.Gorepaet{padding:15px 0px 20px 35px;height:140px;background:url(../../../images/v2/import_resume_bg.jpg) no-repeat;position:relative;width:720px;margin:0 auto;border-radius:3px;}
+.Gorepaet .title{line-height: 65px;font-size:28px;color: #1562c8;font-weight:bold;}
+.Gorepaet .title label{color: #FF6600;}
+.Gorepaet .text{line-height:20px;font-size:14px;color:#808080;width:500px;}
+.Gorepaet .GObtn{position:absolute;top:60px;right:60px;width:140px;height:40px;border-radius:5px;background:#ff6600;color:#fff;text-align:center;line-height:40px;font-size:16px;cursor: pointer;}
+.Gorepaet .close{position: absolute;right: 6px;top: 4px;display: block;width: 24px;height: 24px;background: url(../../../images/v2/import_resume.png) no-repeat 4px -79px;cursor: pointer;}
+.Gorepaet2{height:50px;position:relative;display:none;background:#FFF5E9;width:750px;margin:0 auto;border-radius:3px;}
+.Gorepaet2 p{width:360px;margin:0 auto;line-height:50px;font-size:16px;color:#1C72E4;}
+.Gorepaet2 p a{text-decoration:underline;font-size:18px;color:#FFA752;font-weight:bold;}
+.Gorepaet2 .close2{position: absolute;right: 3px;top:0px;display: block;width: 24px;height: 24px;background: url(../../../images/v2/import_resume.png) no-repeat 4px -79px;cursor: pointer;}
+/*信息*/
+.Infors th{ background-color:#f7f7f7; line-height:36px; font-size:14px; font-weight:normal; color:#868686;}
+.Infors th b{ font-weight:normal; color:#414141;}
+.Infors td{ padding:15px 0;}
+.bb td{ border-bottom:1px solid #dbdbdb;}
+.Infors var{ display:block; width:86px; height:86px; overflow:hidden; border:1px solid #f7f7f7;}
+.Infors var img{ width:100%;}
+/*资料*/
+.profile{ line-height:25px;}
+.profile h4{ font-size:24px; color:#1562c8; margin:4px 0; font-weight:normal;}
+.profile h4 q{ display:inline-block; width:26px; height:26px; vertical-align:text-bottom; background:url(../../../images/v2/icons/eye.png) right center no-repeat;}
+.profile h4 q{ _background-image:url(../../../images/v2/icons/eye.gif);}
+.profile small{ font-size:14px; color:#3d3d3d; padding-left:10px;}
+.profile .span1{display:inline-block;width:17px;height:17px;text-align:center;line-height:17px;font-size:12px;border-radius:3px;background:#FFD200;color:#1562C8;}
+.profile .span2{display:inline-block;width:17px;height:17px;text-align:center;line-height:17px;font-size:12px;border-radius:3px;background:#1562C8;color:#FFD200;}
+.profile p{ font-size:14px; color:#6b6b6b; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; width:98%;}
+.profile p samp{ display:inline-block; width:125px; height:15px; position:relative; top:4px;}
+/*新增图标效果*/
+.profile ins{ display:inline-block; width:26px; height:26px; background-image:url(../../../images/v2/icons/school.png); vertical-align:middle; text-decoration:none;}
+.profile ins{ _background-image:url(../../../images/v2/icons/school.gif);}
+.profile ins cite{ display:none; position:absolute; font-size:14px; color:#999; font-style:normal; width:220px; padding:5px 10px; line-height:25px; background-color:#fff; border:1px solid #a465f3; top:35px; left:-27px; word-break:break-all;}
+.profile .on{ position:relative; z-index:2;}
+.profile .on cite{ display:block;}
+.profile ins strong{ display:block; clear:both; font-weight:normal; color:#525252; font-size:16px; overflow:hidden; text-overflow:ellipsis; width:100%;}
+.profile del{ width:18px; height:10px; background-image:url(../../../images/v2/icons/school-angle.png); position:absolute; top:-10px; left:30px; z-index:3; overflow:hidden;}
+.profile del{ _background-image:url(../../../images/v2/icons/school-angle.gif);}
+.profile kbd{ display:inline-block; width:26px; height:26px; background-image:url(../../../images/v2/icons/from.png); vertical-align:middle; text-decoration:none;}
+.profile kbd{ _background-image:url(../../../images/v2/icons/from.gif);}
+.profile kbd cite{ position:absolute; display:none; width:134px; height:34px; top:30px; left:-8px; background-image:url(../../../images/v2/icons/from-tip.png);}
+.profile kbd cite{ _background-image:url(../../../images/v2/icons/from-tip.gif);}
+/*时间*/
+.time{ font-size:16px; color:#a2a2a2; text-align:center; line-height:30px;}
+.time div{ border:1px dashed #d9d9d9; border-width:0 1px; height:60px; padding:15px 0;}
+.time b{ color:#444444; font-weight:normal;}
+/*操作*/
+table td.options{ text-align:right; line-height:30px;}
+.options a{ display:inline-block; color:#2677e2; clear:both;}
+.options a:hover{ color:#f16702; text-decoration:underline;}
+.options span{ display:inline-block; clear:both; color:#a4a4a4;}
+/*不一样的操作*/
+.options p{ clear:both; font-size:14px; color:#a4a4a4;}
+.options p b{ color:#525252; font-weight:normal;}
+.options div{ clear:both;}
+.options div .SELECT{ float:right; height:20px; margin:5px 0; border-left:1px solid #c6c6c6;}
+.options div .SELECT dt{ line-height:20px; z-index:2; /*position:relative;*/}
+.options div .SELECT dt i{ margin-top:3px\9; cursor:pointer;}
+.options div .SELECT dd{ border:2px solid #b5d3ff; width:160px; padding:5px; left:auto; right:0; top:-10px; z-index:1;}
+.options div .SELECT dd a{ float:none; display:inline-block;}
+.options div .SELECT dd a.checked{ background:none; color:#525252 !important;}
+.options div .SELECT dd a:hover,.options div .SELECT dd a.checked:hover{ background:none; color:#1562c8 !important;}
+.options div p{ text-align:left; height:30px; padding:0 5px; font-size:16px;}
+.options div .outer{ display:block; clear:none; float:right; margin-right:10px;}
+
+.MixTools{ padding:20px; width:750px; float:left;}
+.MixTools_hrfavor{ padding:0 20px 20px; width:750px; float:left;}
+.PAGES{ float:right; clear:none;}
+.TailTools{ float:left; line-height:30px;}
+.TailTools a{ display:inline-block; color:#fff; background-color:#b7d5fb; padding:0px 20px; margin-left:10px;}
+.TailTools a:hover{ background-color:#5fa4fd;}
+
+/*黄色的警告条*/
+.Warning{ margin:20px; background-color:#fff4c0; font-size:18px; color:#1562c8; border:1px solid #eee3ae; padding:10px;}
+.Warning q{ display:block; width:16px; height:16px; background-image:url(../../../images/v2/icons/times-black.png); float:right; margin-top:4px; cursor:pointer; overflow:hidden;}
+.Warning q{ _background-image:url(../../../images/v2/icons/times-black.gif);}
+
+.Invited{ margin:0 auto;}
+/*日期*/
+.Invited caption tt{ display:block; float:left; width:145px; text-align:left;}
+.Invited caption strong{ font-size:14px; font-weight:normal; position:relative; top:20px;}
+/*时间*/
+.Invited th{ font-weight:normal; vertical-align:top;}
+.Invited th i{ font-size:18px; font-style:normal; display:block; float:right; padding-right:20px; background-position:right center; background-repeat:no-repeat; position:relative; right:-8px; top:40px;}
+/*过期*/
+.gray th,.gray tt{ border-right:2px solid #ededed;}
+.gray th i{ background-image:url(../../../images/v2/icons/clock-tiny-gray.png); _background-image:url(../../../images/v2/icons/clock-tiny-gray.gif);}
+.gray strong,.gray i{ color:#a4a4a4;}
+/*没过期*/
+.blue th,.blue tt{ border-right:2px solid #cde4ff;}
+.blue th i{ background-image:url(../../../images/v2/icons/clock-tiny.png); _background-image:url(../../../images/v2/icons/clock-tiny.gif);}
+.blue strong,.blue i{ color:#1562c8;}
+
+/*内嵌信息列表*/
+.infors{ float:right; width:580px;}
+.infors td{ padding:10px 0; border-bottom:1px dashed #ededed; text-align:left;}
+.infors var{ display:block; width:86px; height:86px; overflow:hidden; border:1px solid #f7f7f7;}
+.infors var img{ width:100%; height:auto;}
+.contact{ line-height:30px; color:#525252;}
+.contact div{ border-left:1px dashed #ededed; padding:10px 0; word-break:break-all;}
+.contact div *{ display:block; padding-left:20px; text-decoration:none; margin-left:20px; background-repeat:no-repeat; background-position:left center; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.contact s{ background-image:url(../../../images/v2/icons/mobile.png); _background-image:url(../../../images/v2/icons/mobile.gif);}
+.contact u{ background-image:url(../../../images/v2/icons/email.png); _background-image:url(../../../images/v2/icons/email.gif);}
+.gray .contact s{ background-image:url(../../../images/v2/icons/mobile-gray.png); _background-image:url(../../../images/v2/icons/mobile-gray.gif);}
+.gray .contact u{ background-image:url(../../../images/v2/icons/email-gray.png); _background-image:url(../../../images/v2/icons/email-gray.gif);}
+
+/*表格里的日期*/
+.datetime{ font-size:14px; color:#a4a4a4; text-align:right; line-height:30px;}
+
+/*已确定简历*/
+.Confirmed tt{ width:130px !important;}
+
+.CenterForm em{ display:inline-block; margin-top:5px; font-style:normal; font-size:20px; color:#1562c8;}
+.CenterForm .link{ float:left; margin:5px 0 0 20px; color:#1562c8;}
+.CenterForm .link:hover{ color:#fe6703;}
+.CenterForm dd.normal a{ padding:0 10px;}
+.CenterForm .s-l{ width:350px;}
+.CenterForm .s-l dt span,.CenterForm .s-l dt b{ width:310px;}
+.CenterForm .s-l dd{ width:348px}
+
+/*投简历邀请*/
+.Request{}
+.Request caption p{ float:left;}
+.Request caption a{ display:block; float:right; background-color:#1562c8; color:#fff; padding:0 20px;}
+.Request caption ins{ background-color:#4594fc; color:#fff; padding:0 3px; margin-left:5px; text-decoration:none;}
+.Request .s-l{ width:230px;}
+.Request .s-l dt span,.Request .s-l dt b{ width:190px;}
+.Request .s-l dd{ width:228px;}
+.Request .s-m{ width:230px;}
+.Request .s-m dt span,.Request .s-m dt b{ width:190px;}
+.Request .s-m dd{ width:228px;}
+.Request .s-s{ width:90px;}
+.Request .s-s dt span,.Request .s-s dt b{ width:50px;}
+.Request .s-s dd{ width:88px;}
+.Request textarea{ width:298px; height:150px;}
+.Request .link{ display:block; float:left; width:70px;}
+
+
+/*调整时间*/
+.TimeChange{ overflow:visible !important;}
+.TimeChange .Date{ width:135px; margin-right:10px;}
+.TimeChange .SELECT{ width:80px;}
+.TimeChange .SELECT dt span,.TimeChange .SELECT dt b{ width:43px;}
+.TimeChange .Hour dd{ width:100px;}
+.TimeChange .Hour dd a{ padding:0; width:50px; _width:49px; text-align:center; float:left; clear:none;}
+.TimeChange .Hour dd a:hover{ background-color:#5593e6; color:#fff;}
+.TimeChange .Minute dd{ width:78px;}
+.TimeChange ins{ float:left; text-decoration:none; margin-top:5px;}
+.TimeChange th,.TimeChange td{ line-height:34px; padding:0;}
+.TimeChange em{ margin:0;}
+
+/*投诉*/
+.Accuss{}
+.Accuss th,.Accuss td{ line-height:34px; padding:0;}
+.Accuss em{ margin:0;}
+.Accuss label{ display:block; padding-left:20px; background:url(../../../images/v2/icons/box-empty.jpg) no-repeat left center; font-size:16px; color:#a4a4a4; cursor:pointer;}
+.Accuss label input{ display:none;}
+.Accuss label.checked{ background-image:url(../../../images/v2/icons/box-checked.jpg); font-size:18px; color:#525252;}
+
+/*人才库的下拉列表过滤条*/
+.Selects{ clear:both; position:relative; z-index:555; padding:10px 0 0 10px; width:780px !important;}
+.Selects .SELECT{ width:140px; margin-left:12px; float:left;}
+.Selects .SELECT dt{ background-color:#ebf3ff; height:40px; line-height:40px;}
+.Selects input{ font-size:16px !important;}
+.Selects .SELECT dt span,.Selects .SELECT dt b{ width:100px; font-size:16px;}
+.Selects .blue{}
+.Selects .blue dd{ top:38px; border:3px solid #ebf3ff;}
+.Selects dd.normal{ width:136px; border:2px solid #ebf3ff;}
+.filter-jobs{ _margin-left:6px !important;}
+.filter-jobs dd{ left:-292px;}
+.filter-profs dd{ left:-444px;}
+
+/*新增加的面试弹窗*/
+.NewInterviews{}
+.NewArrival{ height:400px; overflow:auto; position:relative;}
+.NewArrival table{ float:left;}
+.NewArrival .options a{ width:100px; text-align:center;}
+.NewArrival .options span{ display:inline-block; width:100px; text-align:center; background-color:#bfbfbf; color:#fff;}
+.NewArrival .time2{ text-align:center;}
+.NewArrival .time2 small{ font-size:12px;}
+.NewArrival .time2 ins{ text-decoration:none; display:block; font-size:14px; color:#1562c8;}
+.NewArrival .time2 code{ font-size:18px; display:block; color:#1562c8;}
+.NewOption{ border-top:2px solid #cde4ff; padding-top:20px; text-align:center;}
+.ReadAll{ width:220px; border:0; height:40px; font-size:18px; cursor:pointer;}

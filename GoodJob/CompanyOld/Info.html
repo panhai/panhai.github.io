@@ -1,0 +1,448 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+
+</title>
+    <link href="../css/1024/common.css" rel="stylesheet" type="text/css" />
+    <link href="../css/1024/ucenter.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/MD5.js"></script>
+    <script type="text/javascript" src="../js/jbody.js"></script>
+    <script type="text/javascript" src="../js/jbody-plugin.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+    <script type="text/javascript" src="../js/area.js"></script>
+    <script type="text/javascript" src="../js/subjects.js"></script>
+    <script type="text/javascript" src="../js/admin/common.js"></script>
+    <script type="text/javascript" src="../js/selectors.js"></script>
+    <script type="text/javascript" src="../js/menuControl.js"></script>
+    <script type="text/javascript" src="../js/jobPositions.js"></script>
+    <script type="text/javascript" src="../js/admin/companyAdmin.js"></script>
+    
+</head>
+<body>
+    <iframe id="_postTargetIframe" name="_postTargetIframe" style="display:none;" src="about:blank"></iframe>
+    
+
+    
+<div id="pg-header" class="pg-header">
+    <div class="pg-header-main">
+        <div class="logo">
+            <img alt="好工作网Logo" src="../images/logo.png" class="pngfix" width="232" height="40" />
+        </div>
+        <div class="cname">个人中心</div>
+        <div class="r mginT10">
+    <div class="platform-switch-container">
+    <div class="platform-switch-main msout">
+        <span class="floatR">切换后台</span>
+        <span class="floatR" style="border:solid 1px #ffc183; line-height:12px; margin-right:5px; padding-left:1px; padding-right:1px;">+</span>
+        <div style="clear:both;"></div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        $(".platform-switch-main").click(function () {
+            JBFrameHelper.showPage("/UCenter/PlatformSwitch.phtml", { obj: this, title: "切换到个人中心或其他管理后台", w: 500, pos: { to: "win", parent: "doc", park: "inside", parkInside: "center" } }, true, false);
+        });
+    })
+</script>
+
+</div>
+    </div>
+</div>
+    
+<div id="pg-nav" class="pg-nav">
+    <ul>
+        <li><div class="nav-title"><a href="#">首页</a></div></li>
+        <li><div class="nav-title"><a href="/job/">找职位</a></div></li>
+        <li><div class="nav-title"><a href="/companies/">找企业</a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">简历<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">职位<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">个人设置<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="#">校园招聘</a></div></li>
+        <li><div class="nav-title"><a href="#">更多服务<sub></sub></a></div></li>
+    </ul>
+</div>
+<div style="clear:both;"></div>
+<div id="pg-nav-sub" style="display:none;">
+    <div id="pg-nav-sub-inner">
+    <div id="pg-nav-sub-main">
+        <ul style="display:none;">
+            <li><a href="/UCenter/Sum.phtml">系统概况</a></li>
+            <li><a href="/UCenter/">功能快捷连接</a></li>
+            <li><a href="#">站内消息</a></li>
+        </ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;">
+            <li><a href="/UCenter/Resume/Default.phtml">我的简历</a></li>
+            <li><a href="/UCenter/Resume/MyTarget.phtml">我的求职意向</a></li>
+            <li><a href="#">谁看过我的简历</a></li>
+            <li><a href="#">高级功能</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="/Ucenter/Offer/Sended.phtml">已投职位</a></li>
+            <li><a href="/Ucenter/Offer/Favor.phtml">关注的职位</a></li>
+            <li><a href="/Ucenter/Offer/History.phtml">最近浏览职位</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="/Ucenter/Info/Default.phtml">个人信息</a></li>
+            <li><a href="/Ucenter/Info/Privacy.phtml">隐私设置</a></li>
+            <li><a href="/Ucenter/Info/Email.phtml">变更邮箱</a></li>
+            <li><a href="/Ucenter/Info/Mobile.phtml">变更手机</a></li>
+            <li><a href="/Ucenter/Info/Password.phtml">修改密码</a></li>
+        </ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+    </div>
+    </div>
+</div>
+<div style="clear:both;"></div>
+    <div class="pageMainContentContainer">
+    <form method="post" action="/UCenter/Info/" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<div class="aspNetHidden">
+
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="81E21EBC" />
+</div>
+    
+    <div class="bodyBlock">
+         <div class="editBlock editable editBlockBorder" style="padding-bottom:50px;">
+            <div class="detailBlockTitle"><div class="leftIco"></div><div class="left">个人信息</div></div>
+            <div class="blockMain">
+                <table class="blockMainTableOfDetail" style="width:700px;margin-left:30px;">
+                    <tr>
+                        <th style="width:100px;">姓名：</th><td style="width:150px;">蔡壮茂</td>
+                        <th style="width:120px;">性别：</th><td>男</td>
+                    </tr>
+                    <tr>
+                        <th style="width:100px;">邮箱：</th><td>70785748@qq.com</td>
+                        <th style="width:120px;">出生年月：</th><td>2003.02</td>
+                    </tr>  
+                    <tr>
+                        <th style="width:100px;">手机号码：</th><td></td>
+                        <th style="width:120px;">电话：</th><td></td>
+                    </tr> 
+                    <tr>
+                        <th style="width:100px;">所在城市：</th><td>北京</td>
+                        <th style="width:120px;">QQ号码：</th><td></td>
+                    </tr> 
+                    <tr>
+                        <th style="width:100px;">地址：</th><td colspan="3"></td>
+                    </tr> 
+                    <tr>
+                        <th style="width:100px;">邮政编码：</th><td></td>
+                        <th style="width:120px;"></th><td></td>
+                    </tr> 
+                    <tr>
+                        <th style="width:100px;"></th><td>
+                            <div class="btn-3d btn-3d-blue mginT10" onclick="tryStartEditPersonInfo()">修改</div>
+                                                      </td>
+                        <th style="width:120px;"></th><td></td>
+                    </tr>  
+                </table>   
+                <div style="clear:both;"></div>  
+                <script type="text/javascript">
+                    var JBResetorEditPersonInfo = new JBodyInputResetor({ objs: document.getElementById("personInfoContainer"), autoCloseMsg: true });
+                    function tryStartEditPersonInfo() {
+                        JBResetorEditPersonInfo.save();
+                        $("#personInfoContainer").show();
+                        $("#personInfoContainer").parent().find(".blockMain").first().hide();
+                        JBValidatorContainer.closeMsg();
+                    }
+                    function tryCancelEditPersonInfo(obj) {
+                        JBResetorEditPersonInfo.reset();
+                        $("#personInfoContainer").hide();
+                        $("#personInfoContainer").parent().find(".blockMain").first().show();
+                    }
+                    function tryUpdateEditPersonInfo(xmlhttpRespText, xmlhttpRespObj) {
+                        JBResetorEditPersonInfo.save();
+                        $("#personInfoContainer").hide();
+                        $("#personInfoContainer").parent().find(".blockMain").first().show();
+                        for (var i = 0; i < xmlhttpRespObj.data.length; i++) {
+                            $("#personInfoContainer").parent().find(".blockMainTableOfDetail").first().find("td").eq(i).html(xmlhttpRespObj.data[i]);
+                        }
+                    }
+                    function trySubmitEditPersonInfo(obj) {
+                        var htmObj = $("#personInfoContainer").get(0);
+                        var data = JB.formToJson(htmObj);
+                        data.cmd = "editpersoninfo";
+                        if (JBValidatorContainer.checkAllChildren(htmObj)) {
+                            new JBodyCommonAjax({
+                                obj: null,
+                                data: data,
+                                debug: false,
+                                title: "修改个人信息",
+                                loadingMsg: "<img src='/images/common/loading/5.gif' alt='' />",
+                                afterSuccess: tryUpdateEditPersonInfo
+                            });
+                        }
+                    }
+                </script>
+                <script type="text/javascript">
+                    function CheckCitySelect(jbv) {
+                        var v = $("#form_HiddenFieldCity").val();
+                        if (v == "") jbv.msg = "请选择城市";
+                        return v != "";
+                    }
+                    $(function () {
+                        CreateAreaSelector({ slProv: "selProvince", slCity: "selCity", titleProv: "--", value: $("#form_HiddenFieldCity").val(), afterchange: function (v) { $("#form_HiddenFieldCity").val(v); if (v != "" && JBValidaterCity != null) JBValidaterCity.check(); } });
+                    });
+                    function CheckGender(jbv) {
+                        var v = ($("#spanRadioButtonListGender").find("input:checked").length > 0);
+                        if (!v) jbv.msg = "请选择性别";
+                        return v;
+                    }
+                    $(function () { $("#spanRadioButtonListGender").find("input:radio").click(function () { JBValidaterGender.check(); }); });
+
+                    $(function () {
+                        JBodyValidatorPopoTipExtend.add({ obj: "form_TextBoxUserName", park: "right" })
+                    .add({ obj: "spanRadioButtonListGender", park: "right", cssClass: "JBodyValidatorErrorExtendFlash3", cssClass2: "JBodyValidatorErrorExtendFlash4" })
+                    .add({ obj: "form_JBDropDownListBirthYear", park: "topleft" })
+                    .add({ obj: "form_JBDropDownListBirthMonth", park: "right" })
+                    .add({ obj: "personInfoCity", park: "right" })
+                    .add({ obj: "tdPersonStartWork", park: "right" });
+                    })
+                </script>   
+            </div>
+            <div class="blockMain" id="personInfoContainer" style="display:none;">
+                <table class="blockMainTable" style="text-align:left;"> 
+                    <tr>
+                        <th style="width:130px;"><span class="reqValidate">*</span>姓名：</th><td style="width:200px;">
+                            <input name="ctl00$form$TextBoxUserName" type="text" value="蔡壮茂" maxlength="10" id="form_TextBoxUserName" class="inputText" AutoComplete="false" data-jbextendid="exinput_form_TextBoxUserName_305_472" data-jbtips="姓名" style="width:165px;" />
+                            </td>
+                            <th style="width:90px;"><span class="reqValidate">*</span>性别：</th><td style="width:300px;">
+                            <div id="spanRadioButtonListGender" style="display:table-cell;">
+                            <span id="form_RadioButtonListGender" class="radioOrCheckBoxList floatL"><input id="form_RadioButtonListGender_0" type="radio" name="ctl00$form$RadioButtonListGender" value="1" checked="checked" /><label for="form_RadioButtonListGender_0">男</label><input id="form_RadioButtonListGender_1" type="radio" name="ctl00$form$RadioButtonListGender" value="0" /><label for="form_RadioButtonListGender_1">女</label></span>
+                            <div style="clear:both;"></div>
+                            </div>
+                            
+                            </td>
+                    </tr>
+                    <tr>
+                        <th>电子邮箱：</th><td>70785748@qq.com</td>
+                        <th><span class="reqValidate">*</span>出生年月：</th><td>
+                            <select name="ctl00$form$JBDropDownListBirthYear" id="form_JBDropDownListBirthYear" data-jbextendid="exinput_form_JBDropDownListBirthYear_719_795" style="height:32px;width:100px;">
+    <option value="">-年-</option>
+    <option value="2014">2014年</option>
+    <option value="2013">2013年</option>
+    <option value="2012">2012年</option>
+    <option value="2011">2011年</option>
+    <option value="2010">2010年</option>
+    <option value="2009">2009年</option>
+    <option value="2008">2008年</option>
+    <option value="2007">2007年</option>
+    <option value="2006">2006年</option>
+    <option value="2005">2005年</option>
+    <option value="2004">2004年</option>
+    <option selected="selected" value="2003">2003年</option>
+    <option value="2002">2002年</option>
+    <option value="2001">2001年</option>
+    <option value="2000">2000年</option>
+    <option value="1999">1999年</option>
+    <option value="1998">1998年</option>
+    <option value="1997">1997年</option>
+    <option value="1996">1996年</option>
+    <option value="1995">1995年</option>
+    <option value="1994">1994年</option>
+    <option value="1993">1993年</option>
+    <option value="1992">1992年</option>
+    <option value="1991">1991年</option>
+    <option value="1990">1990年</option>
+    <option value="1989">1989年</option>
+    <option value="1988">1988年</option>
+    <option value="1987">1987年</option>
+    <option value="1986">1986年</option>
+    <option value="1985">1985年</option>
+    <option value="1984">1984年</option>
+    <option value="1983">1983年</option>
+    <option value="1982">1982年</option>
+    <option value="1981">1981年</option>
+    <option value="1980">1980年</option>
+    <option value="1979">1979年</option>
+    <option value="1978">1978年</option>
+    <option value="1977">1977年</option>
+    <option value="1976">1976年</option>
+    <option value="1975">1975年</option>
+    <option value="1974">1974年</option>
+    <option value="1973">1973年</option>
+    <option value="1972">1972年</option>
+    <option value="1971">1971年</option>
+    <option value="1970">1970年</option>
+    <option value="1969">1969年</option>
+    <option value="1968">1968年</option>
+    <option value="1967">1967年</option>
+    <option value="1966">1966年</option>
+    <option value="1965">1965年</option>
+    <option value="1964">1964年</option>
+    <option value="1963">1963年</option>
+    <option value="1962">1962年</option>
+    <option value="1961">1961年</option>
+    <option value="1960">1960年</option>
+    <option value="1959">1959年</option>
+    <option value="1958">1958年</option>
+    <option value="1957">1957年</option>
+    <option value="1956">1956年</option>
+    <option value="1955">1955年</option>
+    <option value="1954">1954年</option>
+    <option value="1953">1953年</option>
+    <option value="1952">1952年</option>
+    <option value="1951">1951年</option>
+    <option value="1950">1950年</option>
+    <option value="1949">1949年</option>
+    <option value="1948">1948年</option>
+    <option value="1947">1947年</option>
+    <option value="1946">1946年</option>
+    <option value="1945">1945年</option>
+    <option value="1944">1944年</option>
+    <option value="1943">1943年</option>
+    <option value="1942">1942年</option>
+    <option value="1941">1941年</option>
+    <option value="1940">1940年</option>
+    <option value="1939">1939年</option>
+    <option value="1938">1938年</option>
+    <option value="1937">1937年</option>
+    <option value="1936">1936年</option>
+    <option value="1935">1935年</option>
+    <option value="1934">1934年</option>
+
+</select>
+                            <select name="ctl00$form$JBDropDownListBirthMonth" id="form_JBDropDownListBirthMonth" data-jbextendid="exinput_form_JBDropDownListBirthMonth_256_795" style="height:32px;width:80px;">
+    <option value="">-月-</option>
+    <option value="1">1月</option>
+    <option selected="selected" value="2">2月</option>
+    <option value="3">3月</option>
+    <option value="4">4月</option>
+    <option value="5">5月</option>
+    <option value="6">6月</option>
+    <option value="7">7月</option>
+    <option value="8">8月</option>
+    <option value="9">9月</option>
+    <option value="10">10月</option>
+    <option value="11">11月</option>
+    <option value="12">12月</option>
+
+</select>
+                        </td>
+                    </tr>    
+                    <tr>
+                        <th>手机号码：</th><td></td>
+                        <th>电话：</th><td>
+                            <input name="ctl00$form$TextBoxTelephone" type="text" maxlength="10" id="form_TextBoxTelephone" class="inputText" AutoComplete="false" data-jbextendid="exinput_form_TextBoxTelephone_940_795" data-jbtips="电话" style="width:165px;" />
+                            </td>
+                    </tr>     
+                    <tr>
+                        <th><span class="reqValidate">*</span>所在城市：</th><td>
+                            <input type="hidden" name="ctl00$form$HiddenFieldCity" id="form_HiddenFieldCity" value="101000" />
+                            <div id="personInfoCity" style="display:table-cell;">
+                                <select id="selProvince" style="width:90px;"></select><select id="selCity" style="width:90px; margin-left:5px;"></select>
+                            </div>
+                            
+                            </td>
+                            <th>QQ号码：</th><td>
+                                <input name="ctl00$form$TextBoxQQ" type="text" maxlength="10" id="form_TextBoxQQ" class="inputText" AutoComplete="false" data-jbextendid="exinput_form_TextBoxQQ_508_795" data-jbtips="QQ号码" style="width:165px;" />
+                                        </td>
+                    </tr>    
+                       
+                    <tr>
+                        <th>地址：</th><td colspan="3">
+                                    <input name="ctl00$form$TextBoxAddress" type="text" maxlength="10" id="form_TextBoxAddress" class="inputText" AutoComplete="false" data-jbextendid="exinput_form_TextBoxAddress_182_795" data-jbtips="地址" style="width:482px;" />
+                                        </td>
+                    </tr>   
+                       
+                    <tr>
+                        <th>邮政编码：</th><td colspan="3">
+                                    <input name="ctl00$form$TextBoxPostnum" type="text" maxlength="10" id="form_TextBoxPostnum" class="inputText" AutoComplete="false" data-jbextendid="exinput_form_TextBoxPostnum_404_795" data-jbtips="邮政编码" style="width:165px;" />
+                                        </td>
+                    </tr>            
+                    <tr>
+                        <td></td><td colspan="2"><span id="userEducationMsg" class="mginT10" style="margin-left:0px;"></span></td>
+                        <td><span id="workingstateMsg" class="mginT10" style="margin-left:0px;"></span></td>
+                    </tr>
+                    <tr><th>&nbsp;</th><td style="padding-top:30px;" colspan="5">
+                        <input type="button" onclick="trySubmitEditPersonInfo(this)" class="btn-3d btn-3d-large btn-3d-blue floatL" value="提交" />
+                        <input type="button" onclick="tryCancelEditPersonInfo(this)" class="btn-3d btn-3d-large btn-3d-gray floatL mginL10" value="取消" />
+                    </td></tr>
+                </table>       
+                <div style="clear:both; height:15px;"></div>
+            </div>
+        </div>
+    </div>
+
+    
+
+<script type="text/javascript">
+//<![CDATA[
+pageMainMenuCreater.setActive({mainText:'个人设置',subText: '个人信息'});//]]>
+</script>
+<script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxUserName'});var exinput_form_TextBoxUserName_305_472=null; JB.ready(function(){exinput_form_TextBoxUserName_305_472= new JBValidator({varId:'exinput_form_TextBoxUserName_305_472',exType:'Chinease',checkWhere:'ServerAndClient',msgShowType:'None',msgCloseType:'NotClose',dataTitle:'姓名',innerTextTip:'姓名',showSuccess:false,checkOnFocusout:false,checkOnChange:true,ignoreCase:true,canNull:false,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0,maxLen:10});});</script><script type='text/javascript'>var JBValidaterGender=null; JB.ready(function(){JBValidaterGender= new JBValidator({obj:'spanRadioButtonListGender',exType:'Text',checkWhere:'ClientAuto',msgShowType:'None',msgCloseType:'NotClose',dataTitle:'输入',appendChecks:[CheckGender],showSuccess:false,inCaseHidden:false,checkAppendOnly:true,msgAlwaysAlert:false});});</script><script type='text/javascript'>var exinput_form_JBDropDownListBirthYear_719_795=null; JB.ready(function(){exinput_form_JBDropDownListBirthYear_719_795= new JBValidator({varId:'exinput_form_JBDropDownListBirthYear_719_795',exType:'Text',checkWhere:'ServerAndClient',msgShowType:'None',msgCloseType:'NotClose',erorrMsg:'请选择年份',dataTitle:'输入',showSuccess:false,checkOnFocusout:false,checkOnChange:true,canNull:false,inCaseHidden:false,checkAppendOnly:false,msgAlwaysAlert:false});});</script><script type='text/javascript'>var exinput_form_JBDropDownListBirthMonth_256_795=null; JB.ready(function(){exinput_form_JBDropDownListBirthMonth_256_795= new JBValidator({varId:'exinput_form_JBDropDownListBirthMonth_256_795',exType:'Text',checkWhere:'ServerAndClient',msgShowType:'None',msgCloseType:'NotClose',erorrMsg:'请选择月份',dataTitle:'输入',showSuccess:false,checkOnFocusout:false,checkOnChange:true,canNull:false,inCaseHidden:false,checkAppendOnly:false,msgAlwaysAlert:false});});</script><script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxTelephone'});var exinput_form_TextBoxTelephone_940_795=null; JB.ready(function(){exinput_form_TextBoxTelephone_940_795= new JBValidator({varId:'exinput_form_TextBoxTelephone_940_795',exType:'Telephone',checkWhere:'ServerAndClient',msgShowType:'None',msgCloseType:'NotClose',dataTitle:'电话',innerTextTip:'电话',showSuccess:false,checkOnFocusout:false,checkOnChange:true,ignoreCase:true,canNull:true,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0,maxLen:10});});</script><script type='text/javascript'>var JBValidaterCity=null; JB.ready(function(){JBValidaterCity= new JBValidator({obj:'personInfoCity',exType:'Text',checkWhere:'ClientAuto',msgShowType:'None',msgCloseType:'NotClose',dataTitle:'输入',appendChecks:[CheckCitySelect],showSuccess:false,inCaseHidden:false,checkAppendOnly:true,msgAlwaysAlert:false});});</script><script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxQQ'});var exinput_form_TextBoxQQ_508_795=null; JB.ready(function(){exinput_form_TextBoxQQ_508_795= new JBValidator({varId:'exinput_form_TextBoxQQ_508_795',exType:'UInt',checkWhere:'ServerAndClient',msgShowType:'None',msgCloseType:'NotClose',dataTitle:'QQ号码',innerTextTip:'QQ号码',showSuccess:false,checkOnFocusout:false,checkOnChange:true,ignoreCase:true,canNull:true,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0,maxLen:10});});</script><script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxAddress'});var exinput_form_TextBoxAddress_182_795=null; JB.ready(function(){exinput_form_TextBoxAddress_182_795= new JBValidator({varId:'exinput_form_TextBoxAddress_182_795',exType:'Text',checkWhere:'ServerAndClient',msgShowType:'None',msgCloseType:'NotClose',dataTitle:'地址',innerTextTip:'地址',showSuccess:false,checkOnFocusout:false,checkOnChange:true,ignoreCase:true,canNull:true,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0,maxLen:10});});</script><script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxPostnum'});var exinput_form_TextBoxPostnum_404_795=null; JB.ready(function(){exinput_form_TextBoxPostnum_404_795= new JBValidator({varId:'exinput_form_TextBoxPostnum_404_795',exType:'UInt',checkWhere:'ServerAndClient',msgShowType:'None',msgCloseType:'NotClose',dataTitle:'邮政编码',innerTextTip:'邮政编码',showSuccess:false,checkOnFocusout:false,checkOnChange:true,ignoreCase:true,canNull:true,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0,maxLen:10});});</script></form>
+    
+
+    <div style="clear:both;"></div>
+    </div> 
+    
+<div style="clear:both;"></div>
+<div class="footerOuter">
+    <div class="footer">
+        <div>
+            <div class="contact">
+                <span style="margin-top:60px; font-size:14px;">服务热线 (免长话费)</span>
+                <span style="font-size:16px;">400-6838-789</span>
+                <span>工作日 9:00-19:00</span>
+            </div>
+            <div class="footerBlock">
+                <span>网站简介</span>
+                <a>网站简介</a>
+                <a>产品服务</a>
+                <a>创新优势</a>
+                <a>友情链接</a>
+                <a>联系我们</a>
+            </div>
+            <div class="footerBlock">
+                <span>使用帮助</span>
+                <a>网站简介</a>
+                <a>产品服务</a>
+                <a>创新优势</a>
+                <a>友情链接</a>
+                <a>联系我们</a>
+            </div>
+            <div class="footerBlock">
+                <span>合作共赢</span>
+                <a>网站简介</a>
+                <a>产品服务</a>
+                <a>创新优势</a>
+                <a>友情链接</a>
+                <a>联系我们</a>
+            </div>
+            <div class="footerBlock">
+                <span>快捷方式</span>
+                <a>网站简介</a>
+                <a>产品服务</a>
+                <a>创新优势</a>
+                <a>友情链接</a>
+                <a>联系我们</a>
+            </div>
+        </div>
+        <div style="clear:both;"></div>
+        <div style="margin-top:20px; color:#888;">
+        版权所有：好工作网
+        联系电话：88888888&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        联系邮箱：88888@qq.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+        地址：广州市环市中路&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        邮政编码：510000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<!--[if IE 6]>
+<script type="text/javascript" src="/js/DD_belatedPNG_0.0.8a.js"></script>
+<script type="text/javascript">   
+  DD_belatedPNG.fix('.pngfix'); 
+</script>
+<![endif]-->

@@ -1,0 +1,189 @@
+/* 职位展示页*/
+.left{ width:730px; float:left; border:1px solid #e2e2e2; border-width:0px 1px;}
+.right{ width:267px; float:right; border:1px solid #e2e2e2; border-width:0px 1px 1px 0px;}
+/*职位信息*/
+.detail{ clear:both; margin:15px;}
+.detail dt{ clear:both; border-bottom:1px dashed #eee; padding-bottom:35px; position:relative;}
+.detail h1{ font-size:26px; font-family:"微软雅黑"; color:#222; line-height:50px; _height:40px; _padding-top:10px;}
+.detail h1 sup{ font-size:12px; color:#ff5000; font-weight:normal; padding-left:10px; vertical-align:super; vertical-align:top\9; *vertical-align:super;}
+.detail sup img{ vertical-align:middle;}
+.detail dt p,.detail dt q{ display:block; line-height:35px; width:50%; float:left; font-size:12px; *line-height:30px; _padding-top:5px;}
+.detail dt img{ vertical-align:text-bottom;}
+.detail dt p{ color:#434343;}
+.detail dt q{ text-align:right;}
+.detail dt q .link{ color:#868686;}
+.detail dt q .link:hover{ color:#ff5000;}
+.detail dd{ clear:both; padding:20px 0px; font-family:"微软雅黑";}
+.detail dd p,.detail dd q{ clear:both; display:block; line-height:35px;}
+.detail dd p{ color:#747474; font-size:16px;}
+.detail dd strong{ color:#ff5000;}
+.detail dd b{ color:#222; font-weight:normal;}
+.detail dd q{ font-size:14px; color:#747474;}
+.detail dd em{ border:1px solid #aeaeae; background-color:#f5f5f5; color:#252525; font-style:normal; padding:0px 5px;}
+/*新增收藏提示*/
+.detail dt code{ position:absolute; right:0px; bottom:-35px; bottom:-25px\9; height:30px; line-height:30px; background-color:#fff; font-size:14px; font-family:"微软雅黑"; border:2px solid #ccc; padding:0px 10px;}
+.detail code s{ text-decoration:none; cursor:pointer; font-size:18px; margin-left:5px;}
+.detail code a{ color:#2673ec;}
+.detail code a:hover{ color:#ff5e00;}
+
+/*百度分享条*/
+.bdsharebuttonbox{ display:inline;}
+.bdshare-button-style0-16:after{ display:none;}
+.bdshare-button-style0-16 a, .bdshare-button-style0-16 .bds_more{ float:none !important; margin:0px !important; padding:0px !important; background:none !important;}
+
+/*子导航条*/
+.job-nav{ clear:both; height:35px; background-color:#f5f5f5; line-height:33px; margin:0px 15px 15px; border-bottom:1px solid #ff5000; _overflow:hidden;}
+.job-nav li{ float:left; padding:0px 20px; font-size:14px; border:1px solid #e1e1e1; border-bottom-color:#fff; background:#fff; cursor:pointer; position:relative; margin-left:-1px; z-index:1; color:#282828;}
+.job-nav li.first{ border-left-width:1px; maring-left:0px;}
+.job-nav li.cur{ border-color:#ff5000 #ff5000 #fff; border-top-width:2px; font-weight:bold; _position:relative; z-index:2;}
+.job-nav li.last{ display:none; background:#ff5000; float:right; height:35px; line-height:35px; border:0px;}
+.job-nav li.last a{ color:#fff;}
+.job-nav.top-fixed{ _padding-left:2px;}
+
+/*大段文字*/
+.job-words{ clear:both; font-size:14px; color:#333; line-height:30px; margin:15px;}
+.adv{ clear:both; margin:15px; display:table;}
+
+/*第一块广告*/
+.adv1{ width:390px; height:108px; border:1px solid #CBE9C7; background-color:#EEF8ED; float:left; margin:0px 10px 10px 0px;}
+.adv1 dt,.adv1 h3{ font-family:"微软雅黑";}
+.adv1 dt{ width:145px; height:50px; background:#ff5000; font-size:20px; text-align:center; line-height:50px; margin:30px 10px 0px 10px; float:left; _margin-left:5px;}
+.adv1 dt a{ color:#fff;}
+.adv1 h3{ font-size:18px; color:#1B9C0E; margin-top:18px; line-height:30px;}
+.adv1 p{ font-size:12px; line-height:20px; color:#787878;}
+.adv1 p a{ color:#ff5000;}
+/*第二块广告*/
+.adv2{ width:240px; height:108px; border:1px solid #ddd; background-color:#f5f5f5; float:left; _overflow:hidden;}
+.adv2 dt{ float:left; margin-right:12px;}
+.adv2 h3{ font-size:18px; color:#393939; line-height:40px; margin-top:10px; font-family:"微软雅黑";}
+.adv2 p{ font-size:14px; color:#545454; line-height:22px;}
+
+/*公司介绍*/
+.introduction{ margin-top:30px;}
+.introduction dt{ border-bottom:2px solid #bababa; height:35px; _overflow:hidden;}
+.introduction dt h3{ border-bottom:3px solid #005BD6; float:left; font-size:14px; color:#333; height:34px; line-height:34px; padding-right:10px; _position:relative;}
+.introduction dd{ margin:20px 0px;}
+
+/*公司图片*/
+/*.job-pics{ clear:both; height:180px; margin-bottom:15px; position:relative;}
+旧的样式，最好不要删
+.job-pics li{ position:relative; float:left; margin:0px 0px 6px 6px; background:#ccc;}
+.job-pics .l{ width:228px; height:178px; margin:0px;}
+.job-pics .m{ width:194px; height:86px;}
+.job-pics .s{ width:79px; height:86px;}
+.job-pics img{ position:absolute; left:0px; right:0px;}
+.job-pics .first{ position:absolute; width:80px; height:30px; font-size:12px; color:#fff; background:#ff5000; text-align:center; line-height:30px; z-index:222; left:142px; top:142px;}*/
+.job-pics{ clear:both; height:132px; margin-bottom:15px; position:relative; overflow:hidden; _width:700px;}
+.job-pics sub,.job-pics sup{ display:block; position:absolute; top:0px; background:rgba(0,0,0,0.5); width:40px; line-height:130px; height:100%; text-align:center; color:#fff; font-size:20px; font-weight:bold; cursor:pointer;}
+.job-pics sub{ left:0px;}
+.job-pics sup{ right:0px;}
+.job-pics sub:hover,.job-pics sup:hover{ background:rgba(38,119,226,0.8);}
+.job-pics li{ width:172px; height:130px; float:left; overflow:hidden; text-align:center; border:1px solid #ccc; margin-right:1px;}
+.job-pics a{ color:#fff; display:block; width:100%; height:100%; filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4B000000,endColorstr=#4B000000);}
+.job-pics a:hover{ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#cc2677e2,endColorstr=#cc2677e2);}
+
+/*其它职位*/
+.otherjobs{ padding-bottom:60px;}
+.otherjobs dt{ border-bottom:1px solid #bababa; height:35px; _overflow:hidden;}
+.otherjobs dt h3{ border-bottom:3px solid #005BD6; float:left; font-size:14px; color:#333; height:33px; line-height:33px; padding-right:10px; _position:relative;}
+/*职位表格*/
+.otherjobs table{ width:100%; display:block; table-layout:fixed; line-height:30px;}
+.otherjobs th{ background-color:#f8f8f8; color:#4c4c4c; font-size:14px; text-align:left; padding-left:5px;}
+.otherjobs td{ border-bottom:1px dashed #ccc; padding-left:5px; font-size:14px;}
+.otherjobs td a{ color:#3266CC;}
+/*全部职位*/
+.otherjobs p{ text-align:right; font-size:12px; _padding-top:15px;}
+.otherjobs p a{ color:#085ED5; line-height:50px;}
+.otherjobs p a i{ display:inline-block; font-size:0px; width:12px; height:12px; overflow:hidden; background:url(../images/icons.gif) left top; position:relative; top:1px; top:2px \9; *top:-10px;}
+.otherjobs i.up{ background-position:right bottom; *background-position:right -48px;}
+
+/*公司信息*/
+.company{ clear:both; margin:12px; font-family:"微软雅黑";}
+.company .logo{ border:1px solid #ccc; margin-bottom:20px; text-align:center;}
+.company .logo img{ max-width:100%;}
+.company h2{ font-size:14px; color:#282828; line-height:30px;}
+.company p{ font-size:14px; color:#232323; word-break:break-all; word-wrap:break-word; line-height:30px;}
+.company b{ font-size:12px; color:#727272; font-weight:normal;}
+.company a{ font-size:12px; color:#0A61D2;}
+.company p img{ vertical-align:text-bottom;}
+
+/*企业相册*/
+.album{ clear:both; margin:30px 10px; display:table;}
+.album dt{ color:222; font-family:"微软雅黑"; font-size:14px; font-weight:bold; line-height:30px;}
+.album a{ display:block; float:left; border:1px solid #CCC; font-size:0px; width:120px; height:95px; margin-top:3px; overflow:hidden;}
+.album .odd{ margin:3px 3px 0px 0px;}
+
+/*地址*/
+.address{ clear:both; margin:10px; line-height:30px; font-family:"微软雅黑";}
+.address dt{ color:222; font-size:14px; font-weight:bold;}
+.address p{ font-size:14px; color:#232323;}
+
+/*查看地图*/
+.map{ clear:both; margin:10px; position:relative;}
+.map dt{ position:absolute; top:0px; right:0px; z-index:2; width:100px; height:25px; line-height:25px; font-size:12px; text-align:center; color:#fff; background:#ff5000; cursor:pointer;}
+.map dd img{ width:100%; height:auto;}
+
+/*显示出来的大地图*/
+.map-large{ display:none; position:fixed; width:858px; height:460px; padding:10px; background:rgba(0,0,0,0.5); left:0px; top:0px; z-index:66666;}
+.map-large{
+	_position: absolute !important;
+    _top:expression(eval(document.documentElement.scrollTop) + parseInt(this.style.marginTop));
+}
+.map-large dl{ background:#fff; height:460px;}
+.map-large dt{ line-height:35px; height:35px; background:#2677E2; color:#fff; font-size:16px; padding:0px 10px;}
+.map-large dt q{ display:block; position:absolute; font-size:20px; line-height:30px; width:30px; right:5px; top:10px; cursor:pointer;}
+.map-large dd{ padding:10px; text-align:center;}
+
+/*举报职位*/
+.Accuse{ width:460px; background:#fff;}
+.Accuse .CenterContent{ padding-top:15px;}
+.figure{ width:95px; height:55px; float:left; margin-right:20px; border:1px solid #2677e3; position:relative; overflow:hidden;}
+.figure q{ width:12px; height:12px; background-color:#333; color:#fff; font-size:12px; line-height:12px; text-align:center; cursor:pointer; overflow:hidden; right:0px; top:0px; position:absolute;}
+.Accuse var{ width:95px;}
+.Accuse dfn{ width:360px;}
+.Accuse dfn .clear{ margin-bottom:5px;}
+.Accuse .CenterSelect span,.Accuse .CenterSelect b{ width:270px;}
+.Accuse .CenterSelect dt{ width:290px;}
+.Accuse .CenterSelect dd{ width:300px;}
+.Accuse textarea{ width:330px !important; height:110px !important; border:1px solid #d3d3d3;}
+.Accuse .text{ width:170px;}
+.Accuse .half{ width:75px;}
+.vcode-fresh{ font-size:12px; color:#3493e3;}
+.Accuse .btns{ text-align:right;}
+.Accuse .btn{ width:90px; height:30px; margin:0px 10px 20px 0px; cursor:pointer; font-size:14px; font-family:"微软雅黑"; border:0px;}
+.Accuse .submit,.Accuse .close{ background-color:#2673ec; color:#fff;}
+.Accuse .reset{ background-color:#dcdcdc; color:#333; margin-right:20px;}
+
+/*弹出层一大堆*/
+.CenterDiv .submit{ width:145px; height:40px; border:0px; color:#fff; background-color:#ff5e00; cursor:pointer; text-align:center; vertical-align:middle; cursor:pointer; font-size:18px;}
+/*手机注册用*/
+.Mobiles{ width:460px; height:330px;}
+.Mobiles .CenterContent{ padding:30px 20px; background-color:#fff; height:230px;}
+.MobileForm{ width:100%; table-layout:fixed; border-collapse:collapse;}
+.MobileForm th{ text-align:right; line-height:50px; font-weight:normal; font-size:16px; color:#666;}
+.MobileForm td{ padding-left:5px;}
+.MobileForm .text{ border:1px solid #ccc; padding:0px 10px; height:30px; line-height:30px; vertical-align:middle;}
+.MobileForm .t-l{ width:250px;}
+.MobileForm .t-s{ width:110px; margin-right:20px;}
+.MobileForm .btn{ background-color:#2673ec; height:20px; width:115px; text-align:center; font-size:12px; color:#fff; vertical-align:middle; border:0px;}
+.MobileForm .submit{ margin-left:10px;}
+.MobileForm tfoot{ font-size:16px;}
+.MobileForm tfoot td{ padding-top:20px;}
+.MobileForm a{ color:#2673ec;}
+.MobileForm a:hover{ color:#ff5e00;}
+/*登陆用*/
+.Logins{ width:430px;}
+.Logins .CenterContent{ padding:30px 50px; background-color:#fff;}
+.LoginForm{ width:100%; table-layout:fixed; border-collapse:collapse;}
+.LoginForm td{ height:50px; font-size:14px; color:#999;}
+.LoginForm .text{ border:1px solid #ccc; height:30px; line-height:30px; padding:0px 10px; width:320px;}
+.LoginForm label{ float:left;}
+.LoginForm tbody a{ float:right; color:#666;}
+.LoginForm tbody a:hover{ color:#ff5e00;}
+.LoginForm .submit{ margin-right:10px;}
+.LoginForm tfoot a{ font-size:14px; color:#2673ec;}
+.LoginForm tfoot img{ vertical-align:middle;}
+/*简历不完整*/
+.PostFail{ width:430px;}
+.PostFail p{ line-height:35px; padding:40px; font-size:20px;}
+.PostFail .center{ text-align:center; padding:45px;}

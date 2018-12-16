@@ -1,0 +1,46 @@
+/* 邀请合作 */
+.Main{ width:880px; margin:20px auto; background-color:#fff; border-top:1px solid #fff; padding-bottom:30px;}
+.TOPIC{ width:292px; height:58px; position:relative; left:-10px; background-image:url(../../../images/v2/topicLong.png); margin:25px 0 0px; line-height:46px; text-indent:28px; color:#fff; font-weight:normal; font-size:24px;}
+.TOPIC{ _background-image:url(../../../images/v2/topicLong.gif);}
+/*发邀请页*/
+.Invite{ margin:20px auto; width:800px;}
+.Invite h2{ font-size:24px; color:#1562c8; font-weight:normal;}
+.Invite th{ font-weight:normal; font-size:20px; color:#525252; vertical-align:top; padding:10px 0;}
+.Invite .SELECT{ width:340px; margin:5px 0; float:left;}
+.Invite .SELECT dt{ border:2px solid #cae2ff; line-height:40px;}
+.Invite .SELECT dt span,.Invite .SELECT dt b{ font-size:18px; width:300px;}
+.Invite .SELECT dd{ border:2px solid #cae2ff;}
+.Invite .SELECT dd.normal{ width:336px;}
+.Invite .link{ display:block; float:left; margin-left:20px; line-height:50px; color:#1562c8;}
+.Invite .link:hover{ color:#ff2e12; text-decoration:underline;}
+.Invite textarea{ width:660px; border:2px solid #cae2ff; padding:10px; height:200px; font-size:16px; line-height:30px; margin:5px 0;}
+.Invite .btns .submit{ width:200px; height:40px; color:#fff; background-color:#1562c8; cursor:pointer; border:0; font-size:18px;}
+/*职位列表*/
+.JobsList{}
+.JobsList th{ background-color:#dfedfb; font-size:18px; line-height:85px; text-align:center; padding:0px !important;}
+.JobsList th h3{ font-weight:normal; color:#1562c8; cursor:pointer; border-bottom:1px solid #fff;}
+.JobsList th h3.cur{ background-color:#fff;}
+.JobsList td{ vertical-align:top;}
+.JobsList td div{ padding:10px 20px; width:520px; height:238px; overflow-y:auto; overflow-x:hidden;}
+.JobsList .none{ text-align:center; font-size:16px; color:#a4a4a4; line-height:250px;}
+.JobsList td a{ display:block; width:50%; float:left; line-height:40px; height:40px;}
+.JobsList td a.checked,.JobsList td a:hover{ color:#1562c8; text-decoration:underline;}
+/*已选项目*/
+.OuterCollector{ *padding-top:5px;}
+.OuterCollector a{ display:inline-block; background-color:#5295f0; color:#fff; font-size:0; height:40px; line-height:40px; margin:5px 10px 5px 0; padding:0 5px; white-space:nowrap;}
+.OuterCollector a *{ display:inline-block; vertical-align:middle;}
+.OuterCollector a span{ font-size:16px; padding:0 5px;}
+.OuterCollector a q{ width:14px; height:14px; background-image:url(../../../images/v2/icons/times.png); _background-image:url(../../../images/v2/icons/times.gif);}
+
+/*邀请函内容*/
+.Invitation{ margin:20px auto; width:800px;}
+.Invitation h1{ font-size:24px; color:#333; font-weight:normal;}
+.Invitation h2{ font-size:20px; color:#4f4f4f; font-weight:normal;}
+.Invitation th,.Invitation td{ padding:10px 0;}
+.Invitation th{ text-align:right; font-weight:normal; color:#1562c8; padding-right:10px;}
+.Invitation td{ height:30px;}
+.Invitation td p{ font-size:16px; color:#525252; line-height:30px; text-indent:2em; vertical-align:top;}
+.Invitation td a{ color:#fff; margin-right:20px; white-space:nowrap; background-color:#71a4e7; display:inline-block; line-height:30px; padding:0 10px;}
+.Invitation td a:hover{ background-color:#1562c8;}
+.Invitation .content{ border:2px solid #cae2ff; padding:10px 20px;}
+.hr{ clear:both; border:10px solid #f8f8f8;}

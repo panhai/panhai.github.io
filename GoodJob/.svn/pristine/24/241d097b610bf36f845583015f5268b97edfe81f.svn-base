@@ -1,0 +1,152 @@
+/* 账号管理样式 */
+
+/*管理员列表*/
+.Admins{ margin:35px 15px;}
+.Admins th{ font-weight:normal; text-align:left; text-indent:1em;}
+.Admins td{ text-align:center; color:#525252;}
+.Admins thead th,.Admins thead td{ line-height:35px; border-top:1px solid #e8e8e8; font-size:16px; background-color:#f7f7f7; color:#525252;}
+.Admins tbody td,.Admins tbody th{ line-height:40px; border-bottom:1px solid #e8e8e8; font-size:14px;}
+.Admins tbody th{ font-weight:normal; color:#1562c8;}
+.Admins a{ color:#1562c8;}
+.Admins a:hover{ color:#fe6703;}
+
+/*表单表格*/
+.Forms .submit{ height:40px; color:#fff; padding:0 20px; cursor:pointer; border:0; background-color:#1562c8; font-size:16px;}
+.Forms .text{ height:38px; line-height:38px; font-size:16px; padding:0 10px; border:1px solid #cae2ff;}
+.Forms textarea{ font-size:16px; padding:0 10px; border:1px solid #cae2ff; line-height:30px;}
+.Forms input,.Forms textarea{ float:left;}
+.Forms th,.Right td{ vertical-align:top;}
+.Forms th{ text-align:right; font-weight:normal; font-size:16px; color:#1562c8; height:60px; line-height:50px;}
+.Forms td{ padding:5px 0;}
+.Forms .reset{ height:40px; color:#6ca9fa; padding:0 20px; cursor:pointer; border:0; font-size:16px; background-color:transparent;}
+
+/*账号类的表单*/
+.Passport{ margin:40px;}
+.Passport .t-l{ width:410px;}
+.Passport .t-m{ width:250px;}
+.Passport .SendVerify{ width:150px; height:40px; margin-left:10px; background-color:#1562c8;}
+.Passport thead *{ line-height:50px; font-size:18px; color:#1562c8; padding:0;}
+.Passport .SELECT{ float:left;}
+.Passport .SELECT dt{ padding:0;}
+.Passport .SELECT dt input{ width:200px;}
+.Passport .SELECT dd{ width:220px; top:40px; border:1px solid #cae2ff;}
+.Passport .SELECT dd a{ padding:0 10px;}
+
+
+/*模版列表*/
+.TemplateAdd{ float:right; display:block; background-color:#6ca9fa; font-size:16px; color:#fff; padding:10px 20px; border-radius:5px; margin:20px; _margin:20px 10px 0 0;}
+.TemplateAdd:hover{ background-color:#1562c8;}
+/*有改动过的结构*/
+.Templates{ margin:20px 20px 50px; clear:both; border:2px solid #e8e8e8; margin-bottom:20px;}
+.Templates .topic{ clear:both; line-height:50px; height:50px; border-bottom:1px dashed #e8e8e8; padding:0 20px;}
+.Templates h3{ float:left; color:#525252; font-size:20px; font-weight:normal;}
+.Templates small{ margin-left:1em; padding-left:20px; background:url(../../../images/v2/icons/checked-circle.png) left center no-repeat; font-size:16px; color:#5b9ffb;}
+.Templates small{ _background-image:url(../../../images/v2/icons/checked-circle.gif);}
+.Templates .topic p{ float:right; font-size:16px; color:#5b9ffb;}
+.Templates .topic p a{ color:#5b9ffb;}
+.Templates .topic p a:hover{ color:#1562c8; text-decoration:underline;}
+.Templates .content{ clear:both; padding:20px; font-size:18px; color:#a4a4a4; line-height:30px;}
+.Templates .content b{ font-weight:normal; color:#525252;}
+
+/*模版表单*/
+.Template{ clear:both; margin:40px auto;}
+.Template .text,.Template textarea{ width:530px;}
+.Template textarea{ height:140px;}
+.Template i{ color:#ff5a00; font-style:normal; line-height:55px; padding:0 10px;}
+
+
+/*导入简历*/
+.resume-origin { margin: 22px 0 0 22px; overflow: hidden; }
+.resume-origin li { margin-bottom: 20px; padding: 30px 0; border: 1px solid #ebebeb; overflow: hidden; }
+.resume-origin h4 { padding-bottom: 8px; color: #f7831c; font-size: 16px; font-weight: normal; }
+.resume-origin h5 { margin-top: 6px; font-size: 14px; color: #313131; font-weight: normal; }
+.resume-origin p { color: #909090; font-size: 13px;width:340px; }
+.resume-origin button { margin-top: 12px; width: 155px; height: 40px; background-color: #1562c8; color: #fff; font-size: 16px; border: 0; cursor: pointer; border-radius:5px;}
+.resume-origin .color_bg{background:#FF6600;}
+.resume-origin .color_txt1{color:#1562c8;}
+.resume-origin .color_txt1 label{color:#FF6600;}
+.resume-origin .col1 { float: left; }
+.resume-origin .edit { color: #8b8b8b; }
+.resume-origin .edit { margin-left: 12px; color: #1562c8; }
+.resume-origin .resume-origin-logo { width: 199px; border-right: 1px solid #ebebeb; text-align: center; }
+.resume-origin .resume-origin-txt { width: 375px; padding: 10px 0 0 20px; }
+.resume-origin .resume-origin-txt span { line-height: 22px; font-size: 13px; cursor: pointer; }
+
+.settings-auth { background-color: #fff; }
+.settings-auth .in { width: 424px; margin: 0 auto; }
+.settings-auth .in p { margin-bottom: 14px; position:relative;}
+.settings-auth .text { padding-left: 14px; width: 340px; height: 48px; border: 1px solid #d9d9d9; font-size: 14px; }
+.settings-auth .yzmtxt{ padding-left: 14px; width: 240px; height: 48px; border: 1px solid #d9d9d9; font-size: 14px; }
+.settings-auth .yzmimg{ width: 85px; height: 48px;display:inline-block;overflow:hidden;position:absolute;top:0px;right:3px;}
+.settings-auth .input-tip { margin: 24px 0 18px !important; font-size: 16px; color: #ff7c25; }
+.settings-auth .text-u { display: inline-block; width: 65px; text-align: left; color: #525252; font-size: 16px; }
+.settings-auth .btn { margin: 25px 0 40px !important; }
+.setting-confirm, .setting-cancel { width: 154px; height: 42px; font-size: 16px; border: 0; cursor: pointer; }
+.setting-confirm { margin-right: 20px; background-color: #5295f1; color: #fff; }
+.setting-cancel { background-color: #fff; color: #918d90; border: 1px solid #918d90; box-sizing: border-box; }
+
+.releasetip { font-size: 28px !important; }
+.repeatalertdiv{width:480px;}
+.jobChoice { background-color: #fff; }
+.jobChoice .CENTERCONTENT { padding: 12px 20px 18px; }
+.jobChoice .repeatdiv{padding-top:20px;width:370px;margin:0 auto;overflow:hidden;padding-bottom:60px;}
+.jobChoice .repeatdiv .r_title{font-size:26px;font-weight:bold;color:#1562c8;height:50px;text-indent:50px;background:url(../../../images/v2/icons/ok.png) no-repeat;line-height:46px;}
+.jobChoice .repeatdiv .r_txt{font-size:14px;color:#323232;width:100%;overflow:hidden;padding-bottom:20px;line-height:20px;}
+.jobChoice .repeatdiv .r_txt label{color:#FF6600;}
+.jobChoice .tip { position: relative; padding-left: 10px; background-color: #fffbec; height: 35px; border: 1px solid #fff3e2; line-height: 35px; font-size: 14px; color: #5a5852; }
+.jobChoice .tip span { margin-right: 70px; }
+.jobChoice .tip i { font-style: normal; }
+.jobChoice .tip .time { margin-right: 0; }
+.jobChoice .update-job { position: absolute; right: 10px; top: 5px; width: 76px; height: 25px; background-color: #5295f1; color: #fff; font-size: 14px; border: 0; cursor: pointer; }
+.jobChoice .table-header { margin-top: 12px; padding-left: 30px; height: 38px; background-color: #eef4fd; line-height: 38px; font-size: 14px; overflow: hidden; }
+.jobChoice .table-header strong { float: left; display: inline-block; color: #757575; }
+.jobChoice .w485, .jobChoice .job-name { width: 485px; }
+.jobChoice .w130, .jobChoice .job-address { width: 130px; }
+.jobChoice .w120, .jobChoice .job-origin { width: 120px; }
+.jobChoice .in { height: 350px; border-bottom: 2px solid #f1f1f1; overflow-y: scroll; }
+.jobChoice ul li { height: 43px; line-height: 43px; border-bottom: 1px solid #f1f1f1; font-size: 14px; color: #262626; }
+.jobChoice ul li span { display: inline-block; }
+.jobChoice .job-address, .jobChoice .job-origin { color: #767676; }
+.jobChoice .job-select { display: inline-block; position: relative; margin-right: 8px; width: 15px; height: 15px; border: 1px solid #dfdfdf; overflow: hidden; vertical-align: sub; }
+.jobChoice .job-select input { position: absolute; left: -10000px; }
+.jobChoice .selected { background: url('../../../images/v2/icons/resume/ok.png') no-repeat center center; background-size: 80%; }
+.jobChoice .count { padding: 18px 0 0; font-size: 14px; color: #757575; }
+.jobChoice .count i { font-style: normal; }
+.jobChoice .number-still { color: #ff7c25; }
+.jobChoice .count input { height: 42px;font-size: 16px; }
+.jobChoice .count .put { margin-left: 22px; margin-right: 15px; width: 254px; background-color: #5295f1; color: #fff; border: 0; }
+.jobChoice .count .put-all { width: 154px; background-color: #fff; color: #918d90; border: 1px solid #918d90; box-sizing: border-box; }
+
+
+.notUpdate { display: none; height: 100%; background: url('../../../images/v2/icons/loding_ok.png') no-repeat center 85px; color: #acacac; font-size: 14px; text-align: center; overflow: hidden; }
+.notUpdate p { margin-top: 190px; }
+
+.loadingData { display: none; height: 100%; background: url('../../../images/v2/icons/loading.gif') no-repeat center 95px; text-align: center; overflow: hidden; }
+.loadingData .h5 { margin-top: 160px; color: #414141; font-size: 16px; }
+.loadingData p { color: #acacac; font-size: 14px; }
+
+/* 职位更新失败 */
+.loadingError { display: none; height: 100%; background: url(../../../images/v2/icons/loading_error.png) no-repeat center 58px; text-align: center; overflow: hidden; }
+.loadingError .h5 { margin-top: 165px; color: #414141; font-size: 16px; }
+.loadingError p { color: #acacac; font-size: 14px; }
+.loadingError button { cursor: pointer; margin-top: 8px; color: #494949; width: 154px; height: 42px; background-color: #efefef; font-size: 16px; border: 0; }
+.putProcess .wrap { margin: 50px auto; width: 415px; height: 188px; }
+.putProcess h4 { color: #1463c8; font-size: 24px; font-weight: normal; }
+.putProcess p { margin-top: 24px; color: #a09f9f; line-height: 24px; font-size: 14px; }
+.putProcess .loading-txt { color: #a2a2a2; font-size: 14px; }
+.putProcess .loading-txt i { font-style: normal; color: #515151; }
+.putProcess .loading-process { margin: 26px 0 6px; height: 16px; background-color: #f0f0f0; border-radius: 8px; }
+.putProcess .loading { width: 20%; height: 16px; background-color: #1562c8; border-radius: 8px; }
+
+/* 关闭 */
+.notOrigin { display: none; width: 420px; margin: 0 auto; text-align: center; }
+.notOrigin h4 { margin-top: 140px; margin-bottom: 20px; font-size: 18px; color: #3f3f3f; font-weight: normal; }
+.notOrigin p { line-height: 16px; color: #939393; font-size: 14px; }
+.notOrigin .onOrigin { display: inline-block; margin-top: 18px; width: 145px; height: 46px; background-color: #1562c8; text-align: center; color: #fff; line-height: 46px; font-size: 16px; cursor: pointer; }
+
+/* 开启关闭按钮 */
+.Intro dt { position: relative; }
+.Switch { position: absolute; top: 15px; right: 110px; width: 50px; height: 25px; background: url(../../../images/v2/icons/switch_bg.png) no-repeat 0 -29px; cursor: pointer; _background-image:(../../../images/v2/icons/switch_bg.gif);}
+.Switch i { position: absolute; left: 0; top: 2px; width: 21px; height: 21px; background: url(../../../images/v2/icons/switch_bg.png) no-repeat -57px 0; background-image: url(../../../images/v2/icons/switch_bg.gif)}
+.Switch span { position: relative; right: -60px; top: -12px; color: #bfbfbf; }
+.Switch.on { background-position: 0 0; }

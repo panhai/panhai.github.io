@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>学校中心-宣讲会管理-企业申请-处理中</title>
+</head>
+<!--[if IE 6]>
+<script src="../js/UCenter/png.js"></script>
+<script type="text/javascript">
+   DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="../css/School/css.css">
+<link rel="stylesheet" type="text/css" href="../css/School/conf.css">
+<body>
+<div class="header"><div class="common">
+	<h1><img src="../images/SCenter/headlogo.jpg" width="59" height="63">肇庆科技职业技术学院<small>就业网管理系统</small></h1>
+    <p>
+    	<a href="#">Admin</a> |
+        <a href="#">退出</a> |
+        <a href="#" class="cur">好工作首页</a> |
+        <a href="#" class="cur">切换后台</a> |
+        <a href="#">消息</a> |
+        <a href="#">反馈</a> |
+        <a href="#">帮助</a>
+    </p>
+</div></div>
+<div class="nav"><div class="common">
+	<ul>
+    	<li class="first cur"><a href="index.html">首页<i></i></a></li>
+    	<li><a href="contents.html">网站内容管理<i></i></a></li>
+    	<li><a href="manage-admin.html">系统管理<i></i></a></li>
+    	<li class="last"><a href="total.html">统计分析<i></i></a></li>
+    </ul>
+    <p>
+    	<span class="top-select">
+        	校企合作<i></i>
+        	<samp>
+            	<a href="invite-coop.html">校企合作邀请</a>
+            	<a href="invite-conf.html">宣讲会合作邀请</a>
+            </samp>
+        </span>
+    	<span><a href="conference.html">发布宣讲会</a></span>
+    </p>
+</div></div>
+
+<div class="main common article">
+    <h3>企业申请</h3>
+    <ul class="summary">
+    	<li><var>合作企业：</var><dfn>冠鹏信息技术有限公司</dfn></li>
+    	<li><var>宣讲会主题：</var><dfn>邀请腾讯公司到我校举办宣讲会</dfn></li>
+    	<li><var>学校联系人：</var><dfn>吴老师</dfn><var>联系电话：</var><dfn>1231314326</dfn></li>
+    </ul>
+    <div class="content">
+    	<p>邀请腾讯公司到我校举办宣讲会邀请腾讯公司到我校举办宣讲会邀请腾讯公司到我校举办宣讲会邀请腾讯公司到我校举办宣讲会邀请腾讯公司到我校举办宣讲会邀请腾讯公司到我校举办宣讲会邀请腾讯公司到我校举办宣讲会邀请腾讯公司到我校举办宣讲会邀请腾讯公司到我校举办宣讲会邀请腾讯公司到我校举办宣讲会邀请腾讯公司到我校举办宣讲会邀请腾讯公司到我校举办宣讲会邀请腾讯公司到我校举办宣讲会邀请腾讯公司到我校举办宣讲会邀请腾讯公司到我校举办宣讲会邀请腾讯公司到我校举办宣讲会邀请腾讯公司到我校举办宣讲会</p>
+    	<p>邀请腾讯公司到我校举办宣讲会邀请腾讯公司到我校举办宣讲会邀请腾讯公司到我校举办宣讲会邀请腾讯公司到我校举办宣讲会邀请腾讯公司到我校举办宣讲会邀请腾讯公司到我校举办宣讲会邀请腾讯公司到我校举办宣讲会邀请腾讯公司到我校举办宣讲会邀请腾讯公司到我校举办宣讲会邀请腾讯公司到我校举办宣讲会邀请腾讯公司到我校举办宣讲会邀请腾讯公司到我校举办宣讲会邀请腾讯公司到我校举办宣讲会邀请腾讯公司到我校举办宣讲会邀请腾讯公司到我校举办宣讲会邀请腾讯公司到我校举办宣讲会邀请腾讯公司到我校举办宣讲会</p>
+    </div>
+</div>
+
+<div class="footer">
+	<div class="common tail">
+        <samp class="tail-nav">
+            <a href="#" class="first">关于我们</a>
+            <a href="#">法律声明</a>
+            <a href="#">保密承诺</a>
+            <a href="#">Investor Relatiao</a>
+            <a href="#">关于我们</a>
+        </samp>
+    </div>
+    <div class="common copyright">
+    	<p>京ICP备09083200号 京ICP证070419号 人才服务许可证：RC0710280</p>
+    	<p>Copyright&copy;2000-2014 liepin.com All Rights Reserved</p>
+    </div>
+</div>
+
+</body>
+</html>

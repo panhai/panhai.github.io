@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>个人后台-我的好工作-VIP升级</title>
+<link rel="stylesheet" type="text/css" href="../css/v2/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/UCenter/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/UCenter/vip.css">
+</head>
+
+<body>
+<div class="HEADER"><div class="common">
+	<div class="TOP-LOGO"><a href="#"><img src="../images/v2/logo-s.jpg" width="119" height="62"></a></div>
+    <div class="TOP-TOOLS">
+    	张英，欢迎来到好工作！   <a href="#">安全退出</a> | <a href="#">我要招人</a> | <a href="#">消息</a> | <a href="#">帮助</a>
+    </div>
+    <ul class="TOP-NAV">
+    	<li><a href="#">首页</a></li>
+    	<li><a href="new-myjob-jobpush.html" class="cur">我的好工作</a></li>
+    	<li><a href="new-RESUME.html">简历中心</a></li>
+    	<li><a href="new-settings.html">个人设置</a></li>
+    	<li><a href="new-hrfavors.html">HR收藏夹</a></li>
+    </ul>
+    <div class="TOP-SEARCH">
+    	<input type="text" class="text" placeholder="请输入职位名称">
+        <input type="submit" class="submit" value="">
+    </div>
+</div></div>
+
+<div class="Main">
+	<div class="Topic">
+    	<div id="Photo"><img src="../images/v2/job-logo.jpg"></div>
+        <div class="Hello">
+        	<h5>您好，Andy</h5>
+            <h6>求职特权<tt class="vip1"></tt>用户<span>（免费升级为特权<tt class="vip2"></tt>）</span></h6>
+        </div>
+    </div>
+    <table class="Levels" border="1" bordercolor="#e0e0e0">
+    	<caption><h1>求职特权</h1></caption>
+        <thead><tr>
+        	<td width="270"></td>
+        	<th width="145">特权V<sub>0</sub></th>
+        	<th width="145">特权V<sub>1</sub></th>
+        	<th width="145">特权V<sub>2</sub></th>
+        	<th width="145">特权V<sub>3</sub></th>
+        	<th width="145">特权V<sub>?</sub></th>
+        </tr></thead>
+        <tbody>
+        	<tr><th><i class="i1"></i>每日职位投递数量</th><td>10</td><td>15</td><td>20</td><td>不限制</td><td rowspan="7">绝<br>对<br>惊<br>喜</td></tr>
+        	<tr><th><i class="i2"></i>"求职成功率最高"职位推荐</th><td></td><td>√</td><td>√</td><td>√</td></tr>
+        	<tr><th><i class="i3"></i>职位邀请专享</th><td></td><td>√</td><td>√</td><td>√</td></tr>
+        	<tr><th><i class="i4"></i>专家职场专线解难</th><td></td><td></td><td>√</td><td>√</td></tr>
+        	<tr><th><i class="i5"></i>诚信认证</th><td></td><td></td><td>√</td><td>√</td></tr>
+        	<tr><th><i class="i6"></i>职业规划私人订制</th><td></td><td></td><td></td><td>√</td></tr>
+        	<tr><th><i class="i7"></i>人才优先推荐</th><td></td><td></td><td></td><td>√</td></tr>
+        </tbody>
+    </table>
+    <ul class="Rates">
+    	<li><div><i class="i1"></i></div><h3>每日职位投递数量</h3><p>获取更多的投递数量，拥有更多的求职机会</p></li>
+    	<li><div><i class="i2"></i></div><h3>“求职成功率最高”职位推荐</h3><p>每天推荐面试率会高，入职机率高的职位</p></li>
+    	<li><div><i class="i3"></i></div><h3>职位邀请专享</h3><p>开通后可直接收到来自HR的职位投递邀请</p></li>
+    	<li><div><i class="i4"></i></div><h3>专家职场专线解难</h3><p>求职过程中疑难解答，排忧解难，为您扫清求职障碍</p></li>
+    	<li><div><i class="i5"></i></div><h3>诚信认证</h3><p>为您的优质信用度进入认证，为您求职加分</p></li>
+    	<li><div><i class="i6"></i></div><h3>职业规划私人订制</h3><p>根据你的自身条件，专家为您制定专属您的职业规划</p></li>
+    	<li><div><i class="i7"></i></div><h3>人才优先推荐</h3><p>根据企业用人需求，直接推荐合适人才进行面试</p></li>
+    </ul>
+</div>
+
+<a id="way"></a>
+<div class="Main">
+	<h2>如何免费获取权限</h2>
+    <ul class="Steps">
+    	<li>
+        	<var class="l1"></var>
+            <h4>创建完整简历</h4>
+            <p>据好工作大数据分析，完整的简历能够提高求职成功率，这个比例高达25%</p>
+            <p>一份完整的简历能够帮助企业全面了解求职者，并建立良好的初印象。</p>
+            <p>（完善简历可升级为特权<tt class="vip2"></tt>）</p>
+            <div class="complete">
+            	<h5>您当前的简历完整度：50%</h5>
+                <a href="new-RESUME.html">马上完善简历</a>
+            </div>
+        </li>
+    	<li>
+        	<var class="l2"></var>
+            <h4>献爱心，送好友求职特权卡，让身边的人都找到好工作！</h4>
+            <p>好友接受你赠送的求职特权卡后，你将获得相应职分（好友接受赠送+10分，注册+30分），可升级为更高特权！</p>
+            <div class="Figure f1">
+            	<div class="img"><img src="../images/v2/code-app.jpg" width="100" height="100"></div>
+                <div class="cap">微信扫描分享</div>
+            </div>
+        </li>
+    	<li>
+        	<var class="l3"></var>
+            <h4>下载好工作APP、关注微信公众号，找工作更快更轻松！</h4>
+            <p>下载/关注送积分（+30分），免费超级特权等你来拿！</p>
+            <div class="Figure f2">
+            	<div class="img"><img src="../images/v2/code-app.jpg" width="100" height="100"></div>
+                <div class="cap">好工作APP</div>
+            </div>
+            <div class="Figure f3">
+            	<div class="img"><img src="../images/v2/code-wx.jpg" width="100" height="100"></div>
+                <div class="cap">微信公众号</div>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<div class="FOOTER">
+	<div class="FOOT-NAV">
+    	<a href="#">关于我们</a><a href="#">法律声明</a>
+        <a href="#">联系我们</a><a href="#" class="last">Investor Relatiao</a>
+    </div>
+    <p>服务热线：400-660-5319&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;服务时间：周一至周六9:00-18:40</p>
+    <p>京ICP备09083200号&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;京ICP证070419号&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人才服务许可证：RC0710280</p>
+    <p>Copyright©2000-2014 liepin.com All Rights Reserved</p>
+</div>
+
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/v2/all.js"></script>
+<script src="../js/plugin/raphael.js"></script>
+<script>
+$(function(){
+	var imgsrc=$("#Photo img").attr('src');
+	$("#Photo").empty();
+	var paper=Raphael("Photo",70,70);
+	paper.circle(35,35,30).attr({
+		stroke:'#fff',
+		'stroke-width':3,
+		fill:'url('+ imgsrc +')'
+	})
+})
+</script>

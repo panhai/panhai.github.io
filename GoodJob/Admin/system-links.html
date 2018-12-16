@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>好工作运营后台-系统管理-友情链接</title>
+</head>
+<link rel="stylesheet" type="text/css" href="../css/v2/admin/all.css">
+
+<body>
+<header class="clear">
+	<img src="../images/v2/logo-s.png" width="119" height="62">
+    <em>后台管理系统</em>
+    <p>
+    	<a href="#"><i><img src="../images/v2/nophoto.png" width="30" height="30"></i><span>用户名称</span></a>
+        <a href="#">安全退出</a>
+    </p>
+</header>
+<nav>
+	<li><a href="index.html">首页</a></li>
+	<li><a href="companies.html">企业管理</a></li>
+	<li><a href="schools.html">院校管理</a></li>
+	<li><a href="users.html">用户管理</a></li>
+	<li><a href="jobs.html">职位管理</a></li>
+	<li><a href="resumes.html">简历管理</a></li>
+	<li><a href="servers.html">客服系统</a></li>
+	<li><a href="moneys.html">财务系统</a></li>
+	<li class="cur"><a href="system.html">系统管理</a></li>
+</nav>
+
+<menu>
+	<li><a href="system.html">好工作管理员</a></li>
+	<li class="cur"><a href="system-links.html">友情链接</a></li>
+    <li><a href="system-app.html">APP首页内容管理</a></li>
+</menu>
+
+<a class="button alone">添加新链接</a>
+<div class="List"><table border="1" bordercolor="#e2e4f0">
+	<thead><tr>
+    	<th width="90">ID</th>
+    	<th width="25%">网站名称</th>
+    	<th width="">链接</th>
+    	<th width="30%">操作</th>
+    </tr></thead>
+    <tbody>
+    	<tr>
+        	<th><label><input type="checkbox">10001</label></th>
+            <td>网站名称网站名称</td>
+            <td><a href="http://www.baidu.com">http://www.baidu.com</a></td>
+            <td><a href="#">上移</a><a href="#">下移</a><a href="#">修改密码</a><a href="#">删除</a></td>
+        </tr>
+    	<tr>
+        	<th><label><input type="checkbox">10001</label></th>
+            <td>网站名称网站名称</td>
+            <td><a href="http://www.baidu.com">http://www.baidu.com</a></td>
+            <td><a href="#">上移</a><a href="#">下移</a><a href="#">修改密码</a><a href="#">删除</a></td>
+        </tr>
+    	<tr>
+        	<th><label><input type="checkbox">10001</label></th>
+            <td>网站名称网站名称</td>
+            <td><a href="http://www.baidu.com">http://www.baidu.com</a></td>
+            <td><a href="#">上移</a><a href="#">下移</a><a href="#">修改密码</a><a href="#">删除</a></td>
+        </tr>
+    	<tr>
+        	<th><label><input type="checkbox">10001</label></th>
+            <td>网站名称网站名称</td>
+            <td><a href="http://www.baidu.com">http://www.baidu.com</a></td>
+            <td><a href="#">上移</a><a href="#">下移</a><a href="#">修改密码</a><a href="#">删除</a></td>
+        </tr>
+    </tbody>
+    <caption>
+    	<input type="button" value="全选" class="checkAll">
+    	<input type="button" value="反选" class="checkNeg">
+        <div class="Pages">
+        	<span>5874条结果，共294页</span>
+            <a href="#">首页</a>
+            <a href="#">上一页</a>
+            <a href="#">1</a>
+            <a href="#" class="cur">2</a>
+            <a href="#">3</a>
+            <a href="#">...</a>
+            <a href="#">294</a>
+            <a href="#">下一页</a>
+            <a href="#">尾页</a>
+        </div>
+    </caption>
+</table></div>
+
+
+<table class="FullScreenPlugin black5"><tr><td>
+	<dl class="CENTERDIV CenterSmall LinkAdd" data-active=".button.alone">
+    	<dt><b>添加友情链接</b><q>&times;</q></dt>
+        <dd><table class="CenterTableFull">
+            <tbody>
+                <tr><th width="80">网站名称：</th><td><input type="text" class="text full"></td></tr>
+                <tr><th>链接：</th><td><input type="text" class="text full"></td></tr>
+            </tbody>
+            <tfoot><tr><td colspan="2">
+                <input type="button" class="submit" value="确认添加">
+                <input type="button" class="cancel" value="取消">
+            </td></tr></tfoot>
+        </table></dd>
+    </dl>
+</td></tr></table>
+</body>
+</html>
+<script src="../js/v2/admin/jquery2.js"></script>
+<script src="../js/jbody.js"></script>
+<script src="../js/jbody-plugin.js"></script>
+<script src="../js/area.js"></script>
+<script src="../js/subjects.js"></script>
+<script src="../js/v2/admin/all.js"></script>
+<script>
+$(".LinkAdd .submit").click(function(){
+	//添加管理员
+});
+</script>

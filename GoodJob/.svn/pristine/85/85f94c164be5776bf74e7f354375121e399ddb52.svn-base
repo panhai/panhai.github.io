@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>企业中心-账号管理-简历通知模板设置-拒绝校企合作</title>
+</head>
+<link rel="stylesheet" type="text/css" href="../css/Company/css.css">
+<link rel="stylesheet" type="text/css" href="../css/Company/manage.css">
+<body>
+<div class="header"><div class="common">
+    <p>
+    	<a href="#">Admin</a> |
+        <a href="#">退出</a> |
+        <a href="#">切换后台</a> |
+        <a href="#">消息</a> |
+        <a href="#">反馈</a> |
+        <a href="#">帮助</a>
+    </p>
+</div></div>
+<div class="nav"><div class="common">
+	<a href="#" class="nav-logo"><img src="../images/CpCenter/logo.jpg" width="104" height="45"></a>
+	<ul>
+    	<li><a href="index.html">首页<i></i></a></li>
+    	<li><a href="profile.html">企业资料<i></i></a></li>
+    	<li><a href="favors.html">HR收藏<i></i></a></li>
+    	<li><a href="tools.html">实用工具<i></i></a></li>
+    	<li><a href="manage.html" class="cur">帐号管理<i></i></a></li>    </ul>
+        <div class="tool">
+    	<p><a href="publish.html">发布新职位</a></p>
+    	<p class="tool-pull">
+        	<span>校企合作邀请</span>
+        	<i></i>
+        	<samp>
+            	<a href="invite.html">校企合作邀请</a>
+            	<a href="invite-job.html">校企合作职位申请</a>
+            	<a href="invite-conf.html">宣讲会申请</a>
+            </samp>
+        </p>
+    </div>
+</div></div>
+
+<div class="main common">
+	<div class="left">
+    	<ul class="menus">
+        	<li>
+            	<h5><a href="manage.html">管理员帐号设置</a></h5>
+            	<h5><a href="manage-edit.html">修改帐号密码</a></h5>
+            	<h5><a href="manage-email.html">修改接收简历邮箱</a></h5>
+            	<h5><a href="manage-temps.html" class="cur">简历通知模板设置</a></h5>
+	        </li>
+        </ul>
+    </div>
+	<div class="right">
+    	<ol class="labels">
+        	<li><a href="manage-temps.html">邀请面试</a></li>
+        	<li class="cur"><a href="manage-temps-notmatch.html">不合适</a></li>
+        	<li><a href="manage-temps-refuse.html">拒绝校企合作</a></li>
+            <li><a href="manage-temps-refuse-conf.html">拒绝宣讲会</a></li>
+        </ol>
+		
+        <p class="add"><a href="#">增加模板（1/5）</a></p>
+        
+        <dl class="template">
+        	<dt>
+            	<h2>常用模板</h2>
+                <tt>默认模板</tt>
+                <q><a href="#">修改</a>|<a href="#">删除</a></q>
+            </dt>
+            <dd>
+                <p><strong>非常荣幸收到您的简历，在我们仔细阅读您的简历之后，却不得不很遗憾的通知您：您的简历与该职位的定位有些不匹配，因此无法进入面试。但您的信息已录入我司人才储备库，当有合适您的职位开放时我们将第一时间联系您，希望在未来我们有机会成为一起拼搏的同事；再次感谢您对我们的信任，祝您早日找到满意的工作。</strong></p>
+            </dd>
+        </dl>
+        
+        <form><ul class="publish">
+        	<li><var>模板名</var><dfn><input type="text" class="text" placeholder="15个字以内，内容不发给用户，仅用来选择模板"></dfn></li>
+        	<li><var>内容</var><dfn><textarea class="text high"></textarea></dfn></li>
+            <li class="btns">
+            	<input value="保存模板" class="submit" type="submit">
+            	<input value="取消模板" class="reset" type="reset">
+            </li>
+        </ul></form>
+    </div>
+	<div class="clear"></div>
+</div>
+
+<div class="footer">
+	<div class="common tail">
+        <samp class="tail-nav">
+            <a href="#" class="first">关于我们</a>
+            <a href="#">法律声明</a>
+            <a href="#">保密承诺</a>
+            <a href="#">Investor Relatiao</a>
+            <a href="#">关于我们</a>
+        </samp>
+    </div>
+    <div class="common copyright">
+    	<p>京ICP备09083200号 京ICP证070419号 人才服务许可证：RC0710280</p>
+    	<p>Copyright&copy;2000-2014 liepin.com All Rights Reserved</p>
+    </div>
+</div>
+
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/company/all.js"></script>
+<script src="../js/company/favors.js"></script>
+<script>
+$(function(){	LeftMenu();
+    ToolPull();
+});
+</script>

@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>班级签到情况</title>
+    <link rel="stylesheet" type="text/css" href="../css/v2/School/all.css" />
+</head>
+<!--[if IE 6]>
+<script src="../js/UCenter/png.js"></script>
+<script type="text/javascript">
+    DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+<body>
+    <div class="header">
+        <div class="header-in">
+            <div class="logo">
+                <a href="">
+                    <img src="../images/v2/school/logo.jpg" alt="">
+                </a>
+                <span>就业网管理系统</span>
+            </div>
+            <div class="header-top">
+                Admin,  <a href="">退出</a> <a href="">好工作首页</a><a href="">学校招聘</a><a href="">平台管理后台</a>
+            </div>
+        </div>
+        <div class="header-nav">
+            <p> <p><a href="index.html">首页</a> <a href="contents.html">网站内容管理</a> <a href="manage-admin.html">系统管理</a> <a href="total.html">统计分析</a> <a href="" class="cur">学生管理</a></p>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="main-l">
+            <div class="main-in">
+                <h2>班级管理<i></i></h2>
+                <ul>
+                    <li><a href="Class-manage.html">班级信息管理</a> <i></i></li>
+                </ul>
+            </div>
+            <div class="main-in">
+                <h2>签到管理<i></i></h2>
+                <ul>
+                    <li class="cur"><a href="Student-Sign-Situation.html">班级签到情况</a><i></i></li>
+                    <li><a href="Student-Mat-Set.html">学生位置地图</a><i></i> </li>
+                </ul>
+            </div>
+        </div>
+        <div class="main-r">
+            <div class="main-r-t">
+                <p><a href="Class-manage.html">班级管理&nbsp;&nbsp;&nbsp;></a><a href="Student-Sign-Situation.html">班级签到情况&nbsp;&nbsp;&nbsp;></a><a
+                        href="Student-Sign-details.html" class="cur"> 查看详情</a></p>
+            </div>
+            <div class="bj-info">
+                <div class="bj-info-t">
+                    <div class="bj-info-l">
+                        <div class="date-ipt">
+                            <input type="text" value="2015-12-9" class="date" />
+                            <i class="data-icon"></i>
+                        </div>
+                    </div>
+                    <div class="bj-info-r">
+                        <div class="info-search">
+                            <span class="search-s">筛选学生 <i></i></span>
+                            <input type="text" placeholder="输入班级名称搜索" class="search">
+                            <input type="button" value="搜索" class="search-btn">
+                        </div>
+                    </div>
+                </div>
+                <div class="bj-size">
+                    <span><strong>机械自动化1班</strong>，共导入40名学生 </span><a href="Student-Sign-Situation.html">查看其它班级</a>
+                </div>
+                <div class="bj-Sign">
+                  <div class="Sign-m">
+                      <table class="Sign-in">
+                          <tbody>
+                          <tr>
+                              <td width="103" class="Sign-item-l">
+                                  <label class="info-check">
+                                      <input type="checkbox" group="infoCK" autocomplete="off" data-id='1'>
+                                  </label>
+                                  <b>罗艳军</b>
+                              </td>
+                              <td width="630" class="Sign-item-c">
+                                  <ul>
+                                      <li>
+                                          <div class="Sign-date">
+                                              <code class="tip-cg"></code>
+                                             <p>白天上班签到</p><span>（8:30 - 9:30）</span>
+                                          </div>
+                                          <div class="Sign-cz">
+                                              <span class="Sign-see" data-name='罗艳军' data-time="白天上班签到">查看签到</span>
+                                          </div>
+                                      </li>
+                                      <li>
+                                          <div class="Sign-date">
+                                              <code class="tip-sb"></code>
+                                             <p>晚上加班签到晚上加班签到签到</p><span>（20:30 - 21:30）</span>
+                                          </div>
+                                      </li>
+                                      <li>
+                                          <div class="Sign-date">
+                                              <code class="tip-wt"></code>
+                                              <p>晚上加班签到晚上加班签到签到签到</p><span>（20:30 - 21:30）</span>
+                                          </div>
+                                          <div class="Sign-cz">
+                                              <span class="Sign-see" data-name='罗艳军' data-time='晚上加班签到晚上加班签到签到'>查看签到</span>
+                                          </div>
+                                      </li>
+                                  </ul>
+                              </td>
+
+                          </tr>
+                          </tbody>
+                      </table>
+                      
+                      </div>
+                      <div class="Sign-m">
+                          <table class="Sign-in">
+                              <tbody>
+                              <tr>
+                                  <td width="101" class="Sign-item-l">
+                                      <label class="info-check">
+                                          <input type="checkbox" group="infoCK" autocomplete="off" >
+                                      </label>
+                                      <b>罗艳军</b>
+                                  </td>
+                                  <td width="628" class="Sign-item-c">
+                                      <ul>
+                                      <li>
+                                          <div class="Sign-date">
+                                              <code class="tip-sb"></code>
+                                              <p>晚上加班签到晚上加班签到签到</p><span>（20:30 - 21:30）</span>
+                                          </div>
+                                      </li>
+                                      </ul>
+                                  </td>
+                                  
+                              </tr>
+                              </tbody>
+                          </table>
+                       
+                          </div>
+                  </div>
+                  <div class="full-sign">
+                    <label class="info-check clearfix">
+                        <input type="checkbox" group="infoCK" autocomplete="off">
+                    </label><span>全选</span>  <span class="full-add cur">添加签到</span>    
+                  </div>
+                  </div>
+                <div class="bj-page">
+                    <a href="" class="bj-page-l"></a>
+                    <a href="">1</a>
+                    <a href="" class="cur">2</a>
+                    <a href="">3</a>
+                    <a href="">…</a>
+                    <a href="">9</a>
+                    <a href="">12</a>
+                    <a href="" class="bj-page-r"></a>
+                </div>
+            </div>
+        </div>
+   
+</body>
+
+<table class="FullScreenPlugin CenterDivContainer fixed fixed-top" style="display: none;"><tr><td>
+
+    <dl class="CENTERDIV CenterMiddle Sign-Set" data-active=".Add-Sign,.full-add" data-attrs='id'>
+        <dt class="CENTERTOPIC"><b>添加签到</b><q></q></dt>
+        <dd class="CENTERCONTENT">
+            <input type="hidden" data-attr='id'/>
+            <ul class="Sign-Set-in item">
+                <li>
+                    <span>签到名称</span>
+                    <dl class="SELECT Sign-full">
+                        <input type="hidden" />
+                    <dt><span>请选择</span><i></i></dt>
+                    <dd>
+                        <a data-id="1">已注册</a>
+                        <a data-id="2">未注册</a>
+                    </dd>
+                    </dl>
+                </li>
+                <li>
+                    <span>签到期限</span>
+                    <span class="Sign-date-in">
+                       <input type="text" placeholder='请选择' class="Sign-date-l">
+                      <i></i>
+                    </span>
+                    
+                    <b class="splice">—</b>
+                    <span class="Sign-date-in">
+                       <input type="text" placeholder='请选择' class="Sign-date-l">
+                      <i></i>
+                    </span>
+                  
+                </li>
+                <li>
+                    <span>具体时间点</span>
+                    <dl class="SELECT Sign-xl Sign-time">
+                        <input type="hidden" />
+                        <dt><span>请选择</span><i></i></dt>
+                        <dd>
+                         
+                        </dd>
+                    </dl>
+                   
+                    <b class="splice">—</b>
+                       <dl class="SELECT Sign-xl Sign-time">
+                        <input type="hidden" />
+                        <dt><span>请选择</span><i></i></dt>
+                        <dd>
+                         
+                        </dd>
+                    </dl>
+                </li>
+                <li>
+                    <span>签到位置</span>
+                   <!--  <dl class="SELECT Sign-middle address" data-placeholder="请输入详细地址">
+                       <dt><span><input type="text" id="company_address" class="addressVal" data-list="arrow"></span></dt>
+                       <dd class="normal">
+                           <div class="matches" data-list="datas"></div>
+                       </dd>
+                   </dl> -->
+                   <input type="text" id="company_address" class="addressVal" data-list="arrow" placeholder="请输入详细地址">
+                    <i class="location">定位</i>
+                </li>
+                </ul>
+            <div id="MapContainer"></div>
+            <div class="Sign-btn">
+                <input type="button" value="确认" class='confirm-btn' />
+                <input type="button" value="取消" class='cancel-btn'/>
+            </div>
+            
+        </dd>
+    </dl>
+
+    <!-- 没有签到设置时点击添加签到的窗口 -->
+    <dl class="CENTERDIV CenterMiddle Sign-Set" data-active=".Add-Sign2" data-attrs='id'>
+        <dt class="CENTERTOPIC"><b>添加签到</b><q></q></dt>
+        <dd class="CENTERCONTENT">
+            <input type="hidden" data-attr='id'/>
+            <ul class="Sign-Set-in item">
+                <li>
+                    <span>签到名称</span>
+                    <dl class="SELECT Sign-full" data-anchor='save'>
+                        <input type="hidden" />
+                    <dt><span>请选择</span><i></i></dt>
+                    <dd>
+                        <a href="Sign-Set.html" >未设置签到，前往<span class="cur">设置</span></a>
+                  
+                    </dd>
+                    </dl>
+                </li>
+                <li>
+                    <span>签到期限</span>
+                    <span class="Sign-date-in">
+                       <input type="text" placeholder='请选择' class="Sign-date-l">
+                      <i></i>
+                    </span>
+                    
+                    <b class="splice">—</b>
+                    <span class="Sign-date-in">
+                       <input type="text" placeholder='请选择' class="Sign-date-l">
+                      <i></i>
+                    </span>
+                  
+                </li>
+                <li>
+                    <span>具体时间点</span>
+                    <dl class="SELECT Sign-xl Sign-time">
+                        <input type="hidden" />
+                        <dt><span>请选择</span><i></i></dt>
+                        <dd>
+                         
+                        </dd>
+                    </dl>
+                   
+                    <b class="splice">—</b>
+                       <dl class="SELECT Sign-xl Sign-time">
+                        <input type="hidden" />
+                        <dt><span>请选择</span><i></i></dt>
+                        <dd>
+                         
+                        </dd>
+                    </dl>
+                </li>
+                <li>
+                    <span>签到位置</span>
+                   <!--  <dl class="SELECT Sign-middle address" data-placeholder="请输入详细地址">
+                       <dt><span><input type="text" id="company_address" class="addressVal" data-list="arrow"></span></dt>
+                       <dd class="normal">
+                           <div class="matches" data-list="datas"></div>
+                       </dd>
+                   </dl> -->
+                   <input type="text" id="company_address" class="addressVal" data-list="arrow" placeholder="请输入详细地址">
+                    <i class="location">定位</i>
+                </li>
+                </ul>
+            <div id="MapContainer"></div>
+            <div class="Sign-btn">
+                <input type="button" value="确认" class='confirm-btn' />
+                <input type="button" value="取消" class='cancel-btn'/>
+            </div>
+            
+        </dd>
+    </dl>
+    <dl class="CENTERDIV CenterLong Sign-CK" data-active=".Sign-see" data-attrs='name,time'>
+        <dt class="CENTERTOPIC">
+        
+        <q></q></dt>
+         <dd class="CENTERCONTENT">
+          <div class="See-info-l">
+           <span data-attr='time' class="stu-addres"></span>
+           <span data-attr='name' class='stu-name cursor'></span><span class='cursor'>签到已通过<em>（相距500m）</em></span>
+         </div>
+         <div class="See-info-r">
+          <span>设置为问题签到</span>    
+          <span class="See-ly">查看留言&nbsp;<i></i></span>
+           <div class="Message">
+             <p>留言：今天有事外出，已向老师请假！</p>
+             <i></i>
+           </div>
+        </div>
+            <div id="MapContainer2"></div>
+         </dd>
+    </dl>
+    <dl class="CENTERDIV CenterTiny Search" data-active='.search-s'>
+        <dt class="CENTERTOPIC"><b>筛选学生</b><q></q></dt>
+        <dd class="CENTERCONTENT">
+          <ul class="item filter-s">
+            <li>
+              <span>签到数量</span>
+              <dl class="SELECT">
+                <input type="hidden" />
+                <dt><span>请选择</span><i></i></dt>
+                <dd>
+                    <a data-id="1">1个</a>
+                    <a data-id="2">2个</a>
+                    <a data-id="3">3个</a>
+                    <a data-id="0">3个以上</a>
+                </dd>
+              </dl>
+            </li>
+            <li>
+              <span>签到情况</span>
+               <dl class="SELECT">
+                <input type="hidden" />
+                <dt><span>请选择</span><i></i></dt>
+                <dd>
+                    <a data-id="1">通过签到</a>
+                    <a data-id="2">有问题签到</a>
+                    <a data-id="3">有未签到</a>
+                </dd>
+              </dl>
+            </li>
+          </ul>
+          <div class="Sign-btn">
+                <input type="button" value="确认" class='confirm-btn' />
+              
+            </div>
+        </dd>
+    </dl>
+</td></tr></table>
+<script src="../js/jquery.js"></script>
+<script src="../js/v2/all.js"></script>
+<script src="../js/effect/bg.js"></script>
+<script src="../js/plugin/CenterDiv.js"></script>
+<script src="../js/jbody.js"></script>
+<script src="http://api.map.baidu.com/api?v=2.0&ak=OlGzoCwcKN9OvM16T9RnFwOl"></script>
+<script src="../js/plugin/BaiduMap.js"></script>
+<script src="../js/jbody.js"></script>
+<script src="../js/school/sign.js"></script>
+<script>
+$(function(){
+   $(".date").click(function(){
+        JBCalendar.show(this);
+    })
+    var Map=BaiduMap("MapContainer",{editable:true});
+    $(".location").click(function(){
+        Map.search($(".addressVal").val());
+    })
+    var Map2=BaiduMap("MapContainer2",{editable:true});
+    $(".See-ly").click(function(){
+      if($(this).hasClass('off')){
+          $(".Message").show();
+          $(this).removeClass('off')
+       }else{
+          $(".Message").hide();
+          $(this).addClass('off')
+       }
+    }
+    );
+    $(".Message i").click(function(){
+        $(".Message").hide();
+        $(".See-ly").addClass("off");
+    });
+    $(".Sign-date-l").click(function(){
+       JBCalendar.show(this);
+    })
+// 时间段选择
+    var str = [];
+    for(var i=9; i <= 21; i++){
+      for(var j =0; j <= 50; j+=10){
+         if(j ==0 ){
+           str.push('<a data-id="'+i+','+j+'0'+'">'+i+':'+j+'0'+'</a>');
+         }else{
+          str.push('<a data-id="'+i+','+j+'">'+i+':'+j+'</a>');
+         }
+         if(i==21){
+            if(j<10){
+              break;
+            }
+         }
+      }
+    }
+    $(".Sign-time dd").html(str.join(''))
+
+ 
+});
+   
+</script>
+</html>

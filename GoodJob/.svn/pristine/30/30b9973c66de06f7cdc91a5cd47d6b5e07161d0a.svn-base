@@ -1,0 +1,474 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>就业网-首页</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/schooljob/css.css">
+<link rel="stylesheet" type="text/css" href="css/schooljob/index.css">
+<body>
+<div class="header common">
+	<div class="logo"><img src="images/schools/logo.jpg" width="285" height="64"><small>就业信息网</small></div>
+    <div class="logo-all"><img src="images/schools/logo-all.jpg" width="84" height="46"></div>
+</div>
+<div class="nav"><div class="common">
+	<ul>
+        <li class="cur"><a href="school-index.html">首页</a></li>
+        <li><a href="#">学校简介</a></li>
+        <li><a href="school-job-fulltime.html">校园招聘</a></li>
+        <li><a href="school-coop-index.html">校企合作</a></li>
+        <li><a href="#">新闻动态</a></li>
+        <li><a href="#">就业政策</a></li>
+        <li><a href="#">就业指导</a></li>
+	</ul>
+    <ol>
+    	<li class="cur"><a href="#">学校主页</a></li>
+    </ol>
+</div></div>
+
+<div class="common">
+	<div class="PPT">
+        <ul>
+            <li><a href="#"><img src="images/schools/index/ban.jpg" width="740" height="300"></a></li>
+            <li><a href="#"><img src="images/schools/index/ban.jpg" width="740" height="300"></a></li>
+            <li><a href="#"><img src="images/schools/index/ban.jpg" width="740" height="300"></a></li>
+            <li><a href="#"><img src="images/schools/index/ban.jpg" width="740" height="300"></a></li>
+        </ul>
+        <p><span></span><span></span><span></span><span></span></p>
+    </div>
+    <dl class="logins">
+    	<dt><b class="cur">用户登陆</b><b>管理员登陆</b></dt>
+        <dd>
+        	<div>
+            	<p><input type="text" class="text t-l" placeholder="邮箱/用户名"></p>
+            	<p><input type="password" class="text t-l" placeholder="密码"></p>
+            	<p>
+                    <a onClick="" href="#" class="f-r">换一张</a>
+                	<input type="text" class="text t-s" placeholder="验证码">
+                    <img src="images/schools/index/vcode.jpg" width="60" height="17">
+                </p>
+                <q>
+                	<label><input type="checkbox"> 一周内自动登陆</label>
+                    <a href="#" class="f-r">忘记密码</a>
+                </q>
+                <q><input type="submit" class="submit" value="登  陆"></q>
+                <q class="last"><a href="#">学生注册</a>|<a>企业注册</a></q>
+            </div>
+        	<div>
+            	<p><input type="text" class="text t-l"></p>
+            	<p><input type="password" class="text t-l"></p>
+            	<p>
+                    <a onClick="" href="#" class="f-r">换一张</a>
+                	<input type="text" class="text t-s">
+                    <img src="images/schools/index/vcode.jpg" width="60" height="17">
+                </p>
+                <q>
+                	<label><input type="checkbox"> 一周内自动登陆</label>
+                    <a href="#" class="f-r">忘记密码</a>
+                </q>
+                <q><input type="submit" class="submit" value="登  陆"></q>
+            </div>
+        </dd>
+    </dl>
+    
+    <dl class="Infors blocks">
+    	<dt>
+        	<h3 class="cur">全职招聘<i></i></h3><h3>实习招聘<i></i></h3><h3>宣讲会<i></i></h3>
+            <a href="#" class="more blue"><i></i>more</a>
+        </dt>
+        <dd>
+        	<ul>
+            	<li class="odd">
+                	<div class="Infors-job">
+                    	<h4><a href="#">主播运营经理11111</a></h4>
+                        <p>月薪：<b>3000-6000</b></p>
+                        <p>学历：<b>大专/本科</b></p>
+                    </div>
+                    <div class="Infors-company">
+                    	<h5><a href="#">广州冠鹏信息技术有限公司 <img src="images/schools/ico-school.jpg" width="14" height="14"></a></h5>
+                        <p>领域：<b>互联网/媒体平台</b></p>
+                        <p>发布时间：<b>2014-12-23</b></p>
+                    </div>
+                </li>
+            	<li>
+                	<div class="Infors-job">
+                    	<h4><a href="#">主播运营经理</a></h4>
+                        <p>月薪：<b>3000-6000</b></p>
+                        <p>学历：<b>大专/本科</b></p>
+                    </div>
+                    <div class="Infors-company">
+                    	<h5><a href="#">广州冠鹏信息技术有限公司 <img src="images/schools/ico-school.jpg" width="14" height="14"></a></h5>
+                        <p>领域：<b>互联网/媒体平台</b></p>
+                        <p>发布时间：<b>2014-12-23</b></p>
+                    </div>
+                </li>
+            	<li class="odd">
+                	<div class="Infors-job">
+                    	<h4><a href="#">主播运营经理</a></h4>
+                        <p>月薪：<b>3000-6000</b></p>
+                        <p>学历：<b>大专/本科</b></p>
+                    </div>
+                    <div class="Infors-company">
+                    	<h5><a href="#">广州冠鹏信息技术有限公司 <img src="images/schools/ico-school.jpg" width="14" height="14"></a></h5>
+                        <p>领域：<b>互联网/媒体平台</b></p>
+                        <p>发布时间：<b>2014-12-23</b></p>
+                    </div>
+                </li>
+            	<li>
+                	<div class="Infors-job">
+                    	<h4><a href="#">主播运营经理</a></h4>
+                        <p>月薪：<b>3000-6000</b></p>
+                        <p>学历：<b>大专/本科</b></p>
+                    </div>
+                    <div class="Infors-company">
+                    	<h5><a href="#">广州冠鹏信息技术有限公司 <img src="images/schools/ico-school.jpg" width="14" height="14"></a></h5>
+                        <p>领域：<b>互联网/媒体平台</b></p>
+                        <p>发布时间：<b>2014-12-23</b></p>
+                    </div>
+                </li>
+            	<li class="odd">
+                	<div class="Infors-job">
+                    	<h4><a href="#">主播运营经理</a></h4>
+                        <p>月薪：<b>3000-6000</b></p>
+                        <p>学历：<b>大专/本科</b></p>
+                    </div>
+                    <div class="Infors-company">
+                    	<h5><a href="#">广州冠鹏信息技术有限公司 <img src="images/schools/ico-school.jpg" width="14" height="14"></a></h5>
+                        <p>领域：<b>互联网/媒体平台</b></p>
+                        <p>发布时间：<b>2014-12-23</b></p>
+                    </div>
+                </li>
+            	<li>
+                	<div class="Infors-job">
+                    	<h4><a href="#">主播运营经理</a></h4>
+                        <p>月薪：<b>3000-6000</b></p>
+                        <p>学历：<b>大专/本科</b></p>
+                    </div>
+                    <div class="Infors-company">
+                    	<h5><a href="#">广州冠鹏信息技术有限公司 <img src="images/schools/ico-school.jpg" width="14" height="14"></a></h5>
+                        <p>领域：<b>互联网/媒体平台</b></p>
+                        <p>发布时间：<b>2014-12-23</b></p>
+                    </div>
+                </li>
+            	<li class="odd">
+                	<div class="Infors-job">
+                    	<h4><a href="#">主播运营经理</a></h4>
+                        <p>月薪：<b>3000-6000</b></p>
+                        <p>学历：<b>大专/本科</b></p>
+                    </div>
+                    <div class="Infors-company">
+                    	<h5><a href="#">广州冠鹏信息技术有限公司 <img src="images/schools/ico-school.jpg" width="14" height="14"></a></h5>
+                        <p>领域：<b>互联网/媒体平台</b></p>
+                        <p>发布时间：<b>2014-12-23</b></p>
+                    </div>
+                </li>
+            	<li>
+                	<div class="Infors-job">
+                    	<h4><a href="#">主播运营经理</a></h4>
+                        <p>月薪：<b>3000-6000</b></p>
+                        <p>学历：<b>大专/本科</b></p>
+                    </div>
+                    <div class="Infors-company">
+                    	<h5><a href="#">广州冠鹏信息技术有限公司 <img src="images/schools/ico-school.jpg" width="14" height="14"></a></h5>
+                        <p>领域：<b>互联网/媒体平台</b></p>
+                        <p>发布时间：<b>2014-12-23</b></p>
+                    </div>
+                </li>
+            </ul>
+        	<ul>
+            	<li class="odd">
+                	<div class="Infors-job">
+                    	<h4><a href="#">主播运营经理22222</a></h4>
+                        <p>月薪：<b>3000-6000</b></p>
+                        <p>学历：<b>大专/本科</b></p>
+                    </div>
+                    <div class="Infors-company">
+                    	<h5><a href="#">广州冠鹏信息技术有限公司 <img src="images/schools/ico-school.jpg" width="14" height="14"></a></h5>
+                        <p>领域：<b>互联网/媒体平台</b></p>
+                        <p>发布时间：<b>2014-12-23</b></p>
+                    </div>
+                </li>
+            	<li>
+                	<div class="Infors-job">
+                    	<h4><a href="#">主播运营经理</a></h4>
+                        <p>月薪：<b>3000-6000</b></p>
+                        <p>学历：<b>大专/本科</b></p>
+                    </div>
+                    <div class="Infors-company">
+                    	<h5><a href="#">广州冠鹏信息技术有限公司 <img src="images/schools/ico-school.jpg" width="14" height="14"></a></h5>
+                        <p>领域：<b>互联网/媒体平台</b></p>
+                        <p>发布时间：<b>2014-12-23</b></p>
+                    </div>
+                </li>
+            	<li class="odd">
+                	<div class="Infors-job">
+                    	<h4><a href="#">主播运营经理</a></h4>
+                        <p>月薪：<b>3000-6000</b></p>
+                        <p>学历：<b>大专/本科</b></p>
+                    </div>
+                    <div class="Infors-company">
+                    	<h5><a href="#">广州冠鹏信息技术有限公司 <img src="images/schools/ico-school.jpg" width="14" height="14"></a></h5>
+                        <p>领域：<b>互联网/媒体平台</b></p>
+                        <p>发布时间：<b>2014-12-23</b></p>
+                    </div>
+                </li>
+            	<li>
+                	<div class="Infors-job">
+                    	<h4><a href="#">主播运营经理</a></h4>
+                        <p>月薪：<b>3000-6000</b></p>
+                        <p>学历：<b>大专/本科</b></p>
+                    </div>
+                    <div class="Infors-company">
+                    	<h5><a href="#">广州冠鹏信息技术有限公司 <img src="images/schools/ico-school.jpg" width="14" height="14"></a></h5>
+                        <p>领域：<b>互联网/媒体平台</b></p>
+                        <p>发布时间：<b>2014-12-23</b></p>
+                    </div>
+                </li>
+            	<li class="odd">
+                	<div class="Infors-job">
+                    	<h4><a href="#">主播运营经理</a></h4>
+                        <p>月薪：<b>3000-6000</b></p>
+                        <p>学历：<b>大专/本科</b></p>
+                    </div>
+                    <div class="Infors-company">
+                    	<h5><a href="#">广州冠鹏信息技术有限公司 <img src="images/schools/ico-school.jpg" width="14" height="14"></a></h5>
+                        <p>领域：<b>互联网/媒体平台</b></p>
+                        <p>发布时间：<b>2014-12-23</b></p>
+                    </div>
+                </li>
+            	<li>
+                	<div class="Infors-job">
+                    	<h4><a href="#">主播运营经理</a></h4>
+                        <p>月薪：<b>3000-6000</b></p>
+                        <p>学历：<b>大专/本科</b></p>
+                    </div>
+                    <div class="Infors-company">
+                    	<h5><a href="#">广州冠鹏信息技术有限公司 <img src="images/schools/ico-school.jpg" width="14" height="14"></a></h5>
+                        <p>领域：<b>互联网/媒体平台</b></p>
+                        <p>发布时间：<b>2014-12-23</b></p>
+                    </div>
+                </li>
+            	<li class="odd">
+                	<div class="Infors-job">
+                    	<h4><a href="#">主播运营经理</a></h4>
+                        <p>月薪：<b>3000-6000</b></p>
+                        <p>学历：<b>大专/本科</b></p>
+                    </div>
+                    <div class="Infors-company">
+                    	<h5><a href="#">广州冠鹏信息技术有限公司 <img src="images/schools/ico-school.jpg" width="14" height="14"></a></h5>
+                        <p>领域：<b>互联网/媒体平台</b></p>
+                        <p>发布时间：<b>2014-12-23</b></p>
+                    </div>
+                </li>
+            	<li>
+                	<div class="Infors-job">
+                    	<h4><a href="#">主播运营经理</a></h4>
+                        <p>月薪：<b>3000-6000</b></p>
+                        <p>学历：<b>大专/本科</b></p>
+                    </div>
+                    <div class="Infors-company">
+                    	<h5><a href="#">广州冠鹏信息技术有限公司 <img src="images/schools/ico-school.jpg" width="14" height="14"></a></h5>
+                        <p>领域：<b>互联网/媒体平台</b></p>
+                        <p>发布时间：<b>2014-12-23</b></p>
+                    </div>
+                </li>
+            </ul>
+        	<ul>
+            	<li class="odd">
+                	<div class="Infors-job">
+                    	<h4><a href="#">主播运营经理44444</a></h4>
+                        <p>月薪：<b>3000-6000</b></p>
+                        <p>学历：<b>大专/本科</b></p>
+                    </div>
+                    <div class="Infors-company">
+                    	<h5><a href="#">广州冠鹏信息技术有限公司 <img src="images/schools/ico-school.jpg" width="14" height="14"></a></h5>
+                        <p>领域：<b>互联网/媒体平台</b></p>
+                        <p>发布时间：<b>2014-12-23</b></p>
+                    </div>
+                </li>
+            	<li>
+                	<div class="Infors-job">
+                    	<h4><a href="#">主播运营经理</a></h4>
+                        <p>月薪：<b>3000-6000</b></p>
+                        <p>学历：<b>大专/本科</b></p>
+                    </div>
+                    <div class="Infors-company">
+                    	<h5><a href="#">广州冠鹏信息技术有限公司 <img src="images/schools/ico-school.jpg" width="14" height="14"></a></h5>
+                        <p>领域：<b>互联网/媒体平台</b></p>
+                        <p>发布时间：<b>2014-12-23</b></p>
+                    </div>
+                </li>
+            	<li class="odd">
+                	<div class="Infors-job">
+                    	<h4><a href="#">主播运营经理</a></h4>
+                        <p>月薪：<b>3000-6000</b></p>
+                        <p>学历：<b>大专/本科</b></p>
+                    </div>
+                    <div class="Infors-company">
+                    	<h5><a href="#">广州冠鹏信息技术有限公司 <img src="images/schools/ico-school.jpg" width="14" height="14"></a></h5>
+                        <p>领域：<b>互联网/媒体平台</b></p>
+                        <p>发布时间：<b>2014-12-23</b></p>
+                    </div>
+                </li>
+            	<li>
+                	<div class="Infors-job">
+                    	<h4><a href="#">主播运营经理</a></h4>
+                        <p>月薪：<b>3000-6000</b></p>
+                        <p>学历：<b>大专/本科</b></p>
+                    </div>
+                    <div class="Infors-company">
+                    	<h5><a href="#">广州冠鹏信息技术有限公司 <img src="images/schools/ico-school.jpg" width="14" height="14"></a></h5>
+                        <p>领域：<b>互联网/媒体平台</b></p>
+                        <p>发布时间：<b>2014-12-23</b></p>
+                    </div>
+                </li>
+            	<li class="odd">
+                	<div class="Infors-job">
+                    	<h4><a href="#">主播运营经理</a></h4>
+                        <p>月薪：<b>3000-6000</b></p>
+                        <p>学历：<b>大专/本科</b></p>
+                    </div>
+                    <div class="Infors-company">
+                    	<h5><a href="#">广州冠鹏信息技术有限公司 <img src="images/schools/ico-school.jpg" width="14" height="14"></a></h5>
+                        <p>领域：<b>互联网/媒体平台</b></p>
+                        <p>发布时间：<b>2014-12-23</b></p>
+                    </div>
+                </li>
+            	<li>
+                	<div class="Infors-job">
+                    	<h4><a href="#">主播运营经理</a></h4>
+                        <p>月薪：<b>3000-6000</b></p>
+                        <p>学历：<b>大专/本科</b></p>
+                    </div>
+                    <div class="Infors-company">
+                    	<h5><a href="#">广州冠鹏信息技术有限公司 <img src="images/schools/ico-school.jpg" width="14" height="14"></a></h5>
+                        <p>领域：<b>互联网/媒体平台</b></p>
+                        <p>发布时间：<b>2014-12-23</b></p>
+                    </div>
+                </li>
+            	<li class="odd">
+                	<div class="Infors-job">
+                    	<h4><a href="#">主播运营经理</a></h4>
+                        <p>月薪：<b>3000-6000</b></p>
+                        <p>学历：<b>大专/本科</b></p>
+                    </div>
+                    <div class="Infors-company">
+                    	<h5><a href="#">广州冠鹏信息技术有限公司 <img src="images/schools/ico-school.jpg" width="14" height="14"></a></h5>
+                        <p>领域：<b>互联网/媒体平台</b></p>
+                        <p>发布时间：<b>2014-12-23</b></p>
+                    </div>
+                </li>
+            	<li>
+                	<div class="Infors-job">
+                    	<h4><a href="#">主播运营经理</a></h4>
+                        <p>月薪：<b>3000-6000</b></p>
+                        <p>学历：<b>大专/本科</b></p>
+                    </div>
+                    <div class="Infors-company">
+                    	<h5><a href="#">广州冠鹏信息技术有限公司 <img src="images/schools/ico-school.jpg" width="14" height="14"></a></h5>
+                        <p>领域：<b>互联网/媒体平台</b></p>
+                        <p>发布时间：<b>2014-12-23</b></p>
+                    </div>
+                </li>
+            </ul>
+        </dd>
+    </dl>
+    
+    <dl class="News blocks news">
+    	<dt><h3 class="cur">新闻动态<i></i></h3><a href="#" class="more gray"><i></i>more</a></dt>
+        <dd>
+        	<div><a href="#"><img src="images/schools/index/news.jpg" width="220" height="164"></a></div>
+            <ul>
+            	<li><a href="#"><i>12-23</i>新闻动态新闻动态新闻动态新闻动态</a></li>
+            	<li><a href="#"><i>12-23</i>新闻动态新闻动态新闻动态新闻动态</a></li>
+            	<li><a href="#"><i>12-23</i>新闻动态新闻动态新闻动态新闻动态</a></li>
+                <!--有图3条，没图8条-->
+            	<!--<li><a href="#"><i>12-23</i>新闻动态新闻动态新闻动态新闻动态</a></li>
+            	<li><a href="#"><i>12-23</i>新闻动态新闻动态新闻动态新闻动态</a></li>
+            	<li><a href="#"><i>12-23</i>新闻动态新闻动态新闻动态新闻动态</a></li>
+            	<li><a href="#"><i>12-23</i>新闻动态新闻动态新闻动态新闻动态</a></li>
+            	<li><a href="#"><i>12-23</i>新闻动态新闻动态新闻动态新闻动态</a></li>-->
+            </ul>
+        </dd>
+    </dl>
+    
+    <dl class="Notices blocks news">
+    	<dt><h3 class="cur">事务公告<i></i></h3><a href="#" class="more gray"><i></i>more</a></dt>
+        <dd>
+            <ul>
+            	<li><a href="#"><i>12-23</i>新闻动态新闻动态新闻动态新闻动态</a></li>
+            	<li><a href="#"><i>12-23</i>新闻动态新闻动态新闻动态新闻动态</a></li>
+            	<li><a href="#"><i>12-23</i>新闻动态新闻动态新闻动态新闻动态</a></li>
+            	<li><a href="#"><i>12-23</i>新闻动态新闻动态新闻动态新闻动态</a></li>
+            </ul>
+        </dd>
+    </dl>
+    
+    <dl class="Partners blocks">
+    	<dt><h3 class="cur">合作企业<i></i></h3><a href="#" class="more blue"><i></i>more</a></dt>
+        <dd><ul>
+        	<li><a href="#"><img src="images/schools/logos/1.jpg" width="64" height="46"></a></li>
+        	<li><a href="#"><img src="images/schools/logos/2.jpg" width="72" height="47"></a></li>
+        	<li><a href="#"><img src="images/schools/logos/3.jpg" width="76" height="43"></a></li>
+        	<li><a href="#"><img src="images/schools/logos/4.jpg" width="86" height="43"></a></li>
+        	<li><a href="#"><img src="images/schools/logos/5.jpg" width="78" height="23"></a></li>
+        	<li><a href="#"><img src="images/schools/logos/6.jpg" width="64" height="38"></a></li>
+        	<li><a href="#"><img src="images/schools/logos/7.jpg" width="95" height="34"></a></li>
+        	<li><a href="#"><img src="images/schools/logos/8.jpg" width="55" height="42"></a></li>
+        	<li><a href="#"><img src="images/schools/logos/9.jpg" width="72" height="45"></a></li>
+        	<li><a href="#"><img src="images/schools/logos/10.jpg" width="84" height="48"></a></li>
+        	<li><a href="#"><img src="images/schools/logos/11.jpg" width="94" height="27"></a></li>
+        	<li><a href="#"><img src="images/schools/logos/12.jpg" width="86" height="35"></a></li>
+        	<li><a href="#"><img src="images/schools/logos/1.jpg" width="64" height="46"></a></li>
+        	<li><a href="#"><img src="images/schools/logos/2.jpg" width="72" height="47"></a></li>
+        	<li><a href="#"><img src="images/schools/logos/3.jpg" width="76" height="43"></a></li>
+        	<li><a href="#"><img src="images/schools/logos/4.jpg" width="86" height="43"></a></li>
+        	<li><a href="#"><img src="images/schools/logos/5.jpg" width="78" height="23"></a></li>
+        	<li><a href="#"><img src="images/schools/logos/6.jpg" width="64" height="38"></a></li>
+        	<li><a href="#"><img src="images/schools/logos/7.jpg" width="95" height="34"></a></li>
+        	<li><a href="#"><img src="images/schools/logos/8.jpg" width="55" height="42"></a></li>
+        	<li><a href="#"><img src="images/schools/logos/9.jpg" width="72" height="45"></a></li>
+        	<li><a href="#"><img src="images/schools/logos/10.jpg" width="84" height="48"></a></li>
+        	<li><a href="#"><img src="images/schools/logos/11.jpg" width="94" height="27"></a></li>
+        	<li><a href="#"><img src="images/schools/logos/12.jpg" width="86" height="35"></a></li>
+        </ul></dd>
+    </dl>
+    
+    <ul class="Links">
+    	<li><a href="#"><img src="images/schools/index/forum1.jpg" width="210" height="66"></a></li>
+    	<li><a href="#"><img src="images/schools/index/forum3.jpg" width="210" height="66"></a></li>
+    	<li><a href="#"><img src="images/schools/index/forum4.jpg" width="210" height="66"></a></li>
+    	<li><a href="#"><img src="images/schools/index/forum2.jpg" width="210" height="66"></a></li>
+    	<li><img src="images/schools/index/link.jpg" width="210" height="80" border="0" usemap="#Map"></li>
+    </ul>
+    
+    <div class="clear Adv"><a href="#"><img src="images/schools/index/adv.jpg" width="1000" height="90"></a></div>
+</div>
+
+<div class="footer"><div class="common">
+	<p>友情链接：<a href="#" target="_blank">友情链接</a>&nbsp;<a href="#" target="_blank">友情链接</a>&nbsp;<a href="#" target="_blank">友情链接</a>&nbsp;<a href="#" target="_blank">友情链接</a>&nbsp;<a href="#" target="_blank">友情链接</a>&nbsp;<a href="#" target="_blank">友情链接</a>&nbsp;<a href="#" target="_blank">友情链接</a>&nbsp;<a href="#" target="_blank">友情链接</a>&nbsp;<a href="#" target="_blank">友情链接</a>&nbsp;<a href="#" target="_blank">友情链接</a>&nbsp;<a href="#" target="_blank">友情链接</a>&nbsp;<a href="#" target="_blank">友情链接</a>&nbsp;<a href="#" target="_blank">友情链接</a>&nbsp;<a href="#" target="_blank">友情链接</a>&nbsp;<a href="#" target="_blank">友情链接</a>&nbsp;<a href="#" target="_blank">友情链接</a>&nbsp;<a href="#" target="_blank">友情链接</a>&nbsp;<a href="#" target="_blank">友情链接</a>&nbsp;<a href="#" target="_blank">友情链接</a>&nbsp;<a href="#" target="_blank">友情链接</a>&nbsp;<a href="#" target="_blank">友情链接</a>&nbsp;<a href="#" target="_blank">友情链接</a>&nbsp;<a href="#" target="_blank">友情链接</a>&nbsp;<a href="#" target="_blank">友情链接</a>&nbsp;<a href="#" target="_blank">友情链接</a>&nbsp;<a href="#" target="_blank">友情链接</a>&nbsp;<a href="#" target="_blank">友情链接</a>&nbsp;<a href="#" target="_blank">友情链接</a>&nbsp;<a href="#" target="_blank">友情链接</a>&nbsp;<a href="#" target="_blank">友情链接</a>&nbsp;<a href="#" target="_blank">友情链接</a>&nbsp;<a href="#" target="_blank">友情链接</a>&nbsp;</p>
+    <p>学生咨询热线：020-339029300&nbsp;&nbsp; 020-339029300&nbsp;&nbsp; 020-339029300 </p>
+    <p>Copyright2014 广东省商业职业技术学校就业指导中心</p>
+	<p>技术支持 广州冠鹏信息技术有限公司</p>
+</div></div>
+</body>
+<map name="Map">
+  <area shape="rect" coords="137,10,199,35" href="#">
+  <area shape="rect" coords="137,45,199,72" href="#">
+</map>
+</html>
+<script src="js/jquery.js"></script>
+<script src="js/web/all.js"></script>
+<script src="js/schooljob/index.js"></script>
+<script src="js/schools/movie.js"></script>
+<script src="js/schools/tab.js"></script>
+<script src="js/schools/correct.js"></script>
+<script>
+$(function(){
+	CHImovie(".PPT",'ul',{indices:'.PPT p'});
+	CHItab(".logins","dt b","dd div",{way:'click'});
+	CHItab(".Infors","dt h3","dd ul",{way:'click'});
+	CHIpros(".Partners ul","img",'',false);
+	Partners();
+});
+</script>

@@ -1,0 +1,113 @@
+/* 新的注册页，风格与主站不同，没办法引all.css */
+
+/* 整站通用样式 */
+*{ margin:0px; padding:0px; font-family:Microsoft YaHei, Arial;}
+ul,ol,li{ list-style:none;}
+q{ quotes:none;}
+a{ text-decoration:none; cursor:pointer;}
+a img{ border:0px;}
+.common{ width:1060px; margin:0 auto; clear:both;}
+body{ background-image:url(../../images/v2/login-bg.jpg); background-position:center top;}
+input::-ms-clear{ display:none;}
+:-moz-placeholder{ color:#999;}
+::-moz-placeholder{ color:#999;}
+:focus{ outline:none;}
+textarea{ resize:none !important;}
+.clear{ clear:both !important; float:none !important; zoom:1;}
+.clear:after{ content:''; display:block; clear:both; float:none;}
+table{ border-collapse:collapse; table-layout:fixed;}
+/*IE6 用absolute模拟fixed*/
+body{
+	/*_background-image: url(about:blank);     用浏览器空白页面作为背景*/
+	_background-attachment: fixed;     /* prevent screen flash in IE6 确保滚动条滚动时，元素不闪动*/
+}
+/*半透明背景*/
+.black5{ background-color:rgba(0,0,0,0.5); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4B000000,endColorstr=#4B000000);}
+.fixed{ position:fixed; _position:absolute;}
+.fixed-top{	top:0px; _top:expression(eval(document.documentElement.scrollTop));}
+.fixed-bottom{ bottom:0px; _bottom:auto; _top:expression(eval(document.documentElement.scrollTop + document.documentElement.clientHeight - this.clientHeight - (parseInt(this.currentStyle.marginTop) || 0) - (parseInt(this.currentStyle.marginBottom) || 0)));}
+/*全屏插件，为了方便横竖居中，使用表格*/
+.FullScreenPlugin{ width:100%; height:100%; _height:expression(eval(document.documentElement.clientHeight)); text-align:center; z-index:66666 !important;}
+.FullScreenPlugin td{ vertical-align:middle; text-align:center;}
+
+
+/*头*/
+.HEADER{ padding-top:45px; padding-bottom:33px;}
+.LOGO,.SLOGAN{ float:left;}
+.LOGO{ width:119px; height:62px; margin-right:100px; background-image:url(../../images/v2/logo-s.png);}
+.LOGO{ _background-image:url(../../images/v2/logo-s.gif);}
+.SLOGAN{ width:433px; height:75px; background-image:url(../../images/v2/login-title.png);}
+.SLOGAN{ _background-image:url(../../images/v2/login-title.gif);}
+.Left{ width:660px; height:480px; background-color:#fff; float:left; border:1px solid #e8edec; position:relative;}
+
+/*职位列表*/
+.JobLists{}
+.JobLists .tabs{ height:44px; background-color:#f6f6f6; font-size:18px; color:#7f7f7f; line-height:44px; border-bottom:1px solid #e8edec; _overflow:hidden;}
+.JobLists .tabs li{ float:left; width:109px; text-align:center; border-right:1px solid #e8edec; cursor:pointer;}
+.JobLists .tabs li.cur{ background-color:#fff; border-bottom:1px solid #fff; color:#ffae00; _position:relative;}
+.JobLists .tabs li.last{ width:110px; border-right:0;}
+.JobLists .lists{ padding:30px; height:312px; overflow:hidden; cursor:pointer;}
+.JobLists .lists table{ width:100%; display:;}
+.JobLists .lists td{ height:38px; text-indent:5px; font-size:14px; color:#2b2b2b; border-bottom:1px dotted #d9d9d9;}
+.JobLists .lists th{ color:#ffae00; text-align:right; font-weight:normal; border-bottom:1px dotted #d9d9d9;}
+.JobLists .lists tr:hover *{ text-decoration:underline;}
+
+/*LOGO列表*/
+.Logos{ padding-left:10px;}
+.Logos sub,.Logos sup{ display:block; float:left; width:16px; height:24px; margin-top:8px; background-position:center; background-repeat:no-repeat;}
+.Logos sub{ background-image:url(../../images/v2/icons/chevron-left-mid.jpg);}
+.Logos sup{ background-image:url(../../images/v2/icons/chevron-right-mid.jpg);}
+.Logos .scroll{ width:610px; float:left; overflow:hidden;}
+.Logos .scroll li{ float:left; width:610px; text-align:center;}
+.Logos .scroll img{ margin:0 11px; float:left; cursor:pointer;}
+
+
+/*遮罩*/
+.Cover{ display:none; position:absolute; width:100%; height:100%; _height:440px; left:0; top:0; background-color:rgba(0,0,0,0.8); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC000000,endColorstr=#CC000000);}
+.Cover div{ position:relative; left:204px; top:124px; width:442px; height:150px; background-image:url(../../images/v2/login-tip.png);}
+.Cover div{ _background-image:url(../../images/v2/login-tip.gif);}
+.Cover q{ width:22px; height:22px; position:absolute; right:10px; top:10px; background:url(../../images/v2/icons/times-black.png) #fff center no-repeat; cursor:pointer;}
+.Cover q{ _background-image:url(../../images/v2/icons/times-black.gif);}
+
+
+/*右侧*/
+.Right{ width:380px; height:480px; background-color:#fff; float:right; position:relative;}
+.Right .tabs{ height:44px; background-color:#f6f6f6; font-size:18px; color:#2290ec; line-height:44px; border-bottom:1px solid #e8edec; _overflow:hidden;}
+.Right .tabs li{ float:left; width:189px; text-align:center; border-right:1px solid #e8edec; cursor:pointer; _position:relative;}
+.Right .tabs li.cur{ background-color:#fff; border-bottom:1px solid #fff; color:#ffae00;}
+.Right .forms{ width:300px; margin:0 auto;}
+.Right .forms h4{ font-weight:normal; font-size:24px; color:#151515; line-height:58px; padding-top:10px;}
+.Right .sign{ width:139px; height:75px; background-image:url(../../images/v2/login-sign.png); right:-15px; top:-60px; position:absolute;}
+.Right .sign{ _background-image:url(../../images/v2/login-sign-png8.png);}
+
+/*表单*/
+.forms div.item{ _height:50px; min-height:50px; margin-top:10px;}
+.forms label.item{ display:block; height:40px; line-height:40px; background-color:#f0f4f3;}
+.forms label.item i{ display:block; float:left; width:40px; height:40px; background-color:#3ba3fa; background-position:center; background-repeat:no-repeat;}
+.forms i.user{ background-image:url(../../images/v2/icons/login-user.png);}
+.forms i.key{ background-image:url(../../images/v2/icons/login-key.png);}
+.forms label.item p{ width:260px; float:left;}
+.forms label.half{ width:166px; float:left;}
+.forms label.half p{ width:126px; float:left;}
+.forms .text{ font-size:14px; color:#333; width:240px; height:40px; line-height:40px; border:0; margin:0 10px; background-color:transparent;}
+.forms .half .text{ width:106px;}
+.hidden{ display:none;}
+
+.SendVerify{ width:128px; height:40px; border:0; border-radius:2px; background-color:#feb401; color:#fff; border-bottom:2px solid #b97721; font-size:14px; float:right; cursor:pointer;}
+.disabled{ background-color:#f3f3f3; color:#666; cursor:not-allowed; border-bottom-color:#ccc;}
+.PLACEHOLDER{ color:#999;}
+.forms .submit{ border:0; width:100%; height:45px; background-color:#0e6fc1; border-bottom:2px solid #0e5d9f; border-radius:2px; font-size:24px; color:#fff; margin-top:10px;}
+.forms label.agree{ display:block; font-size:12px; color:#898989; line-height:30px;}
+.forms .Gologin{ display:block; float:right; font-size:14px; color:#3ba3fa; margin-top:10px;}
+
+/*脚*/
+.FOOTER{ margin:88px 0; font-size:12px; color:#8f8d8d; line-height:220%; text-align:center;}
+.FOOTER a{ color:#8f8d8d;}
+.FOOTER a:hover{ text-decoration:underline;}
+.Nav{ margin-bottom:10px;}
+.Nav a{ padding:0 1em;}
+
+/*新增错误提示*/
+.form-tip{ display:block; clear:both; font-size:12px; background-position:left 8px; background-repeat:no-repeat; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; padding-left:20px; line-height:20px; padding-top:5px;}
+.tipMsg{ color:#2877df; background-image:url(../../images/v2/icons/tip-warn.png); _background-image:url(../../images/v2/icons/tip-warn.gif);}
+.errorMsg,.errorMsg2{ color:#fe6703; background-image:url(../../images/v2/icons/tip-no.png); _background-image:url(../../images/v2/icons/tip-no.gif);}

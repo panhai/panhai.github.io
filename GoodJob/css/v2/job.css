@@ -1,0 +1,319 @@
+/* 职位详情页 */
+.HEAD{  background-color: #fff;}
+body{ background-color: #f8fbff;}
+.Main{ margin-top:20px; margin-bottom:20px;}
+.Left{ width:740px; float:left; background-color:#ffffff;}
+.Right{ width:300px; float:right;}
+
+/*顶部详细信息*/
+.Attribs{ clear:both; padding:20px 42px 15px; }
+.Attribs dt{ min-height:60px; _height:60px;}
+.Attribs dt.short{ height:105px;}
+.Attribs .topic{ float:left; width:580px; overflow:hidden; padding-top:10px; _height:52px;}
+.Attribs .hover{ _height:auto; overflow:visible;}
+.Attribs h1{ font-weight: normal;font-size:28px; color:#333333; margin-right:15px; line-height:30px; padding:11px 0; float:left; white-space:nowrap; overflow:hidden; max-width:16em; text-overflow:ellipsis;}
+.Attribs h2{ font-size:30px; line-height:70px; height:50px; float:left; color:#1562c8; overflow:hidden; width:580px; text-overflow:ellipsis; white-space:nowrap;}
+.Attribs h1:hover,.Attribs .hover h1{ white-space:normal;}
+.Attribs small{ display:block; float:left; padding-left:35px; height:35px; overflow:hidden; background:url(../../images/v2/icons/push.png) left top no-repeat; line-height:35px; margin:10px 0 0 0; font-size:20px; font-family:Arial, Helvetica, sans-serif; color:#ddac15; line-height:50px; font-weight:bold;}
+.Attribs small{ _background-image:url(../../images/v2/icons/push.gif);}
+.Attribs .icons{ display:block; float:left; margin:20px 0 0 10px; width:26px; height:26px;}
+.Attribs .share{ background-image:url(../../images/v2/icons/share.png); _background-image:url(../../images/v2/icons/share.gif);}
+/*分享条*/
+.share cite{ left: -58px; top:34px; width:125px; height: 144px; border:1px solid #c5dbf9;}
+.share cite i{ width:14px; height:8px; left:62px; top:-9px; background-image:url(../../images/v2/share/angle-top.jpg); _background-image:url(../../images/v2/share/angle-right.gif); _overflow:hidden;}
+.share cite span{ width: 100%;display:inline-block; float: left;clear:both; height: 36px;text-align:left; color: #555555; font-size: 14px; font-style: normal; line-height:36px;}
+.share cite span:hover{ background:#c4daf9;}
+.share cite span em{ width: 48px; height: 21px; display: inline-block; vertical-align: text-bottom;}
+.share cite .bds_tsina em{background:url('../../images/v2/share/sina-n.png') no-repeat center center; }
+.share cite .bds_tqq em{background:url('../../images/v2/share/tencent-n.png') no-repeat center center; }
+.share cite .bds_qzone em{background:url('../../images/v2/share/qzone-n.png') no-repeat center center; }
+.share cite .bds_sqq em{background:url('../../images/v2/share/qq-n.png') no-repeat center center; }
+.share cite .bds_tsina:hover em{background:url('../../images/v2/share/sina-on.png') no-repeat center center; }
+.share cite .bds_tqq:hover em{background:url('../../images/v2/share/tencent-on.png') no-repeat center center; }
+.share cite .bds_qzone:hover em{background:url('../../images/v2/share/qzone-on.png') no-repeat center center; }
+.share cite .bds_sqq:hover em{background:url('../../images/v2/share/qq-on.png') no-repeat center center; }
+.Attribs dd{ line-height:40px; font-size:16px; color:#a4a4a4;}
+.Attribs b{ color:#525252;}
+.Attribs b i{ color:#f7831c; font-style:normal;}
+.Attribs var{ color:#f7831c; font-size:20px; font-style:normal;}
+.Attribs code{ display:inline-block; font-family:"微软雅黑"; color:#525252;}
+.WELFARE u,.WELFARE s{ color:#5593e6; background-image:url(../../images/v2/tag2.png); _background-image:url(../../images/v2/tag2.gif);}
+.Attribs kbd{ display:block; float:left; color:#5593e6; font-size:14px; font-weight:normal; line-height:30px; margin-bottom:20px;}
+/*公司地址*/
+.Attribs .INFO{ font-size: 14px; line-height: 30px;}
+/*公司福利*/
+.Attribs  .WELFARE-MORE{line-height:48px; display: inline-block;margin-top: 12px;font-size: 14px; color:#70a7f1; padding-right: 18px;  background: url(../../images/v2/icons/chevrons-down.png) right center no-repeat;  cursor: pointer;}
+.Attribs .WELFARE-MORE.on{background-image: url("../../images/v2/icons/chevrons-up.png");}
+.WELFARE{ width: 570px; height: 50px; overflow:hidden; float: left;}
+.WELFARE span{ margin-top: 18px; margin-right: 10px;width: 100px; height:28px;background:#f0f6ff;color:#999;font-size:14px;line-height:28px;text-align:center;}
+/*收藏提示*/
+.Attribs .favor{ background-image:url(../../images/v2/icons/favor.png); _background-image:url(../../images/v2/icons/favor.gif);}
+.Attribs .favored{ background-image:url(../../images/v2/icons/favor2.png); _background-image:url(../../images/v2/icons/favor2.gif);}
+.Attribs .tip{ display:none; float:right; background-color:#d1e3fc; line-height:34px; height:34px; overflow:hidden; color:#525252; font-size:0px; padding:0px 10px; white-space:nowrap; text-decoration:none;}
+.Attribs .tip q,.Attribs .tip span{ display:inline-block; vertical-align:middle;}
+.Attribs .tip span{ font-size:14px;}
+.Attribs .tip a{ color:#1562c8; text-decoration:underline;}
+.Attribs .tip a:hover{ text-decoration:none;}
+.Attribs .tip q{ font-size:24px; width:14px; height:34px; color:#fff; padding-left:10px; cursor:pointer; background:url(../../images/v2/icons/times.png) center right no-repeat;}
+.Attribs .tip q{ _background-image:url(../../images/v2/icons/times.gif);}
+
+/*两种颜色的边框*/
+.bdt{ border-top:1px solid #fefeff;}
+
+
+/*三块描述通用样式*/
+.Intros{ clear:both; padding:0px 42px;}
+.Intros dt{  color:#1562c8; padding:23px 0px;}
+.Intros dt h3{ font-weight: normal;font-size:18px; height:20px; line-height:20px; border-left:4px solid #1562c8; padding-left:8px;}
+.Intros dd{ clear:both; font-size:14px; line-height:32px; color:#666666;}
+.Intros hr{ border:0; border-bottom: 1px solid #f2f2f2;}
+/*两块广告*/
+.Advs{ clear:both; padding:25px 0px; height:110px;}
+/*职位验证*/
+.Protect{ width:438px; height:106px; border:1px solid #22b68e; float:left;}
+.Protect del,.Protect a.post{ display:block; float:left; margin:27px 0 0 15px; width:145px; height:48px; text-align:center; line-height:48px; font-size:24px;}
+.Protect del{ background-color:#f2f2f2; color:#a4a4a4; text-decoration:none;}
+.Protect a.post{ background-color:#1562c8; color:#fff;}
+.Protect a.post{ _margin-left:7px;}
+.Protect a.post:hover{ background-color:#ea6617;}
+.Protect s{ display:block; width:44px; height:44px; background-image:url(../../images/v2/icons/check.png); _background-image:url(../../images/v2/icons/check.jpg); float:left; margin:27px 0 0 10px;}
+.Protect p{ float:left; margin:19px 0 0 10px; width:212px; font-size:12px; color:#22b68e; line-height:20px;}
+.Protect p img{ margin-bottom:5px;margin-right: 14px;}
+.Protect p a{ color:#ea6617;}
+.Protect p a:hover{ text-decoration:underline; color:#1562c8;}
+/*二维码*/
+.Code{ width:204px; height:106px; border:1px solid #c8c8c8; float:right; line-height:28px; font-size:16px; color:#525252;}
+.Code i{ display:block; float:left; width:96px; height:106px; text-align:center; overflow:hidden; text-align:center; font-size:12px; overflow:hidden; line-height:20px; font-style:normal;}
+.Code i img{ margin-top:8px;}
+.Code i q{ color:#22b68e; padding-left:6px;}
+.Code a,.Code p{ float:left;}
+.Code a{ font-size: 18px; font-weight:bold; color:#22b68e; display:block; padding-top:10px; width:4em; text-align:left;}
+.Code a:hover{ color:#ea6617; text-decoration:underline;}
+.Code p{ width: 96px; font-size: 12px; line-height: 20px;}
+/*公司介绍*/
+.Introduction{ height:192px; overflow:hidden;}
+.Introduction p{}
+.Introduction h4{ font-weight:normal; font-size:18px;}
+.Expand{ color:#95bdf3; font-size:14px; text-align:right; padding-right:18px; background:url(../../images/v2/icons/chevrons-down.png) right center no-repeat; cursor:pointer;}
+.Expand{ _background-image:url(../../images/v2/icons/chevrons-down.gif);}
+.Expand.on{ background-image:url(../../images/v2/icons/chevrons-up.png); _background-image:url(../../images/v2/icons/chevrons-up.gif);}
+/*公司图片*/
+.Pics{ width:102%; float:left; margin-bottom:20px;}
+.Pics li{ width:158px; height:118px; float:left; border:1px solid #d1e5ff; margin:0 6px 10px 0; overflow:hidden; cursor:pointer;}
+
+/*其它职位*/
+/*.Jobs{ width:100%;}
+.Jobs th,.Jobs td{ padding-left:10px;}
+.Jobs thead th{ text-align:left; font-size:18px; color:#8e8e8e; font-weight:normal; line-height:40px;}
+.Jobs tbody th{ text-align:left; font-weight:normal; color:#f7831c;}
+.Jobs tbody{ line-height:48px;}
+.Jobs .bg{ background-color:#fff;}*/
+/*职位列表*/
+.Jobs{}
+.Jobs .Jobs-l{float: left;}
+.Jobs li{ clear:both; height:76px; margin-bottom:20px; background-color:#fff; border-left:1px solid #70a7f1; padding:0 10px; line-height:30px;}
+.Jobs li:hover{background:#f8fbff;}
+.Jobs h4{ font-weight:normal;margin-top: 2px;}
+.Jobs h4 a{ font-size:18px; color:#333; margin-right:1em; display:inline-block; max-width:20em; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; vertical-align:middle;}
+.Jobs h4 a:hover{ color:#1562c8; text-decoration:underline;}
+.Jobs h4 span{ color:#a4a4a4; font-size:14px; vertical-align: bottom;}
+.Jobs .Jobs-qt{float: right;margin:23px 12px 0 0; width:96px;height:28px; text-align: center; font-size: 14px; color:#333333; border-radius:3px; background:#fafafa; border:1px solid #d0d0d0;}
+.Jobs p{ clear:both; font-size:14px; color:#666666; margin-top:6px;}
+.Jobs p span{ color:#f7831c;}
+/*很大的更多*/
+div.more{ text-align:center; margin:15px 0 50px; font-size:14px;}
+div.more a{ display:inline-block; height:40px; line-height:40px; color:#fff; padding:0 30px 0 15px; background:url(../../images/v2/icons/chevrons-right.png) 106px center no-repeat #87b8f8;}
+div.more a{ _background-image:url(../../images/v2/icons/chevrons-right.gif)}
+
+/*右侧信息*/
+.Company{ background-color:#fff; color:#5593e6; font-size:14px; height:140px;  overflow:hidden;}
+.Company dt{ float:left; margin:26px; border:1px solid #f5f5f5; width:112px; height:112px; overflow:hidden;}
+.Company dd{ margin:25px 10px 0 5px; line-height:22px;}
+.Company dd a{ color:#5593e6;}
+.Company dd a:hover{ color:#f16702; text-decoration:underline;}
+.Props,.Address,.Advice{color:#666666; line-height:30px; font-size:14px; padding:10px 26px; margin-bottom:15px;}
+.Props p{ word-break:break-all; line-height: 34px;}
+.Props a{ color:#6c6c6c;}
+.Props .Props-a{ vertical-align: middle;overflow: hidden; text-overflow: ellipsis; white-space: nowrap;max-width: 210px; display: inline-block;}
+.Props p a{ font-size: 16px; color:#1562c8;}
+.Props p span{ color:#999999;}
+.Props p i{ display:inline-block; margin-left: 10px; vertical-align: middle; width:20px; height:23px; background-image:url(../../images/v2/icons/check-s.png); _background-image:url(../../images/v2/icons/check-s.gif);}
+.Props a:hover{ color:#1562c8;}
+.Props{padding-bottom: 20px; background:#fff;}
+.Address{ padding:0; background-color:#ffffff;}
+.Address h2{ border-bottom: 1px solid #f2f2f2; font-size: 15px; color: #333333; padding-left: 26px; line-height: 48px;}
+.Address p{ font-size: 14px; color: #666666; padding: 6px 26px 12px;}
+.MAPTHUMB{ padding: 0 26px;}
+/*外部兼职的右侧提示*/
+.Advice{ padding:20px;}
+.Advice p{ color:#508dde; margin-bottom:10px; font-size:18px;}
+.Advice strong{ background-color:#f4812c; padding:0px 20px; color:#fff; font-weight:normal; margin:0px 10px;}
+.Advice a{ display:block; background:#85b4f1 url(../../images/v2/icons/lle.png) 200px center no-repeat; padding:0px 20px; line-height:46px; height:46px; color:#fff; font-size:20px;}
+.Advice a{ _background-image:url(../../images/v2/icons/file.png);}
+.Advice a:hover{ background-color:#1562c8;}
+
+.Advertise{ background-color:#f8fbff; height:360px; text-align:center; font-size:44px; line-height:75px; color:#d4e0ef;}
+.Advertise p{ padding-top:50px;}
+
+/*图片查看器*/
+.PhotoViewer{ visibility:hidden;}
+.PhotoViewer h5{ color:#7a7a7a; font-size:24px; margin-bottom:25px;}
+.PhotoViewer q{ position:absolute; right:10px; top:10px; cursor:pointer;}
+.PPT{ margin:0 auto;}
+.PPT,.PPT ul,.PPT ul li{ width:880px; height:580px; background-color:#ccc;}
+.PPT,.PPT ul{ position:relative;}
+.PPT ul li{ left:0px; top:0px; position:absolute;}
+.PPT ol{ left:4px; bottom:5px; position:absolute; height:83px;}
+.PPT ol li{ float:left; width:103px; height:78px; background-color:#adb9c9; overflow:hidden; margin:3px; cursor:pointer;}
+.PPT ol li.cur{ border:3px solid #fff; margin:0;}
+.PPT sub,.PPT sup{ display:block; position:absolute; top:213px; width:38px; height:72px; cursor:pointer;}
+.PPT sub{ left:24px; background-image:url(../../images/v2/icons/chevron-left-huge.png); _background-image:url(../../images/v2/icons/chevron-left-huge.gif);}
+.PPT sup{ right:24px; background-image:url(../../images/v2/icons/chevron-right-huge.png); _background-image:url(../../images/v2/icons/chevron-right-huge.gif);}
+.PhotoViewer h6{ font-size:18px; color:#fff; margin-top:15px;}
+
+/*中心层用到的表单*/
+.CenterForm .t-l{ width:300px;}
+.CenterForm .t-m{ width:280px;}
+.CenterForm .t-s{ width:130px;}
+
+/*举报表单*/
+.Accuse{}
+/*原因*/
+.Accuse .SELECT{ width:510px;}
+.Accuse .SELECT dt b,.Accuse .SELECT dt span{ width:470px;}
+.Accuse .SELECT dd.normal{ width:508px;}
+.Accuse .SELECT dd a{ padding:0px 10px;}
+/*描述*/
+.Accuse textarea{ width:488px; height:85px;}
+.Accuse img.vcode{ float:left; margin:2px 0 0 10px;}
+.Accuse a.refresh{ font-size:14px; color:#206acb; display:block; float:left; line-height:40px; padding-left:10px;}
+.Accuse a.refresh:hover{ color:#fe6703; text-decoration:underline;}
+
+/*手机注册*/
+.Regist{}
+.Regist .SendVerify{ float:left; width:140px; margin:5px 0 0 8px;}
+
+/*快速登录*/
+.Login{}
+.Login .addition{ padding:0; font-size:14px; color:#666;}
+.Login .addition input{ vertical-align:middle;}
+.Login .addition label{ float:left;}
+.Login .addition a{ float:right; color:#666; text-decoration:underline;}
+.Login .addition a:hover{ color:#fe6703; text-decoration:none;}
+.Login .submit{ margin-right:20px;}
+.Login .CENTERBTNS a{ color:#1562c8;}
+.Login .CENTERBTNS a:hover{ color:#fe6703;}
+
+/*简历*/
+.Resume{ overflow:visible !important;}
+.Resume caption b{ font-size:18px; font-weight:normal;}
+.Resume .SELECT{ float:left;}
+.S-m{ width:152px;}
+.S-m dt b,.S-m dt span{ width:112px;}
+.S-t{ width:100px;}
+.S-t dt b,.S-t dt span{ width:60px;}
+.Resume .SELECT-on dt i{ background-image:url(../../images/v2/icons/chevron-down.gif) !important;}
+.female,.BirthMonth{ margin-left:10px;}
+.CitiesWant,.DistrictsWant{ margin-left:12px;}
+.Resume textarea{ width:458px; height:120px;}
+/*提示信息尺寸*/
+.Resume .left-half{ width:130px;}
+.Resume .right-half{ width:190px;}
+.Resume .CENTERBTNS{ padding-top:10px;}
+
+/*各个下拉列表*/
+.Experience dd{ width:150px;}
+.Experience dd a{ padding:0 10px;}
+.YEARS dd{ width:208px;}
+.YEARS dd a{ width:52px; _width:51px; float:left; text-align:center;}
+.BirthMonth dd{ width:98px;}
+.BirthMonth dd a{ width:49px; _width:47px; float:left; text-align:center;}
+.ADDRESS dd a{ font-size:14px;}
+.ProvincesWant dd{ width:315px;}
+.ProvincesWant dd a{ width:52px; float:left; text-indent:5px;}
+.CitiesWant dd{ width:315px;}
+.CitiesWant dd a{ width:78.5px; _width:78px; float:left; text-indent:5px;}
+.DistrictsWant dd{ width:315px; left:-165px;}
+.DistrictsWant dd a{ width:78.5px; _width:78px; float:left; text-indent:5px;}
+
+
+/*性别*/
+.Sex label{ display:block; float:left; line-height:34px; text-align:center; height:34px; background-color:#fff; border:1px solid #ccc; width:98px; cursor:pointer; margin-top:5px;}
+.Sex label.checked{ border-color:#67a8fc; background:url(../../images/v2/icons/checked.png) right top #e8f2ff no-repeat;}
+.Sex label.checked{ _background-image:url(../../images/v2/icons/checked.gif);}
+.Sex input{ display:none;}
+
+/*职位推荐*/
+.JobPushes{ width:680px; border:0;overflow:visible !important; position:relative;}
+.JobPushes dt{/* background:url(../../images/v2/pushes0.jpg) 26px center no-repeat #e0eeff; */background:#70a7f1;text-align:left; font-size:18px; color:#ffffff; padding-left: 24px; border-bottom:1px solid #d0e3fa; height:48px; line-height:48px;}
+.JobPushes dt i{ color:#ff8b10; font-size:20px; font-style:normal;}
+.JobPushes li{ width: 590px; height:96px; margin: 0 auto; overflow:hidden; border-bottom: 1px solid #f2f2f2;}
+.JobPushes .last{ border:0;}
+.JobPushes h4,.JobPushes h5,.JobPushes del{ margin-top:20px !important;}
+/*职位信息*/
+.job{ width:300px; float:left;}
+.job h4{ font-size:14px; line-height:30px; font-weight:normal; color:#999999;}
+.job h4,.company h5{ white-space:nowrap; overflow:hidden; _width:100%;}
+.job h4 *,.company h5 *{ vertical-align:middle; display:inline-block;}
+.job h4 a,.company h5 a{ color:#525252; margin-right:10px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.job h4 a{ max-width:12em; font-size: 20px; }
+.job h4 a:hover,.company h5 a:hover{ color:#1562c8; text-decoration:underline;}
+.job h4 span{ vertical-align: text-top;}
+.job h4 i{ background:url(../../images/v2/icons/push-s.png) left 3px no-repeat; font-size:12px; font-family:Arial, Helvetica, sans-serif; color:#ddac15; font-style:normal; padding-left:25px; line-height:40px; font-weight:bold; height:30px; overflow:hidden;}
+.job h4 i{ _background-image:url(../../images/v2/icons/push-s.gif);}
+.JobPushes ul{ border-top: 1px solid #f2f2f2; padding-bottom: 20px;}
+.JobPushes .JobPushes-ok p{ margin: 15px 0 ; color:#1562c8; font-size: 20px; text-align: center;}
+.JobPushes .JobPushes-ok p q{ display: inline-block; margin-right: 4px; vertical-align: top; width: 26px; height: 22px; background:url("../../images/v2/icons/push_ok.jpg") no-repeat;}
+.JobPushes .JobPushesMore{ width: 584px; height: 36px; border-radius: 18px; border: 1px solid #c3dcfd;margin: 0 auto 20px; font-size: 14px; color: #666666; text-align: center; line-height: 36px; background: #f0f6ff;
+_background:url("../../images/v2/JobPushesMore.jpg") no-repeat;}
+.JobPushes .JobPushesMore span{ color:#f7831c; font-size: 18px;}
+.JobPushes p{ font-size:14px; color:#666666; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; line-height:25px; height:25px;}
+.JobPushes p span{ color:#f7831c;}
+.JobPushes b{ color:#525252; font-weight:normal;}
+.JobPushes .map{ padding-left:15px; background:url(../../images/v2/icons/mapmark-s.png) left center no-repeat;}
+.JobPushes .map{ _background-image:url(../../images/v2/icons/mapmark-s.gif);}
+.img{ width: 62px; height: 62px; border: 1px solid #f1f1f1; float: left; margin: 18px 18px 0 0;}
+/*公司信息*/
+.company{ width:340px; float:left; margin-left:30px;}
+.company h5{ margin:20px 0 10px; font-size:18px; line-height:30px; font-weight:normal; background:none; padding:0 !important; height:auto !important;}
+.company h5 a{ max-width:16em;}
+.company h5 i{ width:20px; background:url(../../images/v2/icons/check-s.png) left center no-repeat; height:30px;}
+.company h5 i{ _background-image:url(../../images/v2/icons/check-s.gif);}
+/*投递*/
+.post{ width:96px; float:right; margin-right:10px; _margin-right:5px;}
+.post a,.post del{ display:block; font-size:14px; text-align:center; border: 1px solid #d0d0d0; border-radius: 4px; line-height: 30px; height:30px; margin-top:33px;}
+.post del{ background-color:#f2f2f2; color:#a4a4a4; text-decoration:none;}
+.post a{ background-color:#fafafa; color:#333333;}
+.post a:hover{ background-color:#1562c8; color:#fff;}
+.post span{ color:#87b8f8; display:block; line-height:26px; font-size:14px; text-align:right;}
+
+/*完善信息*/
+.CENTERDIV { margin: 0 auto; overflow: hidden; background-color: #fff; }
+.Perfect { position: relative;  border: 0;}
+.Perfect .CENTERTOPIC { height: 55px; line-height: 55px; padding: 0 14px; background-color: #fff; }
+.Perfect .CENTERTOPIC h2 { font-size: 18px; color: #444444; font-weight: normal; border-bottom: 1px solid #f2f2f2; }
+.Perfect .CENTERTOPIC q { position: absolute; top: 14px; right: 19px; width: 20px; height: 20px; background: url("../../images/v2/schools/x.jpg") no-repeat; }
+.Perfect .CENTERCONTENT td { text-align: left; padding: 6px 0; }
+.Perfect .CENTERCONTENT .Perfect-tx { color: #444444; font-size: 16px; text-align: right; }
+.Perfect .SELECT dt { padding: 0; }
+.Perfect .CENTERCONTENT input { padding-left: 10px; background-color: #f9f9f9; line-height: 28px; height: 28px; border: 1px solid #cccccc; }
+.Perfect .CENTERCONTENT .Perfect-ipt { width: 180px; }
+.Perfect .CENTERCONTENT .Pertect-sg { width: 138px; margin-right: 10px; }
+.Perfect .CENTERCONTENT .Perfect-qq { width: 160px; }
+.Perfect .CENTERCONTENT .Pertect-yzm { width: 85px; margin-right: 10px; }
+.Perfect .CENTERCONTENT .Perfect-hq { width: 104px; height: 30px; padding: 0; font-size: 14px; text-align: center; }
+.Perfect .CENTERCONTENT .Perfect-save, .Perfect .CENTERCONTENT .Perfect-hq { padding: 0; background-color: #5295f1; color: #fff; border: 0; cursor: pointer; }
+.Perfect .CENTERCONTENT .Perfect-save{ height: 38px;}
+.Perfect .Perfect-sex label { display: block; float: left; width: 90px; line-height: 28px; text-align: center; height: 28px; background-color: #fff; border: 1px solid  #eeebeb; width: 91px; cursor: pointer; }
+.Perfect .Perfect-sex label.checked { border-color: #67a8fc; background: url(../../images/v2/icons/checked-b.png) right bottom #e8f2ff no-repeat; _background: url(../../images/v2/icons/checked-b.gif) right bottom #e8f2ff no-repeat; }
+.Perfect .Perfect-sex .right { margin-left: 12px; }
+.Perfect .Perfect-sex input { display: none; }
+.Perfect .CENTERCONTENT textarea { width: 507px; height: 113px; padding: 10px 0 0 10px; border: 1px solid #cccccc; background-color: #f9f9f9; }
+.Perfect-save { width: 142px; height: 36px; font-size: 16px; margin-right: 20px; }
+.Perfect-more { font-size: 16px; color: #1562c8; }
+.Perfect .SELECT dd { width: 190px; max-height: 240px; overflow-y: scroll; border: 1px solid #ccc; }
+.Perfect .SELECT .matches a { display: block; padding: 0 10px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+
+.subDown{display: none; width: 740px; height: 58px; background-color:#e2efff; overflow: hidden;}
+.subDown a{float: right; display: block; width: 155px; height: 40px; background-color: #1562c8; margin: 10px 10px 0 0; color:#fff; line-height: 40px; text-align:center;font-size: 20px;}

@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>企业中心-邀请合作</title>
+<link rel="stylesheet" type="text/css" href="../css/v2/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/CCenter/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/CCenter/invite.css">
+</head>
+
+<body>
+<div class="HEADER"><div class="common">
+	<div class="TOP-LOGO"><a href="#"><img src="../images/v2/logo-s.jpg" width="119" height="62"></a></div>
+    <div class="TOP-TOOLS">
+    	Admin, <a href="#">退出</a>&nbsp;&nbsp;&nbsp;<a href="#">个人中心</a>&nbsp;&nbsp;&nbsp;<a href="#">反馈</a>&nbsp;&nbsp;&nbsp;<a href="#">HR帮助</a>
+    </div>
+    <ul class="TOP-NAV">
+    	<li><a href="new-index.html" class="cur">首页</a></li>
+    	<li><a href="new-publish.html">发布职位</a></li>
+    	<li><a href="new-profile.html">企业资料</a></li>
+    	<li><a href="new-hrfavors.html">HR收藏夹</a></li>
+    	<li><a href="new-settings.html">账号管理</a></li>
+    </ul>
+</div></div>
+
+<div class="Main">
+    <h1 class="TOPIC">职位合作邀请</h1>
+    <table class="Invite">
+        <tr><th width="110">学校名称：</th><td><h2>华南理工大学</h2></td></tr>
+        <tr><th>合作职位：</th><td><dl class="SELECT JobsSelect" data-choices="0" data-placeholder="请选择职位" data-leave="egnore">
+        	<input type="hidden" value="1,22,14">
+        	<dt><span></span><i></i></dt>
+            <dd><table class="JobsList" width="680">
+            	<caption class="SELECT-COLLECTOR">
+                    <input type="button" class="submit" value="确定">
+                </caption>
+                <tbody><tr>
+                	<th width="120">
+                    	<h3 class="cur">全职</h3>
+                        <h3>实习</h3>
+                        <h3>兼职</h3>
+                    </th><td width="560" class="SELECT-CHOICES">
+                    	<div>
+                        	<a href="#" data-id="1">全职职位一</a>
+                        	<a href="#" data-id="2">全职职位二</a>
+                        	<a href="#" data-id="3">全职职位三</a>
+                        	<a href="#" data-id="11">全职职位一</a>
+                        	<a href="#" data-id="22">全职职位二</a>
+                        	<a href="#" data-id="33">全职职位三</a>
+                        	<a href="#" data-id="41">全职职位一</a>
+                        	<a href="#" data-id="42">全职职位二</a>
+                        	<a href="#" data-id="43">全职职位三</a>
+                        	<a href="#" data-id="51">全职职位一</a>
+                        	<a href="#" data-id="52">全职职位二</a>
+                        	<a href="#" data-id="53">全职职位三</a>
+                        	<a href="#" data-id="61">全职职位一</a>
+                        	<a href="#" data-id="62">全职职位二</a>
+                        	<a href="#" data-id="63">全职职位三</a>
+                        </div>
+                    	<div class="none">
+                        	您还没有发布相关职位
+                        </div>
+                    	<div>
+                        	<a href="#" data-id="14">兼职职位一</a>
+                        	<a href="#" data-id="25">兼职职位二</a>
+                        	<a href="#" data-id="36">兼职职位三</a>
+                        </div>
+                    </td>
+                </tr></tbody>
+            </table></dd>
+        </dl><a href="new-publish.html" class="link">发布新职位</a></td></tr>
+        <tr><th></th><td class="OuterCollector"></td></tr>
+        <tr><th>留言：</th><td><textarea placeholder="您可以向学校传达您的合作意愿，400字之内！"></textarea></td></tr>
+        <tr><th></th><td class="btns"><input type="button" class="submit" value="发送合作邀请"></td></tr>
+    </table>
+	
+	<div class="clear"></div>
+</div>
+
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/v2/all.js"></script>
+<script src="../js/effect/tab.js"></script>
+<script>
+$(function(){
+	CHItab(".JobsList","th h3","td div",{way:'click'});
+	$(".JobsSelect input[type=hidden]").change(function(){
+		$(".OuterCollector").empty().append($(".JobsList .SELECT-COLLECTOR a").clone());
+	}).change();
+	$(".OuterCollector").delegate("a q",'click',function(){
+		var id=$(this).closest("a").data("id");
+		$(".JobsList .SELECT-COLLECTOR a").filter('[data-id="'+ id +'"]').find('q').click();
+		$(".JobsList .submit").click();
+	});
+});
+$(window).load(function(){
+});
+</script>

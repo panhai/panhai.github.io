@@ -1,0 +1,372 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+
+</title>
+    <link href="../css/1024/common.css" rel="stylesheet" type="text/css" />
+    <link href="../css/1024/ucenter.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/MD5.js"></script>
+    <script type="text/javascript" src="../js/jbody.js"></script>
+    <script type="text/javascript" src="../js/jbody-plugin.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+    <script type="text/javascript" src="../js/area.js"></script>
+    <script type="text/javascript" src="../js/subjects.js"></script>
+    <script type="text/javascript" src="../js/jobPositions.js"></script>
+    <script type="text/javascript" src="../js/admin/common.js"></script>
+    <script type="text/javascript" src="../js/selectors.js"></script>
+    <script type="text/javascript" src="../js/menuControl.js"></script>
+    <script type="text/javascript" src="../js/admin/ucenter.js"></script>
+</head>
+<body>
+    <iframe id="_postTargetIframe" name="_postTargetIframe" style="display:none;" src="about:blank"></iframe>
+    
+    
+<div id="pg-header" class="pg-header">
+    <div class="pg-header-main">
+        <div class="logo">
+            <img alt="好工作网Logo" src="../images/logo.png" class="pngfix" width="232" height="40" />
+        </div>
+        <div class="cname">个人中心</div>
+        <div class="r mginT10">
+    <div class="platform-switch-container">
+    <div class="platform-switch-main msout">
+        <span class="floatR">切换后台</span>
+        <span class="floatR" style="border:solid 1px #ffc183; line-height:12px; margin-right:5px; padding-left:1px; padding-right:1px;">+</span>
+        <div style="clear:both;"></div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        $(".platform-switch-main").click(function () {
+            JBFrameHelper.showPage("PlatformSwitch.html", { obj: this, title: "切换到个人中心或其他管理后台", w: 500, pos: { to: "win", parent: "doc", park: "inside", parkInside: "center" } }, true, false);
+        });
+    })
+</script>
+
+</div>
+    </div>
+</div>
+    
+<div id="pg-nav" class="pg-nav">
+    <ul>
+        <li><div class="nav-title"><a href="#">首页</a></div></li>
+        <li><div class="nav-title"><a href="/job/">找职位</a></div></li>
+        <li><div class="nav-title"><a href="/companies/">找企业</a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">简历<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">职位<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">个人设置<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="#">校园招聘</a></div></li>
+        <li><div class="nav-title"><a href="#">更多服务<sub></sub></a></div></li>
+    </ul>
+</div>
+<div style="clear:both;"></div>
+<div id="pg-nav-sub" style="display:none;">
+    <div id="pg-nav-sub-inner">
+    <div id="pg-nav-sub-main">
+        <ul style="display:none;">
+            <li><a href="Sum.html">系统概况</a></li>
+            <li><a href="">功能快捷连接</a></li>
+            <li><a href="#">站内消息</a></li>
+        </ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;">
+            <li><a href="Default.html">我的简历</a></li>
+            <li><a href="MyTarget.html">我的求职意向</a></li>
+            <li><a href="#">谁看过我的简历</a></li>
+            <li><a href="#">高级功能</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Sended.html">已投职位</a></li>
+            <li><a href="Favor.html">关注的职位</a></li>
+            <li><a href="History.html">最近浏览职位</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Default.html">个人信息</a></li>
+            <li><a href="Privacy.html">隐私设置</a></li>
+            <li><a href="Email.html">变更邮箱</a></li>
+            <li><a href="Mobile.html">变更手机</a></li>
+            <li><a href="Password.html">修改密码</a></li>
+        </ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+    </div>
+    </div>
+</div>
+<div style="clear:both;"></div>
+    <div class="pageMainContentContainer">
+    <form method="post" action="MyTarget.html" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="wmMKRnAY9za+hHkiHiKHtrMCdSxCI0Sm4u+P04GRREsCEv1/6brFiJ+usBkumBMWAy0r1xe3FTdrnF4vNAvmIerD3smw5r8VjvtydyTyUKszLa865U6PPu02IDHsJngAub7/2yLQV+548QKMbBVsJk9gJVh4h9yQ4D3uLQq3Mek1jbfuyPs0Z0Fb/W0tTMLnvWNQddQK0Mxa4zjOyW9RjZK9aXGO6eFQO1HlOGG6+VNMK+CjYFfqOteQ8cjMoPKBUWYvgfMFyNTJoVg0TQtuHeU3GDbljmnNmyW3MlWbh1hTeYX+C/XSapy9pS7BLnJq" />
+</div>
+
+<div class="aspNetHidden">
+
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="0653B494" />
+</div>
+    
+    <div class="bodyBlock">
+        <div class="editBlock editBlockBorder">
+            <div id="divWorkTarget" class="detailBlockTitle"><div class="leftIco"></div><div class="left">我的求职意向</div>                 
+                <script type="text/javascript">
+                    var JBResetorEditResumeTarget = new JBodyInputResetor({ objs: document.getElementById("resumeTargetContainer"), autoCloseMsg: true });
+                    function tryStartEditResumeTarget(){
+                        JBResetorEditResumeTarget.save();
+                        ResumeTargetSubjsSelector.update();
+                        ResumeTargetPositionSelector.update();
+                        ResumeTargetCitySelector.update();
+                        $("#resumeTargetContainer").show();
+                        $("#divWorkTargetResult").hide();
+                    }
+                    function tryCancelEditResumeTarget() {
+                        $("#resumeTargetContainer").hide();
+                        $("#divWorkTargetResult").show();
+                        JBResetorEditResumeTarget.reset();
+                    }
+                    function tryUpdateEditResumeTarget(obj) {
+                        JBResetorEditResumeTarget.save();
+                        //JBDialog.close();
+                        //$(obj).parent().parent().find("div.left").html(xmlhttpRespObj.data[0]);
+                    }
+                    function trySubmitEditResumeTarget(obj) {
+                        var htmObj = $("#resumeTargetContainer").get(0);
+                        var data = JB.formToJson(htmObj);
+                        data.cmd = "editresumetarget";
+                        if (JBValidatorContainer.checkAllChildren(htmObj)) {
+                            new JBodyCommonAjax({
+                                obj: null,
+                                data: data,
+                                debug:false,
+                                title:"设置/修改职业意向",
+                                loadingMsg: "<img src='../images/common/loading/5.gif' alt='' />",
+                                afterSuccess: tryUpdateEditResumeTarget
+                            });
+                        } 
+                    }
+                </script>
+                <script type="text/javascript">
+                    function resumeTargetSubjChange(){
+                        JBValidaterResumeTargetSubjs.check();
+                    }
+                    function CheckResumeTargetSubj(jbv) {
+                        if (!ResumeTargetSubjsSelector.hasValue()) jbv.msg = "请选择意向行业";
+                        return ResumeTargetSubjsSelector.hasValue();
+                    }
+                    function resumeTargetPosChange(){
+                        JBValidaterResumeTargetPosition.check();
+                    }
+                    function CheckResumeTargetPos(jbv) {
+                        if (!ResumeTargetPositionSelector.hasValue()) jbv.msg = "请选择意向职位";
+                        return ResumeTargetPositionSelector.hasValue();
+                    }
+                    function resumeTargetCityChange(){
+                        JBValidaterResumeTargetCity.check();
+                    }
+                    function CheckResumeTargetCity(jbv) {
+                        if (!ResumeTargetCitySelector.hasValue()) jbv.msg = "请选择意向城市";
+                        return ResumeTargetCitySelector.hasValue();
+                    }
+                    $(function(){
+                        JBodyValidatorPopoTipExtend.add({obj:"tdResumeTargetSubjs",park:"right"})
+                        .add({obj:"tdResumeTargetPos",park:"right"})
+                        .add({obj:"tdResumeTargetCitys",park:"right"})
+                        .add({obj:"form_TextBoxTargetSalary",park:"bottomleft"});
+                    })
+                </script>                
+            </div>
+                            
+            <div class="blockMain" id="resumeTargetContainer" style="display:none;">
+                <table class="blockMainTable" style="text-align:left;"> 
+                    <tr>
+                        <th style="width:130px;">意向行业：</th><td style="width:400px;">
+                            <div id="tdResumeTargetSubjs" style="display:table-cell;">
+                            <input type="hidden" name="ctl00$form$MutiSubjectSelectorTarget$HiddenSubjectIds" id="form_MutiSubjectSelectorTarget_HiddenSubjectIds" />
+<div style="">
+    <div onclick="ResumeTargetSubjsSelector.show(this)">
+        <select id="form_MutiSubjectSelectorTargetselect" style="float:left;; width:400px; height:32px;" disabled="disabled">
+            <option></option>
+        </select>
+        <div style="position:relative;" id="form_MutiSubjectSelectorTargetfront">
+            <div style="position:absolute; width:400px; height:32px; border:solid 0px #000;"></div>
+        </div>
+    </div>    
+    <div style="clear:both;"></div>
+</div>
+<script type="text/javascript">
+    var ResumeTargetSubjsSelector = null;
+    $(function(){
+        ResumeTargetSubjsSelector = new MultiSubjectCreater({
+            objName: "ResumeTargetSubjsSelector",
+            maxSelect: 3,
+            objHiddenId : document.getElementById("form_MutiSubjectSelectorTarget_HiddenSubjectIds"),
+            selectElement : document.getElementById("form_MutiSubjectSelectorTargetselect"),
+            textWhenEmpty:"请选择行业",
+            dialogTitle:"请选择行业",
+            canSelectTopLevel:true,
+            mode : "multi",
+            onchange: [function (opt) { $("#form_MutiSubjectSelectorTargetfront").attr("title", opt.tts); },resumeTargetSubjChange]
+        });
+    });
+</script>
+                            </div>
+                            </td><td style="width:200px;"></td>
+                    </tr>
+                    <tr>
+                        <th style="width:130px;">意向职位：</th><td>
+                            <div id="tdResumeTargetPos" style="display:table-cell;">
+                            <input type="hidden" name="ctl00$form$MultiPositionsTarget$HiddenPositionIds" id="form_MultiPositionsTarget_HiddenPositionIds" />
+<div style="">
+    <div onclick="ResumeTargetPositionSelector.show(this)">
+        <select id="form_MultiPositionsTargetselect" style="float:left;; width:400px; height:32px;" disabled="disabled">
+            <option></option>
+        </select>
+        <div style="position:relative;" id="form_MultiPositionsTargetfront">
+            <div style="position:absolute; width:400px; height:32px; border:solid 0px #000;"></div>
+        </div>
+    </div>
+    <div style="clear:both;"></div>
+</div>
+<script type="text/javascript">
+    var ResumeTargetPositionSelector = null;
+    $(function(){
+        ResumeTargetPositionSelector = new MutiPositionCreater({
+            objName: "ResumeTargetPositionSelector",
+            maxSelect: 3,
+            objHiddenId : document.getElementById("form_MultiPositionsTarget_HiddenPositionIds"),
+            selectElement : document.getElementById("form_MultiPositionsTargetselect"),
+            textWhenEmpty:"请选择职位类别",
+            dialogTitle:"请选择职位类别",
+            onchange: [function (opt) { $("#form_MultiPositionsTargetfront").attr("title", opt.tts); },resumeTargetPosChange]
+        });
+    });
+</script>
+                            </div>
+                            </td><td></td>
+                    </tr>
+                    <tr>
+                        <th style="width:130px;">意向城市：</th><td>
+                            <div id="tdResumeTargetCitys" style="display:table-cell;">
+                            <input type="hidden" name="ctl00$form$MultiCitysTarget$HiddenCityIds" id="form_MultiCitysTarget_HiddenCityIds" />
+<div style="width:400px; height:32px;">
+    <div onclick="ResumeTargetCitySelector.show(this)">
+        <select id="form_MultiCitysTargetselect" style="float:left;; width:400px; height:32px;" disabled="disabled">
+            <option></option>
+        </select>
+        <div style="position:relative; left:0px; top:0px;" id="form_MultiCitysTargetfront">
+            <div style="position:absolute; left:0px; top:0px; width:400px; height:32px; border:solid 0px #000;"></div>
+        </div>
+    </div>    
+    <div style="clear:both;"></div>
+</div>
+<script type="text/javascript">
+    var ResumeTargetCitySelector = null;
+    $(function(){
+        ResumeTargetCitySelector = new MultiCityCreater({
+            objName: "ResumeTargetCitySelector",
+            maxSelect: 3,
+            objHiddenId : document.getElementById("form_MultiCitysTarget_HiddenCityIds"),
+            selectElement : document.getElementById("form_MultiCitysTargetselect"),
+            textWhenEmpty:"请选择城市",
+            dialogTitle:"请选择城市",
+            onchange: [function (opt) { $("#form_MultiCitysTargetfront").attr("title", opt.tts); },resumeTargetCityChange]
+        });
+    });
+</script>
+                            </div></td><td></td>
+                    </tr>
+                    <tr>
+                        <th style="width:130px;">期待月薪：</th><td>
+                            <input name="ctl00$form$TextBoxTargetSalary" type="text" maxlength="10" id="form_TextBoxTargetSalary" class="inputText" AutoComplete="false" data-jbextendid="exinput_form_TextBoxTargetSalary_660_922" data-jbtips="期待月薪" style="width:100px;" />元&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input id="form_CheckBoxTargetSalaryAsNegotiable" type="checkbox" name="ctl00$form$CheckBoxTargetSalaryAsNegotiable" />显示为面议
+                            </td><td></td>
+                    </tr>
+                    <tr><th>&nbsp;</th><td style="padding-top:30px;" colspan="5">
+                        <div onclick="trySubmitEditResumeTarget(this)" class="btn-3d btn-3d-large btn-3d-blue floatL">提交</div>
+                        <div onclick="tryCancelEditResumeTarget(this)" class="btn-3d btn-3d-large btn-3d-gray floatL mginL10">取消</div>
+                    </td></tr>
+                </table>       
+                <div style="clear:both; height:15px;"></div>
+                
+                
+                
+            </div>
+            <div style="height:100px; clear:both;"></div>
+        </div>
+    </div>
+
+    
+
+<script type="text/javascript">
+//<![CDATA[
+pageMainMenuCreater.setActive({mainText:'简历',subText: '我的求职意向'});//]]>
+</script>
+<script type='text/javascript'>JBInputInnerTips.create({objs:'form_TextBoxTargetSalary'});var exinput_form_TextBoxTargetSalary_660_922=null; JB.ready(function(){exinput_form_TextBoxTargetSalary_660_922= new JBValidator({varId:'exinput_form_TextBoxTargetSalary_660_922',exType:'UInt',checkWhere:'ServerAndClient',msgShowType:'None',msgCloseType:'NotClose',dataTitle:'期待月薪',innerTextTip:'期待月薪',showSuccess:false,checkOnFocusout:false,checkOnChange:true,ignoreCase:true,canNull:false,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0,maxLen:10});});</script><script type='text/javascript'>var JBValidaterResumeTargetSubjs=null; JB.ready(function(){JBValidaterResumeTargetSubjs= new JBValidator({obj:'tdResumeTargetSubjs',exType:'Text',checkWhere:'ClientAuto',msgShowType:'None',msgCloseType:'NotClose',dataTitle:'输入',appendChecks:[CheckResumeTargetSubj],showSuccess:false,inCaseHidden:false,checkAppendOnly:true,msgAlwaysAlert:false});});</script><script type='text/javascript'>var JBValidaterResumeTargetPosition=null; JB.ready(function(){JBValidaterResumeTargetPosition= new JBValidator({obj:'tdResumeTargetPos',exType:'Text',checkWhere:'ClientAuto',msgShowType:'None',msgCloseType:'NotClose',dataTitle:'输入',appendChecks:[CheckResumeTargetPos],showSuccess:false,inCaseHidden:false,checkAppendOnly:true,msgAlwaysAlert:false});});</script><script type='text/javascript'>var JBValidaterResumeTargetCity=null; JB.ready(function(){JBValidaterResumeTargetCity= new JBValidator({obj:'tdResumeTargetCitys',exType:'Text',checkWhere:'ClientAuto',msgShowType:'None',msgCloseType:'NotClose',dataTitle:'输入',appendChecks:[CheckResumeTargetCity],showSuccess:false,inCaseHidden:false,checkAppendOnly:true,msgAlwaysAlert:false});});</script></form>
+    
+
+    <div style="clear:both;"></div>
+    </div> 
+    
+<div style="clear:both;"></div>
+<div class="footerOuter">
+    <div class="footer">
+        <div>
+            <div class="contact">
+                <span style="margin-top:60px; font-size:14px;">服务热线 (免长话费)</span>
+                <span style="font-size:16px;">400-6838-789</span>
+                <span>工作日 9:00-19:00</span>
+            </div>
+            <div class="footerBlock">
+                <span>网站简介</span>
+                <a>网站简介</a>
+                <a>产品服务</a>
+                <a>创新优势</a>
+                <a>友情链接</a>
+                <a>联系我们</a>
+            </div>
+            <div class="footerBlock">
+                <span>使用帮助</span>
+                <a>网站简介</a>
+                <a>产品服务</a>
+                <a>创新优势</a>
+                <a>友情链接</a>
+                <a>联系我们</a>
+            </div>
+            <div class="footerBlock">
+                <span>合作共赢</span>
+                <a>网站简介</a>
+                <a>产品服务</a>
+                <a>创新优势</a>
+                <a>友情链接</a>
+                <a>联系我们</a>
+            </div>
+            <div class="footerBlock">
+                <span>快捷方式</span>
+                <a>网站简介</a>
+                <a>产品服务</a>
+                <a>创新优势</a>
+                <a>友情链接</a>
+                <a>联系我们</a>
+            </div>
+        </div>
+        <div style="clear:both;"></div>
+        <div style="margin-top:20px; color:#888;">
+        版权所有：好工作网
+        联系电话：88888888&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        联系邮箱：88888@qq.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+        地址：广州市环市中路&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        邮政编码：510000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<!--[if IE 6]>
+<script type="text/javascript" src="/js/DD_belatedPNG_0.0.8a.js"></script>
+<script type="text/javascript">   
+  DD_belatedPNG.fix('.pngfix'); 
+</script>
+<![endif]-->

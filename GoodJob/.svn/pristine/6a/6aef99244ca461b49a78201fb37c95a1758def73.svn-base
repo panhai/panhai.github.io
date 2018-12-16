@@ -1,0 +1,70 @@
+/* 投递反馈 */
+.left{ width:206px; float:left; background-color:#fff; border-top:3px solid #E6E6E6;}
+.left ul{ padding:13px;}
+.left li{ clear:both; border-bottom:1px dashed #ccc; padding:10px 0px;}
+.left li *{ vertical-align:middle; line-height:30px; font-size:16px; font-family:"微软雅黑";}
+.left strong{ display:block; clear:both; color:#555; padding:0px 10px; margin-bottom:5px;}
+.left li img{ margin-right:5px;}
+.left li a{ display:block; clear:both; padding-left:35px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; color:#666; margin-bottom:5px;}
+.left li a:hover,.left .cur{ color:#fff; background-color:#2677E2;}
+.left li a span{ width:20px; height:20px; background:url(../../images/UCenter/dot2.png) center; display:inline-block; text-align:center; line-height:20px; font-size:12px; color:#fff; position:relative; top:-5px;}
+
+.right{ width:777px; float:right; background-color:#fff;}
+.right h1{ color:#333; font-size:18px; font-family:"微软雅黑"; font-weight:normal; line-height:45px; height:45px; padding:0px 25px;}
+/*列表*/
+.list{ clear:both;}
+.list *{ font-family:"微软雅黑";}
+.list var,.list dfn,.list kbd{ font-style:normal; display:block; float:left;}
+.list dt{ border-bottom:2px solid #EBEBEB; font-size:12px; color:#333; line-height:40px; height:40px; text-align:center; font-weight:bold;}
+.list var{ width:470px;}
+.list dfn{ width:155px;}
+.list kbd{ width:145px;}
+.list div{ border-bottom:1px solid #f5f5f5; font-size:14px;}
+.list dfn,.list kbd{ text-align:center;}
+/*一个职位信息*/
+.list div var{ line-height:30px; text-align:left;}
+.list var a,.checked var p{ margin-left:30px; text-align:left; display:block;}
+.list var a{ color:#06c; font-size:16px;}
+.list var a b{ color:#ff5f00;}
+.list var p{ color:#6D6D6D; font-size:14px;}
+.list div dfn{ line-height:55px;}
+
+/*简历被查看*/
+.checked div{ height:55px; padding:20px 0px;}
+.checked div kbd{ color:#FF4A01; font-size:14px; line-height:55px;}
+
+/*通知面试*/
+.interview var i{ display:block; border:1px solid #ACACAC; width:55px; height:55px; margin:0px 15px 15px 30px; _margin:0px 15px 15px 15px; float:left;}
+.interview div{ min-height:75px; padding-top:20px; _height:75px;}
+.interview kbd span{ display:inline-block; line-height:15px; margin:20px 0px; padding-right:15px; color:#ff5e00; background:url(../../images/UCenter/fold.png) no-repeat top right; cursor:pointer;}
+.interview kbd span.on{ background-position:bottom right;}
+.interview blockquote{ display:none; clear:both; background-color:#F2FBFF; margin:20px 30px; padding:10px; line-height:25px; color:#828282;}
+.interview blockquote p{ padding:0px 60px;}
+.interview blockquote b{ font-weight:normal; color:#333;}
+.interview blockquote q{ display:block; text-align:right; margin-top:20px;}
+.interview blockquote a{ display:inline-block; width:80px; height:30px; line-height:30px; color:#fff; background-color:#ff5e00; text-align:center; margin-left:10px;}
+/*确认应聘*/
+.sure dt dfn{ width:180px;}
+.sure dd{ position:relative;}
+.sure dd dfn{ position:absolute; left:0px; top:0px;}
+.sure var i{ display:block; border:1px solid #ACACAC; width:55px; height:55px; margin:0px 15px 15px 15px; _margin:0px 15px 15px 8px; float:left;}
+.sure var{ width:500px;}
+.sure div{ padding:0px; height:155px; border:0px;}
+.sure .first{ height:185px;}
+.sure div var{ margin-top:20px;}
+.sure .first var{ margin-top:50px;}
+/*时间*/
+.sure em{ display:block; float:left; width:180px; margin-right:70px; height:155px; background-image:url(../../images/CpCenter/time.jpg); background-repeat:repeat-y; background-position:right -20px; font-style:normal; line-height:90px; text-align:right; color:#b2b2b2; font-size:14px;}
+.sure .first em{ padding-top:30px; background-position:right 10px;}
+.sure em b{ display:inline-block; vertical-align:middle; font-size:24px; font-family:Arial, Helvetica, sans-serif; color:#979797; font-weight:normal; padding-right:20px; line-height:95px;}
+/*日期*/
+.sure span{ display:block; font-size:14px; color:#fff; position:relative; left:10px; top:25px; height:25px; text-align:center; line-height:25px; font-weight:bold;}
+.sure span.s{ background-image:url(../../images/CpCenter/bg-s.jpg); width:68px;}
+.sure span.l{ background-image:url(../../images/CpCenter/bg-l.jpg); width:114px;}
+.sure q{ position:absolute; width:17px; height:19px; background-image:url(../../images/CpCenter/bg-r.jpg); right:-15px; top:-15px; font-size:12px; line-height:20px; font-weight:normal;}
+.sure .tail{ height:30px; overflow:hidden;}
+hr{ border:#C9C9C9 solid 2px; *height:4px; *position:relative; *top:-8px;}
+.sure blockquote{ clear:both; margin-left:15px; position:relative; top:-5px; background-color:#fafafa; width:375px; height:50px; overflow:hidden; line-height:25px; padding:0px 5px; font-size:12px; color:#777;}
+.sure blockquote b{ font-weight:normal; color:#000;}
+.sure blockquote del{ background-color:#ff7f00; color:#fff; padding:0px 5px; cursor:pointer; text-decoration:none; margin-left:10px;}
+

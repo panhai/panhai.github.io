@@ -1,0 +1,180 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>学校中心-网站内容管理-首页栏目管理-首页幻灯片</title>
+</head>
+<link rel="stylesheet" type="text/css" href="../css/School/css.css">
+<link rel="stylesheet" type="text/css" href="../css/School/contents.css">
+<link rel="stylesheet" type="text/css" href="../css/plugin/center.css">
+<body>
+<div class="header"><div class="common">
+	<h1><img src="../images/SCenter/headlogo.jpg" width="59" height="63">肇庆科技职业技术学院<small>就业网管理系统</small></h1>
+    <p>
+    	<a href="#">Admin</a> |
+        <a href="#">退出</a> |
+        <a href="#" class="cur">好工作首页</a> |
+        <a href="#" class="cur">切换后台</a> |
+        <a href="#">消息</a> |
+        <a href="#">反馈</a> |
+        <a href="#">帮助</a>
+    </p>
+</div></div>
+<div class="nav"><div class="common">
+	<ul>
+    	<li class="first"><a href="index.html">首页<i></i></a></li>
+    	<li class="cur"><a href="contents.html">网站内容管理<i></i></a></li>
+    	<li><a href="manage-admin.html">系统管理<i></i></a></li>
+    	<li class="last"><a href="total.html">统计分析<i></i></a></li>
+    </ul>
+    <p>
+    	<span class="top-select">
+        	校企合作<i></i>
+        	<samp>
+            	<a href="invite-coop.html">校企合作邀请</a>
+            	<a href="invite-conf.html">宣讲会合作邀请</a>
+            </samp>
+        </span>
+    	<span><a href="conference.html">发布宣讲会</a></span>
+    </p>
+</div></div>
+
+<div class="main common">
+	<div class="left">
+    	<ul class="menus">
+        	<li>
+            	<h3>首页栏目管理<i></i></h3>
+                <p>
+                	<a href="contents-ppt.html" class="cur">首页幻灯片</a>
+                	<a href="contents.html">新闻动态</a>
+                	<a href="#">事务公告</a>
+                	<a href="#">就业政策</a>
+                	<a href="#">就业指导</a>
+                	<a href="#">职业规划</a>
+                	<a href="#">求职技巧</a>
+                    <a href="#">校企合作</a>
+                	<!--<a href="contents-adv.html">首页底部Banner</a>-->
+                    <a href="#">校友风采</a>
+                	<a href="contents-links.html">友情链接</a>
+                </p>
+            </li>
+        	<!--<li>
+            	<h3>导航栏目管理<i></i></h3>
+                <p>
+                	<a href="contents-menus.html">导航栏设置</a>
+                	<a href="contents-intro.html">公司简介</a>
+                	<a href="#" class="lock">事务公告</a>
+                	<a href="#" class="lock">就业指导</a>
+                    <em>添加/删除导航栏目</em>
+                </p>
+            </li>-->
+            <li>
+            	<h3>学校信息设置</h3>
+                <p>
+                	<a href="manage-profile.html">学校基本信息</a>
+                	<a href="manage.html">院校及专业设置</a>
+                </p>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="right2">
+    	<div class="h22"><b>首页幻灯片</b></div>
+        
+        <table class="table2 ppt">
+        	<caption><div class="summary">设置提示：最多可添加4张幻灯片</div>
+            <input type="button" value="添加幻灯片"></caption>
+        	<thead><tr>
+            	<th width="315">图片</th><th width="315">链接</th><th width="100">操作</th><th width="65">&nbsp;</th>
+            </tr></thead>
+            <tbody>
+            	<tr>
+                	<td><img src="../images/SCenter/ppt.png" width="269" height="109"></td>
+                    <td><a href="#" class="url">1111http://localserver/svn/html/goodjob/searchhsdsds.htm</a></td>
+                    <td><a href="#">修改</a>&nbsp;&nbsp;<a href="#">删除</a></td>
+                    <td><!--<img src="../images/SCenter/arrow-u.png" width="20" height="20"><br><br>-->
+                    <img src="../images/SCenter/arrow-d.png" width="20" height="20"></td>
+                </tr>
+            	<tr>
+                	<td><img src="../images/SCenter/ppt.png" width="269" height="109"></td>
+                    <td><a href="#" class="url">2222http://localserver/svn/html/goodjob/searchhsdsds.htm</a></td>
+                    <td><a href="#">修改</a>&nbsp;&nbsp;<a href="#">删除</a></td>
+                    <td><img src="../images/SCenter/arrow-u.png" width="20" height="20"><br><br>
+                    <img src="../images/SCenter/arrow-d.png" width="20" height="20"></td>
+                </tr>
+            	<tr>
+                	<td><img src="../images/SCenter/ppt.png" width="269" height="109"></td>
+                    <td><a href="#" class="url">3333http://localserver/svn/html/goodjob/searchhsdsds.htm</a></td>
+                    <td><a href="#">修改</a>&nbsp;&nbsp;<a href="#">删除</a></td>
+                    <td><img src="../images/SCenter/arrow-u.png" width="20" height="20"><br><br>
+                    <img src="../images/SCenter/arrow-d.png" width="20" height="20"></td>
+                </tr>
+            	<tr>
+                	<td><img src="../images/SCenter/ppt.png" width="269" height="109"></td>
+                    <td><a href="#" class="url">4444http://localserver/svn/html/goodjob/searchhsdsds.htm</a></td>
+                    <td><a href="#">修改</a>&nbsp;&nbsp;<a href="#">删除</a></td>
+                    <td><img src="../images/SCenter/arrow-u.png" width="20" height="20"><!--<br><br>
+                    <img src="../images/SCenter/arrow-d.png" width="20" height="20">--></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+	<div class="clear"></div>
+</div>
+
+<div class="footer">
+	<div class="common tail">
+        <samp class="tail-nav">
+            <a href="#" class="first">关于我们</a>
+            <a href="#">法律声明</a>
+            <a href="#">保密承诺</a>
+            <a href="#">Investor Relatiao</a>
+            <a href="#">关于我们</a>
+        </samp>
+    </div>
+    <div class="common copyright">
+    	<p>京ICP备09083200号 京ICP证070419号 人才服务许可证：RC0710280</p>
+    	<p>Copyright&copy;2000-2014 liepin.com All Rights Reserved</p>
+    </div>
+</div>
+
+
+
+
+
+<dl class="CenterDiv top-fixed UploadPPT">
+	<dt class="CenterTopic"><h3>添加幻灯片</h3><q>&times;</q></dt>
+    <dd class="CenterContent">
+    	<div class="CenterTip">
+        	<input type="button" class="CenterUpload" value="上传图片">
+            （每张最大10M，支持jpg/gif/png格式）
+        </div>
+        <div class="CenterThumb">
+        	<img src="../images/SCenter/ppt.png">
+            <code class="black5"><samp style="width:50%;">50%</samp></code>
+        </div>
+        <div class="CenterURL">链接：<input type="text" class="CenterUrl" placeholder="请输入图片被点击时的链接，可不填"></div>
+        <div class="CenterButtons">
+            <input type="button" class="submit" value="确定">　
+            <input type="button" class="reset" value="取消">
+        </div>
+        <div class="clear"></div>
+    </dd>
+</dl>
+
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/web/all.js"></script>
+<script src="../js/school/all.js"></script>
+<script src="../js/web/center.js"></script>
+<script src="../js/school/contents.js"></script>
+<script>
+$(function(){
+	LeftMenu();
+	TopSelect();
+	CenterDiv();
+	UploadPPT();
+});
+</script>

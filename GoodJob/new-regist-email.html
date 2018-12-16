@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="css/v2/all.css">
+<link rel="stylesheet" type="text/css" href="css/v2/login-new.css">
+<title>好工作-注册页-邮箱注册</title>
+</head>
+
+<body>
+<div class="HEADER"><div class="common">
+	<div class="LOGO"><a href="index-new.html"><img src="images/v2/logo.jpg" width="177" height="91"></a></div>
+    <div class="SLOGAN"><img src="images/v2/top-key.gif" width="401" height="38"></div>
+    <div class="LINKS"><a href="new-login.html">登陆</a>|<a href="new-regist-email.html">注册</a></div>
+</div></div>
+
+<div class="Main">
+	<h1 class="TOPIC">注册 [好工作] 账号</h1>
+    <div class="Left">
+    	<!--<ol class="Tabs">
+        	<li class="cur"><a href="new-regist-email.html">邮箱注册</a></li>
+        	<li><a href="new-regist-mobile.html">手机注册</a></li>
+        </ol>-->
+        <div class="Radios">
+            <label class="left checked"><input type="radio" name="type" value="1" checked>我要求职</label>
+            <label class="right"><input type="radio" name="type" value="2">我要招人</label>
+        </div>
+        <div class="clear">
+            <div class="FormLine" style="position:relative; z-index:99;">
+                <dl class="SELECT">
+                    <dt><input type="text" class="text EMAILS" placeholder="请输入常用邮箱地址" data-list="arrow" data-init="true"></dt>
+                    <dd class="normal"><div class="matches" data-list="datas"></div></dd>
+                </dl>
+                <code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>
+            </div>
+            <div class="FormLine">
+                <input type="password" class="text" placeholder="输入6-12位英文数字组合密码" data-init="true">
+                <code class="form-tip successMsg"></code>
+            </div>
+            <div class="FormLine">
+                <input type="password" class="text" placeholder="确认密码" data-init="true">
+                <code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>
+            </div>
+            <label class="agree"><input type="checkbox"> 我已阅读并同意 <a href="#">《好工作使用协议》</a></label>
+            <input type="submit" value="立即注册" class="submit">
+        </div>
+    </div>
+    <div class="Right">
+    	<!--<p>微信扫一扫<br>马上登录 [好工作]</p>
+        <div><b></b></div>-->
+        <table><tr><td>
+        	<h4><a href="new-regist-mobile.html"><i class="mobile"></i>手机注册</a></h4>
+        	<h4 class="cur"><q></q><a href="new-regist-email.html"><i class="email"></i>邮箱注册</a></h4>
+        </td></tr></table>
+    </div>
+    <div class="clear"></div>
+</div>
+</body>
+</html>
+<script src="js/jquery.js"></script>
+<script src="js/v2/all.js"></script>
+<script src="js/plugin/EmailTip.js"></script>
+<script>
+$(function(){
+	Boxes(".Radios");
+});
+</script>

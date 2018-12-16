@@ -1,0 +1,118 @@
+/* 查看简历 */
+body{ background-color:#f8f8f8;}
+.Main{ background-color:#fff; width:814px; margin:0 auto; padding-bottom:40px;}
+
+/*头像*/
+#Photo{ background:url(../../../images/v2/resume.png) top center no-repeat; height:140px; padding-top:40px; text-align:center;}
+.Profile,.Nothing,.Topic,.ViewMode{ width:714px; margin:20px auto 40px; clear:both;
+	text-overflow: ellipsis;
+	word-break:break-all;
+}
+/*基本资料*/
+.Profile{ text-align:center; width:714px !important; padding:0 !important;}
+.Profile i,.Profile s,.Profile u{ display:inline-block; padding-left:30px; overflow:hidden; background-repeat:no-repeat; background-position:left center; text-decoration:none; font-style:normal; vertical-align:middle;}
+.Profile i,.Profile s,.Profile i span{ color:#1562c8;}
+.Profile i small{ color:#525252;}
+.Profile i{ background-image:url(../../../images/v2/icons/mobile-gray.png); _background-image:url(../../../images/v2/icons/mobile-gray.gif);}
+.Profile s{ background-image:url(../../../images/v2/icons/email-gray.png); _background-image:url(../../../images/v2/icons/email-gray.gif);}
+.Profile u{ background-image:url(../../../images/v2/icons/idcard-gray.png); _background-image:url(../../../images/v2/icons/idcard-gray.gif);}
+.Profile p{ _height:32px; color:#525252; line-height:32px;}
+
+/*每项标题*/
+h3.Topic{ background:url(../../../images/v2/icons/resume/topicbg.png) repeat-x; height:40px; clear:both; margin-bottom:20px; line-height:40px; font-weight:normal;}
+.Topic b{ display:block; float:left; background-image:url(../../../images/v2/icons/resume/topic.png); width:156px; text-align:center; font-size:18px; color:#1562c8; margin-left:45px; _margin-left:23px; font-weight:normal;}
+.Topic q{ display:block; float:right; background:15px center no-repeat #fff; font-size:14px; color:#448ceb; padding-left:35px; font-style:normal; cursor:pointer;}
+.Topic q.edit{ background-image:url(../../../images/v2/icons/edit.png); background-image:url(../../../images/v2/icons/edit.gif);}
+.Topic q.plus{ background-image:url(../../../images/v2/icons/plus.png); background-image:url(../../../images/v2/icons/plus.gif);}
+.Topic q.minus{ background-image:url(../../../images/v2/icons/minus.png); background-image:url(../../../images/v2/icons/minus.gif); display:none;}
+/*资料上边的标题也就是名字*/
+h2.Topic{ font-size:32px; margin:10px auto; font-weight:normal; color:#1562c8; position:relative; text-align:center;}
+h2.Topic q{ right:0; top:0; position:absolute;}
+
+/*预览内容*/
+.ViewMode{ font-size:16px; color:#525252; line-height:32px; width:654px; padding-left:60px;}
+.ViewMode b{ color:#525252; font-weight:normal;}
+#AnchorOpinion .ViewMode{ color:#a4a4a4;}
+
+/*工具条*/
+.Tools{ width:100%; height:50px; background-color:#e6f0fe;}
+.Tools div{ width:814px; margin:0 auto;}
+.Tools p{ padding-top:10px;}
+.Tools p a{ display:block; float:left;}
+.Tools .left{ float:left;}
+.Tools .left a{ height:33px; width:40px; margin-right:10px; background-image:url(../../../images/v2/icons/resume-tools.jpg); position:relative;}
+.Tools .download{ background-position:-100px top;}
+.Tools .download:hover{ background-position:-100px bottom;}
+.Tools .favor{ background-position:-40px top;}
+.Tools .favor:hover{ background-position:-40px bottom;}
+.Tools .plus{ width:100px !important; background-position:0 top;}
+.Tools .plus:hover{ background-position:0 bottom;}
+.Tools .print{ background-position:right top;}
+.Tools .print:hover{ background-position:right bottom;}
+.Tools .left a span{ display:none; position:absolute; bottom:37px; line-height:25px; font-size:14px; color:#525252; padding:0px 5px; border:1px solid #ccc; background-color:#fff; white-space:nowrap;}
+.Tools .left a:hover span{ display:block;}
+
+.Tools .right{ float:right;}
+.Tools .right a{ height:32px; line-height:32px; background-color:#5e9cef; font-size:14px; color:#fff; padding:0px 15px; margin-left:10px;}
+.Tools .right a:hover{ background-color:#1562c8;}
+.Tools .right span{ display:block; float:left; line-height:33px; margin-left:10px; color:#1562c8; font-size:14px;}
+
+/*发送邀请函*/
+.CenterForm em{ display:inline-block; margin-top:5px; font-style:normal; font-size:20px; color:#1562c8;}
+.CenterForm .link{ float:left; margin:5px 0 0 20px; color:#1562c8;}
+.CenterForm .link:hover{ color:#fe6703;}
+.CenterForm dd.normal a{ padding:0 10px;}
+.CenterForm .s-l{ width:350px;}
+.CenterForm .s-l dt span,.CenterForm .s-l dt b{ width:310px;}
+.CenterForm .s-l dd{ width:348px}
+.CenterForm textarea{ width:430px; height:80px;}
+.Invitation{}
+.Invitation caption p{ float:left;}
+.Invitation caption a{ display:block; float:right; background-color:#1562c8; color:#fff; padding:0 20px;}
+.Invitation td ins{ float:left; text-decoration:none; margin-top:5px;}
+.Invitation .t-m{ width:200px;}
+.Invitation .Hour{ margin-left:14px;}
+.Invitation .s-s{ width:100px;}
+.Invitation .s-s dt span,.Invitation .s-s dt b{ width:60px;}
+.Invitation .s-s dd{ width:98px;}
+.Invitation .t-s{ width:120px;}
+.Invitation .t-l{ width:430px;}
+.Invitation div{ float:left;}
+.Invitation .AuthorDiv{ width:182px;}
+.Invitation div .errorMsg,.Invitation div .errorMsg2,.Invitation div .tipMsg{ margin-right:20px;}
+.Invitation .TelDiv{ width:298px;}
+.Invitation .TelDiv .errorMsg,.Invitation .TelDiv .errorMsg2,.Invitation .TelDiv .tipMsg{ margin-left:50px;}
+
+/*不合适*/
+.NotMatch{}
+.NotMatch td,.NotMatch th{ padding:0;}
+
+
+
+
+/*移动简历*/
+.Move{}
+.Move table{ width:450px; margin:0 auto;}
+.Move textarea{ height:150px; width:428px;}
+.Move strong{ color:#1562c8; font-weight:normal;}
+.Move .groups{}
+.Move .groups label{ display:inline-block; width:130px; float:left; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; font-size:16px; padding-left:20px; background:url(../../../images/v2/icons/box-empty.jpg) left center no-repeat; cursor:pointer;}
+.Move .groups input{ display:none;}
+.Move .groups label.checked{ color:#1562c8; background-image:url(../../../images/v2/icons/box-checked.jpg);}
+.Move .create{ border:1px solid #b9b9b9; background-color:#fff; font-size:16px; color:#525252; width:120px; height:30px; cursor:pointer;}
+/*移动下的创建新分类*/
+.create-subform{ display:none;}
+.create-subform input{ vertical-align:top; margin:5px 10px 0 0; float:left; _margin-right:5px;}
+.create-subform .text{ width:278px; height:34px; line-height:34px;}
+.create-subform .btn{ width:65px; height:36px; font-size:16px; border:0; cursor:pointer;}
+.create-subform .sub-submit{ background-color:#1562c8; color:#fff;}
+.create-subform .sub-reset{ background-color:#e5e5e5; color:#525252; margin-right:0;}
+
+/*温馨提示*/
+.WarmTip{}
+.WarmTip dd.CENTERCONTENT{ padding:40px;}
+.WarmTip p{ font-size:18px; color:#525252; line-height:200%;}
+.WarmTip em{ font-style:normal; color:#f90;}
+.WarmTip div{ margin-top:30px; height:30px;}
+.WarmTip div label{ float:left; color:#666; font-size:14px;}
+.WarmTip .submit{ width:180px; height:38px; float:right; border:0; cursor:pointer; font-size:16px;}

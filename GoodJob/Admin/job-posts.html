@@ -1,0 +1,211 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>好工作运营后台-某个职位-投递详情</title>
+</head>
+<link rel="stylesheet" type="text/css" href="../css/v2/admin/all.css">
+
+<body>
+<header class="clear">
+	<img src="../images/v2/logo-s.png" width="119" height="62">
+    <em>后台管理系统</em>
+    <p>
+    	<a href="#"><i><img src="../images/v2/nophoto.png" width="30" height="30"></i><span>用户名称</span></a>
+        <a href="#">安全退出</a>
+    </p>
+</header>
+<nav>
+	<li><a href="index.html">首页</a></li>
+	<li><a href="companies.html">企业管理</a></li>
+	<li><a href="schools.html">院校管理</a></li>
+	<li><a href="users.html">用户管理</a></li>
+	<li><a href="jobs.html">职位管理</a></li>
+	<li class="cur"><a href="resumes.html">简历管理</a></li>
+	<li><a href="servers.html">客服系统</a></li>
+	<li><a href="moneys.html">财务系统</a></li>
+	<li><a href="system.html">系统管理</a></li>
+</nav>
+
+<!--<menu>
+	<li class="cur"><a href="resumes.html">在线简历</a></li>
+	<li><a href="resumes-feedbacks.html">简历投递反馈</a></li>
+</menu>-->
+
+<ol class="SubMenu">
+	<li>某个职位的长长的标题</li>
+	<li><a href="job-detail.html">职位信息</a></li>
+	<li class="cur"><a href="job-posts.html">简历投递统计</a></li>
+</ol>
+
+<div class="Filter"><table>
+	<tr>
+    	<th width="7%">投递时间：</th><td width="26%">
+        	<input type="text" class="text double time">
+            <ins></ins>
+        	<input type="text" class="text double time">
+        </td>
+    	<th width="7%">简历状态：</th><td width="26%">
+        	<dl class="SELECT long">
+            	<input type="hidden" class="JobType" value="0">
+                <dt></dt>
+                <dd class="normal">
+                	<a data-id="">不限</a>
+                	<a data-id="1">未查看</a>
+                	<a data-id="2">已被查看</a>
+                	<a data-id="3">面试邀请</a>
+                	<a data-id="4">确认面试</a>
+                	<a data-id="5">不合适</a>
+                	<a data-id="6">投递成功</a>
+                </dd>
+            </dl>
+        </td>
+    	<th width="7%">关键词：</th><td width="26%">
+        	<input type="text" class="text long" placeholder="请输入关键字">
+        </td>
+    </tr>
+    <tr><td colspan="6" class="btns">
+    	<input type="button" class="submit" value="查询">
+    </td></tr>
+</table></div>
+
+<div class="total">职位：职位名称&nbsp;&nbsp;&nbsp;&nbsp;共投递简历 12030 份
+&nbsp;&nbsp;&nbsp;&nbsp;<a class="btn email">发送邮件</a>&nbsp;&nbsp;<a class="btn">联系企业</a>&nbsp;&nbsp;<a href="resumes.html" class="btn">匹配简历</a></div>
+
+<div class="List"><table border="1" bordercolor="#e2e4f0">
+	<thead><tr>
+    	<th width="90">ID</th>
+    	<th width="120">姓名</th>
+    	<th width="120">手机</th>
+    	<th width="">邮箱</th>
+    	<th width="120">投递时间</th>
+    	<th width="120">简历完整度</th>
+    	<th width="120">投递方式</th>
+    	<th width="120">状态</th>
+    	<th width="150">反馈时长</th>
+        <th width="60">操作</th>
+    </tr></thead>
+    <tbody>
+    	<tr>
+        	<th><label><input type="checkbox" value="1">10001</label></th>
+            <td>关之谷</td>
+            <td>13812345678</td>
+            <td>asdfasdf@qq.com</td>
+            <td>2015-07-09</td>
+            <td>50%</td>
+            <td>主动投递</td>
+            <td>投递成功</td>
+            <td>2H30min</td>
+            <td><a href="resume-detail.html">查看</a></td>
+        </tr>
+    	<tr>
+        	<th><label><input type="checkbox" value="1">10001</label></th>
+            <td>关之谷</td>
+            <td>13812345678</td>
+            <td>asdfasdf@qq.com</td>
+            <td>2015-07-09</td>
+            <td>50%</td>
+            <td>主动投递</td>
+            <td>投递成功</td>
+            <td>2H30min</td>
+            <td><a href="resume-detail.html">查看</a></td>
+        </tr>
+    	<tr>
+        	<th><label><input type="checkbox" value="1">10001</label></th>
+            <td>关之谷</td>
+            <td>13812345678</td>
+            <td>asdfasdf@qq.com</td>
+            <td>2015-07-09</td>
+            <td>50%</td>
+            <td>主动投递</td>
+            <td>投递成功</td>
+            <td>2H30min</td>
+            <td><a href="resume-detail.html">查看</a></td>
+        </tr>
+    	<tr>
+        	<th><label><input type="checkbox" value="1">10001</label></th>
+            <td>关之谷</td>
+            <td>13812345678</td>
+            <td>asdfasdf@qq.com</td>
+            <td>2015-07-09</td>
+            <td>50%</td>
+            <td>主动投递</td>
+            <td>投递成功</td>
+            <td>2H30min</td>
+            <td><a href="resume-detail.html">查看</a></td>
+        </tr>
+    </tbody>
+    <caption>
+    	<input type="button" value="全选" class="checkAll">
+    	<input type="button" value="反选" class="checkNeg">
+        <div class="Pages">
+        	<span>5874条结果，共294页</span>
+            <a href="#">首页</a>
+            <a href="#">上一页</a>
+            <a href="#">1</a>
+            <a href="#" class="cur">2</a>
+            <a href="#">3</a>
+            <a href="#">...</a>
+            <a href="#">294</a>
+            <a href="#">下一页</a>
+            <a href="#">尾页</a>
+        </div>
+    </caption>
+</table></div>
+
+<!--这个的发送邮件跟之前的不一样，这个是发给企业的-->
+<table class="FullScreenPlugin black5"><tr><td>
+	<dl class="CENTERDIV SendEmail CenterMiddle" data-active=".email">
+    	<dt><b>发送邮件</b><q>&times;</q></dt>
+        <dd><table class="CenterTableFull">
+        	<tbody>
+            	<tr><th width="100">发送对象：</th><td>
+                	<b>当前的公司名称</b>
+                	<input type="hidden" data-datas="id">
+                </td></tr>
+            	<tr><th>相关职位：</th><td>
+                	<b>当前的职位名称</b>
+                	<input type="hidden" data-datas="id">
+                </td></tr>
+            	<tr><th>邮件模版：</th><td>
+                	<dl class="SELECT full Templates">
+                    	<input type="hidden">
+                        <dt data-placeholder="请选择邮件模版"></dt>
+                        <dd class="normal"></dd>
+                    </dl>
+                </td></tr>
+            	<tr><th>内容：</th><td><textarea class="TemplateContent"></textarea></td></tr>
+            </tbody>
+            <tfoot><tr><td colspan="2">
+                <input type="button" class="submit" value="发送邮件">
+                <input type="button" class="cancel" value="取消">
+            </td></tr></tfoot>
+        </table></dd>
+    </dl>
+</td></tr></table>
+</body>
+</html>
+<script src="../js/v2/admin/jquery2.js"></script>
+<script src="../js/jbody.js"></script>
+<script src="../js/jbody-plugin.js"></script>
+<script src="../js/area.js"></script>
+<script src="../js/subjects.js"></script>
+<script src="../js/jobPositions.js"></script>
+<script src="../js/jobPositionsParttime.js"></script>
+<script src="../js/universities.js"></script>
+<script src="../js/v2/admin/all.js"></script>
+<script>
+var EmailTemplates=[
+	{
+		id:1,
+		title:'邮件模板一',
+		content:'邮件模板一邮件模板一邮件模板一邮件模板一'
+	},
+	{
+		id:3,
+		title:'邮件模板三',
+		content:'SendEmail, English \n Return'
+	}
+];
+InitTemplates([EmailTemplates],['SendEmail']);
+</script>

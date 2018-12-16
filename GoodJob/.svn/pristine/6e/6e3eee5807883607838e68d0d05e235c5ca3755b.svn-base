@@ -1,0 +1,758 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><title>
+    管理后台
+</title><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta http-equiv="pragma" content="no-cache" /><meta http-equiv="Cache-Control" content="no-cache, must-revalidate" /><meta http-equiv="expires" content="0" />
+    <link href="../css/1024/common.css" rel="stylesheet" type="text/css" />
+    <link href="../css/1024/admin.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/MD5.js"></script>
+    <script type="text/javascript" src="../js/jbody.js"></script>
+    <script type="text/javascript" src="../js/jbody-plugin.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+    <script type="text/javascript" src="../js/area.js"></script>
+    <script type="text/javascript" src="../js/subjects.js"></script>
+    <script type="text/javascript" src="../js/jobPositions.js"></script>
+    <script type="text/javascript" src="../js/oldadmin/gpAdmin.js"></script>
+    <script type="text/javascript" src="../js/menuControl.js"></script>
+    <script type="text/javascript" src="../js/oldadmin/common.js"></script>
+    <script type="text/javascript" src="../js/selectors.js"></script>
+    
+    <script type="text/javascript" src="../UploadFile/UploadFile.js"></script>
+    <script type="text/javascript" src="../UploadFile/ManageCtrl.js"></script>
+    
+</head>
+<body>
+    
+
+    
+<div id="pg-header" class="pg-header">
+    <div class="pg-header-main">
+        <div class="logo">
+            <a href="/"><img alt="好工作网Logo" src="../images/logo.png" class="pngfix" width="232" height="40" /></a>
+        </div>
+        <div class="cname">平台管理后台</div>
+        <div class="r mginT10">
+    <div class="platform-switch-container">
+    <div class="platform-switch-main msout">
+        <span class="floatR">切换后台</span>
+        <span class="floatR" style="border:solid 1px #ffc183; line-height:12px; margin-right:5px; padding-left:1px; padding-right:1px;">+</span>
+        <div style="clear:both;"></div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        $(".platform-switch-main").click(function () {
+            JBFrameHelper.showPage("/UCenter/PlatformSwitch.phtml", { obj: this, title: "切换到个人中心或其他管理后台", w: 500, pos: { to: "win", parent: "doc", park: "inside", parkInside: "center" } }, true, false);
+        });
+    })
+</script>
+
+</div>
+    </div>
+</div>
+    
+<div id="pg-nav" class="pg-nav">
+    <ul>
+        <li><div class="nav-title"><a href="#">管理首页</a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">院校<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">企业<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">资讯公告<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">招聘<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">简历<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">用户<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">广告<sub></sub></a></div></li>
+        <li><div class="nav-title"><a href="javascript:void(0);">更多<sub></sub></a></div></li>
+    </ul>
+</div>
+<div style="clear:both;"></div>
+<div id="pg-nav-sub" style="display:none;">
+    <div id="pg-nav-sub-inner">
+    <div id="pg-nav-sub-main">
+        <ul style="display:none;">
+            <li><a href="Sum.html">系统概况</a></li>
+            <li><a href="Admin.html">系统功能链接汇总</a></li>
+            <li><a href="#">消息</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="School-cooperation.html">合作院校</a></li>
+            <li><a href="School-hasexpired.html">已到期</a></li>
+            <li><a href="School-expire.html">即将到期</a></li>
+            <li><a href="School-application.html">申请中</a></li>
+            <li><a href="School-mobilization.html">动员中</a></li>
+            <li><a href="School-all.html">全部院校</a></li>
+            <li><a href="School-add.html">添加院校</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Company-application.html">合作企业</a></li>
+            <li><a href="Company-hasexpired.html">已到期</a></li>
+            <li><a href="Company-expire.html">即将到期</a></li>
+            <li><a href="Company-application.html">申请中</a></li>
+            <li><a href="Company-mobilization.html">动员中</a></li>
+            <li><a href="Company-all.html">全部企业</a></li>
+            <li><a href="Company-add.html">添加企业</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Articles.html">管理平台资讯</a></li>
+            <li><a href="Articles.html">管理企业发布的资讯</a></li>
+            <li><a href="Articles.html">管理院校发布的资讯</a></li>
+            <li><a href="Articles.html">添加资讯</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Offers-wait.html">待审核</a></li>
+            <li><a href="Offers-ing.html">正在招聘</a></li>
+            <li><a href="Offers-fulltime.html">全职岗位</a></li>
+            <li><a href="Offers-parktime.html">兼职岗位</a></li>
+            <li><a href="Offers-internship.html">实习岗位</a></li>
+            <li><a href="Offers-school.html">校园招聘</a></li>
+            <li><a href="Offers-public.html">社会招聘</a></li>
+            <li><a href="Offers-all.html">全部</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Resumes.html">企业下载</a></li>
+            <li><a href="Resumes.html">正在求职</a></li>
+            <li><a href="Resumes.html">等待推荐</a></li>
+            <li><a href="Resumes.html">已推荐</a></li>
+            <li><a href="Resumes.html">已面试</a></li>
+            <li><a href="Resumes.html">全部</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="CustmRoles.html">平台管理员角色</a></li>
+            <li><a href="Admin-admin.html">平台管理员</a></li>
+            <li><a href="Admin-school.html">院校方管理员</a></li>
+            <li style="display:none;"><a href="/admin/users/school/">院校方导师</a></li>
+            <li><a href="Admin-company.html">企业方管理员</a></li>
+            <li><a href="Admin-user.html">全部注册用户</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="#">正在投放</a></li>
+            <li><a href="#">已过期</a></li>
+            <li><a href="#">全部</a></li>
+            <li><a href="#">添加广告</a></li>
+        </ul>
+        <ul style="display:none;">
+            <li><a href="Setting.html">系统设置</a></li>
+            <li><a href="Info.html">个人设置</a></li>
+            <li><a href="Password.html">修改密码</a></li>
+        </ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+        <ul style="display:none;"></ul>
+    </div>
+    </div>
+</div>
+<div style="clear:both;"></div>
+    <div class="pageMainContentContainer">         
+    <div id="titleAndTabMenuContainer" class="titleAndTabMenuContainer" style="display:none; clear:both;"></div>
+    <div id="titleAndTabMenuContainer2" class="titleAndTabMenuContainer" style="display:none; clear:both;"></div>
+    <iframe id="_postTargetIframe" name="_postTargetIframe" style="display:none;" src="about:blank"></iframe>
+    <form method="post" action="/admin/Company/?listType=cooperation" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<div class="aspNetHidden">
+
+    <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="F86E0738" />
+</div>
+    
+    <div class="bodyBlock">
+        <div class="detailBlockTitle">
+            <div class="leftIco"></div>
+            <div class="left">全部企业列表</div>
+        </div>
+        <div class="searchMain">
+            <div class="condition width080">
+                名称：
+            </div>
+            <div class="conditionL width250">
+                <input name="ctl00$form$txtCourseName" type="text" id="form_txtCourseName" class="inputText" data-jbextendid="exinput_form_txtCourseName_885_325" data-jbtips="简称/全称" style="width:240px;" />
+            </div>
+            <div class="condition width120">
+                城市：
+            </div>
+            <div class="conditionL width250">
+                <input type="hidden" name="ctl00$form$MultiCitys1$HiddenCityIds" id="form_MultiCitys1_HiddenCityIds" />
+<div style="width:246px; height:30px;">
+    <div onclick="MultiCitysSelector.show(this)">
+        <select id="form_MultiCitys1select" style="float:left;; width:246px; height:30px;" disabled="disabled">
+            <option></option>
+        </select>
+        <div style="position:relative; left:0px; top:0px;" id="form_MultiCitys1front">
+            <div style="position:absolute; left:0px; top:0px; width:246px; height:30px; border:solid 0px #000;"></div>
+        </div>
+    </div>    
+    <div style="clear:both;"></div>
+</div>
+<script type="text/javascript">
+    var MultiCitysSelector = null;
+    $(function(){
+        MultiCitysSelector = new MultiCityCreater({
+            objName: "MultiCitysSelector",
+            maxSelect: 3,
+            objHiddenId : document.getElementById("form_MultiCitys1_HiddenCityIds"),
+            selectElement : document.getElementById("form_MultiCitys1select"),
+            textWhenEmpty:"不限",
+            dialogTitle:"请选择城市",
+            onchange: [function (opt) { $("#form_MultiCitys1front").attr("title", opt.tts); },null]
+        });
+    });
+</script>
+            </div>
+            <div style="clear: both;">
+            </div>
+            <div class="condition width080">
+                性质：
+            </div>
+            <div class="conditionL width120">
+                <select name="ctl00$form$DropDownListNatureType" id="form_DropDownListNatureType" style="height:30px;width:115px;">
+    <option selected="selected" value="0">不限</option>
+    <option value="2">外商独资</option>
+    <option value="4">外企办事处</option>
+    <option value="8">中外合资合作</option>
+    <option value="16">私营_民营企业</option>
+    <option value="32">国有企业</option>
+    <option value="64">国内上市公司</option>
+    <option value="128">政府机关</option>
+    <option value="256">非营利机构</option>
+    <option value="512">事业单位</option>
+    <option value="1024">其他</option>
+
+</select>
+            </div>
+            <div class="condition width040">
+                规模：
+            </div>
+            <div class="conditionL width080">
+                <select name="ctl00$form$DropDownListEmployeesMax" id="form_DropDownListEmployeesMax" style="height:30px;width:80px;">
+    <option selected="selected" value="0">不限</option>
+    <option value="50">50人以下</option>
+    <option value="150">50至150人</option>
+    <option value="500">150至500人</option>
+    <option value="1000">500至1000人</option>
+    <option value="3000">1000至3000人</option>
+    <option value="1000000">3000人以上</option>
+
+</select>
+            </div>
+            <div class="condition width120">
+                行业：
+            </div>
+            <div class="conditionL width250">
+                <input type="hidden" name="ctl00$form$MutiSubjectSelectorTarget$HiddenSubjectIds" id="form_MutiSubjectSelectorTarget_HiddenSubjectIds" />
+<div style="">
+    <div onclick="MutiSubjectSelector.show(this)">
+        <select id="form_MutiSubjectSelectorTargetselect" style="float:left;; width:248px; height:30px;" disabled="disabled">
+            <option></option>
+        </select>
+        <div style="position:relative;" id="form_MutiSubjectSelectorTargetfront">
+            <div style="position:absolute; width:248px; height:30px; border:solid 0px #000;"></div>
+        </div>
+    </div>    
+    <div style="clear:both;"></div>
+</div>
+<script type="text/javascript">
+    var MutiSubjectSelector = null;
+    $(function(){
+        MutiSubjectSelector = new MultiSubjectCreater({
+            objName: "MutiSubjectSelector",
+            maxSelect: 2,
+            objHiddenId : document.getElementById("form_MutiSubjectSelectorTarget_HiddenSubjectIds"),
+            selectElement : document.getElementById("form_MutiSubjectSelectorTargetselect"),
+            textWhenEmpty:"不限",
+            dialogTitle:"请选择行业",
+            canSelectTopLevel:true,
+            mode : "multi",
+            onchange: [function (opt) { $("#form_MutiSubjectSelectorTargetfront").attr("title", opt.tts); },null]
+        });
+    });
+</script>
+            </div>
+            <div style="clear: both;"></div>
+            <div class="condition width080">
+                更新日期：
+            </div>
+            <div class="conditionL width250">
+                <div class="date">
+                    <input name="ctl00$form$txtStartDate" type="text" id="form_txtStartDate" data-jbextendid="exinput_form_txtStartDate_905_325" style="width:90px;" />
+                    <div class="setdate" title="设置日期"></div>
+                    <div class="deldate" title="清除"></div>
+                </div>
+                <div style="float: left;">
+                    至
+                </div>
+                <div class="date">
+                    <input name="ctl00$form$txtEndDate" type="text" id="form_txtEndDate" data-jbextendid="exinput_form_txtEndDate_618_325" style="width:90px;" />
+                    <div class="setdate" title="设置日期"></div>
+                    <div class="deldate" title="清除"></div>
+                </div>
+            </div>
+            <div id="form_IsAll" style=" display:none;">
+                <div class="condition width120">
+                    合同状态：
+                </div>
+                <div class="conditionL width100">
+                    <select name="ctl00$form$DropDownListContractState" id="form_DropDownListContractState" style="height:30px;width:100px;">
+    <option selected="selected" value="0">不限</option>
+    <option value="1">合作</option>
+    <option value="2">准合作</option>
+    <option value="4">试用</option>
+    <option value="8">申请待审核</option>
+    <option value="16">动员中</option>
+    <option value="32">企业已拒绝</option>
+    <option value="64">我方已拒绝</option>
+    <option value="96">双方已拒绝</option>
+
+</select>
+                </div>
+                <div class="condition width060">
+                    过期日：
+                </div>
+                <div class="conditionL width080">
+                    <select name="ctl00$form$DropDownListTimeout" id="form_DropDownListTimeout" style="height:30px;">
+    <option selected="selected" value="-1">不限</option>
+    <option value="0">已过期</option>
+    <option value="3">3天内</option>
+    <option value="7">1周内</option>
+    <option value="15">半个月内</option>
+    <option value="90">三个月内</option>
+
+</select>
+                </div>
+            </div>
+            <div class="conditionL mginL15">
+                <input type="submit" name="ctl00$form$btnSearch" value="查询" id="form_btnSearch" class="btn-3d btn-3d-orange" />
+                <input type="reset" class="btn-3d btn-3d-gray" value="重置" />
+            </div>
+            <div style="clear: both;">
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+    <div>
+        <div style="float:right; margin-right:10px;" id="PageNaverContainer">
+            <span class="allpage_num">22条结果，共2页</span><a class="page_num" href="javascript:void(0);">首页</a><a class="page_num" href="javascript:void(0);">上一页</a><span class="page_current">1</span><a class="page_num" href="javascript:void(0)" onclick="javascript:CommonIframeSubmitHelper.resetAndSubmit({data:{pid:2}})">2</a><a class="page_num" href="javascript:void(0)" onclick="javascript:CommonIframeSubmitHelper.resetAndSubmit({data:{pid:2}})">下一页</a><a class="page_num" href="javascript:void(0)" onclick="javascript:CommonIframeSubmitHelper.resetAndSubmit({data:{pid:2}})">尾页</a><script language='javascript'>function GoToPage(url){document.location.href=url;}function jumpPage(obj,url){var i=parseInt(obj.previousSibling.value);if(!i&&i!=0)return false;if(i<=0)i=1;if(i>2)i=2;GoToPage(url + i);}</script>
+        </div>
+    </div>
+    <div style="clear:both;"></div>
+    <div class="bodyBlock">
+        <table class="listTable">
+            <thead>
+                <tr>
+                    <td style="width: 60px;">ID</td>
+                    <td style="width: 80px;">Url Key</td>
+                    <td>企业简称</td>
+                    <td>企业全称</td>
+                    <td style="width: 90px;">性质</td>
+                    <td style="width: 120px;">行业</td>
+                    <td style="width: 80px;">员工规模</td>
+                    <td style="width: 80px;">更新日期</td>
+                    <td style="width: 70px;">录入方式</td>
+                    <td style="width: 100px;">合同状态</td>
+                    <td style="width: 100px;">审核状态</td>
+                    <td style="width: 150px;">操作</td>
+                </tr>
+            </thead>
+            
+                    <tr class="tr0">
+                        <td>10011</td>
+                        <td>zrzkz</td>
+                        <td>灯晚消</td>
+                        <td>西安市打汽非有限公司</td>
+                        <td>事业单位</td>
+                        <td>多元化业务集团公司</td>
+                        <td>50人以下</td>
+                        <td>2014-06-27</td>
+                        <td>用户后台</td>
+                        <td>合作2016-06-27</td>
+                        <td>正常</td>
+                        <td><a href="Detail/?id=10011">查看</a>
+                            | <a href="Detail/users.phtml?id=10011">管理员</a>
+                            | <a href="/Company/zrzkz/" target="_blank">企业首页</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>10012</td>
+                        <td>puwdck</td>
+                        <td>个七换节们</td>
+                        <td>成都市听装子婚有限公司</td>
+                        <td>非营利机构</td>
+                        <td>建筑/建材/工程</td>
+                        <td>50人以下</td>
+                        <td>2014-06-27</td>
+                        <td>机器录入</td>
+                        <td>合作2016-06-27</td>
+                        <td>正常</td>
+                        <td><a href="Detail/?id=10012">查看</a>
+                            | <a href="Detail/users.phtml?id=10012">管理员</a>
+                            | <a href="/Company/puwdck/" target="_blank">企业首页</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>10014</td>
+                        <td>dycuc</td>
+                        <td>杂忙顿争属</td>
+                        <td>长沙市引实病刻乐有限公司</td>
+                        <td>事业单位</td>
+                        <td>快速消费品(食品/饮料/化妆品)</td>
+                        <td>1000至3000人</td>
+                        <td>2014-06-27</td>
+                        <td>机器录入</td>
+                        <td>合作2016-06-27</td>
+                        <td>正常</td>
+                        <td><a href="Detail/?id=10014">查看</a>
+                            | <a href="Detail/users.phtml?id=10014">管理员</a>
+                            | <a href="/Company/dycuc/" target="_blank">企业首页</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>10015</td>
+                        <td>nbmsqe</td>
+                        <td>续吸你</td>
+                        <td>上海市下投始健黄有限公司</td>
+                        <td>国有企业</td>
+                        <td>采掘业/冶炼</td>
+                        <td>50至150人</td>
+                        <td>2014-06-27</td>
+                        <td>机器录入</td>
+                        <td>合作2016-06-27</td>
+                        <td>正常</td>
+                        <td><a href="Detail/?id=10015">查看</a>
+                            | <a href="Detail/users.phtml?id=10015">管理员</a>
+                            | <a href="/Company/nbmsqe/" target="_blank">企业首页</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>10017</td>
+                        <td>drjrz</td>
+                        <td>较应他</td>
+                        <td>天津市温药复有限公司</td>
+                        <td>外商独资</td>
+                        <td>航天/航空</td>
+                        <td>50人以下</td>
+                        <td>2014-06-27</td>
+                        <td>机器录入</td>
+                        <td>合作2016-06-27</td>
+                        <td>正常</td>
+                        <td><a href="Detail/?id=10017">查看</a>
+                            | <a href="Detail/users.phtml?id=10017">管理员</a>
+                            | <a href="/Company/drjrz/" target="_blank">企业首页</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>10019</td>
+                        <td>yxwmzu</td>
+                        <td>优除遍</td>
+                        <td>天津市珍队持术有限公司</td>
+                        <td>国有企业</td>
+                        <td>其他行业</td>
+                        <td>50人以下</td>
+                        <td>2014-06-27</td>
+                        <td>机器录入</td>
+                        <td>合作2016-06-27</td>
+                        <td>正常</td>
+                        <td><a href="Detail/?id=10019">查看</a>
+                            | <a href="Detail/users.phtml?id=10019">管理员</a>
+                            | <a href="/Company/yxwmzu/" target="_blank">企业首页</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>10020</td>
+                        <td>pbdfsjm</td>
+                        <td>该着状金投</td>
+                        <td>天津市维节题惊故有限公司</td>
+                        <td>国内上市公司</td>
+                        <td>建筑/建材/工程</td>
+                        <td>3000人以上</td>
+                        <td>2014-06-27</td>
+                        <td>用户后台</td>
+                        <td>合作2016-06-27</td>
+                        <td>正常</td>
+                        <td><a href="Detail/?id=10020">查看</a>
+                            | <a href="Detail/users.phtml?id=10020">管理员</a>
+                            | <a href="/Company/pbdfsjm/" target="_blank">企业首页</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>10021</td>
+                        <td>dczyx</td>
+                        <td>置终排国</td>
+                        <td>上海市伦萨片恐有限公司</td>
+                        <td>外商独资</td>
+                        <td>快速消费品(食品/饮料/化妆品)</td>
+                        <td>500至1000人</td>
+                        <td>2014-06-27</td>
+                        <td>运营后台</td>
+                        <td>合作2016-06-27</td>
+                        <td>正常</td>
+                        <td><a href="Detail/?id=10021">查看</a>
+                            | <a href="Detail/users.phtml?id=10021">管理员</a>
+                            | <a href="/Company/dczyx/" target="_blank">企业首页</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>10022</td>
+                        <td>srhkjhs</td>
+                        <td>周花功</td>
+                        <td>上海市双边张有限公司</td>
+                        <td>私营_民营企业</td>
+                        <td>金融/投资/证券</td>
+                        <td>500至1000人</td>
+                        <td>2014-06-27</td>
+                        <td>机器录入</td>
+                        <td>合作2016-06-27</td>
+                        <td>正常</td>
+                        <td><a href="Detail/?id=10022">查看</a>
+                            | <a href="Detail/users.phtml?id=10022">管理员</a>
+                            | <a href="/Company/srhkjhs/" target="_blank">企业首页</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>10024</td>
+                        <td>acwej</td>
+                        <td>太既凡副</td>
+                        <td>长沙市索除汽甚灯有限公司</td>
+                        <td>外商独资</td>
+                        <td>家居/室内设计/装潢</td>
+                        <td>3000人以上</td>
+                        <td>2014-06-27</td>
+                        <td>运营后台</td>
+                        <td>合作2016-06-27</td>
+                        <td>正常</td>
+                        <td><a href="Detail/?id=10024">查看</a>
+                            | <a href="Detail/users.phtml?id=10024">管理员</a>
+                            | <a href="/Company/acwej/" target="_blank">企业首页</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>10025</td>
+                        <td>bwgbmzs</td>
+                        <td>把规便解轻</td>
+                        <td>重庆市见多尽尽良有限公司</td>
+                        <td>其他</td>
+                        <td>农/林/牧/渔</td>
+                        <td>3000人以上</td>
+                        <td>2014-06-27</td>
+                        <td>用户后台</td>
+                        <td>合作2016-06-27</td>
+                        <td>正常</td>
+                        <td><a href="Detail/?id=10025">查看</a>
+                            | <a href="Detail/users.phtml?id=10025">管理员</a>
+                            | <a href="/Company/bwgbmzs/" target="_blank">企业首页</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>10026</td>
+                        <td>agnexaa</td>
+                        <td>视望佛</td>
+                        <td>上海市游消复十据有限公司</td>
+                        <td>其他</td>
+                        <td>娱乐/休闲/体育</td>
+                        <td>3000人以上</td>
+                        <td>2014-06-27</td>
+                        <td>机器录入</td>
+                        <td>合作2016-06-27</td>
+                        <td>正常</td>
+                        <td><a href="Detail/?id=10026">查看</a>
+                            | <a href="Detail/users.phtml?id=10026">管理员</a>
+                            | <a href="/Company/agnexaa/" target="_blank">企业首页</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>10027</td>
+                        <td>uvzxbvc</td>
+                        <td>差飞令</td>
+                        <td>重庆市演困写爸那有限公司</td>
+                        <td>国内上市公司</td>
+                        <td>通信/电信/网络设备</td>
+                        <td>150至500人</td>
+                        <td>2014-06-27</td>
+                        <td>机器录入</td>
+                        <td>合作2016-06-27</td>
+                        <td>正常</td>
+                        <td><a href="Detail/?id=10027">查看</a>
+                            | <a href="Detail/users.phtml?id=10027">管理员</a>
+                            | <a href="/Company/uvzxbvc/" target="_blank">企业首页</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>10029</td>
+                        <td>zzrvejr</td>
+                        <td>商家贵风</td>
+                        <td>上海市让玛路有限公司</td>
+                        <td>国有企业</td>
+                        <td>生活服务</td>
+                        <td>50人以下</td>
+                        <td>2014-06-27</td>
+                        <td>机器录入</td>
+                        <td>合作2016-06-27</td>
+                        <td>正常</td>
+                        <td><a href="Detail/?id=10029">查看</a>
+                            | <a href="Detail/users.phtml?id=10029">管理员</a>
+                            | <a href="/Company/zzrvejr/" target="_blank">企业首页</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>10032</td>
+                        <td>erxea</td>
+                        <td>着增住武</td>
+                        <td>上海市赶果题有限公司</td>
+                        <td>其他</td>
+                        <td>网络游戏</td>
+                        <td>3000人以上</td>
+                        <td>2014-06-27</td>
+                        <td>机器录入</td>
+                        <td>合作2016-06-27</td>
+                        <td>正常</td>
+                        <td><a href="Detail/?id=10032">查看</a>
+                            | <a href="Detail/users.phtml?id=10032">管理员</a>
+                            | <a href="/Company/erxea/" target="_blank">企业首页</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>10033</td>
+                        <td>amwuw</td>
+                        <td>首牛让</td>
+                        <td>北京市或哥系有限公司</td>
+                        <td>国内上市公司</td>
+                        <td>会计/审计</td>
+                        <td>50人以下</td>
+                        <td>2014-06-27</td>
+                        <td>机器录入</td>
+                        <td>合作2016-06-27</td>
+                        <td>正常</td>
+                        <td><a href="Detail/?id=10033">查看</a>
+                            | <a href="Detail/users.phtml?id=10033">管理员</a>
+                            | <a href="/Company/amwuw/" target="_blank">企业首页</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>10034</td>
+                        <td>cyhbp</td>
+                        <td>警够坐</td>
+                        <td>北京市友怎验有限公司</td>
+                        <td>外企办事处</td>
+                        <td>交通/运输/物流</td>
+                        <td>1000至3000人</td>
+                        <td>2014-06-27</td>
+                        <td>机器录入</td>
+                        <td>合作2016-06-27</td>
+                        <td>正常</td>
+                        <td><a href="Detail/?id=10034">查看</a>
+                            | <a href="Detail/users.phtml?id=10034">管理员</a>
+                            | <a href="/Company/cyhbp/" target="_blank">企业首页</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>10036</td>
+                        <td>wwaabcj</td>
+                        <td>授归嘴流助</td>
+                        <td>上海市一陈查有限公司</td>
+                        <td>其他</td>
+                        <td>银行</td>
+                        <td>50人以下</td>
+                        <td>2014-06-27</td>
+                        <td>用户后台</td>
+                        <td>合作2016-06-27</td>
+                        <td>正常</td>
+                        <td><a href="Detail/?id=10036">查看</a>
+                            | <a href="Detail/users.phtml?id=10036">管理员</a>
+                            | <a href="/Company/wwaabcj/" target="_blank">企业首页</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr0">
+                        <td>10037</td>
+                        <td>vtpaq</td>
+                        <td>巨顶冲命</td>
+                        <td>天津市治叶星立春有限公司</td>
+                        <td>国内上市公司</td>
+                        <td>房地产开发</td>
+                        <td>150至500人</td>
+                        <td>2014-06-27</td>
+                        <td>用户后台</td>
+                        <td>合作2016-06-27</td>
+                        <td>正常</td>
+                        <td><a href="Detail/?id=10037">查看</a>
+                            | <a href="Detail/users.phtml?id=10037">管理员</a>
+                            | <a href="/Company/vtpaq/" target="_blank">企业首页</a>
+                        </td>
+                    </tr>
+                
+                    <tr class="tr1">
+                        <td>10038</td>
+                        <td>hqttb</td>
+                        <td>住一条</td>
+                        <td>北京市姑恩合层读有限公司</td>
+                        <td>事业单位</td>
+                        <td>检测/认证</td>
+                        <td>500至1000人</td>
+                        <td>2014-06-27</td>
+                        <td>机器录入</td>
+                        <td>合作2016-06-27</td>
+                        <td>正常</td>
+                        <td><a href="Detail/?id=10038">查看</a>
+                            | <a href="Detail/users.phtml?id=10038">管理员</a>
+                            | <a href="/Company/hqttb/" target="_blank">企业首页</a>
+                        </td>
+                    </tr>
+                
+        </table>
+        
+        <div style="width: 98%; margin: 0px auto;" id="PageNaverContainer2">
+            <span class="allpage_num">22条结果，共2页</span><a class="page_num" href="javascript:void(0);">首页</a><a class="page_num" href="javascript:void(0);">上一页</a><span class="page_current">1</span><a class="page_num" href="javascript:void(0)" onclick="javascript:CommonIframeSubmitHelper.resetAndSubmit({data:{pid:2}})">2</a><a class="page_num" href="javascript:void(0)" onclick="javascript:CommonIframeSubmitHelper.resetAndSubmit({data:{pid:2}})">下一页</a><a class="page_num" href="javascript:void(0)" onclick="javascript:CommonIframeSubmitHelper.resetAndSubmit({data:{pid:2}})">尾页</a>
+        </div>
+    </div>
+    <div style="clear: both;"></div>
+
+    
+
+<script type="text/javascript">
+//<![CDATA[
+pageMainMenuCreater.setActive({mainText:'企业',subText: '合作企业'});//]]>
+</script>
+<script type='text/javascript'>JBInputInnerTips.create({objs:'form_txtCourseName'});var exinput_form_txtCourseName_885_325=null; JB.ready(function(){exinput_form_txtCourseName_885_325= new JBValidator({varId:'exinput_form_txtCourseName_885_325',exType:'Text',checkWhere:'ServerAndClient',msgShowType:'Right',msgCloseType:'NotClose',dataTitle:'输入',innerTextTip:'简称/全称',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:true,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0});});</script><script type='text/javascript'>var exinput_form_txtStartDate_905_325=null; JB.ready(function(){exinput_form_txtStartDate_905_325= new JBValidator({varId:'exinput_form_txtStartDate_905_325',exType:'Date',checkWhere:'ServerAndClient',msgShowType:'None',msgCloseType:'NotClose',dataTitle:'发布时间起点',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:true,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0});});</script><script type='text/javascript'>var exinput_form_txtEndDate_618_325=null; JB.ready(function(){exinput_form_txtEndDate_618_325= new JBValidator({varId:'exinput_form_txtEndDate_618_325',exType:'Date',checkWhere:'ServerAndClient',msgShowType:'None',msgCloseType:'NotClose',dataTitle:'发布时间止点',showSuccess:false,checkOnFocusout:false,checkOnChange:false,ignoreCase:true,canNull:true,inCaseHidden:false,checkAppendOnly:false,urlAllowRelate:true,msgAlwaysAlert:false,minLen:0});});</script></form>
+    
+    <script type="text/javascript">
+        CommonIframeSubmitHelper.init({ obj: $(".searchMain").get(0), jqSelector: ["#listTableMain", "#PageNaverContainer", "#PageNaverContainer2"] });
+    </script>
+   
+    <div style="clear:both;"></div>
+    </div> 
+    
+<div style="clear:both;"></div>
+<div class="footerOuter">
+    <div class="footer">
+        版权所有：好工作网
+        联系电话：88888888&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        联系邮箱：88888@qq.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+        地址：广州市环市中路&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        邮政编码：510000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br />
+    </div>
+</div>
+
+</body>
+</html>
+<script type="text/javascript">
+    $(function () { adminPageInit({ unresize: "" }); });
+</script>

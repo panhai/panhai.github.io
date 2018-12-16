@@ -1,0 +1,86 @@
+﻿
+
+#indexbanner
+{
+    width:583px;
+    height:215px;
+    margin-left:15px;
+    float:left;
+    border:solid 1px #cccccc;
+}
+#indexbanner .tts
+{
+    width:583px;
+    height:35px;
+    font-size:14px;
+    line-height:35px;
+    border-bottom:solid 1px #eeeeee;
+    background-color:#eeeeee;
+    float:left;
+}
+#indexbanner .tts .tt
+{
+    padding-left:12px;
+    padding-right:12px;
+    display:block;
+    float:left;
+    color:Black;
+    text-align:center;
+}
+#indexbanner .tar
+{
+    position:relative;
+    z-index:5;
+    width:95px;
+    left:0px;
+    top:0px;
+}
+#indexbanner .tar div
+{
+    width:95px;
+    height:8px;
+    line-height:8px;
+    text-align:center;
+    position:absolute;
+    z-index:2;
+    left:0px;
+    top:35px;
+    background:url(/images/dr5.png) center 0px no-repeat;
+}
+#indexbanner .dds
+{
+    width:583px;
+    height:180px;
+}
+#indexbanner .dds .dd
+{
+    width:583px;
+    height:185px;
+}
+#indexbanner .dds .dd .m1
+{
+    width:400px;
+    height:185px;
+    display:block;
+    float:left;
+}
+#indexbanner .dds .dd .m1 a img
+{
+    width:400px;
+    height:185px;
+}
+#indexbanner .dds .dd .m2
+{
+    width:183px;
+    height:185px;
+    display:block;
+    float:left;
+}
+#indexbanner .dds .dd .m2 a img
+{
+    width:182px;
+    height:90px;
+    display:block;
+    float:left;
+    margin-left:1px;
+}

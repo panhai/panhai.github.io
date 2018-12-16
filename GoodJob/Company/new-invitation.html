@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>企业中心-邀请函内容</title>
+<link rel="stylesheet" type="text/css" href="../css/v2/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/CCenter/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/CCenter/invite.css">
+</head>
+
+<body>
+<div class="HEADER"><div class="common">
+	<div class="TOP-LOGO"><a href="#"><img src="../images/v2/logo-s.jpg" width="119" height="62"></a></div>
+    <div class="TOP-TOOLS">
+    	Admin, <a href="#">退出</a>&nbsp;&nbsp;&nbsp;<a href="#">个人中心</a>&nbsp;&nbsp;&nbsp;<a href="#">反馈</a>&nbsp;&nbsp;&nbsp;<a href="#">HR帮助</a>
+    </div>
+    <ul class="TOP-NAV">
+    	<li><a href="new-index.html" class="cur">首页</a></li>
+    	<li><a href="new-publish.html">发布职位</a></li>
+    	<li><a href="new-profile.html">企业资料</a></li>
+    	<li><a href="new-hrfavors.html">HR收藏夹</a></li>
+    	<li><a href="new-settings.html">账号管理</a></li>
+    </ul>
+</div></div>
+
+<div class="Main">
+    <h1 class="TOPIC">邀请函内容</h1>
+    <table class="Invitation">
+    	<tr><th width="80">合作学校：</th><td width="720"><h1>华南理工大学</h1></td></tr>
+        <tr><th>合作意向：</th><td><h2>职位合作</h2></td></tr>
+        <tr><th>合作职位：</th><td>
+        	<a href="#" target="_blank">合作职位一</a>
+        	<a href="#" target="_blank">合作职位二</a>
+        	<a href="#" target="_blank">合作职位三</a>
+        </td></tr>
+    </table>
+    <div class="hr"></div>
+    <table class="Invitation">
+        <tr><th width="80">详细内容：</th><td width="720"></td></tr>
+        <tr><td colspan="2" class="content"><p>学校被誉为"财经商贸人才的摇篮"，一百年的办学历史，积蓄了深厚的文化底蕴和强劲的发展实力。学校校园环境优美、设施设备一流、师资力量雄厚、办学理念先进、管理模式规范。拥有会计实训中心、商务英语实训中心、计算机中心、电子商务实训中心、营销物流实训中心、物业管理实训中心、装璜设计实训中心、旅游服务与管理实训中心、茶文化艺术实训中心等适应各专业开展教学、实训、培训、鉴定的实训室50多个，建有"国家职业技能鉴定所"、"全国计算机信息高新技术考试站"、"全国外贸跟单员认证培训中心"等多个国家级职业技能鉴定所（站），以及会计、统计、电子商务、营销师、物流师、秘书、物业管理、酒店服务员、农产品经纪人、茶艺师等近20个工种培训鉴定工作站，与广东金融学院联合开展成人高等教育，是一所集中职学历教育、成人高等教育、短期职业技能培训鉴定为一体的综合性财经类职业技术学校。</p>
+        </td></tr>
+    </table>
+	
+	<div class="clear"></div>
+</div>
+
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/v2/all.js"></script>
+<script src="../js/effect/tab.js"></script>
+<script>
+$(function(){
+	CHItab(".JobsList","th h3","td div",{way:'click'});
+	$(".JobsSelect input[type=hidden]").change(function(){
+		$(".OuterCollector").empty().append($(".JobsList .SELECT-COLLECTOR a").clone());
+	}).change();
+	$(".OuterCollector").delegate("a q",'click',function(){
+		var id=$(this).closest("a").data("id");
+		$(".JobsList .SELECT-COLLECTOR a").filter('[data-id="'+ id +'"]').find('q').click();
+		$(".JobsList :submit").click();
+	});
+});
+$(window).load(function(){
+});
+</script>

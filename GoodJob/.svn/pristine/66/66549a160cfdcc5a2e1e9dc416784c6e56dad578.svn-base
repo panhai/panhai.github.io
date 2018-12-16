@@ -1,0 +1,699 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>会员中心首页</title>
+<script src="../js/jquery.js"></script>
+<!--[if IE 6]>
+<script src="../js/UCenter/png.js"></script>
+<script type="text/javascript">
+   DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+</head>
+<link rel="stylesheet" type="text/css" href="../css/UCenter/css.css">
+<link rel="stylesheet" type="text/css" href="../css/UCenter/index.css">
+<link rel="stylesheet" type="text/css" href="../css/plugin/center3.css">
+<body>
+<div class="header"><div class="common">
+	<em><a href="#">好工作首页</a></em>
+    <p>
+    	张英，欢迎来到好工作。&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#">安全退出</a>
+        <a href="javascript:void(0)" onclick="SwitchPlatform();">我要招人</a>
+        <a href="#">消息</a>
+        <a href="#">帮助</a>
+    </p>
+</div></div>
+<div class="nav"><div class="common">
+	<ul>
+    	<li><a href="#">我的好工作</a></li>
+    	<li><a href="#">简历中心</a></li>
+    	<li><a href="#">投递与反馈<i class="i2">22</i></a></li>
+        <!--此处的i，如果是一位数，就写class="i1"，两位数就是i2-->
+    	<li><a href="#">个人设置</a></li>
+    </ul>
+    <form>
+    	<input type="text" placeholder="搜索职位、公司及更多内容" class="search-text">
+        <input type="submit" value="好工作" class="search-btn">
+    </form>
+</div></div>
+<div class="common main">
+	<dl class="profile">
+    	<dt class="topic">基本信息</dt>
+        <dd>
+        	<a href="#" class="pro-edit"><img src="../images/UCenter/ico-edit.jpg" width="18" height="18"></a>
+        	<a href="#" target="_blank" class="pro-pic"><img src="../images/UCenter/nopic.jpg" width="159" height="159"></a>
+            <h1><em>张英张英张英</em><small>信用度：<samp><b style="width:70%"></b></samp></small></h1>
+            <p class="p1">销售经理&nbsp;&nbsp; 2年工作经验</p>
+        	<p class="p2">广东工业大学 本科 <img src="../images/UCenter/ico-v.jpg" width="18" height="18"></p>
+            <p class="p3">
+            	<img src="../images/UCenter/ico-mob.png" width="18" height="18">：12345678987&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="../images/UCenter/ico-ema.png" width="18" height="18">：65432164@qq.com<!--<a href="#">去绑定</a>没有邮箱则显示去绑定-->
+            </p>
+            <p class="p4">企业不喜欢懒惰的人，<a href="resume.html">马上去完善简历</a>吧！<!--上边资料不完全，就显示这行--></p>
+            <!--<div class="none">企业不喜欢懒惰的人，<a href="resume.html">马上去完善简历</a>吧！没有资料，就显示这行</div>-->
+        </dd>
+    </dl>
+    
+    <dl class="resumes">
+    	<dt class="topic">简历信息</dt>
+        <dd>
+        	<div>
+            	<div class="percent">
+                	<canvas width="90" height="90" id="Percentage">
+                    <!--IE下canvas不能包在P标签里，会有一个命令不正常，至于还不能包在哪些别的标签中，我没试
+                    下边的Circle命令就是画圈圈的操作，然后里边的参数就是n%的那个n，可以是0-100-->
+                    </canvas>
+                    <b>20%</b>
+                </div>
+                <p class="res-tip">
+                    <span>完善简历增加面试机会！</span>
+                    <a href="#">马上去完善</a>
+                </p>
+            </div>
+        	<ol class="counts">
+            	<li class="l1"><a href="#"><span>本周</span>
+                    <p><i>面试通知</i><b>20</b></p>
+                </a></li>
+            	<li class="l2"><a href="#"><span>本周</span>
+                    <p><i>简历被查看</i><b>4</b></p>
+                </a></li>
+            	<li class="l3"><a href="#"><span>今日</span>
+                    <p><i>剩余投递</i><b>4</b></p>
+                </a></li>
+            </ol>
+        </dd>
+    </dl>
+    
+    <div class="clear"></div>
+    <div class="lists">
+    	<ul class="labels">
+        	<li class="cur">好工作推荐</li>
+        	<li>我的收藏</li>
+        	<li>个人搜索器</li>
+        </ul>
+        <div class="list push">
+            <div class="left">
+                <ul class="search-results">
+                    <li><address>113.376325,23.131216</address>
+                        <div class="search-job search-shows">
+                            <h3><i></i><a href="#">销售经理/主管</a> <img src="../images/search/thumb.jpg" width="16" height="16"> <ins>100</ins></h3>
+                            <p>
+                                月薪：<b>6000-9000</b>&nbsp;&nbsp;
+                                经验：<b>2</b>年&nbsp;&nbsp;
+                                学历：<b>本科</b>
+                            </p>
+                            <p>
+                                投递 <b>120</b> 企业查看录 <b>20%</b>
+                            </p>
+                            <dl class="search-hide">
+                                <dt>
+                                    <q><img src="../images/search/search-hide.jpg" width="13" height="27"></q>
+                                    <h4>广州妙妙处科技有限公司 <img src="../images/search/check.jpg" width="15" height="15"></h4>
+                                    <p>领域：<b>互联网</b>&nbsp;&nbsp;&nbsp;&nbsp;规模：<b>50-100</b>人&nbsp;&nbsp;&nbsp;&nbsp;阶段：<b>上市公司</b></p>
+                                    <p><i>包吃</i><i>包住</i><i>加班补助</i></p>
+                                </dt>
+                                <dd>
+                                    <h5>职位要求</h5>
+                                    <p>一、条件：对汽车喷洒有强烈兴趣，有激情，有梦想，能独立自部门老板的人才</p>
+                                    <p>二、待遇：敢拿多少给多少……</p>
+                                    <p>三、理由：公司事业平台裂变，急需找一群志同道合者一起实现。</p>
+                                    <p>四、岗位：品牌汽车4S店各岗位均有大量需求（100人左右）</p>
+                                    <p>五、区域：广州、深圳、梅州等广东省内地方工作。</p>
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="search-company search-shows">
+                            <h3><a href="#">冠鹏信息技术有限公司</a> <img src="../images/search/check.jpg" width="15" height="15"></h3>
+                            <p>
+                                领域：<b>互联网公司</b>&nbsp;&nbsp;
+                                规模：<b>50-100</b>人
+                            </p>
+                            <p>
+                                上班地点：<b>广州天河</b>
+                                发布时间：<b>2014-9-26</b>
+                            </p>
+                        </div>
+                    </li>
+                    <li><address>113.354254,23.123647</address>
+                        <div class="search-job search-shows">
+                            <h3><i></i><a href="#">销售经理/主管</a> <img src="../images/search/thumb.jpg" width="16" height="16"> <ins>100</ins></h3>
+                            <p>
+                                月薪：<b>6000-9000</b>&nbsp;&nbsp;
+                                经验：<b>2</b>年&nbsp;&nbsp;
+                                学历：<b>本科</b>
+                            </p>
+                            <p>
+                                投递 <b>120</b> 企业查看录 <b>20%</b>
+                            </p>
+                            <dl class="search-hide">
+                                <dt>
+                                    <q><img src="../images/search/search-hide.jpg" width="13" height="27"></q>
+                                    <h4>广州妙妙处科技有限公司 <img src="../images/search/check.jpg" width="15" height="15"></h4>
+                                    <p>领域：<b>互联网</b>&nbsp;&nbsp;&nbsp;&nbsp;规模：<b>50-100</b>人&nbsp;&nbsp;&nbsp;&nbsp;阶段：<b>上市公司</b></p>
+                                    <p><i>包吃</i><i>包住</i><i>加班补助</i></p>
+                                </dt>
+                                <dd>
+                                    <h5>职位要求</h5>
+                                    <p>一、条件：对汽车喷洒有强烈兴趣，有激情，有梦想，能独立自部门老板的人才</p>
+                                    <p>二、待遇：敢拿多少给多少……</p>
+                                    <p>三、理由：公司事业平台裂变，急需找一群志同道合者一起实现。</p>
+                                    <p>四、岗位：品牌汽车4S店各岗位均有大量需求（100人左右）</p>
+                                    <p>五、区域：广州、深圳、梅州等广东省内地方工作。</p>
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="search-company search-shows">
+                            <h3><a href="#">冠鹏信息技术有限公司</a> <img src="../images/search/check.jpg" width="15" height="15"></h3>
+                            <p>
+                                领域：<b>互联网公司</b>&nbsp;&nbsp;
+                                规模：<b>50-100</b>人
+                            </p>
+                            <p>
+                                上班地点：<b>广州天河</b>
+                                发布时间：<b>2014-9-26</b>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="search-job search-shows">
+                            <h3><i></i><a href="#">销售经理/主管</a> <img src="../images/search/thumb.jpg" width="16" height="16"> <ins>100</ins></h3>
+                            <p>
+                                月薪：<b>6000-9000</b>&nbsp;&nbsp;
+                                经验：<b>2</b>年&nbsp;&nbsp;
+                                学历：<b>本科</b>
+                            </p>
+                            <p>
+                                投递 <b>120</b> 企业查看录 <b>20%</b>
+                            </p>
+                            <dl class="search-hide">
+                                <dt>
+                                    <q><img src="../images/search/search-hide.jpg" width="13" height="27"></q>
+                                    <h4>广州妙妙处科技有限公司 <img src="../images/search/check.jpg" width="15" height="15"></h4>
+                                    <p>领域：<b>互联网</b>&nbsp;&nbsp;&nbsp;&nbsp;规模：<b>50-100</b>人&nbsp;&nbsp;&nbsp;&nbsp;阶段：<b>上市公司</b></p>
+                                    <p><i>包吃</i><i>包住</i><i>加班补助</i></p>
+                                </dt>
+                                <dd>
+                                    <h5>职位要求</h5>
+                                    <p>一、条件：对汽车喷洒有强烈兴趣，有激情，有梦想，能独立自部门老板的人才</p>
+                                    <p>二、待遇：敢拿多少给多少……</p>
+                                    <p>三、理由：公司事业平台裂变，急需找一群志同道合者一起实现。</p>
+                                    <p>四、岗位：品牌汽车4S店各岗位均有大量需求（100人左右）</p>
+                                    <p>五、区域：广州、深圳、梅州等广东省内地方工作。</p>
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="search-company search-shows">
+                            <h3><a href="#">冠鹏信息技术有限公司</a> <img src="../images/search/check.jpg" width="15" height="15"></h3>
+                            <p>
+                                领域：<b>互联网公司</b>&nbsp;&nbsp;
+                                规模：<b>50-100</b>人
+                            </p>
+                            <p>
+                                上班地点：<b>广州天河</b>
+                                发布时间：<b>2014-9-26</b>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="search-job search-shows">
+                            <h3><i></i><a href="#">销售经理/主管</a> <img src="../images/search/thumb.jpg" width="16" height="16"> <ins>100</ins></h3>
+                            <p>
+                                月薪：<b>6000-9000</b>&nbsp;&nbsp;
+                                经验：<b>2</b>年&nbsp;&nbsp;
+                                学历：<b>本科</b>
+                            </p>
+                            <p>
+                                投递 <b>120</b> 企业查看录 <b>20%</b>
+                            </p>
+                            <dl class="search-hide">
+                                <dt>
+                                    <q><img src="../images/search/search-hide.jpg" width="13" height="27"></q>
+                                    <h4>广州妙妙处科技有限公司 <img src="../images/search/check.jpg" width="15" height="15"></h4>
+                                    <p>领域：<b>互联网</b>&nbsp;&nbsp;&nbsp;&nbsp;规模：<b>50-100</b>人&nbsp;&nbsp;&nbsp;&nbsp;阶段：<b>上市公司</b></p>
+                                    <p><i>包吃</i><i>包住</i><i>加班补助</i></p>
+                                </dt>
+                                <dd>
+                                    <h5>职位要求</h5>
+                                    <p>一、条件：对汽车喷洒有强烈兴趣，有激情，有梦想，能独立自部门老板的人才</p>
+                                    <p>二、待遇：敢拿多少给多少……</p>
+                                    <p>三、理由：公司事业平台裂变，急需找一群志同道合者一起实现。</p>
+                                    <p>四、岗位：品牌汽车4S店各岗位均有大量需求（100人左右）</p>
+                                    <p>五、区域：广州、深圳、梅州等广东省内地方工作。</p>
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="search-company search-shows">
+                            <h3><a href="#">冠鹏信息技术有限公司</a> <img src="../images/search/check.jpg" width="15" height="15"></h3>
+                            <p>
+                                领域：<b>互联网公司</b>&nbsp;&nbsp;
+                                规模：<b>50-100</b>人
+                            </p>
+                            <p>
+                                上班地点：<b>广州天河</b>
+                                发布时间：<b>2014-9-26</b>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="search-job search-shows">
+                            <h3><i></i><a href="#">销售经理/主管</a> <img src="../images/search/thumb.jpg" width="16" height="16"> <ins>100</ins></h3>
+                            <p>
+                                月薪：<b>6000-9000</b>&nbsp;&nbsp;
+                                经验：<b>2</b>年&nbsp;&nbsp;
+                                学历：<b>本科</b>
+                            </p>
+                            <p>
+                                投递 <b>120</b> 企业查看录 <b>20%</b>
+                            </p>
+                            <dl class="search-hide">
+                                <dt>
+                                    <q><img src="../images/search/search-hide.jpg" width="13" height="27"></q>
+                                    <h4>广州妙妙处科技有限公司 <img src="../images/search/check.jpg" width="15" height="15"></h4>
+                                    <p>领域：<b>互联网</b>&nbsp;&nbsp;&nbsp;&nbsp;规模：<b>50-100</b>人&nbsp;&nbsp;&nbsp;&nbsp;阶段：<b>上市公司</b></p>
+                                    <p><i>包吃</i><i>包住</i><i>加班补助</i></p>
+                                </dt>
+                                <dd>
+                                    <h5>职位要求</h5>
+                                    <p>一、条件：对汽车喷洒有强烈兴趣，有激情，有梦想，能独立自部门老板的人才</p>
+                                    <p>二、待遇：敢拿多少给多少……</p>
+                                    <p>三、理由：公司事业平台裂变，急需找一群志同道合者一起实现。</p>
+                                    <p>四、岗位：品牌汽车4S店各岗位均有大量需求（100人左右）</p>
+                                    <p>五、区域：广州、深圳、梅州等广东省内地方工作。</p>
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="search-company search-shows">
+                            <h3><a href="#">冠鹏信息技术有限公司</a> <img src="../images/search/check.jpg" width="15" height="15"></h3>
+                            <p>
+                                领域：<b>互联网公司</b>&nbsp;&nbsp;
+                                规模：<b>50-100</b>人
+                            </p>
+                            <p>
+                                上班地点：<b>广州天河</b>
+                                发布时间：<b>2014-9-26</b>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="search-job search-shows">
+                            <h3><i></i><a href="#">销售经理/主管</a> <img src="../images/search/thumb.jpg" width="16" height="16"> <ins>100</ins></h3>
+                            <p>
+                                月薪：<b>6000-9000</b>&nbsp;&nbsp;
+                                经验：<b>2</b>年&nbsp;&nbsp;
+                                学历：<b>本科</b>
+                            </p>
+                            <p>
+                                投递 <b>120</b> 企业查看录 <b>20%</b>
+                            </p>
+                            <dl class="search-hide">
+                                <dt>
+                                    <q><img src="../images/search/search-hide.jpg" width="13" height="27"></q>
+                                    <h4>广州妙妙处科技有限公司 <img src="../images/search/check.jpg" width="15" height="15"></h4>
+                                    <p>领域：<b>互联网</b>&nbsp;&nbsp;&nbsp;&nbsp;规模：<b>50-100</b>人&nbsp;&nbsp;&nbsp;&nbsp;阶段：<b>上市公司</b></p>
+                                    <p><i>包吃</i><i>包住</i><i>加班补助</i></p>
+                                </dt>
+                                <dd>
+                                    <h5>职位要求</h5>
+                                    <p>一、条件：对汽车喷洒有强烈兴趣，有激情，有梦想，能独立自部门老板的人才</p>
+                                    <p>二、待遇：敢拿多少给多少……</p>
+                                    <p>三、理由：公司事业平台裂变，急需找一群志同道合者一起实现。</p>
+                                    <p>四、岗位：品牌汽车4S店各岗位均有大量需求（100人左右）</p>
+                                    <p>五、区域：广州、深圳、梅州等广东省内地方工作。</p>
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="search-company search-shows">
+                            <h3><a href="#">冠鹏信息技术有限公司</a> <img src="../images/search/check.jpg" width="15" height="15"></h3>
+                            <p>
+                                领域：<b>互联网公司</b>&nbsp;&nbsp;
+                                规模：<b>50-100</b>人
+                            </p>
+                            <p>
+                                上班地点：<b>广州天河</b>
+                                发布时间：<b>2014-9-26</b>
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="pages">
+                    <span class="prev"><i>&nbsp;</i></span>
+                    <b>1</b><!--当前页面-->
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#" class="next">下一页<i></i></a>
+                    到
+                    <input type="text" class="number" value="1">
+                    页
+                    <input type="button" class="btn" value="确定">
+                </div>
+            </div>
+            <div class="right float">
+                <div class="map" id="mapContainer"></div>
+                <dl class="warn">
+                    <dt><img src="../images/search/safe.jpg" width="210" height="31"></dt>
+                    <dd>应聘带有 <img src="../images/search/check.jpg" width="15" height="15"> 的职位，如被企业骗取押金等费用，好工作管赔！</dd>
+                </dl>
+            </div>
+        </div>
+        <div class="list">
+        	<ul class="sub-labels">
+            	<li class="cur"><b>收藏职位</b><i></i></li>
+                <li><b>收藏宣讲会</b><i></i></li>
+            </ul>
+            <div class="sub-list jobs">
+                <div class="left">
+                	<ul class="job-list">
+                    	<li>
+                        	<var><img src="../images/UCenter/logo.jpg" width="56" height="52"></var>
+                            <div class="job-infor">
+                            	<h3><a href="#">销售经理/主管</a> <img src="../images/search/thumb.jpg" width="16" height="16"> <ins>100</ins></h3>
+                                <p>月薪：<b>6000-9000</b>&nbsp;&nbsp;经验：<b>2年</b>&nbsp;&nbsp;学历：<b>本科</b></p>
+                                <p>投递 <b>120</b>&nbsp;&nbsp; 企业查看率<b>20%</b>&nbsp;&nbsp; 发布时间：<b>2014-11-5</b></p>
+                            </div>
+                            <div class="job-company">
+                            	<h3>广州冠鹏信息技术有限公司 <img src="../images/search/check.jpg" width="15" height="15"></h3>
+                                <p>&nbsp;</p>
+                                <p><a href="#">取消收藏</a> | <a href="#">收藏简历</a></p>
+                            </div>
+                        </li>
+                    	<li>
+                        	<var><img src="../images/UCenter/logo.jpg" width="56" height="52"></var>
+                            <div class="job-infor">
+                            	<h3><a href="#">销售经理/主管</a> <img src="../images/search/thumb.jpg" width="16" height="16"> <ins>100</ins></h3>
+                                <p>月薪：<b>6000-9000</b>&nbsp;&nbsp;经验：<b>2年</b>&nbsp;&nbsp;学历：<b>本科</b></p>
+                                <p>投递 <b>120</b>&nbsp;&nbsp; 企业查看率<b>20%</b>&nbsp;&nbsp; 发布时间：<b>2014-11-5</b></p>
+                            </div>
+                            <div class="job-company">
+                            	<h3>广州冠鹏信息技术有限公司 <img src="../images/search/check.jpg" width="15" height="15"></h3>
+                                <p>&nbsp;</p>
+                                <p><a href="#">取消收藏</a> | <a href="#">收藏简历</a></p>
+                            </div>
+                        </li>
+                    	<li>
+                        	<var><img src="../images/UCenter/logo.jpg" width="56" height="52"></var>
+                            <div class="job-infor">
+                            	<h3><a href="#">销售经理/主管</a> <img src="../images/search/thumb.jpg" width="16" height="16"> <ins>100</ins></h3>
+                                <p>月薪：<b>6000-9000</b>&nbsp;&nbsp;经验：<b>2年</b>&nbsp;&nbsp;学历：<b>本科</b></p>
+                                <p>投递 <b>120</b>&nbsp;&nbsp; 企业查看率<b>20%</b>&nbsp;&nbsp; 发布时间：<b>2014-11-5</b></p>
+                            </div>
+                            <div class="job-company">
+                            	<h3>广州冠鹏信息技术有限公司 <img src="../images/search/check.jpg" width="15" height="15"></h3>
+                                <p>&nbsp;</p>
+                                <p><a href="#">取消收藏</a> | <a href="#">收藏简历</a></p>
+                            </div>
+                        </li>
+                    	<li>
+                        	<var><img src="../images/UCenter/logo.jpg" width="56" height="52"></var>
+                            <div class="job-infor">
+                            	<h3><a href="#">销售经理/主管</a> <img src="../images/search/thumb.jpg" width="16" height="16"> <ins>100</ins></h3>
+                                <p>月薪：<b>6000-9000</b>&nbsp;&nbsp;经验：<b>2年</b>&nbsp;&nbsp;学历：<b>本科</b></p>
+                                <p>投递 <b>120</b>&nbsp;&nbsp; 企业查看率<b>20%</b>&nbsp;&nbsp; 发布时间：<b>2014-11-5</b></p>
+                            </div>
+                            <div class="job-company">
+                            	<h3>广州冠鹏信息技术有限公司 <img src="../images/search/check.jpg" width="15" height="15"></h3>
+                                <p>&nbsp;</p>
+                                <p><a href="#">取消收藏</a> | <a href="#">收藏简历</a></p>
+                            </div>
+                        </li>
+                    	<li>
+                        	<var><img src="../images/UCenter/logo.jpg" width="56" height="52"></var>
+                            <div class="job-infor">
+                            	<h3><a href="#">销售经理/主管</a> <img src="../images/search/thumb.jpg" width="16" height="16"> <ins>100</ins></h3>
+                                <p>月薪：<b>6000-9000</b>&nbsp;&nbsp;经验：<b>2年</b>&nbsp;&nbsp;学历：<b>本科</b></p>
+                                <p>投递 <b>120</b>&nbsp;&nbsp; 企业查看率<b>20%</b>&nbsp;&nbsp; 发布时间：<b>2014-11-5</b></p>
+                            </div>
+                            <div class="job-company">
+                            	<h3>广州冠鹏信息技术有限公司 <img src="../images/search/check.jpg" width="15" height="15"></h3>
+                                <p>&nbsp;</p>
+                                <p><a href="#">取消收藏</a> | <a href="#">收藏简历</a></p>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="pages">
+                        <span class="prev"><i>&nbsp;</i></span>
+                        <b>1</b><!--当前页面-->
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#">4</a>
+                        <a href="#" class="next">下一页<i></i></a>
+                        到
+                        <input type="text" class="number" value="1">
+                        页
+                        <input type="button" class="btn" value="确定">
+                    </div>
+                </div>
+                <div class="right">
+                	<form class="right-search">
+                    	<input type="text" class="right-key" placeholder="关键字">
+                        <input type="submit" class="right-btn" value="">
+                    </form>
+                    <p class="right-warn yellow">您收藏的职位有效期为30天，超过期限系统将自动删除</p>
+                    <dl class="right-code">
+                    	<dt><img src="../images/UCenter/code.jpg" width="151" height="151"></dt>
+                        <dd class="green">微信扫一扫，找工作更轻松</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="sub-list conferences">
+                <div class="left">
+                	<ul class="col-conf">
+                    	<li>
+                            <div class="conf-company">
+                                <h3><a href="#">广州冠鹏信息技术有限公司</a></h3>
+                                <p>举办时间：<b>2014-10-10（今天）18:30</b></p>
+                                <p>举办地区：<b>广州</b></p>
+                            </div>
+                            <div class="conf-school">
+                                <h3>广州工业大学</h3>
+                                <p>详细地点：<b>东风路校区7号楼505</b></p>
+                                <p>
+                                	<img src="../images/job/icon-detail.jpg" width="16" height="16"> <a href="#">查看</a>
+	                                <img src="../images/job/icon-star.jpg" width="20" height="20"> <a href="#">取消收藏</a>
+                                	<img src="../images/job/icon-share.jpg" width="20" height="20"> <a href="#">分享</a>
+                                </p>
+                            </div>
+                        </li>
+                    	<li>
+                            <div class="conf-company">
+                                <h3><a href="#">广州冠鹏信息技术有限公司</a></h3>
+                                <p>举办时间：<b>2014-10-10（今天）18:30</b></p>
+                                <p>举办地区：<b>广州</b></p>
+                            </div>
+                            <div class="conf-school">
+                                <h3>广州工业大学</h3>
+                                <p>详细地点：<b>东风路校区7号楼505</b></p>
+                                <p>
+                                	<img src="../images/job/icon-detail.jpg" width="16" height="16"> <a href="#">查看</a>
+	                                <img src="../images/job/icon-star.jpg" width="20" height="20"> <a href="#">取消收藏</a>
+                                	<img src="../images/job/icon-share.jpg" width="20" height="20"> <a href="#">分享</a>
+                                </p>
+                            </div>
+                        </li>
+                    	<li>
+                            <div class="conf-company">
+                                <h3><a href="#">广州冠鹏信息技术有限公司</a></h3>
+                                <p>举办时间：<b>2014-10-10（今天）18:30</b></p>
+                                <p>举办地区：<b>广州</b></p>
+                            </div>
+                            <div class="conf-school">
+                                <h3>广州工业大学</h3>
+                                <p>详细地点：<b>东风路校区7号楼505</b></p>
+                                <p>
+                                	<img src="../images/job/icon-detail.jpg" width="16" height="16"> <a href="#">查看</a>
+	                                <img src="../images/job/icon-star.jpg" width="20" height="20"> <a href="#">取消收藏</a>
+                                	<img src="../images/job/icon-share.jpg" width="20" height="20"> <a href="#">分享</a>
+                                </p>
+                            </div>
+                        </li>
+                    	<li>
+                            <div class="conf-company">
+                                <h3><a href="#">广州冠鹏信息技术有限公司</a></h3>
+                                <p>举办时间：<b>2014-10-10（今天）18:30</b></p>
+                                <p>举办地区：<b>广州</b></p>
+                            </div>
+                            <div class="conf-school">
+                                <h3>广州工业大学</h3>
+                                <p>详细地点：<b>东风路校区7号楼505</b></p>
+                                <p>
+                                	<img src="../images/job/icon-detail.jpg" width="16" height="16"> <a href="#">查看</a>
+	                                <img src="../images/job/icon-star.jpg" width="20" height="20"> <a href="#">取消收藏</a>
+                                	<img src="../images/job/icon-share.jpg" width="20" height="20"> <a href="#">分享</a>
+                                </p>
+                            </div>
+                        </li>
+                    	<li>
+                            <div class="conf-company">
+                                <h3><a href="#">广州冠鹏信息技术有限公司</a></h3>
+                                <p>举办时间：<b>2014-10-10（今天）18:30</b></p>
+                                <p>举办地区：<b>广州</b></p>
+                            </div>
+                            <div class="conf-school">
+                                <h3>广州工业大学</h3>
+                                <p>详细地点：<b>东风路校区7号楼505</b></p>
+                                <p>
+                                	<img src="../images/job/icon-detail.jpg" width="16" height="16"> <a href="#">查看</a>
+	                                <img src="../images/job/icon-star.jpg" width="20" height="20"> <a href="#">取消收藏</a>
+                                	<img src="../images/job/icon-share.jpg" width="20" height="20"> <a href="#">分享</a>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="pages">
+                        <span class="prev"><i>&nbsp;</i></span>
+                        <b>1</b><!--当前页面-->
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#">4</a>
+                        <a href="#" class="next">下一页<i></i></a>
+                        到
+                        <input type="text" class="number" value="1">
+                        页
+                        <input type="button" class="btn" value="确定">
+                    </div>
+                </div>
+                <div class="right">
+                	<form class="right-search">
+                    	<input type="text" class="right-key" placeholder="关键字">
+                        <input type="submit" class="right-btn" value="">
+                    </form>
+                    <p class="right-warn blue">您收藏的宣讲会信息超过举办日期3天后系统将自动删除</p>
+                    <dl class="right-code">
+                    	<dt><img src="../images/UCenter/code.jpg" width="151" height="151"></dt>
+                        <dd>扫一扫，宣讲会早一天提醒</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <div class="list">
+        	<ul class="sub-labels">
+            	<li class="cur"><b>个人搜索器</b><i></i></li>
+                <li><b>近期搜索记录</b><i></i></li>
+            </ul>
+        	<div class="sub-list">
+            	<table class="table">
+                	<thead><tr>
+                    	<th width="160">名称</th><th width="380">搜索条件</th><th width="210">创建时间</th><th width="160">操作</th>
+                    </tr></thead>
+                    <tbody>
+                    	<tr>
+                            <td><strong>IOS开发工程师</strong></td><td>互联网/2年以上/5000-8000/近地铁/双休</td>
+                            <td>2014-11-24</td><td class="last"><a href="#">删除</a>|<a href="#">搜索</a></td>
+                        </tr>
+                    	<tr>
+                            <td><strong>IOS开发工程师</strong></td><td>互联网/2年以上/5000-8000/近地铁/双休</td>
+                            <td>2014-11-24</td><td class="last"><a href="#">删除</a>|<a href="#">搜索</a></td>
+                        </tr>
+                    	<tr>
+                            <td><strong>IOS开发工程师</strong></td><td>互联网/2年以上/5000-8000/近地铁/双休</td>
+                            <td>2014-11-24</td><td class="last"><a href="#">删除</a>|<a href="#">搜索</a></td>
+                        </tr>
+                    	<tr>
+                            <td><strong>IOS开发工程师</strong></td><td>互联网/2年以上/5000-8000/近地铁/双休</td>
+                            <td>2014-11-24</td><td class="last"><a href="#">删除</a>|<a href="#">搜索</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="pages after">
+                    <span class="prev"><i>&nbsp;</i></span>
+                    <b>1</b><!--当前页面-->
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#" class="next">下一页<i></i></a>
+                    到
+                    <input type="text" class="number" value="1">
+                    页
+                    <input type="button" class="btn" value="确定">
+                </div>
+            </div>
+        	<div class="sub-list">
+            	<table class="table">
+                	<thead><tr>
+                    	<th width="360">名称</th><th width="380">搜索条件</th><th width="170">操作</th>
+                    </tr></thead>
+                    <tbody>
+                    	<tr>
+                            <td class="first">互联网/2年以上/5000-8000/近地铁/双休</td><td>2014-11-24 13:45</td>
+                            <td class="last"><a href="#">删除</a>|<a href="#">搜索</a></td>
+                        </tr>
+                    	<tr>
+                            <td class="first">互联网/2年以上/5000-8000/近地铁/双休</td><td>2014-11-24 13:45</td>
+                            <td class="last"><a href="#">删除</a>|<a href="#">搜索</a></td>
+                        </tr>
+                    	<tr>
+                            <td class="first">互联网/2年以上/5000-8000/近地铁/双休</td><td>2014-11-24 13:45</td>
+                            <td class="last"><a href="#">删除</a>|<a href="#">搜索</a></td>
+                        </tr>
+                    	<tr>
+                            <td class="first">互联网/2年以上/5000-8000/近地铁/双休</td><td>2014-11-24 13:45</td>
+                            <td class="last"><a href="#">删除</a>|<a href="#">搜索</a></td>
+                        </tr>
+                    	<tr>
+                            <td class="first">互联网/2年以上/5000-8000/近地铁/双休</td><td>2014-11-24 13:45</td>
+                            <td class="last"><a href="#">删除</a>|<a href="#">搜索</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="pages after">
+                    <span class="prev"><i>&nbsp;</i></span>
+                    <b>1</b><!--当前页面-->
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#" class="next">下一页<i></i></a>
+                    到
+                    <input type="text" class="number" value="1">
+                    页
+                    <input type="button" class="btn" value="确定">
+                </div>
+            </div>
+        </div>
+        
+        <div class="hr"></div>
+    </div>
+</div>
+
+
+<dl class="CenterDiv top-fixed SwitchPlatform">
+	<dt class="CenterTopic"><h4>切换后台</h4><q>&times;</q></dt>
+    <dd class="CenterContent">
+    	<p>个人中心：<a href="#" class="cur">个人中心</a></p>
+        <p>企业管理中心：<br><a href="#">广东省华南信息技术科学院</a></p>
+        <p>学校管理中心：<br><a href="#">广州冠鹏信息有限公司</a> <a href="#">腾讯科技有限公司</a></p>
+    </dd>
+</dl>
+
+<div class="FirstTip top-fixed"><div><q><img src="../images/UCenter/tip-q.png" width="35" height="35"></q><img src="../images/UCenter/tip.png" width="1000" height="399"></div></div>
+
+</body>
+</html>
+<script src="../js/web/all.js"></script>
+<script src="../js/UCenter/index.js"></script>
+<script src="http://api.map.baidu.com/api?v=2.0&ak=OlGzoCwcKN9OvM16T9RnFwOl"></script>
+<script src="../js/web/center.js"></script>
+
+<script>
+var map;
+$(function(){
+	Labels();
+	FloatRight('.float.right',5);
+	map=getBaiduMap();
+	Results();
+	CenterDiv();
+	if(true)
+	{
+		alphabg.open(function(){
+			$(".FirstTip").fadeIn();
+		});
+		$(".FirstTip q").click(function(){
+			$(".FirstTip").fadeOut(alphabg.close);
+		});
+	}
+});
+$(window).load(function(){
+	Circle(20);
+});
+</script>

@@ -1,0 +1,809 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>个人中心-简历云</title>
+<link rel="stylesheet" type="text/css" href="../css/v2/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/UCenter/all.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/UCenter/hrfavors.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/plugin/JobAndProf.css">
+<link rel="stylesheet" type="text/css" href="../css/v2/plugin/CitiesPicker.css">
+</head>
+
+<body>
+<div class="HEADER"><div class="common">
+	<div class="TOP-LOGO"><a href="#"><img src="../images/v2/logo-s.jpg" width="119" height="62"></a></div>
+    <div class="TOP-TOOLS">
+    	张英，欢迎来到好工作！   <a href="#">安全退出</a> | <a href="#">我要招人</a> | <a href="#">消息</a> | <a href="#">帮助</a>
+    </div>
+    <ul class="TOP-NAV">
+    	<li><a href="new-myjob-jobpush.html" class="cur">我的好工作</a></li>
+    	<li><a href="new-RESUME.html">简历中心</a></li>
+    	<li><a href="new-settings.html">个人设置</a></li>
+    	<li><a href="new-hrfavors.html">简历云</a></li>
+    </ul>
+    <!--<div class="TOP-SEARCH">
+    	<input type="text" class="text" placeholder="请输入职位名称">
+        <input type="submit" class="submit" value="">
+    </div>-->
+</div></div>
+
+<div class="Main common">
+	<div class="Left">
+    	<div class="HRstore">
+        	<h3>简历云容量</h3>
+            <samp id="CloudStorage"></samp>
+            <p><b>150</b>份/<i>850</i>份</p>
+        </div>
+        <div class="HRmenus">
+            <h3>简历收藏</h3>
+            <ul>
+            	<li><a href="#" class="cur">未分组简历（80）</a></li>
+                <li><a href="#">最多能写七个字（200）</a></li>
+                <li><a href="#">销售精英（50）</a></li>
+                <li><a href="#">研发人才（40）</a></li>
+                <li><a href="#">超过八个隐藏（40）</a></li>
+                <li><a href="#">展开后可以收起（40）</a></li>
+                <li><a href="#">企业人才库（40）</a></li>
+            </ul>
+            <h4><a href="#">查看更多分组</a></h4>
+            <h5>
+            	<a href="#" class="import">┼导入简历</a>
+            	<a href="#" class="create">┼创建新分组</a>
+            </h5>
+        </div>
+    </div>
+	<div class="Right">
+        <dl class="Intro">
+            <dt class="margin">
+                <h1>HR收藏夹<small>（共6份）</small></h1>
+                <a href="javascript:void(0)" class="delete" data-id="" data-name=""></a>
+                <a href="javascript:void(0)" class="edit" data-id="123" data-name="分类123" data-intro="分类123的介绍
+折行效果"></a>
+            </dt>
+            <dd>
+                <p>1.简历云为HR提供专业的、便携的，简历信息实时追踪并且跨企业平台的简历储存服务。</p>
+                <p>2.简历云支持多种形式导入简历，并可在好工作平台直接编辑简历并发送职位邀请（<a href="#">什么是职位邀请？</a>）。</p>
+                <p>3.HR账号与企业平台解绑后，简历云将移动到"个人中心"，与企业再次绑定后，再移动到已绑定的企业平台。</p>
+            </dd>
+        </dl>
+        <div class="Topics">
+        	<h2><a href="#" class="cur">全部</a></h2>
+        	<h2><a href="#.html">正在求职</a></h2>
+            <span>更多筛选</span>
+            <input type="button" class="submit" value="">
+            <pre class="text-container"><input type="text" class="text" placeholder="请输入关键词" data-init="true"></pre>
+            <label class="calendar" for="calendar"></label><input type="text" id="calendar">
+        </div>
+        <div class="Filters"><table>
+        	<thead><tr>
+            	<th width="70"></th><td width="120"></td>
+            	<th width="87"></th><td width="220"></td>
+            	<th width="53"></th><td width="220"></td>
+            </tr></thead>
+            <tbody>
+            	<tr><td colspan="6">
+                	<div class="half">
+                    	<var>期望职位：</var>
+                    	<dl class="SELECT filter-jobs blue" data-choices="1" data-leave="egnore">
+                            <input type="hidden" value=""><!--只要给这里边值的话，就会自动初始化-->
+                            <dt class="blue"><span></span><i></i></dt>
+                            <dd class="FilterMenu blue">
+                            <table>
+                                <!--<caption class="SELECT-COLLECTOR">
+                                    <samp>最多选择三个：</samp>
+                                    <a href="#"><span>最多选择三个</span><q></q></a>
+                                    <a href="#"><span>最多选择三个</span><q></q></a>
+                                    <a href="#"><span>最多选择三个</span><q></q></a>
+                                    <input type="button" class="reset" value="关闭">
+                                    <input type="button" class="submit" value="确定">
+                                </caption>-->
+                                <th class="menus"></th>
+                                <td class="submenus"></td>
+                            </table>
+                            </dd>
+                        </dl>
+            		</div>
+                	<div class="half">
+                    	<var>期望行业：</var>
+                        <dl class="SELECT filter-profs blue" data-choices="1" data-leave="egnore">
+                            <input type="hidden">
+                            <dt class="blue"><span></span><i></i></dt>
+                            <dd class="FilterProfs blue">
+                            <table>
+                                <!--<caption class="SELECT-COLLECTOR">
+                                    <samp>最多选择三个：</samp>
+                                    <a href="#"><span>最多选择三个</span><q></q></a>
+                                    <a href="#"><span>最多选择三个</span><q></q></a>
+                                    <a href="#"><span>最多选择三个</span><q></q></a>
+                                    <input type="button" class="reset" value="关闭">
+                                    <input type="button" class="submit" value="确定">
+                                </caption>-->
+                                <tbody class="SELECT-CHOICES">
+                                </tbody>
+                            </table>
+                            </dd>
+                        </dl>
+            		</div>
+                </td></tr>
+            	<tr>
+                    <th>期望城市：</th><td>
+                        <dl class="CitiesPicker SELECT alone" data-matches="5" data-init='egnore'>
+                            <input type="hidden">
+                            <dt><span><input type="text" value="" data-list="arrow"></span><i></i></dt>
+                            <dd>
+                                <div class="CitiesHot">
+                                    <h5>热门城市（可直接选择城市或输入城市拼音/简拼）</h5>
+                                    <div class="cities">
+                                        <a data-id=''>不限</a><a data-id="271000">广州</a><a data-id="271200">深圳</a><a data-id="171000">上海</a><a data-id="272600">东莞</a><a data-id="271500">佛山</a><a data-id="101000">北京</a><a data-id="261000">长沙</a><a data-id="251000">武汉</a><a data-id="191000">杭州</a><a data-id="181000">南京</a><a data-id="211000">福州</a><a data-id="272700">中山</a><a data-id="272000">惠州</a><a data-id="271300">珠海</a><a data-id="201000">合肥</a><a data-id="301000">成都</a><a data-id="231000">济南</a><a data-id="271700">湛江</a><a data-id="262200">娄底</a><a data-id="261100">株洲</a><a data-id="261900">郴州</a><a data-id="271100">韶关</a><a data-id="311000">贵阳</a><a data-id="261300">衡阳</a><a data-id="221000">南昌</a><a data-id="301900">乐山</a><a data-id="211400">泉州</a><a data-id="302000">南充</a><a data-id="261200">湘潭</a><a data-id="241000">郑州</a><a data-id="302300">广安</a><a data-id="301500">绵阳</a><a data-id="301400">德阳</a><a data-id="211100">厦门</a><a data-id="271600">江门</a><a data-id="111000">天津</a><a data-id="331000">西安</a><a data-id="272200">汕尾</a><a data-id="272300">河源</a><a data-id="391200">桂林</a><a data-id="181100">无锡</a><a data-id="251300">宜昌</a>
+                                    </div>
+                                </div>
+                                <div class="CitiesQuery">
+                                    <div class="tip">d，若缩小范围，请输入全拼</div>
+                                    <div class="matches" data-list="datas">
+                                        <!--<a data-id="">广东</a>-->
+                                    </div>
+                                </div>
+                            </dd>
+                        </dl>
+                    </td>
+                    <th>工作经验：</th><td>
+                        <dl class="SELECT Experience couple">
+                            <input type="hidden">
+                            <dt><span></span><i></i></dt>
+                            <dd class="single normal">
+                                <a data-id="1">在读学生</a>
+                                <a data-id="2">应届生</a>
+                                <a data-id="3">1年以下</a>
+                                <a data-id="4">1-3年</a>
+                                <a data-id="5">3-5年</a>
+                                <a data-id="6">5-10年</a>
+                                <a data-id="7">10年以上</a>
+                            </dd>
+                        </dl>
+                        <ins>-</ins>
+                        <dl class="SELECT Experience couple">
+                            <input type="hidden">
+                            <dt><span></span><i></i></dt>
+                            <dd class="single normal">
+                                <a data-id="1">在读学生</a>
+                                <a data-id="2">应届生</a>
+                                <a data-id="3">1年以下</a>
+                                <a data-id="4">1-3年</a>
+                                <a data-id="5">3-5年</a>
+                                <a data-id="6">5-10年</a>
+                                <a data-id="7">10年以上</a>
+                            </dd>
+                        </dl>
+                    </td>
+                    <th>学历：</th><td>
+                        <dl class="SELECT Education couple">
+                            <input type="hidden">
+                            <dt><span></span><i></i></dt>
+                            <dd class="single normal">
+                                <a data-id="1">初中/高中</a>
+                                <a data-id="2">技校/中专</a>
+                                <a data-id="3">大专</a>
+                                <a data-id="4">本科</a>
+                                <a data-id="5">硕士</a>
+                                <a data-id="6">博士</a>
+                                <a data-id="7">其他</a>
+                            </dd>
+                        </dl>
+                        <ins>-</ins>
+                        <dl class="SELECT Education couple">
+                            <input type="hidden">
+                            <dt><span></span><i></i></dt>
+                            <dd class="single normal">
+                                <a data-id="1">初中/高中</a>
+                                <a data-id="2">技校/中专</a>
+                                <a data-id="3">大专</a>
+                                <a data-id="4">本科</a>
+                                <a data-id="5">硕士</a>
+                                <a data-id="6">博士</a>
+                                <a data-id="7">其他</a>
+                            </dd>
+                        </dl>
+                    </td>
+                </tr>
+            	<tr>
+                    <th>性别：</th><td>
+                        <dl class="SELECT Sex alone">
+                            <input type="hidden">
+                            <dt><span></span><i></i></dt>
+                            <dd class="single normal">
+                                <a data-id="1">男</a>
+                                <a data-id="2">女</a>
+                            </dd>
+                        </dl>
+                    </td>
+                    <th>年龄：</th><td>
+                        <dl class="SELECT Age couple">
+                            <input type="hidden">
+                            <dt><span></span><i></i></dt>
+                            <dd class="single normal">
+                            </dd>
+                        </dl>
+                        <ins>-</ins>
+                        <dl class="SELECT Age couple">
+                            <input type="hidden">
+                            <dt><span></span><i></i></dt>
+                            <dd class="single normal">
+                            </dd>
+                        </dl>
+                    </td>
+                    <th>月薪：</th><td>
+                    	<dl class="SELECT Salary couple">
+                            <input type="hidden" id="wantSalary">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal single">
+                                <a data-id="1">1000以下</a>
+                                <a data-id="2">1000-2000</a>
+                                <a data-id="3">2000-3000</a>
+                                <a data-id="4">3000-5000</a>
+                                <a data-id="5">5000-8000</a>
+                                <a data-id="6">8000-12000</a>
+                                <a data-id="7">12000-20000</a>
+                                <a data-id="8">20000以上</a>
+                            </dd>
+                        </dl>
+                        <ins>-</ins>
+                    	<dl class="SELECT Salary couple">
+                            <input type="hidden" id="wantSalary">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal single">
+                                <a data-id="1">1000以下</a>
+                                <a data-id="2">1000-2000</a>
+                                <a data-id="3">2000-3000</a>
+                                <a data-id="4">3000-5000</a>
+                                <a data-id="5">5000-8000</a>
+                                <a data-id="6">8000-12000</a>
+                                <a data-id="7">12000-20000</a>
+                                <a data-id="8">20000以上</a>
+                            </dd>
+                        </dl>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot><tr><td colspan="6">
+            	<input type="button" class="submit" value="确定筛选">
+                <input type="button" class="reset" value="重置">
+                <a href="#" class="fold">收起</a>
+            </td></tr></tfoot>
+        </table></div>
+        <div class="Query"><!--无查询串就不放这块-->
+        	<a href="#">返回全部&gt;</a>
+            这里边放时间、关键字，共搜索到3份简历
+        </div>
+        <!--<div class="Nothing">
+        	<p><img src="../images/v2/nothing.png" width="176" height="148"></p>
+        	<p>暂无记录</p>
+        </div>-->
+        <table class="Infors bb">
+            <tr>
+            	<td width="20"><input type="checkbox"></td>
+            	<td width="100"><a href="new-resume.html" target="_blank"><var><img src="../images/v2/nophoto.png"></var></a></td>
+                <td width="360" class="profile"><a href="new-resume.html" target="_blank">
+                	<h4>张宇英<small>女/2年/本科</small></h4>
+                    <div class="memory">已面试过，各方面能力较强，但薪资要求高了，所以未录用！下次可考虑。</div>
+                    <p>SEO外链专员-广州冠鹏信息技术有限公司广州冠鹏信息技术有限公司</p>
+                    <p>信用度：<samp>80</samp></p>
+                </a></td>
+                <td width="270" class="options">
+                	<div>
+                        <dl class="SELECT">
+                        	<dt><i></i></dt>
+                            <dd class="normal">
+                            	<p><a href="#" class="invite" data-id="" data-name="">职位邀请</a></p>
+                            	<p><a href="#" class="move" data-id="1" data-name="张宇英第一条">移动简历</a></p>
+                            	<p><a href="#" class="delete" data-id="" data-name="">删除</a></p>
+                            </dd>
+                        </dl>
+                    	<a href="#" class="outer" data-id="" data-name="">职位邀请</a>
+                    </div>
+                    <p>收藏时间：<b>2015-1-26</b></p>
+                </td>
+            </tr>
+            <tr>
+            	<td width="20"><input type="checkbox"></td>
+            	<td width="100"><a href="new-resume.html" target="_blank"><var><img src="../images/v2/nophoto.png"></var></a></td>
+                <td width="360" class="profile"><a href="new-resume.html" target="_blank">
+                	<h4>张宇英<small>女/2年/本科</small></h4>
+                    <div class="memory">已面试过，各方面能力较强，但薪资要求高了，所以未录用！下次可考虑。</div>
+                    <p>SEO外链专员-广州冠鹏信息技术有限公司广州冠鹏信息技术有限公司</p>
+                    <p>信用度：<samp>80</samp></p>
+                </a></td>
+                <td width="270" class="options">
+                	<div>
+                        <dl class="SELECT">
+                        	<dt><i></i></dt>
+                            <dd class="normal">
+                            	<p><a href="#" class="invite" data-id="" data-name="">职位邀请</a></p>
+                            	<p><a href="#" class="move" data-id="" data-name="">移动简历</a></p>
+                            	<p><a href="#" class="delete" data-id="" data-name="">删除</a></p>
+                            </dd>
+                        </dl>
+                    	<a href="#" class="outer" data-id="" data-name="">职位邀请</a>
+                    </div>
+                    <p>收藏时间：<b>2015-1-26</b></p>
+                </td>
+            </tr>
+            <tr>
+            	<td width="20"><input type="checkbox"></td>
+            	<td width="100"><a href="new-resume.html" target="_blank"><var><img src="../images/v2/nophoto.png"></var></a></td>
+                <td width="360" class="profile"><a href="new-resume.html" target="_blank">
+                	<h4>张宇英<small>女/2年/本科</small></h4>
+                    <div class="memory">已面试过，各方面能力较强，但薪资要求高了，所以未录用！下次可考虑。</div>
+                    <p>SEO外链专员-广州冠鹏信息技术有限公司广州冠鹏信息技术有限公司</p>
+                    <p>信用度：<samp>80</samp></p>
+                </a></td>
+                <td width="270" class="options">
+                	<div>
+                        <dl class="SELECT">
+                        	<dt><i></i></dt>
+                            <dd class="normal">
+                            	<p><a href="#" class="invite" data-id="" data-name="">职位邀请</a></p>
+                            	<p><a href="#" class="move" data-id="" data-name="">移动简历</a></p>
+                            	<p><a href="#" class="delete" data-id="" data-name="">删除</a></p>
+                            </dd>
+                        </dl>
+                    	<a href="#" class="outer" data-id="" data-name="">职位邀请</a>
+                    </div>
+                    <p>收藏时间：<b>2015-1-26</b></p>
+                </td>
+            </tr>
+            <tr>
+            	<td width="20"><input type="checkbox"></td>
+            	<td width="100"><a href="new-resume.html" target="_blank"><var><img src="../images/v2/nophoto.png"></var></a></td>
+                <td width="360" class="profile"><a href="new-resume.html" target="_blank">
+                	<h4>张宇英<small>女/2年/本科</small></h4>
+                    <div class="memory">已面试过，各方面能力较强，但薪资要求高了，所以未录用！下次可考虑。</div>
+                    <p>SEO外链专员-广州冠鹏信息技术有限公司广州冠鹏信息技术有限公司</p>
+                    <p>信用度：<samp>80</samp></p>
+                </a></td>
+                <td width="270" class="options">
+                	<div>
+                        <dl class="SELECT">
+                        	<dt><i></i></dt>
+                            <dd class="normal">
+                            	<p><a href="#" class="invite" data-id="" data-name="">职位邀请</a></p>
+                            	<p><a href="#" class="move" data-id="" data-name="">移动简历</a></p>
+                            	<p><a href="#" class="delete" data-id="" data-name="">删除</a></p>
+                            </dd>
+                        </dl>
+                    	<a href="#" class="outer" data-id="" data-name="">职位邀请</a>
+                    </div>
+                    <p>收藏时间：<b>2015-1-26</b></p>
+                </td>
+            </tr>
+            <tr>
+            	<td width="20"><input type="checkbox"></td>
+            	<td width="100"><a href="new-resume.html" target="_blank"><var><img src="../images/v2/nophoto.png"></var></a></td>
+                <td width="360" class="profile"><a href="new-resume.html" target="_blank">
+                	<h4>张宇英<small>女/2年/本科</small></h4>
+                    <div class="memory">已面试过，各方面能力较强，但薪资要求高了，所以未录用！下次可考虑。</div>
+                    <p>SEO外链专员-广州冠鹏信息技术有限公司广州冠鹏信息技术有限公司</p>
+                    <p>信用度：<samp>80</samp></p>
+                </a></td>
+                <td width="270" class="options">
+                	<div>
+                        <dl class="SELECT">
+                        	<dt><i></i></dt>
+                            <dd class="normal">
+                            	<p><a href="#" class="invite" data-id="" data-name="">职位邀请</a></p>
+                            	<p><a href="#" class="move" data-id="" data-name="">移动简历</a></p>
+                            	<p><a href="#" class="delete" data-id="" data-name="">删除</a></p>
+                            </dd>
+                        </dl>
+                    	<a href="#" class="outer" data-id="" data-name="">职位邀请</a>
+                    </div>
+                    <p>收藏时间：<b>2015-1-26</b></p>
+                </td>
+            </tr>
+        </table>
+        <div class="MixTools">
+        	<div class="TailTools">
+            	<input type="checkbox" id="all"> <label for="all">全选</label>
+                <a href="#" class="MoveAll">移动简历</a>
+            </div>
+            <div class="PAGES">
+                <a href="#">首页</a>
+                <a href="#">上一页</a>
+                <a href="#" class="cur">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">下一页</a>
+                <a href="#">尾页</a>
+            </div>
+        </div>
+    </div>
+	<div class="clear"></div>
+</div>
+<table class="FullScreenPlugin fixed fixed-top CenterDivContainer"><tr><td>
+    <dl class="CENTERDIV CenterMiddle Request" data-active=".options a.outer,.options a.invite" data-attrs="id,name">
+        <dt class="CENTERTOPIC"><b>职位邀请</b><q></q></dt>
+        <dd class="CENTERCONTENT">
+        	<table class="CenterForm">
+            	<caption>
+                	<p>可用余额：<b>300.00</b>&nbsp;&nbsp;&nbsp;&nbsp;邀请耗费：<b>600.00</b></p>
+                    <a href="new-other-charge.html">充值</a>
+                </caption>
+                <tbody>
+                	<tr><th width="110">收件人：</th><td width="350"><em data-attr="name">张腾</em></td></tr>
+                    <tr><th>邀请职位：</th><td>
+                    	<dl class="SELECT s-s JobType">
+                        	<input type="hidden">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal">
+                            	<a data-id="1">全职</a>
+                            	<a data-id="2">实习</a>
+                            	<a data-id="3">兼职</a>
+                            </dd>
+                        </dl>
+                    	<dl class="SELECT s-l JobList">
+                        	<input type="hidden">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal">
+                            </dd>
+                        </dl>
+                        <code class="form-tip successMsg"></code>
+                        <!--<code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>-->
+                    </td></tr>
+                	<tr><th>选择模版：</th><td>
+                    	<dl class="SELECT s-m Templates">
+                        	<input type="hidden">
+                            <dt><span></span><i></i></dt>
+                            <dd class="normal"></dd>
+                        </dl>
+                        <a href="#settings-templates.html" class="link">模版管理</a>
+                        <code class="form-tip successMsg"></code>
+                        <!--<code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>-->
+                    </td></tr>
+                	<tr><th>内容：</th><td>
+                    	<textarea class="Content"></textarea>
+                        <code class="form-tip successMsg"></code>
+                        <!--<code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>-->
+                    </td></tr>
+                	<tr><th></th><td class="CENTERBTNS">
+                        <input type="button" class="submit" value="发送邀请">
+                        <input type="button" class="reset" value="取消">
+                    </td></tr>
+                </tbody>
+            </table>
+        </dd>
+	</dl>
+    <dl class="CENTERDIV CenterMiddle Create" data-active=".HRmenus .create">
+        <dt class="CENTERTOPIC"><b>创建新分组</b><q></q></dt>
+        <dd class="CENTERCONTENT">
+        	<table class="CenterForm">
+            	<tr><th width="120"><img src="../images/v2/icons/required.gif" width="6" height="6">分组名称：</th><td width="350">
+                	<input type="text" class="text" placeholder="最多为7个字" maxlength="7" data-init="true">
+                    <code class="form-tip successMsg"></code>
+                    <!--<code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>-->
+                </td></tr>
+            	<tr><th>分组描述：</th><td>
+                	<textarea placeholder="对分组内容进行描述，最多为100个字" data-init="true"></textarea>
+                    <code class="form-tip successMsg"></code>
+                    <!--<code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>-->
+                </td></tr>
+                <tr><th></th><td class="CENTERBTNS">
+                    <input type="button" class="submit" value="创建">
+                    <input type="button" class="reset" value="取消">
+                </td></tr>
+            </table>
+        </dd>
+	</dl>
+    <dl class="CENTERDIV CenterMiddle Edit" data-active=".Intro dt .edit" data-attrs="id,name,intro">
+        <dt class="CENTERTOPIC"><b>分组修改</b><q></q></dt>
+        <dd class="CENTERCONTENT">
+        	<input type="hidden" data-attr="id">
+        	<table class="CenterForm">
+            	<tr><th width="120"><img src="../images/v2/icons/required.gif" width="6" height="6">分组名称：</th><td width="350">
+                	<input type="text" class="text" placeholder="最多为7个字" maxlength="7" data-init="true" data-attr="name">
+                    <code class="form-tip successMsg"></code>
+                    <!--<code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>-->
+                </td></tr>
+            	<tr><th>分组描述：</th><td>
+                	<textarea placeholder="对分组内容进行描述，最多为100个字" data-init="true" data-attr="intro"></textarea>
+                    <code class="form-tip successMsg"></code>
+                    <!--<code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>-->
+                </td></tr>
+                <tr><th></th><td class="CENTERBTNS">
+                    <input type="button" class="submit" value="修改">
+                    <input type="button" class="reset" value="取消">
+                </td></tr>
+            </table>
+        </dd>
+	</dl>
+    <dl class="CENTERDIV CenterMiddle Move" data-active=".Infors .move" data-attrs="id,name">
+        <dt class="CENTERTOPIC"><b>移动简历</b><q></q></dt>
+        <dd class="CENTERCONTENT">
+        	<input type="hidden" data-attr="id">
+        	<table class="CenterForm">
+                <tbody>
+                    <tr><td>
+                        <p><img src="../images/v2/icons/required.gif" width="6" height="6">为<strong data-attr="name"></strong>选择分组</p>
+                        <p class="groups">
+                            <label><input type="checkbox" name="groups" value="">未分组简历</label>
+                            <label><input type="checkbox" name="groups" value="">销售精英</label>
+                            <label><input type="checkbox" name="groups" value="">金融销售精英简历</label>
+                            <label><input type="checkbox" name="groups" value="">技术经验</label>
+                            <label><input type="checkbox" name="groups" value="">管理牛人</label>
+                            <label><input type="checkbox" name="groups" value="">我的朋友</label>
+                            <label><input type="checkbox" name="groups" value="">企业人才库</label>
+                        </p>
+                    </td></tr>
+                    <tr><td class="memory">
+                        <input type="button" class="create" value="+ 创建新分组">
+                        <p class="create-subform">
+                            <input type="text" class="text" placeholder="请输入分组内容名称，最多8个字" data-init="true">
+                            <input type="button" class="btn sub-submit" value="创建">
+                            <input type="button" class="btn sub-reset" value="取消">
+                        </p>
+                    </td></tr>
+                    <tr><td class="memory">
+                        <textarea placeholder="为简历写上备注，方便管理，最多40字" data-init="true"></textarea>
+                        <!--<code class="form-tip successMsg"></code>-->
+                        <code class="form-tip errorMsg">请填写你的手机号码，用于登录及找回密码</code>
+                    </td></tr>
+                    <tr><td class="summary">
+                    	<small>提示：此操作仅对该分组内的简历有效，这些简历在其它分组中将保持不变</small>
+                    </td></tr>
+                    <tr><td class="CENTERBTNS">
+                        <input type="button" class="submit" value="移动简历">
+                        <input type="button" class="reset" value="取消">
+                    </td></tr>
+                </tbody>
+            </table>
+        </dd>
+	</dl>
+</td></tr></table>
+
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script>
+$(function(){
+	//初始化年龄下拉列表
+	var ages=[];
+	for(var n=18;n<=60;n++) ages.push('<a data-id="'+ n +'">'+ n +'</a>');
+	$(".Age").each(function(index, element) {
+        $(this).data('options',10)
+			.find("dd").html(ages.join(''));
+    });
+});
+</script>
+<script src="../js/v2/all.js"></script>
+<script src="../js/effect/correct.js"></script>
+<script src="../js/plugin/raphael.js"></script>
+<script src="../js/effect/bg.js"></script>
+<script src="../js/plugin/CenterDiv.js"></script>
+<script src="../js/jbody.js"></script>
+<script src="../js/jbody-plugin.js"></script>
+<script src="../js/area.js"></script>
+<script src="../js/jobPositions.js"></script>
+<script src="../js/subjects.js"></script>
+<script src="../js/plugin/CitiesPicker.js"></script>
+<script src="../js/effect/tab.js"></script>
+<script src="../js/v2/CCenter/resumes.js"></script>
+<script>
+$(function(){
+	CHItab(".filter-jobs .FilterMenu",".menu",".FilterSubmenu");
+	//全选
+	$("#all").change(function(){
+		$(":checkbox").prop('checked',this.checked);
+	});
+	//点击删除
+	$(".options a").attr('href','javascript:void(0)');
+	$(".options a.delete").click(function(){
+		var id=$(this).data("id"),name=$(this).data("name");
+		CONFIRM('删除简历','<h6>您确定要删除 # '+ name +' # 的简历吗？</h6>','确定删除',function(){
+			alert('删除过程');
+		});
+	});
+
+	//////////////////////////////////////////////////////////////////////////////////////////////////////////////填充职位大列表
+	var strTH=[],strTD=[],array=positionArray,
+		level1Reset=true,level2Reset=true;
+	for(var n=0;n<array.length;n++)
+	{
+		var id=array[n][2],name=array[n][0];
+		if(id.indexOf('0000')>=0)
+		{//一级名称，加入表头
+			if(!level1Reset) strTD.push('</ul>');
+			strTH.push('<h3 class="menu">'+ name.replace(/[\|\/]/g,'　') +'</h3>');
+			strTD.push('<ul class="FilterSubmenu">');
+			level1Reset=false;
+			level2Reset=true;
+		}
+		else if(id.indexOf('00')>=0)
+		{//二级名称，加入列表项（需要先结束上个列表项）
+			if(!level2Reset) strTD.push('</p></li>');
+			strTD.push('<li><h4>'+ name +'</h4><p>');
+			level2Reset=false;
+		}
+		else
+		{//三级名称，直接加入链接
+			strTD.push('<a data-id="'+ id +'">'+ name +'</a> ');
+		}
+	}
+	strTD.push('</p></li></ul>');
+	$(".filter-jobs table").find("th").html(strTH.join(''))
+		.end().find('td').html(strTD.join(''));
+	//职位选择
+	CHItab(".filter-jobs .FilterMenu",".menu",".FilterSubmenu");
+	///////////////////////////////////////////////////////////////////////////////////////////////////////////填充行业大列表
+	var str=[];
+	array=subjectArray;strTH=null;strTD=null;
+	level1Reset=true;level2Reset=true;
+	for(var n=0;n<array.length;n++)
+	{
+		var id=array[n][2],name=array[n][0];
+		if(id.indexOf('00')>=0)
+		{//一级名称，加入表头，并重起一行
+			if(!level1Reset) str.push('</td></tr>');
+			str.push('<tr><th>'+ name.replace(/[\|\/]/g,'　') +'</th><td>');
+			level1Reset=false;
+		}
+		else
+		{//二级名称，直接加入链接
+			str.push('<a data-id="'+ id +'">'+ name +'</a> ');
+		}
+	}
+	$(".filter-profs tbody").html(str.join(''));
+	
+	//点击本页右侧标题，删除图标
+	$(".Intro dt .delete").click(function(){
+		var id=$(this).data('id'),
+			name=$(this).data('name'),
+			tip='<h6>删除分类 # '+ name +' # 吗？<br>确定要删除吗？</h6><small>删除后，分类下的简历将被移动到“未分组简历”！</small>';
+		CONFIRM('删除分类',tip,'确定删除',function(){
+			alert('删除过程')
+		});
+		return false;
+	});
+	//点击添加分类
+	$(".Create .submit").click(function(){
+		var div=$(".Create"),
+			name=div.find('.text').val(),
+			intro=div.find('textarea').val();
+		ALERT('添加分组','<h5>添加成功！</h5>',function(){
+			//可能跳转到新分组的页面
+		});
+	});
+	
+	//////////////////////////////////////////////////////////////////////////新增部分
+	//画简历云容量
+	var paper=Raphael('CloudStorage',180,15),
+		storage=$("#CloudStorage").next("p"),
+		curNum=storage.find('b').text()*1,
+		allNum=storage.find('i').text()*1;
+	paper.rect(1,2,178,10,5).attr({stroke:false,fill:'#ebf3ff'});
+	paper.rect(1,2,10,10,5).attr({stroke:false,fill:'#1562c8'}).animate({width:180/allNum*curNum},500);
+	//左导航点击展开
+	var menus=$(".HRmenus ul"),
+		lis=menus.children();
+	if(lis.length>4)
+	{
+		$(".HRmenus h4").show();
+		var eachHeight=lis.outerHeight(),
+			primaryHeight=eachHeight*4;
+		menus.css({
+			maxHeight:'none',
+			height:primaryHeight
+		})
+		$(".HRmenus h4 a").attr('href','javascript:void(0)').click(function(){
+			if(!$(this).hasClass("on"))
+			{
+				$(this).addClass("on");
+				menus.animate({
+					height:lis.length*eachHeight
+				})
+			}
+			else
+			{
+				$(this).removeClass("on");
+				menus.animate({
+					height:primaryHeight
+				});
+			}
+		});
+	}
+	else if(isIE6())
+	{//不超过则设置成自动高
+		menus.css('height','auto');
+	}
+	//筛选项的展开
+	$(".Topics span").click(function(){
+		$(".Filters").slideDown();
+	});
+	$(".Filters .fold").attr('href','javascript:void(0)').click(function(){
+		$(".Filters").slideUp();
+	});
+	//点击重置
+	$(".Filters .reset").click(function(){
+		$(".Filters .SELECT").each(function(index, element) {
+            SELECT.reset.call(this);
+        });
+	});
+	//邀请函中的职位类别切换
+	$(".JobType input[type='hidden']").change(function(){
+		var type=this.value;
+		var jobs=[
+			/*{
+				id:123,
+				title:'这是一个职位'
+			}*/
+		];
+		//ajax的success放这函数
+		function fillJobList()
+		{
+			SELECT.reset.call($(".JobList").get(0));
+			$(".JobList").find("dd").empty().html(function(){
+				var str=[];
+				for(var n in jobs)
+				{
+					var job=jobs[n];
+					str.push('<a data-id="'+ job.id +'">'+ job.title +'</a>')
+				}
+				return str.join('');
+			});
+		}
+	});
+	//移动简历的分类
+	Boxes(".Move .groups");
+	$(".Move .create").click(function(){
+		$(this).hide().next().show();
+	});
+	$(".Move .sub-submit").click(function(){
+		var name=$(this).prev().val();
+		function newName()
+		{
+			//把Ajax出来的信息放进来
+			var id='',name='';
+			$(".Move .groups").append('<label><input type="checkbox" name="groups" value="'+ id +'">'+ name +'</label>')
+				.find("label:last").click();
+		}
+	});
+	$(".Move .sub-reset").click(function(){
+		$(".Move .text").val('');
+	});
+	$(".Move .btn").click(function(){
+		$(this).parent().hide().prev().show();
+	});
+	//点击修改分类
+	$(".Edit .submit").click(function(){
+		var center=$(".Edit"),
+			id=center.find("input[type='hidden']").val(),
+			name=center.find(".text").val(),
+			intro=center.find('textarea').val();
+		//修改过程
+	});
+	//单项移动简历
+	$(".Infors .move").click(function(){
+		$(".Move").removeClass("multiple");
+	});
+	//点击批量移动
+	$(".MoveAll").click(function(){
+		var boxes=$(".Infors :checked");
+		if(!boxes.length)
+		{
+			ALERT("错误","没有选中任何信息！");
+			return false;
+		}
+		var ids=boxes.map(function(index, element) {
+            return $(this).val();
+        }).get().join(',');
+		CENTERDIV.open.call($(".Move").get(0));
+		$(".Move").addClass("multiple")
+			.find("input[type='hidden']").val(ids)
+			.end().find("[data-attr='name']").text(boxes.length+'份简历');
+	});
+	//简历备注
+	$(".profile h4").hover(function(){
+		$(this).closest(".profile").find(".memory").show();
+	},function(){
+		$(this).closest(".profile").find(".memory").hide();
+	});
+});
+</script>

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>常用签到设置</title>
+    <link rel="stylesheet" type="text/css" href="../css/v2/School/all.css" />
+</head>
+<!--[if IE 6]>
+<script src="../js/UCenter/png.js"></script>
+<script type="text/javascript">
+    DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+<body>
+    <div class="header">
+        <div class="header-in">
+            <div class="logo">
+                <a href="">
+                    <img src="../images/v2/school/logo.jpg" alt="">
+                </a>
+                <span>就业网管理系统</span>
+            </div>
+            <div class="header-top">
+                <a href="" class="cur">Admin, </a> <a href="" class="cur">退出</a> <a href="">好工作首页</a><a href="">学校招聘</a><a href="">平台管理后台</a>
+            </div>
+        </div>
+        <div class="header-nav">
+             <p><a href="index.html">首页</a> <a href="contents.html">网站内容管理</a> <a href="manage-admin.html">系统管理</a> <a href="total.html">统计分析</a><a href="" class="cur">学生管理</a></p>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="main-l">
+            <div class="main-in">
+                 <h2>班级管理<i></i></h2>
+                 <ul>
+                     <li><a href="Class-manage.html">班级信息管理</a> <i></i></li>
+                 </ul>
+             </div>
+             <div class="main-in">
+                 <h2>签到管理<i></i></h2>
+                 <ul>
+                     <li><a href="Student-Sign-Situation.html"  class="cur">班级签到情况</a><i></i></li>
+                     <li><a href="Student-Mat-Set.html">学生位置地图</a><i></i> </li>
+                 </ul>
+             </div>
+        </div>
+        <div class="main-r">
+            <div class="main-r-t">
+                <p><a >班级管理 &nbsp;&nbsp;&nbsp;></a><a href="Sign-Set.html">常用签到设置</a></p>
+            </div>
+            <div class="bj-info">
+                <div class="bj-info-t">
+                    <div class="bj-info-l">
+                        <span class="add-Set bj-info-btn">添加常用签到</span>
+
+                    </div>
+                    <div class="bj-info-r">
+                        <div class="info-search">
+                            <input type="text" placeholder="输入班级名称或年级搜索" class="search">
+                            <input type="button" value="搜索" class="search-btn">
+                        </div>
+                    </div>
+                </div>
+                <div class="bj-info-m">
+                    <table class="Sign-Manage">
+                        <thead>
+                        <tr>
+                            <td width="135" class='Sign-name'>签到名称</td>
+                            <td width="145">签到时间</td>
+                            <td width="270">签到位置</td>
+                            <td width="160">操作</td>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td class='txtL'>白天上班签到</td>
+                            <td>12:30-15:30 </td>
+                            <td>广州天河体育西路88号打信大厦</td>
+                            <td><a>编辑</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:void(0)">删除</a></td>
+                        </tr>
+                       <tr>
+                            <td class='txtL'>白天上班签到</td>
+                            <td>12:30-15:30 </td>
+                            <td>广州天河体育西路88号打信大厦</td>
+                            <td><a>编辑</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:void(0)">删除</a></td>
+                        </tr>
+                        <tr>
+                            <td class='txtL'>宿舍签到</td>
+                            <td>12:30-15:30 </td>
+                            <td>广州天河体育西路88号打信大厦</td>
+                            <td><a>编辑</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:void(0)">删除</a></td>
+                        </tr>
+                        <tr>
+                            <td class='txtL'>白天上班签到</td>
+                            <td>12:30-15:30 </td>
+                            <td>广州天河体育西路88号打信大厦</td>
+                            <td><a>编辑</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:void(0)">删除</a></td>
+                        </tr>
+                        <tr>
+                            <td class='txtL'>白天上班签到</td>
+                            <td>12:30-15:30 </td>
+                            <td>广州天河体育西路88号打信大厦</td>
+                            <td><a>编辑</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:void(0)">删除</a></td>
+                        </tr>
+                        <tr>
+                            <td class='txtL'>宿舍签到</td>
+                            <td>12:30-15:30 </td>
+                            <td>广州天河体育西路88号打信大厦</td>
+                            <td><a>编辑</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:void(0)">删除</a></td>
+                        </tr>
+                        <tr>
+                            <td class='txtL'>白天上班签到</td>
+                            <td>12:30-15:30 </td>
+                            <td>广州天河体育西路88号打信大厦</td>
+                            <td><a>编辑</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:void(0)">删除</a></td>
+                        </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+                <div class="bj-page">
+                    <a href="" class="bj-page-l"></a>
+                    <a href="">1</a>
+                    <a href="">2</a>
+                    <a href="">3</a>
+                    <a href="">…</a>
+                    <a href="">9</a>
+                    <a href="">12</a>
+                    <a href="" class="bj-page-r"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<table class="FullScreenPlugin CenterDivContainer fixed fixed-top" style="display: none;"><tr><td>
+
+    <dl class="CENTERDIV CenterMiddle Sign-Set" data-active=".add-Set">
+        <dt class="CENTERTOPIC"><b>添加签到</b><q></q></dt>
+        <dd class="CENTERCONTENT">
+            <ul class="Sign-Set-in item">
+                <li>
+                    <span>签到名称</span>
+                    <dl class="SELECT Sign-full">
+                        <input type="hidden" />
+                    <dt><span>请选择</span><i></i></dt>
+                    <dd>
+                        <a data-id="1">已注册</a>
+                        <a data-id="2">未注册</a>
+                    </dd>
+                    </dl>
+                </li>
+                <li>
+                    <span>签到期限</span>
+                    <dl class="SELECT Sign-xl">
+                        <input type="hidden" />
+                        <dt><span>请选择</span><i></i></dt>
+                        <dd>
+                            <a data-id="1">已创建</a>
+                            <a data-id="2">完整度低</a>
+                            <a data-id="3">未创建</a>
+                        </dd>
+                    </dl>
+                    <b class="splice">—</b>
+                    <dl class="SELECT Sign-xl">
+                        <input type="hidden" />
+                        <dt><span>请选择</span><i></i></dt>
+                        <dd>
+                            <a data-id="1">已创建</a>
+                            <a data-id="2">完整度低</a>
+                            <a data-id="3">未创建</a>
+                        </dd>
+                    </dl>
+                </li>
+                <li>
+                    <span>具体时间点</span>
+                    <dl class="SELECT Sign-xl">
+                        <input type="hidden" />
+                        <dt><span>请选择</span><i></i></dt>
+                        <dd>
+                            <a data-id="1">有权限</a>
+                            <a data-id="2">无权限</a>
+                        </dd>
+                    </dl>
+                    <b class="splice">—</b>
+                    <dl class="SELECT Sign-xl">
+                        <input type="hidden" />
+                        <dt><span>请选择</span><i></i></dt>
+                        <dd>
+                            <a data-id="1">已创建</a>
+                            <a data-id="2">完整度低</a>
+                            <a data-id="3">未创建</a>
+                        </dd>
+                    </dl>
+                </li>
+                <li>
+                    <span>签到位置</span>
+                   <!--  <dl class="SELECT Sign-middle address" data-placeholder="请输入详细地址">
+                       <dt><span><input type="text" class="addressVal" data-list="arrow"></span></dt>
+                       <dd class="normal">
+                           <div class="matches" data-list="datas"></div>
+                       </dd>
+                   </dl> -->
+                   <input type="text"  class="addressVal" data-list="arrow" placeholder="请输入详细地址">
+                    <i class="location">定位</i>
+                </li>
+                </ul>
+            <div id="MapContainer"></div>
+            <div class="Sign-btn">
+                <input type="button" value="确认" class='confirm-btn' />
+                <input type="button" value="取消" class='cancel-btn'/>
+            </div>
+            
+        </dd>
+    </dl>
+</td></tr></table>
+<script src="../js/jquery.js"></script>
+<script src="../js/v2/all.js"></script>
+<script src="../js/effect/bg.js"></script>
+<script src="../js/plugin/CenterDiv.js"></script>
+<script src="http://api.map.baidu.com/api?v=2.0&ak=OlGzoCwcKN9OvM16T9RnFwOl"></script>
+<script src="../js/plugin/BaiduMap.js"></script>
+<script src="../js/school/sign.js"></script>
+<script>
+    $(function(){
+          var Map=BaiduMap("MapContainer",{editable:true});
+        $(".location").click(function(){
+        
+            Map.search($(".addressVal").val());
+           
+        })
+        Map.addMarker(113.3309950000,23.1122290000);
+
+    })
+   
+</script>
+</html>

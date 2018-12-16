@@ -1,0 +1,158 @@
+/* 个人简历编辑 */
+.right{ width:185px; float:right; background:#fff;}
+.right h2{ clear:both; line-height:60px; display:block; font-size:18px; color:#999; font-family:"微软雅黑"; text-align:center;}
+/*画布*/
+.percent{ clear:both; margin:0px auto; width:90px; height:90px; position:relative;}
+.percent b{ display:block; position:absolute; width:90px; height:90px; line-height:90px; font-size:20px; color:#ff9000; text-align:center; left:0px; top:0px; font-family:Arial, Helvetica, sans-serif;}
+#Percentage{ position:absolute;}
+/*完成项目列表*/
+.items{ clear:both; margin:5px; border-top:1px dotted #E6E6E6;}
+.items li{ border-bottom:1px dotted #E6E6E6; line-height:35px; font-size:14px; padding-left:20px;}
+.items li.ok{ background:url(../../images/UCenter/ico-check.png) 145px center no-repeat;}
+.items li a{ color:#333;}
+.items li a:hover{ color:#ff7e00;}
+/*提示*/
+.warn{ clear:both; margin:20px 5px; background-color:#FFEFB3; font-size:12px; line-height:20px; padding:10px; font-family:"微软雅黑"; color:#333;}
+.warn a{ color:#78E2D6; text-decoration:underline;}
+
+/*标题操作项*/
+.topic{ width:800px; float:left; font-size:14px; font-family:"微软雅黑"; background-color:#EDEDED; height:50px; line-height:50px; color:#DCDEDB; margin-bottom:10px;}
+.topic h1{ display:inline; font-size:14px; color:#666; font-weight:normal; padding:0px 2em;}
+.topic a{ color:#0259A0;}
+
+/*主内容*/
+.left{ width:800px; float:left; background:#fff;}
+.resume{ clear:both; width:770px; font-size:14px; color:#555; position:relative;}
+#A-personal{ z-index:9;}
+#A-opinion{ z-index:7;}
+#A-intro{ z-index:5;}
+#A-educate{ z-index:3;}
+#A-exp{ z-index:2;}
+#A-project{ z-index:1;}
+#A-skill{ z-index:0;}
+#A-other{ z-index:0;}
+
+.edit-mode,.view-mode{ clear:both; position:relative; *position:static;}
+.resume caption{ text-align:left;}
+.resume h3{ margin:10px 0px 20px 30px; font-size:16px; color:#333; font-family:"微软雅黑"; padding-left:3em; line-height:40px; height:40px; background:url(../../images/UCenter/bg-h3.png) 15px center no-repeat #F9F9F9; position:relative; z-index:1;}
+.resume h3 i,.resume h3 s{ width:20px; height:20px; position:absolute; right:5px; top:4px; *top:10px; cursor:pointer;}
+.resume .tr{ width:100%; float:left;}
+.resume .td1,.resume .td2,.resume .td3,.resume .td4,.resume .td123,.resume .td234,
+.resume .th{ float:left;}
+.resume .th{ text-align:right; width:130px; line-height:50px; height:50px;}
+.resume .td1,.resume .td2,.resume .td3,.resume .td4,
+.resume .td123,.resume .td234{ padding:10px 0px; min-height:30px; line-height:30px; _height:30px;}
+.resume .td1,.resume .td3{ width:130px;}
+.resume .td2{ width:200px;}
+.resume .td4{ width:310px;}
+.resume .td123{ width:450px;}
+.resume .td234{ width:640px;}
+.resume .th b{ color:#f00; padding-right:3px; font-weight:normal;}
+
+/*编辑状态下的头像*/
+.photo-edit{ position:absolute; right:0px; top:0px; *top:70px;}
+/*文本*/
+.text{ width:173px; height:30px; border:1px solid #D9D9D9; line-height:30px; font-size:14px; padding:0px 5px; vertical-align:middle;}
+.textarea{ width:93.3% !important; height:100px !important; border:1px solid #d9d9d9; line-height:25px; font-size:14px; padding:10px; display:block;}
+.alone{ margin:20px 0px 20px 30px; width:690px;}
+/*单选1*/
+.radio{ display:block; float:left; margin-right:5px; border:1px solid #d9d9d9; width:88px; height:30px; text-align:center; line-height:30px; cursor:pointer;}
+.radio input{ display:none;}
+.sex .checked{ background:url(../../images/UCenter/bg-check.jpg) right center no-repeat;}
+
+/*按钮*/
+.btn{ width:52px; height:28px; border:1px solid; font-size:14px; text-align:center; cursor:pointer; font-family:"微软雅黑"; margin-bottom:40px;}
+.btn-s{ background-color:#E73537; border-color:#E73537; color:#fff;}
+.btn-r{ background-color:#FCFCFC; border-color:#C9C9C9;}
+.btn2{ background:#fff; border:1px solid #c9c9c9; border-radius:3px; height:28px; width:90px; font-size:14px; color:#666; box-shadow:0px 1px 1px #ccc; cursor:pointer; vertical-align:middle;}
+
+/*下拉列表*/
+.select{ position:relative; display:inline-block; float:left; margin-right:5px; z-index:111;}
+.joiner{ display:block; float:left; width:20px; text-align:center;}
+.mini{ width:76px;}
+.sel-s{ width:90px;}
+.sel-m{ width:120px;}
+.sel-l{ width:150px;}
+.select dt{ clear:both; height:30px; border:1px solid #d9d9d9; padding:0px 20px 0px 10px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; line-height:30px; position:relative;}
+.sel-s dt{ _width:58px;}
+.sel-m dt{ _width:88px;}
+.sel-l dt{ _width:118px;}
+.select dt i,.select dt q{ display:block; position:absolute; right:0px; top:0px; height:30px; width:20px;}
+.select dt i{ background-image:url(../../images/UCenter/bg-sel.png); border-left:1px solid #d9d9d9; color:#999;}
+.select dt span{ color:#999;}
+.select dt q{ background:url(../../images/UCenter/ico-cal.png) center no-repeat;}
+.select dd{ display:none; position:absolute; left:0px; background:#fff; line-height:25px; border:1px solid #d9d9d9;}
+.select dd.on{ display:block;}
+
+/*单选2*/
+.box{ display:block; float:left; margin-left:5px; padding-left:20px; background:url(../../images/UCenter/bg-check2.jpg) left top no-repeat; cursor:pointer;}
+.box input{ display:none;}
+.times .checked{ background-position:left bottom;}
+
+/*各种浏览模式*/
+.photo-view{ position:absolute; right:0px; top:0px; *top:70px;}
+/*个人信息*/
+.profile{ width:100%; float:left; margin-bottom:30px;}
+.profile li,.profile var,.profile dfn{ display:block; float:left; line-height:40px; font-size:14px; font-family:"微软雅黑"; font-style:normal;}
+.profile li{ width:100%;}
+.profile var{ width:120px; text-align:right; color:#333; font-weight:bold;}
+.profile dfn{ width:500px; padding-left:30px;}
+
+/*地址列表*/
+.addresses{ width:380px; padding:10px; z-index:111; float:left;}
+.addresses a{ font-size:12px; padding-left:5px; color:#05c;}
+.addresses a:hover{ text-decoration:underline;}
+.province a,.cities a,.districts a{ display:block; float:left; width:70px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.hots{ width:140px;}
+.hots dt{ _width:108px;}
+.hots a{ display:block; float:left; width:175px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+
+/*普通的下拉列表*/
+.normal{ max-height:150px; overflow:auto; _height:150px; _overflow-y:auto; _overflow-x:hidden;}
+.normal a{ display:block; line-height:30px; height:30px; color:#333; padding:0px 10px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; _width:90%;}
+.normal a:hover{ background-color:#dbeef4;}
+.sel-s .normal{ width:88px;}
+.sel-m .normal{ width:118px;}
+.sel-l .normal{ width:148px;}
+
+
+/*行业类别*/
+.pro{ width:620px !important; height:auto !important; overflow:visible !important; font-size:12px;}
+.pro a{ width:135px !important; _width:134px !important; float:left !important; clear:none !important;}
+
+/*大段的普通文本*/
+.longtext{ margin-left:30px; padding:20px; line-height:20px; font-size:14px; color:#555; line-height:20px; font-family:"微软雅黑";}
+
+/*复杂的列表，如教育经历，工作经验，项目经验；skills是专业技能用的，盒效果差不多*/
+.complex,.skills{ clear:both; margin-left:30px; font-family:"微软雅黑";}
+.complex dl,.skills li{ clear:both; margin:20px 15px 20px 30px; border-left:1px solid #f00; padding-left:20px; color:#333; position:relative;}
+.complex dl{ line-height:25px; _height:50px;}
+.complex dt,.complex dd{ white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.complex dt{ clear:both; font-size:16px; margin-right:50px; _width:600px;}
+.complex dd{ clear:both; font-size:14px; _width:100%;}
+.complex i,.complex q,.skills i,.skills q{ display:block; position:absolute; width:20px; height:20px; cursor:pointer; top:2px; background-position:center; background-repeat:no-repeat;}
+.complex i,.skills i{ background-image:url(../../images/UCenter/ico-edit.jpg); right:25px;}
+.complex q,.skills q{ background-image:url(../../images/UCenter/ico-close.png); right:0px;}
+
+/*专业技能*/
+.skills{ line-height:20px;}
+.skills li{ height:20px;}
+.skills h5,.skills tt{ font-size:14px; display:inline-block; vertical-align:top; float:left;}
+.skills h5{ width:200px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; font-weight:normal;}
+.skills tt{ width:100px; font-family:"微软雅黑";}
+
+/*简历预览*/
+.view{ width:776px; margin:60px auto; font-family:"微软雅黑"; padding:12px; display:table; _overflow:hidden;}
+.view h1{ background-color:#2577E1; line-height:45px; height:45px; color:#fff; padding:0px 20px;}
+.view h1 span{ display:block; float:left; font-size:16px;}
+.view h1 a{ display:block; float:right; margin:8px 0px 0px 20px; width:80px; height:30px; font-family:"宋体"; color:#fff; font-weight:normal; text-align:right; background-color:#0559C9; line-height:30px; padding:0px 10px; background-image:url(../../images/UCenter/views.jpg); background-repeat:no-repeat; font-size:14px;}
+.view .down{ background-position:8px bottom;}
+.view .edit{ background-position:8px top;}
+.view .bg{ background-color:#FAFAFA; overflow:hidden; padding:10px 0px 30px;}
+
+.view .view-mode{ background:#fff; width:736px; float:left; margin:30px 20px 0px; _margin:30px 10px 0px; padding:15px 0px; position:relative;}
+.view h3{ clear:both; line-height:50px; height:50px; font-size:16px; color:#333; background:url(../../images/UCenter/bg-h3.png) no-repeat 15px center; text-indent:30px;}
+.view .profile{ margin-bottom:20px; clear:both; width:auto; float:none;}
+.view .photo-view{ top:80px; right:10px;}
+.view .longtext{ margin:0px 10px;}
+.view .complex,.view .complex dt,.view .skills{ margin:0px;}

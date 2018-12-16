@@ -1,0 +1,23 @@
+/* 宣讲会详细页 */
+.main{ border:1px solid #e1e1e1; border-top:0px;}
+.topic{ clear:both; border-bottom:1px solid #e1e1e1; margin:0px 20px; line-height:70px; height:70px; padding-bottom:5px;}
+h1{ font-size:22px; color:#2673ec; font-family:"微软雅黑"; float:left;}
+.topic q{ float:right; font-size:12px; width:150px;}
+.topic q .link{ color:#868686;}
+.topic q .link:hover{ color:#ff5000;}
+.topic q img{ vertical-align:text-bottom;}
+
+/*百度分享条*/
+.bdsharebuttonbox{ display:inline;}
+.bdshare-button-style0-16:after{ display:none;}
+.bdshare-button-style0-16 a, .bdshare-button-style0-16 .bds_more{ float:none !important; margin:0px !important; padding:0px !important; background:none !important;}
+
+/*简介*/
+.intro{ clear:both; line-height:25px; font-family:"微软雅黑"; font-size:16px; color:#666; margin:0px 20px 40px;}
+.intro p{ margin:10px 0px;}
+.intro b,.intro strong{ color:#333; font-weight:normal;}
+.intro strong{ display:inline-block; white-space:nowrap; margin-right:2em;}
+
+/*详情*/
+h2{ font-size:20px; font-family:"微软雅黑"; color:#333; clear:both; border-bottom:1px solid #e3e3e3; line-height:40px; margin:0px 20px 40px;}
+.detail{ clear:both; line-height:28px; font-size:14px; color:#3c3c3c; margin:0px 20px 40px;}

@@ -1,0 +1,475 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>好工作-职位详情（兼职）</title>
+<link rel="stylesheet" type="text/css" href="css/v2/all.css">
+<link rel="stylesheet" type="text/css" href="css/v2/web.css">
+<link rel="stylesheet" type="text/css" href="css/v2/job.css">
+<link rel="stylesheet" type="text/css" href="css/v2/plugin/CitiesPicker.css">
+<link rel="stylesheet" type="text/css" href="css/v2/plugin/MapThumb.css">
+</head>
+
+<body>
+<div class="HEADER common">
+	<div class="TOP-LOGO"><a href="index-new.html"><img src="images/v2/logo.jpg" width="177" height="91"></a></div>
+    <div class="TOP-SEARCH">
+    	<div class="TOP-SEARCH-BAR">
+            <dl class="TOP-SEARCH-KEY SELECT" data-matches="10">
+            	<input type="hidden">
+                <dt><input class="TOP-SEARCH-INPUT KEY-GUIDANCE" data-init="true" type="text" data-list="arrow" data-holdway="image"></dt>
+            	<dd class="normal">
+                	<div class="tip">找不到符合【老板】的职位</div>
+                    <div class="matches" data-list="datas">
+                        <!--<a href="#" data-id="">客服经理</a>-->
+                    </div>
+                </dd>
+            </dl>
+            <dl class="TOP-CitiesPicker CitiesPicker SELECT" data-matches="5">
+            	<input type="hidden">
+                <dt><span><input type="text" value="广州" data-list="arrow"></span><i></i></dt>
+                <dd>
+                    <div class="CitiesHot">
+                        <h5>热门城市（可直接选择城市或输入城市拼音/简拼）</h5>
+                        <div class="cities">
+                            <a data-id="271000">广州</a><a data-id="271200">深圳</a><a data-id="171000">上海</a><a data-id="272600">东莞</a><a data-id="271500">佛山</a><a data-id="101000">北京</a><a data-id="261000">长沙</a><a data-id="251000">武汉</a><a data-id="191000">杭州</a><a data-id="181000">南京</a><a data-id="211000">福州</a><a data-id="272700">中山</a><a data-id="272000">惠州</a><a data-id="271300">珠海</a><a data-id="201000">合肥</a><a data-id="301000">成都</a><a data-id="231000">济南</a><a data-id="271700">湛江</a><a data-id="262200">娄底</a><a data-id="261100">株洲</a><a data-id="261900">郴州</a><a data-id="271100">韶关</a><a data-id="311000">贵阳</a><a data-id="261300">衡阳</a><a data-id="221000">南昌</a><a data-id="301900">乐山</a><a data-id="211400">泉州</a><a data-id="302000">南充</a><a data-id="261200">湘潭</a><a data-id="241000">郑州</a><a data-id="302300">广安</a><a data-id="301500">绵阳</a><a data-id="301400">德阳</a><a data-id="211100">厦门</a><a data-id="271600">江门</a><a data-id="111000">天津</a><a data-id="331000">西安</a><a data-id="272200">汕尾</a><a data-id="272300">河源</a><a data-id="391200">桂林</a><a data-id="181100">无锡</a><a data-id="251300">宜昌</a>
+                        </div>
+                    </div>
+                    <div class="CitiesQuery">
+                        <div class="tip">d，若缩小范围，请输入全拼</div>
+                        <div class="matches" data-list="datas">
+                            <!--<a data-id="" href="#">广东</a>-->
+                        </div>
+                    </div>
+                </dd>
+            </dl>
+            <input class="TOP-SUBMIT" type="submit" value="好工作">
+        </div>
+        <div class="TOP-HOTKEYS">
+            热门搜索：<a href="#">服务员</a>     <a href="#">送餐员</a>     <a href="#">健身教练</a>    <a href="#">保姆</a>    <a href="#">月嫂</a>     <a href="#">高级技工</a>     <a href="#">淘宝美工</a>
+        </div>
+    </div>
+    <div class="TOP-LOGIN">
+    	<a href="#">登录</a> |
+        <a href="#">注册</a>
+    </div>
+</div>
+
+<div class="NAV">
+	<div class="common">
+        <dl class="NAV-HEAD">
+            <dt class="NAV-HEAD-ROOT"><span>职位分类</span><i></i></dt>
+            <dd class="NAV-HEAD-MENU hidden">
+                <a href="#" class="menu"><h3>生活　服务</h3></a>
+                <ul class="NAV-HEAD-SUBMENU">
+                    <li>
+                        <h4><a href="#">餐饮</a></h4>
+                        <p><a href="#">服务员</a> | <a href="#">送餐员</a> | <a href="#">配菜/打荷</a> | <a href="#">厨师/厨师长</a> | <a href="#">后厨传菜员</a> | <a href="#">茶艺师</a> | <a href="#">预订员</a> | <a href="#">迎宾/接待</a> | <a href="#">大堂经理/领班</a> | <a href="#">餐饮管理</a> | <a href="#">洗碗工</a> | <a href="#">咖啡师</a> | <a href="#">面点师</a> | <a href="#">预订员</a> | <a href="#">学徒</a> | <a href="#">杂工</a></p>
+                    </li>
+                    <li>
+                        <h4><a href="#">家政保洁/保安</a></h4>
+                        <p><a href="#">保洁</a> | <a href="#">保姆</a> | <a href="#">月嫂</a> | <a href="#">育婴师/保育师</a> | <a href="#">洗衣工</a> | <a href="#">钟点工</a> | <a href="#">保安</a> | <a href="#">护工</a> | <a href="#">送水工</a></p>
+                    </li>
+                    <li>
+                        <h4><a href="#">美容/美发</a></h4>
+                        <p><a href="#">美容导师</a> | <a href="#">美发助理/学徒</a> | <a href="#">洗头工</a> | <a href="#">发型师</a> | <a href="#">美容师</a> | <a href="#">宠物美容</a> | <a href="#">美容/瘦身顾问</a> | <a href="#">美甲师</a> | <a href="#">化妆师</a> | <a href="#">媒体师</a> | <a href="#">美容店长</a> | <a href="#">彩妆培训师</a></p>
+                    </li>
+                    <li>
+                        <h4><a href="#">酒店/旅游</a></h4>
+                        <p><a href="#">酒店前台</a> | <a href="#">客户服务员</a> | <a href="#">楼面经理</a> | <a href="#">行李员</a> | <a href="#">救生员</a> | <a href="#">旅游顾问</a> | <a href="#">酒店管理</a> | <a href="#">订票员</a> | <a href="#">计调签证专员</a> | <a href="#">导游</a></p>
+                    </li>
+                    <li>
+                        <h4><a href="#">娱乐/休闲</a></h4>
+                        <p><a href="#">影视/后期制作</a> | <a href="#">主持人</a> | <a href="#">调酒师</a> | <a href="#">音效师</a> | <a href="#">酒吧服务员</a> | <a href="#">摄影师/摄像师</a> | <a href="#">灯光师</a> | <a href="#">配音员</a> | <a href="#">放映员</a> | <a href="#">娱乐厅服务员</a> | <a href="#">礼仪/迎宾</a></p>
+                    </li>
+                    <li>
+                        <h4><a href="#">保健/按摩</a></h4>
+                        <p><a href="#">按摩师</a> | <a href="#">足疗师</a> | <a href="#">搓澡工</a> | <a href="#">针灸推拿</a></p>
+                    </li>
+                    <li>
+                        <h4><a href="#">运动/健身</a></h4>
+                        <p><a href="#">健身教练</a> | <a href="#">瑜伽教练</a> | <a href="#">舞蹈老师</a> | <a href="#">游泳教练</a> | <a href="#">台球教练</a> | <a href="#">高尔夫球助理</a></p>
+                    </li>
+                </ul>
+                <a href="#" class="menu"><h3>计算机　互联网　通信</h3></a>
+                <ul class="NAV-HEAD-SUBMENU"></ul>
+                <a href="#" class="menu"><h3>财会　金融　保险</h3></a>
+                <ul class="NAV-HEAD-SUBMENU"></ul>
+                <a href="#" class="menu"><h3>人力　行政　管理</h3></a>
+                <ul class="NAV-HEAD-SUBMENU"></ul>
+                <a href="#" class="menu"><h3>销售　市场　淘宝　客服</h3></a>
+                <ul class="NAV-HEAD-SUBMENU"></ul>
+                <a href="#" class="menu"><h3>生产　制造　汽车　电子</h3></a>
+                <ul class="NAV-HEAD-SUBMENU"></ul>
+                <a href="#" class="menu"><h3>房产　建筑　装修　物业</h3></a>
+                <ul class="NAV-HEAD-SUBMENU"></ul>
+                <a href="#" class="menu"><h3>贸易　采购　物流　仓储</h3></a>
+                <ul class="NAV-HEAD-SUBMENU"></ul>
+                <a href="#" class="menu"><h3>广告　艺术　影视　媒体</h3></a>
+                <ul class="NAV-HEAD-SUBMENU"></ul>
+                <a href="#" class="menu last"><h3>法律　咨询　教育　其它</h3></a>
+                <ul class="NAV-HEAD-SUBMENU"></ul>
+            </dd>
+        </dl>
+        <ul class="NAV-BODY">
+            <li><a href="index-new.html">首页</a></li>
+            <li><a href="search-new.html">职位搜索</a></li>
+            <li data-extra="3"><a href="#"><span>校园招聘</span><i></i></a></li>
+            <li><a href="#" class="cur">兼职</a></li>
+            <li><a href="companies-new.html">名企</a></li>
+            <li><a href="schools-new.html">院校合作</a></li>
+        </ul>
+        <dl class="NAV-FOOT">
+            <dt class="new"><a href="#"><i></i><span>个人中心</span></a></dt>
+            <dd>
+                <p><a href="#">登录/注册</a></p>
+                <ul>
+                    <li><a href="#">简历中心</a></li>
+                    <!--只有这两项加点的才需要span标签，其它的可以不放，可以放-->
+                    <li class="new"><a href="#"><span>投递反馈</span></a></li>
+                    <li><a href="#"><span>收藏的职位</span></a></li>
+                    <li class="new"><a href="#"><span>职位邀请</span></a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">我要招人</a></li>
+                    <li><a href="#">帐号设置</a></li>
+                    <li><a href="#">退出</a></li>
+                </ul>
+            </dd>
+        </dl>
+    </div>
+    <!--要写在外边，不然IE6下的100%是按照直接父元素的尺寸计算，而不是定位父元素position的尺寸计算-->
+    <ul class="NAV-EXTRA clear">
+    	<p data-extra="3"><a href="schools-index-new.html">校园招聘首页</a><a href="#">全职/实习招聘</a><a href="new-school-conferences.html">校园宣讲会</a></p>
+    </ul>
+</div>
+
+
+
+
+
+<div class="Main common">
+	<div class="CRUMB">
+    	<a href="#">广州招聘</a> >
+    	<a href="#">广州销售招聘</a> >
+    	<a href="#">越秀销售招聘</a> >
+        <a href="#">五羊新城销售招聘</a>
+    </div>
+	<div class="Left">
+        <dl class="Attribs bdb">
+            <dt>
+                <h1>平面设计师</h1><small>100</small>
+                <a href="javascript:void(0)" class="icons share BAIDUSHARE">
+                	<cite class="bdsharebuttonbox" data-tag="share_1">
+                    	<i></i>
+                        <span class="bds_tsina" data-cmd="tsina"><img data-cmd="tsina" src="images/v2/share/sina.png" width="36" height="36"></span>
+                        <span class="bds_tqq" data-cmd="tqq"><img data-cmd="tqq" src="images/v2/share/tencent.png" width="36" height="36"></span>
+                        <span class="bds_qzone" data-cmd="qzone"><img data-cmd="qzone" src="images/v2/share/qzone.png" width="36" height="36"></span>
+                        <span class="bds_sqq" data-cmd="sqq"><img data-cmd="sqq" src="images/v2/share/qq.png" width="36" height="36"></span>
+                    </cite>
+                </a>
+                <a href="#" class="icons favor"></a>
+                <div class="clear"></div>
+                <!--<kbd>浏览量:112&nbsp;&nbsp;&nbsp;&nbsp;投递量:100&nbsp;&nbsp;&nbsp;&nbsp;HR查看率:100</kbd>-->
+                <ins class="tip"><span>已经收藏该职位，<a href="#">查看全部收藏</a></span><q></q></ins>
+                <del class="tip"><span>已取消该收藏</span><q></q></del>
+            </dt>
+            <dd>
+            	<p>兼职类别:<b>促销</b>&nbsp;&nbsp;&nbsp;&nbsp;薪资水平:<var>160-300，日结</var></p>
+                <p>工作经验:<b>1-3年</b>&nbsp;&nbsp;&nbsp;&nbsp;学历要求:<b>大专</b>&nbsp;&nbsp;&nbsp;&nbsp;性别要求:<b>男</b>&nbsp;&nbsp;&nbsp;&nbsp;招聘人数:<b>2人</b></p>
+                <p>兼职时间:<b>2014-12-25至2015-1-25&nbsp;&nbsp;每天上班时间（8:30~18:30）</b></p>
+                <p>发布时间:<b>2014-10-17</b>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            </dd>
+        </dl>
+        <dl class="Intros bdt">
+        	<dt><h3>职位描述</h3></dt>
+            <dd class="bdb">
+                <h4>岗位职责：</h4>
+                <p>1、参与创意策略的研讨和制定，负责产品平面设计；</p>
+                <p>2、完成平面宣传品的创意设计；效果图后期处理，版面美化；</p>
+                <p>3、充分理解创意意图并准确体现于创意设计中；完成对照片、图片的后期处理；</p>
+                <p>4、其他相关美术设计方面的工作；</p>
+                <p>&nbsp;</p>
+                <h4>任职资格：</h4>
+                <p>1、本科以上学历，有一年以上工作经验，美术设计相关专业优先；</p>
+                <p>2、熟悉操作Photoshop等设计软件；</p>
+                <p>3、创意、独特的设计理念以及专业全面的执行能力，具有良好的手绘能力和色彩感，具备完稿能力；</p>
+                <p>4、热爱设计，能够独立完成海报、单页等的设计；</p>
+                <p>5、有责任心、工作认真，有很强的团队意识，能承受工作压力；</p>
+                <p>6、有良好的沟通表达能力。</p>
+                <div class="Advs">
+                	<div class="Protect">
+                    	<a href="#" class="post">投个简历</a><s></s>
+                        <p>
+                        	<img src="images/v2/job-protect.gif" width="213" height="18">
+                            如果职位存在虚假信息或存在乱收费等违法行为，<a href="#">请立即举报！</a>
+                        </p>
+                    </div>
+                    <div class="Code">
+                    	<i><img src="images/v2/2dcode.jpg" width="90" height="90"></i>
+                        <a href="#">下载APP</a>
+                        <p>面试通知</p>
+                        <p>一个不漏</p>
+                    </div>
+                </div>
+            </dd>
+            <dt class="bdt"><h3>公司介绍</h3></dt>
+            <dd class="Introduction bdb">
+                <p>广州星辰广告设计有限公司是李开复博士创办的创新工场在华南地区投资的首家互联网企业，是一家专业的旅游资源整合商和在线销售商。 </p>
+                <p>其旗下运营的要出发旅行网(http://yaochufa.com)是国内唯一一家细分市场，以大都市白领为核心目标用户、专业提供中高端酒店最超值折扣限时特卖的在线酒店预定网站,是都市自驾游领域的领航者，致力于为都市白领一族提供轻松休闲的旅游方式，通过精选城市周边景点，提供"景点+酒店"套餐特卖，让周末出游变得如此简单。 </p>
+                <p>广州星辰广告设计有限公司是李开复博士创办的创新工场在华南地区投资的首家互联网企业，是一家专业的旅游资源整合商和在线销售商。 </p>
+                <p>其旗下运营的要出发旅行网(http://yaochufa.com)是国内唯一一家细分市场，以大都市白领为核心目标用户、专业提供中高端酒店最超值折扣限时特卖的在线酒店预定网站,是都市自驾游领域的领航者，致力于为都市白领一族提供轻松休闲的旅游方式，通过精选城市周边景点，提供"景点+酒店"套餐特卖，让周末出游变得如此简单。 </p>
+                <div class="expand">详细信息</div>
+                <h4>公司图片</h4>
+                <ul class="Pics">
+                	<li><img src="images/v2/pics/1.jpg" data-url="images/v2/pics/1.jpg" width="158" height="118" title="点击查看大图" alt="演讲室"></li>
+                	<li><img src="images/v2/pics/2.jpg" data-url="images/v2/pics/2.jpg" width="158" height="118" title="点击查看大图" alt="公司前台"></li>
+                	<li><img src="images/v2/pics/3.jpg" data-url="images/v2/pics/3.jpg" width="158" height="118" title="点击查看大图" alt="办公区"></li>
+                	<li><img src="images/v2/pics/4.jpg" data-url="images/v2/pics/4.jpg" width="158" height="118" title="点击查看大图" alt="资料查阅室"></li>
+                	<li><img src="images/v2/pics/5.jpg" data-url="images/v2/pics/5.jpg" width="158" height="118" title="点击查看大图" alt="艺术走廊"></li>
+                	<li><img src="images/v2/pics/6.jpg" data-url="images/v2/pics/6.jpg" width="158" height="118" title="点击查看大图" alt="聊天室"></li>
+                	<li><img src="images/v2/pics/7.jpg" data-url="images/v2/pics/7.jpg" width="158" height="118" title="点击查看大图" alt="技术研发部"></li>
+                	<li><img src="images/v2/pics/8.jpg" data-url="images/v2/pics/8.jpg" width="158" height="118" title="点击查看大图" alt="公司大厅"></li>
+                </ul>
+                <div class="clear"></div>
+            </dd>
+            <dt class="bdt"><h3>公司其它职位</h3></dt>
+            <dd>
+            	<table class="Jobs">
+                	<thead><tr>
+                    	<th width="147">职位名</th><th width="134">月薪</th><th width="68">经验</th>
+                    	<th width="79">学历</th><th width="81">浏览</th><th width="60">投递</th>
+                    </tr></thead>
+                    <tbody>
+                    	<tr class="bg">
+                        	<td>市场/客户总监</td><th>6000-7000</th><td>2年</td>
+                        	<td>本科</td><td>120人</td><td>90人</td>
+                        </tr>
+                    	<tr>
+                        	<td>市场/客户总监</td><th>6000-7000</th><td>2年</td>
+                        	<td>本科</td><td>120人</td><td>90人</td>
+                        </tr>
+                    	<tr class="bg">
+                        	<td>市场/客户总监</td><th>6000-7000</th><td>2年</td>
+                        	<td>本科</td><td>120人</td><td>90人</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="more"><a href="#">查看更多职位</a></div>
+            </dd>
+        </dl>
+    </div>
+    <div class="Right">
+    	<dl class="Company">
+        	<dt><img src="images/v2/job-logo.jpg" width="106" height="102"></dt>
+            <dd><a href="#">广州星辰广告有限公司</a><br><i></i></dd>
+        </dl>
+        <div class="Props">
+        	<p>领域：电子商务,生活服务</p>
+        	<p>规模：500-2000人</p>
+        	<p>性质：私营</p>
+        	<p>阶段：初创型</p>
+        	<p>主页：<a data-url="http://www.yaochufa.com" onClick="this.href=$(this).data('url')" target="_blank">http://www.yaochufa.com</a></p>
+        </div>
+        <div class="Address">工作地址：广州科韵路天河软件园D座1109</div>
+    	<dl class="MAPTHUMB">
+        	<dt>
+                <span>看大地图</span>
+                <samp class="on">收起地图</samp>
+            </dt>
+            <dd><div id="MAPCONTAINER"></div></dd>
+        </dl>
+        
+    </div>
+	<div class="clear"></div>
+</div>
+
+
+<div class="FOOTER">
+	<div class="FOOT-NAV">
+    	<a href="new-about.html">关于我们</a><a href="new-help.html">帮助中心</a>
+        <a href="new-law.html">法律声明</a><a href="index-navigation-new.html" class="last">网站导航</a>
+    </div>
+    <p>服务热线：020-28977426&nbsp;&nbsp;&nbsp;&nbsp;服务QQ：3178883944&nbsp;&nbsp;&nbsp;&nbsp;服务时间：周一至周六9:00-18:40</p>
+    <p>粤ICP备09027680号-25</p>
+</div>
+
+<table class="PhotoViewer FullScreenPlugin fixed fixed-top"><tr><td>
+	<q><img src="images/v2/icons/times-huge.gif" width="32" height="32"></q>
+    <h5>广州星辰广告传媒有限公司</h5>
+	<div class="PPT">
+    	<ul></ul>
+        <ol></ol>
+        <sub></sub>
+        <sup></sup>
+    </div>
+    <h6>广州星辰广告传媒有限公司</h6>
+</td></tr></table>
+
+<table class="MapViewer FullScreenPlugin fixed fixed-top"><tr><td>
+	<div class="MapViewer black5">
+		<h5 class="map cur">地图</h5><h5 class="view">街景</h5><q>&times;</q>
+        <div class="MapContainer container">
+        	<div id="ViewerMap"></div>
+            <tt class="MapExpand"></tt>
+            <div class="TrafficLines">
+            	<h6><img src="images/v2/icons/bus.jpg" width="17" height="17"><img src="images/v2/icons/stops.jpg" width="76" height="23"></h6>
+                <p>
+                	<strong>大策</strong>
+                    74路 91路 193路 74路 91路 193路 74路 91路 193路 74路 91路 193路 74路 91路 193路 
+                    <kbd>753米</kbd>
+                </p>
+                <p>
+                	<strong>大策</strong>
+                    74路 91路 193路 74路 91路 193路 74路 91路 193路 74路 91路 193路 74路 91路 193路 
+                    <kbd>753米</kbd>
+                </p>
+                <p>
+                	<strong>大策</strong>
+                    74路 91路 193路 74路 91路 193路 74路 91路 193路 74路 91路 193路 74路 91路 193路 
+                    <kbd>753米</kbd>
+                </p>
+            </div>
+        </div>
+        <div class="ViewContainer container">
+        	<div id="Panorama"></div>
+        </div>
+    </div>
+</td></tr></table>
+
+<table class="FullScreenPlugin fixed fixed-top CenterDivContainer"><tr><td>
+	<dl class="CENTERDIV CenterLarge Feedback" data-active=".TOOL .feed">
+    	<dt class="CENTERTOPIC"><b>意见反馈</b><q></q></dt>
+        <dd class="CENTERCONTENT">
+        	<table class="CenterForm">
+            	<caption><h6 class="single">感谢您使用好工作，您的反馈是对我们莫大的支持和鼓励！</h6></caption>
+                <tr>
+                	<th width="120">反馈内容：</th><td width="480">
+                    	<textarea placeholder="使用帮助，产品bug，功能建议，问题反馈，吐槽等（500字以内）"></textarea>
+                        <code class="form-tip successMsg"></code>
+                        <code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>
+                    </td>
+                </tr>
+                <tr>
+                    <th>联系方式：</th><td>
+                    	<input type="text" class="text" placeholder="手机、QQ或邮箱">
+                        <code class="form-tip successMsg"></code>
+                        <code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>
+                    </td>
+                </tr>
+                <tr>
+                    <th></th><td class="CENTERBTNS">
+                    	<input type="button" class="submit" value="确定">
+                    	<input type="button" class="reset" value="取消">
+                    </td>
+                </tr>
+            </table>
+        </dd>
+    </dl>
+</td></tr></table>
+
+<div class="TOOL">
+	<a href="#" class="top"></a>
+    <a href="#" class="feed"></a>
+</div>
+
+
+</body>
+</html>
+<script src="js/jquery.js"></script>
+<script src="js/v2/all.js"></script>
+<script src="js/v2/web.js"></script>
+<script src="js/area.js"></script>
+<script src="js/jobPositions.js"></script>
+<script src="js/plugin/CitiesPicker.js"></script>
+<script src="js/effect/tab.js"></script>
+<script src="js/effect/fixed.js"></script>
+<script src="http://api.map.baidu.com/api?v=2.0&ak=OlGzoCwcKN9OvM16T9RnFwOl"></script>
+<script src="js/plugin/BaiduMap.js"></script>
+<script src="js/plugin/MapThumb.js"></script>
+<script src="js/plugin/BaiduShare.js"></script>
+<script src="js/effect/bg.js"></script>
+<script src="js/effect/ppt.js"></script>
+<script src="js/effect/correct.js"></script>
+<script src="js/plugin/CenterDiv.js"></script>
+<script src="js/effect/float.js"></script>
+<script>
+
+var PPT;
+$(function(){
+	defaultLng=116.316169,defaultLat=40.005567;
+	//直接把坐标写上去
+	map.refresh();
+	//生成地图查看器的效果
+	BIGMAP.refresh();
+	panorama.setPosition(new BMap.Point(defaultLng,defaultLat));
+	//收藏提示
+	$(".Attribs .tip q").click(function(){
+		$(this).parent().hide();
+	});
+	$(".icons.favor").click(function(){
+		if($(this).hasClass("favored"))
+		{//已经收藏了的
+			$(this).removeClass("favored").addClass("favor")
+				.closest("dt").find("del.tip").show()
+				.end().find("ins.tip").hide();
+		}
+		else
+		{
+			$(this).removeClass("favor").addClass("favored")
+				.closest("dt").find("ins.tip").show()
+				.end().find("del.tip").hide();
+		}
+	});
+	//详细信息，按六行(32*6=192)计算，如果改变默认高度，要同时设置CSS中的Introduction的高及行高
+	var intro=$(".Introduction"),introMinH=intro.height(),introMaxH=intro.children(".content").outerHeight();
+	if(introMinH >= introMaxH)
+	{
+		intro.css('height','auto');
+		$(".Expand").hide();
+	}
+	else $(".Expand").click(function(){
+		intro.animate({
+			height: intro.height()==introMinH ? introMaxH : introMinH
+		},'fast');
+	});
+	//点击公司图片的查看效果
+	$(".Pics li img").each(function(){
+		$("<img>").attr({
+			src:$(this).data("url"),
+			title:this.alt
+		}).appendTo($("<li>").appendTo($(".PPT ul")));
+		$("<img>").attr({
+			src:this.src,
+			title:this.alt
+		}).appendTo($("<li>").appendTo($(".PPT ol")));
+	});
+	if(isLow()) TextOverflow('h1',12);
+});
+$(window).load(function(){
+	CHIpros(".PPT,.Pics");
+	////////////////////////////////////////////////////////////////////////////////////////生成图片查看器的效果
+	setTimeout(function(){
+		PPT=CHIppt(
+			".PPT","ul li",
+			{indices:".PPT ol",prev:".PPT sub",next:".PPT sup"},
+			{auto:false},
+			{
+				show:function(oJQli){
+					$(".PhotoViewer h6").html(oJQli.find("img").attr("title"));
+				}
+			}
+		);
+		$(".PhotoViewer").hide().css('visibility','visible');
+		$(".Pics li").click(function(){
+			CHIbg.open(function(){
+				$(".PhotoViewer").fadeIn();
+			});
+			PPT.show($(this).index());
+		});
+		$(".PhotoViewer q").click(function(){
+			$(".PhotoViewer").fadeOut(function(){CHIbg.close()});
+		});
+	},1000);
+});
+</script>

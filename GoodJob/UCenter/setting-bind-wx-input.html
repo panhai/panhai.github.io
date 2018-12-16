@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>会员中心-个人设置--账号绑定-微信绑定-输入密码</title>
+</head>
+<link rel="stylesheet" type="text/css" href="../css/UCenter/css.css">
+<link rel="stylesheet" type="text/css" href="../css/UCenter/setting.css">
+<body>
+<div class="header"><div class="common">
+	<em><a href="#">好工作首页</a></em>
+    <p>
+    	张英，欢迎来到好工作。&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#">安全退出</a>
+        <a href="#">消息</a>
+        <a href="#">帮助</a>
+    </p>
+</div></div>
+<div class="nav"><div class="common">
+	<ul>
+    	<li><a href="#">我的好工作</a></li>
+    	<li><a href="#">简历中心</a></li>
+    	<li><a href="#">投递与反馈<i>2</i></a></li>
+    	<li><a href="#">个人设置</a></li>
+    </ul>
+    <form>
+    	<input type="text" placeholder="搜索职位、公司及更多内容" class="search-text">
+        <input type="submit" value="好工作" class="search-btn">
+    </form>
+</div></div>
+
+<div class="common main">
+    <div class="left">
+    	<ul>
+        	<li>
+            	<strong><img src="../images/UCenter/ico-resume.jpg" width="22" height="16">简历中心</strong>
+                <a href="resume.html">我的简历</a>
+            </li>
+        	<li>
+            	<strong><img src="../images/UCenter/ico-fresh.jpg" width="18" height="24">投递与反馈</strong>
+                <a href="feedback.html">全部投递</a>
+                <a href="feedback-checked.html">简历被查看</a>
+                <a href="feedback-interview.html">通知面试</a>
+                <a href="feedback-sure.html">确认应聘</a>
+                <a href="feedback-notmatch.html">不符合</a>
+            </li>
+        	<li>
+            	<strong><img src="../images/UCenter/ico-cog.jpg" width="21" height="21">个人设置</strong>
+                <a href="setting-bind.html" class="cur">账号绑定</a>
+                <a href="setting-code.html">修改密码</a>
+                <a href="setting-locate.html">我的位置</a>
+            </li>
+        </ul>
+    </div>
+    <div class="right">
+    	<h1>微信绑定</h1>
+        <ul class="steps">
+        	<li><i class="a"></i><b>扫描二维码</b></li>
+        	<li class="cur"><i class="b"></i><b>立即绑定</b></li>
+        	<li><i class="c"></i><b>完成</b></li>
+        </ul>
+        <form action="setting-bind-wx-ok.html"><ul class="bind-form">
+        	<li><var>帐户名</var><dfn><strong>ABCDEFG</strong></dfn></li>
+        	<li>
+                <var>登录密码</var>
+                <dfn><input type="password" class="text" placeholder="输入您的验证码"></dfn>
+                <!--<ins class="tipMsg">请填写你的手机号码，用于登录及找回密码</ins>-->
+                <ins class="errorMsg">请填写电子邮箱</ins>
+                <!--<ins class="successMsg">此邮箱可用于注册</ins>-->
+                <!--<img src="../images/common/loading/1.gif" alt="" style="float: left;" id="aloading">-->
+            </li>
+        	<li><var>&nbsp;</var><dfn><input type="submit" class="submit" value="确定"></dfn></li>
+        </ul></form>
+    </div>
+    
+    <div class="clear"></div>
+    
+</div>
+</body>
+</html>
+<script src="../js/jquery.js"></script>
+<script src="../js/web/all.js"></script>
+<script>
+$(function(){
+});
+</script>

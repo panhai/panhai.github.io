@@ -1,0 +1,104 @@
+/* 整站通用样式 */
+*{ margin:0px; padding:0px;}
+ul,ol,li{ list-style:none;}
+q{ quotes:none;}
+a{ text-decoration:none; cursor:pointer;}
+a img{ border:0px;}
+.common{ width:1000px; margin:0 auto;}
+body{ font-family:"宋体"; background-color:#f7f7f7;}
+.clear{ clear:both;}
+/*IE6 用absolute模拟fixed*/
+body{
+	_background-image: url(about:blank);     /*用浏览器空白页面作为背景*/
+	_background-attachment: fixed;     /* prevent screen flash in IE6 确保滚动条滚动时，元素不闪动*/
+}
+/*半透明背景*/
+#GlobalBG{ display:none; position:fixed; left:0px; top:0px; width:100%; height: 100%; z-index:55555;}
+.black5{ background:rgba(0,0,0,0.5) !important; filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4B000000,endColorstr=#4B000000) !important;}
+.top-fixed{
+	position:fixed;
+	top:0px;
+	_position: absolute;
+    _top:expression(eval(document.documentElement.scrollTop));
+}
+.bottom-fixed{
+	position:fixed;
+	bottom:0px;
+	_position: absolute;
+	_top:expression(eval(document.documentElement.scrollTop + document.documentElement.clientHeight - this.clientHeight));
+}
+
+/*页眉*/
+.header{ clear:both; background-color:#FAFAFA; font-size:12px; line-height:30px; height:30px; _overflow:hidden;}
+.header em{ float:left; font-style:normal; padding-left:10px;}
+.header em a{ color:#ff4f00;}
+.header p{ float:right; color:#797979;}
+.header p a{ color:#797979; margin-left:10px;}
+.header p a:hover{ color:#ff4f00;}
+/*导航*/
+.nav{ clear:both; background-color:#2677E2; height:45px; line-height:45px; overflow:hidden;}
+.nav ul{ float:left;}
+.nav li{ font-size:16px; font-family:"微软雅黑"; padding:0px 20px; float:left; position:relative; height:45px; overflow:hidden;}
+.nav li a{ color:#fff;}
+.nav li i{ display:block; position:absolute; background-color:#f00; font-size:12px; border:1px solid #fff; border-radius:30px; line-height:15px; height:15px; min-width:10px; text-align:center; font-style:normal; top:7px; left:93px; padding:0px 3px;}
+.nav li i{ background-color:transparent\9; border:0px\9;  height:16px\9; padding:0px\9;}
+.nav li i.i1{ background-image:url(../../images/UCenter/dot1.png) \9; width:16px\9; height:16px\9;}
+.nav li i.i2{ background-image:url(../../images/UCenter/dot2.png) \9; width:20px\9; height:20px\9; line-height:20px\9;}
+/*搜索*/
+.nav form{ float:right; padding:7px 10px 0px 0px;}
+.search-text{ width:185px; height:30px; font-size:12px; color:#808080; border:0px; float:left; padding:0px 10px; line-height:30px;}
+.search-btn{ width:70px; padding-right:15px; height:30px; font-size:12px; float:left; color:#333; border:0px; background:#F2F2F2 url(../../images/UCenter/search-btn.jpg) 50px center no-repeat; cursor:pointer; font-family:"微软雅黑"; font-weight:bold;}
+
+/*主体*/
+.main{ padding-top:20px; margin-bottom:30px;}
+
+
+/*分页---首页用*/
+.pages{ float:right; margin-top:20px; font-size:12px;}
+.pages span,.pages a,.pages b{ display:block; float:left; width:23px; height:23px; line-height:23px; text-align:center; font-size:12px; border:1px solid; margin-right:5px;}
+.pages a{ border-color:#ababab; color:#1256A9;}
+.pages b{ border-color:#1256A9; background:#27c; color:#fff; font-weight:normal;}
+.pages .prev i,.pages .next i{ background-image:url(../../images/icons.gif); width:12px; height:12px; display:inline-block; font-size:0px; vertical-align:text-bottom; vertical-align:middle\9;}
+.pages a.prev,.pages a.next{ width:auto !important; padding:0px 4px;}
+.pages span{ border-color:#ccc;}
+.pages a.prev i{ background-position:bottom center;}
+.pages a.next i{ background-position:center top;}
+.pages span.prev i{ background-position:right center;}
+.pages span.next i{ background-position:left center;}
+/*IE67兼容*/
+.pages span i{ *margin-top:5px; _margin-top:0px;}
+.pages a.next,.pages a.prev{ _height:18px; _padding-top:5px;}
+/*跳转*/
+.pages .number{ width:20px; border:1px solid #ccc; padding:0px 5px; font-size:12px; height:23px; line-height:23px; vertical-align:middle;}
+.pages .btn{ width:38px; height:23px; background:url(../../images/pages-btnbg.jpg); border:1px solid #aaa; vertical-align:middle;}
+
+/*分页-投递反馈用*/
+.pages2{ clear:both; text-align:center; margin:50px 0px; font-size:0px; font-family:"微软雅黑";}
+.pages2 span,.pages2 a,.pages2 b{ display:inline-block; min-width:20px; height:30px; line-height:30px; _width:20px; text-align:center; padding:0px 5px; font-size:14px; margin-right:10px;}
+.pages2 span,.pages2 a{ border:1px solid #ccc; color:#999;}
+.pages2 b,.pages2 a:hover{ background-color:#2677E2; color:#fff; border:1px solid #2677E2;}
+.pages2 .ctrl{ width:auto;}
+
+/*表单验证*/
+.inputText{ border:solid 1px #A6B6CE; line-height:15px; vertical-align:middle; padding:3px;background:url(../../images/common/inputBg1.jpg) repeat-x; }
+.errorMsg{ padding:2px; line-height:17px; width:auto; border:solid 1px #fb9f00; background:#FAFBED url(../../images/common/inputMsgBg1.jpg) 5px center no-repeat; color:red; padding-left:25px; padding-right:10px; margin-left:6px; }
+.errorMsg2{ padding:2px; line-height:17px; width:auto; border:solid 1px #FF0000; background:#ffb9b9 url(../../images/common/inputMsgBg1.jpg) 5px center no-repeat; color:red; padding-left:25px; padding-right:10px; margin-left:6px; }
+.tipMsg{ padding:2px; line-height:19px; border:solid 0px #FCEDB2; background:url(../../images/common/inputMsgBg2.jpg) 5px center no-repeat; color:#999999; padding-left:25px; padding-right:10px; margin-left:5px; }
+.successMsg{ padding:2px; line-height:19px; border:solid 0px #FCEDB2; background:url(../../images/common/inputMsgSuss.png) 5px center no-repeat; color:#999999; padding-left:25px; padding-right:10px; margin-left:5px; }
+.loadingMsg{ padding:2px; line-height:17px; border:solid 1px #FCEDB2; background:#FAFBED url(../../images/common/msgLoading.gif) 5px center no-repeat; color:#F58B11; padding-left:25px; padding-right:10px; margin-left:6px; }
+.tipMsg a{ text-decoration:underline; color:#999999; }
+.tipMsg a:hover{ text-decoration:underline; color:blue; }
+#aloading{ position:relative; left:10px; top:8px; *left:-20px;}
+
+/*切换后台*/
+.SwitchPlatform{ width:470px; height:210px; overflow:hidden;}
+.SwitchPlatform p{ line-height:25px; margin:10px 20px; color:#999; font-size:14px; font-family:"宋体";}
+.SwitchPlatform a{ color:#2677e2; font-size:16px; font-family:"微软雅黑";}
+.SwitchPlatform a.cur{ color:#ff5000;}
+
+/*首次提示*/
+.FirstTip{ display:none; text-align:center; width:100%; z-index:55556;}
+.FirstTip div{ width:1000px; margin:0 auto; position:relative;}
+.FirstTip q{ display:block; position:absolute; right:0px; top:20px; cursor:pointer;}
+/*暂无信息*/
+.noinfors{ clear:both; font-size:24px; color:#888; font-family:"微软雅黑"; text-align:center; background-color:#fafafa; margin:0 20px; padding:30px 0 70px;}

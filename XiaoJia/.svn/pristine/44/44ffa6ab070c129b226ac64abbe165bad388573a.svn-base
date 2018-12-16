@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>校+</title>
+    <link rel="stylesheet" type="text/css" href="../css/all.css" />
+    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+    <link href="../css/layerskin/default/layer.css" rel="stylesheet" />
+</head>
+
+<body style="overflow-y: scroll; height: 504px;">
+    <div class="head-navgater">
+        <div class="rightCenter">
+            <div class="setting">
+                <a href="javascript:void(0)">设置</a>
+            </div>
+            <div class="feed_back">
+                <a href="javascript:void(0)">我要反馈</a>
+            </div>
+            <div class="information">
+                <span class="icon"></span>
+            </div>
+            <div class="news">
+                <span class="icon"></span>
+            </div>
+            <div class="search">
+                <input type="text" value="" placeholder="搜求职者" class="search_txet">
+                <span class="icon"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="menudiv">
+        <div class="left-navgater" style="height: 474px; background: rgb(6, 108, 189);">
+            <div class="logoBox">
+                <a href="javascript:void(0)" class="changeArrow">
+                    <i></i>
+                </a>
+            </div>
+            <div class="school-infor">
+                <div class="inforBox cur">
+                    <img src="/images/nophoto.png" alt="">
+                </div>
+                <div class="inforBox">
+                    <p>潘海应</p>
+                    <p>早上好</p>
+                </div>
+            </div>
+            <div class="nav">
+                <a href="/school" class="gzt">
+                    <i class="position1"></i>
+                    <span>工作台</span>
+                </a>
+                <div class="option zsxc">
+                    <i class="position2"></i>
+                    <span>招生宣传</span>
+                    <b></b>
+                    <div class="midLa">
+                        <a href="/school/publicity" class="wyx zsxc">微营销</a>
+                        <a href="/school/xjpromote" class="xjtg zsxc">校+推广</a>
+                        <a href="/school/hxxpromote" class="hytg zsxc">会员推广</a>
+                        <a href="/school/hxxpromote/seopromote" class="seotg zsxc">SEO推广</a>
+                        <a href="/school/channel" class="qdgl zsxc">渠道管理</a>
+                    </div>
+                </div>
+                <a href="/school/orders" class="zxgl">
+                    <i class="position3"></i>
+                    <span>咨询管理</span>
+                </a>
+                <a href="/school/student" class="xygl">
+                    <i class="position4"></i>
+                    <span>学员管理</span>
+                </a>
+                <a href="/school/teach" class="jwgl cur">
+                    <i class="position5"></i>
+                    <span>教务管理</span>
+                </a>
+                <a href="/school/finance" class="cwgl">
+                    <i class="position6"></i>
+                    <span>财务管理</span>
+                </a>
+                <a href="/school/income" class="xjlm">
+                    <i class="position8"></i>
+                    <span>校+创收</span>
+                </a>
+                <a href="/school/setting" class="xxsz">
+                    <i class="position9"></i>
+                    <span>学校设置</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="left-small-navgater" style="">
+            <div class="logoBox">
+                <a href="javascript:void(0)" class="changeArrow">
+                    <i></i>
+                </a>
+            </div>
+            <div class="school-infor">
+                <img src="/images/nophoto.png" alt="">
+            </div>
+            <div class="small-nav">
+                <div class="nav-url">
+                    <div class="url-icon position1"></div>
+                    <div class="moveLayer">
+                        <i></i>
+                        <a href="/school">控制台</a>
+                    </div>
+                </div>
+                <div class="nav-url">
+                    <div class="url-icon position2"></div>
+                    <div class="moveLayer">
+                        <i></i>
+                        <a href="/school/publicity" class="wyx">微营销</a>
+                        <a href="/school/xjpromote" class="xjtg">校+推广</a>
+                        <a href="/school/hxxpromote" class="hytg">会员推广</a>
+                        <a href="/school/hxxpromote/seopromote" class="seotg">SEO推广</a>
+                        <a href="/school/channel" class="qdgl">渠道管理</a>
+                    </div>
+                </div>
+                <div class="nav-url">
+                    <div class="url-icon position3"></div>
+                    <div class="moveLayer">
+                        <i></i>
+                        <a href="/school/orders">咨询管理</a>
+                        <a href="/school/orders">今日跟进</a>
+                        <a href="/school/orders">到访记录</a>
+                    </div>
+                </div>
+                <div class="nav-url">
+                    <div class="url-icon position4"></div>
+                    <div class="moveLayer">
+                        <i></i>
+                        <a href="/school/student">全部学员</a>
+                        <a href="/school/student">在读学员</a>
+                        <a href="/school/student">欠费学员</a>
+                    </div>
+                </div>
+                <div class="nav-url">
+                    <div class="url-icon position5"></div>
+                    <div class="moveLayer">
+                        <i></i>
+                        <a href="/school/teach">班级管理</a>
+                        <a href="/school/teach">课程管理</a>
+                        <a href="/school/teach">教师管理</a>
+                        <a href="/school/teach/classroom">课室管理</a>
+                    </div>
+                </div>
+                <div class="nav-url">
+                    <div class="url-icon position6"></div>
+                    <div class="moveLayer">
+                        <i></i>
+                        <a href="/school/finance">财务流水</a>
+                        <a href="/school/finance">到帐确认</a>
+                        <a href="/school/finance">支出确认</a>
+                        <a href="/school/finance">退款处理</a>
+                    </div>
+                </div>
+                <div class="nav-url">
+                    <div class="url-icon position8"></div>
+                    <div class="moveLayer">
+                        <i></i>
+                        <a href="/school/income">校+创收</a>
+                        <a href="/school/income">合作学校</a>
+                    </div>
+                </div>
+                <div class="nav-url">
+                    <div class="url-icon position9"></div>
+                    <div class="moveLayer">
+                        <i></i>
+                        <a href="/school/setting">帐号管理</a>
+                        <a href="/school/setting/schoolarea">校区设置</a>
+                        <a href="/school/setting/property">属性配置</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="right-content ">
+
+        <div class="content-layer border pt20">
+
+
+            <div class="title">
+                <a href="javascript:void(0)" onclick="history.back();">&lt;&lt;返回</a> 课程详情
+            </div>
+
+            <div class="section-layer">
+                <div class="section-position">
+                    <a href="/school/teach/courseedit/1000066" class="section-demo cur">编辑课程</a>
+
+                </div>
+                <div class="section-position other-left">
+                    <a href="javascript:void(0)" class="section-demo2 ">
+                        <span>1</span>
+                        <span>开课班级</span>
+                    </a>
+                    <a href="javascript:void(0)" class="section-demo2 ">
+                        <span>3</span>
+                        <span>授课老师</span>
+                    </a>
+
+                </div>
+                <div class="section-floor">
+                    <div class="section-child">
+                        <i class="cur"></i>
+                        <a href="javascript:void(0)">雅思口语+阅读+听力全科课程</a>
+                    </div>
+                    <div class="section-child">
+                        1000002
+                    </div>
+                    <div class="section-child">
+                        <span class="inpor">东山口校区|大学城北教学区|海珠校区</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="general-layer ">
+                <div class="class-nav">
+                    <a href="/school/teach/coursedetail/1000066">开课班级 <i></i></a>
+                    <a href="javascript:void(0)" class="cur">授课老师 <i></i></a>
+                    <a href="/school/teach/coursedetail3/1000066">教材杂费 <i></i></a>
+                </div>
+
+                <div class="class-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="sele-all">
+
+                                    <span>教师</span>
+                                </th>
+                                <th>
+                                    <span>联系手机</span>
+                                </th>
+                                <th>
+                                    <span>所属校区</span>
+                                </th>
+                                <th>
+                                    <span>授课课程</span>
+                                </th>
+                                <th>
+                                    <span>授课班级</span>
+                                </th>
+                                <th>
+                                    <span>状态</span>
+                                </th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="sele-one noborder-bottom sele_width">
+                                    <!--最后个tr > td 不要noborder-bottom-->
+                                    <a href="/school/teach/teacherinfo/1000000" class="name-for-class">苏老师</a>
+                                </td>
+                                <td style="width: 100px;" class="noborder-bottom">
+                                    <span>15889936047</span>
+                                </td>
+                                <td style="width: 100px;" class="noborder-bottom sele_width2">
+                                    <span>东山口校区,大学城北教学区</span>
+                                </td>
+                                <td style="width: 100px;" class="noborder-bottom sele_width2">
+                                    <span>IELTS大学生6.0分班,雅思口语进阶名师1对1课程,新托福速达保90分,雅思口语+阅读+听力全科课程</span>
+                                </td>
+                                <td style="width: 200px;" class="noborder-bottom">
+                                    <span>4</span>
+                                </td>
+                                <td style="width: 200px;" class="noborder-bottom">
+                                    <span>在职</span>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td class="sele-one noborder-bottom">
+                                    <!--最后个tr > td 不要noborder-bottom-->
+
+                                    <a href="/school/teach/teacherinfo/1000001" class="name-for-class">黄清</a>
+                                </td>
+                                <td style="width: 100px;" class="noborder-bottom">
+                                    <span>13800000000</span>
+                                </td>
+                                <td style="width: 100px;" class="noborder-bottom">
+                                    <span>东山口校区,大学城北教学区</span>
+                                </td>
+                                <td style="width: 100px;" class="noborder-bottom">
+                                    <span>IELTS大学生6.0分班,雅思口语进阶名师1对1课程,新托福速达保90分,雅思口语+阅读+听力全科课程</span>
+                                </td>
+                                <td style="width: 200px;" class="noborder-bottom">
+                                    <span>3</span>
+                                </td>
+                                <td style="width: 200px;" class="noborder-bottom">
+                                    <span>在职</span>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td class="sele-one noborder-bottom">
+                                    <!--最后个tr > td 不要noborder-bottom-->
+
+                                    <a href="/school/teach/teacherinfo/1000006" class="name-for-class">黄婷婷</a>
+                                </td>
+                                <td style="width: 100px;" class="noborder-bottom">
+                                    <span>13200000000</span>
+                                </td>
+                                <td style="width: 100px;" class="noborder-bottom">
+                                    <span>东山口校区,大学城北教学区</span>
+                                </td>
+                                <td style="width: 100px;" class="noborder-bottom">
+                                    <span>IELTS大学生6.0分班,雅思口语进阶名师1对1课程,新托福速达保90分,雅思口语+阅读+听力全科课程</span>
+                                </td>
+                                <td style="width: 200px;" class="noborder-bottom">
+                                    <span>0</span>
+                                </td>
+                                <td style="width: 200px;" class="noborder-bottom">
+                                    <span>在职</span>
+                                </td>
+
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div class="t_foot">
+
+                        <div class="page">
+
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script src="../js/My97DatePicker/WdatePicker.js"></script>
+    <script src="/js/jquery?v=YRj8STDE3Ve2hF_TwSmg8X_N5apNgM7GHMUll3cZsO01"></script>
+    <script src="/js/jqueryval?v=Cp0aWtVWqUPlnpbEO6W3kAeLmuP534yU5gGmVuYSH6M1"></script>
+    <script src="/js/my97datepicker/wdatepicker?v=PzRD3y3kEEeDIvGKvLjegkBjNvgbCbHbvKMejtIVPB01"></script>
+
+
+    <script src="/js/all?v=NJR-mR4lHGUxZRT9oYGqf1HrsfBAga78ELp9dhdx2j41"></script>
+
+
+    <script>
+        window.pageMenu.setActive({ selected: 'jwgl' });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,246 @@
+/* 校企合作 */
+.Right{ background:none;}
+.Query{ padding:10px;}
+/*模拟复选框*/
+.Boxes{ float:left; font-size:16px; line-height:40px;}
+.Boxes a{ display:block; float:left; padding:0 20px; font-style:normal; background:url(../../../images/v2/icons/box-empty.jpg) left center no-repeat; cursor:pointer; color:#525252;}
+.Boxes a:hover{ color:#1562c8; text-decoration:underline;}
+.Boxes a.cur{ background-image:url(../../../images/v2/icons/box-checked.jpg);}
+
+/*顶过滤条*/
+.Filters{ clear:both; background-color:#fff; height:40px; padding:10px; margin-bottom:20px; border-bottom:2px solid #eaeaea;}
+.Filters .text-container{ float:right; width:160px;}
+.Filters input{ float:right; border:0; height:40px; background-color:#ebf3ff;}
+.Filters .submit{ width:30px; cursor:pointer; background:url(../../../images/v2/icons/magnifier-l.png) #ebf3ff center no-repeat;}
+.Filters .submit{ _background-image:url(../../../images/v2/icons/magnifier-l.gif);}
+.Filters .text{ padding:0 10px; font-size:16px; color:#1562c8; width:140px; line-height:40px;}
+.Filters .SELECT{ float:right; margin-right:10px; width:130px;}
+.Filters .SELECT dt{ height:40px; line-height:40px; background-color:#ebf3ff;}
+.Filters .SELECT dt span,.Filters .SELECT dt b{ font-size:16px; width:95px;}
+.Filters .SELECT dd{ border:2px solid #ebf3ff; font-size:14px;}
+.Types dd{ width:126px;}
+/*校企合作邀请-学校列表顶的特殊样式*/
+.float-left{ background-color:#ebf3ff; padding:20px;}
+.float-left .SELECT,.float-left input,.float-left .text-container{ float:left !important;}
+.float-left .SELECT{ width:160px;}
+.float-left .SELECT dt{ border:#c4ddff 1px solid; background:url(../../../images/v2/icons/map.jpg) 10px center no-repeat #fff;}
+.float-left .SELECT dt span,.float-left .SELECT dt b{ width:85px; margin-left:25px;}
+.float-left .SELECT dt i{ width:25px; height:20px; border-left:1px solid #c4ddff; background-repeat:no-repeat; background-position:center right;}
+.float-left .Keywords{ margin-left:10px; float:left;}
+.float-left .text-container{ width:350px;}
+.float-left .text{ width:320px; background-color:#fff; border:1px solid #c4ddff;}
+.float-left .submit{ width:140px; height:42px; background:#1562c8; font-size:18px; color:#fff; margin-left:10px;}
+
+
+h2.Professions{ background-color:#f2f2f2; color:#525252; font-weight:normal; line-height:40px; font-size:20px; padding:0 10px;}
+div.Professions{ clear:both; border:1px solid #ededed; background-color:#f2f2f2;}
+/*学校列表-校企合作邀请用*/
+.Schools{}
+.Schools li{ background-color:#fff; height:90px; padding:20px 0 20px 15px; margin-top:10px; border-bottom:1px solid #e8e8e8;}
+.Schools li var{ float:left; display:block; width:88px; height:88px; border:1px solid #e7e7e7; overflow:hidden; margin-right:15px;}
+.Schools li a{ color:#1562c8;}
+.Schools li h3{ width:555px; float:left; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; line-height:30px; font-weight:normal;}
+.Schools h3 a:hover{ text-decoration:underline;}
+.Schools li q{ width:100px; height:25px; line-height:25px; float:right; font-size:16px; text-align:center;}
+.Schools li q samp{ background-color:#f2f2f2; color:#a4a4a4; display:block;}
+.Schools li q a{ display:block; background-color:#fcde4e;}
+.Schools q a:hover{ background-color:#1562c8; color:#fff;}
+.Schools li p{ width:600px; float:left; color:#525252; font-size:14px; padding:5px 0; line-height:25px;}
+.Schools li span{ color:#a4a4a4;}
+
+.PAGES{ text-align:right; padding:20px 0;}
+
+/*学校详情*/
+.School{ clear:both; width:800px; margin:40px auto; background:#fff url(../../../images/v2/fold3.jpg) right top no-repeat; border-top:1px solid #f8f8f8; padding-bottom:100px;}
+.TOPIC{ height:58px; position:relative; left:-10px; margin:25px 0 0px; line-height:46px; color:#fff; font-weight:normal; font-size:24px;}
+.TOPIC *{ display:block; float:left; height:58px;}
+.TOPIC b,.TOPIC q{ background-image:url(../../../images/v2/topicLong.png); width:30px;}
+.TOPIC b,.TOPIC q{ _background-image:url(../../../images/v2/topicLong.gif);}
+.TOPIC q{ background-position:right top; width:50px;}
+.TOPIC strong{ background-color:#71a4e7; height:48px;}
+/*相册*/
+.Albums{ clear:both; margin:10px 25px; height:330px;}
+.Albums dt{ width:290px; height:290px; overflow:hidden; background-color:#f8f8f8; float:left; margin-top:10px;}
+.Albums dd{ width:450px; float:left;}
+.Albums dd li{ width:140px; float:left; margin:10px 0 0 10px; height:140px; background-color:#f8f8f8; overflow:hidden; cursor:pointer;}
+/*小标题*/
+.School h2{ height:20px; font-size:20px; color:#1562c8; border-left:3px solid #1562c8; padding-left:10px; line-height:20px; margin:0 20px;}
+.Content{ padding:20px; font-size:16px; color:#525252; line-height:30px;}
+.Content p{ text-indent:2em; margin-bottom:10px;}
+
+/*尾巴上的静止层*/
+.Tail{ width:100%; text-align:center; padding:10px 0; line-height:40px;}
+.Tail a{ display:inline-block; background-color:#1562c8; color:#fff; font-size:24px; padding:0 20px; border:2px solid #1562c8;}
+.Tail a:hover{ background-color:#fff; color:#1562c8;}
+.Tail span{ display:inline-block; background-color:#a4a4a4; color:#525252; font-size:24px; padding:0 20px;}
+
+/*学校列表-发出/收到的邀请用*/
+.Schools2{}
+.Schools2 li{ background-color:#fff; height:105px; margin-top:10px; border-bottom:1px solid #e8e8e8;}
+.Schools2 h3{ width:600px; float:left; white-space:nowrap; text-overflow:ellipsis; line-height:35px; font-weight:normal; margin-top:5px;}
+.Schools2 h3 a{ color:#525252;}
+.Schools2 small{ font-size:16px;}
+.Schools2 var{ display:block; width:100px; height:100px; float:left; border:1px solid #f8fbff; overflow:hidden; margin:1px 10px 0 1px;}
+.Schools2 h3 a:hover{ color:#1562c8; text-decoration:underline;}
+.Schools2 q{ width:300px; height:25px; line-height:25px; float:right; font-size:16px; text-align:right; margin-top:35px; padding:0 10px;}
+.Schools2 q a{ color:#1562c8; padding:0 10px;}
+.Schools2 q a:hover{ text-decoration:underline;}
+.Schools2 p{ width:350px; float:left; color:#a4a4a4; font-size:16px; line-height:30px;}
+.Schools2 b{ font-weight:normal; color:#525252;}
+
+/*新增的详细内容列表*/
+.Schools2 li.on{ height:auto;}
+.Schools2 q a i{ display:inline-block; width:12px; height:12px; margin-left:3px; background-image:url(../../../images/v2/icons/triangle-down-blue-deep.png);}
+.Schools2 q a i{ _background-image:url(../../../images/v2/icons/triangle-down-blue-deep.gif);}
+.Schools2 li.on q a i{ background-image:url(../../../images/v2/icons/triangle-up-blue-deep.png); _background-image:url(../../../images/v2/icons/triangle-up-blue-deep.gif);}
+.Schools2 div.sublist{ display:none; clear:both; background-color:#e8f2ff; padding:20px; line-height:40px;}
+.Schools2 li.on div.sublist{ display:block;}
+.Schools2 .sublist table{ width:100%; font-size:16px;}
+.Schools2 .sublist th{ font-weight:normal; color:#525252; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.Schools2 .sublist td{ color:#a4a4a4;}
+.Schools2 .sublist a{ color:#5f9def;}
+.Schools2 .sublist a:hover{ color:#1562c8; text-decoration:underline;}
+.Schools2 .sublist label{ display:inline-block; padding-left:20px; background:url(../../../images/v2/icons/box2-empty.jpg) left center no-repeat; cursor:pointer;}
+.Schools2 .sublist label.checked{ background-image:url(../../../images/v2/icons/box2-checked.jpg);}
+.Schools2 .sublist label input{ display:none;}
+.Schools2 .sublist .submit{ width:80px; height:26px; font-size:14px; color:#fff; background-color:#62a5fe; cursor:pointer; border:0; margin-left:20px;}
+
+/*地区推荐*/
+.Pushes{ clear:both; margin:20px 0; border:1px solid #e6e6e6; background-color:#fff;}
+.Pushes dt{ font-size:20px; line-height:45px; height:45px; background-color:#f2f2f2; padding:0 10px;}
+.Pushes dt b{ color:#1562c8; font-weight:normal;}
+.Pushes dt small{ font-size:14px; color:#8b8b8b;}
+.Pushes dd{ padding:10px 0; line-height:40px; font-size:0; padding-bottom:20px\9;}
+.Pushes dd a{ display:block; float:left; text-align:center; height:40px; color:#3f3f3f; width:157px; background:url(../../../images/v2/icons/rect-bg-gray.png) center no-repeat; _background-image:url(../../../images/v2/icons/rect-bg-gray.gif); margin-bottom:-10px\9;}
+.Pushes dd a:hover{ background-image:url(../../../images/v2/icons/rect-bg-blue.png); _background-image:url(../../../images/v2/icons/rect-bg-blue.gif);}
+.Pushes dd a span{ display:block; margin:0 auto; width:110px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; font-size:14px;}
+
+/*校企合作列表*/
+dl.Professions{ clear:both; margin-bottom:50px;}
+.Professions .tabs{ height:45px; border-bottom:2px solid #77b0fb; overflow:hidden;}
+.Professions h2{ float:left; width:165px; text-align:center; font-size:20px; color:#77b0fb; line-height:45px; font-weight:normal; border:1px solid #77b0fb; margin-right:5px; cursor:pointer;}
+.Professions h2.cur{ color:#fff; background-color:#77b0fb;}
+.Professions .contents{ border:1px solid #e6e6e6; background-color:#fff; border-top:0;}
+/*技能培训机构*/
+.Skills{ width:100%;}
+.Skills td,.Skills th{ vertical-align:top;}
+.Skills th{ background-color:#f2f2f2;}
+.Skills th h3{ padding:0 20px; text-align:left; font-weight:normal; color:#5c5c5c; font-size:16px; line-height:60px; border-bottom:1px solid #e6e6e6; background:url(../../../images/v2/icons/chevrons-right-gray.png) 190px center no-repeat; border-right:1px solid #e6e6e6; cursor:pointer;}
+.Skills th h3{ _background-image:url(../../../images/v2/icons/chevrons-right-gray.gif);}
+.Skills th h3.cur{ background:#fff; color:#1562c8; border-right:0;}
+.Skills .lists{ clear:both;}
+.Skills .lists div{ clear:both; margin:10px 20px;}
+.Skills h4{ height:40px; line-height:40px; border-bottom:1px solid #e1e1e1;}
+.Skills h4 b{ display:inline-block; font-weight:normal; color:#1562c8; font-size:16px; border-bottom:1px solid #1562c8; width:130px; text-align:center;}
+.Skills p{ font-size:14px; line-height:25px; padding:10px 0;}
+.Skills p a{ color:#a4a4a4; margin-right:15px; display:inline-block; white-space:nowrap;}
+.Skills p a:hover{ color:#1562c8; text-decoration:underline;}
+/*中职/技校*/
+.Other{ clear:both; line-height:30px; padding:10px 20px;}
+.Other h5{ float:left; font-size:16px; font-weight:normal; margin-right:20px;}
+.Other a{ color:#666;}
+.Other a:hover{ color:#1562c8; text-decoration:underline;}
+
+
+
+/*新增合作图标*/
+.Schools2 ins{ display:inline-block; width:26px; height:26px; background-image:url(../../../images/v2/icons/cooperate.png); vertical-align:middle; text-decoration:none; margin-right:5px\9;}
+.Schools2 ins{ _background-image:url(../../../images/v2/icons/cooperate.gif);}
+.Schools2 ins cite{ display:none; position:absolute; font-size:14px; color:#999; font-style:normal; width:220px; padding:5px 20px; line-height:25px; background-color:#fff; border:1px solid #5999ef; top:35px; left:-27px; word-break:break-all;}
+.Schools2 ins.on{ position:relative; z-index:2;}
+.Schools2 ins.on cite{ display:block;}
+.Schools2 ins strong{ display:block; clear:both; font-weight:normal; color:#525252; font-size:16px; overflow:hidden; text-overflow:ellipsis; width:100%;}
+.Schools2 ins del{ width:18px; height:10px; background-image:url(../../../images/v2/icons/cooperate-angle.png); position:absolute; top:-10px; left:30px; z-index:3; overflow:hidden;}
+.Schools2 ins del{ _background-image:url(../../../images/v2/icons/cooperate-angle.gif);}
+/*新增联系方式图标*/
+.Schools2 kbd{ display:inline-block; width:26px; height:26px; background-image:url(../../../images/v2/icons/contact.png); vertical-align:middle; font-style:normal; margin-right:5px\9;}
+.Schools2 kbd{ _background-image:url(../../../images/v2/icons/contact.gif);}
+.Schools2 kbd cite{ display:none; position:absolute; font-size:14px; font-style:normal; width:200px; padding:5px 10px; line-height:25px; background-color:#fff; border:1px solid #ee8d4d; top:32px; left:-24px; word-break:break-all;}
+.Schools2 kbd.on{ position:relative; z-index:2;}
+.Schools2 kbd.on cite{ display:block;}
+.Schools2 kbd del{ display:block; width:13px; height:8px; position:absolute; top:-8px; left:30px; z-index:3; overflow:hidden; background-image:url(../../../images/v2/icons/contact-angle.png);}
+.Schools2 kbd dfn{ display:block; font-style:normal; color:#525252; padding-left:30px;}
+.Schools2 kbd dfn.tel{ background:url(../../../images/v2/icons/tel-orange.png) left center no-repeat;}
+.Schools2 kbd dfn.tel{ _background-image:url(../../../images/v2/icons/tel-orange.gif);}
+.Schools2 kbd dfn.email{ background:url(../../../images/v2/icons/email-orange.png) left center no-repeat;}
+.Schools2 kbd dfn.email{ _background-image:url(../../../images/v2/icons/email-orange.gif);}
+
+
+
+
+/*信息列表*/
+.Infors{ clear:both;}
+.Infors li{ height:105px; background-color:#fff; clear:both; margin:20px 0;}
+.Infors p{ font-size:14px; color:#a4a4a4; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; line-height:25px; height:25px; clear:both;}
+.Infors b{ color:#525252; font-weight:normal;}
+/*职位信息*/
+.job{ width:450px; float:left; padding-left:15px; height:105px; border-left:4px solid #dadada;}
+.Infors li:hover .job{ border-left-color:#77b0fb;}
+.job h4{ margin:10px 0 5px; font-size:20px; line-height:30px; font-weight:normal; _width:100%;}
+.job h4{ white-space:nowrap;}
+.job h4 *{ vertical-align:middle; display:inline-block;}
+.job h4 a{ color:#525252; margin-right:10px; max-width:12em; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.job h4 a:hover{ color:#1562c8; text-decoration:underline;}
+.job h4 i{ background:url(../../../images/v2/icons/push-s.png) left 3px no-repeat; font-size:12px; font-family:Arial, Helvetica, sans-serif; color:#ddac15; font-style:normal; padding-left:25px; line-height:40px; font-weight:bold; height:30px; overflow:hidden;}
+.job h4 i{ _background-image:url(../../../images/v2/icons/push-s.gif);}
+
+/*新增合作图标*/
+.job ins{ display:inline-block; width:26px; height:26px; background-image:url(../../../images/v2/icons/cooperate.png); vertical-align:middle; text-decoration:none;}
+.job ins{ _background-image:url(../../../images/v2/icons/cooperate.gif);}
+.job ins cite{ display:none; position:absolute; font-size:14px; color:#999; font-style:normal; width:360px; padding:5px 20px; line-height:25px; background-color:#fff; border:1px solid #5999ef; top:35px; left:-27px; word-break:break-all;}
+.job ins.on{ position:relative; z-index:2;}
+.job ins.on cite{ display:block;}
+.job ins strong{ display:block; clear:both; font-weight:normal; color:#525252; font-size:16px; overflow:hidden; text-overflow:ellipsis; width:100%;}
+.job del{ width:18px; height:10px; background-image:url(../../../images/v2/icons/cooperate-angle.png); position:absolute; top:-10px; left:30px; z-index:3; overflow:hidden;}
+.job del{ _background-image:url(../../../images/v2/icons/cooperate-angle.gif);}
+
+
+/*操作项*/
+div.options{ width:270px; float:right; text-align:right; padding:70px 15px 0 0;}
+div.options a{ display:inline-block; margin-left:10px; font-size:16px; color:#1562c8;}
+div.options a i{ display:inline-block; width:12px; height:12px; margin-left:3px; background-image:url(../../../images/v2/icons/triangle-down-blue-deep.png);}
+div.options a i{ _background-image:url(../../../images/v2/icons/triangle-down-blue-deep.gif);}
+.Infors li.on div.options a i{ background-image:url(../../../images/v2/icons/triangle-up-blue-deep.png); _background-image:url(../../../images/v2/icons/triangle-up-blue-deep.gif);}
+
+/*新增的详细内容列表*/
+.Infors li.on{ height:auto;}
+.Infors div.sublist{ display:none; clear:both; background-color:#e8f2ff; padding:0 20px; line-height:40px; overflow:hidden;}
+.Infors li.on div.sublist{ display:block;}
+.Infors .sublist table{ width:100%; font-size:16px; margin:20px 0;}
+.Infors .sublist th{ font-weight:normal; color:#525252; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; text-align:left;}
+.Infors .sublist td{ color:#a4a4a4;}
+.Infors .sublist a{ color:#5f9def;}
+.Infors .sublist a:hover{ color:#1562c8; text-decoration:underline;}
+.Infors .sublist label{ display:inline-block; padding-left:20px; background:url(../../../images/v2/icons/box2-empty.jpg) left center no-repeat; cursor:pointer; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; width:90%;}
+.Infors .sublist label.checked{ background-image:url(../../../images/v2/icons/box2-checked.jpg);}
+.Infors .sublist label input{ display:none;}
+.Infors .sublist .submit{ width:80px; height:26px; font-size:14px; color:#fff; background-color:#62a5fe; cursor:pointer; border:0; margin-left:20px;}
+
+/*新增弹窗学校列表-已合作职位------备份用，不要删掉它
+.SchoolsLists{ position:relative;}
+.SchoolsLists .CENTERTOPIC{ padding-left:10px;}
+.SchoolsLists .CENTERTOPIC b{ padding-right:20px; line-height:45px; height:45px; margin-top:7px;}
+.SchoolsLists .CENTERTOPIC b.cur{ background-color:#f8f8f8; color:#1562c8;}
+.SchoolsLists .CENTERCONTENT{ padding:0;}
+.SchoolsList{ clear:both;}
+.SchoolsList .list{ clear:both; height:400px; overflow:auto; margin-bottom:50px;}
+.SchoolsList .list label{ display:block; line-height:50px; height:50px; border-bottom:1px solid #dedede; padding:0 20px;}
+.SchoolsList .list label input{ display:none;}
+.SchoolsList .list span{ display:block; float:left; width:450px; padding-left:20px; background:url(../../../images/v2/icons/box-empty.jpg) left center no-repeat; font-size:16px; color:#525252; text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+.SchoolsList .list .checked span{ background-image:url(../../../images/v2/icons/box-checked.jpg);}
+.SchoolsList .list samp{ display:block; float:right; width:170px; color:#a4a4a4; font-size:16px; line-height:50px;}
+.SchoolsList .option{ clear:both; box-shadow:0px -1px 1px #ccc; height:50px; line-height:50px; position:absolute; bottom:0; left:0; padding:0 20px; width:660px;}
+.SchoolsList .option label{ display:block; float:left; padding-left:20px; background:url(../../../images/v2/icons/box-empty.jpg) left center no-repeat; font-size:16px; color:#525252; text-overflow:ellipsis; white-space:nowrap;}
+.SchoolsList .option label input{ display:none;}
+.SchoolsList .option .checked{ background-image:url(../../../images/v2/icons/box-checked.jpg);}
+.SchoolsList .option samp{ float:left; font-size:14px; padding-left:20px; color:#a4a4a4; line-height:50px;}
+.SchoolsList .option input{ width:100px; height:30px; font-size:18px; border:0; cursor:pointer; float:right; margin:10px 0 0 10px;}
+.SchoolsList .option .close{ background-color:#1562c8; color:#fff;}
+.SchoolsList .option .confirm{ color:#525252; background-color:transparent;}
+*/
+/*改动的合作学校列表*/
+.SchoolsLists{}
+.SchoolsLists tbody td{ width:50%; height:40px;}
+.SchoolsLists tbody label{ float:left;}
+.SchoolsLists tfoot label{ width:auto !important; vertical-align:middle;}
+.SchoolsLists tfoot .submit{ width:120px; height:40px; background-color:#62a5fe; color:#fff; font-size:18px; vertical-align:middle;}

@@ -1,0 +1,74 @@
+/* 职位订阅样式 */
+.Subtopic{ clear:both; font-size:18px; line-height:40px; height:40px; margin:15px 20px; color:#1562c8; font-weight:normal; border-bottom:2px solid #7295d7; _width:650px !important;}
+.Subtopic strong{ float:left; font-weight:normal;}
+.Subtopic label{ margin-left:40px; font-size:14px; color:#525252;}
+
+.Main h4{ white-space:normal; overflow:visible;}
+
+/*订阅设置表格*/
+.BookSetting{ margin:0 20px;}
+.BookSetting th{ text-align:left; line-height:40px; font-size:16px; color:#525252; font-weight:normal; text-align:right; vertical-align:top;}
+.BookSetting th,.BookSetting td{ padding:5px 0;}
+.BookSetting .form-tip{ margin-bottom:5px;}
+.First{ margin-top:30px;}
+.Third{ background-color:#f5f8fe;}
+/*下拉列表*/
+.BookSetting .SELECT dt{ border:1px solid #e4e4e4; line-height:38px;}
+.BookSetting .normal{ border:1px solid #e4e4e4;}
+.BookSetting .blue,.BookSetting .SELECT-on dt.blue{ border:2px solid #e8f2ff;}
+.BookSetting dd.blue{ left:-146px; top:38px;}
+/*整条的下拉列表*/
+.BookSetting .Full{ width:380px; height:38px; float:left;}
+.BookSetting .Full dt b,.BookSetting .Full dt span{ width:340px;}
+.BookSetting .Full .normal{ width:378px;}
+/*半条的下拉列表*/
+.BookSetting .Half{ width:185px; height:38px; float:left;}
+.BookSetting .Half dt{ height:38px;}
+.CitiesPicker,.Hour{ margin-right:10px;}
+.BookSetting .Half dt span,.BookSetting .Half dt b,.BookSetting .Half input{ width:145px; font-size:14px;}
+.BookSetting .Half dd{ width:183px;}
+/*兼职*/
+.filter-parttime dd{ width:1056px;}
+.filter-parttime table{ width:100%;}
+.filter-parttime dd a{ padding-left:10px;}
+
+/*主设置外框及开关*/
+.Options{ position:relative; clear:both; z-index:333;}
+.subOptions{ display:none; width:585px;}
+.Options .Switch{ clear:both; position:absolute; bottom:20px; right:0; font-size:14px; color:#1562c8; width:120px; z-index:-1;}
+.Options .Switch{ position:static\9; bottom:auto\9; right:auto\9; width:auto\9; height:0\9; font-size:0\9; padding-left:580px\9;}
+.Options .Switch span{ margin-top:-40px\9;}
+.Options .Switch i{ margin-top:-35px\9;}
+.Options .Switch span{ display:inline-block; vertical-align:middle; text-decoration:underline; cursor:pointer; font-size:14px;}
+.Options .Switch i{ display:inline-block; width:12px; height:12px; margin-left:5px; vertical-align:middle; background-image:url(../../../images/v2/icons/triangle-down-blue-deep.png); _background-image:url(../../../images/v2/icons/triangle-down-blue-deep.gif);}
+.Options .on i{ background-image:url(../../../images/v2/icons/triangle-up-blue-deep.png); _background-image:url(../../../images/v2/icons/triangle-up-blue-deep.gif);}
+
+/*推送设置*/
+.Third th,.Third td{ padding:0;}
+.Third .SELECT dt{ background-color:#fff;}
+.row1{}
+.row1 th,.row1 td{ padding-top:20px; position:relative; z-index:111\9;}
+.Third label{ font-size:14px; color:#525252;}
+.Third .toEmail{ float:left; /*width:110px;*/ line-height:40px;}
+.Third .toEmail span{ color:#a4a4a4;}
+.Third .Email{ float:left; width:270px;}
+.Third .Email dt{ position:static\9;}
+.Third .Email span{ width:230px;}
+.Third .Email dd{ width:268px;}
+.Third .EMAILS{ width:230px; border:0; background-color:#fff; height:38px; line-height:38px;}
+.row4 th,.row4 td{ padding-bottom:20px;}
+.Buttons{ width:180px; height:40px; font-size:18px; color:#fff; border:0; cursor:pointer; margin:30px 0;}
+.BookSetting .submit{ background-color:#6ba0e7; margin-right:10px;}
+.BookSetting .reset{ background-color:#c9c9c9;}
+
+.Third .download{ color:#1562c8; font-size:14px; display:inline-block; position:relative;}
+.Third .download p{ display:none; position:absolute; left:-35px; top:25px; width:120px; height:120px; border:1px solid #c4c4c4; background-color:#fff; text-align:center; font-size:14px; color:#525252;}
+.Third .download:hover p{ display:block;}
+.Third .download img{ margin:8px auto 2px;}
+.Third .download p *{ font-weight:normal; font-style:normal;}
+.Third .download p i{ color:#1562c8;}
+.Third .download q,.Third .download u{ display:block; position:absolute; font-size:0; width:0; height:0; overflow:hidden;}
+.Third .download q{ border:8px solid #c4c4c4; border-color:transparent transparent #c4c4c4; left:55px; top:-16px;}
+.Third .download q{ _border-color:#ff0000 #ff0000 #c4c4c4; _filter:chroma(color=#ff0000);}
+.Third .download u{ border:7px solid #fff; border-color:transparent transparent #fff; left:56px; top:-14px;}
+.Third .download u{ _border-color:#ff0000 #ff0000 #fff; _filter:chroma(color=#ff0000);}

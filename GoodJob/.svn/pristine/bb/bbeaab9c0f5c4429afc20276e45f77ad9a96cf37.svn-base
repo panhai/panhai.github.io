@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>邮件验证</title>
+</head>
+
+<body>
+<dl style="width:780px; margin:20px auto; border:1px solid #eee;">
+	<dt style="background-color:#add0ff; padding:10px 40px;"><img src="images/v2/logo.png" width="177" height="91"></dt>
+    <dd style="background-color:#fff; font-family:Microsoft YaHei, Arial; padding:0 40px 30px; margin:0; word-break:break-all;">
+        <p>&nbsp;</p>
+    	<p><span style="font-size:24px; color:#525252;">尊敬的HR：</span></p>
+        <p>您好！贵公司收到了一份求职简历。</p>
+        <p>&nbsp;</p>
+        <p>应聘职位：<a href="#" style="color:#1562c8;">产品经理-广州冠鹏信息技术有限公司</a></p>
+        <p>应聘人信息：<img src="images/v2/job-logo.jpg" width="106" height="102">张生生｜男 | 2年工作经验 | ...</p>
+        <p>&nbsp;</p>
+        <p>快速处理简历，有助提高<strong style="text-decoration:underline;">好工作</strong>指数哦！  点击<a href="#" style="color:#1562c8;">http://www.93hgz.com/login/</a>查看简历信息</p>
+        <p>&nbsp;</p>
+        <p><span style="color:#818181;">本邮件内容由系统发送，请勿回复邮件！</span></p>
+    </dd>
+</dl>
+</body>
+</html>

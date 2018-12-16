@@ -1,0 +1,91 @@
+/* 校企邀请 */
+.right2{ width:800px; float:right;}
+h2{ float:left; font-size:18px; font-family:"微软雅黑"; color:#333; line-height:50px; margin:0px 25px 20px; font-weight:normal;}
+h2{ _margin-left:10px; _padding-top:10px;}
+h2 i{ position:relative; left:5px; top:-5px; cursor:pointer;}
+
+.h2-tip{ width:510px; height:48px; padding-top:5px; background-image:url(../../images/SCenter/h1bg.gif); float:left; font-size:14px; line-height:20px; color:#fff; font-family:"微软雅黑"; margin-top:-5px; margin-left:-20px;}
+.h2-tip q{ float:right; margin-right:5px; top:0px; font-size:20px; cursor:pointer;}
+.h2-tip p{ margin-left:25px;}
+
+.main{ background-color:#fff;}
+.form{ width:100%; float:left;}
+.form .form-line{ width:100%; float:left; line-height:30px; margin-bottom:15px;}
+.form var,.form dfn{ display:block; float:left; font-style:normal;}
+.form var{ font-size:16px; font-family:"微软雅黑"; color:#3e3e3e; text-align:right; width:110px;}
+.form dfn{ font-size:12px; width:690px; float:right;}
+.form dfn.d-s{ width:290px; float:left;}
+.form .text{ border:1px solid #d3d3d3; height:30px; line-height:30px; padding:0px 10px;}
+.form .t-l{ width:668px;}
+.form .t-m{ width:368px;}
+.form .t-s{ width:268px;}
+.last{ text-align:right;}
+.last label{ color:#ff5000;}
+.last label input{ vertical-align:text-bottom;}
+/*带叉的标签*/
+.addup{}
+.addup a{ display:inline-block; background-color:#FEF9F5; color:#3e3e3e; border:1px solid #FE9055; padding:3px 10px 0px; margin:0px 5px 5px 0px; font-size:12px; font-family:"宋体"; line-height:25px; float:left; padding:0px 10px 3px\9; white-space:nowrap;}
+.addup a q{ position:relative; left:5px; top:1px; font-size:16px; color:#999; font-weight:bold;}
+.add-text{ border:1px solid #2673ec; height:28px; line-height:28px; padding:0px 10px; width:268px; float:left;}
+.add-btn{ border:1px solid #2673ec; height:30px; line-height:30px; padding:0px 10px; background-color:#2673ec; font-size:12px; float:left; border-left:0px; cursor:pointer; color:#fff;}
+
+.btn{ width:105px; height:30px; background-color:#2677e2; border:0px; color:#fff; cursor:pointer; font-size:14px; font-family:"微软雅黑"; vertical-align:middle;}
+.textarea{ width:590px !important; border:1px solid #bdbdbd; height:220px !important;}
+.button{ width:125px; height:32px; background-color:#2677e3; font-size:14px; color:#fff; border:0px; font-weight:bold; cursor:pointer;}
+.form-tip{ font-size:14px; color:#999;}
+.form-tip b{ color:#2673ec; font-weight:normal; cursor:pointer;}
+.timeReceiver{ background:url(../../images/date_icon_set.png) 260px center no-repeat;}
+
+/*中心静止层的特别样式*/
+.CenterDiv{ height:475px;}
+.CenterContent{ height:435px;}
+.CenterContents label.checked{ color:#ff5e00;}
+.CenterLabelsContainer{ height:375px; overflow:hidden; margin-top:10px; border-bottom:1px solid #e5e5e5;}
+.CenterLabelsContainer a{ display:block; float:left; width:30%; margin-right:3%; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; font-size:14px; color:#0077AC; line-height:24px; height:24px; margin-bottom:10px; font-family:"宋体"; text-indent:10px;}
+.CenterLabelsContainer .cur{ background-color:#2677e3; color:#fff;}
+/*各个下拉列表宽*/
+.Cities{ width:85px;}
+.Cities .normal{ width:83px;}
+.Profs{ width:185px;}
+.Profs dd{ width:370px;}
+.Profs dd a{ float:left !important; width:175px; clear:none !important;}
+.Props{ width:135px;}
+.Props dd{ width:133px;}
+.Scales{ width:135px;}
+.Scales dd{ width:133px;}
+.Filters{ width:185px;}
+.Filters dd{ width:183px;}
+.CenterDropDown .text{ width:160px;}
+
+
+/*地址下拉列表*/
+.select { float:left; margin-right:10px; position:relative;}
+.select dt{ clear:both; height:30px; border:1px solid #d9d9d9; padding:0px 20px 0px 10px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; line-height:30px; position:relative; width:108px;}
+.select dt i,.select dt q{ display:block; position:absolute; right:0px; top:0px; height:30px; width:20px;}
+.select dt i{ background-image:url(../../images/UCenter/bg-sel.png); border-left:1px solid #d9d9d9; color:#999;}
+.select dt span{ color:#999;}
+.select dt q{ background:url(../../images/UCenter/ico-cal.png) center no-repeat;}
+.select dd{ display:none; position:absolute; left:0px; background:#fff; line-height:25px; border:1px solid #d9d9d9;}
+.select dd.on{ display:block; z-index:555;}
+/*地址列表*/
+.addresses{ width:380px; padding:10px; z-index:111; float:left;}
+.addresses a{ font-size:12px; padding-left:5px; color:#05c;}
+.addresses a:hover{ text-decoration:underline;}
+.province a,.cities a,.districts a{ display:block; float:left; width:70px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+
+
+/*新增地址列表*/
+.address_tip{ border:0px; width:50px; padding-left:10px;}
+.Cities dd{ max-height:none !important;}
+.Cities .normal{ max-height:150px; overflow:auto;}
+.AddressStatic{ width:450px;}
+.Cities h4{ font-size:16px; font-weight:normal; color:#fff; background-color:#1e74e3; clear:both; padding:0px 10px; height:30px; line-height:30px;}
+.ADDTabs{ clear:both; height:30px; background-color:#f8f8f8; font-size:12px; font-family:"宋体"; margin-top:10px; border-bottom:1px solid #d7d7d7; padding:0px 10px; _overflow:hidden;}
+.ADDTabs b{ font-weight:normal; color:#454545; display:block; float:left; padding:0px 10px; margin-top:5px; border:1px solid #f8f8f8; height:23px; line-height:23px; cursor:pointer;}
+.ADDTabs b.cur{ border-color:#d7d7d7; border-bottom-color:#fff; background:#fff; _position:relative; height:24px;}
+.ADDLists{ width:100%; float:left; line-height:25px; max-height:250px; overflow-y:auto; overflow-x:hidden;}
+.ADDLists div{ width:100%; float:left; border-bottom:1px dashed #cbcbcb; padding:5px 0px;}
+.ADDLists em{ display:block; width:30px; text-align:center; font-size:18px; color:#666; font-style:normal; float:left;}
+.ADDLists p{ width:400px; float:left;}
+.ADDLists p a{ display:block; width:20%; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; font-size:12px; color:#666; font-family:"宋体"; float:left; padding:0px !important; text-indent:5px;}
+.hots p{ margin:10px auto; float:none; clear:both;}

@@ -1,0 +1,933 @@
+﻿/* 2015-9-25 */
+
+
+/* 头部 */
+
+body{
+    background-color: #f8f8f8;
+}
+/* 旧的 */
+.Left{ border:1px solid #fff; background-color:#fff;}
+.Left{ width:813px; float:left; margin-bottom:20px; position:relative\9; z-index:3\9;}
+.Right{ width:223px; float:right; position:relative; z-index:1\9; background:none;}
+.fixed{ z-index:2\9;}
+.bottom0{ position:absolute; bottom:0;}
+input.text,.text-extra,textarea{ font-size:14px; color:#1562c8;}
+/*顶操作条*/
+.Options{ clear:both; margin:10px 0; font-size:14px; line-height:40px; height:40px; width:815px; color:#999999;}
+.Options *{ display:inline-block; vertical-align:middle;}
+.Options strong{ font-size:18px; color:#525252; font-weight:normal; margin-right:30px;}
+.Options input{ display:none;}
+.Options .text{ width:155px; height:40px; line-height:40px; border:1px solid #d3e6ff; background-color:#fff; padding:0 10px; margin-right:5px; box-shadow:0 0 6px rgba(77,89,106,0.12);}
+.Options .submit,.Options .reset{ width:48px; height:28px; text-align:center; border:0; cursor:pointer;}
+.Options .submit{ background-color:#549af4; color:#fff;}
+.Options .reset{ background-color:transparent; color:#525252;}
+.Options a{ color:#999999;}
+.Options a:hover{ text-decoration:underline; color:#1562c8;}
+.Options .import{ float:right;}
+
+/*头像*/
+.Photo{ background:url(../../../images/v2/resume.png) top center no-repeat; height:140px; padding-top:40px; text-align:center;}
+#Photo{ width:130px; height:130px; margin:0 auto; cursor:pointer;}
+.Profile,.Nothing,.Topic{ width:714px; margin:20px auto 40px; clear:both;}
+/*什么也没有的提示*/
+.Nothing{ height:20px; line-height:20px; padding:50px 0; font-size:0px; color:#525252; text-align:center; overflow:hidden; border:1px dashed #a4a4a4;}
+.Nothing *{ display:inline-block; vertical-align:middle; cursor:pointer;}
+.Nothing i{ width:16px; height:16px; background-image:url(../../../images/v2/icons/plus-gray.png); margin-right:10px;}
+.Nothing i{ _overflow:hidden; _background-image:url(../../../images/v2/icons/plus-gray.gif);}
+.Nothing span{ font-size:16px;}
+/*基本资料*/
+.Profile{ text-align:center; width:714px !important; padding:0 !important;}
+.Profile i,.Profile s,.Profile u{ display:inline-block; padding-left:30px; overflow:hidden; background-repeat:no-repeat; background-position:left center; text-decoration:none; font-style:normal; vertical-align:top;}
+.Profile i{ background-image:url(../../../images/v2/icons/mobile-gray.png); _background-image:url(../../../images/v2/icons/mobile-gray.gif);}
+.Profile s{ background-image:url(../../../images/v2/icons/email-gray.png); _background-image:url(../../../images/v2/icons/email-gray.gif);}
+.Profile u{ background-image:url(../../../images/v2/icons/idcard-gray.png); _background-image:url(../../../images/v2/icons/idcard-gray.gif);}
+.Profile p{ _height:32px; color:#525252; line-height:32px;}
+
+/*每项标题*/
+h3.Topic{ background:url(../../../images/v2/icons/resume/topicbg.png) repeat-x; height:40px; clear:both; margin-bottom:20px; line-height:36px; font-weight:normal;}
+.Topic b{ display:block; float:left; background:url(../../../images/v2/icons/resume/topic_new.png) no-repeat;_background:url(../../../images/v2/icons/resume/topic_new.gif)  no-repeat; width:125px; text-align:center; font-size:18px; color:#1562c8;  font-weight:normal;}
+.Topic q{ display:block; float:right; background:15px center no-repeat #fff; font-size:14px; color:#448ceb; padding-left:35px; font-style:normal; cursor:pointer;}
+.Topic q.edit{ background-image:url(../../../images/v2/icons/edit.png); background-image:url(../../../images/v2/icons/edit.gif);}
+.Topic q.plus{ background-image:url(../../../images/v2/icons/plus.png); background-image:url(../../../images/v2/icons/plus.gif);}
+.Topic q.minus{ background-image:url(../../../images/v2/icons/minus.png); background-image:url(../../../images/v2/icons/minus.gif); display:none;}
+/*资料上边的标题也就是名字*/
+h2.Topic{ font-size:32px; margin:10px auto; font-weight:normal; color:#1562c8; position:relative; text-align:center;}
+h2.Topic q{ right:0; top:0; position:absolute;}
+/*显示块*/
+.Container{ margin-bottom: 30px;}
+/*预览内容*/
+.ViewMode{ position: relative;font-size:16px; color:#a4a4a4; line-height:32px; width:656px;
+    margin:0 auto;word-break: break-word; text-overflow: ellipsis;
+    padding-bottom: 20px;}
+.ViewMode b{ color:#525252; font-weight:normal;}
+.ViewMode b.cur{ color:#fd6126;}
+.ViewMode strong{ color:#333; font-size: 16px;}
+.ViewMode .time-c{ color:#a4a4a4;}
+.ViewMode .Color6{ color:#666666;}
+.ViewMode .marTop{ margin-top: 10px;}
+.Lists{
+    width:656px;
+    padding-left:60px
+}
+.Lists .ViewMode-line{
+    position: absolute;
+    left: 36px;
+    width: 2px;
+    height: 100%;
+    background-color: #f2f2f2;
+}
+.Lists .ViewMode-line i{
+    position: absolute;
+    left: -7px;
+    top: 8px;
+    width: 16px;
+    height: 16px;
+    background: url("../../../images/v2/icons/resume/view-line.png") no-repeat center center;
+    _background: url("../../../images/v2/icons/resume/view-line.gif") no-repeat center center;
+}
+.ViewMode .Authentica{
+    width: 64px;
+    height: 24px;
+    display: inline-block;
+    margin-left: 10px;
+    background: url(../../../images/v2/icons/resume/authentica.png) no-repeat;
+    vertical-align: text-top;
+}
+/*编辑内容*/
+.EditMode{ background-color:#ddebfe; padding:20px 194px; display:none;}
+.FormLine{ float:left; width:100%;}
+.item{ margin-bottom:10px; min-height:70px; _height:70px;}
+.alone{ height:auto;position:relative;}
+.alone dl{z-index: 22;}
+.required{ padding-left:10px; background:url(../../../images/v2/icons/required.png) left center no-repeat;}
+.required{ _background-image:url(../../../images/v2/icons/required.gif);}
+.item var,.item dfn{ display:block; clear:both; font-style:normal;}
+.item var{ line-height:28px; font-size:16px; color:#525252;}
+.half{ width:196px;}
+.half input.text{ width:176px;}
+.full{ clear:both;}
+.full input.text,textarea{ width:405px;}
+.SELECT dt input.text{ width:100%; float:left; padding:0;}
+.third{ width:135px;}
+.third2{ margin-left:10px;}
+.quarter{ width:93px;}
+.left{ float:left;}
+.right{ float:right;}
+.text,.text-extra{ padding:0px 10px; border:0; background-color:#fff;}
+input.text,.text-extra{ height:40px; line-height:40px;}
+textarea{ font-size:14px; line-height:20px; padding:10px !important; height:150px;}
+
+/*性别*/
+.Sex label{ display:block; line-height:40px; text-align:center; height:38px; background-color:#fff; border:1px solid #fff; width:91px; cursor:pointer;}
+.Sex label.checked{ border-color:#67a8fc; background:url(../../../images/v2/icons/checked.png) right top #e8f2ff no-repeat;}
+.Sex label.checked{ _background-image:url(../../../images/v2/icons/checked.gif);}
+.Sex input{ display:none;}
+
+/*下拉列表样式*/
+.SELECT{}
+.SELECT dt{ background-color:#fff; height:40px; line-height:40px; padding-right:5px;}
+.SELECT dt span{ color:#a4a4a4;}
+.CitiesPicker input{ width:60px !important; font-size:14px !important;}
+.SELECT dt i{ background-image:url(../../../images/v2/icons/triangle-down.png); _background-image:url(../../../images/v2/icons/triangle-down.gif);}
+.SELECT dd.normal{ border:1px solid #f4f4f4;}
+.SELECT dd.normal a{ font-size:14px; padding:0px 10px;}
+/*不同尺寸*/
+.full dt span,.full dt b{ width:394px;}
+/* .full dd{ width:423px;}  */
+.half dt span,.half dt b{ width:164px;}
+.half dd.normal{ width:194px;}
+.quarter dt span,.quarter dt b{ width:62px !important;}
+.quarter dd.normal{ width:91px;}
+.third dt span,.third dt b{ width:103px !important;}
+.third dd.normal,.DistrictsHometown dd.normal{ width:320px;}
+.third dd.normal a,.DistrictsHometown dd.normal a{ clear:none; float:left; width:80px; padding:0; text-indent:10px;}
+
+/*获取短信验证码*/
+.SendVerify{ width:136px; height:40px; margin-left:10px;}
+/*保存与取消*/
+.Buttons{ clear:both; text-align:right; padding-top:20px; padding-top:10px\9;}
+.Buttons input{ width:100px; height:40px; cursor:pointer; font-size:18px; border:0;}
+.Buttons .submit{ background-color:#478ce6; color:#fff;}
+.Buttons .reset{ color:#1562c8; background-color:transparent;}
+
+/*职位选择*/
+.filter-jobs dd,.filter-profs dd,.filter-parttime dd{ left:-195px; z-index:1; top:40px;}
+/*.filter-parttime dd{ width:421px; top:40px;}*/
+.filter-parttime dd{ width:811px;}
+.filter-parttime dd table{ width:100%;}
+.filter-parttime dd td{ padding:10px;}
+.filter-parttime dd td a{ padding:0px 10px; white-space:nowrap; font-size:14px;}
+.filter-parttime dd a:hover,.filter-parttime dd a.checked{ color:#1562c8; text-decoration:underline;}
+.SELECT-on .blue{ border:2px solid #93c6fe;}
+.SELECT-on dt.blue{ border-bottom:0; padding-left:8px; line-height:36px; position:relative; z-index:2;}
+
+/*大段文本内容*/
+.Contents p{ font-size:16px; color:#525252;word-break: break-all;}
+
+/*教育经历*/
+.Lists{ display:table;}
+.Lists dt{ width:490px; float:left; color:#525252;}
+.Lists dd{ width:100px; float:right; color:#85b2ee; font-size:14px; text-align:right;}
+.Lists dd a{ color:#448ceb;}
+.Lists dd a:hover{ color:#f6954e;}
+
+/*日期*/
+.EditMode ins{ display:block; float:left; line-height:40px; color:#525252; text-decoration:none;}
+.EditMode kbd{ display:block; clear:both; line-height:30px; font-size:14px; color:#a4a4a4;}
+.EditMode kbd input{ vertical-align:middle;}
+/*.YEARS .normal{ width:194px !important;}
+.YEARS .normal a{ width:48px; padding:0 !important; clear:none; float:left; text-align:center;}*/
+.YearFrom{ margin-right:10px;}
+.MonthFrom{ margin-right:8px;}
+.YearTo{ margin-left:9px;}
+/*技能时间*/
+.text-extra{ width:100px; float:left; margin-right:10px;}
+
+/*手机验证码，一开始是隐藏的*/
+.MobileVCode{ display:none;}
+
+/*编辑头像*/
+.EditPhoto{}
+.EditPhoto #btnUpfileLogo{ float:left; cursor:pointer; margin:20px 0; height:40px;}
+.EditPhoto .btn{ width:80px; height:40px; line-height:40px; color:#fff; background-color:#77b0fb; cursor:pointer; border:0; margin:20px 0;}
+.EditPhoto .btn-s{}
+.EditPhoto .btn-r{ margin-right:4px;}
+
+/*导入简历*/
+.ImportStep1{}
+.ImportStep1 .t-l{ width:280px;}
+.ImportStep1 .t-s{ width:60px;}
+.ImportStep1 .vcode{ vertical-align:middle;}
+.ImportStep1 .refresh{ color:#1562c8; font-size:14px;}
+.ImportStep1 .refresh:hover{ color:#f6954e;}
+.ImportIntro{ padding-top:20px; margin:20px; font-size:14px; color:#646464; line-height:30px; border-top:1px dashed #c6c6c6;}
+.ImportIntro strong{ font-size:16px; font-weight:normal; color:#333;}
+.ImportStep1 .SELECT{ width:302px;}
+.ImportStep1 .SELECT dt{ line-height:34px; height:34px;}
+.ImportStep1 .SELECT dt span,.ImportStep1 .SELECT dt b{ width:260px;}
+.ImportStep1 .SELECT dd{ width:300px; border:1px solid #abcefd;}
+/*第二步*/
+.ImportStep2 strong{ font-size:20px; color:#525252; font-weight:normal;}
+.ImportStep2 .SELECT{ width:230px;}
+.ImportStep2 .SELECT dt{ line-height:34px; height:34px;}
+.ImportStep2 .SELECT dt span,.ImportStep2 .SELECT dt b{ width:190px;}
+.ImportStep2 .SELECT dd{ width:228px; border:1px solid #abcefd;}
+/*第三步*/
+.CENTERDIV var{ font-style:normal; color:#f9763d;}
+
+.Download{ width:100%; background-color:#fff; padding:20px 0; text-align:center; box-shadow:0 -1px 1px #ccc;}
+.Download input{ width:170px; height:40px; background:#1562c8 url(../../../images/v2/icons/download.png) 30px center no-repeat; color:#fff; cursor:pointer; font-size:18px; cursor:pointer; border:0; padding-left:20px;}
+.Download input{ _background-image:url(../../../images/v2/icons/download.gif);}
+
+/*新改的籍贯部分*/
+.Hometown{}
+.Hometown dd{ width:423px !important; left:0px;}
+.Hometown dd a{ width:105px !important; float:left; clear:none; padding:0 !important; text-indent:10px;}
+
+/*年月份形状*/
+.YEARS{}
+.YEARS dd.normal{ width:500px; left:-155px;}
+.new  dd.normal{ width:222px; height: 88px!important; left: 0;overflow:hidden!important; padding: 6px 16px;}
+.birth dd.normal{ width:550px; left:-165px;}
+.YEARS dd a{ width:50px; float:left; padding:0 !important; text-align:center;}
+.YEARS dd s,.YEARS dd b{ display:block; width:50px; float:left; height:30px; text-align:center;}
+.YEARS dd b{ color:#66a6fd; line-height:30px; font-weight:normal; font-size:14px;}
+.MONTHS{}
+.MONTHS dd.normal{ width:204px; position: absolute;}
+.MONTHS dd a{ width:51px; float:left; padding:0 !important; text-align:center;}
+/*新的年月份显示方式*/
+.new .normal a:hover,
+.new .normal a.cur,
+.new .normal a.checked,
+.MONTHS .normal a:hover,
+.MONTHS .normal a.cur,
+.MONTHS .normal a.checked
+{ background-color: #ffffff; color: #478ce6 !important;}
+.new .YEARS-in{ position: relative;top:0; width: 200px; overflow: hidden;margin-left: 10px;}
+.new .YEARS-ctrL,
+.new .YEARS-ctrR{
+    position: absolute;
+    top: 0;
+    width: 35px;
+    height: 102px;
+    cursor: pointer;
+    background: #fff url("../../../images/v2/icons/resume/YEARS-ctrL.png") no-repeat center center;
+}
+
+.new .YEARS-ctrL{
+    left: 0;
+    display: none;
+}
+
+.new .YEARS-ctrR{
+    width: 18px;
+    right: 10px;
+    background: #fff url("../../../images/v2/icons/resume/YEARS-ctrR.png") no-repeat center center;
+}
+/*用户头像比较小*/
+.Upload .primary .view,.Upload .thumbs,.Upload .thumbs .large{ width:120px !important; height:120px !important;}
+
+/*调整z轴*/
+.Zindex1,.Zindex2{ position:relative\9;}
+.Zindex1{ z-index:1\9;}
+.Zindex2{ z-index:2\9;}
+
+/* 简历选择页 */
+.CHOICE{
+    height: 400px;
+    margin-top: 70px;
+    background-color: #fff;
+    border: 1px solid transparent;
+}
+
+.CHOICE h1{
+    margin-top: 130px;
+    font-size: 27px;
+    font-weight: normal;
+    color: #1562c8;
+    text-align: center;
+}
+
+.CHOICE .choice-in{
+    width: 520px;
+    height: 400px;
+    margin: 54px auto 0;
+}
+
+.CHOICE .choice-in a{
+    display: block;
+    float: left;
+    width: 220px;
+    height: 50px;
+    background-color: #1562c8;
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+}
+.CHOICE .choice-in a:hover{
+    width: 218px;
+    background-color: #fff;
+    border: 1px solid #1562c8;
+    color: #1562c8;
+}
+.CHOICE .choice-in a.part-time{
+    margin-left: 80px;
+}
+/*  */
+.item-left{margin-left: 32px;}
+.HEADER-GUIDE {
+    height: 120px;
+}
+
+.HEADER-GUIDE .TOP-LOGO {
+    margin-top: 12px;
+}
+.HEADER-GUIDE .TOP-LOGO a{
+    display: block;
+    width: 177px;
+    height: 100px;
+    float: left;
+}
+.HEADER-GUIDE .TOP-LOGO span {
+    margin-left: 10px;
+    font-size: 24px;
+    line-height: 120px;
+    color: #ff9500;
+}
+/* 创建简历 */
+
+.guide-main {
+    height: 808px;
+    margin-bottom: 110px;
+}
+.guide-job{
+    position: relative;
+}
+.guide-main .guide-create, .guide-main .guide-job{
+    width: 600px;
+    padding-bottom: 20px;
+    margin: 36px auto 0;
+    box-shadow: 0 0 6px #dae8fb;
+    background-color: #fff;
+}
+.guide-create .guide-create-title, .guide-job-title, .guide-exper-title{
+    width: 600px;
+    height: 70px;
+    border-bottom: 1px solid #eaeaea;
+}
+.guide-job-title h2{
+    text-align: center;
+}
+.guide-resume{
+  /*  overflow: hidden;*/
+    padding: 40px 88px 0;
+}
+
+
+.guide-create .guide-create-title h2 ,.guide-job-title h2, .guide-exper-title h2{
+/*     margin-left: 42px; */
+    font-size: 20px;
+    color: #525252;
+    line-height: 70px;
+    text-align: center;
+}
+.guide-create-title h2 span, .guide-job-title h2 span, #MyWork div p>a ,.guide-exper-title h2 span{ 
+    color: #478ce6;
+}
+
+/* 表单样式 */
+
+/*右侧*/
+#Complete{ width:116px; height:116px; margin:0 auto 20px; overflow:hidden;}
+.complete{width: 221px; height: 198px; border: 1px solid transparent;}
+.Right h3{ height:20px; line-height:20px; margin:20px; font-size:18px; color:#1562c8; padding-left:10px; font-weight:normal; border-left:4px solid #1562c8;}
+.RightNav{ width:223px; float:left;}
+.RightNav ul{min-height: 70px; }
+.RightNav li{ width:100%; float:left; line-height:50px; height: 50px;}
+.RightNav a{ color:#525252; display:block; padding-left:87px; background-repeat:no-repeat; background-position:42px center; font-size:16px; height:45px;}
+
+.RightNav ul a{position: relative; color: #969696;}
+.RightNav i{ display:block;}
+.RightNav .i11 span{display: inline-block; max-width: 7em; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+/*.RightNav .finish{ position:relative;}
+.RightNav .finish i{ display:block; width:9px; height:9px; position:absolute; top:26px; left:58px; background-image:url(../../../images/v2/icons/resume-gray.png); _background-image:url(../../../images/v2/icons/resume-gray.gif);}
+.RightNav .finish:hover i,.RightNav .cur i{ background-image:url(../../../images/v2/icons/resume-blue.png); _background-image:url(../../../images/v2/icons/resume-blue.gif);}
+/* 2015-9-24改 */
+
+
+.RightNav a.i9{
+      background-image: url("../../../images/v2/icons/resume/99.png");
+}
+.RightNav a.i9.selectCur, .RightNav .i9:hover,.RightNav a.i9.cur{ 
+    background-image: url("../../../images/v2/icons/resume/9.png");
+    color: #1562C8;
+}
+.RightNav a:hover,.RightNav a.cur{ background-color:#eff4fb; color:#1562c8;}
+.RightNav .i1{ background-image:url(../../../images/v2/icons/resume/11.png); _background-image:url(../../../images/v2/icons/resume/11.gif);}
+.RightNav .i1:hover,.RightNav .i1.cur{ background-image:url(../../../images/v2/icons/resume/1.png); _background-image:url(../../../images/v2/icons/resume/1.gif);}
+.RightNav .i2{ background-image:url(../../../images/v2/icons/resume/22.png); _background-image:url(../../../images/v2/icons/resume/22.gif);}
+.RightNav .i2:hover,.RightNav .i2.cur{ background-image:url(../../../images/v2/icons/resume/2.png); _background-image:url(../../../images/v2/icons/resume/2.gif);}
+.RightNav .i3{ background-image:url(../../../images/v2/icons/resume/33.png); _background-image:url(../../../images/v2/icons/resume/33.gif);}
+.RightNav .i3:hover,.RightNav .i3.cur{ background-image:url(../../../images/v2/icons/resume/3.png); _background-image:url(../../../images/v2/icons/resume/3.gif);}
+.RightNav .i4{ background-image:url(../../../images/v2/icons/resume/44.png); _background-image:url(../../../images/v2/icons/resume/44.gif);}
+.RightNav .i4:hover,.RightNav .i4.cur{ background-image:url(../../../images/v2/icons/resume/4.png); _background-image:url(../../../images/v2/icons/resume/4.gif);}
+.RightNav .i5{ background-image:url(../../../images/v2/icons/resume/55.png); _background-image:url(../../../images/v2/icons/resume/55.gif);}
+.RightNav .i5:hover,.RightNav .i5.cur{ background-image:url(../../../images/v2/icons/resume/5.png); _background-image:url(../../../images/v2/icons/resume/5.gif);}
+.RightNav .i6{ background-image:url(../../../images/v2/icons/resume/66.png); _background-image:url(../../../images/v2/icons/resume/66.gif);}
+.RightNav .i6:hover,.RightNav .i6.cur{ background-image:url(../../../images/v2/icons/resume/6.png); _background-image:url(../../../images/v2/icons/resume/6.gif);}
+.RightNav .i7{ background-image:url(../../../images/v2/icons/resume/77.png); _background-image:url(../../../images/v2/icons/resume/77.gif);}
+.RightNav .i7:hover,.RightNav .i7.cur{ background-image:url(../../../images/v2/icons/resume/7.png); _background-image:url(../../../images/v2/icons/resume/7.gif);}
+.RightNav .i8{ background-image:url(../../../images/v2/icons/resume/88.png); _background-image:url(../../../images/v2/icons/resume/88.gif);}
+.RightNav .i8:hover,.RightNav .i8.cur{ background-image:url(../../../images/v2/icons/resume/8.png); _background-image:url(../../../images/v2/icons/resume/8.gif);}
+
+.RightNav .i10{ background-image:url(../../../images/v2/icons/resume/00.png); _background-image:url(../../../images/v2/icons/resume/00.gif);}
+.RightNav .i10:hover,.RightNav .i10.cur{ background-image:url(../../../images/v2/icons/resume/10.png); _background-image:url(../../../images/v2/icons/resume/10.gif);}
+.RightNav .i11{ background-image:url(../../../images/v2/icons/resume/i1.png); }
+.RightNav .i11:hover,.RightNav .i11.cur{ background-image:url(../../../images/v2/icons/resume/i11.png); }
+
+.RightNav i{ display:block;}
+.RightNav .finish{ position:relative;color: #1562C8;}
+.RightNav .finish i{ display:block; width:9px; height:9px; position:absolute; top:26px; left:58px; background-image:url(../../../images/v2/icons/resume-blue.png); _background-image:url(../../../images/v2/icons/resume-blue.png.gif);}
+.RightNav .cur i{ background-image:url(../../../images/v2/icons/resume-blue.png); _background-image:url(../../../images/v2/icons/resume-blue.gif);}
+
+
+.RightNav .finish.i1{ background-image:url(../../../images/v2/icons/resume/1.png); _background-image:url(../../../images/v2/icons/resume/1.gif);}
+.RightNav .finish.i2{ background-image:url(../../../images/v2/icons/resume/2.png); _background-image:url(../../../images/v2/icons/resume/2.gif);}
+.RightNav .finish.i3{ background-image:url(../../../images/v2/icons/resume/3.png); _background-image:url(../../../images/v2/icons/resume/3.gif);}
+.RightNav .finish.i4{ background-image:url(../../../images/v2/icons/resume/4.png); _background-image:url(../../../images/v2/icons/resume/4.gif);}
+.RightNav .finish.i5{ background-image:url(../../../images/v2/icons/resume/5.png); _background-image:url(../../../images/v2/icons/resume/5.gif);}
+.RightNav .finish.i6{ background-image:url(../../../images/v2/icons/resume/6.png); _background-image:url(../../../images/v2/icons/resume/6.gif);}
+.RightNav .finish.i7{ background-image:url(../../../images/v2/icons/resume/7.png); _background-image:url(../../../images/v2/icons/resume/7.gif);}
+.RightNav .finish.i8{ background-image:url(../../../images/v2/icons/resume/8.png); _background-image:url(../../../images/v2/icons/resume/8.gif);}
+.RightNav .finish.i10{ background-image:url(../../../images/v2/icons/resume/10.png); _background-image:url(../../../images/v2/icons/resume/10.gif);}
+.RightNav .finish.i11{ background-image:url(../../../images/v2/icons/resume/i11.png); _background-image:url(../../../images/v2/icons/resume/i11.gif);}
+/* 鼠标移入移出i8时添加移除这个类 */
+.RightNav .m_hide{
+    display: none;
+}
+
+/* 点击了待添加项是加这个类 ，删除了添加选项时删除这个类*/
+.RightNav .hd{
+    display: none;
+}
+.Left .hd{
+    display: none;
+}
+/* 待选选项的+号小图标 带hide_mr类的li才有*/
+
+.m_f li a:hover b{
+    position: absolute;
+    right: 13px;
+    width: 17px;
+    height: 50px;
+    background: url(../../../images/v2/icons/resume/add.png) no-repeat center center;
+}
+
+.RightNav ol>li a:hover b{
+    position: absolute;
+    right: 13px;
+    width: 17px;
+    height: 50px;
+    background: url(../../../images/v2/icons/resume/del.png) no-repeat center center;
+}
+.Options strong{
+    width: 126px;
+    height: 40px;
+    margin-right: 10px;
+    box-shadow: 0 0 4px #eff0f1;
+    text-align: center;
+    line-height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.FormLine .item #fullname{
+    width: 176px;
+    height: 38px;
+    border: 1px solid #eeebeb;
+}
+.FormLine .item .name{
+    width: 176px;
+    height: 38px;
+    border: 1px solid #eeebeb;
+}
+.FormLine .item{
+    margin-bottom: 16px;
+}
+
+.quarter dt span, .quarter dt b{
+
+    height: 38px;
+
+}
+.SELECT dt{
+    padding: 0;
+    border: 1px solid #eeebeb;
+}
+.int-bor, .MobileVCode input.text{
+    border: 1px solid #eeebeb;
+}
+.text,.text-extra{
+    padding-left: 6px;
+}
+
+
+.SELECT dt{
+    padding-left: 6px;
+
+}
+
+.MONTHS dd.normal{
+    margin-left: -30px;
+}
+
+.Sex label{
+    border-color: #eeebeb;
+}
+
+.birth dd.normal{
+    left: -280px;
+}
+
+.resume-next{
+    display: block;
+    width: 250px;
+    height: 40px;
+    margin: 24px auto 0;
+    background-color: #478ce6;
+    font-size: 18px;
+    color: #fff;
+    border: 0;
+    cursor:pointer;
+}
+/*修改邮箱*/
+.special dfn{
+    line-height: 40px;
+}
+.special dfn a{
+    font-size: 14px;
+    color: #549af4;
+    margin-left: 10px;
+}
+.special dl{
+    float: left;
+}
+.special dl dd.normal{
+    width: 156px;
+}
+.special dl dt span{
+    width: 150px;
+}
+/* 求职意向 */
+
+.guide-next{
+    width: 438px;
+    margin: 30px auto 0;
+    overflow: hidden;
+}
+.guide-next a{
+    font-size: 14px;
+    color: #646464;
+    line-height: 40px;
+}
+a.save-search{
+    margin-left: 20px;
+}
+.guide-next .guide-next-exper{
+    display: block;
+    float: left;
+    width: 250px;
+    height: 40px;
+    margin-right: 22px;
+    background-color: #478ce6;
+    font-size: 18px;
+    color: #fff;
+    border: 0;
+}
+/* 创建工作经验 */
+.Works .alone dl{
+    z-index: 22;
+}
+.guide-exper-title h2{
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+}
+
+.guide-job .Works{
+    width: 430px;
+    display: block;
+    background-color: #fff;
+    padding: 0;
+}
+.guide-resume .Works dfn textarea{
+    border: 1px solid #eeebeb;
+    margin-bottom: 10px;
+}
+.guide-job .exper-next{
+    width: 424px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.guide-job .exper-next a{
+    display: block;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+}
+.guide-job .exper-next .exper-next-in{
+     width: 220px;
+    height: 40px;
+    float: left;
+    font-size: 18px;
+    background-color: #478ce6;
+    color: #fff;
+    border: 0;
+}
+.guide-job .exper-next .exper-next-out{
+    margin-left: 24px;
+    font-size: 14px;
+    color: #646464;
+
+}
+
+.guide-resume .add-exper{
+    display: inline-block;
+    font-size: 14px;
+    color: #478ce6;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+/* .guide-resume .add-exper:hover{
+    color: #478ce6;
+    text-decoration: underline;
+} */
+
+/* 工作经验 */
+
+.example{
+    float: right;
+    font-size: 12px;
+    color: #478ce6;
+}
+
+.example-demo{
+   position: absolute;
+   z-index: 22;
+   display: none;
+   right: -390px;
+   top: 0;
+   width: 348px;
+   padding: 8px 10px 10px 10px;
+   background-color: #fff;
+   border-radius: 6px;
+   border: 1px solid #549af4;
+   font-size: 12px;
+   color: #646464;
+
+}
+
+.example-demo i{
+    position: absolute;
+    left: -5px;
+    top: 12px;
+    width: 5px;
+    height: 8px;
+    background: url(../../../images/v2/example.jpg) no-repeat;
+}
+/* .example-demo i+ul{
+    margin-bottom: 25px;
+} */
+.example-demo li{
+    line-height: 18px;
+}
+/* 教育经验 */
+.guide-contrl{
+    position: absolute;
+    top: 71px;
+    right: -30px;
+    width:  30px;
+    height: 170px;
+}
+.guide-contrl span{
+    width: 15px;
+    height: 72px;
+    display: block;
+    padding: 14px 8px 0;
+    background:url("../../../images/v2/ancho_bg.png") no-repeat 0 0;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+.guide-contrl .expNext{
+    position: relative;
+    margin-top: 5px;
+}
+.guide-contrl .exp1 i,
+.guide-contrl .expNext i{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 10px;
+    height: 10px;
+    background: url(../../../images/v2/icons/resume/close.png) no-repeat;
+}
+.guide-contrl .hide, .guide-resume.hide{
+    display: none;
+}
+.guide-contrl span.Cur{
+    background-position: -31px 0;
+}
+
+.guide-resume .SCHOOLS{
+    width: 196px;
+    height: 40px;
+}
+
+.guide-resume ins{
+    float: left;
+    line-height: 42px;
+    text-decoration: none;
+    margin-left: 5px;
+    color: #525252;
+}
+.Buttons a{
+     display: block;
+    line-height: 40px;
+    float: left;
+}
+.Buttons .submit{
+   
+    width: 250px;
+    height: 40px;
+    margin-left: 38px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #478ce6;
+    float: left;
+}
+
+.Buttons .exper-next-out{
+    margin-left: 24px;
+    font-size: 14px;
+
+    color: #646464;
+}
+/* 我的作品 */
+#MyWork .work-text{
+    margin-top: 10px;
+}
+
+
+/* 继续完善简历页 */
+
+.nextJob{
+    width: 816px;
+    height: 98px;
+    margin-bottom: 20px;
+    background: #afc8e9;
+    overflow: hidden;
+}
+
+.nextJob p{
+    float: left;
+    margin-left: 50px;
+    font-size: 26px;
+    color: #fff;
+    line-height: 98px;
+}
+
+.nextJob  a{
+    float: left;
+    width: 215px;
+    height: 51px;
+    margin: 26px 0 0 86px;
+    background: url(../../../images/v2/icons/guide-next.png) no-repeat;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    line-height: 51px;
+}
+
+/* 简历保存页 */
+
+.Wxpush{
+   width: 640px;
+   background: #afc8e9;
+   border-radius: 10px;
+}
+.Wxpush .Job-save{
+  padding-left: 46px;
+    
+}
+.Wxpush  h2{
+    background-color: #fff;
+    line-height: 73px;
+    font-weight: normal;
+    font-size: 20px;
+    color: #525252;
+    text-align: left;
+    padding-left: 46px;
+    margin-bottom: 28px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.Wxpush .Job-save p{
+    font-size: 16px;
+    text-align: left;
+    line-height: 30px;
+    color: #525252;
+    font-weight: 600;
+}
+
+.Wxpush a{
+    display: inline;
+    float: none;
+}
+.Wxpush a:hover{
+    text-decoration: underline;
+}
+.Wxpush .cur{
+    color: #4078c2;
+}
+.Job-code{
+    text-align: left;
+    margin-top: 36px;
+}
+
+.Job-code img{
+    margin: 6px 26px 0 0;
+}
+
+/*无经验*/
+.not-exper{
+    font-size: 14px;
+    color: #ff6602;
+    margin-left: 26px;
+}
+/*不可修改*/
+
+.full .email-not{ cursor: not-allowed;}
+.full .email-edit{ position: relative; }
+.full .email-edit span{ width: 414px!important;  }
+.full .email-edit a{  position: absolute; top: 0; right: 10px;  }
+/*附加信息*/
+b.moreInof { position: relative; padding: 0 26px; width: auto; height: 40px; background: url("../../../images/v2/resume-topic-r.jpg") no-repeat right top; }
+b.moreInof i { position: absolute; left: 0; display: inline-block; width: 20px; height: 40px; background: url("../../../images/v2/resume-topic-l.png") no-repeat left top; }
+.Search dd { width: 100%; }
+.Search .matches a { display: block; padding-left: 10px; }
+.init-info li input { float: left; width: 364px; height: 42px; padding-left: 10px; border: 1px solid #dedede; }
+.init-info li { clear: both; margin-bottom: 16px; overflow: hidden; }
+.init-info li input.w216 { width: 216px; border-right: 0; }
+.init-info .SendVerify { width: 150px; height: 44px; padding-left: 0; margin-left: 0; border: 0; background-color: #71a4e7; }
+.init-info .resume-next { width: 376px; margin-top: 10px; height: 50px; border: 0; text-align: center; line-height: 50px; margin-left: 0;}
+.init-info .login { clear: both; color: #71a4e7; padding-top: 12px; }
+.init-info .login a { color: #71a4e7; text-decoration: underline; }
+
+.field-validation-error{margin:5px 0 5px 5px;font-size:13px;color:#fd5f39;display:block;float:left;line-height:20px;padding-left:16px;background:url(../../../images/v2/icons/tip-error.png) no-repeat;background-position:0px 3px;}
+.field-validation-valid{display:none;}
+
+.active{}
+.active .resume-next{}
+.active .FormLine .item #fullname{width:405px;}
+.active .FormLine .YEARS{width:200px;}
+.active .FormLine .MONTHS{width:200px;float:left;margin-left:20px;}
+.active .FormLine .SELECT dt i{float:right;margin:12px 15px 0 0;}
+.active .FormLine .MONTHS dd.normal{margin-left:0;}
+
+.RegistNotice{background:#fff;width:610px;}
+.RegistNotice .mianbox{padding:30px 0 60px 50px;}
+.RegistNotice .line_box{margin-bottom:12px;}
+.RegistNotice .line_box .add{display:inline-block;padding:0 20px;margin-right:8px;width:auto;line-height:40px;color:#fff;font-size:14px;border-radius:3px;background:#0068cd;cursor:pointer;border:0;}
+.RegistNotice .line_box .cancel{display:inline-block;width:auto;padding:0 10px;line-height:38px;color:#666;font-size:14px;cursor:pointer;margin-left:5px;}
+.RegistNotice .mianbox .redtxt{font-size:20px;font-weight:bold;color:#fd5f39;margin-bottom:16px;}
+.RegistNotice .mianbox .msgtxt{font-size:14px;color:#999;line-height:25px;margin-bottom:24px;}
+.RegistNotice .regist{text-align:center;display:block;width:100%;height:auto;padding:30px 0 55px 0;}
+.RegistNotice .regist .success_logo{display:block;margin:0 auto;width:50px;height:50px;margin-bottom:20px;}
+.RegistNotice .regist .success_head{display:block;color:#47a92d;font-size:16px;font-weight:bold;margin-bottom:20px;line-height:18px;}
+.RegistNotice .regist .success_text{color:#999;font-size:14px;line-height:24px;margin-bottom:20px}
+.RegistNotice .regist .btn{display:block;padding:0 20px;margin:0 auto;width:60px;line-height:40px;color:#fff;font-size:14px;border-radius:3px;background:#0068cd;cursor:pointer;border:0;position:initial;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

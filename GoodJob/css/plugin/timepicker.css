@@ -1,0 +1,28 @@
+/* 时间选择器 */
+
+.timepicker{ display:none; width:570px; height:160px; background:#fff; border:#eee 10px solid; position:absolute; left:0px; top:0px; text-align:center; padding-top:70px; line-height:25px; z-index:66666;}
+.timepicker *{ font-family:"微软雅黑";}
+.timepicker b{ display:block; float:left; color:#FF5000; font-size:16px; text-align:right; width:200px;}
+.timepicker q,.timepicker s{ display:block; float:left; width:20px;}
+.timepicker s{ color:#FF5000; font-size:20px; text-decoration:none; font-weight:bold;}
+.timepicker p{ display:none; position:absolute; background:#fff; left:-1px; top:25px; border:1px solid #c5c5c5; width:50px; border-top-color:#fff;}
+.timepicker i{ display:block; position:absolute; right:2px; width:12px; height:12px; background:url(../../images/icons.gif) -12px -12px no-repeat;}
+.tp-short i{ _overflow:hidden;}
+
+.tp-short,.tp-long{ float:left; border:1px solid #C5C5C5; position:relative;}
+.tp-long{ width:170px; margin-right:20px;}
+.tp-short{ width:50px;}
+.tp-time,.tp-date{ border:0px; height:25px; line-height:25px; float:left; letter-spacing:3px;}
+.tp-time,.tp-date,.timepicker p a{ font-size:18px; color:#666; font-family:Arial, Helvetica, sans-serif; text-align:center; font-weight:bold;}
+.tp-date{ width:145px;}
+.tp-time{ width:35px;}
+.tp-long i{ right:4px; top:2px;}
+.tp-short i{ top:8px;}
+
+.timepicker p a{ display:block; clear:both;}
+.timepicker p a:hover{ background:#ff5000; color:#fff;}
+
+.timepicker .clear{ clear:both; padding-top:40px; padding-top:0px\9;}
+.tp-btn{ width:90px; height:30px; font-size:16px; font-weight:bold; margin-left:10px; cursor:pointer;}
+.tp-submit{ background-color:#ff5000; color:#fff; border:1px solid #ff5000;}
+.tp-reset{ background-color:#FFEDE3; color:#ff5000; border:1px solid #FFD3BF;}

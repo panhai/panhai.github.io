@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="css/v2/all.css">
+<link rel="stylesheet" type="text/css" href="css/v2/web.css">
+<link rel="stylesheet" type="text/css" href="css/v2/help.css">
+<link rel="stylesheet" type="text/css" href="css/v2/plugin/CitiesPicker.css">
+<title>好工作-保密协议</title>
+</head>
+
+<body>
+<div class="HEADER"><div class="common">
+	<div class="LOGO"><a href="index-new.html"><img src="images/v2/logo.jpg" width="177" height="91"></a></div>
+    <div class="SLOGAN"><img src="images/v2/help.gif" width="116" height="27"></div>
+    <div class="TOP-SEARCH">
+    	<div class="TOP-SEARCH-BAR">
+            <dl class="TOP-SEARCH-KEY SELECT" data-matches="10">
+            	<input type="hidden">
+                <dt><input class="TOP-SEARCH-INPUT KEY-GUIDANCE" data-init="true" type="text" data-list="arrow" data-holdway="image"></dt>
+            	<dd class="normal single">
+                	<div class="tip">找不到符合【老板】的职位</div>
+                    <div class="matches" data-list="datas">
+                        <!--<a href="#" data-id="">客服经理</a>-->
+                    </div>
+                </dd>
+            </dl>
+            <dl class="TOP-CitiesPicker CitiesPicker SELECT" data-matches="5">
+            	<input type="hidden">
+                <dt><span><input type="text" value="广州" data-list="arrow"></span><i></i></dt>
+                <dd>
+                    <div class="CitiesHot">
+                        <h5>热门城市（可直接选择城市或输入城市拼音/简拼）</h5>
+                        <div class="cities">
+                            <a data-id="271000">广州</a><a data-id="271200">深圳</a><a data-id="171000">上海</a><a data-id="272600">东莞</a><a data-id="271500">佛山</a><a data-id="101000">北京</a><a data-id="261000">长沙</a><a data-id="251000">武汉</a><a data-id="191000">杭州</a><a data-id="181000">南京</a><a data-id="211000">福州</a><a data-id="272700">中山</a><a data-id="272000">惠州</a><a data-id="271300">珠海</a><a data-id="201000">合肥</a><a data-id="301000">成都</a><a data-id="231000">济南</a><a data-id="271700">湛江</a><a data-id="262200">娄底</a><a data-id="261100">株洲</a><a data-id="261900">郴州</a><a data-id="271100">韶关</a><a data-id="311000">贵阳</a><a data-id="261300">衡阳</a><a data-id="221000">南昌</a><a data-id="301900">乐山</a><a data-id="211400">泉州</a><a data-id="302000">南充</a><a data-id="261200">湘潭</a><a data-id="241000">郑州</a><a data-id="302300">广安</a><a data-id="301500">绵阳</a><a data-id="301400">德阳</a><a data-id="211100">厦门</a><a data-id="271600">江门</a><a data-id="111000">天津</a><a data-id="331000">西安</a><a data-id="272200">汕尾</a><a data-id="272300">河源</a><a data-id="391200">桂林</a><a data-id="181100">无锡</a><a data-id="251300">宜昌</a>
+                        </div>
+                    </div>
+                    <div class="CitiesQuery">
+                        <div class="tip">d，若缩小范围，请输入全拼</div>
+                        <div class="matches" data-list="datas">
+                            <!--<a data-id="" href="#">广东</a>-->
+                        </div>
+                    </div>
+                </dd>
+            </dl>
+            <input class="TOP-SUBMIT" type="submit" value="好工作">
+        </div>
+        <div class="TOP-HOTKEYS">
+            热门搜索：<a href="#">服务员</a>     <a href="#">送餐员</a>     <a href="#">健身教练</a>    <a href="#">保姆</a>    <a href="#">月嫂</a>     <a href="#">高级技工</a>     <a href="#">淘宝美工</a>
+        </div>
+    </div>
+</div></div>
+
+<div class="Main common">
+    <div class="Left">
+    	<dl class="list">
+        	<dt><a href="new-help.html" class="t1">帮助中心</a></dt>
+            <dd>
+            	<a href="new-help.html">常见问题</a><a href="new-help-cheat.html" class="cur">求职防骗</a>
+            </dd>
+        </dl>
+        <dl>
+        	<dt><a href="new-about.html" class="t2">关于我们</a></dt>
+        </dl>
+        <dl>
+        	<dt><a href="new-protocal.html" class="t3">使用协议</a></dt>
+        </dl>
+        <dl>
+        	<dt><a href="new-contact.html" class="t4">联系我们</a></dt>
+        </dl>
+        <dl>
+        	<dt><a href="new-law.html" class="t5">法律声明</a></dt>
+        </dl>
+        <dl class="cur">
+        	<dt><a href="new-secret.html" class="t6">保密协议</a></dt>
+        </dl>
+    </div>
+    <div class="Right">
+        <h1 class="TOPIC">保密协议</h1>
+        <div class="Content">
+            <p>　　93hgz.com承诺保护所有会员的隐私权，您可以通过93hgz.com完全控制自己的个人信息.以下是93hgz.com收集、保护您个人资料的政策和做法.</p>
+            <h3>会员信息</h3>
+            <p>　　当您在93hgz.com上注册并填写简历的时候，您会被要求提供一系列个人基本信息，如您的姓名、地址、电子邮件、电话号码等等.除非我们认为出于法律的需要，我们不会向第三方公开上述信息.但这些资料将会被我们统计、汇总，以便给您提供更优质的服务.</p>
+            <h3>关于简历</h3>
+            <p>　　只有93hgz.com的专业人员有权使用我们的数据库搜索您的个人信息.我们不会在未经授权的情况下，披露访问者的资料.但以下情况除外：</p>
+            <p>　　----法律、法规、执法机关要求提供相关的个人资料；</p>
+            <p>　　----为免除访问者在生命、身体或财产方面之急迫危险；</p>
+            <p>　　----由于您将帐户密码与他人共享、由此导致个人资料泄露；</p>
+            <p>　　----由于黑客攻击、计算机病毒侵入等影响网络正常经营之不可抗力而造成的个人资料泄露。</p>
+            <h3>信息的修改和删除</h3>
+            <p>　　您可以在93hgz.com上自由修改您的个人信息和简历.除了信息的发布者外，任何人无权修改或删除他人发布的信息，但您将帐户、密码透露给第三方，以及由于黑客攻击、计算机病毒侵入或发作等影响网络正常经营之不可抗力而造成的个人资料丢失、被盗用或被窜改等除外.93hgz.com有权根据其判断保留修改或删除任何不适信息的权利.</p>
+            <h3>隐私权条款的变更</h3>
+            <p>　　如果我们决定改变93hgz.com的保密承诺条款，我们会在此公布，以便您能及时了解到我们在收集什么资料，如何使用这些资料，以及是否向别人公开这些资料.如果您有任何关于我们保密承诺条款的问题，欢迎您随时给我们发电子邮件至service_93hzg@163.com .</p>
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<table class="FullScreenPlugin fixed fixed-top CenterDivContainer"><tr><td>
+	<dl class="CENTERDIV CenterLarge Feedback" data-active=".TOOL .feed">
+    	<dt class="CENTERTOPIC"><b>意见反馈</b><q></q></dt>
+        <dd class="CENTERCONTENT">
+        	<table class="CenterForm">
+            	<caption><h6 class="single">感谢您使用好工作，您的反馈是对我们莫大的支持和鼓励！</h6></caption>
+                <tr>
+                	<th width="120">反馈内容：</th><td width="480">
+                    	<textarea placeholder="使用帮助，产品bug，功能建议，问题反馈，吐槽等（500字以内）"></textarea>
+                        <code class="form-tip successMsg"></code>
+                        <code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>
+                    </td>
+                </tr>
+                <tr>
+                    <th>联系方式：</th><td>
+                    	<input type="text" class="text" placeholder="手机、QQ或邮箱">
+                        <code class="form-tip successMsg"></code>
+                        <code class="form-tip tipMsg">请填写你的手机号码，用于登录及找回密码</code>
+                    </td>
+                </tr>
+                <tr>
+                    <th></th><td class="CENTERBTNS">
+                    	<input type="button" class="submit" value="确定">
+                    	<input type="button" class="reset" value="取消">
+                    </td>
+                </tr>
+            </table>
+        </dd>
+    </dl>
+</td></tr></table>
+<div class="TOOL">
+	<a href="#" class="top"></a>
+    <a href="#" class="feed"></a>
+</div>
+</body>
+</html>
+<script src="js/jquery.js"></script>
+<script src="js/v2/all.js"></script>
+<script src="js/v2/web.js"></script>
+<script src="js/area.js"></script>
+<script src="js/jobPositions.js"></script>
+<script src="js/plugin/CitiesPicker.js"></script>
+<script src="js/effect/float.js"></script>
+<script src="js/effect/fixed.js"></script>
+<script src="js/effect/bg.js"></script>
+<script src="js/plugin/CenterDiv.js"></script>
+<script>
+$(function(){
+	CHIfixed(".Left",'top');
+});
+</script>
