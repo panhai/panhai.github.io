@@ -1,0 +1,57 @@
+<div class="feedback-box">
+	<% suggestion = [
+		{
+			title:'公司领导批示',
+			th:['反馈内容','反馈人','反馈人信息','反馈时间'],
+			content:[
+				['同意','张三','南航信息中心','2018-9-10 12:00']
+			]
+		},{
+			title:'主办单位意见',
+			th:['反馈内容','反馈人','反馈人信息','反馈时间'],
+			content:[
+				['同意','张三','南航信息中心','2018-9-10 12:00']
+			]
+		},{
+			title:'审批人意见',
+			th:['反馈内容','反馈人','反馈人信息','反馈时间'],
+			content:[
+				['同意','张三','南航信息中心','2018-9-10 12:00']
+			]			
+		},{
+			title:'其他意见',
+			th:['反馈内容','反馈人','反馈人信息','反馈时间'],
+			content:[
+				['同意','张三','南航信息中心','2018-9-10 12:00']
+			]
+		}
+	] %>
+	<% suggestion.forEach(function(value){ %>
+	<div class="feedback">
+		<h3>
+			<span class="line-col"></span>
+			<b><%=value.title %></b>
+		</h3>
+		<table class="table table-bordered">
+			<thead>
+				<% value.th.forEach(function(item){ %>
+				<th><%=item%></th>
+				<% }) %>
+			</thead>
+			<tbody>
+			<% value.content.forEach(function(item){ %>
+				<tr>
+					<% item.forEach(function(val,index){ %>
+						<% if(index===0) { %>
+							<td style="width:50%;"><%=val%></td>
+						<% }else{ %>
+							<td><%=val%></td>
+						<% } %>
+					<% }) %>
+				</tr>
+			<% }) %>
+			</tbody>
+		</table>
+	</div>
+	<% }) %>
+</div>

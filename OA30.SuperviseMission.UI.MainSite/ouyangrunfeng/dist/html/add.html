@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>督办系统</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../css/picker.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+
+	<div class="page">
+		<div class="menu-part">
+			<div class="face-part clearfix">
+	<img src="../images/face.jpg" width="48" height="48" />
+	<p>
+	<span>早上好</span>，<br/>
+	<strong>慕容克兰</strong>
+	</p>
+</div>
+			
+	
+    <ul class="list-group">
+        
+        <li class="list-group-item">
+        	<a href="index.html"><span class="iconfont icon-sv-home"></span>督办任务</a>
+        </li>
+        
+        <li class="list-group-item">
+        	<a href="pending.html"><span class="iconfont icon-sv-tag"></span>待处理</a>
+        </li>
+        
+        <li class="list-group-item">
+        	<a href="new.html"><span class="iconfont icon-sv-add"></span>新建</a>
+        </li>
+        
+        <li class="list-group-item">
+        	<a href="setting.html"><span class="iconfont icon-sv-setting"></span>管理</a>
+        </li>
+        
+        <li class="list-group-item">
+        	<a href="/"><span class="iconfont icon-sv-off"></span>退出</a>
+        </li>
+        
+    </ul>
+
+		</div>
+		<div class="main">
+			<div class="title clearfix">
+				<h3 class="caption" style="width:60px;">新建</h3>
+			</div>
+			
+			
+				<div class="setting setting2">
+										
+						<div class="grid">
+							<a href="">
+								<p>
+									<span class="iconfont icon-sv_check"></span>
+								</p>
+								<strong>年度重点工作任务</strong>
+							</a>
+						</div>
+										
+						<div class="grid">
+							<a href="settingRole.html">
+								<p>
+									<span class="iconfont icon-sv-text"></span>
+								</p>
+								<strong>领导行政例会督查任务</strong>
+							</a>
+						</div>
+					
+				</div>
+			
+				<div class="setting setting2">
+										
+						<div class="grid">
+							<a href="">
+								<p>
+									<span class="iconfont icon-sv-handle-s"></span>
+								</p>
+								<strong>总经理办公室督查任务</strong>
+							</a>
+						</div>
+										
+						<div class="grid">
+							<a href="">
+								<p>
+									<span class="iconfont icon-sv-timeout"></span>
+								</p>
+								<strong>其他重要工作任务</strong>
+							</a>
+						</div>
+					
+				</div>
+			
+		</div>
+	</div>
+<script src="../js/require.js" data-main="../js/main.js"></script>
+</body></html>
+
+<div class="modal fade" tabindex="-1" role="dialog" id="leader">
+  <div class="modal-dialog" role="document" style="width:340px;">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">选择主管领导</h4>
+      </div>
+      <div class="modal-body">
+        <div class="input-group">
+          <input type="text" class="form-control" id="leader-input" placeholder="请输入员工号或姓名">
+          <div class="input-group-addon">
+            <span class="iconfont icon-sv-search"></span>
+          </div>
+        </div>
+        <div class="choose-area">
+          
+          <ul class="list-unstyled">
+            
+                <li>
+                  <span class="iconfont icon-sv-user"></span>
+                  <label>张三</label>
+                  <input type="checkbox"  />
+                </li>
+              
+                <li>
+                  <span class="iconfont icon-sv-user"></span>
+                  <label>李四</label>
+                  <input type="checkbox"  />
+                </li>
+              
+                <li>
+                  <span class="iconfont icon-sv-user"></span>
+                  <label>王五</label>
+                  <input type="checkbox"  />
+                </li>
+              
+                <li>
+                  <span class="iconfont icon-sv-user"></span>
+                  <label>周六</label>
+                  <input type="checkbox"  />
+                </li>
+              
+                <li>
+                  <span class="iconfont icon-sv-user"></span>
+                  <label>林七</label>
+                  <input type="checkbox"  />
+                </li>
+              
+                <li>
+                  <span class="iconfont icon-sv-user"></span>
+                  <label>毛八</label>
+                  <input type="checkbox"  />
+                </li>
+              
+                <li>
+                  <span class="iconfont icon-sv-user"></span>
+                  <label>吴九</label>
+                  <input type="checkbox"  />
+                </li>
+              
+          </ul>
+        </div>
+        <div class="result-area">
+        </div>
+        <div class="form-group tac">
+          <button type="button" class="btn btn-primary-c">确定</button>
+          <button type="button" class="btn btn-default-c" data-dismiss="modal">重置</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" tabindex="-1" role="dialog" id="company">
+  <div class="modal-dialog" role="document" style="width:610px;">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">选择主办单位</h4>
+      </div>
+      <div class="modal-body">
+        <div class="clearfix">
+        	<div class="col-sm-6 col">
+        		<div class="form-group">
+        			<div class="input-group">
+	        		<input type="text" class="form-control" id="leader-input" placeholder="选择部门">
+	        		<div class="input-group-addon">
+			        	<span class="iconfont icon-sv-search"></span>
+			        </div>
+			    </div>
+			    </div>
+        	</div>
+             <div class="col-sm-6 col">
+             	<div class="form-group dropdown">
+             		<div class="input-group">
+	        		<input type="text" class="form-control" id="leader-input" placeholder="选择自定义组">
+	        		<div class="input-group-addon" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			        	<span class="iconfont icon-sv-arrow-down"></span>
+			        </div>
+			        <ul class="dropdown-menu" aria-labelledby="dLabel">
+						<li><input type="checkbox" name=""><label>自定义组</label></li>    
+						<li><input type="checkbox" name=""><label>自定义组</label></li>    
+					</ul>
+			    </div>
+			    </div>
+        	</div>
+        </div>
+        <div class="choose-area">
+          
+          <ul class="list-unstyled">
+            
+                <li>
+                  <span class="iconfont icon-sv-user"></span>
+                  <label>南航飞行部</label>
+                  <input type="checkbox" value="1" />
+                </li>
+              
+                <li>
+                  <span class="iconfont icon-sv-user"></span>
+                  <label>南航信息中心</label>
+                  <input type="checkbox" value="2" />
+                </li>
+              
+                <li>
+                  <span class="iconfont icon-sv-user"></span>
+                  <label>南航财务部</label>
+                  <input type="checkbox" value="4" />
+                </li>
+              
+                <li>
+                  <span class="iconfont icon-sv-user"></span>
+                  <label>南航飞行保障部</label>
+                  <input type="checkbox" value="3" />
+                </li>
+              
+                <li>
+                  <span class="iconfont icon-sv-user"></span>
+                  <label>南航后勤部</label>
+                  <input type="checkbox" value="5" />
+                </li>
+              
+                <li>
+                  <span class="iconfont icon-sv-user"></span>
+                  <label>南航培训部</label>
+                  <input type="checkbox" value="6" />
+                </li>
+              
+                <li>
+                  <span class="iconfont icon-sv-user"></span>
+                  <label>南航客舱部</label>
+                  <input type="checkbox" value="7" />
+                </li>
+              
+          </ul>
+        </div>
+        <div class="result-area">
+        </div>
+        <div class="form-group tac">
+          <button type="button" class="btn btn-primary-c">确定</button>
+          <button type="button" class="btn btn-default-c" data-dismiss="modal">重置</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

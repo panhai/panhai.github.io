@@ -1,0 +1,161 @@
+<div class="search-part">
+	<div class="form-group has-feedback">
+	  <label class="control-label sr-only" for="inputSuccess5"></label>
+	  <input type="text" class="form-control" id="search-input" aria-describedby="inputSuccess5Status">
+	  <span class="iconfont icon-sv-search form-control-feedback" aria-hidden="true"></span>
+	  <div class="search-filter">
+	  	<span>信息中心<i class="iconfont icon-sv-close-s"></i></span>
+	  	<span>审核中<i class="iconfont icon-sv-close-s"></i></span>
+	  	<span>测试<i class="iconfont icon-sv-close-s"></i></span>
+	  </div>
+	</div> 
+	<div class="search-control" style="display:none;">
+		<div class="row">
+			<div class="col col-lg-5 col-md-5 col-sm-5 col-xs-5">
+				<div class="form-group clearfix">
+					<label for="" class="col-sm-3 control-label">主办单位</label>
+					<div class="col-sm-9 dropdown">
+					  <input type="text" class="form-control" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" id="inputCompany" placeholder="请选择主办单位">
+					  <span class="iconfont icon-sv-add form-control-feedback" aria-hidden="true"></span>
+
+					  
+
+					  <ul class="list-unstyled dropdown-menu" aria-labelledby="dLabel">
+					  
+					  		<li>
+					  			<div class="radio">
+					  				<label>
+					  				<input type="radio" name="company" checked />
+					  				南航信息中心
+					  			</label>
+					  			</div>
+					  		</li>
+					  
+					  		<li>
+					  			<div class="radio">
+					  				<label>
+					  				<input type="radio" name="company"  />
+					  				南航财务部
+					  			</label>
+					  			</div>
+					  		</li>
+					  
+					  		<li>
+					  			<div class="radio">
+					  				<label>
+					  				<input type="radio" name="company"  />
+					  				南航飞行部
+					  			</label>
+					  			</div>
+					  		</li>
+					  
+					  		<li>
+					  			<div class="radio">
+					  				<label>
+					  				<input type="radio" name="company"  />
+					  				南航保障部
+					  			</label>
+					  			</div>
+					  		</li>
+					  
+					  		<li>
+					  			<div class="radio">
+					  				<label>
+					  				<input type="radio" name="company" checked />
+					  				南航研究院
+					  			</label>
+					  			</div>
+					  		</li>
+					  
+					  		<li>
+					  			<div class="radio">
+					  				<label>
+					  				<input type="radio" name="company"  />
+					  				南航物业
+					  			</label>
+					  			</div>
+					  		</li>
+					  
+					  </ul>
+					</div>
+				</div>
+				<div class="form-group clearfix">
+					<label for="" class="col-sm-3 control-label">创建时间</label>
+					<div class="col-sm-4">
+					  <input type="text" class="form-control input-time" data-date="" data-date-format="dd MM yyyy" data-link-field="search" data-link-format="yyyy-mm-dd" placeholder="请选择创建时间">
+					</div>
+					<label class="col-sm-1">至</label>
+					<div class="col-sm-4">
+					  <input type="text" class="form-control input-time" data-date="" data-date-format="dd MM yyyy" data-link-field="search" data-link-format="yyyy-mm-dd" placeholder="请选择创建时间">
+					</div>
+				</div>
+			</div>
+			<div class="col col-lg-5 col-md-5 col-sm-5 col-xs-5">
+				<div class="form-group clearfix">
+					<label for="" class="col-sm-3 control-label">关键字搜索</label>
+					<div class="col-sm-9">
+					  <input type="text" class="form-control" id="" placeholder="请输入关键字搜索">
+					</div>
+				</div>
+				<div class="form-group clearfix status-col dropdown">
+					<label for="" class="col-sm-3 control-label">选择状态</label>
+					<div class="col-sm-9">
+					  <input type="text" class="form-control " id="inputStatus" placeholder="请选择状态" data-toggle="dropdown" role="button">
+					  <span class="iconfont icon-sv-add form-control-feedback" aria-hidden="true" data-toggle="dropdown" role="button"></span>
+
+					  
+					  <ul class="list-unstyled dropdown-menu">
+					  
+					  		<li>
+					  			<div class="checkbox">
+					  			<label><input type="checkbox" checked />
+					  			拟稿</label>
+					  			</div>
+					  			</li>
+					  
+					  		<li>
+					  			<div class="checkbox">
+					  			<label><input type="checkbox"  />
+					  			任务分解中</label>
+					  			</div>
+					  			</li>
+					  
+					  		<li>
+					  			<div class="checkbox">
+					  			<label><input type="checkbox"  />
+					  			分解审批中</label>
+					  			</div>
+					  			</li>
+					  
+					  		<li>
+					  			<div class="checkbox">
+					  			<label><input type="checkbox"  />
+					  			任务确认中</label>
+					  			</div>
+					  			</li>
+					  
+					  		<li>
+					  			<div class="checkbox">
+					  			<label><input type="checkbox" checked />
+					  			任务推进中</label>
+					  			</div>
+					  			</li>
+					  
+					  		<li>
+					  			<div class="checkbox">
+					  			<label><input type="checkbox"  />
+					  			任务办结</label>
+					  			</div>
+					  			</li>
+					  
+					  </ul>
+					</div>
+				</div>	
+			</div>
+			<div class="col col-lg-2 col-md-2 col-sm-2 col-xs-2">
+				<button	class="btn btn-primary btn-primary-c">查询</button>
+				<button	class="btn btn-primary btn-default-c" style="margin-top:5px;">重置</button>
+			</div>
+		</div>
+	</div>
+</div>

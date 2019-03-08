@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>懒加载技术</title>
+		<style type="text/css">
+			.app{
+				width: 1000px;
+				margin: 0 auto;
+			}
+			li{
+				list-style: none;
+				text-align: center;
+				margin-top: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<div class="app">
+			<ul>
+				<li><img class="lazy" data-original="img/lb1.jpg" src="img/lb1.jpg" alt="" width="700px" height="400px"/></li>
+				<li><img class="lazy" data-original="img/lb1.jpg" src="img/lb1.jpg" alt="" width="700px" height="400px"/></li>
+				<li><img class="lazy" data-original="img/lb1.jpg" src="img/lb1.jpg" alt="" width="700px" height="400px"/></li>
+				<li><img class="lazy" data-original="img/lb1.jpg" src="img/lb1.jpg" alt="" width="700px" height="400px"/></li>
+				<li><img class="lazy" data-original="img/lb1.jpg" src="img/lb1.jpg" alt="" width="700px" height="400px"/></li>
+				<li><img class="lazy" data-original="img/lb1.jpg" src="img/lb1.jpg" alt="" width="700px" height="400px"/></li>
+				<li><img class="lazy" data-original="img/lb1.jpg" src="img/lb1.jpg" alt="" width="700px" height="400px"/></li>
+				<li><img class="lazy" data-original="img/lb1.jpg" src="img/lb1.jpg" alt="" width="700px" height="400px"/></li>
+				<li><img class="lazy" data-original="img/lb1.jpg" src="img/lb1.jpg" alt="" width="700px" height="400px"/></li>
+				<li><img class="lazy" data-original="img/lb1.jpg" src="img/lb1.jpg" alt="" width="700px" height="400px"/></li>
+				<li><img class="lazy" data-original="img/lb1.jpg" src="img/lb1.jpg" alt="" width="700px" height="400px"/></li>
+				<li><img class="lazy" data-original="img/lb1.jpg" src="img/lb1.jpg" alt="" width="700px" height="400px"/></li>
+				<li><img class="lazy" data-original="img/lb1.jpg" src="img/lb1.jpg" alt="" width="700px" height="400px"/></li>
+				<li><img class="lazy" data-original="img/lb1.jpg" src="img/lb1.jpg" alt="" width="700px" height="400px"/></li>
+				<li><img class="lazy" data-original="img/lb1.jpg" src="img/lb1.jpg" alt="" width="700px" height="400px"/></li>
+				<li><img class="lazy" data-original="img/lb1.jpg" src="img/lb1.jpg" alt="" width="700px" height="400px"/></li>
+				<li><img class="lazy" data-original="img/lb1.jpg" src="img/lb1.jpg" alt="" width="700px" height="400px"/></li>
+				<li><img class="lazy" data-original="img/lb1.jpg" src="img/lb1.jpg" alt="" width="700px" height="400px"/></li>
+				<li><img class="lazy" data-original="img/lb1.jpg" src="img/lb1.jpg" alt="" width="700px" height="400px"/></li>
+				<li><img class="lazy" data-original="img/lb1.jpg" src="img/lb1.jpg" alt="" width="700px" height="400px"/></li>
+				<li><img class="lazy" data-original="img/lb1.jpg" src="img/lb1.jpg" alt="" width="700px" height="400px"/></li>
+				<li><img class="lazy" data-original="img/lb1.jpg" src="img/lb1.jpg" alt="" width="700px" height="400px"/></li>
+				<li><img class="lazy" data-original="img/lb1.jpg" src="img/lb1.jpg" alt="" width="700px" height="400px"/></li>
+				<li><img class="lazy" data-original="img/lb1.jpg" src="img/lb1.jpg" alt="" width="700px" height="400px"/></li>
+				<li><img class="lazy" data-original="img/lb1.jpg" src="img/lb1.jpg" alt="" width="700px" height="400px"/></li>
+				<li><img class="lazy" data-original="img/lb1.jpg" src="img/lb1.jpg" alt="" width="700px" height="400px"/></li>
+				<li><img class="lazy" data-original="img/lb1.jpg" src="img/lb1.jpg" alt="" width="700px" height="400px"/></li>
+				<li><img class="lazy" data-original="img/lb1.jpg" src="img/lb1.jpg" alt="" width="700px" height="400px"/></li>
+				<li><img class="lazy" data-original="img/lb1.jpg" src="img/lb1.jpg" alt="" width="700px" height="400px"/></li>
+				<li><img class="lazy" data-original="img/lb1.jpg" src="img/lb1.jpg" alt="" width="700px" height="400px"/></li>
+				<li><img class="lazy" data-original="img/lb1.jpg" src="img/lb1.jpg" alt="" width="700px" height="400px"/></li>
+				
+			</ul>
+		</div>
+		
+		
+		
+		<script src="jquery 1.9.1.js"></script>
+		<script src="jquery.lazyload.js"></script>
+		<script type="text/javascript">
+			//涉及到图片，falsh资源，iframe，网页编辑器(CK)，
+			//JS文件 等占用较大带宽，避免网页打开时加载过多资源，让用户等待太久。
+			
+			$("img.lazy").lazyload({
+			    effect : "fadeIn",
+			    threshold : 100,//距离屏幕100px加载图片
+//			    event : "click"//事件加载
+			});
+			
+		</script>
+	</body>
+</html>

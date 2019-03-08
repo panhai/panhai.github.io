@@ -1,0 +1,29 @@
+<div class="modal fade" tabindex="-1" role="dialog" id="detailModal">
+  <div class="modal-dialog" role="document" style="min-width:1100px;">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">任务详情</h4>
+      </div>
+      <div class="modal-body">
+        <%- include detailInfo %>
+        <%- include step %>
+        <div class="form-group tac">
+          <button type="button" class="btn btn-primary-c">提交</button>
+        </div>
+        <div class="record">
+          <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#record1" aria-controls="record1" role="tab" data-toggle="tab">反馈记录</a></li>
+            <li role="presentation"><a href="#record2" aria-controls="record2" role="tab" data-toggle="tab">操作记录</a></li>
+          </ul>
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="record1">
+            </div>
+            <div role="tabpanel" class="tab-pane" id="record2">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

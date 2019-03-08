@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<!--<link rel="stylesheet" type="text/css" href="js/jquery.autocomplete.css"/>-->
+		<script src="js/jquery 1.9.1.js"></script>
+		<script src="js/jquery.ui.js"></script>
+		<link rel="stylesheet" type="text/css" href="js/jquery.ui.css"/>
+		<style type="text/css">
+			.search{
+				padding: 30px 50px;
+			}
+			.box{
+				border: 1px solid pink;
+				width:400px;
+				text-align: center;
+			}
+			.ui-menu .ui-menu-item{
+				background-color: yellow;
+			}
+			.ui-menu .ui-menu-item:hover a{
+				background-color: blue;
+				color: red;
+			}
+			#red{
+				
+				display: none;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="search">
+			<form action="" method="post">
+				<span>搜索：</span>
+				<input type="text" name="a" id="a" value="" placeholder="请输入"/>
+				<input type="submit" value="提交"/>
+			</form>
+		</div>
+		
+		<div id="red">
+			
+		</div>
+		
+		
+		<script type="text/javascript">
+			
+			var aa = ['aaa','bbbb','abbb',"bgghhhh",'ccccc','eeeeee','iiiijjjjkkkk','pqohjdhj','ffffffff','ggggggggg','hhhhhhhhhhhh'];
+			
+			
+			
+			$('#red').dialog({
+				
+			})
+			
+			$('#a').autocomplete({
+				source : aa,
+				position:{
+					my:'left center',
+					at:'right center'
+				},
+				delay:100,
+				autoFocus:true,
+				create:function(event,ui){
+					console.log(event,ui)
+				},
+				open:function(event,ui){
+					console.log(event,ui)
+				},
+				focus:function(event,ui){
+					console.log(event,ui)
+					console.log(ui.item)
+				}
+			})
+			
+			
+		</script>
+	</body>
+</html>

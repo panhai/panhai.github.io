@@ -1,0 +1,404 @@
+
+
+	<div class="list-part">
+		<ul class="nav nav-tabs" role="tablist">
+			
+				
+			    <li role="presentation" class="active"><a href="#year" aria-controls="year" role="tab" data-toggle="tab">年度重点工作任务</a></li>
+			    
+			
+				
+			    <li role="presentation"><a href="#leader" aria-controls="leader" role="tab" data-toggle="tab">领导行政例会督查</a></a></li>
+			    
+			
+				
+			    <li role="presentation"><a href="#manage" aria-controls="manage" role="tab" data-toggle="tab">总经理办公会督查</a></a></li>
+			    
+			
+				
+			    <li role="presentation"><a href="#other" aria-controls="other" role="tab" data-toggle="tab">其他重要工作督查</a></a></li>
+			    
+			  
+		 </ul>
+		<div class="search-part">
+	<div class="form-group has-feedback">
+	  <label class="control-label sr-only" for="inputSuccess5"></label>
+	  <input type="hidden" class="form-control" aria-describedby="inputSuccess5Status">
+	  <span class="form-control" id="search-input"></span>
+	  <span class="iconfont icon-sv-search form-control-feedback" aria-hidden="true"></span>
+	  <div class="search-filter">
+	  	
+	  </div>
+	</div> 
+	<div class="search-control" style="display:none;">
+		<div class="row">
+			<div class="col col-lg-10 col-md-10 col-sm-10 col-xs-10 col-one">
+				<div class="form-group clearfix">
+					<label for="" class="col-sm-3 col-md-3 col-xs-3 col-lg-3 control-label">关键字搜索</label>
+					<div class="col-sm-9 col-md-9 col-xs-9 col-lg-9">
+					  <input type="text" class="form-control" id="" placeholder="请输入关键字搜索">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col col-lg-5 col-md-5 col-sm-5 col-xs-5">
+				<div class="form-group clearfix">
+					<label for="" class="col-sm-3 col-md-3 col-xs-3 col-lg-3 control-label">主办单位</label>
+					<div class="col-sm-9 col-md-9 col-xs-9 col-lg-9 dropdown">
+					  <input type="text" class="form-control" data-toggle="dropdown" placeholder="请选择主办单位">
+					  <span class="iconfont icon-sv-add form-control-feedback" aria-hidden="true"></span>
+
+					  
+
+					  <ul class="list-unstyled dropdown-menu" aria-labelledby="dLabel">
+					  
+					  		<li>
+					  			<div class="radio">
+					  				<label>
+					  				<input data-menu="dropdown" type="radio" name="company" checked />
+					  				南航信息中心
+					  			</label>
+					  			</div>
+					  		</li>
+					  
+					  		<li>
+					  			<div class="radio">
+					  				<label>
+					  				<input data-menu="dropdown" type="radio" name="company"  />
+					  				南航财务部
+					  			</label>
+					  			</div>
+					  		</li>
+					  
+					  		<li>
+					  			<div class="radio">
+					  				<label>
+					  				<input data-menu="dropdown" type="radio" name="company"  />
+					  				南航飞行部
+					  			</label>
+					  			</div>
+					  		</li>
+					  
+					  		<li>
+					  			<div class="radio">
+					  				<label>
+					  				<input data-menu="dropdown" type="radio" name="company"  />
+					  				南航保障部
+					  			</label>
+					  			</div>
+					  		</li>
+					  
+					  		<li>
+					  			<div class="radio">
+					  				<label>
+					  				<input data-menu="dropdown" type="radio" name="company" checked />
+					  				南航研究院
+					  			</label>
+					  			</div>
+					  		</li>
+					  
+					  		<li>
+					  			<div class="radio">
+					  				<label>
+					  				<input data-menu="dropdown" type="radio" name="company"  />
+					  				南航物业
+					  			</label>
+					  			</div>
+					  		</li>
+					  
+					  </ul>
+					</div>
+				</div>
+				<div class="form-group clearfix">
+					<label for="" class="col-sm-3 col-md-3 col-xs-3 col-lg-3 control-label">创建时间</label>
+					<div class="col-sm-4 col-md-4 col-xs-4 col-lg-4">
+					  <input type="text" class="form-control input-time" data-date="" data-date-format="yyyy-mm-dd" data-link-field="search" data-link-format="yyyy-mm-dd" placeholder="请选择创建时间">
+					</div>
+					<label class="col-sm-1 col-md-1 col-xs-1 col-lg-1">至</label>
+					<div class="col-sm-4 col-md-4 col-xs-4 col-lg-4">
+					  <input type="text" class="form-control input-time" data-date="" data-date-format="yyyy-mm-dd" data-link-field="search" data-link-format="yyyy-mm-dd" placeholder="请选择创建时间">
+					</div>
+				</div>
+			</div>
+			<div class="col col-lg-5 col-md-5 col-sm-5 col-xs-5">
+				<div class="form-group clearfix">
+					<label for="" class="col-sm-3 col-md-3 col-xs-3 col-lg-3 control-label">文档ID</label>
+					<div class="col-sm-9 col-md-9 col-xs-9 col-lg-9 dropdown">
+					  <input type="text" class="form-control" placeholder="请输入文档ID">
+					</div>
+				</div>
+				<div class="form-group clearfix status-col dropdown">
+					<label for="" class="col-sm-3 col-md-3 col-xs-3 col-lg-3 control-label">选择状态</label>
+					<div class="col-sm-9 col-md-9 col-xs-9 col-lg-9">
+					  <input type="text" class="form-control " id="inputStatus" placeholder="请选择状态" data-toggle="dropdown" role="button" data-status="more">
+					  <span class="iconfont icon-sv-add form-control-feedback" aria-hidden="true" data-toggle="dropdown" role="button" data-status="more"></span>
+
+					  
+					  <ul class="list-unstyled dropdown-menu">
+					  
+					  		<li>
+					  			<div class="checkbox">
+					  			<label><input type="checkbox"  />
+					  			拟稿</label>
+					  			</div>
+					  			</li>
+					  
+					  		<li>
+					  			<div class="checkbox">
+					  			<label><input type="checkbox"  />
+					  			任务分解中</label>
+					  			</div>
+					  			</li>
+					  
+					  		<li>
+					  			<div class="checkbox">
+					  			<label><input type="checkbox"  />
+					  			分解审批中</label>
+					  			</div>
+					  			</li>
+					  
+					  		<li>
+					  			<div class="checkbox">
+					  			<label><input type="checkbox"  />
+					  			任务确认中</label>
+					  			</div>
+					  			</li>
+					  
+					  		<li>
+					  			<div class="checkbox">
+					  			<label><input type="checkbox"  />
+					  			任务推进中</label>
+					  			</div>
+					  			</li>
+					  
+					  		<li>
+					  			<div class="checkbox">
+					  			<label><input type="checkbox"  />
+					  			任务办结</label>
+					  			</div>
+					  			</li>
+					  
+					  </ul>
+					</div>
+				</div>	
+			</div>
+			<div class="col col-lg-2 col-md-2 col-sm-2 col-xs-2" style="margin-top:-15px;">
+				<div class="form-group">
+				<button	class="btn btn-primary btn-primary-c search-btn">查询</button>
+				</div>
+				<div class="form-group">
+				<button	class="btn btn-primary btn-default-c reset-btn">重置</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	  <div class="tab-content">
+	  
+	    	<div role="tabpanel" class="tab-pane active" id="year">
+	    		
+					<ul class="list-box list-unstyled" id="box-0">
+		    		
+						<li>
+							<a href="" data-toggle="modal" data-target="#detailModal">
+								
+								
+									<i class="iconfont icon-sv-fav-s"></i>
+								
+								<ins>【任务推进中】</ins>
+								<span class="l">这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题</span>
+								<em>70%</em>
+							</a>
+						</li>
+						
+						<li>
+							<a href="" data-toggle="modal" data-target="#detailModal">
+								
+								
+								<ins>【任务推进中】</ins>
+								<span class="l">这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题</span>
+								<em>70%</em>
+							</a>
+						</li>
+						
+					</ul>
+				
+	    	</div>
+	     
+	    	<div role="tabpanel" class="tab-pane " id="leader">
+	    		
+					<ul class="list-box list-unstyled" id="box-1">
+		    		
+						<li>
+							<a href="" data-toggle="modal" data-target="#detailModal">
+								
+								
+								<ins>【任务推进中】</ins>
+								<span class="l">这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题</span>
+								<em>70%</em>
+							</a>
+						</li>
+						
+						<li>
+							<a href="" data-toggle="modal" data-target="#detailModal">
+								
+								
+								<ins>【任务推进中】</ins>
+								<span class="l">这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题</span>
+								<em>70%</em>
+							</a>
+						</li>
+						
+						<li>
+							<a href="" data-toggle="modal" data-target="#detailModal">
+								
+								
+								<ins>【任务推进中】</ins>
+								<span class="l">这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题</span>
+								<em>70%</em>
+							</a>
+						</li>
+						
+						<li>
+							<a href="" data-toggle="modal" data-target="#detailModal">
+								
+								
+								<ins>【任务推进中】</ins>
+								<span class="l">这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题</span>
+								<em>70%</em>
+							</a>
+						</li>
+						
+						<li>
+							<a href="" data-toggle="modal" data-target="#detailModal">
+								
+								
+								<ins>【任务推进中】</ins>
+								<span class="l">这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题</span>
+								<em>70%</em>
+							</a>
+						</li>
+						
+					</ul>
+				
+	    	</div>
+	     
+	    	<div role="tabpanel" class="tab-pane " id="manage">
+	    		
+					<ul class="list-box list-unstyled" id="box-2">
+		    		
+						<li>
+							<a href="" data-toggle="modal" data-target="#detailModal">
+								
+								
+								<ins>【任务推进中】</ins>
+								<span class="l">这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题</span>
+								<em>70%</em>
+							</a>
+						</li>
+						
+						<li>
+							<a href="" data-toggle="modal" data-target="#detailModal">
+								
+								
+								<ins>【任务推进中】</ins>
+								<span class="l">这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题</span>
+								<em>70%</em>
+							</a>
+						</li>
+						
+						<li>
+							<a href="" data-toggle="modal" data-target="#detailModal">
+								
+								
+								<ins>【任务推进中】</ins>
+								<span class="l">这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题</span>
+								<em>70%</em>
+							</a>
+						</li>
+						
+						<li>
+							<a href="" data-toggle="modal" data-target="#detailModal">
+								
+								
+								<ins>【任务推进中】</ins>
+								<span class="l">这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题</span>
+								<em>70%</em>
+							</a>
+						</li>
+						
+						<li>
+							<a href="" data-toggle="modal" data-target="#detailModal">
+								
+								
+								<ins>【任务推进中】</ins>
+								<span class="l">这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题</span>
+								<em>70%</em>
+							</a>
+						</li>
+						
+						<li>
+							<a href="" data-toggle="modal" data-target="#detailModal">
+								
+								
+								<ins>【任务推进中】</ins>
+								<span class="l">这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题</span>
+								<em>70%</em>
+							</a>
+						</li>
+						
+						<li>
+							<a href="" data-toggle="modal" data-target="#detailModal">
+								
+								
+								<ins>【任务推进中】</ins>
+								<span class="l">这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题</span>
+								<em>70%</em>
+							</a>
+						</li>
+						
+						<li>
+							<a href="" data-toggle="modal" data-target="#detailModal">
+								
+								
+								<ins>【任务推进中】</ins>
+								<span class="l">这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题</span>
+								<em>70%</em>
+							</a>
+						</li>
+						
+						<li>
+							<a href="" data-toggle="modal" data-target="#detailModal">
+								
+								
+								<ins>【任务推进中】</ins>
+								<span class="l">这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题</span>
+								<em>70%</em>
+							</a>
+						</li>
+						
+					</ul>
+				
+	    	</div>
+	     
+	    	<div role="tabpanel" class="tab-pane " id="other">
+	    		
+	    			<div class="no-page">
+						<div class="no-page-icon">
+
+						</div>
+						<p>hi~~您还没有督查任务O(∩_∩)O</p>
+					</div>
+				
+	    	</div>
+	     
+	     <div class="tar">
+	     	<nav aria-label="Page navigation" class="pagination">
+  
+</nav>
+
+	     </div>
+	  </div>
+
+</div>

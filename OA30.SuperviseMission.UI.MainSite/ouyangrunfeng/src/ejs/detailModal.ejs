@@ -1,0 +1,18 @@
+<div class="modal fade" tabindex="-1" role="dialog" id="detailModal">
+  <div class="modal-dialog" role="document" style="min-width:1100px;">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">任务详情</h4>
+      </div>
+      <div class="modal-body">
+        <%- include detailInfo %>
+        <%- include step %>
+        <div class="form-group tac">
+          <button type="button" class="btn btn-primary-c">确定</button>
+          <button type="button" class="btn btn-default-c" data-dismiss="modal">重置</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

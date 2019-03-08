@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<div class="app"></div>
+		<ul class="box">
+			<li>1</li>
+			<li>12</li>
+			<li>13</li>
+			<li>14</li>
+			<li>15</li>
+			
+		</ul>
+		<script src="js/jquery 1.9.1.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				//字符串操作
+				
+				var str = "  jha     ";
+				var str2 = $.trim(str)
+				console.log(str2.length,str.length)
+				
+				
+				//数组和对象操作
+				var arr = [12,454,4878,88980,17,58,654,125];
+				
+				$.each(arr, function(index,value) {
+					console.log(index,value)
+					$('<b>'+index+'------'+value+'</b><br>').appendTo($('.app'))
+				});
+				
+				var boxcontent = [];
+				var boxlist = $('.box li');
+				
+				$.each(boxlist, function(index,value) {
+					boxcontent.push(value.innerHTML)
+					console.log(value.innerHTML)
+				});
+				console.log(boxcontent,boxlist)
+				////$.grep()数据筛选
+				
+				var arrbox = $.grep(arr,function(value,index){
+					return value>100 && value<500
+				})
+				
+				console.log(arrbox)
+				//$.grep()数据修改
+				var newarr = $.map(arr, function(value,index) {
+					if(value>100 && value<900){
+						return value+20
+					}
+				});
+//				alert(newarr)
+				
+				//获取元素的下标
+				var index = $.inArray(58,arr)
+				
+				console.log(index)
+
+				//合并两个数组  两种方法一样的效果
+				var arr3 = [122,7780,666];
+				var arr4 = [89898,787878,333333,122];
+				
+//				var arrs = arr3.concat(arr4);  
+				var arrs = $.merge(arr3,arr4)
+				
+				console.log(arrs)
+				
+				//删除重复的元素
+				
+				var arrf = [11,222,333,11,333,"333","11","11"];
+				
+				console.log($.unique(arrf))
+				
+				//把集合或者类似数组的数据转换为数组 toArray()
+				
+				var lists = $('li').toArray()
+				
+				console.log(lists)
+				
+				
+				//测试操作
+				//判断是否是数组对象
+				console.log($.isArray(arr))
+				//判断是一个函数
+				console.log($.isFunction(arr))
+				//判断是否是一个空对象
+				console.log($.isEmptyObject(arr))
+				//判断是否是纯粹的对象
+				console.log($.isPlainObject(arr))
+				var obj = {name:"kkl"}
+				console.log($.isPlainObject(obj))
+				//判断一个dome节点是否包含另外一个demmo节点
+				var ul = $('ul');
+				var li = $('li');
+				var app = $('.app');
+				
+				console.log($.contains(ul[0],li[0]))
+				console.log($.contains(li[0],ul[0]))
+				console.log($.contains(app[0],li[0]))
+				
+				//判断数据类型
+				var a = "hjsjhaj";
+				var b = {name:"kkk"};
+				var c = [445,545];
+				var d = function(){};
+				var e = null;
+				var f = false;
+				
+				console.log($.type(a))
+				console.log($.type(b))
+				console.log($.type(c))
+				console.log($.type(d))
+				console.log($.type(e))
+				console.log($.type(f))
+				
+				//判断数据是否是数值
+				
+				console.log($.isNumeric(a))//false
+				console.log($.isNumeric(c))//false
+				console.log($.isNumeric(f))  //false
+				console.log($.isNumeric(4545))  //true
+				console.log($.isNumeric("222")) //true
+				
+				//判断是否是window对象
+				var obj = {};
+				console.log($.isWindow(window)) //true
+				console.log($.isWindow(window.localStorage)) //false
+				console.log($.isWindow(window.location)) //false
+				console.log($.isWindow(obj)) //false
+				
+				
+				
+				//URL操作  把对象数据转换为url字符串形式
+				
+				var objs = {
+					name:"ljack",
+					age:45
+				}
+				
+				console.log($.param(objs))  //name=ljack&age=45
+				
+				//浏览器检查
+				//获取浏览器已经版本号
+				console.log(jQuery.support.tbody)
+				
+				var obj = {
+					name:"hhh",
+					test :function(){
+						console.log(this)
+						alert(this.name)
+					}
+				}
+				
+				obj.test()
+				
+				$('.app').click($.proxy(obj,"test")) //指定某个对象执行某个方法
+				
+				//其他操作
+			})
+		</script>
+	</body>
+</html>

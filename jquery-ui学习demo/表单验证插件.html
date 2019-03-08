@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="js/jquery.ui.css"/>
+		<style type="text/css">
+			.app{
+				width: 500px;
+				padding: 30px 20px;
+				border: 1px solid pink;
+				margin: 0 auto;
+				margin-top:50px;
+			}
+			input[type="text"],input[type="password"],input[type="url"],#email{
+				width: 80%;
+				height: 30px;
+				line-height: 30px;
+			}
+			.submit{
+				width: 80px;
+				height: 40px;
+				cursor: pointer;
+			}
+			label.error{
+				color: red;
+				position: absolute;
+				right: -153px;
+				width: 200px;
+			}
+			form p{
+				position: relative;
+				height: 32px;
+			}
+			label.error::before{
+				content: "*";
+				display: inline-block;
+				color: red;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<div class="app">
+			<form action="" method="post" id="form">
+				<p>
+					<label for="">姓名:
+						<input type="text" name="name" id="name" value=""/>
+					</label>
+				</p>
+				<p>
+					<label for="">性别:</label>
+					<input type="radio" name="sex" id="" value="男" required />
+					<span>男</span>
+					<input type="radio" name="sex" id="" value="女" />
+					<span>女</span>
+				</p>
+				<p>
+					<label for="">密码:
+						<input type="password" name="password" id="password" value="" />
+					</label>
+				</p>
+				<p>
+					<label for="">网址:</label>
+					<input type="url" name="url" id="url" value=""/>
+				</p>
+				<p>
+					<label for="">邮箱:
+						<input type="email" name="email" id="email" value=""/>
+					</label>
+				</p>
+				<input type="submit" class="submit" value="提交"/>
+			</form>
+		</div>
+		
+		
+		<script src="js/jquery 1.9.1.js"></script>
+		<script src="js/jquery.ui.js"></script>
+		<script src="js/jquery.validate.js"></script>
+		<!--<script src="js/jquery.validate.messages_zh.js"></script>-->
+		<script type="text/javascript">
+			$(function(){
+				$('#form').validate({
+					debug:true,
+					submitHandler:function(){
+						//当验证成功后执行，而且阻止了默认提交
+						//一般用于ajax提交使用
+						alert("覆盖默认的提交，ajax提交！验证成功，准备提交！")
+					},
+					rules:{
+						name:{
+							required:true,
+							minlength:3
+						},
+						password:{
+							required:true,
+							minlength:6
+						},
+						url:{
+							required:true,
+							url:true
+						},
+						email:{
+							required:true,
+							email:true
+						}
+					},
+					messages:{
+						name:{
+							required:"请输入姓名",
+							minlength:"姓名必须在3位以上的字符"
+						},
+						password:{
+							required:"请输入密码",
+							minlength:"密码必须6位以上"
+						},
+						url:{
+							required:"请输入网址",
+							url:"请输入正确的网址"
+						},
+						email:{
+							required:"请输入邮箱",
+							email:"请输入正确的邮箱"
+						}
+					},
+					
+				})
+			})
+		</script>
+	</body>
+</html>

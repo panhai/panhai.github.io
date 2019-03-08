@@ -1,0 +1,33 @@
+<%
+	list = [
+		{label:'任务内容',title:'任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容'},
+		{label:'主管领导',title:'张三'},
+		{label:'协管领导',title:'李四'},
+		{label:'主办单位',title:'信息中心'},
+		{label:'协办单位',title:'南航党校'}
+	]
+%>
+<div class="clearfix detial-info">
+	<ul class="list-unstyled">
+		<li>
+			<div class="row">
+				<div class="col-lg-4">
+					<label>督查编号：</label>
+					<span>南航督办【2019】01号</span>
+				</div>
+				<div class="col-lg-8">
+					<label>文档ID：</label>
+					<span>20180910001</span>
+				</div>
+			</div>
+		</li>
+		<% list.forEach(function(item){ %>
+			<li>
+				<div class="row">
+					<label class="dib"><%= item.label %>：</label>
+					<span class="dib"><%= item.title %></span>
+				</div>
+			</li>
+		<% }) %>
+	</ul>
+</div>

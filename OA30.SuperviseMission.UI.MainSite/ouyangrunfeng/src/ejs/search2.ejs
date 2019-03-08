@@ -1,0 +1,85 @@
+<div class="search-part search-part-2">
+	<div class="search-control-2">
+		<div class="row">
+			<div class="col col-lg-4 col-md-4 col-sm-4 col-xs-4">
+				<div class="form-group clearfix">
+					<label for="" class="col-sm-4 control-label">主办单位</label>
+					<div class="col-sm-8 dropdown">
+					  <input type="text" class="form-control" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" id="inputCompany" placeholder="请选择主办单位">
+					  <span class="iconfont icon-sv-add form-control-feedback" aria-hidden="true"></span>
+
+					  <% var status = [{check:true,label:'南航信息中心'},{check:false,label:'南航财务部'},{check:false,label:'南航飞行部'},{check:false,label:'南航保障部'},{check:true,label:'南航研究院'},{check:false,label:'南航物业'}] %>
+
+					  <ul class="list-unstyled dropdown-menu" aria-labelledby="dLabel" data-toggle="search">
+					  <% status.forEach(function(item){ %>
+					  		<li><div class="radio">
+					  			<label><input type="radio" name="radio" <%= item.check ? 'checked':''; %> />
+					  			<%= item.label %></label></div></li>
+					  <% }) %>
+					  </ul>
+					</div>
+				</div>
+				<div class="form-group clearfix dropdown">
+					<label for="" class="col-sm-4 control-label">督查任务类型</label>
+					<div class="col-sm-8">
+					  <input type="text" class="form-control" data-toggle="dropdown" placeholder="督查任务类型">
+					  <span class="iconfont icon-sv-add form-control-feedback" aria-hidden="true"></span>
+					  <span class="iconfont icon-sv-add form-control-feedback" aria-hidden="true" data-toggle="dropdown" role="button"></span>
+
+					  <% var status = [{check:false,label:'年度重点'},{check:false,label:'总经理督办'},{check:false,label:'领导督办'},{check:true,label:'其他重点'}] %>
+					  <ul class="list-unstyled dropdown-menu">
+					  <% status.forEach(function(item){ %>
+					  		<li>
+					  			<input type="checkbox" <%= item.check ? 'checked':''; %> />
+					  			<label><%= item.label %></label></li>
+					  <% }) %>
+					  </ul>
+					</div>
+				</div>
+			</div>
+			<div class="col col-lg-4 col-md-4 col-sm-4 col-xs-4">
+				<div class="form-group clearfix">
+					<label for="" class="col-sm-4 control-label">主管领导</label>
+					<div class="col-sm-8">
+					  <input type="text" class="form-control" id="" placeholder="主管领导">
+					</div>
+				</div>
+				<div class="form-group clearfix status-col">
+					<label for="" class="col-sm-4 control-label">关键词搜索</label>
+					<div class="col-sm-8">
+					  <input type="text" class="form-control " id="inputStatus" placeholder="关键词搜索" role="button">
+					</div>
+				</div>	
+			</div>
+			<div class="col col-lg-4 col-md-4 col-sm-4 col-xs-4">
+				<div class="form-group clearfix">
+					<label for="" class="col-sm-3 control-label">协管领导</label>
+					<div class="col-sm-9">
+					  <input type="text" class="form-control" id="" placeholder="协管领导">
+					</div>
+				</div>
+				<div class="form-group clearfix status-col dropdown">
+					<label for="" class="col-sm-3 control-label">状态</label>
+					<div class="col-sm-9">
+					  <input type="text" class="form-control " id="inputStatus" placeholder="请选择状态" data-toggle="dropdown" role="button">
+					  <span class="iconfont icon-sv-add form-control-feedback" aria-hidden="true" data-toggle="dropdown" role="button"></span>
+
+					  <% var status = [{check:true,label:'拟稿'},{check:false,label:'任务分解中'},{check:false,label:'分解审批中'},{check:false,label:'任务确认中'},{check:true,label:'任务推进中'},{check:false,label:'任务办结'}] %>
+					  <ul class="list-unstyled dropdown-menu">
+					  <% status.forEach(function(item){ %>
+					  		<li>
+					  			<input type="checkbox" <%= item.check ? 'checked':''; %> />
+					  			<label><%= item.label %></label></li>
+					  <% }) %>
+					  </ul>
+					</div>
+				</div>	
+			</div>
+		</div>
+		<div class="form-group">
+			<button class="btn btn-primary-s btn-group">查询</button>
+			<button class="btn btn-default-s btn-group">清空</button>
+			<button class="btn btn-default-s btn-group">导出</button>
+		</div>
+	</div>
+</div>

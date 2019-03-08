@@ -1,0 +1,90 @@
+
+<%- include ../header2 %>
+		<div class="main">
+
+		<%
+	list = [
+		{label:'任务内容',title:'任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容'},
+		{label:'主管领导',title:'张三'},
+		{label:'协管领导',title:'李四'},
+		{label:'主办单位',title:'信息中心'},
+		{label:'协办单位',title:'南航党校'}
+	]
+%>
+<div class="clearfix detial-info">
+	<ul class="list-unstyled">
+		<li>
+			<div class="row">
+				<div class="col-lg-4">
+					<label>督查编号：</label>
+					<span>南航督办【2019】01号</span>
+				</div>
+				<div class="col-lg-8">
+					<label>文档ID：</label>
+					<span>20180910001</span>
+				</div>
+			</div>
+		</li>
+		<% list.forEach(function(item){ %>
+			<li>
+				<div class="row">
+					<label class="dib"><%= item.label %>：</label>
+					<span class="dib"><%= item.title %></span>
+				</div>
+			</li>
+		<% }) %>
+	</ul>
+</div>
+
+<%- include step %>
+		<div class="notice">
+			<h3>督查反馈提醒</h3>
+			<div class="radio-group">
+				<label class="radio-inline">
+				  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 不做提醒
+				</label>
+				<label class="radio-inline">
+				  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 每两月提醒一次（60天）
+				</label>
+				<label class="radio-inline">
+				  <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 自定义  每<input class="radio-sm"/>天提醒一次
+				</label>
+			</div>
+		</div>
+		<div class="action-group">
+          <span>审批意见</span>
+          <div class="btn-group" data-toggle="buttons">
+			  <label class="btn active">
+			    <input type="radio" autocomplete="off" checked>同意
+			  </label>
+			  <label class="btn">
+			    <input type="radio" autocomplete="off">不同意
+			  </label>
+		  </div>
+          <span>(最多可输入200字)</span>
+        </div>
+        <div class="form-group">
+            <textarea class="form-control"></textarea>
+        </div>
+        <div class="form-group tac">
+            <button type="button" class="btn btn-primary-c" data-toggle="modal" data-target="#sureModal">发送</button>
+        </div>
+        <div class="record" data-action="feed">
+          <div class="record-tab tab">
+            <a href=".record1">反馈记录</a>
+            <a href=".record2">操作记录</a>
+          </div>
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane record1">
+            	<%- include ../feedback %>
+            </div>
+            <div role="tabpanel" class="tab-pane record2">
+            	<%- include ../operation %>
+            </div>
+          </div>
+        </div>
+
+		</div>
+
+<%- include ../footer2 %>
+<%- include sureModal %>

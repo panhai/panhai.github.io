@@ -1,0 +1,662 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{857D60A3-2129-4CCD-B8D5-8533EC630D35}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OA30.SuperviseMission.UI.MainSite</RootNamespace>
+    <AssemblyName>OA30.SuperviseMission.UI.MainSite</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CSN.DotNetLibrary.Common">
+      <HintPath>..\..\Output\CSN.DotNetLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="CSN.DotNetLibrary.Compression">
+      <HintPath>..\..\Output\CSN.DotNetLibrary.Compression.dll</HintPath>
+    </Reference>
+    <Reference Include="CSN.DotNetLibrary.EntityExpressions.Entitys, Version=1.0.0.0, Culture=neutral, PublicKeyToken=225c7054730e8a94, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\CSN.DotNetLibrary.EntityExpressions.Entitys.dll</HintPath>
+    </Reference>
+    <Reference Include="CSN.DotNetLibrary.RemoteAccess.AdvancedClient">
+      <HintPath>..\..\Output\CSN.DotNetLibrary.RemoteAccess.AdvancedClient.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI, Version=2.0.1.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="OA30.Common.Configuration">
+      <HintPath>..\..\Output\OA30.Common.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="OA30.Common.Entity">
+      <HintPath>..\..\Output\OA30.Common.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="OA30.Common.Exception">
+      <HintPath>..\..\Output\OA30.Common.Exception.dll</HintPath>
+    </Reference>
+    <Reference Include="OA30.Common.Security">
+      <HintPath>..\..\Output\OA30.Common.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="OA30.LogCenter.Client">
+      <HintPath>..\..\output\OA30.LogCenter.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="OA30.LogCenter.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=225c7054730e8a94, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\output\OA30.LogCenter.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="OA30.SuperviseMission.Common.Configuration, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\OA30.SuperviseMission.Common.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="OA30.SuperviseMission.Common.Interface.MissionBase, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\OA30.SuperviseMission.Common.Interface.MissionBase.dll</HintPath>
+    </Reference>
+    <Reference Include="OA30.SuperviseMission.Common.PublicUtility, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\output\OA30.SuperviseMission.Common.PublicUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="OA30.TimingCallDispatcher">
+      <HintPath>..\..\output\OA30.TimingCallDispatcher.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.DataVisualization">
+      <HintPath>..\..\Output\System.Web.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BasicData\Index.aspx" />
+    <Content Include="BasicData\SmBasicDataAuthorizeManage.aspx" />
+    <Content Include="BasicData\SmBasicDataDeptAuthorizationManage.aspx" />
+    <Content Include="BasicData\SmBasicDataOperationAuthorizationManage.aspx" />
+    <Content Include="BasicData\SmBasicDataPersonalDeptGroupManage.aspx" />
+    <Content Include="BasicData\SmBasicDataOpinionTypeManage.aspx" />
+    <Content Include="BasicData\SmBasicDtataDeptDefaultLeaderManage.aspx" />
+    <Content Include="BasicData\SmSystemTypeDefintionManage.aspx" />
+    <Content Include="BasicData\SmBasicDataSuperviseNumberManage.aspx" />
+    <Content Include="BasicData\SmBasicDtataDeptRoleManage.aspx" />
+    <Content Include="BasicData\SmOpreationLogManage.aspx" />
+    <Content Include="BasicData\SmSystemRoleManage.aspx" />
+    <Content Include="BasicData\SmSystemStepManage.aspx" />
+    <Content Include="BasicData\SmSystemStepRoleManage.aspx" />
+    <Content Include="BasicData\SmSystemWorkFlowFreeManage.aspx" />
+    <Content Include="BasicData\SmSystemWorkFlowStaticDetailManage.aspx" />
+    <Content Include="BasicData\SmSystemWorkFlowStaticManage.aspx" />
+    <Content Include="Css\bootstrap-select.css" />
+    <Content Include="Css\bootstrap-table.css" />
+    <Content Include="Css\bootstrap.css" />
+    <Content Include="Css\ie.css" />
+    <Content Include="Css\picker.css" />
+    <Content Include="Css\reset.css" />
+    <Content Include="Css\smtheme.css" />
+    <Content Include="Css\style.css" />
+    <Content Include="Css\WdatePicker.css" />
+    <Content Include="DownFileBase.aspx" />
+    <Content Include="DownLoadAttachment.aspx" />
+    <Content Include="ErrorPage.aspx" />
+    <Content Include="Font\glyphicons-halflings-regular.svg" />
+    <Content Include="Font\iconfont.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Image\face.jpg" />
+    <Content Include="Image\icon-ext.png" />
+    <Content Include="Image\icon.png" />
+    <Content Include="Image\icon_error.png" />
+    <Content Include="Image\icon_search.png" />
+    <Content Include="Image\icon_text.png" />
+    <Content Include="Image\loading-0.gif" />
+    <Content Include="Image\loading-1.gif" />
+    <Content Include="Image\loading-2.gif" />
+    <Content Include="Image\no-auth.png" />
+    <Content Include="LeaderMeetingMission.aspx" />
+    <Content Include="LeaderMeetingMissionChangeModify.aspx" />
+    <Content Include="LeaderMeetingMissionChangeModifyAudit.aspx" />
+    <Content Include="LeaderMeetingMissionChangeModifyDetail.aspx" />
+    <Content Include="LeaderMeetingMissionDetail.aspx" />
+    <Content Include="MainPage.aspx" />
+    <Content Include="New.aspx" />
+    <Content Include="NewYear.aspx" />
+    <Content Include="Pending.aspx" />
+    <Content Include="Script\AJAX.js" />
+    <Content Include="Script\app.js" />
+    <Content Include="Script\bootstrap-select.js" />
+    <Content Include="Script\bootstrap-table-export.js" />
+    <Content Include="Script\bootstrap-table-zh-CN.js" />
+    <Content Include="Script\bootstrap-table.js" />
+    <Content Include="Script\bootstrap.js" />
+    <Content Include="Script\call.js" />
+    <Content Include="Script\common.js" />
+    <Content Include="Script\cs-opinion.js" />
+    <Content Include="Script\cs-page.js" />
+    <Content Include="Script\cs-table.js" />
+    <Content Include="Script\demo.js" />
+    <Content Include="Script\dept.js" />
+    <Content Include="Script\Form-validator.js" />
+    <Content Include="Script\ie.js" />
+    <Content Include="Script\iframeResizer.contentWindow.min.js" />
+    <Content Include="Script\iframeResizer.min.js" />
+    <Content Include="Script\jquery-1.11.0.min.js" />
+    <Content Include="Script\jquery.fileupload.js" />
+    <Content Include="Script\jquery.iframe-transport.js" />
+    <Content Include="Script\jquery.js" />
+    <Content Include="Script\jquery.ui.widget.js" />
+    <Content Include="Script\jquery.validate.js" />
+    <Content Include="Script\LeaderMeetingMissionDetail.js" />
+    <Content Include="Script\lodash.js" />
+    <Content Include="Script\main.js" />
+    <Content Include="Script\man.js" />
+    <Content Include="Script\MergeTableCell.js" />
+    <Content Include="Script\moment.js" />
+    <Content Include="Script\mustache.js" />
+    <Content Include="Script\picker.js" />
+    <Content Include="Script\require.js" />
+    <Content Include="Script\row.js" />
+    <Content Include="Script\state.js" />
+    <Content Include="Script\tableExport.js" />
+    <Content Include="Script\toast.js" />
+    <Content Include="Script\WdatePicker.js" />
+    <Content Include="Statistics\Export.ToExcel.aspx" />
+    <Content Include="Statistics\SmMainListStatistics.aspx" />
+    <Content Include="SuperivseMissionFormManage.aspx" />
+    <Content Include="SuperviseMissionDelayModifyEnd.aspx" />
+    <Content Include="SuperviseMissionDelayModifyEndChangeAudit.aspx" />
+    <Content Include="SuperviseMissionDelayModifyEndDetail.aspx" />
+    <Content Include="SuperviseMissionDetail.aspx" />
+    <Content Include="SuperviseMissionExport.aspx" />
+    <Content Include="SuperviseMissionImport.aspx" />
+    <Content Include="SuperviseMissionIndex.aspx" />
+    <Content Include="SuperviseMissionPageList.aspx" />
+    <Content Include="TranslatePage.aspx" />
+    <Content Include="UrlAttackPage.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="WebServices\LeaderMeetingMissionWebService.asmx" />
+    <Content Include="WebServices\ManagerToolWebService.asmx" />
+    <Content Include="WebServices\SuperviseMissionWebServices.asmx" />
+    <Content Include="YearImportantMission.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BasicData\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BasicData\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BasicData\SmBasicDataAuthorizeManage.aspx.cs">
+      <DependentUpon>SmBasicDataAuthorizeManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BasicData\SmBasicDataAuthorizeManage.aspx.designer.cs">
+      <DependentUpon>SmBasicDataAuthorizeManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BasicData\SmBasicDataDeptAuthorizationManage.aspx.cs">
+      <DependentUpon>SmBasicDataDeptAuthorizationManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BasicData\SmBasicDataDeptAuthorizationManage.aspx.designer.cs">
+      <DependentUpon>SmBasicDataDeptAuthorizationManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BasicData\SmBasicDataOperationAuthorizationManage.aspx.cs">
+      <DependentUpon>SmBasicDataOperationAuthorizationManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BasicData\SmBasicDataOperationAuthorizationManage.aspx.designer.cs">
+      <DependentUpon>SmBasicDataOperationAuthorizationManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BasicData\SmBasicDataPersonalDeptGroupManage.aspx.cs">
+      <DependentUpon>SmBasicDataPersonalDeptGroupManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BasicData\SmBasicDataPersonalDeptGroupManage.aspx.designer.cs">
+      <DependentUpon>SmBasicDataPersonalDeptGroupManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BasicData\SmBasicDataOpinionTypeManage.aspx.cs">
+      <DependentUpon>SmBasicDataOpinionTypeManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BasicData\SmBasicDataOpinionTypeManage.aspx.designer.cs">
+      <DependentUpon>SmBasicDataOpinionTypeManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BasicData\SmBasicDtataDeptDefaultLeaderManage.aspx.cs">
+      <DependentUpon>SmBasicDtataDeptDefaultLeaderManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BasicData\SmBasicDtataDeptDefaultLeaderManage.aspx.designer.cs">
+      <DependentUpon>SmBasicDtataDeptDefaultLeaderManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BasicData\SmSystemTypeDefintionManage.aspx.cs">
+      <DependentUpon>SmSystemTypeDefintionManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BasicData\SmSystemTypeDefintionManage.aspx.designer.cs">
+      <DependentUpon>SmSystemTypeDefintionManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BasicData\SmBasicDataSuperviseNumberManage.aspx.cs">
+      <DependentUpon>SmBasicDataSuperviseNumberManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BasicData\SmBasicDataSuperviseNumberManage.aspx.designer.cs">
+      <DependentUpon>SmBasicDataSuperviseNumberManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BasicData\SmBasicDtataDeptRoleManage.aspx.cs">
+      <DependentUpon>SmBasicDtataDeptRoleManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BasicData\SmBasicDtataDeptRoleManage.aspx.designer.cs">
+      <DependentUpon>SmBasicDtataDeptRoleManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BasicData\SmOpreationLogManage.aspx.cs">
+      <DependentUpon>SmOpreationLogManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BasicData\SmOpreationLogManage.aspx.designer.cs">
+      <DependentUpon>SmOpreationLogManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BasicData\SmSystemRoleManage.aspx.cs">
+      <DependentUpon>SmSystemRoleManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BasicData\SmSystemRoleManage.aspx.designer.cs">
+      <DependentUpon>SmSystemRoleManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BasicData\SmSystemStepManage.aspx.cs">
+      <DependentUpon>SmSystemStepManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BasicData\SmSystemStepManage.aspx.designer.cs">
+      <DependentUpon>SmSystemStepManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BasicData\SmSystemStepRoleManage.aspx.cs">
+      <DependentUpon>SmSystemStepRoleManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BasicData\SmSystemStepRoleManage.aspx.designer.cs">
+      <DependentUpon>SmSystemStepRoleManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BasicData\SmSystemWorkFlowFreeManage.aspx.cs">
+      <DependentUpon>SmSystemWorkFlowFreeManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BasicData\SmSystemWorkFlowFreeManage.aspx.designer.cs">
+      <DependentUpon>SmSystemWorkFlowFreeManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BasicData\SmSystemWorkFlowStaticDetailManage.aspx.cs">
+      <DependentUpon>SmSystemWorkFlowStaticDetailManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BasicData\SmSystemWorkFlowStaticDetailManage.aspx.designer.cs">
+      <DependentUpon>SmSystemWorkFlowStaticDetailManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BasicData\SmSystemWorkFlowStaticManage.aspx.cs">
+      <DependentUpon>SmSystemWorkFlowStaticManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BasicData\SmSystemWorkFlowStaticManage.aspx.designer.cs">
+      <DependentUpon>SmSystemWorkFlowStaticManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DownFileBase.aspx.cs">
+      <DependentUpon>DownFileBase.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DownFileBase.aspx.designer.cs">
+      <DependentUpon>DownFileBase.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DownLoadAttachment.aspx.cs">
+      <DependentUpon>DownLoadAttachment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DownLoadAttachment.aspx.designer.cs">
+      <DependentUpon>DownLoadAttachment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorPage.aspx.cs">
+      <DependentUpon>ErrorPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ErrorPage.aspx.designer.cs">
+      <DependentUpon>ErrorPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="LeaderMeetingMission.aspx.cs">
+      <DependentUpon>LeaderMeetingMission.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LeaderMeetingMission.aspx.designer.cs">
+      <DependentUpon>LeaderMeetingMission.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LeaderMeetingMissionChangeModify.aspx.cs">
+      <DependentUpon>LeaderMeetingMissionChangeModify.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LeaderMeetingMissionChangeModify.aspx.designer.cs">
+      <DependentUpon>LeaderMeetingMissionChangeModify.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LeaderMeetingMissionChangeModifyAudit.aspx.cs">
+      <DependentUpon>LeaderMeetingMissionChangeModifyAudit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LeaderMeetingMissionChangeModifyAudit.aspx.designer.cs">
+      <DependentUpon>LeaderMeetingMissionChangeModifyAudit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LeaderMeetingMissionChangeModifyDetail.aspx.cs">
+      <DependentUpon>LeaderMeetingMissionChangeModifyDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LeaderMeetingMissionChangeModifyDetail.aspx.designer.cs">
+      <DependentUpon>LeaderMeetingMissionChangeModifyDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LeaderMeetingMissionDetail.aspx.cs">
+      <DependentUpon>LeaderMeetingMissionDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LeaderMeetingMissionDetail.aspx.designer.cs">
+      <DependentUpon>LeaderMeetingMissionDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.aspx.cs">
+      <DependentUpon>MainPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MainPage.aspx.designer.cs">
+      <DependentUpon>MainPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="New.aspx.cs">
+      <DependentUpon>New.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="New.aspx.designer.cs">
+      <DependentUpon>New.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewYear.aspx.cs">
+      <DependentUpon>NewYear.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewYear.aspx.designer.cs">
+      <DependentUpon>NewYear.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pending.aspx.cs">
+      <DependentUpon>Pending.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pending.aspx.designer.cs">
+      <DependentUpon>Pending.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Statistics\Export.ToExcel.aspx.cs">
+      <DependentUpon>Export.ToExcel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Statistics\Export.ToExcel.aspx.designer.cs">
+      <DependentUpon>Export.ToExcel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Statistics\SmMainListStatistics.aspx.cs">
+      <DependentUpon>SmMainListStatistics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Statistics\SmMainListStatistics.aspx.designer.cs">
+      <DependentUpon>SmMainListStatistics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Statistics\StatisticHelper.cs" />
+    <Compile Include="SuperivseMissionFormManage.aspx.cs">
+      <DependentUpon>SuperivseMissionFormManage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SuperivseMissionFormManage.aspx.designer.cs">
+      <DependentUpon>SuperivseMissionFormManage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SuperviseMissionDelayModifyEnd.aspx.cs">
+      <DependentUpon>SuperviseMissionDelayModifyEnd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SuperviseMissionDelayModifyEnd.aspx.designer.cs">
+      <DependentUpon>SuperviseMissionDelayModifyEnd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SuperviseMissionDelayModifyEndChangeAudit.aspx.cs">
+      <DependentUpon>SuperviseMissionDelayModifyEndChangeAudit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SuperviseMissionDelayModifyEndChangeAudit.aspx.designer.cs">
+      <DependentUpon>SuperviseMissionDelayModifyEndChangeAudit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SuperviseMissionDelayModifyEndDetail.aspx.cs">
+      <DependentUpon>SuperviseMissionDelayModifyEndDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SuperviseMissionDelayModifyEndDetail.aspx.designer.cs">
+      <DependentUpon>SuperviseMissionDelayModifyEndDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SuperviseMissionDetail.aspx.cs">
+      <DependentUpon>SuperviseMissionDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SuperviseMissionDetail.aspx.designer.cs">
+      <DependentUpon>SuperviseMissionDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SuperviseMissionExport.aspx.cs">
+      <DependentUpon>SuperviseMissionExport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SuperviseMissionExport.aspx.designer.cs">
+      <DependentUpon>SuperviseMissionExport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SuperviseMissionImport.aspx.cs">
+      <DependentUpon>SuperviseMissionImport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SuperviseMissionImport.aspx.designer.cs">
+      <DependentUpon>SuperviseMissionImport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SuperviseMissionIndex.aspx.cs">
+      <DependentUpon>SuperviseMissionIndex.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SuperviseMissionIndex.aspx.designer.cs">
+      <DependentUpon>SuperviseMissionIndex.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SuperviseMissionPageList.aspx.cs">
+      <DependentUpon>SuperviseMissionPageList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SuperviseMissionPageList.aspx.designer.cs">
+      <DependentUpon>SuperviseMissionPageList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TranslatePage.aspx.cs">
+      <DependentUpon>TranslatePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TranslatePage.aspx.designer.cs">
+      <DependentUpon>TranslatePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UrlAttackPage.aspx.cs">
+      <DependentUpon>UrlAttackPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UrlAttackPage.aspx.designer.cs">
+      <DependentUpon>UrlAttackPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebServices\BaseWebService.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WebServices\CommonEntitys\AgreeItem.cs" />
+    <Compile Include="WebServices\CommonEntitys\DeptNameIdList.cs" />
+    <Compile Include="WebServices\CommonEntitys\HistoryFlow.cs" />
+    <Compile Include="WebServices\CommonEntitys\RemoveTargetOrItem.cs" />
+    <Compile Include="WebServices\CommonEntitys\SubMeasureItem.cs" />
+    <Compile Include="WebServices\CommonEntitys\SuperviseMissionExcelImportTips.cs" />
+    <Compile Include="WebServices\CommonEntitys\Target.cs" />
+    <Compile Include="WebServices\CommonEntitys\TargetItem.cs" />
+    <Compile Include="WebServices\LeaderMeetingMissionWebService.asmx.cs">
+      <DependentUpon>LeaderMeetingMissionWebService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WebServices\ManagerToolWebService.asmx.cs">
+      <DependentUpon>ManagerToolWebService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WebServices\RequestEntitys\FreeFlowSendRequestEntity.cs" />
+    <Compile Include="WebServices\RequestEntitys\LeaderMeetingMeasureRequestEntity.cs" />
+    <Compile Include="WebServices\RequestEntitys\LeaderMeetingMissionRequestEntity.cs" />
+    <Compile Include="WebServices\RequestEntitys\SmFlowFinishAndWaitingEntity.cs" />
+    <Compile Include="WebServices\RequestEntitys\SmFlowFinishAndWaitingRequestEntity.cs" />
+    <Compile Include="WebServices\RequestEntitys\BaseRequestParameter.cs" />
+    <Compile Include="WebServices\RequestEntitys\TargetItemLateRequestEntity.cs" />
+    <Compile Include="WebServices\RequestEntitys\Page10RequestEntity.cs" />
+    <Compile Include="WebServices\RequestEntitys\StatisticsPageListRequestEntity.cs" />
+    <Compile Include="WebServices\ResponseEntitys\HistoryFeedbackResponse.cs" />
+    <Compile Include="WebServices\ResponseEntitys\ChangeRecordResponse.cs" />
+    <Compile Include="WebServices\ResponseEntitys\HistoryResponse.cs" />
+    <Compile Include="WebServices\ResponseEntitys\LeaderMeetingMainDeptResponeEntity.cs" />
+    <Compile Include="WebServices\ResponseEntitys\MeasureResponseEntity.cs" />
+    <Compile Include="WebServices\ResponseEntitys\MissionFeedbackResponeseEntity.cs" />
+    <Compile Include="WebServices\ResponseEntitys\MyGroupDeptListResponse.cs" />
+    <Compile Include="WebServices\ResponseEntitys\MyGroupListResponse.cs" />
+    <Compile Include="WebServices\ResponseEntitys\NextStepResponse.cs" />
+    <Compile Include="WebServices\ResponseEntitys\PrevStepInformationForBgtmbqrResponse.cs" />
+    <Compile Include="WebServices\ResponseEntitys\SmMainPageListResponseEntity.cs" />
+    <Compile Include="WebServices\ResponseEntitys\StatisticsPageListResponseEntity.cs" />
+    <Compile Include="WebServices\ResponseEntitys\SubMeasureResponseEntity.cs" />
+    <Compile Include="WebServices\ResponseEntitys\SuperviseMissionExcelImportResponseEntity.cs" />
+    <Compile Include="WebServices\ResponseEntitys\SuperviseMissionResponse.cs" />
+    <Compile Include="WebServices\ResponseEntitys\SuperviseNumberResponseEntity.cs" />
+    <Compile Include="WebServices\SuperviseMissionWebServices.asmx.cs">
+      <DependentUpon>SuperviseMissionWebServices.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="YearImportantMission.aspx.cs">
+      <DependentUpon>YearImportantMission.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YearImportantMission.aspx.designer.cs">
+      <DependentUpon>YearImportantMission.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DataAccess.config" />
+    <Content Include="RemoteAccess.AppBiz.config" />
+    <Content Include="Font\glyphicons-halflings-regular.eot" />
+    <Content Include="Font\glyphicons-halflings-regular.ttf" />
+    <Content Include="Font\glyphicons-halflings-regular.woff" />
+    <Content Include="Font\glyphicons-halflings-regular.woff2" />
+    <Content Include="Font\iconfont.eot" />
+    <Content Include="Font\iconfont.ttf" />
+    <Content Include="Font\iconfont.woff" />
+    <None Include="Properties\PublishProfiles\SmPublish.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\BIZ\OA30.SuperviseMission.Biz.WorkFlow\OA30.SuperviseMission.Biz.WorkFlow.csproj">
+      <Project>{F5A65051-5DAA-44DF-A57A-DA0D6E82C787}</Project>
+      <Name>OA30.SuperviseMission.Biz.WorkFlow</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\BIZ\OA30.SuperviseMission.Biz\OA30.SuperviseMission.Biz.csproj">
+      <Project>{7B5590C1-CE30-4CFE-AC95-2BDAB83EF871}</Project>
+      <Name>OA30.SuperviseMission.Biz</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\OA30.SuperviseMission.Common.Entity.MissionBase\OA30.SuperviseMission.Common.Entity.MissionBase.csproj">
+      <Project>{DAD9B3BD-7D63-4092-A006-1A9595E64054}</Project>
+      <Name>OA30.SuperviseMission.Common.Entity.MissionBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\OA30.SuperviseMission.Common.Entity.Mission\OA30.SuperviseMission.Common.Entity.Mission.csproj">
+      <Project>{1DA2B69E-B09C-484F-882E-E248E84F7343}</Project>
+      <Name>OA30.SuperviseMission.Common.Entity.Mission</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\OA30.SuperviseMission.Common.Interface.Mission\OA30.SuperviseMission.Common.Interface.Mission.csproj">
+      <Project>{371F37CB-E29A-430F-8849-46654E3E55A8}</Project>
+      <Name>OA30.SuperviseMission.Common.Interface.Mission</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\RemoteAccess\OA30.SuperviseMission.RemoteAccess.Client\OA30.SuperviseMission.RemoteAccess.Client.csproj">
+      <Project>{2816988F-96BE-4EA4-A395-E71EC81376FA}</Project>
+      <Name>OA30.SuperviseMission.RemoteAccess.Client</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OA30.SuperviseMission.UI.CommonComponents\OA30.SuperviseMission.UI.CommonComponents.csproj">
+      <Project>{D80469B8-A4ED-4AA5-A7AE-F41C7C4FD0DE}</Project>
+      <Name>OA30.SuperviseMission.UI.CommonComponents</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OA30.SuperviseMission.UI.WebSiteInfo\OA30.SuperviseMission.UI.WebSiteInfo.csproj">
+      <Project>{839BF6F9-F330-425B-A60D-06A9F4515F0E}</Project>
+      <Name>OA30.SuperviseMission.UI.WebSiteInfo</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controls\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <SaveServerSettingsInUserFile>True</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

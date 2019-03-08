@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>督办系统</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../Css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../Css/picker.css">
+	<link rel="stylesheet" type="text/css" href="../Css/style.css">
+</head>
+<body>
+
+	<div class="main">
+		<div class="top-nav">
+	<ul class="breadcrumb">
+	  <li><a href="#">管理</a></li>
+	  <li class="active">角色管理</li>
+	</ul>
+	<a href="" class="iconfont icon-sv-back" href='index.html'></a>
+</div>
+
+
+			<div class="search-part search-part-2">
+	<div class="search-control-2">
+		<div class="row">
+			<div class="col col-lg-4 col-md-4 col-sm-4 col-xs-4">
+				<div class="form-group clearfix">
+					<label for="" class="col-sm-4 control-label">主办单位</label>
+					<div class="col-sm-8 dropdown">
+					  <input type="text" class="form-control" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" id="inputCompany" placeholder="请选择主办单位">
+					  <span class="iconfont icon-sv-add form-control-feedback" aria-hidden="true"></span>
+
+					  
+
+					  <ul class="list-unstyled dropdown-menu" aria-labelledby="dLabel" data-toggle="search">
+					  
+					  		<li><div class="radio">
+					  			<label><input type="radio" name="radio" checked />
+					  			南航信息中心</label></div></li>
+					  
+					  		<li><div class="radio">
+					  			<label><input type="radio" name="radio"  />
+					  			南航财务部</label></div></li>
+					  
+					  		<li><div class="radio">
+					  			<label><input type="radio" name="radio"  />
+					  			南航飞行部</label></div></li>
+					  
+					  		<li><div class="radio">
+					  			<label><input type="radio" name="radio"  />
+					  			南航保障部</label></div></li>
+					  
+					  		<li><div class="radio">
+					  			<label><input type="radio" name="radio" checked />
+					  			南航研究院</label></div></li>
+					  
+					  		<li><div class="radio">
+					  			<label><input type="radio" name="radio"  />
+					  			南航物业</label></div></li>
+					  
+					  </ul>
+					</div>
+				</div>
+				<div class="form-group clearfix dropdown">
+					<label for="" class="col-sm-4 control-label">督查任务类型</label>
+					<div class="col-sm-8">
+					  <input type="text" class="form-control" data-toggle="dropdown" placeholder="督查任务类型">
+					  <span class="iconfont icon-sv-add form-control-feedback" aria-hidden="true"></span>
+					  <span class="iconfont icon-sv-add form-control-feedback" aria-hidden="true" data-toggle="dropdown" role="button"></span>
+
+					  
+					  <ul class="list-unstyled dropdown-menu">
+					  
+					  		<li>
+					  			<input type="checkbox"  />
+					  			<label>年度重点</label></li>
+					  
+					  		<li>
+					  			<input type="checkbox"  />
+					  			<label>总经理督办</label></li>
+					  
+					  		<li>
+					  			<input type="checkbox"  />
+					  			<label>领导督办</label></li>
+					  
+					  		<li>
+					  			<input type="checkbox" checked />
+					  			<label>其他重点</label></li>
+					  
+					  </ul>
+					</div>
+				</div>
+			</div>
+			<div class="col col-lg-4 col-md-4 col-sm-4 col-xs-4">
+				<div class="form-group clearfix">
+					<label for="" class="col-sm-4 control-label">主管领导</label>
+					<div class="col-sm-8">
+					  <input type="text" class="form-control" id="" placeholder="主管领导">
+					</div>
+				</div>
+				<div class="form-group clearfix status-col">
+					<label for="" class="col-sm-4 control-label">关键词搜索</label>
+					<div class="col-sm-8">
+					  <input type="text" class="form-control " id="inputStatus" placeholder="关键词搜索" role="button">
+					</div>
+				</div>	
+			</div>
+			<div class="col col-lg-4 col-md-4 col-sm-4 col-xs-4">
+				<div class="form-group clearfix">
+					<label for="" class="col-sm-3 control-label">协管领导</label>
+					<div class="col-sm-9">
+					  <input type="text" class="form-control" id="" placeholder="协管领导">
+					</div>
+				</div>
+				<div class="form-group clearfix status-col dropdown">
+					<label for="" class="col-sm-3 control-label">状态</label>
+					<div class="col-sm-9">
+					  <input type="text" class="form-control " id="inputStatus" placeholder="请选择状态" data-toggle="dropdown" role="button">
+					  <span class="iconfont icon-sv-add form-control-feedback" aria-hidden="true" data-toggle="dropdown" role="button"></span>
+
+					  
+					  <ul class="list-unstyled dropdown-menu">
+					  
+					  		<li>
+					  			<input type="checkbox" checked />
+					  			<label>拟稿</label></li>
+					  
+					  		<li>
+					  			<input type="checkbox"  />
+					  			<label>任务分解中</label></li>
+					  
+					  		<li>
+					  			<input type="checkbox"  />
+					  			<label>分解审批中</label></li>
+					  
+					  		<li>
+					  			<input type="checkbox"  />
+					  			<label>任务确认中</label></li>
+					  
+					  		<li>
+					  			<input type="checkbox" checked />
+					  			<label>任务推进中</label></li>
+					  
+					  		<li>
+					  			<input type="checkbox"  />
+					  			<label>任务办结</label></li>
+					  
+					  </ul>
+					</div>
+				</div>	
+			</div>
+		</div>
+		<div class="form-group">
+			<button class="btn btn-primary-s btn-group">查询</button>
+			<button class="btn btn-default-s btn-group">清空</button>
+			<button class="btn btn-default-s btn-group">导出</button>
+		</div>
+	</div>
+</div>
+		
+		<div class="table-page">
+			
+			<table class="table table-bordered table-static-width">
+				<thead>
+					
+						<th>序号</th>
+					
+						<th>督办编号</th>
+					
+						<th>重点工作任务</th>
+					
+						<th>任务进度</th>
+					
+						<th>主管领导</th>
+					
+						<th>协管领导</th>
+					
+						<th>主办单位</th>
+					
+						<th>年度目标</th>
+					
+						<th>状态</th>
+					
+						<th>目标进度</th>
+					
+						<th>措施流水号</th>
+					
+						<th>措施</th>
+					
+						<th>完成时间</th>
+					
+						<th>措施进度</th>
+					
+						<th>责任处室</th>
+					
+						<th>子措施</th>
+					
+						<th>子措施进度</th>
+					
+						<th>责任人</th>
+					
+				</thead>
+				<tbody>
+					
+						<tr>
+							
+								
+									<td rowspan="10">1</td>
+									<td rowspan="10" style="width:140px;">南航集团督办2018</td>
+									<td rowspan="10" style="width:180px;">这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试</td>
+									<td rowspan="10">80%</td>
+									<td rowspan="10">王苍顺</td>
+									<td rowspan="10"><span>张三</span><span>李四</span><span>王五</span><span>巴六</span></td>
+									<td rowspan="10" style="width:110px;">战略规划投资部</td>
+									<td rowspan="10" style="width:180px;">制定《世界一流航空运输企业纲要》</td>
+									<td rowspan="10">任务进行中</td>
+									<td rowspan="10">20%</td>
+								
+							
+							<td style="width:65px;">1</td>
+							<td>制定实施方案</td>
+							<td>2月7日</td>
+							<td>10%</td>
+							<td></td>
+							<td>1</td>
+							<td>20%</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							
+							<td style="width:65px;">2</td>
+							<td>成立编制领导小组和办公室</td>
+							<td>2月8日</td>
+							<td>10%</td>
+							<td></td>
+							<td>1</td>
+							<td>20%</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							
+							<td style="width:65px;">3</td>
+							<td>工作小组</td>
+							<td>2月27日</td>
+							<td>10%</td>
+							<td></td>
+							<td>1</td>
+							<td>20%</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							
+							<td style="width:65px;">4</td>
+							<td>开展领导访谈</td>
+							<td>3月1日</td>
+							<td>10%</td>
+							<td></td>
+							<td>1</td>
+							<td>20%</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							
+							<td style="width:65px;">5</td>
+							<td>编写总体内容病统筹各工作编写战略重点</td>
+							<td>3月20日</td>
+							<td>10%</td>
+							<td></td>
+							<td>1</td>
+							<td>20%</td>
+							<td></td>
+						</tr>
+					
+						<tr>
+							
+							<td style="width:65px;">6</td>
+							<td>多轮修改并提交党组织、总经会审议</td>
+							<td>5月5日</td>
+							<td>10%</td>
+							<td></td>
+							<td>1</td>
+							<td>20%</td>
+							<td></td>
+						</tr>
+					
+				</tbody>
+			</table>
+		</div>
+		<div class="tar">
+				<nav aria-label="Page navigation" class="pagination">
+  
+</nav>
+
+			</div>
+	</div>
+</body></html>
+
+<script src="../Script/require.js"></script>
+<script>
+	require.config({
+		baseUrl:'../Script',
+	    paths: {
+	        jquery: 'jquery',
+	    },
+	    shim: {
+	        jquery: {
+	            exports: 'jquery'
+	        },
+	        bootstrap: {
+	            deps: ['jquery']
+	        }
+	    }
+	});
+	requirejs(['jquery','bootstrap'],function($){
+		$(document).on('click','#inputCompany',function(e){
+			$this = $(e.target)
+			$this.closest('.dropdown').find('.dropdown-menu li').show()
+		})
+		$(document).on('input propertychange','#inputCompany',function(e){
+			$this = $(e.target)
+			$this.closest('.dropdown').addClass('open')
+			$this.closest('.dropdown').find('.dropdown-menu input').each(function(){
+				var value = $(this).parent('label').text()
+				console.log(value.indexOf($this.val()))
+				if(value.indexOf($this.val()) > 0){
+					$(this).closest('li').show()
+				}else{
+					$(this).closest('li').hide()
+				}
+			})
+			if($this.val() === ''){
+				$this.closest('.dropdown').find('.dropdown-menu li').show()
+			}
+		})
+		$(document).on('change','.dropdown-menu input',function(e){
+			const event = $(e.target)
+			if(event.closest('.checkbox').hasClass('checkbox')){
+				let status = []
+				event.closest('.dropdown-menu').find('input').each(function(item){
+					const text = event.closest('label').text().trim()
+					if($(this).is(':checked')){
+						status.push($(this).closest('label').text().trim())
+					}
+				})
+				event.closest('.dropdown').find('.form-control').val(status.toString())
+			}else{
+				event.closest('.dropdown').find('.form-control').val(event.closest('label').text().trim())
+			}
+		})
+	})
+</script>

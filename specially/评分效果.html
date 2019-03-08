@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.app{
+				width: 300px;
+				margin: 0 auto;
+				margin-top:80px;
+				border: 1px solid blue;
+				text-align: center;
+			}
+			.li{
+				display: inline-block;
+				margin: 1 4px;
+				font-size: 39px;
+				cursor: pointer;
+			}
+			.li.acitve{
+				color: red;
+			}
+			.msg{
+				font-size: 20px;
+				width: 300px;
+				text-align: center;
+				margin: 0 auto;
+				padding: 5px 0;
+				font-size: 20px;
+				font-weight: 800;
+				color: deeppink;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<div class="app">
+			<div class="li">☆</div>
+			<div class="li">☆</div>
+			<div class="li">☆</div>
+			<div class="li">☆</div>
+			<div class="li">☆</div>
+		</div>
+		<div class="msg"></div>
+		
+		<script src="jquery 1.9.1.js"></script>
+		<script type="text/javascript">
+			var wjx_all = "★"; // 实心五角星
+    		var wjx_none = "☆"; // 空心五角星
+    		var index = "";
+    		var msgArr = ["1星评价","2星评价","3星评价","4星评价","5星评价"];
+    		
+			$(function(){
+				//给所有的.li 事件
+				$('.li').hover(function(){
+					// end()方法结束本站调到下一栈开始
+					
+					$(this).text(wjx_all).addClass('acitve')
+						.prevAll().text(wjx_all).addClass('acitve').end()
+							.nextAll().text(wjx_none).removeClass('acitve')
+						
+				},function(){
+					//所有。li 置空
+//					$('.li').text(wjx_none).removeClass('acitve')
+					$('.li').eq(index).text(wjx_all).addClass('acitve').prevAll().text(wjx_all).addClass('acitve').end()
+						.nextAll().text(wjx_none).removeClass('acitve')
+				})
+				$('.li').click(function(){
+					index = $(this).index();
+					$(this).text(wjx_all).addClass('acitve').prevAll().text(wjx_all).addClass('acitve').end()
+						.nextAll().text(wjx_none).removeClass('acitve')
+					
+					//评分
+					$('.msg').text(msgArr[index])
+					
+				})
+			})
+		</script>
+	</body>
+</html>

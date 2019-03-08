@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="js/jquery.ui.css" />
+	<style>
+		#zhuce{
+			display: none;
+		}
+		.app{
+			width: 300px;
+			margin: 0 auto;
+			margin-top: 90px;
+			padding:30px;
+			border: 1px solid pink;
+			text-align: center;
+		}
+		.app input{
+			display: inline-block;
+			line-height: 32px;
+			line-height: 32px;
+			width: 200px;
+			margin-left: 10px;
+			padding: 0 5px;
+		}
+		button{
+			width: 80px;
+			height: 40px;
+			margin: 0 auto;
+			cursor: pointer;
+		}
+		h3 {
+			text-align: center;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="header">
+		<h3>
+			<span>账号:</span>
+			<span class="zhname">？</span>
+		</h3>
+	</div>
+	<div class="app">
+		
+		<form action="" id="goin" method="POST">
+			<p>
+				<span>账号:</span>
+				<input type="text" name="name" class="name">
+			</p>
+			<p>
+				<span>密码</span>
+				<input type="password" name="password" class="password" id="password">
+			</p>
+			<p>
+				<span>确认密码</span>
+				<input type="password2" name="pwd2" class="pwd2">
+			</p>
+			<p>
+				<button class="goinbtn">登录</button>
+				<button type="button" class="zhucebtn">注册</button>
+			</p>
+		</form>
+		<form action="" id="zhuce" method="POST">
+			<p>
+				<span>账号:</span>
+				<input type="text" name="name" class="name">
+			</p>
+			<p>
+				<span>密码</span>
+				<input type="password" name="pwd" id="pwd" class="pwd">
+			</p>
+			<p>
+				<button class="btn">提交</button>
+			</p>
+		</form>
+	</div>
+
+
+	<script src="js/jquery 1.9.1.js"></script>
+	<script src="js/jquery.ui.js"></script>	
+	<script src="js/jquery.validate.js"></script>
+	<script src="js/jquery.cookie.js"></script>
+	
+	<script>
+		$(function () {
+
+			$.cookie('use',"jkjkjkjk");
+
+			console.log($.cookie('use'))
+			
+
+			//写验证规则
+			$('#goin').validate({
+				rules:{
+					name:{
+						required:true,
+						minlength:2
+					},
+					password:{
+						required:true,
+						minlength:6
+					},
+					pwd2:{
+						required:true,
+						equalTo: "#password"
+					}
+				},
+				messages:{
+					name:{
+						required:"请输入账号",
+						minlength:"用户名必需由两个字母组成"
+					},
+					password:{
+						required:"请输入密码",
+						minlength:"用户名必需由6位字符组成"
+					},
+					pwd2:{
+						required:"请输入验证码",
+						equalTo: "两次密码输入不一致"
+					}
+				},
+				submitHandler:function(){
+					var name = $.trim($('#goin .name').val())
+					var pwd = $.trim($('#goin .password').val())
+					console.log(name,pwd)
+
+					//创建coohie 存下z账号 密码  模拟
+
+					if($.cookie('user') && name==$.cookie('user') && $.cookie('password')==pwd){
+						alert("登录啦")
+					}else{
+						alert("账号密码不正确，请去注册！")
+					}
+				
+				}
+			})
+
+
+
+			//写验证规则
+			$('#zhuce').validate({
+				rules:{
+					name:{
+						required:true,
+						minlength:2
+					},
+					pwd:{
+						required:true,
+						minlength:6
+					}
+				},
+				messages:{
+					name:{
+						required:"请输入账号",
+						minlength:"用户名必需由两个字母组成"
+					},
+					pwd:{
+						required:"请输入密码",
+						minlength:"用户名必需由6位字符组成"
+					}
+				},
+				submitHandler:function(){
+					var name = $.trim($('#zhuce .name').val())
+					var pwd = $.trim($('#zhuce .pwd').val())
+					console.log(name,pwd)
+
+					//创建coohie 存下z账号 密码  模拟
+
+					if($.cookie('user') && name==$.cookie('user')){
+						alert("已有该账号，请另外取名")
+					}else{
+						$.cookie("user",name,{
+							expires : 7
+						})
+						$.cookie("password",pwd,{
+							expires : 7
+						})
+						$('#goin').show()
+						$('#zhuce').hide()
+						$('#zhuce')[0].reset()
+						$('#goin')[0].reset()
+						$('.zhname').text($.cookie('user'))
+						console.log($.cookie("user"))
+					}
+				
+				}
+			})
+
+
+
+			// 登录名称
+			$('.zhname').text($.cookie('user'))
+			
+			//登录
+			$('.goinbtn').on('click',function(){
+				//判断是已经登录
+				var name = $.trim($('#goin .name').val())
+				var pwd = $.trim($('#goin .password').val())
+
+				console.log(name,pwd)
+
+
+			})
+
+
+			//注册
+			$('.zhucebtn').on('click',function(){
+				$('#goin').hide()
+				$('#zhuce').show()
+				$('#zhuce')[0].reset()
+				$('#goin')[0].reset()
+			})
+
+		})
+	</script>
+</body>
+
+</html>

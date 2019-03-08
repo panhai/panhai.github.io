@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin:0;
+				padding:0;
+			}
+			body{
+				height: 1500px !important;
+			}
+			html,body {
+				display:flex;
+				width:100%;
+				height:100%;
+				background:#f7f7f7;
+				align-389items:center;
+			}
+			.cloverBox{
+				width: 500px;
+				height:500px;
+				margin: 0 auto;
+				background-color: #000;
+				position: absolute;
+				left: 50%;
+				margin-left: -250px;
+				animation: move 20s linear infinite;
+			}
+			@-moz-keyframes move{
+				from{
+					transform: rotateZ(0deg);
+				}
+				to{
+					transform: rotateZ(360deg);
+				}
+			}
+			@keyframes move{
+				from{
+					transform: rotateZ(0deg);
+				}
+				to{
+					transform: rotateZ(360deg);
+				}
+			}
+			.cloverBox:hover{
+				opacity: 0.7;
+				-webkit-animation-play-state:paused; /* Safari 和 Chrome 停止动画*/
+				animation-play-state: paused;
+			}
+			.cir{
+				position: absolute;
+				left: 0;
+				right: 0;
+				top: 0;
+				bottom: 0;
+				margin: auto;
+				width: 40px;
+				height:40px;
+				background-color: blue;
+				border-radius: 50%;
+			}
+			.clover{
+				width: 250px;
+				height: 250px;
+				float: left;
+			}
+			.clover:hover{
+				/*尺寸变成原来的80%*/
+				transform: scale(0.8); 
+				/*过度*/
+				transition: all 0.7s;
+			}
+			.steep{
+				position: absolute;
+				right: 50px;
+				width: 100px;
+				border: 2px solid red;
+			}
+			.steep span{
+				display: block;
+				width: 100%;
+				padding: 10px 0;
+				cursor: pointer;
+				font-weight: 600;
+				font-size: 20px;
+				text-align:center;
+			}
+			.steep span.active{
+				background-color: green;
+				color: white;
+			}
+
+			.c1{
+				/*  border-top-left-radius:2em;
+					border-top-right-radius:2em;
+					border-bottom-right-radius:2em;
+					border-bottom-left-radius:2em;
+				*/
+				/*border-radius: 0 50% 0 50%;*/
+				border-top-left-radius:0;
+				border-top-right-radius:50%;
+				border-bottom-right-radius:0;
+				border-bottom-left-radius:50%;
+				background-color: pink;
+			}
+			.c2{
+				/*  border-top-left-radius:2em;
+					border-top-right-radius:2em;
+					border-bottom-right-radius:2em;
+					border-bottom-left-radius:2em;
+				*/
+				/*border-radius: 0 50% 0 50%;*/
+				border-top-left-radius:50%;
+				border-top-right-radius:0;
+				border-bottom-right-radius:50%;
+				border-bottom-left-radius:0;
+			    background:#A82125;
+			}
+			.c3{
+				/*  border-top-left-radius:2em;
+					border-top-right-radius:2em;
+					border-bottom-right-radius:2em;
+					border-bottom-left-radius:2em;
+				*/
+				/*border-radius: 0 50% 0 50%;*/
+				border-top-left-radius:50%;
+				border-top-right-radius:0;
+				border-bottom-right-radius:50%;
+				border-bottom-left-radius:0;
+				background:#88DD3E;
+			}
+			.c4{
+				/*  border-top-left-radius:2em;
+					border-top-right-radius:2em;
+					border-bottom-right-radius:2em;
+					border-bottom-left-radius:2em;
+				*/
+				/*border-radius: 0 50% 0 50%;*/
+				border-top-left-radius:0;
+				border-top-right-radius:50%;
+				border-bottom-right-radius:0;
+				border-bottom-left-radius:50%;
+				background:#1EA8D7;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<div class="cloverBox">
+		    <div class="clover c1"></div>
+		    <div class="clover c2"></div>
+		    <div class="clover c3"></div>
+		    <div class="clover c4"></div>
+		    <div class="cir"></div>
+		</div>
+		
+		<div class="steep">
+			<span class="list active" data-speed="20">一级速度</span>
+			<span class="list" data-speed="15">二级速度</span>
+			<span class="list" data-speed="10">三级速度</span>
+			<span class="list" data-speed="5">四级速度</span>
+			<span  class="add">+</span>
+			<span  class="del">-</span>
+			<span  class="fz">反转</span>
+
+		</div>
+		
+		
+		
+		<script src="jquery 1.9.1.js"></script>
+		<script>
+			$(function(){
+				// debugger
+				var $speedBtn = $('.steep span.list');
+				var $cloverBox = $('.cloverBox');
+				var a = 20;
+				var index_btn = 0;
+				 $speedBtn.on('click',function(){
+					a = parseInt( $(this).attr('data-speed') ) ;
+					index_fn()
+					// animation: move 20s linear infinite;
+					$cloverBox.css('animation-duration',a+'s');
+					$(this).addClass('active').siblings().removeClass('active');
+				 })
+
+
+				 $('.add').click(function(){
+					a = a -2;
+					index_fn()
+					if(a <=1){
+						alert("已经是最快的速度");
+						a = 1;
+						$cloverBox.css('animation-duration',a+'s');
+					}else{
+						$cloverBox.css('animation-duration',a+'s');
+					}
+					
+				 })
+				 $('.del').click(function(){
+					a = a + 2;
+					index_fn()
+					if(a>=80&& a){
+						alert("已经是最慢的速度");
+						a = 80;
+						$cloverBox.css('animation-duration',a+'s');
+					}else{
+						$cloverBox.css('animation-duration',a+'s');
+					}
+				 })
+				 $('.fz').click(function(){
+					//animation-direction:alternate;
+					
+					if($cloverBox.css('animation-direction')=='alternate'){
+						$cloverBox.css('animation-direction','normal');
+						// alert(1)
+					}else{
+						$cloverBox.css('animation-direction','alternate');
+						// alert(2)
+					}
+				 })
+
+
+
+				 // 
+				 function index_fn(){
+					if(a>=20){
+						index_btn = 0;
+						$speedBtn.eq(index_btn).addClass('active').siblings().removeClass('active');
+					} else if(a>=15 && a<20){
+						index_btn = 1;
+						$speedBtn.eq(index_btn).addClass('active').siblings().removeClass('active');
+					}else if(a>=10 && a<15){
+						index_btn = 2;
+						$speedBtn.eq(index_btn).addClass('active').siblings().removeClass('active');
+					}else if(a>=5 && a<10){
+						index_btn = 3;
+						$speedBtn.eq(index_btn).addClass('active').siblings().removeClass('active');
+					}else{
+						index_btn = 4;
+						$speedBtn.eq(index_btn).addClass('active').siblings().removeClass('active');
+					}
+				 }
+			})
+		</script>
+	</body>
+</html>

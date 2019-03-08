@@ -1,0 +1,42 @@
+<%- include ../header2 %>
+		<div class="main">
+			<div class="title clearfix">
+				<h3 class="caption" style="width:60px;">新建</h3>
+			</div>
+			<% task = [[{
+				icon:'icon-sv_check',
+				title:'年度重点工作任务',
+				link:'newYear.html'
+			},{
+				icon:'icon-sv-text',
+				title:'领导行政例会督查任务',
+				link:'newLeader.html'
+			}
+			],[{
+				icon:'icon-sv-handle-s',
+				title:'总经理办公室督查任务',
+				link:'newManager.html'
+			},{
+				icon:'icon-sv-timeout',
+				title:'其他重要工作任务',
+				link:'newOther.html'
+			}]
+			] %>
+			<% task.forEach(function(items){ %>
+				<div class="setting setting2">
+					<% items.forEach(function(item){ %>					
+						<div class="grid">
+							<a href="<%=item.link%>">
+								<p>
+									<span class="iconfont <%=item.icon%>"></span>
+								</p>
+								<strong><%=item.title%></strong>
+							</a>
+						</div>
+					<% }) %>
+				</div>
+			<% }) %>
+		</div>
+<%- include ../footer2 %>
+<%- include ../leaderModal %>
+<%- include ../companyModal %>

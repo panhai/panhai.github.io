@@ -1,0 +1,13 @@
+
+	<% menu = [{title: '督办任务',icon:'icon-sv-home',link:'index.html'},
+			{title: '待处理',icon:'icon-sv-tag',link:'pending.html'},
+			{title: '新建',icon:'icon-sv-add',link:'new.html'},
+			{title: '管理',icon:'icon-sv-setting',link:'setting.html'},
+			{title: '退出',icon:'icon-sv-off',link:'/'}] %>
+    <ul class="list-group">
+        <% menu.forEach(function(item){ %>
+        <li class="list-group-item">
+        	<a href="<%= item.link %>" target="view-frame"><span class="iconfont <%= item.icon %>"></span><%= item.title %></a>
+        </li>
+        <% }) %>
+    </ul>

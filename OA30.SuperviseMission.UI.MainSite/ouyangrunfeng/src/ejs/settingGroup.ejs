@@ -1,0 +1,85 @@
+<%- include header %>
+	<div class="main">
+		<%- include breadcrumb %>
+			<%- include search2 %>
+			<div class="alert alert-danger alert-top">
+				<span class="iconfont icon-sv-fail"></span>
+				创建失败
+			</div>
+			<div class="tar">
+				<a data-row="table" href="javascript:void(0)"><span class="iconfont icon-sv-add"></span>&nbsp;新增</a>
+			</div>
+
+			<div class="table-page">
+				<% task = {
+					title:['操作','部门组名称','部门组ID','部门名称','部门ID'],
+					list:[
+						['删除','测试','190812','审计部','123'],
+						['删除','测试','190812','审计部','123'],
+						['删除','测试','190812','审计部','123'],
+						['删除','测试','190812','审计部','123'],
+						['删除','测试','190812','审计部','123'],
+						['删除','测试','190812','审计部','123']
+					]
+				} %>
+				<table class="table table-bordered">
+					<thead>
+						<% task.title.forEach(function(item){ %>
+							<th><%=item%></th>
+						<% })%>
+					</thead>
+					<tbody>
+						<% task.list.forEach(function(data) { %>
+							<tr>
+								<% data.forEach(function(list,index) { %>
+									<% if(index === 0){ %>
+										<td>
+											<div class="btn-group btn-group-sm" role="group">
+												<button type="button" class="btn btn-default edit" data-row="edit">编辑</button>
+												<button type="button" class="btn delete btn-default cancel" data-row="delete">删除</button>
+											</div>
+										</td>
+									<% }else{ %>
+										<td style="width:<%=100/data.length%>%">
+											<div class="form-group" data-toggle="depart">
+												<% if(index === 3){ %>
+													<select disabled class="form-control disabled" data-type="edit">
+														<option>南航信息中心</option>
+														<option>南航飞行保障部</option>
+														<option>南航地勤</option>
+													</select>
+													<span class="iconfont icon-sv-add" data-row="select" data-target="#option"></span>
+												<% }else if(index === 2){  %>
+													<select disabled class="form-control disabled" data-type="edit" >
+														<option>南航信息中心</option>
+														<option>南航飞行保障部</option>
+														<option>南航地勤</option>
+													</select>
+												<% }else{  %>
+													<input disabled data-type="edit" class="disabled form-control" value="<%=list%>"
+												<% } %> 
+											</div>
+										</td>
+									<% } %>
+								<% })%>
+							</tr>
+						<% })%>
+					</tbody>
+				</table>
+				<div class="tar">
+					<%- include page %>
+				</div>
+			</div>
+	</div>
+<%- include footer %>
+
+<script id="option" type="text/x-template">
+	<div class="form-group" data-toggle="depart">
+		<select class="form-control" data-type="edit">
+			<option value="1">南航信息中心</option>
+			<option value="2">南航飞行保障部</option>
+			<option value="3">南航地勤</option>
+		</select>
+		<span class="iconfont icon-sv-reduce" data-row="unselect"></span>
+	</div>
+</script>

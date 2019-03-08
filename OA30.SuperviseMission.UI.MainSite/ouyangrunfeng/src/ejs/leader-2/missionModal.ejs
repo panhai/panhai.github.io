@@ -1,0 +1,74 @@
+<div class="modal fade" tabindex="-1" role="dialog" id="missionModal">
+  <div class="modal-dialog" role="document" style="min-width:1100px;">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">任务详情</h4>
+      </div>
+      <% mission = {
+        title: ['工作任务','责任处室','完成时限','协办单位'],
+        content:[
+            ['1.这是测试标题标题标题'],
+            ['1.1这是措施措施措施措施','信息管理','2018-6-1','南航财务'],
+            ['1.2这是措施措施措施措施','信息管理','2018-6-1','南航财务'],
+            ['1.3这是措施措施措施措施','信息管理','2018-6-1','南航财务'],
+            ['1.4这是措施措施措施措施','信息管理','2018-6-1','南航财务'],
+            ['1.这是测试标题标题标题'],
+            ['1.1这是措施措施措施措施','信息管理','2018-6-1','南航财务'],
+            ['1.2这是措施措施措施措施','信息管理','2018-6-1','南航财务'],
+            ['1.3这是措施措施措施措施','信息管理','2018-6-1','南航财务'],
+            ['1.4这是措施措施措施措施','信息管理','2018-6-1','南航财务'],
+            ['1.5这是措施措施措施措施','信息管理','2018-6-1','南航财务'],
+            ['1.6这是措施措施措施措施','信息管理','2018-6-1','南航财务']
+          ]
+      } %>
+      <div class="modal-body">
+        <table class="table table-bordered">
+          <thead>
+            <% mission.title.forEach(function(val){ %>
+                <th><%=val%></th>
+            <% }) %>
+          </thead>
+          <tbody>
+            <% mission.content.forEach(function(item){ %>
+                <tr>
+                  <% item.forEach(function(task,index){ %>
+                      <% if(item.length === 1){ %>
+                        <td colspan="4"><%=task%></td>
+                      <% }else{ %>
+                        <td><%=task%></td>
+                      <% } %>
+                      
+                  <% }) %>
+                </tr>
+            <% }) %>
+          </tbody>
+        </table>
+        <div class="action-group">
+          <span>审批意见</span>
+          <button type="button" class="btn btn-md active">同意</button>
+          <button type="button" class="btn btn-md">不同意</button>
+          <span>(最多可输入200字)</span>
+        </div>
+        <div class="form-group">
+            <textarea class="form-control"></textarea>
+        </div>
+        <div class="form-group tac">
+            <button type="button" class="btn btn-primary-c">确认</button>
+        </div>
+        <div class="record">
+          <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#record1" aria-controls="record1" role="tab" data-toggle="tab">反馈记录</a></li>
+            <li role="presentation"><a href="#record2" aria-controls="record2" role="tab" data-toggle="tab">操作记录</a></li>
+          </ul>
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="record1">
+            </div>
+            <div role="tabpanel" class="tab-pane" id="record2">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

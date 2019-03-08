@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        html,body{
+            height: 1800px;
+            width: 100%;
+            background-color: #faf;
+            position: relative;
+
+        }
+        #app{
+            background-color: #ffffff;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin:  auto;
+            margin-top: 30px;
+
+        }
+    </style>
+</head>
+<body>
+    
+    <canvas id='app' width="800" height="600" >
+        <span>你的浏览器不支持canvas</span>
+    </canvas>
+
+
+    <script>
+        var canvas = document.getElementById('app') //获取canvas 对象
+        var ctx = canvas.getContext('2d');          // 创建画布环境
+        ctx.fillStyle="#0000ff";                    // 填充的颜色 必须写在绘图前面才有用 （填充的矩形才有用，边框矩形无用）
+        ctx.strokeRect(50.5,50.5,100,200)           // 绘制带border 的矩形
+        ctx.fillRect(160,30,120,150);               //绘制 填充的的矩形 （无边框，默认黑色）
+        ctx.strokeStyle = "red";                    //设置边框颜色
+        
+        
+
+        console.log(ctx)
+    </script>
+</body>
+</html>

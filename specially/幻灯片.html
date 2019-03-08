@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			#div1 {
+				width: 520px;
+				height: 280px;
+				border: 1px solid #000;
+				margin: 100px auto 0;
+				position: relative;
+				overflow: hidden;
+			}
+			
+			#ul1 {
+				position: absolute;
+				top: 0;
+				left: 0;
+				margin: 0;
+				padding: 0;
+			}
+			
+			li {
+				list-style: none;
+				float: left;
+			}
+			
+			img {
+				display: block;
+				width: 520px;
+				height: 280px;
+			}
+			
+			#div1 p {
+				position: absolute;
+				text-align: center;
+				width: 100%;
+				bottom: 10px;
+			}
+			
+			#div1 p span {
+				padding: 2px 9px;
+				background: #ccc;
+				border-radius: 50%;
+				margin-left: 5px;
+				cursor: pointer;
+			}
+			
+			#div1 p span.current {
+				background: #f90;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<div id="div1">
+			<ul id="ul1">
+				<li>
+					<img src="http://www.jq22.com/img/cs/500x300-1.png">
+				</li>
+				<li>
+					<img src="http://www.jq22.com/img/cs/500x300-2.png">
+				</li>
+				<li>
+					<img src="http://www.jq22.com/img/cs/500x300-3.png">
+				</li>
+				<li>
+					<img src="http://www.jq22.com/img/cs/500x300-4.png">
+				</li>
+				<li>
+					<img src="http://www.jq22.com/img/cs/500x300-5.png">
+				</li>
+				<li>
+					<img src="http://www.jq22.com/img/cs/500x300-6.png">
+				</li>
+			</ul>
+			<p>
+				<span class="current">1</span>
+				<span>2</span>
+				<span>3</span>
+				<span>4</span>
+				<span>5</span>
+				<span>6</span>
+			</p>
+		</div>
+
+		<script type="text/javascript">
+			function startMove(obj, json, fn) {
+				clearInterval(obj.iTimer);
+				var iCur = 0;
+				var iSpeed = 0;
+				obj.iTimer = setInterval(function() {
+
+					var iBtn = true;
+
+					for(var attr in json) {
+						var iTarget = json[attr];
+						if(attr == "opacity") {
+							iCur = Math.round(css(obj, "opacity") * 100);
+						} else {
+							iCur = parseInt(css(obj, attr));
+						}
+
+						iSpeed = (iTarget - iCur) / 8;
+
+						iSpeed = iSpeed > 0 ? Math.ceil(iSpeed) : Math.floor(iSpeed);
+
+						if(iCur != iTarget) {
+							iBtn = false;
+							if(attr == "opacity") {
+								obj.style.opacity = (iCur + iSpeed) / 100;
+								obj.style.filter = 'alpha(opacity=' + (iCur + iSpeed) + ')';
+							} else {
+								obj.style[attr] = iCur + iSpeed + 'px';
+							}
+						}
+
+					}
+					if(iBtn) {
+						clearInterval(obj.iTimer);
+						fn && fn.call(obj);
+					}
+
+				}, 30);
+			}
+
+			function css(obj, attr) {
+				if(obj.currentStyle) {
+					return obj.currentStyle[attr];
+				} else {
+					return getComputedStyle(obj, false)[attr];
+				}
+			}
+
+			window.onload = function() {
+				var oDiv = document.getElementById("div1");
+				var oUl = document.getElementById("ul1");
+				var aLi = oUl.getElementsByTagName("li");
+				var aSpan = oDiv.getElementsByTagName("span");
+
+				var iLen = aLi.length;
+				var iWidth = aLi[0].offsetWidth;
+
+				oUl.style.width = iLen * iWidth + "px";
+
+				for(var i = 0; i < aSpan.length; i++) {
+					aSpan[i].index = i;
+					aSpan[i].onclick = function() {
+						for(var i = 0; i < iLen; i++) {
+							aSpan[i].className = " ";
+						}
+						this.className = "current";
+						//oUl.style.left=-this.index*iWidth+"px";
+						startMove(oUl, {
+							left: -this.index * iWidth
+						})
+					}
+				}
+			}
+		</script>
+	</body>
+
+</html>

@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>督办系统</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../Css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../Css/picker.css">
+	<link rel="stylesheet" type="text/css" href="../Css/style.css">
+</head>
+<body>
+
+	<div class="main">
+		<div class="top-nav">
+	<ul class="breadcrumb">
+	  <li><a href="#">管理</a></li>
+	  <li class="active">角色管理</li>
+	</ul>
+	<a href="" class="iconfont icon-sv-back" href='index.html'></a>
+</div>
+
+
+			<div class="search-part search-part-2">
+	<div class="search-control-2">
+		<div class="row">
+			<div class="col col-lg-4 col-md-4 col-sm-4 col-xs-4">
+				<div class="form-group clearfix">
+					<label for="" class="col-sm-4 control-label">主办单位</label>
+					<div class="col-sm-8 dropdown">
+					  <input type="text" class="form-control" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" id="inputCompany" placeholder="请选择主办单位">
+					  <span class="iconfont icon-sv-add form-control-feedback" aria-hidden="true"></span>
+
+					  
+
+					  <ul class="list-unstyled dropdown-menu" aria-labelledby="dLabel" data-toggle="search">
+					  
+					  		<li><div class="radio">
+					  			<label><input type="radio" name="radio" checked />
+					  			南航信息中心</label></div></li>
+					  
+					  		<li><div class="radio">
+					  			<label><input type="radio" name="radio"  />
+					  			南航财务部</label></div></li>
+					  
+					  		<li><div class="radio">
+					  			<label><input type="radio" name="radio"  />
+					  			南航飞行部</label></div></li>
+					  
+					  		<li><div class="radio">
+					  			<label><input type="radio" name="radio"  />
+					  			南航保障部</label></div></li>
+					  
+					  		<li><div class="radio">
+					  			<label><input type="radio" name="radio" checked />
+					  			南航研究院</label></div></li>
+					  
+					  		<li><div class="radio">
+					  			<label><input type="radio" name="radio"  />
+					  			南航物业</label></div></li>
+					  
+					  </ul>
+					</div>
+				</div>
+				<div class="form-group clearfix dropdown">
+					<label for="" class="col-sm-4 control-label">督查任务类型</label>
+					<div class="col-sm-8">
+					  <input type="text" class="form-control" data-toggle="dropdown" placeholder="督查任务类型">
+					  <span class="iconfont icon-sv-add form-control-feedback" aria-hidden="true"></span>
+					  <span class="iconfont icon-sv-add form-control-feedback" aria-hidden="true" data-toggle="dropdown" role="button"></span>
+
+					  
+					  <ul class="list-unstyled dropdown-menu">
+					  
+					  		<li>
+					  			<input type="checkbox"  />
+					  			<label>年度重点</label></li>
+					  
+					  		<li>
+					  			<input type="checkbox"  />
+					  			<label>总经理督办</label></li>
+					  
+					  		<li>
+					  			<input type="checkbox"  />
+					  			<label>领导督办</label></li>
+					  
+					  		<li>
+					  			<input type="checkbox" checked />
+					  			<label>其他重点</label></li>
+					  
+					  </ul>
+					</div>
+				</div>
+			</div>
+			<div class="col col-lg-4 col-md-4 col-sm-4 col-xs-4">
+				<div class="form-group clearfix">
+					<label for="" class="col-sm-4 control-label">主管领导</label>
+					<div class="col-sm-8">
+					  <input type="text" class="form-control" id="" placeholder="主管领导">
+					</div>
+				</div>
+				<div class="form-group clearfix status-col">
+					<label for="" class="col-sm-4 control-label">关键词搜索</label>
+					<div class="col-sm-8">
+					  <input type="text" class="form-control " id="inputStatus" placeholder="关键词搜索" role="button">
+					</div>
+				</div>	
+			</div>
+			<div class="col col-lg-4 col-md-4 col-sm-4 col-xs-4">
+				<div class="form-group clearfix">
+					<label for="" class="col-sm-3 control-label">协管领导</label>
+					<div class="col-sm-9">
+					  <input type="text" class="form-control" id="" placeholder="协管领导">
+					</div>
+				</div>
+				<div class="form-group clearfix status-col dropdown">
+					<label for="" class="col-sm-3 control-label">状态</label>
+					<div class="col-sm-9">
+					  <input type="text" class="form-control " id="inputStatus" placeholder="请选择状态" data-toggle="dropdown" role="button">
+					  <span class="iconfont icon-sv-add form-control-feedback" aria-hidden="true" data-toggle="dropdown" role="button"></span>
+
+					  
+					  <ul class="list-unstyled dropdown-menu">
+					  
+					  		<li>
+					  			<input type="checkbox" checked />
+					  			<label>拟稿</label></li>
+					  
+					  		<li>
+					  			<input type="checkbox"  />
+					  			<label>任务分解中</label></li>
+					  
+					  		<li>
+					  			<input type="checkbox"  />
+					  			<label>分解审批中</label></li>
+					  
+					  		<li>
+					  			<input type="checkbox"  />
+					  			<label>任务确认中</label></li>
+					  
+					  		<li>
+					  			<input type="checkbox" checked />
+					  			<label>任务推进中</label></li>
+					  
+					  		<li>
+					  			<input type="checkbox"  />
+					  			<label>任务办结</label></li>
+					  
+					  </ul>
+					</div>
+				</div>	
+			</div>
+		</div>
+		<div class="form-group">
+			<button class="btn btn-primary-s btn-group">查询</button>
+			<button class="btn btn-default-s btn-group">清空</button>
+			<button class="btn btn-default-s btn-group">导出</button>
+		</div>
+	</div>
+</div>
+			<div class="alert alert-danger alert-top">
+				<span class="iconfont icon-sv-fail"></span>
+				创建失败
+			</div>
+			<div class="tar">
+				<a data-row="table" href="javascript:void(0)"><span class="iconfont icon-sv-add"></span>&nbsp;新增</a>
+			</div>
+
+			<div class="table-page">
+				
+				<table class="table table-bordered">
+					<thead>
+						
+							<th>操作</th>
+						
+							<th>部门组名称</th>
+						
+							<th>部门组ID</th>
+						
+							<th>部门名称</th>
+						
+							<th>部门ID</th>
+						
+					</thead>
+					<tbody>
+						
+							<tr>
+								
+									
+										<td>
+											<div class="btn-group btn-group-sm" role="group">
+												<button type="button" class="btn btn-default edit" data-row="edit">编辑</button>
+												<button type="button" class="btn delete btn-default cancel" data-row="delete">删除</button>
+											</div>
+										</td>
+									
+								
+									
+										<td style="width:20%">
+											<div class="form-group" data-toggle="depart">
+												
+													<input disabled data-type="edit" class="disabled form-control" value="测试"
+												 
+											</div>
+										</td>
+									
+								
+									
+										<td style="width:20%">
+											<div class="form-group" data-toggle="depart">
+												
+													<select disabled class="form-control disabled" data-type="edit" >
+														<option>南航信息中心</option>
+														<option>南航飞行保障部</option>
+														<option>南航地勤</option>
+													</select>
+												 
+											</div>
+										</td>
+									
+								
+									
+										<td style="width:20%">
+											<div class="form-group" data-toggle="depart">
+												
+													<select disabled class="form-control disabled" data-type="edit">
+														<option>南航信息中心</option>
+														<option>南航飞行保障部</option>
+														<option>南航地勤</option>
+													</select>
+													<span class="iconfont icon-sv-add" data-row="select" data-target="#option"></span>
+												 
+											</div>
+										</td>
+									
+								
+									
+										<td style="width:20%">
+											<div class="form-group" data-toggle="depart">
+												
+													<input disabled data-type="edit" class="disabled form-control" value="123"
+												 
+											</div>
+										</td>
+									
+								
+							</tr>
+						
+							<tr>
+								
+									
+										<td>
+											<div class="btn-group btn-group-sm" role="group">
+												<button type="button" class="btn btn-default edit" data-row="edit">编辑</button>
+												<button type="button" class="btn delete btn-default cancel" data-row="delete">删除</button>
+											</div>
+										</td>
+									
+								
+									
+										<td style="width:20%">
+											<div class="form-group" data-toggle="depart">
+												
+													<input disabled data-type="edit" class="disabled form-control" value="测试"
+												 
+											</div>
+										</td>
+									
+								
+									
+										<td style="width:20%">
+											<div class="form-group" data-toggle="depart">
+												
+													<select disabled class="form-control disabled" data-type="edit" >
+														<option>南航信息中心</option>
+														<option>南航飞行保障部</option>
+														<option>南航地勤</option>
+													</select>
+												 
+											</div>
+										</td>
+									
+								
+									
+										<td style="width:20%">
+											<div class="form-group" data-toggle="depart">
+												
+													<select disabled class="form-control disabled" data-type="edit">
+														<option>南航信息中心</option>
+														<option>南航飞行保障部</option>
+														<option>南航地勤</option>
+													</select>
+													<span class="iconfont icon-sv-add" data-row="select" data-target="#option"></span>
+												 
+											</div>
+										</td>
+									
+								
+									
+										<td style="width:20%">
+											<div class="form-group" data-toggle="depart">
+												
+													<input disabled data-type="edit" class="disabled form-control" value="123"
+												 
+											</div>
+										</td>
+									
+								
+							</tr>
+						
+							<tr>
+								
+									
+										<td>
+											<div class="btn-group btn-group-sm" role="group">
+												<button type="button" class="btn btn-default edit" data-row="edit">编辑</button>
+												<button type="button" class="btn delete btn-default cancel" data-row="delete">删除</button>
+											</div>
+										</td>
+									
+								
+									
+										<td style="width:20%">
+											<div class="form-group" data-toggle="depart">
+												
+													<input disabled data-type="edit" class="disabled form-control" value="测试"
+												 
+											</div>
+										</td>
+									
+								
+									
+										<td style="width:20%">
+											<div class="form-group" data-toggle="depart">
+												
+													<select disabled class="form-control disabled" data-type="edit" >
+														<option>南航信息中心</option>
+														<option>南航飞行保障部</option>
+														<option>南航地勤</option>
+													</select>
+												 
+											</div>
+										</td>
+									
+								
+									
+										<td style="width:20%">
+											<div class="form-group" data-toggle="depart">
+												
+													<select disabled class="form-control disabled" data-type="edit">
+														<option>南航信息中心</option>
+														<option>南航飞行保障部</option>
+														<option>南航地勤</option>
+													</select>
+													<span class="iconfont icon-sv-add" data-row="select" data-target="#option"></span>
+												 
+											</div>
+										</td>
+									
+								
+									
+										<td style="width:20%">
+											<div class="form-group" data-toggle="depart">
+												
+													<input disabled data-type="edit" class="disabled form-control" value="123"
+												 
+											</div>
+										</td>
+									
+								
+							</tr>
+						
+							<tr>
+								
+									
+										<td>
+											<div class="btn-group btn-group-sm" role="group">
+												<button type="button" class="btn btn-default edit" data-row="edit">编辑</button>
+												<button type="button" class="btn delete btn-default cancel" data-row="delete">删除</button>
+											</div>
+										</td>
+									
+								
+									
+										<td style="width:20%">
+											<div class="form-group" data-toggle="depart">
+												
+													<input disabled data-type="edit" class="disabled form-control" value="测试"
+												 
+											</div>
+										</td>
+									
+								
+									
+										<td style="width:20%">
+											<div class="form-group" data-toggle="depart">
+												
+													<select disabled class="form-control disabled" data-type="edit" >
+														<option>南航信息中心</option>
+														<option>南航飞行保障部</option>
+														<option>南航地勤</option>
+													</select>
+												 
+											</div>
+										</td>
+									
+								
+									
+										<td style="width:20%">
+											<div class="form-group" data-toggle="depart">
+												
+													<select disabled class="form-control disabled" data-type="edit">
+														<option>南航信息中心</option>
+														<option>南航飞行保障部</option>
+														<option>南航地勤</option>
+													</select>
+													<span class="iconfont icon-sv-add" data-row="select" data-target="#option"></span>
+												 
+											</div>
+										</td>
+									
+								
+									
+										<td style="width:20%">
+											<div class="form-group" data-toggle="depart">
+												
+													<input disabled data-type="edit" class="disabled form-control" value="123"
+												 
+											</div>
+										</td>
+									
+								
+							</tr>
+						
+							<tr>
+								
+									
+										<td>
+											<div class="btn-group btn-group-sm" role="group">
+												<button type="button" class="btn btn-default edit" data-row="edit">编辑</button>
+												<button type="button" class="btn delete btn-default cancel" data-row="delete">删除</button>
+											</div>
+										</td>
+									
+								
+									
+										<td style="width:20%">
+											<div class="form-group" data-toggle="depart">
+												
+													<input disabled data-type="edit" class="disabled form-control" value="测试"
+												 
+											</div>
+										</td>
+									
+								
+									
+										<td style="width:20%">
+											<div class="form-group" data-toggle="depart">
+												
+													<select disabled class="form-control disabled" data-type="edit" >
+														<option>南航信息中心</option>
+														<option>南航飞行保障部</option>
+														<option>南航地勤</option>
+													</select>
+												 
+											</div>
+										</td>
+									
+								
+									
+										<td style="width:20%">
+											<div class="form-group" data-toggle="depart">
+												
+													<select disabled class="form-control disabled" data-type="edit">
+														<option>南航信息中心</option>
+														<option>南航飞行保障部</option>
+														<option>南航地勤</option>
+													</select>
+													<span class="iconfont icon-sv-add" data-row="select" data-target="#option"></span>
+												 
+											</div>
+										</td>
+									
+								
+									
+										<td style="width:20%">
+											<div class="form-group" data-toggle="depart">
+												
+													<input disabled data-type="edit" class="disabled form-control" value="123"
+												 
+											</div>
+										</td>
+									
+								
+							</tr>
+						
+							<tr>
+								
+									
+										<td>
+											<div class="btn-group btn-group-sm" role="group">
+												<button type="button" class="btn btn-default edit" data-row="edit">编辑</button>
+												<button type="button" class="btn delete btn-default cancel" data-row="delete">删除</button>
+											</div>
+										</td>
+									
+								
+									
+										<td style="width:20%">
+											<div class="form-group" data-toggle="depart">
+												
+													<input disabled data-type="edit" class="disabled form-control" value="测试"
+												 
+											</div>
+										</td>
+									
+								
+									
+										<td style="width:20%">
+											<div class="form-group" data-toggle="depart">
+												
+													<select disabled class="form-control disabled" data-type="edit" >
+														<option>南航信息中心</option>
+														<option>南航飞行保障部</option>
+														<option>南航地勤</option>
+													</select>
+												 
+											</div>
+										</td>
+									
+								
+									
+										<td style="width:20%">
+											<div class="form-group" data-toggle="depart">
+												
+													<select disabled class="form-control disabled" data-type="edit">
+														<option>南航信息中心</option>
+														<option>南航飞行保障部</option>
+														<option>南航地勤</option>
+													</select>
+													<span class="iconfont icon-sv-add" data-row="select" data-target="#option"></span>
+												 
+											</div>
+										</td>
+									
+								
+									
+										<td style="width:20%">
+											<div class="form-group" data-toggle="depart">
+												
+													<input disabled data-type="edit" class="disabled form-control" value="123"
+												 
+											</div>
+										</td>
+									
+								
+							</tr>
+						
+					</tbody>
+				</table>
+				<div class="tar">
+					<nav aria-label="Page navigation" class="pagination">
+  
+</nav>
+
+				</div>
+			</div>
+	</div>
+<script src="../Script/require.js" data-main="../Script/main.js"></script>
+</body></html>
+
+
+<script id="option" type="text/x-template">
+	<div class="form-group" data-toggle="depart">
+		<select class="form-control" data-type="edit">
+			<option value="1">南航信息中心</option>
+			<option value="2">南航飞行保障部</option>
+			<option value="3">南航地勤</option>
+		</select>
+		<span class="iconfont icon-sv-reduce" data-row="unselect"></span>
+	</div>
+</script>

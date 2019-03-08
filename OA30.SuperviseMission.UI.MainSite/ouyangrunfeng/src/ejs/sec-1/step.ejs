@@ -1,0 +1,59 @@
+<div class="step-box">
+	<div class="step-parent">
+		<div class="line"></div>
+		<h3 class="title">年度目标1</h3>
+		<div class="info">
+			<p class="input-info">
+				<span>这是年度目标这是年度目标这是年度目标这是年度目标这是年度目标这是年度目标</span>
+			</p>
+		</div>
+	</div>
+	<% step = [{
+		title:'这是测试措施',
+		company:'南航信息中心',
+		time:'2018-11-11',
+		sub:'财务处'
+	},{
+		title:'这是测试措施这是测试措施这是测试措施这是测试措施这是测试措施这是测试措施这是测试措施这是测试措施这是测试措施这是测试措施这是测试措施这是测试措施这是测试措施这是测试措施这是测试措施这是测试措施这是测试措施这是测试措施这是测试措施',
+		company:'南航地勤部',
+		time:'2018-12-11',
+		sub:'督查处'
+	},{
+		title:'这是测试措施3',
+		company:'南航飞行部',
+		time:'2018-11-12',
+		sub:'客舱部'
+	},{
+		title:'这是测试措施4这是测试措施4',
+		company:'南航食品部',
+		time:'2018-1-1',
+		sub:'财务处'
+	}
+	]%>
+	<% step.forEach(function(item,index){ %>
+	<div class="step-child">
+		<div class="line"></div>
+		<h3 class="title">措施<%=index+1%></h3>
+		<div class="info">
+			<p class="input-info">
+				<span><%=item.title%></span>
+			</p>
+		</div>
+		<div class="info-grid">
+			<div class="grid">
+				<label>协办单位</label>
+				<span><%=item.company%></span>
+			</div>
+			<div class="grid">
+				<label>完成时间</label>
+				<span><%=item.time%></span>
+			</div>
+			<div class="grid">
+				<label>责任处室</label>
+				<span><%=item.sub%></span>
+			</div>
+		</div>
+	</div>	
+	<% }) %>
+</div>
+

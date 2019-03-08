@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.sharp:before {
+				content: "";
+				/*不需要展现文字等内容,所以设置为空字符 */
+				width: 0px;
+				border-bottom: 80px solid transparent;
+				border-top: 80px solid transparent;
+				border-right: 40px solid orangered;
+				position: absolute;
+				left: -40px;
+				top: 0px;
+			}
+			
+			.sharp {
+				min-width: 100px;
+				height: 160px;
+				background: orangered;
+				display: inline-block;
+				position: absolute;
+				line-height: 160px;
+				color: #FFFFFF;
+				font-size: 20px;
+				text-align: center;
+			}
+			
+			.sharp:after {
+				content: "";
+				/*不需要展现文字等内容,所以设置为空字符*/
+				width: 0px;
+				border-bottom: 80px solid transparent;
+				border-top: 80px solid transparent;
+				border-left-width: 40px;
+				border-left-style: solid;
+				border-left-color: orangered;
+				position: absolute;
+				right: -40px;
+				top: 0px;
+			}
+			
+			#sharpContainer {
+				width: 1000px;
+				height: 600px;
+				margin: 0 auto;
+				position: relative;
+			}
+			
+			#sharpContainer .center {
+				top: 200px;
+				left: 300px;
+			}
+			
+			#sharpContainer .top {
+				top: 20px;
+				left: 300px;
+			}
+			
+			#sharpContainer .top-left {
+				top: 110px;
+				left: 140px;
+			}
+			
+			#sharpContainer .top-right {
+				top: 110px;
+				left: 460px;
+			}
+			
+			#sharpContainer .bottom {
+				top: 380px;
+				left: 300px;
+			}
+			
+			#sharpContainer .bottom-left {
+				top: 290px;
+				left: 140px;
+			}
+			
+			#sharpContainer .bottom-right {
+				top: 290px;
+				left: 460px;
+			}
+			.box{
+				width: 200px;
+				height: 200px;
+				background-color: red;
+				margin: 0 auto;
+				border-radius: 50%;
+			}
+			.box2{
+				width: 200px;
+				height: 200px;
+				background-color: yellow;
+				margin: 0 auto;
+			}
+			.box3{
+				width: 300px;
+				height: 160px;
+				margin: 0 auto;
+				margin-bottom: 10px;
+				margin-top: 12px;
+				background-color: blue;
+			}
+			.san{
+				margin: 0 auto;
+				border-top: 50px solid red;
+				border-right: 50px solid yellow;
+				border-bottom: 50px solid blue;
+				border-left: 50px solid pink;
+				width: 100px;
+			}
+			.three{
+				width: 0;
+				height: 0;
+				margin: 0 auto;
+				margin-bottom: 20px;
+				margin-top: 20px;
+			}
+			.t_top{
+				border-top: 50px solid red;
+				border-right: 50px solid transparent;
+				border-bottom: 50px solid transparent;
+				border-left: 50px solid transparent;
+			}
+			.t_left{
+				border-top: 50px solid transparent;
+				border-right: 50px solid transparent;
+				border-bottom: 50px solid transparent;
+				border-left: 50px solid red;
+			}
+			.t_botton{
+				border-top: 50px solid transparent;
+				border-right: 50px solid transparent;
+				border-bottom: 50px solid yellow;
+				border-left: 50px solid transparent;
+			}
+			.t_right{
+				border-top: 50px solid transparent;
+				border-right: 50px solid red;
+				border-bottom: 50px solid transparent;
+				border-left: 50px solid transparent;
+			}
+			.tx{
+				width: 200px;
+				height: 200px;
+				background-color: pink;
+				margin: 0 auto;
+				margin-top: 10px;
+				margin-bottom: 10px;
+				position: relative;
+			}
+			.tx:before{
+				content: "";
+				display: block;
+				position: absolute;
+				left: -200px;
+				top: 0;
+				width: 0;
+				height: 0px;
+				border-top: 100px solid transparent;
+				border-right: 100px solid red;
+				border-bottom: 100px solid red;
+				border-left: 100px solid transparent;
+			}
+			.tx:after{
+				content: "";
+				display: block;
+				position: absolute;
+				right: -200px;
+				top: 0;
+				width: 0;
+				height: 0px;
+				border-top: 100px solid transparent;
+				border-right: 100px solid transparent;
+				border-bottom: 100px solid red;
+				border-left: 100px solid red;
+			}
+		</style>
+	</head>
+
+	<body style="height: 2000px;">
+
+		<div id="sharpContainer">
+			<div class="sharp center">
+
+			</div>
+			<div class="sharp top">
+
+			</div>
+			<div class="sharp top-left">
+
+			</div>
+			<div class="sharp top-right">
+
+			</div>
+			<div class="sharp bottom">
+
+			</div>
+			<div class="sharp bottom-left">
+
+			</div>
+			<div class="sharp bottom-right">
+
+			</div>
+		</div>
+		
+		<div class="box"></div>
+		<div class="box2"></div>
+		<div class="box3"></div>
+		<div class="san"></div>
+		<div class="three t_top"></div>
+		<div class="three t_left"></div>
+		<div class="three t_right"></div>
+		<div class="three t_botton"></div>
+		<div class="tx"></div>
+		
+	</body>
+
+</html>

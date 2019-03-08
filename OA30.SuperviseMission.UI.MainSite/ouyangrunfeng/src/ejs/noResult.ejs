@@ -1,0 +1,28 @@
+<%- include header %>
+	<div class="main">
+		<% var projects=[
+		{title:'年度重点工作任务',id:'year'},
+		{title:'领导行政例会督查',id:'leader'},
+		{title:'总经理办公会督查',id:'manage'},
+		{title:'其他重要工作督查',id:'other'}]
+		%>
+
+	<div class="list-part">
+		<ul class="nav nav-tabs" role="tablist">
+			<% projects.forEach(function(task,key){ %>
+				<% if(key === 0) { %>
+			    <li role="presentation" class="active"><a href="#<%=task.id%>" aria-controls="<%=task.id%>" role="tab" data-toggle="tab"><%=task.title%></a></li>
+			    <% }else{ %>
+			    <li role="presentation"><a href="#<%=task.id%>" aria-controls="<%=task.id%>" role="tab" data-toggle="tab"><%=task.title%></a></a></li>
+			    <% } %>
+			<% }) %>  
+		 </ul>
+		<%- include search %>
+		<div class="no-page">
+			<div class="no-search-icon"></div>
+			<p>暂无查询结果</p>
+		</div>
+	</div>
+	
+<%- include footer %>
+

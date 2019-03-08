@@ -1,0 +1,101 @@
+<%- include header %>
+		<div class="main">
+			<div class="title clearfix">
+				<h3 class="caption">新建年度重点工作任务</h3>
+				<div class="action">
+					<button type="button" class="btn btn-default-s"><span class="iconfont icon-sv-download"></span>下载模板</button>
+					<button type="button" class="btn btn-default-s"><span class="iconfont icon-sv-import"></span>导入</button>
+					<span class="iconfont icon-sv-back"></span>
+				</div>
+			</div>
+			<div class="form-box form-horizontal">
+				<% task = [
+					{label: '督查编号',type:'text',place:'请输入督查编号'},
+					{label: '任务内容',type:'textarea',place:'请输入任务内容'},
+					{label: '主管领导',type:'text',place:'请输入主管领导',modal:'#leader',tag:'leader'},
+					{label: '协管领导',type:'text',place:'请输入协管领导',modal:'#leader1',tag:'leader'},
+					{label: '主办单位',type:'text',place:'请输入主办单位',modal:'#company',tag:'company'},
+					{label: '协办单位',type:'text',place:'请输入协办单位',modal:'#company1',tag:'assist'},
+				] %>
+				<% task.forEach(function(item,index){ %>
+					<% if(index === 0){ %>
+						<div class="form-group form-customer">
+							<label class="col-lg-1 col-sm-1 col-xs-1 col-md-1 control-label"><%= item.label%></label>
+							<div class="col-lg-6 col-sm-6 col-md-6 col-xs-6">
+								<select class="form-control dbi">
+								  <option>南航集团督</option>
+								</select>
+								<input type="text" class="form-control dbi" value="2018" disabled>	
+								<input type="text" class="form-control dbi" placeholder="" value="01" disabled>	
+								号
+							</div>
+							<div class="col-lg-5 col-md-5 col-xs-5 col-sm-5">
+								<label class="dbi">文件ID</label>
+								<input type="text" class="form-control dbi" placeholder="" name="" value="1" disabled>
+							</div>
+						</div>
+					<% }else{ %>
+						<div class="form-group">
+							<label class="col-lg-1 col-md-1 col-sm-1 col-xs-1 control-label"><%= item.label%></label>
+							<div class="col-lg-11 col-md-11 col-sm-11 col-xs-11">
+								<% if(item.type === 'textarea'){ %>
+									<textarea class="form-control" placeholder="<%=item.place%>"></textarea>
+								<% }else{ %>
+									<input data-area="" type="<%=item.type%>" class="form-control" placeholder="<%=item.place%>" name="">
+									<span class="iconfont icon-sv-add form-control-feedback" data-toggle="modal" data-target="<%=item.modal%>" data-tag="<%=item.tag%>"></span>
+								<% } %>
+							</div>
+						</div>
+					<% } %>
+				<% }) %>
+				<div class="form-group tac">
+					<button type="button" class="btn btn-primary-c">确定</button>
+					<button type="button" class="btn btn-default-c">重置</button>
+				</div>
+			</div>
+		</div>
+<%- include footer %>
+<%- include leaderModal %>
+<%- include leaderModal1 %>
+<%- include companyModal %>
+<%- include companyModal1 %>
+<script src="../Script/jquery.js"></script>
+<script>
+	//弹窗多选
+		$('#company').on('shown.bs.modal', function (e) {
+			var self = $(e.target).find('.result-area')
+			var area = self.data(area)
+			if(area.area){
+				self.html(area.area.join(';'));
+			}else{
+				self.empty();
+			}
+		});
+		$('.choose-area li input').on('change', function (e) {
+			var self = $(e.target);
+			var area = self.closest('.choose-area').next('.result-area').data(area)
+			var chooseList = []
+			if(area.area){
+				chooseList = area.area
+			}			
+			var val = self.val();
+			var text = self.closest('li').find('label').text();
+			if (self.is(':checked')) {
+				chooseList.push(text)
+			} else {
+				chooseList.splice(chooseList.indexOf(text), 1);
+			}
+			area.area = chooseList
+			console.log(area)
+			self.closest('.choose-area').next('.result-area').data(area)
+			createHtml(self.closest('.choose-area').next('.result-area'));
+		});
+		var createHtml = function(obj) {
+			var chooseList = obj.data('area')
+			var html = '';
+			for(var i = 0,len = chooseList.length;i<len;i++){
+				html +='<span>' + chooseList[i] + ';</span>'
+			}
+			obj.html(html);
+		};
+</script>

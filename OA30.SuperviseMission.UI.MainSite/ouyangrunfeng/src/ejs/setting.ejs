@@ -1,0 +1,167 @@
+<%- include header %>
+<div class="main">
+		<div class="list-part">
+			<% list = [
+				{
+					title:'个人设置',
+					id:'personal',
+					setting:[{
+						label:'督查委托',
+						icon:'icon-sv-pen',
+						href:''
+					},
+					{
+						label:'个人部门组设置',
+						icon:'icon-sv-pen',
+						href:''
+					},
+					{
+						label:'统计报表',
+						icon:'icon-sv-pen',
+						href:''
+					}
+					]
+				},
+				{
+					title:'部门管理员',
+					id:'department',
+					setting:[{
+						label:'部门角色设置',
+						icon:'icon-sv-pen',
+						href:''
+					},
+					{
+						label:'督查字号',
+						icon:'icon-sv-pen',
+						href:''
+					},
+					{
+						label:'部门管理员授权',
+						icon:'icon-sv-pen',
+						href:''
+					}
+					]
+				},
+				{
+					title:'超级管理员',
+					id:'super',
+					setting:[{
+						label:'运维管理员授权',
+						icon:'icon-sv-pen',
+						href:''
+					},
+					{
+						label:'督查日志',
+						icon:'',
+						href:''
+					}
+					]
+				},
+				{
+					title:'参数配置',
+					id:'parameter',
+					setting:[{
+						label:'步骤定义',
+						icon:'icon-sv-pen',
+						href:''
+					},
+					{
+						label:'角色定义',
+						icon:'icon-sv-pen',
+						href:''
+					},
+					{
+						label:'步骤角色定义',
+						icon:'icon-sv-pen',
+						href:''
+					},
+					{
+						label:'自由流程定义',
+						icon:'icon-sv-pen',
+						href:''
+					},
+					{
+						label:'固定流程定义',
+						icon:'icon-sv-pen',
+						href:''
+					},
+					{
+						label:'固定流程配置',
+						icon:'icon-sv-pen',
+						href:''
+					},
+					{
+						label:'系统参数设置',
+						icon:'icon-sv-pen',
+						href:''
+					},
+					{
+						label:'意见类型',
+						icon:'icon-sv-pen',
+						href:''
+					},
+					{
+						label:'文件类型',
+						icon:'icon-sv-pen',
+						href:''
+					}
+					]
+				}
+			]%>
+			<ul class="nav nav-tabs" role="tablist">
+				<% list.forEach(function(task,key){ %>
+					<% if(key === 0) { %>
+				    <li role="presentation" class="active"><a href="#<%=task.id%>" aria-controls="<%=task.id%>" role="tab" data-toggle="tab"><%=task.title%></a></li>
+				    <% }else{ %>
+				    <li role="presentation"><a href="#<%=task.id%>" aria-controls="<%=task.id%>" role="tab" data-toggle="tab"><%=task.title%></a></a></li>
+				    <% } %>
+				<% }) %>  
+			 </ul>
+			<% task = [[{
+				icon:'icon-sv-pen',
+				title:'统计报表',
+				link:'settingReport.html'
+			},{
+				icon:'icon-sv-user-check',
+				title:'角色配置',
+				link:'settingRole.html'
+			},{
+				icon:'icon-sv-tool',
+				title:'权限维护',
+				link:'settingAuth.html'
+			}
+			],[{
+				icon:'icon-sv-handle-s',
+				title:'督办委托',
+				link:'settingEntrust.html'
+			},{
+				icon:'icon-sv-toolbox',
+				title:'运维工具',
+				link:''
+			},{
+				icon:'icon-sv-system',
+				title:'系统配置',
+				link:''
+			}]
+			] %>
+			<div class="tab-content">
+			<% list.forEach(function(items,key){ %>
+				<div role="tabpanel" class="tab-pane setting <%=key===0?'active':''%>" id="<%=items.id%>">
+					<% items.setting.forEach(function(item){ %>					
+						<div class="grid">
+							<a href="<%=item.href%>">
+								<p>
+									<span class="iconfont <%=item.icon%>"></span>
+								</p>
+								<strong><%=item.label%></strong>
+							</a>
+						</div>
+					<% }) %>
+				</div>
+			<% }) %>
+			</div>
+		</div>
+</div>		
+<%- include footer %>
+<%- include leaderModal %>
+<%- include companyModal %>

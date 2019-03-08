@@ -1,0 +1,58 @@
+<%- include ../header2 %>
+		<div class="main">
+			<div class="title clearfix">
+				<h3 class="caption">新建年度重要工作任务</h3>
+				<div class="action">
+					<button type="button" class="btn btn-default-s"><span class="iconfont icon-sv-download"></span>下载模板</button>
+					<button type="button" class="btn btn-default-s"><span class="iconfont icon-sv-import"></span>导入</button>
+					<span class="iconfont icon-sv-back"></span>
+				</div>
+			</div>
+			<div class="form-box form-horizontal">
+				<% task = [
+					{label: '督查编号',type:'text',place:'请输入督查编号'},
+					{label: '任务内容',type:'textarea',place:'请输入任务内容'},
+					{label: '主管领导',type:'text',place:'请输入主管领导',modal:'#leader'},
+					{label: '主办单位',type:'text',place:'请输入主办单位',modal:'#company'},
+					{label: '协同单位',type:'text',place:'请输入协同单位'},
+				] %>
+				<% task.forEach(function(item,index){ %>
+					<% if(index === 0){ %>
+						<div class="form-group form-customer">
+							<label class="col-lg-1 col-sm-1 col-xs-1 col-md-1 control-label"><%= item.label%></label>
+							<div class="col-lg-6 col-sm-6 col-md-6 col-xs-6">
+								<select class="form-control dbi">
+								  <option>12341234123</option>
+								</select>
+								<input type="text" class="form-control dbi" value="2018" disabled>	
+								<input type="text" class="form-control dbi" placeholder="" value="01" disabled>	
+								号
+							</div>
+							<div class="col-lg-5 col-md-5 col-xs-5 col-sm-5">
+								<label class="dbi">文件ID</label>
+								<input type="text" class="form-control dbi" placeholder="" name="" value="1" disabled>
+							</div>
+						</div>
+					<% }else{ %>
+						<div class="form-group">
+							<label class="col-lg-1 col-md-1 col-sm-1 col-xs-1 control-label"><%= item.label%></label>
+							<div class="col-lg-11 col-md-11 col-sm-11 col-xs-11">
+								<% if(item.type === 'textarea'){ %>
+									<textarea class="form-control" placeholder="<%=item.place%>"></textarea>
+								<% }else{ %>
+									<input type="<%=item.type%>" class="form-control" placeholder="<%=item.place%>" name="">
+									<span class="iconfont icon-sv-add form-control-feedback" data-toggle="modal" data-target="<%=item.modal%>"></span>
+								<% } %>
+							</div>
+						</div>
+					<% } %>
+				<% }) %>
+				<div class="form-group tac">
+					<button type="button" class="btn btn-primary-c">确定</button>
+					<button type="button" class="btn btn-default-c">重置</button>
+				</div>
+			</div>
+		</div>
+<%- include ../footer2 %>
+<%- include ../leaderModal %>
+<%- include ../companyModal %>

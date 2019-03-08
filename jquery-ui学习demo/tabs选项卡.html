@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="js/jquery.ui.css"/>
+	</head>
+	<body>
+		<div class="app">
+			<div id="tabs">
+				<ul>
+					<li><a href="#tabs1">tabs1</a></li>
+					<li><a href="#tabs2">tabs2</a></li>
+					<li><a href="#tabs3">tabs3</a></li>
+					<li><a href="#tabs4">tabs4</a></li>
+				</ul>
+				<div id="tabs1">
+					<p>tabs1-----content</p>
+					<p>tabs1-----content</p>
+					<p>tabs1-----content</p>
+				</div>
+				<div id="tabs2">
+					<p>tabs2-----content</p>
+				</div>
+				<div id="tabs3">
+					<p>tabs3-----content</p>
+					<p>tabs3-----content</p>
+				</div>
+				<div id="tabs4">
+					<p>tabs4-----content</p>
+					<p>tabs4-----content</p>
+				</div>
+				
+			</div>
+		</div>
+		
+		
+		<script src="js/jquery 1.9.1.js"></script>
+		<script src="js/jquery.ui.js"></script>
+		<script type="text/javascript">
+			$(function() {
+			    $("#tabs").tabs({
+			    	collapsible : true,
+			    	disabled : [],
+			    	active : [1],
+					heightStyle : 'auto',
+					show:'clip',
+					hide: 'slide',
+					activate :function(){
+						alert("切换了")
+						$('#tabs').tabs('disable');
+					}
+			    });
+			    
+//			    $('#tabs').on('tabsactivate',function(){
+//			    	alert("切换了")
+//			    })
+			    
+			});
+			
+		</script>
+	</body>
+</html>

@@ -1,0 +1,90 @@
+<%- include ../header2 %>
+		<div class="main">
+	<% var projects=[
+		{title:'年度重点工作任务',list:[{fav:false,company:'【南航飞行保障部】',time:'2018-12-11 12:00:00',status:'【任务分解中】',title:'这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题',process:'70%'},{check:false,fav:false,status:'【任务审批中】',title:'这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题',company:'【南航信息中心】',time:'2018-12-11 12:00:00',process:'70%'}]},
+
+		{title:'领导行政例会督查',list:[{fav:false,company:'【南航信息中心】',time:'2018-12-11 12:00:00',status:'【任务推进中】',title:'这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题',process:'70%'},{check:false,fav:false,status:'【任务推进中】',title:'这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题',company:'【南航信息中心】',time:'2018-12-11 12:00:00',process:'70%'},{check:false,fav:false,status:'【任务推进中】',title:'这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题',process:'70%'},{check:false,fav:false,status:'【任务推进中】',title:'这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题',process:'70%'},{check:false,fav:false,status:'【任务推进中】',title:'这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题',company:'【南航信息中心】',time:'2018-12-11 12:00:00',process:'70%'}]},
+
+		{title:'总经理办公会督查',list:[{fav:false,status:'【任务推进中】',title:'这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题',company:'【南航信息中心】',time:'2018-12-11 12:00:00',process:'70%'},{check:false,fav:false,status:'【任务推进中】',title:'这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题',company:'【南航信息中心】',time:'2018-12-11 12:00:00',process:'70%'},{check:false,fav:false,status:'【任务推进中】',title:'这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题',company:'【南航信息中心】',time:'2018-12-11 12:00:00',process:'70%'},{check:false,fav:false,status:'【任务推进中】',title:'这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题',process:'70%'},{check:false,fav:false,status:'【任务推进中】',title:'这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题',process:'70%'},{check:false,fav:false,status:'【任务推进中】',title:'这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题',process:'70%'},{check:false,fav:false,status:'【任务推进中】',title:'这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题',process:'70%'},{check:false,fav:false,status:'【任务推进中】',title:'这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题',process:'70%'},{check:false,fav:false,status:'【任务推进中】',title:'这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题',company:'【南航信息中心】',time:'2018-12-11 12:00:00',process:'70%'}]},
+
+		{title:'其他重要工作督查',list:[{fav:false,status:'【任务推进中】',title:'这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题',process:'70%'},{check:false,fav:false,status:'【任务推进中】',title:'这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题',process:'70%'},{check:false,fav:false,status:'【任务推进中】',title:'这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题',process:'70%'},{check:false,fav:false,status:'【任务推进中】',title:'这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题',process:'70%'},{check:false,fav:false,status:'【任务推进中】',title:'这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题',process:'70%'},{check:false,fav:false,status:'【任务推进中】',title:'这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题',process:'70%'},{check:false,fav:false,status:'【任务推进中】',title:'这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题',process:'70%'},{check:false,fav:false,status:'【任务推进中】',title:'这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题',process:'70%'},{check:false,fav:false,status:'【任务推进中】',title:'这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题',process:'70%'}]}
+
+	]; %>
+	<% projects.forEach(function(task,key){ %>
+	<div class="list-part">
+			<div class="title">
+				<h3><%=task.title%></h3>
+				<div class="poa">
+					<a href="pendingPage.html" class="iconfont icon-sv-arrow-down">更多</a>
+				</div>
+			</div>
+			<ul class="list-box list-unstyled" id="box-<%=key%>">
+				<% task.list.forEach(function(item,index){ %>
+					<li style="display: <%=index>4?'none':'block';%>">
+						<input type="checkbox" name="">
+						<a href="" data-toggle="modal" data-target="#detailModal">
+							<ins><%=item.status%></ins>
+							<span>
+								<span class="c"><%=item.company%></span>
+								<%=item.title%>
+							</span>
+							<span class="t"><%=item.time%></span>
+						</a>
+					</li>
+				<% }) %>
+			</ul>
+		</div>
+	<% }) %>
+
+<%- include detailModal %>
+<%- include ../companyModal %>
+<%- include ../footer2 %>
+
+<script type="text/javascript">
+	require(['jquery','mustache','moment','picker'],function($,Mustache,moment){
+		var pIndex = 0,
+			cIndex = 0
+		$(document).on('click','[data-add="parent"]',function(){
+			++pIndex
+			var template = $('#stepParent').html();
+			Mustache.parse(template);   // optional, speeds up future uses
+			var rendered = Mustache.render(template, {index: pIndex});
+			$('.step-parent-box').append(rendered);
+		})
+		$(document).on('click','[data-add="child"]',function(e){
+			++cIndex
+			var template = $('#stepChild').html();
+			Mustache.parse(template);   // optional, speeds up future uses
+			var rendered = Mustache.render(template, {index: cIndex});
+			$(e.target).closest('.step-child').prev('.step-child-box').append(rendered);
+		})
+		$(document).on('blur','.input-info input',function(e){
+			if($(e.target).val() === '') return
+			$(this).addClass('disabled').attr('disabled',true).css('textAlign','left')
+			$(this).parent().next().removeClass('hide').addClass('show')
+		})
+		$(document).on('click','.input-info',function(e){
+			$(this).find('input').removeClass('disabled').removeAttr('disabled')
+			$(this).next().removeClass('show').addClass('hide')
+		})
+		$(document).on('click','.action',function(e){
+			$(e.target).closest('.step-child').remove()
+		})
+		$(document).on('click','.input-time',function(){
+			var self = $(this)
+			$(this).datetimepicker({
+			    language:  'zh-CN',
+			    weekStart: 1,
+			    todayBtn:  1,
+				autoclose: 1,
+				todayHighlight: 1,
+				startView: 2,
+				minView: 2,
+				format: 'yyyy-mm-dd',
+				forceParse: 0
+			}).on('changeDate', function(e){
+				self.prev().text(moment(e.date).format('YYYY-MM-DD'))
+			});
+		})
+	})	
+</script>

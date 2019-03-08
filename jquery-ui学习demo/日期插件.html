@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="js/jquery.ui.css">
+    <style>
+        .ui-datepicker-today .ui-state-highlight{
+            border: 1px solid #eee;
+            color: #f60;
+        }
+        .ui-datepicker-current-day .ui-state-active{
+            border: 1px solid #eee;
+            color: #06f;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="app">
+        <h3 id='data'>
+
+        </h3>
+        <form action="">
+            <span>时间</span>
+            <input type="text" name='time' placeholder="请输入时间日期" class="time" id="datepicker">
+        </form>
+    </div>
+
+
+    <script src="js/jquery 1.9.1.js"></script>
+    <script src="js/jquery.ui.js"></script>
+    <script>
+        $(function(){
+            $('#date').datepicker({
+                altField: '#datepicker',
+                altFormat: 'yy/mm/dd'
+            })
+
+
+
+            console.log($('#date').datepicker('getDate')); 
+            $( "#datepicker" ).change(function(){
+                alert($('#date').datepicker())
+            })
+            $( "#datepicker" ).datepicker({
+                dateFormat:"mm--dd--yy",
+                dayNamesMin: ['日','一','二','三','四','五','六'],
+                monthNames: ['一月','二月','三月','四月','五月','六月',
+                '七月','八月','九月','十月','十一月','十二月'],
+                appendText: '日历',
+                beforeShowDay: function(date){
+                    if(date.getDate() == 1 ){
+                        return [false,'class名','不能选择1号']; 
+                    }else{
+                        return [true]; 
+                    } 
+                },
+                changeYear : true,//应许选择年份
+                changeMonth : true,//应许选择月份
+                numberOfMonths : 1,
+                showButtonPanel: true
+
+            });
+            
+        })
+    </script>
+</body>
+</html>

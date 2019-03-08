@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>轮播图1</title>
+		<style type="text/css">
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			a{
+				text-decoration: none;
+			}
+			li{
+				list-style: none;
+			}
+			.swiper{
+				width: 700px;
+				height: 400px;
+				margin: 0 auto;
+				position: relative;
+				margin-top: 60px;
+				border: 1px solid #CCCC77;
+				text-align: center;
+				overflow: hidden;
+			}
+			.swiper .prev,.swiper .next{
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				margin: auto 0;
+				width: 34px;
+				height: 60px;
+				text-align: center;
+				line-height: 60px;
+				font-weight: 800;
+				font-size: 25px;
+				background-color: #000000;
+				color: #FFFFFF;
+				opacity: 0.5;
+				cursor: pointer;
+				-ms-user-select: none;
+				user-select: none;
+				z-index: 20;
+				transition: all 0.4s;
+			}
+			.swiper .prev{
+				left: -40px;
+			}
+			.swiper .next{
+				right: -40px;
+			}
+			.swiper:hover .next{
+				right: 0px;
+			}
+			.swiper:hover .prev{
+				left: 0px;
+			}
+			.swiper .hove:hover{
+				background-color: #000000;
+				opacity: 1;
+				transition: all .4s;
+			}
+			.swiper-box{
+				width: 5000px;
+				height: 100%;
+				position: absolute;
+				left: -700px;
+				top: 0px;
+				/*overflow: hidden;*/
+			}
+			.swiper-box>li{
+				width: 700px;
+				height: 100%;
+				float: left;
+			}
+			
+			.swiper-box>li img{
+				width: 100%;
+				height: 100%;
+				opacity: 0.9;
+				-moz-user-select: none;
+				-moz-user-select: none;	
+			}
+			.swiper-click{
+				position: absolute;
+				bottom: 20px;
+				display: inline-block;
+				padding: 3px 8px;
+				border-radius: 8px;
+				background-color: hotpink;
+				opacity: 0.6;
+				z-index: 5;
+				width: 300px;
+				margin-left: -150px;
+				cursor: pointer;
+			}
+			.swiper-click:hover{
+				opacity: 0.9;
+				transition: all .7s;
+			}
+			.swiper-click>li{
+				width: 15px;
+				height: 15px;
+				border-radius: 50%;
+				background-color: #fff;
+				display: inline-block;
+				margin: 0 4px;
+			}
+			.swiper-click>li.active{
+				background-color: red;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="swiper">
+			<div class="prev hove">></div>
+			<div class="next hove"><</div>
+			<ul class="swiper-box">
+				<li><img src="img/lb5.jpg"/></li>
+				<li class="show"><img src="img/lb1.jpg"/>></li>
+				<li><img src="img/lb2.jpg"/></li>
+				<li><img src="img/lb3.jpg"/></li>
+				<li><img src="img/lb4.jpg"/></li>
+				<li><img src="img/lb5.jpg"/></li>
+				<li><img src="img/lb1.jpg"/>></li>
+			</ul>
+			<ul class="swiper-click">
+				<li class="active"></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+		
+		
+		<script src="jquery 1.9.1.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				var step = $('.swiper-box>li').eq(0).width();
+				var now = 1;
+				var timer = 0;
+				var len = $('.swiper-box>li').length;
+				var off = true;
+				//获取元素
+				
+				var $swiperBox = $('.swiper-box');
+				var $swiperClicks = $('.swiper-click li');
+				
+				console.log($swiperClicks)
+//				console.log($swiperBox,len)
+				//prev 向左运动
+				function prevMove(){
+					if(off){
+						off = false;
+						setTimeout(function(){
+							now--;
+							if(now==0){
+								$swiperBox.animate({left:-now*step},function(){
+									now = len - 2;
+									$swiperBox.css({left:-now*step})
+									$swiperClicks.eq(now-1).addClass('active').siblings().removeClass('active')
+								})
+							}else{
+								$swiperBox.animate({left:-now*step})
+								if(now>0){
+									$swiperClicks.eq(now-1).addClass('active').siblings().removeClass('active')
+								}
+							}
+							off = true;
+						},500)
+					}
+					
+				}
+				//prev 向右运动
+				function nextMove(){
+					if(off){
+						off = false;
+						setTimeout(function(){
+							now++;
+							if(now==len-1){
+								$swiperBox.animate({left:-now*step},function(){
+									now = 1;
+									$swiperBox.css({left:-now*step})
+									$swiperClicks.eq(now-1).addClass('active').siblings().removeClass('active')
+								})
+							}else{
+								$swiperBox.animate({left:-now*step})
+								if(now>0){
+									$swiperClicks.eq(now-1).addClass('active').siblings().removeClass('active')
+								}
+							}
+							off = true;
+						},500)
+					}
+				}
+				
+				//轮播
+				timer = setInterval(function(){
+					prevMove()
+				},2000)
+				$('.swiper').hover(function(){
+					clearInterval(timer)
+				},function(){
+					timer = setInterval(function(){
+						prevMove()
+					},2000)
+				})
+				//点击prev next
+				$('.prev').on('click',function(){
+					prevMove()
+				})
+				$('.next').on('click',function(){
+					nextMove()
+				})
+				//锚点点击
+				$('.swiper-click>li').on('click',function(){
+					now=$(this).index()+2;
+					prevMove()
+					$(this).addClass('active').siblings().removeClass('active')
+				})
+				
+				//记录鼠标点击移动方向
+				var oldValue = 0;
+				var newValue = 0;
+				var isLeft = true;
+				isDown = null;
+				
+//				$('.swiper-box').on('mousedown',function(ev){
+//					oldValue = ev.clientX;
+//					console.log(oldValue)
+//					isDown = true;
+//					ev.stopPropagation()
+//				})
+//				$('.swiper-box').on('mousemove',function(ev){
+//					ev.stopPropagation()
+//					if(isDown){
+//						newValue = ev.clientX;
+//						console.log(newValue,isLeft)
+//					}
+//				})
+//					
+//				$('.swiper-box').on('mouseup',function(){
+//					ev.stopPropagation()
+//					isDown = false;
+//					isLeft = oldValue > newValue ? true : false;
+//					alert(isDown)
+//				})
+				
+			})
+		</script>
+	</body>
+</html>

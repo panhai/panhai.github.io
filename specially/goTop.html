@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			.top{
+				position: fixed;
+				right: 2px;
+				bottom: 5px;
+				padding: 10px;
+				background-color: red;
+				color: #fff;
+				width: 20px;
+				cursor: pointer;
+			}
+		</style>
+	</head>
+	<body style="height: 2000px;">
+		
+		<div class="top">回到顶部</div>
+		<div class="box">
+			<ul>
+				<li>1111111111111111111111111</li>
+				<li>1111111111111111111111111</li>
+				<li>1111111111111111111111111</li>
+				<li>1111111111111111111111111</li>
+				<li>1111111111111111111111111</li>
+				<li>1111111111111111111111111</li>
+				<li>1111111111111111111111111</li>
+				
+			</ul>
+		</div>
+		<script src="jquery 1.9.1.js"></script>
+		<script>
+			$('.top').click(function(){
+				$(document).scrollTop(0)
+			})
+		</script>
+	</body>
+</html>

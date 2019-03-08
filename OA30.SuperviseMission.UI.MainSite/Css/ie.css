@@ -1,0 +1,82 @@
+/***行省略号BUG***/
+.detail-box .detail-part .col span {
+    display:inline;
+}
+/***错误撑宽问题***/
+.detail-col{
+    /***display: block;***/
+}
+
+/***垂直居中***/
+.form-control{
+    display:inline-block;
+    vertical-align: middle;
+}
+/***进度自适应***/
+.card .card-body  .detail-block .form-group input{
+    width:auto;
+}
+
+/***图标偏移***/
+.card .card-header .iconfont{
+    top: 25%;
+}
+
+/***按钮间距***/
+.tac button + button{
+    margin-left: 10px;
+}
+
+/***last-child失效***/
+.card .card-body .form-child.disabled .form-group+.form-group+.form-group{
+    display: none;
+}
+
+/***IE8文本框内容顶格***/
+.card .notice .info INPUT[type='text']{
+    /***height: 22px;***/
+    padding-left: 4px;
+    padding-bottom:20px;
+    margin-top: -3px;
+}
+
+/***IE8透明的兼容***/
+.card .card-body .form-new input[type="file"] {
+    filter:alpha(opacity=0);
+    /***filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);***/
+    width:62px;
+    margin-left:70px;
+    margin-top:-28px;
+    cursor:pointer;
+}
+
+/***弹窗临时***/
+.modal {
+}
+.modal-dialog {
+    margin:30px auto;
+}
+.modal .modal-dialog .modal-content .modal-body .clearfix {
+    display:table;
+}
+.modal .modal-dialog .modal-content .modal-body .clearfix>.col-sm-6 {
+    display:table-cell;
+    width:300px;
+    vertical-align: middle;
+    /***text-align: center;***/
+}
+
+/***IE8下的max-width BUG***/
+.notice .info .radio label {
+    max-width:none;
+}
+
+/***IE8 box-shadow***/
+.search-part .search-control {
+    filter: progid:DXImageTransform.Microsoft.Shadow(color='#e5e5e5', Direction=125, Strength=5);
+}
+
+/*ie下督查任务只显示....*/
+.list-part .list-box li .ffd span.l {
+ display:inline;
+}

@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>督办系统</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../../Css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../../Css/picker.css">
+	<link rel="stylesheet" type="text/css" href="../../Css/style.css">
+</head>
+<body>
+
+	<div class="page">
+		<div class="menu-part">
+			<div class="face-part clearfix">
+	<img src="/images/face.jpg" width="48" height="48" />
+	<p>
+	<span>早上好</span>，<br/>
+	<strong>慕容克兰</strong>
+	</p>
+</div>
+			
+	
+    <ul class="list-group">
+        
+        <li class="list-group-item">
+        	<a href="index.html" target="view-frame"><span class="iconfont icon-sv-home"></span>督办任务</a>
+        </li>
+        
+        <li class="list-group-item">
+        	<a href="pending.html" target="view-frame"><span class="iconfont icon-sv-tag"></span>待处理</a>
+        </li>
+        
+        <li class="list-group-item">
+        	<a href="new.html" target="view-frame"><span class="iconfont icon-sv-add"></span>新建</a>
+        </li>
+        
+        <li class="list-group-item">
+        	<a href="setting.html" target="view-frame"><span class="iconfont icon-sv-setting"></span>管理</a>
+        </li>
+        
+        <li class="list-group-item">
+        	<a href="/" target="view-frame"><span class="iconfont icon-sv-off"></span>退出</a>
+        </li>
+        
+    </ul>
+
+		</div>
+		<div class="main">
+		<div class="search-part">
+	<div class="form-group has-feedback">
+	  <label class="control-label sr-only" for="inputSuccess5"></label>
+	  <input type="hidden" class="form-control" aria-describedby="inputSuccess5Status">
+	  <span class="form-control" id="search-input"></span>
+	  <span class="iconfont icon-sv-search form-control-feedback" aria-hidden="true"></span>
+	  <div class="search-filter">
+	  	
+	  </div>
+	</div> 
+	<div class="search-control" style="display:none;">
+		<div class="row">
+			<div class="col col-lg-10 col-md-10 col-sm-10 col-xs-10 col-one">
+				<div class="form-group clearfix">
+					<label for="" class="col-sm-3 col-md-3 col-xs-3 col-lg-3 control-label">关键字搜索</label>
+					<div class="col-sm-9 col-md-9 col-xs-9 col-lg-9">
+					  <input type="text" class="form-control" id="" placeholder="请输入关键字搜索">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col col-lg-5 col-md-5 col-sm-5 col-xs-5">
+				<div class="form-group clearfix">
+					<label for="" class="col-sm-3 col-md-3 col-xs-3 col-lg-3 control-label">主办单位</label>
+					<div class="col-sm-9 col-md-9 col-xs-9 col-lg-9 dropdown">
+					  <input type="text" class="form-control" data-toggle="dropdown" placeholder="请选择主办单位">
+					  <span class="iconfont icon-sv-add form-control-feedback" aria-hidden="true"></span>
+
+					  
+
+					  <ul class="list-unstyled dropdown-menu" aria-labelledby="dLabel">
+					  
+					  		<li>
+					  			<div class="radio">
+					  				<label>
+					  				<input data-menu="dropdown" type="radio" name="company" checked />
+					  				南航信息中心
+					  			</label>
+					  			</div>
+					  		</li>
+					  
+					  		<li>
+					  			<div class="radio">
+					  				<label>
+					  				<input data-menu="dropdown" type="radio" name="company"  />
+					  				南航财务部
+					  			</label>
+					  			</div>
+					  		</li>
+					  
+					  		<li>
+					  			<div class="radio">
+					  				<label>
+					  				<input data-menu="dropdown" type="radio" name="company"  />
+					  				南航飞行部
+					  			</label>
+					  			</div>
+					  		</li>
+					  
+					  		<li>
+					  			<div class="radio">
+					  				<label>
+					  				<input data-menu="dropdown" type="radio" name="company"  />
+					  				南航保障部
+					  			</label>
+					  			</div>
+					  		</li>
+					  
+					  		<li>
+					  			<div class="radio">
+					  				<label>
+					  				<input data-menu="dropdown" type="radio" name="company" checked />
+					  				南航研究院
+					  			</label>
+					  			</div>
+					  		</li>
+					  
+					  		<li>
+					  			<div class="radio">
+					  				<label>
+					  				<input data-menu="dropdown" type="radio" name="company"  />
+					  				南航物业
+					  			</label>
+					  			</div>
+					  		</li>
+					  
+					  </ul>
+					</div>
+				</div>
+				<div class="form-group clearfix">
+					<label for="" class="col-sm-3 col-md-3 col-xs-3 col-lg-3 control-label">创建时间</label>
+					<div class="col-sm-4 col-md-4 col-xs-4 col-lg-4">
+					  <input type="text" class="form-control input-time" data-date="" data-date-format="yyyy-mm-dd" data-link-field="search" data-link-format="yyyy-mm-dd" placeholder="请选择创建时间">
+					</div>
+					<label class="col-sm-1 col-md-1 col-xs-1 col-lg-1">至</label>
+					<div class="col-sm-4 col-md-4 col-xs-4 col-lg-4">
+					  <input type="text" class="form-control input-time" data-date="" data-date-format="yyyy-mm-dd" data-link-field="search" data-link-format="yyyy-mm-dd" placeholder="请选择创建时间">
+					</div>
+				</div>
+			</div>
+			<div class="col col-lg-5 col-md-5 col-sm-5 col-xs-5">
+				<div class="form-group clearfix">
+					<label for="" class="col-sm-3 col-md-3 col-xs-3 col-lg-3 control-label">文档ID</label>
+					<div class="col-sm-9 col-md-9 col-xs-9 col-lg-9 dropdown">
+					  <input type="text" class="form-control" placeholder="请输入文档ID">
+					</div>
+				</div>
+				<div class="form-group clearfix status-col dropdown">
+					<label for="" class="col-sm-3 col-md-3 col-xs-3 col-lg-3 control-label">选择状态</label>
+					<div class="col-sm-9 col-md-9 col-xs-9 col-lg-9">
+					  <input type="text" class="form-control " id="inputStatus" placeholder="请选择状态" data-toggle="dropdown" role="button" data-status="more">
+					  <span class="iconfont icon-sv-add form-control-feedback" aria-hidden="true" data-toggle="dropdown" role="button" data-status="more"></span>
+
+					  
+					  <ul class="list-unstyled dropdown-menu">
+					  
+					  		<li>
+					  			<div class="checkbox">
+					  			<label><input type="checkbox"  />
+					  			拟稿</label>
+					  			</div>
+					  			</li>
+					  
+					  		<li>
+					  			<div class="checkbox">
+					  			<label><input type="checkbox"  />
+					  			任务分解中</label>
+					  			</div>
+					  			</li>
+					  
+					  		<li>
+					  			<div class="checkbox">
+					  			<label><input type="checkbox"  />
+					  			分解审批中</label>
+					  			</div>
+					  			</li>
+					  
+					  		<li>
+					  			<div class="checkbox">
+					  			<label><input type="checkbox"  />
+					  			任务确认中</label>
+					  			</div>
+					  			</li>
+					  
+					  		<li>
+					  			<div class="checkbox">
+					  			<label><input type="checkbox"  />
+					  			任务推进中</label>
+					  			</div>
+					  			</li>
+					  
+					  		<li>
+					  			<div class="checkbox">
+					  			<label><input type="checkbox"  />
+					  			任务办结</label>
+					  			</div>
+					  			</li>
+					  
+					  </ul>
+					</div>
+				</div>	
+			</div>
+			<div class="col col-lg-2 col-md-2 col-sm-2 col-xs-2" style="margin-top:-15px;">
+				<div class="form-group">
+				<button	class="btn btn-primary btn-primary-c search-btn">查询</button>
+				</div>
+				<div class="form-group">
+				<button	class="btn btn-primary btn-default-c reset-btn">重置</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	
+	<div class="list-part">
+			<div class="title">
+				<h3>其他重要工作督查<b>(<span>18</span>)</b></h3>
+				<div class="poa">
+					<label>
+						<input type="checkbox" name="" data-checked="#box-1">
+						全选
+					</label>
+					<button class="btn btn-primary-s">同意发送</button>
+				</div>
+			</div>
+			
+			<ul class="list-box list-unstyled" id="box-1">
+				
+					<li>
+						<input type="checkbox" name="">
+						<a href="">
+							<ins>任务推进中</ins>
+							<span>
+								【<span class="c">南航后勤飞行保障部</span>】
+								这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题
+							</span>
+							<span class="t">
+								2018-12-11 12:00:00
+							</span>
+						</a>
+					</li>
+				
+					<li>
+						<input type="checkbox" name="">
+						<a href="">
+							<ins>任务推进中</ins>
+							<span>
+								【<span class="c">南航后勤飞行保障部</span>】
+								这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题
+							</span>
+							<span class="t">
+								2018-12-11 12:00:00
+							</span>
+						</a>
+					</li>
+				
+					<li>
+						<input type="checkbox" name="">
+						<a href="">
+							<ins>任务推进中</ins>
+							<span>
+								【<span class="c">南航信息中心</span>】
+								这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题
+							</span>
+							<span class="t">
+								2018-12-11 12:00:00
+							</span>
+						</a>
+					</li>
+				
+					<li>
+						<input type="checkbox" name="">
+						<a href="">
+							<ins>任务推进中</ins>
+							<span>
+								【<span class="c">南航后勤飞行保障部</span>】
+								这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题
+							</span>
+							<span class="t">
+								2018-12-11 12:00:00
+							</span>
+						</a>
+					</li>
+				
+					<li>
+						<input type="checkbox" name="">
+						<a href="">
+							<ins>任务推进中</ins>
+							<span>
+								【<span class="c">南航后勤飞行保障部</span>】
+								这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题
+							</span>
+							<span class="t">
+								2018-12-11 12:00:00
+							</span>
+						</a>
+					</li>
+				
+					<li>
+						<input type="checkbox" name="">
+						<a href="">
+							<ins>任务推进中</ins>
+							<span>
+								【<span class="c">南航后勤飞行保障部</span>】
+								这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题
+							</span>
+							<span class="t">
+								2018-12-11 12:00:00
+							</span>
+						</a>
+					</li>
+				
+					<li>
+						<input type="checkbox" name="">
+						<a href="">
+							<ins>任务推进中</ins>
+							<span>
+								【<span class="c">南航物业</span>】
+								这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题
+							</span>
+							<span class="t">
+								2018-12-11 12:00:00
+							</span>
+						</a>
+					</li>
+				
+					<li>
+						<input type="checkbox" name="">
+						<a href="">
+							<ins>任务推进中</ins>
+							<span>
+								【<span class="c">南航地勤</span>】
+								这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题
+							</span>
+							<span class="t">
+								2018-12-11 12:00:00
+							</span>
+						</a>
+					</li>
+				
+					<li>
+						<input type="checkbox" name="">
+						<a href="">
+							<ins>任务推进中</ins>
+							<span>
+								【<span class="c">南航后勤飞行保障部</span>】
+								这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题
+							</span>
+							<span class="t">
+								2018-12-11 12:00:00
+							</span>
+						</a>
+					</li>
+				
+					<li>
+						<input type="checkbox" name="">
+						<a href="">
+							<ins>任务推进中</ins>
+							<span>
+								【<span class="c">南航后勤飞行保障部</span>】
+								这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的ssssss标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题
+							</span>
+							<span class="t">
+								2018-12-11 12:00:00
+							</span>
+						</a>
+					</li>
+				
+					<li>
+						<input type="checkbox" name="">
+						<a href="">
+							<ins>任务推进中</ins>
+							<span>
+								【<span class="c">南航后勤飞行保障部</span>】
+								这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题
+							</span>
+							<span class="t">
+								2018-12-11 12:00:00
+							</span>
+						</a>
+					</li>
+				
+					<li>
+						<input type="checkbox" name="">
+						<a href="">
+							<ins>任务推进中</ins>
+							<span>
+								【<span class="c">南航后勤飞行保障部</span>】
+								这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题
+							</span>
+							<span class="t">
+								2018-12-11 12:00:00
+							</span>
+						</a>
+					</li>
+				
+					<li>
+						<input type="checkbox" name="">
+						<a href="">
+							<ins>任务推进中</ins>
+							<span>
+								【<span class="c">南航财务部</span>】
+								这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题
+							</span>
+							<span class="t">
+								2018-12-11 12:00:00
+							</span>
+						</a>
+					</li>
+				
+					<li>
+						<input type="checkbox" name="">
+						<a href="">
+							<ins>任务推进中</ins>
+							<span>
+								【<span class="c">南航后勤飞行保障部</span>】
+								这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题
+							</span>
+							<span class="t">
+								2018-12-11 12:00:00
+							</span>
+						</a>
+					</li>
+				
+					<li>
+						<input type="checkbox" name="">
+						<a href="">
+							<ins>任务推进中</ins>
+							<span>
+								【<span class="c">南航后勤飞行保障部</span>】
+								这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题
+							</span>
+							<span class="t">
+								2018-12-11 12:00:00
+							</span>
+						</a>
+					</li>
+				
+					<li>
+						<input type="checkbox" name="">
+						<a href="">
+							<ins>任务推进中</ins>
+							<span>
+								【<span class="c">南航后勤飞行保障部</span>】
+								这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题
+							</span>
+							<span class="t">
+								2018-12-11 12:00:00
+							</span>
+						</a>
+					</li>
+				
+					<li>
+						<input type="checkbox" name="">
+						<a href="">
+							<ins>任务推进中</ins>
+							<span>
+								【<span class="c">南航后勤飞行保障部</span>】
+								这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题
+							</span>
+							<span class="t">
+								2018-12-11 12:00:00
+							</span>
+						</a>
+					</li>
+				
+					<li>
+						<input type="checkbox" name="">
+						<a href="">
+							<ins>任务推进中</ins>
+							<span>
+								【<span class="c">南航后勤飞行保障部</span>】
+								这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题
+							</span>
+							<span class="t">
+								2018-12-11 12:00:00
+							</span>
+						</a>
+					</li>
+				
+			</ul>
+			<div class="tar">
+				<nav aria-label="Page navigation" class="pagination">
+  
+</nav>
+
+			</div>
+		</div>
+
+	</div>
+	
+<script src="../../Script/require.js" data-main="../../Script/main.js"></script>
+</body></html>
+

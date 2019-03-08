@@ -1,0 +1,284 @@
+	
+			<div class="form-box form-horizontal">
+				<a href="javascript:void(0)" class="iconfont icon-sv-reduce trash" style="display:none;"></a>
+				
+				
+					
+						<div class="form-group form-customer">
+							<label class="col-lg-1 col-sm-1 col-xs-1 col-md-1 control-label">督查编号:</label>
+							<div class="col-lg-6 col-sm-6 col-md-6 col-xs-6">
+								<select class="form-control dbi">
+								  <option>南航集团督</option>
+								</select>
+								<input type="text" class="form-control dbi num" value="2018" disabled>	
+								<input type="text" class="form-control dbi" placeholder="" value="01" disabled>	
+								号
+							</div>
+							<div class="col-lg-5 col-md-5 col-xs-5 col-sm-5">
+								<label class="dbi">文件ID</label>
+								<input type="text" class="form-control dbi" placeholder="" name="" value="1" disabled>
+							</div>
+						</div>
+					
+				
+					
+						<div class="form-group">
+							<label class="col-lg-1 col-md-1 col-sm-1 col-xs-1 control-label">任务内容:</label>
+							<div class="col-lg-11 col-md-11 col-sm-11 col-xs-11">
+								
+									<textarea class="form-control" placeholder="请输入任务内容"></textarea>
+								
+							</div>
+						</div>
+
+					
+				
+					
+						<div class="form-group">
+							<label class="col-lg-1 col-md-1 col-sm-1 col-xs-1 control-label">主办单位:</label>
+							<div class="col-lg-11 col-md-11 col-sm-11 col-xs-11">
+								
+									<input type="text" class="form-control" placeholder="请输入主办单位" name="">
+									<span class="iconfont icon-sv-add form-control-feedback" data-toggle="modal" data-target="#company" data-tag="leader"></span>
+								
+							</div>
+						</div>
+
+					
+				
+					
+						<div class="form-group">
+							<label class="col-lg-1 col-md-1 col-sm-1 col-xs-1 control-label">协办单位:</label>
+							<div class="col-lg-11 col-md-11 col-sm-11 col-xs-11">
+								
+									<input type="text" class="form-control" placeholder="请输入协办单位" name="">
+									<span class="iconfont icon-sv-add form-control-feedback" data-toggle="modal" data-target="#company1" data-tag="company"></span>
+								
+							</div>
+						</div>
+
+					
+				
+					
+						<div class="form-group">
+							<label class="col-lg-1 col-md-1 col-sm-1 col-xs-1 control-label">完成时限:</label>
+							<div class="col-lg-11 col-md-11 col-sm-11 col-xs-11">
+								<input type="text" placeholder="请输入完成时限" class="form-control input-time" data-date="" data-date-format="yyyy-mm-dd" data-link-field="search" data-link-format="yyyy-mm-dd">
+								<span class="iconfont icon-sv-add form-control-feedback"></span>
+							</div>
+						</div>
+					
+				
+					
+						<div class="form-group">
+							<label class="col-lg-1 col-md-1 col-sm-1 col-xs-1 control-label">启动时间:</label>
+							<div class="col-lg-11 col-md-11 col-sm-11 col-xs-11">
+								<input type="text" placeholder="请输入启动时间" class="form-control input-time" data-date="" data-date-format="yyyy-mm-dd" data-link-field="search" data-link-format="yyyy-mm-dd">
+								<span class="iconfont icon-sv-add form-control-feedback"></span>
+							</div>
+						</div>
+					
+				
+				<div class="form-group tac form-btn">
+					<button type="button" class="btn btn-primary-c" data-btn="sure">添加</button>
+					<button type="button" class="btn btn-default-c" data-btn="reset">重置</button>
+				</div>
+			</div>
+<div class="modal fade company-modal" tabindex="-1" role="dialog" id="company">
+  <div class="modal-dialog" role="document" style="width:610px;">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">选择主办单位</h4>
+      </div>
+      <div class="modal-body">
+        <div class="clearfix">
+        	<div class="col-sm-6 col">
+        		<div class="form-group">
+        			<div class="input-group">
+	        		<input type="text" class="form-control" id="leader-input" placeholder="选择部门">
+	        		<div class="input-group-addon">
+			        	<span class="iconfont icon-sv-search"></span>
+			        </div>
+			    </div>
+			    </div>
+        	</div>
+             <div class="col-sm-6 col">
+             	<div class="form-group dropdown">
+             		<div class="input-group">
+	        		<input type="text" class="form-control" id="leader-input" placeholder="选择自定义组">
+	        		<div class="input-group-addon" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			        	<span class="iconfont icon-sv-arrow-down"></span>
+			        </div>
+			        <ul class="dropdown-menu" aria-labelledby="dLabel">
+						<li><input type="checkbox" name=""><label>自定义组</label></li>    
+						<li><input type="checkbox" name=""><label>自定义组</label></li>    
+					</ul>
+			    </div>
+			    </div>
+        	</div>
+        </div>
+        <div class="choose-area" id="chooseArea">
+          
+          <ul class="list-unstyled">
+            
+                <li>
+                <div class="checkbox">
+                  <label><span class="iconfont icon-sv-user"></span>
+                  南航飞行部
+                  <input type="checkbox" value="1" /></label></div>
+                </li>
+              
+                <li>
+                <div class="checkbox">
+                  <label><span class="iconfont icon-sv-user"></span>
+                  南航信息中心
+                  <input type="checkbox" value="2" /></label></div>
+                </li>
+              
+                <li>
+                <div class="checkbox">
+                  <label><span class="iconfont icon-sv-user"></span>
+                  南航财务部
+                  <input type="checkbox" value="4" /></label></div>
+                </li>
+              
+                <li>
+                <div class="checkbox">
+                  <label><span class="iconfont icon-sv-user"></span>
+                  南航飞行保障部
+                  <input type="checkbox" value="3" /></label></div>
+                </li>
+              
+                <li>
+                <div class="checkbox">
+                  <label><span class="iconfont icon-sv-user"></span>
+                  南航后勤部
+                  <input type="checkbox" value="5" /></label></div>
+                </li>
+              
+                <li>
+                <div class="checkbox">
+                  <label><span class="iconfont icon-sv-user"></span>
+                  南航培训部
+                  <input type="checkbox" value="6" /></label></div>
+                </li>
+              
+                <li>
+                <div class="checkbox">
+                  <label><span class="iconfont icon-sv-user"></span>
+                  南航客舱部
+                  <input type="checkbox" value="7" /></label></div>
+                </li>
+              
+          </ul>
+        </div>
+        <div class="result-area" id="resultArea" data-area="">
+        </div>
+        <div class="form-group tac">
+          <button type="button" class="btn btn-primary-c">确定</button>
+          <button type="button" class="btn btn-default-c" data-dismiss="modal">重置</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade company-modal" tabindex="-1" role="dialog" id="company1">
+  <div class="modal-dialog" role="document" style="width:610px;">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">选择主办单位</h4>
+      </div>
+      <div class="modal-body">
+        <div class="clearfix">
+        	<div class="col-sm-6 col">
+        		<div class="form-group">
+        			<div class="input-group">
+	        		<input type="text" class="form-control" id="leader-input" placeholder="选择部门">
+	        		<div class="input-group-addon">
+			        	<span class="iconfont icon-sv-search"></span>
+			        </div>
+			    </div>
+			    </div>
+        	</div>
+             <div class="col-sm-6 col">
+             	<div class="form-group dropdown">
+             		<div class="input-group">
+	        		<input type="text" class="form-control" id="leader-input" placeholder="选择自定义组">
+	        		<div class="input-group-addon" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			        	<span class="iconfont icon-sv-arrow-down"></span>
+			        </div>
+			        <ul class="dropdown-menu" aria-labelledby="dLabel">
+						<li><input type="checkbox" name=""><label>自定义组</label></li>    
+						<li><input type="checkbox" name=""><label>自定义组</label></li>    
+					</ul>
+			    </div>
+			    </div>
+        	</div>
+        </div>
+        <div class="choose-area" id="chooseArea">
+          
+          <ul class="list-unstyled">
+            
+                <li>
+                <div class="checkbox">
+                  <label><span class="iconfont icon-sv-user"></span>
+                  南航飞行部
+                  <input type="checkbox" value="1" /></label></div>
+                </li>
+              
+                <li>
+                <div class="checkbox">
+                  <label><span class="iconfont icon-sv-user"></span>
+                  南航信息中心
+                  <input type="checkbox" value="2" /></label></div>
+                </li>
+              
+                <li>
+                <div class="checkbox">
+                  <label><span class="iconfont icon-sv-user"></span>
+                  南航财务部
+                  <input type="checkbox" value="4" /></label></div>
+                </li>
+              
+                <li>
+                <div class="checkbox">
+                  <label><span class="iconfont icon-sv-user"></span>
+                  南航飞行保障部
+                  <input type="checkbox" value="3" /></label></div>
+                </li>
+              
+                <li>
+                <div class="checkbox">
+                  <label><span class="iconfont icon-sv-user"></span>
+                  南航后勤部
+                  <input type="checkbox" value="5" /></label></div>
+                </li>
+              
+                <li>
+                <div class="checkbox">
+                  <label><span class="iconfont icon-sv-user"></span>
+                  南航培训部
+                  <input type="checkbox" value="6" /></label></div>
+                </li>
+              
+                <li>
+                <div class="checkbox">
+                  <label><span class="iconfont icon-sv-user"></span>
+                  南航客舱部
+                  <input type="checkbox" value="7" /></label></div>
+                </li>
+              
+          </ul>
+        </div>
+        <div class="result-area" id="resultArea" data-area="">
+        </div>
+        <div class="form-group tac">
+          <button type="button" class="btn btn-primary-c">确定</button>
+          <button type="button" class="btn btn-default-c" data-dismiss="modal">重置</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

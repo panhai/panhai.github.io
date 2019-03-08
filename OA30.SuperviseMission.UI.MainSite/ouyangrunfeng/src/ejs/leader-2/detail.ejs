@@ -1,0 +1,74 @@
+
+<%- include ../header2 %>
+		<div class="main">
+
+		<%
+	list = [
+		{label:'任务内容',title:'任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容任务内容'},
+		{label:'主管领导',title:'张三'},
+		{label:'协管领导',title:'李四'},
+		{label:'主办单位',title:'信息中心'},
+		{label:'协办单位',title:'南航党校'}
+	]
+%>
+<div class="clearfix detial-info">
+	<ul class="list-unstyled">
+		<li>
+			<div class="row">
+				<div class="col-lg-4">
+					<label>督查编号：</label>
+					<span>南航督办【2019】01号</span>
+				</div>
+				<div class="col-lg-8">
+					<label>文档ID：</label>
+					<span>20180910001</span>
+				</div>
+			</div>
+		</li>
+		<% list.forEach(function(item){ %>
+			<li>
+				<div class="row">
+					<label class="dib"><%= item.label %>：</label>
+					<span class="dib"><%= item.title %></span>
+				</div>
+			</li>
+		<% }) %>
+	</ul>
+</div>
+
+<%- include step %>
+
+		<div class="action-group">
+          <span>审批意见</span>
+          <div class="btn-group" data-toggle="buttons">
+			  <label class="btn active">
+			    <input type="radio" autocomplete="off" checked>同意
+			  </label>
+			  <label class="btn">
+			    <input type="radio" autocomplete="off">不同意
+			  </label>
+		  </div>
+          <span>(最多可输入200字)</span>
+        </div>
+        <div class="form-group">
+            <textarea class="form-control"></textarea>
+        </div>
+        <div class="form-group tac">
+            <button type="button" class="btn btn-primary-c">确认</button>
+        </div>
+        <div class="record">
+          <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#record1" aria-controls="record1" role="tab" data-toggle="tab">反馈记录</a></li>
+            <li role="presentation"><a href="#record2" aria-controls="record2" role="tab" data-toggle="tab">操作记录</a></li>
+          </ul>
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="record1">
+            </div>
+            <div role="tabpanel" class="tab-pane" id="record2">
+            </div>
+          </div>
+        </div>
+
+		</div>
+
+<%- include ../footer2 %>

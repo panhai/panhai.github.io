@@ -1,0 +1,40 @@
+<div class="feedback-box">
+	<% suggestion = [
+		{
+			title:'公司领导批示',
+			th:['处理人','处理人信息','时间','处理人意见','处理步骤','意见类型'],
+			content:[
+				['张三','南航办公厅','','已阅','拟稿','其他意见']
+			]
+		}
+	] %>
+	<% suggestion.forEach(function(value){ %>
+	<div class="feedback">
+		<table class="table table-bordered">
+			<thead>
+				<% value.th.forEach(function(item){ %>
+				<th><%=item%></th>
+				<% }) %>
+			</thead>
+			<tbody>
+			<% value.content.forEach(function(item){ %>
+				<tr>
+					<% item.forEach(function(val,index){ %>
+						<% if(index===2) { %>
+							<td>
+								2018-9-1 12:00送达<br/>
+								2018-9-3 9:00阅读<br/>
+								2018-10-11 17:00完成<br/>
+								耗时30天10时5分
+							</td>
+						<% }else{ %>
+							<td><%=val%></td>
+						<% } %>
+					<% }) %>
+				</tr>
+			<% }) %>
+			</tbody>
+		</table>
+	</div>
+	<% }) %>
+</div>

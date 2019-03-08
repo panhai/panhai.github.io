@@ -1,0 +1,42 @@
+<% var projects=
+	{title:'总经理办公会督查',list:[{fav:false,status:'【任务推进中】',title:'这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题',process:'70%'},{check:false,fav:false,status:'【任务推进中】',title:'这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题',process:'70%'},{check:false,fav:false,status:'【任务推进中】',title:'这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题',process:'70%'},{check:false,fav:false,status:'【任务推进中】',title:'这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题',process:'70%'},{check:false,fav:false,status:'【任务推进中】',title:'这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题',process:'70%'},{check:false,fav:false,status:'【任务推进中】',title:'这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题',process:'70%'},{check:false,fav:false,status:'【任务推进中】',title:'这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题',process:'70%'},{check:false,fav:false,status:'【任务推进中】',title:'这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题',process:'70%'},{check:false,fav:false,status:'【任务推进中】',title:'这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题这是测试的标题，这是测试的标题',process:'70%'}]}
+ %>
+
+<%- include header %>
+		
+		<div class="main">
+
+			<%- include search %>
+
+			<div class="list-part">
+
+		<div class="title">
+			<h3><%= projects.title %><b>(<span><%= projects.list.length %></span>)</b></h3>
+		</div>
+		<ul class="list-box list-unstyled" id="box-1">
+			<% projects.list.forEach(function(item, index){ %>
+			<li>
+				<a href="">
+					<% if(item.check){ %>
+					<input type="checkbox" <%= item.check ? 'checked' : '' %> />
+					<% } %>
+					<% if(item.fav){ %>
+						<i class="iconfont icon-sv-fav"></i>
+					<% } %>
+					<ins><%=item.status%></ins>
+					<span><%=item.title%></span>
+					<span class="t">2018-12-12 12:00</span>
+					<em><%=item.process%></em>
+				</a>
+			</li>
+			<% }) %>
+		</ul>
+		<div class="tar">
+			<%- include page %>
+		</div>
+	</div>
+		</div>
+	
+<%- include footer %>
+<%- include leaderModal %>
+<%- include companyModal %>

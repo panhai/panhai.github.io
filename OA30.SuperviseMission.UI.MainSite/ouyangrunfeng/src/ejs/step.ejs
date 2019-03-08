@@ -1,0 +1,63 @@
+<div class="step-box">
+	<% step = {
+		parent: {
+			title:'年度目标1',
+			info:'目标1目标1目标1目标1目标1目标1目标1目标1目标1目标1目标1目标1'
+		},
+		child: [
+			{
+				title:'措施1',
+				info:'措施1措施1措施1措施1措施1措施1措施1措施1措施1措施1措施1措施1',
+				company:'南航信息中心,南航飞行保障部',
+				time:'2018-6-20',
+				room:'信息中心管理研发处'
+			},
+			{
+				title:'措施2',
+				info:'措施2措施2措施2措施2措施2措施2措施2',
+				company:'南航信息中心,南航飞行保障部',
+				time:'2018-6-20',
+				room:'信息中心管理研发处'
+			},
+			{
+				title:'措施3',
+				info:'措施3措施3措施3',
+				company:'南航信息中心,南航飞行保障部',
+				time:'2018-6-20',
+				room:'信息中心管理研发处'
+			}
+		]
+	} %>
+	<div class="step-parent">
+		<div class="line"></div>
+		<h3 class="title"><%=step.parent.title%></h3>
+		<div class="info">
+			<p><%=step.parent.info%></p>
+			<span class="action">删除</span>
+		</div>
+	</div>
+	<% step.child.forEach(function(item){ %>
+	<div class="step-child">
+		<div class="line"></div>
+		<h3 class="title"><%=item.title%></h3>
+		<div class="info">
+			<p><%=item.info%></p>
+			<span class="action">删除</span>
+		</div>
+		<div class="info-grid">
+			<div class="grid">
+				<label>协办单位</label>
+				<span><%=item.company%></span>
+			</div>
+			<div class="grid">
+				<label>完成时间</label>
+				<span><%=item.time%></span>
+			</div>
+			<div class="grid">
+				<label>责任处室</label>
+				<span><%=item.room%></span>
+			</div>
+		</div>
+	</div>
+	<% }) %>
+</div>

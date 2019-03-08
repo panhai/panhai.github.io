@@ -1,0 +1,124 @@
+<%- include header %>
+	<div class="main">
+		<%- include breadcrumb %>
+			<%- include search2 %>
+		
+		<div class="table-page">
+			<% task = {
+				title:['序号','督办编号','重点工作任务','任务进度','主管领导','协管领导','主办单位','年度目标','状态','目标进度','措施流水号','措施','完成时间','措施进度','责任处室','子措施','子措施进度','责任人'],
+				list:[{
+					id:'1',
+					no:'南航集团督办2018',
+					task:'这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试这是测试',
+					process:'80%',
+					leader:'王苍顺',
+					leader2:'<span>张三</span><span>李四</span><span>王五</span><span>巴六</span>',
+					target:'制定《世界一流航空运输企业纲要》',
+					process2:'20%',
+					company:'战略规划投资部',
+					status:'任务进行中',
+				}],
+				step:[
+					{date:'2月7日',title:'制定实施方案',process:'10%',step:'1',process2:'20%',room:'',blame:''},
+					{date:'2月8日',title:'成立编制领导小组和办公室',process:'10%',step:'1',process2:'20%',room:'',blame:''},
+					{date:'2月27日',title:'工作小组',process:'10%',step:'1',process2:'20%',room:'',blame:''},
+					{date:'3月1日',title:'开展领导访谈',process:'10%',step:'1',process2:'20%',room:'',blame:''},
+					{date:'3月20日',title:'编写总体内容病统筹各工作编写战略重点',process:'10%',step:'1',process2:'20%',room:'',blame:''},
+					{date:'5月5日',title:'多轮修改并提交党组织、总经会审议',process:'10%',step:'1',process2:'20%',room:'',blame:''}
+					]
+			} %>
+			<table class="table table-bordered table-static-width">
+				<thead>
+					<% task.title.forEach(function(item){ %>
+						<th><%=item%></th>
+					<% })%>
+				</thead>
+				<tbody>
+					<% task.step.forEach(function(data,index) { %>
+						<tr>
+							<% if (index === 0) { %>
+								<% task.list.forEach(function(list) { %>
+									<td rowspan="10"><%=list.id%></td>
+									<td rowspan="10" style="width:140px;"><%=list.no%></td>
+									<td rowspan="10" style="width:180px;"><%=list.task%></td>
+									<td rowspan="10"><%=list.process%></td>
+									<td rowspan="10"><%=list.leader%></td>
+									<td rowspan="10"><%- list.leader2 %></td>
+									<td rowspan="10" style="width:110px;"><%=list.company%></td>
+									<td rowspan="10" style="width:180px;"><%=list.target%></td>
+									<td rowspan="10"><%=list.status%></td>
+									<td rowspan="10"><%=list.process2%></td>
+								<% }) %>
+							<% } %>
+							<td style="width:65px;"><%=index+1%></td>
+							<td><%=data.title%></td>
+							<td><%=data.date%></td>
+							<td><%=data.process%></td>
+							<td><%=data.room%></td>
+							<td><%=data.step%></td>
+							<td><%=data.process2%></td>
+							<td><%=data.blame%></td>
+						</tr>
+					<% })%>
+				</tbody>
+			</table>
+		</div>
+		<div class="tar">
+				<%- include page %>
+			</div>
+	</div>
+<%- include footer3 %>
+<script src="../Script/require.js"></script>
+<script>
+	require.config({
+		baseUrl:'../Script',
+	    paths: {
+	        jquery: 'jquery',
+	    },
+	    shim: {
+	        jquery: {
+	            exports: 'jquery'
+	        },
+	        bootstrap: {
+	            deps: ['jquery']
+	        }
+	    }
+	});
+	requirejs(['jquery','bootstrap'],function($){
+		$(document).on('click','#inputCompany',function(e){
+			$this = $(e.target)
+			$this.closest('.dropdown').find('.dropdown-menu li').show()
+		})
+		$(document).on('input propertychange','#inputCompany',function(e){
+			$this = $(e.target)
+			$this.closest('.dropdown').addClass('open')
+			$this.closest('.dropdown').find('.dropdown-menu input').each(function(){
+				var value = $(this).parent('label').text()
+				console.log(value.indexOf($this.val()))
+				if(value.indexOf($this.val()) > 0){
+					$(this).closest('li').show()
+				}else{
+					$(this).closest('li').hide()
+				}
+			})
+			if($this.val() === ''){
+				$this.closest('.dropdown').find('.dropdown-menu li').show()
+			}
+		})
+		$(document).on('change','.dropdown-menu input',function(e){
+			const event = $(e.target)
+			if(event.closest('.checkbox').hasClass('checkbox')){
+				let status = []
+				event.closest('.dropdown-menu').find('input').each(function(item){
+					const text = event.closest('label').text().trim()
+					if($(this).is(':checked')){
+						status.push($(this).closest('label').text().trim())
+					}
+				})
+				event.closest('.dropdown').find('.form-control').val(status.toString())
+			}else{
+				event.closest('.dropdown').find('.form-control').val(event.closest('label').text().trim())
+			}
+		})
+	})
+</script>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		
+		<div class="app">4545</div>
+		
+		<script src="js/jquery 1.9.1.js"></script>
+		<script type="text/javascript">
+			
+			$(function(){
+				
+				$.ajax({
+					type:"get",
+					url:"js/data.json",
+					dataType :"json",  //跨域这是写  jsonp 或者 在url后面写calback函数   "http://www.li.cc/test.php?callback=?"
+					async:true,
+					success:function(res,status,xhr){
+						$('.app').html(res.name)
+						console.log(res)
+					},
+					error:function(res){
+						alert(222)
+						console.log(res.responseText)
+					},
+					beforeSend:function(){
+						//提交之前做点事情
+						alert("准备提交")
+					},
+					complete:function(){
+						console.log("提交完成之后执行的回调函数，不管失败与否")
+					}
+				});
+				
+				
+//				$.getJSON('js/data.json',function(data){
+//					console.log(data)
+//				})
+				
+			})
+		</script>
+	</body>
+</html>

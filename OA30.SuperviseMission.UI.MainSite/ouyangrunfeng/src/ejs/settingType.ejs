@@ -1,0 +1,110 @@
+<%- include header %>
+	<div class="main">
+		<%- include breadcrumb %>
+			<%- include search2 %>
+			<div class="alert alert-success alert-top">
+				<span class="iconfont icon-sv-Success"></span>
+				创建成功
+			</div>
+			<div class="tar">
+				<a data-row="add" data-type="add" href="javascript:void(0)"><span class="iconfont icon-sv-add"></span>&nbsp;新增</a>
+			</div>
+			<div class="table-page">
+				<% task = {
+					title:['修改状态','意见类型ID','意见类型名称','是否有效'],
+					list:[
+						['删除','否','190812','审计部'],
+						['删除','否','190812','审计部'],
+						['删除','否','190812','审计部'],
+						['删除','否','190812','审计部'],
+						['删除','否','190812','审计部'],
+						['删除','否','190812','审计部'],
+						['删除','否','190812','审计部'],
+						['删除','否','190812','审计部']
+					]
+				} %>
+				<table class="table table-bordered">
+					<thead>
+						<% task.title.forEach(function(item){ %>
+							<th><%=item%></th>
+						<% })%>
+					</thead>
+					<tbody>
+						<% task.list.forEach(function(data) { %>
+							<tr>
+								<% data.forEach(function(list,index) { %>
+									<% if(index === 0){ %>
+										<td>
+											<div class="btn-group btn-group-sm" role="group">
+												<button type="button" class="btn btn-default edit" data-row="edit">编辑</button>
+												<button type="button" class="btn delete btn-default cancel" data-row="delete">删除</button>
+											</div>
+										</td>
+									<% }else{ %>
+										<td style="width:<%=100/data.length%>%">
+											<span>
+												<% if(index === 3){ %>
+													<select data-type="edit" class="form-control disabled" disabled>
+														<option value="1">是</option>
+														<option value="0">否</option>
+													</select>	
+												<% }else{  %>
+													<input disabled data-type="edit" class="disabled form-control" value="<%=list%>"
+												<% } %> 
+											</span>
+										</td>
+									<% } %>
+								<% })%>
+							</tr>
+						<% })%>
+					</tbody>
+				</table>
+				<div class="tar">
+					<%- include page %>
+				</div>
+			</div>
+	</div>
+<%- include footer %>
+<script>
+	require(['jquery','cs-table'],function($){
+		$('.table').csTable({
+			addBtn:['save','cancel'],
+			editBtn:['save','cancel'],
+			deleteBtn:['edit','delete'],
+			fields:[{
+				type:'text',
+				name:'name',
+				value:'1'
+			},{
+				type:'select',
+				template:'#option'
+			},{
+				type:'yes',
+				name:'name3',
+				value:'1'
+			}
+			]
+		})
+		$(document).on('row.save','[data-row^="save"]',function(e){
+			//$('.table').csTable('save')
+		})
+		$(document).on('row.edit','[data-row^="edit"]',function(e){
+			//$('.table').csTable('edit')
+		})
+		$(document).on('row.delete','[data-row^="delete"]',function(e){
+			console.log($(e.target).closest('tr'))
+			//$('.table').csTable('delete')
+		})
+		$(document).on('click.row.add','[data-row^="add"]',function(e){
+			$('.table').csTable('add')
+		})
+	})
+</script>
+
+<script id="option" type="text/x-template">
+	<select class="form-control">
+		<option>1</option>
+		<option>2</option>
+		<option>3</option>
+	</select>
+</script>

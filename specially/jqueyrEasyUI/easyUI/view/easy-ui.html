@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../themes/default/easyui.css">
+    <link rel="stylesheet" href="../themes/icon.css">
+    <title>dialog 练习</title>
+</head>
+
+<body>
+
+    <!-- <div class="easyui-dialog" style="width:400px;height:200px"
+            data-options="title:'弹框标题',collapsible:true,iconCls:'icon-ok',onOpen:function(){}">
+            dialog content.
+        </div> -->
+
+
+    <div class="box">
+        <form id="ff" method="post">
+            <div>
+                <label for="name">Name:</label>
+                <input class="easyui-validatebox" type="text" name="name" data-options="required:true" />
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input class="easyui-validatebox" type="text" name="email" data-options="validType:'email'" />
+            </div>
+            <div>
+                <input type="submit" value="提交">
+            </div>
+        </form>
+
+    </div>
+
+    <script src="../jquery.min.js"></script>
+    <script src="../jquery.easyui.min.js"></script>
+    <script>
+        $(function () {
+            // js 加载方式
+            $('.box').dialog({
+                title: '标题',
+                width: 400,
+                height: 250,
+                modal: true,
+                collapsible: true, //是否折叠
+                resizable: true,
+                //toolbar : '#tt',
+                toolbar: [{
+                    text: '编辑',
+                    iconCls: 'icon-edit',
+                    handler: function () {
+                        alert('edit');
+                    },
+                }, {
+                    text: '编辑',
+                    iconCls: 'icon-edit',
+                    handler: function () {
+                        alert('edit');
+                    },
+                }],
+                //buttons : '#bb',
+                buttons: [{
+                    text: '保存',
+                    iconCls: 'icon-ok',
+                    handler: function () {
+                        alert('save');
+                        //这里一般ajax post 保存数据
+                    }
+                }, {
+                    text: '关闭',
+                    iconCls: 'icon-ok',
+                    handler: function () {
+                        //    $('.box').window('close')
+                        console.log($('.box').dialog('dialog'))
+                    }
+                }],
+                onOpen: function () { //打开之前触发   事件完全继承自面板
+                    // alert(7777)
+                },
+                onClose: function () {
+                    alert('关闭了')
+                },
+                onMove: function (left, top) { //移动触发
+                    console.log(left, top)
+                },
+                onCollapse: function () {
+                    alert('面板折叠之后触发')
+                },
+                onExpand: function () {
+                    alert('面盘展开之后触发')
+                },
+                onResize: function (width, height) { //改变大小触发
+                    console.log(width, height)
+                }
+            })
+
+
+            console.log($('.box').dialog('dialog'))
+
+        })
+    </script>
+</body>
+
+</html>
