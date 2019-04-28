@@ -1,0 +1,102 @@
+img{
+	display: block;
+}
+.app{
+	margin: 0 auto;
+}
+.mui_card{
+	font-size: 0;
+}
+.mui_card>div{
+	width: 50%;
+	display: inline-block;
+	font-size: 0.6rem;
+}
+.main_form{
+	padding: 60px 30px 30px 30px;
+	color: #222222;
+	background-color: #fff;
+}
+.main_form>p{
+	font-size: 0.7rem;
+	color: #222222;
+	padding-top: 20px;
+}
+.mui-input-row{
+	margin-top: 25px;
+	margin-bottom: 15px;
+}
+.mui-input-row>label{
+	vertical-align: middle;
+	display: inline-block;
+	font-weight: 400;
+}
+.mui-checkbox input[type=checkbox]:before, .mui-radio input[type=radio]:before{
+	font-size: 0.9rem;
+}
+.mui-input-row label{
+	padding: 6px 15px !important;
+}
+.mui-input-row input{
+
+}
+.mui-input-group .mui-input-row:after,.mui-input-group:before,.mui-input-group:after{
+	background: transparent !important;
+}
+
+.mui-checkbox.mui-left label, .mui-radio.mui-left label{
+	padding-left: 70px !important;
+	font-size: 0.75++rem !important;
+}
+.personName,.phone{
+	font-size: 0.6rem;
+	border: 0 !important;
+	height: 0.7rem;
+	padding: 4px 0;
+	border-bottom: 1px solid #333333 !important;
+}
+
+.item{
+	margin-bottom: 0.67rem;
+	line-height: 44px;
+}
+item input{
+	border: 0 !important;
+	border: none !important;
+
+}
+.item>div.p-cheack{
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	border-radius: 3px;
+	border:1px solid #ccc;
+	position: relative;
+	}
+.item>div.cur{
+	background: url(../img/06.png) no-repeat 50% 50%;
+	background-size: 100%;
+	border:1px solid transparent;
+	
+}
+.item input.check{
+	display: inline-block;
+	width: 44px;
+	height: 44px;
+	border-radius: 3px;
+	border:1px solid #ccc;
+	position: relative;
+	background-image: url(../img/06.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.getResults{
+	background-color: #0062CC;
+	color:#FFFFFF;
+	width: 90%;
+	line-height: 0.8rem;
+	border-radius: 44px;
+	font-size: 0.6rem;
+	letter-spacing: 3px;
+	font-weight: 400;
+}

@@ -1,0 +1,41 @@
+html {
+	font-size: 100px;
+}
+
+body,
+html {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+body {}
+
+.clearfix:before,
+.clearfix:after {
+
+	content: "";
+	display: block;
+	clear: both;
+}
+.clearfix {
+	zoom: 1;
+}
+.None{
+	display: none;
+}
+.Show{
+	display: block;
+}
+.motal{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000004;
+	opacity: 0.3;
+	z-index: 5;
+
+}
