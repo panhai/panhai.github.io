@@ -1,14 +1,37 @@
-<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"><title>Vue.jsDemo</title><link rel=stylesheet type=text/css href=static/fonts/iconfont.css><link rel=icon href=./static/img/logo.png type=image/x-icon><script src=http://cdn.bootcss.com/highlight.js/8.0/highlight.min.js></script><link href=./static/css/app.7c0b64daf31bbd2c2abb728ffbf23ac2.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript>//移动端自适应
-    	var maxWidth = 640;
-    	var htmlFontsize = 100;
-    	var standardSize = 375;
-    	
-    	window.onresize = setFontSize;//屏膜改变改变字体大小
-    	
-    	setFontSize();//运行设置字体大小函数
-    	
-    	function setFontSize() {
-	    	var windowInnerWidth = window.innerWidth;
-    		windowInnerWidth = (windowInnerWidth > maxWidth) ? maxWidth : windowInnerWidth;
-    		document.documentElement.style.fontSize = ((windowInnerWidth / standardSize) * htmlFontsize) + 'px';
-    	}</script><script type=text/javascript src=./static/js/manifest.47b0cb2aea2c7af727e5.js></script><script type=text/javascript src=./static/js/vendor.7824241c134fd0e8e60f.js></script><script type=text/javascript src=./static/js/app.6ac2170bb3ab33b3ba18.js></script></body></html>
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset=utf-8>
+		<meta name=viewport content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+		<title>Vue.jsDemo</title>
+		<link rel=stylesheet type=text/css href=static/fonts/iconfont.css>
+		<link rel=icon href=./static/img/logo.png type=image/x-icon>
+		<script src=http://cdn.bootcss.com/highlight.js/8.0/highlight.min.js></script>
+		<link href=./static/css/app.7c0b64daf31bbd2c2abb728ffbf23ac2.css rel=stylesheet>
+	</head>
+
+	<body>
+		<div id=app></div>
+		<script type=text/javascript>
+			//移动端自适应
+			var maxWidth = 640;
+			var htmlFontsize = 100;
+			var standardSize = 375;
+
+			window.onresize = setFontSize; //屏膜改变改变字体大小
+
+			setFontSize(); //运行设置字体大小函数
+
+			function setFontSize() {
+				var windowInnerWidth = window.innerWidth;
+				windowInnerWidth = (windowInnerWidth > maxWidth) ? maxWidth : windowInnerWidth;
+				document.documentElement.style.fontSize = ((windowInnerWidth / standardSize) * htmlFontsize) + 'px';
+			}
+		</script>
+		<script type=text/javascript src=./static/js/manifest.47b0cb2aea2c7af727e5.js></script>
+		<script type=text/javascript src=./static/js/vendor.7824241c134fd0e8e60f.js></script>
+		<script type=text/javascript src=./static/js/app.6ac2170bb3ab33b3ba18.js></script>
+	</body>
+
+</html>

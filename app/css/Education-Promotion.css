@@ -1,6 +1,9 @@
 img{
 	display: block;
 }
+.slider-item img{
+	width: 100%;
+}
 .app{
 	margin: 0 auto;
 }
@@ -10,7 +13,7 @@ img{
 .mui_card>div{
 	width: 50%;
 	display: inline-block;
-	font-size: 0.6rem;
+	font-size: 0.3rem;
 }
 .main_form{
 	padding: 60px 30px 30px 30px;
@@ -18,13 +21,13 @@ img{
 	background-color: #fff;
 }
 .main_form>p{
-	font-size: 0.7rem;
+	font-size: 0.3rem;
 	color: #222222;
-	padding-top: 20px;
+	padding-top: 0.15rem;
 }
 .mui-input-row{
-	margin-top: 25px;
-	margin-bottom: 15px;
+	margin-top: 0.1rem;
+	margin-bottom:  0.01rem;
 }
 .mui-input-row>label{
 	vertical-align: middle;
@@ -32,10 +35,10 @@ img{
 	font-weight: 400;
 }
 .mui-checkbox input[type=checkbox]:before, .mui-radio input[type=radio]:before{
-	font-size: 0.9rem;
+	font-size: 0.3rem;
 }
 .mui-input-row label{
-	padding: 6px 15px !important;
+	/*padding: 10px 15px !important;*/
 }
 .mui-input-row input{
 
@@ -45,58 +48,58 @@ img{
 }
 
 .mui-checkbox.mui-left label, .mui-radio.mui-left label{
-	padding-left: 70px !important;
-	font-size: 0.75++rem !important;
+	/*padding-left: 56px !important;*/
+	font-size: 0.3rem !important;
 }
 .personName,.phone{
-	font-size: 0.6rem;
+	font-size: 0.3rem;
 	border: 0 !important;
-	height: 0.7rem;
+	height: 0.3rem;
 	padding: 4px 0;
 	border-bottom: 1px solid #333333 !important;
 }
 
 .item{
 	margin-bottom: 0.67rem;
-	line-height: 44px;
+	line-height: 0.32rem;
 }
-item input{
+.item input{
 	border: 0 !important;
 	border: none !important;
 
 }
 .item>div.p-cheack{
 	display: inline-block;
-	width: 32px;
-	height: 32px;
+	width: 0.3rem;
+	height: 30px;
 	border-radius: 3px;
 	border:1px solid #ccc;
+	padding: 0;
 	position: relative;
-	}
+}
+	
 .item>div.cur{
 	background: url(../img/06.png) no-repeat 50% 50%;
 	background-size: 100%;
 	border:1px solid transparent;
-	
 }
 .item input.check{
 	display: inline-block;
-	width: 44px;
-	height: 44px;
+	width: 100%;
+	height: 100%;
 	border-radius: 3px;
+	background: url(../img/06.png) no-repeat 50% 50%;
 	border:1px solid #ccc;
 	position: relative;
-	background-image: url(../img/06.png);
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
 }
+
 .getResults{
 	background-color: #0062CC;
 	color:#FFFFFF;
 	width: 90%;
 	line-height: 0.8rem;
 	border-radius: 44px;
-	font-size: 0.6rem;
+	font-size: 0.3rem;
 	letter-spacing: 3px;
 	font-weight: 400;
 }
