@@ -18,9 +18,7 @@ body {
   clear: both;
   height: 0;
 }
-.clearfix {
-  display: inline-table;
-}
+
 .app {
   padding-bottom: 40px;
   padding-top: 20px;
@@ -43,11 +41,13 @@ body {
 }
 .app .item {
   margin-top: 15px;
+  padding: 10px 0px 30px 0;
 }
 .app .item h4 {
   font-size: 14px;
   padding: 5px 0 10px 0;
   line-height: 28px;
+  margin-top: 10px;
 }
 .app .item img {
   width: 90%;
@@ -78,4 +78,7 @@ body {
 }
 .layui-block > div i {
   float: left;
+}
+.item .layui-block:last-child > div{
+  margin-bottom: 40px !important;
 }
