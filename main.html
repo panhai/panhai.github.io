@@ -10,7 +10,7 @@
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 		<!--<link rel="stylesheet" type="text/css" href="css/style.css" />-->
 		<link rel="stylesheet" type="text/css" href="miaov_style.css" />
-
+    
 		<script type="text/javascript" src="miaov.js"></script>
 		<!-- HTML5 Shiv 和 Respond.js 用于让 IE8 支持 HTML5元素和媒体查询 -->
 		<!-- 注意： 如果通过 file://  引入 Respond.js 文件，则该文件无法起效果 -->
@@ -19,7 +19,10 @@
          <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
       <![endif]-->
 		<!--444-->
-
+    
+    
+    
+    
 		<style type="text/css">
 			html {
 				/*font-size: 100px;*/
@@ -151,18 +154,40 @@
 				}
 			}
 		</style>
+		
+		<script type="text/javascript">
+      function goPAGE() {
+        if((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
+          var link = document.createElement('link');
+          link.href = 'index_moble.css';
+          link.rel = 'stylesheet';
+          link.type = 'text/css';
+          document.getElementsByTagName('head').item(0).appendChild(link);
+          
+        } else {
+          var link = document.createElement('link');
+          link.href = 'css/index.css';
+          link.rel = 'stylesheet';
+          link.type = 'text/css';
+//        document.getElementsByTagName('head').item(0).appendChild(link);
+          console.log("pc")
+        }
+      }
+      
+      goPAGE();
+    </script>
 	</head>
 
 	<body>
 		<!--雪花飘香-->
 		
-		<div id="leafContainer" class="container-fluid">
-			<div class="row" style="padding: 20px;text-align: center;width: 100%;">
+		<div id="leafContainer" class="container">
+			<div class="row row_m" style="padding: 20px;text-align: center;width: 100%;">
 				<div class="col-xs-12">
 					<h1 class="text-primary" style="text-align: center;color: brown;">我的项目管理</h1>
 				</div>
 			</div>
-			<div class="row" style="padding-top: 100px;">
+			<div class="row row_m" style="padding-top: 100px;">
 				<div class="col-xs-4    col-sm-4">
 					<a href="JD/project2/JDindex.html">京东</a>
 				</div>
@@ -229,6 +254,15 @@
 				<div class="col-xs-4    col-sm-4">
 					<a href='webapp/mobile/views/model-test.html'>系统集成管理工程师模拟试题</a>
 				</div>
+				<div class="col-xs-4    col-sm-4">
+          <a href='https://bolinjy.cn/'>博霖教育</a>
+        </div>
+        <div class="col-xs-4    col-sm-4">
+          <a href='admin/views/login/login .html'>客户系统</a>
+        </div>
+        <div class="col-xs-4    col-sm-4">
+          <a href='https://www.bolinjy.cn/user/login?username=bolin&password=bolin'>内容管理系统</a>
+        </div>
 			</div>
 		</div>
 		
@@ -251,9 +285,9 @@
 					document.documentElement.style.fontSize = (window.innerWidth / designWidth) * rem2px + 'px';
 				}
 			};
-
+      
 			/*页面刷新时执行函数*/
-			//			change();
+//						change();
 
 			/*屏幕尺寸改变时执行*/
 			window.onresize = function() {
